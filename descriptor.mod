@@ -1,5 +1,5 @@
 name="Pride and Fall: Last Days of Poland"
-path="mod/lastdaysofpolan"
+path="mod/thelastdaysofpoland"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
 replace_path="common/ai_peace"
