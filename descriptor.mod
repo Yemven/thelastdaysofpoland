@@ -20,4 +20,5 @@ tags={
 	"Map"
 	"Utilities"
 }
+picture="thumbnail.png"
 supported_version="1.10.*"
