@@ -1,0 +1,29 @@
+state={
+	id=731
+	name="STATE_731"
+	provinces={
+		1013 2708 
+	}
+	manpower = 13763
+	
+	state_category = rural
+	
+	buildings_max_level_factor = 1.000
+		
+	history = {
+		owner = SOS
+		victory_points = { 2708 5 }
+		victory_points = { 1013 5 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 0
+			anti_air_building = 0
+			air_base = 0
+		}
+		add_core_of = SOS
+
+
+	}
+}

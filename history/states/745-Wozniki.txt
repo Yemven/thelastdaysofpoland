@@ -1,0 +1,27 @@
+state={
+	id=745
+	name="STATE_745"
+	provinces={
+		690 3965 3122 
+	}
+	manpower = 11468
+	
+	state_category = rural
+	
+	buildings_max_level_factor = 1.000
+		
+	history = {
+		owner = JWK
+		victory_points = { 3965 5 }
+		victory_points = { 690 1 }
+		victory_points = { 3122 1 }
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = JWK
+
+
+	}
+}

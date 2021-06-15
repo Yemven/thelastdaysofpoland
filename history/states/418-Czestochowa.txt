@@ -1,0 +1,30 @@
+
+state={
+	id=418
+	name="STATE_418"
+	provinces={
+		2884 3952 3922 2474
+	}
+	manpower = 120675
+	state_category = large_city
+	
+	buildings_max_level_factor = 1.000
+		
+	history={
+		owner = CCH
+		victory_points = { 2884 5 }
+		victory_points = { 3952 5 }
+		victory_points = { 3922 20 }
+		victory_points = { 2474 5 }
+
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 2
+			anti_air_building = 0
+		}
+		add_core_of = CCH
+
+
+	}
+}

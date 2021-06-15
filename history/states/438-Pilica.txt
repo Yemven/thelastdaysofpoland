@@ -1,0 +1,31 @@
+
+state={
+	id=438
+	name="STATE_438"
+	provinces={
+		982 1422 3240 
+	}
+	manpower = 21468
+	
+	state_category = rural
+	
+	buildings_max_level_factor = 1.000
+		
+	history={
+		owner = ZAW
+		victory_points = { 3240 1 }
+		victory_points = { 982 1 }
+		victory_points = { 1422 5 }
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 0
+			anti_air_building = 0
+			air_base = 0
+		}
+		add_core_of = ZAW
+
+
+	}
+}

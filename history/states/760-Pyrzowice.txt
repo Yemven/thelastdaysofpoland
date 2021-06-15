@@ -1,0 +1,25 @@
+state={
+	id=760
+	name="STATE_760"
+	provinces={
+		3324 
+	}
+	manpower = 4968
+	
+	state_category = rural
+	
+	buildings_max_level_factor = 1.000
+		
+	history={
+		owner = SOS
+		victory_points = { 3324 10 }
+
+		buildings = {
+			infrastructure = 6
+			air_base = 7
+		}
+		add_core_of = SOS
+
+
+	}
+}

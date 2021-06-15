@@ -1,0 +1,32 @@
+state={
+	id=471
+	name="STATE_471"
+	provinces={
+		986 1921 2873 4023 2935 
+	}
+	manpower = 170186
+	
+	state_category = large_city
+	
+	buildings_max_level_factor = 1.000
+		
+	history={
+		owner = GLI
+		victory_points = { 4023 5 }
+		victory_points = { 986 5 }
+		victory_points = { 1921 5 }
+		victory_points = { 2873 5 }
+		victory_points = { 2935 30 }
+
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 3
+			anti_air_building = 0
+			air_base = 2
+		}
+		add_core_of = GLI
+
+
+	}
+}

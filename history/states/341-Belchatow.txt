@@ -1,0 +1,31 @@
+
+state={
+	id=341
+	name="STATE_341"
+
+	history={
+		owner = BBW
+		victory_points = {
+			509 30 
+		}
+		victory_points = {
+		    967 20 }
+		victory_points = { 3487 5 }
+		add_core_of = BBW
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		509 967 2132 2243 2707 3487 
+	}
+	manpower=84928
+	buildings_max_level_factor=1.000
+	state_category=city
+}

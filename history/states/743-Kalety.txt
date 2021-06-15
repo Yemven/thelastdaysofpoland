@@ -1,0 +1,33 @@
+
+state={
+	id=743
+	name="STATE_743"
+
+	history={
+		owner = GLI
+		victory_points = {
+			2383 5 
+		}
+		victory_points = {
+			1747 5 
+		}
+		victory_points = { 3987 5 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+			anti_air_building = 0
+			air_base = 0
+
+		}
+		add_core_of = GLI
+
+	}
+
+	provinces={
+		1747 2383 3987 
+	}
+	manpower=31221
+	buildings_max_level_factor=1.000
+	state_category=town
+}

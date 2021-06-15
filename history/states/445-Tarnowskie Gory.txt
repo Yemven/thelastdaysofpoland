@@ -1,0 +1,27 @@
+
+state={
+	id=445
+	name="STATE_445"
+	provinces={
+		3986 
+	}
+	manpower = 59578
+	
+	state_category = city
+	
+	buildings_max_level_factor = 1.000
+		
+	history={
+		owner = GLI
+		victory_points = { 3986 15 }
+
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = GLI
+
+
+	}
+}

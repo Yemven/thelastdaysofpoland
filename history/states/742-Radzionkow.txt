@@ -1,0 +1,28 @@
+state={
+	id=742
+	name="STATE_742"
+	provinces={
+		7447 
+	}
+	manpower = 15873
+	
+	state_category = town
+	
+	buildings_max_level_factor = 1.000
+		
+	history = {
+		owner = GLI
+		victory_points = { 7447 10 }
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			anti_air_building = 0
+			air_base = 0
+		}
+		add_core_of = GLI
+
+
+	}
+}

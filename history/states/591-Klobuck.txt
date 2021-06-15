@@ -1,0 +1,27 @@
+state={
+	id=591
+	name="STATE_591"
+	provinces={
+		981 3441
+	}
+	manpower = 25788
+	
+	state_category = town
+	
+	buildings_max_level_factor = 1.000
+		
+	history = {
+		owner = BRZ
+		victory_points = { 3441 10 }
+		victory_points = { 981 1 }
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = BRZ
+
+
+	}
+}

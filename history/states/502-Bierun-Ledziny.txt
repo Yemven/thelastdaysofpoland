@@ -1,0 +1,35 @@
+
+state={
+	id=502
+	name="STATE_502"
+
+	history={
+		owner = JAW
+		victory_points = {
+			4049 5 
+		}
+		victory_points = {
+			4046 5 
+		}
+		victory_points = {
+			4040 5 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 0
+			industrial_complex = 1
+			anti_air_building = 0
+			air_base = 0
+
+		}
+		add_core_of = JAW
+
+	}
+
+	provinces={
+		4040 4046 4049 
+	}
+	manpower=27523
+	buildings_max_level_factor=1.000
+	state_category=town
+}

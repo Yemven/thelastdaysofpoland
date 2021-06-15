@@ -1,0 +1,30 @@
+state={
+	id=490
+	name="STATE_490"
+	provinces={
+		1967 2966 2970 3456 4035 4047 4030
+	}
+	manpower = 96756
+	
+	state_category = large_town
+	
+	buildings_max_level_factor = 1.000
+		
+	history={
+		owner = JSW
+		victory_points = { 3456 10 }
+		victory_points = { 2970 5 }
+		victory_points = { 1967 5 }
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			anti_air_building = 0
+			air_base = 0
+		}
+		add_core_of = JSW
+
+
+	}
+}

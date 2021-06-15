@@ -1,0 +1,26 @@
+state={
+	id=736
+	name="STATE_736"
+	provinces={
+		4010 
+	}
+	manpower = 9541
+	
+	state_category = rural
+	
+	buildings_max_level_factor = 1.000
+		
+	history = {
+		owner = DGR
+		victory_points = { 4010 5 }
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			fuel_silo = 1
+		}
+		add_core_of = DGR
+
+
+	}
+}

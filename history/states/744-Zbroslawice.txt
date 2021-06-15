@@ -1,0 +1,29 @@
+state={
+	id=744
+	name="STATE_744"
+	provinces={
+		228 3998 
+	}
+	manpower = 25112
+	
+	state_category = rural
+	
+	buildings_max_level_factor = 1.000
+		
+	history = {
+		owner = GLI
+		victory_points = { 3998 5 }
+		victory_points = { 228 5 }
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+			anti_air_building = 0
+			air_base = 0
+		}
+		add_core_of = GLI
+
+
+	}
+}

@@ -1,0 +1,61 @@
+﻿capital = 53
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+set_politics = {
+	ruling_party = freemarketism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 0
+	squattism = 0
+	socialdemocrature = 0
+	euroliberalism = 0
+	freemarketism = 60
+	paternal_conservatism = 0
+	autocracy = 0
+	corporativism = 0
+	neonationalism = 30
+	reactionary = 10
+	postpolonism = 0
+}
+
+	
+create_country_leader = {
+	name = "Mariusz Max Kolonko"
+	desc = ""
+	picture = "gfx/leaders/USP/USP_Kolonko1.dds"
+	ideology = freemarketism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nha Kha Na Pe"
+	desc = ""
+	picture = "gfx/leaders/USP/USP_Nakanape1.dds"
+	ideology = reactionary_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wojciech Cejrowski"
+	desc = ""
+	picture = "gfx/leaders/USP/USP_Cejrowski1.dds"
+	ideology = neonationalism_subtype
+	traits = {
+		#
+	}
+}

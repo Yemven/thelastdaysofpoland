@@ -1,0 +1,25 @@
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		382 
+	}
+	manpower=41946
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	
+		history={
+		owner = KAT
+		victory_points = {
+			382 10 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 5
+		}
+		add_core_of = KAT
+
+	}
+}

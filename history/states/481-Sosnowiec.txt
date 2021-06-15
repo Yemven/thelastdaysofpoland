@@ -1,0 +1,28 @@
+state={
+	id=481
+	name="STATE_481"
+	provinces={
+		1357 2714 4019 
+	}
+	manpower = 181492
+	
+	state_category = large_city
+	
+	buildings_max_level_factor = 1.000
+		
+	history={
+		owner = SOS
+		victory_points = { 1357 30 }
+		victory_points = { 4019 10 }
+		victory_points = { 2714 5 }
+
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4
+		}
+		add_core_of = SOS
+
+
+	}
+}

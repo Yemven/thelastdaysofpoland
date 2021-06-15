@@ -1,14 +1,10 @@
+
 state={
 	id=238
 	name="STATE_238"
 	provinces={
-		3612 6384 6768 8345 
+		624 2980 3339 
 	}
-	manpower=0
+	manpower = 1   state_category = city
 	buildings_max_level_factor=1.000
-	state_category = rural
-	history = {
-		add_core_of = EWS
-		owner = EWS
-	}
 }

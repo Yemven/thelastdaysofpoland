@@ -1,0 +1,34 @@
+
+state={
+	id=453
+	name="STATE_453"
+
+	history={
+		owner = SOS
+		victory_points = {
+			4006 20 
+		}
+		victory_points = {
+			3499 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 3
+			4006 = {
+				bunker = 2
+
+			}
+
+		}
+		add_core_of = SOS
+
+	}
+
+	provinces={
+		4006 
+	}
+	manpower=68089
+	buildings_max_level_factor=1.000
+	state_category=city
+}

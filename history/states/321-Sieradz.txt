@@ -1,0 +1,21 @@
+
+state={
+	id=321
+	name="STATE_321"
+	provinces={
+		437 641 2175 3848 
+	}
+	manpower = 54627   state_category = large_town
+	buildings_max_level_factor=1.000
+		history = {
+		owner = ZHP
+		victory_points = { 641 30 }
+		victory_points = { 2175 15 }
+		add_core_of = ZHP
+	buildings = {
+	infrastructure = 6
+	industrial_complex = 2
+	arms_factory= 0
+	air_base = 1 }
+	}
+}

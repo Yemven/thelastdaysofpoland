@@ -1,0 +1,29 @@
+state={
+	id=470
+	name="STATE_470"
+	provinces={
+		2938 4020 3995 
+	}
+	manpower = 159691
+	
+	state_category = large_city
+	
+	buildings_max_level_factor = 1.000
+		
+	history={
+		owner = RAS
+		victory_points = { 2938 5 }
+		victory_points = { 4020 20 }
+		victory_points = { 3995 5 }
+
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			anti_air_building = 1
+		}
+		add_core_of = RAS
+
+
+	}
+}

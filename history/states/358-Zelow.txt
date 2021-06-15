@@ -1,0 +1,29 @@
+
+state={
+	id=358
+	name="STATE_358"
+
+	history={
+		owner = BBW
+		victory_points = {
+			2397 1
+		}
+		victory_points = { 3405 10 }
+		victory_points = { 3485 1 }
+		victory_points = { 3869 1 }
+		add_core_of = BBW
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		2397 3405 3485 3869 
+	}
+	manpower=23927
+	buildings_max_level_factor=1.000
+	state_category=town
+}

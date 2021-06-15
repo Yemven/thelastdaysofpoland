@@ -1,0 +1,61 @@
+﻿capital = 82
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+set_politics = {
+	ruling_party = neonationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 0
+	squattism = 0
+	socialdemocrature = 0
+	euroliberalism = 0
+	freemarketism = 0
+	paternal_conservatism = 0
+	autocracy = 0
+	corporativism = 0
+	neonationalism = 100
+	reactionary = 0
+	postpolonism = 0
+}
+
+	
+create_country_leader = {
+	name = "Aleksander Jabłonowski"
+	desc = ""
+	picture = "gfx/leaders/JAS/JAS_Jablonowski1.dds"
+	ideology = neonationalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Maciej Poręba"
+	desc = ""
+	picture = "gfx/leaders/JAS/JAS_Poreba1.dds"
+	ideology = paternal_conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Biały Jaszczur"
+	desc = ""
+	picture = "gfx/leaders/JAS/JAS_JablonowskiPP.dds"
+	ideology = postpolonism_subtype
+	traits = {
+		#
+	}
+}
