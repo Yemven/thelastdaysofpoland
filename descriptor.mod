@@ -1,4 +1,4 @@
-name="Pride and Fall: Last Days of Poland"
+name="Pride and Fall: The Last Days of Poland"
 path="mod/thelastdaysofpoland"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
@@ -33,4 +33,5 @@ tags={
 	"Map"
 	"Utilities"
 }
+picture="thumbnail.png"
 supported_version="1.10.*"
