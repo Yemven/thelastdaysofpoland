@@ -1,0 +1,1014 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = holownia_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = WML
+		}
+	}
+	deafult = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = WML_the_beginning_of_the_dialogue
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 13
+		y = 0
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = WML_election_of_vice_president
+		relative_position_id = WML_the_beginning_of_the_dialogue
+		prerequisite = { focus = WML_the_beginning_of_the_dialogue }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_incomplete_compromise
+		relative_position_id = WML_election_of_vice_president
+		prerequisite = { focus = WML_election_of_vice_president }
+		mutually_exclusive = { focus = WML_total_dialogue }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -8
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_industrial_lodz
+		relative_position_id = WML_incomplete_compromise
+		prerequisite = { focus = WML_incomplete_compromise }
+		mutually_exclusive = { focus = WML_forest_lodz }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_forest_lodz
+		relative_position_id = WML_incomplete_compromise
+		prerequisite = { focus = WML_incomplete_compromise }
+		mutually_exclusive = { focus = WML_industrial_lodz }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_lodz_industry
+		relative_position_id = WML_industrial_lodz
+		prerequisite = { focus = WML_industrial_lodz }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_renovation_of_lasek_airport
+		relative_position_id = WML_lodz_industry
+		prerequisite = { focus = WML_lodz_industry }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_state_positions_for_the_power_plant_staff
+		relative_position_id = WML_renovation_of_lasek_airport
+		prerequisite = { focus = WML_renovation_of_lasek_airport }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_mining_in_lodz
+		relative_position_id = WML_state_positions_for_the_power_plant_staff
+		prerequisite = { focus = WML_state_positions_for_the_power_plant_staff }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_construction_of_parks
+		relative_position_id = WML_forest_lodz
+		prerequisite = { focus = WML_forest_lodz }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_scout_commandos
+		relative_position_id = WML_construction_of_parks
+		prerequisite = { focus = WML_construction_of_parks }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_spartan_standards
+		relative_position_id = WML_scout_commandos
+		prerequisite = { focus = WML_scout_commandos }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_lily_agents
+		relative_position_id = WML_spartan_standards
+		prerequisite = { focus = WML_spartan_standards }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_homeland_science_virtue
+		relative_position_id = WML_incomplete_compromise
+		prerequisite = { focus = WML_incomplete_compromise }
+		mutually_exclusive = { focus = WML_progressive_arcadia }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_progressive_arcadia
+		relative_position_id = WML_incomplete_compromise
+		prerequisite = { focus = WML_incomplete_compromise }
+		mutually_exclusive = { focus = WML_homeland_science_virtue }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 6
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_primacy_of_the_church
+		relative_position_id = WML_homeland_science_virtue
+		prerequisite = { focus = WML_homeland_science_virtue }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_new_crusaders
+		relative_position_id = WML_primacy_of_the_church
+		prerequisite = { focus = WML_primacy_of_the_church }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_patriotic_upbringing
+		relative_position_id = WML_new_crusaders
+		prerequisite = { focus = WML_new_crusaders }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_limiting_extremists
+		relative_position_id = WML_patriotic_upbringing
+		prerequisite = { focus = WML_patriotic_upbringing }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_ignacy_moscicki_potions_laboratory
+		relative_position_id = WML_progressive_arcadia
+		prerequisite = { focus = WML_progressive_arcadia }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_rights_of_sexual_minorities
+		relative_position_id = WML_ignacy_moscicki_potions_laboratory
+		prerequisite = { focus = WML_ignacy_moscicki_potions_laboratory }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_witcher_training
+		relative_position_id = WML_rights_of_sexual_minorities
+		prerequisite = { focus = WML_rights_of_sexual_minorities }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_support_of_landowners
+		relative_position_id = WML_witcher_training
+		prerequisite = { focus = WML_witcher_training }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_fairer_lodz
+		relative_position_id = WML_incomplete_compromise
+		prerequisite = { focus = WML_incomplete_compromise }
+		mutually_exclusive = { focus = WML_the_primacy_of_entrepreneurs }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -6
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_the_primacy_of_entrepreneurs
+		relative_position_id = WML_incomplete_compromise
+		prerequisite = { focus = WML_incomplete_compromise }
+		mutually_exclusive = { focus = WML_fairer_lodz }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_the_rights_of_religious_minorities
+		relative_position_id = WML_fairer_lodz
+		prerequisite = { focus = WML_fairer_lodz }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_primacy_of_trade_unions
+		relative_position_id = WML_the_rights_of_religious_minorities
+		prerequisite = { focus = WML_the_rights_of_religious_minorities }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_co_-_financing_of_sports
+		relative_position_id = WML_primacy_of_trade_unions
+		prerequisite = { focus = WML_primacy_of_trade_unions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_defenders_of_faith
+		relative_position_id = WML_co_-_financing_of_sports
+		prerequisite = { focus = WML_co_-_financing_of_sports }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_preferential_government_contracts
+		relative_position_id = WML_the_primacy_of_entrepreneurs
+		prerequisite = { focus = WML_the_primacy_of_entrepreneurs }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_tax_breaks
+		relative_position_id = WML_preferential_government_contracts
+		prerequisite = { focus = WML_preferential_government_contracts }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+		focus = {
+		id = WML_graves_of_an_unknown_soldier
+		relative_position_id = WML_tax_breaks
+		prerequisite = { focus = WML_tax_breaks }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_private_security_agencies
+		relative_position_id = WML_graves_of_an_unknown_soldier
+		prerequisite = { focus = WML_graves_of_an_unknown_soldier }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_total_dialogue
+		relative_position_id = WML_election_of_vice_president
+		prerequisite = { focus = WML_election_of_vice_president }
+		mutually_exclusive = { focus = WML_incomplete_compromise }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_system
+		relative_position_id = WML_total_dialogue
+		prerequisite = { focus = WML_total_dialogue }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_military
+		relative_position_id = WML_total_dialogue
+		prerequisite = { focus = WML_total_dialogue }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_economy
+		relative_position_id = WML_total_dialogue
+		prerequisite = { focus = WML_total_dialogue }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_entrepreneurial_syndicalism
+		relative_position_id = WML_system
+		prerequisite = { focus = WML_system }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_scout_guard
+		relative_position_id = WML_entrepreneurial_syndicalism
+		prerequisite = { focus = WML_entrepreneurial_syndicalism }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_ennoblement_of_entrepreneurs
+		relative_position_id = WML_scout_guard
+		prerequisite = { focus = WML_scout_guard }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_state_farms_of_the_skrzydlewski_family
+		relative_position_id = WML_economy
+		prerequisite = { focus = WML_economy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_gas_and_sun
+		relative_position_id = WML_state_farms_of_the_skrzydlewski_family
+		prerequisite = { focus = WML_state_farms_of_the_skrzydlewski_family }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_catholic_guilds
+		relative_position_id = WML_gas_and_sun
+		prerequisite = { focus = WML_gas_and_sun }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_abraham_alliance
+		relative_position_id = WML_military
+		prerequisite = { focus = WML_military }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_looting_expeditions
+		relative_position_id = WML_abraham_alliance
+		prerequisite = { focus = WML_abraham_alliance }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_Scoia'tael_in_303_squadron
+		relative_position_id = WML_looting_expeditions
+		prerequisite = { focus = WML_looting_expeditions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WML_power_armor_reactivation
+		relative_position_id = WML_Scoia'tael_in_303_squadron
+		prerequisite = { focus = WML_Scoia'tael_in_303_squadron }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+}
