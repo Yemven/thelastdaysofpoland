@@ -1,0 +1,304 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = belchatow_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = BBW
+		}
+	}
+	deafult = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+		focus = {
+		id = BBW_trial_of_three
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 6
+		y = 0
+		
+		cost = 2.9
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = BBW_riots
+		relative_position_id = BBW_trial_of_three
+		prerequisite = { focus = BBW_trial_of_three }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 3.7
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BBW_blood_on_the_hands
+		relative_position_id = BBW_riots
+		prerequisite = { focus = BBW_riots }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+		focus = {
+		id = BBW_marble_monuments
+		relative_position_id = BBW_blood_on_the_hands
+		prerequisite = { focus = BBW_blood_on_the_hands }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 4.4
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_new_evidence
+		relative_position_id = BBW_riots
+		prerequisite = { focus = BBW_riots }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 4.4
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_spiral_of_hatred
+		relative_position_id = BBW_new_evidence
+		prerequisite = { focus = BBW_new_evidence }
+		prerequisite = { focus = BBW_marble_monuments }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 4.4
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+		focus = {
+		id = BBW_the_last_flame
+		relative_position_id = BBW_spiral_of_hatred
+		prerequisite = { focus = BBW_spiral_of_hatred }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 4.4
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+		focus = {
+		id = BBW_black_fever
+		relative_position_id = BBW_trial_of_three
+		prerequisite = { focus = BBW_trial_of_three }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 4.4
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+		focus = {
+		id = BBW_energy_export
+		relative_position_id = BBW_black_fever
+		prerequisite = { focus = BBW_black_fever }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2.9
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+		focus = {
+		id = BBW_financial_surpluses
+		relative_position_id = BBW_energy_export
+		prerequisite = { focus = BBW_energy_export }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 4.4
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+		focus = {
+		id = BBW_the_power_of_steam
+		relative_position_id = BBW_black_fever
+		prerequisite = { focus = BBW_black_fever }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 4.4
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+		focus = {
+		id = BBW_purchase_of_weapons
+		relative_position_id = BBW_the_power_of_steam
+		prerequisite = { focus = BBW_the_power_of_steam }
+		prerequisite = { focus = BBW_financial_surpluses }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2.9
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_conscription_of_2032
+		relative_position_id = BBW_purchase_of_weapons
+		prerequisite = { focus = BBW_purchase_of_weapons }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 4.4
+		search_filters =
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_autumn
+		relative_position_id = BBW_trial_of_three
+		prerequisite = { focus = BBW_conscription_of_2032 }
+		prerequisite = { focus = BBW_trial_of_three }
+		prerequisite = { focus = BBW_the_last_flame }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 6
+		
+		cost = 5.8
+		search_filters =
+		completion_reward = {
+			
+		}
+	}

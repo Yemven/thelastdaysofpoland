@@ -1,0 +1,617 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = harcerze_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = ZHP
+		}
+	}
+	deafult = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = ZHP_everything_that_ours
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 7
+		y = 0
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_what's_next_?
+		relative_position_id = ZHP_everything_that_ours
+		prerequisite = { focus = ZHP_everything_that_ours }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_our_economy
+		relative_position_id = ZHP_what's_next_?
+		prerequisite = { focus = ZHP_what's_next_? }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_improvised_workshops
+		relative_position_id = ZHP_our_economy
+		prerequisite = { focus = ZHP_our_economy }
+		mutually_exclusive = { focus = ZHP_industrial_camps }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_industrial_camps
+		relative_position_id = ZHP_our_economy
+		prerequisite = { focus = ZHP_our_economy }
+		mutually_exclusive = { focus = ZHP_improvised_workshops }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_food_searches
+		relative_position_id = ZHP_improvised_workshops
+		prerequisite = { focus = ZHP_improvised_workshops }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_robbery_economy
+		relative_position_id = ZHP_food_searches
+		prerequisite = { focus = ZHP_food_searches }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_scout_farm_system
+		relative_position_id = ZHP_industrial_camps
+		prerequisite = { focus = ZHP_industrial_camps }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_what_we_will_focus_on
+		relative_position_id = ZHP_scout_farm_system
+		prerequisite = { focus = ZHP_scout_farm_system }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_new_economic_policy
+		relative_position_id = ZHP_what_we_will_focus_on
+		prerequisite = { focus = ZHP_what_we_will_focus_on 
+						 focus = ZHP_robbery_economy}
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_our_pride_army
+		relative_position_id = ZHP_what's_next_?
+		prerequisite = { focus = ZHP_what's_next_? }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_every_child_at_the_service_of_ideals
+		relative_position_id = ZHP_our_pride_army
+		prerequisite = { focus = ZHP_our_pride_army }
+		mutually_exclusive = { focus = ZHP_volunteer_army }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_volunteer_army
+		relative_position_id = ZHP_our_pride_army
+		prerequisite = { focus = ZHP_our_pride_army }
+		mutually_exclusive = { focus = ZHP_every_child_at_the_service_of_ideals }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_gray_lily's_support_battalions
+		relative_position_id = ZHP_every_child_at_the_service_of_ideals
+		prerequisite = { focus = ZHP_every_child_at_the_service_of_ideals }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_the_tactics_of_our_ancestors
+		relative_position_id = ZHP_gray_lily's_support_battalions
+		prerequisite = { focus = ZHP_gray_lily's_support_battalions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_limiting_the_role_of_sl_in_the_army
+		relative_position_id = ZHP_volunteer_army
+		prerequisite = { focus = ZHP_volunteer_army }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_changes_of_plans
+		relative_position_id = ZHP_limiting_the_role_of_sl_in_the_army
+		prerequisite = { focus = ZHP_limiting_the_role_of_sl_in_the_army }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_discovery
+		relative_position_id = ZHP_changes_of_plans
+		prerequisite = { focus = ZHP_changes_of_plans 
+						 focus = ZHP_the_tactics_of_our_ancestors}
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_our_society
+		relative_position_id = ZHP_what's_next_?
+		prerequisite = { focus = ZHP_what's_next_? }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_prohibition_of_sex
+		relative_position_id = ZHP_our_society
+		prerequisite = { focus = ZHP_our_society }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_scout_law_-_criminal_law
+		relative_position_id = ZHP_prohibition_of_sex
+		prerequisite = { focus = ZHP_prohibition_of_sex }
+		mutually_exclusive = { focus = ZHP_revision_of_the_polish_penal_code }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_revision_of_the_polish_penal_code
+		relative_position_id = ZHP_prohibition_of_sex
+		prerequisite = { focus = ZHP_prohibition_of_sex }
+		mutually_exclusive = { focus = ZHP_scout_law_-_criminal_law }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_every_child_a_scout
+		relative_position_id = ZHP_scout_law_-_criminal_law
+		prerequisite = { focus = ZHP_scout_law_-_criminal_law }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_isolation_of_cities
+		relative_position_id = ZHP_every_child_a_scout
+		prerequisite = { focus = ZHP_every_child_a_scout }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_voluntary_membership
+		relative_position_id = ZHP_revision_of_the_polish_penal_code
+		prerequisite = { focus = ZHP_revision_of_the_polish_penal_code }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_mutual_cooperation
+		relative_position_id = ZHP_voluntary_membership
+		prerequisite = { focus = ZHP_voluntary_membership }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_new_social_order
+		relative_position_id = ZHP_mutual_cooperation
+		prerequisite = { focus = ZHP_mutual_cooperation 
+						 focus = ZHP_isolation_of_cities }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = ZHP_we_are_ready
+		relative_position_id = ZHP_new_economic_policy
+		prerequisite = { focus = ZHP_new_economic_policy }
+		prerequisite = { focus = ZHP_new_social_order }
+		prerequisite = { focus = ZHP_discovery }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 10
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+}
