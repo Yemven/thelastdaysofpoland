@@ -1,0 +1,705 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = zydzew_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = ZYD
+		}
+	}
+	deafult = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = ZYD_genesis
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 14
+		y = 0
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_exodus
+		relative_position_id = ZYD_genesis
+		prerequisite = { focus = ZYD_genesis }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_leviticus
+		relative_position_id = ZYD_exodus
+		prerequisite = { focus = ZYD_exodus }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_numbers
+		relative_position_id = ZYD_leviticus
+		prerequisite = { focus = ZYD_leviticus }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_deuteronomy
+		relative_position_id = ZYD_numbers
+		prerequisite = { focus = ZYD_numbers }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_warriors_overview
+		relative_position_id = ZYD_deuteronomy
+		prerequisite = { focus = ZYD_deuteronomy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_eleven_felash
+		relative_position_id = ZYD_warriors_overview
+		prerequisite = { focus = ZYD_warriors_overview }
+		mutually_exclusive = { focus = ZYD_eleven_sons_of_labour }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_eleven_sons_of_labour
+		relative_position_id = ZYD_warriors_overview
+		prerequisite = { focus = ZYD_warriors_overview }
+		mutually_exclusive = { focus = ZYD_eleven_felash }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_incestant_brawls
+		relative_position_id = ZYD_deuteronomy
+		prerequisite = { focus = ZYD_deuteronomy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_mutual_destruction
+		relative_position_id = ZYD_incestant_brawls
+		prerequisite = { focus = ZYD_incestant_brawls }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_the_decalogue_upgrade
+		relative_position_id = ZYD_mutual_destruction
+		prerequisite = { focus = ZYD_mutual_destruction }
+		mutually_exclusive = { focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
+		relative_position_id = ZYD_mutual_destruction
+		prerequisite = { focus = ZYD_mutual_destruction }
+		mutually_exclusive = { focus = ZYD_the_decalogue_upgrade }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_communal_and_robbery_economy
+		relative_position_id = ZYD_deuteronomy
+		prerequisite = { focus = ZYD_deuteronomy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_wrath_of_the_losers
+		relative_position_id = ZYD_communal_and_robbery_economy
+		prerequisite = { focus = ZYD_communal_and_robbery_economy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_the_kibbutz_reform
+		relative_position_id = ZYD_wrath_of_the_losers
+		prerequisite = { focus = ZYD_wrath_of_the_losers }
+		mutually_exclusive = { focus = ZYD_sending_widzewiaks_to_factories }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_sending_widzewiaks_to_factories
+		relative_position_id = ZYD_wrath_of_the_losers
+		prerequisite = { focus = ZYD_wrath_of_the_losers }
+		mutually_exclusive = { focus = ZYD_the_kibbutz_reform }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_discuss_of_the_high_command
+		relative_position_id = ZYD_warriors_overview
+		available = {
+		OR = {
+			AND = {
+				has_completed_focus = ZYD_the_decalogue_upgrade
+				has_completed_focus = ZYD_eleven_felash
+				has_completed_focus = ZYD_the_kibbutz_reform
+			}
+			AND = {
+				has_completed_focus = ZYD_the_decalogue_upgrade
+				has_completed_focus = ZYD_eleven_felash
+				has_completed_focus = ZYD_sending_widzewiaks_to_factories
+			}
+			AND = {
+				has_completed_focus = ZYD_the_decalogue_upgrade
+				has_completed_focus = ZYD_eleven_sons_of_labour
+				has_completed_focus = ZYD_the_kibbutz_reform
+			}
+			AND = {
+				has_completed_focus = ZYD_the_decalogue_upgrade
+				has_completed_focus = ZYD_eleven_sons_of_labour
+				has_completed_focus = ZYD_sending_widzewiaks_to_factories
+			}
+			AND = {
+				has_completed_focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
+				has_completed_focus = ZYD_eleven_felash
+				has_completed_focus = ZYD_the_kibbutz_reform
+			}
+			AND = {
+				has_completed_focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
+				has_completed_focus = ZYD_eleven_felash
+				has_completed_focus = ZYD_sending_widzewiaks_to_factories
+			}
+			AND = {
+				has_completed_focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
+				has_completed_focus = ZYD_eleven_sons_of_labour
+				has_completed_focus = ZYD_the_kibbutz_reform
+			}
+			AND = {
+				has_completed_focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
+				has_completed_focus = ZYD_eleven_sons_of_labour
+				has_completed_focus = ZYD_sending_widzewiaks_to_factories
+			}
+		}
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 3
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_rabbis_as_commanders
+		relative_position_id = ZYD_discuss_of_the_high_command
+		prerequisite = { focus = ZYD_discuss_of_the_high_command }
+		mutually_exclusive = { focus = ZYD_good_old_comrades }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_good_old_comrades
+		relative_position_id = ZYD_discuss_of_the_high_command
+		prerequisite = { focus = ZYD_discuss_of_the_high_command }
+		mutually_exclusive = { focus = ZYD_rabbis_as_commanders }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_sanctioning_the_kibbutz_cult_of_strength
+		relative_position_id = ZYD_rabbis_as_commanders
+		prerequisite = { focus = ZYD_rabbis_as_commanders }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_davids_army
+		relative_position_id = ZYD_sanctioning_the_kibbutz_cult_of_strength
+		prerequisite = { focus = ZYD_sanctioning_the_kibbutz_cult_of_strength }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_recreation_of_wzw
+		relative_position_id = ZYD_good_old_comrades
+		prerequisite = { focus = ZYD_good_old_comrades }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_restoration_of_discipline
+		relative_position_id = ZYD_recreation_of_wzw
+		prerequisite = { focus = ZYD_recreation_of_wzw }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_sharpening_the_old_sticks
+		relative_position_id = ZYD_rabbis_as_commanders
+		available = {
+		OR = {
+			AND = {
+			has_completed_focus = ZYD_rabbis_as_commanders
+			has_completed_focus = ZYD_davids_army
+			}
+			AND = {
+				has_completed_focus = ZYD_good_old_comrades
+				has_completed_focus = ZYD_restoration_of_discipline }
+			}
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 3
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ZYD_pacyfication_of_the_lks_remnants
+		relative_position_id = ZYD_sharpening_the_old_sticks
+		prerequisite = { focus = ZYD_sharpening_the_old_sticks }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ZYD_forced_converions
+		relative_position_id = ZYD_pacyfication_of_the_lks_remnants
+		prerequisite = { focus = ZYD_pacyfication_of_the_lks_remnants }
+		mutually_exclusive = { focus = ZYD_forced_labor }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_forced_labor
+		relative_position_id = ZYD_pacyfication_of_the_lks_remnants
+		prerequisite = { focus = ZYD_pacyfication_of_the_lks_remnants }
+		mutually_exclusive = { focus = ZYD_forced_converions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_taking_the_dogs_off_the_leash
+		relative_position_id = ZYD_forced_converions
+		prerequisite = { focus = ZYD_forced_converions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_zomo_action
+		relative_position_id = ZYD_forced_labor
+		prerequisite = { focus = ZYD_forced_labor }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_rts_is_a_power
+		relative_position_id = ZYD_zomo_action
+		prerequisite = { focus = ZYD_zomo_action 
+						 focus = ZYD_taking_the_dogs_off_the_leash }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+}
