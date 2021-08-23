@@ -187,6 +187,28 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = ZYD_pitches_of_prayer
+		relative_position_id = ZYD_eleven_felash
+		prerequisite = { focus = ZYD_eleven_sons_of_labour }
+		prerequisite = { focus = ZYD_eleven_felash }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
 		id = ZYD_incestant_brawls
 		relative_position_id = ZYD_deuteronomy
 		prerequisite = { focus = ZYD_deuteronomy }
@@ -255,6 +277,28 @@ focus_tree = {
 		relative_position_id = ZYD_mutual_destruction
 		prerequisite = { focus = ZYD_mutual_destruction }
 		mutually_exclusive = { focus = ZYD_the_decalogue_upgrade }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_alcohol_rationing
+		relative_position_id = ZYD_the_decalogue_upgrade
+		prerequisite = { focus = ZYD_the_decalogue_upgrade }
+		prerequisite = { focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes }
 		available = {
 		
 		}
@@ -359,58 +403,42 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = ZYD_usury_as_an_alternative_to_robbery
+		relative_position_id = ZYD_the_kibbutz_reform
+		prerequisite = { focus = ZYD_sending_widzewiaks_to_factories }
+		prerequisite = { focus = ZYD_the_kibbutz_reform }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
 		id = ZYD_discuss_of_the_high_command
 		relative_position_id = ZYD_warriors_overview
+		prerequisite = { focus = ZYD_usury_as_an_alternative_to_robbery }
+		prerequisite = { focus = ZYD_alcohol_rationing }
+		prerequisite = { focus = ZYD_pitches_of_prayer }
 		available = {
-		OR = {
-			AND = {
-				has_completed_focus = ZYD_the_decalogue_upgrade
-				has_completed_focus = ZYD_eleven_felash
-				has_completed_focus = ZYD_the_kibbutz_reform
-			}
-			AND = {
-				has_completed_focus = ZYD_the_decalogue_upgrade
-				has_completed_focus = ZYD_eleven_felash
-				has_completed_focus = ZYD_sending_widzewiaks_to_factories
-			}
-			AND = {
-				has_completed_focus = ZYD_the_decalogue_upgrade
-				has_completed_focus = ZYD_eleven_sons_of_labour
-				has_completed_focus = ZYD_the_kibbutz_reform
-			}
-			AND = {
-				has_completed_focus = ZYD_the_decalogue_upgrade
-				has_completed_focus = ZYD_eleven_sons_of_labour
-				has_completed_focus = ZYD_sending_widzewiaks_to_factories
-			}
-			AND = {
-				has_completed_focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
-				has_completed_focus = ZYD_eleven_felash
-				has_completed_focus = ZYD_the_kibbutz_reform
-			}
-			AND = {
-				has_completed_focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
-				has_completed_focus = ZYD_eleven_felash
-				has_completed_focus = ZYD_sending_widzewiaks_to_factories
-			}
-			AND = {
-				has_completed_focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
-				has_completed_focus = ZYD_eleven_sons_of_labour
-				has_completed_focus = ZYD_the_kibbutz_reform
-			}
-			AND = {
-				has_completed_focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
-				has_completed_focus = ZYD_eleven_sons_of_labour
-				has_completed_focus = ZYD_sending_widzewiaks_to_factories
-			}
-		}
+		
 		}
 		
 		bypass = {
 		}
 		
 		x = 0
-		y = 3
+		y = 4
 		
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
@@ -550,16 +578,9 @@ focus_tree = {
 	focus = {
 		id = ZYD_sharpening_the_old_sticks
 		relative_position_id = ZYD_rabbis_as_commanders
+		prerequisite = { focus = ZYD_davids_army }
+		prerequisite = { focus = ZYD_restoration_of_discipline }
 		available = {
-		OR = {
-			AND = {
-			has_completed_focus = ZYD_rabbis_as_commanders
-			has_completed_focus = ZYD_davids_army
-			}
-			AND = {
-				has_completed_focus = ZYD_good_old_comrades
-				has_completed_focus = ZYD_restoration_of_discipline }
-			}
 		
 		}
 		
