@@ -1,0 +1,251 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = kghm_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = KGH
+		}
+	}
+	deafult = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = KGH_1st_management_board_congress
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 3
+		y = 0
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_copper_army
+		relative_position_id = KGH_1st_management_board_congress
+		prerequisite = { focus = KGH_1st_management_board_congress }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_foreign_advisors
+		relative_position_id = KGH_copper_army
+		prerequisite = { focus = KGH_copper_army }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_doctrine_development
+		relative_position_id = KGH_foreign_advisors
+		prerequisite = { focus = KGH_foreign_advisors }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_takeover_german_companies
+		relative_position_id = KGH_1st_management_board_congress
+		prerequisite = { focus = KGH_1st_management_board_congress }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		completion_reward = {
+			add_stability = -0.05
+
+		}
+	}
+	
+	focus = {
+		id = KGH_explusion_of_germans
+		relative_position_id = KGH_takeover_german_companies
+		prerequisite = { focus = KGH_takeover_german_companies }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_degermanisation
+		relative_position_id = KGH_explusion_of_germans
+		prerequisite = { focus = KGH_explusion_of_germans }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_comittee_for_gypsy_affraids
+		relative_position_id = KGH_1st_management_board_congress
+		prerequisite = { focus = KGH_1st_management_board_congress }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_confiscation_of_gypsy_lands
+		relative_position_id = KGH_comittee_for_gypsy_affraids
+		prerequisite = { focus = KGH_comittee_for_gypsy_affraids }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_explusion_of_gypsies
+		relative_position_id = KGH_confiscation_of_gypsy_lands
+		prerequisite = { focus = KGH_confiscation_of_gypsy_lands }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_new_mines
+		relative_position_id = KGH_doctrine_development
+		prerequisite = { focus = KGH_explusion_of_gypsies }
+		prerequisite = { focus = KGH_degermanisation }
+		prerequisite = { focus = KGH_doctrine_development }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
