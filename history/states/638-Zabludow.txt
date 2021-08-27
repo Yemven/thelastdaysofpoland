@@ -1,9 +1,21 @@
 state={
-	id=638
-	name="STATE_638"
-	provinces={
-		1537 1680 2276 2920 3664 
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
+        id=638
+        name="STATE_638"
+        provinces={
+                1537 1680 2276 2920 3664 
+        }
+        manpower = 29958   state_category = rural
+        buildings_max_level_factor=1.000
+					history={
+		owner = ZAB
+		victory_points = {
+
+		}
+		add_core_of = ZAB
+buildings = {
+                infrastructure = 5
+industrial_complex = 0
+                arms_factory = 0
+}
+}
 }

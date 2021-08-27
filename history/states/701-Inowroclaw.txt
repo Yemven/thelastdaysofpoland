@@ -4,6 +4,20 @@ state={
 	provinces={
 		1650 3408 
 	}
-	manpower = 1   state_category = city
+	manpower = 67899   state_category = city
 	buildings_max_level_factor=1.000
+	
+			history={
+		owner = INO
+		victory_points = {
+			1650 15 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = INO
+
+	}
 }

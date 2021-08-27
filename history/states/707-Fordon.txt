@@ -4,6 +4,18 @@ state={
 	provinces={
 		3255 
 	}
-	manpower = 1   state_category = city
+	manpower = 68654   state_category = city
 	buildings_max_level_factor=1.000
+	
+						history={
+		owner = KUJ
+		victory_points = {
+		3255 30
+		}
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = KUJ
+}
 }

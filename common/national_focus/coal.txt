@@ -20,6 +20,7 @@ focus_tree = {
 	
 		focus = {
 		id = BBW_trial_of_three
+		icon = BBW_trial_of_three
 		available = {
 		
 		}
@@ -39,6 +40,7 @@ focus_tree = {
 	
 	focus = {
 		id = BBW_riots
+		icon = BBW_riots
 		relative_position_id = BBW_trial_of_three
 		prerequisite = { focus = BBW_trial_of_three }
 		available = {
@@ -60,6 +62,7 @@ focus_tree = {
 	
 	focus = {
 		id = BBW_blood_on_the_hands
+		icon = BBW_blood_on_the_hands
 		relative_position_id = BBW_riots
 		prerequisite = { focus = BBW_riots }
 		available = {
@@ -80,6 +83,7 @@ focus_tree = {
 	}
 		focus = {
 		id = BBW_marble_monuments
+		icon = BBW_marble_monuments
 		relative_position_id = BBW_blood_on_the_hands
 		prerequisite = { focus = BBW_blood_on_the_hands }
 		available = {
@@ -100,6 +104,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BBW_new_evidence
+		icon = BBW_new_evidence
 		relative_position_id = BBW_riots
 		prerequisite = { focus = BBW_riots }
 		available = {
@@ -120,6 +125,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BBW_spiral_of_hatred
+		icon = BBW_spiral_of_hatred
 		relative_position_id = BBW_new_evidence
 		prerequisite = { focus = BBW_new_evidence }
 		prerequisite = { focus = BBW_marble_monuments }
@@ -141,6 +147,7 @@ focus_tree = {
 	}
 		focus = {
 		id = BBW_the_last_flame
+		icon = BBW_the_last_flame
 		relative_position_id = BBW_spiral_of_hatred
 		prerequisite = { focus = BBW_spiral_of_hatred }
 		available = {
@@ -161,6 +168,7 @@ focus_tree = {
 	}
 		focus = {
 		id = BBW_black_fever
+		icon = BBW_black_fever
 		relative_position_id = BBW_trial_of_three
 		prerequisite = { focus = BBW_trial_of_three }
 		available = {
@@ -181,6 +189,7 @@ focus_tree = {
 	}
 		focus = {
 		id = BBW_energy_export
+		icon = BBW_energy_export
 		relative_position_id = BBW_black_fever
 		prerequisite = { focus = BBW_black_fever }
 		available = {
@@ -201,6 +210,7 @@ focus_tree = {
 	}
 		focus = {
 		id = BBW_financial_surpluses
+		icon = BBW_financial_surpluses
 		relative_position_id = BBW_energy_export
 		prerequisite = { focus = BBW_energy_export }
 		available = {
@@ -221,6 +231,7 @@ focus_tree = {
 	}
 		focus = {
 		id = BBW_the_power_of_steam
+		icon = BBW_the_power_of_steam
 		relative_position_id = BBW_black_fever
 		prerequisite = { focus = BBW_black_fever }
 		available = {
@@ -241,6 +252,7 @@ focus_tree = {
 	}
 		focus = {
 		id = BBW_purchase_of_weapons
+		icon = BBW_purchase_of_weapons
 		relative_position_id = BBW_the_power_of_steam
 		prerequisite = { focus = BBW_the_power_of_steam }
 		prerequisite = { focus = BBW_financial_surpluses }
@@ -262,6 +274,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BBW_conscription_of_2032
+		icon = BBW_conscription_of_2032
 		relative_position_id = BBW_purchase_of_weapons
 		prerequisite = { focus = BBW_purchase_of_weapons }
 		available = {
@@ -282,6 +295,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BBW_autumn
+		icon = BBW_autumn
 		relative_position_id = BBW_trial_of_three
 		prerequisite = { focus = BBW_conscription_of_2032 }
 		prerequisite = { focus = BBW_trial_of_three }

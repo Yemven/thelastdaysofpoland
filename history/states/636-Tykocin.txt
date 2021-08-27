@@ -1,9 +1,21 @@
 state={
-	id=636
-	name="STATE_636"
-	provinces={
-		1531 3642 
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
+        id=636
+        name="STATE_636"
+        provinces={
+                1531 3642 
+        }
+        manpower = 9010   state_category = rural
+        buildings_max_level_factor=1.000
+					history={
+		owner = TYK
+		victory_points = {
+
+		}
+		add_core_of = TYK
+buildings = {
+                infrastructure = 5 
+industrial_complex = 0
+                arms_factory = 0
+}
+}
 }
