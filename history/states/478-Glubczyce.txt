@@ -2,13 +2,16 @@ state={
 	id=478
 	name="STATE_478"
 	provinces={
-		380 1165 4061 
+		380 1165 4061 1792 
 	}
 	manpower = 43576   state_category = town
 	buildings_max_level_factor=1.000
 	history = {
 		owner = LEH
-		victory_points = { }
+		victory_points = { 380 10 }
+		victory_points = { 1165 3 }
+		victory_points = { 4061 3 }
+		victory_points = { 1792 1 }
 		add_core_of = LEH
 	buildings = {
 	infrastructure = 5 }

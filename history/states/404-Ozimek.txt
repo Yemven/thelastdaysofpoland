@@ -3,13 +3,16 @@ state={
 	id=404
 	name="STATE_404"
 	provinces={
-		1398 1717 2370 2689 3964 
+		1398 1717 2370 3964 
 	}
 	manpower = 34678   state_category = rural
 	buildings_max_level_factor=1.000
 					history = {
 		owner = MNI
-		victory_points = { }
+		victory_points = { 1717 1 }
+		victory_points = { 1398 1 }
+		victory_points = { 2370 5 }
+		victory_points = { 3964 1 }
 		add_core_of = MNI
 		buildings = {
 		infrastructure = 4

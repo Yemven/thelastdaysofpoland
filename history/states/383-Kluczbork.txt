@@ -2,13 +2,19 @@ state={
 	id=383
 	name="STATE_383"
 	provinces={
-		765 993 1288 1448 2316 3265 3482 3917 
+		765 1288 1448 2316 3265 3482 3917 
 	}
 	manpower = 62040   state_category = town
 	buildings_max_level_factor=1.000
 					history = {
 		owner = MNI
-		victory_points = { }
+		victory_points = { 765 3 }
+		victory_points = { 1288 1 }
+		victory_points = { 1448 1 }
+		victory_points = { 2316 30 }
+		victory_points = { 3265 1 }
+		victory_points = { 3482 1 }
+		victory_points = { 3917 3 }
 		add_core_of = MNI
 		buildings = {
 		infrastructure = 6
