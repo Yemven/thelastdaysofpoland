@@ -1,0 +1,41 @@
+﻿capital = 35
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+set_politics = {
+	ruling_party = socialdemocrature
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 0
+	squattism = 21
+	socialdemocrature = 65
+	euroliberalism = 0
+	freemarketism = 3
+	paternal_conservatism = 0
+	autocracy = 0
+	corporativism = 0
+	neonationalism = 0
+	reactionary = 11
+	postpolonism = 0
+}
+
+	
+create_country_leader = {
+	name = "Robert Biedroń"
+	desc = ""
+	picture = "gfx/leaders/GAY/GAY_Biedron1.dds"
+	ideology = socialdemocrature_subtype
+	traits = {
+		#
+	}
+}
