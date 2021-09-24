@@ -1,0 +1,20 @@
+﻿###########################
+# Belchatow Events
+###########################
+
+add_namespace = belchatow
+
+country_event = {
+	id = belchatow.1
+	title = "belchatow"
+	desc = belchatow.1.d
+	picture =
+	
+	is_triggered_only = yes
+	
+	option = { # Oh my...
+		name = Oh_my...
+		ai_chance = { factor = 90 }
+		add_stability = -0.15
+	}
+}
