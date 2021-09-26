@@ -18,3 +18,18 @@ country_event = {
 		add_stability = -0.15
 	}
 }
+
+country_event = {
+	id = belchatow.2
+	title = belchatow.2.t
+	desc = belchatow.2.desc
+	picture =
+	
+	is_triggered_only = yes
+	
+	option = { # And the guilty ones
+		name = belchatow.2.a
+		ai_chance = { factor = 90 }
+		add_stability = -0.15
+	}
+}
