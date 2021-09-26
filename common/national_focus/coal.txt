@@ -34,6 +34,7 @@ focus_tree = {
 		cost = 2.9
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
+		country_event = belchatow.1
 			
 		}
 	}
@@ -76,8 +77,9 @@ focus_tree = {
 		y = 1
 		
 		cost = 3.7
-		search_filters =
-		completion_reward = {
+		search_filters = {}
+		completion_reward = { add_stability = 0.05
+		country_event = belchatow.2
 			
 		}
 	}
