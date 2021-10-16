@@ -1,0 +1,42 @@
+﻿capital = 469
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 16
+	squattism = 0
+	socialdemocrature = 0
+	euroliberalism = 0
+	freemarketism = 10
+	paternal_conservatism = 0
+	autocracy = 41
+	corporativism = 0
+	neonationalism = 13
+	reactionary = 20
+	postpolonism = 0
+}
+
+create_country_leader = {
+	name = "Zbigniew Ziobro"
+	desc = ""
+	picture = "gfx/leaders/PRK/PRK_Ziobro1.dds"
+	ideology = autocracy_subtype
+	traits = {
+		#
+	}
+}
