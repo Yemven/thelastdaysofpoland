@@ -1,0 +1,82 @@
+﻿capital = 506
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+
+
+set_politics = {
+	ruling_party = paternal_conservatism
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 0
+	squattism = 0
+	socialdemocrature = 24
+	euroliberalism = 0
+	freemarketism = 16
+	paternal_conservatism = 47
+	autocracy = 10
+	corporativism = 0
+	neonationalism = 0
+	reactionary = 0
+	postpolonism = 3
+}
+
+create_country_leader = {
+	name = "Jacek Majchrowski"
+	desc = ""
+	picture = "gfx/leaders/KRK/KRK_Majchrowski1.dds"
+	ideology = paternal_conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Konrad Berkowicz"
+	desc = ""
+	picture = "gfx/leaders/KRK/KRK_Berkowicz1.dds"
+	ideology = freemarketism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Łukasz Gibała"
+	desc = ""
+	picture = "gfx/leaders/KRK/KRK_Gibała1.dds"
+	ideology = socialdemocrature_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Robert Makłowicz"
+	desc = ""
+	picture = "gfx/leaders/KRK/KRK_Majchrowski1.dds"
+	ideology = autocracy_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Krak III"
+	desc = ""
+	picture = "gfx/leaders/NHT/NHT_Krak1.dds"
+	ideology = postpolonism_subtype
+	traits = {
+		#
+	}
+}

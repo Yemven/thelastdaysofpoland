@@ -1,0 +1,82 @@
+﻿capital = 573
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 6
+	squattism = 22
+	socialdemocrature = 0
+	euroliberalism = 0
+	freemarketism = 5
+	paternal_conservatism = 0
+	autocracy = 37
+	corporativism = 0
+	neonationalism = 10
+	reactionary = 20
+	postpolonism = 0
+}
+
+create_country_leader = {
+	name = "Triumwirat"
+	desc = ""
+	picture = "gfx/leaders/NHT/NHT_Triumwirat1.dds"
+	ideology = autocracy_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Franciszek Smuda"
+	desc = ""
+	picture = ""
+	ideology = freemarketism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Michał Probierz"
+	desc = ""
+	picture = ""
+	ideology = squattism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Małgorzata Wassermann"
+	desc = ""
+	picture = "gfx/leaders/NHT/NHT_Wassermann1.dds"
+	ideology = socialdemocrature_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Krak III"
+	desc = ""
+	picture = "gfx/leaders/NHT/NHT_Triumwirat1.dds"
+	ideology = postpolonism_subtype
+	traits = {
+		#
+	}
+}

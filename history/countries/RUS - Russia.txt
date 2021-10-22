@@ -1,0 +1,93 @@
+﻿capital = 327
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 19
+	squattism = 0
+	socialdemocrature = 7
+	euroliberalism = 0
+	freemarketism = 0
+	paternal_conservatism = 0
+	autocracy = 42
+	corporativism = 0
+	neonationalism = 20
+	reactionary = 8
+	postpolonism = 4
+}
+
+create_country_leader = {
+	name = "Vladimir Putin"
+	desc = ""
+	picture = "gfx/leaders/RUS/RUS_Putin.dds"
+	ideology = autocracy_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alexei Navalny"
+	desc = ""
+	picture = "gfx/leaders/RUS/RUS_Navalny.dds"
+	ideology = neonationalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pavel Grudinin"
+	desc = ""
+	picture = "gfx/leaders/RUS/RUS_Grudinin.dds"
+	ideology = marxism_cranism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sergey Mironov"
+	desc = ""
+	picture = ""
+	ideology = socialdemocrature_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir Zhirinovsky"
+	desc = ""
+	picture = "gfx/leaders/ROS/ROS_Żyr1.dds"
+	ideology = reactionary_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ramzan Kadyrov"
+	desc = ""
+	picture = "gfx/leaders/RUS/RUS_Kadyrov.dds"
+	ideology = postpolonism_subtype
+	traits = {
+		#
+	}
+}
+

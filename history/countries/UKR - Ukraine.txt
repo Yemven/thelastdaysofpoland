@@ -1,0 +1,42 @@
+﻿capital = 537
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+
+
+set_politics = {
+	ruling_party = euroliberalism
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 6
+	squattism = 0
+	socialdemocrature = 0
+	euroliberalism = 43
+	freemarketism = 8
+	paternal_conservatism = 8
+	autocracy = 0
+	corporativism = 0
+	neonationalism = 16
+	reactionary = 13
+	postpolonism = 6
+}
+
+create_country_leader = {
+	name = "Volodymyr Zelensky"
+	desc = ""
+	picture = "gfx/leaders/UKR/UKR_Zelensky.dds"
+	ideology = euroliberalism_subtype
+	traits = {
+		#
+	}
+}

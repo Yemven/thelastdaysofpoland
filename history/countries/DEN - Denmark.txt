@@ -1,0 +1,42 @@
+﻿capital = 17
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+
+
+set_politics = {
+	ruling_party = socialdemocrature
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 0
+	squattism = 15
+	socialdemocrature = 36
+	euroliberalism = 9
+	freemarketism = 24
+	paternal_conservatism = 7
+	autocracy = 0
+	corporativism = 0
+	neonationalism = 9
+	reactionary = 0
+	postpolonism = 0
+}
+
+create_country_leader = {
+	name = "Frederik X"
+	desc = ""
+	picture = "gfx/leaders/DEN/DEN_Fryderyk.dds"
+	ideology = socialdemocrature_subtype
+	traits = {
+		#
+	}
+}
