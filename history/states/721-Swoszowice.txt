@@ -1,18 +1,25 @@
+
 state={
 	id=721
 	name="STATE_721"
-	provinces={
-		7438 
-	}
-	manpower = 27493   state_category = city
-	buildings_max_level_factor=1.000
-	 				history = {
-		owner = KRK
-		victory_points = { }
-		add_core_of = KRK
-	buildings = {
-	infrastructure = 7
-}
-}
-}
 
+	history={
+		owner = KRK
+		victory_points = {
+
+		}
+		add_core_of = KRK
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		440 1137 3302 7438 
+	}
+	manpower=27493
+	buildings_max_level_factor=1.000
+	state_category=city
+}

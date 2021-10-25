@@ -1,18 +1,25 @@
+
 state={
 	id=599
 	name="STATE_599"
-	provinces={
-		1836 2130 4037 
-	}
-	manpower = 39107   state_category = rural
-	buildings_max_level_factor=1.000
-							history = {
-		owner = PRK
-		victory_points = { }
-		add_core_of = PRK
-	buildings = {
-	infrastructure = 7
-}
-}
-}
 
+	history={
+		owner = PRK
+		victory_points = {
+
+		}
+		add_core_of = PRK
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		1517 1836 2130 4037 
+	}
+	manpower=39107
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

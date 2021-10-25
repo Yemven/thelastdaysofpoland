@@ -2,18 +2,23 @@
 state={
 	id=493
 	name="STATE_493"
-	provinces={
-		1496 1920 2467 4057 
-	}
-	manpower = 124953   state_category = large town
-	buildings_max_level_factor=1.000
-	 				history = {
-		owner = OSW
-		victory_points = { }
-		add_core_of = OSW
-	buildings = {
-	infrastructure = 7
-}
-}
-}
 
+	history={
+		owner = OSW
+		victory_points = {
+
+		}
+		add_core_of = OSW
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		642 1496 1920 2467 4057 
+	}
+	manpower=124953
+	buildings_max_level_factor=1.000
+}

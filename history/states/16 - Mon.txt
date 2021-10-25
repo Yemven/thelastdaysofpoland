@@ -1,17 +1,25 @@
+
 state={
 	id=16
 	name="STATE_16"
-	provinces={
-		858 2453
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = DEN
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = DEN
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		858 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
 }

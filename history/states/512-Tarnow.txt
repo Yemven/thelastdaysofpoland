@@ -2,18 +2,24 @@
 state={
 	id=512
 	name="STATE_512"
-	provinces={
-		1393 4041 4070 
-	}
-	manpower = 134232   state_category = city
-	buildings_max_level_factor=1.000
-	 				history = {
-		owner = TRN
-		victory_points = { }
-		add_core_of = TRN
-	buildings = {
-	infrastructure = 7
-}
-}
-}
 
+	history={
+		owner = TRN
+		victory_points = {
+
+		}
+		add_core_of = TRN
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		1109 1393 3225 4041 4070 4086 
+	}
+	manpower=134232
+	buildings_max_level_factor=1.000
+	state_category=city
+}

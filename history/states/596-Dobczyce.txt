@@ -1,18 +1,25 @@
+
 state={
 	id=596
 	name="STATE_596"
-	provinces={
-		1696 3090 3219 4092 
-	}
-	manpower = 37413   state_category = rural
-	buildings_max_level_factor=1.000
-	 				history = {
-		owner = SKW
-		victory_points = { }
-		add_core_of = SKW
-	buildings = {
-	infrastructure = 7
-}
-}
-}
 
+	history={
+		owner = SKW
+		victory_points = {
+
+		}
+		add_core_of = SKW
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		3090 3219 4092 
+	}
+	manpower=37413
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

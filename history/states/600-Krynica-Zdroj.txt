@@ -1,18 +1,25 @@
+
 state={
 	id=600
 	name="STATE_600"
-	provinces={
-		1368 2278 2442 4123 4129 
-	}
-	manpower = 18503   state_category = town
-	buildings_max_level_factor=1.000
-	 				history = {
-		owner = LEM
-		victory_points = { }
-		add_core_of = LEM
-	buildings = {
-	infrastructure = 7
-}
-}
-}
 
+	history={
+		owner = LEM
+		victory_points = {
+
+		}
+		add_core_of = LEM
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		1368 2278 2442 4129 
+	}
+	manpower=18503
+	buildings_max_level_factor=1.000
+	state_category=town
+}

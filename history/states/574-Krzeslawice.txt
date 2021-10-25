@@ -1,18 +1,25 @@
+
 state={
 	id=574
 	name="STATE_574"
-	provinces={
-		4051 
-	}
-	manpower = 20205   state_category = city
-	buildings_max_level_factor=1.000
-	 				history = {
-		owner = NHT
-		victory_points = { }
-		add_core_of = NHT
-	buildings = {
-	infrastructure = 7
-}
-}
-}
 
+	history={
+		owner = NHT
+		victory_points = {
+
+		}
+		add_core_of = NHT
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		2092 2524 3233 4051 
+	}
+	manpower=20205
+	buildings_max_level_factor=1.000
+	state_category=city
+}
