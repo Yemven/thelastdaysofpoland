@@ -1,27 +1,29 @@
+
 state={
 	id=735
 	name="STATE_735"
-	provinces={
-		1941
-	}
-	manpower = 7272
-	
-	state_category = rural
-	
-	buildings_max_level_factor = 1.000
-		
-	history = {
-		owner = DGR
-		victory_points = { 1941 5 }
 
+	history={
+		owner = DGR
+		victory_points = {
+			1941 5 
+		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 0
 			industrial_complex = 1
 			anti_air_building = 0
 			air_base = 0
+
 		}
 		add_core_of = DGR
 
-
 	}
+
+	provinces={
+		1941 7753 
+	}
+	manpower=7272
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

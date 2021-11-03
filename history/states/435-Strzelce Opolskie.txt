@@ -1,22 +1,40 @@
+
 state={
 	id=435
 	name="STATE_435"
-	provinces={
-		81 1425 1781 2807 3199 3970 
-	}
-	manpower = 71460   state_category = town
-	buildings_max_level_factor=1.000
-					history = {
+
+	history={
 		owner = MNI
-		victory_points = { 1425 5 }
-		victory_points = { 2807 3 }
-		victory_points = { 3199 1 }
-		victory_points = { 81 20 }
-		victory_points = { 3970 3 }
-		victory_points = { 1781 3 }
+		victory_points = {
+			1425 5 
+		}
+		victory_points = {
+			2807 3 
+		}
+		victory_points = {
+			3199 1 
+		}
+		victory_points = {
+			81 20 
+		}
+		victory_points = {
+			3970 3 
+		}
+		victory_points = {
+			1781 3 
+		}
 		add_core_of = MNI
 		buildings = {
-		infrastructure = 6
+			infrastructure = 6
+
 		}
-}
+
+	}
+
+	provinces={
+		81 852 1425 1781 2807 3199 8352 8355 
+	}
+	manpower=71460
+	buildings_max_level_factor=1.000
+	state_category=town
 }

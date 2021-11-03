@@ -1,36 +1,29 @@
+
 state={
 	id=510
 	name="STATE_510"
-	provinces={
-		444 1767 3452 4063 4074 2737 2970 2460 4035
-	}
-	manpower = 154756
-	
-	state_category = large_town
-	
-	buildings_max_level_factor = 1.000
-		
-	history = {
-		owner = WOD
-		victory_points = { 4074 30 }
-		victory_points = { 444 1 }
-		victory_points = { 1767 1 }
-		victory_points = { 3452 1 }
-		victory_points = { 4063 5 }
-		victory_points = { 2737 5 }
-		victory_points = { 2970 5 }
-		victory_points = { 2460 1 }
-		victory_points = { 4035 1 }
 
+	history={
+		owner = WOD
+		victory_points = {
+			4074 30 
+		}
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2
 			anti_air_building = 0
 			air_base = 0
+
 		}
 		add_core_of = WOD
 
-
 	}
+
+	provinces={
+		4074 8224 8225 8226 8227 8228 8229 8230 8231 
+	}
+	manpower=44756
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

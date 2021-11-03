@@ -1,31 +1,32 @@
+
 state={
 	id=490
 	name="STATE_490"
-	provinces={
-		1967 2966 4047 4030
-	}
-	manpower = 96756
-	
-	state_category = large_town
-	
-	buildings_max_level_factor = 1.000
-		
+
 	history={
 		owner = JSW
-		victory_points = { 4030 10 }
-		victory_points = { 1967 5 }
-		victory_points = { 2966 1 }
-		victory_points = { 4047 5 }
-
+		victory_points = {
+			4030 10 
+		}
+		victory_points = {
+			2966 1 
+		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 2
 			anti_air_building = 0
 			air_base = 0
+
 		}
 		add_core_of = JSW
 
-
 	}
+
+	provinces={
+		2966 4030 4047 7870 7871 7872 7873 7874 7875 7876 7877 7878 7879 7880 7881 7882 
+	}
+	manpower=46756
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

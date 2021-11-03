@@ -1,30 +1,32 @@
+
 state={
 	id=590
 	name="STATE_590"
-	provinces={
-		2775 4034 4003 
-	}
-	manpower = 60664
-	
-	state_category = large_town
-	
-	buildings_max_level_factor = 1.000
-		
-	history = {
-		owner = GLI
-		victory_points = { 4034 10 }
-		victory_points = { 2775 5 }
-		victory_points = { 4003 5 }
 
+	history={
+		owner = GLI
+		victory_points = {
+			4034 10 
+		}
+		victory_points = {
+			4003 5 
+		}
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2
 			anti_air_building = 0
 			air_base = 0
+
 		}
 		add_core_of = GLI
 
-
 	}
+
+	provinces={
+		4003 4034 8316 8317 8318 8319 8320 8321 8322 
+	}
+	manpower=48664
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

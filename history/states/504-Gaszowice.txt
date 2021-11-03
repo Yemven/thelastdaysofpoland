@@ -1,30 +1,41 @@
+
 state={
 	id=504
 	name="STATE_504"
-	provinces={
-		66 809 4055 
-	}
-	manpower = 21124
-	
-	state_category = rural
-	
-	buildings_max_level_factor = 1.000
-		
-	history = {
+
+	history={
 		owner = WOD
 		add_core_of = WOD
-		victory_points = { 809 1 }
-		victory_points = { 66 1 }
-		victory_points = { 4055 1 }
-
+		victory_points = {
+			809 1 
+		}
+		victory_points = {
+			66 1 
+		}
+		victory_points = {
+			4055 1 
+		}
+		victory_points = {
+			4063 5 
+		}
+		victory_points = {
+			2737 5 
+		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			arms_factory = 0
 			industrial_complex = 1
 			anti_air_building = 0
 			air_base = 0
+
 		}
 
-
 	}
+
+	provinces={
+		66 809 2145 2737 4055 4063 8216 8217 8218 8219 8256 8257 8258 8259 8260 8263 
+	}
+	manpower=58113
+	buildings_max_level_factor=1.000
+	state_category=town
 }

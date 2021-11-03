@@ -1,0 +1,28 @@
+state={
+	id=784
+	name="STATE_784"
+	provinces={
+		3142 7992 7993 8003 8004 8005 8006 8007 8008 8009 8010 8011 8012 8013 8014 8015 
+	}
+	manpower=27455
+	state_category=rural
+	buildings_max_level_factor=1.000
+	
+		history = {
+		owner = CIE
+				victory_points = {
+			3142 1 
+		}
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 0
+			anti_air_building = 0
+			air_base = 0
+		}
+		add_core_of = CIE
+
+
+	}
+}

@@ -2,22 +2,32 @@
 state={
 	id=460
 	name="STATE_460"
-	provinces={
-		1273 3198 3201 3993 
-	}
-	manpower = 78899   state_category = large_city
-	history = {
+
+	history={
 		owner = DGR
-		victory_points = { 3201 30 }
-		victory_points = { 3198 5 }
-		victory_points = { 3993 5 }
+		victory_points = {
+			3201 30 
+		}
+		victory_points = {
+			3198 5 
+		}
+		victory_points = {
+			3993 5 
+		}
 		buildings = {
 			infrastructure = 7
 			arms_factory = 2
 			industrial_complex = 1
-	}
-		add_core_of = DGR
-	}
-	buildings_max_level_factor=1.000
-}
 
+		}
+		add_core_of = DGR
+
+	}
+
+	provinces={
+		3201 7743 7745 7746 7749 7754 
+	}
+	manpower=78899
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

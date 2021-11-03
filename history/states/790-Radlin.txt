@@ -1,0 +1,33 @@
+state={
+	id=790
+	name="STATE_790"
+	provinces={
+		2970 3452 4035 4060 8212 8213 8214 8215 8232 
+	}
+	manpower=35778
+	buildings_max_level_factor=1.000
+	state_category=town
+	
+		history={
+		owner = WOD
+		victory_points = {
+			3452 1 
+		}
+		victory_points = {
+			2970 5 
+		}
+		victory_points = {
+			4035 1 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 0
+			industrial_complex = 0
+			anti_air_building = 0
+			air_base = 0
+
+		}
+		add_core_of = WOD
+
+	}
+}

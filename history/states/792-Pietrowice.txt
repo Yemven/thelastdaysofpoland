@@ -1,0 +1,27 @@
+state={
+	id=792
+	name="STATE_792"
+	provinces={
+		2400 8262 8272 8273 8274 8275 8276 8277 8278 8279 8280 8281 8282 
+	}
+	manpower=18000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	
+		history={
+		owner = WOD
+		add_core_of = WOD
+		victory_points = {
+			2400 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 0
+			anti_air_building = 0
+			air_base = 0
+
+		}
+
+	}
+}

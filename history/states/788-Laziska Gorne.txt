@@ -1,0 +1,27 @@
+state={
+	id=788
+	name="STATE_788"
+	provinces={
+		4047 7872 7873 7874 7875 7876 7877 
+	}
+	manpower=27566
+	buildings_max_level_factor=1.000
+	state_category=town
+	
+	history={
+		owner = JSW
+		victory_points = {
+			4047 5 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 0
+			industrial_complex = 0
+			anti_air_building = 0
+			air_base = 0
+
+		}
+		add_core_of = JSW
+
+	}
+}

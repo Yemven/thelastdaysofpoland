@@ -2,28 +2,28 @@
 state={
 	id=487
 	name="STATE_487"
-	provinces={
-		3129 4031 
-	}
-	manpower = 70759
-	
-	state_category = city
-	
-	buildings_max_level_factor = 1.000
-		
+
 	history={
 		owner = JAW
-		victory_points = { 3129 30 }
-
+		victory_points = {
+			3129 30 
+		}
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 3
 			anti_air_building = 0
 			air_base = 0
+
 		}
 		add_core_of = JAW
 
-
 	}
+
+	provinces={
+		3129 4031 7799 7800 7801 7809 
+	}
+	manpower=70759
+	buildings_max_level_factor=1.000
+	state_category=city
 }

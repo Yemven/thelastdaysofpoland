@@ -1,25 +1,29 @@
+
 state={
 	id=488
 	name="STATE_488"
-	provinces={
-		3171 
-	}
-	manpower = 23433   state_category = town
-	buildings_max_level_factor=1.000
-	
+
 	history={
 		owner = WOD
-		victory_points = { 3171 5 }
-
+		victory_points = {
+			3171 5 
+		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 1
 			anti_air_building = 0
 			air_base = 0
+
 		}
 		add_core_of = WOD
 
-
 	}
+
+	provinces={
+		3171 8261 8294 8295 8296 8297 8298 8299 8300 
+	}
+	manpower=23433
+	buildings_max_level_factor=1.000
+	state_category=town
 }
