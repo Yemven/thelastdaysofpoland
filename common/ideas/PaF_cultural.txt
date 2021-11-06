@@ -1,0 +1,408 @@
+ideas = {
+	freedom_of_speech = {
+		law = yes
+		absolute_freedom = {
+			visible = {
+				use_generic_press_laws = yes
+			}
+			cost = 100
+			removal_cost = -1
+			level = 2
+			modifier = {
+				resistance_target = 0.04
+				political_power_factor = 0.08
+			}
+			ai_will_do = {
+				factor = 0
+			}
+			cancel_if_invalid = no
+			default = yes
+		}
+
+		state_press = {
+			visible = {
+				use_generic_press_laws = yes
+			}
+			cost = 100
+			removal_cost = -1
+			level = 2
+			modifier = {
+				compliance_gain = 0.04
+				resistance_target = -0.04
+				political_power_factor = -0.08
+			}
+			ai_will_do = {
+				base = 0
+			}
+			cancel_if_invalid = no
+		}		
+		censorship = {
+			visible = {
+				use_generic_press_laws = yes
+			}
+			default = yes
+			cost = 100
+			removal_cost = -1
+			level = 2
+			modifier = {
+				resistance_target = -0.04
+			}
+			ai_will_do = {
+				factor = 0
+			}
+			cancel_if_invalid = no
+		}
+	}
+	security_policy = {
+		law = yes
+		slavery_outlawed = {
+			picture = slaves_banned_spirit
+			available = {
+			}
+			on_add = {
+				# set_variable = { slave_number_display = 0 }
+				# set_temp_variable = {
+				# 	temp_brutality = 0
+				# }
+				# set_variable = { slave_brutality = temp_brutality }
+				# set_temp_variable = {
+				# 	temp_level_selector = 0
+				# }
+				# set_variable = { slaver_level = temp_level_selector }
+			}
+			visible = {
+				# NOT = {
+				# 	has_country_flag = default_slave_laws_banned
+				# }
+				# use_generic_slavery_laws = yes
+			}
+			#cost = 100
+			removal_cost = -1
+			level = 0
+			cancel_if_invalid = no
+			default = yes
+			ai_will_do = {
+			}
+		}
+		##DISABLED
+		indentured_servitude = {
+			picture = indentured_servants
+			allowed = {
+				always = no
+			}
+			visible = {
+				always = yes
+			}
+			available = {
+				# if = {
+				# 	limit = {
+				# 		original_tag = NCN
+				# 	}
+				# 	NOT = {
+				# 		has_government = people
+				# 	}
+				# }
+				# custom_trigger_tooltip = {
+				# 	NOT = { has_dynamic_modifier = { modifier = slave_country_change_law } }
+				# 	tooltip = slave_law_trigger_tt
+				# }
+				always = no
+				# has_country_flag = slavery_allowed
+				# use_generic_slavery_laws = yes
+			}
+			on_add = {
+				set_temp_variable = {
+					temp_brutality = 0.15
+				}
+				set_variable = { slave_brutality = .85 }
+				custom_effect_tooltip = slaver_decision_unlocks_tt
+			}
+			cost = 100
+			removal_cost = -1
+			level = 0
+			ai_will_do = {
+				factor = 6
+				modifier = {
+					factor = 0
+					has_government = people
+				}
+				modifier = {
+					factor = 20
+					AND = {
+						has_government = intellectuals
+						tag = VLT
+					}
+				}
+				modifier = {
+					factor = 30
+					tag = TAA
+				}
+			}
+			modifier = {
+				slavery_use_modifier = 1
+			}
+		}
+		slavers_idea_1 = {
+			picture = slaves_1_spirit
+			allowed = {
+				always = no
+			}
+			visible = {
+				NOT = {
+					has_country_flag = default_slave_laws_banned
+				}
+				use_generic_slavery_laws = yes
+			}
+			available = {
+				always = no
+				# has_country_flag = slavery_allowed
+				# use_generic_slavery_laws = yes
+				# if = {
+				# 	limit = {
+				# 		original_tag = NCN
+				# 	}
+				# 	NOT = { has_government = people }
+				# }
+				# custom_trigger_tooltip = {
+				# 	NOT = { has_dynamic_modifier = { modifier = slave_country_change_law } }
+				# 	tooltip = slave_law_trigger_tt
+				# }
+				# has_country_flag = slavery_allowed
+			}
+			on_add = {
+				set_temp_variable = {
+					temp_level_before = slaver_level
+				}
+				set_temp_variable = {
+					temp_brutality = 0.35
+				}
+				set_variable = { slave_brutality = .65 }
+				set_temp_variable = {
+					temp_level_selector = 2
+				}
+				set_variable = { slaver_level = temp_level_selector }
+				if = {
+					limit = { check_variable = { slaver_level > temp_level_before } }
+					add_dynamic_modifier = {
+						modifier = slave_country_change_law
+						days = 90
+					}
+				}
+				custom_effect_tooltip = slaver_decision_unlocks_tt
+			}
+			cost = 100
+			removal_cost = -1
+			level = 1
+			modifier = {
+				stability_factor = -0.02
+				slavery_use_modifier = 2
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 20
+					has_government = ruler
+				}
+				modifier = {
+					factor = 40
+					tag = CES
+				}
+			}
+		}
+		slavers_idea_2 = {
+			picture = slaves_2_spirit
+			allowed = {
+				always = no
+			}
+			available = {
+				always = no
+				# has_country_flag = slavery_allowed
+				# use_generic_slavery_laws = yes
+			}
+			visible = {
+				NOT = {
+					has_country_flag = default_slave_laws_banned
+				}
+				use_generic_slavery_laws = yes
+			}
+			on_add = {
+				set_temp_variable = {
+					temp_level_before = slaver_level
+				}
+				set_temp_variable = {
+					temp_brutality = 0.60
+				}
+				set_variable = { slave_brutality = 0.4 }
+				set_temp_variable = {
+					temp_level_selector = 3
+				}
+				set_variable = { slaver_level = temp_level_selector }
+				if = {
+					limit = { check_variable = { slaver_level > temp_level_before } }
+					add_dynamic_modifier = {
+						modifier = slave_country_change_law
+						days = 90
+					}
+				}
+				custom_effect_tooltip = slaver_decision_unlocks_tt
+			}
+			cost = 100
+			removal_cost = -1
+			level = 2
+			modifier = {
+				stability_factor = -0.04
+				slavery_use_modifier = 3
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 30
+					has_government = ruler
+				}
+				modifier = {
+					factor = 80
+					tag = CES
+				}
+			}
+		}
+		slavers_idea_3 = {
+			picture = slaves_3_spirit
+			allowed = {
+				always = no
+			}
+			available = {
+				always = no
+				# has_country_flag = slavery_allowed
+				# use_generic_slavery_laws = yes
+			}
+			visible = {
+				NOT = {
+					has_country_flag = default_slave_laws_banned
+				}
+				use_generic_slavery_laws = yes
+			}
+			on_add = {
+				set_temp_variable = {
+					temp_level_before = slaver_level
+				}
+				set_temp_variable = {
+					temp_brutality = 0.85
+				}
+				set_variable = { slave_brutality = 0.15 }
+				set_temp_variable = {
+					temp_level_selector = 4
+				}
+				set_variable = { slaver_level = temp_level_selector }
+				if = {
+					limit = { check_variable = { slaver_level > temp_level_before } }
+					add_dynamic_modifier = {
+						modifier = slave_country_change_law
+						days = 90
+					}
+				}
+				custom_effect_tooltip = slaver_decision_unlocks_tt
+			}
+			cost = 100
+			removal_cost = -1
+			level = 3
+			modifier = {
+				stability_factor = -0.06
+				slavery_use_modifier = 4
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 40
+					has_government = ruler
+				}
+				modifier = {
+					factor = 40
+					tag = CES
+				}
+			}
+		}
+		slavers_idea_4 = {
+			picture = slaves_4_spirit
+			allowed = {
+				always = no
+			}
+			available = {
+				always = no
+				# has_country_flag = slavery_allowed
+				# use_generic_slavery_laws = yes
+			}
+			visible = {
+				NOT = {
+					has_country_flag = default_slave_laws_banned
+				}
+				use_generic_slavery_laws = yes
+			}
+			on_add = {
+				set_temp_variable = {
+					temp_level_before = slaver_level
+				}
+				set_temp_variable = {
+					temp_brutality = 1.15
+				}
+				set_variable = { slave_brutality = 0.05 }
+				set_temp_variable = {
+					temp_level_selector = 5
+				}
+				set_variable = { slaver_level = temp_level_selector }
+				if = {
+					limit = { check_variable = { slaver_level > temp_level_before } }
+					add_dynamic_modifier = {
+						modifier = slave_country_change_law
+						days = 90
+					}
+				}
+				custom_effect_tooltip = slaver_decision_unlocks_tt
+			}
+			cost = 100
+			removal_cost = -1
+			level = 4
+			modifier = {
+				stability_factor = -0.08
+				slavery_use_modifier = 5
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		slavers_idea_5 = {
+			picture = slaves_5_spirit
+			allowed = {
+				always = no
+			}
+			available = {
+				always = no
+				# has_country_flag = slavery_allowed
+				# use_generic_slavery_laws = yes
+			}
+			visible = {
+				NOT = {
+					has_country_flag = default_slave_laws_banned
+				}
+				use_generic_slavery_laws = yes
+			}
+			on_add = {
+				set_variable = {
+					slave_capture_rate = 10
+				}
+			}
+			cost = 100
+			removal_cost = -1
+			level = 5
+			modifier = {
+				stability_factor = -0.1
+				MONTHLY_POPULATION = -0.05
+				slavery_use_modifier = 6
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}
+
+
