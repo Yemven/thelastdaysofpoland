@@ -1,0 +1,28 @@
+state={
+	id=363
+	name="STATE_363"
+	provinces={
+		3307 8752 8753 8754 8755 8756 8757 8758 8759 8760 8761 8762 8763
+	}
+	manpower = 204843   state_category = city
+	buildings_max_level_factor=1.000
+	history = {
+		owner = CRN
+		victory_points = { 3307 30 }
+		victory_points = { 8756 1 }
+		victory_points = { 8758 1 }
+		victory_points = { 8753 1 }
+		victory_points = { 8757 1 }
+		victory_points = { 8759 1 }
+		victory_points = { 8760 1 }
+		victory_points = { 8761 1 }
+		victory_points = { 8762 1 }
+		victory_points = { 8763 1 }
+		add_core_of = CRN
+	buildings = {
+	infrastructure = 5
+	industrial_complex = 1
+	arms_factory = 1
+}
+}
+}

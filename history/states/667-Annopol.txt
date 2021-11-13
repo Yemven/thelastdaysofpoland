@@ -2,8 +2,18 @@ state={
 	id=667
 	name="STATE_667"
 	provinces={
-		1505 3084 3925 
+		584 885 1287 1432 1505 2297 2558 3084 3915 8782 8786 8789 8790 8791 8793 8795 8804 8814 8815
 	}
-	manpower = 1   state_category = city
+	manpower = 59151   state_category = city
 	buildings_max_level_factor=1.000
+	history = {
+		owner = KSN
+		victory_points = { }
+		add_core_of = KSN
+	buildings = {
+	infrastructure = 5
+	industrial_complex = 1
+	arms_factory = 1
+}
+}
 }

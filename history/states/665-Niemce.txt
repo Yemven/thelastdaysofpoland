@@ -2,8 +2,18 @@ state={
 	id=665
 	name="STATE_665"
 	provinces={
-		524 584 2297 3870 
+		524 8778 8779 8780 8781 8784 8785 8787 8788 8792 8794
 	}
-	manpower = 1   state_category = city
+	manpower = 37945   state_category = city
 	buildings_max_level_factor=1.000
+	history = {
+		owner = CRN
+		victory_points = {  }
+		add_core_of = CRN
+	buildings = {
+	infrastructure = 5
+	industrial_complex = 1
+	arms_factory = 1
+}
+}
 }
