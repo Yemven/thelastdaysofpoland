@@ -7,7 +7,10 @@ set_technology = {
 
 set_convoys = 20
 
-
+add_ideas = {
+WOD_europa_ante_portas
+WOD_legacy_of_honor
+}
 
 
 set_politics = {
@@ -32,9 +35,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Der Blutgeist"
+	name = "Bartosz Bekier"
 	desc = "Z RAZ OBRANEJ DROGI NIE ZAWRACAJ W TYL"
-	picture = "gfx/leaders/WOD/WOD_Blutgeist.dds"
+	picture = "gfx/leaders/WOD/WOD_Bekier1.dds"
 	ideology = neonationalism_subtype
 	traits = {
 		#

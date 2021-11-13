@@ -716,9 +716,9 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "leader"
-				position = { x = 5 y = -45 }
+				position = { x = 0 y = -45 }
 				textureFile = ""
-				font = "vic_36"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 240
@@ -729,7 +729,7 @@ guiTypes = {
 				name = "ideology_label"
 				position = { x = 0 y = 35 }
 				textureFile = ""
-				font = "vic_18s"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
 				maxWidth = 340
@@ -739,7 +739,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "ideology"
 				position = { x = 1 y = 52 }
-				font = "vic_18"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -748,7 +748,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "government_label"
 				position = { x = 0 y = 75 }
-				font = "vic_18s"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "GOVERNMENT"
 				maxWidth = 340
@@ -758,7 +758,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "government"
 				position = { x = 1 y = 92 }
-				font = "vic_18"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 0}
 				text = "FE_INTERESTING_COUNTRIES"
 				maxWidth = 340
@@ -768,7 +768,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "elections_label"
 				position = { x = 0 y = 115 }
-				font = "vic_18s"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "ELECTIONS"
 				maxWidth = 340
@@ -778,7 +778,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "elections"
 				position = { x = 0 y = 132 }
-				font = "vic_18"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -787,7 +787,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "party_label"
 				position = { x = 0 y = 155 }
-				font = "vic_18s"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
 				maxWidth = 340
@@ -797,7 +797,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "party"
 				position = { x = 0 y = 172 }
-				font = "vic_18"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -807,7 +807,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "nation_title"
 			position = { x = 437 y = 429 }
-			font = "hoi_24header"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
 			maxHeight = 30	

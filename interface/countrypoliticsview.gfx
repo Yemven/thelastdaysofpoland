@@ -616,7 +616,12 @@ spriteTypes = {
 		textureFile = "gfx//interface//occupied_list_entry.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
-
+	spriteType = {
+		name = "GFX_idee_menu_window"
+		textureFile = "gfx//interface//idee_menu_window.dds"
+		borderSize = { x=64 y=64 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
 	spriteType = {
 		name = "GFX_generic_square_button"
 		textureFile = "gfx//interface//occupation_policy_button.dds"

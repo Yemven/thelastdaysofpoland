@@ -1,0 +1,40 @@
+leader_traits = {
+	head_of_government = {
+		random = no
+	}
+	minister_of_war = {
+		random = no
+	}
+	minister_of_economy = {
+		random = no
+	}
+	interior_minister = {
+		random = no
+	}
+	master_of_rethorics = {
+		random = no
+		research_speed_factor = 0.05
+		political_power_gain = 0.1
+	}
+	ruthless_player = {
+		random = no
+		army_defence_factor = 0.05
+		army_attack_factor = 0.05
+		non_core_manpower = -0.02
+	}
+	automobile_supremacist = {
+		random = no
+		production_speed_infrastructure_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+	}
+	pragmatic_organiser = {
+		random = no
+		local_resources_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.15
+	}
+	shadow_man = {
+		random = no
+		decryption_power = 10
+		agency_upgrade_time = -0.1
+	}
+}

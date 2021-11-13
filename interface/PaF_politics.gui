@@ -1,0 +1,40 @@
+guiTypes = {
+        		containerWindowType = {
+			name = "Paf_Politics"
+			position = { x = 88 y = 305 }
+			size = { width = 255 height = 60 }
+			clipping = no
+					
+			
+			instantTextboxType = {
+				name = "leader_title"
+				position = { x = -74 y = -245 }
+				font = "hoi_18mbs"
+				text = [Root.GetLocTitle]
+				maxWidth = 155
+				maxHeight = 20
+				format = centre
+			}
+			
+			instantTextboxType = {
+				name = "party_type"
+				position = { x = 253  y = 100 }
+				font = "hoi_18mbs"
+				text = [Root.GetRulingPartyLong]
+				maxWidth = 180
+				maxHeight = 20
+				format = centre		
+			}
+					
+			instantTextboxType = {
+				name = "name"
+				position = { x = 99 y = -35 }
+				font = "stellaris_main"
+				text = [Root.GetLocGovernment]
+				maxWidth = 130
+				maxHeight = 20
+				format = centre
+		}
+			
+		}
+}
