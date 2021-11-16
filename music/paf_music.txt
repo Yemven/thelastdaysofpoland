@@ -139,3 +139,13 @@ music = {
 		}
 	}
 }
+music = {
+	song = "intro_lublin"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+			tag = CRN
+		}
+	}
+}
