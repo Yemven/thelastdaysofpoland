@@ -69,6 +69,18 @@ defined_text = {
 		trigger = { tag = CCH }
 		localization_key = TITLE_CCH
 	}
+	text = {
+		trigger = { tag = CHO }
+		localization_key = TITLE_CHO
+	}
+	text = {
+		trigger = { tag = RUD }
+		localization_key = TITLE_RUD
+	}
+	text = {
+		trigger = { tag = TRC }
+		localization_key = TITLE_TRC
+	}
 	
 	
 	text = {
@@ -148,8 +160,21 @@ defined_text = {
 	text = {
 		trigger = { tag = CCH }
 		localization_key = GOVERNMENT_CCH
+	}
+	text = {
+		trigger = { tag = CHO }
+		localization_key = GOVERNMENT_CHO
+	}	
+	text = {
+		trigger = { tag = RUD }
+		localization_key = GOVERNMENT_RUD
+	}	
+	text = {
+		trigger = { tag = TRC }
+		localization_key = GOVERNMENT_TRC
 	}	
 	
+
 	text = {
 	localization_key = DEFAULT_GOVERNMENT
 	}

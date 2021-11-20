@@ -2,21 +2,33 @@
 state={
 	id=402
 	name="STATE_402"
-	provinces={
-		998 1516 3118 3242 
-	}
-	manpower = 43674   state_category = large_town
-	buildings_max_level_factor=1.000
-			history = {
-		owner = OPO
-		victory_points = { 998 10 }
-		victory_points = { 1516 1 }
-		victory_points = { 3118 1 }
-		victory_points = { 3242 1 }
-		add_core_of = OPO
-		buildings = {
-		infrastructure = 6
+
+	history={
+		owner = LCH
+		victory_points = {
+			998 10 
 		}
-}
-}
+		victory_points = {
+			1516 1 
+		}
+		victory_points = {
+			3118 1 
+		}
+		victory_points = {
+			3242 1 
+		}
+		add_core_of = LCH
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		998 1516 9343 9344 9345 9346 9347 9348 
+	}
+	manpower=43674
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

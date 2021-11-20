@@ -1,4 +1,4 @@
-﻿capital = 603
+﻿capital = 449
 
 # Starting tech
 set_technology = {
@@ -19,16 +19,16 @@ set_politics = {
 
 set_popularities = {
 	marxism_cranism	= 0
-	squattism = 0
+	squattism = 10
 	socialdemocrature = 0
 	euroliberalism = 0
 	freemarketism = 0
 	paternal_conservatism = 0
-	autocracy = 0
+	autocracy = 19
 	corporativism = 0
-	neonationalism = 19
-	reactionary = 23
-	postpolonism = 58
+	neonationalism = 23
+	reactionary = 10
+	postpolonism = 38
 }
 
 create_country_leader = {
@@ -36,26 +36,6 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/LEH/LEH_Sanjaya1.dds"
 	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jarowoj"
-	desc = ""
-	picture = "gfx/leaders/LEH/LEH_Jarowoj1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Genseric II"
-	desc = ""
-	picture = "gfx/leaders/LEH/LEH_Genzeryk1.dds"
-	ideology = reactionary_subtype
 	traits = {
 		#
 	}

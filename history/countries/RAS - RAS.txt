@@ -11,7 +11,7 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = euroliberalism
+	ruling_party = autocracy
 	last_election = "2027.3.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -21,10 +21,10 @@ set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
 	socialdemocrature = 11
-	euroliberalism = 63
+	euroliberalism = 33
 	freemarketism = 0
 	paternal_conservatism = 21
-	autocracy = 0
+	autocracy = 30
 	corporativism = 0
 	neonationalism = 0
 	reactionary = 5
@@ -32,10 +32,10 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Jerzy Gorzelik"
+	name = "Hans Ulrich Schaffgotsch"
 	desc = ""
-	picture = "gfx/leaders/RAS/RAS_Gorzelik.dds"
-	ideology = euroliberalism_subtype
+	picture = "gfx/leaders/RAS/RAS_Szafgocz.dds"
+	ideology = autocracy_subtype
 	traits = {
 		#
 	}

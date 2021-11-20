@@ -1,18 +1,28 @@
+
 state={
 	id=603
 	name="STATE_603"
-	provinces={ 1787 867  }
-	manpower = 46912 
-            state_category = large_town
+
+	history={
+		owner = NYS
+		victory_points = {
+			1787 30 
+		}
+		victory_points = {
+			867 4 
+		}
+		buildings = {
+			infrastructure = 8
+
+		}
+		add_core_of = NYS
+
+	}
+
+	provinces={
+		1787 9281 9282 9283 9284 9285 9290 
+	}
+	manpower=46912
 	buildings_max_level_factor=1.000
-	history = {
-		owner = LEH
-		victory_points = { 1787 30 }
-		victory_points = { 867 4 }
-	buildings = {
-	infrastructure = 8
-	
-}
-add_core_of = LEH
-}
+	state_category=large_town
 }

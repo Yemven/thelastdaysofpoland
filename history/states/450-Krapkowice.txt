@@ -1,19 +1,31 @@
+
 state={
 	id=450
 	name="STATE_450"
-	provinces={
-		1003 1612 3991 
-	}
-	manpower = 35789   state_category = town
-	buildings_max_level_factor=1.000
-					history = {
-		owner = MNI
-		victory_points = { 1003 1 }
-		victory_points = { 1612 10 }
-		victory_points = { 3991 1 }
-		add_core_of = MNI
-		buildings = {
-		infrastructure = 5
+
+	history={
+		owner = WAN
+		victory_points = {
+			1003 1 
 		}
-}
+		victory_points = {
+			1612 10 
+		}
+		victory_points = {
+			3991 1 
+		}
+		add_core_of = WAN
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		1003 1612 2464 3991 9249 9250 9251 9252 9253 9254 9255 9256 9263 9264 9265 9266 9267 
+	}
+	manpower=35789
+	buildings_max_level_factor=1.000
+	state_category=town
 }
