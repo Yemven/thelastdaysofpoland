@@ -165,7 +165,7 @@ ConstantBuffer( 3, 32 ) # For arrow shader
 	float vNormalMapFactor;
 };
 
-ConstantBuffer( 2, 32 ) # For symbol shader
+ConstantBuffer( 4, 32 ) # For symbol shader
 {
 	float4 SymbolColor;
 	float4 Position_Scale;

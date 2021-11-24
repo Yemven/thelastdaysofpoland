@@ -290,199 +290,97 @@ ideas = {
 	
 	army_training_level = {
 		law = yes
-	# Generic
-		training_level_none = {
-			cost = 100
+		training_battle = {
+			available = { always = no }
 			removal_cost = -1
-			level = 5
-			picture = training_level_none
-			visible = {
-				use_generic_officer_training_laws = yes
-			}
-			modifier = {
-				training_time_factor = -0.1
-			}
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			default = yes
-			cancel_if_invalid = no
-		}
-		training_level_warlord = {
-			cost = 100
+			}
+		training_basic = {
+			available = { always = no }
 			removal_cost = -1
-			level = 4
-			picture = training_level_warlord
-			visible = {
-				use_generic_officer_training_laws = yes
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			}
-			modifier = {
-				army_org_Factor = 0.02
-				justify_war_goal_time = -0.05
-				training_time_factor = -0.05
-			}
-			cancel_if_invalid = no
-		}
-		training_level_improvised = {
-			cost = 100
+		training_veterans = {
+			available = { always = no }
 			removal_cost = -1
-			level = 3
-			picture = training_level_improvised
-			visible = {
-				use_generic_officer_training_laws = yes
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			}
-			ai_will_do = {
-				factor = 1
-			}
-			modifier = {
-				army_org_Factor = 0.03
-				justify_war_goal_time = -0.08
-			}
-			cancel_if_invalid = no
-		}
-		training_level_veterans = {
-			cost = 100
+		training_western_instructors = {
+			available = { always = no }
 			removal_cost = -1
-			level = 2
-			picture = training_level_veterans
-			visible = {
-				use_generic_officer_training_laws = yes
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			}
-			ai_will_do = {
-				factor = 1
-			}
-			modifier = {
-				army_org_Factor = 0.05
-				justify_war_goal_time = -0.1
-				training_time_factor = 0.1
-			}
-			cancel_if_invalid = no
-		}
-		training_level_professional = {
-			cost = 100
+		training_russian_instructors = {
+			available = { always = no }
 			removal_cost = -1
-			level = 1
-			picture = training_level_professional
-			visible = {
-				use_generic_officer_training_laws = yes
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			}
-			ai_will_do = {
-				factor = 1
+		training_professional = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			}
-			modifier = {
-				army_org_Factor = 0.08
-				justify_war_goal_time = -0.15
-				training_time_factor = 0.2
-			}
-			cancel_if_invalid = no
-		}
 	}
 	
-	
-	officer_level = {
+	officer_training_level = {
 		law = yes
-	# Generic
-		spontaneous_leaders = {
-			picture = spontaneous_leaders
-			cost = 100
-			removal_cost = -1
-			level = 5
-			visible = {
-				use_generic_officer_training_laws = yes
-			}
-			modifier = {
-				political_power_gain = 0.1
-				military_leader_cost_factor = -0.4
-			}
+		officer_random = {
 			default = yes
-			cancel_if_invalid = no
-		}
-		neighborhood_leaders = {
-			picture = neighborhood_leaders
-			cost = 100
+			available = { always = no }
 			removal_cost = -1
-			level = 4
-			visible = {
-				use_generic_officer_training_laws = yes
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			}
-			ai_will_do = {
-				factor = 1
-			}
-			modifier = {
-				special_forces_min = 5
-				max_command_power = 10
-				political_power_gain = 0.05
-				military_leader_cost_factor = -0.3
-			}
-			cancel_if_invalid = no
-		}
-		local_legends = {
-			cost = 100
+		officer_clerks = {
+			available = { always = no }
 			removal_cost = -1
-			level = 3
-			picture = local_legends
-			visible = {
-				use_generic_officer_training_laws = yes
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			}
-			ai_will_do = {
-				factor = 1
-			}
-			modifier = {
-				special_forces_min = 10
-				max_command_power = 15
-				military_leader_cost_factor = -0.2
-				army_leader_start_level = 1
-				army_leader_start_logistics_level = 1
-				army_leader_start_defense_level = 1
-				army_org_Factor = 0.01
-			}
-			cancel_if_invalid = no
-		}
-		veteran_officers = {
-			cost = 100
+		officer_mercenaries = {
+			available = { always = no }
 			removal_cost = -1
-			level = 2
-			visible = {
-				use_generic_officer_training_laws = yes
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			}
-			picture = veteran_officers
-			ai_will_do = {
-				factor = 1
-			}
-			modifier = {
-				special_forces_min = 15
-				special_forces_cap = 0.01
-				max_command_power = 20
-				political_power_gain = -0.05
-				military_leader_cost_factor = -0.1
-				army_leader_start_level = 1
-				army_leader_start_logistics_level = 1
-				army_leader_start_defense_level = 1
-				army_org_Factor = 0.01
-			}
-			cancel_if_invalid = no
-		}
-		military_academy = {
-			cost = 100
+		officer_leftovers = {
+			available = { always = no }
 			removal_cost = -1
-			level = 1
-			picture = military_academy
-			visible = {
-				use_generic_officer_training_laws = yes
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			}
-			ai_will_do = {
-				factor = 1
+		officer_schools = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			}
-			modifier = {
-				special_forces_min = 20
-				special_forces_cap = 0.02
-				max_command_power = 25
-				political_power_gain = -0.1
-				army_leader_start_level = 2
-				army_leader_start_attack_level = 1
-				army_leader_start_defense_level = 1
-				army_leader_start_planning_level = 1
-				army_leader_start_logistics_level = 1
-				army_org_Factor = 0.02
+		officer_academies = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
 			}
-			cancel_if_invalid = no
-		}
+		
 	}
+	
 }

@@ -144,7 +144,7 @@ posteffect_values = {
 	#lut = "gfx/world/colorcorrection_green_night.tga"
 	lut = "gfx/world/colorcorrection_green_night3.tga"
 	tonemap_middlegrey = 0.7
-	BLOOM_WIDTH = 20
+	BLOOM_WIDTH = 2.0
 	BLOOM_SCALE = 1.5
 	BRIGHT_THRESHOLD = 0.8
 	
@@ -253,7 +253,21 @@ posteffect_values = {
 
 }
 
-
+	posteffect_values = {
+	name = africa_values
+	inherit = standard
+	
+	#lut = "gfx/world/colorcorrection_neutral.tga"
+	lut = "gfx/world/colorcorrection_southafrica.tga"
+	
+	#BLOOM_WIDTH = 1.5
+	#BLOOM_SCALE = 0.0
+	#BRIGHT_THRESHOLD = 1.0
+	#tonemap_middlegrey = 0.50
+	#hdr_min_adjustment = 1.0
+	#hdr_max_adjustment = 0.5
+		
+}				 
 posteffect_values = {
 	name = africa_values_night
 	inherit = standard

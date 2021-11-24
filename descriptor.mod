@@ -1,9 +1,9 @@
-version="1.10.*"
+version="1.11.*"
 tags={
 	"Alternative History"
 }
 name="Pride and Fall DevR"
-supported_version="1.10.*"
+supported_version="1.11.*"
 replace_path="events"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"

@@ -1,0 +1,192 @@
+ideas = {
+	party_system = {
+		law = yes
+		no_party = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		monoparty = { 			
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		controlled_opposition = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		multiparty = { 
+			default = yes
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 	
+		}
+	}
+	
+	freedom_of_speech = {
+		law = yes
+		absolute_censorship = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 4
+		}
+		state_press = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 3
+			default = yes
+		}
+		autocensorship = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 2
+		}
+		absolute_freedom = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 1
+		}
+	}
+	
+	security_policy = {
+		law = yes
+		improvised_security  = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 5
+			default = yes
+		}
+		basic_security = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 4
+		}
+		advanced_security = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 3
+		}
+		direct_security = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 2
+		}
+		extreme_security = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 1
+		}
+    }
+	
+	health_care = {
+		law = yes
+		witch_doctors  = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 4
+		}
+		private_healthcare  = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 3
+			default = yes
+		}
+		partial_refundation = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 2
+		}
+		public_healthcare = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 1
+		}
+	}
+	
+	subsidies = {
+		law = yes
+		no_subsidies = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 4
+			default = yes
+		}
+		civil_industry_subsidies = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 3
+		}
+		military_industry_subsidies = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 2
+		}
+		basic_income = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			level = 1
+			}
+		}
+}
+
+

@@ -85,12 +85,12 @@ guiTypes = {
 	containerWindowType = {
 		name = "countryflag_entry"
 		position = { x=0 y=0}	
-		size = { width=45 height=31 }
+		size = { width=47 height=32 }
 		
 		buttonType = {
 			name = "flag"
 			quadTextureSprite ="GFX_flag_small2"
-			position = { x= 6 y = 6 }
+			position = { x= 7 y = 6 }
 			Orientation = "UPPER_LEFT"
 		}
 		
