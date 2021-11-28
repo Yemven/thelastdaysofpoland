@@ -7,6 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
+recruit_character = GER_ursula_von_der_leyen
 
 create_faction = "European Union"
 add_to_faction = EKS
@@ -41,12 +42,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Ursula von der Leyen"
-	desc = ""
-	picture = "gfx/leaders/GER/GER_Leyen.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}
+

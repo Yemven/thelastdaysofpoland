@@ -1,0 +1,41 @@
+characters={
+	STE_loża_biznesmenów={
+		name="Loża Biznesmenów"
+		portraits={
+			civilian={
+				large="gfx/leaders/STE/STE_Loza1.dds"
+			}
+		}
+		country_leader={
+			ideology=corporativism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STE_dariusz_olech={
+		name="Dariusz Olech"
+		portraits={
+			civilian={
+				large="gfx/leaders/STE/STE_Olech1.dds"
+			}
+		}
+		country_leader={
+			ideology=freemarketism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STE_ppdiur_gryf={
+		name="PPDiUR Gryf"
+		portraits={
+			civilian={
+				large="gfx/leaders/STE/STE_Gryf1.dds"
+			}
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

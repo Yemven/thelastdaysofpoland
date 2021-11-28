@@ -1,0 +1,33 @@
+characters={
+	HOR_ryszard_terlecki={
+		name="Ryszard Terlecki"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOR/HOR_Terlecki1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HOR_lich_ard_terlethski={
+		name="Lich Ard Ter'lethski"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOR/HOR_Liszard2.dds"
+			}
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

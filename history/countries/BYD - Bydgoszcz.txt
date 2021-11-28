@@ -7,7 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = BYD_sebastian_kulczyk
+recruit_character = BYD_dominika_kulczyk
 
 
 set_politics = {
@@ -29,23 +30,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Sebastian Kulczyk"
-	desc = ""
-	picture = "gfx/leaders/BYD/BYD_Kulczyk1.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Dominika Kulczyk"
-	desc = ""
-	picture = "gfx/leaders/BYD/BYD_Kulczykowa1.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
 }

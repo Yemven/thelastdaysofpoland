@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = BRD_border_guard
 
 
 set_politics = {
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Border Guard"
-	desc = ""
-	picture = "gfx/leaders/PDL/PDL_StrazGraniczna1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
 }

@@ -1,5 +1,7 @@
 ﻿capital = 505
 
+recruit_character = BOH_stanisław_piotrowicz
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -31,12 +33,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Stanisław Piotrowicz"
-	desc = ""
-	picture = "gfx/leaders/BOH/BOH_Piotrowicz1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}

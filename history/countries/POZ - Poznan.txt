@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = POZ_jacek_jaśkowiak
 
 set_politics = {
 	ruling_party = euroliberalism
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Jacek Jaśkowiak"
-	desc = ""
-	picture = "gfx/leaders/POZ/POZ_Jaskowiak1.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}

@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = LIT_gitanas_nausėda
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Gitanas Nausėda"
-	desc = ""
-	picture = "gfx/leaders/LIT/LIT_Nauseda.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}

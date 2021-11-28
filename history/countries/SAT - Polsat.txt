@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = SAT_zygmunt_solorzŻak
 
 set_politics = {
 	ruling_party = corporativism
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Zygmunt Solorz-Żak"
-	desc = ""
-	picture = "gfx/leaders/SAT/SAT_Solorz1.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
 }

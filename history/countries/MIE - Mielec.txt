@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = MIE_tadeusz_wrona
 
 
 set_politics = {
@@ -31,12 +31,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "TAdeusz Wrona"
-	desc = ""
-	picture = "gfx/leaders/MIE/MIE_Wrona.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}
+

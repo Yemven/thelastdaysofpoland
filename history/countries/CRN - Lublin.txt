@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = CRN_przemysław_czarnek
 
 
 set_politics = {
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Przemysław Czarnek"
-	desc = ""
-	picture = "gfx/leaders/CRN/CRN_Przemyslaw_Czarnek.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
 }

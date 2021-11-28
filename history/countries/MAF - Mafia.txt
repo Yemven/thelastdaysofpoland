@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = MAF_boss
 
 
 set_politics = {
@@ -31,12 +31,4 @@ set_popularities = {
 	postpolonism = 22
 }
 
-create_country_leader = {
-	name = "Boss"
-	desc = ""
-	picture = "gfx/leaders/MAF/MAF_1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
+

@@ -7,7 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = PIL_henryk_kania
+recruit_character = PIL_henryk_stokłosa
 
 
 set_politics = {
@@ -29,23 +30,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 60
-}
-
-create_country_leader = {
-	name = "Henryk Kania"
-	desc = ""
-	picture = "gfx/leaders/PIL/PIL_Kania1.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Henryk Stokłosa"
-	desc = ""
-	picture = "gfx/leaders/PIL/PIL_Stoklosa1.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
 }

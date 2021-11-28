@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = CIE_adam_małysz
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Adam Małysz"
-	desc = ""
-	picture = "gfx/leaders/CIE/CIE_Malysz.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}

@@ -7,8 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
-
-
+recruit_character = ZAW_jarosław_gowin
+recruit_character = ZAW_sebastian_kaleta
 
 set_politics = {
 	ruling_party = paternal_conservatism
@@ -29,54 +29,4 @@ set_popularities = {
 	neonationalism = 4
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Jarosław Gowin"
-	desc = ""
-	picture = "gfx/leaders/ZAW/ZAW_Gowin.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jarosław Gowin"
-	desc = ""
-	picture = "gfx/leaders/ZAW/ZAW_Gowin.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Małgorzata Wassermann"
-	desc = ""
-	picture = "gfx/leaders/ZAW/ZAW_Wassermann.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jacek Sasin"
-	desc = ""
-	picture = "gfx/leaders/ZAW/ZAW_Sasin.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sebastian Kaleta"
-	desc = ""
-	picture = "gfx/leaders/ZAW/ZAW_Kaleta.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
 }

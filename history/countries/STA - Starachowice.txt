@@ -7,7 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = STA_marek_materek
+recruit_character = STA_council_of_labour
 
 
 set_politics = {
@@ -29,24 +30,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Marek Materek"
-	desc = ""
-	picture = "gfx/leaders/STA/STA_Materek1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Council of Labour"
-	desc = ""
-	picture = "gfx/leaders/STA/STA_Rada1.dds"
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
 }

@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = WAR_radosław_sikorski
 
 set_politics = {
 	ruling_party = autocracy
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Radosław Sikorski"
-	desc = ""
-	picture = "gfx/leaders/WAR/WAR_Sikorski1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
 }

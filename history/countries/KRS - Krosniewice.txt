@@ -8,7 +8,9 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = KRS_witold_skrzydlewski
+recruit_character = KRS_krzysztof_rutkowski
+recruit_character = KRS_tadeusz_celder
 
 set_politics = {
 	ruling_party = corporativism
@@ -31,32 +33,3 @@ set_popularities = {
 	postpolonism = 21
 }
 
-create_country_leader = {
-	name = "Witold Skrzydlewski"
-	desc = ""
-	picture = "gfx/leaders/KRS/KRS_Skrzydlewski.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Krzysztof Rutkowski"
-	desc = ""
-	picture = "gfx/leaders/KRS/KRS_Rutkowski.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Tadeusz Celder"
-	desc = ""
-	picture = "gfx/leaders/KRS/KRS_Celder.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

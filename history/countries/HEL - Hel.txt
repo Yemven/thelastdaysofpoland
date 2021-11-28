@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = HEL_artur_dziambor
 
 set_politics = {
 	ruling_party = freemarketism
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Artur Dziambor"
-	desc = ""
-	picture = "gfx/leaders/HEL/HEL_Dziambor1.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
 }

@@ -7,6 +7,9 @@ set_technology = {
 
 set_convoys = 20
 
+recruit_character = USP_mariusz_max_kolonko
+recruit_character = USP_nha_kha_na_pe
+recruit_character = USP_wojciech_cejrowski
 
 set_politics = {
 	ruling_party = freemarketism
@@ -29,33 +32,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-	
-create_country_leader = {
-	name = "Mariusz Max Kolonko"
-	desc = ""
-	picture = "gfx/leaders/USP/USP_Kolonko1.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nha Kha Na Pe"
-	desc = ""
-	picture = "gfx/leaders/USP/USP_Nakanape1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Wojciech Cejrowski"
-	desc = ""
-	picture = "gfx/leaders/USP/USP_Cejrowski1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}

@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = WDW_michał_nowicki
 
 set_politics = {
 	ruling_party = marxism_cranism
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Michał Nowicki"
-	desc = ""
-	picture = "gfx/leaders/WDW/WDW_Towarzysz1.dds"
-	ideology = marxism_cranism_subtype
-	traits = {
-		#
-	}
-}

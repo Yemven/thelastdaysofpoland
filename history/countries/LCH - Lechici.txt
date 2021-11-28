@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = LCH_janusz_bieszk
 
 
 set_politics = {
@@ -32,12 +32,3 @@ set_popularities = {
 }
 
 
-create_country_leader = {
-	name = "Janusz Bieszk"
-	desc = ""
-	picture = "gfx/leaders/LCH/LCH_Bieszk1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

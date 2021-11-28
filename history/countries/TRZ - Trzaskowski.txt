@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = TRZ_rafał_trzaskowski
 
 set_politics = {
 	ruling_party = euroliberalism
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 8
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Rafał Trzaskowski"
-	desc = ""
-	picture = "gfx/leaders/TRZ/TRZ_Trzaskowski1.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
 }

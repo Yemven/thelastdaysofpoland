@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = WML_szymon_hołownia
 
 
 set_politics = {
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Szymon Hołownia"
-	desc = ""
-	picture = "gfx/leaders/WML/WML_Holownia1.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
 }

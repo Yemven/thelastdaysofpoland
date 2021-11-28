@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = BRZ_jerzy_brzęczek
 
 
 set_politics = {
@@ -29,24 +29,4 @@ set_popularities = {
 	neonationalism = 17
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Jerzy Brzęczek"
-	desc = ""
-	picture = "gfx/leaders/BRZ/BRZ_JerryBuzzer2.dds"
-	ideology = marxism_cranism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jerzy Brzęczek"
-	desc = ""
-	picture = "gfx/leaders/BRZ/BRZ_JerryBuzzer.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
 }

@@ -7,7 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = SDL_mateusz_piskorski
+recruit_character = SDL_michał_kołodziejczak
 
 
 set_politics = {
@@ -31,22 +32,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Mateusz Piskorski"
-	desc = ""
-	picture = "gfx/leaders/SDL/SDL_Piskorski1.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Michał Kołodziejczak"
-	desc = ""
-	picture = "gfx/leaders/SDL/SDL_Kołodziejczak1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}

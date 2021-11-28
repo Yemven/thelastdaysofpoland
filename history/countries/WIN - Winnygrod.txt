@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = WIN_council_of_wine
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Council of Wine"
-	desc = ""
-	picture = "gfx/leaders/WIN/WIN_Council1.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
-}

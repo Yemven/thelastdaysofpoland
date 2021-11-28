@@ -7,6 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
+recruit_character = GAY_robert_biedroń
 
 set_politics = {
 	ruling_party = socialdemocrature
@@ -30,12 +31,4 @@ set_popularities = {
 }
 
 	
-create_country_leader = {
-	name = "Robert Biedroń"
-	desc = ""
-	picture = "gfx/leaders/GAY/GAY_Biedron1.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}
+

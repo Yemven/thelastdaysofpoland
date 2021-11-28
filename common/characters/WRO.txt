@@ -1,0 +1,67 @@
+characters={
+	WRO_jacek_sutryk={
+		name="Jacek Sutryk"
+		portraits={
+			civilian={
+				large="gfx/leaders/WRO/WRO_Sutryk.dds"
+			}
+		}
+		country_leader={
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WRO_rafał_dutkiewicz={
+		name="Rafał Dutkiewicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/WRO/WRO_Dutkiewicz.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WRO_jacek_międlar={
+		name="Jacek Międlar"
+		portraits={
+			civilian={
+				large="gfx/leaders/WRO/WRO_Miedlar.dds"
+			}
+		}
+		country_leader={
+			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WRO_marta_lempart={
+		name="Marta Lempart"
+		portraits={
+			civilian={
+				large="gfx/leaders/WRO/WRO_Lempart.dds"
+			}
+		}
+		country_leader={
+			ideology=squattism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WRO_agnieszka_dziemianowiczbąk={
+		name="Agnieszka Dziemianowicz-Bąk"
+		portraits={
+			civilian={
+				large="gfx/leaders/WRO/WRO_DziemianowiczBak.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -7,6 +7,11 @@ set_technology = {
 
 set_convoys = 20
 
+recruit_character = DGR_bas_tajpan
+recruit_character = DGR_krzysztof_szwej
+recruit_character = DGR_mateusz_popeye
+recruit_character = DGR_marcin_bazylak
+recruit_character = DGR_aleksander_bargieła
 
 set_politics = {
 	ruling_party = marxism_cranism
@@ -30,62 +35,3 @@ set_popularities = {
 }
 
 	
-create_country_leader = {
-	name = "Bas Tajpan"
-	desc = ""
-	picture = "gfx/leaders/DGR/DGR_BasTajpan.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bas Tajpan"
-	desc = ""
-	picture = "gfx/leaders/DGR/DGR_BasTajpan.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Krzysztof Szwej"
-	desc = ""
-	picture = "gfx/leaders/DGR/DGR_Szwej1.dds"
-	ideology = marxism_cranism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mateusz Popeye"
-	desc = ""
-	picture = "gfx/leaders/DGR/DGR_Popeye.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Marcin Bazylak"
-	desc = ""
-	picture = "gfx/leaders/DGR/DGR_Bazylak.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aleksander Bargieła"
-	desc = ""
-	picture = "gfx/leaders/DGR/DGR_Bargiela.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}

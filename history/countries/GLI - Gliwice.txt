@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = GLI_szczepan_twardoch
 
 
 set_politics = {
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 9
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Szczepan Twardoch"
-	desc = ""
-	picture = "gfx/leaders/GLI/GLI_Twardoch.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
 }

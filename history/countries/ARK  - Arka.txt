@@ -1,5 +1,7 @@
 ﻿capital = 710
 
+recruit_character = ARK_Zbigniew_Rybak
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -29,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Śledź"
-	desc = ""
-	picture = "gfx/leaders/ARK/ARK_Arka1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}

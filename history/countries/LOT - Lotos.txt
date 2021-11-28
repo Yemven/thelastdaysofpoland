@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = LOT_board_of_directors
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Board of Directors"
-	desc = ""
-	picture = "gfx/leaders/LOT/LOT_Board1.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}

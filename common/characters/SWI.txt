@@ -1,0 +1,41 @@
+characters={
+	SWI_janusz_Żmurkiewicz={
+		name="Janusz Żmurkiewicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWI/SWI_Zmurkiewicz1.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism_cranism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SWI_joachim_brudziński={
+		name="Joachim Brudziński"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWI/SWI_Brudzinski1.dds"
+			}
+		}
+		country_leader={
+			ideology=paternal_conservatism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SWI_aleksander_kwaśniewski={
+		name="Aleksander Kwaśniewski"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWI/SWI_Kwasniewski1.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

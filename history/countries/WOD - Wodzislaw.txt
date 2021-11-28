@@ -12,6 +12,8 @@ WOD_europa_ante_portas
 WOD_legacy_of_honor
 }
 
+recruit_character = WOD_bartosz_bekier
+recruit_character = WOD_mariusz_szczerski
 
 set_politics = {
 	ruling_party = neonationalism
@@ -34,12 +36,3 @@ set_popularities = {
 	postpolonism = 20
 }
 
-create_country_leader = {
-	name = "Bartosz Bekier"
-	desc = "Z RAZ OBRANEJ DROGI NIE ZAWRACAJ W TYL"
-	picture = "gfx/leaders/WOD/WOD_Bekier1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}

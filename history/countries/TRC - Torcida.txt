@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = TRC_mara
 
 set_politics = {
 	ruling_party = paternal_conservatism
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Mara"
-	desc = ""
-	picture = "gfx/leaders/TRC/TRC_Mara.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}

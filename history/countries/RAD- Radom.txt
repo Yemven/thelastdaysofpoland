@@ -8,7 +8,8 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = RAD_radosław_witkowski
+recruit_character = RAD_pierre_dadak
 
 set_politics = {
 	ruling_party = euroliberalism
@@ -29,24 +30,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Radosław Witkowski"
-	desc = ""
-	picture = "gfx/leaders/RAD/RAD_Witkowski1.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pierre Dadak"
-	desc = ""
-	picture = "gfx/leaders/RAD/RAD_Dadak1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
 }

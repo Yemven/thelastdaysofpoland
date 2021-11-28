@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = WOW_antoni_macierewicz
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 4
 }
 
-create_country_leader = {
-	name = "Antoni Macierewicz"
-	desc = ""
-	picture = "gfx/leaders/WOW/WOW_Macierewicz1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}

@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = LEM_paisios_i
 
 set_politics = {
 	ruling_party = reactionary
@@ -31,12 +31,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Paisios I"
-	desc = ""
-	picture = "gfx/leaders/LEM/LEM_Paisjusz1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}
+

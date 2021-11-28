@@ -7,6 +7,9 @@ set_technology = {
 
 set_convoys = 20
 
+recruit_character = SWI_janusz_Żmurkiewicz
+recruit_character = SWI_joachim_brudziński
+recruit_character = SWI_aleksander_kwaśniewski
 
 set_politics = {
 	ruling_party = marxism_cranism
@@ -29,33 +32,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-	
-create_country_leader = {
-	name = "Janusz Żmurkiewicz"
-	desc = ""
-	picture = "gfx/leaders/SWI/SWI_Zmurkiewicz1.dds"
-	ideology = marxism_cranism_subtype
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Joachim Brudziński"
-	desc = ""
-	picture = "gfx/leaders/SWI/SWI_Brudzinski1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aleksander Kwaśniewski"
-	desc = ""
-	picture = "gfx/leaders/SWI/SWI_Kwasniewski1.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}

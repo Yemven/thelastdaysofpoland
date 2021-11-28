@@ -1,0 +1,83 @@
+characters={
+	RUS_vladimir_putin={
+		name="Vladimir Putin"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/RUS_Putin.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_alexei_navalny={
+		name="Alexei Navalny"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/RUS_Navalny.dds"
+			}
+		}
+		country_leader={
+			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_pavel_grudinin={
+		name="Pavel Grudinin"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/RUS_Grudinin.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism_cranism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_sergey_mironov={
+		name="Sergey Mironov"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_vladimir_zhirinovsky={
+		name="Vladimir Zhirinovsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROS/ROS_Żyr1.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_ramzan_kadyrov={
+		name="Ramzan Kadyrov"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/RUS_Kadyrov.dds"
+			}
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = SYJ_prorok_lichwała
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 100
 }
 
-create_country_leader = {
-	name = "Prorok Lichwała"
-	desc = ""
-	picture = "gfx/leaders/SYJ/SYJ_Jarek1.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

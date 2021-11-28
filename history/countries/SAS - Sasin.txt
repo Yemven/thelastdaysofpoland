@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = SAS_jacek_sasin
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 7
 }
 
-create_country_leader = {
-	name = "Jacek Sasin"
-	desc = ""
-	picture = "gfx/leaders/SAS/SAS_Sasin1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}

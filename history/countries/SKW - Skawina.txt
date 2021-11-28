@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = SKW_anarchy
 
 set_politics = {
 	ruling_party = squattism
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Anarchy"
-	desc = ""
-	picture = "gfx/leaders/SKW/SKW_Anarchia1.dds"
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
-}

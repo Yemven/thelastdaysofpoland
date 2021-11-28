@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = OSW_beata_szydło
 
 
 set_politics = {
@@ -31,23 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-
-create_country_leader = {
-	name = "Beata Szydło"
-	desc = ""
-	picture = "gfx/leaders/OSW/OSW_Szydlo1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Beata Szydło"
-	desc = ""
-	picture = "gfx/leaders/OSW/OSW_Szydlo2.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}

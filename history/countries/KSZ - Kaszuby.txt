@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = KSZ_jan_wyrowiński
 
 set_politics = {
 	ruling_party = paternal_conservatism
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Jan Wyrowiński"
-	desc = ""
-	picture = "gfx/leaders/KSZ/KSZ_Wyrowinski1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
 }

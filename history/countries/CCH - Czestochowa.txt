@@ -8,7 +8,11 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = CCH_abp._wacław_depo
+recruit_character = CCH_arnold_chrapkowski
+recruit_character = CCH_samuel_pacholski
+recruit_character = CCH_Łukasz_szumowski
+recruit_character = CCH_wojciech_konieczny
 
 set_politics = {
 	ruling_party = autocracy
@@ -29,54 +33,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 11
 	postpolonism = 5
-}
-
-create_country_leader = {
-	name = "abp. Wacław Depo"
-	desc = ""
-	picture = "gfx/leaders/CCH/CCH_Depo.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Arnold Chrapkowski"
-	desc = ""
-	picture = "gfx/leaders/CCH/CCH_Chrapkowski.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Samuel Pacholski"
-	desc = ""
-	picture = "gfx/leaders/CCH/CCH_Pacholski.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Łukasz Szumowski"
-	desc = ""
-	picture = "gfx/leaders/CCH/CCH_Szumowski.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Wojciech Konieczny"
-	desc = ""
-	picture = "gfx/leaders/CCH/CCH_Konieczny.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
 }

@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = KUJ_jacek_rostowski
 
 set_politics = {
 	ruling_party = euroliberalism
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Jacek Rostowski"
-	desc = ""
-	picture = "gfx/leaders/KUJ/KUJ_Rostowski1.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
 }

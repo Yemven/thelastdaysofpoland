@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = MAL_leszek_bubel
 
 
 set_politics = {
@@ -31,12 +31,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Leszek Bubel"
-	desc = ""
-	picture = "gfx/leaders/MAL/MAL_Bubel1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}
+

@@ -1,5 +1,7 @@
 ﻿capital = 509
 
+recruit_character = ASG_captain_termos
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -31,12 +33,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Captain Termos"
-	desc = ""
-	picture = "gfx/leaders/ASG/ASG_Termos.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}

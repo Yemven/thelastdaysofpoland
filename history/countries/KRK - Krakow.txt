@@ -7,7 +7,11 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = KRK_jacek_majchrowski
+recruit_character = KRK_konrad_berkowicz
+recruit_character = KRK_Łukasz_gibała
+recruit_character = KRK_robert_makłowicz
+recruit_character = NHT_krak_iii
 
 
 set_politics = {
@@ -31,52 +35,3 @@ set_popularities = {
 	postpolonism = 3
 }
 
-create_country_leader = {
-	name = "Jacek Majchrowski"
-	desc = ""
-	picture = "gfx/leaders/KRK/KRK_Majchrowski1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Konrad Berkowicz"
-	desc = ""
-	picture = "gfx/leaders/KRK/KRK_Berkowicz1.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Łukasz Gibała"
-	desc = ""
-	picture = "gfx/leaders/KRK/KRK_Gibała1.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Robert Makłowicz"
-	desc = ""
-	picture = "gfx/leaders/KRK/KRK_Majchrowski1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Krak III"
-	desc = ""
-	picture = "gfx/leaders/NHT/NHT_Krak1.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

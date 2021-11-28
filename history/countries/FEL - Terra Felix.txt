@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = FEL_jacek_kowalski
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Jacek Kowalski"
-	desc = ""
-	picture = "gfx/leaders/FEL/FEL_Kowalski1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

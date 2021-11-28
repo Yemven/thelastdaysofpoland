@@ -1,0 +1,29 @@
+characters={
+	ZIE_green_spirit={
+		name="Green Spirit"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIE/ZIE_Spurdo1.dds"
+			}
+		}
+		country_leader={
+			ideology=squattism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIE_boar={
+		name="T H E  B O A R"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIE/ZIE_Boar1.dds"
+			}
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+}

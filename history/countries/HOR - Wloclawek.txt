@@ -8,7 +8,8 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = HOR_ryszard_terlecki
+recruit_character = HOR_lich_ard_terlethski
 
 set_politics = {
 	ruling_party = autocracy
@@ -31,30 +32,3 @@ set_popularities = {
 	postpolonism = 11
 }
 
-create_country_leader = {
-	name = "Ryszard Terlecki"
-	desc = ""
-	picture = "gfx/leaders/HOR/HOR_Terlecki1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Ryszard Terlecki"
-	desc = ""
-	picture = "gfx/leaders/HOR/HOR_Liszard1.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Lich Ard Ter'lethski"
-	desc = ""
-	picture = "gfx/leaders/HOR/HOR_Liszard2.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

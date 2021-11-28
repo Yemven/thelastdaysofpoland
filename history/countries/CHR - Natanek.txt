@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = CHR_ks._piotr_natanek
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "ks. Piotr Natanek"
-	desc = ""
-	picture = "gfx/leaders/CHR/CHR_Natanek1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}

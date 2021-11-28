@@ -7,6 +7,9 @@ set_technology = {
 
 set_convoys = 20
 
+recruit_character = STE_loża_biznesmenów
+recruit_character = STE_dariusz_olech
+recruit_character = STE_ppdiur_gryf
 
 set_politics = {
 	ruling_party = corporativism
@@ -29,33 +32,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-	
-create_country_leader = {
-	name = "Loża Biznesmenów"
-	desc = ""
-	picture = "gfx/leaders/STE/STE_Loza1.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dariusz Olech"
-	desc = ""
-	picture = "gfx/leaders/STE/STE_Olech1.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "PPDiUR Gryf"
-	desc = ""
-	picture = "gfx/leaders/STE/STE_Gryf1.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

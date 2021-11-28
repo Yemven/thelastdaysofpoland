@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = CAL_ricardus_calisius
 
 
 set_politics = {
@@ -29,23 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Ricardus Calisius"
-	desc = ""
-	picture = "gfx/leaders/CAL/CAL_Kalisz1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Ricardus Calisius"
-	desc = ""
-	picture = "gfx/leaders/CAL/CAL_Kalisz1.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
 }

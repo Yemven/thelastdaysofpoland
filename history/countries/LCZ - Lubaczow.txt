@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = LCZ_starosta
 
 
 set_politics = {
@@ -31,12 +31,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Starosta"
-	desc = ""
-	picture = "gfx/leaders/LCZ/LCZ_Starosta.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
+

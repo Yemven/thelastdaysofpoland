@@ -8,7 +8,8 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = RYB_andrzej_gałecki
+recruit_character = RYB_sum_yat_sen
 
 set_politics = {
 	ruling_party = marxism_cranism
@@ -31,12 +32,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Andrzej Gałecki"
-	desc = ""
-	picture = "gfx/leaders/RYB/RYB_Galecki.dds"
-	ideology = marxism_cranism_subtype
-	traits = {
-		#
-	}
-}

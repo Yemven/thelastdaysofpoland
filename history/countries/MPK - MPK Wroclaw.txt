@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = MPK_krzysztof_balawejder
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Krzysztof Balawejder"
-	desc = ""
-	picture = "gfx/leaders/MPK/MPK_Balawejder.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}

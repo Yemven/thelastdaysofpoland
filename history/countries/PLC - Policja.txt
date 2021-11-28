@@ -7,7 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = PLC_komendant_bagieta
+recruit_character = PLC_krystyna_pawłowicz
 
 
 set_politics = {
@@ -31,22 +32,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Komendant Bagieta"
-	desc = ""
-	picture = "gfx/leaders/PLC/PLC_Bagieta1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Krystyna Pawłowicz"
-	desc = ""
-	picture = "gfx/leaders/PLC/PLC_Pawłowicz1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

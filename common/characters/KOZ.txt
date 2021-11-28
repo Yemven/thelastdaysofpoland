@@ -1,0 +1,20 @@
+characters={
+	KOZ_oleh_lyashko={
+		name="Oleh Lyashko"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOZ/KOZ_Laszko1.dds"
+			}
+		}
+		country_leader={
+			ideology=squattism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

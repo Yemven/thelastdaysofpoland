@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = SVK_marian_kotleba
 
 set_politics = {
 	ruling_party = neonationalism
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 40
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Marian Kotleba"
-	desc = ""
-	picture = "gfx/leaders/SVK/SVK_Kotleba.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
 }

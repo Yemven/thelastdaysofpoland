@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = GUR_sebastian_pitoń
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Sebastian Pitoń"
-	desc = ""
-	picture = "gfx/leaders/GUR/GUR_Pitoń1.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}

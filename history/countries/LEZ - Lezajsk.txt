@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = LEZ_regimentarz
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Regimentarz"
-	desc = ""
-	picture = "gfx/leaders/LEZ/LEZ_Regimentarz.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

@@ -7,7 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = ZUK_krzysztof_Żuk
+recruit_character = ZUK_beata_stepaniukkuśmierzak
 
 
 set_politics = {
@@ -31,32 +32,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Krzysztof Żuk"
-	desc = ""
-	picture = "gfx/leaders/ZUK/ZUK_Krzysztof_Zuk.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Krzysztof Żuk"
-	desc = ""
-	picture = "gfx/leaders/ZUK/ZUK_Krzysztof_Zuk.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Beata Stepaniuk-Kuśmierzak"
-	desc = ""
-	picture = "gfx/leaders/ZUK/ZUK_Beata_Stepaniuk-Kusmierzak.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}

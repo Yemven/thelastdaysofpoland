@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = UPA_dmytro_yarosh
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Dmytro Yarosh"
-	desc = ""
-	picture = "gfx/leaders/UPA/UPA_Jarosz1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}

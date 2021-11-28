@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = HMA_president
 
 
 set_politics = {
@@ -31,12 +31,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "President"
-	desc = ""
-	picture = "gfx/leaders/PDL/PDL_President1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
+

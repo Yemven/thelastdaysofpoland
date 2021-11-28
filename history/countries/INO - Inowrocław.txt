@@ -7,7 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = INO_wojciech_polak
+recruit_character = HOR_ryszard_terlecki
 
 
 set_politics = {
@@ -31,32 +32,3 @@ set_popularities = {
 	postpolonism = 4
 }
 
-create_country_leader = {
-	name = "Wojciech Polak"
-	desc = ""
-	picture = "gfx/leaders/INO/INO_Polak1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ryszard Terlecki"
-	desc = ""
-	picture = "gfx/leaders/HOR/HOR_Terlecki1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ryszard Terlecki"
-	desc = ""
-	picture = "gfx/leaders/HOR/HOR_Liszard1.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

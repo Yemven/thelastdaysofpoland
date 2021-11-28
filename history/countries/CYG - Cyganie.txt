@@ -7,7 +7,10 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = CYG_naczelny_tabor
+recruit_character = CYG_don_vasyl
+recruit_character = CYG_zarząd_kghm
+recruit_character = CYG_cygan_prime
 
 
 set_politics = {
@@ -29,44 +32,4 @@ set_popularities = {
 	neonationalism = 10
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Naczelny Tabor"
-	desc = ""
-	picture = "gfx/leaders/CYG/CYG_Tabor.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Don Vasyl"
-	desc = ""
-	picture = "gfx/leaders/CYG/CYG_DonVasyl.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zarząd KGHM"
-	desc = ""
-	picture = "gfx/leaders/KGH/KGH_Zarzad.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Cygan Prime"
-	desc = ""
-	picture = "gfx/leaders/CYG/CYG_Cygan.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
 }

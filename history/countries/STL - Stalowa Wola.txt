@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = STL_chairman
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Chairman"
-	desc = ""
-	picture = "gfx/leaders/STL/STL_Huta.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}

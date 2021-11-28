@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = MSL_krzysztof_goncerz
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Krzysztof Goncerz"
-	desc = ""
-	picture = "gfx/leaders/MSL/MSL_Goncerz1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

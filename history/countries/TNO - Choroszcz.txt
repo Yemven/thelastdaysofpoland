@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = TNO_dr_albert_szper
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 100
 }
 
-create_country_leader = {
-	name = "dr Albert Szper"
-	desc = ""
-	picture = "gfx/leaders/TNO/TNO_Szper1.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

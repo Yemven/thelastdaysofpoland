@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = GAR_radosław_fogiel
 
 set_politics = {
 	ruling_party = paternal_conservatism
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Radosław Fogiel"
-	desc = ""
-	picture = "gfx/leaders/GAR/GAR_Fogiel1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
 }

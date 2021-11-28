@@ -8,7 +8,9 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = OPO_paweł_kukiz
+recruit_character = OPO_janusz_kowalski
+recruit_character = OPO_kowalski.exe
 
 set_politics = {
 	ruling_party = autocracy
@@ -29,34 +31,4 @@ set_popularities = {
 	neonationalism = 9
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Paweł Kukiz"
-	desc = ""
-	picture = "gfx/leaders/OPO/OPO_Kukiz1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Janusz Kowalski"
-	desc = ""
-	picture = "gfx/leaders/OPO/OPO_Kowalski1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "KOWALSKI.exe"
-	desc = ""
-	picture = "gfx/leaders/OPO/OPO_Kowalski2.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
 }

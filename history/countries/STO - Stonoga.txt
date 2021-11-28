@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = STO_zbigniew_stonoga
 
 
 set_politics = {
@@ -31,12 +31,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Zbigniew Stonoga"
-	desc = ""
-	picture = "gfx/leaders/STO/STO_Stonoga1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}
+

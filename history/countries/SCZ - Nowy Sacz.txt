@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = SCZ_town_council
 
 
 set_politics = {
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Town Council"
-	desc = ""
-	picture = "gfx/leaders/SCZ/SCZ_Rada1.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
 }

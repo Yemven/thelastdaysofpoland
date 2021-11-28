@@ -8,7 +8,9 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = NAC_krzysztof_bosak
+recruit_character = NAC_robert_winnicki
+recruit_character = NAC_roman_giertych
 
 set_politics = {
 	ruling_party = neonationalism
@@ -31,15 +33,5 @@ set_popularities = {
 	postpolonism = 0
 }
 
-
-create_country_leader = {
-	name = "Krzysztof Bosak"
-	desc = ""
-	picture = "gfx/leaders/NAC/NAC_Bosak1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}
 
 

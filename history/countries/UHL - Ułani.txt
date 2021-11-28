@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = UHL_2nd_regiment_command
 
 set_politics = {
 	ruling_party = autocracy
@@ -31,12 +31,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "2nd Regiment Command"
-	desc = ""
-	picture = "gfx/leaders/PDL/PDL_Ulani1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
+

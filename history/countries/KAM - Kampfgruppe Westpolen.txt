@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = KAM_markus_laubenthal
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Markus Laubenthal"
-	desc = ""
-	picture = "gfx/leaders/KAM/KAM_Laubenthal1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}

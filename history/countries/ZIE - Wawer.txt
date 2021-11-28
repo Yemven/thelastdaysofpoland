@@ -8,7 +8,8 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = ZIE_green_spirit
+recruit_character = ZIE_boar
 
 set_politics = {
 	ruling_party = squattism
@@ -29,24 +30,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 31
-}
-
-create_country_leader = {
-	name = "Green Spirit"
-	desc = ""
-	picture = "gfx/leaders/ZIE/ZIE_Spurdo1.dds"
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "T H E  B O A R"
-	desc = ""
-	picture = "gfx/leaders/ZIE/ZIE_Boar1.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
 }

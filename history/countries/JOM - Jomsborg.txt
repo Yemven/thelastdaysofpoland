@@ -7,6 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
+recruit_character = JOM_halfdan_sandbjerg
+
 
 set_politics = {
 	ruling_party = squattism
@@ -27,26 +29,5 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-	
-create_country_leader = {
-	name = "Halfdan Sandbjerg"
-	desc = ""
-	picture = "gfx/leaders/JOM/JOM_Zandberg1.dds"
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Harald I Blåtand"
-	desc = ""
-	picture = "gfx/leaders/JOM/JOM_Zandberg2.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
 }
 

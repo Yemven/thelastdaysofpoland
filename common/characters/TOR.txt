@@ -1,0 +1,41 @@
+characters={
+	TOR_tadeusz_rydzyk={
+		name="Tadeusz Rydzyk"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOR/TOR_Rydzyk1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOR_sławomir_mentzen={
+		name="Sławomir Mentzen"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOR/TOR_Mentzen1.dds"
+			}
+		}
+		country_leader={
+			ideology=freemarketism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TOR_michał_zaleski={
+		name="Michał Zaleski"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOR/TOR_Zaleski1.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

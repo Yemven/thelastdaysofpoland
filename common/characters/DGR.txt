@@ -1,0 +1,72 @@
+characters={
+	DGR_bas_tajpan={
+		name="Bas Tajpan"
+		portraits={
+			civilian={
+				large="gfx/leaders/DGR/DGR_BasTajpan.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DGR_krzysztof_szwej={
+		name="Krzysztof Szwej"
+		portraits={
+			civilian={
+				large="gfx/leaders/DGR/DGR_Szwej1.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism_cranism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DGR_mateusz_popeye={
+		name="Mateusz Papaj"
+		portraits={
+			civilian={
+				large="gfx/leaders/DGR/DGR_Popeye.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DGR_marcin_bazylak={
+		name="Marcin Bazylak"
+		portraits={
+			civilian={
+				large="gfx/leaders/DGR/DGR_Bazylak.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DGR_aleksander_bargieła={
+		name="Aleksander Bargieła"
+		portraits={
+			civilian={
+				large="gfx/leaders/DGR/DGR_Bargiela.dds"
+			}
+		}
+		country_leader={
+			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

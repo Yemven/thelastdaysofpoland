@@ -8,7 +8,8 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = ROS_alexander_zhuravlyov
+recruit_character = ROS_vladimir_zhirinovsky
 
 set_politics = {
 	ruling_party = autocracy
@@ -29,34 +30,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 32
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Alexander Zhuravlyov"
-	desc = ""
-	picture = "gfx/leaders/ROS/ROS_Żurawliow1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Vladimir Zhirinovsky"
-	desc = ""
-	picture = "gfx/leaders/ROS/ROS_Żyr1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gennady Zyuganov"
-	desc = ""
-	picture = "gfx/leaders/ROS/ROS_Ziuganow1.dds"
-	ideology = marxism_cranism_subtype
-	traits = {
-		#
-	}
 }

@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = GDA_aleksandra_dulkiewicz
 
 set_politics = {
 	ruling_party = euroliberalism
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Aleksandra Dulkiewicz"
-	desc = ""
-	picture = "gfx/leaders/GDA/GDA_Dulkiewicz1.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}

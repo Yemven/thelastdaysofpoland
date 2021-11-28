@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = TAT_tomasz_miśkiewicz
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Tomasz Miśkiewicz"
-	desc = ""
-	picture = "gfx/leaders/TAT/TAT_Miskiewicz1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}

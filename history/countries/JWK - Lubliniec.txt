@@ -7,7 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = JWK_wiesław_kukuła
+recruit_character = JWK_sławomir_drumowicz
 
 
 set_politics = {
@@ -31,42 +32,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Wiesław Kukuła"
-	desc = ""
-	picture = "gfx/leaders/JWK/JWK_Kukula1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Wiesław Kukuła"
-	desc = ""
-	picture = "gfx/leaders/JWK/JWK_Kukula1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Wiesław Kukuła"
-	desc = ""
-	picture = "gfx/leaders/JWK/JWK_Kukula2.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sławomir Drumowicz"
-	desc = ""
-	picture = "gfx/leaders/JWK/JWK_Drumowicz.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

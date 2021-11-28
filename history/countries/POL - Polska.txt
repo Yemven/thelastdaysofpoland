@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = POL_mateusz_morawiecki
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Mateusz Morawiecki"
-	desc = ""
-	picture = "gfx/leaders/POL/POL_Morawiecki1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}

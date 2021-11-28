@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = SWD_Świdnik_workers_council
 
 set_politics = {
 	ruling_party = squattism
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Świdnik Workers' Council"
-	desc = ""
-	picture = "gfx/leaders/SWD/SWD_Swidnik_Council.dds"
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
-}

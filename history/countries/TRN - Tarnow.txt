@@ -7,7 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = TRN_władysław_kosiniakkamysz
+recruit_character = TRN_waldemar_pawlak
 
 
 set_politics = {
@@ -31,32 +32,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Władysław Kosiniak-Kamysz"
-	desc = ""
-	picture = "gfx/leaders/TRN/TRN_WKK1.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Władysław Kosiniak-Kamysz"
-	desc = ""
-	picture = "gfx/leaders/TRN/TRN_WKK2.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Waldemar Pawlak"
-	desc = ""
-	picture = "gfx/leaders/TRN/TRN_Pawlak1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}

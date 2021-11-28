@@ -8,7 +8,9 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = KIE_dominik_tarczyński
+recruit_character = KIE_bogdan_wenta
+recruit_character = KIE_piotr_liroymarzec
 
 set_politics = {
 	ruling_party = paternal_conservatism
@@ -31,32 +33,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Dominik Tarczyński"
-	desc = ""
-	picture = "gfx/leaders/KIE/KIE_Tarczynski1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bogdan Wenta"
-	desc = ""
-	picture = "gfx/leaders/KIE/KIE_Wenta1.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Piotr Liroy-Marzec"
-	desc = ""
-	picture = "gfx/leaders/KIE/KIE_Liroy1.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
-}

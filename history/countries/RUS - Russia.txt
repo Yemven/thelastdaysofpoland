@@ -10,6 +10,13 @@ set_convoys = 20
 create_faction = CSTO
 add_to_faction = ROS
 
+recruit_character = RUS_vladimir_putin
+recruit_character = RUS_alexei_navalny
+recruit_character = RUS_pavel_grudinin
+recruit_character = RUS_sergey_mironov
+recruit_character = RUS_vladimir_zhirinovsky
+recruit_character = RUS_ramzan_kadyrov
+
 set_politics = {
 	ruling_party = autocracy
 	last_election = "2027.3.1"
@@ -31,63 +38,5 @@ set_popularities = {
 	postpolonism = 4
 }
 
-create_country_leader = {
-	name = "Vladimir Putin"
-	desc = ""
-	picture = "gfx/leaders/RUS/RUS_Putin.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Alexei Navalny"
-	desc = ""
-	picture = "gfx/leaders/RUS/RUS_Navalny.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pavel Grudinin"
-	desc = ""
-	picture = "gfx/leaders/RUS/RUS_Grudinin.dds"
-	ideology = marxism_cranism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sergey Mironov"
-	desc = ""
-	picture = ""
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Vladimir Zhirinovsky"
-	desc = ""
-	picture = "gfx/leaders/ROS/ROS_Żyr1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ramzan Kadyrov"
-	desc = ""
-	picture = "gfx/leaders/RUS/RUS_Kadyrov.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}
 

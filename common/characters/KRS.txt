@@ -1,0 +1,41 @@
+characters={
+	KRS_witold_skrzydlewski={
+		name="Witold Skrzydlewski"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRS/KRS_Skrzydlewski.dds"
+			}
+		}
+		country_leader={
+			ideology=corporativism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KRS_krzysztof_rutkowski={
+		name="Krzysztof Rutkowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRS/KRS_Rutkowski.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KRS_tadeusz_celder={
+		name="Tadeusz Celder"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRS/KRS_Celder.dds"
+			}
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

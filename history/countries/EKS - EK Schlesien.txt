@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = EKS_grzegorz_schetyna
 
 
 set_politics = {
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 12
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Grzegorz Schetyna"
-	desc = ""
-	picture = "gfx/leaders/EKS/EKS_Schetyna.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
 }

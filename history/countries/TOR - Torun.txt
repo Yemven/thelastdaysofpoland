@@ -7,7 +7,9 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = TOR_tadeusz_rydzyk
+recruit_character = TOR_sławomir_mentzen
+recruit_character = TOR_michał_zaleski
 
 
 set_politics = {
@@ -31,31 +33,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Tadeusz Rydzyk"
-	desc = ""
-	picture = "gfx/leaders/TOR/TOR_Rydzyk1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Sławomir Mentzen"
-	desc = ""
-	picture = "gfx/leaders/TOR/TOR_Mentzen1.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Michał Zaleski"
-	desc = ""
-	picture = "gfx/leaders/TOR/TOR_Zaleski1.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}

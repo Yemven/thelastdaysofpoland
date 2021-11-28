@@ -1,0 +1,38 @@
+characters={
+	JWK_wiesław_kukuła={
+		name="Wiesław Kukuła"
+		portraits={
+			civilian={
+				large="gfx/leaders/JWK/JWK_Kukula1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JWK_sławomir_drumowicz={
+		name="Sławomir Drumowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/JWK/JWK_Drumowicz.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

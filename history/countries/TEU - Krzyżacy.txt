@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = TEU_der_hochmajster
 
 set_politics = {
 	ruling_party = reactionary
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Der Hochmajster"
-	desc = ""
-	picture = "gfx/leaders/TEU/TEU_Hochmajster1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

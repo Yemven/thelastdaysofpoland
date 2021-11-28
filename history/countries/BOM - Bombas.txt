@@ -1,5 +1,7 @@
 ﻿capital = 640
 
+recruit_character = BOM_wojciech_suchodolski
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -29,14 +31,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Wojciech Suchodolski"
-	desc = ""
-	picture = "gfx/leaders/BOM/BOM_Major1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
 }

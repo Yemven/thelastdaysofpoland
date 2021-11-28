@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = KSN_paweł_chojecki
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Paweł Chojecki"
-	desc = ""
-	picture = "gfx/leaders/KSN/KSN_Pawel_Chojecki.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

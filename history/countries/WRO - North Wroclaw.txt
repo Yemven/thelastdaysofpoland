@@ -8,7 +8,12 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = WRO_jacek_sutryk
+recruit_character = WRO_rafał_dutkiewicz
+recruit_character = WRO_jacek_międlar
+recruit_character = WRO_marta_lempart
+recruit_character = WRO_agnieszka_dziemianowiczbąk
+recruit_character = MPK_krzysztof_balawejder
 
 set_politics = {
 	ruling_party = euroliberalism
@@ -31,62 +36,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Jacek Sutryk"
-	desc = ""
-	picture = "gfx/leaders/WRO/WRO_Sutryk.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rafał Dutkiewicz"
-	desc = ""
-	picture = "gfx/leaders/WRO/WRO_Dutkiewicz.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jacek Międlar"
-	desc = ""
-	picture = "gfx/leaders/WRO/WRO_Miedlar.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Marta Lempart"
-	desc = ""
-	picture = "gfx/leaders/WRO/WRO_Lempart.dds"
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Agnieszka Dziemianowicz-Bąk"
-	desc = ""
-	picture = "gfx/leaders/WRO/WRO_DziemianowiczBak.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Krzysztof Balawejder"
-	desc = ""
-	picture = "gfx/leaders/MPK/MPK_Balawejder.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}

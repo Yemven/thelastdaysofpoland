@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = DEN_frederik_x
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Frederik X"
-	desc = ""
-	picture = "gfx/leaders/DEN/DEN_Fryderyk.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}

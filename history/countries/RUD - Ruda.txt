@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = RUD_hubert_dworniok
 
 set_politics = {
 	ruling_party = socialdemocrature
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Hubert Dworniok"
-	desc = ""
-	picture = "gfx/leaders/RUD/RUD_Bercik.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}

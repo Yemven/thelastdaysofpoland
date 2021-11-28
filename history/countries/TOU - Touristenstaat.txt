@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = TOU_tadeusz_gołębiewski
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Tadeusz Gołębiewski"
-	desc = ""
-	picture = "gfx/leaders/TOU/TOU_Golebiewski.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}

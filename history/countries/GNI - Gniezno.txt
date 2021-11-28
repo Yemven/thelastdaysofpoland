@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = GNI_przemysł_iii
 
 set_politics = {
 	ruling_party = autocracy
@@ -31,30 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Przemysł III"
-	desc = ""
-	picture = "gfx/leaders/GNI/GNI_Urbanczyk1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Przemysł III"
-	desc = ""
-	picture = "gfx/leaders/GNI/GNI_Urbanczyk1.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Przemysł III"
-	desc = ""
-	picture = "gfx/leaders/GNI/GNI_Urbanczyk1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}

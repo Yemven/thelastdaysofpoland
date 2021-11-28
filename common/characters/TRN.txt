@@ -1,0 +1,33 @@
+characters={
+	TRN_władysław_kosiniakkamysz={
+		name="Władysław Kosiniak-Kamysz"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRN/TRN_WKK1.dds"
+			}
+		}
+		country_leader={
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TRN_waldemar_pawlak={
+		name="Waldemar Pawlak"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRN/TRN_Pawlak1.dds"
+			}
+		}
+		country_leader={
+			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

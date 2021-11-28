@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = BSK_bracia_golec
 
 
 set_politics = {
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Bracia Golec"
-	desc = ""
-	picture = "gfx/leaders/BSK/BSK_Golce1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
 }

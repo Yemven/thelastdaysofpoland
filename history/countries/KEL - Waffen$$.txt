@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = KEL_kelthuz
 
 
 set_politics = {
@@ -31,12 +31,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Kelthuz"
-	desc = ""
-	picture = "gfx/leaders/KEL/KEL_Kelthuz1.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
-}
+

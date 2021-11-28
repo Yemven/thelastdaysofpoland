@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = KOR_sławomir_ziembiński
 
 set_politics = {
 	ruling_party = autocracy
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 11
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Sławomir Ziembiński"
-	desc = ""
-	picture = "gfx/leaders/KOR/KOR_Korsarz1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
 }

@@ -1,5 +1,7 @@
 ﻿capital = 716
 
+recruit_character = BOL_lech_wałęsa
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -29,14 +31,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 75
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Lech Wałęsa"
-	desc = ""
-	picture = "gfx/leaders/BOL/BOL_Bolek1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
 }

@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = DRO_tuhajbej
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Tuhaj-bej"
-	desc = ""
-	picture = "gfx/leaders/PDL/PDL_Tuhajbej1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

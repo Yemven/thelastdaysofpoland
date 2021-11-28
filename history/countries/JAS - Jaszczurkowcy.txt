@@ -7,6 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
+recruit_character = JAS_aleksander_jabłonowski
+recruit_character = JAS_maciej_poręba
 
 set_politics = {
 	ruling_party = neonationalism
@@ -29,33 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-	
-create_country_leader = {
-	name = "Aleksander Jabłonowski"
-	desc = ""
-	picture = "gfx/leaders/JAS/JAS_Jablonowski1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Maciej Poręba"
-	desc = ""
-	picture = "gfx/leaders/JAS/JAS_Poreba1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Biały Jaszczur"
-	desc = ""
-	picture = "gfx/leaders/JAS/JAS_JablonowskiPP.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

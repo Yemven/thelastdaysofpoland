@@ -7,7 +7,8 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = LEG_kazik
+recruit_character = LEG_bartosz_walaszek
 
 
 set_politics = {
@@ -31,12 +32,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Kazik"
-	desc = ""
-	picture = "gfx/leaders/LEG/LEG_Kazik1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}

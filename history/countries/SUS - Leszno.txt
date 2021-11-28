@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = SUS_marek_suski
 
 
 set_politics = {
@@ -29,24 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Marek Suski"
-	desc = ""
-	picture = "gfx/leaders/SUS/SUS_Suski1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Marek Suski"
-	desc = ""
-	picture = "gfx/leaders/SUS/SUS_Suski1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
 }

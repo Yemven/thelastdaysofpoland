@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = LES_jan_bury
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Jan Bury"
-	desc = ""
-	picture = "gfx/leaders/LES/LES_Bury.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}

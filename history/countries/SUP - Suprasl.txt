@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = SUP_tribes
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Tribes"
-	desc = ""
-	picture = "gfx/leaders/PDL/PDL_Suprasl1.dds"
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
-}

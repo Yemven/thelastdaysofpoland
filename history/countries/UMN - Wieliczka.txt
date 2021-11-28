@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = UMN_zbigniew_zarębski
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Zbigniew Zarębski"
-	desc = ""
-	picture = "gfx/leaders/UMC/UMC_Zarębski1.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}

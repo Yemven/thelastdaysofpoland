@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = OWS_jerzy_owsiak
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Jerzy Owsiak"
-	desc = ""
-	picture = "gfx/leaders/OWS/OWS_Owsiak1.dds"
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
-}

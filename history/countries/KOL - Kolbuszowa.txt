@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = KOL_lasowiacy
 
 
 set_politics = {
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Lasowiacy"
-	desc = ""
-	picture = "gfx/leaders/KOL/KOL_Lasowiacy.dds"
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
 }

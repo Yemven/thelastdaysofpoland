@@ -1,5 +1,8 @@
 ﻿capital = 538
 
+recruit_character = BEX_mayor
+recruit_character = BEX_bex
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -31,12 +34,3 @@ set_popularities = {
 	postpolonism = 14
 }
 
-create_country_leader = {
-	name = "Mayor"
-	desc = ""
-	picture = ""
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}

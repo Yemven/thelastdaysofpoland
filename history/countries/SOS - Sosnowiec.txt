@@ -11,6 +11,7 @@ create_faction = Międzypowiatówka
 add_to_faction = DGR
 add_to_faction = JAW
 
+recruit_character = SOS_włodzimierz_czarzasty
 
 set_politics = {
 	ruling_party = socialdemocrature
@@ -33,12 +34,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Włodzimierz Czarzasty"
-	desc = "POLITICS_WLODZIMIERZ_CZARZASTY_DESC"
-	picture = "gfx/leaders/SOS/SOS_Czarzasty.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}

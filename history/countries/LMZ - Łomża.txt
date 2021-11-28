@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = LMZ_marek_jakubiak
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Brewmasters Guild"
-	desc = ""
-	picture = "gfx/leaders/LMZ/LMZ_Piwowar1.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}

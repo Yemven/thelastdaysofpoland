@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = LEH_sanjaya_i
 
 set_politics = {
 	ruling_party = postpolonism
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 38
 }
 
-create_country_leader = {
-	name = "Sanjaya I"
-	desc = ""
-	picture = "gfx/leaders/LEH/LEH_Sanjaya1.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

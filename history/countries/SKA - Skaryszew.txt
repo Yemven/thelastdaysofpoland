@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = SKA_ewa_kopacz
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Ewa Kopacz"
-	desc = ""
-	picture = "gfx/leaders/SKA/SKA_Kopacz1.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}

@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = ROM_george_simion
 
 set_politics = {
 	ruling_party = neonationalism
@@ -31,12 +31,4 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "George Simion"
-	desc = ""
-	picture = "gfx/leaders/ROM/ROM_Simion.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}
+

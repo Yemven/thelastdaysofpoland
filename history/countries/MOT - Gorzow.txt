@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = MOT_tomasz_gollob
 
 set_politics = {
 	ruling_party = autocracy
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Tomasz Gollob"
-	desc = ""
-	picture = "gfx/leaders/MOT/MOT_Gollob1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}

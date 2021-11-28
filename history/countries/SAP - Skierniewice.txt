@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = SAP_andrzej_sapkowski
 
 set_politics = {
 	ruling_party = autocracy
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Andrzej Sapkowski"
-	desc = ""
-	picture = "gfx/leaders/SAP/SAP_Sapek1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}

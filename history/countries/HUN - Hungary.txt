@@ -11,6 +11,8 @@ create_faction = "Visegrad Group"
 add_to_faction = SVK
 add_to_faction = ROM
 
+recruit_character = HUN_viktor_orbán
+
 
 set_politics = {
 	ruling_party = paternal_conservatism
@@ -33,12 +35,3 @@ set_popularities = {
 	postpolonism = 3
 }
 
-create_country_leader = {
-	name = "Viktor Orbán"
-	desc = ""
-	picture = "gfx/leaders/HUN/HUN_Orban.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}

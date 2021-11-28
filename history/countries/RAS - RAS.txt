@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = RAS_hans_ulrich_schaffgotsch
 
 set_politics = {
 	ruling_party = autocracy
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Hans Ulrich Schaffgotsch"
-	desc = ""
-	picture = "gfx/leaders/RAS/RAS_Szafgocz.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}

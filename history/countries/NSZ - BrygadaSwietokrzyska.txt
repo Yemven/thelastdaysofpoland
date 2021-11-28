@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = NSZ_robert_bąkiewicz
 
 set_politics = {
 	ruling_party = neonationalism
@@ -31,12 +31,4 @@ set_popularities = {
 	postpolonism = 37
 }
 
-create_country_leader = {
-	name = "Robert Bąkiewicz"
-	desc = ""
-	picture = "gfx/leaders/NSZ/NSZ_Bąkiewicz1.dds"
-	ideology = neonationalism_subtype
-	traits = {
-		#
-	}
-}
+

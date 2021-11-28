@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = RZE_grzegorz_braun
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Grzegorz Braun"
-	desc = ""
-	picture = "gfx/leaders/RZE/RZE_Braun1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

@@ -8,7 +8,10 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = KAT_borys_budka
+recruit_character = KAT_andrzej_sośnierz
+recruit_character = KAT_dobromir_sośnierz
+recruit_character = KAT_b0r1s01
 
 set_politics = {
 	ruling_party = euroliberalism
@@ -31,42 +34,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Borys Budka"
-	desc = ""
-	picture = "gfx/leaders/KAT/KAT_Borys.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Andrzej Sośnierz"
-	desc = ""
-	picture = "gfx/leaders/KAT/KAT_OldSosnierz.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dobromir Sośnierz"
-	desc = ""
-	picture = "gfx/leaders/KAT/KAT_YoungSosnierz.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "B0R1S-01"
-	desc = ""
-	picture = "gfx/leaders/KAT/KAT_Borys2.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

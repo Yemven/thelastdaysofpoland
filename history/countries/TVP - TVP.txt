@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = TVP_jacek_kurski
 
 
 set_politics = {
@@ -31,22 +31,4 @@ set_popularities = {
 	postpolonism = 29
 }
 
-create_country_leader = {
-	name = "Jacek Kurski"
-	desc = ""
-	picture = "gfx/leaders/TVP/TVP_Kurski1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Jacek Kurski"
-	desc = ""
-	picture = "gfx/leaders/TVP/TVP_Kurski1.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

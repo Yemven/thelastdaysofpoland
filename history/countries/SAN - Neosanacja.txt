@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = SAN_leszek_moczulski
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Leszek Moczulski"
-	desc = ""
-	picture = "gfx/leaders/SAN/SAN_Moczulski1.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

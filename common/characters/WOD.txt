@@ -1,0 +1,30 @@
+characters={
+	WOD_bartosz_bekier={
+		name="Bartosz Bekier"
+		portraits={
+			civilian={
+				large="gfx/leaders/WOD/WOD_Bekier1.dds"
+			}
+		}
+		country_leader={
+			desc=""
+			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WOD_szczery={
+		name="Der Blutgeist"
+		portraits={
+			civilian={
+				large="gfx/leaders/WOD/WOD_Blutgeist.dds"
+			}
+		}
+		country_leader={
+			ideology=neonationalism_subtype
+			traits={  }
+			expire="2055.3.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,28 @@
+characters={
+	SDL_mateusz_piskorski={
+		name="Mateusz Piskorski"
+		portraits={
+			civilian={
+				large="gfx/leaders/SDL/SDL_Piskorski1.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SDL_michał_kołodziejczak={
+		name="Michał Kołodziejczak"
+		portraits={
+			civilian={
+				large="gfx/leaders/SDL/SDL_Kołodziejczak1.dds"
+			}
+		}
+		country_leader={
+			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

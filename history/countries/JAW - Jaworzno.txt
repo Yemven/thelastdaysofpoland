@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = JAW_antifascist_council
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Antifascist Council"
-	desc = ""
-	picture = "gfx/leaders/JAW/JAW_Council.dds"
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
-}

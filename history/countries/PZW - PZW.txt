@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = PZW_adam_chapiński
 
 set_politics = {
 	ruling_party = paternal_conservatism
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 13
 }
 
-create_country_leader = {
-	name = "Adam Chapiński"
-	desc = ""
-	picture = "gfx/leaders/PZW/PZW_Adam1.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}

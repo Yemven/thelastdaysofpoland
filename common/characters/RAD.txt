@@ -1,0 +1,28 @@
+characters={
+	RAD_radosław_witkowski={
+		name="Radosław Witkowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAD/RAD_Witkowski1.dds"
+			}
+		}
+		country_leader={
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAD_pierre_dadak={
+		name="Pierre Dadak"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAD/RAD_Dadak1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -5,6 +5,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = CHO_jerzy_gorzelik
+
 set_convoys = 20
 
 create_faction = "Silesian League"
@@ -38,12 +40,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Jerzy Gorzelik"
-	desc = ""
-	picture = "gfx/leaders/CHO/CHO_Gorzelik.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}

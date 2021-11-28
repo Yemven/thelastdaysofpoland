@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
-
+recruit_character = ZAM_market_doge
 
 set_politics = {
 	ruling_party = freemarketism
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Market Doge"
-	desc = ""
-	picture = "gfx/leaders/PDL/PDL_Market1.dds"
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
-}

@@ -7,7 +7,9 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = JSW_interim_government_of_jastrzębiezdrój
+recruit_character = JSW_jsw_sa_board
+recruit_character = JSW_piotr_duda
 
 
 set_politics = {
@@ -31,32 +33,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Interim Government of Jastrzębie-Zdrój"
-	desc = ""
-	picture = "gfx/leaders/JSW/JSW_Interim.dds"
-	ideology = paternal_conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "JSW SA Board"
-	desc = ""
-	picture = "gfx/leaders/JSW/JSW_Board.dds"
-	ideology = corporativism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Piotr Duda"
-	desc = ""
-	picture = "gfx/leaders/JSW/JSW_Duda.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}

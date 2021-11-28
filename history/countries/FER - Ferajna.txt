@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = FER_peter_langer
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Peter Langer"
-	desc = ""
-	picture = "gfx/leaders/FER/FER_Langer.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
-}

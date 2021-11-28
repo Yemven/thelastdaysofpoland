@@ -7,6 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
+recruit_character = EKW_donald_tusk
 
 set_politics = {
 	ruling_party = euroliberalism
@@ -30,12 +31,3 @@ set_popularities = {
 }
 
 	
-create_country_leader = {
-	name = "Donald Tusk"
-	desc = ""
-	picture = "gfx/leaders/EKW/EKW_Tusk1.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}

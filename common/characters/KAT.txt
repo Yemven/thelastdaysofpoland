@@ -1,0 +1,54 @@
+characters={
+	KAT_borys_budka={
+		name="Borys Budka"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAT/KAT_Borys.dds"
+			}
+		}
+		country_leader={
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAT_andrzej_sośnierz={
+		name="Andrzej Sośnierz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAT/KAT_OldSosnierz.dds"
+			}
+		}
+		country_leader={
+			ideology=paternal_conservatism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAT_dobromir_sośnierz={
+		name="Dobromir Sośnierz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAT/KAT_YoungSosnierz.dds"
+			}
+		}
+		country_leader={
+			ideology=freemarketism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KAT_b0r1s01={
+		name="B0R1S-01"
+		portraits={
+			civilian={
+				large="gfx/leaders/KAT/KAT_Borys2.dds"
+			}
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

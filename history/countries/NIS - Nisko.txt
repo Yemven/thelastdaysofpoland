@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = NIS_volkhv
 
 
 set_politics = {
@@ -29,14 +29,4 @@ set_popularities = {
 	neonationalism = 0
 	reactionary = 100
 	postpolonism = 0
-}
-
-create_country_leader = {
-	name = "Volkhv"
-	desc = ""
-	picture = "gfx/leaders/NIS/NIS_Guslarz.dds"
-	ideology = reactionary_subtype
-	traits = {
-		#
-	}
 }

@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = DBI_mateusz_borek
 
 
 set_politics = {
@@ -31,12 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Mateusz Borek"
-	desc = ""
-	picture = "gfx/leaders/DBI/DBI_Borek.dds"
-	ideology = euroliberalism_subtype
-	traits = {
-		#
-	}
-}

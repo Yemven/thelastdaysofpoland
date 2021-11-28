@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 20
 
-
+recruit_character = KOZ_oleh_lyashko
 
 
 set_politics = {
@@ -31,22 +31,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Oleh Lyashko"
-	desc = ""
-	picture = "gfx/leaders/KOZ/KOZ_Laszko1.dds"
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Oleh Lyashko"
-	desc = ""
-	picture = "gfx/leaders/KOZ/KOZ_Laszko2.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}

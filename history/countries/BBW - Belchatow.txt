@@ -1,5 +1,9 @@
 ﻿capital = 341
 
+
+recruit_character = BBW_rafal_ziemkiewicz
+
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -7,15 +11,19 @@ set_technology = {
 
 set_convoys = 20
 
+
+
+
 add_ideas = {
 	BBW_idea_more_steam
 	BBW_idea_smog
-
-	BBW_min_gadomski
-	BBW_min_janecki
+	
 	BBW_min_warzecha
+	BBW_min_janecki
+	BBW_min_gadomski
 	BBW_min_sommer
 }
+
 
 
 set_politics = {
@@ -39,12 +47,3 @@ set_popularities = {
 	postpolonism = 12
 }
 
-create_country_leader = {
-	name = "Rafał Ziemkiewicz"
-	desc = ""
-	picture = "gfx/leaders/BBW/BBW_Elder.dds"
-	ideology = reactionary_subtype
-	traits = {
-		master_of_rethorics
-	}
-}

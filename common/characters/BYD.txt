@@ -1,0 +1,28 @@
+characters={
+	BYD_sebastian_kulczyk={
+		name="Sebastian Kulczyk"
+		portraits={
+			civilian={
+				large="gfx/leaders/BYD/BYD_Kulczyk1.dds"
+			}
+		}
+		country_leader={
+			ideology=corporativism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BYD_dominika_kulczyk={
+		name="Dominika Kulczyk"
+		portraits={
+			civilian={
+				large="gfx/leaders/BYD/BYD_Kulczykowa1.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

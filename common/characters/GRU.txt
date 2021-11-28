@@ -1,0 +1,15 @@
+characters={
+	GRU_command_center={
+		name="Command Center"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRU/GRU_HQ1.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}
