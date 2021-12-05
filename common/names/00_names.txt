@@ -69,38 +69,69 @@ default = {
 ###############################################################
 KAM = {
 	male = {
-		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
-			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		names = {
+			Ben Paul Jonas Elias Leon Finn Fynn Noah Luis Lukas Felix Luka Maximillian Henri Max Oskar Oscar Emil Liam Jakob Moritz Anton Julian Theo Niklas Niclas David Philipp Alexander Tim Matteo	Milan Leo Tom Mats Mads Karl
+			Erik Linus Jonathan Jan Fabian Leonard Samuel Rafael Jona Jannik Simon Vincent Mika Hannes Lennart Till Aaron
 		}
 	}
 	female = {
-		names = { Jessica Emma Hanna Sofia Marie Hildegard }
-	}
-	surnames = { 
-		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
-		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
-		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		names = {
+			Mia Emma Sofia Hanna Emilia Anna Marie Mila Lina Lea Lena Leonie Amelie Luisa Johanna Emilie Klara Sofie Charlotte Lilli Lara Laura Leni Nele Ella Maja Matilda Ida Frida Lia Greta Sara Lotta Pia Julia Melina Paula
+			Alina Marlene Elisa Lisa Mira Viktoria Anni Nora Mara Isabel Helena Isabella Maria
 		}
-	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+	}
+	surnames = {
+		Müller Schmidt Schneider Fischer Weber Mayer Wagner Becker Schulz Hoffman Schäfer Koch Bauer Richter Klein Wolf Schröder Neumann Schwarz Zimmermann Braun Krüger Hofmann Hartmann Lange Schmitt Werner Schmitz Krause Meier
+		Lehmann Schmid Schulze Maier Köhler Hermann König Walter Mayer Huber Kaiser Fuchs Peters Lang Scholz Möller Weiss Jung Hahn Schubert Vogel Friedrich Keller Günther Frank Berger Winkler Roth Beck Lorenz Baumann Franke
+		Albrech Schuster Simon Ludwig Böhm Winter Kraus Martin Schumacher Krämer Vogt Stein Jäger Otto Sommer Gross Seidel Heinrich Brandt Haas Schreiber Graf Schulte Dietrich Ziegler Kuhn Kühn Pohl Engel Horn Busch Bergmann
+		Thomas Voigt Sauer Arnold Wolff Pfeiffer
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red knight" "Reeste" }
 }
 
 MNI = {
 	male = {
-		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
-			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		names = {
+			Ben Paul Jonas Elias Leon Finn Fynn Noah Luis Lukas Felix Luka Maximillian Henri Max Oskar Oscar Emil Liam Jakob Moritz Anton Julian Theo Niklas Niclas David Philipp Alexander Tim Matteo	Milan Leo Tom Mats Mads Karl
+			Erik Linus Jonathan Jan Fabian Leonard Samuel Rafael Jona Jannik Simon Vincent Mika Hannes Lennart Till Aaron
 		}
 	}
 	female = {
-		names = { Jessica Emma Hanna Sofia Marie Hildegard }
-	}
-	surnames = { 
-		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
-		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
-		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		names = {
+			Mia Emma Sofia Hanna Emilia Anna Marie Mila Lina Lea Lena Leonie Amelie Luisa Johanna Emilie Klara Sofie Charlotte Lilli Lara Laura Leni Nele Ella Maja Matilda Ida Frida Lia Greta Sara Lotta Pia Julia Melina Paula
+			Alina Marlene Elisa Lisa Mira Viktoria Anni Nora Mara Isabel Helena Isabella Maria
 		}
-	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+	}
+	surnames = {
+		Müller Schmidt Schneider Fischer Weber Mayer Wagner Becker Schulz Hoffman Schäfer Koch Bauer Richter Klein Wolf Schröder Neumann Schwarz Zimmermann Braun Krüger Hofmann Hartmann Lange Schmitt Werner Schmitz Krause Meier
+		Lehmann Schmid Schulze Maier Köhler Hermann König Walter Mayer Huber Kaiser Fuchs Peters Lang Scholz Möller Weiss Jung Hahn Schubert Vogel Friedrich Keller Günther Frank Berger Winkler Roth Beck Lorenz Baumann Franke
+		Albrech Schuster Simon Ludwig Böhm Winter Kraus Martin Schumacher Krämer Vogt Stein Jäger Otto Sommer Gross Seidel Heinrich Brandt Haas Schreiber Graf Schulte Dietrich Ziegler Kuhn Kühn Pohl Engel Horn Busch Bergmann
+		Thomas Voigt Sauer Arnold Wolff Pfeiffer
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red knight" "Reeste" }
 }
 
+GER = {
+	male = {
+		names = {
+			Ben Paul Jonas Elias Leon Finn Fynn Noah Luis Lukas Felix Luka Maximillian Henri Max Oskar Oscar Emil Liam Jakob Moritz Anton Julian Theo Niklas Niclas David Philipp Alexander Tim Matteo	Milan Leo Tom Mats Mads Karl
+			Erik Linus Jonathan Jan Fabian Leonard Samuel Rafael Jona Jannik Simon Vincent Mika Hannes Lennart Till Aaron
+		}
+	}
+	female = {
+		names = {
+			Mia Emma Sofia Hanna Emilia Anna Marie Mila Lina Lea Lena Leonie Amelie Luisa Johanna Emilie Klara Sofie Charlotte Lilli Lara Laura Leni Nele Ella Maja Matilda Ida Frida Lia Greta Sara Lotta Pia Julia Melina Paula
+			Alina Marlene Elisa Lisa Mira Viktoria Anni Nora Mara Isabel Helena Isabella Maria
+		}
+	}
+	surnames = {
+		Müller Schmidt Schneider Fischer Weber Mayer Wagner Becker Schulz Hoffman Schäfer Koch Bauer Richter Klein Wolf Schröder Neumann Schwarz Zimmermann Braun Krüger Hofmann Hartmann Lange Schmitt Werner Schmitz Krause Meier
+		Lehmann Schmid Schulze Maier Köhler Hermann König Walter Mayer Huber Kaiser Fuchs Peters Lang Scholz Möller Weiss Jung Hahn Schubert Vogel Friedrich Keller Günther Frank Berger Winkler Roth Beck Lorenz Baumann Franke
+		Albrech Schuster Simon Ludwig Böhm Winter Kraus Martin Schumacher Krämer Vogt Stein Jäger Otto Sommer Gross Seidel Heinrich Brandt Haas Schreiber Graf Schulte Dietrich Ziegler Kuhn Kühn Pohl Engel Horn Busch Bergmann
+		Thomas Voigt Sauer Arnold Wolff Pfeiffer
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red knight" "Reeste" }
+}
 
 ROS = {
 	male = {
@@ -146,26 +177,46 @@ SEI = {
 	callsigns = { }
 }
 
-
+LIT = {
+	male = {
+		names = {
+			Adolfas Aleksandras Algirdas Andrius Antanas Arturas Arunas Augustinas Balys Boris Bronislovas Danielius Darius Gendiminas Henrikas Jonas Jonusas Juozas Juras Jurgis Justas Kazimieras Kazys Kipras Konstantinas Lukas
+			Marijus Markas Mikalojus Mindaugas Motejus Mykolas Paulius Petras Povilas Ramunas Ringaudas Rolandas Simonas Stasys Steponas Valdas Valdemaras Viktoras Vilhelmas Visvaldas Vladimiras Vygantas Vytautas Zydrunas
+		}
+	}
+	female = {
+		names = {
+			Agnè Aldona Anastasija Aurelija Austèja Birutè Daiva Danutè Donata Edita Elena Elzè Ernesta Gabija Gertrüda Gintarè Ieva Inga Irma Janina Jolanta Julija Kamilè Katrè Kristina Laimutè Lilija Liucija Margarita Marijona
+			Miglè Monika Odeta Paulina Regina Rozè Sandra Silvija Smiltè Solveiga Tatjana Urtè Valerija Viktorija Viltautè Violeta Vitalija Zydrè
+		}
+	}
+	surnames = {
+		Adamkus Almenas Avizienis Baltrusaitis Brazauskas Basanavicius Birutis Bradziunas Buga Ciurlionis Danauskas Daukantas Dobkevicius Dubeneckis Dvarionas Galdikas Grinius Griskevicius Ivanauskas Jablonskis Jucys Krupavicius
+		Landsbergis Lozoraitis Merkys Paksas Paleckis Paulauskas Petrauskas Piskarkas Pozela Radvila Sabaniauskas Schatz Simonavicius Sirvydas Slezevicius Semtona Snieckus Stauaitis Straizys Stulginkis Svedas Terleckas Urbsys
+		Vagnorius Valeska Voldemaras Zemaitis Zuokas
+	}
+	callsigns = { }
+}
 
 PRU = {
 	male = {
-		names = { Aaron Abrams Alberts Aleksandrs Aloisz Andrejs Arkadij Armands Arnolds Atis
-		Brunis Bruno Eduards Eliass Elmars Emils Evgenijs Filips Fricis Gustavs
-		Heinrihs Hermanis Izaks Janis Jazeps Jekabs Johans Juris Karlis Krisjanis
-		Leo Mark Martins Mihails Mikelis Nikolajs Oskars Pauls Peteris Rihards
-		Roberts Romans Sandis Sergejs Valdemars Valerians Valter Vilis Vladimirs Zigfrids
-		  }
+		names = {
+			Ainars Aleksandrs Anatolijs Andrejs Andris Artjoms Arturs Augusts Bendiks Daniels Eduards Eizens Emils Ervins Filips Fricis Fridrihs Gabriels Genadijs Georgijs Georgs Grigorijs Gustavs Janis Jazeps Jevgenijs Juris
+			Kaspars Kirils Klaudijs Kristaps Kristians Ludis Ludvigs Markuss Martins Miervaldis Mihails Mikelis Nikolajs Oskars Pavils Raimonds Ricards Rihards Roberts Stefans Teodors Toms Valdis Valerijs Viktors Vilhelms Vilis
+			Visvaldis Vladimirs Voldemars
+		}
 	}
 	female = {
-		names = { Anna Julija Laima Signe Olita Irbe Iveta Inese Marika Vita Zaiga Milda Lelde }
+		names = {
+			Agnese Agnija Aina Alise Anastasija Anita Anna Beatrise Brigita Dagnija Daina Diana Elina Elita Emilija Helena Ieva Ilona Inga Jelena Jevgenija Julija Klara Kristiana Kristina Kristine Laima Larisa Lauma Lilija Lilita
+			Linda Lucija Madara Marija Marta Melanija Monika Monta Nadezda Natalija Olga Rozalija Sandra Saule Silvija Sofija Solveiga Tatjana Valda Valerija Veronika Viktorija Vita Zane Zoja Zuzanna
+		}
 	}
-	surnames = { 
-		Abakovskis Apsenieks Balodis Baumanis Berkis Berzin Betins Braons Caks Cakste
-		Caps Celmins Dalins Dambitis Darzins Desslers Eizenteins Goppers Halsmans
-		Irbitis Kalnins Kalpaks Kucis Kovalevskis Krogzems Kronvalds Kuks Kviesis Lacis
-		Leiko Loskis Maters Matisons Meierovics Mihelssons Milenbahs Millers Needra Ozolins
-		Petrovs Plieksans Pumpurs Rothko Simanis Stucka Tumins Ulmanis Veidenbaums
+	surnames = {
+		Abele Abers Abolins Abols Aboltins Aditajs Alksnis Ambrozaityte Andrulewicz Antropovs Apsitis Arajs Auzins Avots Bajars Barons Bojars Briedis Bugajenkovs Bukelis Caklais Cakste Calitis Caune Celmins Celms Cirulis Dambis
+		Darzins Dimants Dzerins Esenvalds Ezerins Gaida Gailis Gailitis Graudins Griva Gulbis Helmanis Jatnieks Jaunzeme Jaunzemis Kaimins Kaktins Kalnieks Karklins Kemeris Klavins Klikucs Kokonovs Krastins Krievins Krievs
+		Kronbergs Krums Lacis Laizans Lanka Lapa Lapins Lazdins Liepa Lugailo Lusens Lusis Mednis Miglinieks Mucenieks Murnieks Osis Pastelle Plume Priede Putenis Rasvak Rietums Rudzitis Rudzutaka Selesnick Selivanovs Skrastina
+		Skrastins Soks Strazdins Strazds Tikmers Urbane Vacietis Vanags Vejonis Vinters Vitols Vodopals Zagars Zakis Zarina Zarins Zeltins Zvejnieks Zvirbulis
 	}
 	callsigns = { }
 }
@@ -173,7 +224,7 @@ PRU = {
 
 
 
-SLO = {
+SVK = {
 	male = {
 		names = { "Karol" "Jozef" "Slavomír" "Jaroslav" "Ján" "Vladimír" "Alojz" "Matúš" "Vojtech" }
 		surnames = { "Nemec" "Horváth" "Majer" "Kocian" "Chalupa" "Ferko" "Horňák" }
@@ -198,7 +249,7 @@ CZE = {
 	}
 }
 
-BOH = {
+CZH = {
 	male = {
 		names = { "Karel" "Josef" "Jaroslav" "František" "Rostislav" "Václav" "Antonín" "Milan" "Stanislav" "Slavomír" "Jan" "Vilém" "Bořivoj" "Vladimír" "Alois" "Matúš" "Vojtěch" }
 		surnames = { "Havlíček" "Dvořák" "Novák" "Kolář" "Novotný" "Macháček" "Veselý" "Vaněk" "Němec" "Malý" "Adamec" "Suchý" "Havlík"
@@ -212,18 +263,24 @@ BOH = {
 }
 
 
-AUS = {
+AUT = {
 	male = {
-		names = {  Ezekiel Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
-			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl  }
+		names = {
+			Adolf Anton Christl Emil Erich Ezekiel Falco Felix Friedl Fritz Gerhard Gunther Hans Heinz Hermann Heinrich Joachim Jodok Karl Marco Max Maximilian Muckl Otto Peter Pirmin Romed Staffan Theodor Tobias Viktorin
+			Virgil Walter Wernfried Wilhelm
+		}
 	}
 	female = {
-		names = { Sandra Maria Anna Anne Hannah Hildegard Sarah }
+		names = {
+			Amrei Bärbl Burgel Christl Edel Fedoria Frield Gilla Gretl Hanneliese Heide Kristl Lona Marai Marei Maresi Margund Nannerl Notburga Resi Sandra Sisi Theres Timna Titi Uta
+		}
 	}
-	surnames = { Lugmair Neudinger Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
-		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
-		Beisswenger Duttmann Wilbs Berglen Behrmann 
-	}
+	surnames = {
+		Amstutz Andris Au Baeder Balsano Barkhorn Becker Beelek Behrmann Beisswenger Berglen Bischoffshausen Borsok Brendel Breunig Brunner Dorchincez Dorn Doss Duttmann Erhler Feist Fichter Fischer Fleischman Frankenberger
+		Fritzl Gabas Galishoff Globocnik Goss Gschwendtner Graf Hafner Hartmann Hausle Hiedler Hoferle Hoffmann Horenberge Hosp Hrach Kari Kirschner Klor Kolesar Kronecker Künzi Lang Linkenhoker Lipfert Lugmair Manz Meusburger
+		Meyer Mittermeier Mosele Muller Neudinger Peiper Pfeifer Pfleger Pradl Rall Sandmeier Scherer Schicklgruber Schmaltz Schmidt Schmuck Schneider Schulz Schwachofer Smoke Stoecklin Stotz Sturm Uhe Vogl Wagner Weber
+		Weichselbraun Weisman Wilbs Zamloch Zimic
+		}
 	callsigns = { }
 }
 
@@ -266,19 +323,181 @@ KOZ = {
 
 UKR = {
 	male = {
-		names = { 
-			Andrij Anton Artem Borys Denys Dmytro Fedir Havrylo Henadij Heorhij Hryhorij Ivan Josyp Kazymyr Kostyantyn Kuzma Leontij Maksym Musa Mykola Mykyta Oleh Oleksandr Omelyan Pavlo Pylyp Sava Serhij Stanislav Svyatoslav Trokhym Volodymyr Yaroslav Vitalij Yehor Yukhym Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+		names = {
+			Adam Aleks Aleksandr Aleksei Anatoli Andriy Anton Artem Avgust Bohdan Bohuslav Borys Demyan Denys Dmytro Fedir Gleb Havryil Hryhoriy Ihor Ivan Klim Kliment Kostyantyn Kyrylo Leonid Maksim Maria Marko Martyn Maxim
+			Mikhailo Miron Mykola Mykyta Nazar Nikita Oleh Oleksander Oleksiy Oles Ostap Pavlo Petro Pylyp Roman Ruslan Sasha Semen Serhiy Spartak Stanislav Svyatoslav Symon Taras Valentyn Valerian Vasyl Viktor Vitali Volodymyr
+			Vsevolod Vyacheslav Wasyl Wolodymyr Yakiv Yaroslav Yevgen Yosyp Yuri Zinoviy
 		}
 	}
 	female = {
-		names = { 
-			Anastasiya Ayshe Halyna Hanna Ivanna Lina Lyudmyla Nina Olha Olena Oleksandra Kseniya Rayisa Ruslana Tetyana Vladyslava Yevheniya Yuliya Zoya   
+		names = {
+			Albna Aleksandra Alisa Alla Anastasia Anna Bohuslava Dariya Daryna Eleonora Halyna Hanna Inna Iryna Julia Kalyna Kateryna Katia Khrystyna Klara Klavdiya Ksenia Larisa Lera Lesya Lilia Luba Lyubochka Lyubov Lyudmyla
+			Maria Marina Mila Mykhaila Nadezhda Nadia Natalia Odarka Oksana Olena Olga Olha Oxana Polina Ruslana Sasha Sofia Svitlana Tamara Valentyna Valeriya Vasylyna Viktoria Vira Vitaliya Wasylyna Yana Yaroslava Yelyzaveta
+			Yevzhenia Zinoviya Zoya
 		}
 	}
 	surnames = {
-		Antonenko Bilyk Blyznyuk Bondarchuk Borysenko Demchuk Dmytruk Dorosh Hajduk Havrylenko Havrylyuk Hlushko Holub Horbenko Hrytsaj Ivanov Ishchuk Kolisnyk Kostyuchenko Lyashenko Makarenko Mykytyuk Nahornyj Novak Osadchuk Ostapchuk Pavlov Petruk Protsenko Prykhodko Prysyazhnyuk Pylypenko Ruban Semenyuk Sereda Shevchuk Stadnyk Taranenko Tkachuk Tsymbalyuk Vasylyev Velychko Yakovenko Zaporozhets Zayets Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov         Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
-
+		Antonov Borisov Chayka Gavrilyuk Holub Ivanov Kedzierski Kohut Kozel Pasternak Sewik Shwetz Sokolov Stasiuk Vasylyk Vasylshyn Zelenko Zima
 	}
-	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+	callsigns = { }
 }
 
+BEL = {
+	male = {
+		names = {
+			Aleg Aliaksiej Aliaksandr Aliaksei Andrei Andrusha Anton Aoalinary Arciom Artsiom Artem Balash Barys Baryslau Danila Danyjel Dzmitry Francisak Fyodor Gennady Giorgi Grigoriy Gabryjel Gienadz Grehary Igar Illya
+			Ivan Jakau Jaraslau Jermalajeu Juryj Kanstancin Kiryla Lavr Leanid Lev Marha Maxim Mikalaj Nikadzim Nikita Nikolai Oleg Paviel Piatro Raman Rascislaw Rastsislau Ruslan Semyon Siarheij Stanislau Sviataslau Tyt
+			Ugene Uilyam Uladzimir Uladzislau Vadzim Valery Valiancin Varsanofij Vasily Vikiencij Viktar Yan Yegor Yevgeny Yuri Zmicier
+		}
+	}
+	female = {
+		names = {
+			Adeliajda Aksana Aksuna Alaiza Aliaksandra Aliena Alisiya Anastasia Anna Anzhalika Balash Danila Darya Dzhessika Dzina Elieanora Elizabet Flura Ganna Ingeborga Irisha Jauhienija Jelena Kaciaryna Katsiyarina Ksina
+			Liuba Liubov Ludmila Maryia Nadzeya Nastassia Nastia Natallia Palina Russa Sniazana Sviatlana Tatsiana Valiancina Volha Yavdokha
+		}
+	}
+	surnames = {
+		Abramczyk Adamovich Aksamit Alexievich Bahdanovich Bublik Budrevich Charkashyna Cress Domracheva Gavazansky Gretzky Harbacou Ivanova Kazan Kovaleski Krycauski Kuzma Lagójskì Levin Liakhovich Litvinchuk Lukasehnko
+		Matskevich Maystrenko Myasnikovich Navitski Nosenchuck Novik Novitsky Nyýazow Ostapchuk Piatrushenka Polyakov Portnoy Rybak Slucki Stolinski Sytko Urban Zosimovich Zyk
+
+	}
+	callsigns = { }
+}
+
+DEN = {
+	male = {
+		names = {
+			Aage Adam Alber Alexander Alfred Anders Asmund August Axel Carl Christian Edvard Edvin Elias Emil Erik Felix Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar Jakob Jacob Johan Julius Knud Lucas Ludvig Magnus
+			Malthe Michael Niels Noah Olav Oliver Oscar Otto Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Victor Vilhelm Villads William
+		}
+	}
+	female = {
+		names = {
+			Agnes Alberte Alma Anna Caroline Clara Ella Elsa Else Emma Freja Ida Isabella Josefine Karen Karla Laura Liva Maja Monica Olivia Sofia Sofie Victoria
+		}
+	}
+	surnames = {
+		Jensen Nielsen Hansen Pedersen Andersen Christensen Larsen Saerensen Rasmussen Jaergensen Petersen Madsen Kristensen Olsen Thomsen Christiansen Poulsen Johansen Maeller Mortensen Knudsen Jakobsen Jacobsen Mikkelsen Olsen
+		Frederiksen Laursen Henriksen Lund Schmidt Holm Eriksen Kristiansen Simonsen Clausen Svendsen Andreasen Iversen Aestergaard Jeppesen Vestergaard Nissen Lauridsen Kjaer Jespersen Mogensen Naergaard Jepsen Frandsen Jessen
+	}
+	callsigns = { }
+}
+
+HUN = {
+	male = {
+		names = {
+			Bence Máté Levente Ádám Dávid Balázs Dominik Péter Gergõ Milán Tamás Zsombor Dániel Botond Kristóf Zalán Áron László Márk Attila Zoltán Noel Marcell András Benedek Ákos Barnabás Gábor István Olivér Márton Krisztián
+			Patrik Roland Zsolt Kevin János Szabolcs Martin Csaba Hunor Richárd Benett Gergely József Norbert Róbert Nimród Sándor Alex Benjámin Zétény Ferenc Viktor Erik Mátyás Ábel Bendegúz Kornél Vince Mihály Nándor Nikolasz
+			Csongor Tibor Rikárdó Ármin Krisztofer Csanád Adrián Miklós Brendon Imre György Boldizsár Gyula Vilmos Soma Szebasztián Kede Szilárd Bertalan Károly Domonkos Kolos Barna Lajos Simon Koppány Flórián Zsigmond Alexander
+			Donát Gellért Sebestyén Lóránt Lõrinc Bulcsú Sámuel
+		}
+	}
+	female = {
+		names = {
+			Hanna Anna Jázmin Nóra Boglárka Zsófia Lili Réka Dóra Luca Viktória Emma Vivien Laura Eszter Fanni Petra Lilla Csenge Noémi Sára Dorina Gréta Zoé Dorka Rebeka Bianka Liliána Flóra Léna Panna Alexandra Regina Lara
+			Maja Kamilla Szonja Fruzsina Virág Barbara Blanka Kinga Ramóna Kitti Timea Janka Kata Júlia Emese Dorottya Vanessza Izabella Enikõ Nikolett Mira Liza Veronika Tamara Vanda Alíz Emilia Lilien Kira Patricia Adrienn
+			Amanda Krisztina Kiara Borbála Dzsenifer Leila Kincsõ Zita Zselyke Adél Hanga Diána Melissza Dalma Abigél Katalin Johanna Amira Evelin Bernadett Viola Julianna Elizabet Lívia Zsanett Olivia Míra Letícia Dzsesszika
+			Tifani Alexa Biborka Orsolya Mercédesz
+		}
+	}
+	surnames = {
+		Nagy Kovács Tóth Szabó Horváth Varga Kiss Molnár Németh Farkas Balogh Papp Takács Juhász Lakatos Mészáros Simon Oláh Fekete Rácz Szilágyi Török Fehér Gál Balázs Kis Szúcs Pintér Kocsis Fodor Orsós Szalai Magyar Sipos
+		Lukács Gulyás Biró Király Katona László Fazekas Jakab Sándor Boros Kelemen Bogdán Somogyi Antal Balog Hegedús Orosz Vincze Fülöp Veres Váradi Deák Pap Budai Bálint Pál Illés Vörös Bognár Vass Szóke Lengyel Fábián Szücs
+		Bodnár Halász Hajdu Kozma Pásztor Bakos Máté Gáspár Székely Major Dudás Jónás Virág Orbán Novák Hegedüs Barna Soós Nemes Tamás Borbély Pataki Faragó Szekeres Kerekes Balla Barta Végh Dobos Csonka Kun Péter
+	}
+	callsigns = { }
+}
+
+ROM = {
+	male = {
+		names = {
+			Adrian Alex Alexandru Alin Andrei Antonio Bogdan Catalin Claudiu Constantin Cosmin Cristian Daniel Darius David Denis Dragos Dumitru Eduard Emanuel Florin Gabriel George Ioan Ionut Iulian Laurentiu Luca Lucian Marian
+			Mario Marius Matei Mihai Nicolae Nicolas Paul Petru Radu Rares Raul Razvan Robert Sebastian Stefan Teodor Tudor Valentin Vasile Vlad
+		}
+	}
+	female = {
+		names = {
+			Adelina Adriana Alessia Alexandra Alexia Alina Amalia Ana Anamaria Andra Andreea Antonia Beatrice Bianca Catalina Claudia Cristina Daniela Daria Delia Denisa Diana Elena Florentina Florina Gabriela Georgiana Iona
+			Ionela Irina Iulia Iuliana Larisa Larvinia Madalina Mara Maria Mihaela Miruna Natalia Nicoleta Patricia Raluca Rebeca Roxana Sara Sofia Stefania Teodora Valentina
+		}
+	}
+	surnames = {
+		Adam Albert Albescu Albu Alexandrescu Anghelescu Antonescu Ardelean Balan Cojocaru Constantin Constantinescu Dalca Dumitrescu Dumirtu Funar Grigorescu Iliescu Ionesco Ionescu Lungu Lupei Negrescu Nicolescu Petran Petrescu
+		Popescu Sala Serban Ungur Vaduva Vasile Vasilescu Vladimirescu
+	}
+	callsigns = { }
+}
+
+RUS = {
+	male = {
+		names = {
+			Abram Aleksandr Aleksei Albert Anatoly Andrei Anton Arkady Arseny Artyom Artur Afanasy Bogdan Boris Vadim Valentin Valery Vasily Veniamin Viktor Vitaly Vlad Vladimir Vladislav Vselovod Vyacheslav Gavrily Garri Gennady
+			Georgy Gerasim German Gleb Grigory David Daniil Denis Dmitry Yevgeny Yegor Yefim Zakhar Ivan Ignat Igor Illarion Ilya Immanuil Iosif Kirill Konstantin Les Leonid Makar Maksim Marat Mark Matvei Mikhail Nestor Nikita
+			Nikolai Oleg Pavel Pyotr Robert Rodion Roman Rostislav Ruslan Semyon Sergei Spartak Stanislav Stepan Taras Timofei Timur Trofim Eduard Erik Yulian Yuri Yakov Yaroslav
+		}
+	}
+	female = {
+		names = {
+			Aleksandra Alina Alisa Alla Alyona Albina Anastasiya Anna Antonina Anzhelika Anfisa Vera Valeriya Varvara Vasilisa Vladlena Veronika Valentina Viktoriya Galina Darya Dina Diana Dominika Yekaterina Yelena Yelizaveta
+			Yevgeniya Yeva Zhanna Zinaida Zoya Zlata Inga Inna Irina Inessa Izabella Izolda Iskra Klara Klavdiya Kseniya Kapitolina Klementina Kristina Lada Larisa Lidiya Lyubov Liliya Lyudomila Lyusya Margarita Maiya Malvina
+			Marta Marina Mariya Nadezhda Natalya Nelli Nina Nika Nonna Oksana Olga Olesya Polina raisa Rada Rozalina Regina Renata Svetlana Sofiya Taisiya Tamara Tatyana Ulyana Faina Fedorsya Florentina Elvira Emiliya Emma
+			Yuliya Yaroslava Yana
+		}
+	}
+	surnames = {
+		Ivanov Smirnov Vasilev Petrov Kuznetsov Fedorov Mikhailov Sokolov Pavlov Semenov Stepanov Egorov Nikolaev Kozlov Popov Lebedev Yakovlev Volkov Grigorev Morozov Novikov Nikitin Dmitriev Kuzmin Aleksandrov Zaitsev Zakharov
+		Bogdanov Vorobev Belov Baranov Filippov Timofeev Efimor Borisov Ilin Kiselev Frolov Sorokin Golubev Polyakov Osipov Kovalev Tarasov Belyaev Gerasimov Mironov Melnikov Abramtsov Zhuravlev Vlasov Titov Danilov Kovalenko
+		Nazarov Karpov Denisov Tikhonov Savelev Gromov Tikhomirov Fomin Shcherbakov Anisimov Ermakov Chistyakv Bykov Leonov Voronin Ignatev Yevdokimov Arkhipov Chernov Belyakov Ponomarev Filatov Prokhorov Voronov Kolesnikov Klimov
+		Loginov Savin Nesterov Demidov Lobanov Aksenov Lukin Belousov Spiridonov Yudin Akimov Suvorov Larionov Lukanov Ushakoy Petrenko Biryukov Khokhlov Filimonov Chernyshev
+	}
+	callsigns = {  }
+}
+
+SWE = {
+	male = {
+		names = {
+			William Oscar Liam Lucas Oliver Alexander Elias Hugo Noah Adam Leo Charlie Elliot Walter Isak Axel Ludvig Adrian Alfred Nils Mohamed Filip Theo Theodor Arvid Harry Leon Vincent Melvin Edvin Viktor August Olle Benjamin
+			Emil Gustav Josef Viggo Sixtern Gabriel Matteo Loui Albin Melker Ebbe Erik Love Vidar Frank Henry Malte Jacob Max Sam Noel Wilmer Jack Loke Elton Milo Sigge Otto Colin Anton Carl Tage Casper Wilhelm Alvin Frans Aron
+			Felix Kevin Milton Hjalmar Ivar Samuel Julian Vilgot Kian Elvin Elis Ali Omar John Ville Sebastian Jonathan Daniel Joel Simon Nicolas Folke David Maximilian Thor Milian Levi Vide Neo
+		}
+	}
+	female = {
+		names = {
+			Alice Alicia Olivia Ella Ebba Lilly Astrid Saga Freja Wilma Maja Agnes Elsa Alma Clara Ellie Selma Julia Stella Alva Signe Vera Ellen Leah Molly Ines Ester Linnea Isabelle Sara Nova Nellie Emilia Emma Elvira Sigrid
+			Iris Nora Lova Juni Sofia Edith Elise Celine Liv Elin Luna Livia Leia Isabella Tyra Maria Meja Lykke Tuva Hanna Felicia Thea Ingrid Majken Ida Sally Amelia Moa Cornelia Lovisa Stina Rut Melissa Matilda Joline Siri
+			Jasmine Ronja Bianca Lo Svea Maryam Amanda Mila Tilde Filippa Penny Märta Cleo Hilda Hedda Hilma Emelie Hedvig Julie Mira Ellinor My Greta Lovis Zoey Idun Melina Noomi
+		}
+	}
+
+	surnames = {
+		Andersson Johansson Karlsson Nilsson Eriksson Larsson Olsson Persson Svensson Gustafsson Pettersson Jonsson Jansson Hansson Bengtsson Jönsson Lindberg Jakobsson Magnusson Olofsson Lindström Lindqvist Lindgren Axelsson
+		Berg Bergström Lundberg Lundgren Lind Lundqvist Mattsson Berglund Fredriksson Sandberg Henriksson Forsberg Sjöberg Wallin Engström Eklund Danielsson Håkansson Lundin Gunnarsson Björk Bergman Holm Samuelsson Fransson
+		Wikström Isaksson Bergqvist Nyström Arvidsson Holmberg Löfgren Ali Söderberg Mohamed Nyberg Blomqvist Claesson Mårtensson Nordström Lundström Eliasson Pålsson Viklund Björklund Berggren Sandström Lund Nordin Ström Åberg
+	}
+}
+
+ZYD = {
+	male = {
+		names = {
+			Abraham Adam Aaron Amit Amitai Ariel Asaf Aviel Aviv Beeri Ben Benjamin Bnaya Chaim Dan Daniel David Dor Dvir Ethan Elazar Elchanan Eliav Eliya Eliyahu Elon Elroi Eviatar Eyal Guy Harel Hillel Idan Ido Ilay Imri Itai
+			Itamar Joseph Lavi Leroi Liam Lior Maayan Maor Matan Meir Menachem Michael Mordechai Moshe Nachman Nadav Natan Nehorai Neria Netanel Nevel Nevo Nitai Noam Norah Ofek Omer Omri Ophir Or Orel Raphael Roi Rom Ron
+			Shachar Shai Shalom Shilo Simon Solomon Samuel Tomer Uri Uriah Uriel Yaakov Yahav Yaheli Yair Yanai Yarin Yehonatan Joshua Judah Yinon Yishai Yisrael Yitchak Yoav Yonatan Yotam Yuval Zvi
+		}
+	}
+	female = {
+		names = {
+			Abigail Adele Adi Agam Aleen Aliya Alma Amit Anael Ariel Avia Avishag Avital Aviv Ayala Batsheva Bracha Carmel Chana Chaya Daniel Daniella Dvora Eden Efrat Elah Elisheva Emily Emma Esther Gaia Gali Gefen Gili Hadar
+			Hadas Hadassa Hallel Hila Hili Hodaya Leah Lia Lian Libi Liel Lior Maayan Malka May Maya Michal Mika Miriam Moriah Naama Naomi Nechama Neta Noa Noam Noga Noya Odele Ofri Omer Ophir Or Ori Orin Rachel Rivka Romi Roni
+			Rotem Ruth Sarah Shachar Shai Shaily Shaked Shani Shilat Shir Shira Tahal Talia Tamar Tehila Toha Tziporah Uria Yaara Yael Yaheli Yarden Yehudit Yuli Yuval Zohar
+		}
+	}
+	surnames = {
+		Aaron Abraham Abrams Adams Adler Amos Amsel Avraham Baum Baumann Berkovich Bieber Blum Blumenthal Blumstein Böhmer Bramson Chaikin Cline Cohen David Ezra Feigenbaum Feld Fisher Freud Freudenberger Goldhirsch Greenberg
+		Greenspan Grünberg Grünspan Haber Harel Hayes Herschel Hirsch Hochberg Horowitz Jäger Jordan Kauffmann  Kleid Klein Krakowski Kramer Krantz Kravitz Landau Langer Lehrer Levi Maier Mandel Mandelbaum Matos Mayer
+		Mencher Mendel Morgenstern Moses Neumann Nussbaum Orenstein Pascal Pasternack Pensak Penzig Pontecorvo Prinz Rapp Regenbogen Reis Reuter Riese Rose Roseberg Rosenfeld Rot Roth Rothenberg Rothschild Salomon Samson
+		Samuel Scheinberg Schenck Schindler Schneider Schnur Schreier Schwarz Seelenfreund Segal Seidel Shafir Shain Shapiro Sheinfeld Sherman Siegel Silverstein Simon Siskin Sitz Sobol Sokol Spitznogle Stein Stern Slotarz Stueck
+		Suess Tobias Vang Waldfoger Wallach Wang Warshawsky Wechsler Winograd Wirth Wolff Zilberschalg Zimmermann Zingel
+	}
+	callsigns = {
+	}
+}
