@@ -101,6 +101,26 @@ defined_text = {
 		trigger = { tag = SAP }
 		localization_key = TITLE_SAP
 	}
+	text = {
+		trigger = { tag = MNI }
+		localization_key = TITLE_MNI
+	}
+	text = {
+		trigger = { tag = OPO }
+		localization_key = TITLE_OPO
+	}
+	text = {
+		trigger = { tag = LCH }
+		localization_key = TITLE_LCH
+	}
+	text = {
+		trigger = { tag = LEH }
+		localization_key = TITLE_LEH
+	}
+	text = {
+		trigger = { tag = WAN }
+		localization_key = TITLE_WAN
+	}
 	
 	text = {
 	localization_key = DEFAULT_TITLE
@@ -211,6 +231,26 @@ defined_text = {
 	text = {
 		trigger = { tag = SAP }
 		localization_key = GOVERNMENT_SAP
+	}
+	text = {
+		trigger = { tag = MNI }
+		localization_key = GOVERNMENT_MNI
+	}
+	text = {
+		trigger = { tag = OPO }
+		localization_key = GOVERNMENT_OPO
+	}
+	text = {
+		trigger = { tag = LCH }
+		localization_key = GOVERNMENT_LCH
+	}
+	text = {
+		trigger = { tag = LEH }
+		localization_key = GOVERNMENT_LEH
+	}
+	text = {
+		trigger = { tag = WAN }
+		localization_key = GOVERNMENT_WAN
 	}
 	
 

@@ -1,0 +1,55 @@
+ideas = {
+	
+head_of_government = {
+        ZHP_min_orsza = {
+            picture = ZHP_min_orsza
+            allowed = { original_tag = ZHP }
+            available = { }
+            traits = {
+                central_planner
+            }
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+    minister_of_war = {
+        ZHP_min_alek = {
+            picture = ZHP_min_alek
+            allowed = { original_tag = ZHP }
+            available = { }
+            traits = {
+                industrial_chemist
+            }
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+    minister_of_economy = {
+        ZHP_min_zoska = {
+            picture = ZHP_min_zoska
+            allowed = { original_tag = ZHP }
+            available = { }
+            traits = {
+                athlete
+            }
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+    interior_minister = {
+        ZHP_min_rudy = {
+            allowed = { original_tag = ZHP }
+            available = { }
+            traits = {
+                pedagogue
+            }
+            picture = ZHP_min_rudy
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+}

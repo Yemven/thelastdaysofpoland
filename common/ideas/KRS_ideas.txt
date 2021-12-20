@@ -1,0 +1,56 @@
+ideas = {
+	
+head_of_government = {
+        KRS_min_skrzydlewska = {
+            picture = KRS_min_skrzydlewska
+            allowed = { original_tag = KRS }
+            available = { }
+            traits = {
+                manager
+            }
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+    minister_of_war = {
+        KRS_min_rutkowski = {
+            picture = KRS_min_rutkowski
+            allowed = { original_tag = KRS }
+            available = { }
+            traits = {
+                mad_scientist
+            }
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+    minister_of_economy = {
+        KRS_min_ebrantil = {
+            picture = KRS_min_ebrantil
+            allowed = { original_tag = KRS }
+            available = { }
+            traits = {
+                private_detective
+            }
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+    interior_minister = {
+        KRS_min_wesolowska = {
+
+            allowed = { original_tag = KRS }
+            available = { }
+            traits = {
+                persecutor
+            }
+            picture = KRS_min_wesolowska
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+}

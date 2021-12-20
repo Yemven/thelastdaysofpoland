@@ -1,0 +1,55 @@
+ideas = {
+	
+head_of_government = {
+        SAP_min_dukaj = {
+            picture = SAP_min_dukaj
+            allowed = { original_tag = SAP }
+            available = { }
+            traits = {
+                archmage
+            }
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+    minister_of_war = {
+        SAP_min_pudzian = {
+            picture = SAP_min_pudzian
+            allowed = { original_tag = SAP }
+            available = { }
+            traits = {
+                inspiring_warrior
+            }
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+    minister_of_economy = {
+        SAP_min_ziemianski = {
+            picture = SAP_min_ziemianski
+            allowed = { original_tag = SAP }
+            available = { }
+            traits = {
+                architect
+            }
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+    interior_minister = {
+        SAP_min_piekara = {
+            allowed = { original_tag = SAP }
+            available = { }
+            traits = {
+                inquisitor
+            }
+            picture = SAP_min_piekara
+            ledger = civilian
+            cancel_if_invalid = yes
+            removal_cost = -1
+        }
+    }
+}
