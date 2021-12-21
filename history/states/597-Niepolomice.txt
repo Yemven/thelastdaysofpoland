@@ -1,18 +1,26 @@
+
 state={
 	id=597
 	name="STATE_597"
-	provinces={
-		356 2518 3411
-	}
-	manpower = 37607   state_category = rural
-	buildings_max_level_factor=1.000
-	 				history = {
-		owner = UMN
-		victory_points = { }
-		add_core_of = UMN
-	buildings = {
-	infrastructure = 7
-}
-}
-}
 
+	history={
+		owner = UMN
+		victory_points = {
+
+		}
+		add_core_of = UMN
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		356 2518 11094 11095 11096 11097 11098 11099 11100
+	}
+	manpower=37607
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
