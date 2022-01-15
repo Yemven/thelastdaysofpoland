@@ -441,6 +441,10 @@ technologies = {
 			equipment_vests_0
 		}
 		
+		enable_subunits = {
+			heavy_infantry
+		}
+		
 		path = {
 			leads_to_tech = ballistic_vests1
 			research_cost_coeff = 1
@@ -465,10 +469,6 @@ technologies = {
 	ballistic_vests1 = {
 		enable_equipments = {
 			equipment_vests_1
-		}
-		
-		enable_subunits = {
-			heavy_infantry
 		}
 		
 		path = {
