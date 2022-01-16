@@ -20,6 +20,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_everything_that_ours
+		icon = ZHP_everything_that_ours
 		available = {
 		
 		}
@@ -38,7 +39,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ZHP_what's_next_?
+		id = ZHP_whats_next
+		icon = ZHP_whats_next
 		relative_position_id = ZHP_everything_that_ours
 		prerequisite = { focus = ZHP_everything_that_ours }
 		available = {
@@ -60,8 +62,9 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_our_economy
-		relative_position_id = ZHP_what's_next_?
-		prerequisite = { focus = ZHP_what's_next_? }
+		icon = ZHP_our_economy
+		relative_position_id = ZHP_whats_next
+		prerequisite = { focus = ZHP_whats_next }
 		available = {
 		
 		}
@@ -81,6 +84,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_improvised_workshops
+		icon = ZHP_improvised_workshops
 		relative_position_id = ZHP_our_economy
 		prerequisite = { focus = ZHP_our_economy }
 		mutually_exclusive = { focus = ZHP_industrial_camps }
@@ -103,6 +107,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_industrial_camps
+		icon = ZHP_industrial_camps
 		relative_position_id = ZHP_our_economy
 		prerequisite = { focus = ZHP_our_economy }
 		mutually_exclusive = { focus = ZHP_improvised_workshops }
@@ -125,6 +130,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_food_searches
+		icon = ZHP_food_searches
 		relative_position_id = ZHP_improvised_workshops
 		prerequisite = { focus = ZHP_improvised_workshops }
 		available = {
@@ -146,6 +152,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_robbery_economy
+		icon = ZHP_robbery_economy
 		relative_position_id = ZHP_food_searches
 		prerequisite = { focus = ZHP_food_searches }
 		available = {
@@ -167,6 +174,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_scout_farm_system
+		icon = ZHP_scout_farm_system
 		relative_position_id = ZHP_industrial_camps
 		prerequisite = { focus = ZHP_industrial_camps }
 		available = {
@@ -188,6 +196,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_what_we_will_focus_on
+		icon = ZHP_what_we_will_focus_on
 		relative_position_id = ZHP_scout_farm_system
 		prerequisite = { focus = ZHP_scout_farm_system }
 		available = {
@@ -209,6 +218,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_new_economic_policy
+		icon = ZHP_new_economic_policy
 		relative_position_id = ZHP_what_we_will_focus_on
 		prerequisite = { focus = ZHP_what_we_will_focus_on 
 						 focus = ZHP_robbery_economy}
@@ -231,8 +241,9 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_our_pride_army
-		relative_position_id = ZHP_what's_next_?
-		prerequisite = { focus = ZHP_what's_next_? }
+		icon = ZHP_our_pride_army
+		relative_position_id = ZHP_whats_next
+		prerequisite = { focus = ZHP_whats_next }
 		available = {
 		
 		}
@@ -252,6 +263,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_every_child_at_the_service_of_ideals
+		icon = ZHP_every_child_at_the_service_of_ideals
 		relative_position_id = ZHP_our_pride_army
 		prerequisite = { focus = ZHP_our_pride_army }
 		mutually_exclusive = { focus = ZHP_volunteer_army }
@@ -274,6 +286,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_volunteer_army
+		icon = ZHP_volunteer_army
 		relative_position_id = ZHP_our_pride_army
 		prerequisite = { focus = ZHP_our_pride_army }
 		mutually_exclusive = { focus = ZHP_every_child_at_the_service_of_ideals }
@@ -295,7 +308,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ZHP_gray_lily's_support_battalions
+		id = ZHP_gray_lilys_support_battalions
+		icon = ZHP_gray_lily_battalions
 		relative_position_id = ZHP_every_child_at_the_service_of_ideals
 		prerequisite = { focus = ZHP_every_child_at_the_service_of_ideals }
 		available = {
@@ -317,8 +331,9 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_the_tactics_of_our_ancestors
-		relative_position_id = ZHP_gray_lily's_support_battalions
-		prerequisite = { focus = ZHP_gray_lily's_support_battalions }
+		icon = ZHP_the_tactics_of_our_ancestors
+		relative_position_id = ZHP_gray_lilys_support_battalions
+		prerequisite = { focus = ZHP_gray_lilys_support_battalions }
 		available = {
 		
 		}
@@ -338,6 +353,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_limiting_the_role_of_sl_in_the_army
+		icon = ZHP_limiting_the_role_of_sl_in_the_army
 		relative_position_id = ZHP_volunteer_army
 		prerequisite = { focus = ZHP_volunteer_army }
 		available = {
@@ -359,6 +375,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_changes_of_plans
+		icon = ZHP_changes_of_plans
 		relative_position_id = ZHP_limiting_the_role_of_sl_in_the_army
 		prerequisite = { focus = ZHP_limiting_the_role_of_sl_in_the_army }
 		available = {
@@ -380,6 +397,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_discovery
+		icon = ZHP_discovery
 		relative_position_id = ZHP_changes_of_plans
 		prerequisite = { focus = ZHP_changes_of_plans 
 						 focus = ZHP_the_tactics_of_our_ancestors}
@@ -402,8 +420,9 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_our_society
-		relative_position_id = ZHP_what's_next_?
-		prerequisite = { focus = ZHP_what's_next_? }
+		icon = ZHP_our_society
+		relative_position_id = ZHP_whats_next
+		prerequisite = { focus = ZHP_whats_next }
 		available = {
 		
 		}
@@ -423,6 +442,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_prohibition_of_sex
+		icon = ZHP_prohibition_of_sex
 		relative_position_id = ZHP_our_society
 		prerequisite = { focus = ZHP_our_society }
 		available = {
@@ -444,6 +464,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_scout_law_-_criminal_law
+		icon = ZHP_scout_law_criminal_law
 		relative_position_id = ZHP_prohibition_of_sex
 		prerequisite = { focus = ZHP_prohibition_of_sex }
 		mutually_exclusive = { focus = ZHP_revision_of_the_polish_penal_code }
@@ -466,6 +487,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_revision_of_the_polish_penal_code
+		icon = ZHP_revision_of_the_polish_penal_code
 		relative_position_id = ZHP_prohibition_of_sex
 		prerequisite = { focus = ZHP_prohibition_of_sex }
 		mutually_exclusive = { focus = ZHP_scout_law_-_criminal_law }
@@ -488,6 +510,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_every_child_a_scout
+		icon = ZHP_every_child_a_scout
 		relative_position_id = ZHP_scout_law_-_criminal_law
 		prerequisite = { focus = ZHP_scout_law_-_criminal_law }
 		available = {
@@ -509,6 +532,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_isolation_of_cities
+		icon = ZHP_isolation_of_cities
 		relative_position_id = ZHP_every_child_a_scout
 		prerequisite = { focus = ZHP_every_child_a_scout }
 		available = {
@@ -530,6 +554,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_voluntary_membership
+		icon = ZHP_voluntary_membership
 		relative_position_id = ZHP_revision_of_the_polish_penal_code
 		prerequisite = { focus = ZHP_revision_of_the_polish_penal_code }
 		available = {
@@ -551,6 +576,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_mutual_cooperation
+		icon = ZHP_mutual_cooperation
 		relative_position_id = ZHP_voluntary_membership
 		prerequisite = { focus = ZHP_voluntary_membership }
 		available = {
@@ -572,6 +598,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_new_social_order
+		icon = ZHP_new_social_order
 		relative_position_id = ZHP_mutual_cooperation
 		prerequisite = { focus = ZHP_mutual_cooperation 
 						 focus = ZHP_isolation_of_cities }
@@ -594,6 +621,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZHP_we_are_ready
+		icon = ZHP_we_are_ready
 		relative_position_id = ZHP_new_economic_policy
 		prerequisite = { focus = ZHP_new_economic_policy }
 		prerequisite = { focus = ZHP_new_social_order }

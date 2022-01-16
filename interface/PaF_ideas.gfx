@@ -1,6 +1,89 @@
 spriteTypes = {
 
-
+	spriteType = {
+		name = "GFX_idea_no_subsidies"
+		texturefile = "gfx/interface/ideas/subsidies_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_civil_industry_subsidies"
+		texturefile = "gfx/interface/ideas/subsidies_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_industry_subsidies"
+		texturefile = "gfx/interface/ideas/subsidies_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_basic_income"
+		texturefile = "gfx/interface/ideas/subsidies_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_absolute_censorship"
+		texturefile = "gfx/interface/ideas/press_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_state_press"
+		texturefile = "gfx/interface/ideas/press_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_autocensorship"
+		texturefile = "gfx/interface/ideas/press_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_absolute_freedom"
+		texturefile = "gfx/interface/ideas/press_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_party"
+		texturefile = "gfx/interface/ideas/parties_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_monoparty"
+		texturefile = "gfx/interface/ideas/parties_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_controlled_opposition"
+		texturefile = "gfx/interface/ideas/parties_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_multiparty"
+		texturefile = "gfx/interface/ideas/parties_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_witch_doctors"
+		texturefile = "gfx/interface/ideas/health_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_private_healthcare"
+		texturefile = "gfx/interface/ideas/health_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_partial_refundation"
+		texturefile = "gfx/interface/ideas/health_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_public_healthcare"
+		texturefile = "gfx/interface/ideas/health_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_improvised_security"
+		texturefile = "gfx/interface/ideas/security_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_basic_security"
+		texturefile = "gfx/interface/ideas/security_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_advanced_security"
+		texturefile = "gfx/interface/ideas/security_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_direct_security"
+		texturefile = "gfx/interface/ideas/security_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_extreme_security"
+		texturefile = "gfx/interface/ideas/security_5.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_WOD_europa_ante_portas"
 		texturefile = "gfx/interface/ideas/WOD/WOD_europa_ante_portas.dds"
