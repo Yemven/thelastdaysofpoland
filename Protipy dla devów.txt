@@ -1,0 +1,31 @@
+
+
+
+Jeśli wrzucanie (albo ogólnie tworzenie) jakiś konkretnych rzeczy wymaga instrukcji albo dla innych devów, to to jest dobre miejsce, żeby wyjaśnić co i jak.
+
+
+
+
+##########     DODAWANIE CUSTOMOWYCH GRAFIK PROWINCJI     ##########
+
+
+Grafika prowincji powinna być w rozdzielczości 413x70, w formacie DDS. Ja ją zapisywałem poprzez Paint.net, w dalszych ustawieniach dając BC1 (Linear, DX11).
+
+Grafikę umieścić w lokalizacji: gfx/interface/terrains.
+
+Następnie należy zapisać jej nazwę w następujących plikach:
+
+	interface/countrystateview.gui					- to dość długi plik, najlepiej wyszukać sobie "lublin", tam się będą zaczynać customowe grafiki w modzie
+
+	interface/PaF_stateview_cities
+
+	common/on_actions/on_actions_terrain.gfx		- tutaj jest potrzebne również ID prowincji
+
+	common/modifiers/02_terrain_modifiers
+
+I grafika powinna już działać.
+
+Nie jest to idealne rozwiązanie, grafika nie leży w UI dokładnie tak samo jak deafultowa, a parę pikseli na prawej i dolnej krawędzi się dubluje. Ale chyba taki sam problem jest w KR i TWR, więc nie wiem czy w ogóle coś da się z tym zrobić.
+
+
+			- Nargton
