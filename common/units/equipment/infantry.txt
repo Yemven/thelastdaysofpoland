@@ -52,6 +52,7 @@ equipments = {
 		year = 1936
 		
 		archetype = melee_equipment
+		parent = melee_equipment_0
 		active = yes
 		priority = 10
 		visual_level = 0
@@ -75,6 +76,7 @@ equipments = {
 		year = 1938
 		
 		archetype = melee_equipment
+		parent = melee_equipment_1
 		active = yes
 		priority = 10
 		visual_level = 0
@@ -98,6 +100,7 @@ equipments = {
 		year = 1940
 		
 		archetype = melee_equipment
+		parent = melee_equipment_2
 		active = yes
 		priority = 10
 		visual_level = 1
@@ -126,6 +129,7 @@ equipments = {
 		year = 1942
 		
 		archetype = melee_equipment
+		parent = melee_equipment_3
 		active = yes
 		priority = 10
 		visual_level = 1
@@ -200,6 +204,7 @@ equipments = {
 		year = 1936
 		
 		archetype = ranged_equipment
+		parent = ranged_equipment_0
 		active = yes
 		priority = 10
 		visual_level = 0
@@ -223,6 +228,7 @@ equipments = {
 		year = 1938
 		
 		archetype = ranged_equipment
+		parent = ranged_equipment_1
 		active = yes
 		priority = 10
 		visual_level = 0
@@ -246,6 +252,7 @@ equipments = {
 		year = 1940
 	
 		archetype = ranged_equipment
+		parent = ranged_equipment_2
 		active = yes
 		priority = 10
 		visual_level = 1
@@ -271,6 +278,7 @@ equipments = {
 		year = 1942
 	
 		archetype = ranged_equipment
+		parent = ranged_equipment_3
 		active = yes
 		priority = 10
 		visual_level = 1
@@ -296,6 +304,7 @@ equipments = {
 		year = 1944
 	
 		archetype = ranged_equipment
+		parent = ranged_equipment_4
 		active = yes
 		priority = 10
 		visual_level = 2
@@ -367,6 +376,7 @@ equipments = {
 		year = 1938
 		
 		archetype = equipment_vests
+		parent = equipment_vests_0
 		active = yes
 		priority = 10
 		visual_level = 0
@@ -390,6 +400,7 @@ equipments = {
 		year = 1940
 		
 		archetype = equipment_vests
+		parent = equipment_vests_1
 		active = yes
 		priority = 10
 		visual_level = 1
@@ -415,6 +426,7 @@ equipments = {
 		year = 1942
 		
 		archetype = equipment_vests
+		parent = equipment_vests_2
 		active = yes
 		priority = 10
 		visual_level = 1
@@ -440,6 +452,7 @@ equipments = {
 		year = 1944
 		
 		archetype = equipment_vests
+		parent = equipment_vests_3
 		active = yes
 		priority = 10
 		visual_level = 2
@@ -509,6 +522,7 @@ equipments = {
 		year = 1940
 		
 		archetype = special_forces_equipment
+		parent = special_forces_equipment_0
 		active = yes
 		priority = 10
 		visual_level = 1
@@ -534,6 +548,7 @@ equipments = {
 		year = 1944
 		
 		archetype = special_forces_equipment
+		parent = special_forces_equipment_0
 		active = yes
 		priority = 10
 		visual_level = 2
