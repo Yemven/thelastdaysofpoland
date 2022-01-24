@@ -2,45 +2,58 @@ on_actions = {
 
 	on_startup = {
 		effect = {
-			2 = {
+			363 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_lublin_center }
 					province = { id = 3307 }
 				}
-			2 = {
+			}
+			363 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_lublin_weglin }
 					province = { id = 8757 }
 				}
-			2 = {
+			}
+			363 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_lublin_lsm }
 					province = { id = 8758 }
 				}
-			2 = {
+			}
+			363 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_lublin_czuby }
 					province = { id = 8756 }
 				}
-			2 = {
+			}
+			363 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_lublin_stary_gaj }
 					province = { id = 8755 }
 				}
-			2 = {
+			}
+			363 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_lublin_zemborzyce2 }
 					province = { id = 8754 }
 				}
-			2 = {
+			}
+			326 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_lubartow }
 					province = { id = 3041 }
 				}
-			2 = {
+			}
+			413 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_szczebrzeszyn }
 					province = { id = 8960 }
+				}
+			}
+			460 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_dabrowagornicza }
+					province = { id = 3201 }
 				}
 			}
 		}

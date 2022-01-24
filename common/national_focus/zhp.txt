@@ -443,8 +443,10 @@ focus_tree = {
 	focus = {
 		id = ZHP_prohibition_of_sex
 		icon = ZHP_prohibition_of_sex
-		relative_position_id = ZHP_our_society
-		prerequisite = { focus = ZHP_our_society }
+		relative_position_id = ZHP_new_economic_policy
+		prerequisite = { focus = ZHP_discovery }
+		prerequisite = { focus = ZHP_new_economic_policy }
+		prerequisite = { focus = ZHP_new_social_order }
 		available = {
 		
 		}
@@ -465,8 +467,8 @@ focus_tree = {
 	focus = {
 		id = ZHP_scout_law_-_criminal_law
 		icon = ZHP_scout_law_criminal_law
-		relative_position_id = ZHP_prohibition_of_sex
-		prerequisite = { focus = ZHP_prohibition_of_sex }
+		relative_position_id = ZHP_our_society
+		prerequisite = { focus = ZHP_our_society }
 		mutually_exclusive = { focus = ZHP_revision_of_the_polish_penal_code }
 		available = {
 		
@@ -488,8 +490,8 @@ focus_tree = {
 	focus = {
 		id = ZHP_revision_of_the_polish_penal_code
 		icon = ZHP_revision_of_the_polish_penal_code
-		relative_position_id = ZHP_prohibition_of_sex
-		prerequisite = { focus = ZHP_prohibition_of_sex }
+		relative_position_id = ZHP_our_society
+		prerequisite = { focus = ZHP_our_society }
 		mutually_exclusive = { focus = ZHP_scout_law_-_criminal_law }
 		available = {
 		
@@ -622,10 +624,8 @@ focus_tree = {
 	focus = {
 		id = ZHP_we_are_ready
 		icon = ZHP_we_are_ready
-		relative_position_id = ZHP_new_economic_policy
-		prerequisite = { focus = ZHP_new_economic_policy }
-		prerequisite = { focus = ZHP_new_social_order }
-		prerequisite = { focus = ZHP_discovery }
+		relative_position_id = ZHP_prohibition_of_sex
+		prerequisite = { focus = ZHP_prohibition_of_sex }
 		available = {
 		
 		}
@@ -634,7 +634,7 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 2
+		y = 1
 		
 		cost = 10
 		search_filters = {FOCUS_STABILITY}

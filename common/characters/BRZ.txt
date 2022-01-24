@@ -3,16 +3,16 @@ characters={
 		name="Jerzy Brzęczek"
 		portraits={
 			civilian={
-				large="gfx/leaders/BRZ/BRZ_JerryBuzzer2.dds"
+				large="gfx/leaders/BRZ/BRZ_JerryBuzzer.dds"
 			}
 		}
 		country_leader={
-			ideology=marxism_cranism_subtype
+			ideology=autocracy_subtype
 			expire="1.1.1.1"
 			id=-1
-		}
+		}		
 		country_leader={
-			ideology=autocracy_subtype
+			ideology=marxism_cranism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
