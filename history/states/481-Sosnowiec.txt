@@ -1,29 +1,35 @@
+
 state={
 	id=481
 	name="STATE_481"
-	provinces={
-		1357 2714 4019 7758 7759 7760 7761 7762 7763 7764 7765 7766 7767 7768 7769 7770 7771
 
-	}
-	manpower = 181492
-	
-	state_category = large_city
-	
-	buildings_max_level_factor = 1.000
-		
 	history={
 		owner = SOS
-		victory_points = { 1357 30 }
-		victory_points = { 4019 10 }
-		victory_points = { 2714 5 }
+		victory_points = {
+			1357 30 
+		}
+		victory_points = {
+			7763 3 
+		}
+		victory_points = {
+			7762 3 
+		}
 
 		buildings = {
 			infrastructure = 7
 			arms_factory = 2
-			industrial_complex = 4
+			industrial_complex = 3
+
 		}
 		add_core_of = SOS
 
-
 	}
+
+	provinces={
+		1357 7761 7762 7763 7765 7766 7767 7768 7769 7770 7771 
+	}
+	manpower=101492
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

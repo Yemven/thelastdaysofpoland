@@ -13,7 +13,7 @@ guiTypes = {
 	
 	positionType = {
 		name = "countrystateview_weathericons_position"
-		position = { x = 384 y= -31 }
+		position = { x = 427 y= -31 }
 	}
 
 	positionType = {
@@ -395,7 +395,14 @@ guiTypes = {
 				name = "terrain_strzemieszyce_icon"
 				spriteType = "GFX_terrain_strzemieszyce"
 				alwaystransparent = yes
-			}					
+			}
+			iconType = {
+				name = "terrain_belweder_icon"
+				spriteType = "GFX_terrain_belweder"
+				alwaystransparent = yes
+			}
+
+			
 			}
 			
 			iconType = {

@@ -1,0 +1,26 @@
+state={
+	id=798
+	name="STATE_798"
+	provinces={
+		2714 4019 7758 7759 7760 7764 
+	}
+		history={
+		owner = SOS
+				buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = SOS
+		add_claim_by = DGR
+		
+	victory_points = { 7764 1 }
+	victory_points = { 4019 5 }
+	victory_points = { 2714 1 }
+	}
+	manpower=80465
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

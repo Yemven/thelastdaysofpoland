@@ -2,50 +2,26 @@
 state={
 	id=319
 	name="STATE_319"
-	provinces={
-		85 1974 2035 2736 2761 3840 
-11996
-11997
-11998
-11999
-12000
-12001
-12002
-12003
-12004
-12005
-12006
-12007
-12008
-12009
-12010
-12011
-12012
-12013
-12014
-12015
-12016
-12017
-12018
-12019
-12020
-12021
-12022
-12023
-12024
-12025
-12026
-12027
+
+	history={
+		owner = ZYD
+		victory_points = {
+			2761 5 
+		}
+		add_core_of = ZYD
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+
+		}
 
 	}
-	manpower = 33824   state_category = rural
-	buildings_max_level_factor=1.000
-			history = {
-		owner = ZYD
-		victory_points = { 2761 5 }
-		add_core_of = ZYD
-	buildings = {
-	infrastructure = 4
-	industrial_complex = 0 }
+
+	provinces={
+		85 1974 2035 2736 2761 11996 11997 11998 11999 12000 12001 12002 12003 12004 12005 12006 12007 12008 12009 12010 12011 12012 12013 12014 12015 12016 12017 12018 12019 12020 12021 12022 12023 12024 12025 12026 12027 
 	}
+	manpower=33824
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

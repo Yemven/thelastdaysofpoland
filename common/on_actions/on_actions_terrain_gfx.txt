@@ -56,6 +56,13 @@ on_actions = {
 					province = { id = 3201 }
 				}
 			}
+			143 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_belweder }
+					province = { id = 9574 }
+				}
+			}
+			
 		}
 	}
 }
