@@ -1,17 +1,26 @@
+
 state={
 	id=672
 	name="STATE_672"
-	provinces={
-		1396 1713 2439 2734 
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
-						history = {
+
+	history={
 		owner = SND
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = SND
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		1396 2439 2734 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
