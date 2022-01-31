@@ -250,42 +250,42 @@ guiTypes = {
 			
 			gridboxtype {
 				name = "melee_weapons_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 140 y = 0 }
 				slotsize = { width = 70 height = 70}
 				format = "LEFT"
 			}
 			
 			gridboxtype {
 				name = "ranged_weapons_tree"
-				position = { x = 140 y = 435 }
+				position = { x = 140 y = 110 }
 				slotsize = { width = 70 height = 70}
 				format = "LEFT"
 			}
 			
 			gridboxtype {
 				name = "infantry_training_tree"
-				position = { x = 140 y = 545 }
+				position = { x = 140 y = 220 }
 				slotsize = { width = 70 height = 70}
 				format = "LEFT"
 			}
 			
 			gridboxtype {
 				name = "ballistic_vests_tree"
-				position = { x = 140 y = 655 }
+				position = { x = 140 y = 330 }
 				slotsize = { width = 70 height = 70}
 				format = "LEFT"
 			}
 			
 			gridboxtype {
 				name = "special_forces_equipment_tree"
-				position = { x = 140 y = 765 }
+				position = { x = 140 y = 440 }
 				slotsize = { width = 70 height = 70}
 				format = "LEFT"
 			}
 			
 			gridboxtype {
 				name = "special_forces_training_tree"
-				position = { x = 140 y = 875 }
+				position = { x = 140 y = 550 }
 				slotsize = { width = 70 height = 70}
 				format = "LEFT"
 			}
@@ -513,10 +513,15 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			gridboxtype = {
+				name = "tech_anti_tank_tree"
+				position = { x = 100 y = 1180 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 			gridboxtype = {
 				name = "basic_train_tree"
-				position = { x = 100 y = 1180 }
+				position = { x = 100 y = 1280 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -806,11 +811,11 @@ guiTypes = {
 
 				
 			gridboxtype = {
-				name = "gwtank_tree"
-				position = { x = 10% y = 172 }
+				name = "bicycle_tree"
+				position = { x = 100 y = 800 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				format = "LEFT"
 			}
 		}
 
@@ -1108,30 +1113,37 @@ guiTypes = {
 				}		
 			}	
 
-				
 			gridboxtype = {
-				name = "gwtank_chassis_tree"
-				position = { x = 10% y = 172 }
+				name = "not_bicycle_tree"
+				position = { x = 100 y = 800 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				format = "LEFT"
 			}
+			
+			#gridboxtype = {
+			#	name = "gwtank_chassis_tree"
+			#	position = { x = 10% y = 172 }
+			#	size = { width = 80% height = 80% }
+			#	slotsize = { width = 70 height = 70 }
+			#	format = "UP"
+			#}
 
-			gridboxtype = {
-				name = "armor_tech_1_tree"
-				position = { x = 37% y = 172 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
+			#gridboxtype = {
+			#	name = "armor_tech_1_tree"
+			#	position = { x = 37% y = 172 }
+			#	size = { width = 80% height = 80% }
+			#	slotsize = { width = 70 height = 70 }
+			#	format = "UP"
+			#}
 
-			gridboxtype = {
-				name = "engine_tech_1_tree"
-				position = { x = -22% y = 172 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
+			#gridboxtype = {
+			#	name = "engine_tech_1_tree"
+			#	position = { x = -22% y = 172 }
+			#	size = { width = 80% height = 80% }
+			#	slotsize = { width = 70 height = 70 }
+			#	format = "UP"
+			#}
 		}
 
 		containerWindowType = {

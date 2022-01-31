@@ -1,131 +1,459 @@
 technologies = {
-
-
-	bicycle_chassis = { #rower
-
+	bicycle = {
 		enable_equipments = {
-			light_tank_chassis_0
-			medium_tank_chassis_0
-			heavy_tank_chassis_0
-			light_tank_destroyer_chassis_0
-			medium_tank_destroyer_chassis_0
-			heavy_tank_destroyer_chassis_0
-			light_tank_artillery_chassis_0
-			medium_tank_artillery_chassis_0
-			heavy_tank_artillery_chassis_0
-			light_tank_aa_chassis_0
-			medium_tank_aa_chassis_0
-			heavy_tank_aa_chassis_0
-		}
-		enable_equipment_modules = {
-			tank_torsion_bar_suspension
-			tank_riveted_armor
-			tank_gasoline_engine
-			tank_diesel_engine
-			tank_petrol_electric_engine
-			tank_cast_armor
-			tank_christie_suspension
-			tank_bogie_suspension
-			tank_interleaved_suspension
-			tank_light_one_man_tank_turret
-			tank_light_two_man_tank_turret
-			tank_light_three_man_tank_turret
-			tank_light_fixed_superstructure_turret
-			tank_medium_one_man_tank_turret
-			tank_medium_two_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_medium_fixed_superstructure_turret
-			tank_heavy_two_man_tank_turret
-			tank_heavy_three_man_tank_turret
-			tank_heavy_fixed_superstructure_turret
-			tank_super_heavy_four_man_tank_turret
-			tank_super_heavy_three_man_tank_turret
-			tank_modern_tank_turret
-			sloped_armor
-			extra_ammo_storage
-			wet_ammo_storage
-			smoke_launchers
+			bicycle_equipment
 		}
 		enable_subunits = {
-			light_armor
-			medium_armor
-			heavy_armor
+			bicycle_infantry
 		}
-		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = light_armor }
-			NOT = {	has_template_containing_unit = heavy_armor }
-			NOT = {	has_template_containing_unit = medium_armor }
-		}
-		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
-
-		*/path = {
-			leads_to_tech = basic_light_tank_chassis
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = basic_heavy_tank_chassis
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = basic_medium_tank_chassis
-			research_cost_coeff = 1
-		}*/
-
 		research_cost = 2
 		start_year = 1918
+		path = {
+			leads_to_tech = motorbike
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sidecar
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mbt_0
+			research_cost_coeff = 1
+		}
 		folder = {
-			name = nsb_armour_folder
-			position = { x = 0 y = 2 }
+			name = armour_folder
+			position = { x = 0 y = 0}
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1939.1.1"
-			}
-		}
-
 		categories = {
 			armor
-			cat_light_armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	motorbike = {
+		research_cost = 2
+		start_year = 1936
+		path = {
+			leads_to_tech = armored_car_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = truck_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 2}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	sidecar = {
+		research_cost = 2
+		start_year = 1936
+		path = {
+			leads_to_tech = apc_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ifv_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 2}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mbt_0 = {
+		research_cost = 2
+		start_year = 1936
+		path = {
+			leads_to_tech = mbt_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 2}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mbt_1 = {
+		research_cost = 2
+		start_year = 1938
+		path = {
+			leads_to_tech = mbt_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 4}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mbt_2 = {
+		research_cost = 2
+		start_year = 1940
+		path = {
+			leads_to_tech = mbt_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 6}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mbt_3 = {
+		research_cost = 2
+		start_year = 1942
+		path = {
+			leads_to_tech = mbt_4
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 8}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mbt_4 = {
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 10}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	armored_car_1 = {
+		research_cost = 2
+		start_year = 1938
+		path = {
+			leads_to_tech = armored_car_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -7 y = 4}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	armored_car_2 = {
+		research_cost = 2
+		start_year = 1940
+		path = {
+			leads_to_tech = armored_car_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -7 y = 6}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	armored_car_3 = {
+		research_cost = 2
+		start_year = 1942
+		path = {
+			leads_to_tech = armored_car_4
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -7 y = 8}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	armored_car_4 = {
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = armour_folder
+			position = { x = -7 y = 10}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	truck_1 = {
+		research_cost = 2
+		start_year = 1938
+		path = {
+			leads_to_tech = truck_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 4}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	truck_2 = {
+		research_cost = 2
+		start_year = 1940
+		path = {
+			leads_to_tech = truck_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 6}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	truck_3 = {
+		research_cost = 2
+		start_year = 1942
+		path = {
+			leads_to_tech = truck_4
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 8}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	truck_4 = {
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 10}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	apc_1 = {
+		research_cost = 2
+		start_year = 1938
+		path = {
+			leads_to_tech = apc_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 4}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ifv_1 = {
+		research_cost = 2
+		start_year = 1938
+		path = {
+			leads_to_tech = ifv_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 4}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	apc_2 = {
+		research_cost = 2
+		start_year = 1940
+		path = {
+			leads_to_tech = apc_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 6}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ifv_2 = {
+		research_cost = 2
+		start_year = 1940
+		path = {
+			leads_to_tech = ifv_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 6}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	apc_3 = {
+		research_cost = 2
+		start_year = 1942
+		path = {
+			leads_to_tech = apc_4
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 8}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ifv_3 = {
+		research_cost = 2
+		start_year = 1942
+		path = {
+			leads_to_tech = ifv_4
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 8}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	apc_4 = {
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 10}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ifv_4 = {
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 10}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }

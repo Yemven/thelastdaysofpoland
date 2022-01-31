@@ -130,8 +130,10 @@ sub_units = {
 	
 		need = {
 			ranged_equipment = 100
-			support_equipment = 10			
+			bicycle_equipment = 10			
 		}
+
+		transport = bicycle_equipment
 
 		forest = {
 			movement = 0.00

@@ -50,10 +50,6 @@ technologies = {
 			leads_to_tech = tech_maintenance_company
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = tech_anti_tank
-			research_cost_coeff = 1
-		}
 		research_cost = 1.0
 		start_year = 1918
 		folder = {
@@ -1385,7 +1381,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @1936 }
+			position = { x = 0 y = @1936 }
 		}
 		
 		categories = {
@@ -1408,7 +1404,7 @@ technologies = {
 		start_year = 1939
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @1939 }
+			position = { x = 0 y = @1939 }
 		}
 		
 		categories = {
@@ -1435,7 +1431,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @1942 }
+			position = { x = 0 y = @1942 }
 		}
 		
 		categories = {
@@ -1457,7 +1453,7 @@ technologies = {
 		start_year = 1945
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @1945 }
+			position = { x = 0 y = @1945 }
 		}
 		
 		categories = {
