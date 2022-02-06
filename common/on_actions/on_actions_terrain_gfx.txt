@@ -62,6 +62,12 @@ on_actions = {
 					province = { id = 9574 }
 				}
 			}
+			341 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lublin_center }
+					province = { id = 10234 }
+				}
+			}
 			
 		}
 	}
