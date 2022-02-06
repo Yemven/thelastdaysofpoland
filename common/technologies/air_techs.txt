@@ -2,6 +2,9 @@ technologies = {
 	primitive_aircraft = {
 		research_cost = 1
 		year = 1936
+		enable_equipments = {
+			primitive_aircaft_equipment
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 0}
@@ -26,6 +29,9 @@ technologies = {
 	fighter_0 = {
 		research_cost = 1
 		year = 1938
+		enable_equipments = {
+			fighter_equipment_0
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = -2 y = 3}
@@ -42,6 +48,9 @@ technologies = {
 	bomber_0 = {
 		research_cost = 1
 		year = 1938
+		enable_equipments = {
+			bomber_equipment_0
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 3}
@@ -58,6 +67,9 @@ technologies = {
 	transport_0 = {
 		research_cost = 1
 		year = 1938
+		enable_equipments = {
+			transport_equipment_0
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 2 y = 3}
@@ -74,6 +86,9 @@ technologies = {
 	fighter_1 = {
 		research_cost = 1
 		year = 1940
+		enable_equipments = {
+			fighter_equipment_1
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = -2 y = 6}
@@ -90,6 +105,9 @@ technologies = {
 	bomber_1 = {
 		research_cost = 1
 		year = 1940
+		enable_equipments = {
+			bomber_equipment_1
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 6}
@@ -106,6 +124,9 @@ technologies = {
 	transport_1 = {
 		research_cost = 1
 		year = 1940
+		enable_equipments = {
+			transport_equipment_1
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 2 y = 6}
@@ -122,6 +143,9 @@ technologies = {
 	fighter_2 = {
 		research_cost = 1
 		year = 1942
+		enable_equipments = {
+			fighter_equipment_2
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = -2 y = 9}
@@ -138,6 +162,9 @@ technologies = {
 	bomber_2 = {
 		research_cost = 1
 		year = 1942
+		enable_equipments = {
+			bomber_equipment_2
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 9}
@@ -154,6 +181,9 @@ technologies = {
 	transport_2 = {
 		research_cost = 1
 		year = 1942
+		enable_equipments = {
+			transport_equipment_2
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 2 y = 9}
@@ -170,6 +200,9 @@ technologies = {
 	fighter_3 = {
 		research_cost = 1
 		year = 1944
+		enable_equipments = {
+			fighter_equipment_3
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = -2 y = 12}
@@ -186,6 +219,9 @@ technologies = {
 	bomber_3 = {
 		research_cost = 1
 		year = 1944
+		enable_equipments = {
+			bomber_equipment_3
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 12}
@@ -202,6 +238,9 @@ technologies = {
 	transport_3 = {
 		research_cost = 1
 		year = 1944
+		enable_equipments = {
+			transport_equipment_3
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 2 y = 12}
@@ -218,6 +257,9 @@ technologies = {
 	fighter_4 = {
 		research_cost = 1
 		year = 1946
+		enable_equipments = {
+			fighter_equipment_4
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = -2 y = 15}
@@ -230,6 +272,9 @@ technologies = {
 	bomber_4 = {
 		research_cost = 1
 		year = 1946
+		enable_equipments = {
+			bomber_equipment_4
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 15}
@@ -242,6 +287,9 @@ technologies = {
 	transport_4 = {
 		research_cost = 1
 		year = 1946
+		enable_equipments = {
+			transport_equipment_4
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 2 y = 15}
