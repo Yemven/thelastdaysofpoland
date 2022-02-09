@@ -1,18 +1,29 @@
+
 state={
 	id=594
 	name="STATE_594"
-	provinces={
-		1527 2491 2523 10630 10631 10632 10633 10634 10635 10636 10637 10638 10639 10640 10641 10642 10643 10644 10645 10646
-	}
-	manpower = 53529   state_category = rural
-	buildings_max_level_factor=1.000
-	 				history = {
-		owner = WDW
-		victory_points = { }
-		add_core_of = WDW
-	buildings = {
-	infrastructure = 7
-}
-}
-}
 
+	history={
+		owner = WDW
+		victory_points = { 10630 1 }
+		victory_points = { 10640 1 }
+		victory_points = { 2523 5 }
+		victory_points = { 1527 1 }
+		victory_points = { 2747 1 }
+		victory_points = { 10615 1 }
+		add_core_of = WDW
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1527 2491 2523 2747 10615 10616 10617 10618 10619 10621 10630 10631 10632 10633 10634 10635 10636 10637 10638 10639 10640 10641 10642 10643 10644 10645 10646 
+	}
+	manpower=60529
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

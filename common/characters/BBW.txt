@@ -13,5 +13,64 @@ characters={
 			id=-1
 		}
 	}
+	BBW_gen_sommer={
+		name="Tomasz Sommer"
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Sommer.dds" } }
+		field_marshal = {
+			traits = { aggressive_assaulter organizer }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
 }
-
+	BBW_gen_warzecha={
+		name="Łukasz Warzecha"
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Warzecha.dds" } }
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+}
+	BBW_gen_rzymkowski={
+		name="Tomasz Rzymkowski"
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Rzymkowski.dds" } }
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+}
+	BBW_gen_gadomski={
+		name="Witold Gadomski"
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Gadomski.dds" } }
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+}
+	BBW_gen_janecki={
+		name="Stanisław Janecki"
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Janecki.dds" } }
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+}
+}
