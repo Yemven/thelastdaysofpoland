@@ -15,11 +15,11 @@ Grafikę umieścić w lokalizacji: gfx/interface/terrains.
 
 Następnie należy zapisać jej nazwę w następujących plikach:
 
-	interface/countrystateview.gui					- to dość długi plik, najlepiej wyszukać sobie "lublin", tam się będą zaczynać customowe grafiki w modzie
+	interface/countrystateview.gui	(nie .gfx)		- to dość długi plik, najlepiej wyszukać sobie "lublin", tam się będą zaczynać customowe grafiki w modzie
 
 	interface/PaF_stateview_cities
 
-	common/on_actions/on_actions_terrain.gfx		- tutaj jest potrzebne również ID prowincji
+	common/on_actions/on_actions_terrain_gfx		- tutaj jest potrzebne również ID prowincji
 
 	common/modifiers/02_terrain_modifiers
 
