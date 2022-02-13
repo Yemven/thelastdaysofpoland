@@ -7,7 +7,22 @@ characters={
 			}
 		}
 		country_leader={
+			desc = "POLITICS_ANDRZEJ_DUDA_DESC"
 			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZHP_marek_jedraszewski={
+		name="Marek Jędraszewski"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZHP/ZHP_Jedraszewski1.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_MAREK_JEDRASZEWSKI_DESC"
+			ideology=autocracy_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
