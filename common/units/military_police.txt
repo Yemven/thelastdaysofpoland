@@ -39,13 +39,13 @@ sub_units = {
 		suppression_factor = 0.20
 
 		essential = {
-			infantry_equipment
+			ranged_equipment
 			support_equipment
 		}
 		
 		need = {
 			support_equipment = 10
-			infantry_equipment = 40
+			ranged_equipment = 40
 		}
 
 	}
