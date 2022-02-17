@@ -68,6 +68,108 @@ on_actions = {
 					province = { id = 10234 }
 				}
 			}
+			236 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_kutno }
+					province = { id = 3770 }
+				}
+			}
+			576 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lodz_baluty }
+					province = { id = 3158 }
+				}
+			}
+			759 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lodz_chojny }
+					province = { id = 3465 }
+				}
+			}
+			579 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lodz_polesie }
+					province = { id = 3829 }
+				}
+			}
+			757 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lodz_radogoszcz }
+					province = { id = 3403 }
+				}
+			}
+			578 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lodz_ruda }
+					province = { id = 933 }
+				}
+			}
+			302 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lodz_srodmiescie }
+					province = { id = 3826 }
+				}
+			}
+			758 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lodz_widzew_north }
+					province = { id = 2962 }
+				}
+			}
+			577 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lodz_widzew_south }
+					province = { id = 3367 }
+				}
+			}
+			309 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_pabianice }
+					province = { id = 2723 }
+				}
+			}
+			353 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_piotrkow_trybunalski }
+					province = { id = 3358 }
+				}
+			}
+			370 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_radomsko}
+					province = { id = 7461 }
+				}
+			}
+			321 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_sieradz}
+					province = { id = 7464 }
+				}
+			}
+			269 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_skierniewice}
+					province = { id = 7450 }
+				}
+			}
+			340 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_tomaszow_mazowiecki}
+					province = { id = 7456 }
+				}
+			}
+			318 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_zdunska_wola}
+					province = { id = 10235 }
+				}
+			}
+			687 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_zgierz}
+					province = { id = 1004 }
+				}
+			}
 			
 		}
 	}
