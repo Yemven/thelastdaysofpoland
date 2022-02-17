@@ -1,17 +1,26 @@
+
 state={
 	id=526
 	name="STATE_526"
-	provinces={
-		868 1656 2274 2656 
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = KRO
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = KRO
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		868 1656 2274 2656 12208 12209 12210 12211 12212 12213 12214 12215 12216 12218 12220 12221 12222 12223 12224 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

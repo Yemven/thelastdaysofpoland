@@ -7,11 +7,71 @@ characters={
 			}
 		}
 		country_leader={
+			desc = "POLITICS_RAFAL_ZIEMKIEWICZ_DESC"
 			ideology=reactionary_subtype
 			traits={ master_of_rethorics }
 			expire="2050.1.1.1"
 			id=-1
 		}
 	}
+	BBW_gen_sommer={
+		name="Tomasz Sommer"
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Sommer.dds" } }
+		field_marshal = {
+			traits = { reckless media_personality war_hero infantry_leader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 4
+		}
 }
-
+	BBW_gen_warzecha={
+		name="Łukasz Warzecha"
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Warzecha.dds" } }
+		corps_commander = {
+			traits = { inflexible_strategist armor_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+}
+	BBW_gen_rzymkowski={
+		name="Tomasz Rzymkowski"
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Rzymkowski.dds" } }
+		corps_commander = {
+			traits = { harsh_leader commando infantry_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+}
+	BBW_gen_gadomski={
+		name="Witold Gadomski"
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Gadomski.dds" } }
+		corps_commander = {
+			traits = { old_guard engineer_officer organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+}
+	BBW_gen_janecki={
+		name="Stanisław Janecki"
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Janecki.dds" } }
+		corps_commander = {
+			traits = { politically_connected trickster }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+}
+}

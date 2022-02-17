@@ -1,17 +1,26 @@
+
 state={
 	id=484
 	name="STATE_484"
-	provinces={
-		1600 2641 3042 
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = RZE
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = RZE
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		1600 2448 2641 3042 3149 12508 12509 12510 12511 12512 12513 12514 12515 12516 12517 12518 12519 12520 12521 12522 12523 12524 12525 12526
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

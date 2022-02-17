@@ -7,6 +7,49 @@ characters={
 			}
 		}
 		country_leader={
+			desc = "POLITICS_ANDRZEJ_SAPKOWSKI_DESC"
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAP_jacek_bartyzel={
+		name="Jacek Bartyzel"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAP/SAP_BartyzelSr.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_JACEK_BARTYZEL_DESC"
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAP_junior_bartyzel={
+		name="Władysław V Bartyzel"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAP/SAP_BartyzelJr.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_WLADYSLAW_BARTYZEL_DESC"
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAP_karol_burbon={
+		name="Karol Ksawery I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAP/SAP_Burbon.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_KAROL_BURBON_DESC"
 			ideology=autocracy_subtype
 			expire="1.1.1.1"
 			id=-1

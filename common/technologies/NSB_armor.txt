@@ -1,27 +1,31 @@
 technologies = {
-	bicycle = {
+	
+	nsb_bicycle = {
 		enable_equipments = {
 			bicycle_equipment
 		}
 		enable_subunits = {
-			bicycle_infantry
+			bicycle_battalion
+		}
+		allow_branch = {
+			has_dlc = "No Step Back"
 		}
 		research_cost = 2
 		start_year = 1918
 		path = {
-			leads_to_tech = motorbike
+			leads_to_tech = nsb_motorbike
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = sidecar
+			leads_to_tech = nsb_sidecar
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = mbt_0
+			leads_to_tech = nsb_mbt_0
 			research_cost_coeff = 1
 		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = 0 y = 0}
 		}
 		categories = {
@@ -31,20 +35,26 @@ technologies = {
 			factor = 1
 		}
 	}
-	
-	motorbike = {
+
+	nsb_motorbike = {
 		research_cost = 2
 		start_year = 1936
 		path = {
-			leads_to_tech = armored_car_1
+			leads_to_tech = nsb_armored_car_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = truck_1
+			leads_to_tech = nsb_truck_1
 			research_cost_coeff = 1
 		}
+		enable_subunits = {
+			motorbike_battalion
+		}
+		enable_equipments = {
+			enduro_equipment
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -4 y = 3}
 		}
 		categories = {
@@ -55,19 +65,25 @@ technologies = {
 		}
 	}
 	
-	sidecar = {
+	nsb_sidecar = {
 		research_cost = 2
 		start_year = 1936
 		path = {
-			leads_to_tech = apc_1
+			leads_to_tech = nsb_apc_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = ifv_1
+			leads_to_tech = nsb_ifv_1
 			research_cost_coeff = 1
 		}
+		enable_subunits = {
+			motorbike_battalion
+		}
+		enable_equipments = {
+			sidecar_equipment
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = 0 y = 3}
 		}
 		categories = {
@@ -78,15 +94,21 @@ technologies = {
 		}
 	}
 	
-	mbt_0 = {
+	nsb_mbt_0 = {
 		research_cost = 2
 		start_year = 1936
 		path = {
-			leads_to_tech = mbt_1
+			leads_to_tech = nsb_mbt_1
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			mbt_equipment_0
+		}
+		enable_subunits = {
+			medium_armor
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = 4 y = 3}
 		}
 		categories = {
@@ -97,15 +119,18 @@ technologies = {
 		}
 	}
 	
-	mbt_1 = {
+	nsb_mbt_1 = {
 		research_cost = 2
 		start_year = 1938
 		path = {
-			leads_to_tech = mbt_2
+			leads_to_tech = nsb_mbt_2
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			mbt_equipment_1
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = 4 y = 6}
 		}
 		categories = {
@@ -116,15 +141,18 @@ technologies = {
 		}
 	}
 	
-	mbt_2 = {
+	nsb_mbt_2 = {
 		research_cost = 2
 		start_year = 1940
 		path = {
-			leads_to_tech = mbt_3
+			leads_to_tech = nsb_mbt_3
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			mbt_equipment_2
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = 4 y = 9}
 		}
 		categories = {
@@ -135,15 +163,18 @@ technologies = {
 		}
 	}
 	
-	mbt_3 = {
+	nsb_mbt_3 = {
 		research_cost = 2
 		start_year = 1942
 		path = {
-			leads_to_tech = mbt_4
+			leads_to_tech = nsb_mbt_4
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			mbt_equipment_3
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = 4 y = 12}
 		}
 		categories = {
@@ -154,12 +185,15 @@ technologies = {
 		}
 	}
 	
-	mbt_4 = {
+	nsb_mbt_4 = {
 		research_cost = 2
 		start_year = 1944
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = 4 y = 15}
+		}
+		enable_equipments = {
+			mbt_equipment_4
 		}
 		categories = {
 			armor
@@ -169,15 +203,21 @@ technologies = {
 		}
 	}
 	
-	armored_car_1 = {
+	nsb_armored_car_1 = {
 		research_cost = 2
 		start_year = 1938
 		path = {
-			leads_to_tech = armored_car_2
+			leads_to_tech = nsb_armored_car_2
 			research_cost_coeff = 1
 		}
+		enable_subunits = {
+			armored_car
+		}
+		enable_equipments = {
+			armored_car_equipment_1
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -6 y = 6}
 		}
 		categories = {
@@ -188,15 +228,18 @@ technologies = {
 		}
 	}
 	
-	armored_car_2 = {
+	nsb_armored_car_2 = {
 		research_cost = 2
 		start_year = 1940
 		path = {
-			leads_to_tech = armored_car_3
+			leads_to_tech = nsb_armored_car_3
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			armored_car_equipment_2
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -6 y = 9}
 		}
 		categories = {
@@ -207,15 +250,18 @@ technologies = {
 		}
 	}
 	
-	armored_car_3 = {
+	nsb_armored_car_3 = {
 		research_cost = 2
 		start_year = 1942
 		path = {
-			leads_to_tech = armored_car_4
+			leads_to_tech = nsb_armored_car_4
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			armored_car_equipment_3
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -6 y = 12}
 		}
 		categories = {
@@ -226,12 +272,15 @@ technologies = {
 		}
 	}
 	
-	armored_car_4 = {
+	nsb_armored_car_4 = {
 		research_cost = 2
 		start_year = 1942
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -6 y = 15}
+		}
+		enable_equipments = {
+			armored_car_equipment_4
 		}
 		categories = {
 			armor
@@ -241,15 +290,21 @@ technologies = {
 		}
 	}
 	
-	truck_1 = {
+	nsb_truck_1 = {
 		research_cost = 2
 		start_year = 1938
 		path = {
-			leads_to_tech = truck_2
+			leads_to_tech = nsb_truck_2
 			research_cost_coeff = 1
 		}
+		enable_subunits = {
+			motorized
+		}
+		enable_equipments = {
+			motorized_equipment_1
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -4 y = 6}
 		}
 		categories = {
@@ -260,15 +315,18 @@ technologies = {
 		}
 	}
 	
-	truck_2 = {
+	nsb_truck_2 = {
 		research_cost = 2
 		start_year = 1940
 		path = {
-			leads_to_tech = truck_3
+			leads_to_tech = nsb_truck_3
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			motorized_equipment_2
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -4 y = 9}
 		}
 		categories = {
@@ -279,15 +337,18 @@ technologies = {
 		}
 	}
 	
-	truck_3 = {
+	nsb_truck_3 = {
 		research_cost = 2
 		start_year = 1942
 		path = {
-			leads_to_tech = truck_4
+			leads_to_tech = nsb_truck_4
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			motorized_equipment_3
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -4 y = 12}
 		}
 		categories = {
@@ -298,12 +359,15 @@ technologies = {
 		}
 	}
 	
-	truck_4 = {
+	nsb_truck_4 = {
 		research_cost = 2
 		start_year = 1944
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -4 y = 15}
+		}
+		enable_equipments = {
+			motorized_equipment_4
 		}
 		categories = {
 			armor
@@ -313,15 +377,21 @@ technologies = {
 		}
 	}
 	
-	apc_1 = {
+	nsb_apc_1 = {
 		research_cost = 2
 		start_year = 1938
 		path = {
-			leads_to_tech = apc_2
+			leads_to_tech = nsb_apc_2
 			research_cost_coeff = 1
 		}
+		enable_subunits = {
+			mechanized
+		}
+		enable_equipments = {
+			apc_equipment_1
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -2 y = 6}
 		}
 		categories = {
@@ -332,15 +402,21 @@ technologies = {
 		}
 	}
 	
-	ifv_1 = {
+	nsb_ifv_1 = {
 		research_cost = 2
 		start_year = 1938
 		path = {
-			leads_to_tech = ifv_2
+			leads_to_tech = nsb_ifv_2
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			ifv_equipment_1
+		}
+		enable_subunits = {
+			light_armor
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = 2 y = 6}
 		}
 		categories = {
@@ -351,15 +427,18 @@ technologies = {
 		}
 	}
 	
-	apc_2 = {
+	nsb_apc_2 = {
 		research_cost = 2
 		start_year = 1940
 		path = {
-			leads_to_tech = apc_3
+			leads_to_tech = nsb_apc_3
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			apc_equipment_2
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -2 y = 9}
 		}
 		categories = {
@@ -370,16 +449,19 @@ technologies = {
 		}
 	}
 	
-	ifv_2 = {
+	nsb_ifv_2 = {
 		research_cost = 2
 		start_year = 1940
 		path = {
-			leads_to_tech = ifv_3
+			leads_to_tech = nsb_ifv_3
 			research_cost_coeff = 1
 		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = 2 y = 9}
+		}
+		enable_equipments = {
+			ifv_equipment_2
 		}
 		categories = {
 			armor
@@ -389,15 +471,18 @@ technologies = {
 		}
 	}
 	
-	apc_3 = {
+	nsb_apc_3 = {
 		research_cost = 2
 		start_year = 1942
 		path = {
-			leads_to_tech = apc_4
+			leads_to_tech = nsb_apc_4
 			research_cost_coeff = 1
 		}
+		enable_equipments = {
+			apc_equipment_3
+		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -2 y = 12}
 		}
 		categories = {
@@ -408,17 +493,20 @@ technologies = {
 		}
 	}
 	
-	ifv_3 = {
+	nsb_ifv_3 = {
 		research_cost = 2
 		start_year = 1942
 		path = {
-			leads_to_tech = ifv_4
+			leads_to_tech = nsb_ifv_4
 			research_cost_coeff = 1
 		}
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = 2 y = 12}
 		}
+		enable_equipments = {
+			ifv_equipment_3
+		}
 		categories = {
 			armor
 		}
@@ -427,13 +515,16 @@ technologies = {
 		}
 	}
 	
-	apc_4 = {
+	nsb_apc_4 = {
 		research_cost = 2
 		start_year = 1944
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = -2 y = 15}
 		}
+		enable_equipments = {
+			apc_equipment_4
+		}
 		categories = {
 			armor
 		}
@@ -442,12 +533,15 @@ technologies = {
 		}
 	}
 	
-	ifv_4 = {
+	nsb_ifv_4 = {
 		research_cost = 2
 		start_year = 1944
 		folder = {
-			name = armour_folder
+			name = nsb_armour_folder
 			position = { x = 2 y = 15}
+		}
+		enable_equipments = {
+			ifv_equipment_4
 		}
 		categories = {
 			armor

@@ -35,10 +35,39 @@ equipments = {
 	}
 
 	motorized_equipment_1 = {
-		year = 1936
+		year = 1938
 
 		archetype = motorized_equipment
 		priority = 30			
 	}
 
+	motorized_equipment_2 = {
+		year = 1940
+
+		parent = motorized_equipment_1
+		archetype = motorized_equipment
+		priority = 30	
+
+		maximum_speed = 14
+	}
+	
+	motorized_equipment_3 = {
+		year = 1942
+
+		parent = motorized_equipment_2
+		archetype = motorized_equipment
+		priority = 30	
+
+		maximum_speed = 16
+	}
+
+	motorized_equipment_4 = {
+		year = 1944
+
+		parent = motorized_equipment_3
+		archetype = motorized_equipment
+		priority = 30	
+
+		maximum_speed = 18
+	}
 }
