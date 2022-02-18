@@ -7,7 +7,7 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300	
-		size = { width=550 height=99%% }
+		size = { width=550 height=100%% }
 		
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
@@ -442,11 +442,14 @@ guiTypes = {
 			format = center
 			vertical_alignment = center
 		}
+
+
+
 		containerWindowType = {
 			name = "ideas"
 			position = { x = 0 y = 490 }
-			size = { width=100%% height=100%% }
-			verticalScrollbar = "right_vertical_slider"
+			size = { width=100%% height=101%% }
+			verticalScrollbar = "right_vertical_slider"		
 			margin = { top = 14 bottom = 13}
 		
 			background = {
@@ -454,18 +457,17 @@ guiTypes = {
 				name = "Background"
 				#quadTextureSprite ="GFX_tiled_window_2b_border"
 				#quadTextureSprite ="GFX_tiled_window_1b_border"
-				quadTextureSprite ="GFX_idee_menu_window"
+			    quadTextureSprite ="GFX_tiled_window_1b_border"
 			}
-			
+
 			gridBoxType = {
 				name = "idea_categories_grid"
-				position = { x = 17 y = 0 }
+				position = { x = 24 y = 0 }
 				size = { width = 100%% height = 100%% }
 				slotsize = { width = 64 height = 106 }
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}
-
 
 		}
 
@@ -487,6 +489,12 @@ guiTypes = {
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 		}
+
+
+
+
+
+
 
 
 		iconType = {
@@ -562,22 +570,28 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "country_politics_idea_category_entry"
-		position = { x = 0 y = 0 }
+		position = { x = 0 y = 20 }
 		size = { width=550 height= 150 }
 		clipping = no
 		
 		iconType ={
+			name ="category_header"
+			spriteType = "GFX_category_header"
+			position = { x=90 y=-22 }
+			Orientation = "UPPER_CENTER"
+		}
+		iconType ={
 			name ="category_icon"
 			spriteType = "GFX_idea_categories"
-			position = { x=114 y=8 }
+			position = { x=116 y=-16 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		gridboxtype = {
 			name = "ideas_grid"
-			position = { x = 17 y = 46 }
+			position = { x = 17 y = 0 }
 			size = { width = 100%% height = 100%% }
-			slotsize = { width = 80 height = 86 }
+			slotsize = { width = 80 height = 106 }
 			max_slots = { x = 7 y = 1 }
 			format = "UPPER_LEFT"
 		}
@@ -627,6 +641,8 @@ guiTypes = {
 				position = { x = 0 y = -8 }
 				size = { width=500 height=-4 }
 				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 37
+				smooth_scrolling = yes													 
 				margin = { top = 4 bottom = 12}	
 
 				background = {
@@ -722,7 +738,8 @@ guiTypes = {
 	containerWindowType = {
 		name = "political_idea_entry"
 		size = { width = 53 height = 53 }
-		clipping = no
+		position = { x = 0 y = 10 }
+
 
 		iconType = {
 			name = "idea_alert_glow"
@@ -732,14 +749,15 @@ guiTypes = {
 			alwaystransparent = yes
 		}		
 		
+
 		buttonType = {
 			name = "add_idea_button"
-			position = { x = 40 y = 33 }
+			position = { x = 41 y = 43 }
 			spriteType = "GFX_add_pol_idea_button"
 			clicksound = click_default
 			centerposition = yes
 		}
-		
+
 		iconType = {
 			name = "idea_traits"
 			position = { x = 43 y = 46 }
@@ -750,9 +768,7 @@ guiTypes = {
 		}
 		
 	}
-	
 
-	
 	containerWindowType = {
 		name = "political_selectable_idea_entry_grid"
 		size = { width = 231 height = 74 }
@@ -986,6 +1002,8 @@ guiTypes = {
 			size = { width=548 height=100%% }
 			clipping = yes
 			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes													
 			margin = { top = 15 bottom = 15}
 		
 			background = {
@@ -1169,6 +1187,8 @@ guiTypes = {
 			size = { width=548 height=100%% }
 			clipping = yes
 			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes													
 			margin = { top = 15 bottom = 15}
 		
 			background = {

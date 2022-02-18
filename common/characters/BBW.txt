@@ -16,7 +16,8 @@ characters={
 	}
 	BBW_gen_sommer={
 		name="Tomasz Sommer"
-		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Sommer.dds" } }
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Sommer.dds" 
+					small = "gfx/interface/ideas/BBW/BBW_sommer.dds" } }
 		field_marshal = {
 			traits = { reckless media_personality war_hero infantry_leader }
 			skill = 3
@@ -25,10 +26,24 @@ characters={
 			planning_skill = 4
 			logistics_skill = 4
 		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_sommer
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BBW
+			}
+			traits = { ruthless_player }
+		}
 }
 	BBW_gen_warzecha={
 		name="Łukasz Warzecha"
-		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Warzecha.dds" } }
+		portraits=
+		{ civilian = { large = "gfx/leaders/BBW/BBW_Warzecha.dds" 
+		small = "gfx/interface/ideas/BBW/BBW_warzecha.dds" }
+		}
 		corps_commander = {
 			traits = { inflexible_strategist armor_officer }
 			skill = 2
@@ -37,10 +52,23 @@ characters={
 			planning_skill = 3
 			logistics_skill = 3
 		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_warzecha
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BBW
+			}
+			traits = { automobile_supremacist }
+		}
 }
+
 	BBW_gen_rzymkowski={
 		name="Tomasz Rzymkowski"
-		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Rzymkowski.dds" } }
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Rzymkowski.dds" 
+					small = "gfx/interface/ideas/BBW/BBW_rzymkowski.dds"	} }
 		corps_commander = {
 			traits = { harsh_leader commando infantry_leader }
 			skill = 2
@@ -49,10 +77,22 @@ characters={
 			planning_skill = 3
 			logistics_skill = 3
 		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BBW
+			}
+			traits = { ruthless_player }
+		}
 }
 	BBW_gen_gadomski={
 		name="Witold Gadomski"
-		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Gadomski.dds" } }
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Gadomski.dds"
+				small = "gfx/interface/ideas/BBW/BBW_gadomski.dds" } }
 		corps_commander = {
 			traits = { old_guard engineer_officer organizer }
 			skill = 2
@@ -61,10 +101,23 @@ characters={
 			planning_skill = 2
 			logistics_skill = 2
 		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_gadomski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BBW
+			}
+			traits = { pragmatic_organiser }
+		}
 }
+
 	BBW_gen_janecki={
 		name="Stanisław Janecki"
-		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Janecki.dds" } }
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Janecki.dds" 
+					small = "gfx/interface/ideas/BBW/BBW_janecki.dds" } }
 		corps_commander = {
 			traits = { politically_connected trickster }
 			skill = 1
@@ -72,6 +125,17 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_janecki
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BBW
+			}
+			traits = { shadow_man }
 		}
 }
 }

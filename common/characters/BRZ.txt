@@ -17,4 +17,42 @@ characters={
 			id=-1
 		}
 	}
+	
+	BRZ_jakub_blaszczykowski={
+		name="Jakub Błaszczykowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRZ/BRZ_Kuba.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BRZ_min_kuba
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BRZ
+			}
+			traits = { athlete }
+		}		
+	}
+	BRZ_robert_lewandowski={
+		name="Robert Lewandowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRZ/BRZ_Lewandowski.dds"
+			}
+		}
+		country_leader={
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}		
+	}
 }

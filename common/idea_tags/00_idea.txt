@@ -14,51 +14,51 @@ idea_categories = {
 	}
 
 	regime_policies = {
-		slot = head_of_government
+		character_slot = head_of_government
 		slot = party_system
 		slot = freedom_of_speech
 		slot = security_policy
 		slot = health_care
 		slot = subsidies
 
-		cost = 100
-		removal_cost = 0
+		cost = -1	
+		removal_cost = -1
 
 	}
 	military_policies = {
-	    slot = minister_of_war
+	    character_slot = minister_of_war
 		slot = mobilization_level
 		slot = army_training_level
 		slot = officer_training_level
 		slot = armament_company
 		slot = armament_company
 
-		cost = 100
-		removal_cost = 0
+		cost = -1
+		removal_cost = -1
 	}
 
 	economic_policies = {
-		slot = minister_of_economy
+		character_slot = minister_of_economy
 		slot = economic_policy
 		slot = taxes
 		slot = trade_law
 		slot = industrial_company
 		slot = industrial_company
 
-		cost = 100
-		removal_cost = 0
+		cost = -1
+		removal_cost = -1
 	}
 
 	cultural_policies = {
-		slot = interior_minister
+		character_slot = interior_minister
 		slot = lgbt_status
 		slot = drugs_status
 		slot = women_status
 		slot = minorities_status
 		slot = think_tank
 
-		cost = 100
-		removal_cost = 0
+		cost = -1
+		removal_cost = -1
 	}
 
 
