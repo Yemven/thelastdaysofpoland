@@ -12,6 +12,7 @@ sub_units = {
 		}
 		need = { primitive_aircaft_equipment = 1 }
 	}
+	
 	fighter = {
 		sprite = light_plane
 		priority = 1
@@ -19,6 +20,27 @@ sub_units = {
 		type = { fighter }
 		need = { fighter_equipment = 1 }
 		categories = { category_fighter }
+	}
+
+	uav = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = {
+			cas
+			scout_plane
+		}
+		need = { uav_equipment = 1 }
+	}
+	
+	helicopter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = {
+			cas
+		}
+		need = { helicopter_equipment = 1 }
 	}
 
 	scout_plane = {

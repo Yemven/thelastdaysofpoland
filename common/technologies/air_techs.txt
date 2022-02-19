@@ -302,6 +302,9 @@ technologies = {
 	china_drone = {
 		research_cost = 1
 		year = 1936
+		enable_equipments = {
+			china_drone_equipment
+		}
 		path = {
 			leads_to_tech = drone_0
 			research_cost_coeff = 1
@@ -322,6 +325,9 @@ technologies = {
 	drone_0 = {
 		research_cost = 1
 		year = 1938
+		enable_equipments = {
+			drone_0_equipment
+		}
 		path = {
 			leads_to_tech = drone_1
 			research_cost_coeff = 1
@@ -338,6 +344,9 @@ technologies = {
 	helicopter_0 = {
 		research_cost = 1
 		year = 1938
+		enable_equipments = {
+			helicopter_0_equipment
+		}
 		path = {
 			leads_to_tech = helicopter_1
 			research_cost_coeff = 1
@@ -354,6 +363,9 @@ technologies = {
 	drone_1 = {
 		research_cost = 1
 		year = 1940
+		enable_equipments = {
+			drone_1_equipment
+		}
 		path = {
 			leads_to_tech = drone_2
 			research_cost_coeff = 1
@@ -370,6 +382,9 @@ technologies = {
 	helicopter_1 = {
 		research_cost = 1
 		year = 1940
+		enable_equipments = {
+			helicopter_1_equipment
+		}
 		path = {
 			leads_to_tech = helicopter_2
 			research_cost_coeff = 1
@@ -386,6 +401,9 @@ technologies = {
 	drone_2 = {
 		research_cost = 1
 		year = 1942
+		enable_equipments = {
+			drone_2_equipment
+		}
 		path = {
 			leads_to_tech = drone_3
 			research_cost_coeff = 1
@@ -402,6 +420,9 @@ technologies = {
 	helicopter_2 = {
 		research_cost = 1
 		year = 1942
+		enable_equipments = {
+			helicopter_2_equipment
+		}
 		path = {
 			leads_to_tech = helicopter_3
 			research_cost_coeff = 1
@@ -418,6 +439,9 @@ technologies = {
 	drone_3 = {
 		research_cost = 1
 		year = 1944
+		enable_equipments = {
+			drone_3_equipment
+		}
 		path = {
 			leads_to_tech = drone_4
 			research_cost_coeff = 1
@@ -434,6 +458,9 @@ technologies = {
 	helicopter_3 = {
 		research_cost = 1
 		year = 1944
+		enable_equipments = {
+			helicopter_3_equipment
+		}
 		path = {
 			leads_to_tech = helicopter_4
 			research_cost_coeff = 1
@@ -450,6 +477,9 @@ technologies = {
 	drone_4 = {
 		research_cost = 1
 		year = 1946
+		enable_equipments = {
+			drone_4_equipment
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 15}
@@ -462,6 +492,9 @@ technologies = {
 	helicopter_4 = {
 		research_cost = 1
 		year = 1946
+		enable_equipments = {
+			helicopter_4_equipment
+		}
 		folder = {
 			name = air_techs_folder
 			position = {x = 2 y = 15}
