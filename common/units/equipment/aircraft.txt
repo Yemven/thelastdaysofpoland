@@ -226,7 +226,7 @@ equipments = {
 		is_convertable = yes
 		is_buildable = no
 		type = {
-			tactical_bomber
+			strategic_bomber
 		}
 		group_by = archetype
 		air_map_icon_frame
@@ -236,7 +236,7 @@ equipments = {
 		interface_overview_category_index = 3
 		
 		upgrades = {
-			plane_tac_bomb_upgrade
+			plane_strat_bomb_upgrade
 			plane_range_upgrade
 			plane_engine_upgrade
 			plane_reliability_upgrade
