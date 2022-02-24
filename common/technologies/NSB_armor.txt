@@ -103,6 +103,7 @@ technologies = {
 		}
 		enable_equipments = {
 			mbt_equipment_0
+			mbt_chassis_0
 		}
 		enable_subunits = {
 			medium_armor
@@ -128,6 +129,7 @@ technologies = {
 		}
 		enable_equipments = {
 			mbt_equipment_1
+			mbt_chassis_1
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -150,6 +152,7 @@ technologies = {
 		}
 		enable_equipments = {
 			mbt_equipment_2
+			mbt_chassis_2
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -172,6 +175,7 @@ technologies = {
 		}
 		enable_equipments = {
 			mbt_equipment_3
+			mbt_chassis_3
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -194,6 +198,7 @@ technologies = {
 		}
 		enable_equipments = {
 			mbt_equipment_4
+			mbt_chassis_4
 		}
 		categories = {
 			armor
@@ -411,6 +416,10 @@ technologies = {
 		}
 		enable_equipments = {
 			ifv_equipment_1
+			ifv_chassis_1
+		}
+		enable_equipment_modules = {
+			amphibious_drive
 		}
 		enable_subunits = {
 			light_armor
@@ -545,6 +554,131 @@ technologies = {
 		}
 		categories = {
 			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	armor_tech_1 = {
+		research_cost = 2
+		start_year = 1936
+		path = {
+			leads_to_tech = armor_tech_2
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = armor_tech_1_tt
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 0 }
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	armor_tech_2 = {
+		research_cost = 2
+		start_year = 1940
+		path = {
+			leads_to_tech = armor_tech_3
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = armor_tech_2_tt
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 6 }
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	armor_tech_3 = {
+		research_cost = 2
+		start_year = 1944
+		on_research_complete = {
+			custom_effect_tooltip = armor_tech_3_tt
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 12 }
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	engine_tech_1 = {
+		research_cost = 2
+		start_year = 1936
+		path = {
+			leads_to_tech = engine_tech_2
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = engine_tech_1_tt
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 0 }
+		}
+		categories = {
+			engine
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	engine_tech_2 = {
+		research_cost = 2
+		start_year = 1940
+		path = {
+			leads_to_tech = engine_tech_3
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = engine_tech_2_tt
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 6 }
+		}
+		categories = {
+			engine
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	engine_tech_3 = {
+		research_cost = 2
+		start_year = 1944
+		on_research_complete = {
+			custom_effect_tooltip = engine_tech_3_tt
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 12 }
+		}
+		categories = {
+			engine
 		}
 		ai_will_do = {
 			factor = 1

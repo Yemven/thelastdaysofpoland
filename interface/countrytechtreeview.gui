@@ -1121,29 +1121,22 @@ guiTypes = {
 				format = "LEFT"
 			}
 			
-			#gridboxtype = {
-			#	name = "gwtank_chassis_tree"
-			#	position = { x = 10% y = 172 }
-			#	size = { width = 80% height = 80% }
-			#	slotsize = { width = 70 height = 70 }
-			#	format = "UP"
-			#}
 
-			#gridboxtype = {
-			#	name = "armor_tech_1_tree"
-			#	position = { x = 37% y = 172 }
-			#	size = { width = 80% height = 80% }
-			#	slotsize = { width = 70 height = 70 }
-			#	format = "UP"
-			#}
+			gridboxtype = {
+				name = "armor_tech_1_tree"
+				position = { x = 100 y = 750 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 
-			#gridboxtype = {
-			#	name = "engine_tech_1_tree"
-			#	position = { x = -22% y = 172 }
-			#	size = { width = 80% height = 80% }
-			#	slotsize = { width = 70 height = 70 }
-			#	format = "UP"
-			#}
+			gridboxtype = {
+				name = "engine_tech_1_tree"
+				position = { x = 100 y = 850 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 		}
 
 		containerWindowType = {
