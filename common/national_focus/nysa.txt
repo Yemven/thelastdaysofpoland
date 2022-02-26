@@ -1,0 +1,863 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = Nysa_intro_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = NYS
+		}
+	}
+	deafult = no
+	
+	continuous_focus_position = {x = 50 y = 2000 }
+	
+	focus = {
+		id = NYS_power_consolidation
+		icon = NYS_power_consolidation
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 0
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = NYS_restructurzation_of_police
+		icon = NYS_restructurzation_of_police
+		relative_position_id = NYS_power_consolidation
+		prerequisite = { focus = NYS_power_consolidation }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_first_steps
+		icon = NYS_first_steps
+		relative_position_id = NYS_restructurzation_of_police
+		prerequisite = { focus = NYS_restructurzation_of_police }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_putting_puzzle_together
+		icon = NYS_putting_puzzle_together
+		relative_position_id = NYS_first_steps
+		prerequisite = { focus = NYS_first_steps }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_the_state
+		icon = NYS_the_state
+		relative_position_id = NYS_putting_puzzle_together
+		prerequisite = { focus = NYS_putting_puzzle_together }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_arrest_warrants
+		icon = NYS_arrest_warrants
+		relative_position_id = NYS_the_state
+		prerequisite = { focus = NYS_the_state }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_new_conscription_methods
+		icon = NYS_new_conscription_methods
+		relative_position_id = NYS_the_state
+		prerequisite = { focus = NYS_the_state }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_raids_on_sanjaya
+		icon = NYS_raids_on_sanjaya
+		relative_position_id = NYS_arrest_warrants
+		prerequisite = { focus = NYS_arrest_warrants }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_buy_weapons_from_kukiz
+		icon = NYS_buy_weapons_from_kukiz
+		relative_position_id = NYS_new_conscription_methods
+		prerequisite = { focus = NYS_new_conscription_methods }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_police_like_army
+		icon = NYS_police_like_army
+		relative_position_id = NYS_the_state
+		prerequisite = { focus = NYS_buy_weapons_from_kukiz }
+		prerequisite = { focus = NYS_raids_on_sanjaya }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 3
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_modern_city_state
+		icon = NYS_modern_city_state
+		relative_position_id = NYS_police_like_army
+		prerequisite = { focus = NYS_police_like_army }
+		prerequisite = { focus = NYS_new_research_possibilities }
+		prerequisite = { focus = NYS_nysa_development_agency }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 4
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_the_education
+		icon = NYS_the_education
+		relative_position_id = NYS_putting_puzzle_together
+		prerequisite = { focus = NYS_putting_puzzle_together }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -5
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_the_economy
+		icon = NYS_the_economy
+		relative_position_id = NYS_putting_puzzle_together
+		prerequisite = { focus = NYS_putting_puzzle_together }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 5
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_budowlanka_reopening
+		icon = NYS_budowlanka_reopening
+		relative_position_id = NYS_the_education
+		prerequisite = { focus = NYS_the_education }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_find_skilled_educators
+		icon = NYS_find_skilled_educators
+		relative_position_id = NYS_the_education
+		prerequisite = { focus = NYS_the_education }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_mechanik_reopening
+		icon = NYS_mechanik_reopening
+		relative_position_id = NYS_budowlanka_reopening
+		prerequisite = { focus = NYS_budowlanka_reopening }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_rolnik_reopening
+		icon = NYS_rolnik_reopening
+		relative_position_id = NYS_mechanik_reopening
+		prerequisite = { focus = NYS_mechanik_reopening }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_university_of_applied_sciences
+		icon = NYS_university_of_applied_sciences
+		relative_position_id = NYS_find_skilled_educators
+		prerequisite = { focus = NYS_find_skilled_educators }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_new_research_possibilities
+		icon = NYS_new_research_possibilities
+		relative_position_id = NYS_the_education
+		prerequisite = { focus = NYS_rolnik_reopening }
+		prerequisite = { focus = NYS_university_of_applied_sciences }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 6
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_reconstruction_of_bridges
+		icon = NYS_reconstruction_of_bridges
+		relative_position_id = NYS_the_economy
+		prerequisite = { focus = NYS_the_economy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_first_weapon_factory
+		icon = NYS_first_weapon_factory
+		relative_position_id = NYS_the_economy
+		prerequisite = { focus = NYS_the_economy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_restart_dam
+		icon = NYS_restart_dam
+		relative_position_id = NYS_first_weapon_factory
+		prerequisite = { focus = NYS_first_weapon_factory }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_restart_mega_factory
+		icon = NYS_restart_mega_factory
+		relative_position_id = NYS_reconstruction_of_bridges
+		prerequisite = { focus = NYS_reconstruction_of_bridges }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_rebuild_bioagra
+		icon = NYS_rebuild_bioagra
+		relative_position_id = NYS_restart_mega_factory
+		prerequisite = { focus = NYS_restart_mega_factory }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_nysa_development_agency
+		icon = NYS_nysa_development_agency
+		relative_position_id = NYS_the_economy
+		prerequisite = { focus = NYS_rebuild_bioagra }
+		prerequisite = { focus = NYS_restart_dam }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 6
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_objective_survive
+		icon = NYS_objective_survive
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 22
+		y = 0
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_civil_defence
+		icon = NYS_civil_defence
+		relative_position_id = NYS_objective_survive
+		prerequisite = { focus = NYS_objective_survive}
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -5
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_every_citizen_a_soldier
+		icon = NYS_every_citizen_a_soldier
+		relative_position_id = NYS_civil_defence
+		prerequisite = { focus = NYS_civil_defence }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_local_informators
+		icon = NYS_local_informators
+		relative_position_id = NYS_civil_defence
+		prerequisite = { focus = NYS_civil_defence }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_unthinkable_option
+		icon = NYS_unthinkable_option
+		relative_position_id = NYS_objective_survive
+		prerequisite = { focus = NYS_objective_survive }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_reclaim_otmuchow
+		icon = NYS_reclaim_otmuchow
+		relative_position_id = NYS_unthinkable_option
+		prerequisite = { focus = NYS_unthinkable_option }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_reclaim_korfantow
+		icon = NYS_reclaim_korfantow
+		relative_position_id = NYS_unthinkable_option
+		prerequisite = { focus = NYS_unthinkable_option }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_reclaim_prudnik
+		icon = NYS_reclaim_prudnik
+		relative_position_id = NYS_unthinkable_option
+		prerequisite = { focus = NYS_unthinkable_option }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_unite_county
+		icon = NYS_unite_county
+		relative_position_id = NYS_unthinkable_option
+		prerequisite = { focus = NYS_reclaim_korfantow }
+			prerequisite = { focus = NYS_reclaim_otmuchow }
+					prerequisite = { focus = NYS_reclaim_prudnik }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_festung_neisse
+		icon = NYS_festung_neisse
+		relative_position_id = NYS_objective_survive
+		prerequisite = { focus = NYS_objective_survive }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_fort_prusy
+		icon = NYS_fort_prusy
+		relative_position_id = NYS_festung_neisse
+		prerequisite = { focus = NYS_festung_neisse }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_fort_1
+		icon = NYS_fort_1
+		relative_position_id = NYS_festung_neisse
+		prerequisite = { focus = NYS_festung_neisse }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_fort_2
+		icon = NYS_fort_2
+		relative_position_id = NYS_festung_neisse
+		prerequisite = { focus = NYS_festung_neisse }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_fort_3
+		icon = NYS_fort_3
+		relative_position_id = NYS_festung_neisse
+		prerequisite = { focus = NYS_festung_neisse }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = NYS_fort_wodny
+		icon = NYS_fort_wodny
+		relative_position_id = NYS_festung_neisse
+		prerequisite = { focus = NYS_festung_neisse }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	}

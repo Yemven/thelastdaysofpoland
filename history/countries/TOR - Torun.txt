@@ -9,11 +9,12 @@ set_convoys = 20
 
 recruit_character = TOR_tadeusz_rydzyk
 recruit_character = TOR_sławomir_mentzen
-recruit_character = TOR_michał_zaleski
+recruit_character = TOR_adam_slusarski
+recruit_character = TOR_jacek_hoga
 
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = corporativism
 	last_election = "2027.3.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -22,14 +23,14 @@ set_politics = {
 set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
-	socialdemocrature = 19
+	socialdemocrature = 0
 	euroliberalism = 0
-	freemarketism = 17
+	freemarketism = 11
 	paternal_conservatism = 0
-	autocracy = 64
-	corporativism = 0
-	neonationalism = 0
-	reactionary = 0
+	autocracy = 0
+	corporativism = 64
+	neonationalism = 19
+	reactionary = 6
 	postpolonism = 0
 }
 

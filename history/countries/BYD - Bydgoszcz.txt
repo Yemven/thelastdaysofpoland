@@ -9,10 +9,11 @@ set_convoys = 20
 
 recruit_character = BYD_sebastian_kulczyk
 recruit_character = BYD_dominika_kulczyk
+recruit_character = BYD_roman_kneblewski
 
 
 set_politics = {
-	ruling_party = corporativism
+	ruling_party = neonationalism
 	last_election = "2027.3.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -21,13 +22,13 @@ set_politics = {
 set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
-	socialdemocrature = 29
-	euroliberalism = 0
+	socialdemocrature = 0
+	euroliberalism = 16
 	freemarketism = 0
 	paternal_conservatism = 0
-	autocracy = 0
-	corporativism = 71
-	neonationalism = 0
+	autocracy = 11
+	corporativism = 34
+	neonationalism = 39
 	reactionary = 0
 	postpolonism = 0
 }

@@ -522,13 +522,13 @@ guiTypes = {
 			iconType = {
 				name = "wing_type_left_0"
 				spriteType = "GFX_air_overview_plane_strip"
-				position = { x=19 y=180 }
+				position = { x=38 y=180 }
 				orientation = "UPPER_LEFT"
 				frame = 1
 			}
 			instantTextboxType = {
 				name = "wing_type_left_text_0"
-				position = { x=15 y=160 }
+				position = { x=44 y=160 }
 				font = "hoi_18mbs"
 				maxWidth = 60
 				maxHeight = 23
@@ -538,31 +538,30 @@ guiTypes = {
 			iconType = {
 				name = "wing_type_left_1"
 				spriteType = "GFX_air_overview_plane_strip"
-				position = { x=80 y=180 }
+				position = { x=114 y=180 }
 				orientation = "UPPER_LEFT"
 				frame = 2
 			}
 			instantTextboxType = {
 				name = "wing_type_left_text_1"
-				position = { x=77 y=160 }
+				position = { x=119 y=160 }
 				font = "hoi_18mbs"
 				maxWidth = 60
 				maxHeight = 23
 				format = center
 			}
 
-			# NOTE - frame 3 is at the end of this list!
 
 			iconType = {
 				name = "wing_type_left_2"
 				spriteType = "GFX_air_overview_plane_strip"
-				position = { x=143 y=180 }
+				position = { x=190 y=180 }
 				orientation = "UPPER_LEFT"
-				frame = 4
+				frame = 3
 			}
 			instantTextboxType = {
 				name = "wing_type_left_text_2"
-				position = { x=140 y=160 }
+				position = { x=195 y=160 }
 				font = "hoi_18mbs"
 				maxWidth = 60
 				maxHeight = 23
@@ -572,13 +571,13 @@ guiTypes = {
 			iconType = {
 				name = "wing_type_left_3"
 				spriteType = "GFX_air_overview_plane_strip"
-				position = { x=203 y=180 }
+				position = { x=266 y=180 }
 				orientation = "UPPER_LEFT"
-				frame = 5
+				frame = 4
 			}
 			instantTextboxType = {
 				name = "wing_type_left_text_3"
-				position = { x=200 y=160 }
+				position = { x=271 y=160 }
 				font = "hoi_18mbs"
 				maxWidth = 60
 				maxHeight = 23
@@ -588,13 +587,13 @@ guiTypes = {
 			iconType = {
 				name = "wing_type_left_4"
 				spriteType = "GFX_air_overview_plane_strip"
-				position = { x=264 y=180 }
+				position = { x=342 y=180 }
 				orientation = "UPPER_LEFT"
-				frame = 6
+				frame = 5
 			}
 			instantTextboxType = {
 				name = "wing_type_left_text_4"
-				position = { x=263 y=160 }
+				position = { x=345 y=160 }
 				font = "hoi_18mbs"
 				maxWidth = 60
 				maxHeight = 23
@@ -604,45 +603,13 @@ guiTypes = {
 			iconType = {
 				name = "wing_type_left_5"
 				spriteType = "GFX_air_overview_plane_strip"
-				position = { x=326 y=180 }
+				position = { x=418 y=180 }
 				orientation = "UPPER_LEFT"
-				frame = 7
+				frame = 6
 			}
 			instantTextboxType = {
 				name = "wing_type_left_text_5"
-				position = { x=325 y=160 }
-				font = "hoi_18mbs"
-				maxWidth = 60
-				maxHeight = 23
-				format = center
-			}
-
-			iconType = {
-				name = "wing_type_left_6"
-				spriteType = "GFX_air_overview_plane_strip"
-				position = { x=388 y=180 }
-				orientation = "UPPER_LEFT"
-				frame = 8
-			}
-			instantTextboxType = {
-				name = "wing_type_left_text_6"
-				position = { x=387 y=160 }
-				font = "hoi_18mbs"
-				maxWidth = 60
-				maxHeight = 23
-				format = center
-			}
-
-			iconType = {
-				name = "wing_type_left_7"
-				spriteType = "GFX_air_overview_plane_strip"
-				position = { x=449 y=178 }
-				orientation = "UPPER_LEFT"
-				frame = 3
-			}
-			instantTextboxType = {
-				name = "wing_type_left_text_7"
-				position = { x=448 y=160 }
+				position = { x=419 y=160 }
 				font = "hoi_18mbs"
 				maxWidth = 60
 				maxHeight = 23
@@ -751,7 +718,7 @@ guiTypes = {
 				spriteType = "GFX_air_overview_plane_strip"
 				position = { x=164 y=180 }
 				orientation = "UPPER_LEFT"
-				frame = 4
+				frame = 3
 			}
 			instantTextboxType = {
 				name = "wing_type_left_text_2"
@@ -767,7 +734,7 @@ guiTypes = {
 				spriteType = "GFX_air_overview_plane_strip"
 				position = { x=234 y=180 }
 				orientation = "UPPER_LEFT"
-				frame = 5
+				frame = 4
 			}
 			instantTextboxType = {
 				name = "wing_type_left_text_3"
@@ -783,7 +750,7 @@ guiTypes = {
 				spriteType = "GFX_air_overview_plane_strip"
 				position = { x=304 y=180 }
 				orientation = "UPPER_LEFT"
-				frame = 6
+				frame = 5
 			}
 			instantTextboxType = {
 				name = "wing_type_left_text_4"
@@ -799,7 +766,7 @@ guiTypes = {
 				spriteType = "GFX_air_overview_plane_strip"
 				position = { x=374 y=180 }
 				orientation = "UPPER_LEFT"
-				frame = 7
+				frame = 6
 			}
 			instantTextboxType = {
 				name = "wing_type_left_text_5"

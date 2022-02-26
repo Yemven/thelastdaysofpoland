@@ -1,13 +1,39 @@
 characters={
-	KUJ_jacek_rostowski={
-		name="Jacek Rostowski"
+	KUJ_piotr_calbecki={
+		name="Piotr Całbecki"
 		portraits={
 			civilian={
-				large="gfx/leaders/KUJ/KUJ_Rostowski1.dds"
+				large="gfx/leaders/KUJ/KUJ_Calbecki.dds"
 			}
 		}
 		country_leader={
 			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUJ_michal_zaleski={
+		name="Michał Zaleski"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUJ/KUJ_Zaleski.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KUJ_joanna_schleswig_holstein={
+		name="Joanna Scheuring-Wielgus"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUJ/KUJ_Wielgus.dds"
+			}
+		}
+		country_leader={
+			ideology=squattism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}

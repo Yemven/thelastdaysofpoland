@@ -103,12 +103,53 @@ focus_tree = {
 			
 		}
 	}
+	focus = {
+		id = SOS_new_commissars
+		icon = SOS_new_commissars
+		relative_position_id = SOS_except_opposition
+		prerequisite = { focus = SOS_except_opposition }
+		available = {
 	
+		}
+
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = { 
+			
+		}
+	}
+	focus = {
+		id = SOS_create_local_councils
+		icon = SOS_create_local_councils
+		relative_position_id = SOS_except_opposition
+		prerequisite = { focus = SOS_except_opposition }
+		available = {
+	
+		}
+
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = { 
+		}
+	}
 	focus = {
 		id = SOS_assuming_leading_role
 		icon = SOS_assuming_leading_role
 		relative_position_id = SOS_except_opposition
-		prerequisite = { focus = SOS_except_opposition }
+		prerequisite = { focus = SOS_new_commissars }
+		prerequisite = { focus = SOS_create_local_councils }
 		available = {
 	
 		}
@@ -120,20 +161,39 @@ focus_tree = {
 		y = 3
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
 	
-	
+	focus = {
+		id = SOS_central_trade_union
+		icon = SOS_central_trade_union
+		relative_position_id = SOS_our_industry
+		prerequisite = { focus = SOS_nationalise_sosnowiec_logistic_centre
+						 focus = SOS_siewierz_industrial_zone }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 4
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}	
 	focus = {
 		id = SOS_congress_of_bedzin
 		icon = SOS_congress_of_bedzin
 		relative_position_id = SOS_assuming_leading_role
 		prerequisite = { focus = SOS_assuming_leading_role }
-		prerequisite = { focus = SOS_legacy_of_gierek }
-		prerequisite = { focus = SOS_just_like_the_old_times }
 		available = {
 		
 		}
@@ -144,7 +204,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 12.9
+		cost = 4.3
 		search_filters = { }
 		completion_reward = {
 			
@@ -178,6 +238,8 @@ focus_tree = {
 		icon = SOS_stand_up_damned
 		relative_position_id = SOS_raise_red_banner
 		prerequisite = { focus = SOS_raise_red_banner }
+		prerequisite = { focus = SOS_legacy_of_gierek }
+		prerequisite = { focus = SOS_maneuvers_at_pogoria }
 		available = {
 		
 		}
@@ -186,9 +248,30 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 1
+		y = 2
 		
 		cost = 3
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOS_maneuvers_at_pogoria
+		icon = SOS_maneuvers_at_pogoria
+		relative_position_id = SOS_just_like_the_old_times
+		prerequisite = { focus = SOS_just_like_the_old_times }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
 		search_filters = { }
 		completion_reward = {
 			
@@ -277,7 +360,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		
-		cost = 3
+		cost = 1
 		search_filters = { }
 		completion_reward = {
 			
@@ -300,7 +383,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		
-		cost = 3
+		cost = 1
 		search_filters = { }
 		completion_reward = {
 			
@@ -323,7 +406,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 3
+		cost = 2
 		search_filters = { }
 		completion_reward = {
 			
@@ -345,7 +428,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 3
+		cost = 2
 		search_filters = { }
 		completion_reward = {
 			
@@ -367,7 +450,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 3
+		cost = 2
 		search_filters = { }
 		completion_reward = {
 			
@@ -389,7 +472,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 3
+		cost = 2
 		search_filters = { }
 		completion_reward = {
 			
@@ -399,10 +482,8 @@ focus_tree = {
 	focus = {
 		id = SOS_legacy_of_gierek
 		icon = SOS_legacy_of_gierek
-		relative_position_id = SOS_siewierz_industrial_zone
-		prerequisite = { focus = SOS_siewierz_industrial_zone
-						 focus = SOS_nationalise_sosnowiec_logistic_centre 
-						 }
+		relative_position_id = SOS_central_trade_union
+		prerequisite = { focus = SOS_central_trade_union }
 		available = {
 		
 		}
@@ -410,8 +491,8 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 1
-		y = 1
+		x = 0
+		y = 2
 		
 		cost = 2
 		search_filters = { }
@@ -481,7 +562,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		
-		cost = 3
+		cost = 1
 		search_filters = { }
 		completion_reward = {
 			
@@ -505,7 +586,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 3
+		cost = 1
 		search_filters = { }
 		completion_reward = {
 			
@@ -529,20 +610,17 @@ focus_tree = {
 		x = 2
 		y = 1
 		
-		cost = 3
+		cost = 1
 		search_filters = { }
 		completion_reward = {
 			
 		}
 	}
-	
 	focus = {
-		id = SOS_just_like_the_old_times
-		icon = SOS_just_like_the_old_times
-		relative_position_id = SOS_we_need_men
-		prerequisite = { focus = SOS_we_need_men
-						 focus = SOS_we_need_trucks
-						 focus = SOS_we_need_weapons }
+		id = SOS_silesian_logistic_centre
+		icon = SOS_silesian_logistic_centre
+		relative_position_id = SOS_we_need_trucks
+		prerequisite = { focus = SOS_we_need_trucks }
 		available = {
 		
 		}
@@ -551,7 +629,72 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 2
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOS_sosnowiec_conscription_stations
+		icon = SOS_sosnowiec_conscription_stations
+		relative_position_id = SOS_we_need_men
+		prerequisite = { focus = SOS_we_need_men }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOS_joint_factories_syndicate
+		icon = SOS_joint_factories_syndicate
+		relative_position_id = SOS_we_need_weapons
+		prerequisite = { focus = SOS_we_need_weapons }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOS_just_like_the_old_times
+		icon = SOS_just_like_the_old_times
+		relative_position_id = SOS_popular_army
+		prerequisite = { focus = SOS_silesian_logistic_centre
+						 focus = SOS_sosnowiec_conscription_stations
+						 focus = SOS_joint_factories_syndicate }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 3
 		
 		cost = 2
 		search_filters = { }
