@@ -105,6 +105,24 @@ technologies = {
 			mbt_equipment_0
 			mbt_chassis_0
 		}
+		enable_equipment_modules = {
+			tank_gasoline_engine
+			tank_diesel_engine
+			tank_riveted_armor
+			tank_welded_armor
+			tank_torsion_bar_suspension
+			tank_christie_suspension
+			tank_hydropneumatic_suspension
+			tank_battering_ram
+			tank_ifv_one_man_tank_turret
+			tank_ifv_two_man_tank_turret
+			tank_ifv_three_man_tank_turret
+			tank_ifv_fixed_superstructure_turret
+			tank_mbt_one_man_tank_turret
+			tank_mbt_two_man_tank_turret
+			tank_mbt_three_man_tank_turret
+			tank_mbt_fixed_superstructure_turret
+		}
 		enable_subunits = {
 			medium_armor
 		}
@@ -570,6 +588,9 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_1_tt
 		}
+		enable_equipment_modules = {
+			tank_hiquality_steel
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 0 y = 0 }
@@ -591,6 +612,9 @@ technologies = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_2_tt
+		}
+		enable_equipment_modules = {
+			era_armor
 		}
 		folder = {
 			name = nsb_armour_folder
