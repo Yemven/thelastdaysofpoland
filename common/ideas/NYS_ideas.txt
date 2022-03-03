@@ -1,0 +1,56 @@
+ideas = {
+    country = {
+	   NYS_idea_economical_reform = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = NYS_idea_economical_reform
+			modifier = {
+				consumer_goods_factor = 0.03
+			}
+		} 
+        NYS_idea_education_reform = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = NYS_idea_education_reform
+			modifier = {
+				stability_weekly = 0.015
+			}
+		} 
+        NYS_idea_admin_reform = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = NYS_idea_admin_reform
+			modifier = {
+				stability_weekly = 0.015
+			}
+		}
+        NYS_idea_modern_polis = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = NYS_idea_modern_polis
+			modifier = {
+				monthly_population = 0.25
+
+			}
+		}
+         NYS_idea_arn = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = NYS_idea_arn
+			modifier = {
+				production_speed_buildings_factor = 0.35
+                
+			}
+		}
+		 NYS_idea_conscription = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = NYS_idea_conscription
+			modifier = {
+				conscription_factor = 0.25
+				recruitable_population_factor = 0.03
+                
+			}
+		}
+    }
+}
