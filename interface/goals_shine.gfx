@@ -278,12 +278,13 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		legacy_lazy_load = no
+	}
 	SpriteType = {
-		name = "NYS_modern_city_state"
+		name = "NYS_modern_city_state_shine"
 		texturefile = "gfx/interface/goals/NYS_modern_city_state.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/TAT_mufti_and_imam.dds"
+			animationmaskfile = "gfx/interface/goals/NYS_modern_city_state.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -296,7 +297,7 @@ spriteTypes = {
 		}
 	
 		animation = {
-			animationmaskfile = "gfx/interface/goals/TAT_mufti_and_imam.dds"
+			animationmaskfile = "gfx/interface/goals/NYS_modern_city_state.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

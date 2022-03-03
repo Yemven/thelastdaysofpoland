@@ -7,6 +7,7 @@ characters={
 			}
 		}
 		country_leader={
+			desc = "POLITICS_WITOLD_SKRZYDLEWSKI_DESC"
 			ideology=corporativism_subtype
 			expire="1.1.1.1"
 			id=-1
@@ -14,28 +15,92 @@ characters={
 	}
 	KRS_krzysztof_rutkowski={
 		name="Krzysztof Rutkowski"
-		portraits={
-			civilian={
-				large="gfx/leaders/KRS/KRS_Rutkowski.dds"
-			}
+		portraits=
+		{ civilian = { large = "gfx/leaders/KRS/KRS_Rutkowski.dds" 
+		small = "gfx/interface/ideas/KRS/KRS_rutkowski.dds" }
 		}
+
 		country_leader={
+			desc = "POLITICS_KRZYSZTOF_RUTKOWSKI_DESC"
 			ideology=autocracy_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
-	}
-	KRS_tadeusz_celder={
-		name="Tadeusz Celder"
-		portraits={
-			civilian={
-				large="gfx/leaders/KRS/KRS_Celder.dds"
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = KRS_min_rutkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KRS
 			}
+			traits = { private_detective }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	KRS_dr_ebrantil={
+		name="Dr Ebrantil"
+		portraits=		{ civilian = { large = "gfx/leaders/KRS/KRS_Ebrantil.dds" 
+		small = "gfx/interface/ideas/KRS/KRS_ebrantil.dds" }
 		}
 		country_leader={
+			desc = "POLITICS_EBRANTIL_DESC"
 			ideology=postpolonism_subtype
 			expire="1.1.1.1"
 			id=-1
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = KRS_min_ebrantil
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KRS
+			}
+			traits = { mad_scientist }
+		}
+	}
+	KRS_joanna_skrzydlewska={
+		name="Joanna Skrzydlewska"
+		portraits=		{ civilian = {  
+		small = "gfx/interface/ideas/KRS/KRS_skrzydlewska.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = KRS_min_skrzydlewska
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KRS
+			}
+			traits = { manager }
+		}
+	}
+	KRS_anna_maria_wesolowska={
+		name="Anna Maria Wesołowska"
+		portraits=		{ civilian = { 
+		small = "gfx/interface/ideas/KRS/KRS_wesolowska.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = KRS_min_wesolowska
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KRS
+			}
+			traits = { persecutor }
 		}
 	}
 }
