@@ -22,6 +22,7 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/DGR/DGR_Szwej1.dds"
+				small="gfx/interface/ideas/DGR/DGR_szwej.dds"
 			}
 		}
 		country_leader={
@@ -29,8 +30,27 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = DGR_min_szwej
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = DGR
+			}
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
 	}
-	DGR_mateusz_popeye={
+	DGR_popeye={
 		name="Mateusz Papaj"
 		portraits={
 			civilian={
@@ -43,10 +63,10 @@ characters={
 			id=-1
 		}
 	}
-	DGR_marcin_bazylak={
+	DGR_bazylak={
 		name="Marcin Bazylak"
 		portraits={
-			civilian={
+			civilian={ small="gfx/interface/ideas/DGR/DGR_bazylak.dds"
 				large="gfx/leaders/DGR/DGR_Bazylak.dds"
 			}
 		}
@@ -55,11 +75,22 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = DGR_min_bazylak
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = DGR
+			}
+			traits = {  }
+		}
 	}
-	DGR_aleksander_bargieła={
+	DGR_bargieła={
 		name="Aleksander Bargieła"
 		portraits={
-			civilian={
+			civilian={ small="gfx/interface/ideas/DGR/DGR_bargiela.dds"
 				large="gfx/leaders/DGR/DGR_Bargiela.dds"
 			}
 		}
@@ -67,6 +98,53 @@ characters={
 			ideology=neonationalism_subtype
 			expire="1.1.1.1"
 			id=-1
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = DGR_min_bargiela
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = DGR
+			}
+			traits = {  }
+		}
+	}
+	DGR_podraza={
+		name="Zbigniew Podraza"
+		portraits={
+			civilian={ small="gfx/interface/ideas/DGR/DGR_podraza.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = DGR_min_podraza
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = DGR
+			}
+			traits = {  }
+		}
+	}
+	DGR_warwas={
+		name="Robert Warwas"
+		portraits={
+			civilian={ small="gfx/interface/ideas/DGR/DGR_warwas.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = DGR_min_warwas
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = DGR
+			}
+			traits = {  }
 		}
 	}
 }

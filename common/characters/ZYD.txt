@@ -7,9 +7,112 @@ characters={
 			}
 		}
 		country_leader={
+			desc = "POLITICS_RED_RABBI_DESC"
 			ideology=squattism_subtype
 			expire="2050.1.1.1"
 			id=-1
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	ZYD_urban={
+		name="Jerzy Urban"
+		portraits=
+		{ civilian = { large="gfx/leaders/ZYD/ZYD_Urban"
+		small = "gfx/interface/ideas/ZYD/ZYD_urban.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = ZYD_min_urban
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ZYD
+			}
+			traits = { propagandist }
+		}
+		country_leader={
+			desc = "POLITICS_JERZY_URBAN_DESC"
+			ideology=marxism_cranism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZYD_zygmuntowski={
+		name="Jan J. Zygmuntowski"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/ZYD/ZYD_zygmuntowski.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = ZYD_min_zygmuntowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ZYD
+			}
+			traits = { innovative_economist }
+		}
+	}
+	ZYD_daniels={
+		name="Jonny Daniels"
+		portraits=
+		{ civilian = { large="gfx/leaders/ZYD/ZYD_Daniels.dds"
+		small = "gfx/interface/ideas/ZYD/ZYD_daniels.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = ZYD_min_daniels
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ZYD
+			}
+			traits = { parachuter }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	ZYD_tiger={
+		name="Tiger Bonzo"
+		portraits=
+		{ civilian = { large="gfx/leaders/ZYD/ZYD_Tiger.dds"
+		small = "gfx/interface/ideas/ZYD/ZYD_tiger.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = ZYD_min_tiger
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ZYD
+			}
+			traits = { hacker }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 }

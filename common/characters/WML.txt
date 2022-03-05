@@ -7,9 +7,99 @@ characters={
 			}
 		}
 		country_leader={
+			desc = "POLITICS_SZYMON_HOLOWNIA_DESC"
 			ideology=euroliberalism_subtype
 			expire="1.1.1.1"
 			id=-1
+		}
+	}
+	WML_gilpiatek={
+		name="Hanna Gil-Piątek"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/WML/WML_gilpiatek.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = WML_min_gilpiatek
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = WML
+			}
+			traits = { urban_activist }
+		}
+	}
+	WML_zimoch={
+		name="Tomasz Zimoch"
+		portraits=
+		{ civilian = { large="gfx/leaders/WML/WML_Zimoch.dds"
+		small = "gfx/interface/ideas/WML/WML_zimoch.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = WML_min_zimoch
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = WML
+			}
+			traits = { media_personality }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	WML_belka={
+		name="Marek Belka"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/WML/WML_belka.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = WML_min_belka
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = WML
+			}
+			traits = { shrewd_financier }
+		}
+	}
+	WML_lubnauer={
+		name="Katarzyna Lubnauer"
+		portraits=
+		{ civilian = { large="gfx/leaders/WML/WML_Lubnauer.dds"
+		small = "gfx/interface/ideas/WML/WML_lubnauer.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = WML_min_lubnauer
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = WML
+			}
+			traits = { sailing_instructor }
+		}
+		navy_leader = {
+			traits = { }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=-1
 		}
 	}
 }

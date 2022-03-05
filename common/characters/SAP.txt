@@ -12,6 +12,14 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+	    field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
 	}
 	SAP_jacek_bartyzel={
 		name="Jacek Bartyzel"
@@ -27,7 +35,7 @@ characters={
 			id=-1
 		}
 	}
-	SAP_junior_bartyzel={
+	SAP_bartyzel_junior={
 		name="Władysław V Bartyzel"
 		portraits={
 			civilian={
@@ -53,6 +61,102 @@ characters={
 			ideology=autocracy_subtype
 			expire="1.1.1.1"
 			id=-1
+		}
+	}
+	SAP_pudzian={
+		name="Mariusz Pudzianowski"
+		portraits=
+		{ civilian = { large="gfx/leaders/SAP/SAP_Pudzian.dds"
+		small = "gfx/interface/ideas/SAP/SAP_pudzian.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = SAP_min_pudzian
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SAP
+			}
+			traits = { inspiring_warrior }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	SAP_piekara={
+		name="Jacek Piekara"
+		portraits=
+		{ civilian = { large="gfx/leaders/SAP/SAP_Piekara.dds"
+		small = "gfx/interface/ideas/SAP/SAP_piekara.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = SAP_min_piekara
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SAP
+			}
+			traits = { inquisitor }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	SAP_dukaj={
+		name="Jacek Dukaj"
+		portraits=
+		{ civilian = { large="gfx/leaders/SAP/SAP_Dukaj.dds"
+		small = "gfx/interface/ideas/SAP/SAP_dukaj.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = SAP_min_dukaj
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SAP
+			}
+			traits = { archmage }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	SAP_ziemianski={
+		name="Andrzej Ziemiański"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/SAP/SAP_ziemianski.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = SAP_min_ziemianski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SAP
+			}
+			traits = { architect }
 		}
 	}
 }

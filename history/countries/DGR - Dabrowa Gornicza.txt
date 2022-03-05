@@ -9,9 +9,11 @@ set_convoys = 20
 
 recruit_character = DGR_bas_tajpan
 recruit_character = DGR_krzysztof_szwej
-recruit_character = DGR_mateusz_popeye
-recruit_character = DGR_marcin_bazylak
-recruit_character = DGR_aleksander_bargieła
+recruit_character = DGR_popeye
+recruit_character = DGR_bazylak
+recruit_character = DGR_bargieła
+recruit_character = DGR_warwas
+recruit_character = DGR_podraza
 
 add_ideas = {
 monoparty
@@ -28,6 +30,10 @@ lgbt_equal_laws
 drugs_illegal_unenforced
 women_feminism_policy
 minorities_system_oppresion
+DGR_min_podraza
+DGR_min_bazylak
+DGR_min_warwas
+DGR_min_szwej
 }
 
 set_politics = {
