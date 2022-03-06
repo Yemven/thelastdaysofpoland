@@ -13,4 +13,86 @@ characters={
 			id=-1
 		}
 	}
+	SOS_gorski={
+		name="Kazimierz Górski"
+		portraits={
+			civilian={ small="gfx/interface/ideas/SOS/SOS_gorski.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = SOS_min_gorski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SOS
+			}
+			traits = {  }
+		}
+	}
+	SOS_majchrzak={
+		name="Dariusz Majchrzak"
+		portraits={
+			civilian={ small="gfx/interface/ideas/SOS/SOS_majchrzak.dds"
+				large="gfx/leaders/SOS/SOS_Majchrzak.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = SOS_min_majchrzak
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SOS
+			}
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	SOS_zukowska={
+		name="Anna Maria Żukowska"
+		portraits={
+			civilian={ small="gfx/interface/ideas/SOS/SOS_zukowska.dds"
+			large="gfx/leaders/SOS/SOS_Zukowska.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = SOS_min_zukowska
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SOS
+			}
+			traits = {  }
+		}
+	}
+	SOS_gawkowski={
+		name="Krzysztof Gawkowski"
+		portraits={
+			civilian={ small="gfx/interface/ideas/SOS/SOS_gawkowski.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = SOS_min_gawkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SOS
+			}
+			traits = {  }
+		}
+	}
 }

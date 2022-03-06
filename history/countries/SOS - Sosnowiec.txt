@@ -12,7 +12,31 @@ add_to_faction = DGR
 add_to_faction = JAW
 
 recruit_character = SOS_włodzimierz_czarzasty
+recruit_character = SOS_zukowska
+recruit_character = SOS_majchrzak
+recruit_character = SOS_gawkowski
+recruit_character = SOS_gorski
 
+add_ideas = {
+controlled_opposition
+autocensorship
+basic_security
+partial_refundation
+basic_income
+training_basic
+officer_clerks
+economy_solidarism
+taxes_high
+trade_regulated
+lgbt_encouraged
+drugs_illegal_unenforced
+women_feminism_policy
+minorities_equal_rights
+SOS_min_zukowska
+SOS_min_majchrzak
+SOS_min_gorski
+SOS_min_gawkowski
+}
 set_politics = {
 	ruling_party = socialdemocrature
 	last_election = "2027.3.1"
