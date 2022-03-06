@@ -264,28 +264,28 @@ guiTypes = {
 			
 			gridboxtype {
 				name = "infantry_training_tree"
-				position = { x = 140 y = 220 }
-				slotsize = { width = 70 height = 70}
-				format = "LEFT"
-			}
-			
-			gridboxtype {
-				name = "ballistic_vests_tree"
 				position = { x = 140 y = 330 }
 				slotsize = { width = 70 height = 70}
 				format = "LEFT"
 			}
 			
 			gridboxtype {
-				name = "special_forces_equipment_tree"
+				name = "ballistic_vests_tree"
 				position = { x = 140 y = 440 }
 				slotsize = { width = 70 height = 70}
 				format = "LEFT"
 			}
 			
 			gridboxtype {
-				name = "special_forces_training_tree"
+				name = "special_forces_equipment_tree"
 				position = { x = 140 y = 550 }
+				slotsize = { width = 70 height = 70}
+				format = "LEFT"
+			}
+			
+			gridboxtype {
+				name = "special_forces_training_tree"
+				position = { x = 140 y = 660 }
 				slotsize = { width = 70 height = 70}
 				format = "LEFT"
 			}
@@ -514,14 +514,8 @@ guiTypes = {
 				format = "LEFT"
 			}
 			gridboxtype = {
-				name = "tech_anti_tank_tree"
-				position = { x = 100 y = 1180 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
 				name = "basic_train_tree"
-				position = { x = 100 y = 1280 }
+				position = { x = 100 y = 1180 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

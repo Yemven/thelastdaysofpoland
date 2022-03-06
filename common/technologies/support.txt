@@ -848,10 +848,7 @@ technologies = {
 			leads_to_tech = tech_field_hospital2
 			research_cost_coeff = 1
 		}
-
-		dependencies = {
-			motorised_infantry = 1
-		}
+		
 
 		research_cost = 2
 		start_year = 1936
@@ -1023,10 +1020,6 @@ technologies = {
 		path = {
 			leads_to_tech = tech_logistics_company2
 			research_cost_coeff = 1
-		}
-
-		dependencies = {
-			motorised_infantry = 1
 		}
 
 		research_cost = 2
@@ -1214,7 +1207,6 @@ technologies = {
 
 		dependencies = {
 			radio = 1
-			motorised_infantry = 1
 		}
 
 		research_cost = 2
@@ -1367,108 +1359,6 @@ technologies = {
 		}
 	}
 	
-	tech_anti_tank = {
-		enable_subunits = {
-			anti_tank
-		}
-		
-		path = {
-			leads_to_tech = tech_anti_tank2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-		start_year = 1936
-		folder = {
-			name = support_folder
-			position = { x = 0 y = @1936 }
-		}
-		
-		categories = {
-			support_tech
-			cat_anti_tank
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_anti_tank2 = {
-		path = {
-			leads_to_tech = tech_anti_tank3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-		start_year = 1939
-		folder = {
-			name = support_folder
-			position = { x = 0 y = @1939 }
-		}
-		
-		categories = {
-			support_tech
-			cat_anti_tank
-		}
-		
-		anti_tank = {
-			ap_attack = 0.6
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_anti_tank3 = {
-		path = {
-			leads_to_tech = tech_anti_tank4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-		start_year = 1942
-		folder = {
-			name = support_folder
-			position = { x = 0 y = @1942 }
-		}
-		
-		categories = {
-			support_tech
-			cat_anti_tank
-		}
-		
-		anti_tank = {
-			ap_attack = 0.9
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_anti_tank4 = {
-		research_cost = 1
-		start_year = 1945
-		folder = {
-			name = support_folder
-			position = { x = 0 y = @1945 }
-		}
-		
-		categories = {
-			support_tech
-			cat_anti_tank
-		}
-		
-		anti_tank = {
-			ap_attack = 1
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	basic_train = {
 		enable_equipments = {
 			train_equipment_1
