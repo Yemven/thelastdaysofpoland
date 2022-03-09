@@ -1681,77 +1681,20 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "early_destroyer_tree"
-				position = { x = 150 y = 60}
+				name = "kayak_tree"
+				position = { x = 150 y = 300}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
-			gridboxtype = {
-				name = "early_ship_hull_light_tree"
-				position = { x = 150 y = 60}
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "early_light_cruiser_tree"
-				position = { x = 150 y = 260 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "early_heavy_cruiser_tree"
-				position = { x = 150 y = 260 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
+			
 			gridboxtype = {
 				name = "transport_tree"
-				position = { x = 150 y = 1180 }
+				position = { x = 150 y = 700}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
-			gridboxtype = {
-				name = "early_battlecruiser_tree"
-				position = { x = 150 y = 540 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "early_battleship_tree"
-				position = { x = 150 y = 540 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "early_carrier_tree"
-				position = { x = 150 y = 900 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "early_submarine_tree"
-				position = { x = 150 y = 1040 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
 		}
 		containerWindowType = {
 			name = "mtgnavalfolder"
@@ -1980,7 +1923,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "kayak_tree"
+				name = "kayak_hull_tree"
 				position = { x = 150 y = 300}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1988,7 +1931,7 @@ guiTypes = {
 			}
 			
 			gridboxtype = {
-				name = "transport_tree"
+				name = "mtg_transport_tree"
 				position = { x = 150 y = 700}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
