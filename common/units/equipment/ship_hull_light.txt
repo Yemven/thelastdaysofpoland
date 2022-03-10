@@ -581,7 +581,6 @@ equipments = {
 		hg_attack = 0
 		
 		torpedo_attack = 0
-		sub_attack = 1
 		
 		anti_air_attack = 0
 		
@@ -589,7 +588,6 @@ equipments = {
 
 		
 		surface_detection = 20
-		sub_detection = 1
 		surface_visibility = 10
 		naval_speed = 25
 		reliability = 0.80
@@ -609,6 +607,15 @@ equipments = {
 		manpower = 25
 	}
 	
+	kayak_hull_equipment = {
+		year = 2020
+
+		archetype = kayak_hull
+		priority = 2000
+		
+		module_slots = inherit
+	}
+	
 	kayak_equipment = {
 		year = 2020
 		archetype = kayak_hull
@@ -626,7 +633,6 @@ equipments = {
 		lg_attack = 0
 		
 		torpedo_attack = 0
-		sub_attack = 1
 		
 		anti_air_attack = 0
 		
@@ -634,7 +640,6 @@ equipments = {
 
 		
 		surface_detection = 20
-		sub_detection = 1
 		surface_visibility = 10
 		naval_speed = 25
 		reliability = 0.80
@@ -737,7 +742,6 @@ equipments = {
 		hg_attack = 0
 		
 		torpedo_attack = 0
-		sub_attack = 1
 		
 		anti_air_attack = 0
 		
@@ -745,7 +749,6 @@ equipments = {
 
 		
 		surface_detection = 25
-		sub_detection = 1
 		surface_visibility = 12.5
 		naval_speed = 25
 		reliability = 0.80
@@ -763,6 +766,105 @@ equipments = {
 		}
 		
 		manpower = 25
+	}
+	
+	motorboat_hull_equipment = {
+		year = 2020
+
+		archetype = motorboat_hull
+		priority = 2000
+		
+		module_slots = inherit
+	}
+	
+	armored_motorboat_hull_equipment = {
+		year = 2020
+		
+		archetype = motorboat_hull
+		parent = motorboat_hull_equipment
+		priority = 2000
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+			rear_1_custom_slot = inherit
+			mid_1_custom_slot = rear_1_custom_slot
+			
+		}
+		
+		default_modules = {
+			fixed_ship_battery_slot = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = empty
+			mid_1_custom_slot = empty
+		}
+		
+		surface_detection = 35
+		surface_visibility = 10
+		naval_speed = 25
+		reliability = 0.80
+		naval_range = 3500
+		max_strength = 45
+		resources = {
+			#oil = 1
+			steel = 3
+		}
+		
+		manpower = 50
+	}
+	
+	torpedo_boat_hull_equipment = {
+		year = 2020
+		archetype = motorboat_hull
+		parent = armored_motorboat_hull_equipment
+		priority = 2000
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+			rear_1_custom_slot = inherit
+			mid_1_custom_slot = rear_1_custom_slot
+			front_1_custom_slot = rear_1_custom_slot
+		}
+		
+		default_modules = {
+			fixed_ship_battery_slot = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_4
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			front_1_custom_slot = empty
+		}
+		
+		surface_detection = 50
+		surface_visibility = 10
+		naval_speed = 25
+		reliability = 0.80
+		
+		naval_range = 5000
+		
+		max_strength = 50
+		resources = {
+			#oil = 1
+			steel = 3
+		}
+		
+		manpower = 50
 	}
 	
 	motorboat_equipment = {
@@ -893,9 +995,9 @@ equipments = {
 		naval_speed = 25
 		reliability = 0.80
 		
-		naval_range = 3500
+		naval_range = 5000
 		
-		max_strength = 45
+		max_strength = 50
 		
 
 		fuel_consumption = 3.5

@@ -1313,6 +1313,84 @@ equipments = {
 		manpower = 300	
 	}
 	
+	heavy_monitor_hull_equipment = {
+		year = 2020
+		
+		archetype = heavy_monitor_hull
+		priority = 2000
+		module_slots = inherit
+	}
+	
+	heavy_monitor_hull_2_equipment = {
+		year = 2020
+		
+		archetype = heavy_monitor_hull
+		parent = heavy_monitor_hull_equipment
+		priority = 2000
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+			front_1_custom_slot = inherit
+			mid_1_custom_slot = inherit
+			mid_2_custom_slot = inherit
+			rear_1_custom_slot = inherit
+			rear_2_custom_slot = rear_1_custom_slot
+		}
+		
+		naval_speed = 15
+		reliability = 0.80
+		
+		max_strength = 500
+		
+		naval_range = 5000
+		build_cost_ic = 480
+		resources = {
+			steel = 1
+			chromium = 2
+		}
+	}
+	
+	heavy_monitor_hull_3_equipment = {
+		year = 2020
+		
+		archetype = heavy_monitor_hull
+		parent = heavy_monitor_2_hull_equipment
+		priority = 2000
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+			front_1_custom_slot = inherit
+			front_2_custom_slot = front_1_custom_slot
+			mid_1_custom_slot = inherit
+			mid_2_custom_slot = inherit
+			rear_1_custom_slot = inherit
+			rear_2_custom_slot = rear_1_custom_slot
+		}
+		
+		naval_speed = 15
+		reliability = 0.80
+
+		max_strength = 450
+		
+		fuel_consumption = 20
+		
+		build_cost_ic = 600
+		resources = {
+			steel = 1
+			chromium = 2
+		}
+	}
+	
 	heavy_monitor_1_equipment = {
 		year = 1922
 		archetype = heavy_monitor_hull
@@ -1444,7 +1522,7 @@ equipments = {
 		naval_speed = 15
 		reliability = 0.80
 
-		naval_range = 5000
+		naval_range = 7500
 		
 		max_strength = 350
 		

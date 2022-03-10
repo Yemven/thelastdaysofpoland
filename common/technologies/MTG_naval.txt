@@ -1,21 +1,25 @@
 technologies = {
 	kayak_hull = {
 		enable_equipments = {
-			kayak_equipment
+			kayak_hull_equipment
 		}
-		
+		enable_equipment_modules = {
+			light_ship_engine_1
+			cruiser_ship_engine_1
+			heavy_ship_engine_1
+		}
 		path = {
-			leads_to_tech = motorboat
+			leads_to_tech = motorboat_hull
 			research_cost_coeff = 1
 		}
 		
 		path = {
-			leads_to_tech = monitor_1
+			leads_to_tech = monitor_hull
 			research_cost_coeff = 1
 		}
 		
 		path = {
-			leads_to_tech = heavy_monitor_1
+			leads_to_tech = heavy_monitor_hull_1
 			research_cost_coeff = 1
 		}
 		research_cost = 1
@@ -29,13 +33,17 @@ technologies = {
 		}
 	}
 	
-	motorboat = {
+	motorboat_hull = {
 		enable_equipments = {
-			motorboat_equipment
+			motorboat_hull_equipment
+		}
+		
+		enable_equipment_modules = {
+			light_ship_engine_2
 		}
 		
 		path = {
-			leads_to_tech = armored_motorboat
+			leads_to_tech = armored_motorboat_hull
 			research_cost_coeff = 1
 		}
 		
@@ -46,17 +54,20 @@ technologies = {
 		}
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -4 y = 7 }
+			position = { x = -2 y = 7 }
 		}
 	}
 	
-	armored_motorboat = {
+	armored_motorboat_hull = {
 		enable_equipments = {
-			armored_motorboat_equipment
+			armored_motorboat_hull_equipment
 		}
 		
+		enable_equipment_modules = {
+			light_ship_engine_3
+		}
 		path = {
-			leads_to_tech = torpedo_boat
+			leads_to_tech = torpedo_boat_hull
 			research_cost_coeff = 1
 		}
 		
@@ -67,13 +78,17 @@ technologies = {
 		}
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -4 y = 13 }
+			position = { x = -2 y = 13 }
 		}
 	}
 	
-	torpedo_boat = {
+	torpedo_boat_hull = {
 		enable_equipments = {
-			torpedo_boat_equipment
+			torpedo_boat_hull_equipment
+		}
+		
+		enable_equipment_modules = {
+			light_ship_engine_4
 		}
 		
 		research_cost = 1
@@ -83,22 +98,25 @@ technologies = {
 		}
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -4 y = 19 }
+			position = { x = -2 y = 19 }
 		}
 	}
 	
-	monitor_1 = {
+	monitor_hull = {
 		enable_equipments = {
-			monitor_1_equipment
+			monitor_hull_equipment
 		}
-		
+		enable_equipment_modules = {
+			cruiser_ship_engine_2
+			ship_armor_cruiser_1
+		}
 		path = {
-			leads_to_tech = monitor_2
+			leads_to_tech = monitor_hull_2
 			research_cost_coeff = 1
 		}
 		
 		path = {
-			leads_to_tech = attack_monitor_1
+			leads_to_tech = monitor_armor_2
 			research_cost_coeff = 0.75
 		}
 		
@@ -113,26 +131,15 @@ technologies = {
 		}
 	}
 	
-	attack_monitor_1 = {
-		enable_equipments = {
-			attack_monitor_1_equipment
-		}
+	monitor_armor_2 = {
 		
 		path = {
-			leads_to_tech = attack_monitor_2
+			leads_to_tech = monitor_armor_3
 			research_cost_coeff = 1
 		}
-		
-		path = {
-			leads_to_tech = monitor_1
-			research_cost_coeff = 0.75
+		enable_equipment_modules = {
+			ship_armor_cruiser_2
 		}
-		
-		path = {
-			leads_to_tech = heavy_monitor_1
-			research_cost_coeff = 0.75
-		}
-		
 		research_cost = 1
 		start_year = 2020
 		ai_will_do = {
@@ -144,20 +151,19 @@ technologies = {
 		}
 	}
 	
-	monitor_2 = {
-		enable_equipments = {
-			monitor_2_equipment
-		}
+	monitor_hull_2 = {
 		
+		enable_equipments = {
+			monitor_hull_2_equipment
+		}
+		enable_equipment_modules = {
+			cruiser_ship_engine_3
+		}
 		path = {
-			leads_to_tech = monitor_3
+			leads_to_tech = monitor_hull_3
 			research_cost_coeff = 1
 		}
 		
-		path = {
-			leads_to_tech = attack_monitor_2
-			research_cost_coeff = 0.75
-		}
 		
 		research_cost = 1
 		start_year = 2020
@@ -170,26 +176,15 @@ technologies = {
 		}
 	}
 	
-	attack_monitor_2 = {
-		enable_equipments = {
-			attack_monitor_2_equipment
-		}
+	monitor_armor_3 = {
 		
 		path = {
-			leads_to_tech = attack_monitor_3
+			leads_to_tech = monitor_armor_4
 			research_cost_coeff = 1
 		}
-		
-		path = {
-			leads_to_tech = monitor_2
-			research_cost_coeff = 0.75
+		enable_equipment_modules = {
+			ship_armor_cruiser_3
 		}
-		
-		path = {
-			leads_to_tech = heavy_monitor_2
-			research_cost_coeff = 0.75
-		}
-		
 		research_cost = 1
 		start_year = 2020
 		ai_will_do = {
@@ -201,14 +196,13 @@ technologies = {
 		}
 	}
 	
-	monitor_3 = {
-		enable_equipments = {
-			monitor_3_equipment
-		}
+	monitor_hull_3 = {
 		
-		path = {
-			leads_to_tech = attack_monitor_3
-			research_cost_coeff = 0.75
+		enable_equipments = {
+			monitor_hull_3_equipment
+		}
+		enable_equipment_modules = {
+			cruiser_ship_engine_4
 		}
 		
 		research_cost = 1
@@ -222,21 +216,10 @@ technologies = {
 		}
 	}
 	
-	attack_monitor_3 = {
-		enable_equipments = {
-			attack_monitor_3_equipment
+	monitor_armor_4 = {
+		enable_equipment_modules = {
+			ship_armor_cruiser_4
 		}
-		
-		path = {
-			leads_to_tech = monitor_3
-			research_cost_coeff = 0.75
-		}
-		
-		path = {
-			leads_to_tech = heavy_monitor_3
-			research_cost_coeff = 0.75
-		}
-		
 		research_cost = 1
 		start_year = 2020
 		ai_will_do = {
@@ -248,18 +231,20 @@ technologies = {
 		}
 	}
 	
-	heavy_monitor_1 = {
+	heavy_monitor_hull_1 = {
 		enable_equipments = {
-			heavy_monitor_1_equipment
+			heavy_monitor_hull_equipment
 		}
-		
+		enable_equipment_modules = {
+			ship_armor_bb_1
+		}
 		path = {
-			leads_to_tech = heavy_monitor_2
+			leads_to_tech = heavy_monitor_hull_2
 			research_cost_coeff = 1
 		}
 		
 		path = {
-			leads_to_tech = attack_monitor_1
+			leads_to_tech = heavy_monitor_armor_2
 			research_cost_coeff = 0.75
 		}
 		
@@ -274,20 +259,16 @@ technologies = {
 		}
 	}
 	
-	heavy_monitor_2 = {
+	heavy_monitor_hull_2 = {
 		enable_equipments = {
-			heavy_monitor_2_equipment
+			heavy_monitor_hull_2_equipment
 		}
 		
 		path = {
-			leads_to_tech = heavy_monitor_3
+			leads_to_tech = heavy_monitor_hull_3
 			research_cost_coeff = 1
 		}
 		
-		path = {
-			leads_to_tech = attack_monitor_2
-			research_cost_coeff = 0.75
-		}
 		
 		research_cost = 1
 		start_year = 2020
@@ -300,14 +281,9 @@ technologies = {
 		}
 	}
 	
-	heavy_monitor_3 = {
+	heavy_monitor_hull_3 = {
 		enable_equipments = {
-			heavy_monitor_3_equipment
-		}
-		
-		path = {
-			leads_to_tech = attack_monitor_3
-			research_cost_coeff = 0.75
+			heavy_monitor_hull_3_equipment
 		}
 		
 		research_cost = 1
@@ -318,6 +294,264 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 4 y = 19 }
+		}
+	}
+	
+	heavy_monitor_armor_2 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_armor_bb_2
+		}
+		path = {
+			leads_to_tech = heavy_monitor_armor_3
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 6 y = 7 }
+		}
+	}
+	
+	heavy_monitor_armor_3 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_armor_bb_3
+		}
+		path = {
+			leads_to_tech = heavy_monitor_armor_4
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 6 y = 13 }
+		}
+	}
+	
+	heavy_monitor_armor_4 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_armor_shbb
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 6 y = 19 }
+		}
+	}
+	
+	
+	early_gunnery = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_light_battery_1
+			ship_light_medium_battery_1
+			ship_medium_battery_1
+			ship_heavy_battery_1
+		}
+		path = {
+			leads_to_tech = light_guns_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = medium_guns_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavy_guns_2
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 1 }
+		}
+	}
+	
+	light_guns_2 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_light_battery_2
+		}
+		
+		path = {
+			leads_to_tech = light_guns_3
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 7 }
+		}
+	}
+	
+	light_guns_3 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_light_battery_3
+		}
+		
+		path = {
+			leads_to_tech = light_guns_4
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 13 }
+		}
+	}
+	
+	light_guns_4 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_light_battery_4
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 19 }
+		}
+	}
+	
+	heavy_guns_2 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_heavy_battery_2
+		}
+		
+		path = {
+			leads_to_tech = heavy_guns_3
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 7 }
+		}
+	}
+	
+	heavy_guns_3 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_heavy_battery_3
+		}
+		
+		path = {
+			leads_to_tech = heavy_guns_4
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 13 }
+		}
+	}
+	
+	heavy_guns_4 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_heavy_battery_4
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 19 }
+		}
+	}
+	
+	medium_guns_2 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_light_medium_battery_2
+			ship_medium_battery_2
+		}
+		
+		path = {
+			leads_to_tech = medium_guns_3
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 7 }
+		}
+	}
+	
+	medium_guns_3 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_light_medium_battery_3
+			ship_medium_battery_3
+		}
+		
+		path = {
+			leads_to_tech = medium_guns_4
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 13 }
+		}
+	}
+	
+	medium_guns_4 = {
+		research_cost = 1
+		start_year = 2020
+		enable_equipment_modules = {
+			ship_light_medium_battery_4
+			ship_medium_battery_4
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 19 }
 		}
 	}
 	

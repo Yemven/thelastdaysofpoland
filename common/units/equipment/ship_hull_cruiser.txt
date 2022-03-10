@@ -1259,6 +1259,75 @@ equipments = {
 		manpower = 100
 	}
 	
+	monitor_hull_equipment = {
+		year = 2020
+		
+		archetype = monitor_hull
+		priority = 2000
+		module_slots = inherit
+	}
+	
+	monitor_hull_2_equipment = {
+		
+		year = 2020
+		archetype = monitor_hull
+		priority = 2000
+		parent = monitor_hull_equipment
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_light_battery
+					ship_medium_battery
+					ship_anti_air
+				}
+			}
+			mid_1_custom_slot = inherit
+			rear_1_custom_slot = inherit
+		}
+		max_strength = 120
+		naval_speed = 20
+		naval_range = 3000
+		reliability = 0.8
+		build_cost_ic = 150
+		resources = {
+			#oil = 1
+			steel = 2
+		}
+	}
+	
+	monitor_hull_3_equipment = {
+		year = 2020
+		archetype = monitor_hull
+		priority = 2000
+		parent = monitor_hull_2_equipment
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			front_1_custom_slot = inherit			
+			mid_1_custom_slot = inherit
+			mid_2_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = inherit
+		}
+		max_strength = 130
+		naval_speed = 20
+		naval_range = 4000
+		reliability = 0.8
+		build_cost_ic = 180
+		resources = {
+			#oil = 1
+			steel = 3
+		}
+	}
+	
 	monitor_1_equipment = {
 		year = 2020
 		visual_level = 0
@@ -1346,6 +1415,7 @@ equipments = {
 
 		naval_range = 3000
 		
+		max_strength = 120
 		surface_detection = 30
 		sub_detection = 5
 		surface_visibility = 15
@@ -1397,7 +1467,7 @@ equipments = {
 		armor_value = 7
 
 		naval_range = 4000
-		
+		max_strength = 130
 		surface_detection = 40
 		sub_detection = 5
 		surface_visibility = 15
