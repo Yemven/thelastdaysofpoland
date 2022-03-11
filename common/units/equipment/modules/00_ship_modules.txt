@@ -595,7 +595,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 3
-			build_cost_ic = 180
+			build_cost_ic = 18
 		}
 		
 		multiply_stats = {
@@ -608,7 +608,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_secondaries
-			convert_cost_ic = 100
+			convert_cost_ic = 10
 		}
 		critical_parts = { damaged_secondaries }
 	}
@@ -620,8 +620,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			lg_attack = 4
-			build_cost_ic = 240
+			lg_attack = 4.5
+			build_cost_ic = 29
 		}
 		multiply_stats = {
 			naval_speed = -0.02
@@ -633,7 +633,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_secondaries
-			convert_cost_ic = 120
+			convert_cost_ic = 15
 		}
 		critical_parts = { damaged_secondaries }
 	}
@@ -1541,7 +1541,7 @@ equipment_modules = {
 		
 		add_stats = {
 			torpedo_attack = 18
-			build_cost_ic = 90
+			build_cost_ic = 9
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
@@ -1561,7 +1561,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 27
-			build_cost_ic = 120
+			build_cost_ic = 12
 		}
 		multiply_stats = {
 			naval_speed = -0.01		
@@ -1570,14 +1570,14 @@ equipment_modules = {
 			steel = 0
 		}
 		 
-		dismantle_cost_ic = 60
+		dismantle_cost_ic = 6
 		dismantle_cost_resources = {
 			steel = 0
 		}
 
 		can_convert_from = {
 			module_category = ship_torpedo
-			convert_cost_ic = 60
+			convert_cost_ic = 6
 			convert_cost_resources = {
 				steel = 0
 			}
@@ -1594,16 +1594,16 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 36
-			build_cost_ic = 150
+			build_cost_ic = 15
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
 		}
-		dismantle_cost_ic = 60
+		dismantle_cost_ic = 6
 
 		can_convert_from = {
 			module_category = ship_torpedo
-			convert_cost_ic = 60
+			convert_cost_ic = 6
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -1617,7 +1617,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 45
-			build_cost_ic = 180
+			build_cost_ic = 18
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
@@ -1626,7 +1626,7 @@ equipment_modules = {
 
 		can_convert_from = {
 			module_category = ship_torpedo
-			convert_cost_ic = 60
+			convert_cost_ic = 6
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -1723,7 +1723,7 @@ equipment_modules = {
 		
 		add_stats = {
 			mines_planting = 1
-			build_cost_ic = 90
+			build_cost_ic = 9
 		}
 		multiply_stats = {
 			naval_speed = -0.02			
@@ -1757,7 +1757,7 @@ equipment_modules = {
 		
 		add_stats = {
 			mines_sweeping = 1
-			build_cost_ic = 30
+			build_cost_ic = 3
 		}
 
 		multiply_stats = {
@@ -1912,7 +1912,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 7
 			sub_detection = 2.5
-			build_cost_ic = 150
+			build_cost_ic = 15
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -1926,11 +1926,11 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 10
 			sub_detection = 3.5
-			build_cost_ic = 170
+			build_cost_ic = 17
 		}
 		can_convert_from = {
 			module_category = ship_airplane_launcher
-			convert_cost_ic = 80
+			convert_cost_ic = 8
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -1996,7 +1996,7 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 4
-			build_cost_ic = 40
+			build_cost_ic = 4
 		}
 	}
 
@@ -2008,11 +2008,11 @@ equipment_modules = {
 		parent = ship_sonar_1
 		add_stats = {
 			sub_detection = 7.0
-			build_cost_ic = 60
+			build_cost_ic = 6
 		}
 		can_convert_from = {
 			module_category = ship_sonar
-			convert_cost_ic = 25
+			convert_cost_ic = 2.5
 		}
 	}
  ##  ###  #   #  ##  ###       ##  ##  #  # ### #   # ###  ## 
