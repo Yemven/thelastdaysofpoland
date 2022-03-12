@@ -1,0 +1,158 @@
+ideas = {
+
+	economic_policy = { 
+		law = yes
+		economy_laissez_faire = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		economy_regulated_capitalism = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		economy_authoritarian_capitalism = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		economy_social_market = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			default = yes
+			}
+		economy_corporationism = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		economy_militarism = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		economy_solidarism = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		economy_workers_management = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		economy_central_planning = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+	
+	}
+	taxes = {
+		law = yes
+		taxes_none = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		taxes_minimal = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		taxes_low = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		taxes_medium = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		taxes_high = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			default = yes
+			}
+		taxes_inhuman = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+	}
+	
+	trade_law = {
+		law = yes
+		trade_free = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		trade_promoted = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		trade_regulated = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			default = yes
+			}
+		trade_minimal = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		trade_none = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+	
+	}
+}

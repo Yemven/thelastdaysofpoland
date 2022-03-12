@@ -1,0 +1,73 @@
+characters={
+	NHT_triumwirat={
+		name="Triumwirat"
+		portraits={
+			civilian={
+				large="gfx/leaders/NHT/NHT_Triumwirat1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NHT_franciszek_smuda={
+		name="Franciszek Smuda"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=freemarketism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NHT_michał_probierz={
+		name="Michał Probierz"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=squattism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NHT_małgorzata_wassermann={
+		name="Małgorzata Wassermann"
+		portraits={
+			civilian={
+				large="gfx/leaders/NHT/NHT_Wassermann1.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NHT_krak_iii={
+		name="Krak III"
+		portraits={
+			civilian={
+				large="gfx/leaders/NHT/NHT_Triumwirat1.dds"
+			}
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

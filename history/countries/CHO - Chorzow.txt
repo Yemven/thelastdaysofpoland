@@ -1,0 +1,42 @@
+﻿capital = 475
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = CHO_jerzy_gorzelik
+
+set_convoys = 20
+
+create_faction = "Silesian League"
+add_to_faction = RAS
+add_to_faction = RUD
+add_to_faction = TRC
+add_to_faction = FER
+add_to_faction = GLI
+add_to_faction = KAT
+add_to_faction = JSW
+
+
+set_politics = {
+	ruling_party = euroliberalism
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 0
+	squattism = 0
+	socialdemocrature = 30
+	euroliberalism = 57
+	freemarketism = 0
+	paternal_conservatism = 13
+	autocracy = 0
+	corporativism = 0
+	neonationalism = 0
+	reactionary = 0
+	postpolonism = 0
+}
+

@@ -1,0 +1,164 @@
+ideas = {
+	lgbt_status = {
+		law = yes
+		lgbt_illegal_punished = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		lgbt_illegal_tolerated = { 			
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		lgbt_limited_laws = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			default = yes
+		}
+		lgbt_equal_laws = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		lgbt_encouraged = { 
+			default = yes
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 	
+		}
+	}
+	
+	drugs_status = {
+		law = yes
+		drugs_all_penalised = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			default = yes
+			}
+		drugs_harsh_penalised = { 			
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		drugs_illegal_unenforced = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		drugs_decriminalised = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		drugs_allowed = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 	
+		}
+	}
+	
+	women_status = {
+		law = yes
+		women_men_nation = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		women_traditional_roles = { 			
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		women_working_women = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		women_gender_equality = { 
+			available = { always = no }
+			default = yes
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		women_feminism_policy = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 	
+		}
+	}
+	
+	minorities_status = {
+		law = yes
+		minorities_ethnic_purity = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+			}
+		minorities_system_oppresion = { 			
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		minorities_hidden_oppresion = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		minorities_equal_rights = { 
+			available = { always = no }
+			default = yes
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 
+		}
+		minorities_multiculturalism = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no 	
+		}
+	}
+}
+
+

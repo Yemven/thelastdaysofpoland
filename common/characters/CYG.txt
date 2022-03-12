@@ -1,0 +1,54 @@
+characters={
+	CYG_naczelny_tabor={
+		name="Naczelny Tabor"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYG/CYG_Tabor.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYG_don_vasyl={
+		name="Don Vasyl"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYG/CYG_DonVasyl.dds"
+			}
+		}
+		country_leader={
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYG_zarząd_kghm={
+		name="Zarząd KGHM"
+		portraits={
+			civilian={
+				large="gfx/leaders/KGH/KGH_Zarzad.dds"
+			}
+		}
+		country_leader={
+			ideology=corporativism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CYG_cygan_prime={
+		name="Cygan Prime"
+		portraits={
+			civilian={
+				large="gfx/leaders/CYG/CYG_Cygan.dds"
+			}
+		}
+		country_leader={
+			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

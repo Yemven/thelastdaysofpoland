@@ -1,0 +1,15 @@
+characters={
+	SCZ_town_council={
+		name="Town Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCZ/SCZ_Rada.dds"
+			}
+		}
+		country_leader={
+			ideology=freemarketism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

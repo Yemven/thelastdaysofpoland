@@ -1,0 +1,35 @@
+﻿capital = 549
+
+recruit_character = AUT_sebastian_kurz
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+
+
+set_politics = {
+	ruling_party = paternal_conservatism
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 0
+	squattism = 4
+	socialdemocrature = 27
+	euroliberalism = 0
+	freemarketism = 5
+	paternal_conservatism = 38
+	autocracy = 0
+	corporativism = 0
+	neonationalism = 26
+	reactionary = 0
+	postpolonism = 0
+}
+

@@ -1,0 +1,35 @@
+characters={
+	JAS_aleksander_jabłonowski={
+		name="Aleksander Jabłonowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAS/JAS_Jablonowski1.dds"
+			}
+		}
+		country_leader={
+			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}		
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		
+	}
+	JAS_maciej_poręba={
+		name="Maciej Poręba"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAS/JAS_Poreba1.dds"
+			}
+		}
+		country_leader={
+			ideology=paternal_conservatism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+}

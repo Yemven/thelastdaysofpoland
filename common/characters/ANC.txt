@@ -1,0 +1,28 @@
+characters={
+	ANC_anarchy={
+		name="Anarchy"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANC/ANC_Anarchia.dds"
+			}
+		}
+		country_leader={
+			ideology=squattism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ANC_wojtek={
+		name="Wojtek"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANC/ANC_Wojtek.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism_cranism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

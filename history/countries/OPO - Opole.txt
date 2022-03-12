@@ -1,0 +1,34 @@
+﻿capital = 428
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+recruit_character = OPO_paweł_kukiz
+recruit_character = OPO_janusz_kowalski
+recruit_character = OPO_kowalski.exe
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 0
+	squattism = 0
+	socialdemocrature = 0
+	euroliberalism = 26
+	freemarketism = 0
+	paternal_conservatism = 18
+	autocracy = 47
+	corporativism = 0
+	neonationalism = 9
+	reactionary = 0
+	postpolonism = 0
+}

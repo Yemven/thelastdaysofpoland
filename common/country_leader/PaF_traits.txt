@@ -1,0 +1,126 @@
+leader_traits = {
+	head_of_government = {
+		random = no
+	}
+	minister_of_war = {
+		random = no
+	}
+	minister_of_economy = {
+		random = no
+	}
+	interior_minister = {
+		random = no
+	}
+	master_of_rethorics = {
+		random = no
+		research_speed_factor = 0.05
+		political_power_gain = 0.1
+	}
+	ruthless_player = {
+		random = no
+		army_defence_factor = 0.05
+		army_attack_factor = 0.05
+		non_core_manpower = -0.02
+	}
+	automobile_supremacist = {
+		random = no
+		production_speed_infrastructure_factor = 0.15
+		production_speed_industrial_complex_factor = 0.05
+	}
+	pragmatic_organiser = {
+		random = no
+		local_resources_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.15
+	}
+	shadow_man = {
+		random = no
+		decryption_power = 10
+		agency_upgrade_time = -0.1
+	}
+	archmage = {
+		random = no
+		research_speed_factor = 0.07
+	}
+	architect = {
+		random = no
+		production_speed_infrastructure_factor = 0.05
+		production_speed_industrial_complex_factor = 0.15
+	}
+	inspiring_warrior = {
+		random = no
+		army_org_factor = 0.1
+		army_attack_factor = 0.05
+	}
+	inquisitor = {
+		random = no
+		party_popularity_stability_factor = 0.1
+		resistance_growth = -0.1
+		intelligence_agency_defense = 0.1
+	}
+	central_planner = {
+		random = no
+		production_speed_buildings_factor = 0.05
+		consumer_goods_use_modifier = 0.125
+	}
+	industrial_chemist = {
+		random = no
+		base_fuel_gain_factor = 0.1
+	}
+	athlete = {
+		random = no
+		training_time_factor = -0.2
+	}
+	pedagogue = {
+		random = no
+		stability_factor = 0.05
+		research_speed_factor = 0.02
+	}
+	urban_activist = {
+		random = no
+		industry_repair_factor = 0.15
+	}
+	shrewd_financier = {
+		random = no
+		local_resources_factor = -0.05
+		consumer_goods_use_modifier = -0.1
+	}
+	sailing_instructor = {
+		random = no
+		land_reinforce_rate = 0.05
+		naval_coordination = 0.1
+	}
+	media_personality = {
+		random = no
+		stability_factor = 0.1
+		political_power_gain = 0.05
+	}
+	propagandist = {
+		stability_factor = 0.15
+		non_core_manpower = 0.02
+	}
+	innovative_economist = {
+		research_speed_factor = 0.04
+		industrial_capacity_factory = 0.1
+	}
+	parachuter = {
+		air_paradrop_attack_factor = 0.05
+		air_paradrop_defence_factor = 0.05
+	}
+	hacker = {
+		decryption_factor = 0.05
+		encryption_factor = 0.05
+	}
+	manager = { 
+		stability_factor = 0.15
+	}
+	mad_scientist = { 
+		fuel_gain_factor_from_states = 0.1
+		production_oil_factor = 0.2
+	}
+	private_detective = { 
+		intelligence_agency_defense = 0.2
+	}
+	persecutor = { 
+		resistance_growth = -0.25
+	}
+}

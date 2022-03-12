@@ -1,0 +1,28 @@
+characters={
+	RYB_andrzej_gałecki={
+		name="Andrzej Gałecki"
+		portraits={
+			civilian={
+				large="gfx/leaders/RYB/RYB_Galecki.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism_cranism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RYB_sum_yat_sen={
+		name="Sum Yat-Sen"
+		portraits={
+			civilian={
+				large="gfx/leaders/RYB/RYB_sum.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="2053.3.1.12"
+			id=-1
+		}
+	}
+}

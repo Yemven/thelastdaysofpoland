@@ -1,0 +1,15 @@
+characters={
+	WIN_council_of_wine={
+		name="Council of Wine"
+		portraits={
+			civilian={
+				large="gfx/leaders/WIN/WIN_Council1.dds"
+			}
+		}
+		country_leader={
+			ideology=freemarketism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

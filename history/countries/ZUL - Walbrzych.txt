@@ -1,0 +1,36 @@
+﻿capital = 414
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+recruit_character = ZUL_piston
+recruit_character = ZUL_stanisław_Żółtek
+recruit_character = ZUL_janusz_rewiński
+recruit_character = ZUL_chuck_norris
+
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 0
+	squattism = 0
+	socialdemocrature = 9
+	euroliberalism = 0
+	freemarketism = 13
+	paternal_conservatism = 0
+	autocracy = 67
+	corporativism = 0
+	neonationalism = 11
+	reactionary = 0
+	postpolonism = 0
+}
+
