@@ -1,21 +1,28 @@
+
 state={
 	id=604
 	name="STATE_604"
-	provinces={
-		995 1934 12720
-12721
-12736
-	}
-	manpower = 19250  state_category = large_town
-	buildings_max_level_factor=1.000
-		history={
+
+	history={
 		owner = CZE
-		victory_points = { 995 30 }
+		victory_points = {
+			995 30 
+		}
 		add_core_of = CZE
-	buildings = {
-	infrastructure = 7
-	industrial_complex = 3
-	arms_factory = 1
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+
 	}
-}
+
+	provinces={
+		12736 12751 12752 12753 
+	}
+	manpower=19250
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

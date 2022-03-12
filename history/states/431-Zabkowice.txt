@@ -2,36 +2,27 @@
 state={
 	id=431
 	name="STATE_431"
-	provinces={
-		439 1362 1865 1946 2535 3963 12705
-12706
-12707
-12708
-12709
-12710
-12711
-12712
-12713
-12714
-12715
-12716
-12717
-12718
-12719
-12816
-12877
 
-	}
-	manpower = 64873   state_category = town
-	buildings_max_level_factor=1.000
 	history={
 		owner = CZE
-		victory_points = { 1362 15 }
+		victory_points = {
+			1362 15 
+		}
 		add_core_of = CZE
-	buildings = {
-	infrastructure = 6
-	industrial_complex = 1
-	arms_factory = 0
-}
-}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+
+		}
+
+	}
+
+	provinces={
+		439 1362 1865 1934 1946 2535 3963 12705 12706 12707 12708 12709 12710 12711 12712 12713 12714 12715 12716 12717 12718 12719 12816 12877 
+	}
+	manpower=64873
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
