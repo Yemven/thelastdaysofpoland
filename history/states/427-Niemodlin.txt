@@ -2,38 +2,22 @@
 state={
 	id=427
 	name="STATE_427"
-
-	history={
+	provinces={
+		2412 2791 3072 3425 2689 9353 9354 9355 9356 9357 9358 9359 9360 9361 9362 9363 9364 9365 9366 9367 9368 9369 9370 9371 9372 9373 9374
+	}
+	manpower = 37547   state_category = town
+	buildings_max_level_factor=1.000
+			history = {
 		owner = LCH
-		victory_points = {
-			2412 3 
-		}
-		victory_points = {
-			2791 3 
-		}
-		victory_points = {
-			3072 1 
-		}
-		victory_points = {
-			3425 3 
-		}
-		victory_points = {
-			2689 1 
-		}
+		victory_points = { 2412 3 }
+		victory_points = { 2791 3 }
+		victory_points = { 3072 1 }
+		victory_points = { 3425 3 }
+		victory_points = { 2689 1 }
 		add_core_of = LCH
 		buildings = {
-			infrastructure = 5
-			air_base = 2
-
+		infrastructure = 5 
+		air_base = 2 
 		}
-
-	}
-
-	provinces={
-		1916 2412 2689 2791 3072 3425 9338 9340 9342 9353 9354 9355 9356 9357 9358 9359 9360 9361 9362 9363 9364 9365 9366 9367 9368 9369 9370 9371 9372 9373 9374 
-	}
-	manpower=37547
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+}
 }
