@@ -1,18 +1,18 @@
 characters={
-	ZUL_piston={
-		name="Piston"
+	ZUL_szelemej={
+		name="Roman Szełemej"
 		portraits={
 			civilian={
-				large="gfx/leaders/ZUL/ZUL_Piston.dds"
+				large="gfx/leaders/ZUL/ZUL_Szelemej.dds"
 			}
 		}
 		country_leader={
-			ideology=autocracy_subtype
+			ideology=euroliberalism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ZUL_stanisław_Żółtek={
+	ZUL_zoltek={
 		name="Stanisław Żółtek"
 		portraits={
 			civilian={
@@ -25,7 +25,7 @@ characters={
 			id=-1
 		}
 	}
-	ZUL_janusz_rewiński={
+	ZUL_rewinski={
 		name="Janusz Rewiński"
 		portraits={
 			civilian={
@@ -38,18 +38,4 @@ characters={
 			id=-1
 		}
 	}
-	ZUL_chuck_norris={
-		name="Chuck Norris"
-		portraits={
-			civilian={
-				large="gfx/leaders/ZUL/ZUL_Norris.dds"
-			}
-		}
-		country_leader={
-			ideology=neonationalism_subtype
-			expire="1.1.1.1"
-			id=-1
-		}
-	}
-
 }
