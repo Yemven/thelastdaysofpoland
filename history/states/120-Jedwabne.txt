@@ -1,21 +1,28 @@
+
 state={
-        id=120
-        name="STATE_120"
-        provinces={
-                2047 2901 3624 3635 9958 9959 9960 9961 9962 9963 9964 9965 9966 9967 9968 9969 9970 9971 9972 9973 9974 9975 9976 9977 9978 9979 9980 9981 9982 9983 9984 9985 9986 9987
-        }
-        manpower = 11705   state_category = rural
-        buildings_max_level_factor=1.000
-			history={
+	id=120
+	name="STATE_120"
+
+	history={
 		owner = LMZ
 		victory_points = {
 
 		}
 		add_core_of = LMZ
-buildings = {
-                infrastructure = 4
-industrial_complex = 0
-                arms_factory = 0
-}
-}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+
+		}
+
+	}
+
+	provinces={
+		1914 2047 2901 3624 3635 9910 9950 9951 9952 9953 9954 9955 9956 9957 9958 9959 9960 9961 9962 9963 9964 9965 9966 9967 9968 9969 9970 9971 9972 9973 9974 9975 9976 9977 9978 9979 9980 9981 9982 9983 9984 9985 9986 9987 
+	}
+	manpower=21705
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

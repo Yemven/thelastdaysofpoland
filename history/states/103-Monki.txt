@@ -1,21 +1,28 @@
+
 state={
-        id=103
-        name="STATE_103"
-        provinces={
-                929 1222 2592 2687 3101 3206 3615 3633 10172 10173 10174 10175 10176 10177 10178 10179 10180 10181 10182 10183 10184 10185 10186 10187 10188 10189 10190 10191 10192 10193 10194 10195 10196 10197 10198 10199 10200 10201 10202 10203 10204 10205 10206 10207 10208 10209 10210 10211 10212 10213 10214 10215 10216 10217 10218 10219 10220 10221 10222 10223 10224 10225 10226 10227 10228 10229 10230 10231 10232 10233
-        }
-        manpower = 29558   state_category = town
-        buildings_max_level_factor=1.000
-					history={
+	id=103
+	name="STATE_103"
+
+	history={
 		owner = OSO
 		victory_points = {
 
 		}
 		add_core_of = OSO
-buildings = {
-                infrastructure = 5 
-industrial_complex = 1
-                arms_factory = 0
-}
-}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+
+		}
+
+	}
+
+	provinces={
+		2562 3615 3633 10184 10195 10202 10203 10205 10210 10211 10212 10214 10215 10216 10217 10218 10219 10224 10225 10226 10227 10228 10229 10230 10231 10232 10233 11712 11714 
+	}
+	manpower=19558
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

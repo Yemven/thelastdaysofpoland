@@ -1,21 +1,28 @@
+
 state={
-        id=97
-        name="STATE_97"
-        provinces={
-                2349 10143 10144 10145 10146 10147 10148 10149 10150 10151 10152 10153 10154 10155 10156 10157 10158 10159 10160 10161 10162 10163 10164 10165 10166 10167 10168 10169 10170 10171
-        }
-        manpower = 5332   state_category = rural
-        buildings_max_level_factor=1.000
-					history={
+	id=97
+	name="STATE_97"
+
+	history={
 		owner = RAJ
 		victory_points = {
 
 		}
 		add_core_of = RAJ
-buildings = {
-                infrastructure = 3 
-industrial_complex = 0
-                arms_factory = 0
-}
-}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+
+		}
+
+	}
+
+	provinces={
+		2349 10143 10144 10145 10146 10147 10152 10156 10157 10158 10159 10160 10161 10162 10163 10164 10165 10166 10167 10168 10169 10170 10171 
+	}
+	manpower=4432
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
