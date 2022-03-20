@@ -1,5 +1,5 @@
 characters={
-	JSW_interim_government_of_jastrzębiezdrój={
+	JSW_interim={
 		name="Interim Government of Jastrzębie-Zdrój"
 		portraits={
 			civilian={
@@ -30,12 +30,94 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/JSW/JSW_Duda.dds"
+				small="gfx/interface/ideas/JSW/JSW_duda.dds"
 			}
 		}
 		country_leader={
 			ideology=socialdemocrature_subtype
 			expire="1.1.1.1"
 			id=-1
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = JSW_min_duda
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JSW
+			}
+			traits = {  }
+		}
+	}
+	JSW_cudny={
+		name="Tomasz Cudny"
+		portraits={
+			civilian={
+				large="gfx/leaders/JSW/JSW_Cudny.dds"
+				small="gfx/interface/ideas/JSW/JSW_cudny.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = JSW_min_cudny
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JSW
+			}
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	JSW_rafal_wos={
+		name="Rafał Woś"
+		portraits={
+			civilian={ small="gfx/interface/ideas/JSW/JSW_rafal_wos.dds"
+				large="gfx/leaders/JSW/JSW_Rafal_Wos.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = JSW_min_rafal_wos
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JSW
+			}
+			traits = {  }
+		}
+	}
+	JSW_michal_wos={
+		name="Michał Woś"
+		portraits={
+			civilian={ small="gfx/interface/ideas/JSW/JSW_michal_wos.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = JSW_min_michal_wos
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JSW
+			}
+			traits = {  }
 		}
 	}
 }

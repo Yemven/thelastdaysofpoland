@@ -3,6 +3,7 @@ characters={
 		name="Antifascist Council"
 		portraits={
 			civilian={
+				small = "gfx/interface/ideas/JAW/JAW_rada.dds"
 				large="gfx/leaders/JAW/JAW_Council.dds"
 			}
 		}
@@ -10,6 +11,79 @@ characters={
 			ideology=squattism_subtype
 			expire="1.1.1.1"
 			id=-1
+		}
+	    advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = JAW_min_rada
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JAW
+			}
+			traits = { }
+		}
+	}
+	JAW_gosekpopiolek={
+		name="Daria Gosek-Popiołek"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/JAW/JAW_gosekpopiolek.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = JAW_min_gosekpopiolek
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JAW
+			}
+			traits = { }
+		}
+	}
+	JAW_gdula={
+		name="Maciej Gdula"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/JAW/JAW_gdula.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = JAW_min_gdula
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JAW
+			}
+			traits = { }
+		}
+	}
+	JAW_konieczny={
+		name="Maciej Konieczny"
+		portraits=
+		{ civilian = { large="gfx/leaders/JAW/JAW_Konieczny.dds"
+		small = "gfx/interface/ideas/JAW/JAW_konieczny.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = JAW_min_konieczny
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JAW
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 }

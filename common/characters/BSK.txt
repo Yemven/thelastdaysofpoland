@@ -12,4 +12,93 @@ characters={
 			id=-1
 		}
 	}
+	BSK_szwed={
+		name="Stanisław Szwed"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/BSK/BSK_szwed.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BSK_min_szwed
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BSK
+			}
+			traits = { }
+		}
+	}
+	BSK_pgolec={
+		name="Paweł Golec"
+		portraits=
+		{ civilian = {
+		large="gfx/leaders/BSK/BSK_PGolec.dds"
+		small = "gfx/interface/ideas/BSK/BSK_pgolec.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BSK_min_pgolec
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BSK
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	BSK_drabek={
+		name="Przemysław Drabek"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/BSK/BSK_drabek.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BSK_min_drabek
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BSK
+			}
+			traits = { }
+		}
+	}
+	BSK_lgolec={
+		name="Łukasz Golec"
+		portraits=
+		{ civilian = { large="gfx/leaders/BSK/BSK_LGolec.dds"
+		small = "gfx/interface/ideas/BSK/BSK_lgolec.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BSK_min_lgolec
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BSK
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
 }
