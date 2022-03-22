@@ -1,0 +1,554 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = zuk_focus
+	initial_show_position = { focus = ZUK_the_mayor_in_exile }
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ZUK
+		}
+	}
+	deafult = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = ZUK_the_mayor_in_exile
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 0
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_a_reunited_council
+		relative_position_id = ZUK_the_mayor_in_exile
+		prerequisite = { focus = ZUK_the_mayor_in_exile }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_overview_of_the_economy
+		relative_position_id = ZUK_a_reunited_council
+		prerequisite = { focus = ZUK_a_reunited_council }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -5
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_consolidation_of_our_resources
+		relative_position_id = ZUK_overview_of_the_economy
+		prerequisite = { focus = ZUK_overview_of_the_economy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_repurpose_concrete_factories
+		relative_position_id = ZUK_consolidation_of_our_resources
+		prerequisite = { focus = ZUK_consolidation_of_our_resources }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_improve_local_infrastructure
+		relative_position_id = ZUK_repurpose_concrete_factories
+		prerequisite = { focus = ZUK_repurpose_concrete_factories }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_the_fugitives_donations
+		relative_position_id = ZUK_consolidation_of_our_resources
+		prerequisite = { focus = ZUK_consolidation_of_our_resources }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_provisional_weapon_factories
+		relative_position_id = ZUK_the_fugitives_donations
+		prerequisite = { focus = ZUK_the_fugitives_donations }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_improved_living_conditions
+		relative_position_id = ZUK_consolidation_of_our_resources
+		prerequisite = { focus = ZUK_improve_local_infrastructure }
+		prerequisite = { focus = ZUK_provisional_weapon_factories }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 3
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_trade_with_bilgoraj_conglomerate
+		relative_position_id = ZUK_improved_living_conditions
+		prerequisite = { focus = ZUK_improved_living_conditions }
+		mutually_exclusive = { focus = ZUK_trade_with_the_ukrainians }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_trade_with_the_ukrainians
+		relative_position_id = ZUK_improved_living_conditions
+		prerequisite = { focus = ZUK_improved_living_conditions }
+		mutually_exclusive = { focus = ZUK_trade_with_bilgoraj_conglomerate }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_new_lublian_army
+		relative_position_id = ZUK_a_reunited_council
+		prerequisite = { focus = ZUK_the_fugitives_donations }
+		prerequisite = { focus = ZUK_radio_free_lublin }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 4
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_lublinian_volunteers
+		relative_position_id = ZUK_new_lublian_army
+		prerequisite = { focus = ZUK_new_lublian_army }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_encourage_local_conscription
+		relative_position_id = ZUK_new_lublian_army
+		prerequisite = { focus = ZUK_new_lublian_army }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_the_goat_division
+		relative_position_id = ZUK_new_lublian_army
+		prerequisite = { focus = ZUK_lublinian_volunteers }
+		prerequisite = { focus = ZUK_encourage_local_conscription }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_revival_of_lublinian_spirit
+		relative_position_id = ZUK_a_reunited_council
+		prerequisite = { focus = ZUK_a_reunited_council }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 5
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_rally_the_people
+		relative_position_id = ZUK_revival_of_lublinian_spirit
+		prerequisite = { focus = ZUK_revival_of_lublinian_spirit }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_radio_free_lublin
+		relative_position_id = ZUK_rally_the_people
+		prerequisite = { focus = ZUK_rally_the_people }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_safe_haven_for_refugees
+		relative_position_id = ZUK_radio_free_lublin
+		prerequisite = { focus = ZUK_radio_free_lublin }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_reassure_local_population
+		relative_position_id = ZUK_rally_the_people
+		prerequisite = { focus = ZUK_rally_the_people }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_promise_local_elections
+		relative_position_id = ZUK_reassure_local_population
+		prerequisite = { focus = ZUK_reassure_local_population }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_beacon_of_freedom
+		relative_position_id = ZUK_rally_the_people
+		prerequisite = { focus = ZUK_safe_haven_for_refugees }
+		prerequisite = { focus = ZUK_promise_local_elections }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 3
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_liberators_of_the_city
+		relative_position_id = ZUK_beacon_of_freedom
+		prerequisite = { focus = ZUK_beacon_of_freedom }
+		mutually_exclusive = { focus = ZUK_trade_with_bilgoraj_conglomerate }
+		mutually_exclusive = { focus = ZUK_liberators_of_the_voivodeship }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_liberators_of_the_voivodeship
+		relative_position_id = ZUK_beacon_of_freedom
+		prerequisite = { focus = ZUK_beacon_of_freedom }
+		mutually_exclusive = { focus = ZUK_liberators_of_the_city }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZUK_on_the_warpath
+		relative_position_id = ZUK_the_goat_division
+		prerequisite = { focus = ZUK_trade_with_bilgoraj_conglomerate focus = ZUK_trade_with_the_ukrainians }
+		prerequisite = { focus = ZUK_the_goat_division }
+		prerequisite = { focus = ZUK_liberators_of_the_city focus = ZUK_liberators_of_the_voivodeship }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
