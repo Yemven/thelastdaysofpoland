@@ -1,4 +1,4 @@
-technologies = { #zmienić nazwy i do przodu
+technologies = {
 
 	basic_machine_tools = {
 	
@@ -1117,10 +1117,6 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = plastic_processing 
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = rubber_processing 
 			research_cost_coeff = 1
 		}
@@ -1377,58 +1373,6 @@ technologies = { #zmienić nazwy i do przodu
 			oil = -2.0
 		}
 		
-		show_effect_as_desc = yes
-	}
-	################################################
-	plastic_processing = {
-		research_cost = 1.5
-		start_year = 1937
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 4 }
-		}
-		path = {
-			leads_to_tech = improved_plastic_processing
-			research_cost_coeff = 1
-		}
-		show_effect_as_desc = yes
-	}
-
-	improved_plastic_processing = {
-		research_cost = 1.5
-		start_year = 1939
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 6 }
-		}
-		path = {
-			leads_to_tech = advanced_plastic_processing
-			research_cost_coeff = 1
-		}
-		show_effect_as_desc = yes
-	}
-
-	advanced_plastic_processing = {
-		research_cost = 1.5
-		start_year = 1941
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 8 }
-		}
-		path = {
-			leads_to_tech = modern_plastic_processing
-			research_cost_coeff = 1
-		}
-		show_effect_as_desc = yes
-	}
-
-	modern_plastic_processing = {
-		research_cost = 1.5
-		start_year = 1943
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 10 }
-		}
 		show_effect_as_desc = yes
 	}
 
