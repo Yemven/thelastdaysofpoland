@@ -3,16 +3,19 @@ state={
 	id=212
 	name="STATE_212"
 	provinces={
-		2605 3115 3216 3272 3740 3742 
+		2605 3115 3216 3272 3740 3742 12747 12748 12749 12750 12751 12752 12753 12754 12755 12756 12759 12760 12761 12762 12763 12764 12765 12766
 	}
-	manpower = 1   state_category = city
+	manpower = 64375   state_category = city
 	buildings_max_level_factor=1.000
 			history = {
 		owner = SYJ
-		victory_points = { }
+		victory_points = {12751 10}
+		victory_points = {12759 10}
 		add_core_of = SYJ
 	buildings = {
 	infrastructure = 7
+	industrial_complex = 5
+	arms_factory = 2
 }
 }
 }

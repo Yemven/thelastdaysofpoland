@@ -2,16 +2,19 @@ state={
 	id=585
 	name="STATE_585"
 	provinces={
-		3728 
+		3728 12681 12682 12683 12684 12685 12686
 	}
-	manpower = 1   state_category = city
+	manpower = 108939   state_category = city
 	buildings_max_level_factor=1.000
 							history = {
 		owner = POZ
-		victory_points = { }
+		victory_points = {12684 25}
+		victory_points = {12682 10}
 		add_core_of = POZ
 	buildings = {
 	infrastructure = 7
+	industrial_complex = 7
+	arms_factory = 3
 }
 }
 }
