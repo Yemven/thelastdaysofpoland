@@ -1,76 +1,4 @@
 technologies = {
-	our_boys = {
-		xp_research_type = army
-		xp_unlock_cost = 100
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 0 }
-		}
-		xor = { gun_to_knifefight }
-		path = {
-			leads_to_tech = cq_brutality
-		}
-		doctrine = yes
-		categories = {
-			land_doctrine
-		}		
-		ai_will_do = {
-			factor = 20 
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-	}
-	
-	cq_brutality = {
-		xp_research_type = army
-		xp_unlock_cost = 100
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 2 }
-		}
-		path = {
-			leads_to_tech = hools_siege_warfare
-		}
-		doctrine = yes
-		categories = {
-			land_doctrine
-		}		
-		ai_will_do = {
-			factor = 20 
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-	}
-	
-	hools_siege_warfare = {
-		xp_research_type = army
-		xp_unlock_cost = 100
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 4 }
-		}
-		doctrine = yes
-		categories = {
-			land_doctrine
-		}		
-		ai_will_do = {
-			factor = 20 
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-	}
 	
 	gun_to_knifefight = {
 		xp_research_type = army
@@ -133,6 +61,32 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+		}	
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	our_boys = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		xor = { gun_to_knifefight }
+		path = {
+			leads_to_tech = cq_brutality
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
 		}		
 		ai_will_do = {
 			factor = 20 
@@ -145,6 +99,54 @@ technologies = {
 		}
 	}
 	
+	cq_brutality = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 2 }
+		}
+		path = {
+			leads_to_tech = hools_siege_warfare
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	hools_siege_warfare = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 4 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+
 ####################################
 	
 	
@@ -156,8 +158,18 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 		doctrine = yes
+		dependencies = { #kurwa mać johan daj mi używać OR przy określaniu technologii
+			relearning_basic_tactics = 1
+		}
+		
 		categories = {
 			land_doctrine
+		}
+		path = {
+			leads_to_tech = common_use_of_tech
+		}
+		path = {
+			leads_to_tech = techpretorians
 		}		
 		xor = { conventional_warfare asymetrical_warfare cqc_theory }
 		ai_will_do = {
@@ -171,6 +183,54 @@ technologies = {
 		}
 	}
 	
+	common_use_of_tech = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		xor = { techpretorians }
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	techpretorians = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		xor = { common_use_of_tech }
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+####################################################
+
 	conventional_warfare = {
 		xp_research_type = army
 		xp_unlock_cost = 100
@@ -181,6 +241,15 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+		}
+		dependencies = { 
+			relearning_basic_tactics = 1
+		}
+		path = {
+			leads_to_tech = legacy_of_nato
+		}
+		path = {
+			leads_to_tech = legacy_of_warsaw_pact
 		}
 		xor = { technological_supremacy asymetrical_warfare cqc_theory }
 		ai_will_do = {
@@ -194,6 +263,54 @@ technologies = {
 		}
 	}
 	
+	legacy_of_nato = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2  y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		xor = { legacy_of_warsaw_pact }
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	legacy_of_warsaw_pact = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2  y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		xor = { legacy_of_nato }
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+######################
+
 	asymetrical_warfare = {
 		xp_research_type = army
 		xp_unlock_cost = 100
@@ -202,6 +319,15 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 		doctrine = yes
+		dependencies = { 
+			hools_siege_warfare = 1
+		}
+		path = {
+			leads_to_tech = partisan_warfare
+		}
+		path = {
+			leads_to_tech = terror_raids
+		}
 		categories = {
 			land_doctrine
 		}		
@@ -217,6 +343,55 @@ technologies = {
 		}
 	}
 	
+	partisan_warfare = { #wymyślcie jakąś lepszą nazwę co
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		xor = { terror_raids }
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	terror_raids = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		xor = { partisan_warfare }
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+
+###################################
+
 	cqc_theory = {
 		xp_research_type = army
 		xp_unlock_cost = 100
@@ -225,10 +400,65 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 		doctrine = yes
+		dependencies = { 
+			hools_siege_warfare = 1
+		}
 		categories = {
 			land_doctrine
 		}
+		path = {
+			leads_to_tech = warriors_of_modern_age
+		}
+		path = {
+			leads_to_tech = for_the_horde
+		}
 		xor = { technological_supremacy conventional_warfare asymetrical_warfare }
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	warriors_of_modern_age = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		xor = { for_the_horde }
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	for_the_horde = { #wymyślcie jakąś lepszą nazwę co
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		xor = { warriors_of_modern_age }
 		ai_will_do = {
 			factor = 20 
 			modifier = {

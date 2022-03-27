@@ -32,6 +32,19 @@ guiTypes = {
 				size = { width = 2100 height = 100% }
 			}			
 
+			gridboxtype = {
+				name = "gun_to_knifefight_tree"
+				position = { x=80 y=172 }
+				size = { width = 880 height = 500 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-150 }					
+				}				
+			}
 				
 			gridboxtype = {
 				name = "our_boys_tree"
@@ -46,25 +59,11 @@ guiTypes = {
 					position = { x=0 y=-150 }					
 				}				
 			}
-			
-			gridboxtype = {
-				name = "gun_to_knifefight_tree"
-				position = { x=80 y=172 }
-				size = { width = 880 height = 500 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
 
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}				
-			}
-			
 			gridboxtype = {
 				name = "technological_supremacy_tree"
 				position = { x=80 y=672 }
-				size = { width = 420 height = 1000 }
+				size = { width = 430 height = 1000 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -74,11 +73,11 @@ guiTypes = {
 					position = { x=0 y=-150 }					
 				}				
 			}
-			
+
 			gridboxtype = {
 				name = "conventional_warfare_tree"
-				position = { x=540 y=672 }
-				size = { width = 420 height = 1000 }
+				position = { x=530 y=672 }
+				size = { width = 430 height = 1000 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -88,11 +87,11 @@ guiTypes = {
 					position = { x=0 y=-150 }					
 				}				
 			}
-			
+
 			gridboxtype = {
 				name = "asymetrical_warfare_tree"
 				position = { x=980 y=672 }
-				size = { width = 420 height = 1000 }
+				size = { width = 430 height = 1000 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -102,11 +101,11 @@ guiTypes = {
 					position = { x=0 y=-150 }					
 				}				
 			}
-			
+
 			gridboxtype = {
 				name = "cqc_theory_tree"
-				position = { x=1440 y=672 }
-				size = { width = 420 height = 1000 }
+				position = { x=1430 y=672 }
+				size = { width = 430 height = 1000 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
