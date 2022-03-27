@@ -4,12 +4,16 @@ state={
 	provinces={
 		3767 11391 11392 11393 11394 11395 11396 11397 11398 11399
 	}
-	manpower = 1   state_category = city
+	manpower = 235069   state_category = large_city
 	buildings_max_level_factor=1.000
 			history = {
-		owner = PLC
-		victory_points = { 3767 10 }
-		add_core_of = PLC
+		owner = LEG
+		victory_points = { 3767 3 }
+		victory_points = { 11398 5 }
+		victory_points = { 11394 3 }
+		victory_points = { 11395 10 }
+		victory_points = { 11396 5 }
+		add_core_of = LEG
 	buildings = {
 	infrastructure = 7
 }

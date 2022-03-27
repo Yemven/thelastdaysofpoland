@@ -1,17 +1,26 @@
+
 state={
 	id=86
 	name="STATE_86"
-	provinces={
-		1470 1534 1788 1892 2608 2986 3585 
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
-		history = {
+
+	history={
 		owner = TEU
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = TEU
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		1534 1788 1892 2608 2986 3585 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

@@ -10,12 +10,30 @@ set_convoys = 20
 
 recruit_character = RUD_hubert_dworniok
 
+add_ideas = {
+controlled_opposition
+state_press
+improvised_security
+witch_doctors
+civil_industry_subsidies
+training_battle
+officer_clerks
+economy_workers_management
+taxes_medium
+trade_regulated
+lgbt_limited_laws
+drugs_decriminalised
+women_traditional_roles
+minorities_system_oppresion
+}
+
 set_politics = {
 	ruling_party = socialdemocrature
 	last_election = "2027.3.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 
 set_popularities = {
 	marxism_cranism	= 0

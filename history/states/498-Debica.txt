@@ -1,17 +1,26 @@
+
 state={
 	id=498
 	name="STATE_498"
-	provinces={
-		817 1469 1599 1809 2335 2443 3423 4042 4052 4073 12166 12167 12168 12169 12170 12171 12172 12173 12174 12175 12176 12177 12178 12179 12180 12181 12182 12183
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = DBI
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = DBI
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		1469 1809 2335 2443 3423 4042 4052 12176 12177 12178 12179 12180 12181 12182 12183 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

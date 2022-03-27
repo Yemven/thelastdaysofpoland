@@ -4,17 +4,16 @@ state={
         provinces={
                 73 2622 11907 11908 11909 11910 11911 11912 11913 11914 11915 11916 11917 11918 11919 11920 11921 11922 11923 11924 11925 11926 11927 11928
         }
-        manpower = 80 637   state_category = city
+        manpower = 78637   
+		state_category = city
         buildings_max_level_factor=1.000
-					history={
-		owner = SAN
-		victory_points = {
-
-		}
-		add_core_of = SAN
-buildings = {
-                infrastructure = 8
-industrial_complex = 3
+		
+		history={
+			owner = SAN
+			add_core_of = SAN
+		buildings = {
+                infrastructure = 7
+				industrial_complex = 3
                 arms_factory = 2
 }
 }

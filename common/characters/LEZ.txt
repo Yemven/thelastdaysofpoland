@@ -1,13 +1,13 @@
 characters={
-	LEZ_regimentarz={
-		name="Regimentarz"
+	LEZ_wierzchowski={
+		name="Leszek Wierzchowski"
 		portraits={
 			civilian={
-				large="gfx/leaders/LEZ/LEZ_Regimentarz.dds"
+				large="gfx/leaders/LEZ/LEZ_Wierzchowski.dds"
 			}
 		}
 		country_leader={
-			ideology=reactionary_subtype
+			ideology=autocracy_subtype
 			expire="1.1.1.1"
 			id=-1
 		}

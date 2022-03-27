@@ -1,5 +1,5 @@
 characters={
-	ZUK_krzysztof_Żuk={
+	ZUK_Krzysztof_Zuk={
 		name="Krzysztof Żuk"
 		portraits={
 			civilian={
@@ -7,17 +7,19 @@ characters={
 			}
 		}
 		country_leader={
+			desc = "POLITICS_KRZYSZTOF_ZUK_DESC"
 			ideology=euroliberalism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
 		country_leader={
+			desc = "POLITICS_KRZYSZTOF_ZUK_DESC"
 			ideology=autocracy_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ZUK_beata_stepaniukkuśmierzak={
+	ZUK_Beata_Stepaniuk-Kusmierzak={
 		name="Beata Stepaniuk-Kuśmierzak"
 		portraits={
 			civilian={

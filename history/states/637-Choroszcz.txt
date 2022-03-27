@@ -1,21 +1,28 @@
+
 state={
-        id=637
-        name="STATE_637"
-        provinces={
-                2127 3641 3649 9575 9577 9826 9835 9827 9828 9829 9830 9831 9832 9833 9834
-        }
-        manpower = 18528   state_category = town
-        buildings_max_level_factor=1.000
-					history={
+	id=637
+	name="STATE_637"
+
+	history={
 		owner = TNO
 		victory_points = {
 
 		}
 		add_core_of = TNO
-buildings = {
-                infrastructure = 8
-industrial_complex = 1
-                arms_factory = 0
-}
-}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			arms_factory = 0
+
+		}
+
+	}
+
+	provinces={
+		2127 3641 9575 9577 9828 9829 9830 9831 9832 9833 9834 9835 
+	}
+	manpower=14528
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

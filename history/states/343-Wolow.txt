@@ -1,31 +1,28 @@
+
 state={
 	id=343
 	name="STATE_343"
-	provinces={
-		1083 1265 2105 2587 3260 12988
-12989
-12990
-12991
-12992
-12993
-12994
-12995
-12996
-12997
-12998
-12999
-13000
+
+	history={
+		owner = WRO
+		victory_points = {
+
+		}
+		add_core_of = WRO
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+
+		}
+
 	}
-	manpower = 46818  state_category = town
+
+	provinces={
+		1083 1265 2105 2587 3260 12988 12989 12990 12991 
+	}
+	manpower=46818
 	buildings_max_level_factor=1.000
-	history = {
-		owner = RYB
-		victory_points = { }
-		add_core_of = RYB
-	buildings = {
-	infrastructure = 6
-	industrial_complex = 1
-	arms_factory = 0
-}
-}
+	state_category=town
+	local_supplies=0.000
 }

@@ -1,17 +1,26 @@
+
 state={
 	id=494
 	name="STATE_494"
-	provinces={
-		366 1749 1929 3391 12280 12281 12282 12283 12284 12285 12286 12287 12288 12289 12290 12291 12292 12293 12294 12295 12296 12297 12298 12299 12300
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = KOZ
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = KOZ
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		366 1749 12284 12285 12286 12287 12288 12289 12290 12291 12299 12300 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

@@ -4,11 +4,14 @@ state={
 	provinces={
 		7437 11428 11429 11430 11431 11432 11433 11434
 	}
-	manpower = 1   state_category = city
+	manpower = 135760   state_category = large_city
 	buildings_max_level_factor=1.000
 		history = {
 		owner = TRZ
-		victory_points = { 7437 10 }
+		victory_points = { 11433 5 }
+		victory_points = { 11430 5 }
+		victory_points = { 11432 1 }
+		victory_points = { 11428 3 }
 		add_core_of = TRZ
 	buildings = {
 	infrastructure = 7

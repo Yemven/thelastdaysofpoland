@@ -1,17 +1,26 @@
+
 state={
 	id=524
 	name="STATE_524"
-	provinces={
-		579 631 1237 1653 1840 3317 4101 4107 4121 12143 12144 12145 12146 12147 12148 12149 12150 12151 12152 12153 12154 12155 12156 12157 12158 12159 12160 12161 12162 12163 12164 12165
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = JSO
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = JSO
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		631 1237 1840 4101 4107 12143 12144 12145 12146 12147 12148 12149 12150 12151 12152 12153 12154 12155 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

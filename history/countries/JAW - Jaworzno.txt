@@ -8,7 +8,30 @@ set_technology = {
 set_convoys = 20
 
 recruit_character = JAW_antifascist_council
+recruit_character = JAW_gosekpopiolek
+recruit_character = JAW_gdula
+recruit_character = JAW_konieczny
 
+add_ideas = {
+no_party
+autocensorship
+improvised_security
+witch_doctors
+no_subsidies
+training_battle
+officer_clerks
+economy_workers_management
+taxes_none
+trade_none
+lgbt_encouraged
+drugs_allowed
+women_feminism_policy
+minorities_multiculturalism
+JAW_min_rada
+JAW_min_gosekpopiolek
+JAW_min_gdula
+JAW_min_konieczny
+}
 
 set_politics = {
 	ruling_party = squattism

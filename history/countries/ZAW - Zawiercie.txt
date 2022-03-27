@@ -1,4 +1,5 @@
-﻿capital = 739
+﻿
+capital = 739
 
 # Starting tech
 set_technology = {
@@ -9,6 +10,23 @@ set_convoys = 20
 
 recruit_character = ZAW_jarosław_gowin
 recruit_character = ZAW_sebastian_kaleta
+
+add_ideas = {
+multiparty
+state_press
+basic_security
+partial_refundation
+no_subsidies
+training_basic
+officer_clerks
+economy_social_market
+taxes_high
+trade_regulated
+lgbt_limited_laws
+drugs_harsh_penalised
+women_working_women
+minorities_hidden_oppresion
+}
 
 set_politics = {
 	ruling_party = paternal_conservatism

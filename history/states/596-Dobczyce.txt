@@ -5,12 +5,13 @@ state={
 
 	history={
 		owner = SKW
-		victory_points = {
-
-		}
+		victory_points = { 3090 3 }
+		victory_points = { 10809 1 }
+		victory_points = { 10796 1 }
+		victory_points = { 4092 1 }
 		add_core_of = SKW
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 
 		}
 
@@ -21,6 +22,6 @@ state={
 	}
 	manpower=37413
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

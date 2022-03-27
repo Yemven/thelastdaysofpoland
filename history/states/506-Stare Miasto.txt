@@ -5,14 +5,14 @@ state={
 	provinces={
 		2824 
 	}
-	manpower = 60833   state_category = large city
+	manpower = 23833   state_category = large_town
 	buildings_max_level_factor=1.000
 	 				history = {
 		owner = KRK
-		victory_points = { }
+		victory_points = { 2824 30 }
 		add_core_of = KRK
 	buildings = {
-	infrastructure = 7
+	infrastructure = 8
 }
 }
 }

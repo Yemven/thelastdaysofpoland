@@ -4,14 +4,16 @@ state={
 	provinces={
 		3092 3204 4077 11329 11002 11003 11004 11005 11006 11007 11008 11009 11010 11011 11012 11013 11014 11015 11016
 	}
-	manpower = 53027   state_category = town
+	manpower = 63027   state_category = large_town
 	buildings_max_level_factor=1.000
 	 				history = {
 		owner = SKW
-		victory_points = { }
+		victory_points = { 11009 30 }
+		victory_points = { 11329 2 }
+		victory_points = { 11005 1 }
 		add_core_of = SKW
 	buildings = {
-	infrastructure = 7
+	infrastructure = 5
 }
 }
 }

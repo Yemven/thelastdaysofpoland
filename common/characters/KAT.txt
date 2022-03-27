@@ -38,17 +38,84 @@ characters={
 			id=-1
 		}
 	}
-	KAT_b0r1s01={
-		name="B0R1S-01"
-		portraits={
-			civilian={
-				large="gfx/leaders/KAT/KAT_Borys2.dds"
-			}
+	KAT_karolczak={
+		name="Kazimierz Karolczak"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/KAT/KAT_karolczak.dds" }
 		}
-		country_leader={
-			ideology=postpolonism_subtype
-			expire="1.1.1.1"
-			id=-1
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = KAT_min_karolczak
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KAT
+			}
+			traits = { }
+		}
+	}
+	KAT_krupa={
+		name="Marcin Krupa"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/KAT/KAT_krupa.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = KAT_min_krupa
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KAT
+			}
+			traits = { }
+		}
+	}
+	KAT_rosa={
+		name="Monika Rosa"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/KAT/KAT_rosa.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = KAT_min_rosa
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KAT
+			}
+			traits = { }
+		}
+	}
+	KAT_molenda={
+		name="Karol Molenda"
+		portraits=
+		{ civilian = { large="gfx/leaders/KAT/KAT_Molenda.dds"
+		small = "gfx/interface/ideas/KAT/KAT_molenda.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = KAT_min_molenda
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KAT
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 }

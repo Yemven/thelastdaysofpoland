@@ -11,7 +11,31 @@ set_convoys = 20
 recruit_character = KAT_borys_budka
 recruit_character = KAT_andrzej_sośnierz
 recruit_character = KAT_dobromir_sośnierz
-recruit_character = KAT_b0r1s01
+recruit_character = KAT_rosa
+recruit_character = KAT_molenda
+recruit_character = KAT_karolczak
+recruit_character = KAT_krupa
+
+add_ideas = {
+multiparty
+autocensorship
+advanced_security
+partial_refundation
+no_subsidies
+training_basic
+officer_clerks
+economy_regulated_capitalism
+taxes_high
+trade_promoted
+lgbt_equal_laws
+drugs_harsh_penalised
+women_gender_equality
+minorities_multiculturalism
+KAT_min_rosa
+KAT_min_krupa
+KAT_min_molenda
+KAT_min_karolczak
+}
 
 set_politics = {
 	ruling_party = euroliberalism
