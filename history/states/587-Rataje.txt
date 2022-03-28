@@ -4,17 +4,19 @@ state={
 	provinces={
 		2421 13342 13343 13344 13345 13346
 	}
-	manpower = 55534   state_category = city
+	manpower = 83051   state_category = city
 	buildings_max_level_factor=1.000
 						history = {
 		owner = SLU
-		victory_points = {13342 5}
-		victory_points = {13345 5}
+		victory_points = {13342 20}
+		victory_points = {13344 3}
+		victory_points = {13343 1}
+		victory_points = {2421 1}
 		add_core_of = SLU
 	buildings = {
 	infrastructure = 7
 	industrial_complex = 4
-	arms_factory = 2
+	arms_factory = 2	
 }
 }
 }
