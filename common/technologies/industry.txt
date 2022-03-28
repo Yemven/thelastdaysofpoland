@@ -1383,6 +1383,13 @@ technologies = { #zmienić nazwy i do przodu
 	plastic_processing = {
 		research_cost = 1.5
 		start_year = 1937
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = plastic
+				amount = 1
+			}
+		}
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 4 }
@@ -1397,6 +1404,13 @@ technologies = { #zmienić nazwy i do przodu
 	improved_plastic_processing = {
 		research_cost = 1.5
 		start_year = 1939
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = plastic
+				amount = 1
+			}
+		}
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 6 }
@@ -1411,6 +1425,13 @@ technologies = { #zmienić nazwy i do przodu
 	advanced_plastic_processing = {
 		research_cost = 1.5
 		start_year = 1941
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = plastic
+				amount = 1
+			}
+		}
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 8 }
@@ -1425,6 +1446,13 @@ technologies = { #zmienić nazwy i do przodu
 	modern_plastic_processing = {
 		research_cost = 1.5
 		start_year = 1943
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = plastic
+				amount = 1
+			}
+		}
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 10 }
