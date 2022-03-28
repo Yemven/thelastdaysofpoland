@@ -1,20 +1,28 @@
+
 state={
 	id=696
 	name="STATE_696"
-	provinces={
-		696 2620 3748 3763 12733 12734 12735 12736 12737 12738 12739 12740 12741 12742 12743 12744 12745 12746 12757 12758
-	}
-	manpower = 34010   state_category = city
-	buildings_max_level_factor=1.000
-					history = {
-		owner = SYJ
-		victory_points = {12733 5}
-		add_core_of = SYJ
-	buildings = {
-	infrastructure = 7
-	industrial_complex = 2
-	arms_factory = 1
 
-}
-}
+	history={
+		owner = SYJ
+		victory_points = {
+			13423 5 
+		}
+		add_core_of = SYJ
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		696 2620 3748 3763 13423 13424 13425 13426 13427 13428 13429 13430 13431 13432 13433 13434 13435 13436 
+	}
+	manpower=34010
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
