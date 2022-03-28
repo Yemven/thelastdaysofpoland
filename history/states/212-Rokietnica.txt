@@ -2,30 +2,20 @@
 state={
 	id=212
 	name="STATE_212"
-
-	history={
-		owner = SYJ
-		victory_points = {
-			13441 10 
-		}
-		victory_points = {
-			13447 10 
-		}
-		add_core_of = SYJ
-		buildings = {
-			infrastructure = 7
-			industrial_complex = 5
-			arms_factory = 2
-
-		}
-
-	}
-
 	provinces={
-		2605 3115 3216 3272 3740 3742 13437 13438 13439 13440 13441 13442 13443 13444 13445 13446 13447 13448 13449 13450 13451 13452 13453 13454 13455 13456 
+		2605 3115 3216 3272 3740 3742 12747 12748 12749 12750 12751 12752 12753 12754 12755 12756 12759 12760 12761 12762 12763 12764 12765 12766
 	}
-	manpower=64375
+	manpower = 64375   state_category = city
 	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+			history = {
+		owner = SYJ
+		victory_points = {12751 10}
+		victory_points = {12759 10}
+		add_core_of = SYJ
+	buildings = {
+	infrastructure = 7
+	industrial_complex = 5
+	arms_factory = 2
+}
+}
 }
