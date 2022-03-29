@@ -1,0 +1,29 @@
+characters={
+	DUP_tanajno={
+		name="Paweł Tanajno"
+		portraits={
+			civilian={
+				large="gfx/leaders/DUP/DUP_Tanajno.dds"
+			}
+		}
+		country_leader={
+			ideology=freemarketism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DUP_walaszek={
+		name="Bartosz Walaszek"
+		portraits={
+			civilian={
+				large="gfx/leaders/DUP/DUP_Walaszek1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			traits={ }
+			expire="2050.3.1.12"
+			id=-1
+		}
+	}
+}
