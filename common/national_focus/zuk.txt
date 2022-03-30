@@ -31,9 +31,13 @@ focus_tree = {
 		x = 8
 		y = 0
 		
-		cost = 5
+		cost = 1
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+
+		country_event = {
+			id = zuk.t1_1
+			days = 1 }
 			
 		}
 	}

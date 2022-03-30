@@ -1,0 +1,20 @@
+﻿###########################
+# Zuk events
+###########################
+
+add_namespace = zuk
+
+
+country_event = {
+	id = zuk.t1_1
+	title = zuk.t1_1.t
+	desc = zuk.t1_1.desc
+	picture = GFX_report_event_zuk1
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zuk.t1_1.a
+	}
+}
