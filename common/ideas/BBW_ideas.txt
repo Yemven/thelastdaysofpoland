@@ -1,10 +1,8 @@
 ideas = {
 
 	country = {
-		BBW_idea_more_steam =	{
-			allowed = {
-				always = no
-			}
+		BBW_more_steam =	{
+			original_tag = BBW
 			allowed_civil_war = {
 				always = yes
 			}
@@ -19,7 +17,8 @@ ideas = {
 			}
 		}
 
-		BBW_idea_smog = {
+		BBW_smog = {
+			original_tag = BBW
 			allowed = {
 				always = no
 			}
