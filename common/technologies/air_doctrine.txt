@@ -759,4 +759,300 @@ technologies = {
 			}
 		}
 	}
+
+	light_fighter_concept = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 3 y = 8 }
+		}
+		xor = {promotion_of_aa}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		path = {
+			leads_to_tech = lf_doctrine_2
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	lf_doctrine_2 = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 3 y = 10 }
+		}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		path = {
+			leads_to_tech = lf_doctrine_3
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	lf_doctrine_3 = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 3 y = 12 }
+		}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		path = {
+			leads_to_tech = lf_doctrine_4
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	lf_doctrine_4 = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 3 y = 14 }
+		}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		path = {
+			leads_to_tech = lf_doctrine_5
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	lf_doctrine_5 = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 3 y = 16 }
+		}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		path = {
+			leads_to_tech = lf_doctrine_6
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	lf_doctrine_6 = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 3 y = 18 }
+		}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	promotion_of_aa = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 5 y = 8 }
+		}
+		xor = {light_fighter_concept}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		path = {
+			leads_to_tech = aa_doctrine_2
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	aa_doctrine_2 = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 5 y = 10 }
+		}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		path = {
+			leads_to_tech = aa_doctrine_3
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	aa_doctrine_3 = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 5 y = 12 }
+		}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		path = {
+			leads_to_tech = aa_doctrine_4
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	aa_doctrine_4 = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 5 y = 14 }
+		}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		path = {
+			leads_to_tech = aa_doctrine_5
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	aa_doctrine_5 = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 5 y = 16 }
+		}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		path = {
+			leads_to_tech = aa_doctrine_6
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	aa_doctrine_6 = {
+		xp_research_type = air
+		xp_unlock_cost = 100
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 5 y = 18 }
+		}
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_air_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
 }

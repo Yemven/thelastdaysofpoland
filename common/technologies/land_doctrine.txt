@@ -849,11 +849,136 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 2 }
 		}
+		path = {
+			leads_to_tech = partisans_2
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
 		}
 		xor = { terror_raids }
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	partisans_2= {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 4 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		path = {
+			leads_to_tech = partisans_3
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	partisans_3= {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 6 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		path = {
+			leads_to_tech = partisans_4
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	partisans_4= {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 8 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		path = {
+			leads_to_tech = partisans_5
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	partisans_5= {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 10 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		path = {
+			leads_to_tech = partisans_6
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	partisans_6= {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 12 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
 		ai_will_do = {
 			factor = 20 
 			modifier = {
@@ -876,6 +1001,9 @@ technologies = {
 		categories = {
 			land_doctrine
 		}
+		path = {
+			leads_to_tech = terrorists_2
+		}
 		xor = { partisan_warfare }
 		ai_will_do = {
 			factor = 20 
@@ -888,6 +1016,127 @@ technologies = {
 		}
 	}
 
+	terrorists_2= {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 4 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		path = {
+			leads_to_tech = terrorists_3
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	terrorists_3= {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 6 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		path = {
+			leads_to_tech = terrorists_4
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	terrorists_4= {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 8 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		path = {
+			leads_to_tech = terrorists_5
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	terrorists_5= {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 10 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		path = {
+			leads_to_tech = terrorists_6
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+
+	terrorists_6= {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 12 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
 
 ###################################
 
