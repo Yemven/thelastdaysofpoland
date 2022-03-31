@@ -4,18 +4,17 @@ state={
         provinces={
                 2438 2668 11720 11721 11722 11723 11724 11725 11726 11727 11728 11729 11730 11731 11732
         }
-        manpower = 15771   state_category = town
+        manpower = 15771   
+		state_category = town
         buildings_max_level_factor=1.000
 					history={
 		owner = BOM
-		victory_points = {
-
-		}
+		victory_points = { 11720 30 }
 		add_core_of = BOM
-buildings = {
-                infrastructure = 7
-industrial_complex = 1
+		buildings = {
+                infrastructure = 5
+				industrial_complex = 1
                 arms_factory = 0
-}
+		}
 }
 }
