@@ -533,7 +533,13 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				frame = 1
 			}
-
+			iconType = {
+				name = "modifiers_weather_icons"
+				position = { x = 0 y= 0 }
+				spriteType = "GFX_modifiers_weather_icons"
+				Orientation = "UPPER_LEFT"
+				frame = 1
+			}
 			iconType = {
 				name = "temperature_icons"
 				position = { x = 0 y= 0 }
