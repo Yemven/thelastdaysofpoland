@@ -170,6 +170,60 @@ on_actions = {
 					province = { id = 1004 }
 				}
 			}
+			240 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_sroda_wielkopolska}
+					province = { id = 3006 }
+				}
+			}
+			257 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_srem}
+					province = { id = 13569 }
+				}
+			}
+			586 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_srodka}
+					province = { id = 3736 }
+				}
+			}
+			587 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_rataje}
+					province = { id = 13342 }
+				}
+			}
+			220 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_stare_miasto}
+					province = { id = 13364 }
+				}
+			}
+			587 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_osiedle_bohaterow_iiww}
+					province = { id = 13363 }
+				}
+			}
+			220 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_cytadela}
+					province = { id = 13365 }
+				}
+			}
+			299 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_leszno}
+					province = { id = 916 }
+				}
+			}
+			240 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_zaniemysl}
+					province = { id = 72 }
+				}
+			}
 			
 		}
 	}
