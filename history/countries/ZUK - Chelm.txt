@@ -1,15 +1,14 @@
 ﻿capital = 669
 
-# Starting tech
 set_technology = {
-	infantry_weapons = 1
+	melee_weapons = 1
+	ranged_weapons = 1
 }
 
-set_convoys = 20
+oob = "ZUK_2027"
 
 recruit_character = ZUK_Krzysztof_Zuk
 recruit_character = ZUK_Beata_Stepaniuk-Kusmierzak
-
 
 set_politics = {
 	ruling_party = euroliberalism
@@ -31,4 +30,3 @@ set_popularities = {
 	reactionary = 0
 	postpolonism = 0
 }
-

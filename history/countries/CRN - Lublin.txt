@@ -1,14 +1,13 @@
 ﻿capital = 363
 
-# Starting tech
 set_technology = {
-	infantry_weapons = 1
+	melee_weapons = 1
+	ranged_weapons = 1
 }
 
-set_convoys = 20
+oob = "CRN_2027"
 
-recruit_character = CRN_Przemyslaw_czarnek
-
+recruit_character = CRN_Przemyslaw_Czarnek
 
 set_politics = {
 	ruling_party = paternal_conservatism
