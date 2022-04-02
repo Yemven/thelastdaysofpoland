@@ -2,22 +2,40 @@
 state={
 	id=271
 	name="STATE_271"
-	provinces={
-		2258 3075 3793 3800 3806 13685 13686 13687 13688 13689 13690 13691 13692 13693 13694 13695 13696 13697 13698 13699 13700 13701 13702 13702 13703 13704 13705 13706 13707 13708 13709 13711 13712 13713 13715 13716 13717 13718 13719 13720 13721 13722 13723 13724 13725 13726 13728 13729 13748 13749 13750 13752 13753 
-	}
-	manpower = 63665   state_category = city
-	buildings_max_level_factor=1.000
-				    history = {
+
+	history={
 		owner = FEL
-		victory_points = {3800 20}
-		victory_points = {13689 7}
-		victory_points = {13705 1}
-		victory_points = {13729 2}
-		victory_points = {13702 2}
-		victory_points = {13709 1}
+		victory_points = {
+			3800 20 
+		}
+		victory_points = {
+			13689 7 
+		}
+		victory_points = {
+			13705 1 
+		}
+		victory_points = {
+			13729 2 
+		}
+		victory_points = {
+			13702 2 
+		}
+		victory_points = {
+			13709 1 
+		}
 		add_core_of = FEL
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		2258 3075 3793 3800 3806 13685 13686 13687 13688 13689 13690 13691 13692 13693 13694 13696 13697 13698 13699 13700 13701 13702 13702 13703 13704 13705 13706 13707 13708 13709 13711 13713 13715 13716 13717 13718 13719 13720 13721 13723 13724 13725 13726 13728 13729 13748 13749 13750 13752 13753 
+	}
+	manpower=63665
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
