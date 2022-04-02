@@ -28,14 +28,38 @@ on_actions = {
 			}
 			363 = {
 				add_province_modifier = {
+					static_modifiers = { terrain_lublin_czechow }
+					province = { id = 8763 }
+				}
+			}
+			363 = {
+				add_province_modifier = {
 					static_modifiers = { terrain_lublin_stary_gaj }
 					province = { id = 8755 }
 				}
 			}
 			363 = {
 				add_province_modifier = {
+					static_modifiers = { terrain_lublin_zemborzyce1 }
+					province = { id = 8753 }
+				}
+			}
+			363 = {
+				add_province_modifier = {
 					static_modifiers = { terrain_lublin_zemborzyce2 }
 					province = { id = 8754 }
+				}
+			}
+			662 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lublin_wrotkow }
+					province = { id = 8767 }
+				}
+			}
+			662 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lublin_felin }
+					province = { id = 8772 }
 				}
 			}
 			326 = {

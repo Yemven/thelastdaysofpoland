@@ -1,269 +1,279 @@
 spriteTypes = {
-	#spriteType = {
-	#	name = "GFX_city_bg_paris"
-	#	textureFile = "gfx/interface/city_bg_paris.dds"
-	#}
-
-	# CITIES ----------------------------------------------------------------------------------------------------
 
 	spriteType = {
 		name = "GFX_terrain_lublin_center"
-		textureFile = "gfx/interface/terrains/terrain_lublin_center.dds"
+		textureFile = "gfx/interface/terrains/terrain_lublin_center.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_lublin_weglin"
-		textureFile = "gfx/interface/terrains/terrain_lublin_weglin.dds"
+		textureFile = "gfx/interface/terrains/terrain_lublin_weglin.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_lublin_lsm"
-		textureFile = "gfx/interface/terrains/terrain_lublin_lsm.dds"
+		textureFile = "gfx/interface/terrains/terrain_lublin_lsm.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_lublin_czuby"
-		textureFile = "gfx/interface/terrains/terrain_lublin_czuby.dds"
+		textureFile = "gfx/interface/terrains/terrain_lublin_czuby.png"
+	}
+	spriteType = {
+		name = "GFX_terrain_lublin_czechow"
+		textureFile = "gfx/interface/terrains/terrain_lublin_czechow.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_lublin_stary_gaj"
-		textureFile = "gfx/interface/terrains/terrain_lublin_stary_gaj.dds"
+		textureFile = "gfx/interface/terrains/terrain_lublin_stary_gaj.png"
+	}
+	spriteType = {
+		name = "GFX_terrain_lublin_zemborzyce1"
+		textureFile = "gfx/interface/terrains/terrain_lublin_zemborzyce1.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_lublin_zemborzyce2"
-		textureFile = "gfx/interface/terrains/terrain_lublin_zemborzyce2.dds"
+		textureFile = "gfx/interface/terrains/terrain_lublin_zemborzyce2.png"
+	}
+	spriteType = {
+		name = "GFX_terrain_lublin_wrotkow"
+		textureFile = "gfx/interface/terrains/terrain_lublin_wrotkow.png"
+	}
+	spriteType = {
+		name = "GFX_terrain_lublin_felin"
+		textureFile = "gfx/interface/terrains/terrain_lublin_felin.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_lubartow"
-		textureFile = "gfx/interface/terrains/terrain_lubartow.dds"
+		textureFile = "gfx/interface/terrains/terrain_lubartow.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_szczebrzeszyn"
-		textureFile = "gfx/interface/terrains/terrain_szczebrzeszyn.dds"
+		textureFile = "gfx/interface/terrains/terrain_szczebrzeszyn.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_dabrowagornicza"
-		textureFile = "gfx/interface/terrains/terrain_dabrowagornicza.dds"
+		textureFile = "gfx/interface/terrains/terrain_dabrowagornicza.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_golonog"
-		textureFile = "gfx/interface/terrains/terrain_golonog.dds"
+		textureFile = "gfx/interface/terrains/terrain_golonog.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_mydlice"
-		textureFile = "gfx/interface/terrains/terrain_mydlice.dds"
+		textureFile = "gfx/interface/terrains/terrain_mydlice.png"
 	}		
 	spriteType = {
 		name = "GFX_terrain_hutakatowice"
-		textureFile = "gfx/interface/terrains/terrain_hutakatowice.dds"
+		textureFile = "gfx/interface/terrains/terrain_hutakatowice.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_strzemieszyce"
-		textureFile = "gfx/interface/terrains/terrain_strzemieszyce.dds"
+		textureFile = "gfx/interface/terrains/terrain_strzemieszyce.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_leknice"
-		textureFile = "gfx/interface/terrains/terrain_leknice.dds"
+		textureFile = "gfx/interface/terrains/terrain_leknice.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_zabkowicedg"
-		textureFile = "gfx/interface/terrains/terrain_zabkowicedg.dds"
+		textureFile = "gfx/interface/terrains/terrain_zabkowicedg.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_losien"
-		textureFile = "gfx/interface/terrains/terrain_losien.dds"
+		textureFile = "gfx/interface/terrains/terrain_losien.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_slawkow"
-		textureFile = "gfx/interface/terrains/terrain_slawkow.dds"
+		textureFile = "gfx/interface/terrains/terrain_slawkow.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_euroterminal"
-		textureFile = "gfx/interface/terrains/terrain_euroterminal.dds"
+		textureFile = "gfx/interface/terrains/terrain_euroterminal.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_belweder"
-		textureFile = "gfx/interface/terrains/terrain_belweder.dds"
+		textureFile = "gfx/interface/terrains/terrain_belweder.png"
 	}	
 		spriteType = {
 		name = "GFX_terrain_belchatow_power_plant"
-		textureFile = "gfx/interface/terrains/terrain_belchatow_power_plant.dds"
+		textureFile = "gfx/interface/terrains/terrain_belchatow_power_plant.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_kutno"
-		textureFile = "gfx/interface/terrains/terrain_kutno.dds"
+		textureFile = "gfx/interface/terrains/terrain_kutno.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_lodz_baluty"
-		textureFile = "gfx/interface/terrains/terrain_lodz_baluty.dds"
+		textureFile = "gfx/interface/terrains/terrain_lodz_baluty.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_lodz_chojny"
-		textureFile = "gfx/interface/terrains/terrain_lodz_chojny.dds"
+		textureFile = "gfx/interface/terrains/terrain_lodz_chojny.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_lodz_polesie"
-		textureFile = "gfx/interface/terrains/terrain_lodz_polesie.dds"
+		textureFile = "gfx/interface/terrains/terrain_lodz_polesie.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_lodz_radogoszcz"
-		textureFile = "gfx/interface/terrains/terrain_lodz_radogoszcz.dds"
+		textureFile = "gfx/interface/terrains/terrain_lodz_radogoszcz.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_lodz_ruda"
-		textureFile = "gfx/interface/terrains/terrain_lodz_ruda.dds"
+		textureFile = "gfx/interface/terrains/terrain_lodz_ruda.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_lodz_srodmiescie"
-		textureFile = "gfx/interface/terrains/terrain_lodz_srodmiescie.dds"
+		textureFile = "gfx/interface/terrains/terrain_lodz_srodmiescie.png"
 	}	
 	spriteType = {
 		name = "GFX_terrain_lodz_widzew_north"
-		textureFile = "gfx/interface/terrains/terrain_lodz_widzew_north.dds"
+		textureFile = "gfx/interface/terrains/terrain_lodz_widzew_north.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_lodz_widzew_south"
-		textureFile = "gfx/interface/terrains/terrain_lodz_widzew_south.dds"
+		textureFile = "gfx/interface/terrains/terrain_lodz_widzew_south.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_pabianice"
-		textureFile = "gfx/interface/terrains/terrain_pabianice.dds"
+		textureFile = "gfx/interface/terrains/terrain_pabianice.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_piotrkow_trybunalski"
-		textureFile = "gfx/interface/terrains/terrain_piotrkow_trybunalski.dds"
+		textureFile = "gfx/interface/terrains/terrain_piotrkow_trybunalski.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_radomsko"
-		textureFile = "gfx/interface/terrains/terrain_radomsko.dds"
+		textureFile = "gfx/interface/terrains/terrain_radomsko.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_sieradz"
-		textureFile = "gfx/interface/terrains/terrain_sieradz.dds"
+		textureFile = "gfx/interface/terrains/terrain_sieradz.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_skierniewice"
-		textureFile = "gfx/interface/terrains/terrain_skierniewice.dds"
+		textureFile = "gfx/interface/terrains/terrain_skierniewice.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_tomaszow_mazowiecki"
-		textureFile = "gfx/interface/terrains/terrain_tomaszow_mazowiecki.dds"
+		textureFile = "gfx/interface/terrains/terrain_tomaszow_mazowiecki.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_zdunska_wola"
-		textureFile = "gfx/interface/terrains/terrain_zdunska_wola.dds"
+		textureFile = "gfx/interface/terrains/terrain_zdunska_wola.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_zgierz"
-		textureFile = "gfx/interface/terrains/terrain_zgierz.dds"
+		textureFile = "gfx/interface/terrains/terrain_zgierz.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_sroda_wielkopolska"
-		textureFile = "gfx/interface/terrains/terrain_sroda_wielkopolska.dds"
+		textureFile = "gfx/interface/terrains/terrain_sroda_wielkopolska.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_srem"
-		textureFile = "gfx/interface/terrains/terrain_srem.dds"
+		textureFile = "gfx/interface/terrains/terrain_srem.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_rataje"
-		textureFile = "gfx/interface/terrains/terrain_poznan_rataje.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_rataje.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_cytadela"
-		textureFile = "gfx/interface/terrains/terrain_poznan_cytadela.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_cytadela.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_osiedle_bohaterow_iiww"
-		textureFile = "gfx/interface/terrains/terrain_poznan_osiedle_bohaterow_iiww.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_osiedle_bohaterow_iiww.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_stare_miasto"
-		textureFile = "gfx/interface/terrains/terrain_poznan_stare_miasto.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_stare_miasto.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_srodka"
-		textureFile = "gfx/interface/terrains/terrain_poznan_srodka.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_srodka.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_leszno"
-		textureFile = "gfx/interface/terrains/terrain_leszno.dds"
+		textureFile = "gfx/interface/terrains/terrain_leszno.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_zaniemysl"
-		textureFile = "gfx/interface/terrains/terrain_zaniemysl.dds"
+		textureFile = "gfx/interface/terrains/terrain_zaniemysl.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_piatkowo"
-		textureFile = "gfx/interface/terrains/terrain_poznan_piatkowo.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_piatkowo.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_krolowej_jadwigi"
-		textureFile = "gfx/interface/terrains/terrain_poznan_krolowej_jadwigi.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_krolowej_jadwigi.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_garbary"
-		textureFile = "gfx/interface/terrains/terrain_poznan_garbary.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_garbary.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_polwiejska"
-		textureFile = "gfx/interface/terrains/terrain_poznan_polwiejska.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_polwiejska.pngpng"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_swiety_marcin"
-		textureFile = "gfx/interface/terrains/terrain_poznan_sw_marcin.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_sw_marcin.pngpng"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_chwaliszewo"
-		textureFile = "gfx/interface/terrains/terrain_poznan_chwaliszewo.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_chwaliszewo.pngpng"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_winogrady"
-		textureFile = "gfx/interface/terrains/terrain_poznan_winogrady.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_winogrady.pngpng"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_wilda"
-		textureFile = "gfx/interface/terrains/terrain_poznan_wilda.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_wilda.pngpng"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_osiedle_jana_iii_sobieskiego"
-		textureFile = "gfx/interface/terrains/terrain_poznan_osiedle_jana_iii_sobieskiego.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_osiedle_jana_iii_sobieskiego.pngpng"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_naramowice"
-		textureFile = "gfx/interface/terrains/terrain_poznan_naramowice.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_naramowice.pngpng"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_podolany"
-		textureFile = "gfx/interface/terrains/terrain_poznan_podolany.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_podolany.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_gniezno"
-		textureFile = "gfx/interface/terrains/terrain_gniezno.dds"
+		textureFile = "gfx/interface/terrains/terrain_gniezno.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_debina"
-		textureFile = "gfx/interface/terrains/terrain_poznan_debina.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_debina.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_grunwald"
-		textureFile = "gfx/interface/terrains/terrain_poznan_grunwald.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_grunwald.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_legi_debinskie"
-		textureFile = "gfx/interface/terrains/terrain_poznan_legi_debinskie.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_legi_debinskie.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_debiec"
-		textureFile = "gfx/interface/terrains/terrain_poznan_debiec.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_debiec.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_most_przemysla_i"
-		textureFile = "gfx/interface/terrains/terrain_poznan_most_przemysla_i.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_most_przemysla_i.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_poznan_zegrze"
-		textureFile = "gfx/interface/terrains/terrain_poznan_zegrze.dds"
+		textureFile = "gfx/interface/terrains/terrain_poznan_zegrze.png"
 	}
 	spriteType = {
 		name = "GFX_terrain_zerkow"
-		textureFile = "gfx/interface/terrains/terrain_zerkow.dds"
+		textureFile = "gfx/interface/terrains/terrain_zerkow.png"
 	}
 }	
