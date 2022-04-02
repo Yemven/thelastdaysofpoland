@@ -5,12 +5,12 @@ state={
 
 	history={
 		owner = UMN
-		victory_points = {
-
-		}
+		victory_points = { 11100 3 }
+		victory_points = { 11099 10 }
+		victory_points = { 356 2 }
 		add_core_of = UMN
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 
 		}
 
@@ -21,6 +21,6 @@ state={
 	}
 	manpower=37607
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }
