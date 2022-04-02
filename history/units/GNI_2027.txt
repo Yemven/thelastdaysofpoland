@@ -1,0 +1,51 @@
+division_template = {
+	name = "Drużyna Książeca"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Gnieźnieńska Drużyna Książeca"
+		location = 13506
+		division_template = "Drużyna Książeca"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Konińska Drużyna Książeca"
+		location = 2070
+		division_template = "Drużyna Książeca"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Wrzesińska Drużyna Książeca"
+		location = 13526
+		division_template = "Drużyna Książeca"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Kolska Drużyna Książeca"
+		location = 2490
+		division_template = "Drużyna Książeca"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Słupecka Drużyna Książeca"
+		location = 3758
+		division_template = "Drużyna Książeca"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}

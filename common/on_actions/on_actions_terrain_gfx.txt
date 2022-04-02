@@ -203,7 +203,7 @@ on_actions = {
 			587 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_poznan_osiedle_bohaterow_iiww}
-					province = { id = 13363 }
+					province = { id = 13343 }
 				}
 			}
 			220 = {
@@ -224,6 +224,121 @@ on_actions = {
 					province = { id = 72 }
 				}
 			}
+			585 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_piatkowo}
+					province = { id = 13373 }
+				}
+			}
+			220 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_chwaliszewo}
+					province = { id = 2871 }
+				}
+			}
+			220 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_swiety_marcin}
+					province = { id = 13362 }
+				}
+			}
+			220 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_garbary}
+					province = { id = 13363 }
+				}
+			}
+			220 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_polwiejska}
+					province = { id = 13361 }
+				}
+			}
+			220 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_krolowej_jadwigi}
+					province = { id = 13360 }
+				}
+			}
+			585 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_winogrady}
+					province = { id = 13371 }
+				}
+			}
+			582 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_wilda}
+					province = { id = 13347 }
+				}
+			}
+			585 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_osiedle_jana_iii_sobieskiego}
+					province = { id = 13375 }
+				}
+			}
+			585 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_naramowice}
+					province = { id = 13372 }
+				}
+			}
+			585 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_podolany}
+					province = { id = 13374 }
+				}
+			}
+			689 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gniezno}
+					province = { id = 13506 }
+				}
+			}
+			583 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_grunwald}
+					province = { id = 13379 }
+				}
+			}
+			582 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_debiec}
+					province = { id = 13348 }
+				}
+			}
+			582 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_debina}
+					province = { id = 13350 }
+				}
+			}
+			582 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_legi_debinskie}
+					province = { id = 13349 }
+				}
+			}
+			587 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_most_przemysla_i}
+					province = { id = 2421 }
+				}
+			}
+			587 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_poznan_zegrze}
+					province = { id = 13344 }
+				}
+			}
+			271 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_zerkow}
+					province = { id = 13689 }
+				}
+			}
+			
 			
 		}
 	}

@@ -1,0 +1,43 @@
+division_template = {
+	name = "Brygada Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1 Brygada Piechoty"
+		location = 3006
+		division_template = "Brygada Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "2 Brygada Piechoty"
+		location = 240
+		division_template = "Brygada Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3 Brygada Piechoty"
+		location = 13677
+		division_template = "Brygada Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "4 Brygada Piechoty"
+		location = 13592
+		division_template = "Brygada Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
