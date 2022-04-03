@@ -697,11 +697,11 @@ NGraphics = {
 	DRAW_FOW_CUTOFF = 400,
 	DRAW_FOW_FADE_LENGTH = 350,
 	GRADIENT_BORDERS_FIELD_COUNTRY_REFRESH = 10, -- When country changes it's size by X provinces, then it refresh it's thickness and rebuilds all provinces
-	GRADIENT_BORDERS_FIELD_COUNTRY_LOW = 300.0, -- country area in sum of pixels ...
-	GRADIENT_BORDERS_FIELD_COUNTRY_HIGH = 9000.0, -- ... the value is squared, so fe. country of size 100x100pix = 10000
-	GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW = 5.0, -- thickness in pixels
-	GRADIENT_BORDERS_COUNTRY_CENTER_THICKNESS = 2.0, -- The center gradient is linear 1/255 per pixel for this many pixels
-	GRADIENT_BORDERS_THICKNESS_COUNTRY_HIGH = 25.0,
+	GRADIENT_BORDERS_FIELD_COUNTRY_LOW = 20.0, -- country area in sum of pixels ...
+	GRADIENT_BORDERS_FIELD_COUNTRY_HIGH = 2000.0, -- ... the value is squared, so fe. country of size 100x100pix = 10000
+	GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW = 0.5, -- thickness in pixels
+	GRADIENT_BORDERS_COUNTRY_CENTER_THICKNESS = 1.0, -- The center gradient is linear 1/255 per pixel for this many pixels
+	GRADIENT_BORDERS_THICKNESS_COUNTRY_HIGH = 15.0,
 	GRADIENT_BORDERS_THICKNESS_STATE = 5.0,
 	GRADIENT_BORDERS_THICKNESS_RESISTANCE = 5.0,
 	GRADIENT_BORDERS_THICKNESS_INTEL_LEDGER = 5.0,
@@ -975,9 +975,9 @@ NGraphics = {
 	SUPPLY_CONSUMER_ARROW_HEIGHT_TO_LEN = 0.1,
 	SUPPLY_CONSUMER_ARROW_HEIGHT_MAX = 4.0,
 
-	SUPPLY_UNIT_COUNTER_SHOW_THRESHOLD = 0.75,  -- At what supply threshold will the normal crate be shown on unit counters
-	SUPPLY_UNIT_COUNTER_LOW_THRESHOLD = 0.50,  -- At what supply threshold will the orange crate be shown on unit counters
-	SUPPLY_UNIT_COUNTER_VERY_LOW_THRESHOLD = 0.25,  -- At what supply threshold will the red crate with ! will be shown on unit counters
+	SUPPLY_UNIT_COUNTER_SHOW_THRESHOLD = 0.5,  -- At what supply threshold will the normal crate be shown on unit counters
+	SUPPLY_UNIT_COUNTER_LOW_THRESHOLD = 0.35,  -- At what supply threshold will the orange crate be shown on unit counters
+	SUPPLY_UNIT_COUNTER_VERY_LOW_THRESHOLD = 0.2,  -- At what supply threshold will the red crate with ! will be shown on unit counters
 
 	COUP_GREEN = { 0.0, 1.0, 0.0, 1.0 },
 	COUP_RED = { 1.0, 0.0, 0.0, 1.0 },
@@ -1247,6 +1247,10 @@ NInterface = {
 	POLITICAL_LEADER_ICON_SPRITE_ID = 13,
 
 	EQUIPMENT_DESIGNER_SHOW_MODULE_FORBIDS_BASE_ROLE_ICON = 0, -- When selecting a module in the tank designer, for each role the module forbids a role icon will be displayed. If this is set to 0 no icon will be displayed if the main tank role is forbidden. If set to 1 the icon will be displayed as normal.
+	EQUIPMENT_DESIGNER_SHOW_MODULE_FORBIDS_BASE_ROLE_ICON = 0, -- If this is set to 0 no icon will be displayed if the main tank role is forbidden. If set to 1 the icon will be displayed as normal.
+	EQUIPMENT_DESIGNER_SHOW_MODULE_FORBIDS_SPECIALIZED_ROLE_ICON = 0, -- If this is set to 0 no icons will be displayed for any forbidden specialized roles. If set to 1 the icons will be displayed as normal.
+
+	SLOW_INTERFACE_THRESHOLD = 5000, -- Show warning "SLOW INTERFACE" in debug when interface refresh takes more that this (in microseconds)
 },
 
 
