@@ -1,25 +1,16 @@
 ideas = {
-
 	country = {
 		WIN_idea_main =	{
-			allowed = {
-				always = yes
-
-				allowed_civil_war = {
-				always = yes
-			}
-			
-			}
-
+			allowed = { always = no }
 			removal_cost = -1
-			picture = #sie kiedys doda 
+			picture = win_idea_wino
 			modifier = {
-				offence = 0.2
-				monthly_population	= 0.5
-				production_speed_buildings_factor -0.3
-				research_speed_factor = -0.1
-				industrial_capacity_factory = -0.2
-				political_power_gain = 0.2
+					offence = 0.2
+					monthly_population	= 0.5
+					production_speed_buildings_factor -0.3
+					research_speed_factor = -0.1
+					industrial_capacity_factory = -0.2
+					political_power_gain = 0.2
 			}
 		}
 	}
