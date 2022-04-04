@@ -375,4 +375,9 @@ spriteTypes = {
 		name = "BBW_autumn"
 		texturefile = "gfx/interface/goals/BBW_autumn.dds"
 	}
+		SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		legacy_lazy_load = no
+	}
 }
