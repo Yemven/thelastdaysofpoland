@@ -33,7 +33,7 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = { }
+		completion_reward = { stability_factor = 0.1 }
 	}
 	
 	focus = {
@@ -104,6 +104,8 @@ focus_tree = {
 		icon = WIN_raid_their_possesions
 		relative_position_id = WIN_german_wineyard_owners
 		prerequisite = { focus = WIN_german_wineyard_owners }
+		mutually_exclusive = { focus = WIN_buy_their_wineyards }
+		mutually_exclusive = { focus = WIN_buy_their_wine }
 		available = {
 		
 		}
@@ -125,6 +127,8 @@ focus_tree = {
 		icon = WIN_buy_their_wine
 		relative_position_id = WIN_german_wineyard_owners
 		prerequisite = { focus = WIN_german_wineyard_owners }
+		mutually_exclusive = { focus = WIN_buy_their_wineyards }
+		mutually_exclusive = { focus = WIN_raid_their_possesions }
 		available = {
 		
 		}
@@ -146,6 +150,8 @@ focus_tree = {
 		icon = WIN_buy_their_wineyards
 		relative_position_id = WIN_german_wineyard_owners
 		prerequisite = { focus = WIN_german_wineyard_owners }
+		mutually_exclusive = { focus = WIN_raid_their_possesions }
+		mutually_exclusive = { focus = WIN_buy_their_wine }
 		available = {
 		
 		}
@@ -166,9 +172,9 @@ focus_tree = {
 		id = WIN_gigantic_supply_of_wine
 		icon = WIN_gigantic_supply_of_wine
 		relative_position_id = WIN_buy_their_wine
-		prerequisite = { focus = WIN_buy_their_wine }
-		prerequisite = { focus = WIN_raid_their_possesions }
-		prerequisite = { focus = WIN_buy_their_wineyards }
+		prerequisite = { focus = WIN_raid_their_possesions
+						 focus = WIN_buy_their_wineyards
+						 focus = WIN_buy_their_wine }
 		available = {
 		
 		}
