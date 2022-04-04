@@ -1,0 +1,38 @@
+ideas = {
+
+	country = {
+		FEL_golden_liberty =	{
+			original_tag = FEL
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_more_steam
+			modifier = {
+				army_org_Factor = -0.1
+                army_attack_Factor = 0.1
+				army_defence_Factor = 0.1
+				army_speed_Factor = 0.1
+				
+			}
+		}
+
+		FEL_popuszczac_czy_nie_popuszczac = {
+			original_tag = FEL
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				stability_factor = -0.3
+				political_power_gain = -0.2
+			}
+		}
+	}
+}

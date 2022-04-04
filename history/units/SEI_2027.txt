@@ -1,0 +1,43 @@
+division_template = {
+	name = "Pėstininkų Batalionas"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Pėstininkų Kuopa"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1 Pėstininkų Batalionas"
+		location = 11882
+		division_template = "Pėstininkų Batalionas"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "1 Pėstininkų Kuopa"
+		location = 1152
+		division_template = "Pėstininkų Kuopa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2 Pėstininkų Kuopa"
+		location = 11886
+		division_template = "Pėstininkų Kuopa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
+	

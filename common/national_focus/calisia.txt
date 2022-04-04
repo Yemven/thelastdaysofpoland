@@ -1,0 +1,530 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = calisia_intro_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = CAL
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 2000 }
+	
+	focus = {
+		id = CAL_dobrze_jest_byc_cesarzem
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 0
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_zwyczajowe_dary_od_senatorow
+		prerequisite = { focus = CAL_dobrze_jest_byc_cesarzem }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_merytokratyczny_psikus
+		prerequisite = { focus = CAL_zwyczajowe_dary_od_senatorow }
+		mutually_exclusive = { focus = CAL_odwdzieczenie_sie }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 3
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_wyslanie_kwestorow_w_teren
+		prerequisite = { focus = CAL_merytokratyczny_psikus }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 3
+		y = 3
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_odwdzieczenie_sie
+		prerequisite = { focus = CAL_zwyczajowe_dary_od_senatorow }
+		mutually_exclusive = { focus = CAL_merytokratyczny_psikus }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 5
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_budowa_siatki_kontaktow
+		prerequisite = { focus = CAL_odwdzieczenie_sie }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 5
+		y = 3
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_niebywale_doniesienia
+		prerequisite = { focus = CAL_budowa_siatki_kontaktow focus = CAL_wyslanie_kwestorow_w_teren }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 4
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_sprawa_ager_publicus
+		prerequisite = { focus = CAL_dobrze_jest_byc_cesarzem }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 1
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_mowa_o_naduzyciach
+		prerequisite = { focus = CAL_sprawa_ager_publicus }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_cyceronski_sznyt
+		prerequisite = { focus = CAL_mowa_o_naduzyciach }
+		mutually_exclusive = { focus = CAL_gniewnosc_demostenesa }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 7
+		y = 3
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_rozkradanie_res_publici
+		prerequisite = { focus = CAL_cyceronski_sznyt }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 7
+		y = 4
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_stracone_szanse
+		prerequisite = { focus = CAL_rozkradanie_res_publici }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 7
+		y = 5
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_gniewnosc_demostenesa
+		prerequisite = { focus = CAL_mowa_o_naduzyciach }
+		mutually_exclusive = { focus = CAL_cyceronski_sznyt }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 9
+		y = 3
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_ubozenie_zwyklych_obywateli
+		prerequisite = { focus = CAL_gniewnosc_demostenesa }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 9
+		y = 4
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_glod_ziemi_o_stali
+		prerequisite = { focus = CAL_ubozenie_zwyklych_obywateli }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 9
+		y = 5
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_chaos_na_komisjach
+		prerequisite = { focus = CAL_glod_ziemi_o_stali focus = CAL_stracone_szanse }
+		prerequisite = { focus = CAL_lojalnosc_wiecznego_miasta }
+		prerequisite = { focus = CAL_niebywale_doniesienia }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 6
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_armia_obywatelska
+		prerequisite = { focus = CAL_dobrze_jest_byc_cesarzem }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 12
+		y = 1
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_wyzszy_zold_dla_pretorian
+		prerequisite = { focus = CAL_armia_obywatelska }
+		mutually_exclusive = { focus = CAL_wyzszy_zold_i_wieksza_dyscyplina }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 11
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_wino_w_koszarach
+		prerequisite = { focus = CAL_wyzszy_zold_dla_pretorian }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 11
+		y = 3
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_wyzszy_zold_i_wieksza_dyscyplina
+		prerequisite = { focus = CAL_armia_obywatelska }
+		mutually_exclusive = { focus = CAL_wyzszy_zold_dla_pretorian }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 13
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_krew_na_piachu
+		prerequisite = { focus = CAL_wyzszy_zold_i_wieksza_dyscyplina }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 13
+		y = 3
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_lojalnosc_wiecznego_miasta
+		prerequisite = { focus = CAL_krew_na_piachu focus = CAL_wino_w_koszarach }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 12
+		y = 4
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_imperator_gwarantem_pokoju
+		prerequisite = { focus = CAL_chaos_na_komisjach }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 7
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_lex_commutationis_et_perspicuitais
+		prerequisite = { focus = CAL_imperator_gwarantem_pokoju }
+		mutually_exclusive = { focus = CAL_lex_lustitiae_socialis }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 7
+		y = 8
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = CAL_lex_lustitiae_socialis
+		prerequisite = { focus = CAL_imperator_gwarantem_pokoju }
+		mutually_exclusive = { focus = CAL_lex_commutationis_et_perspicuitais }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 9
+		y = 8
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+
+	
