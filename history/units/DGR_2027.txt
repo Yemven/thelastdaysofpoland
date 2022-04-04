@@ -1,0 +1,46 @@
+division_template = {
+	name = "Batalion Czerwonych Sztandarów"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+    division = {
+		name = "Batalion im. Edmunda Cedlera"
+		location = 7749
+		division_template = "Batalion Czerwonych Sztandarów"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "Batalion im. Juliana Marchlewskiego"
+		location = 3201
+		division_template = "Batalion Czerwonych Sztandarów"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Batalion im. Feliksa Dzierżyńskiego"
+		location = 7743
+		division_template = "Batalion Czerwonych Sztandarów"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Batalion im. Stanisława Łańcuckiego"
+		location = 4010
+		division_template = "Batalion Czerwonych Sztandarów"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	
+}
