@@ -1,0 +1,77 @@
+division_template = {
+	name = "Batalion Milicji Obywatelskiej"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brygada Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "Batalion Sosnowiec"
+		location = 1357
+		division_template = "Batalion Milicji Obywatelskiej"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+	    name = "Batalion Sosnowiec Klimontów"
+		location = 7764
+		division_template = "Batalion Milicji Obywatelskiej"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+	    name = "Batalion Będzin"
+		location = 4006
+		division_template = "Batalion Milicji Obywatelskiej"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+	    name = "Batalion Czeladź"
+		location = 4011
+		division_template = "Batalion Milicji Obywatelskiej"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+	    name = "Batalion Siewierz"
+		location = 7792
+		division_template = "Batalion Milicji Obywatelskiej"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+	    name = "Sosnowiecka Wielka Brygada Piechoty im. Edwarda Gierka"
+		location = 7762
+		division_template = "Brygada Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+	    name = "2. Brygada Piechoty"
+		location = 7796
+		division_template = "Brygada Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
