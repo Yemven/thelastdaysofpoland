@@ -5,13 +5,16 @@ state={
 
 	history={
 		owner = JSO
-		victory_points = {
-
-		}
+		victory_points = { 1840 30 }
+		victory_points = { 4107 2 }
+		victory_points = { 12150 2 }
+		victory_points = { 12144 2 }
+		victory_points = { 12145 2 }
+		victory_points = { 12146 5 }
 		add_core_of = JSO
 		buildings = {
-			infrastructure = 7
-
+			infrastructure = 6
+			air_base = 1
 		}
 
 	}
@@ -19,8 +22,8 @@ state={
 	provinces={
 		631 1237 1840 4101 4107 12143 12144 12145 12146 12147 12148 12149 12150 12151 12152 12153 12154 12155 
 	}
-	manpower=1
+	manpower=83050
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 	local_supplies=0.000
 }

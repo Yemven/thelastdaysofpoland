@@ -5,13 +5,14 @@ state={
 
 	history={
 		owner = CHR
-		victory_points = {
-
-		}
+		victory_points = { 301 2 }
+		victory_points = { 12553 5 }
+		victory_points = { 12557 2 }
+		victory_points = { 12559 2 }
 		add_core_of = CHR
 		add_core_of = NIS
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 
 		}
 
@@ -20,8 +21,8 @@ state={
 	provinces={
 		301 597 1825 3492 3966 12552 12553 12554 12555 12556 12557 12558 12559 12560
 	}
-	manpower=1
+	manpower=21046
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=rural
 	local_supplies=0.000
 }

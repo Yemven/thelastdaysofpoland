@@ -2,17 +2,17 @@ state={
 	id=814
 	name="STATE_814"
 	provinces={
-		2009 2698 2740 3052 12584 12585 12588 12589 12590 12591 12592 12593 12594 12595 12596 12597 12598 12599 12600 12601 12602 12603 
+		2009 2698 2740 3052 12584 12585 12588 12589 12590 12591 12592 12593 12594 12595 12596 12597 12598 12599 12600 12601 12602 12603 12638 
 	}
 	history={
 		owner = TAR
-		victory_points = {
-
-		}
+		victory_points = { 2698 5 }
+		victory_points = { 12594 10 }
+		victory_points = { 2740 2 }
+		victory_points = { 12585 2 }
 		add_core_of = TAR
 		buildings = {
 			infrastructure = 5
-
 		}
 
 	}

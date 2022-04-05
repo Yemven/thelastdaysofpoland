@@ -4,11 +4,21 @@ state={
 	provinces={
 		1484 1808 1830 1877 1902 1936 4026 12604 12605 12606 12607 12608 12609 12610 12611 12612 12613 12614 12615 12616 12617 12618 12619 12620 12621 12622 12623 12624 12625 12626 12627 12628 12629 12630 12631 12632 12633 12634
 	}
-	manpower = 1   state_category = city
+	manpower = 128450   
+	state_category = city
 	buildings_max_level_factor=1.000
 				history = {
 		owner = MIE
-		victory_points = { }
+		victory_points = { 4026 30 }
+		victory_points = { 12633 10 }
+		victory_points = { 12626 5 }
+		victory_points = { 12621 5 }
+		victory_points = { 12619 2 }
+		victory_points = { 12617 2 }
+		victory_points = { 12614 2 }
+		victory_points = { 12605 2 }
+		victory_points = { 1484 2 }
+		victory_points = { 12612 2 }
 		add_core_of = MIE
 	buildings = {
 	infrastructure = 7
