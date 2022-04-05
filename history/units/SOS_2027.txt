@@ -6,11 +6,12 @@ division_template = {
 		militia = { x = 0 y = 2 }
 		militia = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
 	}
 }
 
 division_template = {
-	name = "Brygada Piechoty"
+	name = "Pułk Piechoty LWZ"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -21,15 +22,15 @@ division_template = {
 
 units = {
     division = {
-		name = "Batalion Sosnowiec"
-		location = 1357
+		name = "MO Zagórze"
+		location = 4019
 		division_template = "Batalion Milicji Obywatelskiej"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.9
 	}
 
 	division = {
-	    name = "Batalion Sosnowiec Klimontów"
+	    name = "MO Klimontów"
 		location = 7764
 		division_template = "Batalion Milicji Obywatelskiej"
 		start_experience_factor = 0.1
@@ -37,7 +38,7 @@ units = {
 	}
 	
 	division = {
-	    name = "Batalion Będzin"
+	    name = "MO Będzin"
 		location = 4006
 		division_template = "Batalion Milicji Obywatelskiej"
 		start_experience_factor = 0.1
@@ -45,7 +46,7 @@ units = {
 	}
 	
 	division = {
-	    name = "Batalion Czeladź"
+	    name = "MO Czeladź"
 		location = 4011
 		division_template = "Batalion Milicji Obywatelskiej"
 		start_experience_factor = 0.1
@@ -53,25 +54,25 @@ units = {
 	}
 	
 	division = {
-	    name = "Batalion Siewierz"
-		location = 7792
+	    name = "MO Pyrzowice"
+		location = 3324
 		division_template = "Batalion Milicji Obywatelskiej"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 	}
 	
 	division = {
-	    name = "Sosnowiecka Wielka Brygada Piechoty im. Edwarda Gierka"
-		location = 7762
-		division_template = "Brygada Piechoty"
+	    name = "1 Pułk Piechoty im. Edwarda Gierka"
+		location = 1357
+		division_template = "Pułk Piechoty LWZ"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-	    name = "2. Brygada Piechoty"
-		location = 7796
-		division_template = "Brygada Piechoty"
+	    name = "2 Siewierski Pułk Piechoty"
+		location = 7792
+		division_template = "Pułk Piechoty LWZ"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
 	}
