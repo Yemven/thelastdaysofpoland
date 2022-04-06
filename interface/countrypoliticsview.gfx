@@ -630,7 +630,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idee_menu_window"
 		textureFile = "gfx//interface//idee_menu_window.dds"
-		borderSize = { x=64 y=64 }
+		#borderSize = { x=64 y=64 } # dla pojedynczego sprita to nie działa xD
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 	spriteType = {
