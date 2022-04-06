@@ -387,7 +387,7 @@ focus_tree = {
 
 		cost = 3
 		search_filters = { }
-		completion_reward = { }
+		completion_reward = {add_ideas = ZIE_the_green_struggle}
 	}
 		focus = { id = ZIE_secure_the_beachheads
 		icon = ZIE_secure_the_beachheads
@@ -402,7 +402,8 @@ focus_tree = {
 
 		cost = 3
 		search_filters = { }
-		completion_reward = { }
+		completion_reward = {set_technology = {transport = 1}
+}
 	}
 		focus = { id = ZIE_the_wawer_guard
 		icon = ZIE_the_wawer_guard
@@ -417,7 +418,10 @@ focus_tree = {
 
 		cost = 3
 		search_filters = { }
-		completion_reward = { }
+		completion_reward = {swap_ideas = {
+    		remove_idea = ZIE_the_green_struggle
+    		add_idea = ZIE_the_green_struggle_2} 
+	}
 	}
 		focus = { id = ZIE_reach_out_to_mercenaries
 		icon = ZIE_reach_out_to_mercenaries
@@ -448,7 +452,7 @@ focus_tree = {
 
 		cost = 3
 		search_filters = { }
-		completion_reward = { }
+		completion_reward = {add_war_support = 0.1}
 	}
 		focus = { id = ZIE_strike_from_the_shadows
 		icon = ZIE_bring_the_fight_to_them
@@ -463,7 +467,10 @@ focus_tree = {
 
 		cost = 3
 		search_filters = { }
-		completion_reward = { }
+		completion_reward = {create_wargoal = {
+		type = take_state_focus
+		target = DUP
+		generator = { 122 } } }
 	}
 }
 }

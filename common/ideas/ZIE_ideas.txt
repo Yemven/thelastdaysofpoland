@@ -65,8 +65,8 @@ ideas = {
 				political_power_gain = -0.5
 				conscription_factor = -0.1
 				industrial_capacity_factory = -0.05
-	}
-}
+			}
+		}
 
 		ZIE_looming_famine_5 =	{
 			original_tag = ZIE
@@ -84,8 +84,8 @@ ideas = {
 				political_power_gain = -0.2
 				conscription_factor = -0.25
 				industrial_capacity_factory = -0.25
-	}
-}
+			}
+		}
 
 		ZIE_looming_famine_6 =	{
 			original_tag = ZIE
@@ -104,8 +104,8 @@ ideas = {
 				conscription_factor = -0.25
 				industrial_capacity_factory = -0.25
 				consumer_goods_factor = -0.1
-	}
-}
+			}
+		}
 
 		ZIE_famine_averted_1 =	{
 			original_tag = ZIE
@@ -122,8 +122,8 @@ ideas = {
 				conscription_factor = -0.15
 				industrial_capacity_factory = -0.2
 				consumer_goods_factor = -0.1
-	}
-}
+			}
+		}
 
 		ZIE_famine_averted_2 =	{
 			original_tag = ZIE
@@ -138,8 +138,8 @@ ideas = {
 			picture = ZIE_looming_famine
 			modifier = {
 				political_power_gain = -0.3
-	}
-}
+			}
+		}
 
 		ZIE_the_people_of_the_forest = {
 			original_tag = ZIE
@@ -147,13 +147,13 @@ ideas = {
 				always = yes
 			}
 			allowed_civil_war = {
-				always = yes
+				always = no
 			}
 
 			removal_cost = -1
 			picture = ZIE_the_people_of_the_forest
 			modifier = {army_core_defence_factor = 0.15}
-	}
+			}
 
 		ZIE_he_that_is_without_sin = {
 			original_tag = ZIE
@@ -167,6 +167,35 @@ ideas = {
 			removal_cost = -1
 			picture = ZIE_he_that_is_without_sin
 			modifier = {war_support_factor = 0.1}
-}
+			}
 
+		ZIE_the_green_struggle = {
+			original_tag = ZIE
+		allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZIE_the_green_struggle
+			modifier = {war_support_factor = 0.05}
+		}
+		ZIE_the_green_struggle_2 = {
+			original_tag = ZIE
+		allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZIE_the_green_struggle
+			modifier = {war_support_factor = 0.05
+			army_attack_factor = 0.1
+			army_defence_factor = 0.1}
+		}
+	}
 }
