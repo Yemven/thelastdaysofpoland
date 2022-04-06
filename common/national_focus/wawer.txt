@@ -230,7 +230,10 @@ focus_tree = {
 		
 		cost = 3
 		search_filters = { }
-		completion_reward = { }
+		completion_reward = {add_stability = 0.1
+		add_popularity = {
+    	ideology = postpolonism
+    	popularity = 0.1}}
 }	
 
 	focus = {id = ZIE_we_must_return
@@ -249,7 +252,7 @@ focus_tree = {
 		
 		cost = 3
 		search_filters = { }
-		completion_reward = { }	
+		completion_reward = {add_political_power = 50 }	
 
 }
 	focus = {
@@ -270,7 +273,8 @@ focus_tree = {
 		
 		cost = 3
 		search_filters = { }
-		completion_reward = {  }
+		completion_reward = {
+			add_stability = -0.1}
 	}
 	focus = {
 		id = ZIE_ideals_above_all

@@ -25,5 +25,22 @@ characters={
 			id=-1
 		}
 	}
-
+		ZIE_dzik = {
+		name = "Dariusz Zik"
+		portraits = {
+            army = {
+				large = "gfx/leaders/ZIE/ZIE_Boar1.dds"
+				small = "gfx/leaders/ZIE/ZIE_Boar1.dds"}
+			}
+        corps_commander = {
+			traits = { ranger }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+			visible = { <triggers> }
+        }
+        }
+        
 }
