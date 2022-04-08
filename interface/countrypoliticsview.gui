@@ -571,9 +571,19 @@ guiTypes = {
 	containerWindowType = {
 		name = "country_politics_idea_category_entry"
 		position = { x = 0 y = 20 }
-		size = { width=550 height= 150 }
+		size = { width=500 height= 150 }
 		clipping = no
 		
+		gridboxtype = {
+			name ="category_header"
+			position = { x=90 y=-22 }
+			size = { width =82% height=44} 
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_fullborder_tiled" #gdzie to jest?
+				position = { x=0 y=0 }					
+			}	
+		}
 		iconType ={
 			name ="category_header"
 			spriteType = "GFX_category_header"
