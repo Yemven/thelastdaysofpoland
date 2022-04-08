@@ -1,13 +1,26 @@
 characters={
-	SAN_leszek_moczulski={
-		name="Leszek Moczulski"
+	SAN_jaraczewski={
+		name="Krzysztof Jaraczewski"
 		portraits={
 			civilian={
-				large="gfx/leaders/SAN/SAN_Moczulski1.dds"
+				large="gfx/leaders/SAN/SAN_Jaraczewski.dds"
 			}
 		}
 		country_leader={
 			ideology=reactionary_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SAN_potocki={
+		name="Jan Zbigniew Potocki"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAN/SAN_Potocki.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
 			expire="1.1.1.1"
 			id=-1
 		}

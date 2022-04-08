@@ -1,9 +1,9 @@
 characters={
-	PLC_komendant_bagieta={
-		name="Komendant Bagieta"
+	PLC_szymczyk={
+		name="Jarosław Szymczyk"
 		portraits={
 			civilian={
-				large="gfx/leaders/PLC/PLC_Bagieta1.dds"
+				large="gfx/leaders/PLC/PLC_Szymczyk.dds"
 			}
 		}
 		country_leader={
@@ -25,4 +25,16 @@ characters={
 			id=-1
 		}
 	}
+	PLC_bagieta={
+		name="Sierżant Bagieta"
+		portraits={ civilian = { large = "gfx/leaders/PLC/PLC_Bagieta1.dds"  } }
+		corps_commander = {
+			traits = { commando infantry_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+}
 }

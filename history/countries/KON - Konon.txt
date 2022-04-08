@@ -8,7 +8,18 @@ set_technology = {
 
 set_convoys = 20
 
-recruit_character = KON_krzysztof_kononowicz
+recruit_character = KON_konon_autocracy
+recruit_character = KON_konon_general
+recruit_character = KON_konon_postpol
+recruit_character = KON_konon_dzwig
+recruit_character = KON_konon_squat
+recruit_character = KON_konon_socdem
+recruit_character = KON_konon_eurolib
+recruit_character = KON_konon_freemarket
+recruit_character = KON_konon_corpo
+recruit_character = KON_konon_neonat
+recruit_character = KON_konon_reactionary
+recruit_character = KON_konon_patcon
 
 
 set_politics = {
@@ -19,15 +30,15 @@ set_politics = {
 }
 
 set_popularities = {
-	marxism_cranism	= 0
-	squattism = 0
-	socialdemocrature = 0
-	euroliberalism = 0
-	freemarketism = 0
-	paternal_conservatism = 0
-	autocracy = 100
-	corporativism = 0
-	neonationalism = 0
-	reactionary = 0
-	postpolonism = 0
+	marxism_cranism	= 10
+	squattism = 5
+	socialdemocrature = 10
+	euroliberalism = 10
+	freemarketism = 10
+	paternal_conservatism = 10
+	autocracy = 10
+	corporativism = 10
+	neonationalism = 10
+	reactionary = 10
+	postpolonism = 5
 }

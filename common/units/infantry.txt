@@ -46,7 +46,49 @@ sub_units = {
 			melee_equipment = 20
 		}
 	}
-	
+	melee_infantry = {
+		abbreviation = "MEL"
+		sprite = infantry
+		map_icon_category = infantry
+
+		priority = 600
+		active = no
+
+		type = {
+			infantry
+		}
+
+		group = infantry
+
+		categories = {
+			category_army
+			category_front_line
+			category_all_infantry
+			category_light_infantry
+		}
+
+		combat_width = 2
+
+		max_strength = 25
+		max_organisation = 30
+		default_morale = 0.2
+		manpower = 100
+		defense = -0.4
+
+		# Misc Abilities
+		training_time = 40
+		suppression = 1
+		weight = 0.6
+
+		supply_consumption = 0.3
+
+		need = {
+			melee_equipment = 100
+		}
+		urban = {
+			movement = 0.1
+		}
+	}
 	militia = {
 		abbreviation = "MIL"
 		sprite = infantry
@@ -75,10 +117,10 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 40
 		default_morale = 0.35
-		manpower = 50
+		manpower = 100
 
 		#Misc Abilities
-		training_time = 40
+		training_time = 60
 		suppression = 1
 		weight = 0.5
 
@@ -92,7 +134,8 @@ sub_units = {
 		breakthrough = -0.3	# militia can't attack effectively
 
 		need = {
-			melee_equipment = 40
+			melee_equipment = 50
+			ranged_equipment = 50
 		}
 	}
 	

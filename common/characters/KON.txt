@@ -1,9 +1,9 @@
 characters={
-	KON_krzysztof_kononowicz={
+	KON_konon_autocracy={
 		name="Krzysztof Kononowicz"
 		portraits={
 			civilian={
-				large="gfx/leaders/KON/KON_Konon1.dds"
+				large="gfx/leaders/KON/KON_KononAutocracy.dds"
 			}
 		}
 		country_leader={
@@ -12,4 +12,146 @@ characters={
 			id=-1
 		}
 	}
+	KON_konon_postpol={
+		name="Krzysztof Kononowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononPostpol.dds"
+			}
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KON_konon_dzwig={
+		name="Krzysztof Kononowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononMarxCran.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism_cranism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KON_konon_squat={
+		name="Krzysztof Kononowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononSquat.dds"
+			}
+		}
+		country_leader={
+			ideology=squattism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KON_konon_socdem={
+		name="Krzysztof Kononowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononSocDem.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KON_konon_eurolib={
+		name="Krzysztof Kononowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononEuroLib.dds"
+			}
+		}
+		country_leader={
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KON_konon_freemarket={
+		name="Kris Kononowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononFreeMarket.dds"
+			}
+		}
+		country_leader={
+			ideology=freemarketism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KON_konon_patcon={
+		name="Krzysztof Kononowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononPatCon.dds"
+			}
+		}
+		country_leader={
+			ideology=paternal_conservatism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KON_konon_neonat={
+		name="Krzysztof Kononowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononNeoNat.dds"
+			}
+		}
+		country_leader={
+			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KON_konon_corpo={
+		name="Krzysztof Kononowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononCorpo.dds"
+			}
+		}
+		country_leader={
+			ideology=corporativism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KON_konon_reactionary={
+		name="Krzysztof Kononowicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononReactionary.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KON_konon_general={
+		name="Krzysztof Kononowicz"
+		portraits={ civilian = { large = "gfx/leaders/KON/KON_KononGeneral.dds"  } }
+		corps_commander = {
+			traits = { commando infantry_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+}
 }
