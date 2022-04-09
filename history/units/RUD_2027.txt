@@ -1,0 +1,64 @@
+division_template = {
+	name = "Czŏrnŏ Szychta"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Grubiorze"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1 Szychta 'Halymba'"
+		location = 3354
+		division_template = "Czŏrnŏ Szychta"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2 Szychta 'Chebźe'"
+		location = 3329
+		division_template = "Czŏrnŏ Szychta"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3 Szychta 'Świynto Barbara'"
+		location = 7967
+		division_template = "Czŏrnŏ Szychta"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Grubiŏrze z Świyntochłowic"
+		location = 3515
+		division_template = "Grubiorze"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Czŏrne Chachory"
+		location = 7970
+		division_template = "Grubiorze"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Regimynt 'Eye of the Sztajger'"
+		location = 4028
+		division_template = "Grubiorze"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}
