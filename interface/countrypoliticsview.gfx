@@ -1,5 +1,21 @@
 spriteTypes = {
 	
+	corneredTileSpriteType = {
+        name = "GFX_newborder"
+        texturefile = "gfx/interface/tiles/test2.dds"
+        size = {
+            x = 8
+            y = 8
+        }
+        borderSize = {
+            x = 4
+            y = 4
+        }
+        
+        allwaystransparent = true
+        tilingCenter = false
+    }
+	
 	#Government in Exile
 
 	spriteType = {
