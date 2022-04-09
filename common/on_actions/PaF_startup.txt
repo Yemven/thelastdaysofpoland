@@ -1,14 +1,17 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			RAS = {
-				scoped_play_song = "intro_ras"
+			RUD = {
+				scoped_play_song = "intro_ruda"
 			}
 			ZAW = {
 				scoped_play_song = "intro_zawiercie"
 				}
 			CIE = {
 				scoped_play_song = "intro_cieszyn"
+				}
+			ASG = { 
+				scoped_play_song = "intro_asg"
 				}
 			BSK = {
 				scoped_play_song = "intro_golce"
@@ -45,6 +48,12 @@ on_actions = {
 				}
 			MNI = {
 				scoped_play_song = "intro_oppeln"
+				}
+			FEL = { 
+				scoped_play_song = "intro_felix"
+			}
+			BSC = { 
+				scoped_play_song = "intro_bieszczady"
 		}
 	}
 }
