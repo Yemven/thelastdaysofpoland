@@ -4,16 +4,16 @@ spriteTypes = {
         name = "GFX_newborder"
         texturefile = "gfx/interface/tiles/test2.dds"
         size = {
-            x = 8
-            y = 8
+            x = 576
+            y = 576
         }
         borderSize = {
-            x = 4
-            y = 4
+            x = 1
+            y = 1
         }
         
         allwaystransparent = true
-        tilingCenter = false
+        tilingCenter = true
     }
 	
 	#Government in Exile
