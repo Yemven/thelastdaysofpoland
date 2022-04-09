@@ -1,0 +1,66 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Gwardia Cieszyńska"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Górolska Banda"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+    division = {
+		name = "133 Batalion Lekkiej Piechoty"
+		location = 8029
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "1 Skoczowski Batalion Piechoty"
+		location = 4102
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "2 Ustroński Batalion Piechoty"
+		location = 3184
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Straż Olziańska"
+		location = 2657
+		division_template = "Gwardia Cieszyńska"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Banda Czantoryjska"
+		location = 3455
+		division_template = "Górolska Banda"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}

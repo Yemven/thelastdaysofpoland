@@ -1,0 +1,70 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Milicja"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Kibole"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "1 Batalion Piechoty 'Wolna Europa'"
+		location = 3002
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "2 Batalion Piechoty 'Pomarańczowi'"
+		location = 2867
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "3 Tyski Batalion Piechoty"
+		location = 7912
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Królowie Śląska"
+		location = 3147
+		division_template = "Kibole"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Ultras GieKSa'03"
+		location = 7926
+		division_template = "Kibole"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}

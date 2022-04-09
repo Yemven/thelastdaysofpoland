@@ -1,0 +1,92 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kompania Zbójecka"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Beskidzka Banda"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+    division = {
+		name = "1 Bielski Batalion Piechoty"
+		location = 4105
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+    division = {
+		name = "2 Żywiecki Batalion Piechoty"
+		location = 1577
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+    division = {
+		name = "3 Czechowicki Batalion Piechoty"
+		location = 1814
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Kompania Szczyrkowska"
+		location = 1829
+		division_template = "Kompania Zbójecka"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Strzelcy Beskidzcy"
+		location = 8189
+		division_template = "Kompania Zbójecka"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Towarzystwo 'Waligóra'"
+		location = 8186
+		division_template = "Kompania Zbójecka"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Banda Rajczańska"
+		location = 8148
+		division_template = "Beskidzka Banda"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Banda 'Wyrwidąb'"
+		location = 8146
+		division_template = "Beskidzka Banda"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Banda Międzybrodzka"
+		location = 8154
+		division_template = "Beskidzka Banda"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}
