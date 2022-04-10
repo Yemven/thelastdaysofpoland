@@ -1,0 +1,150 @@
+ideas = {
+	
+	country = {
+		TRZ_interservice_rivalry =	{
+			original_tag = TRZ
+		allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = TRZ_interservice_rivalry
+			modifier = { }
+		}
+
+    	TRZ_interservice_rivalry_developers =	{
+	    	original_tag = TRZ
+		allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = TRZ_interservice_rivalry
+			modifier = { }
+		}
+
+    	TRZ_interservice_rivalry_activists =	{
+	    	original_tag = TRZ
+		allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = TRZ_interservice_rivalry
+			modifier = { }
+		}
+	
+		TRZ_the_legitimate_government = {
+			original_tag = TRZ 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = TRZ_the_legitimate_government
+			modifier = { }
+		}
+
+    		TRZ_the_legitimate_government_2 = {
+			original_tag = TRZ 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = TRZ_the_legitimate_government
+			modifier = {political_power_gain = 0.5
+            war_support_factor = 0.05}
+		}
+
+    		TRZ_the_legitimate_government_3 = {
+			original_tag = TRZ 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = TRZ_the_legitimate_government
+			modifier = {political_power_gain = 0.5
+            war_support_factor = 0.05
+            production_speed_buildings_factor = 0.15}
+		}
+
+    		TRZ_the_legitimate_government_4 = {
+			original_tag = TRZ 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = TRZ_the_legitimate_government
+			modifier = {political_power_gain = 0.5
+            war_support_factor = 0.05
+            production_speed_buildings_factor = 0.15
+            consumer_goods_factor = -0.05}
+		}
+
+    		TRZ_the_legitimate_government_5 = {
+			original_tag = TRZ 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = TRZ_the_legitimate_government
+			modifier = {political_power_gain = 0.5
+            war_support_factor = 0.05
+            production_speed_buildings_factor = 0.15
+            consumer_goods_factor = -0.05
+            industrial_capacity_factory = 0.15}
+		}
+
+		TRZ_trenches_and_barricades = {
+			original_tag = TRZ 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = TRZ_trenches_and_barricades
+			modifier = { }
+		}
+
+        TRZ_the_media_in_exile = { 
+            original_tag = TRZ 
+            allowed_civil_war = {always = yes}
+
+            removal_cost = -1
+            picture = TRZ_the_media_in_exile
+            modifier = { }
+        }
+
+        TRZ_the_media_in_exile_TVN = { 
+            original_tag = TRZ 
+            allowed_civil_war = {always = yes}
+
+            removal_cost = -1
+            picture = TRZ_the_media_in_exile
+            modifier = {stability_factor = 0.05}
+        }
+
+        TRZ_the_media_in_exile_people = { 
+            original_tag = TRZ 
+            allowed_civil_war = {always = yes}
+
+            removal_cost = -1
+            picture = TRZ_the_media_in_exile
+            modifier = {political_power_gain = 0.5}
+        }
+
+	}
+}
