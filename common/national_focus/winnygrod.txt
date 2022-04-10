@@ -33,7 +33,7 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = { stability_factor = 0.1 }
+		completion_reward = { add_stability = 0.1}
 	}
 	
 	focus = {
@@ -74,7 +74,10 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { swap_ideas = {
+						remove_idea = WIN_idea_main
+						add_idea = WIN_idea_main1
+					}
 			
 		}
 	}
@@ -118,10 +121,10 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
-			
+		completion_reward = { add_stability = -0.2
 		}
 	}
+	
 	focus = {
 		id = WIN_buy_their_wine
 		icon = WIN_buy_their_wine
@@ -141,7 +144,8 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { add_ideas = WIN_kup_tanio
+
 			
 		}
 	}
@@ -164,7 +168,8 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { add_timed_idea = { idea = WIN_kup_drogo  days = 256 }
+
 			
 		}
 	}
@@ -187,7 +192,10 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { swap_ideas = {
+						remove_idea = WIN_idea_main1
+						add_idea = WIN_idea_main2
+					}
 			
 		}
 	}
@@ -209,7 +217,7 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { add_ideas = { WIN_walka }
 			
 		}
 	}
@@ -219,9 +227,9 @@ focus_tree = {
 		relative_position_id = WIN_export_our_liberty
 		prerequisite = { focus = WIN_export_our_liberty }
 		mutually_exclusive = { focus = WIN_the_realistic_way }
-		available = {
+		available = { country_exists = ZAG }
 		
-		}
+		
 		
 		bypass = {
 		}
@@ -231,10 +239,11 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { add_political_power = 50
 			
 		}
 	}
+
 	focus = {
 		id = WIN_the_realistic_way
 		icon = WIN_the_realistic_way
@@ -253,7 +262,7 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { add_war_support = 0.1
 			
 		}
 	}
@@ -275,7 +284,7 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { annex_country = { target = ZAG transfer_troops = yes }
 			
 		}
 	}
@@ -296,7 +305,10 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { swap_ideas = {
+						remove_idea = WIN_idea_main2
+						add_idea = WIN_idea_main1
+					}
 			
 		}
 	}
@@ -318,10 +330,11 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { add_stability = -0.1
+							add_war_support = 0.05 }
 			
 		}
-	}
+	
 	focus = {
 		id = WIN_rally_the_population
 		icon = WIN_rally_the_population
@@ -339,7 +352,8 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { add_manpower = 10000
+
 			
 		}
 	}
@@ -361,10 +375,19 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { create_wargoal = {
+				type = annex_everything
+				target = ZAG
+				expire = 0 }
+			create_wargoal = {
+				type = annex_everything
+				target = KAM
+				expire = 0}
+			}
+			}
 			
-		}
-	}
+		
+	
 	focus = {
 		id = WIN_incorporation_of_new_lands
 		icon = WIN_incorporation_of_new_lands
@@ -383,9 +406,13 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
-			
+		completion_reward = { add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
 		}
+	}
 	}
 	focus = {
 		id = WIN_show_true_liberty
@@ -404,8 +431,17 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
-			
+		completion_reward = { add_state_core = 227
+							  add_state_core = 273
+							  add_state_core = 267
+							  add_state_core = 293
+							  add_state_core = 313
+							  add_state_core = 308
+							  add_state_core = 297
+							  add_state_core = 204
+							  add_state_core = 209
+							  add_state_core = 205
+							  add_state_core = 612
 		}
 	}
 	focus = {
@@ -425,7 +461,10 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = { }
-		completion_reward = {
+		completion_reward = { create_wargoal = {
+				type = annex_everything
+				target = MOT
+				expire = 0 }
 			
 		}
 	}
