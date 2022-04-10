@@ -584,12 +584,12 @@ guiTypes = {
 				position = { x=0 y=0 }					
 			}	
 		}
-		iconType ={
-			name ="category_header"
-			spriteType = "GFX_category_header"
-			position = { x=90 y=-22 }
-			Orientation = "UPPER_CENTER"
-		}
+		#iconType ={
+			#name ="category_header"
+			#spriteType = "GFX_category_header"
+			#position = { x=90 y=-22 }
+			#Orientation = "UPPER_CENTER"
+		#}
 		iconType ={
 			name ="category_icon"
 			spriteType = "GFX_idea_categories"
