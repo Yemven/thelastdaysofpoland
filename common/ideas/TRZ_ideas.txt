@@ -62,7 +62,7 @@ ideas = {
 
 			removal_cost = -1
 			picture = TRZ_the_legitimate_government
-			modifier = {political_power_gain = 0.5
+			modifier = {stability_factor = 0.1
             war_support_factor = 0.05}
 		}
 
@@ -74,7 +74,7 @@ ideas = {
 
 			removal_cost = -1
 			picture = TRZ_the_legitimate_government
-			modifier = {political_power_gain = 0.5
+			modifier = {stability_factor = 0.1
             war_support_factor = 0.05
             production_speed_buildings_factor = 0.15}
 		}
@@ -87,7 +87,7 @@ ideas = {
 
 			removal_cost = -1
 			picture = TRZ_the_legitimate_government
-			modifier = {political_power_gain = 0.5
+			modifier = {stability_factor = 0.1
             war_support_factor = 0.05
             production_speed_buildings_factor = 0.15
             consumer_goods_factor = -0.05}
@@ -101,7 +101,7 @@ ideas = {
 
 			removal_cost = -1
 			picture = TRZ_the_legitimate_government
-			modifier = {political_power_gain = 0.5
+			modifier = {stability_factor = 0.1
             war_support_factor = 0.05
             production_speed_buildings_factor = 0.15
             consumer_goods_factor = -0.05
@@ -143,7 +143,7 @@ ideas = {
 
             removal_cost = -1
             picture = TRZ_the_media_in_exile
-            modifier = {political_power_gain = 0.5}
+            modifier = {political_power_gain = 0.2}
         }
 
 	}
