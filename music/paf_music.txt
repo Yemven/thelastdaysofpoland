@@ -1,11 +1,201 @@
 music_station = "paf_station"
 music = {
+	song = "intro_bombas"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = BOM
+		}
+	}
+}
+music = {
+	song = "intro_bractwo"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = BBW
+		}
+	}
+}
+music = {
+	song = "intro_ferajna"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = FER
+		}
+	}
+}
+music = {
+	song = "intro_konon"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = KON
+		}
+	}
+}
+music = {
+	song = "intro_korsarze"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = KOR
+		}
+	}
+}
+music = {
+	song = "intro_kozacy"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = KOZ
+		}
+	}
+}
+music = {
+	song = "intro_lodz"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = WML
+		}
+	}
+}
+music = {
+	song = "intro_myslenice"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = MSL
+		}
+	}
+}
+music = {
+	song = "intro_podhale"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = GUR
+		}
+	}
+}
+music = {
+	song = "intro_rutkowski"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = KRS
+		}
+	}
+}
+music = {
+	song = "intro_sapek"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = SAP
+		}
+	}
+}
+music = {
+	song = "intro_skrzydlewscy"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = KRS
+		}
+	}
+}
+music = {
+	song = "intro_torcida"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = TRC
+		}
+	}
+}
+music = {
+	song = "intro_umh"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = UHR
+		}
+	}
+}
+music = {
+	song = "intro_upa"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = UPA
+		}
+	}
+}
+music = {
+	song = "intro_widzew"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = ZYD
+		}
+	}
+}
+music = {
+	song = "intro_zhp"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = ZHP
+		}
+	}
+}
+music = {
+	song = "intro_ras"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = RAS
+		}
+	}
+}
+music = {
 	song = "intro_felix"
 	chance = {
 		base = 1
 		modifier = {
 			factor = 1
 			tag = FEL
+		}
+	}
+}
+music = {
+	song = "intro_wadowice"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = WDW
 		}
 	}
 }
