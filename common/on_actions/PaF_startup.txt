@@ -1,6 +1,57 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			BOM = {
+				scoped_play_song = "intro_bombas"
+			}
+			RAS = {
+				scoped_play_song = "intro_ras"
+			}
+			BBW = {
+				scoped_play_song = "intro_bractwo"
+			}
+			FER = {
+				scoped_play_song = "intro_ferajna"
+			}
+			KON = {
+				scoped_play_song = "intro_konon"
+			}
+			KOR = {
+				scoped_play_song = "intro_korsarze"
+			}
+			KOZ = {
+				scoped_play_song = "intro_kozacy"
+			}
+			WML = {
+				scoped_play_song = "intro_lodz"
+			}
+			MSL = {
+				scoped_play_song = "intro_myslenice"
+			}
+			GUR = {
+				scoped_play_song = "intro_podhale"
+			}
+			SAP = {
+				scoped_play_song = "intro_sapek"
+			}
+			KRS = {
+				scoped_play_song = "intro_skrzydlewscy"
+			}
+			TRC = {
+				scoped_play_song = "intro_torcida"
+			}
+			UHR = {
+				scoped_play_song = "intro_umh"
+			}
+			UPA = {
+				scoped_play_song = "intro_upa"
+			}
+			ZYD = {
+				scoped_play_song = "intro_widzew"
+			}
+			ZHP = {
+				scoped_play_song = "intro_zhp"
+			}
 			RUD = {
 				scoped_play_song = "intro_ruda"
 			}
@@ -15,9 +66,6 @@ on_actions = {
 				}
 			BSK = {
 				scoped_play_song = "intro_golce"
-				}
-			WOD = {
-				scoped_play_song = "intro_honor"
 				}
 			JSW = {
 				scoped_play_song = "intro_jsw"
@@ -36,6 +84,9 @@ on_actions = {
 				}
 			DGR = {
 				scoped_play_song = "intro_dg"
+				}
+			WDW = {
+				scoped_play_song = "intro_wadowice"
 				}
 			SOS = {
 				scoped_play_song = "intro_sosnowiec"

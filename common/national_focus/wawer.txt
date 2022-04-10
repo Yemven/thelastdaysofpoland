@@ -473,8 +473,8 @@ focus_tree = {
 		search_filters = { }
 		completion_reward = {create_wargoal = {
 		type = take_state_focus
-		target = DUP
-		generator = { 122 } } }
+		target = LAS
+		generator = { 752, 751 } } }
 	}
 }
 }

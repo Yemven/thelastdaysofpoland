@@ -1,6 +1,9 @@
 spriteTypes = {
 
-
+	SpriteType = {
+		name = "GFX_radio_detection_medium"
+		texturefile = "gfx/interface/technologies/radio_detection.dds"
+	}
 	SpriteType = {
 		name = "GFX_melee_weapons_medium"
 		texturefile = "gfx/interface/technologies/melee_weapons.dds"

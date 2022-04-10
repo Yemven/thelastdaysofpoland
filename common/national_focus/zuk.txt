@@ -1,8 +1,3 @@
-### search_filters = {FOCUS_FILTER_STABILITY}
-### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
-### search_filters = {FOCUS_FILTER_MANPOWER}
-### search_filters = {FOCUS_FILTER_ANNEXATION}
-
 focus_tree = {
 	id = zuk_focus
 	initial_show_position = { focus = ZUK_the_mayor_in_exile }
@@ -21,24 +16,17 @@ focus_tree = {
 	
 	focus = {
 		id = ZUK_the_mayor_in_exile
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 8
 		y = 0
 		
-		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
 
-		country_event = {
-			id = zuk.t1_1
-			days = 1 }
-			
+			country_event = {
+				id = zuk.t1_1
+				days = 1 }
+			#PP
 		}
 	}
 	
@@ -46,20 +34,16 @@ focus_tree = {
 		id = ZUK_a_reunited_council
 		relative_position_id = ZUK_the_mayor_in_exile
 		prerequisite = { focus = ZUK_the_mayor_in_exile }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
-			
+
+			#event
+			#stability
+				
 		}
 	}
 	
@@ -67,19 +51,15 @@ focus_tree = {
 		id = ZUK_overview_of_the_economy
 		relative_position_id = ZUK_a_reunited_council
 		prerequisite = { focus = ZUK_a_reunited_council }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
+
 		x = -5
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event
+			#industry tech bonus
 			
 		}
 	}
@@ -88,19 +68,15 @@ focus_tree = {
 		id = ZUK_consolidation_of_our_resources
 		relative_position_id = ZUK_overview_of_the_economy
 		prerequisite = { focus = ZUK_overview_of_the_economy }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event?
+			#consumer goods
 			
 		}
 	}
@@ -109,82 +85,62 @@ focus_tree = {
 		id = ZUK_repurpose_concrete_factories
 		relative_position_id = ZUK_consolidation_of_our_resources
 		prerequisite = { focus = ZUK_consolidation_of_our_resources }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = -1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#civ, production speed
 			
 		}
 	}
 	
 	focus = {
-		id = ZUK_improve_local_infrastructure
+		id = ZUK_infrastructure_maintenance
 		relative_position_id = ZUK_repurpose_concrete_factories
 		prerequisite = { focus = ZUK_repurpose_concrete_factories }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#infrastruktura
 			
 		}
 	}
 	
 	focus = {
-		id = ZUK_the_fugitives_donations
+		id = ZUK_recycled_makeshift_weapons
 		relative_position_id = ZUK_consolidation_of_our_resources
 		prerequisite = { focus = ZUK_consolidation_of_our_resources }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#bronie wręcz
 			
 		}
 	}
 	
 	focus = {
 		id = ZUK_provisional_weapon_factories
-		relative_position_id = ZUK_the_fugitives_donations
-		prerequisite = { focus = ZUK_the_fugitives_donations }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
+		relative_position_id = ZUK_recycled_makeshift_weapons
+		prerequisite = { focus = ZUK_recycled_makeshift_weapons }
 		
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#mil, weapon research bonus
 			
 		}
 	}
@@ -192,21 +148,16 @@ focus_tree = {
 	focus = {
 		id = ZUK_improved_living_conditions
 		relative_position_id = ZUK_consolidation_of_our_resources
-		prerequisite = { focus = ZUK_improve_local_infrastructure }
-		prerequisite = { focus = ZUK_provisional_weapon_factories }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
+		prerequisite = { focus = ZUK_infrastructure_maintenance }
+		prerequisite = { focus = ZUK_provisional_weapon_factories }		
 		x = 0
 		y = 3
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event
+			#PP, stability
 			
 		}
 	}
@@ -216,19 +167,15 @@ focus_tree = {
 		relative_position_id = ZUK_improved_living_conditions
 		prerequisite = { focus = ZUK_improved_living_conditions }
 		mutually_exclusive = { focus = ZUK_trade_with_the_ukrainians }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = -1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event
+			#consumer goods?
 			
 		}
 	}
@@ -238,19 +185,15 @@ focus_tree = {
 		relative_position_id = ZUK_improved_living_conditions
 		prerequisite = { focus = ZUK_improved_living_conditions }
 		mutually_exclusive = { focus = ZUK_trade_with_bilgoraj_conglomerate }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event
+			#consumer goods?
 			
 		}
 	}
@@ -258,21 +201,17 @@ focus_tree = {
 	focus = {
 		id = ZUK_new_lublian_army
 		relative_position_id = ZUK_a_reunited_council
-		prerequisite = { focus = ZUK_the_fugitives_donations }
+		prerequisite = { focus = ZUK_recycled_makeshift_weapons }
 		prerequisite = { focus = ZUK_radio_free_lublin }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 0
 		y = 4
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event
+			#army xp, doctrine bonus
 			
 		}
 	}
@@ -281,19 +220,15 @@ focus_tree = {
 		id = ZUK_lublinian_volunteers
 		relative_position_id = ZUK_new_lublian_army
 		prerequisite = { focus = ZUK_new_lublian_army }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = -1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event
+			#manpower
 			
 		}
 	}
@@ -302,19 +237,15 @@ focus_tree = {
 		id = ZUK_encourage_local_conscription
 		relative_position_id = ZUK_new_lublian_army
 		prerequisite = { focus = ZUK_new_lublian_army }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event
+			#zniesienie/zmniejszenie kary do recruitable population
 			
 		}
 	}
@@ -324,60 +255,45 @@ focus_tree = {
 		relative_position_id = ZUK_new_lublian_army
 		prerequisite = { focus = ZUK_lublinian_volunteers }
 		prerequisite = { focus = ZUK_encourage_local_conscription }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 0
 		y = 2
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event
+			#dywizja z wysokim levelem, war support
 			
 		}
 	}
 	
 	focus = {
-		id = ZUK_revival_of_lublinian_spirit
+		id = ZUK_swaying_the_public
 		relative_position_id = ZUK_a_reunited_council
 		prerequisite = { focus = ZUK_a_reunited_council }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 5
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event
+			#PP
 			
 		}
 	}
 	
 	focus = {
-		id = ZUK_rally_the_people
-		relative_position_id = ZUK_revival_of_lublinian_spirit
-		prerequisite = { focus = ZUK_revival_of_lublinian_spirit }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
+		id = ZUK_close_to_the_people
+		relative_position_id = ZUK_swaying_the_public
+		prerequisite = { focus = ZUK_swaying_the_public }
 		
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
 			
 		}
@@ -385,21 +301,17 @@ focus_tree = {
 	
 	focus = {
 		id = ZUK_radio_free_lublin
-		relative_position_id = ZUK_rally_the_people
-		prerequisite = { focus = ZUK_rally_the_people }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
+		relative_position_id = ZUK_close_to_the_people
+		prerequisite = { focus = ZUK_close_to_the_people }
 		
 		x = -1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event
+			#daily PP, electronics tech bonus?
 			
 		}
 	}
@@ -408,40 +320,30 @@ focus_tree = {
 		id = ZUK_safe_haven_for_refugees
 		relative_position_id = ZUK_radio_free_lublin
 		prerequisite = { focus = ZUK_radio_free_lublin }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#weekly manpower
 			
 		}
 	}
 	
 	focus = {
 		id = ZUK_reassure_local_population
-		relative_position_id = ZUK_rally_the_people
-		prerequisite = { focus = ZUK_rally_the_people }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
+		relative_position_id = ZUK_close_to_the_people
+		prerequisite = { focus = ZUK_close_to_the_people }
 		
 		x = 1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#stability
 			
 		}
 	}
@@ -450,41 +352,31 @@ focus_tree = {
 		id = ZUK_promise_local_elections
 		relative_position_id = ZUK_reassure_local_population
 		prerequisite = { focus = ZUK_reassure_local_population }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#PP
 			
 		}
 	}
 	
 	focus = {
 		id = ZUK_beacon_of_freedom
-		relative_position_id = ZUK_rally_the_people
+		relative_position_id = ZUK_close_to_the_people
 		prerequisite = { focus = ZUK_safe_haven_for_refugees }
 		prerequisite = { focus = ZUK_promise_local_elections }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 0
 		y = 3
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#stability
 			
 		}
 	}
@@ -495,19 +387,14 @@ focus_tree = {
 		prerequisite = { focus = ZUK_beacon_of_freedom }
 		mutually_exclusive = { focus = ZUK_trade_with_bilgoraj_conglomerate }
 		mutually_exclusive = { focus = ZUK_liberators_of_the_voivodeship }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = -1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#war support
 			
 		}
 	}
@@ -517,19 +404,14 @@ focus_tree = {
 		relative_position_id = ZUK_beacon_of_freedom
 		prerequisite = { focus = ZUK_beacon_of_freedom }
 		mutually_exclusive = { focus = ZUK_liberators_of_the_city }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#stability
 			
 		}
 	}
@@ -540,19 +422,14 @@ focus_tree = {
 		prerequisite = { focus = ZUK_trade_with_bilgoraj_conglomerate focus = ZUK_trade_with_the_ukrainians }
 		prerequisite = { focus = ZUK_the_goat_division }
 		prerequisite = { focus = ZUK_liberators_of_the_city focus = ZUK_liberators_of_the_voivodeship }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
 		completion_reward = {
+
+			#event
 			
 		}
 	}
