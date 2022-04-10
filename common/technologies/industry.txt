@@ -1320,20 +1320,20 @@ technologies = { #zmienić nazwy i do przodu
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 10
+				synthetic_materials > 10
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 20
+				synthetic_materials > 20
 			}	
 			modifier = {
 				factor = 0.5
-				rubber > 30
+				synthetic_materials > 30
 			}			
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			synthetic_materials = -2.0
 		}
 		
 		show_effect_as_desc = yes
@@ -1466,7 +1466,7 @@ technologies = { #zmienić nazwy i do przodu
 		on_research_complete = {
 			modify_building_resources = {
 				building = synthetic_refinery
-				resource = rubber
+				resource = synthetic_materials
 				amount = 1
 			}
 		}
@@ -1502,20 +1502,20 @@ technologies = { #zmienić nazwy i do przodu
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 10
+				synthetic_materials > 10
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 20
+				synthetic_materials > 20
 			}	
 			modifier = {
 				factor = 0.5
-				rubber > 30
+				synthetic_materials > 30
 			}			
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			synthetic_materials = -2.0
 		}
 		
 		show_effect_as_desc = yes
@@ -1526,7 +1526,7 @@ technologies = { #zmienić nazwy i do przodu
 		on_research_complete = {
 			modify_building_resources = {
 				building = synthetic_refinery
-				resource = rubber
+				resource = synthetic_materials
 				amount = 1
 			}
 		}
@@ -1562,20 +1562,20 @@ technologies = { #zmienić nazwy i do przodu
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 10
+				synthetic_materials > 10
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 20
+				synthetic_materials > 20
 			}	
 			modifier = {
 				factor = 0.5
-				rubber > 30
+				synthetic_materials > 30
 			}			
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			synthetic_materials = -2.0
 		}
 		
 		show_effect_as_desc = yes
@@ -1586,7 +1586,7 @@ technologies = { #zmienić nazwy i do przodu
 		on_research_complete = {
 			modify_building_resources = {
 				building = synthetic_refinery
-				resource = rubber
+				resource = synthetic_materials
 				amount = 1
 			}
 		}
@@ -1622,20 +1622,20 @@ technologies = { #zmienić nazwy i do przodu
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 10
+				synthetic_materials > 10
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 20
+				synthetic_materials > 20
 			}	
 			modifier = {
 				factor = 0.5
-				rubber > 30
+				synthetic_materials > 30
 			}			
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			synthetic_materials = -2.0
 		}
 		
 		show_effect_as_desc = yes
@@ -1646,7 +1646,7 @@ technologies = { #zmienić nazwy i do przodu
 		on_research_complete = {
 			modify_building_resources = {
 				building = synthetic_refinery
-				resource = rubber
+				resource = synthetic_materials
 				amount = 1
 			}
 		}
@@ -1669,20 +1669,20 @@ technologies = { #zmienić nazwy i do przodu
 			factor = 0.5
 			modifier = {
 				factor = 0.5
-				rubber > 10
+				synthetic_materials > 10
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 20
+				synthetic_materials > 20
 			}	
 			modifier = {
 				factor = 0.5
-				rubber > 30
+				synthetic_materials > 30
 			}			
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			synthetic_materials = -2.0
 		}
 		
 		show_effect_as_desc = yes
@@ -1754,10 +1754,10 @@ technologies = { #zmienić nazwy i do przodu
 				OR = {
 					oil > 0
 					aluminium > 0
-					rubber > 0
-					tungsten > 0
+					synthetic_materials > 0
+					coal > 0
 					steel > 0
-					chromium > 0
+					electronics > 0
 				}
 			}
 			
@@ -1766,10 +1766,10 @@ technologies = { #zmienić nazwy i do przodu
 				OR = {
 					oil > 8
 					aluminium > 8
-					rubber > 8
-					tungsten > 8
+					synthetic_materials > 8
+					coal > 8
 					steel > 8
-					chromium > 8
+					electronics > 8
 				}
 			}
 		}
@@ -1842,10 +1842,10 @@ technologies = { #zmienić nazwy i do przodu
 				OR = {
 					oil > 0
 					aluminium > 0
-					rubber > 0
-					tungsten > 0
+					synthetic_materials > 0
+					coal > 0
 					steel > 0
-					chromium > 0
+					electronics > 0
 				}
 			}
 			
@@ -1854,10 +1854,10 @@ technologies = { #zmienić nazwy i do przodu
 				OR = {
 					oil > 8
 					aluminium > 8
-					rubber > 8
-					tungsten > 8
+					synthetic_materials > 8
+					coal > 8
 					steel > 8
-					chromium > 8
+					electronics > 8
 				}
 			}
 		}
@@ -1942,10 +1942,10 @@ technologies = { #zmienić nazwy i do przodu
 				OR = {
 					oil > 0
 					aluminium > 0
-					rubber > 0
-					tungsten > 0
+					synthetic_materials > 0
+					coal > 0
 					steel > 0
-					chromium > 0
+					electronics > 0
 				}
 			}
 			
@@ -1954,10 +1954,10 @@ technologies = { #zmienić nazwy i do przodu
 				OR = {
 					oil > 8
 					aluminium > 8
-					rubber > 8
-					tungsten > 8
+					synthetic_materials > 8
+					coal > 8
 					steel > 8
-					chromium > 8
+					electronics > 8
 				}
 			}
 		}
@@ -2030,10 +2030,10 @@ technologies = { #zmienić nazwy i do przodu
 				OR = {
 					oil > 0
 					aluminium > 0
-					rubber > 0
-					tungsten > 0
+					synthetic_materials > 0
+					coal > 0
 					steel > 0
-					chromium > 0
+					electronics > 0
 				}
 			}
 			
@@ -2042,10 +2042,10 @@ technologies = { #zmienić nazwy i do przodu
 				OR = {
 					oil > 8
 					aluminium > 8
-					rubber > 8
-					tungsten > 8
+					synthetic_materials > 8
+					coal > 8
 					steel > 8
-					chromium > 8
+					electronics > 8
 				}
 			}
 		}
@@ -2116,10 +2116,10 @@ technologies = { #zmienić nazwy i do przodu
 				OR = {
 					oil > 0
 					aluminium > 0
-					rubber > 0
-					tungsten > 0
+					synthetic_materials > 0
+					coal > 0
 					steel > 0
-					chromium > 0
+					electronics > 0
 				}
 			}
 			
@@ -2128,10 +2128,10 @@ technologies = { #zmienić nazwy i do przodu
 				OR = {
 					oil > 8
 					aluminium > 8
-					rubber > 8
-					tungsten > 8
+					synthetic_materials > 8
+					coal > 8
 					steel > 8
-					chromium > 8
+					electronics > 8
 				}
 			}
 		}
