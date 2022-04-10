@@ -1,25 +1,54 @@
 ideas = {
 	party_system = {
 		law = yes
+		
 		no_party = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{  
+			stability_factor = -0.25
+			political_power_factor = -0.15
+			monthly_population = 0.05
+			production_factory_efficiency_gain_factor = -0.15
+			war_support_factor = 0.20
+			mobilization_speed = 0.025
+			army_core_attack_factor = 0.05
+			army_core_defence_factor = 0.10
+			drift_defence_factor = -0.25
+			}
 			cancel_if_invalid = no 
 			}
+			
 		monoparty = { 			
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{ 
+			 stability_factor = 0.10
+			 political_power_factor = 0.05
+			 war_support_factor = 0.05
+			 mobilization_speed = 0.05
+			 drift_defence_factor = 0.15
+			 monthly_population = -0.10
+			}
 			cancel_if_invalid = no 
 		}
+		
 		controlled_opposition = { 
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			drift_defence_factor = 0.05
+			stability_factor = 0.05
+			monthly_population = -0.05
+			political_power_factor = 0.15
+			mobilization_speed = 0.01
+			}
 			cancel_if_invalid = no 
 		}
 		multiparty = { 
@@ -27,7 +56,14 @@ ideas = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			stability_factor = -0.05
+			defensive_war_stability_factor = 0.25
+			offensive_war_stability_factor = -0.15
+			mobilization_speed = 0.005
+			political_power_factor = 0.10
+			}
 			cancel_if_invalid = no 	
 		}
 	}
@@ -38,7 +74,14 @@ ideas = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			research_speed_factor = -0.10
+			monthly_population = -0.05
+			stability_factor = 0.10
+			resistance_decay = 0.10
+			crypto_strength = 2
+			}
 			cancel_if_invalid = no 
 			level = 4
 		}
@@ -46,7 +89,13 @@ ideas = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			research_speed_factor = -0.05
+			political_power_factor = 0.10
+			stability_factor = 0.05
+			crypto_strength = 1
+			}
 			cancel_if_invalid = no 
 			level = 3
 			default = yes
@@ -55,7 +104,13 @@ ideas = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			research_speed_factor = -0.075
+			political_power_factor = 0.-05
+			stability_factor = 0.10
+			crypto_strength = 1
+			}
 			cancel_if_invalid = no 
 			level = 2
 		}
@@ -63,7 +118,14 @@ ideas = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			stability_factor = -0.05
+			monthly_population = 0.05
+			research_speed_factor = 0.025
+			crypto_strength = -2
+			compliance_growth = 0.05
+			}
 			cancel_if_invalid = no 
 			level = 1
 		}
@@ -71,44 +133,87 @@ ideas = {
 	
 	security_policy = {
 		law = yes
+		
 		improvised_security  = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			 stability_factor = -0.15
+			 resistance_decay = -0.35
+			 compliance_growth = -0.20
+			 crypto_strength = -2
+			 required_garrison_factor = -0.35
+			 army_org_factor = -0.10
+			}
 			cancel_if_invalid = no 
 			level = 5
 			default = yes
 		}
+		
 		basic_security = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			stability_factor = -0.05
+			crypto_strength = -1
+			resistance_decay = -0.20
+			 compliance_growth = -0.10
+			 required_garrison_factor = -0.20
+			 army_org_factor = -0.05
+			}
 			cancel_if_invalid = no 
 			level = 4
 		}
+		
 		advanced_security = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			resistance_decay = -0.05
+			required_garrison_factor = -0.05
+			}
 			cancel_if_invalid = no 
 			level = 3
 		}
+		
 		direct_security = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			political_power_factor = -0.10
+			stability_factor = 0.10
+			crypto_strength = 1
+			resistance_decay = 0.20
+			 compliance_growth = 0.10
+			 required_garrison_factor = 0.15
+			 army_org_factor = 0.05
+			}
 			cancel_if_invalid = no 
 			level = 2
 		}
+		
 		extreme_security = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			political_power_factor = -0.15
+			stability_factor = 0.15
+			crypto_strength = 2
+			resistance_decay = 0.35
+			required_garrison_factor = 0.35
+			army_org_factor = 0.10
+			recruitable_population_factor = -0.05
+			}
 			cancel_if_invalid = no 
 			level = 1
 		}
@@ -116,36 +221,61 @@ ideas = {
 	
 	health_care = {
 		law = yes
+		
 		witch_doctors  = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			monthly_population = -0.35
+			political_power_factor = 0.15
+			industrial_capacity_factory = -0.10
+			research_speed_factor = -0.075
+			}
 			cancel_if_invalid = no 
 			level = 4
 		}
+		
 		private_healthcare  = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			monthly_population = -0.15
+			stability_factor = -0.05
+			research_speed_factor = 0.03
+			industrial_capacity_factory = 0.025
+			}
 			cancel_if_invalid = no 
 			level = 3
 			default = yes
 		}
+		
 		partial_refundation = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			monthly_population = -0.05
+			political_power_factor = -0.05
+			}
 			cancel_if_invalid = no 
 			level = 2
 		}
+		
 		public_healthcare = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			political_power_factor = -0.10
+			monthly_population = 0.075
+			stability_factor = 0.10
+			}
 			cancel_if_invalid = no 
 			level = 1
 		}
@@ -153,36 +283,80 @@ ideas = {
 	
 	subsidies = {
 		law = yes
+		
 		no_subsidies = { 
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			political_power_factor = 0.05
+			stability_factor = -0.05
+			}
 			cancel_if_invalid = no 
 			level = 4
 			default = yes
 		}
+		
 		civil_industry_subsidies = { 
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			political_power_factor = -0.15
+			production_speed_industrial_complex_factor = 0.05
+			production_speed_infrastructure_factor = 0.15
+			production_speed_fuel_silo_factor = 0.15
+			production_speed_synthetic_refinery_factor = 0.05
+			production_speed_naval_base_factor = 0.10
+			production_speed_air_base_factor = 0.10
+			production_speed_nuclear_reactor_factor = 0.10
+			consumer_goods_factor = 0.03
+			stability_factor = 0.05
+			monthly_population = 0.05
+			}
 			cancel_if_invalid = no 
 			level = 3
 		}
+		
 		military_industry_subsidies = { 
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			consumer_goods_factor = 0.03
+			political_power_factor = -0.20
+			production_speed_arms_factory_factor = 0.05
+			production_speed_dockyard_factor = 0.15
+			production_speed_fuel_silo_factor = 0.15
+			production_speed_radar_station_factor = 0.10
+			production_speed_anti_air_building_factor = 0.15
+			production_speed_bunker_factor = 0.15
+			production_speed_coastal_bunker_factor = 0.15
+			production_speed_rocket_site_factor = 0.15
+			war_support_factor = 0.03
+			army_org_factor = 0.05
+			mobilization_speed = 0.03
+			}
 			cancel_if_invalid = no 
 			level = 2
 		}
+		
 		basic_income = { 
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
-			modifier = {  }
+			modifier = 
+			{
+			political_power_factor = -0.15
+			monthly_population = 0.10
+			mobilization_speed = 0.01
+			stability_factor = 0.10
+			drift_defence_factor = 0.15
+			consumer_goods_factor = 0.075
+			}
 			cancel_if_invalid = no 
 			level = 1
 			}
