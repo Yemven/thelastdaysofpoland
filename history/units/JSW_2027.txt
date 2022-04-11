@@ -1,0 +1,72 @@
+division_template = {
+	name = "Wacha Hajerskŏ"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Milicyjŏ Bractwa Wōnglŏ"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Grubiŏrze"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+    division = {
+		name = "1 Bataliōn Hajerski '"
+		location = 3191
+		division_template = "Wacha Hajerskŏ"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+    division = {
+		name = "2 Bataliōn Hajerski"
+		location = 4030
+		division_template = "Wacha Hajerskŏ"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "1 Kōmpanijŏ Bractwa Wōnglŏ"
+		location = 7871
+		division_template = "Milicyjŏ Bractwa Wōnglŏ"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Czŏrnŏ Skoła"
+		location = 4047
+		division_template = "Grubiŏrze"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Żylŏznŏ Gōra"
+		location = 7909
+		division_template = "Grubiŏrze"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Czŏrne Mantle"
+		location = 2564
+		division_template = "Grubiŏrze"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}

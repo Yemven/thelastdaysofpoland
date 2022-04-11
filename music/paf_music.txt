@@ -10,6 +10,36 @@ music = {
 	}
 }
 music = {
+	song = "intro_bielany"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = BIE
+		}
+	}
+}
+music = {
+	song = "intro_jaruzelska"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = ZYR
+		}
+	}
+}
+music = {
+	song = "intro_policja"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			tag = PLC
+		}
+	}
+}
+music = {
 	song = "intro_bractwo"
 	chance = {
 		base = 1
