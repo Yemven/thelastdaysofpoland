@@ -1,0 +1,81 @@
+division_template = {
+	name = "Brygada Łowcza"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brygada Masarska"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+
+	}
+}
+
+division_template = {
+	name = "Brygada Podwykonawcza"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+division = {
+		name = "1 Brygada Łowcza - Podwawelska"
+		location = 14220
+		division_template = "Brygada Łowcza"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+
+division = {
+		name = "2 Brygada Łowcza - Śląska"
+		location = 14221
+		division_template = "Brygada Łowcza"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+
+division = {
+		name = "Masarze"
+		location = 14202
+		division_template = "Brygada Masarska"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+
+division = {
+		name = "Wędliniarze"
+		location = 14200
+		division_template = "Brygada Masarska"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+
+division = {
+		name = "Peklownicy"
+		location = 14201
+		division_template = "Brygada Masarska"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+
+division = {
+		name = "Konsaletowcy"
+		location = 14191
+		division_template = "Brygada Podwykonawcza"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
