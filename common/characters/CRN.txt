@@ -13,4 +13,58 @@ characters={
 			id=-1
 		}
 	}
+	CRN_Lech_Sprawka={
+		name="Lech Sprawka"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/CRN/CRN_Lech_Sprawka.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = CRN_min_Lech_Sprawka
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CRN
+			}
+		}
+	}
+	CRN_Sylwester_Tulajew={
+		name="Sylwester Tułajew"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/CRN/CRN_Sylwester_Tulajew.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = CRN_min_Sylwester_Tulajew
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CRN
+			}
+		}
+	}
+	CRN_Artur_Sobon={
+		name="Artur Soboń"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/CRN/CRN_Artur_Sobon.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = CRN_min_Artur_Sobon
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CRN
+			}
+		}
+	}
 }

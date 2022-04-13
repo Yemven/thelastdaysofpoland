@@ -8,6 +8,31 @@ set_technology = {
 oob = "CRN_2027"
 
 recruit_character = CRN_Przemyslaw_Czarnek
+recruit_character = CRN_Lech_Sprawka
+recruit_character = CRN_Sylwester_Tulajew
+recruit_character = CRN_Artur_Sobon
+
+add_ideas = {
+	CRN_min_Lech_Sprawka
+	CRN_min_Sylwester_Tulajew
+	CRN_min_Artur_Sobon
+
+	monoparty
+	state_press
+	basic_security
+	partial_refundation
+	no_subsidies
+	limited_conscription
+	training_veterans
+	officer_leftovers
+	economy_authoritarian_capitalism
+	taxes_medium
+	trade_regulated
+	lgbt_illegal_tolerated
+	drugs_all_penalised
+	women_traditional_roles
+	minorities_hidden_oppresion
+}
 
 set_politics = {
 	ruling_party = paternal_conservatism
