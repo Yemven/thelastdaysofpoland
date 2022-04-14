@@ -1,0 +1,52 @@
+division_template = {
+	name = "Brygada Samoobrony"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Bywalcy Country Clubu"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1 Brygada im. Jana Japycza"
+		location = 9720
+		division_template = "Bywalcy Country Clubu"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Pracownicy Więcławskiego"
+		location = 9720
+		division_template = "Bywalcy Country Clubu"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+
+	division = {
+		name = "Ochotnicy Kusego"
+		location = 9720
+		division_template = "Brygada Samoobrony"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Batalion Karabinierski"
+		location = 9720
+		division_template = "Brygada Samoobrony"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+}
