@@ -47,27 +47,27 @@ sub_units = {
 		need = { helicopter_equipment = 1 }
 	}
 
-	cv_fighter = {
-		sprite = light_plane
-		priority = 1
-		active = yes
-		type = { fighter
-				interceptor
-				cas
-		}
-		need = { cv_fighter_equipment = 1 }
-		categories = { category_fighter }
-	}
+	#cv_fighter = {
+		#sprite = light_plane
+		#priority = 1
+		#active = yes
+		#type = { fighter
+				#interceptor
+				#cas
+		#}
+		#need = { cv_fighter_equipment = 1 }
+		#categories = { category_fighter }
+	#}
 	
-	cv_helicopter = {
-		sprite = light_plane
-		priority = 1
-		active = yes
-		type = {
-			cas
-		}
-		need = { helicopter_equipment = 1 }
-	}
+	#cv_helicopter = {
+		#sprite = light_plane
+		#priority = 1
+		#active = yes
+		#type = {
+			#cas
+		#}
+		#need = { helicopter_equipment = 1 }
+	#}
 	
 	bomber = {
 		sprite = medium_plane
