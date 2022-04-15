@@ -9,7 +9,20 @@ set_technology = {
 oob = "CCH_2027"
 set_convoys = 20
 
+recruit_character = CCH_depo
+recruit_character = CCH_chrapkowski
+recruit_character = CCH_pacholski
+recruit_character = CCH_szumowski
+recruit_character = CCH_konieczny
+recruit_character = CCH_najman
+recruit_character = CCH_matyjaszczyk
+recruit_character = CCH_gizynski
+
 add_ideas = {
+CCH_min_najman
+CCH_min_chrapkowski
+CCH_min_matyjaszczyk
+CCH_min_gizynski
 multiparty
 autocensorship
 basic_security
@@ -26,11 +39,7 @@ women_traditional_roles
 minorities_hidden_oppresion
 }
 
-recruit_character = CCH_abp._wacław_depo
-recruit_character = CCH_arnold_chrapkowski
-recruit_character = CCH_samuel_pacholski
-recruit_character = CCH_Łukasz_szumowski
-recruit_character = CCH_wojciech_konieczny
+
 
 set_politics = {
 	ruling_party = autocracy

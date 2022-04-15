@@ -1,6 +1,6 @@
 characters={
-	CCH_abp._wacław_depo={
-		name="abp. Wacław Depo"
+	CCH_depo={
+		name="Wacław Depo"
 		portraits={
 			civilian={
 				large="gfx/leaders/CCH/CCH_Depo.dds"
@@ -12,11 +12,12 @@ characters={
 			id=-1
 		}
 	}
-	CCH_arnold_chrapkowski={
+	CCH_chrapkowski={
 		name="Arnold Chrapkowski"
 		portraits={
 			civilian={
 				large="gfx/leaders/CCH/CCH_Chrapkowski.dds"
+				small="gfx/interface/ideas/CCH/CCH_chrapkowski.dds"
 			}
 		}
 		country_leader={
@@ -24,8 +25,27 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = CCH_min_chrapkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CCH
+			}
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
 	}
-	CCH_samuel_pacholski={
+	CCH_pacholski={
 		name="Samuel Pacholski"
 		portraits={
 			civilian={
@@ -38,7 +58,7 @@ characters={
 			id=-1
 		}
 	}
-	CCH_Łukasz_szumowski={
+	CCH_szumowski={
 		name="Łukasz Szumowski"
 		portraits={
 			civilian={
@@ -51,7 +71,7 @@ characters={
 			id=-1
 		}
 	}
-	CCH_wojciech_konieczny={
+	CCH_konieczny={
 		name="Wojciech Konieczny"
 		portraits={
 			civilian={
@@ -64,4 +84,66 @@ characters={
 			id=-1
 		}
 	}
+	CCH_najman={
+		name="Marcin Najman"
+		portraits=
+		{ civilian = { large = "gfx/leaders/CCH/CCH_Najman.dds" 
+		small = "gfx/interface/ideas/CCH/CCH_najman.dds" }
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = CCH_min_najman
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CCH
+			}
+			traits = {  }
+		}
+}
+	CCH_matyjaszczyk={
+		name="Krzysztof Matyjaszczyk"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/CCH/CCH_matyjaszczyk.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = CCH_min_matyjaszczyk
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CCH
+			}
+			traits = {  }
+		}
+}
+	CCH_gizynski={
+		name="Szymon Giżyński"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/CCH/CCH_gizynski.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = CCH_min_gizynski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CCH
+			}
+			traits = {  }
+		}
+}
 }
