@@ -1,5 +1,5 @@
 characters={
-	BRZ_jerzy_brzęczek={
+	BRZ_brzeczek={
 		name="Jerzy Brzęczek"
 		portraits={
 			civilian={
@@ -20,11 +20,12 @@ characters={
 		}
 	}
 	
-	BRZ_jakub_blaszczykowski={
+	BRZ_kblaszczykowski={
 		name="Jakub Błaszczykowski"
 		portraits={
 			civilian={
 				large="gfx/leaders/BRZ/BRZ_Kuba.dds"
+				small="gfx/interface/ideas/BRZ/BRZ_kblaszczykowski.dds"
 			}
 		}
 		country_leader={
@@ -34,27 +35,86 @@ characters={
 		}
 		advisor = {
 			cost = -1
-			slot = head_of_government
-			idea_token = BRZ_min_kuba
+			slot = minister_of_war
+			idea_token = BRZ_min_kblaszczykowski
 			removal_cost = -1
 			ledger = civilian
 			allowed = {
 				original_tag = BRZ
 			}
 			traits = { athlete }
-		}		
+		}	
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
-	BRZ_robert_lewandowski={
-		name="Robert Lewandowski"
+	BRZ_mazurkiewicz={
+		name="Tomasz Mazurkiewicz"
 		portraits={
 			civilian={
-				large="gfx/leaders/BRZ/BRZ_Lewandowski.dds"
+				large="gfx/leaders/BRZ/BRZ_Mazurkiewicz.dds"
+				small="gfx/interface/ideas/BRZ/BRZ_mazurkiewicz.dds"
 			}
 		}
-		country_leader={
-			ideology=euroliberalism_subtype
-			expire="1.1.1.1"
-			id=-1
-		}		
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BRZ_min_mazurkiewicz
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BRZ
+			}
+			traits = { }
+		}	
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
+	BRZ_domagalik={
+		name="Małgorzata Domagalik"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/BRZ/BRZ_domagalik.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BRZ_min_domagalik
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BRZ
+			}
+			traits = {  }
+		}
+}	
+	BRZ_dblaszczykowski={
+		name="Dawid Błaszczykowski"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/BRZ/BRZ_dblaszczykowski.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BRZ_min_dblaszczykowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BRZ
+			}
+			traits = {  }
+		}
+}
 }

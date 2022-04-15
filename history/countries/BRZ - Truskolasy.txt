@@ -9,11 +9,17 @@ set_technology = {
 oob = "BRZ_2027"
 set_convoys = 20
 
-recruit_character = BRZ_jerzy_brzęczek
-recruit_character = BRZ_jakub_blaszczykowski
-recruit_character = BRZ_robert_lewandowski
+recruit_character = BRZ_brzeczek
+recruit_character = BRZ_kblaszczykowski
+recruit_character = BRZ_dblaszczykowski
+recruit_character = BRZ_domagalik
+recruit_character = BRZ_mazurkiewicz
 
 add_ideas = {
+BRZ_min_domagalik
+BRZ_min_dblaszczykowski
+BRZ_min_kblaszczykowski
+BRZ_min_mazurkiewicz
 controlled_opposition
 state_press
 basic_security

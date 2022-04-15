@@ -10,8 +10,16 @@ set_convoys = 20
 oob = "TRC_2027"
 
 recruit_character = TRC_mara
+recruit_character = TRC_nawalka
+recruit_character = TRC_michniewicz
+recruit_character = TRC_hajto
+recruit_character = TRC_iwan
 
 add_ideas = {
+TRC_min_hajto
+TRC_min_iwan
+TRC_min_michniewicz
+TRC_min_mara
 no_party
 absolute_censorship
 improvised_security
