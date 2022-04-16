@@ -582,14 +582,20 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite ="GFX_newborder"
 				position = { x=0 y=0 }					
-			}	
+			}
 		}
-		#iconType ={
-			#name ="category_header"
-			#spriteType = "GFX_category_header"
-			#position = { x=90 y=-22 }
-			#Orientation = "UPPER_CENTER"
-		#}
+		
+		instantTextboxType = {
+			name = "name"
+			position = { x = 200 y = -10 }
+			font = "hoi_20b"
+			orientation = "category_header"
+			format = centre
+			text = "Government"
+			maxWidth = 200
+			maxHeight = 20
+		}
+		
 		iconType ={
 			name ="category_icon"
 			spriteType = "GFX_idea_categories"
