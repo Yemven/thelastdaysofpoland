@@ -9,10 +9,16 @@ set_technology = {
 oob = "JWK_2027"
 set_convoys = 20
 
-recruit_character = JWK_wiesław_kukuła
-recruit_character = JWK_sławomir_drumowicz
+recruit_character = JWK_kukula
+recruit_character = JWK_drumowicz
+recruit_character = JWK_strzelecki
+recruit_character = JWK_bialas
 
 add_ideas = {
+JWK_min_kukula
+JWK_min_drumowicz
+JWK_min_strzelecki
+JWK_min_bialas
 controlled_opposition
 state_press
 direct_security

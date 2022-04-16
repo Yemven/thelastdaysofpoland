@@ -1,9 +1,10 @@
 characters={
-	JWK_wiesław_kukuła={
+	JWK_kukula={
 		name="Wiesław Kukuła"
 		portraits={
 			civilian={
 				large="gfx/leaders/JWK/JWK_Kukula1.dds"
+				small="gfx/interface/ideas/JWK/JWK_kukula.dds"
 			}
 		}
 		country_leader={
@@ -21,18 +22,113 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		field_marshal = {
+			traits = {  }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = JWK_min_kukula
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JWK
+			}
+			traits = { }
+		}
 	}
-	JWK_sławomir_drumowicz={
+	JWK_drumowicz={
 		name="Sławomir Drumowicz"
 		portraits={
 			civilian={
 				large="gfx/leaders/JWK/JWK_Drumowicz.dds"
+				small="gfx/interface/ideas/JWK/JWK_drumowicz.dds"
 			}
 		}
 		country_leader={
 			ideology=reactionary_subtype
 			expire="1.1.1.1"
 			id=-1
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = JWK_min_drumowicz
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JWK
+			}
+			traits = { }
+		}
+	}
+	JWK_bialas={
+		name="Tomasz Białas"
+		portraits={
+			civilian={
+				large="gfx/leaders/JWK/JWK_Bialas.dds"
+				small="gfx/interface/ideas/JWK/JWK_bialas.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = JWK_min_bialas
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JWK
+			}
+			traits = {  }
+		}	
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	JWK_strzelecki={
+		name="Michał Strzelecki"
+		portraits={
+			civilian={
+				large="gfx/leaders/JWK/JWK_Strzelecki.dds"
+				small="gfx/interface/ideas/JWK/JWK_strzelecki.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = JWK_min_strzelecki
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = JWK
+			}
+			traits = {  }
+		}	
+		corps_commander = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }
