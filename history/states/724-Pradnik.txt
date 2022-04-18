@@ -10,13 +10,16 @@ state={
 		add_core_of = KRK
 		buildings = {
 			infrastructure = 7
-
+			industrial_complex = 1
+			241 = {
+			bunker = 2			}
+			1410 = { bunker = 2 }
 		}
 
 	}
 
 	provinces={
-		241 994 1410 2825 7440 
+		241 994 1410 2825 7440 3292 
 	}
 	manpower=67274
 	state_category=city

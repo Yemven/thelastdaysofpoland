@@ -10,13 +10,14 @@ state={
 		add_core_of = KRK
 		buildings = {
 			infrastructure = 6
-
+			4053 = { bunker = 1 }
+			industrial_complex = 3
 		}
 
 	}
 
 	provinces={
-		3140 4053 
+		3140 4053 11036 
 	}
 	manpower=22661
 	buildings_max_level_factor=1.000
