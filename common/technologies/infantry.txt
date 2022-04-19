@@ -531,16 +531,7 @@ technologies = {
 		enable_equipments = {
 			equipment_vests_0
 		}
-		
-		enable_subunits = {
-			heavy_infantry
-		}
-		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_heavy_infantry"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
+			
 		path = {
 			leads_to_tech = camouflage_upgrade
 			research_cost_coeff = 1
@@ -658,10 +649,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		heavy_infantry = {
-			soft_attack = 0.05
-		}
-		
 		categories = {
 			infantry_weapons
 		}
@@ -682,7 +669,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2033
 		folder = {
 			name = infantry_folder
@@ -730,10 +717,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		heavy_infantry = {
-			soft_attack = 0.05
-		}
-		
 		categories = {
 			infantry_weapons
 		}
@@ -754,7 +737,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2036
 		folder = {
 			name = infantry_folder
@@ -802,10 +785,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		heavy_infantry = {
-			soft_attack = 0.05
-		}
-		
 		categories = {
 			infantry_weapons
 		}
@@ -821,7 +800,7 @@ technologies = {
 			equipment_vests_4
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2040
 		folder = {
 			name = infantry_folder
