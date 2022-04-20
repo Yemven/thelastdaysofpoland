@@ -404,23 +404,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		category_light_infantry = {
+		category_all_infantry = {
 			soft_attack = 0.05
-		}
-		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
-		motorized = {
-			soft_attack = 0.05
-		}
-		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
+			max_organisation = 1
 		}
 		
 		folder = {
@@ -439,23 +425,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		category_light_infantry = {
+		category_all_infantry = {
 			soft_attack = 0.05
-		}
-		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
-		motorized = {
-			soft_attack = 0.05
-		}
-		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
+			max_organisation = 1
 		}
 		
 		folder = {
@@ -473,23 +445,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		category_light_infantry = {
+		category_all_infantry = {
 			soft_attack = 0.05
-		}
-		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
-		motorized = {
-			soft_attack = 0.05
-		}
-		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
+			max_organisation = 1
 		}
 		
 		folder = {
@@ -502,23 +460,9 @@ technologies = {
 		research_cost = 1
 		start_year = 2036
 		
-		category_light_infantry = {
+		category_all_infantry = {
 			soft_attack = 0.05
-		}
-		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
-		motorized = {
-			soft_attack = 0.05
-		}
-		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
+			max_organisation = 1
 		}
 		
 		folder = {
@@ -562,23 +506,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
+		cas_damage_reduction = 0.05
+		land_reinforce_rate = 0.005
 		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
-		motorized = {
-			soft_attack = 0.05
-		}
-		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
+		category_all_infantry = {
+			casualty_trickleback  = 0.03
 		}
 		
 		categories = {
@@ -619,34 +551,18 @@ technologies = {
 	
 	camouflage_upgrade1 = {
 		research_cost = 0.8
-		start_year = 2028
+		start_year = 2031
 		
 		path = {
 			leads_to_tech = ballistic_vests2
 			research_cost_coeff = 1
 		}
 		
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
+		cas_damage_reduction = 0.05
+		land_reinforce_rate = 0.005
 		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
-		motorized = {
-			soft_attack = 0.05
-		}
-		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
-		}
-		
-		infantry = {
-			soft_attack = 0.05
+		category_all_infantry = {
+			casualty_trickleback  = 0.03
 		}
 		
 		categories = {
@@ -687,34 +603,18 @@ technologies = {
 	
 	camouflage_upgrade2 = {
 		research_cost = 0.8
-		start_year = 2028
+		start_year = 2034
 		
 		path = {
 			leads_to_tech = ballistic_vests3
 			research_cost_coeff = 1
 		}
 		
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
+		cas_damage_reduction = 0.05
+		land_reinforce_rate = 0.005
 		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
-		motorized = {
-			soft_attack = 0.05
-		}
-		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
-		}
-		
-		infantry = {
-			soft_attack = 0.05
+		category_all_infantry = {
+			casualty_trickleback  = 0.03
 		}
 		
 		categories = {
@@ -755,34 +655,18 @@ technologies = {
 	
 	camouflage_upgrade3 = {
 		research_cost = 0.8
-		start_year = 2028
+		start_year = 2037
 		
 		path = {
 			leads_to_tech = ballistic_vests4
 			research_cost_coeff = 1
 		}
 		
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
+		cas_damage_reduction = 0.05
+		land_reinforce_rate = 0.005
 		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
-		motorized = {
-			soft_attack = 0.05
-		}
-		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
-		}
-		
-		infantry = {
-			soft_attack = 0.05
+		category_all_infantry = {
+			casualty_trickleback  = 0.03
 		}
 		
 		categories = {
