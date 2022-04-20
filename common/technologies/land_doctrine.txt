@@ -1502,9 +1502,9 @@ technologies = {
 			position = { x = -2 y = 4 }
 		}
 		
-		#meele
+		#melee
 		category_all_infantry = {
-		soft_attack - 0.15
+			soft_attack = 0.15
 		}
 		
 		
@@ -1655,8 +1655,8 @@ technologies = {
 		
 		attrition = -0.5
 		category_army = {
-		combat_width = -0.4
-		max_organisation = -5
+			combat_width = -0.4
+			max_organisation = -5
 		}
 
 		
@@ -1749,10 +1749,10 @@ technologies = {
 			position = { x = 2 y = 8 }
 		}
 		
-		#meele
+		#melee
 		category_army = {
-		soft_attack = 0.05
-		casualty_trickleback = 0.2
+			soft_attack = 0.05
+			casualty_trickleback = 0.2
 		}
 
 		
@@ -1812,7 +1812,7 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 		
-		#meele
+		#melee
 		land_night_attack = 0.25
 		army_morale = 0.25
 
