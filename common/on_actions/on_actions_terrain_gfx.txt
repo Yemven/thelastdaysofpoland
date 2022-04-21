@@ -476,6 +476,18 @@ on_actions = {
 					province = { id = 13390 }
 				}
 			}
+			707 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_fordon}
+					province = { id = 3255 }
+				}
+			}
+			707 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_gorny_taras}
+					province = { id = 14447 }
+				}
+			}
 			
 			
 			
