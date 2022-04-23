@@ -471,6 +471,30 @@ technologies = {
 		}
 	}
 	
+	infantry_armor = {
+	
+		enable_equipments ={
+		equipment_armor_0
+		}
+		
+	research_cost = 1.5
+	start_year = 1900
+	
+	folder = {
+	name = infantry_folder
+	position = { x = 8 y = 2}
+	}
+	
+	categories = {
+	infantry_weapons
+	}
+	
+	ai_will_do = {
+	factor = 1
+	}
+	
+	}
+	
 	ballistic_vests = {
 		enable_equipments = {
 			equipment_vests_0
@@ -485,7 +509,7 @@ technologies = {
 		start_year = 2027
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 4}
+			position = { x = 10 y = 4}
 		}
 		
 		categories = {
@@ -500,7 +524,7 @@ technologies = {
 	camouflage_upgrade = {
 		research_cost = 0.8
 		start_year = 2028
-		
+			
 		path = {
 			leads_to_tech = ballistic_vests1
 			research_cost_coeff = 1
@@ -519,7 +543,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 6}
+			position = { x = 10 y = 6}
 		}
 	}
 	
@@ -537,7 +561,7 @@ technologies = {
 		start_year = 2030
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 8}
+			position = { x = 10 y = 8}
 		}
 		
 		categories = {
@@ -571,7 +595,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 10}
+			position = { x = 10 y = 10}
 		}
 	}
 	
@@ -589,7 +613,7 @@ technologies = {
 		start_year = 2033
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 12}
+			position = { x = 10 y = 12}
 		}
 		
 		categories = {
@@ -623,7 +647,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 14}
+			position = { x = 10 y = 14}
 		}
 	}
 	
@@ -641,7 +665,7 @@ technologies = {
 		start_year = 2036
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 16}
+			position = { x = 10 y = 16}
 		}
 		
 		categories = {
@@ -675,7 +699,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 18}
+			position = { x = 10 y = 18}
 		}
 	}
 	
@@ -688,7 +712,7 @@ technologies = {
 		start_year = 2040
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 20}
+			position = { x = 10 y = 20}
 		}
 		
 		categories = {
@@ -726,7 +750,7 @@ technologies = {
 		start_year = 2030
 		folder = {
 			name = infantry_folder
-			position = { x = 9 y = 8}
+			position = { x = 11 y = 8}
 		}
 		
 		categories = {
@@ -752,7 +776,7 @@ technologies = {
 		start_year = 2034
 		folder = {
 			name = infantry_folder
-			position = { x = 9 y = 14}
+			position = { x = 11 y = 14}
 		}
 		
 		categories = {
@@ -773,7 +797,7 @@ technologies = {
 		start_year = 2040
 		folder = {
 			name = infantry_folder
-			position = { x = 9 y = 20}
+			position = { x = 11 y = 20}
 		}
 		
 		categories = {
@@ -801,7 +825,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 8}
+			position = { x = 12 y = 8}
 		}
 		
 		categories = {
@@ -829,7 +853,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 14}
+			position = { x = 12 y = 14}
 		}
 		
 		categories = {
@@ -853,7 +877,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 20}
+			position = { x = 12 y = 20}
 		}
 		
 		categories = {

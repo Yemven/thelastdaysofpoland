@@ -423,7 +423,50 @@ equipments = {
 			steel = 2
 		}
 	}
-
+	
+	equipment_armor = {
+		year = 1936
+		
+		is_archetype = yes
+		picture = archetype_equipment_armor
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#różne
+		reliability = 0.95
+		maximum_speed = 4
+		
+		#obrona
+		defense = 55
+		breakthrough = 0.11
+		hardness = 0
+		armor_value = 0
+		
+		#atak
+		soft_attack = 0.11
+		hard_attack = 0.11
+		ap_attack = 0.11
+		air_attack = 0
+		
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.22
+		resources = {
+			steel = 1
+		}
+	}
+	
+	equipment_armor_0 = {
+		year = 1936
+		
+		archetype = equipment_armor
+		priority = 05
+		visual_level = 0
+	}
+	
 	equipment_vests = {
 		year = 1936
 		

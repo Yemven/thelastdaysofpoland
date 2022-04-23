@@ -42,8 +42,8 @@ sub_units = {
 		supply_consumption = 0.06
 	
 		need = {
-			ranged_equipment = 80
-			melee_equipment = 20
+			ranged_equipment = 100
+			equipment_vests = 100
 		}
 	}
 	melee_infantry = {
@@ -85,6 +85,7 @@ sub_units = {
 
 		need = {
 			melee_equipment = 100
+			equipment_armor = 100
 		}
 		urban = {
 			movement = 0.1
