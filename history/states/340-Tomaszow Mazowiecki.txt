@@ -1,19 +1,11 @@
-
 state={
 	id=340
 	name="STATE_340"
 	provinces={
-		1226 2947 3857 7456 12045
-12046
-12047
-12048
-12049
-12050
-12051
-12052
-12053
+		1226 2947 3857 7456 12045 12046 12047 12048 12049 12050 12051 12052 12053
 	}
-	manpower = 80491   state_category = city
+	manpower = 80491
+	state_category = city
 	buildings_max_level_factor=1.000
 	history = {
 		owner = ZYD
@@ -21,13 +13,13 @@ state={
 		victory_points = { 1226 1 }
 		add_core_of = ZYD
 	buildings = {
-	infrastructure = 7
-	industrial_complex = 3
-	arms_factory = 1
-	air_base = 3 
-	7456 = {bunker = 1}
-	12048 = {bunker = 1}
-	1226 = {bunker = 1} +2
-	}
+		infrastructure = 7
+		industrial_complex = 3
+		arms_factory = 1
+		air_base = 3 
+		7456 = {bunker = 1}
+		12048 = {bunker = 1}
+		1226 = {bunker = 3}
+		}
 	}
 }
