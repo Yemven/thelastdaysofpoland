@@ -467,8 +467,8 @@ equipments = {
 		visual_level = 0
 	}
 	
-	equipment_vests = {
-		year = 1936
+	equipment_armor_1 = {
+		year = 2028
 		
 		is_archetype = yes
 		picture = archetype_equipment_vests
@@ -483,7 +483,112 @@ equipments = {
 		maximum_speed = 4
 		
 		#obrona
-		defense = 55
+		defense = 60
+		breakthrough = 0.11
+		hardness = 0
+		armor_value = 0
+		
+		#atak
+		soft_attack = 0.11
+		hard_attack = 0.11
+		ap_attack = 0.11
+		air_attack = 0
+		
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.22
+		resources = {
+			steel = 1
+		}
+	}
+	
+	equipment_armor_2 = {
+		year = 2030
+		
+		is_archetype = yes
+		picture = archetype_equipment_vests
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#różne
+		reliability = 0.95
+		maximum_speed = 4
+		
+		#obrona
+		defense = 60
+		breakthrough = 0.11
+		hardness = 0
+		armor_value = 0
+		
+		#atak
+		soft_attack = 0.11
+		hard_attack = 0.11
+		ap_attack = 0.11
+		air_attack = 0
+		
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.22
+		resources = {
+			steel = 1
+		}
+	}
+	
+	equipment_armor_3 = {
+		year = 2033
+		
+		is_archetype = yes
+		picture = archetype_equipment_vests
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#różne
+		reliability = 0.95
+		maximum_speed = 4
+		
+		#obrona
+		defense = 60
+		breakthrough = 0.11
+		hardness = 0
+		armor_value = 0
+		
+		#atak
+		soft_attack = 0.11
+		hard_attack = 0.11
+		ap_attack = 0.11
+		air_attack = 0
+		
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.22
+		resources = {
+			steel = 1
+		}
+	}
+	
+	equipment_armor_4 = {
+		year = 2036
+		
+		is_archetype = yes
+		picture = archetype_equipment_vests
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#różne
+		reliability = 0.95
+		maximum_speed = 4
+		
+		#obrona
+		defense = 60
 		breakthrough = 0.11
 		hardness = 0
 		armor_value = 0

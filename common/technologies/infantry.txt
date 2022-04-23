@@ -477,23 +477,286 @@ technologies = {
 		equipment_armor_0
 		}
 		
-	research_cost = 1.5
-	start_year = 1900
+		path = {
+			leads_to_tech = infantry_armor_upgrade
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1900
 	
-	folder = {
-	name = infantry_folder
-	position = { x = 8 y = 2}
+		folder = {
+		name = infantry_folder
+		position = { x = 8 y = 2}
+		}
+	
+		categories = {
+		infantry_weapons
+		}
+	
+		ai_will_do = {
+		factor = 1
+		}
 	}
 	
-	categories = {
-	infantry_weapons
+	infantry_armor_upgrade = {
+	
+		research_cost = 0.6
+		start_year = 2027
+		
+		path = {
+			leads_to_tech = infantry_armor1
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+		name = infantry_folder
+		position = { x = 8 y = 4}
+		}
+	
+		cas_damage_reduction = 0.05
+		land_reinforce_rate = 0.005
+		
+		category_all_infantry = {
+		casualty_trickleback  = 0.03
+		}
+		
+		categories = {
+		infantry_weapons
+		}
+		ai_will_do = {
+		factor = 1
+		}
 	}
 	
-	ai_will_do = {
-	factor = 1
+	infantry_armor1 = {
+	
+		enable_equipments ={
+		equipment_armor_1
+		}
+		
+		path = {
+			leads_to_tech = infantry_armor_upgrade1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1900
+	
+		folder = {
+		name = infantry_folder
+		position = { x = 8 y = 6}
+		}
+	
+		categories = {
+		infantry_weapons
+		}
+	
+		ai_will_do = {
+		factor = 1
+		}
 	}
 	
+	infantry_armor_upgrade1 = {
+	
+		research_cost = 0.6
+		start_year = 2027
+		
+		path = {
+			leads_to_tech = infantry_armor2
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+		name = infantry_folder
+		position = { x = 8 y = 8}
+		}
+	
+		cas_damage_reduction = 0.05
+		land_reinforce_rate = 0.005
+		
+		category_all_infantry = {
+		casualty_trickleback  = 0.03
+		}
+		
+		categories = {
+		infantry_weapons
+		}
+		ai_will_do = {
+		factor = 1
+		}
 	}
+	
+	infantry_armor2 = {
+	
+		enable_equipments ={
+		equipment_armor_2
+		}
+		
+		path = {
+			leads_to_tech = infantry_armor_upgrade2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1900
+	
+		folder = {
+		name = infantry_folder
+		position = { x = 8 y = 10}
+		}
+	
+		categories = {
+		infantry_weapons
+		}
+	
+		ai_will_do = {
+		factor = 1
+		}
+	}
+	
+	infantry_armor_upgrade2 = {
+	
+		research_cost = 0.6
+		start_year = 2027
+		
+		path = {
+			leads_to_tech = infantry_armor3
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+		name = infantry_folder
+		position = { x = 8 y = 12}
+		}
+	
+		cas_damage_reduction = 0.05
+		land_reinforce_rate = 0.005
+		
+		category_all_infantry = {
+		casualty_trickleback  = 0.03
+		}
+		
+		categories = {
+		infantry_weapons
+		}
+		ai_will_do = {
+		factor = 1
+		}
+	}
+	
+	infantry_armor3 = {
+	
+		enable_equipments ={
+		equipment_armor_3
+		}
+		
+		path = {
+			leads_to_tech = infantry_armor_upgrade3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1900
+	
+		folder = {
+		name = infantry_folder
+		position = { x = 8 y = 14}
+		}
+	
+		categories = {
+		infantry_weapons
+		}
+	
+		ai_will_do = {
+		factor = 1
+		}
+	}
+	
+	infantry_armor_upgrade3 = {
+	
+		research_cost = 0.6
+		start_year = 2039
+		
+		path = {
+			leads_to_tech = infantry_armor4
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+		name = infantry_folder
+		position = { x = 8 y = 16}
+		}
+	
+		cas_damage_reduction = 0.05
+		land_reinforce_rate = 0.005
+		
+		category_all_infantry = {
+		casualty_trickleback  = 0.03
+		}
+		
+		categories = {
+		infantry_weapons
+		}
+		ai_will_do = {
+		factor = 1
+		}
+	}
+	
+	infantry_armor4 = {
+	
+		enable_equipments ={
+		equipment_armor_4
+		}
+		
+		path = {
+			leads_to_tech = infantry_armor_upgrade4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1900
+	
+		folder = {
+		name = infantry_folder
+		position = { x = 8 y = 18}
+		}
+	
+		categories = {
+		infantry_weapons
+		}
+	
+		ai_will_do = {
+		factor = 1
+		}
+	}
+	
+	infantry_armor_upgrade4 = {
+	
+		research_cost = 0.6
+		start_year = 2039
+		
+		folder = {
+		name = infantry_folder
+		position = { x = 8 y = 20}
+		}
+	
+		cas_damage_reduction = 0.05
+		land_reinforce_rate = 0.005
+		
+		category_all_infantry = {
+		casualty_trickleback  = 0.03
+		}
+		
+		categories = {
+		infantry_weapons
+		}
+		ai_will_do = {
+		factor = 1
+		}
+	}
+	
+	#VESTY aka Uniformy aka Żołnierskie oporządzenie
 	
 	ballistic_vests = {
 		enable_equipments = {
@@ -509,7 +772,7 @@ technologies = {
 		start_year = 2027
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 4}
+			position = { x = 9 y = 4}
 		}
 		
 		categories = {
@@ -531,7 +794,7 @@ technologies = {
 		}
 		
 		cas_damage_reduction = 0.05
-		land_reinforce_rate = 0.005
+		land_reinforce_rate = 0.01
 		
 		category_all_infantry = {
 			casualty_trickleback  = 0.03
@@ -543,7 +806,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 6}
+			position = { x = 9 y = 6}
 		}
 	}
 	
@@ -561,7 +824,7 @@ technologies = {
 		start_year = 2030
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 8}
+			position = { x = 9 y = 8}
 		}
 		
 		categories = {
@@ -583,7 +846,7 @@ technologies = {
 		}
 		
 		cas_damage_reduction = 0.05
-		land_reinforce_rate = 0.005
+		land_reinforce_rate = 0.01
 		
 		category_all_infantry = {
 			casualty_trickleback  = 0.03
@@ -595,7 +858,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 10}
+			position = { x = 9 y = 10}
 		}
 	}
 	
@@ -613,7 +876,7 @@ technologies = {
 		start_year = 2033
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 12}
+			position = { x = 9 y = 12}
 		}
 		
 		categories = {
@@ -635,7 +898,7 @@ technologies = {
 		}
 		
 		cas_damage_reduction = 0.05
-		land_reinforce_rate = 0.005
+		land_reinforce_rate = 0.01
 		
 		category_all_infantry = {
 			casualty_trickleback  = 0.03
@@ -647,7 +910,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 14}
+			position = { x = 9 y = 14}
 		}
 	}
 	
@@ -665,7 +928,7 @@ technologies = {
 		start_year = 2036
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 16}
+			position = { x = 9 y = 16}
 		}
 		
 		categories = {
@@ -686,8 +949,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		cas_damage_reduction = 0.05
-		land_reinforce_rate = 0.005
+		cas_damage_reduction = 0.03
+		land_reinforce_rate = 0.01
 		
 		category_all_infantry = {
 			casualty_trickleback  = 0.03
@@ -699,7 +962,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 18}
+			position = { x = 9 y = 18}
 		}
 	}
 	
@@ -708,11 +971,16 @@ technologies = {
 			equipment_vests_4
 		}
 		
+		path = {
+			leads_to_tech = camouflage_upgrade4
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 1.5
 		start_year = 2040
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 20}
+			position = { x = 9 y = 20}
 		}
 		
 		categories = {
@@ -723,6 +991,28 @@ technologies = {
 			factor = 1
 		}
 	}
+	
+	camouflage_upgrade4 = {
+		research_cost = 0.8
+		start_year = 2040
+		
+		cas_damage_reduction = 0.03
+		land_reinforce_rate = 0.01
+		
+		category_all_infantry = {
+			casualty_trickleback  = 0.03
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = 22}
+		}
+	}
+	
 	special_forces_equipment = {
 		enable_equipments = {
 			special_forces_equipment_0
