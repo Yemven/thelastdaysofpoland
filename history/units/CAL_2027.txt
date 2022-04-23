@@ -1,0 +1,68 @@
+division_template = {
+	name = "Legio"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Praedium Centuria"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "Imperial Legio"
+		location = 1759
+		division_template = "Legio"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2. Legio"
+		location = 1759
+		division_template = "Legio"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		name = "3. Legio"
+		location = 14055
+		division_template = "Legio"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "Urusulus Legio"
+		location = 14529
+		division_template = "Legio"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		name = "5. Legio"
+		location = 14616
+		division_template = "Legio"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Porta Vlatislavia Centuria"
+		location = 13770
+		division_template = "Praedium Centuria"
+		start_experience_factor = 0
+		start_equipment_factor = 0.3
+	}
