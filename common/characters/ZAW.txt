@@ -1,5 +1,5 @@
 characters={
-	ZAW_jarosław_gowin={
+	ZAW_gowin={
 		name="Jarosław Gowin"
 		portraits={
 			civilian={
@@ -17,7 +17,7 @@ characters={
 			id=-1
 		}
 	}
-	ZAW_sebastian_kaleta={
+	ZAW_kaleta={
 		name="Sebastian Kaleta"
 		portraits={
 			civilian={
@@ -25,7 +25,33 @@ characters={
 			}
 		}
 		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAW_janoska={
+		name="Jerzy Janoska"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAW/ZAW_Janoska.dds"
+			}
+		}
+		country_leader={
 			ideology=neonationalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZAW_van_der_coghen={
+		name="Piotr van der Coghen"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAW/ZAW_VanDerCoghen.dds"
+			}
+		}
+		country_leader={
+			ideology=euroliberalism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}

@@ -9,8 +9,10 @@ set_technology = {
 oob = "ZAW_2027"
 set_convoys = 20
 
-recruit_character = ZAW_jarosław_gowin
-recruit_character = ZAW_sebastian_kaleta
+recruit_character = ZAW_gowin
+recruit_character = ZAW_kaleta
+recruit_character = ZAW_janoska
+recruit_character = ZAW_van_der_coghen
 
 add_ideas = {
 multiparty
@@ -40,12 +42,12 @@ set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
 	socialdemocrature = 0
-	euroliberalism = 0
+	euroliberalism = 18
 	freemarketism = 11
-	paternal_conservatism = 69
-	autocracy = 16
+	paternal_conservatism = 39
+	autocracy = 9
 	corporativism = 0
-	neonationalism = 4
-	reactionary = 0
+	neonationalism = 18
+	reactionary = 5
 	postpolonism = 0
 }
