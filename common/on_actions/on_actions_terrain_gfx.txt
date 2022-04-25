@@ -488,6 +488,24 @@ on_actions = {
 					province = { id = 14447 }
 				}
 			}
+			708 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz}
+					province = { id = 14413 }
+				}
+			}
+			314 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_kalisz}
+					province = { id = 1759 }
+				}
+			}
+			311 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_ostrow_wielkopolski}
+					province = { id = 14646 }
+				}
+			}
 			
 			
 			
