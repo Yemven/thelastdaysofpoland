@@ -1,0 +1,46 @@
+focus_tree = {
+	id = pulawy_focus
+	initial_show_position = { focus = PUL_placeholder_1 }
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PUL
+		}
+	}
+	deafult = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = PUL_placeholder_1
+		
+		x = 8
+		y = 0
+		
+		cost = 46
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = PUL_declare_on_czarnek
+		relative_position_id = PUL_placeholder_1
+		prerequisite = { focus = PUL_placeholder_1 }
+		will_lead_to_war_with = CRN
+
+		x = 0
+		y = 1
+		
+		cost = 4
+		completion_reward = {
+		declare_war_on = {
+    		target = CRN
+    		type = annex_everything
+			}	
+		}
+	}
+}
