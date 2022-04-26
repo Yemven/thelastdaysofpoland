@@ -3,15 +3,22 @@ state={
 	id=165
 	name="STATE_165"
 	provinces={
-		2521 2964 
+		2964 14773 14774 14775 14776 14777 14778 14779 14780 14781 14782 14783
 	}
-	manpower = 193578   state_category = large_city
+	manpower = 155219   state_category = large_city
 	buildings_max_level_factor=1.000
 	
-					history={
+	history={
 		owner = TOR
-		victory_points = { 2964 30
-
+		victory_points = {14773 35}
+		victory_points = {14774 5}
+		victory_points = {14775 5}
+		victory_points = {14477 4}
+		victory_points = {14782 4}
+		victory_points = {14783 4}
+		victory_points = {14778 4}
+		victory_points = {14777 2}
+			
 		}
 		buildings = {
 			infrastructure = 8
