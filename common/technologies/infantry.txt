@@ -411,7 +411,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = 2}
+			position = { x = 7 y = 0}
 		}
 	}
 	
@@ -460,6 +460,11 @@ technologies = {
 		research_cost = 1
 		start_year = 2036
 		
+		path = {
+			leads_to_tech = infantry_training4
+			research_cost_coeff = 1
+		}
+		
 		category_all_infantry = {
 			soft_attack = 0.05
 			max_organisation = 1
@@ -468,6 +473,21 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 7 y = 16}
+		}
+	}
+	
+	infantry_training4 = {
+		research_cost = 1
+		start_year = 2039
+		
+		category_all_infantry = {
+			soft_attack = 0.05
+			max_organisation = 1
+		}
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 20}
 		}
 	}
 	
@@ -514,11 +534,9 @@ technologies = {
 		position = { x = 8 y = 2}
 		}
 	
-		cas_damage_reduction = 0.05
-		land_reinforce_rate = 0.005
-		
-		category_all_infantry = {
-		casualty_trickleback  = 0.03
+		melee_infantry = {
+		max_organisation = 1
+		defense = 0.05
 		}
 		
 		categories = {
@@ -572,11 +590,9 @@ technologies = {
 		position = { x = 8 y = 6}
 		}
 	
-		cas_damage_reduction = 0.05
-		land_reinforce_rate = 0.005
-		
-		category_all_infantry = {
-		casualty_trickleback  = 0.03
+		melee_infantry = {
+		max_organisation = 1
+		defense = 0.05
 		}
 		
 		categories = {
@@ -630,11 +646,9 @@ technologies = {
 		position = { x = 8 y = 10}
 		}
 	
-		cas_damage_reduction = 0.05
-		land_reinforce_rate = 0.005
-		
-		category_all_infantry = {
-		casualty_trickleback  = 0.03
+		melee_infantry = {
+		max_organisation = 1
+		defense = 0.05
 		}
 		
 		categories = {
@@ -688,11 +702,9 @@ technologies = {
 		position = { x = 8 y = 14}
 		}
 	
-		cas_damage_reduction = 0.05
-		land_reinforce_rate = 0.005
-		
-		category_all_infantry = {
-		casualty_trickleback  = 0.03
+		melee_infantry = {
+		max_organisation = 1
+		defense = 0.05
 		}
 		
 		categories = {
@@ -741,11 +753,9 @@ technologies = {
 		position = { x = 8 y = 18}
 		}
 	
-		cas_damage_reduction = 0.05
-		land_reinforce_rate = 0.005
-		
-		category_all_infantry = {
-		casualty_trickleback  = 0.03
+		melee_infantry = {
+		max_organisation = 1
+		defense = 0.05
 		}
 		
 		categories = {
