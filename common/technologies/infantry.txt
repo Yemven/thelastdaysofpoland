@@ -217,7 +217,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = antitank_1
+			leads_to_tech = inf_antitank_1
 			research_cost_coeff = 1
 		}
 		
@@ -312,9 +312,9 @@ technologies = {
 		}
 	}
 	
-	antitank_1 = {
+	inf_antitank_1 = {
 		enable_equipments = {
-			anti_tank_equipment_1
+			inf_anti_tank_equipment_1
 		}
 		enable_subunits = {
 			anti_tank
@@ -326,7 +326,7 @@ technologies = {
 		research_cost = 1
 		
 		path = {
-			leads_to_tech = antitank_2
+			leads_to_tech = inf_antitank_2
 			research_cost_coeff = 1
 		}
 		start_year = 2030
@@ -344,16 +344,16 @@ technologies = {
 		}
 	}
 	
-	antitank_2 = {
+	inf_antitank_2 = {
 		enable_equipments = {
-			anti_tank_equipment_2
+			inf_anti_tank_equipment_2
 		}
 		enable_equipment_modules = {
 			tank_atgm
 		}
 		research_cost = 1
 		path = {
-			leads_to_tech = antitank_3
+			leads_to_tech = inf_antitank_3
 			research_cost_coeff = 1
 		}
 		start_year = 2033
@@ -371,9 +371,9 @@ technologies = {
 		}
 	}
 	
-	antitank_3 = {
+	inf_antitank_3 = {
 		enable_equipments = {
-			anti_tank_equipment_3
+			inf_anti_tank_equipment_3
 		}
 		enable_equipment_modules = {
 			tank_advanced_atgm
@@ -810,6 +810,13 @@ technologies = {
 			casualty_trickleback  = 0.03
 		}
 		
+		hidden_effect = {
+		melee_infantry = {
+		casualty_trickleback  = -0.03
+		}
+		}
+		
+		
 		categories = {
 			infantry_weapons
 		}
@@ -860,6 +867,12 @@ technologies = {
 		
 		category_all_infantry = {
 			casualty_trickleback  = 0.03
+		}
+		
+		hidden_effect = {
+		melee_infantry = {
+		casualty_trickleback  = -0.03
+		}
 		}
 		
 		categories = {
@@ -914,6 +927,12 @@ technologies = {
 			casualty_trickleback  = 0.03
 		}
 		
+		hidden_effect = {
+		melee_infantry = {
+		casualty_trickleback  = -0.03
+		}
+		}
+		
 		categories = {
 			infantry_weapons
 		}
@@ -966,6 +985,12 @@ technologies = {
 			casualty_trickleback  = 0.03
 		}
 		
+		hidden_effect = {
+		melee_infantry = {
+		casualty_trickleback  = -0.03
+		}
+		}
+		
 		categories = {
 			infantry_weapons
 		}
@@ -1011,6 +1036,12 @@ technologies = {
 		
 		category_all_infantry = {
 			casualty_trickleback  = 0.03
+		}
+		
+		hidden_effect = {
+		melee_infantry = {
+		casualty_trickleback  = -0.03
+		}
 		}
 		
 		categories = {
