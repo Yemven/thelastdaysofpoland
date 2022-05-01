@@ -6,9 +6,16 @@ set_technology = {
  ranged_weapons = 1
 }
 
+oob = "CZE_2027"
+
 set_convoys = 20
 
 recruit_character = CZE_tomio_okamura
+recruit_character = CZE_rumcajs
+recruit_character = CZE_master
+recruit_character = CZE_fuji
+recruit_character = CZE_miyajima
+recruit_character = CZE_komorowski
 
 
 set_politics = {
@@ -20,14 +27,14 @@ set_politics = {
 
 set_popularities = {
 	marxism_cranism	= 0
-	squattism = 21
+	squattism = 7
 	socialdemocrature = 0
 	euroliberalism = 0
 	freemarketism = 0
-	paternal_conservatism = 0
-	autocracy = 70
-	corporativism = 9
-	neonationalism = 0
-	reactionary = 0
+	paternal_conservatism = 21
+	autocracy = 46
+	corporativism = 0
+	neonationalism = 16
+	reactionary = 10
 	postpolonism = 0
 }

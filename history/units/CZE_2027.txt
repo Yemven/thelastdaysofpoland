@@ -1,0 +1,64 @@
+division_template = {
+	name = "Skupina samurajů"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Větev ashigaru"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+
+units = {
+    division = {
+		name = "Bakufu Strážce"
+		location = 12736
+		division_template = "Skupina samurajů"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+    division = {
+		name = "Česká No Hana"
+		location = 1362
+		division_template = "Skupina samurajů"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Horský Ashigaru"
+		location = 3968
+		division_template = "Větev ashigaru"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Horský Ashigaru"
+		location = 12877
+		division_template = "Větev ashigaru"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Horský Ashigaru"
+		location = 12718
+		division_template = "Větev ashigaru"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Horský Ashigaru"
+		location = 1385
+		division_template = "Větev ashigaru"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	
+}
