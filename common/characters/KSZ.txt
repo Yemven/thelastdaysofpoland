@@ -1,9 +1,22 @@
 characters={
-	KSZ_jan_wyrowiński={
+	KSZ_wyrowinski={
 		name="Jan Wyrowiński"
 		portraits={
 			civilian={
-				large="gfx/leaders/KSZ/KSZ_Wyrowinski1.dds"
+				large="gfx/leaders/KSZ/KSZ_Wyrowinski.dds"
+			}
+		}
+		country_leader={
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KSZ_jablonski={
+		name="Artur Jabłońsczi"
+		portraits={
+			civilian={
+				large="gfx/leaders/KSZ/KSZ_Jablonski.dds"
 			}
 		}
 		country_leader={
