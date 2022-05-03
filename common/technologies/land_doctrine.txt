@@ -8,6 +8,9 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 		xor = { our_boys }
+		
+		offence = 0.1
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -36,6 +39,17 @@ technologies = {
 		path = {
 			leads_to_tech = relearning_basic_tactics
 		}
+		
+		motorized = {
+			default_morale = 0.1 
+		}
+		mechanized = {
+			default_morale = 0.1
+		}
+		category_all_armor = {
+			default_morale = 0.1
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -58,6 +72,10 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 4 }
 		}
+		
+		max_planning = 0.05
+		max_training = 0.05
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -84,6 +102,12 @@ technologies = {
 		path = {
 			leads_to_tech = cq_brutality
 		}
+		
+		melee_infantry = {
+			max_organisation = 2
+			army_org_regain = 0.05
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -109,6 +133,11 @@ technologies = {
 		path = {
 			leads_to_tech = hools_siege_warfare
 		}
+		
+		melee_infantry = {
+			breakthrough = 0.1
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -131,6 +160,12 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 4 }
 		}
+		
+		melee_infantry = {
+			combat_width = -0.2
+		}
+		training_time_army = -1
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -1502,9 +1537,8 @@ technologies = {
 			position = { x = -2 y = 4 }
 		}
 		
-		#melee
-		category_all_infantry = {
-			soft_attack = 0.15
+		melee_infantry = {
+			soft_attack = 0.20
 		}
 		
 		
