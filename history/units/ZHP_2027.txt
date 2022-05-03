@@ -1,0 +1,85 @@
+division_template = {
+	name = "Bojowe Szkoły"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Grupy Szturmowe"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Batalion 'Zośka'"
+		location = 7602
+		division_template = "Grupy Szturmowe"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalion 'Parasol'" 
+		location = 7461
+		division_template = "Grupy Szturmowe"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Batalion 'Wigry'"
+		location = 7464
+		division_template = "Grupy Szturmowe"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Zgrupowanie 'Wawer'"
+		location = 7727
+		division_template = "Bojowe Szkoły"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Zgrupowanie 'Rudy'"
+		location = 7602
+		division_template = "Bojowe Szkoły"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Zgrupowanie 'Alek'"
+		location = 7602
+		division_template = "Bojowe Szkoły"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Zgrupowanie 'Małkowski'"
+		location = 7463
+		division_template = "Bojowe Szkoły"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+}
+	division = {
+		name = "Zgrupowanie 'Kamyk'"
+		location = 7462
+		division_template = "Bojowe Szkoły"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+}
+	division = {
+		name = "Zgrupowanie 'Zawisza'"
+		location = 7578
+		division_template = "Bojowe Szkoły"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+}
+}
