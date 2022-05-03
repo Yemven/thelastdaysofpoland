@@ -16,10 +16,16 @@ set_autonomy = {
 		#Pamietac o ustawieniu naszego taga wyzej niz tag puppeta w pliku z tagami wszystkich krajow.(W przeciwnym razie komunisci przejma tam wladze i nic z tym nie zrobisz)
 		target = OSW
 		#Ustalanie Typu puppeta, wplywa to na nazwe jego rodzaju i rozne modifiers np.nie mozliwosc wypowiadania wojen, badz tansze surowce (tutaj jest basic level)
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 		#Poziom Autonomii (Jeśli jest nizszy niz minimalny danego typu puppeta, moga pojawic sie problemy, ale raczej nie :) )
-		freedom_level = 0.65
+		freedom_level = 0.75
 	}
+
+set_autonomy = {
+	target = BOH
+	autonomous_state = autonomy_supervised_state
+	freedom_level = 0.75
+}
 
 set_politics = {
 	ruling_party = autocracy

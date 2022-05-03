@@ -11,6 +11,11 @@ set_convoys = 20
 recruit_character = TRN_władysław_kosiniakkamysz
 recruit_character = TRN_waldemar_pawlak
 
+set_autonomy = {
+	target = DBI
+	autonomous_state = autonomy_puppet
+	freedom_level = 0.65
+}
 
 set_politics = {
 	ruling_party = euroliberalism

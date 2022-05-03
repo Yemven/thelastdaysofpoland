@@ -9,10 +9,11 @@ set_technology = {
 set_convoys = 20
 
 
-recruit_character = KSZ_jan_wyrowiński
+recruit_character = KSZ_wyrowinski
+recruit_character = KSZ_jablonski
 
 set_politics = {
-	ruling_party = paternal_conservatism
+	ruling_party = euroliberalism
 	last_election = "2027.3.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -25,9 +26,9 @@ set_popularities = {
 	euroliberalism = 31
 	freemarketism = 0
 	paternal_conservatism = 36
-	autocracy = 12
+	autocracy = 0
 	corporativism = 0
-	neonationalism = 0
+	neonationalism = 12
 	reactionary = 0
 	postpolonism = 0
 }
