@@ -19,7 +19,6 @@ technologies = {
 		}
 		
 		enable_subunits = {
-			infantry
 			militia
 			melee_infantry
 		}
@@ -29,7 +28,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -55,7 +54,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2027
 		folder = {
 			name = infantry_folder
@@ -81,7 +80,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2030
 		folder = {
 			name = infantry_folder
@@ -107,7 +106,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2033
 		folder = {
 			name = infantry_folder
@@ -129,7 +128,7 @@ technologies = {
 		}
 		
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2036
 		folder = {
 			name = infantry_folder
@@ -155,6 +154,7 @@ technologies = {
 		}
 		enable_subunits = {
 			infantry
+			militia
 		}
 		
 		path = {
@@ -162,7 +162,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -189,7 +189,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2027
 		folder = {
 			name = infantry_folder
@@ -221,7 +221,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2030
 		folder = {
 			name = infantry_folder
@@ -248,7 +248,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2033
 		folder = {
 			name = infantry_folder
@@ -274,7 +274,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2036
 		folder = {
 			name = infantry_folder
@@ -296,7 +296,7 @@ technologies = {
 			ranged_equipment_5
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2040
 		folder = {
 			name = infantry_folder
@@ -323,7 +323,7 @@ technologies = {
 		enable_equipment_modules = {
 			tank_hi_velocity_gun
 		}
-		research_cost = 1
+		research_cost = 1.5
 		
 		path = {
 			leads_to_tech = inf_antitank_2
@@ -351,7 +351,7 @@ technologies = {
 		enable_equipment_modules = {
 			tank_atgm
 		}
-		research_cost = 1
+		research_cost = 2
 		path = {
 			leads_to_tech = inf_antitank_3
 			research_cost_coeff = 1
@@ -378,7 +378,7 @@ technologies = {
 		enable_equipment_modules = {
 			tank_advanced_atgm
 		}
-		research_cost = 1
+		research_cost = 2
 		
 		start_year = 2040
 		folder = {
