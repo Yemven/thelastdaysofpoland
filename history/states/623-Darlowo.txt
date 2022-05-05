@@ -1,17 +1,26 @@
+
 state={
 	id=623
 	name="STATE_623"
-	provinces={
-		525 710 1085 1379 
-	}
-	manpower = 27203   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = USP
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = USP
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		525 710 1379 3553 
+	}
+	manpower=27203
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

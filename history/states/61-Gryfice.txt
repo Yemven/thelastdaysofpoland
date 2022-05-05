@@ -2,17 +2,25 @@
 state={
 	id=61
 	name="STATE_61"
-	provinces={
-		473 1342 2112 2158 3564 
-	}
-	manpower = 34739   state_category = city
-	buildings_max_level_factor=1.000
-			history = {
+
+	history={
 		owner = JOM
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = JOM
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		2112 2158 3564 
+	}
+	manpower=34739
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

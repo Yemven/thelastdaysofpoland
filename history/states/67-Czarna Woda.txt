@@ -2,17 +2,25 @@
 state={
 	id=67
 	name="STATE_67"
-	provinces={
-		771 1500 1810 2110 2261 2387 3593 
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = LOT
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = LOT
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		771 1500 1810 2110 2259 2261 2387 3506 3593 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
