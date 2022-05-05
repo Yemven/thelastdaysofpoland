@@ -1,17 +1,26 @@
+
 state={
 	id=78
 	name="STATE_78"
-	provinces={
-		89 152 1012 2981 2994 3444 3581 3589 
-	}
-	manpower = 46005   state_category = city
-	buildings_max_level_factor=1.000
-					history = {
+
+	history={
 		owner = JAS
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = JAS
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		89 152 1012 1221 2981 2994 3444 3581 3589 
+	}
+	manpower=46005
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

@@ -2,17 +2,25 @@
 state={
 	id=45
 	name="STATE_45"
-	provinces={
-		391 610 1286 2301 3050 3549 3553 
-	}
-	manpower = 26514   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = USP
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = USP
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		391 610 2301 3549 
+	}
+	manpower=26514
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
