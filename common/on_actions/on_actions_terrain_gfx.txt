@@ -506,6 +506,24 @@ on_actions = {
 					province = { id = 14646 }
 				}
 			}
+			198 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_wyzyny}
+					province = { id = 14418 }
+				}
+			}
+			198 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_wloclawek_zazamcze}
+					province = { id = 15329 }
+				}
+			}
+			198 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_wloclawek_poludnie}
+					province = { id = 15330 }
+				}
+			}
 			
 			
 			
