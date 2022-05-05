@@ -1,17 +1,26 @@
+
 state={
 	id=295
 	name="STATE_295"
-	provinces={
-		826 902 1138 3827 
-	}
-	manpower = 77567  state_category = large_town
-	buildings_max_level_factor=1.000
-					history = {
+
+	history={
 		owner = WIN
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = WIN
-	buildings = {
-	infrastructure = 6
-}
-}
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		222 826 1138 1343 3810 
+	}
+	manpower=77567
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

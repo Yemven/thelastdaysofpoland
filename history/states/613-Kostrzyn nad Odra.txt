@@ -1,17 +1,26 @@
+
 state={
 	id=613
 	name="STATE_613"
-	provinces={
-		455 475 3294 
-	}
-	manpower = 28057   state_category = town
-	buildings_max_level_factor=1.000
-		history = {
+
+	history={
 		owner = MOT
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = MOT
-	buildings = {
-	infrastructure = 6
-}
-}
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		475 2346 3294 
+	}
+	manpower=28057
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

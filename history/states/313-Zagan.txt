@@ -1,17 +1,26 @@
+
 state={
 	id=313
 	name="STATE_313"
-	provinces={
-		23 235 236 1303 1547 2784 3844 
-	}
-	manpower = 42468   state_category = large_town
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = ZAG
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = ZAG
-	buildings = {
-	infrastructure = 6
-}
-}
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		235 1303 1502 1547 2094 2784 3844 
+	}
+	manpower=42468
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }
