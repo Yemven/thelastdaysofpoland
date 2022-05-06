@@ -5,11 +5,17 @@ state={
 	provinces={
 		1530 1607 1784 2211 3159 3299 3817 14563 14564 14565 14566 14567 14568 14569 14570 14571 14572 14573 14574 14575 14576 14577 14578 14579 14580 14581 14582 14583 14584 14585 14586 14587 14588 14589 14590 14591 14592
 	}
-	manpower = 39103   state_category = city
+	manpower = 37104   state_category = city
 	buildings_max_level_factor=1.000
 						history = {
 		owner = CAL
-		victory_points = { }
+		victory_points = {14580 8}
+		victory_points = {1530 1}
+		victory_points = {14570 1}
+		victory_points = {14575 2}
+		victory_points = {3159 1}
+		victory_points = {3817 1}
+		victory_points = {14578 1}
 		add_core_of = CAL
 	buildings = {
 	infrastructure = 7
