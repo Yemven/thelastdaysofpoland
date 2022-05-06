@@ -1,21 +1,33 @@
+
 state={
 	id=353
 	name="STATE_353"
-	provinces={
-		3358 
-	}
-	manpower = 68102   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = ZYD
-		victory_points = { 3358 30 }
+		victory_points = {
+			3358 30 
+		}
 		add_core_of = ZYD
-	buildings = {
-	infrastructure = 7
-	industrial_complex = 3
-	arms_factory = 1
-	air_base = 2 
-	3358 = {bunker = 2}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+			3358 = {
+				bunker = 2
+
+			}
+
+		}
+
 	}
+
+	provinces={
+		1841 3358 12054 12055 
 	}
+	manpower=68102
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

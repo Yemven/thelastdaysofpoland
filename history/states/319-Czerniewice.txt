@@ -5,27 +5,50 @@ state={
 
 	history={
 		owner = ZYD
-		victory_points = {2761 5 }
-		victory_points = {12022 1 }
-		victory_points = {12012 1 }
-		victory_points = {12007 1 }
-		victory_points = {12002 1 }
-		victory_points = {1974 1 }
-		victory_points = {11998 1 }
+		victory_points = {
+			2761 5 
+		}
+		victory_points = {
+			12022 1 
+		}
+		victory_points = {
+			12012 1 
+		}
+		victory_points = {
+			12007 1 
+		}
+		victory_points = {
+			12002 1 
+		}
+		victory_points = {
+			1974 1 
+		}
+		victory_points = {
+			11998 1 
+		}
 		add_core_of = ZYD
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 0
-			12008 = {bunker = 1}
-			2736 = {bunker = 1}
-			12021 = {bunker = 1}
+			12008 = {
+				bunker = 1
+
+			}
+			2736 = {
+				bunker = 1
+
+			}
+			12021 = {
+				bunker = 1
+
+			}
 
 		}
 
 	}
 
 	provinces={
-		85 1974 2035 2736 2761 11996 11997 11998 11999 12000 12001 12002 12003 12004 12005 12006 12007 12008 12009 12010 12011 12012 12013 12014 12015 12016 12017 12018 12019 12020 12021 12022 12023 12024 12025 12026 12027 12654
+		85 1226 1974 2035 2736 2761 11996 11997 11998 11999 12000 12001 12002 12003 12004 12005 12006 12007 12008 12009 12010 12011 12012 12013 12014 12015 12016 12017 12018 12019 12020 12021 12022 12023 12024 12025 12026 12027 12046 12047 12048 12654 
 	}
 	manpower=33824
 	buildings_max_level_factor=1.000
