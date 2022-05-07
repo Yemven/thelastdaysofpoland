@@ -1,0 +1,66 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = kukiz_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = OPO
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+		focus = {
+		id = OPO_new_country_is_born
+		icon = OPO_new_country_is_born
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 6
+		y = 0
+		
+		cost = 2.9
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { 
+		#add_stability = 0.05
+		#country_event = {
+		#	id = belchatow.1
+		#	days = 1 }
+		}
+	}
+	
+	focus = {
+		id = OPO_defend_the_border
+		icon = OPO_defend_the_border
+		relative_position_id = OPO_new_country_is_born
+		prerequisite = { focus = OPO_new_country_is_born }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	}
