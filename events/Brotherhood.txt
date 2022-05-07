@@ -36,3 +36,89 @@ country_event = {
 		add_stability = -0.15
 	}
 }
+
+country_event = {
+	id = belchatow.3
+	title = belchatow.3.t
+	desc = belchatow.3.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.3.a
+		add_political_power = 100
+		add_stability = 0.1
+	}
+}
+
+country_event = {
+	id = belchatow.4
+	title = belchatow.4.t
+	desc = belchatow.4.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.4.a
+	}
+}
+
+country_event = {
+	id = belchatow.5
+	title = belchatow.5.t
+	desc = belchatow.5.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.5.a
+	}
+}
+
+country_event = {
+	id = belchatow.6
+	title = belchatow.6.t
+	desc = belchatow.6.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.6.a
+	}
+}
+
+country_event = {
+	id = belchatow.7
+	title = belchatow.7.t
+	desc = belchatow.7.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.7.a
+	}
+}
+
+country_event = {
+	id = belchatow.8
+	title = belchatow.8.t
+	desc = belchatow.8.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.8.a
+	}
+}
