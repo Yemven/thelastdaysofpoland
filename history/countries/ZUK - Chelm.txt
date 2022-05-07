@@ -10,11 +10,13 @@ oob = "ZUK_2027"
 recruit_character = ZUK_Krzysztof_Zuk
 recruit_character = ZUK_Beata_Stepaniuk-Kusmierzak
 recruit_character = ZUK_Jaroslaw_Pakula
+recruit_character = ZUK_Anna_Ryfka
 recruit_character = ZUK_Zbigniew_Jurkowski
 
 add_ideas = {
 	ZUK_min_Beata_Stepaniuk-Kusmierzak
 	ZUK_min_Jaroslaw_Pakula
+	ZUK_min_Anna_Ryfka
 	ZUK_min_Zbigniew_Jurkowski
 
 	controlled_opposition
@@ -26,7 +28,7 @@ add_ideas = {
 	training_battle
 	officer_clerks
 	economy_social_market
-	taxes_medium
+		#taxes
 	trade_regulated
 	lgbt_limited_laws
 	drugs_all_penalised

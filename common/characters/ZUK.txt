@@ -61,6 +61,24 @@ characters={
 			}
 		}
 	}
+	ZUK_Anna_Ryfka={
+		name="Anna Ryfka"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/ZUK/ZUK_Anna_Ryfka.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = ZUK_min_Anna_Ryfka
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ZUK
+			}
+		}
+	}
 	ZUK_Zbigniew_Jurkowski={
 		name="Zbigniew Jurkowski"
 		portraits={

@@ -12,4 +12,76 @@ characters={
 			id=-1
 		}
 	}
+	PUL_Rafal_Mekler={
+		name="Rafał Mekler"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/PUL/PUL_Rafal_Mekler.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = PUL_min_Rafal_Mekler
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = PUL
+			}
+		}
+	}
+	PUL_Marek_Szewczyk={
+		name="Marek Szewczyk"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/PUL/PUL_Marek_Szewczyk.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = PUL_min_Marek_Szewczyk
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = PUL
+			}
+		}
+	}
+	PUL_Arkadiusz_Gajda={
+		name="Arkadiusz Gajda"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/PUL/PUL_Arkadiusz_Gajda.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = PUL_min_Arkadiusz_Gajda
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = PUL
+			}
+		}
+	}
+	PUL_Andrzej_Wieclawski={
+		name="Andrzej Więcławski"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/PUL/PUL_Andrzej_Wieclawski.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = PUL_min_Andrzej_Wieclawski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = PUL
+			}
+		}
+	}
 }

@@ -11,11 +11,14 @@ recruit_character = CRN_Przemyslaw_Czarnek
 recruit_character = CRN_Lech_Sprawka
 recruit_character = CRN_Sylwester_Tulajew
 recruit_character = CRN_Artur_Sobon
+recruit_character = CRN_Tomasz_Pitucha
+recruit_character = CRN_Stanislaw_Budzik
 
 add_ideas = {
 	CRN_min_Lech_Sprawka
 	CRN_min_Sylwester_Tulajew
 	CRN_min_Artur_Sobon
+	CRN_min_Tomasz_Pitucha
 
 	monoparty
 	state_press
@@ -26,7 +29,7 @@ add_ideas = {
 	training_veterans
 	officer_leftovers
 	economy_authoritarian_capitalism
-	taxes_medium
+		#taxes
 	trade_regulated
 	lgbt_illegal_tolerated
 	drugs_all_penalised

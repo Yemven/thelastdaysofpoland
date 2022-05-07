@@ -67,4 +67,40 @@ characters={
 			}
 		}
 	}
+	CRN_Tomasz_Pitucha={
+		name="Tomasz Pitucha"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/CRN/CRN_Tomasz_Pitucha.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = CRN_min_Tomasz_Pitucha
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CRN
+			}
+		}
+	}
+	CRN_Stanislaw_Budzik={
+		name="Stanisław Budzik"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/CRN/CRN_Stanislaw_Budzik.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = CRN_min_Stanislaw_Budzik
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CRN
+			}
+		}
+	}
 }
