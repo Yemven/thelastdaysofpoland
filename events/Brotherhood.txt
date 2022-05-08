@@ -17,6 +17,7 @@ country_event = {
 	option = {
 		name = belchatow.1.a
 		add_stability = -0.15
+		add_ideas = BBW_street_anger
 	}
 }
 
@@ -33,7 +34,12 @@ country_event = {
 	option = { 
 		name = belchatow.2.a
 		ai_chance = { factor = 90 }
-		add_stability = -0.15
+		swap_ideas = {
+	add_idea = BBW_street_anger2
+	remove_idea = BBW_street_anger
+	}
+	retire_character = BBW_gen_sommer
+	add_idea = BBW_min_rzymkowski
 	}
 }
 
@@ -78,6 +84,9 @@ country_event = {
 
 	option = {
 		name = belchatow.5.a
+		add_manpower = -500
+		add_stability = 0.1
+		add_political_power = 50
 	}
 }
 
@@ -92,6 +101,8 @@ country_event = {
 
 	option = {
 		name = belchatow.6.a
+		production_speed_buildings_factor = 0.1
+		add_stability = 0.05		
 	}
 }
 

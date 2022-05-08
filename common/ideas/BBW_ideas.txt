@@ -34,5 +34,39 @@ ideas = {
 				consumer_goods_factor = 0.15
 			}
 		}
+		BBW_street_anger = {
+			original_tag = BBW
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.15
+				mobilization_speed = -0.01
+			}
+		}
+		BBW_street_anger2 = {
+			original_tag = BBW
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.2
+				army_org_factor = -0.2
+				mobilization_speed = -0.02
+				research_speed_factor = -0.1
+			}
+		}
 	}
 }

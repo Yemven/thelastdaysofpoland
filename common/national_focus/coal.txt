@@ -59,7 +59,9 @@ focus_tree = {
 		cost = 3.7
 		search_filters = { }
 		completion_reward = {
-			
+			load_oob = "BBW_militia"
+			add_stability = -0.1
+			add_political_power = -70
 		}
 	}
 	
@@ -81,7 +83,6 @@ focus_tree = {
 		cost = 3.7
 		search_filters = {}
 		completion_reward = {
-		add_stability = 0.05
 		country_event = {
 			id = belchatow.2
 			days = 1
