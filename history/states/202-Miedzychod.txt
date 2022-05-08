@@ -2,17 +2,25 @@
 state={
 	id=202
 	name="STATE_202"
-	provinces={
-		3065 3707 15087 15090 15091 15092 15093 15094 15095 15096 15097 15098 15099 15100 15101 15102 15103 15104 15105 15106
-	}
-	manpower = 16402   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = NAC
-		victory_points = {15097 10}
+		victory_points = {
+			15101 10 
+		}
 		add_core_of = NAC
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		3065 3707 15087 15090 15091 15092 15093 15094 15095 15096 15098 15099 15100 15101 15102 15103 15104 15105 15106 
+	}
+	manpower=16402
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
