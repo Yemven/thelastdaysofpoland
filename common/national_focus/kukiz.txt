@@ -18,7 +18,7 @@ focus_tree = {
 	
 	continuous_focus_position = {x = 50 y = 1500 }
 	
-		focus = {
+	focus = {
 		id = OPO_new_country_is_born
 		icon = OPO_new_country_is_born
 		
@@ -28,22 +28,23 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 6
+		x = 8
 		y = 0
 		
 		cost = 2.9
 		search_filters = {FOCUS_STABILITY}
+		#evencik dajacy backstory naszej frakcji
 		completion_reward = { 
-		#add_stability = 0.05
+		
 		#country_event = {
-		#	id = belchatow.1
+		#	id = kukiz.1
 		#	days = 1 }
 		}
 	}
 	
 	focus = {
-		id = OPO_defend_the_border
-		icon = OPO_defend_the_border
+		id = OPO_opole_government
+		icon = OPO_opole_government
 		relative_position_id = OPO_new_country_is_born
 		prerequisite = { focus = OPO_new_country_is_born }
 		
@@ -53,7 +54,176 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 2
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+			#Evencik lorowy o tym jak ciezko jest stworzyc funkcjonalna demokracje w czasach anarchii
+			#Wszystko bedzie przekazane przez rozmowe kukiza z jakims politykierem(rozmowa pojdzie zle i pod koniec beda jakies przemyslenia o tym temacie)
+		}
+	}
+	
+	focus = {
+		id = OPO_examine_our_threats
+		icon = OPO_examine_our_threats
+		relative_position_id = OPO_opole_government
+		prerequisite = { focus = OPO_opole_government }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		#event w którym nasz
+		}
+	}
+	
+	focus = {
+		id = OPO_maintain_order
+		icon = OPO_maintain_order
+		relative_position_id = OPO_examine_our_threats
+		prerequisite = { focus = OPO_examine_our_threats }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		add_stability = 0.03
+		add_manpower = -21
+		#Event z pacyfikacji dysydentow i wrogow (z tym ze jeden z tych ludzi nim nie jest a bicie i tak dostaje)
+		}
+	}
+	
+	focus = {
+		id = OPO_promises_to_the_civilians
+		icon = OPO_promises_to_the_civilians
+		relative_position_id = OPO_maintain_order
+		prerequisite = { focus = OPO_maintain_order }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		add_stability = 0.10
+		add_political_power = 50
+			#obiecamy ludności cywilnej, wzrost poziomu życia, da nam to misję do wykonania (potrzeba wybudowania cywilek/infrastruktury)
+			#Czas jest tak duży że można go wykonać już po regionalnej unifikacji (ale nadal przed wyborami)
+			#jeśli się uda to dostajemy stabilność i ich zwiększone poparcie w wyborach prezydenckich
+			#jeśli się nie uda to dostajemy to samo tylko z wartościami na odwrót oraz zamieszki (duch narodowy/niefajny event)
+		}
+	}
+	
+	focus = {
+		id = OPO_defend_the_border
+		icon = OPO_defend_the_border
+		relative_position_id = OPO_examine_our_threats
+		prerequisite = { focus = OPO_examine_our_threats }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+			#pare bunkrów na naszych granicach
+			add_manpower = 500
+			#średnie 2 dywizje piechotki
+			#opóźniony event opowiadający jak to jakiś żołnierz nasz rozmyśla na naszych posterunkach pogranicznych
+		}
+	}
+	
+	focus = {
+		id = OPO_promises_to_the_military
+		icon = OPO_promises_to_the_military
+		relative_position_id = OPO_defend_the_border
+		prerequisite = { focus = OPO_defend_the_border }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+			#obiecamy wojsku, polepszenie sytaucji militarnej, da nam to misje do wykonania (potrzeba wybudowania militarek)
+			#Czas jest tak duży że można go wykonać już po regionalnej unifikacji (ale nadal przed wyborami)
+			#jeśli się uda to dostajemy poparcie armii i ich poparcie w wyborach prezydenckich
+			#jeśli się nie uda to dostajemy to samo tylko z wartościami na odwrót
+		}
+	}
+	
+	focus = {
+		id = OPO_new_morning_in_opole
+		icon = OPO_new_morning_in_opole
+		relative_position_id = OPO_promises_to_the_military
+		prerequisite = { focus = OPO_promises_to_the_military }
+		prerequisite = { focus = OPO_promises_to_the_civilians }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 2
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = {
+		id = OPO_turn_our_attention_south
+		icon = OPO_turn_our_attention_south
+		relative_position_id = OPO_new_morning_in_opole
+		prerequisite = { focus = OPO_new_morning_in_opole }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
 		y = 1
 		
 		cost = 3.7
@@ -62,5 +232,98 @@ focus_tree = {
 			
 		}
 	}
+	
+	focus = {
+		id = OPO_sacrifice_for_greater_good
+		icon = OPO_sacrifice_for_greater_good
+		relative_position_id = OPO_turn_our_attention_south
+		prerequisite = { focus = OPO_turn_our_attention_south }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = OPO_prepare_for_grand_offensive
+		icon = OPO_prepare_for_grand_offensive
+		relative_position_id = OPO_sacrifice_for_greater_good
+		prerequisite = { focus = OPO_sacrifice_for_greater_good }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = OPO_preserve_nysa_government
+		icon = OPO_preserve_nysa_government
+		relative_position_id = OPO_turn_our_attention_south
+		prerequisite = { focus = OPO_turn_our_attention_south }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+			add_manpower = -1000
+			NYS = {
+			add_manpower = 1000
+			}
+		}
+	}
+	
+	focus = {
+		id = OPO_southern_bastion
+		icon = OPO_southern_bastion
+		relative_position_id = OPO_preserve_nysa_government
+		prerequisite = { focus = OPO_preserve_nysa_government }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+			
+		#daje decyzje do stworzenia południowego battalionu (1 dobra dywizja piechotki) dla nysy
+		}
+	}
+	
 	
 	}
