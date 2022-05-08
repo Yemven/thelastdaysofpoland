@@ -39,7 +39,8 @@ country_event = {
 	remove_idea = BBW_street_anger
 	}
 	retire_character = BBW_gen_sommer
-	add_idea = BBW_min_rzymkowski
+	activate_advisor = BBW_min_rzymkowski
+	random_unit_leader = { limit = { has_id = 11 } promote_leader = yes }
 	}
 }
 
@@ -101,8 +102,7 @@ country_event = {
 
 	option = {
 		name = belchatow.6.a
-		production_speed_buildings_factor = 0.1
-		add_stability = 0.05		
+		add_ideas = BBW_carbon_fever
 	}
 }
 

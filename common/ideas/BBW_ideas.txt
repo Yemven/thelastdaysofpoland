@@ -68,5 +68,21 @@ ideas = {
 				research_speed_factor = -0.1
 			}
 		}
+		BBW_carbon_fever = {
+			original_tag = BBW
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+			production_speed_buildings_factor = 0.1
+			stability_weekly = 0.015	
+			}
+		}
 	}
 }
