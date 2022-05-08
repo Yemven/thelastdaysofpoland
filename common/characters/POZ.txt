@@ -1,9 +1,10 @@
 characters={
-	POZ_jacek_jaśkowiak={
+	POZ_jacek_jaskowiak={
 		name="Jacek Jaśkowiak"
 		portraits={
 			civilian={
 				large="gfx/leaders/POZ/POZ_Jaskowiak1.dds"
+				small="gfx/interface/ideas/POZ/POZ_Jaskowiak.dds"
 			}
 		}
 		country_leader={
@@ -11,12 +12,65 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		advisor = {
+			desc = "POLITICS_JACEK_JASKOWIAK_DESC"
+			cost = -1
+			slot = head_of_government
+			idea_token = POZ_min_jaskowiak
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = POZ
+			}
+			traits = { }
+		}
+	}
+	POZ_maciej_jan_zukowski={
+		name="Maciej Jan Żukowski"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/POZ/POZ_Zukowski.dds"
+			}
+		}
+		advisor = {
+			desc = "POLITICS_maciej_jan_zukowski_DESC"
+			cost = -1
+			slot = minister_of_economy
+			idea_token = POZ_min_zukowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = POZ
+			}
+			traits = { insurance_expert }
+		}
+	}
+	POZ_marek_wozniak={
+		name="Marek Woźniak"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/POZ/POZ_Wozniak.dds"
+			}
+		}
+		advisor = {
+			desc = "POLITICS_marek_wozniak_DESC"
+			cost = -1
+			slot = interior_minister
+			idea_token = POZ_min_wozniak
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = POZ
+			}
+			traits = { marshal }
+		}
 	}
 	POZ_miroslaw_rozanski = {
 		name="Mirosław Różański"
 		portraits = {
 			army = {
 			    large="gfx/leaders/POZ/POZ_Rozanski.dds"
+				small="gfx/interface/ideas/POZ/POZ_Rozanski.dds"
 			}
 		}
 		field_marshal = {
@@ -27,6 +81,18 @@ characters={
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
+		}
+		advisor = {
+			desc = "POLITICS_MIROSLAW_ROZANSKI_DESC"
+			cost = -1
+			slot = minister_of_war
+			idea_token = POZ_min_rozanski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = POZ
+			}
+			traits = { defender_of_freedom }
 		}
 	}
 	POZ_michal_rozga = {
