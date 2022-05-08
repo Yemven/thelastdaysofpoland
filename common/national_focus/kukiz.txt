@@ -274,7 +274,7 @@ focus_tree = {
 		icon = OPO_sacrifice_for_greater_good
 		relative_position_id = OPO_turn_our_attention_south
 		prerequisite = { focus = OPO_turn_our_attention_south }
-		
+		mutually_exclusive = { focus = OPO_preserve_nysa_government }
 		available = {
 		}
 		
@@ -320,7 +320,7 @@ focus_tree = {
 		icon = OPO_preserve_nysa_government
 		relative_position_id = OPO_turn_our_attention_south
 		prerequisite = { focus = OPO_turn_our_attention_south }
-		
+		mutually_exclusive = { focus = OPO_sacrifice_for_greater_good }
 		available = {
 		}
 		
@@ -426,7 +426,7 @@ focus_tree = {
 		icon = OPO_we_need_to_secure_opole
 		relative_position_id = OPO_turn_our_attention_east
 		prerequisite = { focus = OPO_turn_our_attention_east }
-		
+		mutually_exclusive = { focus = OPO_german_polish_alliance }
 		available = {
 		}
 		
@@ -470,7 +470,7 @@ focus_tree = {
 		icon = OPO_german_polish_alliance
 		relative_position_id = OPO_turn_our_attention_east
 		prerequisite = { focus = OPO_turn_our_attention_east }
-		
+		mutually_exclusive = { focus = OPO_we_need_to_secure_opole }
 		available = {
 		}
 		
@@ -631,7 +631,7 @@ focus_tree = {
 		icon = OPO_anti_vandal_tactics
 		relative_position_id = OPO_vandal_menace
 		prerequisite = { focus = OPO_vandal_menace}
-		
+		mutually_exclusive = { focus = OPO_german_volunteers }
 		available = {
 		}
 		
@@ -652,6 +652,7 @@ focus_tree = {
 		icon = OPO_german_volunteers
 		relative_position_id = OPO_vandal_menace
 		prerequisite = { focus = OPO_vandal_menace}
+		mutually_exclusive = { focus = OPO_anti_vandal_tactics }
 		
 		available = {
 		}
@@ -779,7 +780,7 @@ focus_tree = {
 		icon = OPO_naval_route_to_nysa
 		relative_position_id = OPO_lehjan_menace
 		prerequisite = { focus = OPO_lehjan_menace}
-		
+		mutually_exclusive = { focus = OPO_anti_lehjan_partisants }
 		available = {
 		}
 		
@@ -800,7 +801,7 @@ focus_tree = {
 		icon = OPO_anti_lehjan_partisants
 		relative_position_id = OPO_lehjan_menace
 		prerequisite = { focus = OPO_lehjan_menace}
-		
+		mutually_exclusive = { focus = OPO_naval_route_to_nysa }
 		available = {
 		}
 		
@@ -818,7 +819,7 @@ focus_tree = {
 	
 	focus = {
 		id = OPO_hunt_for_sanjaya
-		icon = OPO_anti_lehjan_partisants
+		icon = OPO_hunt_for_sanjaya
 		relative_position_id = OPO_anti_lehjan_partisants
 		prerequisite = { focus = OPO_anti_lehjan_partisants
 						focus = OPO_naval_route_to_nysa }
@@ -830,6 +831,98 @@ focus_tree = {
 		}
 		
 		x = -1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_nysa_conference
+		icon = OPO_nysa_conference
+		relative_position_id = OPO_hunt_for_sanjaya
+		prerequisite = { focus = OPO_hunt_for_sanjaya }
+		prerequisite = { focus = OPO_hunt_for_genzeryk}
+		prerequisite = { focus = OPO_hunt_for_jaworoj }
+		mutually_exclusive = { focus = OPO_united_by_violence }			
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 3
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_united_by_violence
+		icon = OPO_united_by_violence
+		relative_position_id = OPO_hunt_for_sanjaya
+		prerequisite = { focus = OPO_hunt_for_sanjaya }
+		prerequisite = { focus = OPO_hunt_for_genzeryk}
+		prerequisite = { focus = OPO_hunt_for_jaworoj }
+		mutually_exclusive = { focus = OPO_nysa_conference }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 5
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_united_at_last
+		icon = OPO_united_at_last
+		relative_position_id = OPO_united_by_violence
+		prerequisite = { focus = OPO_united_by_violence 
+						 focus = OPO_nysa_conference}
+						
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_return_to_the_democracy
+		icon = OPO_return_to_the_democracy
+		relative_position_id = OPO_united_at_last
+		prerequisite = { focus = OPO_united_at_last}
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
 		y = 1
 		
 		cost = 3.7
