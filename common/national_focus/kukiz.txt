@@ -16,7 +16,7 @@ focus_tree = {
 	}
 	default = no
 	
-	continuous_focus_position = {x = 50 y = 1500 }
+	continuous_focus_position = {x = 50 y = 2500 }
 	
 	focus = {
 		id = OPO_new_country_is_born
@@ -181,6 +181,8 @@ focus_tree = {
 		cost = 3.7
 		search_filters = { }
 		completion_reward = {
+			add_war_support = 0.05
+			add_manpower = 250
 			#obiecamy wojsku, polepszenie sytaucji militarnej, da nam to misje do wykonania (potrzeba wybudowania militarek)
 			#Czas jest tak duży że można go wykonać już po regionalnej unifikacji (ale nadal przed wyborami)
 			#jeśli się uda to dostajemy poparcie armii i ich poparcie w wyborach prezydenckich
@@ -211,6 +213,40 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = OPO_alliance_with_nysa
+		icon = OPO_alliance_with_nysa
+		relative_position_id = OPO_new_morning_in_opole
+		prerequisite = { focus = OPO_new_morning_in_opole }
+		prerequisite = { focus = OPO_preserve_nysa_government }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 3
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+			if = {
+			limit = {
+			tag = OPO
+            is_in_faction_with = MNI
+				}
+			add_to_faction = NYS
+			}
+			else = 
+			{
+			create_faction = "Kukiz-Nysa Alliance" #ta nazwa to placeholder w huj
+			add_to_faction = NYS
+			}
+		}
+	}
+
 	focus = {
 		id = OPO_turn_our_attention_south
 		icon = OPO_turn_our_attention_south
@@ -256,8 +292,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = OPO_prepare_for_grand_offensive
-		icon = OPO_prepare_for_grand_offensive
+		id = OPO_prepare_for_great_war
+		icon = OPO_prepare_for_great_war
 		relative_position_id = OPO_sacrifice_for_greater_good
 		prerequisite = { focus = OPO_sacrifice_for_greater_good }
 		
@@ -273,7 +309,9 @@ focus_tree = {
 		cost = 3.7
 		search_filters = { }
 		completion_reward = {
-			
+		add_timed_idea = { idea = OPO_pre_opole_war_conscription days = 100 }
+		#daje możliwość odpalenia decyzji "wielka wojna opolska", daje na rok idee OPO_great_opole_war 
+		#ofc decyzja mozliwa do odpalenia tylko podczas wojny
 		}
 	}
 	
@@ -295,9 +333,19 @@ focus_tree = {
 		cost = 3.7
 		search_filters = { }
 		completion_reward = {
+			add_political_power = 25
 			add_manpower = -1000
+			add_equipment_to_stockpile = {
+    			type = ranged_equipment_0
+    			amount = -250
+				}
 			NYS = {
 			add_manpower = 1000
+			add_equipment_to_stockpile = {
+    			type = ranged_equipment_0
+    			amount = 250
+    			producer = OPO
+				}
 			}
 		}
 	}
@@ -320,10 +368,474 @@ focus_tree = {
 		cost = 3.7
 		search_filters = { }
 		completion_reward = {
-			
+		NYS = {
+		add_timed_idea = { idea = NYS_southern_bastion days = 360 }
+		}
+		#evencik o tym jak kukiz w publicznym przemówieniu nazywa nyse południowym bastionem.
 		#daje decyzje do stworzenia południowego battalionu (1 dobra dywizja piechotki) dla nysy
 		}
 	}
 	
+	focus = {
+		id = OPO_festung_opole
+		icon = OPO_festung_opole
+		relative_position_id = OPO_southern_bastion
+		prerequisite = { focus = OPO_southern_bastion
+						focus = OPO_prepare_for_great_war}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		##bunkty w opolu
+		}
+	}
+	
+	focus = {
+		id = OPO_turn_our_attention_east
+		icon = OPO_turn_our_attention_east
+		relative_position_id = OPO_new_morning_in_opole
+		prerequisite = { focus = OPO_new_morning_in_opole }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = OPO_we_need_to_secure_opole
+		icon = OPO_we_need_to_secure_opole
+		relative_position_id = OPO_turn_our_attention_east
+		prerequisite = { focus = OPO_turn_our_attention_east }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = OPO_enemies_on_all_side
+		icon = OPO_enemies_on_all_side
+		relative_position_id = OPO_we_need_to_secure_opole
+		prerequisite = { focus = OPO_we_need_to_secure_opole }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = OPO_german_polish_alliance
+		icon = OPO_german_polish_alliance
+		relative_position_id = OPO_turn_our_attention_east
+		prerequisite = { focus = OPO_turn_our_attention_east }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		OPO ={
+		create_faction = "Kukiz-German Alliance" #ta nazwa to placeholder w huj
+		add_to_faction = MNI
+			}
+		}
+	}
+	
+	focus = {
+		id = OPO_sharing_technology
+		icon = OPO_sharing_technology
+		relative_position_id = OPO_german_polish_alliance
+		prerequisite = { focus = OPO_german_polish_alliance }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = OPO_open_pre_war_weapon_stockpiles
+		icon = OPO_open_pre_war_weapon_stockpiles
+		relative_position_id = OPO_sharing_technology
+		prerequisite = { focus = OPO_sharing_technology
+						 focus = OPO_enemies_on_all_side }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		add_equipment_to_stockpile = {
+    			type = ranged_equipment_0
+    			amount = 500
+				}
+				add_equipment_to_stockpile = {
+    			type = melee_equipment_0
+    			amount = 250
+				}
+				add_equipment_to_stockpile = {
+    			type = equipment_vests_0
+    			amount = 500
+				}
+				
+		}
+	}
+	
+	focus = {
+		id = OPO_open_pre_war_weapon_stockpiles
+		icon = OPO_open_pre_war_weapon_stockpiles
+		relative_position_id = OPO_sharing_technology
+		prerequisite = { focus = OPO_sharing_technology
+						 focus = OPO_enemies_on_all_side }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		add_equipment_to_stockpile = {
+    			type = ranged_equipment_0
+    			amount = 500
+				}
+				add_equipment_to_stockpile = {
+    			type = melee_equipment_0
+    			amount = 250
+				}
+				add_equipment_to_stockpile = {
+    			type = equipment_vests_0
+    			amount = 500
+				}	
+		}
+	}
+	
+	focus = {
+		id = OPO_secure_the_voivodeship
+		icon = OPO_secure_the_voivodeship
+		relative_position_id = OPO_open_pre_war_weapon_stockpiles
+		prerequisite = { focus = OPO_open_pre_war_weapon_stockpiles}
+		prerequisite = { focus = OPO_festung_opole}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		add_war_support = 0.10
+		add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = OPO_vandal_menace
+		icon = OPO_vandal_menace
+		relative_position_id = OPO_secure_the_voivodeship
+		prerequisite = { focus = OPO_secure_the_voivodeship}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_anti_vandal_tactics
+		icon = OPO_anti_vandal_tactics
+		relative_position_id = OPO_vandal_menace
+		prerequisite = { focus = OPO_vandal_menace}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_german_volunteers
+		icon = OPO_german_volunteers
+		relative_position_id = OPO_vandal_menace
+		prerequisite = { focus = OPO_vandal_menace}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_hunt_for_genzeryk
+		icon = OPO_hunt_for_genzeryk
+		relative_position_id = OPO_german_volunteers
+		prerequisite = { focus = OPO_german_volunteers
+						focus = OPO_anti_vandal_tactics }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_lechitic_menace
+		icon = OPO_lechitic_menace
+		relative_position_id = OPO_secure_the_voivodeship
+		prerequisite = { focus = OPO_secure_the_voivodeship}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_anti_lechitic_propaganda
+		icon = OPO_anti_lechitic_propaganda
+		relative_position_id = OPO_lechitic_menace
+		prerequisite = { focus = OPO_lechitic_menace}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_hunt_for_jaworoj
+		icon = OPO_hunt_for_jaworoj
+		relative_position_id = OPO_anti_lechitic_propaganda
+		prerequisite = { focus = OPO_anti_lechitic_propaganda}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_lehjan_menace
+		icon = OPO_lehjan_menace
+		relative_position_id = OPO_secure_the_voivodeship
+		prerequisite = { focus = OPO_secure_the_voivodeship}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_naval_route_to_nysa
+		icon = OPO_naval_route_to_nysa
+		relative_position_id = OPO_lehjan_menace
+		prerequisite = { focus = OPO_lehjan_menace}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_anti_lehjan_partisants
+		icon = OPO_anti_lehjan_partisants
+		relative_position_id = OPO_lehjan_menace
+		prerequisite = { focus = OPO_lehjan_menace}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OPO_hunt_for_sanjaya
+		icon = OPO_anti_lehjan_partisants
+		relative_position_id = OPO_anti_lehjan_partisants
+		prerequisite = { focus = OPO_anti_lehjan_partisants
+						focus = OPO_naval_route_to_nysa }
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
 	
 	}

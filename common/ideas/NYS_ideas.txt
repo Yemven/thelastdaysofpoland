@@ -1,5 +1,21 @@
 ideas = {
     country = {
+		NYS_southern_bastion =	{
+			original_tag = NYS
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = NYS_southern_bastion
+			modifier = {
+				recruitable_population_factor = 0.15
+				army_core_defence_factor = 0.10
+				max_dig_in_factor = 0.10
+				surrender_limit = 0.25
+			}
+		}
+		
 	   NYS_idea_economical_reform = {
 			allowed = { always = no }
 			removal_cost = -1
