@@ -1,0 +1,109 @@
+weapon_dealer = {
+	sell_ranged = {
+		complete_effect = {
+			cost = 95
+			send_equipment = {
+				equipment = ranged_weapons
+				amount = 250
+				target = TSB
+			}
+			add_offsite_building = { type = civilian_factory level = 1 days_remove = 7}
+		}
+	
+	}
+
+	sell_antitank = {
+		complete_effect = {
+			cost = 95
+			send_equipment = {
+				equipment = inf_antitank
+				amount = 50
+				target = TSB
+			}
+			add_offsite_building = { type = civilian_factory level = 1 days_remove = 7}
+		}
+	
+	}
+	buy_german_ranged = {
+		cost = 95
+		add_equipment_to_stockpile = {
+    			type = ranged_weapons
+    			amount = 250
+    			producer = GER
+		}
+	}
+	buy_austrian_ranged = {
+		cost = 95
+		add_equipment_to_stockpile = {
+    			type = ranged_weapons
+    			amount = 250
+    			producer = AUT
+		}
+	}
+	buy_swedish_ranged = {
+		cost = 95
+		add_equipment_to_stockpile = {
+    			type = ranged_weapons
+    			amount = 250
+    			producer = GER
+		}
+	}
+	buy_ukrainian_ranged = {
+		cost = 95
+		add_equipment_to_stockpile = {
+    			type = ranged_weapons
+    			amount = 250
+    			producer = GER
+		}
+	}
+
+	buy_russian_ranged = {
+		cost = 95
+		add_equipment_to_stockpile = {
+    			type = ranged_weapons
+    			amount = 250
+    			producer = RUS
+		}
+	}
+	buy_german_antitank = {
+		cost = 95
+		add_equipment_to_stockpile = {
+    			type = inf_antitank
+    			amount = 50
+    			producer = GER
+		}
+	}
+
+	buy_austrian_antitank = {
+		cost = 95
+		add_equipment_to_stockpile = {
+    			type = inf_antitank
+    			amount = 50
+    			producer = AUT
+		}
+	}
+	buy_swedish_antitank = {
+		cost = 95
+		add_equipment_to_stockpile = {
+    			type = inf_antitank
+    			amount = 50
+    			producer = SWE
+		}
+	}
+	buy_ukrainian_antitank = {
+		cost = 95
+		add_equipment_to_stockpile = {
+    			type = inf_antitank
+    			amount = 50
+    			producer = UKR
+		}
+	}
+	buy_russian_antitank = {
+		cost = 95
+		add_equipment_to_stockpile = {
+    			type = inf_antitank
+    			amount = 50
+    			producer = RUS
+		}
+	}
+}
