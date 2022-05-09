@@ -71,6 +71,10 @@ country_event = {
 
 	option = {
 		name = belchatow.4.a
+		swap_ideas = {
+	add_idea = BBW_street_anger3
+	remove_idea = BBW_street_anger2
+	}
 	}
 }
 
@@ -117,6 +121,11 @@ country_event = {
 
 	option = {
 		name = belchatow.7.a
+		add_political_power = -50
+		swap_ideas = {
+			remove_idea = limited_conscription
+			add_idea = extensive_conscription
+}
 	}
 }
 
@@ -131,5 +140,6 @@ country_event = {
 
 	option = {
 		name = belchatow.8.a
+		add_political_power = -100
 	}
 }

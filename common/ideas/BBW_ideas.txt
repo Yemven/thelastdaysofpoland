@@ -84,5 +84,76 @@ ideas = {
 			stability_weekly = 0.015	
 			}
 		}
+		BBW_carbon_fever2 = {
+			original_tag = BBW
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+			production_factory_max_efficiency_factor = 0.15
+			production_speed_buildings_factor = 0.1
+			stability_weekly = 0.015	
+			}
+		}
+		BBW_street_anger3 = {
+			original_tag = BBW
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				army_org_factor = 0.2
+				mobilization_speed = 0.01
+				research_speed_factor = 0.05
+				training_time_factor = -0.1
+			}
+		}
+		BBW_street_anger4 = {
+			original_tag = BBW
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				army_org_factor = 0.2
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				mobilization_speed = 0.03
+				research_speed_factor = 0.05
+				training_time_factor = -0.1
+			}
+		}
+		BBW_small_business = {
+			original_tag = BBW
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				monthly_population = 0.3
+				production_speed_buildings_factor = 0.05
+			}
+		}
 	}
 }
