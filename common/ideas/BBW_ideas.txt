@@ -1,19 +1,32 @@
 ideas = {
 
 	country = {
-		BBW_more_steam =	{
+		BBW_green_counter_revolution =	{
 			original_tag = BBW
 			allowed_civil_war = {
 				always = yes
 			}
 
 			removal_cost = -1
-			picture = BBW_more_steam
+			picture = BBW_smog
 			modifier = {
-				recruitable_population_factor = -0.25
+				add_stability = -0.15
+				political_power_factor = 0.1
+			}
+		}
+		BBW_steam_power =	{
+			original_tag = BBW
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				production_speed_buildings_factor = 0.2
 				production_factory_efficiency_gain_factor = 0.1
-				production_speed_buildings_factor -0.35
-				research_speed_factor = 0.05
+				production_speed_buildings_factor -0.1
+				research_speed_factor = 0.1
 			}
 		}
 
@@ -29,9 +42,8 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				recruitable_population_factor = -0.25
-				mobilization_speed = -0.01
-				consumer_goods_factor = 0.15
+				recruitable_population_factor = -0.2
+				consumer_goods_factor = 0.5
 			}
 		}
 		BBW_street_anger = {

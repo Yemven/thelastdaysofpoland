@@ -3,6 +3,8 @@
 ### search_filters = {FOCUS_FILTER_MANPOWER}
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 
+
+#############BELCHATOW INTRO FOCUS############
 focus_tree = {
 	id = belchatow_focus
 	
@@ -414,3 +416,470 @@ focus_tree = {
 		}
 	}
 	}
+
+####################WAR FOCUS TREE###########################
+	
+focus_tree = {
+	id = belchatow_war_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = BBW
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 2500 }
+	
+		focus = {
+		id = BBW_emergency_council
+		icon = BBW_emergency_council
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 3
+		y = 0
+		
+		cost = 3.8
+		search_filters = { }
+		completion_reward = { 
+			add_political_power = 100
+			country_event = {
+				id = belchatow.9
+				days = 1 }
+			}
+			add_war_support = 0.1
+	}
+	
+	focus = {
+		id = BBW_wiechowszczyzna
+		icon = BBW_wiechowszczyzna
+		relative_position_id = BBW_emergency_council
+		prerequisite = { focus = BBW_emergency_council }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.8
+		search_filters = { }
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	
+	focus = {
+		id = BBW_winter
+		icon = BBW_winter
+		relative_position_id = BBW_wiechowszczyzna
+		prerequisite = { focus = BBW_wiechowszczyzna }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_going_to_schools
+		icon = BBW_going_to_schools
+		relative_position_id = BBW_winter
+		prerequisite = { focus = BBW_winter }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_going_to_sources
+		icon = BBW_going_to_sources
+		relative_position_id = BBW_winter
+		prerequisite = { focus = BBW_winter }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_going_into_homes
+		icon = BBW_going_into_homes
+		relative_position_id = BBW_winter
+		prerequisite = { focus = BBW_going_to_schools }
+		prerequisite = { focus = BBW_going_to_sources }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_permanent_danger
+		icon = BBW_permanent_danger
+		relative_position_id = BBW_going_into_homes
+		prerequisite = { focus = BBW_going_into_homes }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			set_country_flag = BBW_war_time
+		}
+	}
+	focus = {
+		id = BBW_poor_examples
+		icon = BBW_poor_examples
+		available = {
+		BBW_war_time = yes
+		}
+		
+		bypass = {
+		}
+		
+		x = 10
+		y = 0
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			clr_country_flag = BBW_war_time
+		}
+	}
+	focus = {
+		id = BBW_rapid_electrification
+		icon = BBW_rapid_electrification
+		relative_position_id = BBW_poor_examples
+		prerequisite = { focus = BBW_poor_examples }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_revolution_avantgarde
+		icon = BBW_revolution_avantgarde
+		relative_position_id = BBW_rapid_electrification
+		prerequisite = { focus = BBW_rapid_electrification }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_order_in_red_wilderness
+		icon = BBW_order_in_red_wilderness
+		relative_position_id = BBW_revolution_avantgarde
+		prerequisite = { focus = BBW_revolution_avantgarde }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_permanent_danger
+		icon = BBW_permanent_danger
+		relative_position_id = BBW_going_into_homes
+		prerequisite = { focus = BBW_going_into_homes }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_rehab_conscription
+		icon = BBW_rehab_conscription
+		relative_position_id = BBW_revolution_avantgarde
+		prerequisite = { focus = BBW_revolution_avantgarde }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_dangerous_ruins
+		icon = BBW_dangerous_ruins
+		relative_position_id = BBW_revolution_avantgarde
+		prerequisite = { focus = BBW_order_in_red_wilderness }
+		prerequisite = { focus = BBW_rehab_conscription }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_chaos_among_rubble
+		icon = BBW_chaos_among_rubble
+		relative_position_id = BBW_dangerous_ruins
+		prerequisite = { focus = BBW_dangerous_ruins }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -3
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_false_hope_symbols
+		icon = BBW_false_hope_symbols
+		relative_position_id = BBW_dangerous_ruins
+		prerequisite = { focus = BBW_dangerous_ruins }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 3
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_ordinary_people
+		icon = BBW_ordinary_people
+		relative_position_id = BBW_chaos_among_rubble
+		prerequisite = { focus = BBW_chaos_among_rubble }
+		prerequisite = { focus = BBW_false_hope_symbols }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_northern_retrograde
+		icon = BBW_northern_retrograde
+		relative_position_id = BBW_false_hope_symbols
+		prerequisite = { focus = BBW_chaos_among_rubble }
+		prerequisite = { focus = BBW_false_hope_symbols }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_divide_et_impera
+		icon = BBW_divide_et_impera
+		relative_position_id = BBW_dangerous_ruins
+		prerequisite = { focus = BBW_northern_retrograde }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 3
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_normalcy_guarantee
+		icon = BBW_normalcy_guarantee
+		relative_position_id = BBW_ordinary_people
+		prerequisite = { focus = BBW_ordinary_people }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = BBW_licking_wounds
+		icon = BBW_licking_wounds
+		relative_position_id = BBW_northern_retrograde
+		prerequisite = { focus = BBW_normalcy_guarantee }
+		prerequisite = { focus = BBW_northern_retrograde }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3.8
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+}
