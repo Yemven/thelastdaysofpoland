@@ -1,7 +1,563 @@
 
 unification_category = {
 
-	regional_reunification = {
+
+
+#################### WML ####################
+
+	WML_regional_reunification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+#			custom_trigger_tooltip = {
+#   			#tooltip = control_lodz_voivodeship
+
+    			#WML
+				controls_state = 302
+				controls_state = 759
+				controls_state = 577
+				controls_state = 758
+				controls_state = 578
+				controls_state = 579
+				controls_state = 576
+				controls_state = 757
+
+				#BBW
+				controls_state = 341
+				controls_state = 358
+				controls_state = 317
+				controls_state = 318
+				controls_state = 309
+				controls_state = 683
+				controls_state = 684
+
+				#ZYD
+				controls_state = 353
+				controls_state = 361
+				controls_state = 328
+				controls_state = 319
+				controls_state = 315
+				controls_state = 340
+				controls_state = 333
+
+				#ZHP
+				controls_state = 368
+				controls_state = 357
+				controls_state = 352
+				controls_state = 680
+				controls_state = 321
+				controls_state = 396
+				controls_state = 370
+				controls_state = 379
+
+				#SAP
+				controls_state = 269
+				controls_state = 300
+				controls_state = 296
+				controls_state = 303
+				controls_state = 288
+				controls_state = 272
+
+				#KRS
+				controls_state = 236
+				controls_state = 258
+				controls_state = 275
+				controls_state = 289
+				controls_state = 686
+				controls_state = 687
+				controls_state = 685
+				controls_state = 283
+				controls_state = 681
+				controls_state = 305
+#			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = WML }		
+
+		cost = 0
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+#################### BBW ####################
+
+	BBW_regional_reunification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+#			custom_trigger_tooltip = {
+#   			#tooltip = control_lodz_voivodeship
+
+    			#WML
+				controls_state = 302
+				controls_state = 759
+				controls_state = 577
+				controls_state = 758
+				controls_state = 578
+				controls_state = 579
+				controls_state = 576
+				controls_state = 757
+
+				#BBW
+				controls_state = 341
+				controls_state = 358
+				controls_state = 317
+				controls_state = 318
+				controls_state = 309
+				controls_state = 683
+				controls_state = 684
+
+				#ZYD
+				controls_state = 353
+				controls_state = 361
+				controls_state = 328
+				controls_state = 319
+				controls_state = 315
+				controls_state = 340
+				controls_state = 333
+
+				#ZHP
+				controls_state = 368
+				controls_state = 357
+				controls_state = 352
+				controls_state = 680
+				controls_state = 321
+				controls_state = 396
+				controls_state = 370
+				controls_state = 379
+
+				#SAP
+				controls_state = 269
+				controls_state = 300
+				controls_state = 296
+				controls_state = 303
+				controls_state = 288
+				controls_state = 272
+
+				#KRS
+				controls_state = 236
+				controls_state = 258
+				controls_state = 275
+				controls_state = 289
+				controls_state = 686
+				controls_state = 687
+				controls_state = 685
+				controls_state = 283
+				controls_state = 681
+				controls_state = 305
+#			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = BBW }		
+
+		cost = 0
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+#################### ZYD ####################
+
+	ZYD_regional_reunification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+#			custom_trigger_tooltip = {
+#   			#tooltip = control_lodz_voivodeship
+
+    			#WML
+				controls_state = 302
+				controls_state = 759
+				controls_state = 577
+				controls_state = 758
+				controls_state = 578
+				controls_state = 579
+				controls_state = 576
+				controls_state = 757
+
+				#BBW
+				controls_state = 341
+				controls_state = 358
+				controls_state = 317
+				controls_state = 318
+				controls_state = 309
+				controls_state = 683
+				controls_state = 684
+
+				#ZYD
+				controls_state = 353
+				controls_state = 361
+				controls_state = 328
+				controls_state = 319
+				controls_state = 315
+				controls_state = 340
+				controls_state = 333
+
+				#ZHP
+				controls_state = 368
+				controls_state = 357
+				controls_state = 352
+				controls_state = 680
+				controls_state = 321
+				controls_state = 396
+				controls_state = 370
+				controls_state = 379
+
+				#SAP
+				controls_state = 269
+				controls_state = 300
+				controls_state = 296
+				controls_state = 303
+				controls_state = 288
+				controls_state = 272
+
+				#KRS
+				controls_state = 236
+				controls_state = 258
+				controls_state = 275
+				controls_state = 289
+				controls_state = 686
+				controls_state = 687
+				controls_state = 685
+				controls_state = 283
+				controls_state = 681
+				controls_state = 305
+#			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = ZYD }		
+
+		cost = 0
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+#################### ZHP ####################
+
+	ZHP_regional_reunification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+#			custom_trigger_tooltip = {
+#   			#tooltip = control_lodz_voivodeship
+
+    			#WML
+				controls_state = 302
+				controls_state = 759
+				controls_state = 577
+				controls_state = 758
+				controls_state = 578
+				controls_state = 579
+				controls_state = 576
+				controls_state = 757
+
+				#BBW
+				controls_state = 341
+				controls_state = 358
+				controls_state = 317
+				controls_state = 318
+				controls_state = 309
+				controls_state = 683
+				controls_state = 684
+
+				#ZYD
+				controls_state = 353
+				controls_state = 361
+				controls_state = 328
+				controls_state = 319
+				controls_state = 315
+				controls_state = 340
+				controls_state = 333
+
+				#ZHP
+				controls_state = 368
+				controls_state = 357
+				controls_state = 352
+				controls_state = 680
+				controls_state = 321
+				controls_state = 396
+				controls_state = 370
+				controls_state = 379
+
+				#SAP
+				controls_state = 269
+				controls_state = 300
+				controls_state = 296
+				controls_state = 303
+				controls_state = 288
+				controls_state = 272
+
+				#KRS
+				controls_state = 236
+				controls_state = 258
+				controls_state = 275
+				controls_state = 289
+				controls_state = 686
+				controls_state = 687
+				controls_state = 685
+				controls_state = 283
+				controls_state = 681
+				controls_state = 305
+#			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = ZHP }		
+
+		cost = 0
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+#################### SAP ####################
+
+	SAP_regional_reunification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+#			custom_trigger_tooltip = {
+#   			#tooltip = control_lodz_voivodeship
+
+    			#WML
+				controls_state = 302
+				controls_state = 759
+				controls_state = 577
+				controls_state = 758
+				controls_state = 578
+				controls_state = 579
+				controls_state = 576
+				controls_state = 757
+
+				#BBW
+				controls_state = 341
+				controls_state = 358
+				controls_state = 317
+				controls_state = 318
+				controls_state = 309
+				controls_state = 683
+				controls_state = 684
+
+				#ZYD
+				controls_state = 353
+				controls_state = 361
+				controls_state = 328
+				controls_state = 319
+				controls_state = 315
+				controls_state = 340
+				controls_state = 333
+
+				#ZHP
+				controls_state = 368
+				controls_state = 357
+				controls_state = 352
+				controls_state = 680
+				controls_state = 321
+				controls_state = 396
+				controls_state = 370
+				controls_state = 379
+
+				#SAP
+				controls_state = 269
+				controls_state = 300
+				controls_state = 296
+				controls_state = 303
+				controls_state = 288
+				controls_state = 272
+
+				#KRS
+				controls_state = 236
+				controls_state = 258
+				controls_state = 275
+				controls_state = 289
+				controls_state = 686
+				controls_state = 687
+				controls_state = 685
+				controls_state = 283
+				controls_state = 681
+				controls_state = 305
+#			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = SAP }		
+
+		cost = 0
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+#################### KRS ####################
+
+	KRS_regional_reunification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+#			custom_trigger_tooltip = {
+#   			#tooltip = control_lodz_voivodeship
+
+    			#WML
+				controls_state = 302
+				controls_state = 759
+				controls_state = 577
+				controls_state = 758
+				controls_state = 578
+				controls_state = 579
+				controls_state = 576
+				controls_state = 757
+
+				#BBW
+				controls_state = 341
+				controls_state = 358
+				controls_state = 317
+				controls_state = 318
+				controls_state = 309
+				controls_state = 683
+				controls_state = 684
+
+				#ZYD
+				controls_state = 353
+				controls_state = 361
+				controls_state = 328
+				controls_state = 319
+				controls_state = 315
+				controls_state = 340
+				controls_state = 333
+
+				#ZHP
+				controls_state = 368
+				controls_state = 357
+				controls_state = 352
+				controls_state = 680
+				controls_state = 321
+				controls_state = 396
+				controls_state = 370
+				controls_state = 379
+
+				#SAP
+				controls_state = 269
+				controls_state = 300
+				controls_state = 296
+				controls_state = 303
+				controls_state = 288
+				controls_state = 272
+
+				#KRS
+				controls_state = 236
+				controls_state = 258
+				controls_state = 275
+				controls_state = 289
+				controls_state = 686
+				controls_state = 687
+				controls_state = 685
+				controls_state = 283
+				controls_state = 681
+				controls_state = 305
+#			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = KRS }		
+
+		cost = 0
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+
+#################### ZUK ####################
+
+	ZUK_regional_reunification = {
 
 		icon = GFX_decision_icon_default
 		
@@ -68,3 +624,4 @@ unification_category = {
 
 		ai_will_do = { factor = 1 }
 	}
+}
