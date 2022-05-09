@@ -5,13 +5,13 @@ unification_category = {
 
 #################### WML ####################
 
-	WML_regional_reunification = {
+	WML_regional_unification = {
 
 		icon = GFX_decision_icon_default
 		
 		available = {
-#			custom_trigger_tooltip = {
-#   			#tooltip = control_lodz_voivodeship
+			custom_trigger_tooltip = {
+	   			tooltip = controls_lodz_voivodeship
 
     			#WML
 				controls_state = 302
@@ -70,7 +70,7 @@ unification_category = {
 				controls_state = 283
 				controls_state = 681
 				controls_state = 305
-#			}
+			}
 		}
 		
 		fire_only_once = yes
@@ -96,13 +96,13 @@ unification_category = {
 
 #################### BBW ####################
 
-	BBW_regional_reunification = {
+	BBW_regional_unification = {
 
 		icon = GFX_decision_icon_default
 		
 		available = {
-#			custom_trigger_tooltip = {
-#   			#tooltip = control_lodz_voivodeship
+			custom_trigger_tooltip = {
+   				tooltip = controls_lodz_voivodeship
 
     			#WML
 				controls_state = 302
@@ -161,7 +161,7 @@ unification_category = {
 				controls_state = 283
 				controls_state = 681
 				controls_state = 305
-#			}
+			}
 		}
 		
 		fire_only_once = yes
@@ -188,13 +188,13 @@ unification_category = {
 
 #################### ZYD ####################
 
-	ZYD_regional_reunification = {
+	ZYD_regional_unification = {
 
 		icon = GFX_decision_icon_default
 		
 		available = {
-#			custom_trigger_tooltip = {
-#   			#tooltip = control_lodz_voivodeship
+			custom_trigger_tooltip = {
+	  			tooltip = controls_lodz_voivodeship
 
     			#WML
 				controls_state = 302
@@ -253,7 +253,7 @@ unification_category = {
 				controls_state = 283
 				controls_state = 681
 				controls_state = 305
-#			}
+			}
 		}
 		
 		fire_only_once = yes
@@ -280,13 +280,13 @@ unification_category = {
 
 #################### ZHP ####################
 
-	ZHP_regional_reunification = {
+	ZHP_regional_unification = {
 
 		icon = GFX_decision_icon_default
 		
 		available = {
-#			custom_trigger_tooltip = {
-#   			#tooltip = control_lodz_voivodeship
+			custom_trigger_tooltip = {
+   				tooltip = controls_lodz_voivodeship
 
     			#WML
 				controls_state = 302
@@ -345,7 +345,7 @@ unification_category = {
 				controls_state = 283
 				controls_state = 681
 				controls_state = 305
-#			}
+			}
 		}
 		
 		fire_only_once = yes
@@ -355,7 +355,7 @@ unification_category = {
 		cost = 0
 
 		complete_effect = {
-
+			set_cosmetic_tag = ZHP_regional
 		}
 
 		ai_will_do = { factor = 1 }
@@ -372,13 +372,13 @@ unification_category = {
 
 #################### SAP ####################
 
-	SAP_regional_reunification = {
+	SAP_regional_unification = {
 
 		icon = GFX_decision_icon_default
 		
 		available = {
-#			custom_trigger_tooltip = {
-#   			#tooltip = control_lodz_voivodeship
+			custom_trigger_tooltip = {
+   				tooltip = controls_lodz_voivodeship
 
     			#WML
 				controls_state = 302
@@ -437,7 +437,7 @@ unification_category = {
 				controls_state = 283
 				controls_state = 681
 				controls_state = 305
-#			}
+			}
 		}
 		
 		fire_only_once = yes
@@ -464,13 +464,13 @@ unification_category = {
 
 #################### KRS ####################
 
-	KRS_regional_reunification = {
+	KRS_regional_unification = {
 
 		icon = GFX_decision_icon_default
 		
 		available = {
-#			custom_trigger_tooltip = {
-#   			#tooltip = control_lodz_voivodeship
+			custom_trigger_tooltip = {
+   				tooltip = controls_lodz_voivodeship
 
     			#WML
 				controls_state = 302
@@ -529,7 +529,7 @@ unification_category = {
 				controls_state = 283
 				controls_state = 681
 				controls_state = 305
-#			}
+			}
 		}
 		
 		fire_only_once = yes
@@ -557,13 +557,13 @@ unification_category = {
 
 #################### ZUK ####################
 
-	ZUK_regional_reunification = {
+	ZUK_regional_unification = {
 
 		icon = GFX_decision_icon_default
 		
 		available = {
 			custom_trigger_tooltip = {
-    			tooltip = control_lublin_voivodeship
+    			tooltip = controls_lublin_voivodeship
 				controls_state = 363
 				controls_state = 665
 				controls_state = 664
@@ -614,11 +614,14 @@ unification_category = {
 
 		complete_effect = {
 
-			set_capital = {
-  				state = 363
-  				remember_old_capital = no
+			hidden_effect = {
+				set_capital = {
+  					state = 363
+  					remember_old_capital = no
+				}
 			}
 
+			custom_effect_tooltip = ZUK_moves_capital_to_lublin
 			set_cosmetic_tag = ZUK_regional
 		}
 
