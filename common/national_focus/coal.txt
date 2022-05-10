@@ -477,35 +477,17 @@ focus_tree = {
 		search_filters = { }
 		completion_reward = {
 			add_war_support = 0.1
+			country_event = {
+				id = belchatow.10
+				days = 1 }
 		}
 	}
-	
-	focus = {
-		id = BBW_winter
-		icon = BBW_winter
-		relative_position_id = BBW_wiechowszczyzna
-		prerequisite = { focus = BBW_wiechowszczyzna }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 3.8
-		search_filters = {}
-		completion_reward = {
-			
-		}
-	}
+
 	focus = {
 		id = BBW_going_to_schools
 		icon = BBW_going_to_schools
-		relative_position_id = BBW_winter
-		prerequisite = { focus = BBW_winter }
+		relative_position_id = BBW_wiechowszczyzna
+		prerequisite = { focus = BBW_wiechowszczyzna }
 		available = {
 		
 		}
@@ -525,8 +507,8 @@ focus_tree = {
 	focus = {
 		id = BBW_going_to_sources
 		icon = BBW_going_to_sources
-		relative_position_id = BBW_winter
-		prerequisite = { focus = BBW_winter }
+		relative_position_id = BBW_wiechowszczyzna
+		prerequisite = { focus = BBW_wiechowszczyzna }
 		available = {
 		
 		}
@@ -540,13 +522,15 @@ focus_tree = {
 		cost = 3.8
 		search_filters = {}
 		completion_reward = {
-			
+			country_event = {
+				id = belchatow.11
+				days = 1 }
 		}
 	}
 	focus = {
 		id = BBW_going_into_homes
 		icon = BBW_going_into_homes
-		relative_position_id = BBW_winter
+		relative_position_id = BBW_wiechowszczyzna
 		prerequisite = { focus = BBW_going_to_schools }
 		prerequisite = { focus = BBW_going_to_sources }
 		available = {
