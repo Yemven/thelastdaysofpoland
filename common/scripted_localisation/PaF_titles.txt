@@ -141,7 +141,11 @@ defined_text = {
 		trigger = { tag = BPD }
 		localization_key = TITLE_BPD
 	}
-	
+	text = {
+		trigger = { tag = TSB }
+		localization_key = TITLE_TSB
+	}
+
 	text = {
 	localization_key = DEFAULT_TITLE
 	}
@@ -284,7 +288,10 @@ defined_text = {
 		trigger = { tag = BPD }
 		localization_key = GOVERNMENT_BPD
 	}
-	
+	text = {
+		trigger = { tag = TSB }
+		localization_key = GOVERNMENT_TSB
+	}
 
 	text = {
 	localization_key = DEFAULT_GOVERNMENT

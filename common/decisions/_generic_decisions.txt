@@ -1,109 +1,175 @@
 weapon_dealer = {
 	sell_ranged = {
+		days_remove = 5
 		complete_effect = {
 			cost = 95
 			send_equipment = {
-				equipment = ranged_weapons
+				equipment = ranged_equipment
 				amount = 250
 				target = TSB
 			}
-			add_offsite_building = { type = civilian_factory level = 1 days_remove = 7}
+			add_offsite_building = { type = industrial_complex level = 1 }
 		}
 	
 	}
 
 	sell_antitank = {
+		days_remove = 5
 		complete_effect = {
 			cost = 95
 			send_equipment = {
-				equipment = inf_antitank
+				equipment = inf_anti_tank_equipment
 				amount = 50
 				target = TSB
 			}
-			add_offsite_building = { type = civilian_factory level = 1 days_remove = 7}
+			add_offsite_building = { type = industrial_complex level = 1 }
 		}
 	
 	}
 	buy_german_ranged = {
+		days_remove = 5
 		cost = 95
-		add_equipment_to_stockpile = {
-    			type = ranged_weapons
-    			amount = 250
-    			producer = GER
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+    				type = ranged_equipment
+    				amount = 250
+    				producer = GER
+			}
 		}
 	}
 	buy_austrian_ranged = {
+		days_remove = 5
 		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
 		add_equipment_to_stockpile = {
-    			type = ranged_weapons
-    			amount = 250
-    			producer = AUT
+    				type = ranged_equipment
+    				amount = 250
+    				producer = AUT
+			add_building = { type = industrial_complex level = -1 }
+			}
 		}
 	}
 	buy_swedish_ranged = {
+		days_remove = 5
 		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
 		add_equipment_to_stockpile = {
-    			type = ranged_weapons
-    			amount = 250
-    			producer = GER
+    				type = ranged_equipment
+    				amount = 250
+    				producer = SWE
+			add_building = { type = industrial_complex level = -1 }
+			}
 		}
 	}
 	buy_ukrainian_ranged = {
+		days_remove = 5
 		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
 		add_equipment_to_stockpile = {
-    			type = ranged_weapons
-    			amount = 250
-    			producer = GER
+    				type = ranged_equipment
+    				amount = 250
+    				producer = UKR
+			add_building = { type = industrial_complex level = -1 }
+			}
 		}
 	}
 
 	buy_russian_ranged = {
+		days_remove = 5
 		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
 		add_equipment_to_stockpile = {
-    			type = ranged_weapons
-    			amount = 250
-    			producer = RUS
+    				type = ranged_equipment
+    				amount = 250
+    				producer = RUS
+			add_building = { type = industrial_complex level = -1 }
+			}
 		}
 	}
 	buy_german_antitank = {
+		days_remove = 5
 		cost = 95
-		add_equipment_to_stockpile = {
-    			type = inf_antitank
-    			amount = 50
-    			producer = GER
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
+    				amount = 50
+    				producer = GER
+			}
 		}
 	}
 
 	buy_austrian_antitank = {
+		days_remove = 5
 		cost = 95
-		add_equipment_to_stockpile = {
-    			type = inf_antitank
-    			amount = 50
-    			producer = AUT
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
+    				amount = 50
+    				producer = AUT
+			}
 		}
 	}
 	buy_swedish_antitank = {
+		days_remove = 5
 		cost = 95
-		add_equipment_to_stockpile = {
-    			type = inf_antitank
-    			amount = 50
-    			producer = SWE
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
+    				amount = 50
+    				producer = SWE
+			}
 		}
 	}
 	buy_ukrainian_antitank = {
+		days_remove = 5
 		cost = 95
-		add_equipment_to_stockpile = {
-    			type = inf_antitank
-    			amount = 50
-    			producer = UKR
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
+    				amount = 50
+    				producer = UKR
+			}
 		}
 	}
 	buy_russian_antitank = {
+		days_remove = 5
 		cost = 95
-		add_equipment_to_stockpile = {
-    			type = inf_antitank
-    			amount = 50
-    			producer = RUS
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
+    				amount = 50
+    				producer = RUS
+			}
 		}
 	}
 }

@@ -1,6 +1,6 @@
 characters={
 	TSB_weapon_dealer={
-		name="Weapon Dealer"
+		name="Master Weapon Dealer"
 		portraits={
 			civilian={
 				large="gfx/leaders/TSB/TSB_weapon.dds"
@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			desc = "POLITICS_WEAPON_DEALER_DESC"
-			ideology=reactionary_subtype
+			ideology=freemarketism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
