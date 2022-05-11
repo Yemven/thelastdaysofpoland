@@ -1,0 +1,79 @@
+division_template = {
+	name = "Biedna Pierdolona Piechota"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 0 y = 2 }
+		melee_infantry = { x = 0 y = 3 }
+		melee_infantry = { x = 1 y = 0 }
+	}
+}
+		division_template = {
+		name = "Komando Scoia'tael"
+		regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
+	division_template = {
+	name = "Niebieskie Pasy"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+division = {
+		name = "BBP - Gors Velen"
+		location = 7450
+		division_template = "Biedna Pierdolona Piechota"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+ division = {
+		name = "BBP - Wrońce"
+		location = 7453
+		division_template = "Biedna Pierdolona Piechota"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+division = {
+		name = "BBP - Vorune"
+		location = 7452
+		division_template = "Biedna Pierdolona Piechota"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+division = {
+
+		name = "Komando - Iorweth"
+		location = 2670
+		division_template = "Komando Scoia'tael"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+division = {
+		name = "Komando - Isengrim"
+		location = 2100
+		division_template = "Komando Scoia'tael"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+division = {
+		name = "Niebieskie Pasy"
+		location = 7450
+		division_template = "Niebieskie Pasy"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+
+}
