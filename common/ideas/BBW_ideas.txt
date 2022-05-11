@@ -10,8 +10,52 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				add_stability = -0.15
+				stability_factor = -0.15
 				political_power_factor = 0.1
+			}
+		}
+		BBW_green_counter_revolution2 =	{
+			original_tag = BBW
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				stability_factor = -0.2
+				political_power_factor = 0.1
+				research_speed_factor = -0.05
+			}
+		}
+		BBW_green_counter_revolution3 =	{
+			original_tag = BBW
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				stability_factor = -0.25
+				political_power_factor = 0.1
+				research_speed_factor = -0.1
+			}
+		}
+		BBW_green_counter_revolution4 =	{
+			original_tag = BBW
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				stability_factor = -0.15
+				political_power_factor = 0.1
+				research_speed_factor = -0.1
+				local_resources_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
 			}
 		}
 		BBW_steam_power =	{
@@ -93,7 +137,7 @@ ideas = {
 			picture = BBW_smog
 			modifier = {
 			production_speed_buildings_factor = 0.1
-			stability_weekly = 0.015	
+			stability_weekly = 0.005	
 			}
 		}
 		BBW_carbon_fever2 = {
@@ -110,7 +154,7 @@ ideas = {
 			modifier = {
 			production_factory_max_efficiency_factor = 0.15
 			production_speed_buildings_factor = 0.1
-			stability_weekly = 0.015	
+			stability_weekly = 0.01	
 			}
 		}
 		BBW_street_anger3 = {
@@ -151,6 +195,26 @@ ideas = {
 				training_time_factor = -0.1
 			}
 		}
+		BBW_street_anger5 = {
+			original_tag = BBW
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				army_org_factor = 0.3
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				mobilization_speed = 0.03
+				research_speed_factor = 0.05
+				training_time_factor = -0.1
+			}
+		}
 		BBW_small_business = {
 			original_tag = BBW
 			allowed = {
@@ -165,6 +229,41 @@ ideas = {
 			modifier = {
 				monthly_population = 0.3
 				production_speed_buildings_factor = 0.05
+			}
+		}
+		BBW_carbon_fever3 = {
+			original_tag = BBW
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+			production_factory_max_efficiency_factor = 0.15
+			production_factory_efficiency_gain_factor = 0.1
+			production_speed_buildings_factor = 0.1
+			production_factory_start_efficiency_factor = 0.05
+			local_resources_factor = 0.1
+			}
+		}
+		BBW_futile_resistance = {
+			original_tag = BBW
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+			army_org_factor = -0.05
+			conscription_factor = -0.05
 			}
 		}
 	}

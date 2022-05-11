@@ -33,14 +33,9 @@ country_event = {
 	
 	option = { 
 		name = belchatow.2.a
-		ai_chance = { factor = 90 }
-		swap_ideas = {
-	add_idea = BBW_street_anger2
-	remove_idea = BBW_street_anger
-	}
-	retire_character = BBW_gen_sommer
-	activate_advisor = BBW_min_rzymkowski
-	random_unit_leader = { limit = { has_id = 11 } promote_leader = yes }
+		retire_character = BBW_gen_sommer
+		activate_advisor = BBW_min_rzymkowski
+		random_unit_leader = { limit = { has_id = 11 } promote_leader = yes }
 	}
 }
 
@@ -55,8 +50,6 @@ country_event = {
 
 	option = {
 		name = belchatow.3.a
-		add_political_power = 100
-		add_stability = 0.1
 	}
 }
 
@@ -71,10 +64,6 @@ country_event = {
 
 	option = {
 		name = belchatow.4.a
-		swap_ideas = {
-	add_idea = BBW_street_anger3
-	remove_idea = BBW_street_anger2
-	}
 	}
 }
 
@@ -106,7 +95,6 @@ country_event = {
 
 	option = {
 		name = belchatow.6.a
-		add_ideas = BBW_carbon_fever
 	}
 }
 
@@ -121,11 +109,6 @@ country_event = {
 
 	option = {
 		name = belchatow.7.a
-		add_political_power = -50
-		swap_ideas = {
-			remove_idea = limited_conscription
-			add_idea = extensive_conscription
-}
 	}
 }
 
@@ -141,7 +124,9 @@ country_event = {
 	option = {
 		name = belchatow.8.a
 		add_political_power = -100
-		load_focus_tree = belchatow_war_focus
+		hidden_effect = {
+			load_focus_tree = belchatow_war_focus
+		}
 	}
 }
 
@@ -184,6 +169,23 @@ country_event = {
 
 	option = {
 		name = belchatow.11.a
+		every_owned_state = {
+			add_manpower = -500
+		}
+		add_stability = -0.05
+		if = {
+			limit = { has_idea = BBW_green_counter_revolution2 }
+				swap_ideas = {
+					add_idea = BBW_green_counter_revolution3
+					remove_idea = BBW_green_counter_revolution2
+				}
+		else = { 
+			swap_ideas = {
+				add_idea = BBW_green_counter_revolution2
+				remove_idea = BBW_green_counter_revolution
+				}
+			}
+		}
 	}
 }
 
@@ -198,6 +200,23 @@ country_event = {
 
 	option = {
 		name = belchatow.12.a
+		every_owned_state = {
+			add_manpower = -1000
+		}
+		add_stability = -0.05
+		if = {
+			limit = { has_idea = BBW_green_counter_revolution2 }
+				swap_ideas = {
+					add_idea = BBW_green_counter_revolution3
+					remove_idea = BBW_green_counter_revolution2
+				}
+		else = { 
+			swap_ideas = {
+				add_idea = BBW_green_counter_revolution2
+				remove_idea = BBW_green_counter_revolution
+				}
+			}
+		}
 	}
 }
 
@@ -213,6 +232,13 @@ country_event = {
 
 	option = {
 		name = belchatow.13.a
+		every_owned_state = {
+			add_manpower = -1500
+		}
+		swap_ideas = {
+				add_idea = BBW_green_counter_revolution4
+				remove_idea = BBW_green_counter_revolution3
+			}
 	}
 }
 
@@ -241,5 +267,118 @@ country_event = {
 
 	option = {
 		name = belchatow.15.a
+	}
+}
+
+country_event = {
+	id = belchatow.zyd1
+	title = belchatow.zyd1.t
+	desc = belchatow.zyd1.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.zyd1.a
+		add_manpower = 1000
+		if = {
+		 limit = { has_tech = ranged_weapons2 }
+			add_equipment_to_stockpile = {
+				type = ranged_equipment_2
+				amount = 200
+				producer = ZYD
+				}
+		 else_if = {
+		 limit = { has_tech = ranged_weapons1 }
+		 	add_equipment_to_stockpile = {
+				type = ranged_equipment_1
+				amount = 400
+				producer = ZYD
+				}
+			}
+		 else = {
+		 	 	add_equipment_to_stockpile = {
+				type = ranged_equipment_0
+				amount = 1000
+				producer = ZYD
+				}
+			}
+		}
+		if = {
+		 limit = { has_tech = melee_weapons2 }
+			add_equipment_to_stockpile = {
+				type = melee_equipment_2
+				amount = 1000
+				producer = ZYD
+				}
+		 else_if = {
+		 limit = { has_tech = melee_weapons1 }
+		 	add_equipment_to_stockpile = {
+				type = melee_equipment_1
+				amount = 2000
+				producer = ZYD
+				}
+			}
+		 else = {
+		 	 	add_equipment_to_stockpile = {
+				type = melee_equipment_0
+				amount = 3000
+				producer = ZYD
+				}
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = belchatow.zyd2
+	title = belchatow.zyd2.t
+	desc = belchatow.zyd2.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.zyd2.a
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = belchatow.krs1
+	title = belchatow.krs1.t
+	desc = belchatow.krs1.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.krs1.a
+		annex_country = { 
+			target = KRS
+			transfer_troops = yes
+			}
+	}
+}
+
+country_event = {
+	id = belchatow.krs2
+	title = belchatow.krs2.t
+	desc = belchatow.krs2.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.krs2.a
+		declare_war_on = {
+			target = KRS
+			type = annex_everything
+			}
 	}
 }
