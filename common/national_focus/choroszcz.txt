@@ -34,4 +34,25 @@
 			}	
 		}
 	}
+	focus = {
+		id = TNO_jurskinacht
+		icon = TNO_jurskinacht
+		relative_position_id = TNO_speernacht
+		prerequisite = { focus = TNO_speernacht }
+		available = {
+		}
+
+		bypass = {
+		}
+
+		x = 0
+		y = 1
+
+
+		cost = 10
+		completion_reward = { add_stability = 0.05
+
+			}	
+		}
+	}
 }
