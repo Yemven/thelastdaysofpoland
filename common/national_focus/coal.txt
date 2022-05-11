@@ -798,7 +798,7 @@ focus_tree = {
 				}
 			50 = { 	country_event = {
 				id = belchatow.zyd2
-				days = 3 }
+				days = 1 }
 				}
 			}
 		}
@@ -977,7 +977,7 @@ focus_tree = {
 		available = {
 		AND = {
 			has_war = no
-			NOT = { country_exists = SAP }
+			NOT = { country_exists = KRS }
 		}
 		}
 		
