@@ -20,7 +20,7 @@ division_template = {
 }
 
 	division_template = {
-	name = "Niebieskie Pasy"
+	name = "Zakon Płonącej Róży"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -32,7 +32,7 @@ division_template = {
 units = {
 
 division = {
-		name = "BBP - Gors Velen"
+		name = "BPP - Gors Velen"
 		location = 7450
 		division_template = "Biedna Pierdolona Piechota"
 		start_experience_factor = 0.2
@@ -40,14 +40,14 @@ division = {
 	}
 
  division = {
-		name = "BBP - Wrońce"
+		name = "PBP - Wrońce"
 		location = 7453
 		division_template = "Biedna Pierdolona Piechota"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 division = {
-		name = "BBP - Vorune"
+		name = "BPP - Vorune"
 		location = 7452
 		division_template = "Biedna Pierdolona Piechota"
 		start_experience_factor = 0.2
@@ -69,9 +69,9 @@ division = {
 		start_equipment_factor = 1
 	}
 division = {
-		name = "Niebieskie Pasy"
+		name = "Zakon Płonącej Róży"
 		location = 7450
-		division_template = "Niebieskie Pasy"
+		division_template = "Zakon Płonącej Róży"
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
