@@ -20,6 +20,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_genesis
+		icon = ZYD_genesis
 		available = {
 		
 		}
@@ -27,13 +28,14 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 14
+		x = 8
 		y = 0
 		
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
-			
+			country_event = {
+				id = zydzew.1 }
 		}
 	}
 	
