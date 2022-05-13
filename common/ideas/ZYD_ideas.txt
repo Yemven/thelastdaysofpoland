@@ -1,3 +1,18 @@
 ideas = {
-	
+	country = {
+		ZYD_mobile_ark =	{
+			original_tag = ZYD
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				stability_factor = 0.1
+				army_org_factor = 0.1
+				land_reinforce_rate = 0.05
+			}
+		}
+	}
 }

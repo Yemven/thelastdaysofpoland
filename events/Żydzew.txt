@@ -14,3 +14,68 @@ country_event = {
 		add_political_power = 50
 	}
 }
+
+country_event = {
+	id = zydzew.2
+	title = zydzew.2.t
+	desc = zydzew.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.2.a
+		army_experience = 20
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = zydzew.3
+	title = zydzew.3.t
+	desc = zydzew.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.3.a
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = electronics
+				}
+		add_popularity = {
+				ideology = marxism_cranism
+				popularity = 0.05
+				}
+	}
+}
+
+country_event = {
+	id = zydzew.4
+	title = zydzew.4.t
+	desc = zydzew.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.4.a
+		add_war_support = 0.15
+	}
+}
+
+country_event = {
+	id = zydzew.5
+	title = zydzew.5.t
+	desc = zydzew.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.5.a
+		add_ideas = ZYD_mobile_ark
+	}
+}
