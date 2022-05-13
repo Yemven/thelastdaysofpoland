@@ -133,7 +133,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_warriors_overview
-		icon = ZYD_warriors_overview
+		icon = ZYD_warriors
 		relative_position_id = ZYD_deuteronomy
 		prerequisite = { focus = ZYD_deuteronomy }
 		available = {
@@ -155,7 +155,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_eleven_felash
-		icon = ZYD_eleven_felash
+		icon = ZYD_11_falashas
 		relative_position_id = ZYD_warriors_overview
 		prerequisite = { focus = ZYD_warriors_overview }
 		mutually_exclusive = { focus = ZYD_eleven_sons_of_labour }
@@ -178,7 +178,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_eleven_sons_of_labour
-		icon = ZYD_eleven_sons_of_labour
+		icon = ZYD_11_sons
 		relative_position_id = ZYD_warriors_overview
 		prerequisite = { focus = ZYD_warriors_overview }
 		mutually_exclusive = { focus = ZYD_eleven_felash }
@@ -268,7 +268,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_the_decalogue_upgrade
-		icon = ZYD_the_decalogue_upgrade
+		icon = ZYD_improve_decalogue
 		relative_position_id = ZYD_mutual_destruction
 		prerequisite = { focus = ZYD_mutual_destruction }
 		mutually_exclusive = { focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes }
@@ -291,7 +291,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
-		icon = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
+		icon = ZYD_decrease_autonomy
 		relative_position_id = ZYD_mutual_destruction
 		prerequisite = { focus = ZYD_mutual_destruction }
 		mutually_exclusive = { focus = ZYD_the_decalogue_upgrade }
@@ -337,7 +337,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_communal_and_robbery_economy
-		icon = ZYD_communal_and_robbery_economy
+		icon = ZYD_robbery_economy
 		relative_position_id = ZYD_deuteronomy
 		prerequisite = { focus = ZYD_deuteronomy }
 		available = {
