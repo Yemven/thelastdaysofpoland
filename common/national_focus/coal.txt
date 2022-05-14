@@ -400,22 +400,22 @@ focus_tree = {
 				days = 1 }
 			add_political_power = -50
 			if = {
-				limit = { has_idea = limited_conscription }
+				limit = { has_idea = system_enlistment }
 			swap_ideas = {
-				remove_idea = limited_conscription
-				add_idea = extensive_conscription
+				remove_idea = system_enlistment
+				add_idea = volunteer_only
 			}
 			else_if = {
-				limit = { has_idea = volunteer_only }
+				limit = { has_idea = random_enlistment }
 					swap_ideas = {
-						remove_idea = volunteer_only
-						add_idea = limited_conscription
+						remove_idea = random_enlistment
+						add_idea = system_enlistment
 					}
 			}
 			else = {
 				swap_ideas = {
-					remove_idea = extensive_conscription
-					add_idea = service_by_requirement
+					remove_idea = volunteer_only
+					add_idea = expanded_conscription
 					}
 				}
 			}
