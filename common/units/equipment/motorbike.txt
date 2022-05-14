@@ -1,6 +1,6 @@
 equipments = {
 	motorbike_equipment = {
-		year = 1936
+		year = 2027
 
 		is_archetype = yes
 		picture = archetype_motorized_equipment		
@@ -33,14 +33,14 @@ equipments = {
 	}
 	
 	enduro_equipment = {
-		year = 1938
+		year = 2027
 
 		archetype = motorbike_equipment
 		priority = 30			
 	}
 	
 	sidecar_equipment = {
-		year = 1938
+		year = 2027
 
 		archetype = motorbike_equipment
 		priority = 30	
