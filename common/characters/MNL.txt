@@ -8,8 +8,110 @@ characters={
 		}
 		country_leader={
 			ideology=marxism_cranism_subtype
+			traits={ great_survivor }
 			expire="1.1.1.1"
 			id=-1
+			
+			
 		}
 	}
+	
+	MNL_nusiek={
+		name="Nusiek"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononReactionary.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = MNL
+			}
+			traits = { headstrong }
+		}
+	}
+	
+	MNL_romek={
+		name="Romek"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononReactionary.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = MNL_min_romek
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = MNL
+			}
+			traits = { pragmatic_organiser }
+		}
+	}
+
+	MNL_mietek_kanonier={
+		name="Mietek The Cannoneer"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononReactionary.dds"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard engineer_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = MNL_min_mietek
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = MNL
+			}
+			traits = { pragmatic_organiser }
+		}
+	}
+	
+	MNL_leszy={
+		name="Leszy"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononReactionary.dds"
+			}
+		}
+		corps_commander = {
+			traits = { swamp_fox ranger }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 4
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = MNL_min_leszy
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = MNL
+			}
+			traits = { pragmatic_organiser }
+		}
+	}
+
+	
 }
+
