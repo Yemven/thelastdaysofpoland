@@ -314,7 +314,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_alcohol_rationing
-		icon = ZYD_alcohol_rationing
+		icon = ZYD_alcohol
 		relative_position_id = ZYD_the_decalogue_upgrade
 		prerequisite = { focus = ZYD_the_decalogue_upgrade }
 		prerequisite = { focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes }
@@ -450,7 +450,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_discuss_of_the_high_command
-		icon = ZYD_discuss_of_the_high_command
+		icon = ZYD_question_of_leadership
 		relative_position_id = ZYD_warriors_overview
 		prerequisite = { focus = ZYD_usury_as_an_alternative_to_robbery }
 		prerequisite = { focus = ZYD_alcohol_rationing }
@@ -630,7 +630,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ZYD_pacyfication_of_the_lks_remnants
-		icon = ZYD_pacyfication_of_the_lks_remnants
+		icon = ZYD_destroy_lks
 		relative_position_id = ZYD_sharpening_the_old_sticks
 		prerequisite = { focus = ZYD_sharpening_the_old_sticks }
 		available = {
@@ -741,7 +741,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_rts_is_a_power
-		icon = ZYD_rts_is_a_power
+		icon = ZYD_rts_is_powerful
 		relative_position_id = ZYD_zomo_action
 		prerequisite = { focus = ZYD_zomo_action 
 						 focus = ZYD_taking_the_dogs_off_the_leash }
