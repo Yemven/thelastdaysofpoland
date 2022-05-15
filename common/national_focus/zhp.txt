@@ -31,10 +31,13 @@ focus_tree = {
 		x = 7
 		y = 0
 		
-		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
-			
+		cost = 1
+		search_filters = {}
+		completion_reward = { 
+			add_political_power = 50
+			country_event = {
+				id = zhp.1 
+				}
 		}
 	}
 	
@@ -53,9 +56,13 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		cost = 1
+		search_filters = {}
+		completion_reward = { 
+			country_event = {
+				id = zhp.2
+				}
+			add_political_power = 20
 			
 		}
 	}
@@ -76,9 +83,13 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
-			
+		search_filters = {}
+		completion_reward = { 
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = industry
+				}
 		}
 	}
 	
@@ -99,9 +110,10 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
-			
+		search_filters = {}
+		completion_reward = { 
+			add_political_power = 30
+			add_ideas = ZHP_idealist_economy
 		}
 	}
 	
@@ -122,9 +134,9 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
-			
+		search_filters = {}
+		completion_reward = { 
+			add_ideas = ZHP_conservatist_economy
 		}
 	}
 	
@@ -144,9 +156,13 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
-			
+		search_filters = {}
+		completion_reward = { 
+			add_political_power = 30
+			swap_ideas = {
+				add_idea = ZHP_idealist_economy2
+				remove_idea = ZHP_idealist_economy
+				}
 		}
 	}
 	
@@ -166,9 +182,9 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
-			
+		search_filters = {}
+		completion_reward = { 
+			add_political_power = 30
 		}
 	}
 	
@@ -188,9 +204,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
-			
+		search_filters = {}
+		completion_reward = { 
+			swap_ideas = {
+				add_idea = ZHP_conservatist_economy2
+				remove_idea = ZHP_conservatist_economy
+				}
 		}
 	}
 	
@@ -210,9 +229,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
-			
+		search_filters = {}
+		completion_reward = { 
 		}
 	}
 	
@@ -233,8 +251,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -255,8 +273,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -278,8 +296,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -301,8 +319,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -323,8 +341,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -345,8 +363,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -367,8 +385,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -389,8 +407,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -412,8 +430,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -434,9 +452,9 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
-			
+		search_filters = {}
+		completion_reward = { 
+			add_stability = 0.1
 		}
 	}
 	
@@ -458,8 +476,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -481,9 +499,10 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
-			
+		search_filters = {}
+		completion_reward = { 
+			add_stability = 0.1
+			add_war_support = 0.1
 		}
 	}
 	
@@ -504,8 +523,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -526,8 +545,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -548,8 +567,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -570,8 +589,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -592,8 +611,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -615,8 +634,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
@@ -637,8 +656,8 @@ focus_tree = {
 		y = 1
 		
 		cost = 10
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		search_filters = {}
+		completion_reward = { 
 			
 		}
 	}
