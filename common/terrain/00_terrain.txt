@@ -101,15 +101,18 @@ categories =  {
 	
 	urban = {
 		color = { 120 120 120 }
-		movement_cost = 1.2
+		#movement_cost = 1.2
+		movement_cost = 2.0
 		ai_terrain_importance_factor = 4.0
-		combat_width = 96
+		#combat_width = 96
+		combat_width = 76
 		combat_support_width = 32
 		match_value = 4
 		sound_type = plains
 
 		units = {
-			attack = -0.3
+			#attack = -0.3
+			attack = -0.4
 			#movement = -0.2
 		}
 
