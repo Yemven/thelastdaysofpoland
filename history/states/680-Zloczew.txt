@@ -9,16 +9,34 @@ state={
 			7708 10 
 		}
 		victory_points = {
-			7688 1 
+			7691 1 
 		}
 		victory_points = {
-			7687 1 
+			7697 1 
+		}
+		victory_points = {
+			1040 1 
+		}
+		victory_points = {
+			7674 1 
+		}
+		victory_points = {
+			14254 1 
+		}
+		victory_points = {
+			7684 1 
 		}
 		add_core_of = ZHP
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
+			7674 = {
+				bunker = 1
 
+			}
+			7638 = {
+				bunker = 1
+
+			}
 		}
 
 	}
