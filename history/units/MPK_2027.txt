@@ -1,0 +1,44 @@
+division_template = {
+    name = "Kolejarze-Obsługa Pojazdów"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+    }
+    support = {
+        maintenance_company = { x = 0 y = 0 }
+    }
+}
+
+units = {
+	division = {
+		name = "1 Batalion Motorniczych"
+		location = 12802
+		division_template = "Kolejarze-Obsługa Pojazdów"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2 Batalion Motorniczych"
+		location = 12779
+		division_template = "Kolejarze-Obsługa Pojazdów"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1 Batalion Kierowców"
+		location = 12776
+		division_template = "Kolejarze-Obsługa Pojazdów"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2 Batalion Kierowców"
+		location = 12780
+		division_template = "Kolejarze-Obsługa Pojazdów"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}

@@ -1,0 +1,74 @@
+division_template = {
+	name = "Batalion Górników"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Batalion Hutników"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Post-EK Schlesien Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "Batalion Legnicki"
+		location = 7443
+		division_template = "Batalion Górników"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+    division = {
+		name = "1 Batalion Lubiński"
+		location = 13027
+		division_template = "Batalion Górników"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Batalion Głogowski"
+		location = 13042
+		division_template = "Batalion Górników"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+    division = {
+		name = "Batalion Polkowicki"
+		location = 13088
+		division_template = "Batalion Hutników"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2 Batalion Lubiński"
+		location = 2179
+		division_template = "Batalion Hutników"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1 Brygada Operacyjna Spółki"
+		location = 521
+		division_template = "Post-EK Schlesien Brigade"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+}
