@@ -4,19 +4,21 @@ state={
 	provinces={
 		641 1106 2777 3293 10235 10378 10397 10398 10399 10400 10401 10402 10403 10404 10405 10406 10407 10409 10411 10412 10413 10414 10415 10417
 	}
-	manpower = 60142   state_category = large_town
+	manpower = 60142   
+	state_category = large_town
 	buildings_max_level_factor=1.000
-		history = {
+	history = {
 		owner = BBW
-		victory_points = { 10235 30 }
+		victory_points = { 10235 20 }
 		victory_points = { 10414 1 }
 		victory_points = { 10400 1 }
 		add_core_of = BBW
 	buildings = {
-	infrastructure = 6
-	industrial_complex = 2 
-	10400 = {
-	bunker = 1}
-	}
+		infrastructure = 6
+		industrial_complex = 2 
+		arms_factory = 1
+		10400 = {
+			bunker = 1}
+		}
 	}
 }
