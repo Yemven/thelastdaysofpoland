@@ -1,19 +1,28 @@
+
 state={
 	id=687
 	name="STATE_687"
-	provinces={
-		1004 7454
-	}
-	manpower = 58204   state_category = city
-	buildings_max_level_factor=1.000
-	history = {
-		owner = KRS
-		victory_points = { 1004 15 }
-		add_core_of = KRS
 
-	buildings = {
-	infrastructure = 7
-	industrial_complex = 3
-	arms_factory = 1 }
+	history={
+		owner = KRS
+		victory_points = {
+			1004 15 
+		}
+		add_core_of = KRS
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+
 	}
+
+	provinces={
+		1004 2321 3488 7454 10426 10427 11578 11579 11581 11582 11583 11584 11585 11586 11588 11589 11592 
+	}
+	manpower=67204
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

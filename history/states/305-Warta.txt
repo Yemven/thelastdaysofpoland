@@ -5,28 +5,42 @@ state={
 
 	history={
 		owner = KRS
-		victory_points = {2683 10 }
-		victory_points = {1423 5 }
-		victory_points = {14254 1 }
+		victory_points = {
+			2683 10 
+		}
+		victory_points = {
+			1423 5 
+		}
+		victory_points = {
+			14254 1 
+		}
 		add_core_of = KRS
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 2
 			7459 = {
-			bunker = 1}
+				bunker = 1
+
+			}
 			10466 = {
-			bunker = 1}
-			736 = {bunker = 3}
+				bunker = 1
+
+			}
+			736 = {
+				bunker = 3
+
+			}
+
 		}
 
 	}
 
 	provinces={
-		376 736 1423 2683 2933 3830 3840 7459 10462 10463 10464 10465 10466 10467 10468 10469 11982 14249 14250 14251 14252 14253 14254 14255 14256 14257 14258 14259
+		376 2683 2933 3830 7459 10462 10463 10464 10465 10466 10467 10468 10469 11982 14254 14255 14256 14257 14258 14259 
 	}
-	manpower=31257
+	manpower=15257
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 	local_supplies=0.000
 }

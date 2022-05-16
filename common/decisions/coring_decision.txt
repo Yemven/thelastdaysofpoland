@@ -9,6 +9,7 @@ coring_category = {
 			AND = {
 			controls_state = 370
 			controls_state = 379
+			controls_state = 848
 			}
 		}
 
@@ -20,6 +21,9 @@ coring_category = {
 						is_core_of = ROOT
 					}
 					379 = {
+						is_core_of = ROOT
+					}
+					848 = {
 						is_core_of = ROOT
 					}
 				}
@@ -45,6 +49,7 @@ coring_category = {
 		remove_effect  = {
 			add_state_core = 370
 			add_state_core = 379
+			add_state_core = 848
 			add_stability = 0.025
 		}
 	}
@@ -389,15 +394,23 @@ coring_category = {
 		icon = GFX_decision_generic_form_nation
 
 		available = {
+			AND = {
 			controls_state = 236
+			controls_state = 849
+			}
 		}
 
 		visible = {
 			owns_state = 236
 			NOT = {
+				AND = {
 					236 = {
 						is_core_of = ROOT
 					}
+					849 = {
+						is_core_of = ROOT
+					}
+				}
 			}
 		}
 
@@ -419,6 +432,7 @@ coring_category = {
 		days_remove = 30
 		remove_effect  = {
 			add_state_core = 236
+			add_state_core = 849
 			add_stability = 0.025
 		}
 	}
@@ -879,15 +893,23 @@ coring_category = {
 		icon = GFX_decision_generic_form_nation
 
 		available = {
+			AND = {
 			controls_state = 269
+			controls_state = 850
+			}
 		}
 
 		visible = {
 			owns_state = 269
 			NOT = {
+				AND = {
 					269 = {
 						is_core_of = ROOT
 					}
+					850 = {
+						is_core_of = ROOT
+					}
+				}
 			}
 		}
 
@@ -909,6 +931,7 @@ coring_category = {
 		days_remove = 30
 		remove_effect  = {
 			add_state_core = 269
+			add_state_core = 850
 			add_stability = 0.025
 		}
 	}
