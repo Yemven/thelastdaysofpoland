@@ -5,29 +5,26 @@ state={
 
 	history={
 		owner = SAP
-		victory_points = {7450 30 }
-		victory_points = {11652 1 }
-		victory_points = {1910 1 }
-		victory_points = {11674 1 }
-		victory_points = {11634 1 }
-		victory_points = {11662 1 }
-		victory_points = {11655 1 }
-		victory_points = {11631 1 }
-		victory_points = {11642 1 }
+		victory_points = {
+			7450 30 
+		}
+		victory_points = {
+			11650 1 
+		}
 		add_core_of = SAP
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
-			air_base = 1
 
 		}
 
 	}
 
 	provinces={
-		304 1095 1741 1910 2307 2591 2954 3808 7450 11630 11631 11632 11633 11634 11635 11636 11637 11638 11639 11640 11641 11642 11643 11644 11645 11646 11647 11648 11649 11650 11651 11652 11653 11654 11655 11656 11657 11658 11659 11660 11661 11662 11663 11664 11665 11666 11667 11668 11669 11670 11671 11672 11673 11674 11675 11676 
+		1095 1741 2591 7450 11642 11643 11644 11645 11646 11647 11648 11649 11650 11651 11652 11653 11654 11666 11669 11670 
 	}
-	manpower=82357
+	manpower=58357
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=city
+	local_supplies=0.000
 }

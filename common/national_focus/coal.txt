@@ -37,8 +37,7 @@ focus_tree = {
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 		country_event = {
-			id = belchatow.1
-			days = 1 }
+			id = belchatow.1 }
 			
 		}
 	}
@@ -401,22 +400,22 @@ focus_tree = {
 				days = 1 }
 			add_political_power = -50
 			if = {
-				limit = { has_idea = limited_conscription }
+				limit = { has_idea = system_enlistment }
 			swap_ideas = {
-				remove_idea = limited_conscription
-				add_idea = extensive_conscription
+				remove_idea = system_enlistment
+				add_idea = volunteer_only
 			}
 			else_if = {
-				limit = { has_idea = volunteer_only }
+				limit = { has_idea = random_enlistment }
 					swap_ideas = {
-						remove_idea = volunteer_only
-						add_idea = limited_conscription
+						remove_idea = random_enlistment
+						add_idea = system_enlistment
 					}
 			}
 			else = {
 				swap_ideas = {
-					remove_idea = extensive_conscription
-					add_idea = service_by_requirement
+					remove_idea = volunteer_only
+					add_idea = expanded_conscription
 					}
 				}
 			}
@@ -682,7 +681,7 @@ focus_tree = {
 			if = {
 			limit = { is_core_of = ZHP }
 			random_controlled_state = {
-				prioritize = { 321 357 368 370 379 396 352 680 } 
+				prioritize = { 321 357 368 370 379 396 352 680 848 } 
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -693,7 +692,7 @@ focus_tree = {
 			if = {
 			limit = { is_core_of = ZHP }
 			random_controlled_state = {
-				prioritize = { 321 357 368 370 379 396 352 680 } 
+				prioritize = { 321 357 368 370 379 396 352 680 848 } 
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -704,7 +703,7 @@ focus_tree = {
 			if = {
 			limit = { is_core_of = ZHP }
 			random_controlled_state = {
-				prioritize = { 321 357 368 370 379 396 352 680 } 
+				prioritize = { 321 357 368 370 379 396 352 680 848 } 
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -793,11 +792,11 @@ focus_tree = {
 		completion_reward = {
 			random_list = {
 			50 = { 	country_event = {
-				id = belchatow.zyd1
+				id = belchatow.16
 				days = 1 }
 				}
 			50 = { 	country_event = {
-				id = belchatow.zyd2
+				id = belchatow.17
 				days = 1 }
 				}
 			}
@@ -917,7 +916,7 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			KRS = {
-			country_event = { id = krosniewice.bbw1 }
+			country_event = { id = krosniewice.1 }
 			}
 			custom_effect_tooltip = BBW_kroswiecki_tooltip
 		}

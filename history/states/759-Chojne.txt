@@ -8,11 +8,13 @@ state={
 	buildings_max_level_factor=1.000
 	history = {
 		owner = WML
-		victory_points = { 3465 10 }
+		victory_points = { 3465 3 }
+		victory_points = { 11491 10 }
+		victory_points = { 11490 3 }
 		add_core_of = WML
 	buildings = {
-	infrastructure = 8
-	industrial_complex = 3
-	arms_factory = 1 }
+	infrastructure = 7
+	industrial_complex = 2
+	}
 	}
 }

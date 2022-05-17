@@ -1,4 +1,64 @@
 ideas = {
 	
+	country = {
+		ZHP_idealist_economy =	{
+			original_tag = ZHP
+			allowed_civil_war = {
+				always = yes
+			}
 
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industry_air_damage_factor = -0.1
+				line_change_production_efficiency_factor = 0.1
+			}
+		}
+		ZHP_idealist_economy2 =	{
+			original_tag = ZHP
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industry_air_damage_factor = -0.1
+				line_change_production_efficiency_factor = 0.1
+				supply_consumption_factor = -0.1
+				stability_factor = -0.1
+			}
+		}
+		ZHP_conservatist_economy =	{
+			original_tag = ZHP
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+				recruitable_population_factor = -0.05
+			}
+		}
+		ZHP_conservatist_economy2 =	{
+			original_tag = ZHP
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+				recruitable_population_factor = -0.05
+				monthly_population = 0.05
+			}
+		}
+	}
 }

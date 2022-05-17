@@ -27,3 +27,32 @@ I grafika powinna już działać.
 
 
 			- Nargton
+			
+			
+##########     DODAWANIE IKONEK FOCUSÓW   ##########
+
+
+Jak mamy focusa w jakimś śmiesznym formacie zrobionego to przerabiamy go na .DDS najlepiej w paint.net z ustawieniem B8G8R8A8 (liniowy, A8R8G8B8)
+
+Focusa wrzucamy do gfx/interface/goals najlepiej zapisanego z nazwą taką samą jak nazwa focusa
+
+Teraz szukamy odpowiedniego drzewka w common/national_focus i pod id dodajemy linijkę icon = nazwa_focusa
+
+Teraz wycofujemy się do głównego folderu i tam wchodzimy do interface otwierając dwa pliki
+1.	interface/goals.gfx
+2.	interface/goals_shine.gfx
+
+1. interface/goals.gfx 
+
+Tutaj sprawa jest prosta, po prostu dodajemy taki sam wpis jak istniejący, uważamy żeby wpisać dobre nazwy
+
+2. interface/goals_shine.gfx
+
+Sprawa też jest prosta tylko wydaje się większa.
+Jeden wpis zawiera 4 rzeczy do zmiany więc przypatrzcie się strukturze UWAŻNIE
+	* Pierwsza rzecz do zmiany to nazwa focusu z dopiskiem _shine - np. BBW_wungiel_shine, WPISUJCIE UWAŻNIE TAK ŻEBY TUTAJ NIE POMINĄĆ DOPISKU _SHINE BO JUŻ WIDZIAŁEM JAK W NYSIE BYŁ PŁACZ DLACZEGO NIE ŚWIECI
+	* Trzy kolejne rzeczy we wpisie to wklepanie nazwy focusa bez żadnych dopisków
+	
+I tyle, powinno działać.
+				- Herder
+		

@@ -1,0 +1,46 @@
+﻿add_namespace = zhp
+
+country_event = {
+	id = zhp.1
+	title = zhp.1.t
+	desc = zhp.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zhp.1.a	
+	}
+}
+
+country_event = {
+	id = zhp.2
+	title = zhp.2.t
+	desc = zhp.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zhp.2.a
+	}
+}
+
+country_event = {
+	id = zhp.3
+	title = zhp.3.t
+	desc = zhp.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zhp.3.a
+	}
+	option = {
+		name = zhp.3.b
+	}
+	option = {
+		name = zhp.3.c
+	}
+}

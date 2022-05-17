@@ -15,9 +15,13 @@ technologies = {
 		research_cost = 2
 		start_year = 1918
 		path = {
-			leads_to_tech = motorbike
+			leads_to_tech = truck_1
 			research_cost_coeff = 1
 		}
+		#path = {
+		#	leads_to_tech = motorbike
+		#	research_cost_coeff = 1
+		#}
 		path = {
 			leads_to_tech = sidecar
 			research_cost_coeff = 1
@@ -38,38 +42,38 @@ technologies = {
 		}
 	}
 
-	motorbike = {
-		research_cost = 2
-		start_year = 1936
-		path = {
-			leads_to_tech = armored_car_1
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = truck_1
-			research_cost_coeff = 1
-		}
-		enable_subunits = {
-			motorbike_battalion
-		}
-		enable_equipments = {
-			enduro_equipment
-		}
-		folder = {
-			name = armour_folder
-			position = { x = -4 y = 3}
-		}
-		categories = {
-			armor
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#motorbike = {
+	#	research_cost = 2
+	#	start_year = 2027
+	#	path = {
+	#		leads_to_tech = armored_car_1
+	#		research_cost_coeff = 1
+	#	}
+	#	path = {
+	#		leads_to_tech = truck_1
+	#		research_cost_coeff = 1
+	#	}
+	#	enable_subunits = {
+	#		motorbike_battalion
+	#	}
+	#	enable_equipments = {
+	#		enduro_equipment
+	#	}
+	#	folder = {
+	#		name = armour_folder
+	#		position = { x = -4 y = 3}
+	#	}
+	#	categories = {
+	#		armor
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 	
 	sidecar = {
 		research_cost = 2
-		start_year = 1936
+		start_year = 2027
 		path = {
 			leads_to_tech = apc_1
 			research_cost_coeff = 1
@@ -83,6 +87,7 @@ technologies = {
 		}
 		enable_equipments = {
 			sidecar_equipment
+			enduro_equipment
 		}
 		folder = {
 			name = armour_folder
@@ -98,7 +103,7 @@ technologies = {
 	
 	mbt_0 = {
 		research_cost = 2
-		start_year = 1936
+		start_year = 2027
 		path = {
 			leads_to_tech = mbt_1
 			research_cost_coeff = 1
@@ -123,7 +128,7 @@ technologies = {
 	
 	mbt_1 = {
 		research_cost = 2
-		start_year = 1938
+		start_year = 2030
 		path = {
 			leads_to_tech = mbt_2
 			research_cost_coeff = 1
@@ -145,7 +150,7 @@ technologies = {
 	
 	mbt_2 = {
 		research_cost = 2
-		start_year = 1940
+		start_year = 2033
 		path = {
 			leads_to_tech = mbt_3
 			research_cost_coeff = 1
@@ -167,7 +172,7 @@ technologies = {
 	
 	mbt_3 = {
 		research_cost = 2
-		start_year = 1942
+		start_year = 2036
 		path = {
 			leads_to_tech = mbt_4
 			research_cost_coeff = 1
@@ -189,7 +194,7 @@ technologies = {
 	
 	mbt_4 = {
 		research_cost = 2
-		start_year = 1944
+		start_year = 2040
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 18}
@@ -207,7 +212,7 @@ technologies = {
 	
 	armored_car_1 = {
 		research_cost = 2
-		start_year = 1938
+		start_year = 2030
 		path = {
 			leads_to_tech = armored_car_2
 			research_cost_coeff = 1
@@ -232,7 +237,7 @@ technologies = {
 	
 	armored_car_2 = {
 		research_cost = 2
-		start_year = 1940
+		start_year = 2033
 		path = {
 			leads_to_tech = armored_car_3
 			research_cost_coeff = 1
@@ -254,7 +259,7 @@ technologies = {
 	
 	armored_car_3 = {
 		research_cost = 2
-		start_year = 1942
+		start_year = 2036
 		path = {
 			leads_to_tech = armored_car_4
 			research_cost_coeff = 1
@@ -276,7 +281,7 @@ technologies = {
 	
 	armored_car_4 = {
 		research_cost = 2
-		start_year = 1942
+		start_year = 2040
 		folder = {
 			name = armour_folder
 			position = { x = -6 y = 18}
@@ -294,7 +299,11 @@ technologies = {
 	
 	truck_1 = {
 		research_cost = 2
-		start_year = 1938
+		start_year = 2027
+		path = {
+			leads_to_tech = armored_car_1
+			research_cost_coeff = 1
+		}
 		path = {
 			leads_to_tech = truck_2
 			research_cost_coeff = 1
@@ -304,6 +313,28 @@ technologies = {
 		}
 		enable_equipments = {
 			motorized_equipment_1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 3}
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	truck_2 = {
+		research_cost = 2
+		start_year = 2030
+		path = {
+			leads_to_tech = truck_3
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			motorized_equipment_2
 		}
 		folder = {
 			name = armour_folder
@@ -317,15 +348,15 @@ technologies = {
 		}
 	}
 	
-	truck_2 = {
+	truck_3 = {
 		research_cost = 2
-		start_year = 1940
+		start_year = 2033
 		path = {
-			leads_to_tech = truck_3
+			leads_to_tech = truck_4
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			motorized_equipment_2
+			motorized_equipment_3
 		}
 		folder = {
 			name = armour_folder
@@ -339,34 +370,16 @@ technologies = {
 		}
 	}
 	
-	truck_3 = {
+	truck_4 = {
 		research_cost = 2
-		start_year = 1942
-		path = {
-			leads_to_tech = truck_4
-			research_cost_coeff = 1
-		}
-		enable_equipments = {
-			motorized_equipment_3
-		}
+		start_year = 2036
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 14}
 		}
-		categories = {
-			armor
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	truck_4 = {
-		research_cost = 2
-		start_year = 1944
-		folder = {
-			name = armour_folder
-			position = { x = -4 y = 18}
+		path = {
+			leads_to_tech = truck_5
+			research_cost_coeff = 1
 		}
 		enable_equipments = {
 			motorized_equipment_4
@@ -379,9 +392,27 @@ technologies = {
 		}
 	}
 	
+	truck_5 = {
+		research_cost = 2
+		start_year = 2040
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 18}
+		}
+		enable_equipments = {
+			motorized_equipment_5
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	apc_1 = {
 		research_cost = 2
-		start_year = 1938
+		start_year = 2030
 		path = {
 			leads_to_tech = apc_2
 			research_cost_coeff = 1
@@ -406,7 +437,7 @@ technologies = {
 	
 	ifv_1 = {
 		research_cost = 2
-		start_year = 1938
+		start_year = 2030
 		path = {
 			leads_to_tech = ifv_2
 			research_cost_coeff = 1
@@ -431,7 +462,7 @@ technologies = {
 	
 	apc_2 = {
 		research_cost = 2
-		start_year = 1940
+		start_year = 2033
 		path = {
 			leads_to_tech = apc_3
 			research_cost_coeff = 1
@@ -453,7 +484,7 @@ technologies = {
 	
 	ifv_2 = {
 		research_cost = 2
-		start_year = 1940
+		start_year = 2033
 		path = {
 			leads_to_tech = ifv_3
 			research_cost_coeff = 1
@@ -475,7 +506,7 @@ technologies = {
 	
 	apc_3 = {
 		research_cost = 2
-		start_year = 1942
+		start_year = 2036
 		path = {
 			leads_to_tech = apc_4
 			research_cost_coeff = 1
@@ -497,7 +528,7 @@ technologies = {
 	
 	ifv_3 = {
 		research_cost = 2
-		start_year = 1942
+		start_year = 2036
 		path = {
 			leads_to_tech = ifv_4
 			research_cost_coeff = 1
@@ -519,10 +550,10 @@ technologies = {
 	
 	apc_4 = {
 		research_cost = 2
-		start_year = 1944
+		start_year = 2040
 		folder = {
 			name = armour_folder
-			position = { x = -2 y = 22}
+			position = { x = -2 y = 18}
 		}
 		enable_equipments = {
 			apc_equipment_4
@@ -537,7 +568,7 @@ technologies = {
 	
 	ifv_4 = {
 		research_cost = 2
-		start_year = 1944
+		start_year = 2040
 		folder = {
 			name = armour_folder
 			position = { x = 2 y = 18}

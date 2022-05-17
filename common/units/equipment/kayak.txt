@@ -95,6 +95,13 @@ equipments = {
 		manpower = 25
 	}
 	
+	kayak_hull_equipment = {
+		year = 2020
+		archetype = kayak_hull
+		priority = 2000
+		module_slots = inherit
+	}
+	
 	kayak_equipment = {
 		year = 2020
 		archetype = kayak_hull

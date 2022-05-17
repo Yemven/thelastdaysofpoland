@@ -1,6 +1,12 @@
 ﻿capital = 419
 
 recruit_character = ANA_czak
+recruit_character = ANA_jan_rambo
+recruit_character = ANA_powazny_sam
+recruit_character = ANA_arnold_czarnoczarny
+recruit_character = ANA_riki
+
+oob = "ANA_2027"
 
 # Starting tech
 set_technology = {
@@ -9,9 +15,6 @@ set_technology = {
 }
 
 set_convoys = 20
-
-
-
 
 set_politics = {
 	ruling_party = autocracy

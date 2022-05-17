@@ -54,7 +54,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.5
 		start_year = 2027
 		folder = {
 			name = infantry_folder
@@ -80,7 +80,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.5
 		start_year = 2030
 		folder = {
 			name = infantry_folder
@@ -106,7 +106,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.5
 		start_year = 2033
 		folder = {
 			name = infantry_folder
@@ -128,7 +128,7 @@ technologies = {
 		}
 		
 		
-		research_cost = 1.5
+		research_cost = 2.5
 		start_year = 2036
 		folder = {
 			name = infantry_folder
@@ -189,7 +189,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.5
 		start_year = 2027
 		folder = {
 			name = infantry_folder
@@ -221,7 +221,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.5
 		start_year = 2030
 		folder = {
 			name = infantry_folder
@@ -248,7 +248,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.5
 		start_year = 2033
 		folder = {
 			name = infantry_folder
@@ -274,7 +274,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.5
 		start_year = 2036
 		folder = {
 			name = infantry_folder
@@ -296,7 +296,7 @@ technologies = {
 			ranged_equipment_5
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.5
 		start_year = 2040
 		folder = {
 			name = infantry_folder
@@ -378,7 +378,7 @@ technologies = {
 		enable_equipment_modules = {
 			tank_advanced_atgm
 		}
-		research_cost = 2
+		research_cost = 2.5
 		
 		start_year = 2040
 		folder = {
@@ -396,7 +396,7 @@ technologies = {
 	}
 	
 	infantry_training = {
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2025
 		
 		path = {
@@ -417,7 +417,7 @@ technologies = {
 	
 	
 	infantry_training1 = {
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2027
 		
 		path = {
@@ -437,7 +437,7 @@ technologies = {
 	}
 	
 	infantry_training2 = {
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2030
 		
 		path = {
@@ -457,7 +457,7 @@ technologies = {
 	}
 	
 	infantry_training3 = {
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2033
 		
 		path = {
@@ -477,7 +477,7 @@ technologies = {
 	}
 	
 	infantry_training4 = {
-		research_cost = 1
+		research_cost = 2
 		start_year = 2036
 		
 		path = {
@@ -497,7 +497,7 @@ technologies = {
 	}
 	
 	infantry_training5 = {
-		research_cost = 1.2
+		research_cost = 2
 		start_year = 2040
 		
 		category_all_infantry = {
@@ -541,7 +541,7 @@ technologies = {
 	
 	infantry_armor_upgrade = {
 	
-		research_cost = 0.6
+		research_cost = 1
 		start_year = 2027
 		
 		path = {
@@ -597,7 +597,7 @@ technologies = {
 	
 	infantry_armor_upgrade1 = {
 	
-		research_cost = 0.6
+		research_cost = 1
 		start_year = 2028
 		
 		path = {
@@ -653,7 +653,7 @@ technologies = {
 	
 	infantry_armor_upgrade2 = {
 	
-		research_cost = 0.6
+		research_cost = 1
 		start_year = 2031
 		
 		path = {
@@ -709,7 +709,7 @@ technologies = {
 	
 	infantry_armor_upgrade3 = {
 	
-		research_cost = 0.6
+		research_cost = 1
 		start_year = 2034
 		
 		path = {
@@ -765,7 +765,7 @@ technologies = {
 	
 	infantry_armor_upgrade4 = {
 	
-		research_cost = 1.2
+		research_cost = 1.5
 		start_year = 2037
 		
 		folder = {
@@ -815,7 +815,7 @@ technologies = {
 	}
 	
 	camouflage_upgrade = {
-		research_cost = 0.8
+		research_cost = 1.2
 		start_year = 2028
 			
 		path = {
@@ -874,7 +874,7 @@ technologies = {
 	}
 	
 	camouflage_upgrade1 = {
-		research_cost = 0.8
+		research_cost = 1.2
 		start_year = 2031
 		
 		path = {
@@ -932,7 +932,7 @@ technologies = {
 	}
 	
 	camouflage_upgrade2 = {
-		research_cost = 0.8
+		research_cost = 1.2
 		start_year = 2034
 		
 		path = {
@@ -990,7 +990,7 @@ technologies = {
 	}	
 	
 	camouflage_upgrade3 = {
-		research_cost = 0.8
+		research_cost = 1.2
 		start_year = 2037
 		
 		path = {
@@ -1048,7 +1048,7 @@ technologies = {
 	}
 	
 	camouflage_upgrade4 = {
-		research_cost = 1.0
+		research_cost = 1.5
 		start_year = 2041
 		
 		cas_damage_reduction = 0.03
@@ -1097,7 +1097,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 2.5
 		start_year = 2030
 		folder = {
 			name = infantry_folder
@@ -1123,7 +1123,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 2
 		start_year = 2034
 		folder = {
 			name = infantry_folder
@@ -1144,7 +1144,7 @@ technologies = {
 			special_forces_equipment_2
 		}
 		
-		research_cost = 1
+		research_cost = 2
 		start_year = 2040
 		folder = {
 			name = infantry_folder
@@ -1166,7 +1166,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.2
 		start_year = 2030
 		
 		category_special_forces = {
@@ -1194,7 +1194,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2034
 		
 		category_special_forces = {
@@ -1218,7 +1218,7 @@ technologies = {
 	
 	special_forces_training2 = {
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2040
 		
 		category_special_forces = {

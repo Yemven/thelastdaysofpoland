@@ -1,0 +1,97 @@
+division_template = {
+	name = "Korpus Ochrony Miasta"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		melee_infantry = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Gangi osiedlowe"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Rycerze Krucjaty"
+	regiments = {
+	    infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+    division = {
+		name = "Korpus Ochrony Miasta Południe"
+		location = 15330
+		division_template = "Korpus Ochrony Miasta"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "Korpus Ochrony Miasta Śródmieście"
+		location = 15328
+		division_template = "Korpus Ochrony Miasta"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		name = "Korpus Ochrony Miasta Zazamcze"
+		location = 15329
+		division_template = "Korpus Ochrony Miasta"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "2. Korpus Ochrony Miasta Śródmieście"
+		location = 15328
+		division_template = "Korpus Ochrony Miasta"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+		
+	division = {
+		name = "Korpus Ochrony Miasta Zawiśle"
+		location = 15335
+		division_template = "Korpus Ochrony Miasta"
+		start_experience_factor = 0
+		start_equipment_factor = 0.2
+	}
+	
+	division = {
+		name = "Gang Osiedla Południe"
+		location = 15330
+		division_template = "Gangi Osiedlowe"
+		start_experience_factor = 0
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "1. Brygada Krzyżowców"
+		location = 15328
+		division_template = "Rycerze Krucjaty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2. Brygada Krzyżowców"
+		location = 15331
+		division_template = "Rycerze Krucjaty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}

@@ -271,16 +271,16 @@ country_event = {
 }
 
 country_event = {
-	id = belchatow.zyd1
-	title = belchatow.zyd1.t
-	desc = belchatow.zyd1.desc
+	id = belchatow.16
+	title = belchatow.16.t
+	desc = belchatow.16.desc
 	picture = GFX_report_event_german_Army
 
 	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = {
-		name = belchatow.zyd1.a
+		name = belchatow.16.a
 		add_manpower = 1000
 		if = {
 		 limit = { has_tech = ranged_weapons2 }
@@ -333,49 +333,49 @@ country_event = {
 
 
 country_event = {
-	id = belchatow.zyd2
-	title = belchatow.zyd2.t
-	desc = belchatow.zyd2.desc
+	id = belchatow.17
+	title = belchatow.17.t
+	desc = belchatow.17.desc
 	picture = GFX_report_event_german_Army
 
 	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = {
-		name = belchatow.zyd2.a
+		name = belchatow.17.a
 		add_political_power = -50
 	}
 }
 
 country_event = {
-	id = belchatow.krs1
-	title = belchatow.krs1.t
-	desc = belchatow.krs1.desc
+	id = belchatow.18
+	title = belchatow.18.t
+	desc = belchatow.18.desc
 	picture = GFX_report_event_german_Army
 
 	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = {
-		name = belchatow.krs1.a
+		name = belchatow.18.a
 		annex_country = { 
 			target = KRS
-			transfer_troops = yes
+			transfer_troops = no
 			}
 	}
 }
 
 country_event = {
-	id = belchatow.krs2
-	title = belchatow.krs2.t
-	desc = belchatow.krs2.desc
+	id = belchatow.19
+	title = belchatow.19.t
+	desc = belchatow.19.desc
 	picture = GFX_report_event_german_Army
 
 	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = {
-		name = belchatow.krs2.a
+		name = belchatow.19.a
 		declare_war_on = {
 			target = KRS
 			type = annex_everything

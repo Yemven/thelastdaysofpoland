@@ -7,3 +7,21 @@ unification_category = {
 		always = yes
 	}
 }
+
+coring_category = {
+	icon = GFX_category_icon
+	
+	allowed = {
+		always = yes
+	}
+	on_map_area = {
+		target_array = owned_states
+		target_trigger = {
+			any_owned_state = {
+				NOT = { is_core_of = ROOT }
+			}
+		}
+		name = coring_map_category_name
+		zoom = 1000
+	}
+}

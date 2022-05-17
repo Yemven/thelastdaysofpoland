@@ -20,6 +20,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_genesis
+		icon = ZYD_genesis
 		available = {
 		
 		}
@@ -27,18 +28,20 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 14
+		x = 8
 		y = 0
 		
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
-			
+			country_event = {
+				id = zydzew.1 }
 		}
 	}
 	
 	focus = {
 		id = ZYD_exodus
+		icon = ZYD_exodus
 		relative_position_id = ZYD_genesis
 		prerequisite = { focus = ZYD_genesis }
 		available = {
@@ -54,12 +57,14 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
-			
+			country_event = {
+				id = zydzew.2 }
 		}
 	}
 	
 	focus = {
 		id = ZYD_leviticus
+		icon = ZYD_leviticus
 		relative_position_id = ZYD_exodus
 		prerequisite = { focus = ZYD_exodus }
 		available = {
@@ -75,12 +80,14 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
-			
+			country_event = {
+				id = zydzew.3 }
 		}
 	}
 	
 	focus = {
 		id = ZYD_numbers
+		icon = ZYD_numbers
 		relative_position_id = ZYD_leviticus
 		prerequisite = { focus = ZYD_leviticus }
 		available = {
@@ -96,12 +103,14 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
-			
+			country_event = {
+				id = zydzew.4 }
 		}
 	}
 	
 	focus = {
 		id = ZYD_deuteronomy
+		icon = ZYD_deuteronomy
 		relative_position_id = ZYD_numbers
 		prerequisite = { focus = ZYD_numbers }
 		available = {
@@ -117,12 +126,14 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
-			
+			country_event = {
+				id = zydzew.5 }
 		}
 	}
 	
 	focus = {
 		id = ZYD_warriors_overview
+		icon = ZYD_warriors
 		relative_position_id = ZYD_deuteronomy
 		prerequisite = { focus = ZYD_deuteronomy }
 		available = {
@@ -144,6 +155,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_eleven_felash
+		icon = ZYD_11_falashas
 		relative_position_id = ZYD_warriors_overview
 		prerequisite = { focus = ZYD_warriors_overview }
 		mutually_exclusive = { focus = ZYD_eleven_sons_of_labour }
@@ -166,6 +178,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_eleven_sons_of_labour
+		icon = ZYD_11_sons
 		relative_position_id = ZYD_warriors_overview
 		prerequisite = { focus = ZYD_warriors_overview }
 		mutually_exclusive = { focus = ZYD_eleven_felash }
@@ -188,6 +201,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_pitches_of_prayer
+		icon = ZYD_pitches_of_prayer
 		relative_position_id = ZYD_eleven_felash
 		prerequisite = { focus = ZYD_eleven_sons_of_labour }
 		prerequisite = { focus = ZYD_eleven_felash }
@@ -209,7 +223,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ZYD_incestant_brawls
+		id = ZYD_constant_brawls
+		icon = ZYD_constant_brawls
 		relative_position_id = ZYD_deuteronomy
 		prerequisite = { focus = ZYD_deuteronomy }
 		available = {
@@ -231,8 +246,9 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_mutual_destruction
-		relative_position_id = ZYD_incestant_brawls
-		prerequisite = { focus = ZYD_incestant_brawls }
+		icon = ZYD_mutual_destruction
+		relative_position_id = ZYD_constant_brawls
+		prerequisite = { focus = ZYD_constant_brawls }
 		available = {
 		
 		}
@@ -252,6 +268,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_the_decalogue_upgrade
+		icon = ZYD_improve_decalogue
 		relative_position_id = ZYD_mutual_destruction
 		prerequisite = { focus = ZYD_mutual_destruction }
 		mutually_exclusive = { focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes }
@@ -274,6 +291,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
+		icon = ZYD_decrease_autonomy
 		relative_position_id = ZYD_mutual_destruction
 		prerequisite = { focus = ZYD_mutual_destruction }
 		mutually_exclusive = { focus = ZYD_the_decalogue_upgrade }
@@ -296,6 +314,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_alcohol_rationing
+		icon = ZYD_alcohol
 		relative_position_id = ZYD_the_decalogue_upgrade
 		prerequisite = { focus = ZYD_the_decalogue_upgrade }
 		prerequisite = { focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes }
@@ -318,6 +337,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_communal_and_robbery_economy
+		icon = ZYD_robbery_economy
 		relative_position_id = ZYD_deuteronomy
 		prerequisite = { focus = ZYD_deuteronomy }
 		available = {
@@ -339,6 +359,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_wrath_of_the_losers
+		icon = ZYD_wrath_of_the_losers
 		relative_position_id = ZYD_communal_and_robbery_economy
 		prerequisite = { focus = ZYD_communal_and_robbery_economy }
 		available = {
@@ -360,6 +381,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_the_kibbutz_reform
+		icon = ZYD_the_kibbutz_reform
 		relative_position_id = ZYD_wrath_of_the_losers
 		prerequisite = { focus = ZYD_wrath_of_the_losers }
 		mutually_exclusive = { focus = ZYD_sending_widzewiaks_to_factories }
@@ -382,6 +404,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_sending_widzewiaks_to_factories
+		icon = ZYD_send_widzewiaks
 		relative_position_id = ZYD_wrath_of_the_losers
 		prerequisite = { focus = ZYD_wrath_of_the_losers }
 		mutually_exclusive = { focus = ZYD_the_kibbutz_reform }
@@ -404,6 +427,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_usury_as_an_alternative_to_robbery
+		icon = ZYD_usury_as_an_alternative_to_robbery
 		relative_position_id = ZYD_the_kibbutz_reform
 		prerequisite = { focus = ZYD_sending_widzewiaks_to_factories }
 		prerequisite = { focus = ZYD_the_kibbutz_reform }
@@ -426,6 +450,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_discuss_of_the_high_command
+		icon = ZYD_question_of_leadership
 		relative_position_id = ZYD_warriors_overview
 		prerequisite = { focus = ZYD_usury_as_an_alternative_to_robbery }
 		prerequisite = { focus = ZYD_alcohol_rationing }
@@ -449,6 +474,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_rabbis_as_commanders
+		icon = ZYD_rabbis_as_commanders
 		relative_position_id = ZYD_discuss_of_the_high_command
 		prerequisite = { focus = ZYD_discuss_of_the_high_command }
 		mutually_exclusive = { focus = ZYD_good_old_comrades }
@@ -471,6 +497,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_good_old_comrades
+		icon = ZYD_good_old_comrades
 		relative_position_id = ZYD_discuss_of_the_high_command
 		prerequisite = { focus = ZYD_discuss_of_the_high_command }
 		mutually_exclusive = { focus = ZYD_rabbis_as_commanders }
@@ -493,6 +520,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_sanctioning_the_kibbutz_cult_of_strength
+		icon = ZYD_sanctioning_the_kibbutz_cult_of_strength
 		relative_position_id = ZYD_rabbis_as_commanders
 		prerequisite = { focus = ZYD_rabbis_as_commanders }
 		available = {
@@ -514,6 +542,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_davids_army
+		icon = ZYD_davids_army
 		relative_position_id = ZYD_sanctioning_the_kibbutz_cult_of_strength
 		prerequisite = { focus = ZYD_sanctioning_the_kibbutz_cult_of_strength }
 		available = {
@@ -535,6 +564,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_recreation_of_wzw
+		icon = ZYD_recreation_of_wzw
 		relative_position_id = ZYD_good_old_comrades
 		prerequisite = { focus = ZYD_good_old_comrades }
 		available = {
@@ -550,12 +580,13 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
-			
+			create_intelligence_agency = yes
 		}
 	}
 	
 	focus = {
 		id = ZYD_restoration_of_discipline
+		icon = ZYD_restoration_of_discipline
 		relative_position_id = ZYD_recreation_of_wzw
 		prerequisite = { focus = ZYD_recreation_of_wzw }
 		available = {
@@ -577,6 +608,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_sharpening_the_old_sticks
+		icon = ZYD_sharpening_the_old_sticks
 		relative_position_id = ZYD_rabbis_as_commanders
 		prerequisite = { focus = ZYD_davids_army }
 		prerequisite = { focus = ZYD_restoration_of_discipline }
@@ -598,6 +630,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ZYD_pacyfication_of_the_lks_remnants
+		icon = ZYD_destroy_lks
 		relative_position_id = ZYD_sharpening_the_old_sticks
 		prerequisite = { focus = ZYD_sharpening_the_old_sticks }
 		available = {
@@ -618,6 +651,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ZYD_forced_converions
+		icon = ZYD_forced_converions
 		relative_position_id = ZYD_pacyfication_of_the_lks_remnants
 		prerequisite = { focus = ZYD_pacyfication_of_the_lks_remnants }
 		mutually_exclusive = { focus = ZYD_forced_labor }
@@ -640,6 +674,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_forced_labor
+		icon = ZYD_forced_labor
 		relative_position_id = ZYD_pacyfication_of_the_lks_remnants
 		prerequisite = { focus = ZYD_pacyfication_of_the_lks_remnants }
 		mutually_exclusive = { focus = ZYD_forced_converions }
@@ -662,6 +697,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_taking_the_dogs_off_the_leash
+		icon = ZYD_taking_the_dogs_off_the_leash
 		relative_position_id = ZYD_forced_converions
 		prerequisite = { focus = ZYD_forced_converions }
 		available = {
@@ -683,6 +719,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_zomo_action
+		icon = ZYD_zomo_action
 		relative_position_id = ZYD_forced_labor
 		prerequisite = { focus = ZYD_forced_labor }
 		available = {
@@ -704,6 +741,7 @@ focus_tree = {
 	
 	focus = {
 		id = ZYD_rts_is_a_power
+		icon = ZYD_rts_is_powerful
 		relative_position_id = ZYD_zomo_action
 		prerequisite = { focus = ZYD_zomo_action 
 						 focus = ZYD_taking_the_dogs_off_the_leash }

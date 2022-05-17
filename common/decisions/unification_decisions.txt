@@ -50,6 +50,7 @@ unification_category = {
 				controls_state = 396
 				controls_state = 370
 				controls_state = 379
+				controls_state = 848
 
 				#SAP
 				controls_state = 269
@@ -58,6 +59,7 @@ unification_category = {
 				controls_state = 303
 				controls_state = 288
 				controls_state = 272
+				controls_state = 850
 
 				#KRS
 				controls_state = 236
@@ -70,6 +72,7 @@ unification_category = {
 				controls_state = 283
 				controls_state = 681
 				controls_state = 305
+				controls_state = 849
 			}
 		}
 		
@@ -80,7 +83,7 @@ unification_category = {
 		cost = 0
 
 		complete_effect = {
-
+			news_event = { id = unification.1 }
 		}
 
 		ai_will_do = { factor = 1 }
@@ -171,7 +174,7 @@ unification_category = {
 		cost = 0
 
 		complete_effect = {
-
+				news_event = { id = unification.2 }
 		}
 
 		ai_will_do = { factor = 1 }
@@ -263,7 +266,7 @@ unification_category = {
 		cost = 0
 
 		complete_effect = {
-
+			news_event = { id = unification.3 }
 		}
 
 		ai_will_do = { factor = 1 }
@@ -356,6 +359,7 @@ unification_category = {
 
 		complete_effect = {
 			set_cosmetic_tag = ZHP_regional
+			news_event = { id = unification.4 }
 		}
 
 		ai_will_do = { factor = 1 }
@@ -448,6 +452,7 @@ unification_category = {
 
 		complete_effect = {
 			set_cosmetic_tag = SAP_regional
+			news_event = { id = unification.5 }
 		}
 
 		ai_will_do = { factor = 1 }
@@ -539,7 +544,329 @@ unification_category = {
 		cost = 0
 
 		complete_effect = {
+			news_event = { id = unification.6 }
+		}
 
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+#################### CRN ####################
+
+	CRN_regional_unification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			custom_trigger_tooltip = {
+    			tooltip = controls_lublin_voivodeship
+				controls_state = 363
+				controls_state = 665
+				controls_state = 664
+				controls_state = 365
+				controls_state = 330
+				controls_state = 347
+				controls_state = 326
+				controls_state = 660
+				controls_state = 310
+				controls_state = 659
+				controls_state = 278
+				controls_state = 391
+				controls_state = 667
+				controls_state = 350
+				controls_state = 406
+				controls_state = 662
+				controls_state = 661
+				controls_state = 663
+				controls_state = 364
+				controls_state = 658
+				controls_state = 355
+				controls_state = 669
+				controls_state = 354
+				controls_state = 349
+				controls_state = 384
+				controls_state = 382
+				controls_state = 393
+				controls_state = 411
+				controls_state = 668
+				controls_state = 413
+				controls_state = 424
+				controls_state = 403
+				controls_state = 426
+				controls_state = 277
+				controls_state = 241
+				controls_state = 290
+				controls_state = 306
+				controls_state = 322
+				controls_state = 304
+			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = CRN }		
+
+		cost = 0
+
+		complete_effect = {
+			news_event = { id = unification.7 }
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################### PUL ####################
+
+	PUL_regional_unification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			custom_trigger_tooltip = {
+    			tooltip = controls_lublin_voivodeship
+				controls_state = 363
+				controls_state = 665
+				controls_state = 664
+				controls_state = 365
+				controls_state = 330
+				controls_state = 347
+				controls_state = 326
+				controls_state = 660
+				controls_state = 310
+				controls_state = 659
+				controls_state = 278
+				controls_state = 391
+				controls_state = 667
+				controls_state = 350
+				controls_state = 406
+				controls_state = 662
+				controls_state = 661
+				controls_state = 663
+				controls_state = 364
+				controls_state = 658
+				controls_state = 355
+				controls_state = 669
+				controls_state = 354
+				controls_state = 349
+				controls_state = 384
+				controls_state = 382
+				controls_state = 393
+				controls_state = 411
+				controls_state = 668
+				controls_state = 413
+				controls_state = 424
+				controls_state = 403
+				controls_state = 426
+				controls_state = 277
+				controls_state = 241
+				controls_state = 290
+				controls_state = 306
+				controls_state = 322
+				controls_state = 304
+			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = PUL }		
+
+		cost = 0
+
+		complete_effect = {
+			news_event = { id = unification.8 }
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################### KSN ####################
+
+	KSN_regional_unification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			custom_trigger_tooltip = {
+    			tooltip = controls_lublin_voivodeship
+				controls_state = 363
+				controls_state = 665
+				controls_state = 664
+				controls_state = 365
+				controls_state = 330
+				controls_state = 347
+				controls_state = 326
+				controls_state = 660
+				controls_state = 310
+				controls_state = 659
+				controls_state = 278
+				controls_state = 391
+				controls_state = 667
+				controls_state = 350
+				controls_state = 406
+				controls_state = 662
+				controls_state = 661
+				controls_state = 663
+				controls_state = 364
+				controls_state = 658
+				controls_state = 355
+				controls_state = 669
+				controls_state = 354
+				controls_state = 349
+				controls_state = 384
+				controls_state = 382
+				controls_state = 393
+				controls_state = 411
+				controls_state = 668
+				controls_state = 413
+				controls_state = 424
+				controls_state = 403
+				controls_state = 426
+				controls_state = 277
+				controls_state = 241
+				controls_state = 290
+				controls_state = 306
+				controls_state = 322
+				controls_state = 304
+			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = KSN }		
+
+		cost = 0
+
+		complete_effect = {
+			news_event = { id = unification.9 }
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################### SWD ####################
+
+	SWD_regional_unification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			custom_trigger_tooltip = {
+    			tooltip = controls_lublin_voivodeship
+				controls_state = 363
+				controls_state = 665
+				controls_state = 664
+				controls_state = 365
+				controls_state = 330
+				controls_state = 347
+				controls_state = 326
+				controls_state = 660
+				controls_state = 310
+				controls_state = 659
+				controls_state = 278
+				controls_state = 391
+				controls_state = 667
+				controls_state = 350
+				controls_state = 406
+				controls_state = 662
+				controls_state = 661
+				controls_state = 663
+				controls_state = 364
+				controls_state = 658
+				controls_state = 355
+				controls_state = 669
+				controls_state = 354
+				controls_state = 349
+				controls_state = 384
+				controls_state = 382
+				controls_state = 393
+				controls_state = 411
+				controls_state = 668
+				controls_state = 413
+				controls_state = 424
+				controls_state = 403
+				controls_state = 426
+				controls_state = 277
+				controls_state = 241
+				controls_state = 290
+				controls_state = 306
+				controls_state = 322
+				controls_state = 304
+			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = SWD }		
+
+		cost = 0
+
+		complete_effect = {
+			news_event = { id = unification.10 }
 		}
 
 		ai_will_do = { factor = 1 }
@@ -623,6 +950,163 @@ unification_category = {
 
 			custom_effect_tooltip = ZUK_moves_capital_to_lublin
 			set_cosmetic_tag = ZUK_regional
+			news_event = { id = unification.11 }
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+#################### BIL ####################
+
+	BIL_regional_unification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			custom_trigger_tooltip = {
+    			tooltip = controls_lublin_voivodeship
+				controls_state = 363
+				controls_state = 665
+				controls_state = 664
+				controls_state = 365
+				controls_state = 330
+				controls_state = 347
+				controls_state = 326
+				controls_state = 660
+				controls_state = 310
+				controls_state = 659
+				controls_state = 278
+				controls_state = 391
+				controls_state = 667
+				controls_state = 350
+				controls_state = 406
+				controls_state = 662
+				controls_state = 661
+				controls_state = 663
+				controls_state = 364
+				controls_state = 658
+				controls_state = 355
+				controls_state = 669
+				controls_state = 354
+				controls_state = 349
+				controls_state = 384
+				controls_state = 382
+				controls_state = 393
+				controls_state = 411
+				controls_state = 668
+				controls_state = 413
+				controls_state = 424
+				controls_state = 403
+				controls_state = 426
+				controls_state = 277
+				controls_state = 241
+				controls_state = 290
+				controls_state = 306
+				controls_state = 322
+				controls_state = 304
+			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = BIL }		
+
+		cost = 0
+
+		complete_effect = {
+			news_event = { id = unification.12 }
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################### BPD ####################
+
+	BPD_regional_unification = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			custom_trigger_tooltip = {
+    			tooltip = controls_lublin_voivodeship
+				controls_state = 363
+				controls_state = 665
+				controls_state = 664
+				controls_state = 365
+				controls_state = 330
+				controls_state = 347
+				controls_state = 326
+				controls_state = 660
+				controls_state = 310
+				controls_state = 659
+				controls_state = 278
+				controls_state = 391
+				controls_state = 667
+				controls_state = 350
+				controls_state = 406
+				controls_state = 662
+				controls_state = 661
+				controls_state = 663
+				controls_state = 364
+				controls_state = 658
+				controls_state = 355
+				controls_state = 669
+				controls_state = 354
+				controls_state = 349
+				controls_state = 384
+				controls_state = 382
+				controls_state = 393
+				controls_state = 411
+				controls_state = 668
+				controls_state = 413
+				controls_state = 424
+				controls_state = 403
+				controls_state = 426
+				controls_state = 277
+				controls_state = 241
+				controls_state = 290
+				controls_state = 306
+				controls_state = 322
+				controls_state = 304
+			}
+		}
+		
+		fire_only_once = yes
+
+		visible = { tag = BPD }		
+
+		cost = 0
+
+		complete_effect = {
+			news_event = { id = unification.13 }
 		}
 
 		ai_will_do = { factor = 1 }

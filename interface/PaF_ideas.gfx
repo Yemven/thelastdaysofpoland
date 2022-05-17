@@ -1,5 +1,33 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_idea_taxes_none"
+		texturefile = "gfx/interface/ideas/taxes_0.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taxes_minimal"
+		texturefile = "gfx/interface/ideas/taxes_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taxes_low"
+		texturefile = "gfx/interface/ideas/taxes_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taxes_medium"
+		texturefile = "gfx/interface/ideas/taxes_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taxes_high"
+		texturefile = "gfx/interface/ideas/taxes_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taxes_inhuman"
+		texturefile = "gfx/interface/ideas/taxes_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_drugs_illegal_unenforced"
+		texturefile = "gfx/interface/ideas/drugs_3.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_drugs_all_penalised"
 		texturefile = "gfx/interface/ideas/drugs_1.dds"
 	}
@@ -190,5 +218,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_BBW_smog"
 		texturefile = "gfx/interface/ideas/BBW/BBW_smog.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_mobile_ark"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_mobile_ark.dds"
 	}
 }

@@ -634,7 +634,7 @@ technologies = {
 		naval_invasion_capacity = 10
 		
 		path = {
-			leads_to_tech = landing_craft 
+			leads_to_tech = mtg_landing_craft 
 			research_cost_coeff = 1
 		}
 		
@@ -656,14 +656,14 @@ technologies = {
 		}
 	}
 	
-	landing_craft = {
+	mtg_landing_craft = {
 
 		invasion_preparation = -0.5
 		amphibious_invasion_defence = 0.15
 		naval_invasion_capacity = 40
 
 		path = {
-			leads_to_tech = tank_landing_craft 
+			leads_to_tech = mtg_tank_landing_craft 
 			research_cost_coeff = 1
 		}
 
@@ -692,7 +692,7 @@ technologies = {
 		}
 	}
 	
-	tank_landing_craft = {
+	mtg_tank_landing_craft = {
 
 		amphibious_invasion = 0.25
 		amphibious_invasion_defence = 0.5

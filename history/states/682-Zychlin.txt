@@ -1,19 +1,30 @@
+
 state={
 	id=682
 	name="STATE_682"
-	provinces={
-		936 1539 1651 7451 10540 10541 10542 10543 10544
-	}
-	manpower = 14793   state_category = town
-	buildings_max_level_factor=1.000
-	
-	history = {
+
+	history={
 		owner = SAP
-		victory_points = { 7451 5 }
-		victory_points = { 1539 1 }
+		victory_points = {
+			7451 5 
+		}
+		victory_points = {
+			1539 1 
+		}
 		add_core_of = SAP
-	buildings = {
-	infrastructure = 5
-	industrial_complex = 1 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+
+		}
+
 	}
+
+	provinces={
+		936 1539 7451 10541 10542 10543 10544 
+	}
+	manpower=14793
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

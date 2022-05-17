@@ -3,16 +3,17 @@ state={
 	id=115
 	name="STATE_115"
 	provinces={
-		1295 1663 3343 
+		1295 1663 3343 15685 15686 15687 15688 15689 15690 15691 15692 15693 15694 15695 15696
 	}
 	manpower = 90467   state_category = city
 	buildings_max_level_factor=1.000
 	
 						history={
 		owner = GRU
-		victory_points = { 3343 30
-
-		}
+		victory_points = {3343 30}
+		victory_points = {15687 5}
+		victory_points = {15686 5}
+		victory_points = {15685 5}
 		buildings = {
 			infrastructure = 7
 

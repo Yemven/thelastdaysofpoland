@@ -2,12 +2,12 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "zona_window"
-		position = { x = 0 y = 0}	
+		position = { x = -555 y = -90}	
 		size = { width = 800 height= 650 }
 		orientation = center
 		origo = center
 		fade_time = 100
-		moveable = yes
+		moveable = no
 		fade_type = linear
 		click_to_front = no
 		clipping = no
