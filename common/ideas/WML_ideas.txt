@@ -1,3 +1,43 @@
 ideas = {
-	
+		country = {
+		baluty_radiation =	{
+			original_tag = WML
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				monthly_population = -0.1
+			
+			}
+		}
+		sphere_of_dialogue =	{
+			original_tag = WML
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				recruitable_population_factor = -0.01
+				stability_factor = 0.15
+			}
+		}
+		den_of_decadence =	{
+			original_tag = WML
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = 0.20
+			}
+		}
+	}
 }
+	

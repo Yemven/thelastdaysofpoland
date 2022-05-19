@@ -467,10 +467,12 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			add_building_construction = {
-    			type = infrastructure
-    			level = 1
-    			instant_build = yes
+			603 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -492,10 +494,12 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			add_building_construction = {
-    			type = arms_factory
-    			level = 2
-    			instant_build = yes
+			603 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
 			}
 		}
 	}
@@ -517,10 +521,12 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			add_building_construction = {
-    			type = infrastructure
-    			level = 1
-    			instant_build = yes
+			603 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -542,10 +548,12 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			add_building_construction = {
-    			type = industrial_complex
-    			level = 3
-    			instant_build = yes
+			603 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -567,10 +575,12 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			add_building_construction = {
-    			type = synthetic_refinery
-    			level = 2
-    			instant_build = yes
+			603 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -600,7 +610,7 @@ focus_tree = {
 		id = NYS_objective_survive
 		icon = NYS_objective_survive
 		available = {
-		
+			has_war = yes
 		}
 		
 		bypass = {
@@ -619,7 +629,7 @@ focus_tree = {
 		id = NYS_civil_defence
 		icon = NYS_civil_defence
 		relative_position_id = NYS_objective_survive
-		prerequisite = { focus = NYS_objective_survive}
+		prerequisite = { focus = NYS_objective_survive }
 		available = {
 		
 		}
@@ -824,7 +834,14 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			603 = {
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes
+					province = 9282
+				}
+			}
 		}
 	}
 	focus = {
@@ -845,7 +862,14 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			603 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 9285
+				}
+			}
 		}
 	}
 	focus = {
@@ -866,7 +890,14 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			603 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 9290
+				}
+			}
 		}
 	}
 	focus = {
@@ -887,7 +918,14 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			603 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 9281
+				}
+			}
 		}
 	}
 	focus = {
@@ -908,7 +946,14 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			603 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 9283
+				}
+			}
 		}
 	}
 	}

@@ -28,11 +28,11 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.001
+				conscription = 0.002
 				industrial_capacity_factory = 0.05
 				stability_factor = 0.15
 				production_speed_buildings_factor = 0.10
-				monthly_population = 0.05
+				monthly_population = 0.10
 			}
 			cancel_if_invalid = no
 		}
@@ -213,7 +213,6 @@ ideas = {
 					factor = 0.5
 					manpower_per_military_factory >  1000
 				}
-
 			}
 			
 			cost = 200

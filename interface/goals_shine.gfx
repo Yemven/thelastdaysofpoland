@@ -1,6 +1,6 @@
 spriteTypes = {
 	SpriteType = {
-		name = "NYS_new_conscription_methods"
+		name = "NYS_new_conscription_methods_shine"
 		texturefile = "gfx/interface/goals/NYS_new_conscription_methods.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -30,9 +30,9 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-spriteTypes = {
+
 	SpriteType = {
-		name = "NYS_putting_puzzle_together"
+		name = "NYS_putting_puzzle_together_shine"
 		texturefile = "gfx/interface/goals/NYS_putting_puzzle_together.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -62,9 +62,9 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}	
-spriteTypes = {
+
 	SpriteType = {
-		name = "NYS_power_consolidation"
+		name = "NYS_power_consolidation_shine"
 		texturefile = "gfx/interface/goals/NYS_power_consolidation.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -94,7 +94,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-spriteTypes = {
+
 	SpriteType = {
 		name = "NYS_arrest_warrants_shine"
 		texturefile = "gfx/interface/goals/NYS_arrest_warrants.dds"
@@ -156,7 +156,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		legacy_lazy_load = no
-	}	SpriteType = {
+	}	
+	SpriteType = {
 		name = "NYS_civil_defense_shine"
 		texturefile = "gfx/interface/goals/NYS_civil_defense.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -186,7 +187,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		legacy_lazy_load = no
-	}	SpriteType = {
+	}	
+	SpriteType = {
 		name = "NYS_festung_neisse_shine"
 		texturefile = "gfx/interface/goals/NYS_festung_neisse.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -216,7 +218,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		legacy_lazy_load = no
-	}	SpriteType = {
+	}	
+	SpriteType = {
 		name = "NYS_find_skilled_educators_shine"
 		texturefile = "gfx/interface/goals/NYS_find_skilled_educators.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -246,7 +249,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		legacy_lazy_load = no
-	}	SpriteType = {
+	}	
+	SpriteType = {
 		name = "NYS_first_steps_shine"
 		texturefile = "gfx/interface/goals/NYS_first_steps.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -5001,4 +5005,4 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	}
+}
