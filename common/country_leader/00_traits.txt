@@ -2601,10 +2601,6 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				not = { has_completed_focus = USA_suspend_the_presecution }
-				factor = 0
-			}
 		}
 	}
 	
@@ -2627,10 +2623,6 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = { 
-				not = { has_completed_focus = USA_america_first }
-				factor = 0
-			}
 		}
 	}
 	staunch_monarchist = {
@@ -2641,11 +2633,6 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = HUN
-				not = { has_completed_focus = HUN_invite_the_habsburg_prince }
-				factor = 0
-			}
 		}
 	}
 	
@@ -4323,9 +4310,6 @@ leader_traits = {
 			capital_ship = {
 				build_cost_ic = -0.05
 			}
-			carrier = {
-				build_cost_ic = -0.05
-			}
 		}
 		
 		ai_will_do = {
@@ -4343,9 +4327,6 @@ leader_traits = {
 			submarine = {
 				build_cost_ic = -0.15 sub_visibility = -0.1 naval_range = -0.25
 			}
-			carrier = {
-				build_cost_ic = 0.15 naval_range = -0.25
-			}
 		}
 		
 		ai_will_do = {
@@ -4356,9 +4337,7 @@ leader_traits = {
 	pacific_fleet_naval_manufacturer = { #longer ranged, CVs favor larger hangers over armor
 		random = no
 		equipment_bonus = {
-			carrier = {
-				carrier_size = 0.25 armor_value = -0.15 naval_range = 0.25
-			}
+			
 			capital_ship = {
 				naval_range = 0.25
 			}
@@ -4378,10 +4357,7 @@ leader_traits = {
 	atlantic_fleet_naval_manufacturer = { #armored carriers, slightly buffed cap ships
 		random = no
 		equipment_bonus = {
-			carrier = {
-				armor_value = 0.5 
-				max_strength = 0.1
-			}
+			
 			capital_ship = {
 				armor_value = 0.1 
 				hg_attack = 0.1
@@ -4420,9 +4396,7 @@ leader_traits = {
 	raiding_fleet_naval_manufacturer = {
 		random = no
 		equipment_bonus = {
-			carrier = {
-				surface_visibility = -0.1 naval_speed = 0.1 carrier_size = -0.1
-			}
+			
 			capital_ship = {
 				surface_visibility = -0.1 naval_speed = 0.1 hg_attack = -0.1
 			}
@@ -4471,9 +4445,7 @@ leader_traits = {
 	coastal_defence_naval_manufacturer = {
 		random = no
 		equipment_bonus = {
-			carrier = {
-				build_cost_ic = -0.25 carrier_size = -0.2 naval_range = -0.5
-			}
+			
 			capital_ship = {
 				build_cost_ic = -0.25 armor_value = -0.2 hg_attack = -0.2 naval_range = -0.5
 			}
