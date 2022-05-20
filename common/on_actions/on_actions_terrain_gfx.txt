@@ -1274,6 +1274,12 @@ on_actions = {
 					static_modifiers = { Zdzieszowice}
 					province = { id = 528 }
 				}
+}
+			600 = {
+				add_province_modifier = {
+					static_modifiers = { Florynka}
+					province = { id = 10930 }
+				}
 			}
 			525 = {
 				add_province_modifier = {
@@ -1477,6 +1483,12 @@ on_actions = {
 				add_province_modifier = {
 					static_modifiers = { Myszkow}
 					province = { id = 8729 }
+				}
+}
+			600 = {
+				add_province_modifier = {
+					static_modifiers = { Florynka}
+					province = { id = 10930 }
 				}
 			}
 			740 = {
