@@ -6445,11 +6445,11 @@ leader_traits = {
 		command_cap = @tier3
 		
 		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0
-				has_navy_size = { unit = carrier size < 1 }
-			}
+			#factor = 3
+			#modifier = {
+				#factor = 0
+				#has_navy_size = { unit = carrier size < 1 }
+			#}
 		}
 	}
 
