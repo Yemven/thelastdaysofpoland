@@ -1,7 +1,9 @@
 ideas = {
 		country = {
 		baluty_radiation =	{
-			original_tag = WML
+			allowed = {
+				original_tag = WML
+			}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -14,7 +16,9 @@ ideas = {
 			}
 		}
 		sphere_of_dialogue =	{
-			original_tag = WML
+			allowed = {
+				original_tag = WML
+			}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -27,7 +31,9 @@ ideas = {
 			}
 		}
 		den_of_decadence =	{
-			original_tag = WML
+			allowed = {
+				original_tag = WML
+			}
 			allowed_civil_war = {
 				always = yes
 			}

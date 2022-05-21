@@ -1,8 +1,11 @@
 ideas = {
 
 	country = {
-		FEL_golden_liberty =	{
-			original_tag = FEL
+		FEL_golden_liberty = {
+			allowed = {
+				original_tag = FEL
+			}
+			
 			allowed_civil_war = {
 				always = yes
 			}
@@ -19,7 +22,9 @@ ideas = {
 		}
 
 		FEL_popuszczac_czy_nie_popuszczac = {
-			original_tag = FEL
+			allowed = {
+				original_tag = FEL
+			}
 			allowed = {
 				always = no
 			}

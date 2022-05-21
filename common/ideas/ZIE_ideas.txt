@@ -1,8 +1,10 @@
 ideas = {
 	
 	country = {
-		ZIE_looming_famine =	{
-			original_tag = ZIE
+		ZIE_looming_famine = {
+			allowed = {
+				original_tag = ZIE
+			}
 		allowed = {
 				always = yes
 			}
@@ -21,7 +23,9 @@ ideas = {
 		}
 	
 		ZIE_looming_famine_2 = {
-			original_tag = ZIE
+			allowed = {
+				original_tag = ZIE
+			}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -37,7 +41,9 @@ ideas = {
 		}
 
 		ZIE_looming_famine_3 = {
-			original_tag = ZIE
+			allowed = {
+				original_tag = ZIE
+			}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -53,7 +59,9 @@ ideas = {
 		}
 		
 		ZIE_looming_famine_4 = {
-			original_tag = ZIE
+			allowed = {
+				original_tag = ZIE
+			}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -69,10 +77,12 @@ ideas = {
 		}
 
 		ZIE_looming_famine_5 =	{
-			original_tag = ZIE
-		allowed = {
-				always = yes
+			allowed = {
+				original_tag = ZIE
 			}
+			#allowed = {
+				#always = yes
+			#}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -88,10 +98,12 @@ ideas = {
 		}
 
 		ZIE_looming_famine_6 =	{
-			original_tag = ZIE
-		allowed = {
-				always = yes
+			allowed = {
+				original_tag = ZIE
 			}
+			#allowed = {
+				#always = yes
+			#}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -108,10 +120,12 @@ ideas = {
 		}
 
 		ZIE_famine_averted_1 =	{
-			original_tag = ZIE
-		allowed = {
-				always = yes
+			allowed = {
+				original_tag = ZIE
 			}
+			#allowed = {
+				#always = yes
+			#}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -126,10 +140,12 @@ ideas = {
 		}
 
 		ZIE_famine_averted_2 =	{
-			original_tag = ZIE
-		allowed = {
-				always = yes
+			allowed = {
+				original_tag = ZIE
 			}
+			#allowed = {
+				#always = yes
+			#}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -142,10 +158,12 @@ ideas = {
 		}
 
 		ZIE_the_people_of_the_forest = {
-			original_tag = ZIE
-		allowed = {
-				always = yes
+			allowed = {
+				original_tag = ZIE
 			}
+			#allowed = {
+				#always = yes
+			#}
 			allowed_civil_war = {
 				always = no
 			}
@@ -156,10 +174,12 @@ ideas = {
 			}
 
 		ZIE_he_that_is_without_sin = {
-			original_tag = ZIE
-		allowed = {
-				always = yes
+			allowed = {
+				original_tag = ZIE
 			}
+			#allowed = {
+				#always = yes
+			#}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -170,10 +190,12 @@ ideas = {
 			}
 
 		ZIE_the_green_struggle = {
-			original_tag = ZIE
-		allowed = {
-				always = yes
+			allowed = {
+				original_tag = ZIE
 			}
+			#allowed = {
+				#always = yes
+			#}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -183,10 +205,12 @@ ideas = {
 			modifier = {war_support_factor = 0.05}
 		}
 		ZIE_the_green_struggle_2 = {
-			original_tag = ZIE
-		allowed = {
-				always = yes
+			allowed = {
+				original_tag = ZIE
 			}
+			#allowed = {
+				#always = yes
+			#}
 			allowed_civil_war = {
 				always = yes
 			}

@@ -1,7 +1,9 @@
 ideas = {
 	country = {
-		ZYD_mobile_ark =	{
-			original_tag = ZYD
+		ZYD_mobile_ark = {
+			allowed = {
+				original_tag = ZYD
+			}
 			allowed_civil_war = {
 				always = yes
 			}

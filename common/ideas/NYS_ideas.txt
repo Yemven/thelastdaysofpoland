@@ -1,7 +1,9 @@
 ideas = {
     country = {
 		NYS_southern_bastion =	{
-			original_tag = NYS
+			allowed = {
+				original_tag = NYS
+			}
 			allowed_civil_war = {
 				always = yes
 			}

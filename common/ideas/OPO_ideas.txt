@@ -1,7 +1,9 @@
 ideas = {
     country = {
 		OPO_great_opole_war =	{
-			original_tag = OPO
+			allowed = {
+				original_tag = OPO
+			}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -16,7 +18,9 @@ ideas = {
 		}
 		
 		OPO_pre_opole_war_conscription =	{
-			original_tag = OPO
+			allowed = {
+				original_tag = OPO
+			}
 			allowed_civil_war = {
 				always = yes
 			}
