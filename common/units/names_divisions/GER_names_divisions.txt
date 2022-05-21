@@ -547,7 +547,7 @@ GER_MOT_02 =
 
 	for_countries = { GER }
 
-	can_use = { has_government = fascism }
+	can_use = { always = no }
 
 	division_types = { "motorized"  }
 
@@ -950,7 +950,7 @@ GER_SS_01 =
 	for_countries = { GER }
 
 	can_use = { 
-		has_government = fascism
+		always = no
 	}
 
 	division_types = { "infantry" "motorized" "medium_armor" "mechanized" }
