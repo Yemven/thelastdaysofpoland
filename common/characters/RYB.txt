@@ -25,4 +25,164 @@ characters={
 			id=-1
 		}
 	}
+	
+	RYB_kuba_gałecki={
+		name="Kuba Gałecki"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononReactionary.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = RYB
+			}
+			traits = {  }
+		}
+	}
+	
+	RYB_władek={
+		name="Władek"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononReactionary.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = RYB
+			}
+			traits = {  }
+		}
+	}
+	
+	RYB_bogdan={
+		name="Kuba Gałecki"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononReactionary.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = RYB
+			}
+			traits = {  }
+		}
+	}
+	
+	RYB_mirek={
+		name="Mirek"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononReactionary.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = RYB
+			}
+			traits = {  }
+		}
+	}
+	
+	RYB_czang_karp_shek={
+		name="Czang Karp-Szek"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/RYB/RYB_czang_karp_szek.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = RYB
+			}
+			traits = {  }
+		}
+	}
+	
+	RYB_pol_plotka={
+		name="Pol Płotka"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/RYB/RYB_pol_potka.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = RYB
+			}
+			traits = {  }
+		}
+	}
+	
+	RYB_ho_chi_mintaj={
+		name="Ho Chi Minh-Taj"
+		portraits={
+			civilian={
+				large="gfx/leaders/KON/KON_KononReactionary.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = RYB
+			}
+			traits = {  }
+		}
+	}
+	
+	RYB_mao_tse_pstrąg={
+		name="Mao Tse-Pstrąg"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/RYB/RYB_mao_tse_pstrag.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = RYB
+			}
+			traits = {  }
+		}
+	}
 }
