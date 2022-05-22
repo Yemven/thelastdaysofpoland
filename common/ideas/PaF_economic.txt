@@ -104,6 +104,7 @@ ideas = {
 			industrial_capacity_factory = 0.10
 			industrial_capacity_dockyard = 0.10
 			stability_factor = -0.25
+			ai_focus_war_production_factor = 0.25
 			}
 			cancel_if_invalid = no 
 			}
@@ -255,6 +256,28 @@ ideas = {
 			production_speed_arms_factory_factor = -0.35
 			production_speed_dockyard_factor = -0.35
 			stability_factor = 0.10
+			}
+			cancel_if_invalid = no 
+			}
+		
+		economy_monopolism = {
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = 
+			{
+			consumer_goods_factor = 0.15
+			production_speed_industrial_complex_factor = -0.25
+			production_speed_arms_factory_factor = -0.25
+			production_speed_dockyard_factor = -0.25
+			stability_factor = 0.25
+			war_support_factor = -0.35
+			research_speed_factor = -0.15
+			drift_defence_factor = 0.15
+			surrender_limit = 0.15
+			conversion_cost_civ_to_mil_factor = 0.50
+			conversion_cost_mil_to_civ_factor = 0.50
+			min_export = -0.20
 			}
 			cancel_if_invalid = no 
 			}

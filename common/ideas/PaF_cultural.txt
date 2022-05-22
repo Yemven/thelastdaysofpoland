@@ -142,7 +142,7 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{
-			recruitable_population_factor = -0.15
+			conscription_factor = -0.15
 			industrial_capacity_factory = -0.10
 			consumer_goods_factor = -0.07
 			army_org_factor = 0.10
@@ -156,7 +156,7 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{
-			recruitable_population_factor = -0.10
+			conscription_factor = -0.10
 			industrial_capacity_factory = -0.10
 			consumer_goods_factor = -0.05
 			army_org_factor = 0.05
@@ -170,7 +170,7 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{
-			recruitable_population_factor = -0.10
+			conscription_factor = -0.10
 			industrial_capacity_factory = -0.05
 			consumer_goods_factor = -0.025
 			army_org_factor = 0.025
@@ -185,7 +185,7 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{
-			recruitable_population_factor = 0.10
+			conscription_factor = 0.10
 			}
 			cancel_if_invalid = no 
 		}
@@ -196,7 +196,7 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{
-			recruitable_population_factor = 0.20
+			conscription_factor = 0.20
 			consumer_goods_factor = 0.05
 			army_org_factor = -0.05
 			}
@@ -214,7 +214,7 @@ ideas = {
 			modifier = 
 			{  
 			army_org_factor = 0.15
-			recruitable_population_factor = -0.20
+			conscription_factor = -0.20
 			army_core_attack_factor = 0.10
 			army_core_defence_factor = 0.10
 			non_core_manpower = -0.95
@@ -229,7 +229,7 @@ ideas = {
 			modifier = 
 			{
 			army_org_factor = 0.10
-			recruitable_population_factor = -0.15
+			conscription_factor = -0.15
 			army_core_attack_factor = 0.10
 			army_core_defence_factor = 0.10
 			non_core_manpower = -0.85
@@ -244,7 +244,7 @@ ideas = {
 			modifier = 
 			{ 
 			army_org_factor = 0.05
-			recruitable_population_factor = -0.10
+			conscription_factor = -0.10
 			army_core_attack_factor = 0.05
 			army_core_defence_factor = 0.05
 			non_core_manpower = -0.50
@@ -272,12 +272,175 @@ ideas = {
 			modifier = 
 			{
 			army_org_factor = -0.10
-			recruitable_population_factor = 0.10
+			conscription_factor = 0.10
 			non_core_manpower = 0.15
 			}
 			cancel_if_invalid = no 	
 		}
 	}
+	
+	religion_status = {
+		law = yes
+		
+		one_state_one_religion = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = 
+			{
+			political_power_gain = 0.25
+			research_speed_factor = -0.125
+			stability_factor = 0.20
+			war_support_factor = 0.20
+			monthly_population = 0.35
+			production_factory_max_efficiency_factor = -0.10
+			production_factory_efficiency_gain_factor = -0.15
+			consumer_goods_factor = -0.10
+			army_core_attack_factor = 0.10
+			army_core_defence_factor = 0.10
+			army_morale_factor = 0.15
+			conscription_factor = 0.20
+			}
+			cancel_if_invalid = no 	
+		}
+		
+		state_religion = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = 
+			{
+			political_power_gain = 0.10
+			research_speed_factor = -0.05
+			stability_factor = 0.125
+			war_support_factor = 0.125
+			monthly_population = 0.20
+			production_factory_max_efficiency_factor = -0.05
+			production_factory_efficiency_gain_factor = -0.075
+			consumer_goods_factor = -0.05
+			army_core_attack_factor = 0.05
+			army_core_defence_factor = 0.05
+			army_morale_factor = 0.10
+			conscription_factor = 0.10
+			}
+			cancel_if_invalid = no 	
+		}
+		
+		one_religion_favoured = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = 
+			{
+			political_power_gain = 0.05
+			research_speed_factor = -0.025
+			stability_factor = 0.05
+			war_support_factor = 0.05
+			monthly_population = 0.10
+			production_factory_efficiency_gain_factor = -0.025
+			consumer_goods_factor = -0.025
+			army_core_attack_factor = 0.025
+			army_core_defence_factor = 0.025
+			army_morale_factor = 0.05
+			conscription_factor = 0.05
+			}
+			cancel_if_invalid = no 	
+		}
+		
+		partial_secularism = { 
+			available = { always = no }
+			default = yes
+			removal_cost = -1
+			ledger = civilian
+			modifier = 
+			{
+			political_power_gain = -0.05
+			stability_factor = 0.025
+			monthly_population = 0.05
+			army_morale_factor = 0.025
+			conscription_factor = 0.025
+			}
+			cancel_if_invalid = no 	
+		}
+		
+		full_secularism = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = 
+			{
+			political_power_gain = -0.10
+			research_speed_factor = 0.025
+			stability_factor = -0.05
+			war_support_factor = -0.05
+			consumer_goods_factor = 0.025
+			production_factory_max_efficiency_factor = 0.02
+			production_factory_efficiency_gain_factor = 0.02
+			army_org_factor = 0.025
+			}
+			cancel_if_invalid = no 	
+		}
+		
+		atheism_encouraged = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = 
+			{
+			political_power_gain = -0.15
+			research_speed_factor = 0.05
+			stability_factor = -0.10
+			war_support_factor = -0.10
+			monthly_population = -0.05
+			production_factory_max_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.05
+			consumer_goods_factor = 0.05
+			army_org_factor = 0.05
+			}
+			cancel_if_invalid = no 	
+		}
+		
+		state_atheism = { 
+			available = { always = no }
+			#removal_cost = -1
+			ledger = civilian
+			modifier = 
+			{
+			political_power_gain = -0.20
+			research_speed_factor = 0.10
+			stability_factor = -0.20
+			war_support_factor = -0.20
+			monthly_population = -0.15
+			production_factory_max_efficiency_factor = 0.075
+			production_factory_efficiency_gain_factor = 0.075
+			consumer_goods_factor = 0.075
+			army_org_factor = 0.10
+			}
+			cancel_if_invalid = no 	
+		}
+		
+		no_lords_no_gods = { 
+			available = { always = no }
+			#removal_cost = -1
+			ledger = civilian
+			modifier = 
+			{
+			political_power_gain = -0.35
+			research_speed_factor = 0.125
+			stability_factor = -0.25
+			war_support_factor = -0.30
+			monthly_population = -0.25
+			production_factory_max_efficiency_factor = 0.10
+			production_factory_efficiency_gain_factor = 0.125
+			consumer_goods_factor = 0.10
+			army_org_factor = 0.15
+			army_morale_factor = -0.10
+			conscription_factor = -0.05
+			}
+			cancel_if_invalid = no 	
+		}
+		
+		}
 }
 
 

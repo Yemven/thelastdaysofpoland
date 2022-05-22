@@ -486,6 +486,7 @@ ideas = {
 				out_of_supply_factor = 0.10
 				supply_consumption_factor = 0.10
 				attrition = 0.05
+				conscription_factor = 0.05
 			}
 			cancel_if_invalid = no 
 		}
@@ -528,7 +529,7 @@ ideas = {
 				experience_gain_army_factor = -0.20
 				land_doctrine_cost_factor = 0.25
 				army_leader_cost_factor = -0.25
-				recruitable_population_factor = 0.05
+				conscription_factor = 0.10
 				experience_loss_factor = 0.10
 			}
 			cancel_if_invalid = no 
@@ -546,6 +547,7 @@ ideas = {
 				army_leader_cost_factor = -0.15
 				experience_loss_factor = 0.15
 				political_power_gain = 0.10
+				conscription_factor = 0.05
 			}
 			cancel_if_invalid = no 
 		}
@@ -567,7 +569,7 @@ ideas = {
 				army_leader_start_defense_level = 1
 				army_leader_start_logistics_level = 1
 				army_leader_start_planning_level = 1
-				recruitable_population_factor = 0.03
+				conscription_factor = 0.05
 			}
 			cancel_if_invalid = no 
 		}
