@@ -16,5 +16,41 @@ ideas = {
 				land_reinforce_rate = 0.05
 			}
 		}
+		ZYD_uncomplete_collectivization = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				industrial_capacity_factory = -0.1
+				production_speed_infrastructure_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+				
+			}
+		}
+		ZYD_minority_rule = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				stability_factor = -0.3
+				marxism_cranism_drift = -0.1
+				squattism_drift = -0.1
+			
+				
+			}
+		}
 	}
 }
