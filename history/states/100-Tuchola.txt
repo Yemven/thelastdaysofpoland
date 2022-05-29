@@ -1,13 +1,9 @@
+
 state={
 	id=100
 	name="STATE_100"
-	provinces={
-		1122 2021 3429 14989 14990 14991 14992 14993 14994 14995 14996 14997 14998 14999 15000 15001 15002 15003 15004
-	}
-	manpower = 28467   state_category = town
-	buildings_max_level_factor=1.000
-	
-							history={
+
+	history={
 		owner = KUJ
 		victory_points = {
 
@@ -17,5 +13,14 @@ state={
 
 		}
 		add_core_of = KUJ
-}
+
+	}
+
+	provinces={
+		1122 2021 2922 3429 14989 14990 14991 14992 14993 14994 14995 14996 14997 14998 14999 15000 15001 15002 15003 15004 15381 15382 
+	}
+	manpower=28467
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

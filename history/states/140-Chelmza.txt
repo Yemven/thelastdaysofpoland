@@ -1,13 +1,9 @@
+
 state={
 	id=140
 	name="STATE_140"
-	provinces={
-		490 650 685 1202 2595 3049 3658 15453 15454 15455 15456 15457 15458 15459 15460 15461 15462 15463 15464 15465 15466 15467 15468 15469 15470 15471 15472 15473 15474 15475 15476 15477 15478
-	}
-	manpower = 51300   state_category = town
-	buildings_max_level_factor=1.000
-	
-							history={
+
+	history={
 		owner = KUJ
 		victory_points = {
 
@@ -17,5 +13,14 @@ state={
 
 		}
 		add_core_of = KUJ
-}
+
+	}
+
+	provinces={
+		490 650 685 1202 3049 3658 15453 15454 15455 15456 15457 15458 15459 15460 15461 15462 15463 15464 15465 15466 15467 15468 15469 15470 15471 15472 15473 15474 15475 15477 15478 
+	}
+	manpower=50300
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

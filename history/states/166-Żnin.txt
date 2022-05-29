@@ -2,13 +2,8 @@
 state={
 	id=166
 	name="STATE_166"
-	provinces={
-		520 1006 1861 3120 3704 15409 15410 15411 15412 15413 15414 15415 15416 15417 15418 15419 15420 15421 15422 15423 15424 15425 15426 15427 15428 15429 15430 15431 15432 15433 15434
-	}
-	manpower = 42011   state_category = large_town
-	buildings_max_level_factor=1.000
-	
-									history={
+
+	history={
 		owner = BYD
 		victory_points = {
 
@@ -18,5 +13,14 @@ state={
 
 		}
 		add_core_of = BYD
-}
+
+	}
+
+	provinces={
+		520 1006 1172 1861 3120 3704 15405 15406 15409 15410 15411 15412 15413 15414 15415 15416 15417 15418 15419 15420 15421 15422 15423 15424 15425 15426 15427 15428 15429 15430 15431 15432 15433 15434 
+	}
+	manpower=42011
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

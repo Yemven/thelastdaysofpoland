@@ -1,13 +1,9 @@
+
 state={
 	id=96
 	name="STATE_96"
-	provinces={
-		499 1212 1363 2002 2224 2922 15366 15367 15368 15369 15370 15371 15372 15373 15374 15375 15376 15377 15378 15379 15380 15381 15382 15383
-	}
-	manpower = 19653   state_category = rural
-	buildings_max_level_factor=1.000
-	
-							history={
+
+	history={
 		owner = KUJ
 		victory_points = {
 
@@ -17,5 +13,14 @@ state={
 
 		}
 		add_core_of = KUJ
-}
+
+	}
+
+	provinces={
+		499 1212 1363 2002 2224 15366 15367 15368 15369 15370 15371 15372 15373 15374 15375 15376 15377 15378 15379 15380 15383 
+	}
+	manpower=17653
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

@@ -2,13 +2,8 @@
 state={
 	id=108
 	name="STATE_108"
-	provinces={
-		611 2312 2613 3617 15697 15698 15699 15700 15701 15702 15703 15704 15705 15706 15707 15708 15709 15710 15711 15712 15713 15714 15715
-	}
-	manpower = 27456   state_category = town
-	buildings_max_level_factor=1.000
-	
-						history={
+
+	history={
 		owner = GRU
 		victory_points = {
 
@@ -18,5 +13,14 @@ state={
 
 		}
 		add_core_of = GRU
-}
+
+	}
+
+	provinces={
+		611 2312 2613 3617 15693 15697 15698 15699 15700 15701 15703 15704 15705 15706 15707 15708 15709 15710 15713 15714 15715 
+	}
+	manpower=27456
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
