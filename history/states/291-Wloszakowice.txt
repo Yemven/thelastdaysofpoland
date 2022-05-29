@@ -2,17 +2,25 @@
 state={
 	id=291
 	name="STATE_291"
-	provinces={
-		1598 2141 2760 3807 14815 14816 14817 14818 14819 14820 14821 14822 14823 14824 14825 14826 14827 14828 14829 14830 14831 14832 14833 14834 14835 14836 14837 14838 14839 14840 14841 14842
-	}
-	manpower = 30876  state_category = city
-	buildings_max_level_factor=1.000
-								history = {
+
+	history={
 		owner = SUS
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = SUS
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		1598 2141 2760 2850 3807 14786 14787 14788 14815 14816 14817 14818 14819 14820 14821 14822 14823 14824 14825 14826 14827 14828 14829 14830 14832 14833 14834 14835 14836 14837 14838 14839 14840 14841 14842 
+	}
+	manpower=27876
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

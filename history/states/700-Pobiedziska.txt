@@ -1,24 +1,40 @@
+
 state={
 	id=700
 	name="STATE_700"
-	provinces={
-		620 1065 1666 3083 3185 13467 13468 13469 13470 13471 13472 13473 13474 13475 13476 13477 13478 13479 13480 13481 13482 13483 13484 13485 
-	}
-	manpower = 58232   state_category = city
-	buildings_max_level_factor=1.000
-							history = {
-		owner = POZ
-		victory_points = {13472 12}
-		victory_points = {13471 10}
-		victory_points = {13473 3}
-		victory_points = {13481 1}
-		victory_points = {1065 1}
-		add_core_of = POZ
-	buildings = {
-	infrastructure = 7
-	industrial_complex = 4
-	arms_factory = 2
 
-}
-}
+	history={
+		owner = POZ
+		victory_points = {
+			13472 12 
+		}
+		victory_points = {
+			13471 10 
+		}
+		victory_points = {
+			13473 3 
+		}
+		victory_points = {
+			13481 1 
+		}
+		victory_points = {
+			1065 1 
+		}
+		add_core_of = POZ
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+
+		}
+
+	}
+
+	provinces={
+		620 1065 1666 3083 13467 13468 13469 13470 13471 13472 13473 13474 13475 13476 13477 13478 13479 13480 13482 13483 13484 13485 
+	}
+	manpower=38232
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

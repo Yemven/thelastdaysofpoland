@@ -2,17 +2,25 @@
 state={
 	id=178
 	name="STATE_178"
-	provinces={
-		1171 2164 3162 13912 13913 13914 13915 13916 13917 13918 13919 13920 13921 13922 13923 13924 13925 13926 13927 13928 13929 13930 13931 13932 13933 13934 13935 13936 13937 13938 13939 13940
-	}
-	manpower = 31104   state_category = city
-	buildings_max_level_factor=1.000
-						history = {
+
+	history={
 		owner = WRT
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = WRT
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		2164 13912 13913 13914 13915 13916 13917 13918 13919 13921 13922 13923 13925 13926 13927 13928 13929 13930 13931 13932 13933 13940 
+	}
+	manpower=24104
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

@@ -2,25 +2,49 @@
 state={
 	id=286
 	name="STATE_286"
-	provinces={
-		1530 1607 1784 2211 3159 3299 3817 14563 14564 14565 14566 14567 14568 14569 14570 14571 14572 14573 14574 14575 14576 14577 14578 14579 14580 14581 14582 14583 14584 14585 14586 14587 14588 14589 14590 14591 14592
-	}
-	manpower = 37104   state_category = city
-	buildings_max_level_factor=1.000
-						history = {
+
+	history={
 		owner = CAL
-		victory_points = {14583 8}
-		victory_points = {14567 1}
-		victory_points = {14570 1}
-		victory_points = {14575 2}
-		victory_points = {3159 1}
-		victory_points = {14591 1}
-		victory_points = {14578 1}
-		victory_points = {14584 1}
-		victory_points = {1784 1}
+		victory_points = {
+			14583 8 
+		}
+		victory_points = {
+			14567 1 
+		}
+		victory_points = {
+			14570 1 
+		}
+		victory_points = {
+			14575 2 
+		}
+		victory_points = {
+			3159 1 
+		}
+		victory_points = {
+			14591 1 
+		}
+		victory_points = {
+			14578 1 
+		}
+		victory_points = {
+			14584 1 
+		}
+		victory_points = {
+			1784 1 
+		}
 		add_core_of = CAL
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		635 1530 1607 1784 2211 3159 3299 3817 3837 14563 14564 14565 14566 14567 14568 14569 14570 14571 14572 14573 14574 14575 14576 14577 14578 14579 14580 14581 14582 14583 14584 14585 14586 14587 14588 14589 14590 14591 14592 14609 14610 14612 
+	}
+	manpower=41104
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

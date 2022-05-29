@@ -1,22 +1,35 @@
+
 state={
 	id=689
 	name="STATE_689"
-	provinces={
-		268 467 3722 3726 13505 13506 13507 13508 13509 13510 13511 13512 13513 13514 13515
-	}
-	manpower = 86123   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = GNI
-		victory_points = {13505 30}
-		victory_points = {3726 2}
-		victory_points = {13514 2}
-		victory_points = {13508 1}
-		victory_points = {13506 1}
-		victory_points = {467 1}
+		victory_points = {
+			13505 30 
+		}
+		victory_points = {
+			3726 2 
+		}
+		victory_points = {
+			13506 1 
+		}
+		victory_points = {
+			467 1 
+		}
 		add_core_of = GNI
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		268 803 3722 3726 13505 13506 13507 13509 13511 13512 13520 
+	}
+	manpower=76123
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

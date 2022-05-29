@@ -2,21 +2,33 @@
 state={
 	id=695
 	name="STATE_695"
-	provinces={
-		686 3088 13409 13410 13411 13412 13413 13414 13415 13416 13417
-	}
-	manpower = 45277   state_category = city
-	buildings_max_level_factor=1.000
-					history = {
+
+	history={
 		owner = WRT
-		victory_points = {13413 1}
-		victory_points = {13416 15}
-		victory_points = {686 2}
+		victory_points = {
+			13413 1 
+		}
+		victory_points = {
+			13416 15 
+		}
+		victory_points = {
+			686 2 
+		}
 		add_core_of = WRT
-	buildings = {
-	infrastructure = 7
-	industrial_complex = 4
-	arms_factory = 2
-}
-}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+
+		}
+
+	}
+
+	provinces={
+		3088 13413 13414 13415 13416 13417 
+	}
+	manpower=15277
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

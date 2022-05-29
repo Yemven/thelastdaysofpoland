@@ -5,10 +5,18 @@ state={
 
 	history={
 		owner = FEL
-		victory_points = {13598 15}
-		victory_points = {13595 3}
-		victory_points = {13601 1}
-                victory_points = {13592 2}
+		victory_points = {
+			13598 15 
+		}
+		victory_points = {
+			13595 3 
+		}
+		victory_points = {
+			13601 1 
+		}
+		victory_points = {
+			13592 2 
+		}
 		add_core_of = FEL
 		buildings = {
 			infrastructure = 7
@@ -19,9 +27,10 @@ state={
 	}
 
 	provinces={
-		245 3424 3759 13591 13592 13593 13594 13595 13596 13597 13598 13599 13600 13601 13602
+		245 686 2206 3185 3424 3759 13400 13409 13410 13411 13412 13481 13591 13592 13593 13594 13595 13596 13597 13598 13599 13600 13601 13602 
 	}
-	manpower=28745
+	manpower=18745
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
+	local_supplies=0.000
 }
