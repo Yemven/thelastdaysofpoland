@@ -1061,6 +1061,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_anti_air_cannon
+			ship_anti_air_1
 		}
 		path = {
 			leads_to_tech = anti_air_upgrade
@@ -1120,6 +1121,9 @@ technologies = {
 	anti_air2 = {
 		enable_equipments = {
 			anti_air_equipment_2
+		}
+		enable_equipment_modules = {
+			ship_anti_air_2
 		}
 		path = {
 			leads_to_tech = anti_air_upgrade2
@@ -1182,6 +1186,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_sam
+			ship_anti_air_3
 		}
 		path = {
 			leads_to_tech = anti_air_upgrade3
@@ -1244,6 +1249,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_sam_2
+			ship_anti_air_4
 		}
 		research_cost = 2
 		start_year=2040
