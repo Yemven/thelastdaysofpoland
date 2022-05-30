@@ -72,7 +72,7 @@ sub_units = {
 		combat_width = 2
 
 		max_strength = 25
-		max_organisation = 30
+		max_organisation = 50
 		default_morale = 0.2
 		manpower = 100
 		defense = -0.4
@@ -139,6 +139,7 @@ sub_units = {
 		need = {
 			melee_equipment = 50
 			ranged_equipment = 50
+			inf_anti_tank_equipment = 5
 		}
 	}
 
@@ -170,7 +171,7 @@ sub_units = {
 		max_strength = 25
 		max_organisation = 60
 		default_morale = 0.3
-		manpower = 1000
+		manpower = 100
 
 		#Misc Abilities
 		training_time = 90
@@ -181,7 +182,9 @@ sub_units = {
 	
 		need = {
 			ranged_equipment = 100
-			bicycle_equipment = 10			
+			bicycle_equipment = 10
+			equipment_vests = 100
+			inf_anti_tank_equipment = 10			
 		}
 
 		transport = bicycle_equipment
@@ -246,19 +249,21 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 70
 		default_morale = 0.4
-		manpower = 1000
+		manpower = 125
 
 		#Misc Abilities
-		training_time = 120
+		training_time = 140
 		suppression = 1
 		weight = 0.5
 		supply_consumption = 0.05
 		breakthrough = 0.3
 	
 		need = {
-			ranged_equipment = 80
+			ranged_equipment = 100
 			melee_equipment = 20
 			special_forces_equipment = 50
+			equipment_vests = 100
+			inf_anti_tank_equipment = 25
 		}
 
 		marsh = {
@@ -303,10 +308,10 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 70
 		default_morale = 0.4
-		manpower = 1000
+		manpower = 125
 
 		#Misc Abilities
-		training_time = 120
+		training_time = 140
 		suppression = 1
 		weight = 0.5
 		
@@ -314,9 +319,11 @@ sub_units = {
 		breakthrough = 0.3
 	
 		need = {
-			ranged_equipment = 80
+			ranged_equipment = 100
 			melee_equipment = 20
 			special_forces_equipment = 40
+			equipment_vests = 100
+			inf_anti_tank_equipment = 25
 		}
 
 		hills = {
@@ -361,7 +368,7 @@ sub_units = {
 		max_strength = 22
 		max_organisation = 70
 		default_morale = 0.4
-		manpower = 1000
+		manpower = 125
 
 		#Misc Abilities
 		training_time = 150
@@ -372,9 +379,11 @@ sub_units = {
 		can_be_parachuted = yes
 	
 		need = {
-			ranged_equipment = 80
+			ranged_equipment = 100
 			melee_equipment = 20
 			special_forces_equipment = 30
+			equipment_vests = 100
+			inf_anti_tank_equipment = 10
 		}
 	}
 
@@ -405,7 +414,7 @@ sub_units = {
 		max_strength = 25
 		max_organisation = 60
 		default_morale = 0.30
-		manpower = 1200
+		manpower = 120
 
 		#Misc Abilities
 		training_time = 90
@@ -418,7 +427,9 @@ sub_units = {
 	
 		need = {
 			ranged_equipment = 100
-			motorized_equipment = 35
+			motorized_equipment = 45
+			equipment_vests = 100
+			inf_anti_tank_equipment = 25
 		}
 
 		forest = {
@@ -489,6 +500,8 @@ sub_units = {
 		need = {
 			ranged_equipment = 100
 			motorbike_equipment = 35
+			equipment_vests = 100
+			inf_anti_tank_equipment = 10
 		}
 
 		forest = {
@@ -546,7 +559,7 @@ sub_units = {
 		max_strength = 30
 		max_organisation = 60
 		default_morale = 0.3
-		manpower = 1200
+		manpower = 120
 
 		#Misc Abilities
 		training_time = 120
@@ -567,6 +580,8 @@ sub_units = {
 		need = {
 			apc_equipment = 40
 			ranged_equipment = 100
+			equipment_vests = 100
+			inf_anti_tank_equipment = 15
 		}
 
 		forest = {
@@ -676,7 +691,9 @@ sub_units = {
 		supply_consumption = 0.05 #0.07 -> Don't need that much supply, and they have lower HP
 	
 		need = {
-			ranged_equipment = 85 #100 -> Same ratio as regular Infantry			
+			ranged_equipment = 85 #100 -> Same ratio as regular Infantry
+			equipment_vests = 20
+			inf_anti_tank_equipment = 5
 		}
 	}
 }

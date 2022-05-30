@@ -73,7 +73,7 @@ technologies = {
 	light_artillery_upgrade = {
 	
 		research_cost = 1.5
-		start_year = 2027
+		start_year = 2028
 		
 		path = {
 			leads_to_tech = light_artillery2
@@ -124,7 +124,7 @@ technologies = {
 	light_artillery_upgrade1 = {
 	
 		research_cost = 1.5
-		start_year = 2027
+		start_year = 2031
 		
 		path = {
 			leads_to_tech = light_artillery3
@@ -179,7 +179,7 @@ technologies = {
 	light_artillery_upgrade2 = {
 	
 		research_cost = 1.5
-		start_year = 2027
+		start_year = 2034
 		
 		path = {
 			leads_to_tech = light_artillery4
@@ -230,7 +230,7 @@ technologies = {
 	light_artillery_upgrade3 = {
 	
 		research_cost = 1.5
-		start_year = 2027
+		start_year = 2037
 		
 		path = {
 			leads_to_tech = light_artillery5
@@ -316,8 +316,8 @@ technologies = {
 	
 	heavy_artillery_upgrade = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2028
 		
 		path = {
 			leads_to_tech = heavy_artillery2
@@ -378,8 +378,8 @@ technologies = {
 	
 	heavy_artillery_upgrade1 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2031
 		
 		path = {
 			leads_to_tech = heavy_artillery3
@@ -440,8 +440,8 @@ technologies = {
 	
 	heavy_artillery_upgrade2 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2034
 		
 		path = {
 			leads_to_tech = heavy_artillery4
@@ -502,8 +502,8 @@ technologies = {
 	
 	heavy_artillery_upgrade3 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2037
 		
 		path = {
 			leads_to_tech = heavy_artillery5
@@ -593,8 +593,8 @@ technologies = {
 	
 	self_propelled_artillery_upgrade = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2031
 		
 		path = {
 			leads_to_tech = self_propelled_artillery2
@@ -655,8 +655,8 @@ technologies = {
 	
 	self_propelled_artillery_upgrade1 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2034
 		
 		path = {
 			leads_to_tech = self_propelled_artillery3
@@ -715,8 +715,8 @@ technologies = {
 	
 	self_propelled_artillery_upgrade3 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2037
 		
 		path = {
 			leads_to_tech = self_propelled_artillery4
@@ -769,6 +769,7 @@ technologies = {
 			factor = 2
 		}
 	}
+	
 	rocket_artillery = {
 		enable_equipments = {
 			rocket_artillery_equipment
@@ -807,8 +808,8 @@ technologies = {
 	
 	rocket_artillery_upgrade = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2028
 		
 		path = {
 			leads_to_tech = rocket_artillery2
@@ -874,8 +875,8 @@ technologies = {
 	
 	rocket_artillery_upgrade1 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2031
 		
 		path = {
 			leads_to_tech = rocket_artillery3
@@ -944,8 +945,8 @@ technologies = {
 	
 		rocket_artillery_upgrade2 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2034
 		
 		path = {
 			leads_to_tech = rocket_artillery4
@@ -1011,8 +1012,8 @@ technologies = {
 	
 		rocket_artillery_upgrade3 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2037
 		
 		path = {
 			leads_to_tech = rocket_artillery5
@@ -1104,8 +1105,8 @@ technologies = {
 	
 	anti_air_upgrade = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2028
 		
 		path = {
 			leads_to_tech = anti_air2
@@ -1166,8 +1167,8 @@ technologies = {
 	
 	anti_air_upgrade2 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2034
 		
 		path = {
 			leads_to_tech = anti_air3
@@ -1229,8 +1230,8 @@ technologies = {
 	
 	anti_air_upgrade3 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 1.5
+		start_year = 2037
 		
 		path = {
 			leads_to_tech = anti_air4
@@ -1288,7 +1289,7 @@ technologies = {
 	
 	artillery_coordination = {
 	
-		research_cost = 1
+		research_cost = 2
 		start_year = 2027
 		
 		path = {
@@ -1311,14 +1312,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-		factor = 2
+		factor = 5
 		}
 	}
 	
 	artillery_coordination1 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 2
+		start_year = 2030
 		
 		path = {
 			leads_to_tech = artillery_coordination2
@@ -1340,14 +1341,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-		factor = 2
+		factor = 5
 		}
 	}
 	
 	artillery_coordination2 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 2
+		start_year = 2033
 		
 		path = {
 			leads_to_tech = artillery_coordination3
@@ -1369,14 +1370,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-		factor = 2
+		factor = 5
 		}
 	}
 	
 	artillery_coordination3 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 2
+		start_year = 2036
 		
 		path = {
 			leads_to_tech = artillery_coordination4
@@ -1398,14 +1399,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-		factor = 2
+		factor = 5
 		}
 	}
 	
 	artillery_coordination4 = {
 	
-		research_cost = 1
-		start_year = 2027
+		research_cost = 2
+		start_year = 2040
 		
 		folder = {
 		name = artillery_folder
@@ -1422,7 +1423,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-		factor = 2
+		factor = 5
 		}
 	}
 	

@@ -143,7 +143,7 @@ equipments = {
 		
 		build_cost_ic = 0.75
 		resources = {
-			steel = 2
+			steel = 3
 		}
 	}
 	
@@ -234,6 +234,9 @@ equipments = {
 		air_attack = 0
 		
 		build_cost_ic = 0.80
+		resources = {
+			steel = 2
+		}
 	}
 	
 	ranged_equipment_3 = {
@@ -259,6 +262,9 @@ equipments = {
 		air_attack = 0
 		
 		build_cost_ic = 0.90
+		resources = {
+			steel = 2
+		}
 	}
 	
 	ranged_equipment_4 = {
@@ -284,6 +290,10 @@ equipments = {
 		air_attack = 0
 		
 		build_cost_ic = 1.00
+		resources = {
+			steel = 3
+			electronics = 1
+		}
 	}
 	
 	ranged_equipment_5 = {
@@ -309,6 +319,10 @@ equipments = {
 		air_attack = 0
 		
 		build_cost_ic = 0.95
+		resources = {
+			steel = 3
+			electronics = 1
+		}
 	}
 	
 	inf_anti_tank_equipment = {
@@ -420,6 +434,7 @@ equipments = {
 		resources = {
 			coal = 2
 			steel = 2
+			electronics = 1
 		}
 	}
 	
@@ -453,6 +468,7 @@ equipments = {
 		resources = {
 			coal = 3
 			steel = 2
+			electronics = 2
 		}
 	}
 	
@@ -628,7 +644,7 @@ equipments = {
 		
 		build_cost_ic = 0.72
 		resources = {
-			steel = 2
+			steel = 3
 		}
 	}
 	
@@ -802,9 +818,10 @@ equipments = {
 		
 		lend_lease_cost = 1
 		
-		build_cost_ic = 0.22
+		build_cost_ic = 5.10
 		resources = {
-			steel = 1
+			steel = 2
+			aluminium = 2
 		}
 	}
 	
@@ -836,7 +853,12 @@ equipments = {
 		ap_attack = 0.65
 		air_attack = 0
 		
-		build_cost_ic = 0.26
+		build_cost_ic = 5.50
+		resources = {
+			steel = 2
+			aluminium = 3
+			electronics = 1
+		}
 	}
 	
 	special_forces_equipment_2 = {
@@ -861,7 +883,12 @@ equipments = {
 		ap_attack = 0.75
 		air_attack = 0
 		
-		build_cost_ic = 0.3
+		build_cost_ic = 6.10
+		resources = {
+			steel = 3
+			aluminium = 3
+			electronics = 2
+		}
 	}
 	
 	
