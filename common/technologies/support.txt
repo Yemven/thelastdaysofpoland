@@ -153,7 +153,6 @@ technologies = {
 		enable_subunits = {
 			light_flame_tank
 			medium_flame_tank
-			heavy_flame_tank
 		}
 		
 		
@@ -213,14 +212,6 @@ technologies = {
 			}
 		}
 		medium_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
-		heavy_flame_tank = {
 			urban = {
 				attack = 0.1
 			}
@@ -290,14 +281,6 @@ technologies = {
 				attack = 0.10
 			}
 		}
-		heavy_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
 		research_cost = 1.5
 		start_year = 2036
 		folder = {
@@ -353,14 +336,6 @@ technologies = {
 			}
 		}
 		medium_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
-		heavy_flame_tank = {
 			urban = {
 				attack = 0.1
 			}
