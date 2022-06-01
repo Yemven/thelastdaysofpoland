@@ -1,0 +1,237 @@
+
+EKW_collapse_POM = {
+	hidden_effect = {
+		POM = {
+			add_state_core = 70
+			add_state_core = 68
+			add_state_core = 620
+			add_state_core = 61
+			add_state_core = 55
+			add_state_core = 621	
+		}
+
+		EKW = {
+			POM = { transfer_technology = yes }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = POM }
+			POM = { transfer_state = PREV }
+		}
+		POM = {
+			load_oob = "POM_EKW_Collapse"
+		}
+
+	}
+}
+
+EKW_collapse_KOS = {
+	hidden_effect = {
+		KOS = {
+			add_state_core = 622
+			add_state_core = 63
+			add_state_core = 45
+			add_state_core = 53
+			add_state_core = 33
+			add_state_core = 623	
+		}
+
+		EKW = {
+			KOS = { transfer_technology = yes }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = KOS }
+			KOS = { transfer_state = PREV }
+		}
+
+
+		KOS = {
+			load_oob = "KOS_EKW_Collapse"
+		}
+
+	}
+}
+
+EKW_collapse_WRT = {
+	hidden_effect = {
+		WRT = {
+			add_state_core = 697
+			add_state_core = 695
+			add_state_core = 696
+			add_state_core = 244
+			add_state_core = 218
+			add_state_core = 692
+			add_state_core = 583
+			add_state_core = 584
+			add_state_core = 212
+			add_state_core = 193
+			add_state_core = 202
+			add_state_core = 188
+			add_state_core = 694
+			add_state_core = 184
+			add_state_core = 164
+			add_state_core = 206
+			add_state_core = 207
+			add_state_core = 162
+			add_state_core = 178
+			add_state_core = 155
+			add_state_core = 161
+			add_state_core = 693
+			add_state_core = 130
+			add_state_core = 111
+			add_state_core = 102
+			add_state_core = 135
+		}
+		EKW = {
+			WRT = { transfer_technology = yes }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = WRT }
+			WRT = { transfer_state = PREV }
+		}
+
+
+		WRT = {
+			load_oob = "WRT_EKW_Collapse"
+		}
+
+	}
+}
+
+EKW_collapse_KAM = {
+	hidden_effect = {
+		KAM = {
+			add_state_core = 613
+			add_state_core = 175
+			add_state_core = 187
+			add_state_core = 183
+			add_state_core = 190
+			add_state_core = 185
+			add_state_core = 153
+			add_state_core = 177
+			add_state_core = 208
+			add_state_core = 205
+			add_state_core = 612
+			add_state_core = 227
+			add_state_core = 204
+			add_state_core = 273
+			add_state_core = 267
+			add_state_core = 209
+		}
+
+		EKW = {
+			KAM = { transfer_technology = yes }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = KAM }
+			KAM = { transfer_state = PREV }
+		}
+
+
+		KAM = {
+			load_oob = "KAM_EKW_Collapse"
+		}
+
+	}
+}
+
+EKW_collapse_STE = {
+	hidden_effect = {
+		STE = {
+			add_state_core = 90
+			add_state_core = 616
+			add_state_core = 88
+			add_state_core = 617
+			add_state_core = 114
+			add_state_core = 105
+			
+			add_state_core = 83
+			add_state_core = 619
+			add_state_core = 54
+		}
+
+		EKW = {
+			STE = { transfer_technology = yes }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = STE }
+			STE = { transfer_state = PREV }
+		}
+
+
+		STE = {
+			load_oob = "STE_EKW_Collapse"
+		}
+
+	}
+}
+
+
+EKW_collapse_JAS = {
+	hidden_effect = {
+		JAS = {
+			add_state_core = 82
+		}
+
+		EKW = {
+			JAS = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = JAS }
+			JAS = { transfer_state = PREV }
+		}
+
+		every_state = {
+			limit = {
+				OR = {
+					state = 78
+					state = 98
+					state = 118
+					state = 84
+				}
+			}
+			add_claim_by = JAS
+		}
+
+		JAS = {
+			load_oob = "JAS_EKW_Collapse"
+		}
+
+	}
+}
+
+EKW_collapse_NAC = {
+	hidden_effect = {
+		NAC = {
+			add_state_core = 244
+		}
+
+		WRT = {
+			NAC = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = NAC }
+			NAC = { transfer_state = PREV }
+		}
+
+		every_state = {
+			limit = {
+				is_core_of = WRT
+				NOT = { is_core_of = NAC }
+				NOT = { is_claimed_by = NAC }
+			}
+			add_claim_by = NAC
+		}
+
+		NAC = {
+			load_oob = "NAC_EKW_Collapse"
+		}
+
+	}
+}
