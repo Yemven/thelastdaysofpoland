@@ -1,24 +1,31 @@
 ﻿l_english:
- primitive_aircraft:0 "Found Small Civilian Aircraft"
- primitive_aircraft_desc:0 "Tiny civilian planes carrying no more than a dozen people. Most of them cannot be used for anything else than scouting or flying above the enemies' ears to annoy them with humming."
- primitive_aircraft_equipment:0 "Found Small Civilian Aircraft"
- primitive_aircraft_equipment_desc:0 "Tiny civilian planes carrying no more than a dozen people. Most of them cannot be used for anything else than scouting or flying above the enemies' ears to annoy them with humming."
- fighter_equipment_0:0 "Modded One-Seat Civilian Plane"
- fighter_equipment_0_short:0 "Modded One-Seat Civilian Plane"
- fighter_equipment_0_desc:0 "Semi-standardized one- or two-seat civilian planes with added makeshift anti-air weaponry, used as impromptu fighter planes. No idea how these things are supposted to shoot down a plane in any other way than by ramming them."
- fighter_equipment_1:0 "Purpose-Built Fighter"
- fighter_equipment_1_short:0 "Purpose-Built Fighter"
- fighter_equipment_1_desc:0 "Primitive, purpose-built fighter planes comparable in armament to late WW1 and early WW2-era fighter planes and in shape and speed to small, nimble civilian planes."
- fighter_equipment_2:0 "Standardized Fighter & Primitive Jet"
- fighter_equipment_2_short:0 "Standardized Fighter & Primitive Jet"
- fighter_equipment_2_desc:0 "Classic rotor engine fighter planes resembling WW2-era ones and experimental fighters with primitive jet engines based on first-generation jets used during the early days of the Cold War, although much less professional in their design (and much more dangerous to their pilots)."
- fighter_equipment_3:0 "2nd & 3rd Gen Jet Fighter"
- fighter_equipment_3_short:0 "2nd & 3rd Gen Jet Fighter"
- fighter_equipment_3_desc:0 "Jet fighters that utilize some advanced technologies, but are still long way from catching up performance-wise to modern western fighter jets."
- fighter_equipment_4:0 "Modern Jet Fighter"
- fighter_equipment_4_short:0 "Modern Jet Fighter"
- fighter_equipment_4_desc:0 "Jet fighters utilizing the same technologies and techniques as gen 4.5 and gen 5 jets."
-#
+ primitive_aircraft:0 "Found Civilian Aircraft"
+ primitive_aircraft_desc:0 "All kinds of small and medium-size civilian planes that have been stumbled upon and looted by warlord rabble. Most of them cannot be used for anything else than scouting or flying above the enemies' ears just to annoy them with engine humming."
+ primitive_aircraft_equipment:0 "Found Civilian Aircraft"
+ primitive_aircraft_equipment_desc:0 "All kinds of small and medium-size civilian planes that have been stumbled upon and looted by warlord rabble. Most of them cannot be used for anything else than scouting or flying above the enemies' ears just to annoy them with engine humming."
+#GALA FAJTER
+#GALA FAJTER
+#GALA FAJTER
+#GALA FAJTER
+ fighter_equipment_0:0 "Modded Light Civilian Aircraft"
+ fighter_equipment_0_short:0 "Modded Light Civilian Aircraft"
+ fighter_equipment_0_desc:0 "One- or two-seat civilian planes with added makeshift anti-air weaponry, used as impromptu fighter planes. No idea how these things are supposted to shoot down a plane in any other way than by ramming them."
+ fighter_equipment_1:0 "Modded Military Trainer Aircraft"
+ fighter_equipment_1_short:0 "Modded Military Trainer Aircraft"
+ fighter_equipment_1_desc:0 "Military trainer aircraft that has been found and refurbished or partially rebuilt from already existing and improvized replacement parts. They make for quite good, albeit simplistic fighters when armed with simple anti-air weaponry and unguided bombs."
+ fighter_equipment_2:0 "2nd & 3rd Gen Fighter"
+ fighter_equipment_2_short:0 "2nd & 3rd Gen Fighter"
+ fighter_equipment_2_desc:0 "Old, Cold War-era fighter models or copies of models that have been exported all around the world (mostly by the Soviet Union) during the Cold War. Most armies have already retired them from use. Su-17s and various MiGs spring to mind."
+ fighter_equipment_3:0 "Late Cold War-Era Fighter"
+ fighter_equipment_3_short:0 "Late Cold War-Era Fighter"
+ fighter_equipment_3_desc:0 "Exported fighter aircraft models that fall under the category of fourth-generation fighters and spot more advanced design, technology and weaponry than their brothers from the '60s and '70s. Most of them still find use well into the 21st century."
+ fighter_equipment_4:0 "Modern 4.5 Gen Fighter"
+ fighter_equipment_4_short:0 "Modern 4.5 Gen Fighter"
+ fighter_equipment_4_desc:0 "Copies of modern 4th and 4.5 generation fighters that are used to this day by Russian and American armies and are WAAAAAAY too expensive for us to obtain them legally."
+#BĄBOWCE
+#BĄBOWCE
+#BĄBOWCE
+#BĄBOWCE
  bomber_equipment_0:0 "Agricultural Aircraft"
  bomber_equipment_0_short:0 "Agricultural Aircraft"
  bomber_equipment_0_desc:0 "Agricultural planes fulfilling the role of light bombers and fighter-bombers, used for spraying various corrosive, irritant or disgusting substances and (manually) dropping bombs on enemy heads."
@@ -34,22 +41,29 @@
  bomber_equipment_4:0 "MRCA & Primitive Stealth Bomber"
  bomber_equipment_4_short:0 "Modern MRCA"
  bomber_equipment_4_desc:0 "Strike fighters, attack aircraft and other multirole combat aircraft models similar to the ones used by modern armies and experimental stealth bombers, utilizing rudimentary stealth technologies to get past enemy radars and thermal detectors."
-#TĄ SPACJĘ USUNĄĆ
+#TRANSPORTY SĄ
+#TRANSPORTY SĄ
+#TRANSPORTY SĄ
+#TRANSPORTY SĄ
  transport_equipment_0:0 "Light Aircraft & Regional Airliner"
  transport_equipment_0_short:0 "Light Aircraft & Regional Airliner"
- transport_equipment_0_desc:0 "Utility planes falling under the definition of "light aircraft" (so-called "awionetki") and small regional airliners, semi-standardized by Polish ragtag armies to move supplies and soldiers by air."
+ transport_equipment_0_desc:0 "Utility planes falling under the definition of "light aircraft" (so-called "awionetki") and small regional airliners, used by Polish ragtag armies in semi-standardized air fleets to move supplies and soldiers by air."
  transport_equipment_1:0 "Small Utility & Military Cargo Aircraft"
  transport_equipment_1_short:0 "Small Utility & Military Cargo Aircraft"
- transport_equipment_1_desc:0 "Military and converted civilian aircraft models that can transport cargo and paratroopers, can land almost anywhere and can be repaired by virtually anyone with a toolshed. Most of them are based off the legendary "kukuruźnik" or "Antek" - the An-2."
- transport_equipment_2:0 "Medium Military Airlifter & Airliner"
- transport_equipment_2_short:0 "Medium Military Airlifter & Airliner"
+ transport_equipment_1_desc:0 "Military and converted civilian aircraft models that can transport cargo and paratroopers, can land almost anywhere and can be repaired by virtually anyone with a toolshed. Category encompassing planes such as the legendary An-2 - the "kukuruźnik" or "Antek"."
+ transport_equipment_2:0 "Classic Medium Airlifter & Airliner"
+ transport_equipment_2_short:0 "Classic Medium Airlifter & Airliner"
  transport_equipment_2_desc:0 "Pricier, more advanced, medium-size airlifters or planes that can be easily converted to such, mostly old Soviet An-24's and An-26's or copies of those planes."
- transport_equipment_3:0 "Large Military Airlifter"
- transport_equipment_3_short:0 "Large Military Airlifter"
- transport_equipment_3_desc:0 "Heavy Cold War-era models of airlifters that were still used by many third- or even second-world armies up to early 2000's, such as the An-12."
- transport_equipment_4:0 "Modern Military Airlifter"
- transport_equipment_4_short:0 "Modern Military Airlifter"
- transport_equipment_4_desc:0 "Technologically advanced and well suited for harsh landing conditions Cold War transport aircraft models used to this day by the biggest world powers, such as the Russian Il-76 and An-12, the Indian A-50E/I and the American C-130 Hercules."
+ transport_equipment_3:0 "Classic Large Airlifter"
+ transport_equipment_3_short:0 "Classic Large Airlifter"
+ transport_equipment_3_desc:0 "Copies of heavy, Cold War-era models of airlifters that were still used by many third or even second world armies up to early 2000's."
+ transport_equipment_4:0 "Modern Airlifter"
+ transport_equipment_4_short:0 "Modern Airlifter"
+ transport_equipment_4_desc:0 "Technologically advanced and well suited for harsh landing conditions transport aircraft models (and copies thereof) of the late Cold War, used to this day by the biggest world powers, such as the Russian Il-76 and An-12, the Indian A-50E/I and the American C-130 Hercules."
+#DRONY SPACJA
+#DRONY SPACJA
+#DRONY SPACJA
+#DRONY SPACJA
  china_drone_equipment:0 "Civilian Drone"
  china_drone_equipment_short:0 "Civilian Drone"
  china_drone_equipment_desc:0 "todo"
@@ -77,9 +91,9 @@
  helicopter_2_equipment:0 "Helicopter"
  helicopter_2_equipment_short:0 "Helicopter"
  helicopter_2_equipment_desc:0 "todo"
- helicopter_3_equipment:0 "Attack Helicopter"
- helicopter_3_equipment_short:0 "Attack Helicopter"
- helicopter_3_equipment_desc:0 "todo"
+ helicopter_3_equipment:0 "kupa"
+ helicopter_3_equipment_short:0 "siku"
+ helicopter_3_equipment_desc:0 "pierd"
  helicopter_4_equipment:0 "Modern Attack Helicopter"
  helicopter_4_equipment_short:0 "Modern Attack Helicopter"
  helicopter_4_equipment_desc:0 "todo"
