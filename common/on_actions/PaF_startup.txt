@@ -1,6 +1,11 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			EKW = {
+				country_event = {
+					id = ekwrozpad.1
+					days = 7 
+					}
 			BOM = {
 				scoped_play_song = "intro_bombas"
 			}

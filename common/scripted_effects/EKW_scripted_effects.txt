@@ -222,11 +222,17 @@ EKW_collapse_NAC = {
 
 		every_state = {
 			limit = {
-				is_core_of = WRT
-				NOT = { is_core_of = NAC }
-				NOT = { is_claimed_by = NAC }
+				OR = {
+					state = 218
+					state = 692
+					state = 193
+					state = 188
+					state = 202 
+					state = 184
+					state = 206
+				}
 			}
-			add_claim_by = NAC
+			add_claim_by = JAS
 		}
 
 		NAC = {
