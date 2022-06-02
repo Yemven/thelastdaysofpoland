@@ -1,0 +1,50 @@
+
+GDA_collapse_BOL = {
+	hidden_effect = {
+		BOL = {
+			add_state_core = 714
+			add_state_core = 716
+			add_state_core = 717
+		}
+
+		GDA = {
+			BOL = { transfer_technology = yes }
+			leave_faction = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = BOL }
+			BOL = { transfer_state = PREV }
+		}
+		BOL = {
+			load_oob = "BOL_2027"
+		}
+
+	}
+}
+
+GDA_collapse_KOR = {
+	hidden_effect = {
+		KOR = {
+			add_state_core = 52
+			add_state_core = 15
+			add_state_core = 44
+		}
+
+		GDA = {
+			KOR = { transfer_technology = yes }
+			drop_cosmetic_tag = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = KOR }
+			KOR = { transfer_state = PREV }
+		}
+
+
+		KOR = {
+			load_oob = "KOR_2027"
+		}
+
+	}
+}

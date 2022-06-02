@@ -1,0 +1,123 @@
+
+KSZ_collapse_GAY = {
+	hidden_effect = {
+		GAY = {
+			add_state_core = 35
+			add_state_core = 624
+			add_state_core = 24
+			add_state_core = 38
+		}
+
+		KSZ = {
+			GAY = { transfer_technology = no }
+			leave_faction = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = GAY }
+			GAY = { transfer_state = PREV }
+		}
+		GAY = {
+			load_oob = "GAY_2027"
+		}
+
+	}
+}
+
+KSZ_collapse_HEL = {
+	hidden_effect = {
+		HEL = {
+			add_state_core = 20
+			add_state_core = 625
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 666
+		}
+
+		KSZ = {
+			HEL = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = HEL }
+			HEL = { transfer_state = PREV }
+		}
+		HEL = {
+			load_oob = "HEL_2027"
+		}
+
+	}
+}
+
+KSZ_collapse_CZL = {
+	hidden_effect = {
+		CZL = {
+			add_state_core = 81
+			add_state_core = 89
+			add_state_core = 74
+		}
+
+		KSZ = {
+			CZL = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = CZL }
+			CZL = { transfer_state = PREV }
+		}
+		CZL = {
+			load_oob = "CZL_2027"
+		}
+
+	}
+}
+
+
+KSZ_collapse_ARK = {
+	hidden_effect = {
+		ARK = {
+			add_state_core = 34
+			add_state_core = 710
+			add_state_core = 711
+		}
+
+		KSZ = {
+			ARK = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = ARK }
+			ARK = { transfer_state = PREV }
+		}
+		ARK = {
+			load_oob = "ARK_2027"
+		}
+
+	}
+}
+
+
+KSZ_collapse_OWS = {
+	hidden_effect = {
+		OWS = {
+			add_state_core = 709
+			add_state_core = 712
+			add_state_core = 713
+		}
+
+		KSZ = {
+			OWS = { transfer_technology = no }
+			drop_cosmetic_tag = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = OWS }
+			OWS = { transfer_state = PREV }
+		}
+		OWS = {
+			load_oob = "OWS_2027"
+		}
+
+	}
+}
+

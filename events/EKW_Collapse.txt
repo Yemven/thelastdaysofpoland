@@ -12,7 +12,12 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.1.a
-		country_event = ekwrozpad.2
+		EKW = {
+			country_event = {
+			id = ekwrozpad.2
+			days = 2
+			}
+		}
 	}
 }
 country_event = {
@@ -45,7 +50,10 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.2.a
-		country_event = ekwrozpad.3
+			country_event = {
+			id = ekwrozpad.3
+			days = 2
+			}
 	}
 }
 country_event = {
@@ -78,7 +86,10 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.3.a
-		country_event = ekwrozpad.4
+		country_event = {
+			id = ekwrozpad.4
+			days = 2
+			}
 	}
 }
 country_event = {
@@ -130,7 +141,14 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.4.a
-		country_event = ekwrozpad.5
+			country_event = {
+				id = ekwrozpad.5
+				days = 2
+			}
+			country_event = {
+				id = ekwrozpad.7
+				days = 3
+			}
 	}
 }
 country_event = {
@@ -163,7 +181,11 @@ country_event = {
 	option = {
 		name = ekwrozpad.5.a
 		WRT = {
-		country_event = ekwrozpad.6
+			country_event = {
+				id = ekwrozpad.6
+				days = 2
+			}
+
 			}
 	}
 }
@@ -212,11 +234,17 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.6.a
-		EKW = {
-		country_event = ekwrozpad.7
+			country_event = {
+				id = ekwrozpad.10
+				days = 10
+			}
+			country_event = {
+				id = ekwrozpad.11
+				days = 14
+			}
 		}
 	}
-}
+
 country_event = {
 	id = ekwrozpad.7
 	title = ekwrozpad.7.t
@@ -257,7 +285,18 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.7.a
-		country_event = ekwrozpad.8
+		EKW = {
+		country_event = {
+			id = ekwrozpad.8
+			days = 2
+			}
+		}
+		KAM = {
+		country_event = {
+			id = ekwrozpad.9
+			days = 13
+			}
+		}
 	}
 }
 country_event = {
@@ -293,5 +332,110 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.8.a
+		STE = {
+		country_event = {
+			id = ekwrozpad.12
+			days = 10
+			}
+		}
+	}
+}
+
+country_event = {
+	id = ekwrozpad.9
+	title = ekwrozpad.9.t
+	desc = ekwrozpad.9.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKW_collapse_MOT = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 613
+						state = 175
+						state = 187
+						state = 183
+						state = 190
+						state = 185
+						state = 153
+						state = 177
+						state = 208
+					}
+				}
+				remove_core_of = KAM
+				add_claim_by = KAM
+			}
+		}
+	}
+
+	option = {
+		name = ekwrozpad.9.a
+	}
+}
+
+country_event = {
+	id = ekwrozpad.10
+	title = ekwrozpad.10.t
+	desc = ekwrozpad.10.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKW_collapse_SYJ = yes
+	}
+
+	option = {
+		name = ekwrozpad.10.a
+	}
+}
+
+country_event = {
+	id = ekwrozpad.11
+	title = ekwrozpad.11.t
+	desc = ekwrozpad.11.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKW_collapse_PIL = yes
+	}
+
+	option = {
+		name = ekwrozpad.11.a
+	}
+}
+
+country_event = {
+	id = ekwrozpad.12
+	title = ekwrozpad.12.t
+	desc = ekwrozpad.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKW_collapse_SWI = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 83
+						state = 619
+						state = 54
+					}
+				}
+				remove_core_of = STE
+			}
+		}
+	}
+
+	option = {
+		name = ekwrozpad.12.a
 	}
 }

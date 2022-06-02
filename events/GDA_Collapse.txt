@@ -1,0 +1,85 @@
+﻿add_namespace = gdarozpad
+
+
+
+country_event = {
+	id = gdarozpad.1
+	title = gdarozpad.1.t
+	desc = gdarozpad.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = gdarozpad.1.a
+		GDA = {
+			country_event = {
+			id = gdarozpad.2
+			days = 2
+			}
+		}
+	}
+}
+country_event = {
+	id = gdarozpad.2
+	title = gdarozpad.2.t
+	desc = gdarozpad.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		GDA_collapse_BOL = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 714
+						state = 716
+						state = 717
+					}
+				}
+				remove_core_of = GDA
+				add_claim_by = GDA
+			}
+		}
+	}
+
+	option = {
+		name = gdarozpad.2.a
+			country_event = {
+			id = gdarozpad.3
+			days = 2
+			}
+	}
+}
+
+country_event = {
+	id = gdarozpad.3
+	title = gdarozpad.3.t
+	desc = gdarozpad.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		GDA_collapse_KOR = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 52
+						state = 15
+						state = 44
+					}
+				}
+				remove_core_of = GDA
+				add_claim_by = GDA
+			}
+		}
+	}
+
+	option = {
+		name = gdarozpad.3.a
+	}
+}

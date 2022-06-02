@@ -12,6 +12,7 @@ EKW_collapse_POM = {
 
 		EKW = {
 			POM = { transfer_technology = yes }
+			leave_faction = yes
 		}
 
 		every_owned_state = {
@@ -19,7 +20,7 @@ EKW_collapse_POM = {
 			POM = { transfer_state = PREV }
 		}
 		POM = {
-			load_oob = "POM_EKW_Collapse"
+			load_oob = "POM_2027"
 		}
 
 	}
@@ -47,7 +48,7 @@ EKW_collapse_KOS = {
 
 
 		KOS = {
-			load_oob = "KOS_EKW_Collapse"
+			load_oob = "KOS_2027"
 		}
 
 	}
@@ -94,7 +95,8 @@ EKW_collapse_WRT = {
 
 
 		WRT = {
-			load_oob = "WRT_EKW_Collapse"
+			load_oob = "WRT_2027"
+			set_cosmetic_tag = WRT_UE
 		}
 
 	}
@@ -132,7 +134,8 @@ EKW_collapse_KAM = {
 
 
 		KAM = {
-			load_oob = "KAM_EKW_Collapse"
+			load_oob = "KAM_2027"
+			set_cosmetic_tag = KAM_UE
 		}
 
 	}
@@ -164,7 +167,8 @@ EKW_collapse_STE = {
 
 
 		STE = {
-			load_oob = "STE_EKW_Collapse"
+			load_oob = "STE_2027"
+			set_cosmetic_tag = STE_UE
 		}
 
 	}
@@ -199,7 +203,7 @@ EKW_collapse_JAS = {
 		}
 
 		JAS = {
-			load_oob = "JAS_EKW_Collapse"
+			load_oob = "JAS_2027"
 		}
 
 	}
@@ -236,7 +240,123 @@ EKW_collapse_NAC = {
 		}
 
 		NAC = {
-			load_oob = "NAC_EKW_Collapse"
+			load_oob = "NAC_2027"
+		}
+
+	}
+}
+
+EKW_collapse_MOT = {
+	hidden_effect = {
+		MOT = {
+			add_state_core = 613
+			add_state_core = 175
+			add_state_core = 187
+			add_state_core = 183
+			add_state_core = 190
+			add_state_core = 185
+			add_state_core = 153
+			add_state_core = 177
+			add_state_core = 208
+		}
+		KAM = {
+			MOT = { transfer_technology = no }
+			drop_cosmetic_tag = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = MOT }
+			MOT = { transfer_state = PREV }
+		}
+
+
+		MOT = {
+			load_oob = "MOT_2027"
+		}
+
+	}
+}
+
+EKW_collapse_SYJ = {
+	hidden_effect = {
+		SYJ = {
+			add_state_core = 697
+			add_state_core = 695
+			add_state_core = 696
+			add_state_core = 694
+			add_state_core = 212
+			add_state_core = 207
+			add_state_core = 584
+			add_state_core = 583
+		}
+		WRT = {
+			SYJ = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = SYJ }
+			SYJ = { transfer_state = PREV }
+		}
+
+
+		SYJ = {
+			load_oob = "SYJ_2027"
+			every_owned_state = {
+				set_demilitarized_zone = no
+			}
+		}
+
+	}
+}
+
+EKW_collapse_PIL = {
+	hidden_effect = {
+		PIL = {
+			add_state_core = 135
+			add_state_core = 130
+			add_state_core = 111
+			add_state_core = 102
+		}
+		WRT = {
+			PIL = { transfer_technology = no }
+			drop_cosmetic_tag = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = PIL }
+			PIL = { transfer_state = PREV }
+		}
+
+
+		PIL = {
+			load_oob = "PIL_2027"
+			every_owned_state = {
+				set_demilitarized_zone = no
+			}
+		}
+
+	}
+}
+
+EKW_collapse_SWI = {
+	hidden_effect = {
+		SWI = {
+			add_state_core = 83
+			add_state_core = 619
+			add_state_core = 54
+		}
+		STE = {
+			SWI = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = SWI }
+			SWI = { transfer_state = PREV }
+		}
+
+
+		SWI = {
+			load_oob = "SWI_2027"
 		}
 
 	}
