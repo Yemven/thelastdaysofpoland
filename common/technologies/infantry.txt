@@ -1210,10 +1210,6 @@ technologies = {
 	}
 	
 	special_forces_training1 = {
-		path = {
-			leads_to_tech = special_forces_training2
-			research_cost_coeff = 1
-		}
 		
 		path = {
 			leads_to_tech = special_forces_quantity
@@ -1224,6 +1220,11 @@ technologies = {
 			leads_to_tech = special_forces_quality
 			research_cost_coeff = 1
 		}
+		
+		#path = {
+		#	leads_to_tech = special_forces_training2
+		#	research_cost_coeff = 1
+		#}
 		
 		research_cost = 2
 		start_year = 2030
@@ -1434,6 +1435,11 @@ technologies = {
 			supply_consumption_factor = -0.1
 		}
 		
+		path = {
+			leads_to_tech = special_forces_training2
+			research_cost_coeff = 1
+		}
+		
 		special_forces_cap = 0.15
 		special_forces_training_time_factor = -0.1
 		
@@ -1572,6 +1578,11 @@ technologies = {
 			soft_attack = 0.05
 			defense = 0.05
 			supply_consumption_factor = 0.1
+		}
+		
+		path = {
+			leads_to_tech = special_forces_training2
+			research_cost_coeff = 1
 		}
 		
 		special_forces_no_supply_grace = 24
