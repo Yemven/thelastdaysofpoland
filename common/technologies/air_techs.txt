@@ -341,25 +341,6 @@ technologies = {
 		}
 	}
 	
-	helicopter_0 = {
-		research_cost = 2.5
-		start_year = 2027
-		enable_equipments = {
-			helicopter_0_equipment
-		}
-		path = {
-			leads_to_tech = helicopter_1
-			research_cost_coeff = 1
-		}
-		folder = {
-			name = air_techs_folder
-			position = {x = 2 y = 3}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	drone_1 = {
 		research_cost = 2.5
 		start_year = 2030
@@ -373,25 +354,6 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 6}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	helicopter_1 = {
-		research_cost = 2.5
-		start_year = 2030
-		enable_equipments = {
-			helicopter_1_equipment
-		}
-		path = {
-			leads_to_tech = helicopter_2
-			research_cost_coeff = 1
-		}
-		folder = {
-			name = air_techs_folder
-			position = {x = 2 y = 6}
 		}
 		ai_will_do = {
 			factor = 1
@@ -417,25 +379,6 @@ technologies = {
 		}
 	}
 	
-	helicopter_2 = {
-		research_cost = 2.5
-		start_year = 2033
-		enable_equipments = {
-			helicopter_2_equipment
-		}
-		path = {
-			leads_to_tech = helicopter_3
-			research_cost_coeff = 1
-		}
-		folder = {
-			name = air_techs_folder
-			position = {x = 2 y = 9}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	drone_3 = {
 		research_cost = 2.5
 		start_year = 2036
@@ -449,25 +392,6 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 12}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	helicopter_3 = {
-		research_cost = 2.5
-		start_year = 2036
-		enable_equipments = {
-			helicopter_3_equipment
-		}
-		path = {
-			leads_to_tech = helicopter_4
-			research_cost_coeff = 1
-		}
-		folder = {
-			name = air_techs_folder
-			position = {x = 2 y = 12}
 		}
 		ai_will_do = {
 			factor = 1
@@ -489,6 +413,90 @@ technologies = {
 		}
 	}
 	
+	helicopter_0 = {
+		research_cost = 2.5
+		start_year = 2027
+		enable_equipments = {
+			helicopter_0_equipment
+		}
+		path = {
+			leads_to_tech = helicopter_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = air_techs_folder
+			position = {x = 2 y = 3}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	helicopter_1 = {
+		research_cost = 2.5
+		start_year = 2030
+		enable_equipments = {
+			helicopter_1_equipment
+		}
+		path = {
+			leads_to_tech = helicopter_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = air_techs_folder
+			position = {x = 2 y = 6}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	helicopter_2 = {
+		research_cost = 2.5
+		start_year = 2033
+		enable_equipments = {
+			helicopter_2_equipment
+		}
+		path = {
+			leads_to_tech = transport_helicopter_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = helicopter_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = air_techs_folder
+			position = {x = 2 y = 9}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	
+	helicopter_3 = {
+		research_cost = 2.5
+		start_year = 2036
+		enable_equipments = {
+			helicopter_3_equipment
+		}
+		path = {
+			leads_to_tech = helicopter_4
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = air_techs_folder
+			position = {x = 2 y = 12}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	
 	helicopter_4 = {
 		research_cost = 2.5
 		start_year = 2040
@@ -503,4 +511,58 @@ technologies = {
 			factor = 1
 		}
 	}
+	
+	transport_helicopter_0 = {
+		research_cost = 2.5
+		start_year = 2033
+		enable_equipments = {
+			trans_helicopter_equipment_0
+		}
+		path = {
+			leads_to_tech = transport_helicopter_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = air_techs_folder
+			position = {x = 4 y = 9}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	transport_helicopter_1 = {
+		research_cost = 2.5
+		start_year = 2036
+		enable_equipments = {
+			trans_helicopter_equipment_1
+		}
+		path = {
+			leads_to_tech = transport_helicopter_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = air_techs_folder
+			position = {x = 4 y = 12}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	transport_helicopter_2 = {
+		research_cost = 2.5
+		start_year = 2040
+		enable_equipments = {
+			trans_helicopter_equipment_2
+		}
+		folder = {
+			name = air_techs_folder
+			position = {x = 4 y = 15}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 }
