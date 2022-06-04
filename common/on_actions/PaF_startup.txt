@@ -1,6 +1,12 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			EKS = {
+				country_event = {
+					id = eksrozpad.1
+					days = 3 
+					}
+			}			
 			EKW = {
 				country_event = {
 					id = ekwrozpad.1

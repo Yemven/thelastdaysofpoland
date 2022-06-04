@@ -133,10 +133,27 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = {
+		MNI_collapse_LCH = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 410
+						state = 402
+						state = 427
+						state = 797
+					}
+				}
+				remove_core_of = LEH
+				add_claim_by = LEH
+			}
+		}
+	}
 	option = {
 		name = LEH.5.a
-		country_event = LEH.6
-		release = LCH
+		country_event = { id = LEH.6
+		hours = 2 }
 	}
 }
 country_event = {
@@ -146,11 +163,28 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	
+	immediate = {
+		MNI_collapse_WAN = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 450
+						state = 463
+						state = 478
+					}
+				}
+				remove_core_of = LEH
+				add_claim_by = LEH
+			}
+		}
+	}
 	option = {
 		name = LEH.6.a
-		country_event = LEH.7
-		release = WAN
+		country_event = { id = LEH.7
+		hours = 2 }
+
 	}
 }
 country_event = {
@@ -160,11 +194,24 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	immediate = {
+		MNI_collapse_NYS = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 603
+					}
+				}
+				remove_core_of = LEH
+				add_claim_by = LEH
+			}
+		}
+	}
 	option = {
 		name = LEH.7.a
-		country_event = LEH.8
-		release = NYS
+		country_event = { id = LEH.8
+		hours = 2 }
 	}
 }
 country_event = {
@@ -175,6 +222,12 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = {
+		hidden_effect = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	
 	option = {
 		name = LEH.8.a
 		NYS = { change_tag_from = LEH }

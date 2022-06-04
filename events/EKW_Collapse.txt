@@ -185,8 +185,13 @@ country_event = {
 				id = ekwrozpad.6
 				days = 2
 			}
-
+		}
+		JAS = {
+			declare_war_on = {
+				target = EKW
+				type = annex_everything
 			}
+		}
 	}
 }
 country_event = {
@@ -241,6 +246,12 @@ country_event = {
 			country_event = {
 				id = ekwrozpad.11
 				days = 14
+			}
+			NAC = {
+				declare_war_on = {
+					target = WRT
+					type = annex_everything
+				}
 			}
 		}
 	}

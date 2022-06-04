@@ -1,0 +1,514 @@
+
+EKS_collapse_KES = {
+	hidden_effect = {
+		KES = {
+			add_state_core = 257
+			add_state_core = 843
+			add_state_core = 271
+			add_state_core = 292
+			add_state_core = 274
+			add_state_core = 298
+			add_state_core = 320
+			add_state_core = 285
+			add_state_core = 851
+			add_state_core = 311
+			add_state_core = 335
+			add_state_core = 342
+			add_state_core = 337
+			add_state_core = 359
+		}
+
+		EKS = {
+			KES = { transfer_technology = yes }
+			leave_faction = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = KES }
+			KES = { transfer_state = PREV }
+		}
+		KES = {
+			load_oob = "KES_2027"
+		}
+
+	}
+}
+
+EKS_collapse_WRO = {
+	hidden_effect = {
+		WRO = {
+			add_state_core = 312
+			add_state_core = 324
+			add_state_core = 334
+			add_state_core = 344
+			add_state_core = 338
+			add_state_core = 351
+			add_state_core = 343
+			add_state_core = 806
+			add_state_core = 376
+			add_state_core = 369
+			add_state_core = 606
+			add_state_core = 399
+			add_state_core = 409
+		}
+
+		EKS = {
+			WRO = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = WRO }
+			WRO = { transfer_state = PREV }
+		}
+
+
+		WRO = {
+			load_oob = "WRO_2027"
+		}
+
+	}
+}
+
+EKS_collapse_BRE = {
+	hidden_effect = {
+		BRE = {
+			add_state_core = 371
+			add_state_core = 607
+			add_state_core = 387 
+			add_state_core = 608
+			add_state_core = 388
+			add_state_core = 375
+		}
+		EKS = {
+			BRE = { transfer_technology = yes }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = BRE }
+			BRE = { transfer_state = PREV }
+		}
+
+
+		BRE = {
+			load_oob = "BRE_2027"
+		}
+
+	}
+}
+
+EKS_collapse_ZUL = {
+	hidden_effect = {
+		ZUL = {
+			add_state_core = 414
+			add_state_core = 605
+			add_state_core = 397
+			add_state_core = 419
+			add_state_core = 805
+		}
+
+		EKS = {
+			ZUL = { transfer_technology = yes }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = ZUL }
+			ZUL = { transfer_state = PREV }
+		}
+
+
+		ZUL = {
+			load_oob = "ZUL_2027"
+			set_cosmetic_tag = ZUL_UE
+		}
+
+	}
+}
+
+EKS_collapse_CZE = {
+	hidden_effect = {
+		CZE = {
+			add_state_core = 431
+			add_state_core = 434
+			add_state_core = 604
+			add_state_core = 452
+		}
+
+		EKS = {
+			CZE = { transfer_technology = yes }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = CZE }
+			CZE = { transfer_state = PREV }
+		}
+
+		CZE = {
+			load_oob = "CZE_2027"
+			set_cosmetic_tag = CZE_UE
+		}
+
+	}
+}
+
+
+EKS_collapse_OPO = {
+	hidden_effect = {
+		OPO = {
+			add_state_core = 380
+			add_state_core = 796
+		}
+
+		EKS = {
+			OPO = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = OPO }
+			OPO = { transfer_state = PREV }
+		}
+
+		every_state = {
+			limit = {
+				OR = {
+					state = 425
+					state = 428
+				}
+			}
+			add_claim_by = OPO
+		}
+
+		OPO = {
+			load_oob = "OPO_2027"
+		}
+
+	}
+}
+
+EKS_collapse_ZAG = {
+	hidden_effect = {
+		ZAG = {
+			add_state_core = 297
+			add_state_core = 313
+			add_state_core = 293
+			add_state_core = 308
+		}
+
+		EKS = {
+			ZAG = { transfer_technology = yes }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = ZAG }
+			ZAG = { transfer_state = PREV }
+		}
+
+		ZAG = {
+			load_oob = "ZAG_2027"
+		}
+
+	}
+}
+
+EKS_collapse_WIN = {
+	hidden_effect = {
+		WIN = {
+			add_state_core = 276
+			add_state_core = 251
+			add_state_core = 282
+			add_state_core = 609
+			add_state_core = 611
+			add_state_core = 295
+			add_state_core = 610
+			add_state_core = 287
+		}
+
+		EKS = {
+			WIN = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = WIN }
+			WIN = { transfer_state = PREV }
+		}
+
+		WIN = {
+			load_oob = "WIN_2027"
+		}
+
+	}
+}
+
+EKS_collapse_KGH = {
+	hidden_effect = {
+		KGH = {
+			add_state_core = 316
+			add_state_core = 325
+			add_state_core = 329
+			add_state_core = 729
+			add_state_core = 367
+			add_state_core = 381
+			add_state_core = 356
+			add_state_core = 725
+			add_state_core = 726
+			add_state_core = 727
+			add_state_core = 728
+		}
+
+		EKS = {
+			KGH = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = KGH }
+			KGH = { transfer_state = PREV }
+		}
+
+		KGH = {
+			load_oob = "KGH_2027"
+		}
+
+	}
+}
+
+EKS_collapse_SUS = {
+	hidden_effect = {
+		SUS = {
+			add_state_core = 264
+			add_state_core = 245
+			add_state_core = 291
+			add_state_core = 253
+			add_state_core = 248
+			add_state_core = 691
+			add_state_core = 299
+		}
+
+		EKS = {
+			SUS = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = SUS }
+			SUS = { transfer_state = PREV }
+		}
+
+		SUS = {
+			load_oob = "SUS_2027"
+		}
+
+	}
+}
+
+EKS_collapse_CYG = {
+	hidden_effect = {
+		CYG = {
+			add_state_core = 381
+			add_state_core = 356
+			add_state_core = 367
+			add_state_core = 729
+			add_state_core = 726
+			add_state_core = 725
+		}
+
+		KGH = {
+			CYG = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = CYG }
+			CYG = { transfer_state = PREV }
+		}
+
+		CYG = {
+			load_oob = "CYG_2027"
+		}
+
+	}
+}
+
+EKS_collapse_TOU = {
+	hidden_effect = {
+		TOU = {
+			add_state_core = 401
+			add_state_core = 407
+			add_state_core = 408
+		}
+
+		EKS = {
+			TOU = { transfer_technology = yes }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = TOU }
+			TOU = { transfer_state = PREV }
+		}
+
+		TOU = {
+			load_oob = "TOU_2027"
+		}
+
+	}
+}
+
+EKS_collapse_MNL = {
+	hidden_effect = {
+		MNL = {
+			add_state_core = 605
+			add_state_core = 397
+		}
+
+		ZUL = {
+			MNL = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = MNL }
+			MNL = { transfer_state = PREV }
+		}
+
+		MNL = {
+			load_oob = "MNL_2027"
+		}
+
+	}
+}
+
+EKS_collapse_ANA = {
+	hidden_effect = {
+		ANA = {
+			add_state_core = 419
+		}
+
+		ZUL = {
+			ANA = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = ANA }
+			ANA = { transfer_state = PREV }
+		}
+
+		ANA = {
+			load_oob = "ANA_2027"
+		}
+
+	}
+}
+
+
+EKS_collapse_FEM = {
+	hidden_effect = {
+		FEM = {
+			add_state_core = 805
+		}
+
+		ZUL = {
+			FEM = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = FEM }
+			FEM = { transfer_state = PREV }
+		}
+
+		FEM = {
+			load_oob = "FEM_2027"
+		}
+
+	}
+}
+
+
+EKS_collapse_BOG = {
+	hidden_effect = {
+		BOG = {
+			add_state_core = 803
+		}
+
+		EKS = {
+			BOG = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = BOG }
+			BOG = { transfer_state = PREV }
+		}
+
+		BOG = {
+			load_oob = "BOG_2027"
+		}
+
+	}
+}
+
+EKS_collapse_ECO = {
+	hidden_effect = {
+		ECO = {
+			add_state_core = 336
+			add_state_core = 339
+		}
+
+		ZUL = {
+			ECO = { transfer_technology = yes }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = ECO }
+			ECO = { transfer_state = PREV }
+		}
+
+		ECO = {
+			load_oob = "ECO_2027"
+		}
+
+	}
+}
+
+
+EKS_collapse_RYB = {
+	hidden_effect = {
+		RYB = {
+			add_state_core = 312
+			add_state_core = 324
+			add_state_core = 334
+			add_state_core = 338
+			add_state_core = 344
+		}
+
+		WRO = {
+			RYB = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = RYB }
+			RYB = { transfer_state = PREV }
+		}
+
+		RYB = {
+			load_oob = "RYB_2027"
+		}
+
+	}
+}
+
+
+EKS_collapse_OLE = {
+	hidden_effect = {
+		OLE = {
+			add_state_core = 351
+		}
+
+		WRO = {
+			OLE = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = OLE }
+			OLE = { transfer_state = PREV }
+		}
+
+		OLE = {
+			load_oob = "OLE_2027"
+		}
+
+	}
+}
