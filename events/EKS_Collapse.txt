@@ -1,0 +1,711 @@
+﻿add_namespace = eksrozpad
+
+
+
+country_event = {
+	id = eksrozpad.1
+	title = eksrozpad.1.t
+	desc = eksrozpad.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKS_collapse_ZAG = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 297
+						state = 293
+						state = 313
+						state = 308
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+	option = {
+		name = eksrozpad.1.a
+		EKS = {
+			country_event = {
+			id = eksrozpad.2
+			days = 2
+			}
+		}
+	}
+}
+country_event = {
+	id = eksrozpad.2
+	title = eksrozpad.2.t
+	desc = eksrozpad.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		EKS_collapse_KES = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 257
+						state = 843
+						state = 271
+						state = 292
+						state = 274
+						state = 298
+						state = 320
+						state = 285
+						state = 851
+						state = 311
+						state = 335
+						state = 342
+						state = 337
+						state = 359
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.2.a
+			EKS = {
+			country_event = {
+			id = eksrozpad.3
+			days = 1
+				}
+			}
+			
+	}
+}
+country_event = {
+	id = eksrozpad.3
+	title = eksrozpad.3.t
+	desc = eksrozpad.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		EKS_collapse_WRO = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 312
+						state = 324
+						state = 334
+						state = 344
+						state = 338
+						state = 351
+						state = 343
+						state = 806
+						state = 376
+						state = 369
+						state = 606
+						state = 399
+						state = 409
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.3.a
+		country_event = {
+			id = eksrozpad.4
+			hours = 2
+			}
+	}
+}
+country_event = {
+	id = eksrozpad.4
+	title = eksrozpad.4.t
+	desc = eksrozpad.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		EKS_collapse_BRE = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 371
+						state = 607
+						state = 387 
+						state = 608
+						state = 388
+						state = 375
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.4.a
+		EKS = {
+			country_event = {
+				id = eksrozpad.5
+				days = 2
+			}
+			country_event = {
+				id = eksrozpad.6
+				days = 3
+			}
+		}
+		WRO = {
+			country_event = {
+				id = eksrozpad.18
+				days = 14
+			}
+			country_event = {
+				id = eksrozpad.19
+				days = 18
+			}				
+		}
+		BRE = {
+		declare_war_on = {
+			target = WRO
+			type = annex_everything
+		}
+		}
+	}
+}
+country_event = {
+	id = eksrozpad.5
+	title = eksrozpad.5.t
+	desc = eksrozpad.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		EKS_collapse_ZUL = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 414
+						state = 605
+						state = 397
+						state = 419
+						state = 805
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.5.a
+			country_event = {
+				id = eksrozpad.7
+				days = 4
+			}
+	}
+}
+
+country_event = {
+	id = eksrozpad.6
+	title = eksrozpad.6.t
+	desc = eksrozpad.6.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		EKS_collapse_CZE = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 431
+						state = 434
+						state = 604
+						state = 452
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.6.a
+			country_event = {
+				id = eksrozpad.8
+				days = 10
+			}
+		}
+	}
+
+country_event = {
+	id = eksrozpad.7
+	title = eksrozpad.7.t
+	desc = eksrozpad.7.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKS_collapse_KGH = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 316
+						state = 325
+						state = 329
+						state = 729
+						state = 367
+						state = 381
+						state = 356
+						state = 725
+						state = 726
+						state = 727
+						state = 728
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.7.a
+		country_event = {
+			id = eksrozpad.9
+			days = 1
+			}
+		country_event = {
+			id = eksrozpad.10
+			days = 2
+			}
+
+	}
+}
+country_event = {
+	id = eksrozpad.8
+	title = eksrozpad.8.t
+	desc = eksrozpad.8.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		EKS_collapse_OPO = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 380
+						state = 796
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.8.a
+		MNI = {
+			country_event = {
+				id = opolesiepali.1
+				days = 7
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eksrozpad.9
+	title = eksrozpad.9.t
+	desc = eksrozpad.9.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKS_collapse_WIN = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 276
+						state = 251
+						state = 282
+						state = 609
+						state = 611
+						state = 295
+						state = 610
+						state = 287
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.9.a
+	}
+}
+
+country_event = {
+	id = eksrozpad.10
+	title = eksrozpad.10.t
+	desc = eksrozpad.10.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKS_collapse_SUS = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 264
+						state = 245
+						state = 291
+						state = 253
+						state = 248
+						state = 691
+						state = 299
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.10.a
+		KGH = {
+		country_event = {
+			id = eksrozpad.12
+			days = 7
+			}
+		}
+		EKS = {
+		country_event = {
+			id = eksrozpad.11
+			days = 9
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eksrozpad.11
+	title = eksrozpad.11.t
+	desc = eksrozpad.11.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKS_collapse_TOU = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 401
+						state = 407
+						state = 408
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.11.a
+		EKS = {
+		country_event = {
+			id = eksrozpad.16
+			days = 3
+			}
+		country_event = {
+			id = eksrozpad.17
+			days = 5
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = eksrozpad.12
+	title = eksrozpad.12.t
+	desc = eksrozpad.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKS_collapse_CYG = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 729
+						state = 367
+						state = 381
+						state = 356
+						state = 725
+						state = 726
+					}
+				}
+				remove_core_of = KGH
+				add_claim_by = KGH
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.12.a
+		ZUL = {
+		country_event = {
+			id = eksrozpad.13
+			days = 7
+			}
+		country_event = {
+			id = eksrozpad.14
+			days = 7
+			}
+		country_event = {
+			id = eksrozpad.15
+			days = 8
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = eksrozpad.13
+	title = eksrozpad.13.t
+	desc = eksrozpad.13.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKS_collapse_MNL = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 605
+						state = 397
+					}
+				}
+				remove_core_of = ZUL
+				add_claim_by = ZUL
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.13.a
+	}
+}
+
+country_event = {
+	id = eksrozpad.14
+	title = eksrozpad.14.t
+	desc = eksrozpad.14.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKS_collapse_ANA = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 419
+					}
+				}
+				remove_core_of = ZUL
+				add_claim_by = ZUL
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.14.a
+	}
+}
+
+country_event = {
+	id = eksrozpad.15
+	title = eksrozpad.15.t
+	desc = eksrozpad.15.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKS_collapse_FEM = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 805
+					}
+				}
+				remove_core_of = ZUL
+				add_claim_by = ZUL
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.15.a
+	}
+}
+
+
+country_event = {
+	id = eksrozpad.16
+	title = eksrozpad.16.t
+	desc = eksrozpad.16.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKS_collapse_ECO = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 336
+						state = 339
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.16.a
+	}
+}
+
+
+country_event = {
+	id = eksrozpad.17
+	title = eksrozpad.17.t
+	desc = eksrozpad.17.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		EKS_collapse_BOG = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 803
+					}
+				}
+				remove_core_of = EKS
+				add_claim_by = EKS
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.17.a
+	}
+}
+
+country_event = {
+	id = eksrozpad.18
+	title = eksrozpad.18.t
+	desc = eksrozpad.18.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		EKS_collapse_RYB = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 312
+						state = 324
+						state = 334
+						state = 344
+						state = 338
+					}
+				}
+				remove_core_of = WRO
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.18.a
+	}
+}
+
+
+country_event = {
+	id = eksrozpad.19
+	title = eksrozpad.19.t
+	desc = eksrozpad.19.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		EKS_collapse_OLE = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 351
+					}
+				}
+				remove_core_of = WRO
+			}
+		}
+	}
+
+	option = {
+		name = eksrozpad.19.a
+	}
+}

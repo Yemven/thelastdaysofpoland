@@ -1,0 +1,19 @@
+﻿add_namespace = felix
+
+country_event = {
+	id = felix.1
+	title = felix.1.t
+	desc = felix.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.1.a
+		declare_war_on = {
+			target = KES
+			type = annex_everything
+		}
+		
+	}
+}
