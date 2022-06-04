@@ -10,7 +10,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		experience_gain_navy_factor = 0.5
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 0 y = 0 }
@@ -32,7 +32,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		naval_damage_factor = 0.05
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 0 y = 2 }
@@ -65,7 +65,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		naval_accidents_chance = -0.1
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 0 y = 4 }
@@ -103,7 +103,11 @@ technologies = {
 			name = naval_doctrine_folder
 			position = { x = -2 y = 6 }
 		}
-		
+		experience_gain_torpedo_boat_training_factor = 0.1
+		experience_gain_torpedo_boat_combat_factor = 0.1
+		torpedo_boat = {
+			lg_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -127,7 +131,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		convoy_escort_efficiency = 0.1
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = -3 y = 8 }
@@ -156,7 +160,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		convoy_retreat_speed=0.1
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = -3 y = 10 }
@@ -182,7 +186,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		naval_mines_effect_reduction=0.1
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = -3 y = 12 }
@@ -216,7 +220,7 @@ technologies = {
 			name = naval_doctrine_folder
 			position = { x = -1 y = 8 }
 		}
-		
+		convoy_raiding_efficiency_factor = 0.1
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -240,7 +244,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		naval_retreat_chance_after_initial_combat = 0.1
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = -1 y = 10 }
@@ -271,7 +275,7 @@ technologies = {
 			name = naval_doctrine_folder
 			position = { x = -1 y = 12 }
 		}
-		
+		naval_enemy_retreat_chance = -0.1
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -299,7 +303,16 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		experience_gain_monitor_training_factor = 0.1
+		experience_gain_monitor_combat_factor = 0.1
+		experience_gain_heavy_monitor_training_factor = 0.1
+		experience_gain_heavy_monitor_combat_factor = 0.1
+		monitor = {
+			hg_attack = 0.1
+		}
+		heavy_monitor = {
+			hg_attack = 0.1
+		}
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 2 y = 6 }
@@ -328,7 +341,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		convoy_escort_efficiency = 0.05
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 1 y = 8 }
@@ -362,7 +375,7 @@ technologies = {
 			name = naval_doctrine_folder
 			position = { x = 1 y = 10 }
 		}
-		
+		screening_efficiency = 0.1
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -383,7 +396,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		naval_coordination = 0.1
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 1 y = 12 }
@@ -412,7 +425,12 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		monitor = {
+			lg_attack = 0.1
+		}
+		heavy_monitor = {
+			lg_attack = 0.1
+		}
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 3 y = 8 }
@@ -441,7 +459,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		screening_without_screens = 0.05
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 3 y = 10 }
@@ -467,7 +485,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 		}
-		
+		strike_force_movement_org_loss = -0.1
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 3 y = 12 }
