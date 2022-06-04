@@ -627,4 +627,51 @@ ideas = {
 			cancel_if_invalid = no 
 		}
 	}
+	
+	armament_company = {
+	
+	pgz_company = {
+
+			research_bonus = {
+				armor = 0.15
+			}
+
+			traits = { fast_tank_manufacturer }
+		
+		cost = 200
+		
+			modifier = {
+			army_org_factor = 0.20
+			}
+		}
+		
+	fb_radom_company = {
+
+			research_bonus = {
+				armor = 0.15
+			}
+
+			traits = { fast_tank_manufacturer }
+		
+		cost = 200
+		
+			modifier = {
+			}
+		}
+	rosomak_sa_company = {
+
+			research_bonus = {
+				armor = 0.15
+			}
+
+			traits = { rosomak_sa_company }
+		
+		cost = 200
+		
+			modifier = {
+			}
+		}
+		
+	}
+	
 }
