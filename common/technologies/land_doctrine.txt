@@ -1201,17 +1201,12 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 		
-		forest = {
-			attack = 0.1
-			defense = 0.1
-		}
-		
-		on_research_complete = {
-			hidden_effect = {
-			
+		infantry = {
+			forest = {
+				attack = 0.1
+				defence = 0.1
 			}
 		}
-
 		
 		doctrine = yes
 		categories = {
