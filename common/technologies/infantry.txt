@@ -826,16 +826,10 @@ technologies = {
 		cas_damage_reduction = 0.05
 		land_reinforce_rate = 0.01
 		
-		category_all_infantry = {
+		category_ranged_infantry = {
 			casualty_trickleback  = 0.03
 		}
-		
-		hidden_effect = {
-		melee_infantry = {
-		casualty_trickleback  = -0.03
-		}
-		}
-		
+	
 		
 		categories = {
 			infantry_weapons
@@ -885,14 +879,8 @@ technologies = {
 		cas_damage_reduction = 0.05
 		land_reinforce_rate = 0.01
 		
-		category_all_infantry = {
+		category_ranged_infantry = {
 			casualty_trickleback  = 0.03
-		}
-		
-		hidden_effect = {
-		melee_infantry = {
-		casualty_trickleback  = -0.03
-		}
 		}
 		
 		categories = {
@@ -943,14 +931,8 @@ technologies = {
 		cas_damage_reduction = 0.05
 		land_reinforce_rate = 0.01
 		
-		category_all_infantry = {
+		category_ranged_infantry = {
 			casualty_trickleback  = 0.03
-		}
-		
-		hidden_effect = {
-		melee_infantry = {
-		casualty_trickleback  = -0.03
-		}
 		}
 		
 		categories = {
@@ -1001,14 +983,8 @@ technologies = {
 		cas_damage_reduction = 0.03
 		land_reinforce_rate = 0.01
 		
-		category_all_infantry = {
+		category_ranged_infantry = {
 			casualty_trickleback  = 0.03
-		}
-		
-		hidden_effect = {
-		melee_infantry = {
-		casualty_trickleback  = -0.03
-		}
 		}
 		
 		categories = {
@@ -1054,15 +1030,10 @@ technologies = {
 		cas_damage_reduction = 0.03
 		land_reinforce_rate = 0.01
 		
-		category_all_infantry = {
+		category_ranged_infantry = {
 			casualty_trickleback  = 0.03
 		}
 		
-		hidden_effect = {
-		melee_infantry = {
-		casualty_trickleback  = -0.03
-		}
-		}
 		
 		categories = {
 			infantry_weapons

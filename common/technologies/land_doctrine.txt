@@ -105,7 +105,7 @@ technologies = {
 		
 		melee_infantry = {
 			max_organisation = 2
-			army_org_regain = 0.05
+			default_morale = 0.05
 		}
 		
 		doctrine = yes
@@ -454,13 +454,14 @@ technologies = {
 		
 		motorized = {
 			soft_attack = 0.05
-			land_reinforce_rate = 0.2
+			initiative = 0.2
 		}
 		mechanized = {
 			soft_attack = 0.05
-			land_reinforce_rate = 0.2
+			initiative = 0.2
 		}
-		production_factory_efficiency = 0.15
+		#production_factory_efficiency = 0.15 #co koder miał na myśli?
+		industrial_capacity_factory = 0.15
 		
 		doctrine = yes
 		categories = {
@@ -619,8 +620,10 @@ technologies = {
 		
 		category_all_infantry = {
 			max_organisation = 8
-			land_reinforce_rate = 0.15
+			#land_reinforce_rate = 0.15 #miał ktoś na myśli odzyskiwanie org?
+			initiative = 0.15
 		}
+		
 		
 		doctrine = yes
 		categories = {
@@ -816,13 +819,13 @@ technologies = {
 		
 		
 		anti_air_brigade = {
-			offensive = 0.1
+			air_attack = 0.1
 			defense = 0.1
 		}
 		
 		
 		mot_anti_air_brigade = {
-			offensive = 0.1
+			air_attack = 0.1
 			defense = 0.1
 		}
 		
@@ -1198,13 +1201,17 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 		
-
-		
 		forest = {
 			attack = 0.1
 			defense = 0.1
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
 			
+			}
+		}
+
 		
 		doctrine = yes
 		categories = {
