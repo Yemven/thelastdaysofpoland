@@ -303,15 +303,22 @@ ideas = {
 	industrial_company = {
 
 		ec_belchatow = {
+			picture = generic_industrial_concern_1
+
+			cost = 200
+			
 			visible = {
 				ROOT = {
 					controls_province = 10234
 					}
 				}
-			traits = { infantry_equipment_producer_offense_1 }
+				
+			traits = { industrial_company }
+			
 			research_bonus = {
 				industry = 0.1
 				}
+
 		}
 	}
 }
