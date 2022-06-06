@@ -75,10 +75,22 @@ country_event = {
 
 	option = {
 		name = eksrozpad.2.a
-			EKS = {
+		EKS = {
 			country_event = {
 			id = eksrozpad.3
 			days = 1
+				}
+			}
+		FEL = {
+			country_event = {
+			id = felix.1
+			days = 6
+				}
+			}
+		CAL = {
+			country_event = {
+			id = calisia.1
+			days = 8
 				}
 			}
 			
@@ -503,6 +515,12 @@ country_event = {
 			days = 8
 			}
 		}
+		CYG = {
+		declare_war_on = {
+			target = KGH
+			type = annex_everything
+		}
+	}
 	}
 }
 
