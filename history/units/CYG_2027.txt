@@ -1,0 +1,65 @@
+﻿division_template = {
+	name = "Gypsy Wagenburg"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		armored_car = { x = 2 y = 0 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Gypsy Walkers"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "Great Tabor Wagenburg"
+		location = 7441
+		division_template = "Gypsy Wagenburg"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Wędrowcy Cygańscy"
+		location = 7442
+		division_template = "Gypsy Walkers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Wędrowcy Cygańscy"
+		location = 2302
+		division_template = "Gypsy Walkers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Wędrowcy Cygańscy"
+		location = 13114
+		division_template = "Gypsy Walkers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Wędrowcy Cygańscy"
+		location = 785
+		division_template = "Gypsy Walkers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+}
