@@ -1,0 +1,756 @@
+
+
+is_zaglebie_and_jura = {
+	OR = {
+		tag = CCH
+		tag = BRZ
+		tag = JWK
+		tag = ZAW
+		tag = DGR
+		tag = SOS
+		tag = JAW
+	}
+}
+
+is_upper_silesia = {
+	OR = {
+		tag = ASG
+		tag = RAS
+		tag = CHO
+		tag = RUD
+		tag = FER
+		tag = GLI
+		tag = TRC
+		tag = KAT
+		tag = JSW
+		tag = WOD
+	}
+}
+
+is_tatry_region = {
+	OR = { 
+		tag = CIE
+		tag = BSK
+		tag = MSL
+		tag = GUR
+		tag = SCZ
+		tag = LEM
+	}
+}
+
+is_lesser_poland = {
+	OR = {
+		tag = OSW
+		tag = WDW
+		tag = KRK 
+		tag = NHT
+		tag = PRK
+		tag = SKW
+		tag = UMN
+		tag = BOH
+		tag = TRN
+	}
+}
+
+is_subcarpathia = {
+	OR = {
+		tag = BEX
+		tag = KRO
+		tag = JSO
+		tag = DBI
+		tag = KOZ
+		tag = UPA
+		tag = ANC
+		tag = BSC
+		tag = UHR
+		tag = RZE
+		tag = MIE
+		tag = KOL
+		tag = TAR
+		tag = CHR
+		tag = LEZ
+		tag = LCZ
+		tag = LGP
+	}
+}
+
+is_holy_cross = {
+	OR = {
+		tag = STO
+		tag = KEL
+		tag = NRA
+		tag = NSZ
+		tag = KIE
+		tag = SND
+		tag = STA
+		tag = PRK
+	}
+}
+
+is_lubelskie = {
+	OR = {
+		tag = SWD
+		tag = CRN
+		tag = KSN
+		tag = ZUK
+		tag = BIL
+		tag = BPD
+		tag = PUL
+	}
+}
+
+is_radom_province = {
+	OR = {
+		tag = SAT
+		tag = RAD
+		tag = GAR
+		tag = SKA
+	}
+}
+
+is_capital_district = {
+	OR = {
+		tag = DUP
+		tag = LAS
+		tag = WOW
+		tag = ZYR
+		tag = MAF
+		tag = WOL
+		tag = ZIE
+		tag = BIE
+		tag = PLC
+		tag = LEG
+		tag = TVP
+		tag = TRZ
+	}
+}
+
+is_mazovia = {
+	OR = {
+		tag = POL
+		tag = SAS
+		tag = ORL
+		tag = AGR
+		tag = SDL
+		tag = KUR
+		tag = ZWK
+	}
+}
+
+is_podlasie = {
+	OR = {
+		tag = KON
+		tag = BOM
+		tag = TNO
+		tag = COL
+		tag = LMZ
+		tag = ZAM
+		tag = HMA
+		tag = WIL
+		tag = UHL
+		tag = BEL
+		tag = DRO
+		tag = ZAB
+		tag = SUP
+		tag = GRO
+		tag = TYK
+		tag = TAT
+		tag = OSO
+		tag = DAM
+		tag = BRD
+		tag = AUG
+		tag = SAN
+		tag = SEI
+		tag = RAJ
+	}
+}
+
+is_warmia_and_masuria = {
+	OR = {
+		tag = PZW
+		tag = PRU
+		tag = TEU
+		tag = WAR
+		tag = ROS
+		tag = MAL
+	}
+}
+
+is_pomerelia = {
+	OR = {
+		tag = KOR
+		tag = LOT
+		tag = GDA
+		tag = BOL
+		tag = OWS
+		tag = ARK
+		tag = KSZ
+		tag = GAY
+		tag = CZL
+		tag = HEL
+	}
+}
+
+is_kuyavia = {
+	OR = {
+		tag = KUJ
+		tag = GRU
+		tag = BYD
+		tag = TOR
+		tag = INO
+	}
+}
+
+is_lodzkie = {
+	OR = { 
+		tag = KRS
+		tag = BBW
+		tag = ZHP
+		tag = SAP
+		tag = ZYD
+		tag = WML
+	}
+}
+
+is_west_pomerania = { 
+	OR = {
+		tag = JOM
+		tag = USP
+		tag = KOS
+		tag = POM
+		tag = SWI
+		tag = STE
+		tag = EKW
+		tag = JAS
+	}
+}
+
+is_lubuskie = {
+	OR = {
+		tag = KAM
+		tag = MOT
+		tag = WIN
+		tag = ZAG
+	}
+}
+
+is_northern_greater_poland = {
+	OR = {
+		tag = PIL
+		tag = WRT
+		tag = NAC
+		tag = SYJ
+		tag = POZ
+		tag = SLU
+	}
+}
+
+is_southern_greater_poland = {
+	OR = {
+		tag = SUS
+		tag = KES
+		tag = FEL
+		tag = CAL
+		tag = GNI
+	}
+}
+
+is_opolskie = {
+	OR = { 
+		tag = OPO
+		tag = MNI
+		tag = LEH
+		tag = LCH
+		tag = NYS
+		tag = WAN
+	}
+}
+
+is_lower_silesia = {
+	OR = {
+		tag = CZE
+		tag = ANA
+		tag = FEM
+		tag = MNL
+		tag = ZUL
+		tag = MPK
+		tag = BRE
+		tag = WRO
+		tag = OLE
+		tag = RYB
+		tag = KGH
+		tag = CYG
+		tag = TOU
+		tag = ECO
+		tag = EKS
+		tag = BOG
+	}
+}
+
+is_lower_silesian_unifier = {
+	OR = {
+		tag = CZE
+		tag = ANA
+		tag = MNL
+		tag = ZUL
+		tag = MPK
+		tag = WRO
+		tag = RYB
+		tag = KGH
+		tag = CYG
+		tag = TOU
+		tag = EKS
+		tag = KAM
+		tag = MOT
+		tag = WIN
+		tag = ZAG
+	}
+}
+
+is_upper_silesian_unifier = {
+	OR = {
+		tag = RAS
+		tag = CHO
+		tag = GLI
+		tag = KAT
+		tag = JSW
+		tag = WOD
+		tag = OPO
+		tag = MNI
+		tag = LEH
+		tag = LCH
+		tag = WAN
+	}
+}
+
+is_lesser_poland_unifier = {
+	OR = {
+		tag = OSW
+		tag = WDW
+		tag = KRK 
+		tag = NHT
+		tag = PRK
+		tag = TRN
+		tag = CCH
+		tag = BRZ
+		tag = JWK
+		tag = ZAW
+		tag = DGR
+		tag = SOS
+		tag = JAW
+		tag = CIE
+		tag = BSK
+		tag = MSL
+		tag = GUR
+		tag = SCZ
+		tag = HOR
+	}
+}
+
+is_holycarpathia_unifier = {
+	OR = { 
+		tag = BEX
+		tag = KRO
+		tag = KOZ
+		tag = UPA
+		tag = BSC
+		tag = RZE
+		tag = TAR
+		tag = CHR
+		tag = LGP
+		tag = STO
+		tag = KEL
+		tag = NRA
+		tag = NSZ
+		tag = KIE
+		tag = SND
+		}
+}
+
+is_radom_and_lublin_unifier = {
+	OR = {
+		tag = SWD
+		tag = CRN
+		tag = KSN
+		tag = ZUK
+		tag = BIL
+		tag = BPD
+		tag = PUL
+		tag = SAT
+		tag = RAD
+		tag = GAR
+		tag = SKA
+	}
+}
+
+is_greater_podlasie_unifier = {
+	OR = {
+		tag = KON
+		tag = BOM
+		tag = LMZ
+		tag = BEL
+		tag = TAT
+		tag = SAN
+		tag = POL
+		tag = SAS
+		tag = ORL
+		tag = AGR
+		tag = SDL
+	}
+}
+
+is_pomerania_unifier = {
+	OR = {
+		tag = KOR
+		tag = GDA
+		tag = BOL
+		tag = OWS
+		tag = GAY
+		tag = CZL
+		tag = HEL
+		tag = JOM
+		tag = USP
+		tag = SWI
+		tag = STE
+		tag = EKW
+		tag = JAS
+	}
+}
+
+is_kuyavia_and_greater_poland_unifier = {
+	OR = {
+		tag = PIL
+		tag = NAC
+		tag = SYJ
+		tag = POZ
+		tag = SLU
+		tag = KUJ
+		tag = GRU
+		tag = BYD
+		tag = TOR
+		tag = INO
+	}
+}
+
+is_lodz_and_kalisz_unifier = {
+	OR = {
+		tag = KRS
+		tag = BBW
+		tag = ZHP
+		tag = SAP
+		tag = ZYD
+		tag = WML
+		tag = SUS
+		tag = FEL
+		tag = CAL
+		tag = GNI
+	}
+}
+
+is_silesia_unifier = {
+	OR = {
+		tag = RAS
+		tag = CHO
+		tag = GLI
+		tag = KAT
+		tag = JSW
+		tag = WOD
+		tag = OPO
+		tag = MNI
+		tag = LEH
+		tag = LCH
+		tag = WAN
+		tag = CZE
+		tag = ANA
+		tag = MNL
+		tag = ZUL
+		tag = MPK
+		tag = WRO
+		tag = RYB
+		tag = KGH
+		tag = CYG
+		tag = TOU
+		tag = EKS
+		tag = KAM
+		tag = MOT
+		tag = WIN
+		tag = ZAG	
+	}
+}
+
+is_western_poland_unifier = {
+	OR = {
+		tag = PIL
+		tag = NAC
+		tag = SYJ
+		tag = POZ
+		tag = SLU
+		tag = KUJ
+		tag = GRU
+		tag = BYD
+		tag = TOR
+		tag = INO
+		tag = KOR
+		tag = GDA
+		tag = BOL
+		tag = OWS
+		tag = GAY
+		tag = CZL
+		tag = HEL
+		tag = JOM
+		tag = USP
+		tag = SWI
+		tag = STE
+		tag = EKW
+		tag = JAS
+		tag = KRS
+		tag = BBW
+		tag = ZHP
+		tag = SAP
+		tag = ZYD
+		tag = WML
+		tag = SUS
+		tag = FEL
+		tag = CAL
+		tag = GNI
+	}
+}
+
+is_eastern_poland_unifier = {
+	OR = {
+		tag = KON
+		tag = BOM
+		tag = LMZ
+		tag = BEL
+		tag = TAT
+		tag = SAN
+		tag = POL
+		tag = SAS
+		tag = ORL
+		tag = AGR
+		tag = SDL
+		
+		tag = PZW
+		tag = PRU
+		tag = TEU
+		tag = WAR
+		tag = ROS
+		tag = MAL
+
+		tag = DUP
+		tag = WOW
+		tag = ZYR
+		tag = MAF
+		tag = ZIE
+		tag = BIE
+		tag = PLC
+		tag = TVP
+		tag = TRZ
+	}
+}
+
+is_galicia_unifier = {
+	OR = {
+		tag = SWD
+		tag = CRN
+		tag = KSN
+		tag = ZUK
+		tag = BIL
+		tag = BPD
+		tag = PUL
+		
+		tag = SAT
+		tag = RAD
+		tag = GAR
+		tag = SKA
+		
+		tag = OSW
+		tag = WDW
+		tag = KRK 
+		tag = NHT
+		tag = PRK
+		tag = TRN
+		
+		tag = CCH
+		tag = BRZ
+		tag = JWK
+		tag = ZAW
+		tag = DGR
+		tag = SOS
+		tag = JAW
+		
+		tag = CIE
+		tag = BSK
+		tag = MSL
+		tag = GUR
+		tag = SCZ
+		
+		tag = HOR
+		tag = BEX
+		tag = KRO
+		tag = KOZ
+		tag = UPA
+		tag = BSC
+		tag = RZE
+		tag = TAR
+		tag = CHR
+		tag = LGP
+		
+		tag = STO
+		tag = KEL
+		tag = NRA
+		tag = NSZ
+		tag = KIE
+		tag = SND
+	}
+}
+
+is_poland_a_unifier = {
+	OR = {
+		tag = PIL
+		tag = NAC
+		tag = SYJ
+		tag = POZ
+		tag = SLU
+		tag = KUJ
+		tag = GRU
+		tag = BYD
+		tag = TOR
+		tag = INO
+		tag = KOR
+		tag = GDA
+		tag = BOL
+		tag = OWS
+		tag = GAY
+		tag = CZL
+		tag = HEL
+		tag = JOM
+		tag = USP
+		tag = SWI
+		tag = STE
+		tag = EKW
+		tag = JAS
+		tag = KRS
+		tag = BBW
+		tag = ZHP
+		tag = SAP
+		tag = ZYD
+		tag = WML
+		tag = SUS
+		tag = FEL
+		tag = CAL
+		tag = GNI
+		
+		tag = RAS
+		tag = CHO
+		tag = GLI
+		tag = KAT
+		tag = JSW
+		tag = WOD
+		tag = OPO
+		tag = MNI
+		tag = LEH
+		tag = LCH
+		tag = WAN
+		tag = CZE
+		tag = ANA
+		tag = MNL
+		tag = ZUL
+		tag = MPK
+		tag = WRO
+		tag = RYB
+		tag = KGH
+		tag = CYG
+		tag = TOU
+		tag = EKS
+		tag = KAM
+		tag = MOT
+		tag = WIN
+		tag = ZAG	
+	}
+}
+
+is_poland_b_unifier = {
+	OR = { 
+		tag = SWD
+		tag = CRN
+		tag = KSN
+		tag = ZUK
+		tag = BIL
+		tag = BPD
+		tag = PUL
+		
+		tag = SAT
+		tag = RAD
+		tag = GAR
+		tag = SKA
+		
+		tag = OSW
+		tag = WDW
+		tag = KRK 
+		tag = NHT
+		tag = PRK
+		tag = TRN
+		
+		tag = CCH
+		tag = BRZ
+		tag = JWK
+		tag = ZAW
+		tag = DGR
+		tag = SOS
+		tag = JAW
+		
+		tag = CIE
+		tag = BSK
+		tag = MSL
+		tag = GUR
+		tag = SCZ
+		
+		tag = HOR
+		tag = BEX
+		tag = KRO
+		tag = KOZ
+		tag = UPA
+		tag = BSC
+		tag = RZE
+		tag = TAR
+		tag = CHR
+		tag = LGP
+		
+		tag = STO
+		tag = KEL
+		tag = NRA
+		tag = NSZ
+		tag = KIE
+		tag = SND
+
+		tag = KON
+		tag = BOM
+		tag = LMZ
+		tag = BEL
+		tag = TAT
+		tag = SAN
+		tag = POL
+		tag = SAS
+		tag = ORL
+		tag = AGR
+		tag = SDL
+		
+		tag = PZW
+		tag = PRU
+		tag = TEU
+		tag = WAR
+		tag = ROS
+		tag = MAL
+
+		tag = DUP
+		tag = WOW
+		tag = ZYR
+		tag = MAF
+		tag = ZIE
+		tag = BIE
+		tag = PLC
+		tag = TVP
+		tag = TRZ
+	}
+}
