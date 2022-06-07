@@ -754,3 +754,81 @@ is_poland_b_unifier = {
 		tag = TRZ
 	}
 }
+
+can_unify_lodz = {
+AND = {
+	has_war = no
+	is_lodzkie = yes
+	#WML
+	controls_state = 302
+	controls_state = 577
+	controls_state = 576
+	controls_state = 759
+	#BBW
+	controls_state = 309
+	controls_state = 341
+	controls_state = 318
+	controls_state = 317
+	#ZYD
+	controls_state = 353
+	controls_state = 340
+	controls_state = 333
+	controls_state = 315
+	#ZHP
+	controls_state = 370
+	controls_state = 357
+	controls_state = 368
+	controls_state = 396
+	controls_state = 321
+	#SAP
+	controls_state = 269
+	controls_state = 300
+	controls_state = 288
+	controls_state = 272
+	#KRS
+	controls_state = 236
+	controls_state = 849
+	controls_state = 687
+	controls_state = 686
+	controls_state = 685
+	controls_state = 305
+	}
+}
+
+can_unify_lubelskie = {
+AND = {
+	has_war = no
+	is_lubelskie = yes
+	#PUL
+	controls_state = 278
+	controls_state = 330
+	controls_state = 310
+	controls_state = 326
+	#BPD
+	controls_state = 277
+	controls_state = 306
+	controls_state = 322
+	#CRN
+	controls_state = 363
+	controls_state = 664
+	controls_state = 365
+	#KSN
+	controls_state = 391
+	controls_state = 406
+	controls_state = 350
+	#SWD
+	controls_state = 662
+	controls_state = 661
+	controls_state = 355
+	#ZUK
+	controls_state = 669
+	controls_state = 382
+	controls_state = 393
+	controls_state = 349
+	#BIL
+	controls_state = 424
+	controls_state = 411
+	controls_state = 413
+	controls_state = 426
+	}
+}

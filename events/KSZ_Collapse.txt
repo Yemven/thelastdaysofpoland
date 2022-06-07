@@ -29,7 +29,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		KSZ_collapse_GAY = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -43,6 +42,7 @@ country_event = {
 				remove_core_of = KSZ
 			}
 		}
+		KSZ_collapse_GAY = yes
 	}
 
 	option = {
@@ -63,7 +63,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		KSZ_collapse_HEL = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -78,6 +77,7 @@ country_event = {
 				remove_core_of = KSZ
 			}
 		}
+		KSZ_collapse_HEL = yes
 	}
 
 	option = {
@@ -98,7 +98,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		KSZ_collapse_CZL = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -111,6 +110,7 @@ country_event = {
 				remove_core_of = KSZ
 			}
 		}
+		KSZ_collapse_CZL = yes
 	}
 
 	option = {
@@ -132,7 +132,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		KSZ_collapse_ARK = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -145,6 +144,7 @@ country_event = {
 				remove_core_of = KSZ
 			}
 		}
+		KSZ_collapse_ARK = yes
 	}
 
 	option = {
@@ -165,7 +165,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		KSZ_collapse_OWS = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -178,6 +177,7 @@ country_event = {
 				remove_core_of = KSZ
 			}
 		}
+		KSZ_collapse_OWS = yes
 	}
 
 	option = {

@@ -29,7 +29,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		EKW_collapse_POM = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -46,6 +45,7 @@ country_event = {
 				add_claim_by = EKW
 			}
 		}
+		EKW_collapse_POM = yes
 	}
 
 	option = {
@@ -65,7 +65,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		EKW_collapse_KOS = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -82,6 +81,7 @@ country_event = {
 				add_claim_by = EKW
 			}
 		}
+		EKW_collapse_KOS = yes
 	}
 
 	option = {
@@ -101,7 +101,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		EKW_collapse_WRT = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -137,6 +136,7 @@ country_event = {
 				add_claim_by = EKW
 			}
 		}
+		EKW_collapse_WRT = yes
 	}
 
 	option = {
@@ -160,7 +160,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		EKW_collapse_JAS = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -176,6 +175,7 @@ country_event = {
 				add_claim_by = EKW
 			}
 		}
+		EKW_collapse_JAS = yes
 	}
 
 	option = {
@@ -203,7 +203,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		EKW_collapse_NAC = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -234,7 +233,8 @@ country_event = {
 				}
 				set_demilitarized_zone = yes
 			}
-		}
+		}		
+		EKW_collapse_NAC = yes
 	}
 
 	option = {
@@ -265,7 +265,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		EKW_collapse_KAM = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -292,6 +291,7 @@ country_event = {
 				add_claim_by = EKW
 			}
 		}
+		EKW_collapse_KAM = yes
 	}
 
 	option = {
@@ -319,7 +319,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		EKW_collapse_STE = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -339,6 +338,7 @@ country_event = {
 				add_claim_by = EKW
 			}
 		}
+		EKW_collapse_STE = yes
 	}
 
 	option = {
@@ -361,7 +361,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		EKW_collapse_MOT = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -381,6 +380,7 @@ country_event = {
 				add_claim_by = KAM
 			}
 		}
+		EKW_collapse_MOT = yes
 	}
 
 	option = {
@@ -431,7 +431,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		EKW_collapse_SWI = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -444,6 +443,7 @@ country_event = {
 				remove_core_of = STE
 			}
 		}
+		EKW_collapse_SWI = yes
 	}
 
 	option = {

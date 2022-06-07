@@ -29,7 +29,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		GDA_collapse_BOL = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -43,6 +42,7 @@ country_event = {
 				add_claim_by = GDA
 			}
 		}
+		GDA_collapse_BOL = yes
 	}
 
 	option = {
@@ -63,7 +63,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		GDA_collapse_KOR = yes
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -77,6 +76,7 @@ country_event = {
 				add_claim_by = GDA
 			}
 		}
+		GDA_collapse_KOR = yes
 	}
 
 	option = {
