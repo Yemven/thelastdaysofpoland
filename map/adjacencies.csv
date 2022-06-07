@@ -1,51 +1,15 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-8576;8695;sea;5082;-1;-1;-1;-1;;CCH-ZAW
 8210;8265;sea;6067;-1;-1;-1;-1;;WOD
-8490;1016;sea;7052;-1;-1;-1;-1;;BRZ-ZHP
-8496;7471;sea;7047;-1;-1;-1;-1;;BRZ-ZHP
-8634;7500;sea;7054;-1;-1;-1;-1;;CCH-ZHP
-7999;7998;sea;6032;-1;-1;-1;-1;;CIE Kolej
 8101;7839;sea;7114;-1;-1;-1;-1;;ASG-BSK
 10564;2410;sea;4940;-1;-1;-1;-1;;OSW-ASG
 7836;10553;sea;4940;-1;-1;-1;-1;;OSW-ASG
 7830;10547;sea;5036;-1;-1;-1;-1;;OSW-ASG
-3357;8288;sea;6108;-1;-1;-1;-1;;WOD Raciborz
-8289;8292;sea;4588;-1;-1;-1;-1;;WOD Raciborz
-1422;8670;sea;7081;-1;-1;-1;-1;;ZAW Pilica
-8677;3240;sea;5213;-1;-1;-1;-1;;ZAW Zarnowiec
-8678;8675;sea;6140;-1;-1;-1;-1;;ZAW
-8669;8672;sea;5213;-1;-1;-1;-1;;ZAW
-8581;8582;sea;5082;-1;-1;-1;-1;;CCH
-8661;8664;sea;6089;-1;-1;-1;-1;;ZAW Zawiercie
-2142;8666;sea;6089;-1;-1;-1;-1;;ZAW Zawiercie
-8720;8727;sea;7073;-1;-1;-1;-1;;ZAW Myszkow
-8722;8731;sea;7073;-1;-1;-1;-1;;ZAW Myszkow
-8724;8723;sea;7073;-1;-1;-1;-1;;ZAW Myszkow
-8744;8725;sea;7073;-1;-1;-1;-1;;ZAW Myszkow
-8734;2868;sea;6073;-1;-1;-1;-1;;ZAW Poraj
-8555;8536;sea;6073;-1;-1;-1;-1;;CCH Poczesna
-8554;8536;sea;6073;-1;-1;-1;-1;;CCH Korwinów
-8528;2884;sea;5579;-1;-1;-1;-1;;CCH Raków
-8527;2884;sea;5579;-1;-1;-1;-1;;CCH Raków
-8526;2884;sea;7064;-1;-1;-1;-1;;Czestochowa
-8521;8520;sea;7064;-1;-1;-1;-1;;Czestochowa
-8608;8606;sea;7064;-1;-1;-1;-1;;CCH Mstów
-8623;8615;sea;7063;-1;-1;-1;-1;;CCH
-8619;7533;sea;5578;-1;-1;-1;-1;;CCH-ZHP
-8635;7498;sea;7054;-1;-1;-1;-1;;Autostrada A1
-8506;7601;sea;7047;-1;-1;-1;-1;;BRZ-ZHP Działoszyn
-8585;2032;sea;5082;-1;-1;-1;-1;;Koniecpol CCH
-11415;11404;sea;5290;-1;-1;-1;-1;;Bielany Bridge
-1711;7997;sea;5086;-1;-1;-1;-1;;Strumień Bridge
-4102;8024;sea;7126;-1;-1;-1;-1;;Skoczów Bridge
-8023;8050;sea;7126;-1;-1;-1;-1;;Harbutowice S52
-3184;8044;sea;7126;-1;-1;-1;-1;;Ustroń Bridge
-998;9352;sea;7061;-1;-1;-1;-1;;Brzeg Bridge
-2834;9338;sea;7067;-1;-1;-1;-1;;Lewin Brzeski Bridge
-9318;2508;sea;7080;-1;-1;-1;-1;;Otmuchów Bridge
-9281;1787;sea;5088;-1;-1;-1;-1;;Nysa Bridge
-2879;9238;sea;5134;-1;-1;-1;-1;;K-K Bridge
-2875;1292;sea;7068;-1;-1;-1;-1;;Zaodrze Bridge
+3357;8288;sea;6108;-1;-1;-1;-1;;WOD-Raciborz
+8289;8292;sea;4588;-1;-1;-1;-1;;WOD-Raciborz
+11415;11404;sea;5290;-1;-1;-1;-1;;Bielany-Bridge-BIE
+998;9352;sea;7061;-1;-1;-1;-1;;Brzeg-Bridge-LCH-OPO
+2879;9238;sea;5134;-1;-1;-1;-1;;K-K-Bridge-MNI
+2875;1292;sea;7068;-1;-1;-1;-1;;Zaodrze-Bridge-OPO-LCH
 3494;1900;river;-1;-1;-1;-1;-1;;PUL
 3854;1158;river;-1;-1;-1;-1;-1;;PUL
 1685;2045;river;-1;-1;-1;-1;-1;;SWD
@@ -111,9 +75,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2736;12026;river;-1;-1;-1;-1;-1;;ZYD
 1759;3159;river;-1;-1;-1;-1;-1;;CAL
 14365;13908;river;-1;-1;-1;-1;-1;;GNI
-72;2255;river;-1;-1;-1;-1;-1;;FEL
-1805;2803;river;-1;-1;-1;-1;-1;;SUS
-2802;3771;river;-1;-1;-1;-1;-1;;NAC
+13659;2255;sea;5966;-1;-1;-1;-1;;FEL
+13569;3759;sea;5966;-1;-1;-1;-1;;Srem-FEL
+1805;15196;river;-1;-1;-1;-1;-1;;SUS
+15206;15198;river;-1;-1;-1;-1;-1;;NAC
 3065;3707;river;-1;-1;-1;-1;-1;;NAC
 544;2118;river;-1;-1;-1;-1;-1;;NAC
 2904;918;river;-1;-1;-1;-1;-1;;NAC

@@ -516,11 +516,15 @@ country_event = {
 			}
 		}
 		CYG = {
-		declare_war_on = {
-			target = KGH
-			type = annex_everything
-		}
-	}
+			declare_war_on = {
+				target = KGH
+				type = annex_everything
+				}
+			load_oob = "CYG_2027"
+			}
+		KGH = {
+			load_oob = "KGH_2027"
+			}
 	}
 }
 

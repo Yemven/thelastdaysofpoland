@@ -262,11 +262,6 @@ EKS_collapse_KGH = {
 			limit = { is_core_of = KGH }
 			KGH = { transfer_state = PREV }
 		}
-
-		KGH = {
-			load_oob = "KGH_2027"
-		}
-
 	}
 }
 
@@ -317,10 +312,7 @@ EKS_collapse_CYG = {
 			limit = { is_core_of = CYG }
 			CYG = { transfer_state = PREV }
 		}
-
-		CYG = {
-			load_oob = "CYG_2027"
-		}
+		
 
 	}
 }
