@@ -832,3 +832,647 @@ AND = {
 	controls_state = 426
 	}
 }
+
+can_unify_opolskie = {
+AND = {
+	has_war = no
+	is_opolskie = yes
+	#MNI
+	controls_state = 467
+	controls_state = 435
+	controls_state = 383
+	controls_state = 602
+	#OPO
+	controls_state = 428
+	controls_state = 380
+	#LEH
+	controls_state = 449
+	controls_state = 439
+	controls_state = 802
+	#NYS
+	controls_state = 603
+	#LCH
+	controls_state = 402
+	controls_state = 797
+	#WAN
+	controls_state = 478
+	controls_state = 450
+	}
+}
+
+can_unify_zaglebie = {
+AND = {
+	has_war = no
+	is_zaglebie_and_jura = yes
+	#DGR
+	controls_state = 460
+	controls_state = 737
+	controls_state = 480
+	#SOS
+	controls_state = 481 
+	controls_state = 453
+	controls_state = 589
+	controls_state = 760
+	controls_state = 730
+	#JAW
+	controls_state = 502
+	controls_state = 487
+	controls_state = 761
+	#ZAW
+	controls_state = 739
+	controls_state = 432
+	controls_state = 738
+	#CCH
+	controls_state = 592
+	controls_state = 418
+	controls_state = 412
+	#BRZ
+	controls_state = 591
+	controls_state = 390
+	#JWK
+	controls_state = 421
+	controls_state = 745
+	}
+}
+
+can_unify_tatry = {
+AND = {
+	has_war = no
+	is_tatry_region = yes
+	#CIE
+	controls_state = 522 
+	controls_state = 748
+	controls_state = 749
+	controls_state = 747
+	#BSK
+	controls_state = 530
+	controls_state = 534
+	controls_state = 525
+	controls_state = 782
+	controls_state = 521
+	#MSL
+	controls_state = 523
+	controls_state = 529
+	#GUR
+	controls_state = 545
+	controls_state = 539
+	controls_state = 595
+	#SCZ
+	controls_state = 528
+	controls_state = 531
+	controls_state = 532
+	#LEM
+	controls_state = 600 
+	controls_state = 533
+	}
+}
+
+can_unify_upper_silesia = {
+AND = {
+	has_war = no
+	is_upper_silesia = yes
+	#ASG
+	controls_state = 509 
+	controls_state = 762
+	#KAT
+	controls_state = 501
+	controls_state = 483
+	controls_state = 486
+	controls_state = 768
+	controls_state = 766
+	#JSW
+	controls_state = 516
+	controls_state = 511
+	controls_state = 490
+	controls_state = 788
+	#CHO
+	controls_state = 475
+	controls_state = 474 
+	#RUD
+	controls_state = 476
+	controls_state = 479
+	#RAS
+	controls_state = 466
+	controls_state = 464
+	#FER
+	controls_state = 445
+	controls_state = 743
+	#TRC
+	controls_state = 470
+	controls_state = 590
+	#GLI
+	controls_state = 471
+	controls_state = 451
+	#WOD
+	controls_state = 500
+	controls_state = 510
+	controls_state = 497
+	}
+}
+
+can_unify_subcarpathia = {
+AND = {
+	has_war = no
+	is_subcarpathia = yes
+	#ANC
+	controls_state = 542
+	#BSC
+	controls_state = 541
+	controls_state = 536
+	#BEX
+	controls_state = 538
+	#KRO
+	controls_state = 527
+	controls_state = 535
+	#JSO
+	controls_state = 524
+	#DBI
+	controls_state = 498
+	#KOZ
+	controls_state = 813
+	controls_state = 518
+	controls_state = 526
+	controls_state = 817
+	#RZE
+	controls_state = 507
+	#KOL
+	controls_state = 456
+	#MIE
+	controls_state = 455
+	#TAR
+	controls_state = 429 
+	controls_state = 430
+	#CHR
+	controls_state = 447
+	#LEZ
+	controls_state = 461
+	#LGP
+	controls_state = 473
+	#LCZ
+	controls_state = 457
+	#UPA
+	controls_state = 484
+	controls_state = 601
+	controls_state = 499
+	controls_state = 517
+	controls_state = 485
+	#UHR
+	controls_state = 520
+	}
+}
+
+can_unify_lower_silesia = {
+AND = {
+	has_war = no
+	is_lower_silesia = yes
+	#CZE
+	controls_state = 604
+	controls_state = 431
+	#ANA
+	controls_state = 419
+	#FEM
+	controls_state = 805
+	#MNL
+	controls_state = 397
+	#ZUL
+	controls_state = 414
+	#WRO
+	controls_state = 399
+	controls_state = 371
+	controls_state = 608
+	controls_state = 376
+	controls_state = 607
+	#OLE
+	controls_state = 351
+	#RYB
+	controls_state = 338
+	controls_state = 334
+	controls_state = 312
+	#KGH
+	controls_state = 329
+	controls_state = 316
+	controls_state = 727
+	controls_state = 728
+	#CYG
+	controls_state = 725
+	controls_state = 726
+	controls_state = 367
+	controls_state = 729
+	#TOU
+	controls_state = 407
+	controls_state = 408
+	#BOG
+	controls_state = 803
+	#EKS
+	controls_state = 345
+	controls_state = 373
+	controls_state = 372
+	controls_state = 339
+	}
+}
+
+can_unify_lubuskie = {
+AND = {
+	has_war = no
+	is_lubuskie = yes
+	#ZAG
+	controls_state = 313
+	controls_state = 293
+	#WIN
+	controls_state = 609
+	controls_state = 287
+	controls_state = 251
+	controls_state = 276
+	#KAM
+	controls_state = 273
+	controls_state = 227
+	controls_state = 612
+	controls_state = 209
+	controls_state = 205
+	#MOT
+	controls_state = 183
+	controls_state = 613
+	controls_state = 177
+	controls_state = 153
+	}
+}
+
+can_unify_kaliskie = {
+AND = {
+	has_war = no
+	is_southern_greater_poland = yes
+	#CAL
+	controls_state = 314
+	controls_state = 266
+	controls_state = 311
+	controls_state = 359
+	controls_state = 337
+	controls_state = 285
+	#KEL
+	controls_state = 320
+	controls_state = 298
+	controls_state = 271
+	controls_state = 257
+	controls_state = 240
+	controls_state = 698
+	#SUS
+	controls_state = 299
+	controls_state = 253
+	controls_state = 264
+	#GNI
+	controls_state = 260
+	controls_state = 256
+	controls_state = 230
+	controls_state = 689
+	}
+}
+
+can_unify_holy_cross = {
+AND = {
+	has_war = no
+	is_holy_cross = yes
+	controls_state = 420
+	controls_state = 674
+	controls_state = 398
+	controls_state = 416
+	controls_state = 362
+	controls_state = 679
+	controls_state = 673
+	controls_state = 392
+	controls_state = 670
+	controls_state = 433
+	controls_state = 469
+	controls_state = 443
+	}
+}
+
+can_unify_radom = {
+AND = {
+	has_war = no 
+	is_radom_province = yes
+	controls_state = 653
+	controls_state = 346
+	controls_state = 348
+	controls_state = 652
+	controls_state = 651
+	controls_state = 331
+	controls_state = 284
+	controls_state = 655
+	controls_state = 654
+	}
+}
+
+can_unify_warsaw = {
+AND = {
+	has_war = no
+	is_capital_district = yes
+	#DUP
+	controls_state = 268 
+	controls_state = 755
+	#ZYR
+	controls_state = 262
+	controls_state = 270
+	#MAF
+	controls_state = 261
+	controls_state = 647
+	controls_state = 645
+	#WOW
+	controls_state = 650
+	controls_state = 561
+	controls_state = 233
+	#LAS
+	controls_state = 752
+	controls_state = 228
+	#ZIE
+	controls_state = 252
+	controls_state = 718
+	controls_state = 559
+	#WOL
+	controls_state = 215
+	#BIE
+	controls_state = 557
+	controls_state = 239
+	#LEG
+	controls_state = 560
+	#PLC
+	controls_state = 565
+	controls_state = 719
+	controls_state = 567
+	controls_state = 564
+	#TVP
+	controls_state = 566
+	controls_state = 720
+	controls_state = 558
+	#TRZ
+	controls_state = 568
+	controls_state = 563
+	controls_state = 242
+	}
+}
+
+can_unify_north_mazovia = {
+AND = {
+	has_war = no
+	is_mazovia = yes
+	#POL
+	controls_state = 223
+	controls_state = 648
+	controls_state = 180
+	controls_state = 197
+	controls_state = 186
+	controls_state = 214
+	#ORL
+	controls_state = 237
+	controls_state = 642
+	controls_state = 222
+	controls_state = 173
+	#ZWK
+	controls_state = 139
+	#KUR
+	controls_state = 151
+	#SAS
+	controls_state = 160
+	controls_state = 838
+	controls_state = 131
+	#AGR
+	controls_state = 169
+	controls_state = 201
+	controls_state = 657
+	#SDL
+	controls_state = 254
+	controls_state = 199
+	controls_state = 231
+	}
+}
+
+can_unify_podlasie = {
+AND = {
+	has_war = no
+	is_podlasie = yes
+	#KON
+	controls_state = 143
+	controls_state = 845
+	controls_state = 844
+	#BOM
+	controls_state = 640
+	controls_state = 137
+	controls_state = 123
+	#TAT
+	controls_state = 634
+	controls_state = 94
+	#SAN
+	controls_state = 633
+	controls_state = 66
+	#LMZ
+	controls_state = 138
+	controls_state = 132
+	controls_state = 120
+	#BEL
+	controls_state = 174 
+	controls_state = 168
+	#TRIBES
+	controls_state = 194
+	controls_state = 635
+	controls_state = 149
+	controls_state = 142
+	controls_state = 154
+	controls_state = 638
+	controls_state = 639
+	controls_state = 641
+	controls_state = 637
+	controls_state = 636
+	controls_state = 103
+	controls_state = 116
+	controls_state = 92
+	controls_state = 97
+	controls_state = 80 
+	controls_state = 71
+	controls_state = 50
+	}
+}
+
+can_unify_warmia_and_masuria = {
+AND = {
+	has_war = no
+	is_warmia_and_masuria = yes
+	#PRU
+	controls_state = 113
+	controls_state = 106
+	controls_state = 144
+	#TEU
+	controls_state = 56
+	controls_state = 86
+	controls_state = 73
+	#MAL
+	controls_state = 64
+	controls_state = 87
+	#WAR
+	controls_state = 91
+	controls_state = 59
+	controls_state = 69
+	#PZW
+	controls_state = 79
+	controls_state = 75
+	controls_state = 85
+	#ROS
+	controls_state = 632
+	controls_state = 40
+	controls_state = 42
+	controls_state = 47
+	controls_state = 51
+	controls_state = 46
+	}
+}
+
+can_unify_pomerelia = {
+AND = {
+	has_war = no
+	is_pomerelia = yes
+	#LOT
+	controls_state = 629
+	controls_state = 65
+	#KOR
+	controls_state = 15
+	controls_state = 44
+	#GDA
+	controls_state = 630
+	controls_state = 715
+	controls_state = 39
+	#BOL
+	controls_state = 716
+	controls_state = 717
+	#OWS
+	controls_state = 709
+	controls_state = 712
+	#ARK
+	controls_state = 34
+	controls_state = 710
+	controls_state = 711
+	#KSZ
+	controls_state = 21
+	controls_state = 62
+	controls_state = 36
+	controls_state = 626
+	#HEL
+	controls_state = 625
+	controls_state = 20
+	controls_state = 666
+	#GAY
+	controls_state = 35
+	controls_state = 38
+	controls_state = 624
+	#CZL
+	controls_state = 81
+	controls_state = 74
+	controls_state = 89
+	}
+}
+
+can_unify_kuyavia = {
+AND = {
+	has_war = no
+	is_kuyavia = yes
+	#INO
+	controls_state = 703
+	controls_state = 852
+	controls_state = 701
+	controls_state = 176
+	controls_state = 198
+	#TOR
+	controls_state = 196
+	controls_state = 702
+	controls_state = 847
+	controls_state = 165
+	controls_state = 170
+	#GRU
+	controls_state = 152
+	controls_state = 115
+	controls_state = 134
+	controls_state = 145
+	#KUJ
+	controls_state = 126
+	controls_state = 99
+	controls_state = 707
+	controls_state = 148
+	controls_state = 100
+	#BYD
+	controls_state = 708
+	controls_state = 150
+	controls_state = 166
+	controls_state = 136
+	controls_state = 104
+	}
+}
+
+can_unify_north_greater_poland = {
+AND = {
+	has_war = no
+	is_northern_greater_poland = yes
+	#PIL
+	controls_state = 135
+	controls_state = 111
+	controls_state = 130
+	#WRT
+	controls_state = 162 
+	controls_state = 155
+	controls_state = 178
+	#NAC
+	controls_state = 184
+	controls_state = 202
+	controls_state = 206
+	controls_state = 193
+	controls_state = 218
+	controls_state = 244
+	#SYJ
+	controls_state = 697
+	controls_state = 694
+	controls_state = 583
+	controls_state = 584
+	controls_state = 207
+	#POZ
+	controls_state = 220
+	controls_state = 585
+	controls_state = 586
+	controls_state = 699
+	#SLU
+	controls_state = 582
+	controls_state = 587
+	controls_state = 225
+	controls_state = 581
+	}
+}
+
+can_unify_west_pomerania = {
+AND = {
+	has_war = no
+	is_west_pomerania = yes
+	#JAS
+	controls_state = 82
+	controls_state = 78
+	controls_state = 98
+	#USP
+	controls_state = 53
+	controls_state = 623
+	controls_state = 622
+	#JOM
+	controls_state = 621
+	controls_state = 70
+	controls_state = 61
+	#SWI
+	controls_state = 54
+	controls_state = 619
+	controls_state = 83
+	#STE
+	controls_state = 616
+	controls_state = 105
+	controls_state = 114
+	controls_state = 617
+	#EKW
+	controls_state = 158
+	controls_state = 615
+	controls_state = 107
+	controls_state = 127
+	}
+}
+
+
