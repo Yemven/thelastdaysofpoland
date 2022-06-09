@@ -1,0 +1,76 @@
+ideas = {
+
+	country = {
+		POZ_last_stand_of_democracy = {
+			allowed = {
+				original_tag = POZ
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = 
+			modifier = {
+				
+				
+			}
+		}
+
+        POZ_divided_city = {
+			allowed = {
+				original_tag = POZ
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = 
+			modifier = {
+				
+				
+			}
+		}
+		
+		POZ_anti_religious_fervor = {
+			allowed = {
+				original_tag = POZ
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = 
+			modifier = {
+				
+				
+			}
+		}
+		POZ_a_zionist_danger = {
+			allowed = {
+				original_tag = POZ
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = 
+			modifier = {
+				
+				
+			}
+	}
+}
