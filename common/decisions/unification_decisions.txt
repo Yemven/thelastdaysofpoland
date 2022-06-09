@@ -119,5 +119,134 @@ lubelskie_regional_unification = {
 	ai_will_do = { factor = 1 }
 }
 
+zaglebie_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_zaglebie
+			can_unify_zaglebie = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { can_unify_zaglebie = yes }
+
+	complete_effect = {
+		if = {
+			limit = { tag = DGR }
+				set_cosmetic_tag = DGR_regional
+				news_event = { id = unification.14 }
+		}
+		else_if = {
+			limit = { tag = SOS }
+				set_cosmetic_tag = SOS_regional
+				news_event = { id = unification.15 }
+		}
+		else_if = {
+			limit = { tag = JAW }
+				set_cosmetic_tag = JAW_regional
+				news_event = { id = unification.16 }
+		}
+		else_if = {
+			limit = { tag = ZAW }
+				set_cosmetic_tag = ZAW_regional
+				news_event = { id = unification.17 }
+		}
+		else_if = {
+			limit = { tag = CCH }
+				set_cosmetic_tag = CCH_regional
+				news_event = { id = unification.18 }
+		}
+		else_if = {
+			limit = { tag = BRZ }
+				set_cosmetic_tag = BRZ_regional
+				news_event = { id = unification.19 }
+		}
+		else_if = {
+			limit = { tag = JWK }
+				set_cosmetic_tag = JWK_regional
+				news_event = { id = unification.20 }
+		}
+	}
+	ai_will_do = { factor = 1 }
+}
+
+
+upper_silesia_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_upper_silesia
+			can_unify_upper_silesia = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { can_unify_upper_silesia = yes }
+
+	complete_effect = {
+		if = {
+			limit = { tag = ASG }
+				set_cosmetic_tag = ASG_regional
+				news_event = { id = unification.21 }
+		}
+		else_if = {
+			limit = { tag = WOD }
+				set_cosmetic_tag = WOD_regional
+				news_event = { id = unification.22 }
+		}
+		else_if = {
+			limit = { tag = JSW }
+				set_cosmetic_tag = JSW_regional
+				news_event = { id = unification.23 }
+		}
+		else_if = {
+			limit = { tag = GLI }
+				set_cosmetic_tag = GLI_regional
+				news_event = { id = unification.24 }
+		}
+		else_if = {
+			limit = { tag = CHO }
+				set_cosmetic_tag = CHO_regional
+				news_event = { id = unification.25 }
+		}
+		else_if = {
+			limit = { tag = RAS }
+				set_cosmetic_tag = RAS_regional
+				news_event = { id = unification.26 }
+		}
+		else_if = {
+			limit = { tag = FER }
+				set_cosmetic_tag = FER_regional
+				news_event = { id = unification.27 }
+		}
+		else_if = {
+			limit = { tag = RUD }
+				set_cosmetic_tag = RUD_regional
+				news_event = { id = unification.28 }
+		}
+		else_if = {
+			limit = { tag = KAT }
+				set_cosmetic_tag = KAT_regional
+				news_event = { id = unification.29 }
+		}
+		else_if = {
+			limit = { tag = TRC }
+				set_cosmetic_tag = TRC_regional
+				news_event = { id = unification.30 }
+		}
+	}
+	ai_will_do = { factor = 1 }
+}
 
 }
