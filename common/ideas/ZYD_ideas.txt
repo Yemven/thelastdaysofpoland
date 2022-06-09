@@ -53,129 +53,66 @@ ideas = {
 			}
 		}
 	}
+	
 	industrial_company = {
 
 		ceramika_paradyz = {
 			picture = generic_industrial_concern_1
-
-			allowed = {
-				original_tag = ZYD
-				ZYD = {
-					controls_province = 1444
-					}
-			}
-
+			allowed = { tag = ZYD }
 			cost = 200
-				
 			traits = { industrial_company }
-			
 			research_bonus = {
 				industry = 0.1
 				}
-
-		}
-		
+		}	
 		fmg_pioma = {
 			picture = generic_industrial_concern_1
-
-			allowed = {
-				original_tag = ZYD
-				ZYD = {
-					controls_province = 12055
-					}
-			}
-
+			allowed = { tag = ZYD }
 			cost = 200
-				
 			traits = { industrial_company }
-			
 			research_bonus = {
 				industry = 0.1
 				}
-
 		}
-		
 		chipita_tomaszow = {
 			picture = generic_industrial_concern_1
-
-			allowed = {
-				original_tag = ZYD
-				ZYD = {
-					controls_province = 12004
-					}
-			}
-
+			allowed = { tag = ZYD }
 			cost = 200
-				
 			traits = { industrial_company }
-			
 			research_bonus = {
 				industry = 0.1
 				}
-
 		}
 	}
 	
 	armament_company = {
-
 		gerlach_drzewica = {
 			picture = generic_industrial_concern_1
-
-			allowed = {
-				original_tag = ZYD
-				ZYD = {
-					controls_province = 12131
-					}
-			}
-
+			allowed = { tag = ZYD }
 			cost = 200
-				
 			traits = { industrial_company }
-			
 			research_bonus = {
 				infantry_weapons = 0.1
 				}
-
 		}
-		
 		wistom_tomaszow = {
 			picture = generic_industrial_concern_1
-
-			allowed = {
-				original_tag = ZYD
-				ZYD = {
-					controls_province = 7456
-					}
-			}
-
+			allowed = { tag = ZYD }
 			cost = 200
-				
 			traits = { industrial_company }
-			
 			research_bonus = {
 				infantry_weapons = 0.1
 				}
-
 		}
 
 		boshoku_tomaszow = {
 			picture = generic_industrial_concern_1
-
-			allowed = {
-				original_tag = ZYD
-				ZYD = {
-					controls_province = 7456
-					}
-			}
-
+			allowed = { tag = ZYD }
 			cost = 200
-				
 			traits = { industrial_company }
-			
 			research_bonus = {
 				motorized_equipment = 0.1
 				}
-
 		}
 	}
 }
