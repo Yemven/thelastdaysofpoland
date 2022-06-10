@@ -1,5 +1,6 @@
 ideas = {
 	party_system = {
+		use_list_view = yes
 		law = yes
 		
 		no_party = {
@@ -98,6 +99,7 @@ ideas = {
 	}
 	
 	freedom_of_speech = {
+		use_list_view = yes
 		law = yes
 		absolute_censorship = {
 			available = { always = no }
@@ -161,6 +163,7 @@ ideas = {
 	}
 	
 	security_policy = {
+		use_list_view = yes
 		law = yes
 		
 		improvised_security  = {
@@ -212,6 +215,7 @@ ideas = {
 		}
 		
 		direct_security = {
+			use_list_view = yes
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
@@ -231,6 +235,7 @@ ideas = {
 		}
 		
 		extreme_security = {
+			use_list_view = yes
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
@@ -250,6 +255,7 @@ ideas = {
     }
 	
 	health_care = {
+		use_list_view = yes
 		law = yes
 		
 		witch_doctors  = {
@@ -313,6 +319,7 @@ ideas = {
 	}
 	
 	subsidies = {
+		use_list_view = yes
 		law = yes
 		
 		no_subsidies = { 

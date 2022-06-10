@@ -45,5 +45,64 @@ ideas = {
 			}
 		}
 	}
+	
+	industrial_company = {
+		use_list_view = yes
+	
+		dell_widzew = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = WML }
+			available = { controls_province = 11506 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				electronics = 0.1
+				}
+		}	
+		atlas_lodz = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = WML }
+			available = { controls_province = 3358 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				industry = 0.1
+				}
+		}
+		abb_transformatory = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = WML }
+			available = { controls_province = 11530 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				electronics = 0.1
+				}
+		}
+	}
+	armament_company = {
+		use_list_view = yes
+	
+		gilette_lodz = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = WML }
+			available = { controls_province = 11498 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				infantry_weapons = 0.1
+				}
+		}
+		bosch_lodz = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = WML }
+			available = { controls_province = 11508 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				motorized_equipment = 0.1
+				}
+		}
+	}
 }
 	

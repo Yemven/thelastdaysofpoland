@@ -2,6 +2,7 @@ ideas = {
 
 	economic_policy = { 
 		law = yes
+		use_list_view = yes
 		
 		economy_laissez_faire = {
 			available = { always = no }
@@ -305,6 +306,8 @@ ideas = {
 	}
 	taxes = {
 		law = yes
+		use_list_view = yes
+		
 		taxes_none = {
 			available = { always = no }
 			removal_cost = -1
@@ -400,6 +403,7 @@ ideas = {
 	
 	trade_law = {
 		law = yes
+		use_list_view = yes
 		
 		trade_free = {
 			available = { always = no }

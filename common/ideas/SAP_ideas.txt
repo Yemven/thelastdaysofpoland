@@ -1,3 +1,60 @@
 ideas = {
-	
+	industrial_company = {
+		use_list_view = yes
+		
+		maspex_sap = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = SAP }
+			available = { controls_province = 7449 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				industry = 0.1
+				}
+		}	
+		pudzian_sap = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = SAP }
+			available = { controls_province = 11687 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				industry = 0.1
+				}
+		}
+		asfalt_sap = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = SAP }
+			available = { controls_province = 11593 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				industry = 0.1
+				}
+		}
+	}
+	armament_company = {
+		use_list_view = yes
+		
+		zamet_sap = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = SAP }
+			available = { controls_province = 7452 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				infantry_weapons = 0.1
+				}
+		}
+		ferrox_sap = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = SAP }
+			available = { controls_province = 7450 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				armor = 0.1
+				}
+		}
+	}
 }

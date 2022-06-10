@@ -70,4 +70,53 @@ ideas = {
 			}
 		}
 	}
+	
+	industrial_company = {
+		use_list_view = yes
+
+		betard_zhp = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = ZHP }
+			available = { controls_province = 7727 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				industry = 0.1
+				}
+		}	
+		fameg_zhp = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = ZHP }
+			available = { controls_province = 7461 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				industry = 0.1
+				}
+		}
+	}
+	armament_company = {
+		use_list_view = yes
+	
+		wielton_zhp = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = ZHP }
+			available = { controls_province = 7463 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				infantry_weapons = 0.1
+				}
+		}
+		stalex_zhp = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = ZHP }
+			available = { controls_province = 7461 }
+			cost = 200
+			traits = { industrial_company }
+			research_bonus = {
+				motorized_equipment = 0.1
+				}
+		}
+	}
 }

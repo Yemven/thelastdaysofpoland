@@ -396,6 +396,7 @@ ideas = {
 	
 	army_training_level = {
 		law = yes
+		use_list_view = yes
 		
 		training_battle = {
 			available = { always = no }
@@ -515,6 +516,7 @@ ideas = {
 	}
 	
 	officer_training_level = {
+		use_list_view = yes
 		law = yes
 		officer_random = {
 			default = yes

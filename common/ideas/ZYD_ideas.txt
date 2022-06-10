@@ -55,10 +55,12 @@ ideas = {
 	}
 	
 	industrial_company = {
+		use_list_view = yes
 
 		ceramika_paradyz = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = ZYD }
+			available = { controls_province = 1444 }	
 			cost = 200
 			traits = { industrial_company }
 			research_bonus = {
@@ -68,6 +70,7 @@ ideas = {
 		fmg_pioma = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = ZYD }
+			available = { controls_province = 3358 }	
 			cost = 200
 			traits = { industrial_company }
 			research_bonus = {
@@ -77,6 +80,7 @@ ideas = {
 		chipita_tomaszow = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = ZYD }
+			available = { controls_province = 7456 }	
 			cost = 200
 			traits = { industrial_company }
 			research_bonus = {
@@ -86,9 +90,12 @@ ideas = {
 	}
 	
 	armament_company = {
+		use_list_view = yes
+	
 		gerlach_drzewica = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = ZYD }
+			available = { controls_province = 12131 }	
 			cost = 200
 			traits = { industrial_company }
 			research_bonus = {
@@ -98,6 +105,7 @@ ideas = {
 		wistom_tomaszow = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = ZYD }
+			available = { controls_province = 7456 }	
 			cost = 200
 			traits = { industrial_company }
 			research_bonus = {
@@ -108,6 +116,7 @@ ideas = {
 		boshoku_tomaszow = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = ZYD }
+			available = { controls_province = 7456 }	
 			cost = 200
 			traits = { industrial_company }
 			research_bonus = {

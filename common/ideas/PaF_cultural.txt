@@ -1,5 +1,6 @@
 ideas = {
 	lgbt_status = {
+		use_list_view = yes
 		law = yes
 		lgbt_illegal_punished = {
 			available = { always = no }
@@ -65,6 +66,7 @@ ideas = {
 	}
 	
 	drugs_status = {
+		use_list_view = yes
 		law = yes
 		drugs_all_penalised = {
 			available = { always = no }
@@ -134,6 +136,7 @@ ideas = {
 	}
 	
 	women_status = {
+		use_list_view = yes
 		law = yes
 		
 		women_men_nation = {
@@ -205,6 +208,7 @@ ideas = {
 	}
 	
 	minorities_status = {
+		use_list_view = yes
 		law = yes
 		
 		minorities_ethnic_purity = {
@@ -280,6 +284,7 @@ ideas = {
 	}
 	
 	religion_status = {
+		use_list_view = yes
 		law = yes
 		
 		one_state_one_religion = { 
@@ -441,7 +446,7 @@ ideas = {
 			cancel_if_invalid = no 	
 		}
 		
-		}
+	}
 }
 
 
