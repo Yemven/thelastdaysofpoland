@@ -140,6 +140,19 @@ leader_traits = {
 		}
 	}
 	
+	belchatow_power_plant = {
+		random = no
+		local_resources_factor = 0.15
+		stability_factor = 0.10
+		production_speed_industrial_complex_factor = 0.05
+		industrial_capacity_factory = 0.05
+		production_factory_efficiency_gain_factor = 0.10
+		consumer_goods_factor = -0.03
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	########MILITARY COMPANIES TRAITS##########
 	rosomak_sa_company = {
 		random = no

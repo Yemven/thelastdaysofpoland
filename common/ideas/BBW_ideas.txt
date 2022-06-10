@@ -306,7 +306,7 @@ ideas = {
 		ec_belchatow = {
 			picture = generic_industrial_concern_1
 
-			cost = 200
+			cost = 350
 			
 			visible = {
 				ROOT = {
@@ -314,10 +314,10 @@ ideas = {
 					}
 				}
 			available = { controls_province = 10234 }	
-			traits = { industrial_company }
+			traits = { belchatow_power_plant }
 			
 			research_bonus = {
-				industry = 0.1
+				industry = 0.15
 				}
 
 		}
