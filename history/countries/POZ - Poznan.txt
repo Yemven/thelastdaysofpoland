@@ -5,7 +5,12 @@ oob = "POZ_2027"
 # Starting tech
 set_technology = {
 	melee_weapons = 1
+	melee_weapons1 = 1
 	ranged_weapons = 1
+	ranged_weapons1 = 1
+	ballistic_vests = 1
+	truck_1 = 1
+	bicycle = 1
 }
 
 set_convoys = 20
@@ -26,6 +31,16 @@ add_ideas = {
 	POZ_anti_religious_fervor
 	POZ_a_zionist_danger
 	full_secularism
+	multiparty
+	women_gender_equality
+	minorities_multiculturalism
+	multiparty
+	autocensorship
+	absolute_freedom
+	disarmed_nation
+	training_western_instructors
+	officer_schools
+	woman_feminism_policy
 	}
 
 set_politics = {

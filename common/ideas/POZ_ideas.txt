@@ -11,9 +11,10 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = 
+			picture = BBW_more_steam
 			modifier = {
-				
+				conscription = 0.01
+				army_org_factor = 0.1
 				
 			}
 		}
@@ -30,9 +31,13 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = 
+			picture = POZ_divided_city
 			modifier = {
-				
+				industry_repair_factor = -0.3
+				consumer_goods_factor = 0.1
+				stability_factor = -0.2
+				monthly_population = -0.5
+				production_speed_industrial_complex_factor = -0.3
 				
 			}
 		}
@@ -49,12 +54,13 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = 
+			picture = BBW_more_steam
 			modifier = {
-				
+				stability_factor = -0.2
 				
 			}
 		}
+		
 		POZ_a_zionist_danger = {
 			allowed = {
 				original_tag = POZ
@@ -67,10 +73,16 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = 
+			picture = BBW_more_steam
 			modifier = {
-				
+				tag = SYJ
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 				
 			}
-	}
+	    }
+    }
 }
+
+
+
