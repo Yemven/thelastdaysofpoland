@@ -321,12 +321,13 @@ ideas = {
 				}
 
 		}
+		
 		aflofarm = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = BBW }
 			available = { controls_province = 2723 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { medicine_company }
 			research_bonus = {
 				industry = 0.1
 				}
