@@ -260,19 +260,20 @@ country_event = {
 	}
 
 	option = {
-		name = eksrozpad.6.a
+		name = eksrozpad.6.a		
+		EKS = {
 			country_event = {
 				id = eksrozpad.8
 				days = 10
 			}
 		}
-		
-		CZE = { 
+		CZE = {
 			country_event = { id = okamura.1 
 			days = 7
 			}
 		}
 	}
+}
 
 country_event = {
 	id = eksrozpad.7

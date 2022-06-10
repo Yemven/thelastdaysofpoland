@@ -1,8 +1,7 @@
 ideas = {
 	party_system = {
-		use_list_view = yes
 		law = yes
-		
+		use_list_view = yes
 		no_party = {
 			available = { always = no }
 			removal_cost = -1
@@ -215,7 +214,6 @@ ideas = {
 		}
 		
 		direct_security = {
-			use_list_view = yes
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
@@ -235,7 +233,6 @@ ideas = {
 		}
 		
 		extreme_security = {
-			use_list_view = yes
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
