@@ -4,6 +4,42 @@
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 
 focus_tree = {
+	id = klodzko_intro_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = CZE
+		}
+	}
+	default = yes
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = CZE_zapychacz
+		icon = CZE_zapychacz
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 0
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = -100
+			
+		}
+	}
+}
+
+focus_tree = {
 	id = siogun_intro_focus
 	
 	country = {
