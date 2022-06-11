@@ -113,7 +113,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "EventWindow_News"
 		position = { x=-282 y=-310 }
-		size = { width = 528 height = 595 }
+		size = { width = 616 height = 721 }
 		moveable = yes
 		Orientation = CENTER
 		show_sound = world_news_effect
@@ -133,7 +133,7 @@ guiTypes = {
 			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_news_event_001"
-				position = { x = 27 y = 139 }
+				position = { x = 76 y = 246 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
@@ -141,25 +141,25 @@ guiTypes = {
 			iconType = {
 				name ="event_picture_overlay"
 				spriteType = "GFX_event_news_pic_overlay"
-				position = { x = 27 y = 139 }
+				position = { x = 76 y = 246 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
 
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 30 y = 100 }
+				position = { x = 80 y = 80 }
 				font = "hoi4_typewriter22"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"
-				maxWidth = 460
+				maxWidth = 480
 				maxHeight = 32
 				format = centre
 			}
 
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=5 y=40}
+				position = {x=65 y=40}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 			}
@@ -167,17 +167,17 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "midsection"
-			position = { x=0 y=121 }
+			position = { x=80 y=221 }
 			size = { width = 580 height = 385 }
 			Orientation = UPPER_LEFT
 
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 195 y = 30 }
+				position = { x = 190 y = 25 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"
-				maxWidth = 310
+				maxWidth = 290
 				maxHeight = 230
 				format = left
 			}
@@ -298,7 +298,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "event_option_entry"
 		size = { width = 300 height = 52 }
-		position = { x = -10 y = 0 }
+		position = { x = -20 y = 20 }
 		clipping = no
 
 		background = {
