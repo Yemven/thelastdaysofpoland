@@ -1,0 +1,120 @@
+division_template = {
+	name = "Euroinfanteriebataillon"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Europanzergrenadierbataillon der Besatzungskräfte (mot. inf.)"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Europanzergrenadierbataillon der Besatzungskräfte (armor)"
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Freiwilligen Pro-Europa Bataillon"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+units = {
+    division = {
+		name = "1. Panzergrenadierbataillon der Besatzungskräfte in Kesselberg"
+		location = 13752
+		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (mot. inf.)"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "2. Panzergrenadierbataillon der Besatzungskräfte in Kesselberg "Ostrowo""
+		location = 14646
+		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (mot. inf.)"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "3. Panzergrenadierbataillon der Besatzungskräfte in Kesselberg "Kempen""
+		location = 14750
+		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (mot. inf.)"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Bataillon Schrimm"
+		location = 13569
+		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (mot. inf.)"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Bataillon Neu Skalmirschütz"
+		location = 2814
+		division_template = "Euroinfanteriebataillon"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "4. Panzergrenadierbataillon der Besatzungskräfte in Kesselberg"
+		location = 14656
+		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (armor)"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "5. Panzergrenadierbataillon der Besatzungskräfte in Kesselberg"
+		location = 1473
+		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (armor)"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "1. Infanteriebataillon der Besatzungskräfte in Kesselberg"
+		location = 14637
+		division_template = "Euroinfanteriebataillon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "2. Infanteriebataillon der Besatzungskräfte in Kesselberg"
+		location = 14621
+		division_template = "Euroinfanteriebataillon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Freiwilligen Pro-Europa Bataillon "Straż Pleszewska""
+		location = 14618
+		division_template = "Freiwilligen Pro-Europa Bataillon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}
