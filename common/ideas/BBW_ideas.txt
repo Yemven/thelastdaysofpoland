@@ -349,7 +349,7 @@ ideas = {
 		kombinat_cytadela = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = BBW }
-			available = { has_completed_focus = BBW_the_power_of_steam
+			available = { has_country_flag = parzno_cytadela 
 				controls_province = 3869 }
 			cost = 200
 			traits = { industrial_company }
