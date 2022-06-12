@@ -7,7 +7,7 @@ spriteTypes = {
 	}
 	
 	
-	### ZYD ###
+	###ZYD###
 	spriteType = {
 		name = "GFX_news_ZYD"
 		texturefile = "gfx/interface/newspapers/news_ZYD.dds"
@@ -19,7 +19,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-	### ZHP ###
+	###ZHP###
 	spriteType = {
 		name = "GFX_news_ZHP"
 		texturefile = "gfx/interface/newspapers/news_ZHP.dds"
@@ -41,10 +41,18 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+
 	###POZ###
 	spriteType = {
 		name = "GFX_news_POZ"
 		texturefile = "gfx/interface/newspapers/news_POZ.dds"
+		legacy_lazy_load = no
+	}
+
+	###WML###
+	spriteType = {
+		name = "GFX_news_WML"
+		texturefile = "gfx/interface/newspapers/news_WML.dds"
 		legacy_lazy_load = no
 	}
 }
