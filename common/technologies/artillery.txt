@@ -816,11 +816,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		allow_branch = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
+		#allow_branch = { # po chuj ktoś to wstawił
+			#NOT = {
+				#has_dlc = "No Step Back"
+			#}
+		#}
 		
 		folder = {
 		name = artillery_folder
