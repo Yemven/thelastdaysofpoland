@@ -509,4 +509,82 @@ upper_silesia_regional_unification = {
 	ai_will_do = { factor = 1 }
 }
 
+
+south_greater_poland_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_southern_greater_poland
+			can_unify_upper_silesia = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { is_southern_greater_poland = yes }
+
+	complete_effect = {
+
+		if = {
+			limit = { tag = CAL }
+			set_cosmetic_tag = CAL_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.31 }
+				}
+			}
+			custom_effect_tooltip = CAL_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = FEL }
+			set_cosmetic_tag = FEL_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.33 }
+				}
+			}
+			custom_effect_tooltip = CAL_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = GNI }
+			set_cosmetic_tag = GNI_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.32 }
+				}
+			}
+			custom_effect_tooltip = GNI_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = SUS }
+			set_cosmetic_tag = SUS_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.34 }
+				}
+			}
+			custom_effect_tooltip = SUS_unifies_southern_greater_poland_tooltip
+		}
+
+
+        ai_will_do = { factor = 1 }
+}
+
 }
