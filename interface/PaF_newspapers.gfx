@@ -55,4 +55,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/newspapers/news_WML.dds"
 		legacy_lazy_load = no
 	}
+
+	###BBW###
+	spriteType = {
+		name = "GFX_news_BBW"
+		texturefile = "gfx/interface/newspapers/news_BBW.dds"
+		legacy_lazy_load = no
+	}
+	
+	###KRS###
+	spriteType = {
+		name = "GFX_news_KRS"
+		texturefile = "gfx/interface/newspapers/news_KRS.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_KRS2"
+		texturefile = "gfx/interface/newspapers/news_KRS2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_KRS3"
+		texturefile = "gfx/interface/newspapers/news_KRS3.dds"
+		legacy_lazy_load = no
+	}
 }
