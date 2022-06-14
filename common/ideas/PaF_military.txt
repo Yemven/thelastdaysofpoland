@@ -25,7 +25,8 @@ ideas = {
 				industrial_capacity_factory = 0.05
 				stability_factor = 0.15
 				production_speed_buildings_factor = 0.10
-				monthly_population = 0.10
+				monthly_population = 0.15
+				research_speed_factor = 0.01
 			}
 			cancel_if_invalid = no
 		}
@@ -78,10 +79,6 @@ ideas = {
 			removal_cost = 0
 			level = 6
 			
-			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
-			}
-			
 			ai_will_do = {
    				factor = -10
 				
@@ -99,7 +96,7 @@ ideas = {
 				stability_factor = -0.15
 				production_speed_buildings_factor = -0.05
 				training_time_factor = 0.35
-				research_speed_factor = -0.05
+				research_speed_factor = -0.075
 			}
 			
 			default = yes
@@ -172,6 +169,7 @@ ideas = {
 				stability_factor = -0.05
 				production_speed_buildings_factor = -0.025
 				training_time_factor = 0.10
+				research_speed_factor = -0.02
 			}
 
 			ai_will_do = {
@@ -233,6 +231,7 @@ ideas = {
 				stability_factor = -0.10
 				production_speed_buildings_factor = -0.10
 				training_time_factor = 0.20
+				research_speed_factor = -0.05
 			}
 			
 			cancel_if_invalid = no
@@ -313,6 +312,7 @@ ideas = {
 				production_speed_buildings_factor = -0.15
 				monthly_population = -0.15
 				training_time_factor = 0.25
+				research_speed_factor = -0.075
 			}
 			
 			cancel_if_invalid = no
@@ -389,9 +389,28 @@ ideas = {
 				production_speed_buildings_factor = -0.60
 				monthly_population = -0.5
 				training_time_factor = 0.45
+				research_speed_factor = -0.10
 			}
 			cancel_if_invalid = no
 		}
+		
+		golem_army = {
+			
+			available = {
+				always = no 
+			}
+			
+			cost = 999
+			removal_cost = 999
+			level = 1
+
+			modifier = {
+				conscription = 1.0
+			}
+			cancel_if_invalid = no
+		}
+		
+		
 	}
 	
 	army_training_level = {
