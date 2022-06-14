@@ -108,6 +108,7 @@ news_event = {
 	id = unification.7
 	title = unification.7.t
 	desc = unification.7.desc
+	picture = GFX_news_event_unification7
 	
 	major = yes
 	fire_only_once = yes
@@ -125,6 +126,7 @@ news_event = {
 	id = unification.8
 	title = unification.8.t
 	desc = unification.8.desc
+	picture = GFX_news_event_unification8
 	
 	major = yes
 	fire_only_once = yes
@@ -176,6 +178,7 @@ news_event = {
 	id = unification.11
 	title = unification.11.t
 	desc = unification.11.desc
+	picture = GFX_news_event_unification11
 	
 	major = yes
 	fire_only_once = yes
@@ -472,5 +475,69 @@ news_event = {
 
 	option = {
 		name = unification.30.a
+	}
+}
+
+#Calisia
+news_event = {
+	id = unification.31
+	title = unification.31.t
+	desc = unification.31.desc
+	picture = GFX_news_event_unification31
+	
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = unification.31.a
+	}
+}
+
+#Gniezno
+news_event = {
+	id = unification.32
+	title = unification.32.t
+	desc = unification.32.desc
+	picture = GFX_news_event_unification32
+	
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = unification.32.a
+	}
+}
+
+#Sarmatia
+news_event = {
+	id = unification.33
+	title = unification.33.t
+	desc = unification.33.desc
+	picture = GFX_news_event_unification33
+	
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = unification.33.a
+	}
+}
+
+#Leszno
+news_event = {
+	id = unification.34
+	title = unification.34.t
+	desc = unification.34.desc
+	picture = GFX_news_event_unification34
+	
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = unification.34.a
 	}
 }

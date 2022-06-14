@@ -56,8 +56,43 @@ defined_text = {
 		}
 		localization_key = newspaper_jaskowiak
 	}
+	##WML
+	text = {
+		trigger = {
+			original_tag = WML
+		}
+		localization_key = newspaper_dialog
+	}
+	##BBW
+	text = {
+		trigger = {
+			original_tag = BBW
+		}
+		localization_key = newspaper_bractwo
+	}
 	
-	
+	##KRS
+	text = {
+		trigger = {
+			original_tag = KRS
+			has_government = corporativism
+		}
+		localization_key = newspaper_skrzydlewska
+	}
+	text = {
+		trigger = {
+			original_tag = KRS
+			has_government = autocracy
+		}
+		localization_key = newspaper_rutkowski
+	}
+	text = {
+		trigger = {
+			original_tag = KRS
+			has_government = postpolonism
+		}
+		localization_key = newspaper_pogotowie
+	}
 	##GENERIC
 	text = {
 		localization_key = newspaper_generic
