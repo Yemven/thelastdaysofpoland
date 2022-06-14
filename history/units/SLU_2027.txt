@@ -1,35 +1,35 @@
 division_template = {
-	name = "Brygada Piechoty"
+	name = "Gangi Osiedlowe"
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
 	}
 }
 
 units = {
 	division = {
-		name = "1 Brygada Piechoty"
+		name = "Gangi Wildy"
 		location = 13347
-		division_template = "Brygada Piechoty"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
+		division_template = "Gangi Osiedlowe"
+		start_experience_factor = 0
+		start_equipment_factor = 0.2
 	}
 
 	division = {
-		name = "2 Brygada Piechoty"
-		location = 13347
-		division_template = "Brygada Piechoty"
+		name = "Gangi Rataj"
+		location = 13342
+		division_template = "Gangi Osiedlowe"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.4
 	}
 	
 	division = {
-		name = "3 Brygada Piechoty"
-		location = 13342
-		division_template = "Brygada Piechoty"
+		name = "Gangi Chartowa"
+		location = 13355
+		division_template = "Gangi Osiedlowe"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.1
 	}
 }
