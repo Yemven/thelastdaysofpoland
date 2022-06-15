@@ -153,6 +153,8 @@ leader_traits = {
 		}
 	}
 	
+	##### GENERIC INDUSTRIAL COMPANIES #######
+	
 	medicine_company = {
 		random = no
 		stability_factor = 0.05
@@ -166,7 +168,7 @@ leader_traits = {
 	food_company = {
 		random = no
 		stability_factor = 0.10
-		monthly_population = 0.05
+		monthly_population = 0.15
 		out_of_supply_factor = -0.05
 		supply_consumption_factor = -0.03
 		ai_will_do = {
@@ -216,12 +218,23 @@ leader_traits = {
 		}
 	}
 	
+	kombinat_cytadela_company = {
+		random = no
+		local_resources_factor = 0.15
+		industrial_capacity_factory = 0.10
+		stability_factor = -0.075
+		political_power_gain = -0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	#### FIREARMS #####
 	
 	reliability_firearms_company = {
 		random = no
-		production_factory_start_efficiency_factor = 0.05
-		line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.03
+		line_change_production_efficiency_factor = 0.03
 		equipment_bonus = {
 			ranged_equipment = {
 				build_cost_ic = -0.05
@@ -235,8 +248,8 @@ leader_traits = {
 	
 	attack_firearms_company = {
 		random = no
-		production_factory_efficiency_gain_factor = 0.05
-		industrial_capacity_factory = 0.05
+		production_factory_efficiency_gain_factor = 0.03
+		industrial_capacity_factory = 0.03
 		equipment_bonus = {
 			ranged_equipment = {
 				soft_attack = 0.1
@@ -250,8 +263,8 @@ leader_traits = {
 	
 	defense_firearms_company = {
 		random = no
-		production_lack_of_resource_penalty_factor = -0.075
-		industrial_capacity_factory = 0.05
+		production_lack_of_resource_penalty_factor = -0.05
+		industrial_capacity_factory = 0.03
 		max_dig_in_factor = 0.10
 		equipment_bonus = {
 			ranged_equipment = {
@@ -265,11 +278,12 @@ leader_traits = {
 	
 	cheap_firearms_company = {
 		random = no
-		production_factory_max_efficiency_factor = 0.05
-		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.03
+		industrial_capacity_factory = 0.03
 		equipment_bonus = {
 			ranged_equipment = {
 				build_cost_ic = -0.15
+				reliability = -0.05
 			}
 		}
 		ai_will_do = {
@@ -280,7 +294,7 @@ leader_traits = {
 	hard_firearms_company = {
 		random = no
 		local_building_slots_factor = 0.10
-		industrial_capacity_factory = 0.05
+		industrial_capacity_factory = 0.03
 		equipment_bonus = {
 			ranged_equipment = {
 				build_cost_ic = -0.05
@@ -297,8 +311,8 @@ leader_traits = {
 	
 	reliability_melee_company = {
 		random = no
-		production_factory_start_efficiency_factor = 0.05
-		line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.03
+		line_change_production_efficiency_factor = 0.03
 		equipment_bonus = {
 			melee_equipment = {
 				build_cost_ic = -0.05
@@ -312,8 +326,8 @@ leader_traits = {
 	
 	attack_melee_company = {
 		random = no
-		production_factory_efficiency_gain_factor = 0.05
-		industrial_capacity_factory = 0.05
+		production_factory_efficiency_gain_factor = 0.03
+		industrial_capacity_factory = 0.03
 		equipment_bonus = {
 			melee_equipment = {
 				soft_attack = 0.1
@@ -327,8 +341,8 @@ leader_traits = {
 	
 	defence_melee_company = {
 		random = no
-		production_lack_of_resource_penalty_factor = -0.075
-		industrial_capacity_factory = 0.05
+		production_lack_of_resource_penalty_factor = -0.05
+		industrial_capacity_factory = 0.03
 		max_dig_in_factor = 0.10
 		equipment_bonus = {
 			melee_equipment = {
@@ -342,11 +356,12 @@ leader_traits = {
 	
 	cheap_melee_company = {
 		random = no
-		production_factory_max_efficiency_factor = 0.05
-		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.03
+		industrial_capacity_factory = 0.03
 		equipment_bonus = {
 			melee_equipment = {
 				build_cost_ic = -0.15
+				reliability = -0.05
 			}
 		}
 		ai_will_do = {
@@ -357,12 +372,29 @@ leader_traits = {
 	hard_melee_company = {
 		random = no
 		local_building_slots_factor = 0.10
-		industrial_capacity_factory = 0.05
+		industrial_capacity_factory = 0.03
 		equipment_bonus = {
 			melee_equipment = {
 				build_cost_ic = -0.05
 				hard_attack = 0.15
 				ap_attack = 0.15
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	####### MOTORIZED/MECHANIZED #####
+	
+	car_reliability_company = {
+		random = no
+		line_change_production_efficiency_factor = 0.03
+		industrial_capacity_factory = 0.03
+		equipment_bonus = {
+			motorized_equipment = {
+				build_cost_ic = -0.05
+				reliability = 0.15
 			}
 		}
 		ai_will_do = {
