@@ -79,7 +79,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 340 y = 1150 }
+					position = { x = 340 y = 1280 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -2944,7 +2944,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_infantry_folder_item"
-		position = { x=-66 y=-7 }
+		position = { x=-66 y=-15 }
 		size = { width = 200 height = 100 }
 		clipping = no
 
@@ -2964,12 +2964,12 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = -60 y = -30 }
+			position = { x = -75 y = -30 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Happy-Go-Lucky-Tank"
-			maxWidth = 300
+			maxWidth = 350
 			maxHeight = 20
 			fixedsize = no
 			format = center
