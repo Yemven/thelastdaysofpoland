@@ -105,6 +105,42 @@ ideas = {
 				
 			}
 	    }
+		
+		POZ_bikes_supplylines = {
+			allowed = {
+				original_tag = POZ
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_more_steam
+			modifier = {
+				supply_consumption_factor = -0.1
+			}
+	    }
+		
+		POZ_urban_warriors = {
+			allowed = {
+				original_tag = POZ
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_more_steam
+			modifier = {
+				supply_consumption_factor = -0.1
+			}
+	    }
     }
 }
 

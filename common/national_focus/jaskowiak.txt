@@ -31,10 +31,13 @@ focus_tree = {
 		x = 4
 		y = 0
 		
-		cost = 1
+		cost = 2
 		search_filters = { }
 		completion_reward = { 
-		}
+		    add_manpower = 1000
+		    country_event = {
+			    id = poznan.1 }
+		}   
 	}
 	
 	focus = {
@@ -50,9 +53,11 @@ focus_tree = {
 		x = 2
 		y = 1
 		
-		cost = 1
+		cost = 2
 		search_filters = { }
 		completion_reward = { 
+		    country_event = {
+			    id = poznan.2 }
 		}
 	}
 	
@@ -62,7 +67,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+			
 		bypass = {
 		}
 		
@@ -88,9 +93,14 @@ focus_tree = {
 		x = 4
 		y = 3
 		
-		cost = 1
+		cost = 0
 		search_filters = { }
 		completion_reward = { 
+		    add_equipment_to_stockpile = {
+			type = ranged_equipment_4
+			amount = 1000
+			producer = ROM  
+		    }
 		}
 	}
 	
@@ -107,9 +117,10 @@ focus_tree = {
 		x = 6
 		y = 3
 		
-		cost = 1
+		cost = 0
 		search_filters = { }
 		completion_reward = { 
+		    add_political_power = -50
 		}
 	}
 	
@@ -145,9 +156,10 @@ focus_tree = {
 		x = 2
 		y = 4
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
+		    add_idea = POZ_bikes_supplylines
 		}
 	}
 	
@@ -165,7 +177,7 @@ focus_tree = {
 		x = 1
 		y = 5
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -184,7 +196,7 @@ focus_tree = {
 		x = 1
 		y = 6
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -223,7 +235,7 @@ focus_tree = {
 		x = 3
 		y = 5
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -242,9 +254,13 @@ focus_tree = {
 		x = 3
 		y = 6
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
+		    declare_war_on = {
+				target = SLU
+				type = annex_everything
+			}
 		}
 	}
 	
@@ -261,7 +277,7 @@ focus_tree = {
 		x = 3
 		y = 7
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -280,7 +296,7 @@ focus_tree = {
 		x = 8
 		y = 2
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -299,7 +315,7 @@ focus_tree = {
 		x = 8
 		y = 3
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -318,7 +334,7 @@ focus_tree = {
 		x = 8
 		y = 4
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -338,7 +354,7 @@ focus_tree = {
 		x = 7
 		y = 5
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -377,7 +393,7 @@ focus_tree = {
 		x = 9
 		y = 5
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -396,7 +412,7 @@ focus_tree = {
 		x = 9
 		y = 6
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -415,7 +431,7 @@ focus_tree = {
 		x = 12
 		y = 3
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -434,7 +450,7 @@ focus_tree = {
 		x = 11
 		y = 4
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -453,7 +469,7 @@ focus_tree = {
 		x = 11
 		y = 5
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -472,7 +488,7 @@ focus_tree = {
 		x = 11
 		y = 6
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -492,7 +508,7 @@ focus_tree = {
 		x = 11
 		y = 7
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -511,7 +527,7 @@ focus_tree = {
 		x = 13
 		y = 4
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -530,7 +546,7 @@ focus_tree = {
 		x = 13
 		y = 5
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -549,7 +565,7 @@ focus_tree = {
 		x = 13
 		y = 6
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -568,9 +584,19 @@ focus_tree = {
 		x = 13
 		y = 7
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = { 
+		    add_resource = {
+				type = steel
+				amount = 10
+				state = 700
+				}
+			add_resource = {
+				type = steel
+				amount = 10
+				state = 699
+				}
 		}
 	}
 	
@@ -590,7 +616,7 @@ focus_tree = {
 		x = 6
 		y = 8
 		
-		cost = 1
+		cost = 2
 		search_filters = { }
 		completion_reward = { 
 		}

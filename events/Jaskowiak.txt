@@ -1,0 +1,36 @@
+###########################
+# Poznan Events
+###########################
+
+add_namespace = poznan
+
+
+country_event = {
+	id = poznan.1
+	title = poznan.1.t
+	desc = poznan.1.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = poznan.1.a
+	}
+}
+
+country_event = {
+	id = poznan.2
+	title = poznan.2.t
+	desc = poznan.2.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = poznan.2.a
+	}
+}
+
+
