@@ -1503,7 +1503,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "production_military_line_entry"
 		position = { x=0 y=0 }
-		size = { width=500 height=111 }
+		size = { width=500 height=130 }
 		clipping = no
 
 		background = {
@@ -1539,29 +1539,29 @@ guiTypes = {
 		iconType = {
 			name ="efficiency_progressbar_to_max"
 			spriteType = "GFX_efficiency_progressbar_to_max"
-			position = { x= 252 y = 8 }
+			position = { x= 252 y = 10 }
 		}
 		iconType = {
 			name ="efficiency_progressbar"
 			spriteType = "GFX_efficiency_progressbar"
-			position = { x= 252 y = 8 }
+			position = { x= 252 y = 10 }
 
 		}
 		iconType = {
 			name ="efficiency_progressbar_frame"
 			spriteType = "GFX_efficiency_progressbar_frame"
-			position = { x= 248 y = 7 }
+			position = { x= 248 y = 9 }
 		}
 
 		iconType = {
 			name ="efficiency_icon"
 			spriteType = "GFX_efficiency_icon"
-			position = { x= 225 y = 4 }
+			position = { x= 225 y = 6 }
 		}
 
 		buttonType = {
 			name = "equipment_button"
-			position = { x=1 y=27 }
+			position = { x=1 y=31 }
 			quadTextureSprite = "GFX_prod_land_equipment_item_large"
 			clicksound = click_default
 		}
@@ -1576,7 +1576,7 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=135 y=72 }
+			position = { x=135 y=82 }
 			centerposition = yes
 			alwaystransparent = yes
 		}
@@ -1609,13 +1609,13 @@ guiTypes = {
 		iconType = {
 			name ="progressbar"
 			spriteType = "GFX_prod_progress_bar2"
-			position = { x= 157 y = 27 }
+			position = { x= 157 y = 35 }
 			hide = yes
 		}
 
 		instantTextboxType = {
 			name = "speed"
-			position = { x = 155 y = 28 }
+			position = { x = 155 y = 36 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "--"
@@ -1640,29 +1640,30 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "factories_grid"
-			position = { x = 317 y = 33 }
+			position = { x = 317 y = 43 }
 			size = { width = 150  height = 90 }
-			slotsize = { width = 29 height = 23 }
+			slotsize = { width = 29 height = 25 }
 			max_slots = { x = 5 y = 3 }
 			format = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name = "prod_line_glow"
-			position = { x = 315 y = 31 }
+			position = { x = 316 y = 35 }
 			spriteType = "GFX_prod_line_glow"
 			alwaystransparent = yes
+			scale = 0.95
 		}
 
 		buttonType = {
 			name = "btn_x10"
-			position = { x=278 y=30	 }
+			position = { x=278 y=45	 }
 			quadTextureSprite = "GFX_btn_x10"
 			clicksound = click_close
 		}
 		buttonType = {
 			name = "btn_x5"
-			position = { x=278 y=68	 }
+			position = { x=278 y=78	 }
 			quadTextureSprite = "GFX_btn_x5"
 			clicksound = click_close
 		}
@@ -1677,7 +1678,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "name"
-			position = { x = 54 y = 4 }
+			position = { x = 54 y = 6 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -1690,7 +1691,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "general_name"
-			position = { x = 10 y = 31 }
+			position = { x = 10 y = 38 }
 			font = "hoi_16mbs"
 			maxWidth = 150
 			maxHeight = 30
@@ -1700,13 +1701,13 @@ guiTypes = {
 
 		iconType = {
 			name = "need_state_icon"
-			position = { x=245 y=78 }
+			position = { x=245 y=98 }
 			quadTextureSprite = "GFX_prod_line_target_strip"
 		}
 
 		instantTextboxType = {
 			name = "total_need"
-			position = { x = 145 y = 86 }
+			position = { x = 145 y = 106 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
@@ -1726,7 +1727,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "expand"
-			position = { x=30 y=4 }
+			position = { x=30 y=6 }
 			quadTextureSprite = "GFX_strategicair_expand"
 			font = "hoi_16mbs"
 			frame = 2
@@ -1743,7 +1744,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "factories_used_txt"
-			position = { x=@prod_nof_pos_x y=6 }
+			position = { x=@prod_nof_pos_x y=8 }
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -1755,7 +1756,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "factories_sub_1x"
-			position = { x=@prod_sub_pos_x y=2 }
+			position = { x=@prod_sub_pos_x y=7 }
 			quadTextureSprite = "GFX_subtract_one"
 			font = "hoi_16mbs"
 			clicksound = click_default
@@ -1776,7 +1777,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "factories_add_1x"
-			position = { x=@prod_add_pos_x y=2 }
+			position = { x=@prod_add_pos_x y=7 }
 			quadTextureSprite = "GFX_add_one"
 			font = "hoi_16mbs"
 			clicksound = click_default
@@ -2214,7 +2215,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "amount"
-			position = { x = 16 y = 2 }
+			position = { x = 16 y = 4 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
@@ -4437,7 +4438,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "production_resource_item"
-		position = { x=0 y=0 }
+		position = { x=2 y=12 }
 		size = { width = 48 height = 27 }
 		clipping = no
 
