@@ -112,4 +112,38 @@ characters={
 			legacy_id=-1
 		}
 	}
+	POZ_krzysztof_kuba = {
+		name="Krzysztof Kuba"
+		portraits = {
+			army = {
+			    large="gfx/leaders/POZ/POZ_Kuba.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	POZ_jaroslaw_muszynski = {
+		name="Jarosław Muszyński"
+		portraits = {
+			army = {
+			    large="gfx/leaders/POZ/POZ_Muszynski.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 }

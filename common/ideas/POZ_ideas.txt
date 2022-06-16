@@ -15,6 +15,7 @@ ideas = {
 			modifier = {
 				conscription = 0.01
 				army_org_factor = 0.1
+				army_core_defence_factor = 0.1
 				
 			}
 		}
@@ -121,6 +122,7 @@ ideas = {
 			picture = BBW_more_steam
 			modifier = {
 				supply_consumption_factor = -0.1
+				org_loss_when_moving = -0.2
 			}
 	    }
 		
@@ -138,7 +140,10 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_more_steam
 			modifier = {
-				supply_consumption_factor = -0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_org_factor = -0.1
+				
 			}
 	    }
     }
