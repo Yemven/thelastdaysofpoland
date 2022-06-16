@@ -6,8 +6,8 @@ ideas = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = KRS }
 			available = { controls_province = 1004 }
-			cost = 200
-			traits = { industrial_company }
+			cost = 250
+			traits = { h_skrzydlewska_company }
 			research_bonus = {
 				industry = 0.1
 				}
@@ -17,9 +17,9 @@ ideas = {
 			allowed = { tag = KRS }
 			available = { controls_province = 3109 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { medicine_company }
 			research_bonus = {
-				industry = 0.1
+				hospital_tech = 0.1
 				}
 		}
 		milfex_krs = {
@@ -27,9 +27,9 @@ ideas = {
 			allowed = { tag = KRS }
 			available = { controls_province = 3770 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { radio_company }
 			research_bonus = {
-				electronics = 0.1
+				electronics = 0.15
 				}
 		}
 		borga_krs = {
@@ -37,7 +37,7 @@ ideas = {
 			allowed = { tag = KRS }
 			available = { controls_province = 10490 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { light_industry_company }
 			research_bonus = {
 				industry = 0.1
 				}
@@ -50,11 +50,8 @@ ideas = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = KRS }
 			available = { controls_province = 3770 }
-			cost = 200
-			traits = { industrial_company }
-			research_bonus = {
-				infantry_weapons = 0.1
-				}
+			cost = 250
+			traits = { detective_company }
 		}
 		expom_krs = {
 			picture = generic_industrial_concern_1

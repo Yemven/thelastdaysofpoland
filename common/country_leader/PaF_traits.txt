@@ -125,20 +125,6 @@ leader_traits = {
 	}
 	
 	#####INDUSTRIAL CONCERNS TRAITS######
-	pkp_trait = {
-		random = no
-		production_speed_rail_way_factor = 0.15
-		production_speed_supply_node_factor = 0.15
-		equipment_bonus = {
-			train_equipment = {
-				build_cost_ic = -0.25
-				reliability = 0.1
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	belchatow_power_plant = {
 		random = no
@@ -153,13 +139,37 @@ leader_traits = {
 		}
 	}
 	
+	h_skrzydlewska_company = {
+		random = no
+		supply_consumption_factor = -0.1
+		political_power_gain = 0.15
+		consumer_goods_factor = -0.05
+		monthly_population = -0.35
+		stability_factor = -0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	##### GENERIC INDUSTRIAL COMPANIES #######
 	
 	medicine_company = {
 		random = no
 		stability_factor = 0.05
 		monthly_population = 0.25
-		research_speed_factor = 0.01
+		research_speed_factor = 0.015
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	
+	radio_company = {
+		random = no
+		research_speed_factor = 0.025
+		production_speed_radar_station_factor = 0.15
+		land_reinforce_rate = 0.05
 		ai_will_do = {
 			factor = 1
 		}
@@ -178,10 +188,15 @@ leader_traits = {
 	
 	light_industry_company = {
 		random = no
+		production_speed_buildings_factor = 0.10
 		production_speed_infrastructure_factor = 0.10
+		production_speed_air_base_factor = 0.10
+		production_speed_naval_base_factor = 0.10
 		production_speed_industrial_complex_factor = 0.10
 		production_speed_fuel_silo_factor = 0.10
-		production_speed_synthetic_refinery_factor = 0.05
+		production_speed_synthetic_refinery_factor = 0.10
+		production_speed_nuclear_reactor_factor = 0.10
+		production_speed_radar_station_factor = 0.10
 		max_fuel_factor = 0.15
 		ai_will_do = {
 			factor = 1
@@ -190,11 +205,13 @@ leader_traits = {
 	
 	heavy_industry_company = {
 		random = no
+		production_speed_buildings_factor = 0.05
 		production_speed_arms_factory_factor = 0.10
 		production_speed_dockyard_factor = 0.10
+		production_speed_anti_air_building_factor = 0.10
 		production_speed_bunker_factor = 0.10
 		production_speed_coastal_bunker_factor = 0.10
-		industrial_capacity_factory = 0.03
+		industrial_capacity_factory = 0.05
 		ai_will_do = {
 			factor = 1
 		}
@@ -203,16 +220,22 @@ leader_traits = {
 	
 	
 	########MILITARY COMPANIES TRAITS##########
-	rosomak_sa_company = {
+	detective_company = {
 		random = no
-		industrial_capacity_factory = 0.1 
-		equipment_bonus = {
-			light_artillery_equipment = {
-				build_cost_ic = -0.10
-				soft_attack = 0.05
-				reliability = 0.1
-			}
-		}
+		research_speed_factor = 0.01
+		stability_factor = 0.10
+		resistance_garrison_penetration_chance = -0.5
+		decryption_factor = 0.35
+		encryption_factor = 0.15
+		recon_factor = 0.15
+		operative_slot = 2
+		new_operative_slot_bonus = 2
+		civilian_intel_factor = 0.35
+		army_intel_factor = 0.25
+		agency_upgrade_time = -0.1
+		intel_network_gain_factor = 0.1
+		intelligence_agency_defense = 0.15
+		operation_outcome = 0.15
 		ai_will_do = {
 			factor = 1
 		}
