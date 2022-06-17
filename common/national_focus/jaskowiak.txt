@@ -31,7 +31,7 @@ focus_tree = {
 		x = 4
 		y = 0
 		
-		cost = 2
+		cost = 1
 		search_filters = { }
 		completion_reward = { 
 		    add_manpower = 1000
@@ -53,7 +53,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		
-		cost = 2
+		cost = 1
 		search_filters = { }
 		completion_reward = { 
 		    country_event = {
@@ -65,7 +65,12 @@ focus_tree = {
 		id = POZ_contact_westpolen
 		prerequisite = { focus = POZ_stranded_in_madlands }
 		available = {
-		
+		    212 = { is_owned_and_controlled_by = EKW } #Rokietnica
+			207 = { is_owned_and_controlled_by = EKW } #Murowana Goslina
+			695 = { is_owned_and_controlled_by = EKW } #Lubon
+			206 = { is_owned_and_controlled_by = EKW } #Oborniki
+			193 = { is_owned_and_controlled_by = EKW } #Szamotuly
+			162 = { is_owned_and_controlled_by = EKW } #Wagrowiec
 		}
 			
 		bypass = {
@@ -77,6 +82,11 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
+		    POZ = {
+			    country_event = {
+			    id = poznan.4
+			    days = 2 }
+			}
 		}
 	}
 	
@@ -84,7 +94,7 @@ focus_tree = {
 		id = POZ_aid_gained
 		prerequisite = { focus = POZ_contact_westpolen }
 		available = {
-		
+		        hidden_trigger = { always = no }
 		}
 		
 		bypass = {
@@ -108,7 +118,7 @@ focus_tree = {
 		id = POZ_theyre_just_german_bootlickers
 		prerequisite = { focus = POZ_contact_westpolen }
 		available = {
-		
+		        hidden_trigger = { always = no }
 		}
 		
 		bypass = {
@@ -128,7 +138,7 @@ focus_tree = {
 		id = POZ_approach_the_slums
 		prerequisite = { focus = POZ_stranded_in_madlands }
 		available = {
-		
+		    SLU = exist
 		}
 		
 		bypass = {
@@ -140,6 +150,8 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = { 
+		    country_event = {
+			    id = poznan.8 }
 		}
 	}
 	
@@ -156,7 +168,7 @@ focus_tree = {
 		x = 2
 		y = 4
 		
-		cost = 5
+		cost = 4
 		search_filters = { }
 		completion_reward = { 
 		    add_idea = POZ_bikes_supplylines
@@ -177,7 +189,7 @@ focus_tree = {
 		x = 1
 		y = 5
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -196,7 +208,7 @@ focus_tree = {
 		x = 1
 		y = 6
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -218,6 +230,8 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
+		    country_event = {
+			    id = poznan.9 }
 		}
 	}
 	
@@ -235,7 +249,7 @@ focus_tree = {
 		x = 3
 		y = 5
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -254,7 +268,7 @@ focus_tree = {
 		x = 3
 		y = 6
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = { 
 		    declare_war_on = {
@@ -277,9 +291,11 @@ focus_tree = {
 		x = 3
 		y = 7
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = { 
+		    country_event = {
+			    id = poznan.9 }
 		}
 	}
 	
@@ -296,7 +312,7 @@ focus_tree = {
 		x = 8
 		y = 2
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -315,7 +331,7 @@ focus_tree = {
 		x = 8
 		y = 3
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -334,7 +350,7 @@ focus_tree = {
 		x = 8
 		y = 4
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -354,7 +370,7 @@ focus_tree = {
 		x = 7
 		y = 5
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = { 
 		}
@@ -396,6 +412,10 @@ focus_tree = {
 		cost = 5
 		search_filters = { }
 		completion_reward = { 
+		    swap_ideas = {
+					remove_idea = POZ_anti_religious_fervor
+					add_idea = POZ_anti_religious_fervor2
+				}
 		}
 	}
 	
@@ -619,6 +639,8 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = { 
+		    country_event = {
+			    id = poznan.3 }
 		}
 	}
 	

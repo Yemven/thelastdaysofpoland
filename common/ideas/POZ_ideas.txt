@@ -146,6 +146,79 @@ ideas = {
 				
 			}
 	    }
+		
+		POZ_the_great_war = {
+			allowed = {
+				original_tag = POZ
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_more_steam
+			modifier = {
+				monthly_population = -2.0
+				max_surrender_limit_offset = 0.5
+				war_support_factor = 0.5
+				consumer_goods_factor = 0.1
+				compliance_growth_on_our_occupied_states = 0.2
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				army_speed_factor = 0.1
+				supply_consumption_factor = -0.2
+				conscription = 0.05
+				
+			}
+	    }
+		
+		POZ_anti_religious_fervor2 = {
+			allowed = {
+				original_tag = POZ
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_more_steam
+			modifier = {
+				stability_factor = -0.25
+				production_factory_max_efficiency_factor = -0.1
+				research_speed_factor = 0.1
+				
+			}
+		}
+		
+		POZ_divided_city2 = {
+			allowed = {
+				original_tag = POZ
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_more_steam
+			modifier = {
+				industry_repair_factor = -0.2
+				consumer_goods_factor = 0.1
+				stability_factor = -0.05
+				monthly_population = -0.35
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.15
+				
+			}
+		}
     }
 }
 
