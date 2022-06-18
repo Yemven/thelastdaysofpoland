@@ -314,6 +314,11 @@ technologies = {
 		enable_equipments = {
 			motorized_equipment_1
 		}
+		
+		sub_technologies = {
+			basic_truck_tire_upgrade
+		}
+		
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 3}
@@ -322,12 +327,30 @@ technologies = {
 			armor
 		}
 		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	basic_truck_tire_upgrade = {
+		
+		motorized = {
+		maximum_speed = 0.05
+		}
+		
+		research_cost = 1.5
+		start_year = 2027
+		
+		ai_will_do = {
 			factor = 1
+		}
+		
+		categories = {
+			armor
 		}
 	}
 	
 	truck_2 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2030
 		path = {
 			leads_to_tech = truck_3
@@ -340,6 +363,9 @@ technologies = {
 			name = armour_folder
 			position = { x = -4 y = 6}
 		}
+		sub_technologies = {
+			advanced_truck_tire_upgrade
+		}
 		categories = {
 			armor
 		}
@@ -348,8 +374,26 @@ technologies = {
 		}
 	}
 	
-	truck_3 = {
+	advanced_truck_tire_upgrade = {
+		
+		motorized = {
+		maximum_speed = 0.05
+		}
+		
 		research_cost = 2
+		start_year = 2030
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	truck_3 = {
+		research_cost = 3
 		start_year = 2033
 		path = {
 			leads_to_tech = truck_4
@@ -362,6 +406,9 @@ technologies = {
 			name = armour_folder
 			position = { x = -4 y = 10}
 		}
+		sub_technologies = {
+			truck_tank_upgrade
+		}
 		categories = {
 			armor
 		}
@@ -370,8 +417,26 @@ technologies = {
 		}
 	}
 	
-	truck_4 = {
+	truck_tank_upgrade = {
+		
+		motorized = {
+		maximum_speed = 0.10
+		}
+		
 		research_cost = 2
+		start_year = 2033
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	truck_4 = {
+		research_cost = 3
 		start_year = 2036
 		folder = {
 			name = armour_folder
@@ -384,6 +449,9 @@ technologies = {
 		enable_equipments = {
 			motorized_equipment_4
 		}
+		sub_technologies = {
+			truck_maintance_upgrade
+		}
 		categories = {
 			armor
 		}
@@ -392,8 +460,26 @@ technologies = {
 		}
 	}
 	
-	truck_5 = {
+	truck_maintance_upgrade = {
+		
+		motorized = {
+		supply_consumption_factor = -0.10
+		}
+		
 		research_cost = 2
+		start_year = 2036
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	truck_5 = {
+		research_cost = 3
 		start_year = 2040
 		folder = {
 			name = armour_folder
@@ -402,6 +488,9 @@ technologies = {
 		enable_equipments = {
 			motorized_equipment_5
 		}
+		sub_technologies = {
+			truck_engine_upgrade
+		}
 		categories = {
 			armor
 		}
@@ -410,8 +499,26 @@ technologies = {
 		}
 	}
 	
-	apc_1 = {
+	truck_engine_upgrade = {
+		
+		motorized = {
+		maximum_speed = 0.10
+		}
+		
 		research_cost = 2
+		start_year = 2040
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	apc_1 = {
+		research_cost = 3
 		start_year = 2030
 		path = {
 			leads_to_tech = apc_2
@@ -436,7 +543,7 @@ technologies = {
 	}
 	
 	ifv_1 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2030
 		path = {
 			leads_to_tech = ifv_2
@@ -461,7 +568,7 @@ technologies = {
 	}
 	
 	apc_2 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2033
 		path = {
 			leads_to_tech = apc_3
@@ -483,7 +590,7 @@ technologies = {
 	}
 	
 	ifv_2 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2033
 		path = {
 			leads_to_tech = ifv_3
@@ -505,7 +612,7 @@ technologies = {
 	}
 	
 	apc_3 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2036
 		path = {
 			leads_to_tech = apc_4
@@ -527,7 +634,7 @@ technologies = {
 	}
 	
 	ifv_3 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2036
 		path = {
 			leads_to_tech = ifv_4
@@ -549,7 +656,7 @@ technologies = {
 	}
 	
 	apc_4 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2040
 		folder = {
 			name = armour_folder
@@ -567,7 +674,7 @@ technologies = {
 	}
 	
 	ifv_4 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2040
 		folder = {
 			name = armour_folder
