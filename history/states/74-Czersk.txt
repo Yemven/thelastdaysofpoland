@@ -4,16 +4,16 @@ state={
 	name="STATE_74"
 	provinces={
 		136 177 574 3033
-		16159 16160 16161 16162 16163 16164 16165 16166 16167 16168 16169 16170
+		16159 16160 16161 16162 16163 16164 16165 16166 16167 16168 16169 16170 16171
 	}
 	manpower = 33518   state_category = city
 	buildings_max_level_factor=1.000
-				history = {
+	history = {
 		owner = KSZ
-		victory_points = { }
+		victory_points = { 16171 1 }
 		add_core_of = KSZ 
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+		infrastructure = 7
+		}
+	}
 }
