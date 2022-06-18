@@ -7,7 +7,7 @@ ideas = {
 			allowed = { tag = SAP }
 			available = { controls_province = 7449 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { food_company }
 			research_bonus = {
 				industry = 0.1
 				}
@@ -17,7 +17,7 @@ ideas = {
 			allowed = { tag = SAP }
 			available = { controls_province = 11687 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { transport_company }
 			research_bonus = {
 				industry = 0.1
 				}
@@ -27,7 +27,7 @@ ideas = {
 			allowed = { tag = SAP }
 			available = { controls_province = 11593 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { light_industry_company }
 			research_bonus = {
 				industry = 0.1
 				}
@@ -41,7 +41,7 @@ ideas = {
 			allowed = { tag = SAP }
 			available = { controls_province = 7452 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { defense_firearms_company }
 			research_bonus = {
 				infantry_weapons = 0.1
 				}
@@ -51,7 +51,7 @@ ideas = {
 			allowed = { tag = SAP }
 			available = { controls_province = 7450 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { fast_tank_company }
 			research_bonus = {
 				armor = 0.1
 				}
