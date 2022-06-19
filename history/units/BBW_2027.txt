@@ -12,11 +12,23 @@
 division_template = {
 	name = "Paladyni Bractwa"
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Grupa Szturmowa"
+	regiments = {
+		armored_cars = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		armored_car = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
 	}
 }
 
@@ -36,12 +48,20 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
-
+	
+	division = {
+		name = "Czarne Diabły"
+		location = 509
+		division_template = "Grupa Szturmowa"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
 	division = {
 		name = "Paladyni Łascy"
 		location = 10236
 		division_template = "Paladyni Bractwa"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 
