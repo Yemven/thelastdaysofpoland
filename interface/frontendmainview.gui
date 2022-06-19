@@ -35,7 +35,7 @@ guiTypes = {
 		{
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
-			position = { x= 80 y = 20 }
+			position = { x= 230 y = 40 }
 		}
 		
 	}
@@ -84,7 +84,7 @@ guiTypes = {
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
-		position = { x=500 y =0}
+		position = { x=666 y =0}
 		size = { width = 920 height = 695}
 		Orientation = CENTER
 		Origo = center	
@@ -93,7 +93,7 @@ guiTypes = {
 		ButtonType = {
 			name = "sp_continue_button"
 			position = { x = -985 y = 118 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "FE_CONTINUE"
 			buttonFont = "vic_36s"
 			clicksound = click_default
@@ -104,7 +104,7 @@ guiTypes = {
 		ButtonType = {
 			name = "sp_new_button"
 			position = { x = -985 y = 198 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "FE_NEW"
 			buttonFont = "vic_36s"
 			clicksound = click_default
@@ -114,7 +114,7 @@ guiTypes = {
 		ButtonType = {
 			name = "sp_load_button"
 			position = {  x = -985 y = 278 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "MENU_BAR_LOAD"
 			buttonFont = "vic_36s"
 			clicksound = click_default
@@ -124,7 +124,7 @@ guiTypes = {
 		ButtonType = {
 			name = "sp_tutorial_button"
 			position = { x = -985 y = 358}
-			quadTextureSprite ="GFX_main_lobby_button"	
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "FE_TUTORIAL"
 			buttonFont = "vic_36s"
 			clicksound = click_default
@@ -134,7 +134,7 @@ guiTypes = {
 		ButtonType = {
 			name = "sp_back_button"
 			position = { x = -985 y = 438 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "BACK"
 			buttonFont = "vic_36s"
 			clicksound = click_close
@@ -146,7 +146,7 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=-500 y =0}
+		position = { x=-344 y =0}
 		size = { width = 920 height = 695}
 		Orientation = CENTER
 		Origo = center		
@@ -155,7 +155,7 @@ guiTypes = {
 		ButtonType = {
 			name = "single_player_button"
 			position = { x = 16 y = 118 }
-			quadTextureSprite ="GFX_main_lobby_button"
+			quadTextureSprite ="GFX_main_menu_button"
 			font = "vic_36s"			
 			text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
@@ -165,7 +165,7 @@ guiTypes = {
 		ButtonType = {
 			name = "multi_player_button"
 			position = { x = 16 y = 198}
-			quadTextureSprite ="GFX_main_lobby_button"
+			quadTextureSprite ="GFX_main_menu_button"
 			font = "vic_36s"			
 			text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
@@ -182,7 +182,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = -10 y = 856 }
+			position = { x = 1090 y = 823 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -196,7 +196,7 @@ guiTypes = {
 		ButtonType = {
 			name = "settings_button"
 			position = { x = 16 y = 278 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "OPTIONS"
 			buttonFont = "vic_36s"
 			clicksound = click_default
@@ -207,7 +207,7 @@ guiTypes = {
 		ButtonType = {
 			name = "credits_button"
 			position = {  x = 16 y = 358 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "FE_CREDITS"
 			buttonFont = "vic_36s"
 			clicksound = click_default
@@ -217,7 +217,7 @@ guiTypes = {
 		ButtonType = {
 			name = "nudge_button"
 			position = { x = 16 y = 438 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "Nudge!"
 			buttonFont = "vic_36s"
 		}
@@ -226,7 +226,7 @@ guiTypes = {
 		ButtonType = {
 			name = "exit_button"
 			position = { x = 16 y = 570 }
-			quadTextureSprite ="GFX_main_lobby_button"
+			quadTextureSprite ="GFX_main_menu_button"
 			font = "vic_36s"			
 			text = "FE_EXIT"			
 			clicksound = click_default
@@ -237,7 +237,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "mainmenu_social_buttons"
-		position = { x=-50 y=25 }	
+		position = { x=350 y=5 }	
 		size = { width = 240 height = 90 }
 		Orientation = center	
 		origo = center
@@ -292,24 +292,18 @@ guiTypes = {
 			}
 		}
 		
-		ButtonType = {
-			name = "homepage_button"
-			position = { x=-810 y=300 }
-			quadTextureSprite ="homepage"
-			clicksound = click_default
-			pdx_tooltip = "MENU_HOMEPAGE"
-		}
+
 		ButtonType = {
 			name = "forum_button"
-			position = { x=-760 y=300 }
+			position = { x=-400 y=355 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
-			web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
+			web_link = "https://discord.gg/aRHmncRB7d"
 		}
 		ButtonType = {
 			name = "facebook_button"
-			position = { x=-710 y=300 }
+			position = { x=-450 y=355 }
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
@@ -317,18 +311,11 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "twitter_button"
-			position = { x=-660 y=300 }
+			position = { x=-500 y=355 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/hoi_game"
-		}
-		ButtonType = {
-			name = "privacy_policy_button"
-			position = { x=-610 y=300 }
-			quadTextureSprite ="privacy"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_PRIVACY_POLICY"
+			web_link = "https://www.reddit.com/r/prideandfall/"
 		}
 	}
 
