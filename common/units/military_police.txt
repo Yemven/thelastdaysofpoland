@@ -27,7 +27,7 @@ sub_units = {
 		max_strength = 1
 		max_organisation = 0	
 		default_morale = 0.3
-		manpower = 500
+		manpower = 100
 		training_time = 180
 
 		#Misc Abilities
@@ -36,16 +36,18 @@ sub_units = {
 		can_be_parachuted = yes
 		
 		# Important Ability
-		suppression_factor = 0.20
+		suppression_factor = 0.30
 
 		essential = {
-			ranged_equipment
+			melee_equipment
 			support_equipment
 		}
 		
 		need = {
-			support_equipment = 10
-			ranged_equipment = 40
+			support_equipment = 15
+			melee_equipment = 75
+			equipment_armor = 75
+			
 		}
 
 	}

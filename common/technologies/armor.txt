@@ -72,7 +72,7 @@ technologies = {
 	#}
 	
 	sidecar = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2027
 		path = {
 			leads_to_tech = apc_1
@@ -87,7 +87,9 @@ technologies = {
 		}
 		enable_equipments = {
 			sidecar_equipment
-			enduro_equipment
+		}
+		sub_technologies = {
+			enduro_tech
 		}
 		folder = {
 			name = armour_folder
@@ -101,8 +103,26 @@ technologies = {
 		}
 	}
 	
+	enduro_tech = {
+		
+		enable_equipments = {
+			enduro_equipment
+		}
+		
+		research_cost = 3
+		start_year = 2027
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
 	mbt_0 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2027
 		path = {
 			leads_to_tech = mbt_1
@@ -127,7 +147,7 @@ technologies = {
 	}
 	
 	mbt_1 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2030
 		path = {
 			leads_to_tech = mbt_2
@@ -149,7 +169,7 @@ technologies = {
 	}
 	
 	mbt_2 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2033
 		path = {
 			leads_to_tech = mbt_3
@@ -171,7 +191,7 @@ technologies = {
 	}
 	
 	mbt_3 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2036
 		path = {
 			leads_to_tech = mbt_4
@@ -193,7 +213,7 @@ technologies = {
 	}
 	
 	mbt_4 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2040
 		folder = {
 			name = armour_folder
@@ -364,7 +384,7 @@ technologies = {
 			position = { x = -4 y = 6}
 		}
 		sub_technologies = {
-			advanced_truck_tire_upgrade
+			truck_frame_protection_upgrade
 		}
 		categories = {
 			armor
@@ -374,10 +394,10 @@ technologies = {
 		}
 	}
 	
-	advanced_truck_tire_upgrade = {
+	truck_frame_protection_upgrade = {
 		
 		motorized = {
-		maximum_speed = 0.05
+		defence = 0.05
 		}
 		
 		research_cost = 2

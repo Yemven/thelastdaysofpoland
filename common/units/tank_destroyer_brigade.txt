@@ -24,9 +24,12 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			ifv_destroyer_chassis = 30
+			ifv_destroyer_chassis = 75
+			ranged_equipment = 100
+			equipment_vests = 85
+			inf_anti_tank_equipment = 10
 		}
-		manpower = 500
+		manpower = 125
 		max_organisation = 0
 		default_morale = 0.3
 		max_strength = 0.6
@@ -89,9 +92,11 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			mbt_destroyer_chassis = 24
+			mbt_destroyer_chassis = 60
+			ranged_equipment = 25
+			equipment_vests = 50
 		}
-		manpower = 500
+		manpower = 125
 		max_organisation = 0
 		default_morale = 0.3
 		max_strength = 0.6
