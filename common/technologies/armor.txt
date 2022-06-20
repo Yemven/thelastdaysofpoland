@@ -231,7 +231,7 @@ technologies = {
 	}
 	
 	armored_car_1 = {
-		research_cost = 2
+		research_cost = 3
 		start_year = 2030
 		path = {
 			leads_to_tech = armored_car_2
@@ -247,6 +247,9 @@ technologies = {
 			name = armour_folder
 			position = { x = -6 y = 6}
 		}
+		sub_technologies = {
+			car_engine_upgrade
+		}
 		categories = {
 			armor
 		}
@@ -255,8 +258,27 @@ technologies = {
 		}
 	}
 	
-	armored_car_2 = {
+	car_engine_upgrade = {
+		
+		armored_car = {
+		maximum_speed = 0.05
+		}
+		
 		research_cost = 2
+		start_year = 2030
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	
+	armored_car_2 = {
+		research_cost = 3
 		start_year = 2033
 		path = {
 			leads_to_tech = armored_car_3
@@ -269,6 +291,9 @@ technologies = {
 			name = armour_folder
 			position = { x = -6 y = 10}
 		}
+		sub_technologies = {
+			car_armor_upgrade_1
+		}
 		categories = {
 			armor
 		}
@@ -277,8 +302,26 @@ technologies = {
 		}
 	}
 	
-	armored_car_3 = {
+	car_armor_upgrade_1 = {
+		
+		armored_car = {
+		hardness = 0.05
+		}
+		
 		research_cost = 2
+		start_year = 2033
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	armored_car_3 = {
+		research_cost = 3
 		start_year = 2036
 		path = {
 			leads_to_tech = armored_car_4
@@ -291,6 +334,9 @@ technologies = {
 			name = armour_folder
 			position = { x = -6 y = 14}
 		}
+		sub_technologies = {
+			car_gun_upgrade
+		}
 		categories = {
 			armor
 		}
@@ -299,8 +345,26 @@ technologies = {
 		}
 	}
 	
-	armored_car_4 = {
+	car_gun_upgrade = {
+		
+		armored_car = {
+		soft_attack = 0.05
+		}
+		
 		research_cost = 2
+		start_year = 2036
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	armored_car_4 = {
+		research_cost = 3
 		start_year = 2040
 		folder = {
 			name = armour_folder
@@ -309,11 +373,32 @@ technologies = {
 		enable_equipments = {
 			armored_car_equipment_4
 		}
+		sub_technologies = {
+			car_armor_upgrade_2
+		}
 		categories = {
 			armor
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	
+	car_armor_upgrade_2 = {
+		
+		armored_car = {
+		hardness = 0.05
+		}
+		
+		research_cost = 2
+		start_year = 2040
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
 		}
 	}
 	
@@ -397,7 +482,7 @@ technologies = {
 	truck_frame_protection_upgrade = {
 		
 		motorized = {
-		defence = 0.05
+		defense = 0.05 
 		}
 		
 		research_cost = 2
