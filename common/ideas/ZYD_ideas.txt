@@ -62,7 +62,7 @@ ideas = {
 			allowed = { tag = ZYD }
 			available = { controls_province = 1444 }	
 			cost = 200
-			traits = { industrial_company }
+			traits = { light_industry_company }
 			research_bonus = {
 				industry = 0.1
 				}
@@ -72,7 +72,7 @@ ideas = {
 			allowed = { tag = ZYD }
 			available = { controls_province = 3358 }	
 			cost = 200
-			traits = {  }
+			traits = { heavy_industry_company }
 			research_bonus = {
 				industry = 0.1
 				}
@@ -82,7 +82,7 @@ ideas = {
 			allowed = { tag = ZYD }
 			available = { controls_province = 7456 }	
 			cost = 200
-			traits = { industrial_company }
+			traits = { food_company }
 			research_bonus = {
 				industry = 0.1
 				}
@@ -97,7 +97,7 @@ ideas = {
 			allowed = { tag = ZYD }
 			available = { controls_province = 12131 }	
 			cost = 200
-			traits = { industrial_company }
+			traits = { attack_melee_company }
 			research_bonus = {
 				infantry_weapons = 0.1
 				}
@@ -107,7 +107,7 @@ ideas = {
 			allowed = { tag = ZYD }
 			available = { controls_province = 7456 }	
 			cost = 200
-			traits = { industrial_company }
+			traits = { cheap_melee_company }
 			research_bonus = {
 				infantry_weapons = 0.1
 				}
@@ -118,7 +118,7 @@ ideas = {
 			allowed = { tag = ZYD }
 			available = { controls_province = 7456 }	
 			cost = 200
-			traits = { industrial_company }
+			traits = { car_quality_company }
 			research_bonus = {
 				motorized_equipment = 0.1
 				}

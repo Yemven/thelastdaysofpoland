@@ -2,7 +2,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "weapon_gui"
-		position = { x = 0 y = 79}	
+		position = { x = 0 y = 81}	
 		size = { width = 800 height= 650 }
 		orientation = upper_left
 		origo = upper_left
@@ -21,7 +21,7 @@ guiTypes = {
 			position = { x = 40 y = 7 }
 			text = "Weapons Dealer"
 			font = "hoi_36header"
-			maxWidth = 700
+			maxWidth = 300
 		}
 		buttonType = {
 			name = "dealer_close_button"
@@ -47,15 +47,43 @@ guiTypes = {
 			clipping = no
 			
 			background = {
-			name = "sell_bg"		
-			quadTextureSprite ="GFX_sell_buy"
+				name = "sell_bg"		
+				quadTextureSprite ="GFX_sell_buy"
+				}
+				instantTextboxType = {
+				name = "title_buy"
+				position = { x = 90 y = 35 }
+				text = "Sell Weapons"
+				font = "hoi_26mbs"
+				maxWidth = 100
 			}
-			instantTextboxType = {
-			name = "title_buy"
-			position = { x = 90 y = 35 }
-			text = "Sell Weapons"
-			font = "hoi_26mbs"
-			maxWidth = 700
+			containerWindowType = {
+				name = "sell_window"
+				position = { x = 0 y = 120}	
+				size = { width = 800 height= 650 }
+				orientation = upper_left
+				origo = upper_left
+				fade_time = 600
+				moveable = no
+				fade_type = linear
+				click_to_front = yes
+				clipping = no
+				
+				
+				
+				instantTextboxType = {
+					name = "title_weapon_sell"
+					position = { x = 60 y = 90 }
+					text = "Choose Weapon Type"
+					font = "hoi_26mbs"
+					maxWidth = 150
+				}
+				iconType ={
+					name = "get_weapon"
+					spriteType = "GFX_weapon"
+					position = { x= 30 y = 120 }
+					orientation = upper_left
+				}
 			}
 		}
 		containerWindowType = {
@@ -79,9 +107,42 @@ guiTypes = {
 				position = { x = 88 y = 35 }
 				text = "Buy Weapons"
 				font = "hoi_26mbs"
-				maxWidth = 700
+				maxWidth = 100
+			}
+			containerWindowType = {
+				name = "logistics_info_equipment_entry"
+				position = { x=0 y=0 }
+				size = { width = 351 height = 40 }
+				clipping = no
+
+				background = {
+					name = "Background"
+					spriteType ="GFX_logistics_info_equip_variant_entry"
+				}
+
+				instantTextboxType = {
+					name = "equipment_variant"
+					position = { x = 22 y = 10 }
+					font = "hoi_16mbs"
+					text = "name"
+					maxWidth = 154
+					maxHeight = 20
+					format = left
+					fixedsize = yes
+				}
+
+				instantTextboxType = {
+					name = "in_stock"
+					position = { x = 130 y = 9 }
+					font = "hoi_16mbs"
+					text = "amount"
+					maxWidth = 63
+					maxHeight = 20
+					format = center
+				}	
 			}
 		}
+	}
 			
 		#iconType ={
 		#	name ="production_header_bg"
