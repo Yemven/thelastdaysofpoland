@@ -2,22 +2,7 @@ ideas = {
 	party_system = {
 		law = yes
 		use_list_view = yes
-		no_party = {
-			available = { always = no }
-			removal_cost = -1
-			ledger = civilian
-			modifier = 
-			{  
-			stability_factor = -0.20
-			political_power_gain = 0.15
-			war_support_factor = -0.15
-			drift_defence_factor = -0.25
-			surrender_limit = -0.15
-			consumer_goods_factor = -0.05
-			}
-			cancel_if_invalid = no 
-			}
-			
+		
 		monoparty = { 			
 			available = { always = no }
 			removal_cost = -1
@@ -35,6 +20,21 @@ ideas = {
 			cancel_if_invalid = no 
 		}
 		
+		regime_council = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = 
+			{
+			stability_factor = 0.10
+			mobilization_speed = -0.05
+			planning_speed = -0.05
+			max_planning_factor = 0.10
+			surrender_limit = 0.05
+			}
+			cancel_if_invalid = no 	
+		}
+		
 		controlled_opposition = { 
 			available = { always = no }
 			removal_cost = -1
@@ -49,6 +49,22 @@ ideas = {
 			}
 			cancel_if_invalid = no 
 		}
+		
+		two_party_system = { 
+			available = { always = no }
+			removal_cost = -1
+			ledger = civilian
+			modifier = 
+			{
+			stability_factor = -0.05
+			defensive_war_stability_factor = 0.15
+			offensive_war_stability_factor = -0.10
+			political_power_gain = 0.05
+			surrender_limit = 0.05
+			}
+			cancel_if_invalid = no 	
+		}
+		
 		multiparty = { 
 			default = yes
 			available = { always = no }
@@ -65,34 +81,20 @@ ideas = {
 			cancel_if_invalid = no 	
 		}
 		
-		regime_council = { 
+		no_party = {
 			available = { always = no }
 			removal_cost = -1
 			ledger = civilian
 			modifier = 
-			{
-			stability_factor = 0.10
-			mobilization_speed = -0.05
-			planning_speed = -0.05
-			max_planning_factor = 0.10
-			surrender_limit = 0.05
+			{  
+			stability_factor = -0.20
+			political_power_gain = 0.15
+			war_support_factor = -0.15
+			drift_defence_factor = -0.25
+			surrender_limit = -0.15
+			consumer_goods_factor = -0.05
 			}
-			cancel_if_invalid = no 	
-		}
-		
-		two_party_system = { 
-			available = { always = no }
-			removal_cost = -1
-			ledger = civilian
-			modifier = 
-			{
-			stability_factor = -0.05
-			defensive_war_stability_factor = 0.15
-			offensive_war_stability_factor = -0.10
-			political_power_gain = 0.05
-			surrender_limit = 0.05
-			}
-			cancel_if_invalid = no 	
+			cancel_if_invalid = no 
 		}
 		
 	}

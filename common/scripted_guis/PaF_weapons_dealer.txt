@@ -2,8 +2,10 @@ scripted_gui = {
   weapons_button = {
     window_name = "after_logistics_button"
     context_type = player_context
+	#parent_window_token = top_bar
 
     visible = {
+		
     }
 
     effects = {

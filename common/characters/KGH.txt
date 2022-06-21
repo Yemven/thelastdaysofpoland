@@ -1,6 +1,7 @@
 characters={
+	##korpo##
 	KGH_zarząd_kghm={
-		name="Zarząd KGHM"
+		name="KGHM Management"
 		portraits={
 			civilian={
 				large="gfx/leaders/KGH/KGH_Zarzad.dds"
@@ -11,5 +12,318 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+	}
+	
+	KGH_marcin_chludzinski={
+		name="Marcin Chludziński"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_zarząd_kghm
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
+	}
+	
+	KGH_andrzej_ksenbok={
+		name="Andrzej Ksenbok"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_zarząd_kghm
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
+	}
+	
+	KGH_adam_bugajczuk={
+		name="Adam Bugajczuk"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_zarząd_kghm
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
+	}
+	
+	KGH_marek_swider={
+		name="Marek Świder"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_zarząd_kghm
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
+	}
+	##nauka sane##
+	KGH_scientific_institute={
+		name="Scientific Institute"
+		portraits={
+
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		
+	}
+	
+	KGH_dr_isaac_kleiner={
+		name="Dr Isaac Kleiner"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_scientific_institute
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
+	}
+	
+	KGH_dr_stanislaus_braun={
+		name="Dr Stanislaus Braun"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_scientific_institute
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
+	}
+	
+	KGH_dr_walter_bennet={
+		name="Dr Walter Bennet"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_scientific_institute
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
+	}
+	
+	KGH_dr_brigid_tenenbaum={
+		name="Dr Brigid Tenenbaum"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_scientific_institute
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
+	}
+	
+	##nauka insane##
+	KGH_thinktank={
+		name="The Think Tank"
+		portraits={
+
+		}
+		country_leader={
+			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		
+	}
+	
+	KGH_copper_processor={
+		name="Copper Processor"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_thinktank
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
+	}
+	
+	KGH_copper_calculator={
+		name="Copper Calculator"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_thinktank
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
+	}
+	KGH_copper_communicator={
+		name="Copper Communicator"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_thinktank
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
+	}
+	KGH_copper_golem={
+		name="Copper Golem"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KGH
+			}
+			allowed = {
+				has_country_leader = {
+				character = KGH_thinktank
+				ruling_only = yes
+			}
+			traits = {  }
+		}
+	}
 	}
 }
