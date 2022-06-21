@@ -882,17 +882,7 @@ guiTypes = {
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
-				buttonType = {
-					name = "weapons_button"
-					quadTextureSprite ="GFX_weapons_dealer"
-					position = { x= 396 y = 0 }
-					Orientation = "UPPER_LEFT"
-					shortcut = "shift+r"
-					clicksound = click_close
-					oversound = ui_menu_over
-					pdx_tooltip = "TOPBAR_WEAPONS"
-					pdx_tooltip_delayed = "TOPBAR_WEAPONS_DESC"
-				}
+				
 			}
 			
 			buttonType = {
