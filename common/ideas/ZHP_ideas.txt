@@ -79,7 +79,7 @@ ideas = {
 			allowed = { tag = ZHP }
 			available = { controls_province = 7727 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { heavy_industry_company }
 			research_bonus = {
 				industry = 0.1
 				}
@@ -89,7 +89,7 @@ ideas = {
 			allowed = { tag = ZHP }
 			available = { controls_province = 7461 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { light_industry_company }
 			research_bonus = {
 				industry = 0.1
 				}
@@ -103,7 +103,7 @@ ideas = {
 			allowed = { tag = ZHP }
 			available = { controls_province = 7463 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { cheap_melee_company }
 			research_bonus = {
 				infantry_weapons = 0.1
 				}
@@ -113,7 +113,7 @@ ideas = {
 			allowed = { tag = ZHP }
 			available = { controls_province = 7461 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { car_mass_production_company }
 			research_bonus = {
 				motorized_equipment = 0.1
 				}
