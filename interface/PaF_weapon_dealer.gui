@@ -2,11 +2,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "weapon_gui"
-		position = { x = 0 y = 100}	
+		position = { x = 0 y = 79}	
 		size = { width = 800 height= 650 }
 		orientation = upper_left
 		origo = upper_left
-		fade_time = 100
+		fade_time = 600
 		moveable = no
 		fade_type = linear
 		click_to_front = yes
@@ -16,9 +16,16 @@ guiTypes = {
 			name = "Background"		
 			quadTextureSprite ="GFX_scripted_gui_window_background"
 		}
+		instantTextboxType = {
+			name = "title"
+			position = { x = 40 y = 7 }
+			text = "Weapons Dealer"
+			font = "hoi_36header"
+			maxWidth = 700
+		}
 		buttonType = {
 			name = "dealer_close_button"
-			position = { x = -43 y = 10 }
+			position = { x = -299 y = 7 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"
