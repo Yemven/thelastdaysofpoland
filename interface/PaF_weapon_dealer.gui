@@ -33,6 +33,56 @@ guiTypes = {
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 		}
+		
+		containerWindowType = {
+			name = "sell_window"
+			position = { x = 0 y = 36}	
+			size = { width = 800 height= 650 }
+			orientation = upper_left
+			origo = upper_left
+			fade_time = 600
+			moveable = no
+			fade_type = linear
+			click_to_front = yes
+			clipping = no
+			
+			background = {
+			name = "sell_bg"		
+			quadTextureSprite ="GFX_sell_buy"
+			}
+			instantTextboxType = {
+			name = "title_buy"
+			position = { x = 90 y = 35 }
+			text = "Sell Weapons"
+			font = "hoi_26mbs"
+			maxWidth = 700
+			}
+		}
+		containerWindowType = {
+			name = "buy_window"
+			position = { x = 259 y = 36}	
+			size = { width = 800 height= 650 }
+			orientation = upper_left
+			origo = upper_left
+			fade_time = 600
+			moveable = no
+			fade_type = linear
+			click_to_front = yes
+			clipping = no
+			
+			background = {
+				name = "buy_bg"		
+				quadTextureSprite ="GFX_sell_buy"
+			}
+			instantTextboxType = {
+				name = "title_buy"
+				position = { x = 88 y = 35 }
+				text = "Buy Weapons"
+				font = "hoi_26mbs"
+				maxWidth = 700
+			}
+		}
+			
 		#iconType ={
 		#	name ="production_header_bg"
 		#	spriteType = "GFX_header_bg"
