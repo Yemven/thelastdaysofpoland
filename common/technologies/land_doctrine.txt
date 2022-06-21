@@ -428,7 +428,9 @@ technologies = {
 			hard_attack = 0.05
 			max_organisation = 2
 		}
-
+		path = {
+			leads_to_tech = the_cyber_army
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -624,6 +626,36 @@ technologies = {
 			initiative = 0.15
 		}
 		
+		path = {
+			leads_to_tech = the_cyber_army
+		}
+		
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	the_cyber_army = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = soon_tm
+		}
 		
 		doctrine = yes
 		categories = {
@@ -862,7 +894,9 @@ technologies = {
 		
 		army_speed_factor = 0.025
 		land_reinforce_rate = 0.20
-		
+		path = {
+			leads_to_tech = the_new_war
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -1045,6 +1079,35 @@ technologies = {
 			supply_consumption_factor = -0.2
 			max_organisation = -5
 		}
+		path = {
+			leads_to_tech = the_new_war
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	the_new_war = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = soon_tm
+		}
 		
 		doctrine = yes
 		categories = {
@@ -1060,6 +1123,7 @@ technologies = {
 			}
 		}
 	}
+
 ######################
 
 	asymetrical_warfare = {
@@ -1269,6 +1333,9 @@ technologies = {
 			soft_attack = 0.1	
 		}
 		
+		path = {
+			leads_to_tech = condemned_soldiers
+		}
 		
 		doctrine = yes
 		categories = {
@@ -1441,6 +1508,10 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 		
+		path = {
+			leads_to_tech = condemned_soldiers
+		}
+		
 		recruitable_population = 0.01
 		#tu bym dał jakiś prisioner battalion czy coś
 		militia = {
@@ -1462,7 +1533,34 @@ technologies = {
 			}
 		}
 	}
-
+	
+	condemned_soldiers = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = soon_tm
+		}
+		
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
 ###################################
 
 	cqc_theory = {
@@ -1661,6 +1759,9 @@ technologies = {
 		land_reinforce_rate = 0.15
 		war_support_weekly = 0.05
 		
+		path = {
+			leads_to_tech = might_makes_right
+		}
 		
 		doctrine = yes
 		categories = {
@@ -1852,7 +1953,36 @@ technologies = {
 		land_night_attack = 0.25
 		army_morale = 0.25
 
-
+		path = {
+			leads_to_tech = might_makes_right
+		}
+		
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	might_makes_right = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = soon_tm
+		}
 		
 		doctrine = yes
 		categories = {
