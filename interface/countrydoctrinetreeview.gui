@@ -63,7 +63,7 @@ guiTypes = {
 			gridboxtype = {
 				name = "technological_supremacy_tree"
 				position = { x=80 y=672 }
-				size = { width = 430 height = 1000 }
+				size = { width = 430 height = 1100 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -77,7 +77,7 @@ guiTypes = {
 			gridboxtype = {
 				name = "conventional_warfare_tree"
 				position = { x=530 y=672 }
-				size = { width = 430 height = 1000 }
+				size = { width = 430 height = 1100 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -91,7 +91,7 @@ guiTypes = {
 			gridboxtype = {
 				name = "asymetrical_warfare_tree"
 				position = { x=980 y=672 }
-				size = { width = 430 height = 1000 }
+				size = { width = 430 height = 1100 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -105,7 +105,7 @@ guiTypes = {
 			gridboxtype = {
 				name = "cqc_theory_tree"
 				position = { x=1430 y=672 }
-				size = { width = 430 height = 1000 }
+				size = { width = 430 height = 1100 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -258,18 +258,19 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "techtree_land_doctrine_folder_item"
-		position = { x=0 y=5 }
+		position = { x=-30 y=-90 }
 		size = { width = 72 height = 72 }
 		clipping = no
 
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+
 		}
 
 		iconType = {
 			name = "Icon"
-			position = { x=3 y=3 }
+			position = { x=16 y=18 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
