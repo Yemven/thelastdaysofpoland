@@ -54,7 +54,7 @@ ideas = {
 			allowed = { tag = WML }
 			available = { controls_province = 11506 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { it_technologies_company }
 			research_bonus = {
 				electronics = 0.1
 				}
@@ -64,7 +64,7 @@ ideas = {
 			allowed = { tag = WML }
 			available = { controls_province = 3358 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { construction_materials_producer }
 			research_bonus = {
 				industry = 0.1
 				}
@@ -74,7 +74,7 @@ ideas = {
 			allowed = { tag = WML }
 			available = { controls_province = 11530 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { electrical_infrastructure_producer }
 			research_bonus = {
 				electronics = 0.1
 				}
@@ -88,17 +88,18 @@ ideas = {
 			allowed = { tag = WML }
 			available = { controls_province = 11498 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { hard_melee_company }
 			research_bonus = {
 				infantry_weapons = 0.1
 				}
 		}
+		
 		bosch_lodz = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = WML }
 			available = { controls_province = 11508 }
 			cost = 200
-			traits = { industrial_company }
+			traits = { car_reliability_company }
 			research_bonus = {
 				motorized_equipment = 0.1
 				}
