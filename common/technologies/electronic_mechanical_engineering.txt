@@ -11,13 +11,12 @@ technologies = {
 			ship_fire_control_system_0
 		}
 		ai_will_do = {
-			factor = 30			
+			factor = 60			
 			modifier = {
-				factor = 3
-				date > "1937.1.1"
+				factor = 6
+				date > "2026.1.1"
 			}
 		}
-		
 		path = {
 			leads_to_tech = improvised_radio
 			research_cost_coeff = 1
@@ -42,7 +41,7 @@ technologies = {
 		coordination_bonus = 0.05
 		
 		research_cost = 3
-		start_year = 2028
+		start_year = 2027
 		folder = {
 			name = electronics_folder
 			position = { x = -8 y = 2 }
@@ -51,7 +50,7 @@ technologies = {
 			factor = 30			
 			modifier = {
 				factor = 3
-				date > "1937.1.1"
+				date > "2027.1.1"
 			}
 		}
 		enable_equipment_modules = { 
@@ -64,6 +63,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = radio
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = air_radio_control_1
 			research_cost_coeff = 1
 		}
 		
@@ -85,7 +88,7 @@ technologies = {
 			factor = 30			
 			modifier = {
 				factor = 3
-				date > "1937.1.1"
+				date > "2033.1.1"
 			}
 		}
 		enable_equipment_modules = { 
@@ -100,7 +103,10 @@ technologies = {
 			leads_to_tech = battlefield_management_systems
 			research_cost_coeff = 1
 		}
-		
+		path = {
+			leads_to_tech = air_radio_control_3
+			research_cost_coeff = 1
+		}
 		categories = {
 			electronics
 		}
@@ -133,6 +139,111 @@ technologies = {
 		
 		categories = {
 			electronics
+		}
+	}
+	
+	#Air Control
+	
+	air_radio_control_1 = {
+		
+		air_night_penalty = -0.05
+		air_accidents_factor = -0.05
+		air_weather_penalty = -0.05
+		production_speed_radar_station_factor = 0.05
+		
+		research_cost = 2
+		start_year = 2028
+		folder = {
+			name = electronics_folder
+			position = { x = -10 y = 4 }
+		}
+		ai_will_do = {
+			factor = 1		
+		}
+		path = {
+			leads_to_tech = air_radio_control_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			electronics
+			air_equipment
+			radar_tech
+		}
+	}
+	
+	air_radio_control_2 = {
+		
+		air_night_penalty = -0.05
+		air_accidents_factor = -0.05
+		air_weather_penalty = -0.05
+		production_speed_radar_station_factor = 0.05
+		
+		research_cost = 2
+		start_year = 2029
+		folder = {
+			name = electronics_folder
+			position = { x = -10 y = 6 }
+		}
+		ai_will_do = {
+			factor = 1		
+		}
+		
+		categories = {
+			electronics
+			air_equipment
+			radar_tech
+		}
+	}
+	
+	air_radio_control_3 = {
+		
+		air_night_penalty = -0.05
+		air_accidents_factor = -0.05
+		air_weather_penalty = -0.05
+		production_speed_radar_station_factor = 0.05
+		
+		research_cost = 2
+		start_year = 2033
+		folder = {
+			name = electronics_folder
+			position = { x = -10 y = 10 }
+		}
+		ai_will_do = {
+			factor = 1		
+		}
+		path = {
+			leads_to_tech = air_radio_control_4
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			electronics
+			air_equipment
+			radar_tech
+		}
+	}
+	
+	air_radio_control_4 = {
+		
+		air_night_penalty = -0.05
+		air_accidents_factor = -0.05
+		air_weather_penalty = -0.05
+		production_speed_radar_station_factor = 0.05
+		
+		research_cost = 2
+		start_year = 2036
+		folder = {
+			name = electronics_folder
+			position = { x = -10 y = 12 }
+		}
+		ai_will_do = {
+			factor = 1		
+		}
+		
+		categories = {
+			electronics
+			air_equipment
+			radar_tech
 		}
 	}
 	
@@ -174,7 +285,7 @@ technologies = {
 		start_year = 2029
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 6 }
 		}
 		ai_will_do = {
 			factor = 30			
@@ -602,13 +713,13 @@ technologies = {
 		start_year = 2029
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 6 }
+			position = { x = 8 y = 6 }
 		}
 		ai_will_do = {
 			factor = 30			
 			modifier = {
 				factor = 3
-				date > "1937.1.1"
+				date > "2034.1.1"
 			}
 		}
 		enable_building = {
@@ -634,13 +745,13 @@ technologies = {
 		start_year = 2036
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 8 }
+			position = { x = 8 y = 8 }
 		}
 		ai_will_do = {
 			factor = 30			
 			modifier = {
 				factor = 3
-				date > "1937.1.1"
+				date > "2037.1.1"
 			}
 		}
 		enable_equipments = {
@@ -662,13 +773,13 @@ technologies = {
 		start_year = 2039
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 12 }
+			position = { x = 8 y = 12 }
 		}
 		ai_will_do = {
 			factor = 30			
 			modifier = {
 				factor = 3
-				date > "1937.1.1"
+				date > "2039.1.1"
 			}
 		}
 		enable_equipments = {
