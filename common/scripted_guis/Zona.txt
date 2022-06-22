@@ -1,52 +1,17 @@
 scripted_gui = {
 	
-	zona_gui = {
-		window_name = "zona_window"
+	Zona_Diplomacy = {
 		context_type = selected_country_context
-		visible = {
-			has_global_flag = zona_visible
-			}
-  
-
-		effects = {
-			on_click = {
-				if = {
-					limit = {
-						OR = {
-							has_global_flag = zona_visible
-						}
-					}
-					clr_global_flag = zona_visible
-				}
-			}
-		}
-
-		triggers = {
-			zona_window_visible = {
-				has_global_flag = zona_visible
-			}
-		}
-
-		dynamic_lists = {
-		}
-
+		parent_window_token = selected_country_view
+		window_name = "Zona_Diplomacy_Container"
+		
+		visible = { zona_anarchy_ZON = yes }
+		
 		properties = {
-		}
-
-		ai_enabled = {
-			always = no
-		}
-
-		ai_test_interval = 290  # The higher, the long it takes the ai to do actions
-		ai_test_variance = 0.5
-
-		ai_check = {
-		}
-
-		ai_check_scope = {
-		}
-
-		ai_weights = {
+			Zona_ZZZ = {
+				image = "[GetZonaImage]"
+			}
 		}
 	}
+
 }
