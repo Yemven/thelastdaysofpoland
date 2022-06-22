@@ -7,7 +7,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
-		xor = { our_boys }
+		#xor = { our_boys }
 		
 		offence = 0.1
 		
@@ -98,7 +98,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
-		xor = { gun_to_knifefight }
+		#xor = { gun_to_knifefight }
 		path = {
 			leads_to_tech = cq_brutality
 		}
@@ -196,8 +196,9 @@ technologies = {
 		planning_speed = 0.2
 		research_speed_factor = 0.025
 		doctrine = yes
-		dependencies = { #kurwa mać johan daj mi używać OR przy określaniu technologii
+		dependencies = { 
 			relearning_basic_tactics = 1
+			hools_siege_warfare = 1
 		}
 		
 		categories = {
@@ -211,7 +212,7 @@ technologies = {
 		}		
 		
 		
-		xor = { conventional_warfare asymetrical_warfare cqc_theory }
+		#xor = { conventional_warfare asymetrical_warfare cqc_theory }
 		ai_will_do = {
 			factor = 20 
 			modifier = {
@@ -693,6 +694,7 @@ technologies = {
 		}
 		dependencies = { 
 			relearning_basic_tactics = 1
+			hools_siege_warfare = 1
 		}
 		path = {
 			leads_to_tech = legacy_of_nato
@@ -700,7 +702,7 @@ technologies = {
 		path = {
 			leads_to_tech = legacy_of_warsaw_pact
 		}
-		xor = { technological_supremacy asymetrical_warfare cqc_theory }
+		#xor = { technological_supremacy asymetrical_warfare cqc_theory }
 		ai_will_do = {
 			factor = 20 
 			modifier = {
@@ -1142,6 +1144,7 @@ technologies = {
 		
 		doctrine = yes
 		dependencies = { 
+			relearning_basic_tactics = 1
 			hools_siege_warfare = 1
 		}
 		path = {
@@ -1153,7 +1156,7 @@ technologies = {
 		categories = {
 			land_doctrine
 		}		
-		xor = { technological_supremacy conventional_warfare cqc_theory }
+		#xor = { technological_supremacy conventional_warfare cqc_theory }
 		ai_will_do = {
 			factor = 20 
 			modifier = {
@@ -1587,7 +1590,7 @@ technologies = {
 		path = {
 			leads_to_tech = for_the_horde
 		}
-		xor = { technological_supremacy conventional_warfare asymetrical_warfare }
+		#xor = { technological_supremacy conventional_warfare asymetrical_warfare }
 		ai_will_do = {
 			factor = 20 
 			modifier = {
@@ -1982,6 +1985,29 @@ technologies = {
 		
 		path = {
 			leads_to_tech = soon_tm
+		}
+		
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	soon_tm = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 21 y = 37 }
 		}
 		
 		doctrine = yes
