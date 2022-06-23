@@ -7,10 +7,13 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
-		#xor = { our_boys }
+		xor = { our_boys }
 		
 		offence = 0.1
 		
+		on_research_complete = {
+			set_country_flag = early_doctrines_researched
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -98,7 +101,12 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
-		#xor = { gun_to_knifefight }
+		xor = { gun_to_knifefight }
+		
+		on_research_complete = {
+			set_country_flag = early_doctrines_researched
+		}
+		
 		path = {
 			leads_to_tech = cq_brutality
 		}
@@ -196,10 +204,7 @@ technologies = {
 		planning_speed = 0.2
 		research_speed_factor = 0.025
 		doctrine = yes
-		dependencies = { 
-			relearning_basic_tactics = 1
-			hools_siege_warfare = 1
-		}
+		
 		
 		on_research_complete = {
 			add_to_variable = { doctrines_researched = 1}
@@ -211,6 +216,9 @@ technologies = {
 					var = doctrines_researched
 					value = 2
 				}
+			}
+			has_country_flag = {
+				flag = early_doctrines_researched
 			}
 		}
 		
@@ -705,10 +713,7 @@ technologies = {
 		categories = {
 			land_doctrine
 		}
-		dependencies = { 
-			relearning_basic_tactics = 1
-			hools_siege_warfare = 1
-		}
+		
 		on_research_complete = {
 			add_to_variable = { doctrines_researched = 1}
 		}
@@ -719,6 +724,9 @@ technologies = {
 					var = doctrines_researched
 					value = 2
 				}
+			}
+			has_country_flag = {
+				flag = early_doctrines_researched
 			}
 		}
 		path = {
@@ -1178,13 +1186,12 @@ technologies = {
 					value = 2
 				}
 			}
+			has_country_flag = {
+				flag = early_doctrines_researched
+			}
 		}
 		
 		doctrine = yes
-		dependencies = { 
-			relearning_basic_tactics = 1
-			hools_siege_warfare = 1
-		}
 		path = {
 			leads_to_tech = partisan_warfare
 		}
@@ -1626,12 +1633,12 @@ technologies = {
 					value = 2
 				}
 			}
+			has_country_flag = {
+				flag = early_doctrines_researched
+			}
 		}
 		
 		doctrine = yes
-		dependencies = { 
-			hools_siege_warfare = 1
-		}
 		categories = {
 			land_doctrine
 		}
