@@ -1,6 +1,12 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			every_country = {
+				set_variable = {
+					var = doctrines_researched
+					value = 0
+				}
+			}
 			EKS = {
 				country_event = {
 					id = eksrozpad.1
