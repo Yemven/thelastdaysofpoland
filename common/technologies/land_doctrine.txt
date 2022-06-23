@@ -201,6 +201,19 @@ technologies = {
 			hools_siege_warfare = 1
 		}
 		
+		on_research_complete = {
+			add_to_variable = { doctrines_researched = 1}
+		}
+		
+		allow = {
+			NOT = {
+				check_variable = {
+					var = doctrines_researched
+					value = 2
+				}
+			}
+		}
+		
 		categories = {
 			land_doctrine
 		}
@@ -696,6 +709,18 @@ technologies = {
 			relearning_basic_tactics = 1
 			hools_siege_warfare = 1
 		}
+		on_research_complete = {
+			add_to_variable = { doctrines_researched = 1}
+		}
+		
+		allow = {
+			NOT = {
+				check_variable = {
+					var = doctrines_researched
+					value = 2
+				}
+			}
+		}
 		path = {
 			leads_to_tech = legacy_of_nato
 		}
@@ -1142,6 +1167,19 @@ technologies = {
 		equipment_capture = 0.25
 		out_of_supply_factor = -0.15
 		
+		on_research_complete = {
+			add_to_variable = { doctrines_researched = 1}
+		}
+		
+		allow = {
+			NOT = {
+				check_variable = {
+					var = doctrines_researched
+					value = 2
+				}
+			}
+		}
+		
 		doctrine = yes
 		dependencies = { 
 			relearning_basic_tactics = 1
@@ -1576,6 +1614,19 @@ technologies = {
 		
 		surrender_limit = 0.5
 		local_manpower = 0.02
+		
+		on_research_complete = {
+			add_to_variable = { doctrines_researched = 1}
+		}
+		
+		allow = {
+			NOT = {
+				check_variable = {
+					var = doctrines_researched
+					value = 2
+				}
+			}
+		}
 		
 		doctrine = yes
 		dependencies = { 

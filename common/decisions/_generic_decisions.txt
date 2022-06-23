@@ -173,3 +173,15 @@ weapon_dealer = {
 		}
 	}
 }
+
+tech_debug = {
+	set_doctrine_variable = {
+		cost = 0
+		complete_effect = {
+			set_variable = {
+				var = doctrines_researched
+				value = 0
+			}
+		}
+	}
+}
