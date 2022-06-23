@@ -639,11 +639,159 @@ technologies = {
 			name = armour_folder
 			position = { x = -2 y = 6}
 		}
+		sub_technologies = {
+			apc_main_gun_upgrade
+		}
 		categories = {
 			armor
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	
+	apc_main_gun_upgrade = {
+		
+		mechanized = {
+		soft_attack = 0.05
+		hard_attack = 0.05
+		ap_attack = 0.05
+		}
+		
+		research_cost = 2
+		start_year = 2030
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	apc_2 = {
+		research_cost = 3
+		start_year = 2033
+		path = {
+			leads_to_tech = apc_3
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			apc_equipment_2
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 10}
+		}
+		sub_technologies = {
+			apc_armor_upgrade
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	apc_armor_upgrade = {
+		
+		mechanized = {
+		armor_value = 0.15
+		}
+		
+		research_cost = 2
+		start_year = 2030
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	apc_3 = {
+		research_cost = 3
+		start_year = 2036
+		path = {
+			leads_to_tech = apc_4
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			apc_equipment_3
+		}
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 14}
+		}
+		sub_technologies = {
+			apc_infantry_protection_upgrade
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	apc_infantry_protection_upgrade = {
+		
+		mechanized = {
+		experience_loss_factor  = -0.1
+		}
+		
+		research_cost = 2
+		start_year = 2030
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	apc_4 = {
+		research_cost = 3
+		start_year = 2040
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 18}
+		}
+		enable_equipments = {
+			apc_equipment_4
+		}
+		sub_technologies = {
+			apc_engine_upgrade
+		}
+		categories = {
+			armor
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	apc_engine_upgrade = {
+		
+		mechanized = {
+		maximum_speed = 0.10
+		}
+		
+		research_cost = 2
+		start_year = 2030
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
 		}
 	}
 	
@@ -663,28 +811,6 @@ technologies = {
 		folder = {
 			name = armour_folder
 			position = { x = 2 y = 6}
-		}
-		categories = {
-			armor
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	apc_2 = {
-		research_cost = 3
-		start_year = 2033
-		path = {
-			leads_to_tech = apc_3
-			research_cost_coeff = 1
-		}
-		enable_equipments = {
-			apc_equipment_2
-		}
-		folder = {
-			name = armour_folder
-			position = { x = -2 y = 10}
 		}
 		categories = {
 			armor
@@ -716,28 +842,6 @@ technologies = {
 		}
 	}
 	
-	apc_3 = {
-		research_cost = 3
-		start_year = 2036
-		path = {
-			leads_to_tech = apc_4
-			research_cost_coeff = 1
-		}
-		enable_equipments = {
-			apc_equipment_3
-		}
-		folder = {
-			name = armour_folder
-			position = { x = -2 y = 14}
-		}
-		categories = {
-			armor
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	ifv_3 = {
 		research_cost = 3
 		start_year = 2036
@@ -751,24 +855,6 @@ technologies = {
 		}
 		enable_equipments = {
 			ifv_equipment_3
-		}
-		categories = {
-			armor
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	apc_4 = {
-		research_cost = 3
-		start_year = 2040
-		folder = {
-			name = armour_folder
-			position = { x = -2 y = 18}
-		}
-		enable_equipments = {
-			apc_equipment_4
 		}
 		categories = {
 			armor
