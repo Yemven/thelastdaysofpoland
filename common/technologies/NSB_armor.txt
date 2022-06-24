@@ -911,7 +911,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 2 }
 		}
 		categories = {
 			armor
@@ -923,7 +923,7 @@ technologies = {
 	
 	armor_tech_2 = {
 		research_cost = 2
-		start_year = 2032
+		start_year = 2030
 		path = {
 			leads_to_tech = armor_tech_3
 			research_cost_coeff = 1
@@ -948,19 +948,46 @@ technologies = {
 	
 	armor_tech_3 = {
 		research_cost = 2
-		start_year = 2036
+		start_year = 2033
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_3_tt
 		}
+		path = {
+			leads_to_tech = armor_tech_4
+			research_cost_coeff = 1
+		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = 10 }
 		}
 		categories = {
 			armor
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	
+	armor_tech_4 = {
+
+		research_cost = 2
+		start_year = 2036
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 14 }
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = armor_tech_4_tt
+		}
+		show_effect_as_desc = yes
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
 		}
 	}
 	
@@ -977,7 +1004,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 2 }
 		}
 		categories = {
 			armor
@@ -1013,13 +1040,17 @@ technologies = {
 	
 	engine_tech_3 = {
 		research_cost = 2
-		start_year = 2036
+		start_year = 2033
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_3_tt
 		}
+		path = {
+			leads_to_tech = engine_tech_4
+			research_cost_coeff = 1
+		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = 10 }
 		}
 		categories = {
 			armor
@@ -1029,4 +1060,26 @@ technologies = {
 			factor = 1
 		}
 	}
+	
+	engine_tech_4 = {
+
+		research_cost = 2
+		start_year = 2036
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1944 }
+		}
+		on_research_complete = {
+			custom_effect_tooltip = engine_tech_4_tt
+		}
+		show_effect_as_desc = yes
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
 }
