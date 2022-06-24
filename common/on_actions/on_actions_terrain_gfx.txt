@@ -2391,6 +2391,36 @@ on_actions = {
 					province = { id = 14583 }
 				}
 			}
+			359 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_kepno}
+					province = { id = 14750 }
+				}
+			}
+			342 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_grabow_nad_prosna}
+					province = { id = 14734 }
+				}
+			}
+			292 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_krobia}
+					province = { id = 13876 }
+				}
+			}
+			292 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gostyn}
+					province = { id = 13864 }
+				}
+			}
+			271 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_jarocin}
+					province = { id = 13752 }
+				}
+			}
 			
 			
 			
