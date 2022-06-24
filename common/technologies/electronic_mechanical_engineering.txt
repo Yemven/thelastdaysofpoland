@@ -710,21 +710,21 @@ technologies = {
 	improvised_ballistic_missles = {
 		
 		research_cost = 3
-		start_year = 2029
+		start_year = 2027
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 6 }
+			position = { x = 4 y = 2 }
 		}
 		ai_will_do = {
-			factor = 30			
+			factor = 3	
 			modifier = {
 				factor = 3
-				date > "2034.1.1"
+				date > "2036.1.1"
 			}
 		}
 		enable_building = {
 			building = rocket_site
-			level = 2
+			level = 1
 		}
 		enable_equipments = {
 			guided_missile_equipment_1
@@ -742,17 +742,21 @@ technologies = {
 	ww2_ballistic_missles = {
 		
 		research_cost = 4
-		start_year = 2036
+		start_year = 2030
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 8 }
+			position = { x = 4 y = 6 }
 		}
 		ai_will_do = {
-			factor = 30			
+			factor = 30
 			modifier = {
 				factor = 3
-				date > "2037.1.1"
+				date > "2031.1.1"
 			}
+		}
+		enable_building = {
+			building = rocket_site
+			level = 2
 		}
 		enable_equipments = {
 			guided_missile_equipment_2
@@ -770,24 +774,94 @@ technologies = {
 	modern_ballistic_missles = {
 		
 		research_cost = 4
-		start_year = 2039
+		start_year = 2033
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 12 }
+			position = { x = 4 y = 8 }
+		}
+		path = {
+			leads_to_tech = laser_guided_missles
+			research_cost_coeff = 1
 		}
 		ai_will_do = {
-			factor = 30			
+			factor = 30
 			modifier = {
 				factor = 3
-				date > "2039.1.1"
+				date > "2034.1.1"
 			}
 		}
 		enable_equipments = {
 			guided_missile_equipment_3
 		}
-		
+		enable_building = {
+			building = rocket_site
+			level = 4
+		}
 		categories = {
 			electronics
 		}
 	}
+	
+	laser_guided_missles = {
+		
+		research_cost = 4
+		start_year = 2036
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = 10 }
+		}
+		path = {
+			leads_to_tech = intercontinental_ballistic_missles
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "2037.1.1"
+			}
+		}
+		enable_equipments = {
+			guided_missile_equipment_4
+		}
+		enable_building = {
+			building = rocket_site
+			level = 5
+		}
+		categories = {
+			electronics
+		}
+	}
+	
+	intercontinental_ballistic_missles = {
+		
+		research_cost = 4
+		start_year = 2040
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = 12 }
+		}
+		path = {
+			leads_to_tech = modern_ballistic_missles
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 30			
+			modifier = {
+				factor = 3
+				date > "2041.1.1"
+			}
+		}
+		enable_equipments = {
+			guided_missile_equipment_5
+		}
+		enable_building = {
+			building = rocket_site
+			level = 6
+		}
+		categories = {
+			electronics
+		}
+	}
+	
 }

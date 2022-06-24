@@ -1,7 +1,7 @@
 equipments = {
 	
 	guided_missile_equipment = {
-		year = 1936
+		year = 2027
 
 		can_be_produced = {
 			NOT = {
@@ -19,19 +19,19 @@ equipments = {
 		
 		interface_category = interface_category_air
 				
-		reliability = 0.8
+		reliability = 0.7
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 1.5
 		naval_strike_targetting = 0.6
 
 		#Space taken in convoy
-		lend_lease_cost = 1.5
+		lend_lease_cost = 2.0
 		
 		build_cost_ic = 54
 		resources = {
 			aluminium = 3
-			electronics = 3
+			electronics = 1
 			coal = 3
 		}
 
@@ -39,7 +39,7 @@ equipments = {
 	}
 
 	guided_missile_equipment_1 = {
-		year = 1944
+		year = 2027
 
 		archetype = guided_missile_equipment
 		is_buildable = no
@@ -47,15 +47,15 @@ equipments = {
 		sprite = missile_default
 		
 		air_range = 500
-		maximum_speed = 640
-		air_agility = 10
-		air_bombing = 300
+		maximum_speed = 540
+		air_agility = 7
+		air_bombing = 200
 		
 		# build_cost_ic = 36
 	}
 
 	guided_missile_equipment_2 = {
-		year = 1945
+		year = 2030
 
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_1
@@ -63,14 +63,68 @@ equipments = {
 		one_use_only = yes
 		sprite = missile_default
 		
-		air_range = 640
-		maximum_speed = 5760
+		air_range = 850
+		maximum_speed = 960
 		air_agility = 10
-		air_bombing = 450
+		air_bombing = 400
+		reliability = 0.8
+		
+		build_cost_ic = 60
+		resources = {
+			aluminium = 3
+			electronics = 2
+			coal = 3
+		}
 	}
 	
 	guided_missile_equipment_3 = {
-		year = 1946
+		year = 2033
+
+		archetype = guided_missile_equipment
+		parent = guided_missile_equipment_2
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 1700
+		maximum_speed = 1200
+		air_agility = 15
+		air_bombing = 650
+		reliability = 0.8
+		
+		 build_cost_ic = 90
+		 resources = {
+			aluminium = 3
+			electronics = 3
+			coal = 3
+		}
+	}
+	
+	guided_missile_equipment_4 = {
+		year = 2036
+
+		archetype = guided_missile_equipment
+		parent = guided_missile_equipment_3
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 3700
+		maximum_speed = 1500
+		air_agility = 25
+		air_bombing = 850
+		reliability = 0.8
+		
+		 build_cost_ic = 130
+		 resources = {
+			aluminium = 3
+			electronics = 4
+			coal = 4
+		}
+	}
+	
+	guided_missile_equipment_5 = {
+		year = 2040
 
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_2
@@ -79,10 +133,17 @@ equipments = {
 		sprite = missile_default
 		
 		air_range = 11000
-		maximum_speed = 9999
-		air_agility = 10
-		air_bombing = 600
+		maximum_speed = 3500
+		air_agility = 35
+		air_bombing = 1000
+		reliability = 0.8
 		
-		# build_cost_ic = 44
+		 build_cost_ic = 200
+		 resources = {
+			aluminium = 4
+			electronics = 5
+			coal = 5
+		}
 	}
+	
 }
