@@ -12,4 +12,84 @@ characters={
 			id=-1
 		}
 	}
+	
+	OLE_namiestnik={
+		name="The Governor"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OLE
+			}
+			traits = {  }
+		}
+	}
+	
+	OLE_marszalek={
+		name="The Marshal"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OLE
+			}
+			traits = { cornered_fox }
+		}
+		field_marshal = {
+			traits = { infantry_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	
+	OLE_podskarbi={
+		name="The Treasurer"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OLE
+			}
+			traits = {  }
+		}
+	}
+	
+	OLE_sekretarz={
+		name="The Secretary"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OLE
+			}
+			traits = {  }
+		}
+	}
 }

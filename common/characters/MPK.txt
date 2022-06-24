@@ -12,4 +12,76 @@ characters={
 			id=-1
 		}
 	}
+	
+	MPK_dariusz_lopuszynski={
+		name="Dariusz Łopuszyński"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = MPK
+			}
+			traits = {  }
+		}
+	}
+	
+	MPK_witold_wozny={
+		name="Witold Woźny"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = MPK
+			}
+			traits = {  }
+		}
+	}
+	
+	MPK_remigiusz_arendarski={
+		name="Remigiusz Arendarski"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = MPK
+			}
+			traits = {  }
+		}
+	}
+	
+	MPK_ludmila_kowalska={
+		name="Ludmiła Kowalska"
+		portraits={
+
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = MPK
+			}
+			traits = {  }
+		}
+	}
 }
