@@ -20,7 +20,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 2027
 		folder = {
 			name = industry_folder
@@ -28,7 +28,7 @@ technologies = { #zmienić nazwy i do przodu
 		}
 		
 		ai_will_do = {
-			factor = 50
+			factor = 60
 		}
 		
 		categories = {
@@ -52,7 +52,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 2030
 		
 		folder = {
@@ -65,7 +65,7 @@ technologies = { #zmienić nazwy i do przodu
 						
 			modifier = {
 				factor = 10
-				date > "1937.1.1"
+				date > "2030.1.1"
 			}
 		}
 		
@@ -84,7 +84,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 2033
 		
 		folder = {
@@ -97,7 +97,7 @@ technologies = { #zmienić nazwy i do przodu
 						
 			modifier = {
 				factor = 10
-				date > "1939.1.1"
+				date > "2033.1.1"
 			}
 		}
 		
@@ -127,7 +127,7 @@ technologies = { #zmienić nazwy i do przodu
 		}
 		
 		
-		research_cost = 2.1
+		research_cost = 2.5
 		start_year = 2036
 		
 		folder = {
@@ -140,7 +140,7 @@ technologies = { #zmienić nazwy i do przodu
 			
 			modifier = {
 				factor = 10
-				date > "1941.1.1"
+				date > "2037.1.1"
 			}			
 		}
 		
@@ -155,7 +155,7 @@ technologies = { #zmienić nazwy i do przodu
 		production_factory_max_efficiency_factor = 0.1
 		line_change_production_efficiency_factor = 0.2
 		
-		research_cost = 3
+		research_cost = 3.5
 		start_year = 2039
 		
 		XOR = {
@@ -172,7 +172,7 @@ technologies = { #zmienić nazwy i do przodu
 						
 			modifier = {
 				factor = 10
-				date > "1943.1.1"
+				date > "2040.1.1"
 			}
 		}
 		
@@ -187,7 +187,7 @@ technologies = { #zmienić nazwy i do przodu
 		production_factory_max_efficiency_factor = 0.1
 		production_factory_efficiency_gain_factor = 0.1
 			
-		research_cost = 3
+		research_cost = 3.5
 		start_year = 2039
 		
 		XOR = {
@@ -204,7 +204,7 @@ technologies = { #zmienić nazwy i do przodu
 			
 			modifier = {
 				factor = 10
-				date > "1943.1.1"
+				date > "2040.1.1"
 			}
 			
 		}
@@ -229,7 +229,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.5
 		start_year = 2030
 		
 		folder = {
@@ -242,7 +242,7 @@ technologies = { #zmienić nazwy i do przodu
 
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "2031.1.1"
 			}
 
 			modifier = {
@@ -261,7 +261,7 @@ technologies = { #zmienić nazwy i do przodu
 		
 		equipment_conversion_speed = 0.40
 
-		research_cost = 1.5
+		research_cost = 2.5
 		start_year = 2033
 		
 		folder = {
@@ -274,7 +274,7 @@ technologies = { #zmienić nazwy i do przodu
 
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "2034.1.1"
 			}
 
 			modifier = {
@@ -301,7 +301,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		start_year = 2027
 		
 		XOR = {
@@ -317,26 +317,6 @@ technologies = { #zmienić nazwy i do przodu
 			factor = 25
 
 			modifier = {
-				factor = 2
-				NOT = { tag = GER }
-			}
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-
-			modifier = {
 				factor = 0
 				has_tech = dispersed_industry
 			}
@@ -348,7 +328,7 @@ technologies = { #zmienić nazwy i do przodu
 						
 			modifier = {
 				factor = 5
-				date > "1937.1.1"
+				date > "2027.6.1"
 			}
 		}
 		
@@ -373,7 +353,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		start_year = 2030
 		
 		folder = {
@@ -386,7 +366,7 @@ technologies = { #zmienić nazwy i do przodu
 						
 			modifier = {
 				factor = 10
-				date > "1937.1.1"
+				date > "2030.6.1"
 			}
 			
 		}
@@ -412,7 +392,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		start_year = 2033
 		
 		folder = {
@@ -425,7 +405,7 @@ technologies = { #zmienić nazwy i do przodu
 			
 			modifier = {
 				factor = 10
-				date > "1939.1.1"
+				date > "2034.1.1"
 			}			
 		}
 		
@@ -450,7 +430,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		start_year = 2036
 		
 		folder = {
@@ -463,7 +443,7 @@ technologies = { #zmienić nazwy i do przodu
 						
 			modifier = {
 				factor = 10
-				date > "1941.1.1"
+				date > "2037.1.1"
 			}
 		}
 		
@@ -484,7 +464,7 @@ technologies = { #zmienić nazwy i do przodu
 		global_building_slots_factor = 0.20
 		
 		research_cost = 3
-		start_year = 2039
+		start_year = 2040
 		
 		folder = {
 			name = industry_folder
@@ -496,12 +476,12 @@ technologies = { #zmienić nazwy i do przodu
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.9"
+				date > "2040.1.9"
 			}
 			
 			modifier = {
 				factor = 20
-				date > "1943.1.1"
+				date > "2041.1.1"
 			}			
 		}
 		
@@ -531,7 +511,7 @@ technologies = { #zmienić nazwy i do przodu
 		}
 		
 		start_year = 2027
-		research_cost = 2
+		research_cost = 3
 		
 		XOR = {
 			concentrated_industry
@@ -546,26 +526,6 @@ technologies = { #zmienić nazwy i do przodu
 			factor = 25
 
 			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 0.25
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 0.25
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 0.25
-				tag = JAP
-			}
-
-			modifier = {
 				factor = 0
 				has_tech = concentrated_industry
 			}
@@ -577,7 +537,7 @@ technologies = { #zmienić nazwy i do przodu
 
 			modifier = {
 				factor = 5
-				date > "1937.1.1"
+				date > "2027.6.1"
 			}
 		}
 		
@@ -605,7 +565,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		start_year = 2030
 		
 		folder = {
@@ -618,7 +578,7 @@ technologies = { #zmienić nazwy i do przodu
 						
 			modifier = {
 				factor = 10
-				date > "1937.1.1"
+				date > "2030.6.1"
 			}
 		}
 		
@@ -646,7 +606,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		start_year = 2033
 		
 		folder = {
@@ -659,7 +619,7 @@ technologies = { #zmienić nazwy i do przodu
 						
 			modifier = {
 				factor = 10
-				date > "1939.1.1"
+				date > "2034.1.1"
 			}			
 		}
 		
@@ -687,7 +647,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		start_year = 2036
 		
 		folder = {
@@ -700,7 +660,7 @@ technologies = { #zmienić nazwy i do przodu
 						
 			modifier = {
 				factor = 10
-				date > "1941.1.1"
+				date > "2037.1.1"
 			}
 		}
 		
@@ -725,7 +685,7 @@ technologies = { #zmienić nazwy i do przodu
 		
 		
 		research_cost = 3
-		start_year = 2039
+		start_year = 2040
 		
 		folder = {
 			name = industry_folder
@@ -738,7 +698,7 @@ technologies = { #zmienić nazwy i do przodu
 			
 			modifier = {
 				factor = 10
-				date > "1943.1.1"
+				date > "2041.1.1"
 			}
 		}
 		
@@ -768,7 +728,7 @@ technologies = { #zmienić nazwy i do przodu
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 2027
 		folder = {
 			name = industry_folder
@@ -839,11 +799,11 @@ technologies = { #zmienić nazwy i do przodu
 			
 			modifier = {
 				factor = 0.2
-				date < "1937.1.1"
+				date < "2028.1.1"
 			}
 			modifier = {
 				factor = 0.4
-				date < "1938.1.1"
+				date < "2029.1.1"
 			}
 		}
 	}

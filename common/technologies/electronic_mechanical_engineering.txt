@@ -13,8 +13,8 @@ technologies = {
 		ai_will_do = {
 			factor = 60			
 			modifier = {
-				factor = 6
-				date > "2026.1.1"
+				factor = 100
+				date > "2028.1.1"
 			}
 		}
 		path = {
@@ -713,7 +713,7 @@ technologies = {
 		start_year = 2029
 		folder = {
 			name = electronics_folder
-			position = { x = 8 y = 6 }
+			position = { x = 4 y = 6 }
 		}
 		ai_will_do = {
 			factor = 30			
@@ -745,7 +745,7 @@ technologies = {
 		start_year = 2036
 		folder = {
 			name = electronics_folder
-			position = { x = 8 y = 8 }
+			position = { x = 4 y = 8 }
 		}
 		ai_will_do = {
 			factor = 30			
@@ -773,7 +773,7 @@ technologies = {
 		start_year = 2039
 		folder = {
 			name = electronics_folder
-			position = { x = 8 y = 12 }
+			position = { x = 4 y = 12 }
 		}
 		ai_will_do = {
 			factor = 30			
