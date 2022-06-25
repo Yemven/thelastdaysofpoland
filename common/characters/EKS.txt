@@ -12,4 +12,92 @@ characters={
 			id=-1
 		}
 	}
+	
+	EKS_slawomir_neumann={
+		name="Sławomin Neumann"
+		portraits={
+			civilian={
+				
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = EKS
+			}
+		}
+		
+	}
+	
+	EKS_malgorzata_kidawa_blonska={
+		name="Małgorzata Kidawa-Błońska"
+		portraits={
+			civilian={
+				
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = EKS
+			}
+		}
+		
+	}
+	
+	EKS_tomasz_siemoniak={
+		name="Tomasz Siemoniak"
+		portraits={
+			civilian={
+				
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = EKS
+			}
+		}
+		general = {
+			traits = {  }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		
+	}
+	
+	EKS_rafał_jurkowlaniec={
+		name="Rafał Jurkowlaniec"
+		portraits={
+			civilian={
+				
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = EKS
+			}
+		}
+		
+	}
 }

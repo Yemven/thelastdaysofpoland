@@ -19,11 +19,22 @@ characters={
 				large="gfx/leaders/ZUL/ZUL_Zoltek.dds"
 			}
 		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ZUL
+			}
+		}
 		country_leader={
 			ideology=freemarketism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
+		
 	}
 	ZUL_rewinski={
 		name="Janusz Rewiński"
@@ -32,10 +43,76 @@ characters={
 				large="gfx/leaders/ZUL/ZUL_Siara.dds"
 			}
 		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ZUL
+			}
+		}
+		general = {
+			traits = { media_personality }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
 		country_leader={
 			ideology=socialdemocrature_subtype
 			expire="1.1.1.1"
 			id=-1
+		}
+		
+	}
+	
+	ZUL_lang={
+		name="Czesław Lang"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZUL/ZUL_Siara.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ZUL
+			}
+		}
+		general = {
+			traits = { organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+
+	}
+	
+	ZUL_kruczkowski={
+		name="Piotr Kruczkowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZUL/ZUL_Siara.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ZUL
+			}
 		}
 	}
 }
