@@ -149,5 +149,6 @@ focus_tree = {
 
 		cost = 3
 		search_filters = { }
-		completion_reward = { }
+		completion_reward = {load_focus_tree = tvp_2 }
 	}
+
