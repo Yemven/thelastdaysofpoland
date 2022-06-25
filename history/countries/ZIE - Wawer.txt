@@ -12,6 +12,7 @@ set_convoys = 20
 
 recruit_character = ZIE_green_spirit
 recruit_character = ZIE_boar
+oob = "ZIE_2027"
 
 set_politics = {
 	ruling_party = squattism
@@ -19,7 +20,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+add_ideas = {
+	ZIE_looming_famine
+}
 set_popularities = {
 	marxism_cranism	= 0
 	squattism = 69
