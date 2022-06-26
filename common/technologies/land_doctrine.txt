@@ -2039,10 +2039,8 @@ technologies = {
 			position = { x = 0 y = 14 }
 		}
 		
-		path = {
-			leads_to_tech = soon_tm
-		on_research_complete = {
-			set_country_flag = cqc_warfare_perfected
+		allow = {
+			has_country_flag = cqc_warfare_perfected
 		}
 		
 		doctrine = yes
