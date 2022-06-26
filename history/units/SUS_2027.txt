@@ -1,0 +1,41 @@
+division_template = {
+	name = "Straż Komisyjna"
+	regiments = {
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "Straż Leszno"
+		location = 916
+		division_template = "Straż Komisyjna"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "Straż Kościan"
+		location = 13546
+		division_template = "Straż Komisyjna"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		name = "Straż Wolsztyn"
+		location = 14843
+		division_template = "Straż Komisyjna"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "Siły Śledcze"
+		location = 916
+		division_template = "Straż Komisyjna"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
