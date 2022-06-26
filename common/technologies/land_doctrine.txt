@@ -10,10 +10,6 @@ technologies = {
 		xor = { our_boys }
 		
 		offence = 0.1
-		
-		on_research_complete = {
-			set_country_flag = early_doctrines_researched
-		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -79,6 +75,10 @@ technologies = {
 		max_planning = 0.05
 		max_training = 0.05
 		
+		on_research_complete = {
+			set_country_flag = early_doctrines_researched
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -103,9 +103,6 @@ technologies = {
 		}
 		xor = { gun_to_knifefight }
 		
-		on_research_complete = {
-			set_country_flag = early_doctrines_researched
-		}
 		
 		path = {
 			leads_to_tech = cq_brutality
@@ -167,6 +164,10 @@ technologies = {
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 4 }
+		}
+		
+		on_research_complete = {
+			set_country_flag = early_doctrines_researched
 		}
 		
 		melee_infantry = {
@@ -434,7 +435,9 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 12 }
 		}
-		
+		on_research_complete = {
+			set_country_flag = tech_supremacy_perfected
+		}
 		motorized = {
 			soft_attack = 0.05
 			hard_attack = 0.05
@@ -449,9 +452,6 @@ technologies = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 			max_organisation = 2
-		}
-		path = {
-			leads_to_tech = the_cyber_army
 		}
 		doctrine = yes
 		categories = {
@@ -642,41 +642,14 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 		
+		on_research_complete = {
+			set_country_flag = tech_supremacy_perfected
+		}
+		
 		category_all_infantry = {
 			max_organisation = 8
 			#land_reinforce_rate = 0.15 #miał ktoś na myśli odzyskiwanie org?
 			initiative = 0.15
-		}
-		
-		path = {
-			leads_to_tech = the_cyber_army
-		}
-		
-		doctrine = yes
-		categories = {
-			land_doctrine
-		}
-		ai_will_do = {
-			factor = 20 
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-	}
-	
-	the_cyber_army = {
-		xp_research_type = army
-		xp_unlock_cost = 100
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 14 }
-		}
-		
-		path = {
-			leads_to_tech = soon_tm
 		}
 		
 		doctrine = yes
@@ -896,10 +869,6 @@ technologies = {
 			defense = 0.1
 		}
 		
-
-		
-		
-		
 		
 		doctrine = yes
 		categories = {
@@ -926,12 +895,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 12 }
 		}
-		
+		on_research_complete = {
+			set_country_flag = conv_warfare_perfected
+		}
 		army_speed_factor = 0.025
 		land_reinforce_rate = 0.20
-		path = {
-			leads_to_tech = the_new_war
-		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -1109,41 +1077,13 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 12 }
 		}
-		
+		on_research_complete = {
+			set_country_flag = conv_warfare_perfected
+		}
 		category_front_line = {
 			supply_consumption_factor = -0.2
 			max_organisation = -5
 		}
-		path = {
-			leads_to_tech = the_new_war
-		}
-		doctrine = yes
-		categories = {
-			land_doctrine
-		}
-		ai_will_do = {
-			factor = 20 
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-	}
-	
-	the_new_war = {
-		xp_research_type = army
-		xp_unlock_cost = 100
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 14 }
-		}
-		
-		path = {
-			leads_to_tech = soon_tm
-		}
-		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -1381,8 +1321,8 @@ technologies = {
 			soft_attack = 0.1	
 		}
 		
-		path = {
-			leads_to_tech = condemned_soldiers
+		on_research_complete = {
+			set_country_flag = asm_warfare_perfected
 		}
 		
 		doctrine = yes
@@ -1556,8 +1496,8 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 		
-		path = {
-			leads_to_tech = condemned_soldiers
+		on_research_complete = {
+			set_country_flag = asm_warfare_perfected
 		}
 		
 		recruitable_population = 0.01
@@ -1571,33 +1511,6 @@ technologies = {
 			land_doctrine
 		}
 
-		ai_will_do = {
-			factor = 20 
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-	}
-	
-	condemned_soldiers = {
-		xp_research_type = army
-		xp_unlock_cost = 100
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 14 }
-		}
-		
-		path = {
-			leads_to_tech = soon_tm
-		}
-		
-		doctrine = yes
-		categories = {
-			land_doctrine
-		}
 		ai_will_do = {
 			factor = 20 
 			modifier = {
@@ -1820,8 +1733,9 @@ technologies = {
 		land_reinforce_rate = 0.15
 		war_support_weekly = 0.05
 		
-		path = {
-			leads_to_tech = might_makes_right
+		
+		on_research_complete = {
+			set_country_flag = cqc_warfare_perfected
 		}
 		
 		doctrine = yes
@@ -2014,8 +1928,8 @@ technologies = {
 		land_night_attack = 0.25
 		army_morale = 0.25
 
-		path = {
-			leads_to_tech = might_makes_right
+		on_research_complete = {
+			set_country_flag = cqc_warfare_perfected
 		}
 		
 		doctrine = yes
@@ -2033,41 +1947,17 @@ technologies = {
 		}
 	}
 	
-	might_makes_right = {
-		xp_research_type = army
-		xp_unlock_cost = 100
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 14 }
-		}
-		
-		path = {
-			leads_to_tech = soon_tm
-		}
-		
-		doctrine = yes
-		categories = {
-			land_doctrine
-		}
-		ai_will_do = {
-			factor = 20 
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-	}
-	
-	soon_tm = {
+	soon_tm = { #a tak się odblokowuje fuzyjne doktryny drogie dzieci
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 21 y = 37 }
 		}
-		
+		allow = {
+			has_country_flag = cqc_warfare_perfected
+			has_country_flag = asm_warfare_perfected
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
