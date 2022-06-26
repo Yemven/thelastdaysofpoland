@@ -13,6 +13,10 @@ technologies = {
 		research_cost = 2
 		start_year = 1918
 		path = {
+			leads_to_tech = nsb_armored_car_1
+			research_cost_coeff = 1
+		}
+		path = {
 			leads_to_tech = nsb_truck_1
 			research_cost_coeff = 1
 		}
@@ -547,6 +551,10 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -4 y = 14}
+		}
+		path = {
+			leads_to_tech = nsb_truck_5
+			research_cost_coeff = 1
 		}
 		enable_equipments = {
 			motorized_equipment_4
