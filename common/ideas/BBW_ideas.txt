@@ -166,8 +166,8 @@ ideas = {
 			modifier = {
 				stability_factor = -0.2
 				consumer_goods_factor = 0.2
-				offence = 0.03
-				war_support_factor = 0.1
+				army_attack_factor = 0.03
+				war_support_factor = 0.05
 			}
 		}
 		BBW_street_anger4 = {
@@ -184,12 +184,13 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				army_org_factor = 0.2
-				army_attack_factor = 0.1
-				army_defence_factor = 0.1
+				stability_factor = -0.1
+				consumer_goods_factor = 0.1
+				army_attack_factor = 0.05
+				army_defence_factor = 0.03
+				army_org_factor = 0.05
+				war_support_factor = 0.1
 				mobilization_speed = 0.03
-				research_speed_factor = 0.05
-				training_time_factor = -0.1
 			}
 		}
 		BBW_street_anger5 = {
@@ -205,13 +206,13 @@ ideas = {
 
 			removal_cost = -1
 			picture = BBW_smog
-			modifier = {
-				army_org_factor = 0.3
-				army_attack_factor = 0.1
-				army_defence_factor = 0.1
-				mobilization_speed = 0.03
-				research_speed_factor = 0.05
-				training_time_factor = -0.1
+			modifier = {	
+				stability_factor = 0.1
+				army_attack_factor = 0.10
+				army_defence_factor = 0.05
+				army_org_factor = 0.10
+				war_support_factor = 0.2
+				mobilization_speed = 0.07
 			}
 		}
 		BBW_carbon_fever = {
