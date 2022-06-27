@@ -57,6 +57,10 @@ focus_tree = {
 		x = -2
 		y = 1
 		
+		ai_will_do = {
+		factor = 50
+		}
+		
 		cost = 3.7
 		search_filters = { }
 		completion_reward = {
@@ -83,6 +87,10 @@ focus_tree = {
 		
 		x = 0
 		y = 1
+		
+		ai_will_do = {
+		factor = 50
+		}
 		
 		cost = 3.7
 		search_filters = {}
@@ -129,7 +137,7 @@ focus_tree = {
 		relative_position_id = BBW_riots
 		prerequisite = { focus = BBW_riots }
 		available = {
-		
+		has_idea = BBW_street_anger2
 		}
 		
 		bypass = {

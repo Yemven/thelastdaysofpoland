@@ -1954,13 +1954,18 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 14 }
+			position = { x = -9 y = 0 }
 		}
-		
+		xor = {the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
 			has_country_flag = tech_supremacy_perfected
 		}
-		
+		path = {
+			leads_to_tech = late_tech_a
+		}
+		path = {
+			leads_to_tech = late_tech_b
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -1976,18 +1981,146 @@ technologies = {
 		}
 	}
 
+	late_tech_a = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -11 y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	late_tech_b = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -7 y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
 	
 	the_new_war = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 14 }
+			position = { x = -3 y = 0 }
 		}
-		
+		xor = {the_cyber_army condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
 			has_country_flag = conv_warfare_perfected
 		}
+		path = {
+			leads_to_tech = late_conv_a
+		}
+		path = {
+			leads_to_tech = late_conv_b
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	late_conv_a = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -5 y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	late_conv_b = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	condemned_soldiers = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 3 y = 0 }
+		}
+		
+		allow = {
+			has_country_flag = asm_warfare_perfected
+		}
+		
+		path = {
+			leads_to_tech = late_asm_a
+		}
+		path = {
+			leads_to_tech = late_asm_b
+		}
+		
+		xor = {might_makes_right the_cyber_army the_new_war tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		
 		doctrine = yes
 		categories = {
@@ -2004,18 +2137,35 @@ technologies = {
 		}
 	}
 
-	condemned_soldiers = {
+	late_asm_a = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 14 }
+			position = { x = 1 y = 2 }
 		}
-		
-		allow = {
-			has_country_flag = asm_warfare_perfected
+		doctrine = yes
+		categories = {
+			land_doctrine
 		}
-		
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	late_asm_b = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 5 y = 2 }
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2036,7 +2186,16 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 14 }
+			position = { x = 9 y = 0 }
+		}
+		
+		xor = {condemned_soldiers the_cyber_army the_new_war tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		
+		path = {
+			leads_to_tech = late_cqc_a
+		}
+		path = {
+			leads_to_tech = late_cqc_b
 		}
 		
 		allow = {
@@ -2058,16 +2217,496 @@ technologies = {
 		}
 	}
 	
-	soon_tm = { #a tak się odblokowuje fuzyjne doktryny drogie dzieci
+	late_cqc_a = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 21 y = 37 }
+			position = { x = 7 y = 2 }
 		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	late_cqc_b = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 11 y = 2 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	tech_conv_fusion = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -6 y = 4 }
+		}
+		xor = {conv_asm_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
-			has_country_flag = cqc_warfare_perfected
+			has_country_flag = tech_supremacy_perfected
+			has_country_flag = conv_warfare_perfected
+		}
+		doctrine = yes
+		path = {
+			leads_to_tech = tech_conv_a
+		}
+		path = {
+			leads_to_tech = tech_conv_b
+		}
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	tech_conv_a = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -8 y = 6 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	tech_conv_b = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -4 y = 6 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	conv_asm_fusion = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 4 }
+		}
+		xor = {tech_conv_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		allow = {
 			has_country_flag = asm_warfare_perfected
+			has_country_flag = conv_warfare_perfected
+		}
+		path = {
+			leads_to_tech = conv_asm_a
+		}
+		path = {
+			leads_to_tech = conv_asm_b
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	conv_asm_a = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 6 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	conv_asm_b = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 6 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	asm_cqc_fusion = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 6 y = 4 }
+		}
+		xor = {tech_asm_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		allow = {
+			has_country_flag = asm_warfare_perfected
+			has_country_flag = cqc_warfare_perfected
+		}
+		path = {
+			leads_to_tech = asm_cqc_a
+		}
+		path = {
+			leads_to_tech = asm_cqc_b
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	asm_cqc_a = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 4 y = 6 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	asm_cqc_b = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 8 y = 6 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	tech_asm_fusion = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -3 y = 8 }
+		}
+		xor = {asm_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		allow = {
+			has_country_flag = asm_warfare_perfected
+			has_country_flag = tech_supremacy_perfected
+		}
+		path = {
+			leads_to_tech = tech_asm_a
+		}
+		path = {
+			leads_to_tech = tech_asm_b
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	tech_asm_a = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -5 y = 10 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	tech_asm_b = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 10 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	conv_cqc_fusion = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 3 y = 8 }
+		}
+		xor = {tech_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion}
+		allow = {
+			has_country_flag = conv_warfare_perfected
+			has_country_flag = cqc_warfare_perfected
+		}
+		path = {
+			leads_to_tech = conv_cqc_a
+		}
+		path = {
+			leads_to_tech = conv_cqc_b
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	conv_cqc_a = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 10 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	conv_cqc_b = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 5 y = 10 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	tech_cqc_fusion = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 12 }
+		}
+		xor = {conv_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion}
+		allow = {
+			has_country_flag = tech_supremacy_perfected
+			has_country_flag = cqc_warfare_perfected
+		}
+		path = {
+			leads_to_tech = tech_cqc_a
+		}
+		path = {
+			leads_to_tech = tech_cqc_b
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	tech_cqc_a = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 14 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	tech_cqc_b = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 14 }
 		}
 		doctrine = yes
 		categories = {
