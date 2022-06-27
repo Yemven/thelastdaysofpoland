@@ -2,18 +2,25 @@
 state={
 	id=273
 	name="STATE_273"
-	provinces={
-		393 435 849 2389 2506 3802 
-	}
-	manpower = 27500   state_category = town
-	buildings_max_level_factor=2.000
-	history = {
-		owner = EKW
-		victory_points = { }
-		add_core_of = EKW
-	buildings = {
-	infrastructure = 5
-}
-}
-}
 
+	history={
+		owner = EKW
+		victory_points = {
+
+		}
+		add_core_of = EKW
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		393 435 849 2389 2506 3802 16319 16326 16327 16328 16329 16333 16334 16335 16336 16337 16338 16339 16340 16341 16342 16347 
+	}
+	manpower=27500
+	buildings_max_level_factor=2.000
+	state_category=town
+	local_supplies=0.000
+}
