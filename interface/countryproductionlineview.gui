@@ -2155,7 +2155,8 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_button"
-			position = { x=1 y=27 }
+			position = { x=1 y=30 }
+			scale = 1.01
 			spriteType = "GFX_prod_land_equipment_item_large"
 		}
 
@@ -4106,13 +4107,14 @@ guiTypes = {
 	containerWindowType = {
 		name = "military_equipment_info_entry"
 		position = { x=0 y=0 }
-		size = { width=342 height= 80 }
+		size = { width=342 height= 97 }
 		clipping = no
 
 		buttonType = {
 			name = "equipment_button"
 			position = { x=5 y=4 }
 			quadTextureSprite = "GFX_equipment_item_large"
+			size = { width=334 height= 97 }
 			clicksound = click_default
 			frame = 1
 		}
@@ -4137,6 +4139,7 @@ guiTypes = {
 			position = { x=175 y=51 }
 			centerposition = yes
 			alwaystransparent = yes
+			scale = 0.8
 		}
 
 		iconType = {
