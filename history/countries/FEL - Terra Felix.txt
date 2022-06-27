@@ -14,6 +14,10 @@ set_technology = {
 set_convoys = 20
 
 add_ideas = {
+    FEL_min_debski
+	FEL_min_kasperczak
+	FEL_min_kozidrak
+	FEL_min_wojcicki
 	FEL_golden_liberty
 	FEL_popuszczac_czy_nie_popuszczac
 	controlled_opposittion
@@ -35,6 +39,10 @@ add_ideas = {
 }
 
 recruit_character = FEL_jacek_kowalski
+recruit_character = FEL_krzesimir_debski
+recruit_character = FEL_henryk_kasperczak
+recruit_character = FEL_beata_kozidrak
+recruit_character = FEL_jacek_wojcicki
 recruit_character = FEL_remigiusz_mierzchala
 
 

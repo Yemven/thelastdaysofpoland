@@ -16,5 +16,83 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		advisor = {
+			desc = "POLITICS_RICARDUS_CALISIUS_DESC"
+			cost = -1
+			slot = head_of_government
+			idea_token = CAL_min_calisius
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CAL
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { media_personality }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAL_rafal_chwedoruk={
+		name="Rafał Chwedoruk"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_rafal_chwedoruk_DESC"
+			cost = -1
+			slot = minister_of_economy
+			idea_token = CAL_min_chwedoruk
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CAL
+			}
+			traits = { }
+		}
+	}
+	CAL_pawel_delag={
+		name="Paweł Deląg"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_rafal_chwedoruk_DESC"
+			cost = -1
+			slot = minister_of_war
+			idea_token = CAL_min_delag
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CAL
+			}
+			traits = { }
+		}
+	}
+	CAL_andrzej_kompa={
+		name="Andrzej Kompa"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_andrzej_kompa_DESC"
+			cost = -1
+			slot = interior_minister
+			idea_token = CAL_min_kompa
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = CAL
+			}
+			traits = { }
+		}
 	}
 }

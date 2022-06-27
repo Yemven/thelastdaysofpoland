@@ -17,4 +17,80 @@ characters={
 			id=-1
 		}
 	}
+	SUS_iwona_arendt={
+		name="Iwona Arendt"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_iwona_arendt_DESC"
+			cost = -1
+			slot = head_of_government
+			idea_token = SUS_min_arendt
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SUS
+			}
+			traits = { }
+		}
+	}
+	SUS_marek_falenta={
+		name="Marek Falenta"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_marek_falenta_DESC"
+			cost = -1
+			slot = minister_of_economy
+			idea_token = SUS_min_falenta
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SUS
+			}
+			traits = { }
+		}
+	}
+	SUS_bartosz_kownacki={
+		name="Bartosz Kownacki"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_bartosz_kownacki_DESC"
+			cost = -1
+			slot = minister_of_war
+			idea_token = SUS_min_kownacki
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SUS
+			}
+			traits = { }
+		}
+	}
+	SUS_joanna_kopcinska={
+		name="Joanna Kopcińska"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_joanna_kopcinska_DESC"
+			cost = -1
+			slot = interior_minister
+			idea_token = SUS_min_kopcinska
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SUS
+			}
+			traits = { }
+		}
+	}
 }

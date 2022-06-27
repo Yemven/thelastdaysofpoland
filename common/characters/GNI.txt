@@ -21,6 +21,75 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		advisor = {
+			desc = "POLITICS_przemysl_iii_DESC"
+			cost = -1
+			slot = head_of_government
+			idea_token = GNI_min_przemysl_iii
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = GNI
+			}
+			traits = { }
+		}
+	}
+	GNI_tomasz_budasz={
+		name="Tomasz Budasz"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_tomasz_budasz_DESC"
+			cost = -1
+			slot = minister_of_economy
+			idea_token = GNI_min_budasz
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = GNI
+			}
+			traits = { }
+		}
+	}
+	GNI_aleksander_boldyrew={
+		name="Aleksander Bołdyrew"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_aleksander_boldyrew_DESC"
+			cost = -1
+			slot = minister_of_war
+			idea_token = GNI_min_boldyrew
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = GNI
+			}
+			traits = { }
+		}
+	}
+	GNI_jacek_banaszkiewicz={
+		name="Jacek Banaszkiewicz"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_jacek_banaszkiewicz_DESC"
+			cost = -1
+			slot = interior_minister
+			idea_token = GNI_min_banaszkiewicz
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = GNI
+			}
+			traits = { }
+		}
 	}
 
 }

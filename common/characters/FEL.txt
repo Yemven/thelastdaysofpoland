@@ -12,6 +12,82 @@ characters={
 			id=-1
 		}
 	}
+	FEL_krzesimir_debski={
+		name="Krzesimir Dębski"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_krzesimir_debski_DESC"
+			cost = -1
+			slot = head_of_government
+			idea_token = FEL_min_debski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = FEL
+			}
+			traits = { }
+		}
+	}
+	FEL_henryk_kasperczak={
+		name="Henryk Kasperczak"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_henryk_kasperczak_DESC"
+			cost = -1
+			slot = minister_of_economy
+			idea_token = FEL_min_kasperczak
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = FEL
+			}
+			traits = { }
+		}
+	}
+	FEL_beata_kozidrak={
+		name="Beata Kozidrak"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_beata_kozadrak_DESC"
+			cost = -1
+			slot = minister_of_war
+			idea_token = FEL_min_kozidrak
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = FEL
+			}
+			traits = { }
+		}
+	}
+	FEL_jacek_wojcicki={
+		name="Jacek Wójcicki"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_jacek_wojcicki_DESC"
+			cost = -1
+			slot = interior_minister
+			idea_token = FEL_min_wojcicki
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = FEL
+			}
+			traits = { }
+		}
+	}
     FEL_remigiusz_mierzchala = {
 		name="Remigiusz Mierzchała"
 		portraits = {

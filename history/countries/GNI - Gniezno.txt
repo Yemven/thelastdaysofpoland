@@ -12,6 +12,16 @@ set_convoys = 20
 
 
 recruit_character = GNI_przemysł_iii
+recruit_character = GNI_tomasz_budasz
+recruit_character = GNI_aleksander_boldyrew
+recruit_character = GNI_jacek_banaszkiewicz
+
+add_ideas = 
+    GNI_min_przemysl_iii
+	GNI_min_budasz
+	GNI_min_boldyrew
+	GNI_min_banaszkiewicz
+	}
 
 set_politics = {
 	ruling_party = autocracy
