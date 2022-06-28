@@ -123,12 +123,3 @@ special_projects = {
 		has_dlc = "Waking the Tiger"
 	}
 }
-
-weapon_dealer = {
-	icon = generic_economy
-	visible_when_empty = yes
-	available = {
-		num_of_civilian_factories > 1
-		melee_weapons > 500
-	}
-}

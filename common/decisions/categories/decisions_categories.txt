@@ -1,6 +1,14 @@
+debug_category = {
+	priority = 100
+	icon = GFX_category_icon
+	
+	allowed = {
+		is_debug = yes
+	}
+}
 
 unification_category = {
-	priority = 1
+	priority = 10
 	icon = GFX_category_icon
 	
 	allowed = {
@@ -8,7 +16,18 @@ unification_category = {
 	}
 }
 
+weapon_dealer = {
+	priority = 2
+	icon = generic_economy
+	visible_when_empty = yes
+	available = {
+		num_of_civilian_factories > 1
+		melee_weapons > 500
+	}
+}
+
 coring_category = {
+	priority = 2
 	icon = GFX_category_icon
 	
 	allowed = {
