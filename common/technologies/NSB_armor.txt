@@ -13,10 +13,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1918
 		path = {
-			leads_to_tech = nsb_armored_car_1
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = nsb_truck_1
 			research_cost_coeff = 1
 		}
@@ -91,7 +87,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 3}
+			position = { x = 0 y = 4}
 		}
 		categories = {
 			armor
@@ -148,7 +144,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 4 y = 3}
+			position = { x = 4 y = 4}
 		}
 		categories = {
 			armor
@@ -170,7 +166,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 4 y = 6}
+			position = { x = 4 y = 8}
 		}
 		categories = {
 			armor
@@ -192,7 +188,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 4 y = 10}
+			position = { x = 4 y = 12}
 		}
 		categories = {
 			armor
@@ -214,7 +210,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 4 y = 14}
+			position = { x = 4 y = 16}
 		}
 		categories = {
 			armor
@@ -229,7 +225,7 @@ technologies = {
 		start_year = 2040
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 4 y = 18}
+			position = { x = 4 y = 20}
 		}
 		enable_equipments = {
 			mbt_chassis_4
@@ -257,7 +253,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -6 y = 6}
+			position = { x = -6 y = 8}
 		}
 		sub_technologies = {
 			nsb_car_engine_upgrade
@@ -300,7 +296,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -6 y = 10}
+			position = { x = -6 y = 12}
 		}
 		sub_technologies = {
 			nsb_car_armor_upgrade_1
@@ -343,7 +339,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -6 y = 14}
+			position = { x = -6 y = 16}
 		}
 		sub_technologies = {
 			nsb_car_gun_upgrade
@@ -379,7 +375,7 @@ technologies = {
 		start_year = 2040
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -6 y = 18}
+			position = { x = -6 y = 20}
 		}
 		enable_equipments = {
 			armored_car_equipment_4
@@ -420,6 +416,10 @@ technologies = {
 			leads_to_tech = nsb_truck_2
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = nsb_armored_car_1
+			research_cost_coeff = 1
+		}
 		enable_subunits = {
 			motorized
 		}
@@ -431,7 +431,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -4 y = 3}
+			position = { x = -4 y = 4}
 		}
 		categories = {
 			armor
@@ -471,7 +471,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -4 y = 6}
+			position = { x = -4 y = 8}
 		}
 		sub_technologies = {
 			nsb_truck_frame_protection_upgrade
@@ -514,7 +514,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -4 y = 10}
+			position = { x = -4 y = 12}
 		}
 		sub_technologies = {
 			nsb_truck_tank_upgrade
@@ -550,7 +550,7 @@ technologies = {
 		start_year = 2036
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -4 y = 14}
+			position = { x = -4 y = 16}
 		}
 		path = {
 			leads_to_tech = nsb_truck_5
@@ -593,7 +593,7 @@ technologies = {
 		start_year = 2040
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -4 y = 18}
+			position = { x = -4 y = 20}
 		}
 		enable_equipments = {
 			motorized_equipment_5
@@ -645,7 +645,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -2 y = 6}
+			position = { x = -2 y = 8}
 		}
 		categories = {
 			armor
@@ -687,7 +687,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -2 y = 10}
+			position = { x = -2 y = 12}
 		}
 		sub_technologies = {
 			nsb_apc_armor_upgrade
@@ -730,7 +730,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -2 y = 14}
+			position = { x = -2 y = 16}
 		}
 		sub_technologies = {
 			nsb_apc_infantry_protection_upgrade
@@ -766,7 +766,7 @@ technologies = {
 		start_year = 2040
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -2 y = 18}
+			position = { x = -2 y = 20}
 		}
 		enable_equipments = {
 			apc_equipment_4
@@ -830,7 +830,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = 6}
+			position = { x = 2 y = 8}
 		}
 		categories = {
 			armor
@@ -849,7 +849,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = 10}
+			position = { x = 2 y = 12}
 		}
 		enable_equipments = {
 			ifv_chassis_2
@@ -873,7 +873,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = 14}
+			position = { x = 2 y = 16}
 		}
 		enable_equipments = {
 			ifv_chassis_3
@@ -891,7 +891,7 @@ technologies = {
 		start_year = 2040
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = 18}
+			position = { x = 2 y = 20}
 		}
 		enable_equipments = {
 			ifv_chassis_4
@@ -919,7 +919,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 8 }
 		}
 		categories = {
 			armor
@@ -944,7 +944,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 12 }
 		}
 		categories = {
 			armor
@@ -966,7 +966,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 16 }
 		}
 		categories = {
 			armor
@@ -982,7 +982,7 @@ technologies = {
 		start_year = 2036
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 14 }
+			position = { x = 0 y = 20 }
 		}
 
 		on_research_complete = {
@@ -1012,7 +1012,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 2 }
+			position = { x = 1 y = 8 }
 		}
 		categories = {
 			armor
@@ -1035,7 +1035,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 6 }
+			position = { x = 1 y = 12 }
 		}
 		categories = {
 			armor
@@ -1058,7 +1058,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 10 }
+			position = { x = 1 y = 16 }
 		}
 		categories = {
 			armor
@@ -1075,7 +1075,7 @@ technologies = {
 		start_year = 2036
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1944 }
+			position = { x = 1 y = 20 }
 		}
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_4_tt

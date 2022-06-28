@@ -722,7 +722,7 @@ guiTypes = {
 						
 					instantTextBoxType = {
 						name = "armour_year1"
-						position = { x = 55 y = 30  }
+						position = { x = 55 y = 0  }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -735,7 +735,7 @@ guiTypes = {
 						
 					instantTextBoxType = {
 						name = "armour_year2"
-						position = { x = 270 y = 30 }
+						position = { x = 390 y = 0 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -748,7 +748,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year3"
-						position = { x = 480 y = 30 }
+						position = { x = 670 y = 0 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -761,7 +761,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year4"
-						position = { x = 690 y = 30 }
+						position = { x = 950 y = 0 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -774,7 +774,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year5"
-						position = { x = 900 y = 30 }
+						position = { x = 1230 y = 0 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -787,7 +787,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year6"
-						position = { x = 1110 y = 30 }
+						position = { x = 1510 y = 0 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -3192,7 +3192,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "sub_technology_slot_0"
-			position = { x=141 y=1 }
+			position = { x=143 y=100 }
 			size = { width = 35 height = 26 }
 			clipping = no
 			
@@ -3251,7 +3251,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_nsb_armour_folder_item"
-		position = { x=-55 y=0 }
+		position = { x=-20 y=-15 }
 		size = { width = 183 height = 84 }
 		clipping = no
 
@@ -3262,7 +3262,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=74 y=50 }
+			position = { x=100 y=50 }
 			spriteType = "GFX_technology_medium"
 			centerposition = yes
 			alwaystransparent = yes
@@ -3270,15 +3270,15 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 6 y = -1 }
+			position = { x = -80 y = -30 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Happy-Go-Lucky-Tank"
-			maxWidth = 176
+			maxWidth = 350
 			maxHeight = 20
 			fixedsize = no
-			format = left
+			format = center
 		}
 		
 		iconType = {
@@ -3301,7 +3301,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "sub_technology_slot_0"
-			position = { x=141 y=1 }
+			position = { x=155 y=6 }
 			size = { width = 35 height = 26 }
 			clipping = no
 			
@@ -3359,7 +3359,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_nsb_armour_folder_small_item"
-		position = { x=0 y=0 }
+		position = { x=20 y=-30 }
 		size = { width = 72 height = 72 }
 		clipping = no
 
