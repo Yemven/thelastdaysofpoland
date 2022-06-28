@@ -24,7 +24,14 @@ set_convoys = 20
 recruit_character = NAC_krzysztof_bosak
 recruit_character = NAC_robert_winnicki
 recruit_character = NAC_roman_giertych
+recruit_character = NAC_michal_urbaniak
+recruit_character = NAC_robert_bakiewicz
+recruit_character = NAC_ludwik_zalewski
+recruit_character = NAC_waldemar_krysiak
+recruit_character = NAC_krzysztof_tuduj
+recruit_character = NAC_ewa_wrzosek
 
+	
 set_politics = {
 	ruling_party = neonationalism
 	last_election = "2027.3.1"
@@ -36,12 +43,12 @@ set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
 	socialdemocrature = 0
-	euroliberalism = 0
-	freemarketism = 0
-	paternal_conservatism = 0
+	euroliberalism = 10
+	freemarketism = 10
+	paternal_conservatism = 15
 	autocracy = 0
 	corporativism = 0
-	neonationalism = 100
+	neonationalism = 65
 	reactionary = 0
 	postpolonism = 0
 }

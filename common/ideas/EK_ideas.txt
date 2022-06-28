@@ -9,6 +9,7 @@ ideas = {
 				tag = KES
 				tag = POM
 				tag = BRE
+				tag = WRT
 				}
 			}
 			allowed_civil_war = {
@@ -18,11 +19,12 @@ ideas = {
 			picture = BBW_smog
 			modifier = {
 				army_org_factor = -0.3
-				army_attack_factor = -0.3
-				army_defence_factor = -0.3
+				army_attack_factor = -0.4
+				army_defence_factor = -0.4
 				mobilization_speed = -0.03
 				research_speed_factor = -0.05
 				training_time_factor = 0.5
+				max_surrender_limit_offset = -0.5
 			}
 		}
 	}

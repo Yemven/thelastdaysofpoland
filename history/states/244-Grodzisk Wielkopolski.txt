@@ -7,12 +7,15 @@ state={
 		owner = EKW
 		victory_points = {
 			15183 20 
-		}victory_points = {
+		victory_points = {
 			15206 5
 		}
 		add_core_of = EKW
 		buildings = {
 			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
 
 		}
 
@@ -21,7 +24,7 @@ state={
 	provinces={
 		2404 2802 3765 3771 15183 15186 15189 15190 15191 15192 15193 15194 15195 15198 15199 15200 15201 15202 15203 15204 15205 15206 
 	}
-	manpower=23976
+	manpower=24113
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
