@@ -1956,15 +1956,15 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -9 y = 0 }
 		}
-		xor = {the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		xor = { the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
 			has_country_flag = tech_supremacy_perfected
 		}
 		path = {
-			leads_to_tech = late_tech_a
+			leads_to_tech = electronic_warfare_support
 		}
 		path = {
-			leads_to_tech = late_tech_b
+			leads_to_tech = directed_energy_weapons
 		}
 		doctrine = yes
 		categories = {
@@ -1981,7 +1981,7 @@ technologies = {
 		}
 	}
 
-	late_tech_a = {
+	electronic_warfare_support = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2003,7 +2003,7 @@ technologies = {
 		}
 	}
 	
-	late_tech_b = {
+	directed_energy_weapons = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2032,15 +2032,15 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -3 y = 0 }
 		}
-		xor = {the_cyber_army condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		xor = { the_cyber_army condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
 			has_country_flag = conv_warfare_perfected
 		}
 		path = {
-			leads_to_tech = late_conv_a
+			leads_to_tech = bounding_overwatch
 		}
 		path = {
-			leads_to_tech = late_conv_b
+			leads_to_tech = precise_firepower_support
 		}
 		doctrine = yes
 		categories = {
@@ -2057,7 +2057,7 @@ technologies = {
 		}
 	}
 	
-	late_conv_a = {
+	bounding_overwatch = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2079,7 +2079,7 @@ technologies = {
 		}
 	}
 	
-	late_conv_b = {
+	precise_firepower_support = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2114,13 +2114,13 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = late_asm_a
+			leads_to_tech = united_in_spirit
 		}
 		path = {
-			leads_to_tech = late_asm_b
+			leads_to_tech = no_mercy_for_the_enemy
 		}
 		
-		xor = {might_makes_right the_cyber_army the_new_war tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		xor = { might_makes_right the_cyber_army the_new_war tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		
 		doctrine = yes
 		categories = {
@@ -2137,7 +2137,7 @@ technologies = {
 		}
 	}
 
-	late_asm_a = {
+	united_in_spirit = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2159,7 +2159,7 @@ technologies = {
 		}
 	}
 	
-	late_asm_b = {
+	no_mercy_for_the_enemy = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2189,13 +2189,13 @@ technologies = {
 			position = { x = 9 y = 0 }
 		}
 		
-		xor = {condemned_soldiers the_cyber_army the_new_war tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		xor = { condemned_soldiers the_cyber_army the_new_war tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		
 		path = {
-			leads_to_tech = late_cqc_a
+			leads_to_tech = shattering_charges
 		}
 		path = {
-			leads_to_tech = late_cqc_b
+			leads_to_tech = blood_loyalty
 		}
 		
 		allow = {
@@ -2217,7 +2217,7 @@ technologies = {
 		}
 	}
 	
-	late_cqc_a = {
+	shattering_charges = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2239,7 +2239,7 @@ technologies = {
 		}
 	}
 	
-	late_cqc_b = {
+	blood_loyalty = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2268,17 +2268,17 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -6 y = 4 }
 		}
-		xor = {conv_asm_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		xor = { conv_asm_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
 			has_country_flag = tech_supremacy_perfected
 			has_country_flag = conv_warfare_perfected
 		}
 		doctrine = yes
 		path = {
-			leads_to_tech = tech_conv_a
+			leads_to_tech = instant_information_support
 		}
 		path = {
-			leads_to_tech = tech_conv_b
+			leads_to_tech = standardization_of_experimental_technology
 		}
 		categories = {
 			land_doctrine
@@ -2294,7 +2294,7 @@ technologies = {
 		}
 	}
 	
-	tech_conv_a = {
+	instant_information_support = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2316,7 +2316,7 @@ technologies = {
 		}
 	}
 	
-	tech_conv_b = {
+	standardization_of_experimental_technology = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2345,16 +2345,16 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 4 }
 		}
-		xor = {tech_conv_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		xor = { tech_conv_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
 			has_country_flag = asm_warfare_perfected
 			has_country_flag = conv_warfare_perfected
 		}
 		path = {
-			leads_to_tech = conv_asm_a
+			leads_to_tech = coup_de_main
 		}
 		path = {
-			leads_to_tech = conv_asm_b
+			leads_to_tech = field_works
 		}
 		doctrine = yes
 		categories = {
@@ -2371,7 +2371,7 @@ technologies = {
 		}
 	}
 	
-	conv_asm_a = {
+	coup_de_main = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2393,7 +2393,7 @@ technologies = {
 		}
 	}
 	
-	conv_asm_b = {
+	field_works = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2422,16 +2422,16 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 6 y = 4 }
 		}
-		xor = {tech_asm_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		xor = { tech_asm_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
 			has_country_flag = asm_warfare_perfected
 			has_country_flag = cqc_warfare_perfected
 		}
 		path = {
-			leads_to_tech = asm_cqc_a
+			leads_to_tech = chevauchee
 		}
 		path = {
-			leads_to_tech = asm_cqc_b
+			leads_to_tech = warmian_shot
 		}
 		doctrine = yes
 		categories = {
@@ -2448,7 +2448,7 @@ technologies = {
 		}
 	}
 	
-	asm_cqc_a = {
+	chevauchee = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2470,7 +2470,7 @@ technologies = {
 		}
 	}
 	
-	asm_cqc_b = {
+	warmian_shot = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2499,16 +2499,16 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -3 y = 8 }
 		}
-		xor = {asm_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion conv_cqc_fusion tech_cqc_fusion}
+		xor = { asm_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
 			has_country_flag = asm_warfare_perfected
 			has_country_flag = tech_supremacy_perfected
 		}
 		path = {
-			leads_to_tech = tech_asm_a
+			leads_to_tech = emp_traps
 		}
 		path = {
-			leads_to_tech = tech_asm_b
+			leads_to_tech = reconnaissance_in_force
 		}
 		doctrine = yes
 		categories = {
@@ -2525,7 +2525,7 @@ technologies = {
 		}
 	}
 	
-	tech_asm_a = {
+	emp_traps = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2547,7 +2547,7 @@ technologies = {
 		}
 	}
 	
-	tech_asm_b = {
+	reconnaissance_in_force = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2576,16 +2576,16 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 3 y = 8 }
 		}
-		xor = {tech_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion}
+		xor = { tech_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion}
 		allow = {
 			has_country_flag = conv_warfare_perfected
 			has_country_flag = cqc_warfare_perfected
 		}
 		path = {
-			leads_to_tech = conv_cqc_a
+			leads_to_tech = masters_of_siege
 		}
 		path = {
-			leads_to_tech = conv_cqc_b
+			leads_to_tech = chosen_infantry
 		}
 		doctrine = yes
 		categories = {
@@ -2602,7 +2602,7 @@ technologies = {
 		}
 	}
 	
-	conv_cqc_a = {
+	masters_of_siege = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2624,7 +2624,7 @@ technologies = {
 		}
 	}
 	
-	conv_cqc_b = {
+	chosen_infantry = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2653,16 +2653,16 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 12 }
 		}
-		xor = {conv_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion}
+		xor = { conv_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion}
 		allow = {
 			has_country_flag = tech_supremacy_perfected
 			has_country_flag = cqc_warfare_perfected
 		}
 		path = {
-			leads_to_tech = tech_cqc_a
+			leads_to_tech = laboratories_of_steel
 		}
 		path = {
-			leads_to_tech = tech_cqc_b
+			leads_to_tech = posthumanous_soldiers
 		}
 		doctrine = yes
 		categories = {
@@ -2679,7 +2679,7 @@ technologies = {
 		}
 	}
 	
-	tech_cqc_a = {
+	laboratories_of_steel = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
@@ -2701,7 +2701,7 @@ technologies = {
 		}
 	}
 	
-	tech_cqc_b = {
+	posthumanous_soldiers = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
