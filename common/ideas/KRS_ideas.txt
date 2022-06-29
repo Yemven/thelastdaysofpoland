@@ -63,6 +63,16 @@ ideas = {
 				armor = 0.1
 				}
 		}
+		azm_kutno_krs = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = KRS }
+			available = { controls_province = 3770 }
+			cost = 200
+			traits = { car_mass_production_company }
+			research_bonus = {
+				armor = 0.1
+				}
+		}
 		lzg_krs = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = KRS }
