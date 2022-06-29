@@ -1,0 +1,22 @@
+division_template = {
+	name = "Autyści"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Moderzy"
+		location = 9577
+		division_template = "Autyści"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+}
+	

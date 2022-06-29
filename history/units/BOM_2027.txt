@@ -1,0 +1,46 @@
+division_template = {
+	name = "Bojówki Bombaskie"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Strzelcy Bombascy"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1 Brygada Wolnej Armii Bombasu"
+		location = 11720
+		division_template = "Bojówki Bombaskie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "2 Brygada Wolnej Armii Bombasu"
+		location = 1063
+		division_template = "Bojówki Bombaskie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Wolni Strzelcy Bombascy"
+		location = 739
+		division_template = "Strzelcy Bombascy"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
+	
