@@ -207,7 +207,7 @@ focus_tree = {
 		cost = 4.3
 		search_filters = { }
 		completion_reward = {
-			
+			leave_faction = yes
 		}
 	}
 	
@@ -253,7 +253,14 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			
+			declare_war_on = {
+				target = JAW
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = DGR
+				type = annex_everything
+			}
 		}
 	}
 	focus = {

@@ -400,8 +400,8 @@ focus_tree = {
 		id = BRZ_every_man_a_footballer
 		icon = BRZ_every_man_a_footballer
 		relative_position_id = BRZ_strike_force_of_truskolasy
-		prerequisite = { focus = BRZ_professional_fighting_squads }
-		prerequisite = { focus = BRZ_show_of_brutal_force }
+		prerequisite = { focus = BRZ_professional_fighting_squads 
+						 focus = BRZ_show_of_brutal_force }
 		available = {
 		
 		}
@@ -669,7 +669,8 @@ focus_tree = {
 		id = BRZ_demand_submission
 		icon = BRZ_demand_submission
 		relative_position_id = BRZ_match_day
-		prerequisite = { focus = BRZ_match_day }
+		prerequisite = { focus = BRZ_truskolasy_top
+						 focus = BRZ_we_will_get_them_anyway }
 		available = {
 		
 		}
@@ -726,8 +727,11 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
-			
+		completion_reward = { 
+					declare_war_on = {
+				target = JWK
+				type = annex_everything
+			}
 		}
 	}
 	

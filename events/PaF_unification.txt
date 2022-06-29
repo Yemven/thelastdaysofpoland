@@ -86,7 +86,7 @@ news_event = {
 
 
 
-#Krośniewice
+#Krośniewice - Skrzydlewscy
 news_event = {
 	id = unification.6
 	title = unification.6.t
@@ -540,5 +540,50 @@ news_event = {
 
 	option = {
 		name = unification.34.a
+	}
+}
+
+#Krośniewice-Pogotowie
+news_event = {
+	id = unification.35
+	title = unification.35.t
+	desc = unification.35.desc
+	
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = unification.35.a
+	}
+}
+
+#Krośniewice-Rutkowski
+news_event = {
+	id = unification.36
+	title = unification.36.t
+	desc = unification.36.desc
+	
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = unification.36.a
+	}
+}
+
+#Żydzew-Urban
+news_event = {
+	id = unification.37
+	title = unification.37.t
+	desc = unification.37.desc
+	
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = unification.37.a
 	}
 }

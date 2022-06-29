@@ -76,7 +76,10 @@ lodz_regional_unification = {
 
 
 		else_if = {
-			limit = { tag = ZYD }
+			limit = { 
+					 tag = ZYD
+					 has_government = squattism
+				}
 			set_cosmetic_tag = ZYD_regional
 			hidden_effect = {
 				every_country = {
@@ -87,15 +90,54 @@ lodz_regional_unification = {
 			custom_effect_tooltip = ZYD_unifies_lodz_tooltip
 		}
 
+		else_if = {
+			limit = { tag = ZYD
+					 has_government = marxism_cranism }
+			set_cosmetic_tag = ZYD_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.37 }
+				}
+			}
+			custom_effect_tooltip = ZYD_unifies_lodz_tooltip
+		}
 
 
 		else_if = {
-			limit = { tag = KRS }
+			limit = { tag = KRS
+					  has_government = corporativism }
 			set_cosmetic_tag = KRS_regional
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
 					news_event = { id = unification.6 }
+				}
+			}
+			custom_effect_tooltip = KRS_unifies_lodz_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = KRS
+					  has_government = postpolonism }
+			set_cosmetic_tag = KRS_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.35 }
+				}
+			}
+			custom_effect_tooltip = KRS_unifies_lodz_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = KRS
+					  has_government = autocracy }
+			set_cosmetic_tag = KRS_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.36 }
 				}
 			}
 			custom_effect_tooltip = KRS_unifies_lodz_tooltip
