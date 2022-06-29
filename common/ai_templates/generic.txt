@@ -763,7 +763,11 @@ infantry_generic = {
 		}
 		
 		allowed_types = {
-			infantry		
+			infantry	
+			motorized
+			mechanized
+			stormtroopers
+			elite_infantry
 			engineer
 			recon
 			field_hospital

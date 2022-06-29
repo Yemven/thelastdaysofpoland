@@ -1,0 +1,125 @@
+division_template = {
+	name = "Służba Ochrony H. Skrzydlewska"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Patrol Rutkowskiego"
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Bojówki Konsorcjum"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Siły Pomocnicze Oddziału Pogotowia"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+	}
+}
+
+units = {
+ 	division = {
+		name = "Patrol Rutkowskiego - Grabów"
+		location = 10515
+		division_template = "Patrol Rutkowskiego"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Patrol Rutkowskiego - Sieradz"
+		location = 10466
+		division_template = "Patrol Rutkowskiego"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Ochrona Skrzydlewskich - Oddział Krośniewicki"
+		location = 10537
+		division_template = "Służba Ochrony H. Skrzydlewska"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Ochrona Skrzydlewskich - Oddział Kuteński"
+		location = 3770
+		division_template = "Służba Ochrony H. Skrzydlewska"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Ochrona Skrzydlewskich - Oddział Zgierski"
+		location = 1004
+		division_template = "Służba Ochrony H. Skrzydlewska"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Ochrona Skrzydlewskich - Oddział Łódzki"
+		location = 3109
+		division_template = "Służba Ochrony H. Skrzydlewska"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Ochrona Skrzydlewskich - Oddział Wartański"
+		location = 2683
+		division_template = "Służba Ochrony H. Skrzydlewska"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Uniejowska Bojówka Konsorcjum"
+		location = 42
+		division_template = "Bojówki Konsorcjum"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Zadzimska Bojówka Konsorcjum"
+		location = 10442
+		division_template = "Bojówki Konsorcjum"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Siły Pomocnicze Oddziału Pogotowia"
+		location = 7454
+		division_template = "Siły Pomocnicze Oddziału Pogotowia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+}
