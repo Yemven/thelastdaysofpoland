@@ -219,6 +219,31 @@ ideas = {
 				
 			}
 		}
+		
+		POZ_war_exhaustion = {
+			allowed = {
+				original_tag = POZ
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_more_steam
+			modifier = {
+				industry_repair_factor = -0.1
+				consumer_goods_factor = 0.15
+				stability_factor = -0.05
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.15
+				production_speed_buildings_factor = -0.2
+				political_power_gain = -0.4
+				
+			}
+		}
     }
 }
 
