@@ -1964,7 +1964,7 @@ technologies = {
 			leads_to_tech = electronic_warfare_support
 		}
 		path = {
-			leads_to_tech = directed_energy_weapons
+			leads_to_tech = hacker_espionage
 		}
 		doctrine = yes
 		categories = {
@@ -1988,6 +1988,9 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -11 y = 2 }
 		}
+		path = {
+			leads_to_tech = directed_energy_weapons
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2008,7 +2011,54 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
+			position = { x = -11 y = 4 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	hacker_espionage = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
 			position = { x = -7 y = 2 }
+		}
+		path = {
+			leads_to_tech = military_ethernet_defences
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	military_ethernet_defences = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -7 y = 4 }
 		}
 		doctrine = yes
 		categories = {
@@ -2037,7 +2087,7 @@ technologies = {
 			has_country_flag = conv_warfare_perfected
 		}
 		path = {
-			leads_to_tech = bounding_overwatch
+			leads_to_tech = advanced_drills
 		}
 		path = {
 			leads_to_tech = precise_firepower_support
@@ -2057,12 +2107,37 @@ technologies = {
 		}
 	}
 	
-	bounding_overwatch = {
+	advanced_drills = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -5 y = 2 }
+		}
+		path = {
+			leads_to_tech = dispersed_marching_fire
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	dispersed_marching_fire = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -5 y = 4 }
 		}
 		doctrine = yes
 		categories = {
@@ -2085,6 +2160,31 @@ technologies = {
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -1 y = 2 }
+		}
+		path = {
+			leads_to_tech = bounding_overwatch
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	bounding_overwatch = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 4 }
 		}
 		doctrine = yes
 		categories = {
@@ -2114,10 +2214,10 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = united_in_spirit
+			leads_to_tech = weather_training
 		}
 		path = {
-			leads_to_tech = no_mercy_for_the_enemy
+			leads_to_tech = anti_vehicle_measures
 		}
 		
 		xor = { might_makes_right the_cyber_army the_new_war tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
@@ -2137,12 +2237,65 @@ technologies = {
 		}
 	}
 
-	united_in_spirit = {
+	weather_training = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 1 y = 2 }
+		}
+		path = {
+			leads_to_tech = united_in_spirit
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	united_in_spirit = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 4 }
+		}
+		path = {
+			leads_to_tech = weather_training
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	anti_vehicle_measures = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 5 y = 2 }
+		}
+		path = {
+			leads_to_tech = no_mercy_for_the_enemy
 		}
 		doctrine = yes
 		categories = {
@@ -2164,7 +2317,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 5 y = 2 }
+			position = { x = 5 y = 4 }
 		}
 		doctrine = yes
 		categories = {
@@ -2195,7 +2348,7 @@ technologies = {
 			leads_to_tech = shattering_charges
 		}
 		path = {
-			leads_to_tech = blood_loyalty
+			leads_to_tech = praetorian_guard
 		}
 		
 		allow = {
@@ -2224,6 +2377,56 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 7 y = 2 }
 		}
+		path = {
+			leads_to_tech = relics
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	relics = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 7 y = 4 }
+		}
+		doctrine = yes
+		categories = {
+			land_doctrine
+		}
+		ai_will_do = {
+			factor = 20 
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+	}
+	
+	praetorian_guard = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 11 y = 2 }
+		}
+		path = {
+			leads_to_tech = blood_loyalty
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2244,7 +2447,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 11 y = 2 }
+			position = { x = 11 y = 4 }
 		}
 		doctrine = yes
 		categories = {
@@ -2266,7 +2469,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -6 y = 4 }
+			position = { x = -6 y = 6 }
 		}
 		xor = { conv_asm_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
@@ -2299,7 +2502,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -8 y = 6 }
+			position = { x = -8 y = 8 }
 		}
 		doctrine = yes
 		categories = {
@@ -2321,7 +2524,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -4 y = 6 }
+			position = { x = -4 y = 8 }
 		}
 		doctrine = yes
 		categories = {
@@ -2343,7 +2546,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 6 }
 		}
 		xor = { tech_conv_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
@@ -2376,7 +2579,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 6 }
+			position = { x = -2 y = 8 }
 		}
 		doctrine = yes
 		categories = {
@@ -2398,7 +2601,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 6 }
+			position = { x = 2 y = 8 }
 		}
 		doctrine = yes
 		categories = {
@@ -2420,7 +2623,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 6 y = 4 }
+			position = { x = 6 y = 6 }
 		}
 		xor = { tech_asm_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
@@ -2453,7 +2656,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 4 y = 6 }
+			position = { x = 4 y = 8 }
 		}
 		doctrine = yes
 		categories = {
@@ -2475,7 +2678,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 8 y = 6 }
+			position = { x = 8 y = 8 }
 		}
 		doctrine = yes
 		categories = {
@@ -2497,7 +2700,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -3 y = 8 }
+			position = { x = -3 y = 10 }
 		}
 		xor = { asm_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		allow = {
@@ -2530,7 +2733,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -5 y = 10 }
+			position = { x = -5 y = 12 }
 		}
 		doctrine = yes
 		categories = {
@@ -2552,7 +2755,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -1 y = 10 }
+			position = { x = -1 y = 12 }
 		}
 		doctrine = yes
 		categories = {
@@ -2574,7 +2777,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 3 y = 8 }
+			position = { x = 3 y = 10 }
 		}
 		xor = { tech_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion}
 		allow = {
@@ -2607,7 +2810,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 1 y = 10 }
+			position = { x = 1 y = 12 }
 		}
 		doctrine = yes
 		categories = {
@@ -2629,7 +2832,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 5 y = 10 }
+			position = { x = 5 y = 12 }
 		}
 		doctrine = yes
 		categories = {
@@ -2651,7 +2854,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = 14 }
 		}
 		xor = { conv_cqc_fusion the_cyber_army the_new_war condemned_soldiers might_makes_right tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion}
 		allow = {
@@ -2684,7 +2887,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = -2 y = 16 }
 		}
 		doctrine = yes
 		categories = {
@@ -2706,7 +2909,7 @@ technologies = {
 		xp_unlock_cost = 100
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 14 }
+			position = { x = 2 y = 16 }
 		}
 		doctrine = yes
 		categories = {
