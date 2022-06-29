@@ -14,9 +14,9 @@ country_event = {		#Super Event Test
 		name = super.1.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = golem_superevent_visible
+        set_global_flag = BBW_karbonizacja_super_visible
        hidden_effect = {
-	sound_effect = "se_golem_super"
+	sound_effect = "BBW_karbonizacja_super"
 }
 	}
 }
@@ -35,10 +35,10 @@ country_event = {		#Super Event Test
 		name = super.2.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = dg_rasta_postpol_superevent_visible
+        set_global_flag = BBW_roksi_super_visible
 
 		hidden_effect = {
-			sound_effect = "se_dg_rasta_postpol_super"
+			sound_effect = "BBW_roksi_super"
 		}
 	}
 }
