@@ -1,0 +1,54 @@
+division_template = {
+	name = "Służba Ochrony Hoteli Gołębiewski"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Europäisches Hilfsbataillon"
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+ 	division = {
+		name = "Ochrona Gołębiewskich - Karpacz"
+		location = 13192
+		division_template = "Służba Ochrony Hoteli Gołębiewski"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+  	division = {
+		name = "Ochrona Gołębiewskich - Jelenia Góra"
+		location = 2245
+		division_template = "Służba Ochrony Hoteli Gołębiewski"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+  	division = {
+		name = "Siły Porządkowe Gołębiewskich w Kamiennej Górze"
+		location = 2177
+		division_template = "Służba Ochrony Hoteli Gołębiewski"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
+	}
+
+  	division = {
+		name = "Deutsches Hilfsbataillon"
+		location = 13192
+		division_template = "Służba Ochrony Hoteli Gołębiewski"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.5
+	}
+}

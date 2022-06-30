@@ -1,0 +1,48 @@
+division_template = {
+	name = "European Peacekeeping Force"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Belgiëts Vredebewaarders Batallion"
+		location = 2773
+		division_template = "European Peacekeeping Force"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Battaglione Italiano di pantenimento della pace"
+		location = 432
+		division_template = "European Peacekeeping Force"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Nederlands Bataljon voor vredeshandhaving"
+		location = 13335
+		division_template = "European Peacekeeping Force"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Bataillon Français de maintien de la paix"
+		location = 2539
+		division_template = "European Peacekeeping Force"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Svensk-dansk Fredsbevarende Bataljon"
+		location = 13274
+		division_template = "European Peacekeeping Force"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
