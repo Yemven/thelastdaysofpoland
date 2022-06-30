@@ -755,6 +755,152 @@ is_poland_b_unifier = {
 	}
 }
 
+is_poland_unifier = {
+	OR = {
+		tag = PIL
+		tag = NAC
+		tag = SYJ
+		tag = POZ
+		tag = SLU
+		tag = KUJ
+		tag = GRU
+		tag = BYD
+		tag = TOR
+		tag = INO
+		tag = KOR
+		tag = GDA
+		tag = BOL
+		tag = OWS
+		tag = GAY
+		tag = CZL
+		tag = HEL
+		tag = JOM
+		tag = USP
+		tag = SWI
+		tag = STE
+		tag = EKW
+		tag = JAS
+		tag = KRS
+		tag = BBW
+		tag = ZHP
+		tag = SAP
+		tag = ZYD
+		tag = WML
+		tag = SUS
+		tag = FEL
+		tag = CAL
+		tag = GNI
+		
+		tag = RAS
+		tag = CHO
+		tag = GLI
+		tag = KAT
+		tag = JSW
+		tag = WOD
+		tag = OPO
+		tag = MNI
+		tag = LEH
+		tag = LCH
+		tag = WAN
+		tag = CZE
+		tag = ANA
+		tag = MNL
+		tag = ZUL
+		tag = MPK
+		tag = WRO
+		tag = RYB
+		tag = KGH
+		tag = CYG
+		tag = TOU
+		tag = EKS
+		tag = KAM
+		tag = MOT
+		tag = WIN
+		tag = ZAG	
+		
+		tag = SWD
+		tag = CRN
+		tag = KSN
+		tag = ZUK
+		tag = BIL
+		tag = BPD
+		tag = PUL
+		
+		tag = SAT
+		tag = RAD
+		tag = GAR
+		tag = SKA
+		
+		tag = OSW
+		tag = WDW
+		tag = KRK 
+		tag = NHT
+		tag = PRK
+		tag = TRN
+		
+		tag = CCH
+		tag = BRZ
+		tag = JWK
+		tag = ZAW
+		tag = DGR
+		tag = SOS
+		tag = JAW
+		
+		tag = CIE
+		tag = BSK
+		tag = MSL
+		tag = GUR
+		tag = SCZ
+		
+		tag = HOR
+		tag = BEX
+		tag = KRO
+		tag = KOZ
+		tag = UPA
+		tag = BSC
+		tag = RZE
+		tag = TAR
+		tag = CHR
+		tag = LGP
+		
+		tag = STO
+		tag = KEL
+		tag = NRA
+		tag = NSZ
+		tag = KIE
+		tag = SND
+
+		tag = KON
+		tag = BOM
+		tag = LMZ
+		tag = BEL
+		tag = TAT
+		tag = SAN
+		tag = POL
+		tag = SAS
+		tag = ORL
+		tag = AGR
+		tag = SDL
+		
+		tag = PZW
+		tag = PRU
+		tag = TEU
+		tag = WAR
+		tag = ROS
+		tag = MAL
+
+		tag = DUP
+		tag = WOW
+		tag = ZYR
+		tag = MAF
+		tag = ZIE
+		tag = BIE
+		tag = PLC
+		tag = TVP
+		tag = TRZ
+	}
+}
+
 can_unify_lodz = {
 AND = {
 	has_war = no
@@ -1475,4 +1621,258 @@ AND = {
 	}
 }
 
+can_unify_lodz_and_kaliskie = {
+AND = {
+	has_war = no
+	is_lodz_and_kalisz_unifier = yes
+	#CAL
+	controls_state = 314
+	controls_state = 266
+	controls_state = 311
+	controls_state = 359
+	controls_state = 337
+	controls_state = 285
+	#KEL
+	controls_state = 320
+	controls_state = 298
+	controls_state = 271
+	controls_state = 257
+	controls_state = 240
+	controls_state = 698
+	#SUS
+	controls_state = 299
+	controls_state = 253
+	controls_state = 264
+	#GNI
+	controls_state = 260
+	controls_state = 256
+	controls_state = 230
+	controls_state = 689
+	#WML
+	controls_state = 302
+	controls_state = 577
+	controls_state = 576
+	controls_state = 759
+	#BBW
+	controls_state = 309
+	controls_state = 341
+	controls_state = 318
+	controls_state = 317
+	#ZYD
+	controls_state = 353
+	controls_state = 340
+	controls_state = 333
+	controls_state = 315
+	#ZHP
+	controls_state = 370
+	controls_state = 357
+	controls_state = 368
+	controls_state = 396
+	controls_state = 321
+	#SAP
+	controls_state = 269
+	controls_state = 300
+	controls_state = 288
+	controls_state = 272
+	#KRS
+	controls_state = 236
+	controls_state = 849
+	controls_state = 687
+	controls_state = 686
+	controls_state = 685
+	controls_state = 305
+	}
+}
 
+can_unify_western_poland = {
+AND = {
+	has_war = no
+	is_western_poland_unifier = yes
+	#CAL
+	controls_state = 314
+	controls_state = 266
+	controls_state = 311
+	controls_state = 359
+	controls_state = 337
+	controls_state = 285
+	#KEL
+	controls_state = 320
+	controls_state = 298
+	controls_state = 271
+	controls_state = 257
+	controls_state = 240
+	controls_state = 698
+	#SUS
+	controls_state = 299
+	controls_state = 253
+	controls_state = 264
+	#GNI
+	controls_state = 260
+	controls_state = 256
+	controls_state = 230
+	controls_state = 689
+	#WML
+	controls_state = 302
+	controls_state = 577
+	controls_state = 576
+	controls_state = 759
+	#BBW
+	controls_state = 309
+	controls_state = 341
+	controls_state = 318
+	controls_state = 317
+	#ZYD
+	controls_state = 353
+	controls_state = 340
+	controls_state = 333
+	controls_state = 315
+	#ZHP
+	controls_state = 370
+	controls_state = 357
+	controls_state = 368
+	controls_state = 396
+	controls_state = 321
+	#SAP
+	controls_state = 269
+	controls_state = 300
+	controls_state = 288
+	controls_state = 272
+	#KRS
+	controls_state = 236
+	controls_state = 849
+	controls_state = 687
+	controls_state = 686
+	controls_state = 685
+	controls_state = 305
+	#JAS
+	controls_state = 82
+	controls_state = 78
+	controls_state = 98
+	#USP
+	controls_state = 53
+	controls_state = 623
+	controls_state = 622
+	#JOM
+	controls_state = 621
+	controls_state = 70
+	controls_state = 61
+	#SWI
+	controls_state = 54
+	controls_state = 619
+	controls_state = 83
+	#STE
+	controls_state = 616
+	controls_state = 105
+	controls_state = 114
+	controls_state = 617
+	#EKW
+	controls_state = 158
+	controls_state = 615
+	controls_state = 107
+	controls_state = 127
+	#INO
+	controls_state = 703
+	controls_state = 852
+	controls_state = 701
+	controls_state = 176
+	controls_state = 198
+	#TOR
+	controls_state = 196
+	controls_state = 702
+	controls_state = 847
+	controls_state = 165
+	controls_state = 170
+	#GRU
+	controls_state = 152
+	controls_state = 115
+	controls_state = 134
+	controls_state = 145
+	#KUJ
+	controls_state = 126
+	controls_state = 99
+	controls_state = 707
+	controls_state = 148
+	controls_state = 100
+	#BYD
+	controls_state = 708
+	controls_state = 150
+	controls_state = 166
+	controls_state = 136
+	controls_state = 104
+	#PIL
+	controls_state = 135
+	controls_state = 111
+	controls_state = 130
+	#WRT
+	controls_state = 162 
+	controls_state = 155
+	controls_state = 178
+	#NAC
+	controls_state = 184
+	controls_state = 202
+	controls_state = 206
+	controls_state = 193
+	controls_state = 218
+	controls_state = 244
+	#SYJ
+	controls_state = 697
+	controls_state = 694
+	controls_state = 583
+	controls_state = 584
+	controls_state = 207
+	#POZ
+	controls_state = 220
+	controls_state = 585
+	controls_state = 586
+	controls_state = 699
+	#SLU
+	controls_state = 582
+	controls_state = 587
+	controls_state = 225
+	controls_state = 581
+	#LOT
+	controls_state = 629
+	controls_state = 65
+	#KOR
+	controls_state = 15
+	controls_state = 44
+	#GDA
+	controls_state = 630
+	controls_state = 715
+	controls_state = 39
+	#BOL
+	controls_state = 716
+	controls_state = 717
+	#OWS
+	controls_state = 709
+	controls_state = 712
+	#ARK
+	controls_state = 34
+	controls_state = 710
+	controls_state = 711
+	#KSZ
+	controls_state = 21
+	controls_state = 62
+	controls_state = 36
+	controls_state = 626
+	#HEL
+	controls_state = 625
+	controls_state = 20
+	controls_state = 666
+	#GAY
+	controls_state = 35
+	controls_state = 38
+	controls_state = 624
+	#CZL
+	controls_state = 81
+	controls_state = 74
+	controls_state = 89
+	}
+}
+
+can_unify_poland = {
+AND = {
+	has_war = no
+	is_poland_unifier = yes
+	}
+}

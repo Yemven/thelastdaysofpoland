@@ -1,7 +1,7 @@
 
 unification_category = {
 
-lodz_regional_unification = {
+lodz_voivodeship_unification = {
 
 	icon = GFX_decision_icon_default
 	
@@ -21,7 +21,8 @@ lodz_regional_unification = {
 	complete_effect = {
 		if = {
 			limit = { tag = ZHP }
-			set_cosmetic_tag = ZHP_regional
+			set_cosmetic_tag = ZHP_voivodeship
+			set_global_flag = lodzkie_unified
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -35,7 +36,8 @@ lodz_regional_unification = {
 
 		else_if = {
 			limit = { tag = SAP }
-			set_cosmetic_tag = SAP_regional
+			set_cosmetic_tag = SAP_voivodeship
+			set_global_flag = lodzkie_unified
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -49,7 +51,8 @@ lodz_regional_unification = {
 
 		else_if = {
 			limit = { tag = WML }
-			set_cosmetic_tag = WML_regional
+			set_cosmetic_tag = WML_voivodeship
+			set_global_flag = lodzkie_unified
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -63,7 +66,8 @@ lodz_regional_unification = {
 
 		else_if = {
 			limit = { tag = BBW }
-			set_cosmetic_tag = BBW_regional
+			set_cosmetic_tag = BBW_voivodeship
+			set_global_flag = lodzkie_unified
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -80,7 +84,8 @@ lodz_regional_unification = {
 					 tag = ZYD
 					 has_government = squattism
 				}
-			set_cosmetic_tag = ZYD_regional
+			set_cosmetic_tag = ZYD_voivodeship
+			set_global_flag = lodzkie_unified
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -93,7 +98,8 @@ lodz_regional_unification = {
 		else_if = {
 			limit = { tag = ZYD
 					 has_government = marxism_cranism }
-			set_cosmetic_tag = ZYD_regional
+			set_cosmetic_tag = ZYD_voivodeship
+			set_global_flag = lodzkie_unified
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -107,7 +113,8 @@ lodz_regional_unification = {
 		else_if = {
 			limit = { tag = KRS
 					  has_government = corporativism }
-			set_cosmetic_tag = KRS_regional
+			set_cosmetic_tag = KRS_voivodeship
+			set_global_flag = lodzkie_unified
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -120,7 +127,8 @@ lodz_regional_unification = {
 		else_if = {
 			limit = { tag = KRS
 					  has_government = postpolonism }
-			set_cosmetic_tag = KRS_regional
+			set_cosmetic_tag = KRS_voivodeship
+			set_global_flag = lodzkie_unified
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -133,7 +141,8 @@ lodz_regional_unification = {
 		else_if = {
 			limit = { tag = KRS
 					  has_government = autocracy }
-			set_cosmetic_tag = KRS_regional
+			set_cosmetic_tag = KRS_voivodeship
+			set_global_flag = lodzkie_unified
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -149,7 +158,7 @@ lodz_regional_unification = {
 }
 
 
-lubelskie_regional_unification = {
+lubelskie_voivodeship_unification = {
 
 	icon = GFX_decision_icon_default
 	
@@ -228,7 +237,7 @@ lubelskie_regional_unification = {
 				}
 			}
 			custom_effect_tooltip = ZUK_moves_capital_to_lublin
-			set_cosmetic_tag = ZUK_regional
+			set_cosmetic_tag = ZUK_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -269,7 +278,7 @@ lubelskie_regional_unification = {
 	ai_will_do = { factor = 1 }
 }
 
-zaglebie_regional_unification = {
+zaglebie_voivodeship_unification = {
 
 	icon = GFX_decision_icon_default
 	
@@ -289,7 +298,7 @@ zaglebie_regional_unification = {
 	complete_effect = {
 		if = {
 			limit = { tag = DGR }
-			set_cosmetic_tag = DGR_regional
+			set_cosmetic_tag = DGR_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -303,7 +312,7 @@ zaglebie_regional_unification = {
 
 		else_if = {
 			limit = { tag = SOS }
-			set_cosmetic_tag = SOS_regional
+			set_cosmetic_tag = SOS_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -317,7 +326,7 @@ zaglebie_regional_unification = {
 
 		else_if = {
 			limit = { tag = JAW }
-			set_cosmetic_tag = JAW_regional
+			set_cosmetic_tag = JAW_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -331,7 +340,7 @@ zaglebie_regional_unification = {
 
 		else_if = {
 			limit = { tag = ZAW }
-			set_cosmetic_tag = ZAW_regional
+			set_cosmetic_tag = ZAW_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -345,7 +354,7 @@ zaglebie_regional_unification = {
 
 		else_if = {
 			limit = { tag = CCH }
-			set_cosmetic_tag = CCH_regional
+			set_cosmetic_tag = CCH_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -359,7 +368,7 @@ zaglebie_regional_unification = {
 
 		else_if = {
 			limit = { tag = BRZ }
-			set_cosmetic_tag = BRZ_regional
+			set_cosmetic_tag = BRZ_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -373,7 +382,7 @@ zaglebie_regional_unification = {
 
 		else_if = {
 			limit = { tag = JWK }
-			set_cosmetic_tag = JWK_regional
+			set_cosmetic_tag = JWK_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -389,7 +398,7 @@ zaglebie_regional_unification = {
 }
 
 
-upper_silesia_regional_unification = {
+upper_silesia_voivodeship_unification = {
 
 	icon = GFX_decision_icon_default
 	
@@ -410,7 +419,7 @@ upper_silesia_regional_unification = {
 
 		if = {
 			limit = { tag = ASG }
-			set_cosmetic_tag = ASG_regional
+			set_cosmetic_tag = ASG_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -424,7 +433,7 @@ upper_silesia_regional_unification = {
 
 		else_if = {
 			limit = { tag = WOD }
-			set_cosmetic_tag = WOD_regional
+			set_cosmetic_tag = WOD_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -438,7 +447,7 @@ upper_silesia_regional_unification = {
 
 		else_if = {
 			limit = { tag = JSW }
-			set_cosmetic_tag = JSW_regional
+			set_cosmetic_tag = JSW_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -452,7 +461,7 @@ upper_silesia_regional_unification = {
 
 		else_if = {
 			limit = { tag = GLI }
-			set_cosmetic_tag = GLI_regional
+			set_cosmetic_tag = GLI_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -466,7 +475,7 @@ upper_silesia_regional_unification = {
 
 		else_if = {
 			limit = { tag = CHO }
-			set_cosmetic_tag = CHO_regional
+			set_cosmetic_tag = CHO_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -480,7 +489,7 @@ upper_silesia_regional_unification = {
 
 		else_if = {
 			limit = { tag = RAS }
-			set_cosmetic_tag = RAS_regional
+			set_cosmetic_tag = RAS_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -494,7 +503,7 @@ upper_silesia_regional_unification = {
 
 		else_if = {
 			limit = { tag = FER }
-			set_cosmetic_tag = FER_regional
+			set_cosmetic_tag = FER_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -508,7 +517,7 @@ upper_silesia_regional_unification = {
 
 		else_if = {
 			limit = { tag = RUD }
-			set_cosmetic_tag = RUD_regional
+			set_cosmetic_tag = RUD_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -522,7 +531,7 @@ upper_silesia_regional_unification = {
 
 		else_if = {
 			limit = { tag = KAT }
-			set_cosmetic_tag = KAT_regional
+			set_cosmetic_tag = KAT_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -536,7 +545,7 @@ upper_silesia_regional_unification = {
 
 		else_if = {
 			limit = { tag = TRC }
-			set_cosmetic_tag = TRC_regional
+			set_cosmetic_tag = TRC_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -552,7 +561,7 @@ upper_silesia_regional_unification = {
 }
 
 
-south_greater_poland_regional_unification = {
+south_greater_poland_voivodeship_unification = {
 
 	icon = GFX_decision_icon_default
 	
@@ -573,7 +582,7 @@ south_greater_poland_regional_unification = {
 
 		if = {
 			limit = { tag = CAL }
-			set_cosmetic_tag = CAL_regional
+			set_cosmetic_tag = CAL_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -587,7 +596,7 @@ south_greater_poland_regional_unification = {
 
 		else_if = {
 			limit = { tag = FEL }
-			set_cosmetic_tag = FEL_regional
+			set_cosmetic_tag = FEL_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -601,7 +610,7 @@ south_greater_poland_regional_unification = {
 
 		else_if = {
 			limit = { tag = GNI }
-			set_cosmetic_tag = GNI_regional
+			set_cosmetic_tag = GNI_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -615,7 +624,7 @@ south_greater_poland_regional_unification = {
 
 		else_if = {
 			limit = { tag = SUS }
-			set_cosmetic_tag = SUS_regional
+			set_cosmetic_tag = SUS_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }

@@ -1,0 +1,181 @@
+
+unification_category = {
+
+lodz_final_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_western_poland
+			can_unify_poland = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { 
+		AND = {
+			is_poland_unifier = yes
+			has_global_flag = western_poland_unified
+			}
+		}
+
+	complete_effect = {
+		if = {
+			limit = { tag = ZHP }
+			set_cosmetic_tag = ZHP_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationfin.4 }
+				}
+			}
+			custom_effect_tooltip = ZHP_unifies_lodz_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = SAP }
+			set_cosmetic_tag = SAP_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationfin.5 }
+				}
+			}
+			custom_effect_tooltip = SAP_unifies_lodz_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = WML }
+			set_cosmetic_tag = WML_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationfin.1 }
+				}
+			}
+			custom_effect_tooltip = WML_unifies_lodz_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = BBW
+					  has_government = reactionary 
+					  }
+			set_cosmetic_tag = BBW_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationfin.2 }
+				}
+			}
+			custom_effect_tooltip = BBW_unifies_lodz_tooltip
+			BBW = {
+				country_event = {
+					id = super.1
+				}
+			}
+		}
+
+		else_if = {
+			limit = { tag = BBW
+					  has_government = autocracy 
+					  }
+			set_cosmetic_tag = BBW_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationfin.2 }
+				}
+			}
+			custom_effect_tooltip = BBW_unifies_lodz_tooltip
+			BBW = {
+				country_event = {
+					id = super.2
+				}
+			}
+		}
+
+		else_if = {
+			limit = { 
+					 tag = ZYD
+					 has_government = squattism
+				}
+			set_cosmetic_tag = ZYD_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationfin.3 }
+				}
+			}
+			custom_effect_tooltip = ZYD_unifies_lodz_tooltip
+		}
+
+		else_if = {
+			limit = { tag = ZYD
+					 has_government = marxism_cranism }
+			set_cosmetic_tag = ZYD_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationfin.37 }
+				}
+			}
+			custom_effect_tooltip = ZYD_unifies_lodz_tooltip
+		}
+
+
+		else_if = {
+			limit = { tag = KRS
+					  has_government = corporativism }
+			set_cosmetic_tag = KRS_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationfin.6 }
+				}
+			}
+			custom_effect_tooltip = KRS_unifies_lodz_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = KRS
+					  has_government = postpolonism }
+			set_cosmetic_tag = KRS_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationfin.35 }
+				}
+			}
+			custom_effect_tooltip = KRS_unifies_lodz_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = KRS
+					  has_government = autocracy }
+			set_cosmetic_tag = KRS_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationfin.36 }
+				}
+			}
+			custom_effect_tooltip = KRS_unifies_lodz_tooltip
+		}
+
+
+	}
+	ai_will_do = { factor = 1 }
+}
+
+
+}

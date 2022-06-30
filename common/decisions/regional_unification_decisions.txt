@@ -1,0 +1,166 @@
+
+unification_category = {
+
+lodz_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_lodz_and_kalisz
+			can_unify_lodz_and_kaliskie = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { 
+		AND = {
+			is_lodz_and_kalisz_unifier = yes
+			has_global_flag = lodzkie_unified
+			}
+		}
+
+	complete_effect = {
+		if = {
+			limit = { tag = ZHP }
+			set_cosmetic_tag = ZHP_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.4 }
+				}
+			}
+			custom_effect_tooltip = ZHP_unifies_lodz_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = SAP }
+			set_cosmetic_tag = SAP_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.5 }
+				}
+			}
+			custom_effect_tooltip = SAP_unifies_lodz_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = WML }
+			set_cosmetic_tag = WML_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.1 }
+				}
+			}
+			custom_effect_tooltip = WML_unifies_lodz_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = BBW }
+			set_cosmetic_tag = BBW_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.2 }
+				}
+			}
+			custom_effect_tooltip = BBW_unifies_lodz_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { 
+					 tag = ZYD
+					 has_government = squattism
+				}
+			set_cosmetic_tag = ZYD_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.3 }
+				}
+			}
+			custom_effect_tooltip = ZYD_unifies_lodz_tooltip
+		}
+
+		else_if = {
+			limit = { tag = ZYD
+					 has_government = marxism_cranism }
+			set_cosmetic_tag = ZYD_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.37 }
+				}
+			}
+			custom_effect_tooltip = ZYD_unifies_lodz_tooltip
+		}
+
+
+		else_if = {
+			limit = { tag = KRS
+					  has_government = corporativism }
+			set_cosmetic_tag = KRS_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.6 }
+				}
+			}
+			custom_effect_tooltip = KRS_unifies_lodz_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = KRS
+					  has_government = postpolonism }
+			set_cosmetic_tag = KRS_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.35 }
+				}
+			}
+			custom_effect_tooltip = KRS_unifies_lodz_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = KRS
+					  has_government = autocracy }
+			set_cosmetic_tag = KRS_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.36 }
+				}
+			}
+			custom_effect_tooltip = KRS_unifies_lodz_tooltip
+		}
+
+
+	}
+	ai_will_do = { factor = 1 }
+}
+
+
+}
