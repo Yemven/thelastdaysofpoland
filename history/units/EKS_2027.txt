@@ -71,7 +71,7 @@ units = {
 		location = 3018
 		division_template = "Euroinfanteriebataillon"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0
+		start_equipment_factor = 1.0
 	}
 	
 	division = {
@@ -79,7 +79,7 @@ units = {
 		location = 13258
 		division_template = "Euroinfanteriebataillon"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0
+		start_equipment_factor = 1.0
 	}
 	
 	division = {
@@ -87,7 +87,7 @@ units = {
 		location = 13312
 		division_template = "Europanzergrenadierbataillon der Kräfte der Hauptregierenden (armor)"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0
+		start_equipment_factor = 1.0
 	}
 	
 	division = {
@@ -95,7 +95,7 @@ units = {
 		location = 13224
 		division_template = "Batalion Piechoty Europejskich Sił Pokojowych"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0
+		start_equipment_factor = 0.5
 	}
 	
 	division = {
@@ -103,6 +103,6 @@ units = {
 		location = 374
 		division_template = "Europanzergrenadierbataillon der Kräfte der Hauptregierenden (mot. inf.)"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0
+		start_equipment_factor = 1.0
 	}
 }
