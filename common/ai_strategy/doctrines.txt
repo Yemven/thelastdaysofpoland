@@ -41,10 +41,10 @@ no_cavalry = {
 	}
 }
 
-#Mobile Warfare branch
-mobile_warfare_ratios = {
+
+tech_supremacy_ratios = {
 	enable = {
-		has_tech = mobile_warfare
+		has_tech = technological_supremacy 
 	}
 	abort = {
 		always = no
@@ -63,13 +63,13 @@ mobile_warfare_ratios = {
 	}
 }
 
-superior_firepower_ratios = {
+conv_warfare_ratios = {
 	enable = {
-		has_tech = superior_firepower
+		has_tech = conventional_warfare
 	}
-	abort = {
-		has_tech = concentrated_fire_plans
-	}
+	#abort = {
+		#has_tech = concentrated_fire_plans
+	#}
 	
 	ai_strategy = {
 		type = role_ratio
@@ -86,65 +86,44 @@ superior_firepower_ratios = {
 }
 
 ## Later in superior_firepower tree
-concentrated_fire_plans_ratios = {
+#concentrated_fire_plans_ratios = {
+	#enable = {
+		#has_tech = concentrated_fire_plans
+	#}
+	#abort = {
+		#always = no
+	#}
+	
+	#ai_strategy = {
+		#type = role_ratio
+		#id = infantry
+		#value = -5
+	#}
+	
+	#ai_strategy = {
+		#type = role_ratio
+		#id = armor
+		#value = 10
+	#}
+
+	#ai_strategy = {
+		#type = role_ratio
+		#id = cas
+		#value = 5
+	#}
+	
+#}
+
+
+ye_olde_good_warfare = {
 	enable = {
-		has_tech = concentrated_fire_plans
+		OR = {
+			has_tech = asymetrical_warfare
+			has_tech = cqc_theory
+		}
 	}
 	abort = {
 		always = no
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = infantry
-		value = -5
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = armor
-		value = 10
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = cas
-		value = 5
-	}
-	
-}
-
-
-grand_battle_plan_ratios = {
-	enable = {
-		has_tech = trench_warfare
-	}
-	abort = {
-		always = no
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = infantry
-		value = 10
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = anti_tank
-		value = 5
-	}	
-
-	
-}
-
-
-mass_assault_ratios = {
-	enable = {
-		has_tech = mass_assault
-	}
-	abort = {
-		has_tech = large_front_operations
 	}
 	
 	ai_strategy = {
@@ -152,36 +131,13 @@ mass_assault_ratios = {
 		id = infantry
 		value = 25
 	}	
-
-	ai_strategy = {
-		type = role_ratio
-		id = anti_tank
-		value = 5
-	}
-
-}
-
-#Later in  mass_assault tree
-large_front_operations_ratios = {
-	enable = {
-		has_tech = large_front_operations
-	}
-	abort = {
-		always = no
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = infantry
-		value = -10
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = armor
-		value = 10
-	}
 	
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 110
+	}
+
 }
 
 
