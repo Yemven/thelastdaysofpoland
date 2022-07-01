@@ -115,12 +115,9 @@ conv_warfare_ratios = {
 #}
 
 
-ye_olde_good_warfare = {
+asymetrical_warfare_ratios = {
 	enable = {
-		OR = {
-			has_tech = asymetrical_warfare
-			has_tech = cqc_theory
-		}
+		has_tech = asymetrical_warfare
 	}
 	abort = {
 		always = no
@@ -128,7 +125,7 @@ ye_olde_good_warfare = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = infantry
+		id = militia
 		value = 25
 	}	
 	
@@ -140,6 +137,28 @@ ye_olde_good_warfare = {
 
 }
 
+
+sword_or_bat_rations = {
+	enable = {
+		has_tech = cqc_theory
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = melee_infantry
+		value = 25
+	}	
+	
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 105
+	}
+
+}
 
 ##############
 ### NAVAL ####
