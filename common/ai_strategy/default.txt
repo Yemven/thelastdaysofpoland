@@ -572,28 +572,6 @@ default_area_priority = {
 
 }
 
-default_area_priority_non_africa = {
-    enable = {
-        NOT = { original_tag = ITA }
-        NOT = { original_tag = FRA }
-        NOT = { original_tag = USA }
-        NOT = { original_tag = ENG }
-        NOT = { is_subject_of = ENG }
-        NOT = { capital_scope = { is_on_continent = africa } }
-    }
-
-    ai_strategy = {
-        type = area_priority
-        id = africa
-        value = -70
-    }
-    ai_strategy = {
-        type = area_priority
-        id = suez
-        value = -40
-    }
-}
-
 default_railway_gun_management = {
 	enable = {
 		num_divisions > 150
