@@ -11,6 +11,16 @@ set_convoys = 20
 
 recruit_character = PIL_henryk_kania
 recruit_character = PIL_henryk_stokłosa
+recruit_character = PIL_jacek_tarczynski
+recruit_character = PIL_boguslaw_miszczuk
+recruit_character = PIL_magda_gessler
+
+add_ideas = {
+    PIL_min_stoklosa
+	PIL_min_tarczynski
+	PIL_min_miszczuk
+	PIL_min_gessler
+	}
 
 
 set_politics = {

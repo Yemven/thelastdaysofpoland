@@ -4,12 +4,85 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/SYJ/SYJ_Jarek1.dds"
+				small="gfx/interface/ideas/SYJ/SYJ_Jarek.dds"
 			}
 		}
 		country_leader={
 			ideology=postpolonism_subtype
 			expire="1.1.1.1"
 			id=-1
+		}
+		advisor = {
+			desc = "POLITICS_JAROSLAW_LICHWALA_DESC"
+			cost = -1
+			slot = head_of_government
+			idea_token = SYJ_min_lichwala
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SYJ
+			}
+			traits = { }
+		}
+	}
+	SYJ_war_minister_lichwala={
+		name="Jarosław Lichwała"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/SYJ/SYJ_Jarek.dds"
+			}
+		}
+		advisor = {
+			desc = "POLITICS_JAROSLAW_LICHWALA_DESC"
+			cost = -1
+			slot = minister_of_war
+			idea_token = SYJ_min_war_lichwala
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SYJ
+			}
+			traits = { }
+	    }
+	}
+	SYJ_economy_minister_lichwala={
+		name="Jarosław Lichwała"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/SYJ/SYJ_Jarek.dds"
+			}
+		}
+		advisor = {
+			desc = "POLITICS_JAROSLAW_LICHWALA_DESC"
+			cost = -1
+			slot = minister_of_economy
+			idea_token = SYJ_min_economy_lichwala
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SYJ
+			}
+			traits = { }
+	    }
+	}
+	SYJ_interior_minister_lichwala={
+		name="Jarosław Lichwała"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/SYJ/SYJ_Jarek.dds"
+			}
+		}
+		advisor = {
+			desc = "POLITICS_JAROSLAW_LICHWALA_DESC"
+			cost = -1
+			slot = interior_minister
+			idea_token = SYJ_min_interior_lichwala
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SYJ
+			}
+			traits = { }
 		}
 	}
 }

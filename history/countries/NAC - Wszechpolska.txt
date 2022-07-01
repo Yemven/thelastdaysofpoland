@@ -20,17 +20,21 @@ oob = "NAC_2027"
 
 set_convoys = 20
 
-
 recruit_character = NAC_krzysztof_bosak
 recruit_character = NAC_robert_winnicki
 recruit_character = NAC_roman_giertych
 recruit_character = NAC_michal_urbaniak
-recruit_character = NAC_robert_bakiewicz
 recruit_character = NAC_ludwik_zalewski
 recruit_character = NAC_waldemar_krysiak
 recruit_character = NAC_krzysztof_tuduj
 recruit_character = NAC_ewa_wrzosek
 
+add_ideas = {
+    NAC_min_bosak
+	NAC_min_winnicki
+	NAC_min_giertych
+	NAC_min_urbaniak
+	}
 	
 set_politics = {
 	ruling_party = neonationalism

@@ -12,6 +12,32 @@ set_convoys = 20
 
 
 recruit_character = SLU_rychu_peja
+recruit_character = SLU_adam_zielinski
+recruit_character = SLU_lukasz_palusza
+recruit_character = SLU_wojciech_zawadzki
+
+add_ideas = {
+    SLU_min_peja
+	SLU_min_zielinski
+	SLU_min_paluszak
+	SLU_min_zawadzki
+	no_party
+	absolute_freedom
+	improvised_security
+	private_healthcare
+	no_subsidies
+	random_enlistment
+	training_battle
+	officer_random
+	economy_anarchy
+	taxes_medium
+	trade_free
+	lgbt_limited_laws
+	drugs_harsh_penalised
+	women_gender_equality
+	minorities_multiculturalism
+	partial_secularism
+	}
 
 set_politics = {
 	ruling_party = squattism

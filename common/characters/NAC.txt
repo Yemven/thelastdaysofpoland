@@ -96,25 +96,6 @@ characters={
 			traits = { }
 		}
 	}
-	NAC_robert_bakiewicz={
-		name="Robert Bąkiewicz"
-		portraits={
-			civilian={
-			}
-		}
-		advisor = {
-			desc = "POLITICS_ROBERT_BAKIEWICZ_DESC"
-			cost = -1
-			slot = minister_of_war
-			idea_token = NAC_min_bakiewicz
-			removal_cost = -1
-			ledger = civilian
-			allowed = {
-				original_tag = NAC
-			}
-			traits = { }
-		}
-	}
 	NAC_ludwik_zalewski={
 		name="Ludwik Zalewski"
 		portraits={

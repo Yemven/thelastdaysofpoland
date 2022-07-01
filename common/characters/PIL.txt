@@ -24,5 +24,74 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		advisor = {
+			desc = "POLITICS_HENRYK_STOKLOSA_DESC"
+			cost = -1
+			slot = head_of_government
+			idea_token = PIL_min_stoklosa
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = PIL
+			}
+			traits = { }
+		}
+	}
+	PIL_jacek_tarczynski={
+		name="Jacek Tarczyński"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_JACEK_TARCZYNSKI_DESC"
+			cost = -1
+			slot = minister_of_economy
+			idea_token = PIL_min_tarczynski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = PIL
+			}
+			traits = { }
+		}
+	}
+	PIL_boguslaw_miszczuk={
+		name="Bogusław Miszczuk"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_BOGUSLAW_MISZCZUK_DESC"
+			cost = -1
+			slot = interior_minister
+			idea_token = PIL_min_miszczuk
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = PIL
+			}
+			traits = { }
+		}
+	}
+	PIL_magda_gessler={
+		name="Magda Gessler"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_MAGDA_GESSLER_DESC"
+			cost = -1
+			slot = minister_of_war
+			idea_token = PIL_min_gessler
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = PIL
+			}
+			traits = { }
+		}
 	}
 }

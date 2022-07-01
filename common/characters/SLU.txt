@@ -11,5 +11,74 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		advisor = {
+			desc = "POLITICS_RYCHU_PEJA_DESC"
+			cost = -1
+			slot = head_of_government
+			idea_token = SLU_min_peja
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SLU
+			}
+			traits = { }
+		}
+	}
+	SLU_adam_zielinski={
+		name="Adam Bogumił 'Łona' Zieliński"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_ADAM_ZIELINSKI_DESC"
+			cost = -1
+			slot = minister_of_war
+			idea_token = SLU_min_zielinski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SLU
+			}
+			traits = { }
+		}
+	}
+	SLU_lukasz_palusza={
+		name="Łukasz 'Paluch' Paluszak"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_LUKASZ_PALUSZAK_DESC"
+			cost = -1
+			slot = minister_of_economy
+			idea_token = SLU_min_paluszak
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SLU
+			}
+			traits = { }
+		}
+	}
+	SLU_wojciech_zawadzki={
+		name="Wojciech 'Słoń' Zawadzki"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_WOJCIECH_ZAWADZKI_DESC"
+			cost = -1
+			slot = interior_minister
+			idea_token = SLU_min_zawadzki
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SLU
+			}
+			traits = { }
+		}
 	}
 }

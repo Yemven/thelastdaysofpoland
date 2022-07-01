@@ -11,6 +11,20 @@ set_technology = {
 set_convoys = 20
 
 recruit_character = SYJ_prorok_lichwała
+recruit_character = SYJ_economy_minister_lichwala
+recruit_character = SYJ_war_minister_lichwala
+recruit_character = SYJ_interior_minister_lichwala
+
+add_ideas = {
+    SYJ_min_lichwala
+	SYJ_min_war_lichwala
+	SYJ_min_economy_lichwala
+	SYJ_min_interior_lichwala
+	no_party
+	absolute_censorship
+	basic_security
+	one_state_one_religion
+	}
 
 
 set_politics = {
