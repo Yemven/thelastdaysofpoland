@@ -1,8 +1,9 @@
-
 state={
-	id=73
-	name="STATE_73"
-
+	id=854
+	name="STATE_854"
+	provinces={
+		115 2147 2600 2808 3579 3595 
+	}
 	history={
 		owner = TEU
 		victory_points = {
@@ -15,12 +16,8 @@ state={
 		}
 
 	}
-
-	provinces={
-		1181 1576 2028 2342 2798 3583 3606 
-	}
 	manpower=1
+	state_category=town
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=0.000
 }
