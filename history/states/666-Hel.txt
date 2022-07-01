@@ -2,13 +2,18 @@ state={
 	id=666
 	name="STATE_666"
 	provinces={
-		2968 11364 11365 
+		2968 11364 11365 16392 16393 16394 16395 16396 16397 16398
 	}
 	manpower = 6514   state_category = city
 	buildings_max_level_factor=1.000
 				history = {
 		owner = KSZ
-		victory_points = { }
+		victory_points = {16392 10}
+		victory_points = {2968 10}
+		victory_points = {16395 5}
+		victory_points = {16394 2}
+		victory_points = {16398 1}
+		victory_points = {16396 1}
 		add_core_of = KSZ
 	buildings = {
 	infrastructure = 7
