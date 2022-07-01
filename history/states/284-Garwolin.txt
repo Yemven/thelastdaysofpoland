@@ -2,17 +2,25 @@
 state={
 	id=284
 	name="STATE_284"
-	provinces={
-		987 1487 1907 3805 3813 3815 
-	}
-	manpower = 1   state_category = city
-	buildings_max_level_factor=1.000
-						history = {
+
+	history={
 		owner = GAR
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = GAR
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		987 1487 1603 1907 3805 3813 3815 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
