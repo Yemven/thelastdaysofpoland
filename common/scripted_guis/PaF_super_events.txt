@@ -15,6 +15,57 @@ scripted_gui = {
 			BBW_roksi_super_image_visible = {
 				has_global_flag = BBW_roksi_super_visible
 			}
+			DGR_nazbol_super_image_visible = {
+				has_global_flag = DGR_nazbol_super_visible
+			}
+			DGR_rasta_super_image_visible = {
+				has_global_flag = DGR_rasta_super_visible
+			}
+			EK_collapse_super_image_visible = {
+				has_global_flag = EK_collapse_super_visible
+			}
+			KRS_kwiatki_super_image_visible = {
+				has_global_flag = KRS_kwiatki_super_visible
+			}
+			KRS_rutkowski_super_image_visible = {
+				has_global_flag = KRS_rutkowski_super_visible
+			}
+			KRS_pavulon_super_image_visible = {
+				has_global_flag = KRS_pavulon_super_visible
+			}
+			SAP_sane_super_image_visible = {
+				has_global_flag = SAP_sane_super_visible
+			}
+			SAP_insane_super_image_visible = {
+				has_global_flag = SAP_insane_super_visible
+			}
+			SAP_carlistas_super_image_visible = {
+				has_global_flag = SAP_carlistas_super_visible
+			}
+			WML_hoiownia_super_image_visible = {
+				has_global_flag = WML_hoiownia_super_visible
+			}
+			WML_dialog_super_image_visible = {
+				has_global_flag = WML_dialog_super_visible
+			}
+			ZHP_zhp_super_image_visible = {
+				has_global_flag = ZHP_zhp_super_visible
+			}
+			ZHP_zhr_super_image_visible = {
+				has_global_flag = ZHP_zhr_super_visible
+			}
+			ZHP_zawisza_super_image_visible = {
+				has_global_flag = ZHP_zawisza_super_visible
+			}
+			ZYD_widzew_super_image_visible = {
+				has_global_flag = ZYD_widzew_super_visible
+			}
+			ZYD_urban_super_image_visible = {
+				has_global_flag = ZYD_urban_super_visible
+			}
+			ZYD_lks_super_image_visible = {
+				has_global_flag = ZYD_lks_super_visible
+			}
 		}
 
 		properties = {
@@ -33,10 +84,44 @@ scripted_gui = {
 						OR = {
 							has_global_flag = BBW_karbonizacja_super_visible
 							has_global_flag = BBW_roksi_super_visible
+							has_global_flag = ZYD_lks_super_visible
+							has_global_flag = ZYD_urban_super_visible
+							has_global_flag = ZYD_widzew_super_visible
+							has_global_flag = ZHP_zawisza_super_visible
+							has_global_flag = ZHP_zhr_super_visible
+							has_global_flag = ZHP_zhp_super_visible
+							has_global_flag = WML_dialog_super_visible
+							has_global_flag = WML_hoiownia_super_visible
+							has_global_flag = SAP_carlistas_super_visible
+							has_global_flag = SAP_insane_super_visible
+							has_global_flag = SAP_sane_super_visible
+							has_global_flag = KRS_pavulon_super_visible
+							has_global_flag = KRS_rutkowski_super_visible
+							has_global_flag = KRS_kwiatki_super_visible
+							has_global_flag = EK_collapse_super_visible
+							has_global_flag = DGR_rasta_super_visible
+							has_global_flag = DGR_nazbol_super_visible
 						}
 					}
-					clr_global_flag = BBW_karbonizacja_super_visible
-					clr_global_flag = BBW_roksi_super_visible
+							clr_global_flag = BBW_karbonizacja_super_visible
+							clr_global_flag = BBW_roksi_super_visible
+							clr_global_flag = ZYD_lks_super_visible
+							clr_global_flag = ZYD_urban_super_visible
+							clr_global_flag = ZYD_widzew_super_visible
+							clr_global_flag = ZHP_zawisza_super_visible
+							clr_global_flag = ZHP_zhr_super_visible
+							clr_global_flag = ZHP_zhp_super_visible
+							clr_global_flag = WML_dialog_super_visible
+							clr_global_flag = WML_hoiownia_super_visible
+							clr_global_flag = SAP_carlistas_super_visible
+							clr_global_flag = SAP_insane_super_visible
+							clr_global_flag = SAP_sane_super_visible
+							clr_global_flag = KRS_pavulon_super_visible
+							clr_global_flag = KRS_rutkowski_super_visible
+							clr_global_flag = KRS_kwiatki_super_visible
+							clr_global_flag = EK_collapse_super_visible
+							clr_global_flag = DGR_rasta_super_visible
+							clr_global_flag = DGR_nazbol_super_visible
 				}
 			}
 		}
