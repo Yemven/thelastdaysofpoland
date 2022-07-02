@@ -1966,6 +1966,20 @@ technologies = {
 		path = {
 			leads_to_tech = hacker_espionage
 		}
+		
+		category_all_armor = {
+			attack = 0.1
+			defense = 0.1
+		}
+		motorized = {
+			attack = 0.1
+			defense = 0.1
+		}
+		mechanized = {
+			attack = 0.1
+			defense = 0.1
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -1991,6 +2005,14 @@ technologies = {
 		path = {
 			leads_to_tech = directed_energy_weapons
 		}
+		
+		air_superiority_bonus_in_combat = 0.25
+		experience_loss_factor = -0.2
+		
+		anti_air_brigade = {
+			air_attack = 0.25
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2013,6 +2035,10 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -11 y = 4 }
 		}
+		
+		army_defence_factor = 0.2
+		resistance_decay_on_our_occupied_states = -0.25
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2038,6 +2064,10 @@ technologies = {
 		path = {
 			leads_to_tech = military_ethernet_defences
 		}
+		
+		decryption_power_factor = 0.25
+		army_intel_decryption_bonus = 30
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2060,6 +2090,10 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -7 y = 4 }
 		}
+		
+		crypto_strength = 1
+		recon_factor_while_entrenched = 0.2
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2092,6 +2126,9 @@ technologies = {
 		path = {
 			leads_to_tech = precise_firepower_support
 		}
+		
+		experience_gain_army = 0.25
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2117,6 +2154,11 @@ technologies = {
 		path = {
 			leads_to_tech = dispersed_marching_fire
 		}
+		
+		category_army = {
+			max_organisation = 5
+			default_morale = 0.40
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2139,6 +2181,13 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -5 y = 4 }
 		}
+		
+		category_all_infantry = {
+			soft_attack - 0.15
+			maximum_speed = 0.1
+		}
+
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2164,6 +2213,13 @@ technologies = {
 		path = {
 			leads_to_tech = bounding_overwatch
 		}
+		
+		category_line_artillery = {
+			soft_attack = 0.2
+			breakthrough = 0.1
+		}
+		
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2186,6 +2242,12 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -1 y = 4 }
 		}
+		
+		category_all_infantry = {
+			defense = 0.15
+			max_strength = 0.15
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2222,6 +2284,10 @@ technologies = {
 		
 		xor = { might_makes_right the_cyber_army the_new_war tech_conv_fusion conv_asm_fusion asm_cqc_fusion tech_asm_fusion conv_cqc_fusion tech_cqc_fusion}
 		
+		cas_damage_reduction = 0.25
+		river_crossing_factor = -0.25
+		unit_upkeep_attrition_factor = -0.25
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2247,6 +2313,10 @@ technologies = {
 		path = {
 			leads_to_tech = united_in_spirit
 		}
+		
+		acclimatization_cold_climate_gain_factor = 0.5
+		acclimatization_hot_climate_gain_factor = 0.5
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2272,6 +2342,10 @@ technologies = {
 		path = {
 			leads_to_tech = weather_training
 		}
+		
+		local_supplies = 0.2
+		mobilization_speed = 0.2
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2297,6 +2371,12 @@ technologies = {
 		path = {
 			leads_to_tech = no_mercy_for_the_enemy
 		}
+		
+		militia = {
+			hard_attack = 0.2
+			ap_attack = 0.2
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2319,6 +2399,13 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 5 y = 4 }
 		}
+		
+		category_front_line = {
+			soft_attack = 0.15
+		}
+		
+		resistance_garrison_penetration_chance = -0.25
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2355,6 +2442,12 @@ technologies = {
 			has_country_flag = cqc_warfare_perfected
 		}
 		
+		melee_infantry = {
+			max_strength = 0.2
+		}
+		
+		skill_bonus_factor = 0.2
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2380,6 +2473,16 @@ technologies = {
 		path = {
 			leads_to_tech = relics
 		}
+		
+		melee_infantry = {
+			breakthrough = 0.15
+			org_loss_when_at_low_org_factor = -0.1
+		}
+		
+		cavalry = {
+		    breakthrough = 0.15
+			org_loss_when_at_low_org_factor = -0.1
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2402,6 +2505,14 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 7 y = 4 }
 		}
+		
+		compliance_growth = 0.15
+		resistance_decay = 0.15
+		
+		category_army = {
+			default_morale = 0.25
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2427,6 +2538,11 @@ technologies = {
 		path = {
 			leads_to_tech = blood_loyalty
 		}
+		
+		special_forces_cap = 0.5
+		special_forces_attack_factor = 0.25
+		special_forces_defence_factor = 0.25
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2449,6 +2565,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 11 y = 4 }
 		}
+		
+		land_reinforce_rate = 0.25
+		weekly_manpower = 100
+		pocket_penalty = -0.2
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2476,6 +2597,20 @@ technologies = {
 			has_country_flag = tech_supremacy_perfected
 			has_country_flag = conv_warfare_perfected
 		}
+		
+		category_all_armor = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		mechanized = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		motorized =	{
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		
 		doctrine = yes
 		path = {
 			leads_to_tech = instant_information_support
@@ -2504,6 +2639,10 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -8 y = 8 }
 		}
+		
+		initiative = 0.25
+		army_defence_factor = 0.15
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2526,6 +2665,10 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -4 y = 8 }
 		}
+		
+		land_equipment_upgrade_xp_cost = -0.25
+
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2559,6 +2702,11 @@ technologies = {
 		path = {
 			leads_to_tech = field_works
 		}
+		
+		army_morale = 0.25
+		army_org_regain = 0.1
+		cas_damage_reduction = 0.15
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2581,6 +2729,15 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 8 }
 		}
+		
+		initiative_factor = 0.25
+		extra_paratrooper_supply_grace = 96
+		
+		paratroopers = {
+			soft_attack = 0.1
+			max_organisation = 6
+		}
+
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2603,6 +2760,14 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 8 }
 		}
+		
+		max_dig_in = 8
+		recon_factor_while_entrenched = 0.25
+		
+		engineer = {
+			defense = 0.2
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2636,6 +2801,10 @@ technologies = {
 		path = {
 			leads_to_tech = warmian_shot
 		}
+		
+		army_defence_against_major_factor = 0.15
+		command_abilities_cost_factor = -0.3
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2658,6 +2827,11 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 4 y = 8 }
 		}
+		
+		fortification_collateral_chance = 0.15
+		equipment_capture = 0.15
+		attrition = -0.15
+
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2680,6 +2854,9 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 8 y = 8 }
 		}
+		
+		cavalry_attack_factor = 0.25
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2713,6 +2890,12 @@ technologies = {
 		path = {
 			leads_to_tech = reconnaissance_in_force
 		}
+		
+		land_night_attack = 1
+		militia = {
+			attack = 0.25
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2735,6 +2918,12 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -5 y = 12 }
 		}
+		
+		category_army = {
+			hard_attack = 0.1
+			ap_attack = 0.25
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2757,6 +2946,12 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -1 y = 12 }
 		}
+		
+		coordination_bonus = 0.1
+		recon_factor = 0.2
+		org_loss_when_at_low_org_factor = 0.2
+		
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2790,6 +2985,14 @@ technologies = {
 		path = {
 			leads_to_tech = chosen_infantry
 		}
+		
+		category_army = {
+			max_organisation = 4
+		}
+		
+		melee_infantry = {
+			max_organisation = 8
+		}
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2812,6 +3015,10 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 1 y = 12 }
 		}
+		
+		melee_infantry_breakthrough = 0.15
+		fortification_damage = 0.5
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2834,6 +3041,10 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 5 y = 12 }
 		}
+		
+		recruitable_population = 0.025
+		required_garrison_factor = 0.5
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2867,6 +3078,13 @@ technologies = {
 		path = {
 			leads_to_tech = posthumanous_soldiers
 		}
+		
+		melee_infantry = {
+			maximum_speed = 0.25
+			default_morale = 0.2
+			
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2889,6 +3107,17 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 16 }
 		}
+		
+		category_all_armor = {
+			hardness = 0.15
+			max_strength = 0.1
+		}
+		
+		melee_infantry = {
+			hard_attack = 0.15
+			max_strength = 0.1
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
@@ -2911,6 +3140,14 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 16 }
 		}
+		
+		
+		melee_infantry = {
+			soft_attack = 0.15
+			maximum_speed = 0.05
+			ap_attack = 0.15
+		}
+		
 		doctrine = yes
 		categories = {
 			land_doctrine
