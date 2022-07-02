@@ -9,6 +9,7 @@ set_technology = {
 set_convoys = 20
 
 
+
 recruit_character = PRK_zbigniew_ziobro
 
 set_autonomy = {
@@ -21,6 +22,8 @@ set_autonomy = {
 		freedom_level = 0.75
 	}
 
+
+
 set_autonomy = {
 	target = BOH
 	autonomous_state = autonomy_supervised_state
@@ -32,6 +35,16 @@ set_politics = {
 	last_election = "2027.3.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+declare_war_on = {
+		target = SND
+		type = annex_everything
+}
+
+declare_war_on = {
+		target = STA
+		type = annex_everything
 }
 
 set_popularities = {

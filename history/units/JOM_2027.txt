@@ -1,0 +1,101 @@
+division_template = {
+	name = "Byltingarsveitin"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Víkingasveitin"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Berserkir"
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "Húskarlar"
+		location = 4170
+		division_template = "Berserkir"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1. Byltingarherfylki"
+		location = 4170
+		division_template = "Byltingarsveitin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Víkingasveit 'Mjollnir'"
+		location = 4170
+		division_template = "Víkingasveitin"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Víkingasveit 'Járngreipr'"
+		location = 4170
+		division_template = "Víkingasveitin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+    fleet = {
+        name = "Stórheiðinnfloti" 
+        naval_base = 4170
+        task_force = {
+            name = "Innrásarhópur" 
+            location = 4170
+            ship = {
+                name = "FJM Karl Marx" 
+                pride_of_the_fleet = yes
+                definition = heavy_monitor
+                equipment = { 
+                    heavy_monitor_hull_equipment = {
+                        amount = 1
+                        owner = JOM
+                        version_name = "Karl Marx Class"
+                    }
+                }
+            }
+        }
+
+        task_force = {
+            name = "Hjálparfloti"
+            location = 4170
+            ship = {
+                name = "FJM Sleipnir" 
+                definition = attack_monitor
+                equipment = {
+                    monitor_hull_equipment = {
+                        amount = 1
+                        owner = JOM
+                        version_name = "Harald Hardrada Class"
+                    }
+                }
+            }
+        }
+    }
+
+}

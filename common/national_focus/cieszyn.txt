@@ -169,7 +169,20 @@ focus_tree = {
 		
 		cost = 2
 		search_filters = { }
-		completion_reward = { }
+		completion_reward = { 
+		749 = {
+			create_unit = {
+				division = "name = \"1 Batalion Straży Wiślańskiej\" division_template = \"Gwardia Cieszyńska\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
+				owner = CIE
+			}
+		}
+		747 = {
+			create_unit = {
+				division = "name = \"2 Batalion Straży Wiślańskiej\" division_template = \"Gwardia Cieszyńska\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
+				owner = CIE
+			}
+		}		
+		}
 	}
 	focus = {
 		id = CIE_vanguard_of_chybie
@@ -188,7 +201,14 @@ focus_tree = {
 		
 		cost = 2
 		search_filters = { }
-		completion_reward = { }
+		completion_reward = { 
+			785 = {
+			create_unit = {
+				division = "name = \"Grupa Forteczna Chybie\" division_template = \"Batalion Piechoty\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
+				owner = CIE
+			}
+			}
+		}
 	}
 	focus = {
 		id = CIE_cieszyn_guard

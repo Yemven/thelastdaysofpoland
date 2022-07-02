@@ -1,0 +1,79 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Milicja Prokuratorska"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Straż Obywatelska"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "112 Batalion Lekkiej Piechoty"
+		location = 10561
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "MP Chrzanów"
+		location = 10584
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "MP Alwernia"
+		location = 10591
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "MP Zator"
+		location = 10576
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Straż Obozowa"
+		location = 10563
+		division_template = "Straż Obywatelska"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Straż Obozowa"
+		location = 10559
+		division_template = "Straż Obywatelska"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+}

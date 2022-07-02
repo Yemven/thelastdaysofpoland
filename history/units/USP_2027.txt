@@ -1,0 +1,101 @@
+division_template = {
+	name = "National Guard"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Indian Tribes"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "USP Infantry Battalion"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "1st Infantry Battalion 'White Eagle'"
+		location = 4163
+		division_template = "USP Infantry Battalion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2nd Infantry Battalion 'Indianhead'"
+		location = 4163
+		division_template = "USP Infantry Battalion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Oglála Lakhóta Oyáte"
+		location = 4163
+		division_template = "Indian Tribes"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Secret Service"
+		location = 4163
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+    fleet = {
+        name = "USP Navy" 
+        naval_base = 4163
+        task_force = {
+            name = "Invasion Task Force" 
+            location = 4163
+            ship = {
+                name = "USS Nemesis" 
+                pride_of_the_fleet = yes
+                definition = heavy_monitor
+                equipment = { 
+                    heavy_monitor_hull_equipment = {
+                        amount = 1
+                        owner = USP
+                        version_name = "Trump Class"
+                    }
+                }
+            }
+        }
+
+        task_force = {
+            name = "Auxiliary Task Force"
+            location = 4163
+            ship = {
+                name = "USS Casimir Pulaski" 
+                definition = attack_monitor
+                equipment = {
+                    monitor_hull_equipment = {
+                        amount = 1
+                        owner = USP
+                        version_name = "Pulaski Class"
+                    }
+                }
+            }
+        }
+    }
+
+}
