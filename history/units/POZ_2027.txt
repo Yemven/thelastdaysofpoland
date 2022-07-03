@@ -28,6 +28,17 @@ division_template = {
 }
 
 division_template = {
+	name = "Batalion Rowerowy"
+	regiments = {
+		bicycle_battalion = { x = 0 y = 0 }
+		bicycle_battalion = { x = 0 y = 1 }
+		bicycle_battalion = { x = 0 y = 2 }
+		bicycle_battalion = { x = 1 y = 0 }
+		bicycle_battalion = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
 	name = "Gangi Osiedlowe"
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
@@ -54,7 +65,7 @@ units = {
     division = {
 		name = "Straż Miejska Swarzędz"
 		location = 13399
-		division_template = "Straż Miejska"
+		division_template = "Milicja"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 	}
@@ -68,7 +79,7 @@ units = {
     division = {
 		name = "Straż Miejska Pobiedziska"
 		location = 13472
-		division_template = "Straż Miejska"
+		division_template = "Milicja"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 	}	
@@ -80,17 +91,24 @@ units = {
 		start_equipment_factor = 0.1
 	}
 	division = {
-		name = "1. Batalion Piechoty"
-		location = 13362
+		name = "1. Batalion Piechoty im. Tadeusza Mazowieckiego"
+		location = 13366
 		division_template = "Batalion Piechoty"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 	}
 	division = {
 		name = "2. Batalion Piechoty"
-		location = 13366
+		location = 13362
 		division_template = "Batalion Piechoty"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Prezydencki Batalion Rowerowy"
+		location = 13364
+		division_template = "Batalion Rowerowy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	
