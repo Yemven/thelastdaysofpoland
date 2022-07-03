@@ -1,0 +1,12 @@
+DGR_lore_category = {
+	icon = GFX_category_icon
+	
+	allowed = {
+		tag = DGR
+	}
+	
+	visible = {
+		PRK = { has_country_flag = ziobro_start_war_lose }
+	}
+}
+

@@ -7,6 +7,10 @@ on_actions = {
 					value = 0
 				}
 			}
+			PRK = {
+				set_country_flag = ziobro_start_war
+				activate_mission = ziobro_holy_war
+			}
 			EKS = {
 				country_event = {
 					id = eksrozpad.1
@@ -30,6 +34,30 @@ on_actions = {
 					id = kszrozpad.1
 					days = 190 
 					}
+			}
+			OSW = {
+				add_to_war = { 
+					targeted_alliance = PRK 
+					enemy = SND 
+					hostility_reason = asked_to_join
+				}
+				add_to_war = { 
+					targeted_alliance = PRK 
+					enemy = STA
+					hostility_reason = asked_to_join
+				}
+			}
+			BOH = {
+				add_to_war = { 
+					targeted_alliance = PRK 
+					enemy = SND 
+					hostility_reason = asked_to_join
+				}
+				add_to_war = { 
+					targeted_alliance = PRK 
+					enemy = STA
+					hostility_reason = asked_to_join
+				}
 			}
 			BOM = {
 				scoped_play_song = "intro_bombas"

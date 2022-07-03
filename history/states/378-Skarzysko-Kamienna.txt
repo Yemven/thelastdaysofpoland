@@ -1,17 +1,26 @@
+
 state={
 	id=378
 	name="STATE_378"
-	provinces={
-		1234 1532 2263 3906 
-	}
-	manpower = 63519   state_category = city
-	buildings_max_level_factor=1.000
-						history = {
+
+	history={
 		owner = PRK
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = PRK
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		1532 3906 
+	}
+	manpower=47519
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

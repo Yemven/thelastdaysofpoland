@@ -1,26 +1,24 @@
-
 state={
-	id=377
-	name="STATE_377"
-
+	id=865
+	name="STATE_865"
 	history={
-		owner = STA
+		owner = PRK
 		victory_points = {
 
 		}
-		add_core_of = STA
+		add_core_of = PRK
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 
 		}
 
 	}
 
 	provinces={
-		1638 2745 
+		955 965 2542 
 	}
-	manpower=23518
+	manpower=24650
+	state_category=rural
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=0.000
 }

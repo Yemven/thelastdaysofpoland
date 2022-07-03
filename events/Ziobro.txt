@@ -1,0 +1,292 @@
+﻿add_namespace = ziobro
+
+news_event = {
+	id = ziobro.1 #ZIOBRO WYGRYWA PIERWSZA WOJNE W SANTA CRUZ
+	title = ziobro.1.t
+	desc = ziobro.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ziobro.1.a
+		set_country_flag = holy_cross_revolt_limited
+		hidden_effect = {
+			PRK = {
+				country_event = { 
+					id = ziobro.5
+					days = 30
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = ziobro.2 #ZIOBRO DOSTAJE PO PIŹDZIE
+	title = ziobro.2.t
+	desc = ziobro.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ziobro.2.a
+		set_country_flag = holy_cross_revolt_strong
+		hidden_effect = {
+			PRK = {
+				country_event = { 
+					id = ziobro.5
+					days = 14
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = ziobro.3 #LEKKA REWOLTA W SANTA CRUZ
+	title = ziobro.3.t
+	desc = ziobro.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ziobro.3.a
+	}
+}
+
+news_event = {
+	id = ziobro.4 #POTĘŻNA REWOLTA W SANTA CRUZ
+	title = ziobro.4.t
+	desc = ziobro.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ziobro.4.a
+	}
+}
+
+country_event = {
+	id = ziobro.5 #KOMUCHY ROZPOCZYNAJA REBELIE
+	title = ziobro.5.t
+	desc = ziobro.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ziobro.5.a
+		country_event = {
+			id = ziobro.6
+			days = 2
+			}
+		if = {
+			limit = { has_country_flag = ziobro_start_war_victory }
+			PRK_revolt_minor_NRA = yes
+		}
+		else_if = {
+			limit = { has_country_flag = ziobro_start_war_lose }
+			PRK_revolt_major_NRA = yes
+		}
+	}
+}
+
+country_event = {
+	id = ziobro.6 #NACJOLE DOLACZAJA DO ZABAWY
+	title = ziobro.6.t
+	desc = ziobro.6.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ziobro.6.a
+		country_event = {
+			id = ziobro.7
+			days = 1
+			}
+		if = {
+			limit = { has_country_flag = ziobro_start_war_victory }
+			PRK_revolt_minor_NSZ = yes
+		}
+		else_if = {
+			limit = { has_country_flag = ziobro_start_war_lose }
+			PRK_revolt_major_NSZ = yes
+		}
+	}
+}
+
+country_event = {
+	id = ziobro.7 #STONOGA PRZEKRACZA PREDKOSC SWIATLA
+	title = ziobro.7.t
+	desc = ziobro.7.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ziobro.7.a
+		country_event = {
+			id = ziobro.8
+			hours = 12
+			}
+		if = {
+			limit = { has_country_flag = ziobro_start_war_victory }
+			PRK_revolt_minor_STO = yes
+		}
+		else_if = {
+			limit = { has_country_flag = ziobro_start_war_lose }
+			PRK_revolt_major_STO = yes
+		}
+	}
+}
+
+country_event = {
+	id = ziobro.8 #WAFFEN KESZ KESZ
+	title = ziobro.8.t
+	desc = ziobro.8.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ziobro.8.a
+		country_event = {
+			id = ziobro.9
+			days = 2
+			}
+		if = {
+			limit = { has_country_flag = ziobro_start_war_victory }
+			PRK_revolt_minor_KEL = yes
+		}
+		else_if = {
+			limit = { has_country_flag = ziobro_start_war_lose }
+			PRK_revolt_major_KEL = yes
+		}
+	}
+}
+
+country_event = {
+	id = ziobro.9 #FESTUNG KJELZY
+	title = ziobro.9.t
+	desc = ziobro.9.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ziobro.9.a
+		if = {
+			limit = { has_country_flag = ziobro_start_war_victory }
+			PRK_revolt_minor_KIE = yes
+			country_event = {
+				id = ziobro.13
+				days = 2
+				}
+			country_event = {
+				id = ziobro.14
+				days = 2
+				}
+		}
+		else_if = {
+			limit = { has_country_flag = ziobro_start_war_lose }
+			PRK_revolt_major_KIE = yes
+		}
+	}
+}
+
+
+country_event = {
+	id = ziobro.10 #bukowno win
+	title = ziobro.10.t
+	desc = ziobro.10.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+
+		name = ziobro.10.a
+		PRK = {
+			825 = {
+				transfer_state_to = DGR
+				}
+			}
+	}
+}
+
+country_event = {
+	id = ziobro.11 #bukowno lose
+	title = ziobro.11.t
+	desc = ziobro.11.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+
+		name = ziobro.11.a
+	}
+}
+
+country_event = {
+	id = ziobro.12 #bukowno cancel
+	title = ziobro.12.t
+	desc = ziobro.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+
+		name = ziobro.12.a
+	}
+}
+
+
+country_event = {
+	id = ziobro.13 #STAR
+	title = ziobro.13.t
+	desc = ziobro.13.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ziobro.13.a
+		if = {
+			limit = { has_country_flag = ziobro_start_war_victory }
+			PRK_revolt_minor_STA = yes
+		}
+		else_if = {
+			limit = { has_country_flag = ziobro_start_war_lose }
+			PRK_revolt_major_STA = yes
+		}
+	}
+}
+
+country_event = {
+	id = ziobro.14 #OJCIEC MATEUSZ
+	title = ziobro.14.t
+	desc = ziobro.14.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ziobro.14.a
+		if = {
+			limit = { has_country_flag = ziobro_start_war_victory }
+			PRK_revolt_minor_SND = yes
+		}
+		else_if = {
+			limit = { has_country_flag = ziobro_start_war_lose }
+			PRK_revolt_major_SND = yes
+		}
+
+	}
+}

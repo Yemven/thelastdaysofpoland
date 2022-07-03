@@ -8,7 +8,7 @@ debug_category = {
 }
 
 unification_category = {
-	priority = 10
+	priority = 50
 	icon = GFX_category_icon
 	
 	allowed = {
@@ -23,6 +23,15 @@ weapon_dealer = {
 	available = {
 		num_of_civilian_factories > 1
 		melee_weapons > 500
+	}
+}
+
+ziobro_war = {
+	priority = 5
+	icon = generic_economy
+	visible_when_empty = no
+	allowed = {
+		original_tag = PRK
 	}
 }
 

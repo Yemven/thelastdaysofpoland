@@ -1,17 +1,26 @@
+
 state={
 	id=392
 	name="STATE_392"
-	provinces={
-		1238 1352 1746 2134 2331 2682 3080 
-	}
-	manpower = 98713  state_category = city
-	buildings_max_level_factor=1.000
-						history = {
+
+	history={
 		owner = STA
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = STA
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		2682 3080 
+	}
+	manpower=65713
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

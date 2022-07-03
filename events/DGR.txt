@@ -1,0 +1,50 @@
+﻿add_namespace = dabrowa_border
+
+country_event = {
+	id = dabrowa_border.1 #bukowno win
+	title = dabrowa_border.1.t
+	desc = dabrowa_border.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+
+		name = dabrowa_border.1.a
+		PRK = {
+			825 = {
+				transfer_state_to = DGR
+				}
+			}
+	}
+}
+
+country_event = {
+	id = dabrowa_border.2 #bukowno lose
+	title = dabrowa_border.2.t
+	desc = dabrowa_border.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+
+		name = dabrowa_border.2.a
+		add_state_claim = 825
+	}
+}
+
+country_event = {
+	id = dabrowa_border.3 #bukowno cancel
+	title = dabrowa_border.3.t
+	desc = dabrowa_border.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+
+		name = dabrowa_border.3.a
+		add_state_claim = 825
+	}
+}
