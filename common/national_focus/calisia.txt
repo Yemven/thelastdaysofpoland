@@ -132,7 +132,7 @@ focus_tree = {
 		x = 5
 		y = 3
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -152,7 +152,7 @@ focus_tree = {
 		x = 4
 		y = 4
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -172,7 +172,7 @@ focus_tree = {
 		x = 8
 		y = 1
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -192,7 +192,7 @@ focus_tree = {
 		x = 8
 		y = 2
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -213,7 +213,7 @@ focus_tree = {
 		x = 7
 		y = 3
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -233,7 +233,7 @@ focus_tree = {
 		x = 7
 		y = 4
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -253,7 +253,7 @@ focus_tree = {
 		x = 7
 		y = 5
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -274,7 +274,7 @@ focus_tree = {
 		x = 9
 		y = 3
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -294,7 +294,7 @@ focus_tree = {
 		x = 9
 		y = 4
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -314,7 +314,7 @@ focus_tree = {
 		x = 9
 		y = 5
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -327,7 +327,7 @@ focus_tree = {
 		prerequisite = { focus = CAL_lojalnosc_wiecznego_miasta }
 		prerequisite = { focus = CAL_niebywale_doniesienia }
 		available = {
-		
+		    has_war = no
 		}
 		
 		bypass = {
@@ -336,7 +336,7 @@ focus_tree = {
 		x = 8
 		y = 6
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -356,7 +356,7 @@ focus_tree = {
 		x = 12
 		y = 1
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -377,7 +377,7 @@ focus_tree = {
 		x = 11
 		y = 2
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -397,7 +397,7 @@ focus_tree = {
 		x = 11
 		y = 3
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -418,7 +418,7 @@ focus_tree = {
 		x = 13
 		y = 2
 		
-		cost = 1
+		cost = 2
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -449,7 +449,7 @@ focus_tree = {
 		id = CAL_lojalnosc_wiecznego_miasta
 		prerequisite = { focus = CAL_krew_na_piachu focus = CAL_wino_w_koszarach }
 		available = {
-		
+		    
 		}
 		
 		bypass = {
@@ -469,7 +469,7 @@ focus_tree = {
 		id = CAL_imperator_gwarantem_pokoju
 		prerequisite = { focus = CAL_chaos_na_komisjach }
 		available = {
-		
+		    has_war = no
 		}
 		
 		bypass = {
@@ -478,9 +478,13 @@ focus_tree = {
 		x = 8
 		y = 7
 		
-		cost = 1
+		cost = 4
 		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		completion_reward = {
+		    declare_war_on = {
+				target = GNI
+				type = annex_everything
+			}
 			
 		}
 	}
@@ -490,7 +494,7 @@ focus_tree = {
 		prerequisite = { focus = CAL_imperator_gwarantem_pokoju }
 		mutually_exclusive = { focus = CAL_lex_lustitiae_socialis }
 		available = {
-		
+		    has_war = no
 		}
 		
 		bypass = {
@@ -499,9 +503,17 @@ focus_tree = {
 		x = 7
 		y = 8
 		
-		cost = 1
+		cost = 6
 		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		completion_reward = { 
+		    declare_war_on = {
+				target = FEL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SUS
+				type = annex_everything
+			}
 			
 		}
 	}
@@ -511,7 +523,7 @@ focus_tree = {
 		prerequisite = { focus = CAL_imperator_gwarantem_pokoju }
 		mutually_exclusive = { focus = CAL_lex_commutationis_et_perspicuitais }
 		available = {
-		
+		    has_war = no
 		}
 		
 		bypass = {
@@ -520,9 +532,17 @@ focus_tree = {
 		x = 9
 		y = 8
 		
-		cost = 1
+		cost = 6
 		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		completion_reward = { 
+		    declare_war_on = {
+				target = FEL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SUS
+				type = annex_everything
+			}
 			
 		}
 	}

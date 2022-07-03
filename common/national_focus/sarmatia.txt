@@ -31,7 +31,7 @@ focus_tree = {
 		x = 8
 		y = 0
 		
-		cost = 1
+		cost = 3
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 			
@@ -52,7 +52,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 4
 		search_filters = { }
 		completion_reward = {
 			
@@ -72,7 +72,7 @@ focus_tree = {
 		x = 7
 		y = 2
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = {
 			
@@ -92,7 +92,7 @@ focus_tree = {
 		x = 9
 		y = 2
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = {
 			
@@ -104,7 +104,7 @@ focus_tree = {
 		prerequisite = { focus = FEL_weapons_in_hands }
 		prerequisite = { focus = FEL_horses_in_jump }
 		available = {
-		
+		    has_war = no
 		}
 		
 		bypass = {
@@ -113,7 +113,7 @@ focus_tree = {
 		x = 8
 		y = 3
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = {
 			
@@ -124,7 +124,7 @@ focus_tree = {
 		id = FEL_dont_cry_sister_of_brother
 		prerequisite = { focus = FEL_i_w_nich_jak_w_dym }
 		available = {
-		
+		    has_war = no
 		}
 		
 		bypass = {
@@ -133,10 +133,13 @@ focus_tree = {
 		x = 8
 		y = 4
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = {
-			
+			declare_war_on = {
+				target = SUS
+				type = annex_everything
+			}
 		}
 	}
 	
@@ -348,7 +351,9 @@ focus_tree = {
 		id = FEL_artykuly_sarmackie
 		prerequisite = { focus = FEL_kancelaria_danych_grunowych focus = FEL_o_gruszach_i_gruszkach focus = FEL_rejestr_kozakow_wielkopolskich focus = FEL_pospolite_ruszenie }
 		available = {
-		
+		    has_war = no
+		CAL = 
+		    has_war = no
 		}
 		
 		bypass = {
@@ -357,10 +362,17 @@ focus_tree = {
 		x = 8
 		y = 8
 		
-		cost = 1
+		cost = 5
 		search_filters = { }
 		completion_reward = {
-			
+			declare_war_on = {
+				target = CAL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GNI
+				type = annex_everything
+			}
 		}
 	}
 	
