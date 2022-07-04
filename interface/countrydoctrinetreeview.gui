@@ -435,7 +435,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_naval_doctrine_folder_item"
-		position = { x=0 y=5 }
+		position = { x=-30 y=-90 }
 		size = { width = 72 height = 72 }
 		clipping = no
 
@@ -446,7 +446,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=3 y=3 }
+			position = { x=16 y=18 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
@@ -471,7 +471,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_air_doctrine_folder_item"
-		position = { x=0 y=5 }
+		position = { x=-30 y=-90 }
 		size = { width = 72 height = 72 }
 		clipping = no
 
@@ -482,7 +482,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=3 y=3 }
+			position = { x=16 y=18 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
