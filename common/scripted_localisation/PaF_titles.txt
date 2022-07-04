@@ -2,147 +2,155 @@ defined_text = {
 	name = GetLocTitle
 
 	text = {
-		trigger = { tag = SOS }
+		trigger = { original_tag = SOS }
 		localization_key = TITLE_SOS
 	}
 	text = {
-		trigger = { tag = BBW }
+		trigger = { original_tag = BBW }
 		localization_key = TITLE_BBW
 	}
 	text = {
-		trigger = { tag = DGR }
+		trigger = { original_tag = DGR }
 		localization_key = TITLE_DGR
 	}
 	text = {
-		trigger = { tag = JAW }
+		trigger = { original_tag = JAW }
 		localization_key = TITLE_JAW
 	}
 	text = {
-		trigger = { tag = CIE }
+		trigger = { original_tag = CIE }
 		localization_key = TITLE_CIE
 	}
 	text = {
-		trigger = { tag = BSK }
+		trigger = { original_tag = BSK }
 		localization_key = TITLE_BSK
 	}
 	text = {
-		trigger = { tag = WOD }
+		trigger = { 
+			original_tag = WOD
+			has_government = socialdemocrature 
+			}
+		localization_key = TITLE_WOD_SD
+	}
+	text = {
+		trigger = { original_tag = WOD
+					has_government = neonationalism }
 		localization_key = TITLE_WOD
 	}
 	text = {
-		trigger = { tag = JSW }
+		trigger = { original_tag = JSW }
 		localization_key = TITLE_JSW
 	}
 	text = {
-		trigger = { tag = GLI }
+		trigger = { original_tag = GLI }
 		localization_key = TITLE_GLI	
 		}
 	text = {
-		trigger = { tag = RAS }
+		trigger = { original_tag = RAS }
 		localization_key = TITLE_RAS
 	}
 	text = {
-		trigger = { tag = ASG }
+		trigger = { original_tag = ASG }
 		localization_key = TITLE_ASG
 	}
 	text = {
-		trigger = { tag = FER }
+		trigger = { original_tag = FER }
 		localization_key = TITLE_FER
 	}
 	text = {
-		trigger = { tag = KAT }
+		trigger = { original_tag = KAT }
 		localization_key = TITLE_KAT
 	}
 	text = {
-		trigger = { tag = ZAW }
+		trigger = { original_tag = ZAW }
 		localization_key = TITLE_ZAW
 	}
 	text = {
-		trigger = { tag = JWK }
+		trigger = { original_tag = JWK }
 		localization_key = TITLE_JWK
 	}
 	text = {
-		trigger = { tag = BRZ }
+		trigger = { original_tag = BRZ }
 		localization_key = TITLE_BRZ
 	}
 	text = {
-		trigger = { tag = CCH }
+		trigger = { original_tag = CCH }
 		localization_key = TITLE_CCH
 	}
 	text = {
-		trigger = { tag = CHO }
+		trigger = { original_tag = CHO }
 		localization_key = TITLE_CHO
 	}
 	text = {
-		trigger = { tag = RUD }
+		trigger = { original_tag = RUD }
 		localization_key = TITLE_RUD
 	}
 	text = {
-		trigger = { tag = TRC }
+		trigger = { original_tag = TRC }
 		localization_key = TITLE_TRC
 	}
 	text = {
-		trigger = { tag = ZHP }
+		trigger = { original_tag = ZHP }
 		localization_key = TITLE_ZHP
 	}
 	text = {
-		trigger = { tag = ZYD }
+		trigger = { original_tag = ZYD }
 		localization_key = TITLE_ZYD
 	}
 	text = {
-		trigger = { tag = WML }
+		trigger = { original_tag = WML }
 		localization_key = TITLE_WML
 	}
 	text = {
-		trigger = { tag = KRS }
+		trigger = { original_tag = KRS }
 		localization_key = TITLE_KRS
 	}
 	text = {
-		trigger = { tag = SAP }
+		trigger = { original_tag = SAP }
 		localization_key = TITLE_SAP
 	}
 	text = {
-		trigger = { tag = MNI }
+		trigger = { original_tag = MNI }
 		localization_key = TITLE_MNI
 	}
 	text = {
-		trigger = { tag = OPO }
+		trigger = { original_tag = OPO }
 		localization_key = TITLE_OPO
 	}
 	text = {
-		trigger = { tag = LCH }
+		trigger = { original_tag = LCH }
 		localization_key = TITLE_LCH
 	}
 	text = {
-		trigger = { tag = LEH }
+		trigger = { original_tag = LEH }
 		localization_key = TITLE_LEH
 	}
 	text = {
-		trigger = { tag = WAN }
+		trigger = { original_tag = WAN }
 		localization_key = TITLE_WAN
 	}
 	text = {
-		trigger = { tag = KSN }
+		trigger = { original_tag = KSN }
 		localization_key = TITLE_KSN
 	}
 	text = {
-		trigger = { tag = ZUK }
+		trigger = { original_tag = ZUK }
 		localization_key = TITLE_ZUK
 	}
 	text = {
-		trigger = { tag = BIL }
+		trigger = { original_tag = BIL }
 		localization_key = TITLE_BIL
 	}
 	text = {
-		trigger = { tag = SWD }
+		trigger = { original_tag = SWD }
 		localization_key = TITLE_SWD
 	}
 	text = {
-		trigger = { tag = BPD }
+		trigger = { original_tag = BPD }
 		localization_key = TITLE_BPD
 	}
 	text = {
-		trigger = { tag = TSB }
+		trigger = { original_tag = TSB }
 		localization_key = TITLE_TSB
 	}
 
@@ -157,139 +165,145 @@ defined_text = {
 	name = GetLocGovernment
 	
 	text = {
-		trigger = { tag = SOS }
+		trigger = { original_tag = SOS }
 		localization_key = GOVERNMENT_SOS
 	}
 	text = {
-		trigger = { tag = BBW }
+		trigger = { original_tag = BBW }
 		localization_key = GOVERNMENT_BBW
 	}	
 	text = {
-		trigger = { tag = DGR }
+		trigger = { original_tag = DGR }
 		localization_key = GOVERNMENT_DGR
 	}
 	text = {
-		trigger = { tag = JAW }
+		trigger = { original_tag = JAW }
 		localization_key = GOVERNMENT_JAW
 	}
 	text = {
-		trigger = { tag = CIE }
+		trigger = { original_tag = CIE }
 		localization_key = GOVERNMENT_CIE
 	}
 	text = {
-		trigger = { tag = BSK }
+		trigger = { original_tag = BSK }
 		localization_key = GOVERNMENT_BSK
 	}
 	text = {
-		trigger = { tag = WOD }
+		trigger = { original_tag = WOD
+					has_government = socialdemocrature }
+		localization_key = GOVERNMENT_WOD_SD
+	}
+	text = {
+		trigger = { original_tag = WOD
+					has_government = neonationalism }
 		localization_key = GOVERNMENT_WOD
 	}
 	text = {
-		trigger = { tag = JSW }
+		trigger = { original_tag = JSW }
 		localization_key = GOVERNMENT_JSW
 	}
 	text = {
-		trigger = { tag = GLI }
+		trigger = { original_tag = GLI }
 		localization_key = GOVERNMENT_GLI	
 		}
 	text = {
-		trigger = { tag = RAS }
+		trigger = { original_tag = RAS }
 		localization_key = GOVERNMENT_RAS
 	}
 	text = {
-		trigger = { tag = ASG }
+		trigger = { original_tag = ASG }
 		localization_key = GOVERNMENT_ASG
 	}
 	text = {
-		trigger = { tag = FER }
+		trigger = { original_tag = FER }
 		localization_key = GOVERNMENT_FER
 	}
 	text = {
-		trigger = { tag = KAT }
+		trigger = { original_tag = KAT }
 		localization_key = GOVERNMENT_KAT
 	}
 	text = {
-		trigger = { tag = ZAW }
+		trigger = { original_tag = ZAW }
 		localization_key = GOVERNMENT_ZAW
 	}
 	text = {
-		trigger = { tag = JWK }
+		trigger = { original_tag = JWK }
 		localization_key = GOVERNMENT_JWK
 	}
 	text = {
-		trigger = { tag = BRZ }
+		trigger = { original_tag = BRZ }
 		localization_key = GOVERNMENT_BRZ
 	}
 	text = {
-		trigger = { tag = CCH }
+		trigger = { original_tag = CCH }
 		localization_key = GOVERNMENT_CCH
 	}
 	text = {
-		trigger = { tag = CHO }
+		trigger = { original_tag = CHO }
 		localization_key = GOVERNMENT_CHO
 	}	
 	text = {
-		trigger = { tag = RUD }
+		trigger = { original_tag = RUD }
 		localization_key = GOVERNMENT_RUD
 	}	
 	text = {
-		trigger = { tag = TRC }
+		trigger = { original_tag = TRC }
 		localization_key = GOVERNMENT_TRC
 	}	
 	text = {
-		trigger = { tag = ZHP }
+		trigger = { original_tag = ZHP }
 		localization_key = GOVERNMENT_ZHP
 	}
 	text = {
-		trigger = { tag = ZYD }
+		trigger = { original_tag = ZYD }
 		localization_key = GOVERNMENT_ZYD
 	}
 	text = {
-		trigger = { tag = WML }
+		trigger = { original_tag = WML }
 		localization_key = GOVERNMENT_WML
 	}
 	text = {
-		trigger = { tag = KRS }
+		trigger = { original_tag = KRS }
 		localization_key = GOVERNMENT_KRS
 	}
 	text = {
-		trigger = { tag = SAP }
+		trigger = { original_tag = SAP }
 		localization_key = GOVERNMENT_SAP
 	}
 	text = {
-		trigger = { tag = MNI }
+		trigger = { original_tag = MNI }
 		localization_key = GOVERNMENT_MNI
 	}
 	text = {
-		trigger = { tag = OPO }
+		trigger = { original_tag = OPO }
 		localization_key = GOVERNMENT_OPO
 	}
 	text = {
-		trigger = { tag = LCH }
+		trigger = { original_tag = LCH }
 		localization_key = GOVERNMENT_LCH
 	}
 	text = {
-		trigger = { tag = LEH }
+		trigger = { original_tag = LEH }
 		localization_key = GOVERNMENT_LEH
 	}
 	text = {
-		trigger = { tag = WAN }
+		trigger = { original_tag = WAN }
 		localization_key = GOVERNMENT_WAN
 	}
 	text = {
-		trigger = { tag = CRN }
+		trigger = { original_tag = CRN }
 		localization_key = GOVERNMENT_CRN
 	}
 	text = {
-		trigger = { tag = SWD }
+		trigger = { original_tag = SWD }
 		localization_key = GOVERNMENT_SWD
 	}
 	text = {
-		trigger = { tag = BPD }
+		trigger = { original_tag = BPD }
 		localization_key = GOVERNMENT_BPD
 	}
 	text = {
-		trigger = { tag = TSB }
+		trigger = { original_tag = TSB }
 		localization_key = GOVERNMENT_TSB
 	}
 

@@ -288,12 +288,6 @@ focus_tree = {
 		cost = 0.5
 		search_filters = { }
 		completion_reward = {
-			BSK = {
-				declare_war_on = {
-				target = CIE
-				type = annex_everything
-				}
-			}
 		hidden_effect = {
 			load_focus_tree = cieszyn_war_focus
 		}

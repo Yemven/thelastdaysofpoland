@@ -1,0 +1,100 @@
+ai_war_decisions = {
+	
+	SOS_zaglebie_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		allowed = {
+			tag = SOS
+			date > 2028.01.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = JAW
+		remove_effect  = {
+			create_wargoal = {
+				target = JAW
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			JAW = {
+				has_war_with = SOS
+			}
+		}
+	}
+	
+	DGR_zaglebie_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		allowed = {
+			tag = DGR
+			date > 2028.01.01
+			SOS = { has_war_with = JAW }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = SOS
+		remove_effect  = {
+			create_wargoal = {
+				target = SOS
+				type = annex_everything
+			}
+			create_wargoal = {
+					target = JAW
+					type = annex_everything
+				}
+		}
+		cancel_trigger = {
+			SOS = {
+				has_war_with = DGR
+			}
+		}
+	}
+	
+	
+	CIE_podbeskidzie_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		allowed = {
+			tag = CIE
+			date > 2027.05.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = BSK
+		remove_effect  = {
+			create_wargoal = {
+				target = BSK
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			BSK = {
+				has_war_with = CIE
+			}
+		}
+	}
+
+
+}

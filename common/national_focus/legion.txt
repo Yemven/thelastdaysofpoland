@@ -4,6 +4,128 @@
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 
 focus_tree = {
+	id = durs_intro_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = WOD
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = WOD_our_freedom
+		icon = WOD_our_freedom
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 0
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = WOD_heartland_of_silesia
+		icon = WOD_heartland_of_silesia
+		relative_position_id = WOD_our_freedom
+		prerequisite = { focus = WOD_our_freedom }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = WOD_popular_state
+		icon = WOD_popular_state
+		relative_position_id = WOD_our_freedom
+		prerequisite = { focus = WOD_our_freedom }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = WOD_convince_germans_to_stay
+		icon = WOD_convince_germans_to_stay
+		relative_position_id = WOD_popular_state
+		prerequisite = { focus = WOD_popular_state }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = WOD_kickstart_economy
+		icon = WOD_kickstart_economy
+		relative_position_id = WOD_heartland_of_silesia
+		prerequisite = { focus = WOD_heartland_of_silesia }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+}
+
+focus_tree = {
 	id = honor_intro_focus
 	
 	country = {

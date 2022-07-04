@@ -651,14 +651,7 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			declare_war_on = {
-				target = SOS
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = DGR
-				type = annex_everything
-			}
+
 		}
 	}
 	}

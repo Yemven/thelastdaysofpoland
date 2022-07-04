@@ -7,6 +7,15 @@ debug_category = {
 	}
 }
 
+ai_war_decisions = {
+	priority = 100
+	icon = GFX_category_icon
+	
+	allowed = {
+		is_ai = yes
+	}
+}
+
 unification_category = {
 	priority = 50
 	icon = GFX_category_icon

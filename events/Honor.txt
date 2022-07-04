@@ -1,0 +1,22 @@
+﻿add_namespace = honor
+
+country_event = {
+	id = honor.1 #durś upada
+	title = honor.1.t
+	desc = honor.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+
+		name = honor.1.a
+		set_politics = {
+			ruling_party = neonationalism
+				}
+		load_oob = "WOD_2027"
+		load_focus_tree = honor_intro_focus
+	}
+}
+
+

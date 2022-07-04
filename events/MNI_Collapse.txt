@@ -66,10 +66,18 @@ country_event = {
 	}
 	option = {
 		name = opolesiepali.2.a
+		MNI = {
 			country_event = {
 			id = opolesiepali.3
 			days = 2
 			}
+		}
+		WOD = {
+			country_event = {
+			id = honor.1
+			days = 7
+			}
+		}
 		}
 }
 
