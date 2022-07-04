@@ -469,8 +469,6 @@ focus_tree = {
 		id = CAL_imperator_gwarantem_pokoju
 		prerequisite = { focus = CAL_chaos_na_komisjach }
 		available = {
-		    has_war = no
-		}
 		
 		bypass = {
 		}
@@ -481,11 +479,7 @@ focus_tree = {
 		cost = 4
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
-		    declare_war_on = {
-				target = GNI
-				type = annex_everything
-			}
-			
+		
 		}
 	}
 	
@@ -494,8 +488,6 @@ focus_tree = {
 		prerequisite = { focus = CAL_imperator_gwarantem_pokoju }
 		mutually_exclusive = { focus = CAL_lex_lustitiae_socialis }
 		available = {
-		    has_war = no
-		}
 		
 		bypass = {
 		}
@@ -506,15 +498,7 @@ focus_tree = {
 		cost = 6
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { 
-		    declare_war_on = {
-				target = FEL
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = SUS
-				type = annex_everything
-			}
-			
+		
 		}
 	}
 	
@@ -523,8 +507,6 @@ focus_tree = {
 		prerequisite = { focus = CAL_imperator_gwarantem_pokoju }
 		mutually_exclusive = { focus = CAL_lex_commutationis_et_perspicuitais }
 		available = {
-		    has_war = no
-		}
 		
 		bypass = {
 		}
@@ -535,15 +517,7 @@ focus_tree = {
 		cost = 6
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { 
-		    declare_war_on = {
-				target = FEL
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = SUS
-				type = annex_everything
-			}
-			
+		
 		}
 	}
 

@@ -124,8 +124,6 @@ focus_tree = {
 		id = FEL_dont_cry_sister_of_brother
 		prerequisite = { focus = FEL_i_w_nich_jak_w_dym }
 		available = {
-		    has_war = no
-		}
 		
 		bypass = {
 		}
@@ -136,10 +134,7 @@ focus_tree = {
 		cost = 5
 		search_filters = { }
 		completion_reward = {
-			declare_war_on = {
-				target = SUS
-				type = annex_everything
-			}
+		
 		}
 	}
 	
@@ -351,10 +346,6 @@ focus_tree = {
 		id = FEL_artykuly_sarmackie
 		prerequisite = { focus = FEL_kancelaria_danych_grunowych focus = FEL_o_gruszach_i_gruszkach focus = FEL_rejestr_kozakow_wielkopolskich focus = FEL_pospolite_ruszenie }
 		available = {
-		    has_war = no
-		CAL = 
-		    has_war = no
-		}
 		
 		bypass = {
 		}
@@ -365,14 +356,7 @@ focus_tree = {
 		cost = 5
 		search_filters = { }
 		completion_reward = {
-			declare_war_on = {
-				target = CAL
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = GNI
-				type = annex_everything
-			}
+		
 		}
 	}
 	
