@@ -11,6 +11,23 @@ set_convoys = 20
 recruit_character = SAN_jaraczewski
 recruit_character = SAN_potocki
 
+add_ideas = {
+controlled_opposition
+state_press
+basic_security
+witch_doctors
+no_subsidies
+training_basic
+officer_random
+economy_authoritarian_capitalism
+taxes_medium
+trade_minimal
+lgbt_limited_laws
+drugs_harsh_penalised
+women_traditional_roles
+minorities_system_oppresion
+partial_secularism
+}
 
 set_politics = {
 	ruling_party = reactionary
@@ -20,16 +37,16 @@ set_politics = {
 }
 
 set_popularities = {
-	marxism_cranism	= 0
+	marxism_cranism	= 11
 	squattism = 0
-	socialdemocrature = 0
+	socialdemocrature = 19
 	euroliberalism = 0
 	freemarketism = 0
 	paternal_conservatism = 0
-	autocracy = 0
+	autocracy = 21
 	corporativism = 0
-	neonationalism = 0
-	reactionary = 100
-	postpolonism = 0
+	neonationalism = 10
+	reactionary = 35
+	postpolonism = 4
 }
 

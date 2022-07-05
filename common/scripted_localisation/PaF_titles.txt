@@ -178,6 +178,38 @@ defined_text = {
 		localization_key = TITLE_TRN
 	}
 	text = {
+		trigger = { original_tag = OSW }
+		localization_key = TITLE_OSW
+	}
+	text = {
+		trigger = { original_tag = BOH }
+		localization_key = TITLE_BOH
+	}
+	text = {
+		trigger = { original_tag = UMN }
+		localization_key = TITLE_UMN
+	}
+	text = {
+		trigger = { original_tag = KRK }
+		localization_key = TITLE_KRK
+	}
+	text = {
+		trigger = { original_tag = NHT }
+		localization_key = TITLE_NHT
+	}
+	text = {
+		trigger = { original_tag = SKW }
+		localization_key = TITLE_SKW
+	}
+	text = {
+		trigger = { original_tag = SAN }
+		localization_key = TITLE_SAN
+	}
+	text = {
+		trigger = { original_tag = TAT }
+		localization_key = TITLE_TAT
+	}
+	text = {
 	localization_key = DEFAULT_TITLE
 	}
 }
@@ -187,6 +219,38 @@ defined_text = {
 defined_text = {
 	name = GetLocGovernment
 
+	text = {
+		trigger = { original_tag = TAT }
+		localization_key = GOVERNMENT_TAT
+	}
+	text = {
+		trigger = { original_tag = SAN }
+		localization_key = GOVERNMENT_SAN
+	}
+	text = {
+		trigger = { original_tag = SKW }
+		localization_key = GOVERNMENT_SKW
+	}
+	text = {
+		trigger = { original_tag = NHT }
+		localization_key = GOVERNMENT_NHT
+	}
+	text = {
+		trigger = { original_tag = KRK }
+		localization_key = GOVERNMENT_KRK
+	}
+	text = {
+		trigger = { original_tag = UMN }
+		localization_key = GOVERNMENT_UMN
+	}
+	text = {
+		trigger = { original_tag = BOH }
+		localization_key = GOVERNMENT_BOH
+	}
+	text = {
+		trigger = { original_tag = OSW }
+		localization_key = GOVERNMENT_OSW
+	}
 	text = {
 		trigger = { original_tag = TRN }
 		localization_key = GOVERNMENT_TRN
