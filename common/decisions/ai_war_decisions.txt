@@ -95,6 +95,375 @@ ai_war_decisions = {
 			}
 		}
 	}
+	
+	
+	FEL_leszno_war = {
 
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = FEL
+			date > 2028.04.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = SUS
+		remove_effect  = {
+			create_wargoal = {
+				target = SUS
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			FEL = {
+				has_war_with = SUS
+			}
+		}
+	}
+	
+	
+	CAL_gniezno_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = CAL
+			date > 2028.04.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = GNI
+		remove_effect  = {
+			create_wargoal = {
+				target = GNI
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			CAL = {
+				has_war_with = GNI
+			}
+		}
+	}
+	
+	GNI_kalisz_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = GNI
+			date > 2028.04.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = CAL
+		remove_effect  = {
+			create_wargoal = {
+				target = CAL
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			GNI = {
+				has_war_with = CAL
+			}
+		}
+	}
+	
+	
+	SUS_sroda_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = SUS
+			date > 2028.04.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = FEL
+		remove_effect  = {
+			create_wargoal = {
+				target = FEL
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			SUS = {
+				has_war_with = FEL
+			}
+		}
+	}
+	
+	
+	FEL_kalisz_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = FEL
+			date > 2028.09.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = CAL
+		remove_effect  = {
+			create_wargoal = {
+				target = CAL
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			FEL = {
+				has_war_with = CAL
+			}
+		}
+	}
+	
+	
+	FEL_gniezno_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = FEL
+			date > 2028.09.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = GNI
+		remove_effect  = {
+			create_wargoal = {
+				target = GNI
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			FEL = {
+				has_war_with = GNI
+			}
+		}
+	}
+	
+	CAL_sroda_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = CAL
+			date > 2028.09.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = FEL
+		remove_effect  = {
+			create_wargoal = {
+				target = FEL
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			CAL = {
+				has_war_with = FEL
+			}
+		}
+	}
+	
+	
+	CAL_leszno_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = CAL
+			date > 2028.09.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = SUS
+		remove_effect  = {
+			create_wargoal = {
+				target = SUS
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			CAL = {
+				has_war_with = SUS
+			}
+		}
+	}
+	
+	
+    GNI_sroda_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = GNI
+			date > 2028.09.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = GNI
+		remove_effect  = {
+			create_wargoal = {
+				target = GNI
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			GNI = {
+				has_war_with = FEL
+			}
+		}
+	}
+	
+	
+	GNI_leszno_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = GNI
+			date > 2028.09.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = SUS
+		remove_effect  = {
+			create_wargoal = {
+				target = SUS
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			GNI = {
+				has_war_with = SUS
+			}
+		}
+	}
+	
+	
+	SUS_kalisz_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = SUS
+			date > 2028.09.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = CAL
+		remove_effect  = {
+			create_wargoal = {
+				target = CAL
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			SUS = {
+				has_war_with = CAL
+			}
+		}
+	}
+	
+	
+	SUS_gniezno_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = SUS
+			date > 2028.09.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = GNI
+		remove_effect  = {
+			create_wargoal = {
+				target = GNI
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			SUS = {
+				has_war_with = GNI
+			}
+		}
+	}
 
 }
