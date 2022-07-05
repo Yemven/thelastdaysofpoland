@@ -4,7 +4,7 @@ ai_war_decisions = {
 
 		icon = GFX_decision_generic_form_nation
 
-		allowed = {
+		available = {
 			tag = SOS
 			date > 2028.01.01
 		}
@@ -34,7 +34,7 @@ ai_war_decisions = {
 
 		icon = GFX_decision_generic_form_nation
 
-		allowed = {
+		available = {
 			tag = DGR
 			date > 2028.01.01
 			SOS = { has_war_with = JAW }
@@ -70,7 +70,7 @@ ai_war_decisions = {
 
 		icon = GFX_decision_generic_form_nation
 
-		allowed = {
+		available = {
 			tag = CIE
 			date > 2027.05.01
 		}
