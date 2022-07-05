@@ -157,7 +157,26 @@ defined_text = {
 		trigger = { original_tag = TSB }
 		localization_key = TITLE_TSB
 	}
-
+	text = {
+		trigger = { original_tag = WDW }
+		localization_key = TITLE_WDW
+	}
+	text = {
+		trigger = { original_tag = MSL }
+		localization_key = TITLE_MSL
+	}
+	text = {
+		trigger = { original_tag = GUR }
+		localization_key = TITLE_GUR
+	}
+	text = {
+		trigger = { original_tag = SCZ }
+		localization_key = TITLE_SCZ
+	}
+	text = {
+		trigger = { original_tag = TRN }
+		localization_key = TITLE_TRN
+	}
 	text = {
 	localization_key = DEFAULT_TITLE
 	}
@@ -167,7 +186,27 @@ defined_text = {
 
 defined_text = {
 	name = GetLocGovernment
-	
+
+	text = {
+		trigger = { original_tag = TRN }
+		localization_key = GOVERNMENT_TRN
+	}
+	text = {
+		trigger = { original_tag = SCZ }
+		localization_key = GOVERNMENT_SCZ
+	}
+	text = {
+		trigger = { original_tag = GUR }
+		localization_key = GOVERNMENT_GUR
+	}	
+	text = {
+		trigger = { original_tag = MSL }
+		localization_key = GOVERNMENT_MSL
+	}
+	text = {
+		trigger = { original_tag = WDW }
+		localization_key = GOVERNMENT_WDW
+	}
 	text = {
 		trigger = { original_tag = SOS }
 		localization_key = GOVERNMENT_SOS
