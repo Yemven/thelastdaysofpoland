@@ -11,6 +11,24 @@ set_convoys = 20
 recruit_character = TRN_władysław_kosiniakkamysz
 recruit_character = TRN_waldemar_pawlak
 
+add_ideas = {
+multiparty
+autocensorship
+basic_security
+partial_refundation
+no_subsidies
+training_basic
+officer_clerks
+economy_agrarism
+taxes_medium
+trade_regulated
+lgbt_equal_laws
+drugs_harsh_penalised
+women_working_women
+minorities_equal_rights
+partial_secularism
+}
+
 set_autonomy = {
 	target = DBI
 	autonomous_state = autonomy_puppet

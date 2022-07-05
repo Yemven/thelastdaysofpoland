@@ -6,6 +6,10 @@ defined_text = {
 		localization_key = TITLE_SOS
 	}
 	text = {
+		trigger = { original_tag = PRK }
+		localization_key = TITLE_PRK
+	}
+	text = {
 		trigger = { original_tag = BBW }
 		localization_key = TITLE_BBW
 	}
@@ -167,6 +171,10 @@ defined_text = {
 	text = {
 		trigger = { original_tag = SOS }
 		localization_key = GOVERNMENT_SOS
+	}
+	text = {
+		trigger = { original_tag = PRK }
+		localization_key = GOVERNMENT_PRK
 	}
 	text = {
 		trigger = { original_tag = BBW }
