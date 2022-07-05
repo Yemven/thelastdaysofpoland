@@ -30,9 +30,16 @@ division_template = {
 
 units = {
     division = {
-		name = "Batalion Legnicki"
+		name = "1 Batalion Legnicki"
 		location = 7443
 		division_template = "Batalion Górników"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2 Batalion Legnicki"
+		location = 7442
+		division_template = "Batalion Hutników"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
 	}

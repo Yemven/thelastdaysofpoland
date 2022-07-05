@@ -2697,6 +2697,18 @@ on_actions = {
 					province = { id = 15116 }
 				}
 			}
+			316 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_hutaglogow}
+					province = { id = 13044 }
+				}
+			}
+			726 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_hutalegnica}
+					province = { id = 7442 }
+				}
+			}
 			
 			
 			
