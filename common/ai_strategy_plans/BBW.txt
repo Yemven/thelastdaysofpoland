@@ -1,0 +1,58 @@
+wungiel_1 = {
+	name="domyślna strategia dla mastera riserczu xD"
+	allowed = {
+		original_tag = BBW
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_national_focuses = {
+		BBW_trial_of_three
+		BBW_riots
+		BBW_black_fever
+		BBW_blood_on_our_hands
+		BBW_new_evidence
+		BBW_energy_export
+		BBW_the_power_of_steam
+		BBW_marble_monument
+		BBW_financial_surpluses
+		BBW_spiral_of_hatred
+		BBW_purchase_of_weapons
+		BBW_the_last_flame
+		BBW_conscription_of_2032
+		BBW_autumn
+		#todo: zrobić playthrough ziemnakiewiczem
+	}
+	
+	ideas = {
+		
+	}
+
+	traits = {
+		
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	ai_strategy = {
+		#templatki do których ciągnie TAG
+		#type = template_prio
+		#id = medium_armor
+		#value = 111
+	}
+
+	focus_factors = {
+		
+	}
+}
