@@ -22,10 +22,11 @@ focus_tree = {
 		id = KGH_battle_of_legnica
 		icon = KGH_battle_of_legnica
 		available = {
-		
+			has_war_with = CYG
 		}
 		
 		bypass = {
+			has_war_with = CYG
 		}
 		
 		x = 3
@@ -45,7 +46,7 @@ focus_tree = {
 		relative_position_id = KGH_battle_of_legnica
 		prerequisite = { focus = KGH_battle_of_legnica }
 		available = {
-		
+			has_war_with = CYG
 		}
 		
 		bypass = {
@@ -54,7 +55,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 1
 		search_filters = { }
 		completion_reward = {
 			
@@ -67,16 +68,29 @@ focus_tree = {
 		prerequisite = { focus = KGH_miners_militia }
 		mutually_exclusive = { focus = KGH_legnica_holds }
 		available = {
-		
+			has_war_with = CYG
+			CYG = {
+				controls_state = 725
+				controls_state = 726
+				controls_state = 727
+				controls_state = 728
+			}
 		}
 		
 		bypass = {
+			has_war_with = CYG
+			CYG = {
+				controls_state = 725
+				controls_state = 726
+				controls_state = 727
+				controls_state = 728
+			}
 		}
 		
 		x = -1
 		y = 1
 		
-		cost = 5
+		cost = 1
 		search_filters = { }
 		completion_reward = {
 			
@@ -89,16 +103,25 @@ focus_tree = {
 		prerequisite = { focus = KGH_miners_militia }
 		mutually_exclusive = { focus = KGH_fall_of_legnica }
 		available = {
-		
+			has_war_with = CYG
+			controls_state = 725
+			controls_state = 726
+			controls_state = 727
+			controls_state = 728
 		}
 		
 		bypass = {
+			has_war_with = CYG
+			controls_state = 725
+			controls_state = 726
+			controls_state = 727
+			controls_state = 728
 		}
 		
 		x = 1
 		y = 1
 		
-		cost = 5
+		cost = 1
 		search_filters = { }
 		completion_reward = {
 			
