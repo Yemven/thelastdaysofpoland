@@ -14,7 +14,10 @@ on_actions = {
 					transfer_troops = no
 				}
 			}
+			add_to_variable = { global.peace_popup_dirty = 1 }
+			set_global_flag = war_won
 			set_global_flag = skip_default_capitulation
+			set_global_flag = announce_peace
 		}
 	}
 }
