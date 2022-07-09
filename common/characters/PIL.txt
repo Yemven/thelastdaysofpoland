@@ -17,6 +17,7 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/PIL/PIL_Stoklosa1.dds"
+				small="gfx/interface/ideas/PIL/PIL_Stoklosa.dds"
 			}
 		}
 		country_leader={
@@ -41,6 +42,7 @@ characters={
 		name="Jacek Tarczyński"
 		portraits={
 			civilian={
+			    small="gfx/interface/ideas/PIL/PIL_Tarczynski.dds"
 			}
 		}
 		advisor = {
@@ -60,6 +62,7 @@ characters={
 		name="Bogusław Miszczuk"
 		portraits={
 			civilian={
+			    small="gfx/interface/ideas/PIL/PIL_Miszczuk.dds"
 			}
 		}
 		advisor = {
@@ -79,6 +82,7 @@ characters={
 		name="Magda Gessler"
 		portraits={
 			civilian={
+			    small="gfx/interface/ideas/PIL/PIL_Gessler.dds"
 			}
 		}
 		advisor = {
