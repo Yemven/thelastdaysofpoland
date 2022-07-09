@@ -1,0 +1,53 @@
+﻿capital = 722
+
+# Starting tech
+set_technology = {
+		melee_weapons = 1  
+ ranged_weapons = 1
+}
+
+set_convoys = 20
+
+
+recruit_character = BRK_Berkowicz
+
+
+add_ideas = {
+regime_council
+state_press
+basic_security
+witch_doctors
+no_subsidies
+training_basic
+officer_random
+economy_laissez_faire
+taxes_minimal
+trade_free
+lgbt_limited_laws
+drugs_allowed
+women_traditional_roles
+minorities_system_oppresion
+one_religion_favoured
+}
+
+set_politics = {
+	ruling_party = freemarketism
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 0
+	squattism = 0
+	socialdemocrature = 22
+	euroliberalism = 0
+	freemarketism = 51
+	paternal_conservatism = 17
+	autocracy = 10
+	corporativism = 0
+	neonationalism = 0
+	reactionary = 0
+	postpolonism = 0
+}
+

@@ -1,0 +1,52 @@
+﻿capital = 770
+
+# Starting tech
+set_technology = {
+		melee_weapons = 1  
+ ranged_weapons = 1
+}
+
+set_convoys = 20
+
+recruit_character = AGH_Lis
+
+
+add_ideas = {
+one_party_state
+state_press
+advanced_security
+private_healthcare
+civil_industry_subsidies
+training_basic
+officer_mercenaries
+economy_corporationism
+taxes_medium
+trade_promoted
+lgbt_equal_laws
+drugs_decriminalised
+women_gender_equality
+minorities_multiculturalism
+atheism_encouraged
+}
+
+set_politics = {
+	ruling_party = corporativism
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 0
+	squattism = 0
+	socialdemocrature = 0
+	euroliberalism = 0
+	freemarketism = 36
+	paternal_conservatism = 0
+	autocracy = 10
+	corporativism = 50
+	neonationalism = 0
+	reactionary = 0
+	postpolonism = 4
+}
+

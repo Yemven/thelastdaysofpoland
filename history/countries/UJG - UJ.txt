@@ -1,4 +1,4 @@
-﻿capital = 506
+﻿capital = 569
 
 # Starting tech
 set_technology = {
@@ -8,31 +8,26 @@ set_technology = {
 
 set_convoys = 20
 
-recruit_character = KRK_Majchrowski
-recruit_character = KRK_Berkowicz
-recruit_character = KRK_Gibała
-recruit_character = KRK_Makłowicz
-recruit_character = KRK_Krak
-recruit_character = KRK_Wassermann
-recruit_character = KRK_Lis
-recruit_character = KRK_Popiel
+recruit_character = UJG_Popiel
+recruit_character = UJG_Majchrowski
+
 
 add_ideas = {
-controlled_opposition
-state_press
+multiparty
+absolute_freedom
 basic_security
-private_healthcare
+partial_refundation
 no_subsidies
-training_basic
+training_battle
 officer_clerks
-economy_social_market
-taxes_high
+economy_monopolism
+taxes_medium
 trade_regulated
 lgbt_limited_laws
 drugs_harsh_penalised
 women_gender_equality
-minorities_hidden_oppresion
-partial_secularism
+minorities_multiculturalism
+one_religion_favoured
 }
 
 set_politics = {

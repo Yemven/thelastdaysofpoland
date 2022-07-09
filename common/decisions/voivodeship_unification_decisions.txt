@@ -637,5 +637,129 @@ south_greater_poland_voivodeship_unification = {
 
         ai_will_do = { factor = 1 }
 }
+}
+
+tatry_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_tatry
+			can_unify_tatry = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { is_tatry_region = yes }
+
+	complete_effect = {
+		if = {
+			limit = { tag = CIE }
+			set_cosmetic_tag = CIE_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.38 }
+				}
+			}
+			custom_effect_tooltip = CIE_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = BSK
+					  has_government = autocracy }
+			set_cosmetic_tag = BSK_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.39 }
+				}
+			}
+			custom_effect_tooltip = BSK_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = GUR }
+			set_cosmetic_tag = GUR_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.40 }
+				}
+			}
+			custom_effect_tooltip = GUR_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = MSL }
+			set_cosmetic_tag = MSL_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.41 }
+				}
+			}
+			custom_effect_tooltip = MSL_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = SCZ }
+			set_cosmetic_tag = SCZ_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.42 }
+				}
+			}
+			custom_effect_tooltip = SCZ_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = LEM }
+			set_cosmetic_tag = LEM_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.43 }
+				}
+			}
+			custom_effect_tooltip = LEM_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = BSK
+					  has_government = freemarketism }
+			set_cosmetic_tag = BSK_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.44 }
+				}
+			}
+			custom_effect_tooltip = BSK_unifies_tatry_tooltip
+		}
+
+
+	}
+	ai_will_do = { factor = 1 }
+}
+
+
 
 }

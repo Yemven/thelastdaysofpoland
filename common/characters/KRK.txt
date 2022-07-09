@@ -1,5 +1,5 @@
 characters={
-	KRK_jacek_majchrowski={
+	KRK_Majchrowski={
 		name="Jacek Majchrowski"
 		portraits={
 			civilian={
@@ -12,7 +12,7 @@ characters={
 			id=-1
 		}
 	}
-	KRK_konrad_berkowicz={
+	KRK_Berkowicz={
 		name="Konrad Berkowicz"
 		portraits={
 			civilian={
@@ -25,7 +25,7 @@ characters={
 			id=-1
 		}
 	}
-	KRK_Łukasz_gibała={
+	KRK_Gibała={
 		name="Łukasz Gibała"
 		portraits={
 			civilian={
@@ -33,16 +33,16 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialdemocrature_subtype
+			ideology=euroliberalism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	KRK_robert_makłowicz={
+	KRK_Makłowicz={
 		name="Robert Makłowicz"
 		portraits={
 			civilian={
-				large="gfx/leaders/KRK/KRK_Majchrowski1.dds"
+				large="gfx/leaders/KRK/KRK_Makłowicz1.dds"
 			}
 		}
 		country_leader={
@@ -51,7 +51,7 @@ characters={
 			id=-1
 		}
 	}
-	KRK_krak_iii={
+	KRK_Krak={
 		name="Krak III"
 		portraits={
 			civilian={
@@ -60,6 +60,45 @@ characters={
 		}
 		country_leader={
 			ideology=postpolonism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KRK_Wassermann={
+		name="Małgorzata Wassermann"
+		portraits={
+			civilian={
+				large="gfx/leaders/NHT/NHT_Wassermann1.dds"
+			}
+		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KRK_Popiel={
+		name="Jacek Popiel"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRK/KRK_UJ.dds"
+			}
+		}
+		country_leader={
+			ideology=paternal_conservatism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KRK_Lis={
+		name="Jerzy Lis"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRK/KRK_AGH.dds"
+			}
+		}
+		country_leader={
+			ideology=corporativism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
