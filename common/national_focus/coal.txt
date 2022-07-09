@@ -337,7 +337,7 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = steel
-				amount = 10
+				amount = 25
 				state = 358
 				}
 			add_political_power = 30
@@ -374,7 +374,7 @@ focus_tree = {
 		hidden_effect = {
 		add_equipment_to_stockpile = {
 			type = ranged_equipment_4
-			amount = 300
+			amount = 1000
 			producer = ROM
 		}
 		}
@@ -382,7 +382,7 @@ focus_tree = {
 		hidden_effect = {
 		add_equipment_to_stockpile = {
 			type = melee_equipment_3
-			amount = 300
+			amount = 1000
 			producer = ROM
 		}
 		}

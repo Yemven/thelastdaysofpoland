@@ -23,7 +23,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 5
 
-		build_cost_ic = 2.5
+		build_cost_ic = 5
 		resources = {
 			#oil = 1
 			synthetic_materials = 1
@@ -53,12 +53,14 @@ equipments = {
 		hardness = 0.2
 
 		breakthrough = 10
+		
+		build_cost_ic = 5
 	}
 	
 	motorized_equipment_3 = {
 		year = 2033
 
-		parent = motorized_equipment_1
+		parent = motorized_equipment_2
 		archetype = motorized_equipment
 		priority = 30	
 		
@@ -67,12 +69,13 @@ equipments = {
 		hardness = 0.2
 		breakthrough = 10
 		
+		build_cost_ic = 5.4
 	}
 	
 	motorized_equipment_4 = {
 		year = 2036
 
-		parent = motorized_equipment_2
+		parent = motorized_equipment_3
 		archetype = motorized_equipment
 		priority = 30	
 
@@ -80,12 +83,14 @@ equipments = {
 		reliability = 0.8
 		hardness = 0.2
 		breakthrough = 10
+		
+		build_cost_ic = 5.8
 	}
 
 	motorized_equipment_5 = {
 		year = 2040
 
-		parent = motorized_equipment_3
+		parent = motorized_equipment_4
 		archetype = motorized_equipment
 		priority = 30	
 
@@ -93,5 +98,7 @@ equipments = {
 		reliability = 0.8
 		hardness = 0.2
 		breakthrough = 10
+		
+		build_cost_ic = 6.4
 	}
 }

@@ -81,9 +81,10 @@ ideas = {
 				production_speed_buildings_factor = 0.1
 				industrial_capacity_factory = 0.1
 				research_speed_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
 			}
 		}
-
+#### POLLUTION LEVELS ###############
 		BBW_smog = {
 			allowed = {
 				original_tag = BBW
@@ -98,11 +99,188 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				recruitable_population_factor = -0.05
-				consumer_goods_factor = 0.15
-				monthly_population = -0.15
+				consumer_goods_factor = 0.02
+				monthly_population = -0.05
+				industrial_capacity_factory = -0.05
 			}
 		}
+		
+		BBW_smog2 = {
+			allowed = {
+				original_tag = BBW
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = 0.03
+				monthly_population = -0.07
+				industrial_capacity_factory = -0.06
+			}
+		}
+		
+		BBW_smog3 = {
+			allowed = {
+				original_tag = BBW
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = 0.04
+				monthly_population = -0.09
+				industrial_capacity_factory = -0.07
+			}
+		}
+		
+		BBW_smog4 = {
+			allowed = {
+				original_tag = BBW
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = 0.05
+				monthly_population = -0.11
+				industrial_capacity_factory = -0.08
+			}
+		}
+		
+		BBW_smog4 = {
+			allowed = {
+				original_tag = BBW
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = 0.06
+				monthly_population = -0.13
+				industrial_capacity_factory = -0.09
+			}
+		}
+		
+############## INDUSTRIAL LEVELS ###########		
+		BBW_industrial_capabilities = {
+			allowed = {
+				original_tag = BBW
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = -0.02
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		BBW_industrial_capabilities2 = {
+			allowed = {
+				original_tag = BBW
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = -0.03
+				industrial_capacity_factory = 0.07
+			}
+		}
+		
+		BBW_industrial_capabilities3 = {
+			allowed = {
+				original_tag = BBW
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = -0.04
+				industrial_capacity_factory = 0.09
+			}
+		}
+		BBW_industrial_capabilities4 = {
+			allowed = {
+				original_tag = BBW
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.11
+			}
+		}
+		
+		BBW_industrial_capabilities5 = {
+			allowed = {
+				original_tag = BBW
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = -0.06
+				industrial_capacity_factory = 0.13
+			}
+		}
+		
+#### ANGER LEVELS ###############
 		BBW_street_anger = {
 			allowed = {
 				original_tag = BBW

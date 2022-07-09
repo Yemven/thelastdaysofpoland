@@ -1,0 +1,47 @@
+BBW_pollution_category = {
+	BBW_pollution_stage1 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		days_mission_timeout = 20
+		
+		available = { always = no }
+		
+		activation = {
+			BBW = {
+			has_completed_focus = BBW_trial_of_three
+			}
+	  
+		}
+		
+		allowed = {
+			tag = BBW
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		 complete_effect = {
+		
+		}
+	
+		timeout_effect = {
+			BBW = {
+				swap_ideas = {
+					add_idea = BBW_smog2
+					remove_idea = BBW_smog
+				}
+			}
+		}
+		}
+		
+	}
+
+}
+
+BBW_industrial_missions_category = {
+
+}
