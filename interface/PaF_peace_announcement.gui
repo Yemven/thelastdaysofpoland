@@ -23,7 +23,7 @@ guiTypes = {
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
-			text = "PEACE_ANNOUNCEMENT_TITLE"
+			text = PEACE_ANNOUNCEMENT_TITLE
 			maxWidth = 360
 			maxHeight = 40
 			fixedsize = yes
@@ -35,7 +35,7 @@ guiTypes = {
 			position = { x = 50 y = 86 }
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
-			text = "PEACE_ANNOUNCEMENT_DESC"
+			text = PEACE_ANNOUNCEMENT_DESC
 			maxWidth = 460
 			maxHeight = 72
 			format = centre
@@ -46,7 +46,7 @@ guiTypes = {
 			name = "close_button"
 			position = { x=230 y =240}
 			quadTextureSprite ="GFX_sort_button_140x29"
-			buttonText = "PEACE_ANNOUNCEMENT_CLOSE"
+			buttonText = PEACE_ANNOUNCEMENT_CLOSE
 			buttonFont = "hoi_18mbs"
 			shortcut = "RETURN"
 			#clicksound = click_ok

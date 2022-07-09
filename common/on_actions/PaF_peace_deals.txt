@@ -1,23 +1,35 @@
 on_actions = {
 	on_capitulation = {
 		effect = {
-			set_global_flag = show_peace_popup_alert
+			set_global_flag = announce_peace
 			FROM = {
 				save_global_event_target_as = winning_country
 			} 
 			ROOT = {
 				save_global_event_target_as = losing_country
 			}
-			FROM = {
-				annex_country = {
-					target = ROOT
-					transfer_troops = no
+			add_to_variable = { global.peace_popup_dirty = 1 }
+			if = {
+				limit = {
+					OR = {
+						ROOT = { is_in_faction = no }
+						ROOT = {
+							all_allied_country = {
+								has_capitulated = yes
+							}
+						}
+					}
+				}
+				set_global_flag = war_won
+				set_global_flag = skip_default_capitulation
+				FROM = {
+					white_peace = ROOT
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
 				}
 			}
-			add_to_variable = { global.peace_popup_dirty = 1 }
-			set_global_flag = war_won
-			set_global_flag = skip_default_capitulation
-			set_global_flag = announce_peace
 		}
 	}
 }
