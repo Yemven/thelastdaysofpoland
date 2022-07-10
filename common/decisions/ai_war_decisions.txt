@@ -1,4 +1,788 @@
 ai_war_decisions = {
+
+	zaglebie_war_1 = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+				OR = {
+					tag = BRZ
+					tag = JWK
+					tag = ZAW
+					tag = CCH
+				}
+				NOT = {
+				count_triggers = {
+				amount = 5
+					country_exists = BRZ
+					country_exists = JWK
+					country_exists = ZAW
+					country_exists = CCH
+					country_exists = SOS
+					country_exists = DGR
+					country_exists = JAW
+				}
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		remove_effect  = {
+			every_country = {
+				limit = {
+					AND = {
+						tag = BRZ
+						tag = JWK
+						tag = ZAW
+						tag = CCH
+						}
+					}
+				}	
+				if = { limit = { country_exists = DGR } 
+				declare_war_on = {
+					target = DGR
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = SOS } 
+				declare_war_on = {
+					target = SOS
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = JAW } 
+				declare_war_on = {
+					target = JAW
+					type = annex_everything
+				}
+				}
+		}
+	}
+	
+	zaglebie_war_2 = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+				OR = {
+					tag = SOS
+					tag = JAW
+					tag = DGR
+				}
+				NOT = {
+				count_triggers = {
+				amount = 5
+					country_exists = BRZ
+					country_exists = JWK
+					country_exists = ZAW
+					country_exists = CCH
+					country_exists = SOS
+					country_exists = DGR
+					country_exists = JAW
+				}
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		remove_effect  = {
+			every_country = {
+				limit = {
+					AND = {
+						tag = JAW
+						tag = SOS
+						tag = DGR
+						}
+					}
+				}	
+				if = { limit = { country_exists = ZAW } 
+				declare_war_on = {
+					target = ZAW
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = CCH } 
+				declare_war_on = {
+					target = CCH
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = JWK } 
+				declare_war_on = {
+					target = JWK
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = BRZ } 
+				declare_war_on = {
+					target = BRZ
+					type = annex_everything
+				}
+				}
+		}
+	}
+	
+	metropolis_war_1 = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+				OR = {
+					tag = RAS
+					tag = CHO
+					tag = GLI
+					tag = RUD
+					tag = TRC
+					tag = FER
+				}
+				NOT = {
+				count_triggers = {
+				amount = 8
+					country_exists = FER
+					country_exists = RAS
+					country_exists = CHO
+					country_exists = GLI
+					country_exists = TRC
+					country_exists = RUD
+					country_exists = KAT
+					country_exists = ASG
+					country_exists = WOD
+					country_exists = JSW
+				}
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		remove_effect  = {
+			every_country = {
+				limit = {
+					AND = {
+						tag = RAS
+						tag = CHO
+						tag = GLI
+						tag = FER
+						tag = TRC
+						tag = RUD
+						}
+					}
+				}	
+				if = { limit = { country_exists = KAT } 
+				declare_war_on = {
+					target = KAT
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = ASG } 
+				declare_war_on = {
+					target = ASG
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = WOD } 
+				declare_war_on = {
+					target = WOD
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = JSW } 
+				declare_war_on = {
+					target = JSW
+					type = annex_everything
+				}
+				}
+		}
+	}
+	
+	metropolis_war_2 = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+				OR = {
+					tag = WOD
+					tag = JSW
+					tag = KAT
+					tag = ASG
+				}
+				NOT = {
+				count_triggers = {
+				amount = 8
+					country_exists = FER
+					country_exists = RAS
+					country_exists = CHO
+					country_exists = GLI
+					country_exists = TRC
+					country_exists = RUD
+					country_exists = KAT
+					country_exists = ASG
+					country_exists = WOD
+					country_exists = JSW
+				}
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		remove_effect  = {
+			every_country = {
+				limit = {
+					AND = {
+						tag = WOD
+						tag = JSW
+						tag = KAT
+						tag = ASG
+						}
+					}
+				}	
+				if = { limit = { country_exists = GLI } 
+				declare_war_on = {
+					target = GLI
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = CHO } 
+				declare_war_on = {
+					target = CHO
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = TRC } 
+				declare_war_on = {
+					target = TRC
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = RAS } 
+				declare_war_on = {
+					target = RAS
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = FER } 
+				declare_war_on = {
+					target = FER
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = RUD } 
+				declare_war_on = {
+					target = RUD
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+
+	CCH_north_jura_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+				tag = CCH
+				OR = {
+				NOT = { country_exists = BRZ }
+				NOT = { country_exists = JWK }
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = ZAW
+		remove_effect  = {
+			declare_war_on = {
+					target = ZAW
+					type = annex_everything
+				}
+			if = { limit = { NOT = country_exists = JWK } 
+			declare_war_on = {
+					target = BRZ
+					type = annex_everything
+				}
+			}
+			else_if = { limit = { NOT = country_exists = BRZ }
+			declare_war_on = {
+					target = JWK
+					type = annex_everything
+				}	
+			}
+		}
+	}
+
+	ZAW_north_jura_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+				tag = ZAW
+				OR = {
+				NOT = { country_exists = BRZ }
+				NOT = { country_exists = JWK }
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = CCH
+		remove_effect  = {
+			declare_war_on = {
+					target = CCH
+					type = annex_everything
+				}
+			if = { limit = { NOT = country_exists = JWK } 
+			declare_war_on = {
+					target = BRZ
+					type = annex_everything
+				}
+			}
+			else_if = { limit = { NOT = country_exists = BRZ }
+			declare_war_on = {
+					target = JWK
+					type = annex_everything
+				}	
+			}
+		}
+	}
+
+	BRZ_hooligan_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+				tag = BRZ
+				date > 2027.12.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = JWK
+		remove_effect  = {
+			declare_war_on = {
+					target = JWK
+					type = annex_everything
+				}
+		}
+	}
+	
+	BRZ_north_jura_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+				tag = BRZ
+				NOT = { country_exists = JWK }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = CCH
+		war_with_on_remove = ZAW
+		remove_effect  = {
+			declare_war_on = {
+					target = CCH
+					type = annex_everything
+				}
+			declare_war_on = {
+					target = ZAW
+					type = annex_everything
+				}
+		}
+	}
+	
+	JWK_north_jura_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+				tag = JWK
+				NOT = { country_exists = BRZ }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = CCH
+		war_with_on_remove = ZAW
+		remove_effect  = {
+			declare_war_on = {
+					target = CCH
+					type = annex_everything
+				}
+			declare_war_on = {
+					target = ZAW
+					type = annex_everything
+				}
+		}
+	}
+
+	WOD_south_silesian_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			OR = {
+				tag = WOD
+				tag = JSW
+				}
+			OR = {
+				NOT = {
+					country_exists = WOD
+					country_exists = JSW
+				}
+			}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		remove_effect  = {
+		if = { limit = { NOT =  {country_exists = ASG} }
+			declare_war_on = {
+				target = KAT
+				type = annex_everything
+			}
+		}
+		else_if = { limit = { NOT = {country_exists = KAT} }
+			declare_war_on = {
+					target = ASG
+					type = annex_everything
+				}
+			}
+		else = {
+			declare_war_on = {
+					target = KAT
+					type = annex_everything
+				}
+			declare_war_on = {
+					target = ASG
+					type = annex_everything
+				}
+		}
+	}
+	}
+
+	KAT_south_silesian_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			OR = {
+				tag = KAT
+				tag = ASG
+				}
+			OR = {
+				NOT = {
+					country_exists = KAT
+					country_exists = ASG
+				}
+			}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		remove_effect  = {
+		if = { limit = { NOT =  {country_exists = WOD} }
+			declare_war_on = {
+				target = JSW
+				type = annex_everything
+			}
+		}
+		else_if = { limit = { NOT = {country_exists = JSW} }
+			declare_war_on = {
+					target = WOD
+					type = annex_everything
+				}
+			}
+		else = {
+			declare_war_on = {
+					target = WOD
+					type = annex_everything
+				}
+			declare_war_on = {
+					target = JSW
+					type = annex_everything
+				}
+		}
+		}
+	}
+
+	RUD_silesian_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = RUD
+			NOT = {is_puppet = yes}
+			date > 2028.02.14
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = CHO
+		remove_effect  = {
+		if = { limit = { NOT =  {country_exists = CHO} }
+			declare_war_on = {
+				target = RAS
+				type = annex_everything
+			}
+		}
+		else_if = { limit = { NOT = {country_exists = RAS} }
+			declare_war_on = {
+					target = CHO
+					type = annex_everything
+				}
+			}
+		else_if = { limit = { AND = { country_exists = RAS
+									  country_exists = CHO }
+			declare_war_on = {
+					target = RAS
+					type = annex_everything
+				}
+			declare_war_on = {
+					target = CHO
+					type = annex_everything
+				}
+			}
+		}
+		declare_war_on = {
+			target = GLI
+				type = annex_everything
+			}
+		}
+	}
+
+	FER_silesian_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = FER
+			NOT = {is_puppet = yes}
+			date > 2028.02.14
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = CHO
+		remove_effect  = {
+		if = { limit = { NOT =  {country_exists = CHO} }
+			declare_war_on = {
+				target = RAS
+				type = annex_everything
+			}
+		}
+		else_if = { limit = { NOT = {country_exists = RAS} }
+			declare_war_on = {
+					target = CHO
+					type = annex_everything
+				}
+			}
+		else_if = { limit = { AND = { country_exists = RAS
+									  country_exists = CHO }
+			declare_war_on = {
+					target = RAS
+					type = annex_everything
+				}
+			declare_war_on = {
+					target = CHO
+					type = annex_everything
+				}
+			}
+		}
+		declare_war_on = {
+			target = GLI
+				type = annex_everything
+			}
+		}
+	}
+	bytom_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = CHO
+			date > 2028.01.14
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = RAS
+		remove_effect  = {
+			declare_war_on = {
+				target = RAS
+				type = annex_everything
+			}
+		}
+	}
+
+	silesian_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = GLI
+			date > 2028.02.14
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = CHO
+		remove_effect  = {
+		if = { limit = { NOT =  {country_exists = CHO} }
+			declare_war_on = {
+				target = RAS
+				type = annex_everything
+			}
+		}
+		else_if = { limit = { NOT = {country_exists = RAS} }
+			declare_war_on = {
+					target = CHO
+					type = annex_everything
+				}
+			}
+		else_if = { limit = { AND = { country_exists = RAS
+									  country_exists = CHO }
+			declare_war_on = {
+					target = RAS
+					type = annex_everything
+				}
+			declare_war_on = {
+					target = CHO
+					type = annex_everything
+				}
+			}
+		}
+		declare_war_on = {
+			target = TRC
+				type = annex_everything
+			}
+		}
+	}
+
+	KAT_asg_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = KAT
+			date > 2028.02.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = ASG
+		remove_effect  = {
+			declare_war_on = {
+				target = ASG
+				type = annex_everything
+			}
+		}
+	}
+	
+	WOD_jsw_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = WOD
+			date > 2028.02.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = JSW
+		remove_effect  = {
+			declare_war_on = {
+				target = JSW
+				type = annex_everything
+			}
+		}
+	}
+
 	
 	SOS_zaglebie_war = {
 
@@ -18,7 +802,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = JAW
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = JAW
 				type = annex_everything
 			}
@@ -49,14 +833,14 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SOS
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = SOS
 				type = annex_everything
 			}
-			create_wargoal = {
-					target = JAW
-					type = annex_everything
-				}
+			declare_war_on = {
+				target = JAW
+				type = annex_everything
+			}
 		}
 		cancel_trigger = {
 			SOS = {
@@ -66,13 +850,13 @@ ai_war_decisions = {
 	}
 	
 	
-	CIE_podbeskidzie_war = {
+	BSK_podbeskidzie_war = {
 
 		icon = GFX_decision_generic_form_nation
 
 		available = {
-			tag = CIE
-			date > 2027.05.01
+			tag = BSK
+			date > 2027.09.01
 		}
 
 		cost = 1
@@ -82,16 +866,16 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 14
-		war_with_on_remove = BSK
+		war_with_on_remove = CIE
 		remove_effect  = {
-			create_wargoal = {
-				target = BSK
+			declare_war_on = {
+				target = CIE
 				type = annex_everything
 			}
 		}
 		cancel_trigger = {
-			BSK = {
-				has_war_with = CIE
+			CIE = {
+				has_war_with = BSK
 			}
 		}
 	}

@@ -5142,7 +5142,7 @@ coring_category = {
 
 		available = {
 			AND = {
-			controls_state = 745
+			controls_state = 798
 			controls_state = 481
 			}
 		}
@@ -5154,7 +5154,7 @@ coring_category = {
 					481 = {
 						is_core_of = ROOT
 					}
-					745 = {
+					798 = {
 						is_core_of = ROOT
 					}
 				}
@@ -5179,7 +5179,7 @@ coring_category = {
 		days_remove = 30
 		remove_effect  = {
 			add_state_core = 481
-			add_state_core = 745
+			add_state_core = 798
 			add_stability = 0.025
 		}
 	}
