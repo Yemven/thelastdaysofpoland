@@ -34,14 +34,208 @@ BBW_pollution_category = {
 					add_idea = BBW_smog2
 					remove_idea = BBW_smog
 				}
+				hidden_effect = {
+					activate_mission = BBW_pollution_stage2
+					activate_mission = BBW_industrial_mission1
+				}
 			}
 		}
+	}	
+	BBW_pollution_stage2 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		days_mission_timeout = 120
+		
+		available = { always = no }
+		
+		activation = {
+		always = no
 		}
 		
-	}
+		allowed = {
+			tag = BBW
+		}
 
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		 complete_effect = {
+		
+		}
+	
+		timeout_effect = {
+			BBW = {
+				swap_ideas = {
+					add_idea = BBW_smog3
+					remove_idea = BBW_smog2
+				}
+				hidden_effect = {
+					activate_mission = BBW_pollution_stage3
+				}
+			}
+		}
+	}
+	BBW_pollution_stage3 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		days_mission_timeout = 120
+		
+		available = { always = no }
+		
+		activation = {
+		always = no
+		}
+		
+		allowed = {
+			tag = BBW
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		 complete_effect = {
+		
+		}
+	
+		timeout_effect = {
+			BBW = {
+				swap_ideas = {
+					add_idea = BBW_smog4
+					remove_idea = BBW_smog3
+				}
+				hidden_effect = {
+					activate_mission = BBW_pollution_stage4
+				}
+			}
+		}
+	}
+	BBW_pollution_stage4 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		days_mission_timeout = 120
+		
+		available = { always = no }
+		
+		activation = {
+		always = no
+		}
+		
+		allowed = {
+			tag = BBW
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		 complete_effect = {
+		
+		}
+	
+		timeout_effect = {
+			BBW = {
+				swap_ideas = {
+					add_idea = BBW_smog4
+					remove_idea = BBW_smog3
+				}
+				hidden_effect = {
+					activate_mission = BBW_pollution_stage5
+				}
+			}
+		}
+	}
+	BBW_pollution_stage5 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		days_mission_timeout = 120
+		
+		available = { always = no }
+		
+		activation = {
+		always = no
+		}
+		
+		allowed = {
+			tag = BBW
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		 complete_effect = {
+		
+		}
+	
+		timeout_effect = {
+			BBW = {
+				swap_ideas = {
+					add_idea = BBW_smog5
+					remove_idea = BBW_smog4
+				}
+			}
+		}
+	}
+	
 }
 
-BBW_industrial_missions_category = {
 
+BBW_industrial_missions_category = {
+	
+	BBW_industrial_mission1 = {
+		icon = GFX_decision_generic_form_nation
+		
+		days_mission_timeout = 140
+		is_good = yes
+		available = { 
+		NOT = {
+				has_resources_amount = {
+					resource = coal
+					amount > 100
+				}
+			}
+		}
+		
+		activation = {
+		always = no
+		}
+		
+		allowed = {
+			tag = BBW
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		 complete_effect = {
+			add_political_power = 100
+			add_ideas = BBW_industrial_capabilities
+			add_stability = 0.01
+		}
+	
+		timeout_effect = {
+			BBW = {
+				add_political_power = -100
+				add_stability = -0.03
+			}
+		}
+	}
+	
 }
