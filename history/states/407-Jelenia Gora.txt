@@ -3,7 +3,7 @@ state={
 	id=407
 	name="STATE_407"
 	provinces={
-		1635 1870 2245 2999 6182
+		1635 1870 6182
 
 13177
 13178
@@ -11,29 +11,27 @@ state={
 13180
 13181
 13182
-13183
 13184
 13185
 13186
 13187
-13188
 13189
 13190
 13191
 13192
 13193
 	}
-	manpower = 110434   state_category = city
+	manpower = 32099   state_category = town
 	buildings_max_level_factor=1.000
 history = {
 		owner = EKS
-		victory_points = { 2245 30 }
+		victory_points = {  }
 		add_core_of = EKS
 	buildings = { 
-	infrastructure = 8
+	infrastructure = 5
 	air_base = 3
-	industrial_complex = 4
-	arms_factory = 2
+	industrial_complex = 1
+	arms_factory = 1
 	air_base = 1
 }
 }
