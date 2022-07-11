@@ -161,7 +161,7 @@ country_event = {
 	trigger = { 
 		is_ai = yes
 		original_tag = SOS
-		date = 2028.01.01 
+		date > 2027.12.01 
 		}
 
 	option = {
