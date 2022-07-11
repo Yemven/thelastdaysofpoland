@@ -252,10 +252,23 @@ focus_tree = {
 		
 		cost = 10
 		search_filters = {}
-		completion_reward = { 
+		completion_reward = {
+		if = {
+			has_completed_focus = ZHP_roberry_economy		
 			
-		}
+			country_event = {
+				id = zhp.5 
+				}
+				}
+		if = {
+			has_completed_focus = ZHP_what_we_will_focus_on
+		
+		country_event = {
+				id = zhp.3 
+				}
+				}
 	}
+}
 	
 	focus = {
 		id = ZHP_our_pride_army

@@ -44,3 +44,22 @@ country_event = {
 		name = zhp.3.c
 	}
 }
+
+country_event = {
+	id = zhp.5
+	title = zhp.5.t
+	desc = zhp.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zhp.5.a
+	}
+	option = {
+		name = zhp.5.b
+	}
+	option = {
+		name = zhp.5.c
+	}
+}
