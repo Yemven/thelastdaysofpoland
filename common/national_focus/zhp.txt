@@ -254,21 +254,15 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 		if = {
-			has_completed_focus = ZHP_roberry_economy		
-			
-			country_event = {
-				id = zhp.5 
-				}
-				}
-		if = {
-			has_completed_focus = ZHP_what_we_will_focus_on
-		
-		country_event = {
-				id = zhp.3 
-				}
-				}
+			limit = { has_completed_focus = ZHP_robbery_economy	}	
+			country_event = { id = zhp.5 }
+			}
+		else_if = {
+			limit = { has_completed_focus = ZHP_what_we_will_focus_on }
+			country_event = { id = zhp.3 }
+			}
+		}
 	}
-}
 	
 	focus = {
 		id = ZHP_our_pride_army
