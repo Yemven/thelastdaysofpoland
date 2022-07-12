@@ -5,12 +5,15 @@ state={
 	provinces={
 		191 312 375 787 804 899 1144 1367 1412 1777 2416 2575 2744 2782 2998 3497 
 	}
-	manpower = 254218   state_category = city
+	manpower = 67218   state_category = city
 	buildings_max_level_factor=1.000
 				history = {
 		owner = LIT
 		victory_points = {
 			2744 10 
+		}
+                victory_points = {
+			3497 10 
 		}
 		add_core_of = LIT
 	buildings = {
