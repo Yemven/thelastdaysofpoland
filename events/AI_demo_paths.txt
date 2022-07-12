@@ -14,11 +14,12 @@ country_event = {
 	option = {
 		name = aievent.1.a #socdem
 		ai_chance = { base = 40 }
+		GLI = {
 		set_country_leader_ideology = socialdemocrature_subtype	
 		set_politics = {
 			ruling_party = socialdemocrature
 			}
-
+		}
 	}
 	option = {
 		name = aievent.1.b #rajch
@@ -45,6 +46,7 @@ country_event = {
 	option = {
 		name = aievent.2.a #dźwig
 		ai_chance = { base = 30 }
+		SOS = {
 		set_country_leader_ideology = marxism_cranism_subtype
 		set_politics = {
 			ruling_party = marxism_cranism
@@ -54,6 +56,7 @@ country_event = {
 			ideology = marxism_cranism 
 			long_name = "Polish Committe of National Liberation"
 			name = "PKWN"
+		}
 		}
 	}
 	option = {
@@ -89,16 +92,17 @@ country_event = {
 	option = {
 		name = aievent.3.b #nazbol
 		ai_chance = { base = 35 }
+		DGR = {
 		retire_ideology_leader = neonationalism
 		set_country_leader_ideology = neonationalism_subtype
 		set_politics = {
 			ruling_party = neonationalism
 			}
-
 		set_party_name = { 
 			ideology = neonationalism 
 			long_name = "National People's Labour Party"
 			name = "NLPP"
+		}
 		}
 	}
 	option = {
@@ -134,6 +138,7 @@ country_event = {
 	option = {
 		name = aievent.4.b #razemki
 		ai_chance = { base = 30 }
+		JAW = {
 		set_politics = {
 			ruling_party = socialdemocrature
 			}
@@ -141,6 +146,7 @@ country_event = {
 			ideology = socialdemocrature
 			long_name = "Together Party"
 			name = "Razem"
+		}
 		}
 	}
 }
