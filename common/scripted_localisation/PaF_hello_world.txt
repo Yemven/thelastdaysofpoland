@@ -1,0 +1,130 @@
+defined_text = {
+	name = GET_CLOSEBUTTON_TEXT
+
+	## Mazovia
+	text = {
+		trigger = { tag = POL }
+		localization_key = PaF_OPENING_SCREEN_BUTTON_TEXT_KIR
+	}
+
+
+	## Default
+	text = {
+		localization_key = PaF_OPENING_SCREEN_BUTTON_TEXT_GEN
+	}
+}
+
+defined_text = {
+	name = GET_CURRENT_INTRO_TEXT
+
+	text = {
+		trigger = { check_variable = { PaF_Opening_Screen = 1 } }
+		localization_key = "[GET_COUNTRY_INFO]"
+	}
+
+	text = {
+		trigger = { check_variable = { PaF_Opening_Screen = 2 } }
+		localization_key = "[GET_REGIONAL_INFO]"
+	}
+
+	text = {
+		trigger = { check_variable = { PaF_Opening_Screen = 3 } }
+		localization_key = "[GET_MOD_FEATURES_PAGE_TEXT]"
+	}
+
+	text = {
+		trigger = { check_variable = { PaF_Opening_Screen = 4 } }
+		localization_key = MOD_INFO_TEXT
+	}
+}
+
+defined_text = {
+	name = GET_MOD_FEATURES_PAGE_TEXT
+	text = {
+		trigger = { check_variable = { FEATURES_INFO_PAGE = 0 } }
+		localization_key = MOD_FEATURES_TEXT_1
+	}
+	text = {
+		trigger = { check_variable = { FEATURES_INFO_PAGE = 1 } }
+		localization_key = MOD_FEATURES_TEXT_2
+	}
+}
+
+defined_text = {
+	name = GET_CLOSING_SCREEN_TEXT
+	text = {
+		trigger = { check_variable = { ENDING_INFO_PAGE = 0 } }
+		localization_key = CLOSING_SCREEN_TEXT_1
+	}
+	text = {
+		trigger = { check_variable = { ENDING_INFO_PAGE = 1 } }
+		localization_key = CLOSING_SCREEN_TEXT_2
+	}
+	text = {
+		trigger = { check_variable = { ENDING_INFO_PAGE = 2 } }
+		localization_key = CLOSING_SCREEN_TEXT_3
+	}
+}
+
+
+defined_text = {
+	name = GET_COUNTRY_INFO
+
+	text = {
+		trigger = { tag = POL }
+		localization_key = COUNTRY_INFO_VYATKA
+	}
+
+	## Default
+	text = {
+		localization_key = COUNTRY_INFO_NO_CONTENT
+	}
+
+}
+
+Gdefined_text = {
+	name = GET_REGIONAL_INFO
+
+	## MAZOVIA
+	text = {
+		trigger = {
+			is_central_russian_nation = yes
+		}
+		localization_key = REGIONAL_INFO_WEST_RUSSIA
+	}
+
+	## Default
+	text = {
+		localization_key = REGIONAL_INFO_NO_CONTENT
+	}
+}
+
+defined_text = {
+	name = GET_REGIONALSYMBOL
+
+	## West Russia
+	text = {
+		trigger = {
+			is_central_russian_nation = yes
+		}
+		localization_key = "GFX_PaF_OpeningScreen_Region_WEST_RUSSIA"
+	}
+	## Default
+	text = {
+		localization_key = "GFX_PaF_OpeningScreen_Region_EUROPE"
+	}
+}
+
+defined_text = {
+	name = GET_POSTER
+
+	## West Russia
+	text = {
+		trigger = { tag = POL }
+		localization_key = "GFX_PaF_OpeningScreen_Poster_Vyatka"
+	}
+	## Default
+	text = {
+		localization_key = "GFX_PaF_OpeningScreen_Poster_NoContent"
+	}
+}

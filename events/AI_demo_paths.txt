@@ -7,23 +7,22 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = {
-		is_ai = yes
 		original_tag = GLI
-		date > 2028.02.01 
+		date > 2027.04.01 
 		}
 
 	option = {
 		name = aievent.1.a #socdem
-		ai_chance = 40
+		ai_chance = { base = 40 }
+		set_country_leader_ideology = socialdemocrature_subtype	
 		set_politics = {
 			ruling_party = socialdemocrature
 			}
-		puppet = RUD
+
 	}
 	option = {
 		name = aievent.1.b #rajch
-		ai_chance = 60
-		puppet = FER
+		ai_chance = { base = 60 }
 	}
 }
 
@@ -34,7 +33,6 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = { 
-		is_ai = yes
 		original_tag = SOS
 		AND = { 
 			NOT = { 
@@ -46,14 +44,21 @@ country_event = {
 
 	option = {
 		name = aievent.2.a #dźwig
-		ai_chance = 30
+		ai_chance = { base = 30 }
+		set_country_leader_ideology = marxism_cranism_subtype
 		set_politics = {
 			ruling_party = marxism_cranism
 			}
+
+		set_party_name = { 
+			ideology = marxism_cranism 
+			long_name = "Polish Committe of National Liberation"
+			name = "PKWN"
+		}
 	}
 	option = {
 		name = aievent.2.b #socjaluch
-		ai_chance = 70
+		ai_chance = { base = 70 }
 
 	}
 }
@@ -65,7 +70,6 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = { 
-		is_ai = yes
 		original_tag = DGR
 		AND = { 
 			NOT = { 
@@ -77,26 +81,20 @@ country_event = {
 
 	option = {
 		name = aievent.3.a #dźwig
-		ai_chance = 50
+		ai_chance = { base = 50 }
 		set_politics = {
 			ruling_party = marxism_cranism
 			}
 	}
 	option = {
 		name = aievent.3.b #nazbol
-		ai_chance = 35
+		ai_chance = { base = 35 }
 		retire_ideology_leader = neonationalism
+		set_country_leader_ideology = neonationalism_subtype
 		set_politics = {
 			ruling_party = neonationalism
 			}
-		add_country_leader_role = {
-		  character = DGR_krzysztof_szwej
-		  promote_leader = yes
-		  country_leader = {
-			ideology = neonationalism
-			traits = { war_industrialist }
-		  }
-		}
+
 		set_party_name = { 
 			ideology = neonationalism 
 			long_name = "National People's Labour Party"
@@ -105,7 +103,7 @@ country_event = {
 	}
 	option = {
 		name = aievent.3.c #rasta
-		ai_chance = 15
+		ai_chance = { base = 15 }
 		set_politics = {
 			ruling_party = postpolonism
 			}
@@ -120,7 +118,6 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = { 
-		is_ai = yes
 		original_tag = JAW
 		AND = { 
 			NOT = { 
@@ -132,18 +129,16 @@ country_event = {
 
 	option = {
 		name = aievent.4.a #antifa
-		ai_chance = 70
+		ai_chance = { base = 70 }
 	}
 	option = {
 		name = aievent.4.b #razemki
-		ai_chance = 30
-		add_country_leader_role = {
-		  character = JAW_konieczny
-		  promote_leader = yes
-		  country_leader = {
-			ideology = squattism
+		ai_chance = { base = 30 }
+		JAW_konieczny = {
+		  promote_character = {
+			ideology = squattism_subtype
 		  }
-		}
+		 }
 		set_party_name = { 
 			ideology = squattism
 			long_name = "Together Party"
@@ -159,15 +154,39 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = { 
-		is_ai = yes
 		original_tag = SOS
-		date > 2027.12.01 
+		date > 2027.03.01 
 		}
 
 	option = {
 		name = aievent.5.a
-		CHO = { dismantle_faction = yes }
+		JAW = { leave_faction = yes }
+		DGR = { leave_faction = yes }
 		SOS = { dismantle_faction = yes }
+	}
+}
+
+country_event = {
+	id = aievent.6 #faction dismantling
+	title = aievent.6.t
+	desc = aievent.6.desc
+
+	fire_only_once = yes
+	trigger = { 
+		original_tag = CHO
+		date > 2027.03.01 
+		}
+
+	option = {
+		name = aievent.6.a
+		GLI = { leave_faction = yes }
+		FER = { leave_faction = yes }
+		RUD = { leave_faction = yes }
+		RAS = { leave_faction = yes }
+		TRC = { leave_faction = yes }
+		JSW = { leave_faction = yes }
+		KAT = { leave_faction = yes }
+		CHO = { dismantle_faction = yes }
 	}
 }
 
