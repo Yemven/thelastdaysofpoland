@@ -1383,6 +1383,435 @@ ai_war_decisions = {
 	}
 
 
+    NAC_pila_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = NAC
+			date > 2028.07.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = PUL
+		remove_effect  = {
+			create_wargoal = {
+				target = PIL
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			NAC = {
+				has_war_with = PIL
+			}
+		}
+	}
+	
+	
+	PIL_grodzisk_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = PIL
+			date > 2028.07.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = NAC
+		remove_effect  = {
+			create_wargoal = {
+				target = NAC
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			PIL = {
+				has_war_with = NAC
+			}
+		}
+	}
+	
+	
+	POZ_slums_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = poz
+			date > 2028.04.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = slu
+		remove_effect  = {
+			create_wargoal = {
+				target = SLU
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			POZ = {
+				has_war_with = SLU
+			}
+		}
+	}
+	
+	
+	SYJ_slums_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = SYJ
+			date > 2028.04.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = FEL
+		remove_effect  = {
+			create_wargoal = {
+				target = SLU
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			SYJ = {
+				has_war_with = SLU
+			}
+		}
+	}
+	
+	
+	POZ_syjon_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = POZ
+			date > 2028.06.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = SYJ
+		remove_effect  = {
+			create_wargoal = {
+				target = SYJ
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			POZ = {
+				has_war_with = SYJ
+			}
+		}
+	}
+	
+	
+	SYJ_jaskowiak_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = SYJ
+			date > 2028.06.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = POZ
+		remove_effect  = {
+			create_wargoal = {
+				target = POZ
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			SYJ = {
+				has_war_with = POZ
+			}
+		}
+	}
+	
+	
+	POZ_pila_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = POZ
+			date > 2028.12.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = PIL
+		remove_effect  = {
+			create_wargoal = {
+				target = PIL
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			POZ = {
+				has_war_with = PIL
+			}
+		}
+	}
+	
+	POZ_grodzisk_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = POZ
+			date > 2028.12.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = NAC
+		remove_effect  = {
+			create_wargoal = {
+				target = NAC
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			POZ = {
+				has_war_with = NAC
+			}
+		}
+	}
+	
+	SYJ_pila_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = POZ
+			date > 2028.12.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = PIL
+		remove_effect  = {
+			create_wargoal = {
+				target = PIL
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			SYJ = {
+				has_war_with = PIL
+			}
+		}
+	}
+	
+	SYJ_grodzisk_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = SYJ
+			date > 2028.12.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = NAC
+		remove_effect  = {
+			create_wargoal = {
+				target = NAC
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			SYJ = {
+				has_war_with = NAC
+			}
+		}
+	}
+	
+	
+	PIL_jaskowiak_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = POZ
+			date > 2028.12.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = POZ
+		remove_effect  = {
+			create_wargoal = {
+				target = POZ
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			PIL = {
+				has_war_with = POZ
+			}
+		}
+	}
+	
+	PIL_syjon_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = PIL
+			date > 2028.12.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = SYJ
+		remove_effect  = {
+			create_wargoal = {
+				target = SYJ
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			PIL = {
+				has_war_with = SYJ
+			}
+		}
+	}
+	
+	
+	NAC_jaskowiak_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = NAC
+			date > 2028.12.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = POZ
+		remove_effect  = {
+			create_wargoal = {
+				target = POZ
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			NAC = {
+				has_war_with = POZ
+			}
+		}
+	}
+	
+	NAC_syjon_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = NAC
+			date > 2028.12.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = SYJ
+		remove_effect  = {
+			create_wargoal = {
+				target = SYJ
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			NAC = {
+				has_war_with = SYJ
+			}
+		}
+	}
+	
+	
 	CRN_east_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
