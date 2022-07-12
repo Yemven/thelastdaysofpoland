@@ -134,13 +134,11 @@ country_event = {
 	option = {
 		name = aievent.4.b #razemki
 		ai_chance = { base = 30 }
-		JAW_konieczny = {
-		  promote_character = {
-			ideology = squattism_subtype
-		  }
-		 }
+		set_politics = {
+			ruling_party = socialdemocrature
+			}
 		set_party_name = { 
-			ideology = squattism
+			ideology = socialdemocrature
 			long_name = "Together Party"
 			name = "Razem"
 		}
