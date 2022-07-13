@@ -1,0 +1,21 @@
+﻿add_namespace = tou
+
+country_event = {
+	id = tou.1
+	title = tou.1.t
+	desc = tou.1.desc
+	picture = GFX_event_tou1
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = tou.1.a 
+			hidden_effect = {
+				
+					}
+				}
+
+			}	
+	}
+}

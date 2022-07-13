@@ -1,15 +1,58 @@
 ﻿capital = 460
 
+add_manpower = 2000
+
 # Starting tech
 set_technology = {
 		melee_weapons = 1  
- ranged_weapons = 1
+		ranged_weapons_upgrade = 1
+		ranged_weapons = 1
+		ranged_weapons1 = 1
+		infantry_training = 1
+		infantry_armor = 1
+		ballistic_vests = 1
+		
+		tech_support = 1
+		basic_train = 1
+		
+		light_artillery = 1
+		light_artillery1 = 1
+		
+		primitive_aircraft = 1
+		fighter_0 = 1
+		china_drone = 1
+		drone_0 = 1
 }
-add_manpower = 2000
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = { 
+		nsb_bicycle = 1
+		nsb_truck_1 = 1
+		nsb_sidecar = 1
+		nsb_mbt_0 = 1
+}
+}
+
+if = {
+	limit = {
+		NOT = {
+		has_dlc = "No Step Back"
+		}
+	}
+	set_technology = { 
+		bicycle = 1
+		truck_1 = 1
+		sidecar = 1
+		mbt_0 = 1
+	}
+}
+
 oob = "DGR_2027"
 set_research_slots = 2
 set_convoys = 20
-
 recruit_character = DGR_bas_tajpan
 recruit_character = DGR_krzysztof_szwej
 recruit_character = DGR_popeye

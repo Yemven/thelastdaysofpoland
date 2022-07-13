@@ -5,7 +5,9 @@ state={
 	provinces={
 		2943 3309 8833 8859 8860 8861 8863
 	}
-	manpower = 12435   state_category = city
+	manpower = 12435 
+resources={
+		coal = 26 }  state_category = city
 	buildings_max_level_factor=1.000
 	history = {
 		owner = ZUK
