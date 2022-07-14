@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		CRN_debuff = {
+			allowed = {
+				original_tag = CRN
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture =
+			modifier = {
+				surrender_limit = -0.3
+			}
+		}
+	}
+}

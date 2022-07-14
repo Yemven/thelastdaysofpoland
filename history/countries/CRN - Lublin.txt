@@ -58,12 +58,14 @@ recruit_character = CRN_Tomasz_Pitucha
 recruit_character = CRN_Stanislaw_Budzik
 
 add_ideas = {
+	CRN_debuff
+
 	CRN_min_Lech_Sprawka
 	CRN_min_Sylwester_Tulajew
 	CRN_min_Artur_Sobon
 	CRN_min_Tomasz_Pitucha
 
-	monoparty
+	regime_council
 	state_press
 	basic_security
 	partial_refundation
@@ -78,6 +80,7 @@ add_ideas = {
 	drugs_all_penalised
 	women_traditional_roles
 	minorities_hidden_oppresion
+	state_religion
 }
 
 set_politics = {
