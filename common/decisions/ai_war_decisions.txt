@@ -554,7 +554,7 @@ ai_war_decisions = {
 					WOD = { num_of_controlled_states < 1 }
 					JSW = { num_of_controlled_states < 1 }
 			}
-			has_global_flag = EKS_collapsed
+			date > 2028.01.01 
 		}
 
 		cost = 1
