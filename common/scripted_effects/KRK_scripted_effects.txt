@@ -1,0 +1,143 @@
+
+KRK_cw_KRA = {
+	hidden_effect = {
+		KRA = {
+			add_state_core = 572
+			add_state_core = 571
+			add_state_core = 724
+			add_state_core = 770
+		}
+
+		KRK = {
+			leave_faction = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = KRA }
+			KRA = { transfer_state = PREV }
+		}
+	}
+}
+
+KRK_cw_BRK = {
+	hidden_effect = {
+		BRK = {
+			add_state_core = 721
+			add_state_core = 722
+			add_state_core = 723
+			add_state_core = 569
+		}
+
+		KRK = {
+			leave_faction = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = BRK }
+			BRK = { transfer_state = PREV }
+		}
+	}
+}
+
+KRK_cw_WND = {
+	hidden_effect = {
+		WND = {
+			add_state_core = 575
+			add_state_core = 773
+			add_state_core = 772
+		}
+
+		KRK = {
+			leave_faction = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = WND }
+			WND = { transfer_state = PREV }
+		}
+	}
+}
+
+KRK_scjento_UJ = {
+	hidden_effect = {
+		UJG = {
+			add_state_core = 721
+			add_state_core = 722
+			add_state_core = 723
+			add_state_core = 569
+			add_state_core = 506
+			add_state_core = 514
+			add_state_core = 570
+		}
+
+		KRK = {
+			leave_faction = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = UJG }
+			UJG = { transfer_state = PREV }
+		}
+	}
+}
+
+KRK_scjento_AGH = {
+	hidden_effect = {
+		AGH = {
+			add_state_core = 575
+			add_state_core = 773
+			add_state_core = 772
+			add_state_core = 572
+			add_state_core = 571
+			add_state_core = 724
+			add_state_core = 770
+			add_state_core = 774			
+			add_state_core = 771
+
+		}
+
+		KRK = {
+			leave_faction = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = AGH }
+			AGH = { transfer_state = PREV }
+		}
+	}
+}
+
+
+KRK_krul_maklowicz = {
+	hidden_effect = {
+		HAB = {
+			add_state_core = 575
+			add_state_core = 773
+			add_state_core = 772
+			add_state_core = 572
+			add_state_core = 571
+			add_state_core = 724
+			add_state_core = 770
+			add_state_core = 774			
+			add_state_core = 771
+			add_state_core = 721
+			add_state_core = 722
+			add_state_core = 723
+			add_state_core = 569
+			add_state_core = 506
+			add_state_core = 514
+			add_state_core = 570
+		}
+
+		KRK = {
+			leave_faction = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = HAB }
+			HAB = { transfer_state = PREV }
+		}
+	}
+}
+
+

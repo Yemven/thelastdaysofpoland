@@ -203,8 +203,8 @@ focus_tree = {
 		id = ZYD_pitches_of_prayer
 		icon = ZYD_pitches_of_prayer
 		relative_position_id = ZYD_eleven_felash
-		prerequisite = { focus = ZYD_eleven_sons_of_labour }
-		prerequisite = { focus = ZYD_eleven_felash }
+		prerequisite = { focus = ZYD_eleven_sons_of_labour 
+						 focus = ZYD_eleven_felash }
 		available = {
 		
 		}
@@ -316,8 +316,8 @@ focus_tree = {
 		id = ZYD_alcohol_rationing
 		icon = ZYD_alcohol
 		relative_position_id = ZYD_the_decalogue_upgrade
-		prerequisite = { focus = ZYD_the_decalogue_upgrade }
-		prerequisite = { focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes }
+		prerequisite = { focus = ZYD_the_decalogue_upgrade 
+						 focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes }
 		available = {
 		
 		}
@@ -429,8 +429,8 @@ focus_tree = {
 		id = ZYD_usury_as_an_alternative_to_robbery
 		icon = ZYD_usury_as_an_alternative_to_robbery
 		relative_position_id = ZYD_the_kibbutz_reform
-		prerequisite = { focus = ZYD_sending_widzewiaks_to_factories }
-		prerequisite = { focus = ZYD_the_kibbutz_reform }
+		prerequisite = { focus = ZYD_sending_widzewiaks_to_factories 
+						 focus = ZYD_the_kibbutz_reform }
 		available = {
 		
 		}
@@ -610,8 +610,8 @@ focus_tree = {
 		id = ZYD_sharpening_the_old_sticks
 		icon = ZYD_sharpening_the_old_sticks
 		relative_position_id = ZYD_rabbis_as_commanders
-		prerequisite = { focus = ZYD_davids_army }
-		prerequisite = { focus = ZYD_restoration_of_discipline }
+		prerequisite = { focus = ZYD_davids_army 
+						 focus = ZYD_restoration_of_discipline }
 		available = {
 		
 		}

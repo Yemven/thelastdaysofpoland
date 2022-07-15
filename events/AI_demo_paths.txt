@@ -8,7 +8,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		original_tag = GLI
-		date > 2027.04.01 
+		date > 2027.12.31 
 		}
 
 	option = {
@@ -35,12 +35,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = { 
 		original_tag = SOS
-		AND = { 
-			NOT = { 
-				country_exists = JAW
-				country_exists = DGR
-			}
-		}
+		date > 2027.12.31
 	}
 
 	option = {
@@ -74,12 +69,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = { 
 		original_tag = DGR
-		AND = { 
-			NOT = { 
-				country_exists = SOS
-				country_exists = JAW
-			}
-		}
+		can_unify_zaglebie = yes
 	}
 
 	option = {
@@ -123,12 +113,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = { 
 		original_tag = JAW
-		AND = { 
-			NOT = { 
-				country_exists = SOS
-				country_exists = DGR
-			}
-		}
+		can_unify_zaglebie = yes
 	}
 
 	option = {
@@ -159,7 +144,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = { 
 		original_tag = SOS
-		date > 2027.03.01 
+		date > 2027.12.01 
 		}
 
 	option = {
@@ -178,7 +163,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = { 
 		original_tag = CHO
-		date > 2027.03.01 
+		date > 2027.12.01 
 		}
 
 	option = {
@@ -194,4 +179,419 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = aievent.7 #brzeczek clubism
+	title = aievent.7.t
+	desc = aievent.7.desc
 
+	fire_only_once = yes
+	trigger = { 
+		original_tag = BRZ
+		date > 2027.06.30
+	}
+
+	option = {
+		name = aievent.7.a #dźwig
+		set_politics = {
+			ruling_party = marxism_cranism
+			}
+		set_popularities = {
+			marxism_cranism	= 56
+			squattism = 14
+			socialdemocrature = 15
+			euroliberalism = 0
+			freemarketism = 0
+			paternal_conservatism = 4
+			autocracy = 0
+			corporativism = 0
+			neonationalism = 8
+			reactionary = 3
+			postpolonism = 0
+		}
+	}
+}
+
+country_event = {
+	id = aievent.8 #czestochowa
+	title = aievent.8.t
+	desc = aievent.8.desc
+
+	fire_only_once = yes
+	trigger = { 
+		original_tag = CCH
+		date > 2027.06.01
+	}
+
+	option = {
+		name = aievent.8.a #paulini-moderate
+		ai_chance = { base = 10 }
+		set_politics = {
+			ruling_party = paternal_conservatism
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 14
+			euroliberalism = 0
+			freemarketism = 0
+			paternal_conservatism = 60
+			autocracy = 0
+			corporativism = 0
+			neonationalism = 10
+			reactionary = 11
+			postpolonism = 5
+		}
+	}
+	option = {
+		name = aievent.8.b #joannici
+		ai_chance = { base = 30 }
+		set_politics = {
+			ruling_party = socialdemocrature
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 50
+			euroliberalism = 0
+			freemarketism = 0
+			paternal_conservatism = 24
+			autocracy = 0
+			corporativism = 0
+			neonationalism = 10
+			reactionary = 11
+			postpolonism = 5
+		}
+	}
+	option = {
+		name = aievent.8.c #paulini-krzyzowcy
+		ai_chance = { base = 60 }
+		set_politics = {
+			ruling_party = reactionary
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 14
+			euroliberalism = 0
+			freemarketism = 0
+			paternal_conservatism = 24
+			autocracy = 0
+			corporativism = 0
+			neonationalism = 10
+			reactionary = 47
+			postpolonism = 5
+		}
+	}
+}
+
+
+
+country_event = {
+	id = aievent.9 #zawiercie
+	title = aievent.9.t
+	desc = aievent.9.desc
+
+	fire_only_once = yes
+	trigger = { 
+		original_tag = ZAW
+		date > 2027.07.01
+	}
+
+	option = {
+		name = aievent.9.a #goowiniarz
+		ai_chance = { base = 70 }
+		set_politics = {
+			ruling_party = paternal_conservatism
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 0
+			euroliberalism = 9
+			freemarketism = 11
+			paternal_conservatism = 57
+			autocracy = 9
+			corporativism = 0
+			neonationalism = 9
+			reactionary = 5
+			postpolonism = 0
+		}
+	}
+	option = {
+		name = aievent.9.b #janoska
+		ai_chance = { base = 15 }
+		set_politics = {
+			ruling_party = neonationalism
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 0
+			euroliberalism = 18
+			freemarketism = 11
+			paternal_conservatism = 19
+			autocracy = 9
+			corporativism = 0
+			neonationalism = 38
+			reactionary = 5
+			postpolonism = 0
+		}
+	}
+	option = {
+		name = aievent.9.c #van-der-coghen
+		ai_chance = { base = 15 }
+		set_politics = {
+			ruling_party = euroliberalism
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 0
+			euroliberalism = 38
+			freemarketism = 11
+			paternal_conservatism = 19
+			autocracy = 9
+			corporativism = 0
+			neonationalism = 18
+			reactionary = 5
+			postpolonism = 0
+		}
+	}
+}
+
+
+country_event = {
+	id = aievent.10 #katovice
+	title = aievent.10.t
+	desc = aievent.10.desc
+
+	fire_only_once = yes
+	trigger = { 
+		original_tag = KAT
+		date > 2027.12.01
+	}
+
+	option = {
+		name = aievent.10.a #b0ris
+		ai_chance = { base = 50 }
+		set_politics = {
+			ruling_party = euroliberalism
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 10
+			socialdemocrature = 0
+			euroliberalism = 52
+			freemarketism = 13
+			paternal_conservatism = 20
+			autocracy = 0
+			corporativism = 5
+			neonationalism = 0
+			reactionary = 0
+			postpolonism = 0
+		}
+	}
+	option = {
+		name = aievent.10.b #sosna-junior
+		ai_chance = { base = 25 }
+		set_politics = {
+			ruling_party = freemarketism
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 10
+			socialdemocrature = 0
+			euroliberalism = 37
+			freemarketism = 28
+			paternal_conservatism = 20
+			autocracy = 0
+			corporativism = 5
+			neonationalism = 0
+			reactionary = 0
+			postpolonism = 0
+		}
+	}
+	option = {
+		name = aievent.10.c #sosna-senior
+		ai_chance = { base = 25 }
+		set_politics = {
+			ruling_party = paternal_conservatism
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 10
+			socialdemocrature = 0
+			euroliberalism = 37
+			freemarketism = 13
+			paternal_conservatism = 35
+			autocracy = 0
+			corporativism = 5
+			neonationalism = 0
+			reactionary = 0
+			postpolonism = 0
+		}
+	}
+}
+
+
+country_event = {
+	id = aievent.11 #kraków
+	title = aievent.11.t
+	desc = aievent.11.desc
+
+	fire_only_once = yes
+	trigger = { 
+		original_tag = KRK
+		date > 2027.12.01
+	}
+
+	option = {
+		name = aievent.11.a #demokracja
+		ai_chance = { base = 50 }
+		KRK = { 
+			country_event = {
+				id = aievent.12
+				}
+		}
+	}
+	option = {
+		name = aievent.11.b #scjentokracja
+		ai_chance = { base = 25 }
+		KRK = { 
+			country_event = {
+				id = aievent.13
+				}
+		}
+	}
+	option = {
+		name = aievent.11.c #monarchia
+		ai_chance = { base = 25 }
+		KRK = { 
+			country_event = {
+				id = aievent.14
+				}
+		}
+	}
+}
+
+
+country_event = {
+	id = aievent.12 #kraków-demokracja-cw
+	title = aievent.12.t
+	desc = aievent.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = aievent.12.a #demokracja
+		KRK_cw_KRA = yes
+		KRK_cw_BRK = yes
+		KRK_cw_WND = yes
+		KRK = {
+			declare_war_on = {
+				target = KRA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BRK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = WND
+				type = annex_everything
+			}
+		}
+		WND = {
+			declare_war_on = {
+				target = KRA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BRK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KRK
+				type = annex_everything
+			}
+		}
+		BRK = {
+			declare_war_on = {
+				target = KRA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KRK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = WND
+				type = annex_everything
+			}
+		}
+		KRA = {
+			declare_war_on = {
+				target = KRK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BRK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = WND
+				type = annex_everything
+			}
+		}
+	}
+}
+
+country_event = {
+	id = aievent.13 #kraków-scjentokracja-cw
+	title = aievent.13.t
+	desc = aievent.13.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = aievent.13.a 
+		KRK_scjento_UJ = yes
+		KRK_scjento_AGH = yes
+		AGH = {
+			declare_war_on = {
+				target = UJG
+				type = annex_everything
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = aievent.14 #kraków
+	title = aievent.14.t
+	desc = aievent.14.desc
+
+	fire_only_once = yes
+	trigger = { 
+		original_tag = KRK
+		date > 2027.12.01
+	}
+
+	option = {
+		name = aievent.14.a #jacek-krul
+		ai_chance = { base = 50 }
+		KRK = {
+		set_politics = {
+			ruling_party = autocracy
+			}
+		}		
+	}
+	option = {
+		name = aievent.14.b #maklowicz
+		ai_chance = { base = 25 }
+		KRK_krul_maklowicz = yes
+	}
+}

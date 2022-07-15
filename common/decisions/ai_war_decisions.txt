@@ -30,7 +30,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 14
+		days_remove = 21
 		remove_effect  = {
 			every_country = {
 				limit = {
@@ -92,7 +92,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 14
+		days_remove = 21
 		remove_effect  = {
 			every_country = {
 				limit = {
@@ -165,7 +165,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 14
+		days_remove = 21
 		remove_effect  = {
 			every_country = {
 				limit = {
@@ -239,7 +239,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 14
+		days_remove = 21
 		remove_effect  = {
 			every_country = {
 				limit = {
@@ -347,7 +347,7 @@ ai_war_decisions = {
 
 		available = {
 				tag = CCH
-				date > 2027.03.01
+				date > 2028.03.01
 		}
 
 		cost = 1
@@ -372,7 +372,7 @@ ai_war_decisions = {
 
 		available = {
 				tag = ZAW
-				date > 2027.03.01
+				date > 2028.03.01
 		}
 
 		cost = 1
@@ -397,7 +397,7 @@ ai_war_decisions = {
 
 		available = {
 				tag = BRZ
-				date > 2027.04.01
+				date > 2028.03.01
 		}
 
 		cost = 1
@@ -406,7 +406,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 14
+		days_remove = 3
 		war_with_on_remove = JWK
 		remove_effect  = {
 			declare_war_on = {
@@ -448,6 +448,7 @@ ai_war_decisions = {
 			}
 		}
 	}
+	
 	CCH_north_jura_war_2 = {
 
 		icon = GFX_decision_generic_form_nation
@@ -479,6 +480,7 @@ ai_war_decisions = {
 			}
 		}
 	}	
+	
 	BRZ_north_jura_war = {
 
 		icon = GFX_decision_generic_form_nation
@@ -494,7 +496,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 14
+		days_remove = 28
 		war_with_on_remove = CCH
 		war_with_on_remove = ZAW
 		remove_effect  = {
@@ -524,7 +526,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 14
+		days_remove = 28
 		war_with_on_remove = CCH
 		war_with_on_remove = ZAW
 		remove_effect  = {
@@ -552,6 +554,7 @@ ai_war_decisions = {
 					WOD = { num_of_controlled_states < 1 }
 					JSW = { num_of_controlled_states < 1 }
 			}
+			has_global_flag = EKS_collapsed
 		}
 
 		cost = 1
@@ -560,7 +563,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 14
+		days_remove = 45
 		remove_effect  = {
 		if = { limit = { NOT =  {country_exists = ASG} }
 			declare_war_on = {
@@ -773,7 +776,7 @@ ai_war_decisions = {
 
 		available = {
 			tag = CHO
-			date > 2027.04.14
+			date > 2028.02.14
 		}
 
 		cost = 1
@@ -797,7 +800,7 @@ ai_war_decisions = {
 
 		available = {
 			tag = RAS
-			date > 2027.04.14
+			date > 2028.02.17
 		}
 
 		cost = 1
@@ -822,7 +825,7 @@ ai_war_decisions = {
 
 		available = {
 			tag = GLI
-			date > 2027.04.30
+			date > 2028.02.30
 		}
 
 		cost = 1
@@ -847,7 +850,7 @@ ai_war_decisions = {
 
 		available = {
 			tag = KAT
-			date > 2027.04.01
+			date > 2028.03.01
 		}
 
 		cost = 1
@@ -856,7 +859,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 14
+		days_remove = 3
 		war_with_on_remove = ASG
 		remove_effect  = {
 			declare_war_on = {
@@ -872,7 +875,7 @@ ai_war_decisions = {
 
 		available = {
 			tag = WOD
-			date > 2027.04.01
+			date > 2028.04.01
 		}
 
 		cost = 1
@@ -898,7 +901,7 @@ ai_war_decisions = {
 
 		available = {
 			tag = SOS
-			date > 2027.04.01
+			date > 2028.02.01
 		}
 
 		cost = 1
@@ -928,7 +931,7 @@ ai_war_decisions = {
 
 		available = {
 			tag = DGR
-			date > 2027.04.01
+			date > 2028.02.01
 			SOS = { has_war_with = JAW }
 		}
 
