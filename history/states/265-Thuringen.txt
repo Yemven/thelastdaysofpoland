@@ -2,17 +2,25 @@
 state={
 	id=265
 	name="STATE_265"
-	provinces={
-		132 276 335 438 647 688 762 869 915 1015 1054 1183 1440 1789 1833 1860 2152 2286 3025 3249 3296 3992 
-	}
-	manpower = 1405676   state_category = large_city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = GER
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = GER
-	buildings = {
-	infrastructure = 8
-}
-}
+		buildings = {
+			infrastructure = 8
+
+		}
+
+	}
+
+	provinces={
+		438 647 688 762 869 915 1015 1054 1183 1860 3025 3249 3296 3992 
+	}
+	manpower=1405676
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

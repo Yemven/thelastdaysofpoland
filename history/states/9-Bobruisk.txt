@@ -2,17 +2,25 @@
 state={
 	id=9
 	name="STATE_9"
-	provinces={
-		77 94 313 365 599 623 1104 1365 1420 1858 2016 2252 2612 2765 2815 2931 3144 3446 
-	}
-	manpower = 249659   state_category = large_city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = RUS
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = RUS
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		77 94 313 365 623 1104 1365 1420 1858 2016 2252 2612 2815 2931 3144 3446 
+	}
+	manpower=249659
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }
