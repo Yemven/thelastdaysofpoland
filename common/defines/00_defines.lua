@@ -209,7 +209,7 @@ NCountry = {
 	WAR_SUPPORT_OFFNSIVE_WAR = -0.2,				-- Impact of being in offensive war
 	WAR_SUPPORT_DEFENSIVE_WAR = 0.3,				-- Impact of being in defensive war
 	WAR_SUPPORT_TENSION_IMPACT = 0.3,				-- Total impact of world tension
-	MIN_STABILITY = 0.0,
+	MIN_STABILITY = -1.0,
 	MAX_STABILITY = 1.0,
 	MIN_WAR_SUPPORT = 0.0,
 	MAX_WAR_SUPPORT = 1.0,
@@ -3578,7 +3578,7 @@ NAITheatre = {
 	AI_THEATRE_GENERATION_HOME_THEATRE_DEPTH_RESTRICTION = 2,			-- The home theatre is generated based off a initial depth restriction
 	AI_THEATRE_GENERATION_BORDER_SIZE_RESTRICTION = 7,					-- Theatres are generated based off borders, Higher value means larger theatres
 	AI_THEATRE_GENERATION_DEPTH_TO_START_CONSIDERING_BORDERSTATES = 2,	-- Distance from capital in terms of states
-	AI_THEATRE_GENERATION_MINIMUM_STATE_COUNT = 3,						-- Small Theatres - Minimum state count for a theatre
+	AI_THEATRE_GENERATION_MINIMUM_STATE_COUNT = 1,						-- Small Theatres - Minimum state count for a theatre
 	AI_THEATRE_GENERATION_MAX_DISTANCE_TO_MERGE = 200,					-- Small Theatres - Dont merge with too far away theatres, higher value means less merging will occur
 	AI_THEATRE_GENERATION_MAX_DISTANCE_TO_FILL = 350,					-- Final generation step - Max distance to fill states, higher values means less theatres
 
@@ -3589,7 +3589,7 @@ NAITheatre = {
 
 	AI_THEATRE_STATE_UPDATE_MAX_STATE_COUNT_TO_EXPAND = 25,				-- Max theatre size
 
-	AI_THEATRE_BREAKDOWN_MIN_STATE_COUNT = 3,							-- Theatres below this size will break and merge with others
+	AI_THEATRE_BREAKDOWN_MIN_STATE_COUNT = 1,							-- Theatres below this size will break and merge with others
 	AI_THEATRE_BREAKDOWN_MAX_DISTANCE_TO_MERGE = 200,					-- Dont merge with too far away theatres, higher value means less merging will occur
 
 	AI_THEATRE_PERCENTAGE_OF_UNITS_TO_KEEP_IN_NEIGHBOR_DEFENSIVE_ORDERS = 0.05, -- Percentage of units to keep in neighbor defensive orders from war fronts

@@ -50,9 +50,17 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.2.a
-			country_event = {
-			id = ekwrozpad.3
-			days = 2
+			EKW = {
+				country_event = {
+				id = ekwrozpad.3
+				days = 2
+				}
+			}
+			JOM = { 
+				country_event = {
+				id = ekwrozpad.13
+				days = 10
+				}
 			}
 	}
 }
@@ -86,10 +94,18 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.3.a
-		country_event = {
-			id = ekwrozpad.4
-			days = 2
+		EKW = {
+			country_event = {
+				id = ekwrozpad.4
+				days = 2
+				}
+		}
+		USP = {
+			country_event = {
+			id = ekwrozpad.14
+			days = 14
 			}
+		}
 	}
 }
 country_event = {
@@ -448,5 +464,43 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.12.a
+	}
+}
+
+country_event = {
+	id = ekwrozpad.13
+	title = ekwrozpad.13.t
+	desc = ekwrozpad.13.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ekwrozpad.13.a
+		JOM = {
+			declare_war_on = {
+				target = POM
+				type = annex_everything
+			}
+		}
+	}
+}
+
+country_event = {
+	id = ekwrozpad.14
+	title = ekwrozpad.14.t
+	desc = ekwrozpad.14.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ekwrozpad.14.a
+		USP = {	
+			declare_war_on = {
+				target = KOS
+				type = annex_everything
+			}
+		}
 	}
 }
