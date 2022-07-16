@@ -7,3 +7,29 @@ defined_text = {
 		localization_key = WAR_CONCLUSION
 	}
 }
+
+defined_text = {
+	name = GetWinner
+	text = {
+		trigger = {
+			has_global_flag = winning_country_multiple
+		}
+		localization_key = WAR_WINNERS
+	}
+	text = {
+		localization_key = WAR_WINNER
+	}
+}
+
+defined_text = {
+	name = GetLoser
+	text = {
+		trigger = {
+			has_global_flag = losing_country_multiple
+		}
+		localization_key = WAR_LOSERS
+	}
+	text = {
+		localization_key = WAR_LOSER
+	}
+}
