@@ -218,8 +218,8 @@ armor_generic = {
 			modifier = {
 				factor = 4
 				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+					has_tech = nsb_mbt_0
+					has_tech = mbt_0
 				}
 			}
 		}
@@ -312,7 +312,10 @@ armor_generic = {
 
 			modifier = {
 				factor = 4
-				has_tech = armored_car1
+				or = {
+					has_tech = armored_car_1
+					has_tech = nsb_armored_car_1
+				}
 			}
 		}
 		
@@ -792,13 +795,19 @@ infantry_big_generic = {
 
 		modifier = {
 			factor = 0
-
+			
 			OR = {
 				date < 1938.1.1
-				stockpile_ratio = { 
-	  				archetype = infantry_equipment
-	  				ratio < 4
-	  			}
+				and = {
+					stockpile_ratio = { 
+						archetype = ranged_equipment
+						ratio < 4
+					}
+					stockpile_ratio = { 
+						archetype = melee_equipment
+						ratio < 4
+					}
+				}
 	  		}
 		}
 	}
@@ -815,10 +824,16 @@ infantry_big_generic = {
 
 				OR = {
 					date < 1938.1.1
-					stockpile_ratio = { 
-		  				archetype = infantry_equipment
-		  				ratio < 4
-		  			}
+					and = {
+						stockpile_ratio = { 
+							archetype = ranged_equipment
+							ratio < 4
+						}
+						stockpile_ratio = { 
+							archetype = melee_equipment
+							ratio < 4
+						}
+					}
 		  		}
 			}
 		}
