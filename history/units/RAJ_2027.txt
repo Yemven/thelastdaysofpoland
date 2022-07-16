@@ -1,0 +1,57 @@
+division_template = {
+	name = "Piraci jeziorni"
+	regiments = {
+		marines = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Szczury lądowe"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Bukanierzy Jegrznieccy"
+		location = 10171
+		division_template = "Piraci jeziorni"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Załoga Ełcka"
+		location = 10156
+		division_template = "Piraci jeziorni"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Łowcy Skarbów i Draży"
+		location = 10161
+		division_template = "Piraci jeziorni"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Korsarze Rajgrodzcy"
+		location = 10143
+		division_template = "Piraci jeziorni"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Szczury Lądowe"
+		location = 10158
+		division_template = "Szczury lądowe"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+}
+	

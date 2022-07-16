@@ -1,0 +1,58 @@
+division_template = {
+	name = "Jednostka Straży Granicznej"
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		elite_infantry = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		elite_infantry = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		elite_infantry = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		elite_infantry = { x = 4 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Jednostka ochotnicza"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1 Jednostka Funkcjonariuszy Placówki Straży Granicznej w Lipsku"
+		location = 11838
+		division_template = "Jednostka Straży Granicznej"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "2 Jednostka Funkcjonariuszy Placówki Straży Granicznej w Lipsku"
+		location = 11832
+		division_template = "Jednostka Straży Granicznej"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Funkcjonariusze Placówki Straży Granicznej w Płaskiej"
+		location = 11837
+		division_template = "Jednostka Straży Granicznej"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Ochotnicza Jednostka Podlaskiego Oddziału Straży Granicznej"
+		location = 11844
+		division_template = "Jednostka ochotnicza"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}
+	
