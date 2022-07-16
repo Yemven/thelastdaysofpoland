@@ -115,7 +115,11 @@ guiTypes = {
 			spriteType = "GFX_SE_ZYD_LKS"
 			position = { x = 0 y = 0 }
 		}
-
+		iconType = {
+			name ="ZERO_super_image"
+			spriteType = "GFX_SE_ZERO"
+			position = { x = 0 y = 0 }
+		}
 	
 		buttonType = {
             name = "Super_Event_Close"

@@ -54,6 +54,12 @@ news_event = {
 
 	option = {
 		name = ziobro.3.a
+        set_global_flag = Super_Event_Visible
+        set_global_flag = ZERO_super_visible
+
+		hidden_effect = {
+			sound_effect = "ZERO_super"
+		}
 	}
 }
 
@@ -67,6 +73,12 @@ news_event = {
 
 	option = {
 		name = ziobro.4.a
+        set_global_flag = Super_Event_Visible
+        set_global_flag = ZERO_super_visible
+
+		hidden_effect = {
+			sound_effect = "ZERO_super"
+		}
 	}
 }
 
