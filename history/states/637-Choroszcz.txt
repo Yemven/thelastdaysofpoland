@@ -5,9 +5,12 @@ state={
 
 	history={
 		owner = TNO
-		victory_points = { 9575 30 }
-		victory_points = { 9577 20 }
-		
+		victory_points = {
+			9575 30 
+		}
+		victory_points = {
+			9577 20 
+		}
 		add_core_of = TNO
 		buildings = {
 			infrastructure = 5
@@ -19,7 +22,7 @@ state={
 	}
 
 	provinces={
-		2127 3641 9575 9577 9828 9829 9830 9831 9832 9833 9834 9835 
+		2127 3641 9575 9577 9817 9823 9828 9829 9830 9831 9832 9833 9834 9835 
 	}
 	manpower=14528
 	buildings_max_level_factor=1.000
