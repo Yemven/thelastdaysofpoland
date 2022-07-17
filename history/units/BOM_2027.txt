@@ -26,7 +26,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
-
+	
 	division = {
 		name = "2 Brygada Bombaska"
 		location = 1063
@@ -39,6 +39,22 @@ units = {
 		name = "Wolni Strzelcy Bombascy"
 		location = 739
 		division_template = "Strzelcy Bombascy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Strzelcy z Wasilkowa"
+		location = 11723
+		division_template = "Strzelcy Bombascy"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3 Brygada Bombaska"
+		location = 11707
+		division_template = "Bojówki Bombaskie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
