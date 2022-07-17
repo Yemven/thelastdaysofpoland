@@ -8,12 +8,31 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Sily Paradku"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Levied Infantry"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
 units = {
     division = {
 		name = "1 Piachotny Bataĺjon"
-		location = 9615
+		location = 9613
 		division_template = "Piachotny Bataĺjon"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 
@@ -21,7 +40,23 @@ units = {
 		name = "2 Piachotny Bataĺjon"
 		location = 9622
 		division_template = "Piachotny Bataĺjon"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Ahrehat AMAP"
+		location = 9594
+		division_template = "Sily Paradku"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Addziel pa pacyfikacyi poĺskamoŭnych rajonaŭ"
+		location = 9615
+		division_template = "Sily Paradku"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	
@@ -29,15 +64,15 @@ units = {
 		name = "3 Piachotny Bataĺjon"
 		location = 9636
 		division_template = "Piachotny Bataĺjon"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "4 Piachotny Bataĺjon"
-		location = 9602
-		division_template = "Piachotny Bataĺjon"
-		start_experience_factor = 0.1
+		name = "Poĺski Sumiežny Bataĺjon"
+		location = 3007
+		division_template = "Levied Infantry"
+		start_experience_factor = 0.0
 		start_equipment_factor = 1.0
 	}
 	

@@ -1,0 +1,70 @@
+division_template = {
+	name = "Bandyci"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		melee_infantry = { x = 1 y = 0 }
+		militia = { x = 2 y = 0 }
+		melee_infantry = { x = 2 y = 1 }
+		melee_infantry = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Nożownicy"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kapłani"
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		elite_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "czarna msza"
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+ 	division = {
+		name = "Kapłani Naczelni"
+		location = 10090
+		division_template = "Kapłani"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+
+  	division = {
+		name = "Rój Belzebuba"
+		location = 10097
+		division_template = "Nożownicy"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+  	division = {
+		name = "Kompania Azazela"
+		location = 10118
+		division_template = "Bandyci"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+
+  	division = {
+		name = "Żniwiarze"
+		location = 10086
+		division_template = "Nożownicy"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+}

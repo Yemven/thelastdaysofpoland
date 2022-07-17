@@ -1,0 +1,75 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Kompania Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Milicja Wiejska"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+units = {
+    division = {
+		name = "1 Batalion Piechoty"
+		location = 11818
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "1 Kompania Piechoty"
+		location = 11797
+		division_template = "Kompania Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2 Kompania Piechoty im. Dżalal ad-Dina ibn Tochtamysza"
+		location = 11778
+		division_template = "Kompania Piechoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Batalion Samoobronny Społeczności Muzułmańskich"
+		location = 11774
+		division_template = "Milicja Wiejska"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Chrześcijańsko-Muzułmański Batalion Ochotniczy "Samoobrona Ludu Księgi""
+		location = 3601
+		division_template = "Milicja Wiejska"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3 Kompania Piechoty"
+		location = 11784
+		division_template = "Kompania Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}
