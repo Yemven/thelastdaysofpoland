@@ -1011,7 +1011,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SUS
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = SUS
 				type = annex_everything
 			}
@@ -1042,7 +1042,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = GNI
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = GNI
 				type = annex_everything
 			}
@@ -1072,7 +1072,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = CAL
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = CAL
 				type = annex_everything
 			}
@@ -1103,7 +1103,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = FEL
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = FEL
 				type = annex_everything
 			}
@@ -1134,7 +1134,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = CAL
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = CAL
 				type = annex_everything
 			}
@@ -1165,7 +1165,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = GNI
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = GNI
 				type = annex_everything
 			}
@@ -1195,7 +1195,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = FEL
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = FEL
 				type = annex_everything
 			}
@@ -1226,7 +1226,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SUS
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = SUS
 				type = annex_everything
 			}
@@ -1257,7 +1257,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = GNI
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = GNI
 				type = annex_everything
 			}
@@ -1288,7 +1288,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SUS
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = SUS
 				type = annex_everything
 			}
@@ -1319,7 +1319,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = CAL
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = CAL
 				type = annex_everything
 			}
@@ -1350,7 +1350,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = GNI
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = GNI
 				type = annex_everything
 			}
@@ -1381,7 +1381,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = PUL
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = PIL
 				type = annex_everything
 			}
@@ -1412,7 +1412,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = NAC
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = NAC
 				type = annex_everything
 			}
@@ -1443,7 +1443,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = slu
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = SLU
 				type = annex_everything
 			}
@@ -1474,7 +1474,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = FEL
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = SLU
 				type = annex_everything
 			}
@@ -1493,7 +1493,7 @@ ai_war_decisions = {
 
 		available = {
 			tag = POZ
-			date > 2028.06.01
+			date > 2028.04.20
 		}
 
 		cost = 1
@@ -1505,7 +1505,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SYJ
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = SYJ
 				type = annex_everything
 			}
@@ -1524,7 +1524,7 @@ ai_war_decisions = {
 
 		available = {
 			tag = SYJ
-			date > 2028.06.01
+			date > 2028.04.20
 		}
 
 		cost = 1
@@ -1536,7 +1536,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = POZ
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = POZ
 				type = annex_everything
 			}
@@ -1567,7 +1567,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = PIL
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = PIL
 				type = annex_everything
 			}
@@ -1597,7 +1597,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = NAC
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = NAC
 				type = annex_everything
 			}
@@ -1627,7 +1627,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = PIL
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = PIL
 				type = annex_everything
 			}
@@ -1657,7 +1657,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = NAC
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = NAC
 				type = annex_everything
 			}
@@ -1688,7 +1688,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = POZ
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = POZ
 				type = annex_everything
 			}
@@ -1718,7 +1718,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SYJ
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = SYJ
 				type = annex_everything
 			}
@@ -1749,7 +1749,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = POZ
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = POZ
 				type = annex_everything
 			}
@@ -1779,7 +1779,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SYJ
 		remove_effect  = {
-			create_wargoal = {
+			declare_war_on = {
 				target = SYJ
 				type = annex_everything
 			}
