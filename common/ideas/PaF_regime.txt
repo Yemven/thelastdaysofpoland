@@ -45,7 +45,7 @@ ideas = {
 			stability_factor = 0.05
 			monthly_population = -0.05
 			political_power_gain = 0.15
-			surrender_limit = -0.10
+			surrender_limit = -0.05
 			}
 			cancel_if_invalid = no 
 		}
@@ -87,11 +87,11 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{  
-			stability_factor = -0.20
+			stability_factor = -0.10
 			political_power_gain = 0.15
 			war_support_factor = -0.15
 			drift_defence_factor = -0.25
-			surrender_limit = -0.15
+			surrender_limit = -0.05
 			consumer_goods_factor = -0.05
 			}
 			cancel_if_invalid = no 
@@ -154,7 +154,7 @@ ideas = {
 			{
 			stability_factor = -0.05
 			monthly_population = 0.05
-			research_speed_factor = 0.025
+			research_speed_factor = 0.05
 			crypto_strength = -2
 			compliance_growth = 0.05
 			}
@@ -179,6 +179,7 @@ ideas = {
 			 crypto_strength = -2
 			 required_garrison_factor = -0.45
 			 army_org_factor = -0.10
+			 consumer_goods_factor = -0.03
 			}
 			cancel_if_invalid = no 
 			level = 5
@@ -229,6 +230,7 @@ ideas = {
 			 required_garrison_factor = 0.15
 			 army_org_factor = 0.05
 			 conscription_factor = -0.05
+			 consumer_goods_factor = 0.02
 			}
 			cancel_if_invalid = no 
 			level = 2
@@ -247,6 +249,7 @@ ideas = {
 			required_garrison_factor = 0.25
 			army_org_factor = 0.10
 			conscription_factor = -0.10
+			consumer_goods_factor = 0.05
 			}
 			cancel_if_invalid = no 
 			level = 1
