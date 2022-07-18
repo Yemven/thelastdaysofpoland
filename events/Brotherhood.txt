@@ -382,3 +382,48 @@ country_event = {
 			}
 	}
 }
+
+country_event = {
+	id = belchatow.20
+	title = belchatow.20.t
+	desc = belchatow.20.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.20.a
+		activate_mission = BBW_industrial_mission1
+	}
+}
+
+country_event = {
+	id = belchatow.21
+	title = belchatow.21.t
+	desc = belchatow.21.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.21.a
+		activate_mission = BBW_industrial_mission2
+	}
+}
+
+country_event = {
+	id = belchatow.22
+	title = belchatow.22.t
+	desc = belchatow.22.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.22.a
+		activate_mission = BBW_industrial_mission3
+	}
+}
