@@ -1,0 +1,168 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = rzeszow_intro_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = RZE
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+
+	focus = {
+	id = RZE_szczesc_boze
+	icon = RZE_szczesc_boze
+	available = {
+	
+	}
+	
+	bypass = {
+	}
+	
+	x = 3
+	y = 1
+	
+	cost = 1
+	search_filters = {FOCUS_STABILITY}
+	completion_reward = { add_stability = 0.05
+		
+	}
+	}
+	focus = {
+		id = RZE_the_market_knows_best
+		icon = RZE_the_market_knows_best
+		relative_position_id = RZE_szczesc_boze
+		prerequisite = { focus = RZE_szczesc_boze }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	focus = {
+		id = RZE_another_session_of_the_regency_council
+		icon = RZE_another_session_of_the_regency_council
+		relative_position_id = RZE_szczesc_boze
+		prerequisite = { focus = RZE_szczesc_boze }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	focus = {
+		id = RZE_but_god_knows_better
+		icon = RZE_but_god_knows_better
+		relative_position_id = RZE_szczesc_boze
+		prerequisite = { focus = RZE_szczesc_boze }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y =2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	focus = {
+		id = RZE_envoy_to_the_brave_knights
+		icon = RZE_envoy_to_the_brave_knights
+		relative_position_id = RZE_szczesc_boze
+		prerequisite = { focus = RZE_szczesc_boze }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	focus = {
+		id = RZE_waiting_for_one_chosen_by_god
+		icon = RZE_waiting_for_one_chosen_by_god
+		relative_position_id = RZE_anothesr_session_of_the_regency_council
+		prerequisite = { focus = RZE_another_session_of_the_regency_council }
+		mutually_exclusive = { focus = RZE_who_can_say_im_not_artur }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 5
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	focus = {
+		id = RZE_who_can_say_im_not_artur
+		icon = RZE_who_can_say_im_not_artur
+		relative_position_id = RZE_anothesr_session_of_the_regency_council
+		prerequisite = { focus = RZE_another_session_of_the_regency_council }
+		mutually_exclusive = { focus = RZE_waiting_for_one_chosen_by_god }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 5
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+}
