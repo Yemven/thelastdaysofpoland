@@ -1,0 +1,92 @@
+division_template = {
+	name = "Służba Ochrony Browarów Łomża"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Tabor cysternowy"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 4 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Milicja Firmy Van Pur"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+ 	division = {
+		name = "Ochrona Browaru Łomża"
+		location = 9915
+		division_template = "Służba Ochrony Browarów Łomża"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Oddział Ochroniarski Firmy Van Pur - Oddział Łomżyński"
+		location = 9918
+		division_template = "Służba Ochrony Browarów Łomża"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Oddział Ochroniarski Firmy Van Pur - Oddział Nowogrodzki"
+		location = 10007
+		division_template = "Służba Ochrony Browarów Łomża"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "1 Batalion Piechoty"
+		location = 9973
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "2 Batalion Piechoty"
+		location = 9979
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+
+ 	division = {
+		name = "Batalion Pomocniczy Ochrony Powiatu Łomżyńskiego"
+		location = 9940
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}

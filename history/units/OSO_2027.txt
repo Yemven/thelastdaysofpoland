@@ -31,8 +31,8 @@ division_template = {
 division_template = {
 	name = "Rabusie nadrzeczni"
 	regiments = {
-		marines = { x = 0 y = 0 }
-		marines = { x = 1 y = 0 }
+		marine = { x = 0 y = 0 }
+		marine = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
 	}
 }
@@ -40,7 +40,7 @@ division_template = {
 division_template = {
 	name = "Rabusie nadrzeczni (kompania)"
 	regiments = {
-		marines = { x = 0 y = 0 }
+		marine = { x = 0 y = 0 }
 	}
 }
 
