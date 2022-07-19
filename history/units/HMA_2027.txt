@@ -60,7 +60,7 @@ division_template = {
 units = {
 	division = {
 		name = "1 Batalion Piechoty"
-		location = 9795
+		location = 9805
 		division_template = "Batalion Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -76,7 +76,7 @@ units = {
 	
 	division = {
 		name = "2 Kompania Piechoty"
-		location = 9819
+		location = 9816
 		division_template = "Kompania Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -87,14 +87,6 @@ units = {
 		location = 9789
 		division_template = "Milicja Wiejska"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "2 Batalion Piechoty"
-		location = 1818
-		division_template = "Batalion Piechoty"
-		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 }
