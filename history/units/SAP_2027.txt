@@ -20,7 +20,7 @@ division_template = {
 }
 
 	division_template = {
-	name = "Zakon Płonącej Róży"
+	name = "Batalion Książęcy"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -32,7 +32,7 @@ division_template = {
 units = {
 
 division = {
-		name = "BPP - Gors Velen"
+		name = "BPP - Kaer Nevitz"
 		location = 7450
 		division_template = "Biedna Pierdolona Piechota"
 		start_experience_factor = 0.2
@@ -40,14 +40,14 @@ division = {
 	}
 
  division = {
-		name = "PBP - Wrońce"
+		name = "BPP - Ellander"
 		location = 7453
 		division_template = "Biedna Pierdolona Piechota"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 division = {
-		name = "BPP - Vorune"
+		name = "Straż Melitele"
 		location = 7452
 		division_template = "Biedna Pierdolona Piechota"
 		start_experience_factor = 0.2
@@ -55,23 +55,23 @@ division = {
 	}
 division = {
 
-		name = "Komando - Iorweth"
+		name = "Komando 'Lisy Puszczy'"
 		location = 2670
 		division_template = "Komando Scoia'tael"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 division = {
-		name = "Komando - Isengrim"
+		name = "Komando 'Żelazne Wilki'"
 		location = 2100
 		division_template = "Komando Scoia'tael"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 division = {
-		name = "Zakon Płonącej Róży"
+		name = "1 Batalion Książęcy 'Gwynnbleid'"
 		location = 7450
-		division_template = "Zakon Płonącej Róży"
+		division_template = "Batalion Książęcy"
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
