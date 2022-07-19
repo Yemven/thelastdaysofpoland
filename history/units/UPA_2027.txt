@@ -1,0 +1,117 @@
+division_template = {
+	name = "Pichotna Sotnia"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Pichotna Roja"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Militsija Poryadkova"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Sotnia Pichotni im. Stepana Bandery"
+		location = 12513
+		division_template = "Pichotna Sotnia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "2. Sotnia Pichotni"
+		location = 12334
+		division_template = "Pichotna Sotnia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3. Sotnia Pichotni"
+		location = 912
+		division_template = "Pichotna Sotnia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	
+	division = {
+		name = "1. Piachotnij Roj"
+		location = 12217
+		division_template = "Pichotna Roja"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "2. Piachotnij Roj"
+		location = 12328
+		division_template = "Pichotna Roja"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		name = "3. Piachotnij Roj"
+		location = 3149
+		division_template = "Pichotna Roja"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	
+	division = {
+		name = "4. Piachotnij Roj"
+		location = 4045
+		division_template = "Pichotna Roja"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "5. Piachotnij Roj"
+		location = 12370
+		division_template = "Pichotna Roja"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		name = "Militsija Lantsut"
+		location = 3149
+		division_template = "PMilitsija Poryadkova"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		name = "Militsija Perevorsk"
+		location = 4045
+		division_template = "Militsija Poryadkova"
+		start_experience_factor = 0
+		start_equipment_factor = 0.3
+	}
+	
+	division = {
+		name = "Militsija Peremyshl"
+		location = 912
+		division_template = "Militsija Poryadkova"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.1
+	}
+}
