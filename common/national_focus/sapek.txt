@@ -1,0 +1,935 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = sapek_intro_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = SAP
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = SAP_the_last_wish
+		icon = SAP_the_last_wish
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 0
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_herolds_and_counts
+		icon = SAP_herolds_and_counts
+		relative_position_id = SAP_the_last_wish
+		prerequisite = { focus = SAP_the_last_wish }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_temerian_dream_shattered
+		icon = SAP_temerian_dream_shattered
+		relative_position_id = SAP_herolds_and_counts
+		prerequisite = { focus = SAP_herolds_and_counts }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_attack_on_kaer_nevitz
+		icon = SAP_attack_on_kaer_nevitz
+		relative_position_id = SAP_temerian_dream_shattered
+		prerequisite = { focus = SAP_temerian_dream_shattered }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SAP_put_out_fires
+		icon = SAP_put_out_fires
+		relative_position_id = SAP_attack_on_kaer_nevitz
+		prerequisite = { focus = SAP_attack_on_kaer_nevitz }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_status_report
+		icon = SAP_status_report
+		relative_position_id = SAP_attack_on_kaer_nevitz
+		prerequisite = { focus = SAP_attack_on_kaer_nevitz }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_issue_manhunt
+		icon = SAP_issue_manhunt
+		relative_position_id = SAP_put_out_fires
+		prerequisite = { focus = SAP_put_out_fires }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_trail_vanishes
+		icon = SAP_trail_vanishes
+		relative_position_id = SAP_issue_manhunt
+		prerequisite = { focus = SAP_issue_manhunt }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_refilling_supplies
+		icon = SAP_refilling_supplies
+		relative_position_id = SAP_status_report
+		prerequisite = { focus = SAP_status_report }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_convene_chapter
+		icon = SAP_convene_chapter
+		relative_position_id = SAP_refilling_supplies
+		prerequisite = { focus = SAP_refilling_supplies }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_who_is_to_blame
+		icon = SAP_who_is_to_blame
+		relative_position_id = SAP_attack_on_kaer_nevitz
+		prerequisite = { focus = SAP_trail_vanishes }
+		prerequisite = { focus = SAP_convene_chapter }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 4
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_blame_scoiatael
+		icon = SAP_blame_scoiatael
+		relative_position_id = SAP_who_is_to_blame
+		prerequisite = { focus = SAP_who_is_to_blame }
+		mutually_exclusive = { focus = SAP_blame_order }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_blame_order
+		icon = SAP_blame_order
+		relative_position_id = SAP_who_is_to_blame
+		prerequisite = { focus = SAP_who_is_to_blame }
+		mutually_exclusive = { focus = SAP_blame_scoiatael }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_blame_neighbours
+		icon = SAP_blame_neighbours
+		relative_position_id = SAP_who_is_to_blame
+		prerequisite = { focus = SAP_blame_scoiatael
+						 focus =  SAP_blame_order }
+		prerequisite = { focus = SAP_ducal_mint }
+		prerequisite = { focus = SAP_of_monsters_and_men }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_envoy_to_krosniewice
+		icon = SAP_envoy_to_krosniewice
+		relative_position_id = SAP_blame_neighbours
+		prerequisite = { focus = SAP_blame_neighbours }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_toss_a_coin
+		icon = SAP_toss_a_coin
+		relative_position_id = SAP_temerian_dream_shattered
+		prerequisite = { focus = SAP_temerian_dream_shattered }
+		available = {
+		has_completed_focus = SAP_convene_chapter 
+		}
+		
+		bypass = {
+		}
+		
+		x = -7
+		y = 2
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_to_your_prince
+		icon = SAP_to_your_prince
+		relative_position_id = SAP_toss_a_coin
+		prerequisite = { focus = SAP_toss_a_coin }
+		mutually_exclusive = { focus = SAP_to_your_witcher }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_land_for_the_feudals
+		icon = SAP_land_for_the_feudals
+		relative_position_id = SAP_to_your_prince
+		prerequisite = { focus = SAP_to_your_prince }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_stronghold_for_order
+		icon = SAP_stronghold_for_order
+		relative_position_id = SAP_land_for_the_feudals
+		prerequisite = { focus = SAP_land_for_the_feudals }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_crack_down_on_merchant_unions
+		icon = SAP_crack_down_on_merchant_unions
+		relative_position_id = SAP_land_for_the_feudals
+		prerequisite = { focus = SAP_land_for_the_feudals }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_production_control
+		icon = SAP_production_control
+		relative_position_id = SAP_crack_down_on_merchant_unions
+		prerequisite = { focus = SAP_crack_down_on_merchant_unions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SAP_status_dependent_taxes
+		icon = SAP_status_dependent_taxes
+		relative_position_id = SAP_crack_down_on_merchant_unions
+		prerequisite = { focus = SAP_crack_down_on_merchant_unions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_exemption_from_taxes
+		icon = SAP_exemption_from_taxes
+		relative_position_id = SAP_status_dependent_taxes
+		prerequisite = { focus = SAP_status_dependent_taxes }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_ducal_mint
+		icon = SAP_ducal_mint
+		relative_position_id = SAP_toss_a_coin
+		prerequisite = { focus = SAP_status_dependent_taxes 
+						 focus = SAP_equal_taxes }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 5
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_to_your_witcher
+		icon = SAP_to_your_witcher
+		relative_position_id = SAP_toss_a_coin
+		prerequisite = { focus = SAP_toss_a_coin }
+		mutually_exclusive = { focus = SAP_to_your_prince }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_fair_right_to_land
+		icon = SAP_fair_right_to_land
+		relative_position_id = SAP_to_your_witcher
+		prerequisite = { focus = SAP_to_your_witcher }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_land_for_princely_warriors
+		icon = SAP_land_for_princely_warriors
+		relative_position_id = SAP_fair_right_to_land
+		prerequisite = { focus = SAP_fair_right_to_land }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_free_enterprise
+		icon = SAP_free_enterprise
+		relative_position_id = SAP_fair_right_to_land
+		prerequisite = { focus = SAP_fair_right_to_land }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_free_hand_for_guilds
+		icon = SAP_free_hand_for_guilds
+		relative_position_id = SAP_free_enterprise
+		prerequisite = { focus = SAP_free_enterprise }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_equal_taxes
+		icon = SAP_equal_taxes
+		relative_position_id = SAP_free_enterprise
+		prerequisite = { focus = SAP_free_enterprise }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_priviliges_for_peasants
+		icon = SAP_priviliges_for_peasants
+		relative_position_id = SAP_equal_taxes
+		prerequisite = { focus = SAP_equal_taxes }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_poor_fucking_infantry
+		icon = SAP_poor_fucking_infantry
+		relative_position_id = SAP_temerian_dream_shattered
+		prerequisite = { focus = SAP_temerian_dream_shattered }
+		available = {
+		has_completed_focus = SAP_trail_vanishes
+		}
+		
+		bypass = {
+		}
+		
+		x = 7
+		y = 2
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_temeria_finest
+		icon = SAP_temeria_finest
+		relative_position_id = SAP_poor_fucking_infantry
+		prerequisite = { focus = SAP_poor_fucking_infantry }
+		mutually_exclusive = { focus = SAP_scoiatael_legions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -3
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_army_of_faithful
+		icon = SAP_army_of_faithful
+		relative_position_id = SAP_temeria_finest
+		prerequisite = { focus = SAP_temeria_finest }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_order_of_white_rose
+		icon = SAP_order_of_white_rose
+		relative_position_id = SAP_army_of_faithful
+		prerequisite = { focus = SAP_army_of_faithful }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_scoiatael_legions
+		icon = SAP_scoiatael_legions
+		relative_position_id = SAP_poor_fucking_infantry
+		prerequisite = { focus = SAP_poor_fucking_infantry }
+		mutually_exclusive = { focus = SAP_temeria_finest }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_commando_of_oppressed
+		icon = SAP_commando_of_oppressed
+		relative_position_id = SAP_scoiatael_legions
+		prerequisite = { focus = SAP_scoiatael_legions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_vrihedd_brigade
+		icon = SAP_vrihedd_brigade
+		relative_position_id = SAP_commando_of_oppressed
+		prerequisite = { focus = SAP_commando_of_oppressed }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_establish_order_of_witchers
+		icon = SAP_establish_order_of_witchers
+		relative_position_id = SAP_poor_fucking_infantry
+		prerequisite = { focus = SAP_poor_fucking_infantry }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 3
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_question_of_origin
+		icon = SAP_question_of_origin
+		relative_position_id = SAP_establish_order_of_witchers
+		prerequisite = { focus = SAP_establish_order_of_witchers }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_question_of_witcher_trials
+		icon = SAP_question_of_witcher_trials
+		relative_position_id = SAP_establish_order_of_witchers
+		prerequisite = { focus = SAP_establish_order_of_witchers }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_school_of_the_wolf
+		icon = SAP_school_of_the_wolf
+		relative_position_id = SAP_establish_order_of_witchers
+		prerequisite = { focus = SAP_question_of_origin }
+		prerequisite = { focus = SAP_question_of_witcher_trials }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_of_monsters_and_men
+		icon = SAP_of_monsters_and_men
+		relative_position_id = SAP_vrihedd_brigade
+		prerequisite = { focus = SAP_vrihedd_brigade
+						 focus = SAP_order_of_white_rose }
+		prerequisite = { focus = SAP_school_of_the_wolf }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 2
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+}

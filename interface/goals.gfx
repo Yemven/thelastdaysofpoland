@@ -1,4 +1,178 @@
 spriteTypes = {
+
+	SpriteType = {
+		name = "SAP_the_last_wish"
+		texturefile = "gfx/interface/goals/SAP_the_last_wish.dds"
+	}
+	SpriteType = {
+		name = "SAP_herolds_and_counts"
+		texturefile = "gfx/interface/goals/SAP_herolds_and_counts.dds"
+	}
+	SpriteType = {
+		name = "SAP_temerian_dream_shattered"
+		texturefile = "gfx/interface/goals/SAP_temerian_dream_shattered.dds"
+	}
+	SpriteType = {
+		name = "SAP_attack_on_kaer_nevitz"
+		texturefile = "gfx/interface/goals/SAP_attack_on_kaer_nevitz.dds"
+	}
+	SpriteType = {
+		name = "SAP_put_out_fires"
+		texturefile = "gfx/interface/goals/SAP_put_out_fires.dds"
+	}
+	SpriteType = {
+		name = "SAP_status_report"
+		texturefile = "gfx/interface/goals/SAP_status_report.dds"
+	}
+	SpriteType = {
+		name = "SAP_issue_manhunt"
+		texturefile = "gfx/interface/goals/SAP_issue_manhunt.dds"
+	}
+	SpriteType = {
+		name = "SAP_trail_vanishes"
+		texturefile = "gfx/interface/goals/SAP_trail_vanishes.dds"
+	}
+	SpriteType = {
+		name = "SAP_refilling_supplies"
+		texturefile = "gfx/interface/goals/SAP_refilling_supplies.dds"
+	}
+	SpriteType = {
+		name = "SAP_convene_chapter"
+		texturefile = "gfx/interface/goals/SAP_convene_chapter.dds"
+	}
+	SpriteType = {
+		name = "SAP_who_is_to_blame"
+		texturefile = "gfx/interface/goals/SAP_who_is_to_blame.dds"
+	}
+	SpriteType = {
+		name = "SAP_blame_scoiatael"
+		texturefile = "gfx/interface/goals/SAP_blame_scoiatael.dds"
+	}
+	SpriteType = {
+		name = "SAP_blame_order"
+		texturefile = "gfx/interface/goals/SAP_blame_order.dds"
+	}
+	SpriteType = {
+		name = "SAP_blame_neighbours"
+		texturefile = "gfx/interface/goals/SAP_blame_neighbours.dds"
+	}
+	SpriteType = {
+		name = "SAP_envoy_to_krosniewice"
+		texturefile = "gfx/interface/goals/SAP_envoy_to_krosniewice.dds"
+	}
+	SpriteType = {
+		name = "SAP_toss_a_coin"
+		texturefile = "gfx/interface/goals/SAP_toss_a_coin.dds"
+	}
+	SpriteType = {
+		name = "SAP_to_your_prince"
+		texturefile = "gfx/interface/goals/SAP_to_your_prince.dds"
+	}
+	SpriteType = {
+		name = "SAP_land_for_the_feudals"
+		texturefile = "gfx/interface/goals/SAP_land_for_the_feudals.dds"
+	}
+	SpriteType = {
+		name = "SAP_stronghold_for_order"
+		texturefile = "gfx/interface/goals/SAP_stronghold_for_order.dds"
+	}
+	SpriteType = {
+		name = "SAP_crack_down_on_merchant_unions"
+		texturefile = "gfx/interface/goals/SAP_crack_down_on_merchant_unions.dds"
+	}
+	SpriteType = {
+		name = "SAP_production_control"
+		texturefile = "gfx/interface/goals/SAP_production_control.dds"
+	}
+	SpriteType = {
+		name = "SAP_status_dependent_taxes"
+		texturefile = "gfx/interface/goals/SAP_status_dependent_taxes.dds"
+	}
+	SpriteType = {
+		name = "SAP_exemption_from_taxes"
+		texturefile = "gfx/interface/goals/SAP_exemption_from_taxes.dds"
+	}
+	SpriteType = {
+		name = "SAP_ducal_mint"
+		texturefile = "gfx/interface/goals/SAP_ducal_mint.dds"
+	}
+	SpriteType = {
+		name = "SAP_to_your_witcher"
+		texturefile = "gfx/interface/goals/SAP_to_your_witcher.dds"
+	}
+	SpriteType = {
+		name = "SAP_fair_right_to_land"
+		texturefile = "gfx/interface/goals/SAP_fair_right_to_land.dds"
+	}
+	SpriteType = {
+		name = "SAP_land_for_princely_warriors"
+		texturefile = "gfx/interface/goals/SAP_land_for_princely_warriors.dds"
+	}
+	SpriteType = {
+		name = "SAP_free_enterprise"
+		texturefile = "gfx/interface/goals/SAP_free_enterprise.dds"
+	}
+	SpriteType = {
+		name = "SAP_free_hand_for_guilds"
+		texturefile = "gfx/interface/goals/SAP_free_hand_for_guilds.dds"
+	}
+	SpriteType = {
+		name = "SAP_equal_taxes"
+		texturefile = "gfx/interface/goals/SAP_equal_taxes.dds"
+	}
+	SpriteType = {
+		name = "SAP_priviliges_for_peasants"
+		texturefile = "gfx/interface/goals/SAP_priviliges_for_peasants.dds"
+	}
+	SpriteType = {
+		name = "SAP_poor_fucking_infantry"
+		texturefile = "gfx/interface/goals/SAP_poor_fucking_infantry.dds"
+	}
+	SpriteType = {
+		name = "SAP_temeria_finest"
+		texturefile = "gfx/interface/goals/SAP_temeria_finest.dds"
+	}
+	SpriteType = {
+		name = "SAP_army_of_faithful"
+		texturefile = "gfx/interface/goals/SAP_army_of_faithful.dds"
+	}
+	SpriteType = {
+		name = "SAP_order_of_white_rose"
+		texturefile = "gfx/interface/goals/SAP_order_of_white_rose.dds"
+	}
+	SpriteType = {
+		name = "SAP_scoiatael_legions"
+		texturefile = "gfx/interface/goals/SAP_scoiatael_legions.dds"
+	}
+	SpriteType = {
+		name = "SAP_commando_of_oppressed"
+		texturefile = "gfx/interface/goals/SAP_commando_of_oppressed.dds"
+	}
+	SpriteType = {
+		name = "SAP_vrihedd_brigade"
+		texturefile = "gfx/interface/goals/SAP_vrihedd_brigade.dds"
+	}
+	SpriteType = {
+		name = "SAP_establish_order_of_witchers"
+		texturefile = "gfx/interface/goals/SAP_establish_order_of_witchers.dds"
+	}
+	SpriteType = {
+		name = "SAP_question_of_origin"
+		texturefile = "gfx/interface/goals/SAP_question_of_origin.dds"
+	}
+	SpriteType = {
+		name = "SAP_question_of_witcher_trials"
+		texturefile = "gfx/interface/goals/SAP_question_of_witcher_trials.dds"
+	}
+	SpriteType = {
+		name = "SAP_school_of_the_wolf"
+		texturefile = "gfx/interface/goals/SAP_school_of_the_wolf.dds"
+	}
+	SpriteType = {
+		name = "SAP_of_monsters_and_men"
+		texturefile = "gfx/interface/goals/SAP_of_monsters_and_men.dds"
+	}
+
 	SpriteType = {
 		name = "ZYD_rts_is_powerful"
 		texturefile = "gfx/interface/goals/ZYD_rts_is_powerful.dds"
