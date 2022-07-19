@@ -27,8 +27,6 @@ BBW_pollution_category = {
 		}
 		
 		timeout_effect = {
-			country_event = {
-			id = belchatow.20 }
 				swap_ideas = {
 					add_idea = BBW_smog2
 					remove_idea = BBW_smog
@@ -36,7 +34,9 @@ BBW_pollution_category = {
 		hidden_effect = {
 					activate_mission = BBW_industrial_mission1
 					activate_mission = BBW_pollution_stage2
-				}
+					country_event = {
+					id = belchatow.23 }
+			}
 		}
 	}
 	
@@ -253,7 +253,7 @@ BBW_industrial_missions_category = {
 		}
 		else = {
 				341 = {
-				infrastructure > 8
+				infrastructure > 9
 				}
 			}
 		}

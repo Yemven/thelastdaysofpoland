@@ -383,6 +383,9 @@ country_event = {
 	}
 }
 
+
+
+### INDUSTRIAL-SMOG EVENTS ####
 country_event = {
 	id = belchatow.20
 	title = belchatow.20.t
@@ -395,6 +398,7 @@ country_event = {
 	option = {
 		name = belchatow.20.a
 		activate_mission = BBW_industrial_mission1
+		add_ideas = BBW_resource_extraction_focus
 	}
 }
 
@@ -410,6 +414,7 @@ country_event = {
 	option = {
 		name = belchatow.21.a
 		activate_mission = BBW_industrial_mission2
+		add_ideas = BBW_infrastructure_focus
 	}
 }
 
@@ -424,6 +429,35 @@ country_event = {
 
 	option = {
 		name = belchatow.22.a
-		activate_mission = BBW_industrial_mission3
+		activate_mission = BBW_industrial_focus3
+		add_ideas = BBW_industrial_focus
+	}
+}
+
+country_event = {
+	id = belchatow.23
+	title = belchatow.23.t
+	desc = belchatow.23.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.23.a
+		hidden_effect = {
+					country_event = {
+				id = belchatow.20
+				days = 10
+				}
+			}
+			add_political_power = 10
+			add_stability = -0.01
+			309 = {
+			add_manpower = -23
+			}
+			341 = {
+			add_manpower = -104
+			}
 	}
 }
