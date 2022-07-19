@@ -1,4 +1,28 @@
 ideas = {
+
+	country = {
+		KRS_war_profiteering =	{
+			allowed = {
+				original_tag = BBW
+			}
+			
+			cancel = {
+			has_war = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = -0.05
+				political_power_gain = -0.1
+			}
+		}
+	}
+	
 	industrial_company = {
 		use_list_view = yes
 

@@ -28,3 +28,22 @@ country_event = {
 			}
 	}
 }
+
+country_event = {
+	id = krosniewice.2
+	title = krosniewice.2.t
+	desc = krosniewice.2.desc
+	
+	trigger = {
+    tag = KRS
+    has_war = yes
+		NOT = {
+		has_idea = KRS_war_profiteering
+		}
+	}
+
+	option = {
+		name = krosniewice.2.a
+		add_ideas = KRS_war_profiteering	
+	}
+}
