@@ -103,8 +103,6 @@ BBW_financial_surpluses:0 "Financial Surpluses"
 BBW_financial_surpluses_desc:0 "I am going to visit the grand opening of a new unit at the power plant in an hour. Thanks to the money from exports and skilful management, we managed to get the necessary materials. Soon, the narrow stream of energy flowing to the market will turn into a real Yangtze. Chances are our "trading partners" won't be able to resist it.\n\nMoreover, along with the new unit, new plants will be built and those for which there was no capacity before, will be reopened as well. It's wonderful to be rich. Everyone will admit it. And the more wealth the better. Hence the new Council decision to allocate a portion of the money directly to the people. In the end, they deserve it and the money released onto the market will come back to us anyway. As it always should be."
 BBW_purchase_of_weapons:0 "Weapons Purchase"
 BBW_purchase_of_weapons_desc:0 "A secret associate of the Brotherhood has just arrived from Łódź. He brought great news about a new deal on the black market. Apparently, one of the smuggling groups got into the old military warehouse. Our associate got a suitcase filled with dollars, a souvenir bag full of dust, and quickly left. The delivery is expected to arrive within a few weeks. Our knights can't wait for something better than 10mm pistols to fall into their hands. The worst ones will go to the new units, we will finally have enough equipment for them."
-BBW_purchase_weapons_1:0 "§8300§! units of Łódź Black Market §8Ranged Weapons§! is added to the national stockpile"
-BBW_purchase_weapons_2:0 "§8300§! units of Łódź Black Market §8Melee Weapons§! is added to the national stockpile"
 BBW_conscription_of_2032:0 "Conscription of 2027"
 BBW_conscription_of_2032_desc:0 "New regulation has been put into action. We are mobilizing our reserves. We have to be ready for the challenges ahead. There is much work to be done... so much…"
 BBW_autumn:0 "Autumn"
@@ -222,11 +220,15 @@ belchatow.21.a:0 "Let's hope its worth it"
 
 belchatow.22.t:0 "Meeting Industrial Quota"
 belchatow.22.desc:0 ""
-belchatow.22.a:0 ""
+belchatow.22.a:0 "Final test to find out, if our project works."
 
 belchatow.23.t:0 "Arising Problem"
 belchatow.23.desc:0 "It hasn’t gone without our notice that our industrial output has shown signs of a slowdown and even outright decline. It's not much, in fact it's possibly a simple growth fluctuation, prevalent in every rising economy. Yet it was enough for these "experts" to accuse us of spearheading ecosystem destruction and our death with it, blah, blah, blah. Of course these lies haven't gone unnoticed, both by other terrorists and our security forces which quickly took matters into their own hands. Truth is, that all of it is the fault of these eco-fascists who refuse to work with us for a better future, instead constantly trying to hamper the march of  civilization. There is only one solution. Increased Mass Industrialization! Of course such a move will stretch our resources dangerously thin, creating many new problems and before unheard of demands, which finding a solution for will be a priority if we want to further our might, but we’ve already been in worse situations, so surely we will deal with whatever road bumps await us and arise yet again, Victorious."
 belchatow.23.a:0 "We'll deal with it, like Men!"
+
+belchatow.24.t:0 "Good beginnings to bad End"
+belchatow.24.desc:0 "ckliwa historyjka o tym jak na początku jest git bo praca w pobliskiej fabruce a potem gówno :) "
+belchatow.24.a:0 "At least there is no unemployment"
 
 belchatow.zyd1.t:0 "Żydzew Agrees"
 belchatow.zyd1.desc:0 "Mojżesz kochał kopalnie więc płaci i nie marudzi"
@@ -261,7 +263,7 @@ POLITICS_TOMASZ_SOMMER_DESC:0 "If a foreigner asks a Bełchatów citizen who's a
  ##Decisions##
 BBW_unifies_lodz_tooltip:0 "Gets event '§YBrotherhood of Coal unifies Łódź Voivodeship§!'"
 BBW_pollution_stage1:0 "Pollution Level Increase"
-BBW_pollution_stage1_desc:0 "tłumaczenie graczowi jak to działa czy inny hui"
+BBW_pollution_stage1_desc:0 "An increase in land pollution that (niedokonczoen wiem, zara dokoncze) "
 
 BBW_pollution_stage2:0 "Pollution Level Increase"
 BBW_pollution_stage2_desc:0 "tłumaczenie graczowi jak to działa czy inny hui"
@@ -277,3 +279,9 @@ BBW_industrial_mission2:0 "Buildup Capital"
 BBW_industrial_mission2_desc:0 "wincyj infry"
 BBW_industrial_mission3:0 "Demand for Industrialisation"
 BBW_industrial_mission3_desc:0 "wincej fabryczek"
+
+ ##ToolTips###
+ BBW_coal_production_tt:0 "Increase §8Coal§! Extraction to at least §8150§! units"
+ BBW_polution_rising_tt:0 "§gThe exctent of problems and losses this phenomenon produces, is currently unknown.§!"
+ BBW_purchase_weapons_1:0 "§81000§! units of Łódź Black Market §8Ranged Weapons§! is added to the national stockpile"
+ BBW_purchase_weapons_2:0 "§81000§! units of Łódź Black Market §8Melee Weapons§! is added to the national stockpile"

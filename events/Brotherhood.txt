@@ -461,3 +461,27 @@ country_event = {
 			}
 	}
 }
+
+country_event = {
+	id = belchatow.24
+	title = belchatow.24.t
+	desc = belchatow.24.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+
+	trigger = {
+    tag = BBW
+		focus_progress = {
+		focus = BBW_trial_of_three
+		progress > 0.1
+		}
+	}
+
+	option = {
+		name = belchatow.24.a
+		hidden_effect = {
+					activate_mission = BBW_pollution_stage1
+				}
+	}
+}

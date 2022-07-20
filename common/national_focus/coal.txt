@@ -37,10 +37,7 @@ focus_tree = {
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { add_stability = 0.05
 		country_event = {
-			id = belchatow.1 }
-				hidden_effect = {
-					activate_mission = BBW_pollution_stage1
-				}			
+			id = belchatow.1 }			
 		}
 	}
 	
@@ -339,14 +336,12 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = steel
-				amount = 25
+				amount = 20
 				state = 358
 				}
-			add_political_power = 30
-			add_stability = 0.1
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = industry
 				}
 			set_country_flag = parzno_cytadela
