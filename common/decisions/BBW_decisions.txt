@@ -32,7 +32,6 @@ BBW_pollution_category = {
 					remove_idea = BBW_smog
 				}
 		hidden_effect = {
-					activate_mission = BBW_industrial_mission1
 					activate_mission = BBW_pollution_stage2
 					country_event = {
 					id = belchatow.23 }
@@ -228,14 +227,14 @@ BBW_industrial_missions_category = {
 		
 		 complete_effect = {
 			add_political_power = 25
-			add_ideas = BBW_industrial_capabilities
 			add_stability = 0.03
+			add_ideas = BBW_industrial_capabilities
 		}
 	
 		timeout_effect = {
 			BBW = {
-				add_political_power = -100
-				add_stability = -0.03
+				add_political_power = -50
+				add_stability = -0.05
 			}
 		}
 	}
@@ -283,8 +282,8 @@ BBW_industrial_missions_category = {
 	
 		timeout_effect = {
 			BBW = {
-				add_political_power = -100
-				add_stability = -0.03
+				add_political_power = -50
+				add_stability = -0.05
 			}
 		}
 	}
@@ -339,6 +338,9 @@ BBW_industrial_missions_category = {
 			}
 			add_political_power = 25
 			add_stability = 0.03
+			341 = {
+				add_extra_state_shared_building_slots = 4
+				}
 		}
 	
 		timeout_effect = {
