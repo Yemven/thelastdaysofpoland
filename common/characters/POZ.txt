@@ -95,6 +95,23 @@ characters={
 			traits = { defender_of_freedom }
 		}
 	}
+	POZ_adam_duda = {
+		name="Adam Duda"
+		portraits = {
+			army = {
+			    large="gfx/leaders/POZ/POZ_Duda.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 	POZ_michal_rozga = {
 		name="Michał Rózga"
 		portraits = {
