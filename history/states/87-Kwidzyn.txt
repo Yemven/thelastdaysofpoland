@@ -4,11 +4,14 @@ state={
 	provinces={
 		2071 2344 2762 3386 3586 3588 3591 15897 15898 15899 15900 15901 15902 15903 15904 15905 15906 15907 15908 15909 15910 15911 15912 15913 15914 15915 15916 15917 15918 15919 15920 15921
 	}
-	manpower = 80774   state_category = city
+	manpower = 80774   state_category = large_town
 	buildings_max_level_factor=1.000
 				history = {
 		owner = MAL
-		victory_points = { }
+		victory_points = {3586 20 }
+		victory_points = {15918 5 }
+		victory_points = {15900 1 }
+		victory_points = {15915 1 }
 		add_core_of = MAL
 	buildings = {
 	infrastructure = 7
