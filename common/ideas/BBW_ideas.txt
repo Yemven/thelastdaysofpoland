@@ -78,7 +78,7 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				production_speed_buildings_factor = 0.1
+				production_speed_buildings_factor = 0.15
 				industrial_capacity_factory = 0.1
 				research_speed_factor = 0.05
 				production_factory_max_efficiency_factor = 0.05
@@ -359,8 +359,8 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				consumer_goods_factor = -0.03
-				industrial_capacity_factory = 0.07
+				consumer_goods_factor = -0.04
+				industrial_capacity_factory = 0.09
 			}
 		}
 		
@@ -378,8 +378,8 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				consumer_goods_factor = -0.04
-				industrial_capacity_factory = 0.09
+				consumer_goods_factor = -0.06
+				industrial_capacity_factory = 0.11
 			}
 		}
 		BBW_industrial_capabilities4 = {
@@ -396,8 +396,8 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				consumer_goods_factor = -0.05
-				industrial_capacity_factory = 0.11
+				consumer_goods_factor = -0.07
+				industrial_capacity_factory = 0.13
 			}
 		}
 		
@@ -415,8 +415,8 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				consumer_goods_factor = -0.06
-				industrial_capacity_factory = 0.13
+				consumer_goods_factor = -0.09
+				industrial_capacity_factory = 0.15
 			}
 		}
 #### INDUSTRIAL FOCUS ####
@@ -490,7 +490,7 @@ BBW_infrastructure_focus = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				stability_factor = -0.45
+				stability_factor = -0.5
 				political_power_gain = -0.45
 				army_org_factor = -0.2
 				production_speed_buildings_factor = -0.5
@@ -515,7 +515,7 @@ BBW_infrastructure_focus = {
 			modifier = {
 				army_org_factor = -0.1
 				mobilization_speed = -0.1
-				stability_factor = -0.25
+				stability_factor = -0.4
 				political_power_gain = -0.25
 				production_speed_buildings_factor = -0.3
 				industrial_capacity_factory = -0.10
@@ -537,8 +537,9 @@ BBW_infrastructure_focus = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				stability_factor = -0.2
-				consumer_goods_factor = 0.2
+				stability_factor = -0.3
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.02
 				army_attack_factor = 0.03
 				war_support_factor = 0.05
 			}
@@ -557,8 +558,8 @@ BBW_infrastructure_focus = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				stability_factor = -0.1
-				consumer_goods_factor = 0.1
+				stability_factor = -0.15
+				consumer_goods_factor = 0.02
 				army_attack_factor = 0.05
 				army_defence_factor = 0.03
 				army_org_factor = 0.05
@@ -603,7 +604,7 @@ BBW_infrastructure_focus = {
 			picture = BBW_smog
 			modifier = {
 				local_resources_factor = 0.15
-				consumer_goods_factor = -0.02
+				consumer_goods_factor = -0.01
 			}
 		}
 		BBW_carbon_fever2 = {
