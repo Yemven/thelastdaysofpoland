@@ -487,7 +487,10 @@ focus_tree = {
 		
 		cost = 10
 		search_filters = {}
-		completion_reward = { 
+		completion_reward = 
+		{ country_event = {
+				id = zhp.6
+				}	
 			
 		}
 	}
@@ -668,9 +671,7 @@ focus_tree = {
 		cost = 10
 		search_filters = {}
 		completion_reward = {
-country_event = {
-				id = zhp.6
-				}		
+	
 			
 		}
 	}
