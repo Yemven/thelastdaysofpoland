@@ -340,8 +340,8 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				consumer_goods_factor = -0.02
-				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.03
+				industrial_capacity_factory = 0.06
 			}
 		}
 		
@@ -359,8 +359,8 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				consumer_goods_factor = -0.04
-				industrial_capacity_factory = 0.09
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.10
 			}
 		}
 		
@@ -378,8 +378,8 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				consumer_goods_factor = -0.06
-				industrial_capacity_factory = 0.11
+				consumer_goods_factor = -0.07
+				industrial_capacity_factory = 0.12
 			}
 		}
 		BBW_industrial_capabilities4 = {
@@ -396,8 +396,8 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				consumer_goods_factor = -0.07
-				industrial_capacity_factory = 0.13
+				consumer_goods_factor = -0.09
+				industrial_capacity_factory = 0.14
 			}
 		}
 		
@@ -415,8 +415,8 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				consumer_goods_factor = -0.09
-				industrial_capacity_factory = 0.15
+				consumer_goods_factor = -0.11
+				industrial_capacity_factory = 0.16
 			}
 		}
 #### INDUSTRIAL FOCUS ####
@@ -430,7 +430,13 @@ BBW_resource_extraction_focus = {
 			allowed_civil_war = {
 				always = yes
 			}
-
+			
+			cancel = {
+				NOT = {
+					has_active_mission = BBW_industrial_mission1
+				}
+			}
+			
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
@@ -448,7 +454,13 @@ BBW_infrastructure_focus = {
 			allowed_civil_war = {
 				always = yes
 			}
-
+			
+			cancel = {
+				NOT = {
+					has_active_mission = BBW_industrial_mission2
+				}
+			}
+			
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
@@ -466,7 +478,13 @@ BBW_infrastructure_focus = {
 			allowed_civil_war = {
 				always = yes
 			}
-
+			
+			cancel = {
+				NOT = {
+					has_active_mission = BBW_industrial_mission3
+				}
+			}
+			
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
@@ -486,7 +504,7 @@ BBW_infrastructure_focus = {
 			allowed_civil_war = {
 				always = yes
 			}
-
+			
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {

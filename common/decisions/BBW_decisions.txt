@@ -4,7 +4,7 @@ BBW_pollution_category = {
 
 		icon = GFX_decision_generic_form_nation
 		
-		days_mission_timeout = 10 #50
+		days_mission_timeout = 45
 		
 		available = { always = no }
 		
@@ -44,7 +44,7 @@ BBW_pollution_category = {
 
 		icon = GFX_decision_generic_form_nation
 		
-		days_mission_timeout = 20 #75
+		days_mission_timeout = 77
 		
 		available = { always = no }
 		
@@ -249,15 +249,24 @@ BBW_industrial_missions_category = {
 		fire_only_once = yes
 		
 		 complete_effect = {
-			add_political_power = 25
-			add_stability = 0.03
+			custom_effect_tooltip = BBW_industrial_mission_win_tt
+			hidden_effect = {
 			add_ideas = BBW_industrial_capabilities
+			}
+			add_offsite_building = { type = industrial_complex level = 1 }
+			341 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+			}
 		}
-	
 		timeout_effect = {
 			BBW = {
 				add_political_power = -50
 				add_stability = -0.05
+				
 			}
 		}
 	}
@@ -274,8 +283,11 @@ BBW_industrial_missions_category = {
 			}  
 		}
 		else = {
-				341 = {
-				infrastructure > 9
+			custom_trigger_tooltip = {
+				tooltip = BBW_capital_buildup_tt
+					341 = {
+						infrastructure > 9
+					}
 				}
 			}
 		}
@@ -295,12 +307,17 @@ BBW_industrial_missions_category = {
 		fire_only_once = yes
 		
 		 complete_effect = {
+		 custom_effect_tooltip = BBW_industrial_mission_win_tt
+			hidden_effect = {
 			swap_ideas = {
 					add_idea = BBW_industrial_capabilities2
 					remove_idea = BBW_industrial_capabilities
 				}
-			add_political_power = 25
-			add_stability = 0.03
+			}
+			add_offsite_building = { type = industrial_complex level = 1 }
+			341 = {
+				add_extra_state_shared_building_slots = 4
+				}
 		}
 	
 		timeout_effect = {
@@ -323,8 +340,11 @@ BBW_industrial_missions_category = {
 			}  
 		}
 		else = {
-				BBW = {
-				num_of_owned_factories > 20
+			custom_trigger_tooltip = {
+				tooltip = BBW_industrial_test_tt
+					BBW = {
+					num_of_owned_factories > 20
+					}
 				}
 			}
 		}
@@ -347,29 +367,33 @@ BBW_industrial_missions_category = {
 			if = {
 				limit = { 
 					BBW = { has_idea = BBW_industrial_capabilities }
-				}  
-				swap_ideas = {
+				} 
+				custom_effect_tooltip = BBW_industrial_mission_win_tt
+				hidden_effect = {
+					swap_ideas = {
 					add_idea = BBW_industrial_capabilities3
 					remove_idea = BBW_industrial_capabilities
+					}
 				}
 			}
 			else = {
+			custom_effect_tooltip = BBW_industrial_mission_win_tt
+				hidden_effect = {
 					swap_ideas = {
 					add_idea = BBW_industrial_capabilities3
 					remove_idea = BBW_industrial_capabilities2
+					}
 				}
 			}
-			add_political_power = 25
-			add_stability = 0.03
-			341 = {
-				add_extra_state_shared_building_slots = 4
-				}
+			country_event = {
+			id = belchatow.25}	
 		}
 	
 		timeout_effect = {
+			country_event = {
+			id = belchatow.26}
 			BBW = {
-				add_political_power = -100
-				add_stability = -0.03
+
 			}
 		}
 	}
