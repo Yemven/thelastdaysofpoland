@@ -343,7 +343,7 @@ BBW_industrial_missions_category = {
 			custom_trigger_tooltip = {
 				tooltip = BBW_industrial_test_tt
 					BBW = {
-					num_of_owned_factories > 20
+					check_variable = { num_of_factories > 20 }
 					}
 				}
 			}
@@ -392,9 +392,6 @@ BBW_industrial_missions_category = {
 		timeout_effect = {
 			country_event = {
 			id = belchatow.26}
-			BBW = {
-
-			}
 		}
 	}
 	

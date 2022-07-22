@@ -434,6 +434,7 @@ BBW_resource_extraction_focus = {
 			cancel = {
 				NOT = {
 					has_active_mission = BBW_industrial_mission1
+					has_idea = BBW_smog2
 				}
 			}
 			
@@ -458,6 +459,7 @@ BBW_infrastructure_focus = {
 			cancel = {
 				NOT = {
 					has_active_mission = BBW_industrial_mission2
+					has_idea = BBW_smog4
 				}
 			}
 			
@@ -482,6 +484,7 @@ BBW_infrastructure_focus = {
 			cancel = {
 				NOT = {
 					has_active_mission = BBW_industrial_mission3
+					has_idea = BBW_smog6
 				}
 			}
 			
