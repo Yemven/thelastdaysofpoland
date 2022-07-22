@@ -86,6 +86,8 @@ focus_tree = {
 		relative_position_id = WML_incomplete_compromise
 		prerequisite = { focus = WML_incomplete_compromise }
 		mutually_exclusive = { focus = WML_forest_lodz }
+		mutually_exclusive = { focus = WML_fantastical_lodz }
+		
 		available = {
 		
 		}
@@ -93,7 +95,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -1
+		x = 2
 		y = 1
 		
 		cost = 5
@@ -108,6 +110,7 @@ focus_tree = {
 		relative_position_id = WML_incomplete_compromise
 		prerequisite = { focus = WML_incomplete_compromise }
 		mutually_exclusive = { focus = WML_industrial_lodz }
+		mutually_exclusive = { focus = WML_fantastical_lodz }
 		available = {
 		
 		}
@@ -115,7 +118,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 1
+		x = 4
 		y = 1
 		
 		cost = 5
@@ -293,33 +296,13 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = WML_homeland_science_virtue
-		relative_position_id = WML_incomplete_compromise
-		prerequisite = { focus = WML_incomplete_compromise }
-		mutually_exclusive = { focus = WML_progressive_arcadia }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 4
-		y = 1
-		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			
-		}
-	}
 	
 	focus = {
-		id = WML_progressive_arcadia
+		id = WML_fantastical_lodz
 		relative_position_id = WML_incomplete_compromise
 		prerequisite = { focus = WML_incomplete_compromise }
-		mutually_exclusive = { focus = WML_homeland_science_virtue }
+		mutually_exclusive = { focus = WML_forest_lodz }
+		mutually_exclusive = { focus = WML_industrial_lodz }
 		available = {
 		
 		}
@@ -337,94 +320,13 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = WML_primacy_of_the_church
-		relative_position_id = WML_homeland_science_virtue
-		prerequisite = { focus = WML_homeland_science_virtue }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			
-		}
-	}
+
 	
-	focus = {
-		id = WML_new_crusaders
-		relative_position_id = WML_primacy_of_the_church
-		prerequisite = { focus = WML_primacy_of_the_church }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = WML_patriotic_upbringing
-		relative_position_id = WML_new_crusaders
-		prerequisite = { focus = WML_new_crusaders }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = WML_limiting_extremists
-		relative_position_id = WML_patriotic_upbringing
-		prerequisite = { focus = WML_patriotic_upbringing }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			
-		}
-	}
 	
 	focus = {
 		id = WML_ignacy_moscicki_potions_laboratory
-		relative_position_id = WML_progressive_arcadia
-		prerequisite = { focus = WML_progressive_arcadia }
+		relative_position_id = WML_fantastical_lodz
+		prerequisite = { focus = WML_fantastical_lodz }
 		available = {
 		
 		}
@@ -466,7 +368,7 @@ focus_tree = {
 	focus = {
 		id = WML_witcher_training
 		relative_position_id = WML_rights_of_sexual_minorities
-		prerequisite = { focus = WML_rights_of_sexual_minorities }
+		prerequisite = { focus = WML_wizardring_schools }
 		available = {
 		
 		}
