@@ -740,5 +740,46 @@ country_event = {
 
 	option = {
 		name = eksrozpad.19.a
+		WRO = {
+		country_event = {
+			id = eksrozpad.20
+			days = 120
+			}
+		}
+		BRE = {
+		country_event = {
+			id = eksrozpad.20
+			days = 120
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = eksrozpad.20
+	title = eksrozpad.20.t
+	desc = eksrozpad.20.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 608
+					}
+				}
+				remove_core_of = WRO
+			}
+		}
+		EKS_collapse_MPK = yes
+	}
+
+	option = {
+		name = eksrozpad.20.a
+		
 	}
 }

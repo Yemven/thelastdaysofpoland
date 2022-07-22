@@ -424,6 +424,14 @@ EKS_collapse_BOG = {
 		}
 
 		EKS = {
+			set_autonomy = {
+			target = BOG
+			autonomous_state = autonomy_supervised_state
+			freedom_level = 0.50 
+			}
+		}
+		
+		EKS = {
 			BOG = { transfer_technology = no }
 		}
 
@@ -445,7 +453,15 @@ EKS_collapse_ECO = {
 			add_state_core = 336
 			add_state_core = 339
 		}
-
+		
+		EKS = {
+			set_autonomy = {
+			target = ECO
+			autonomous_state = autonomy_supervised_state
+			freedom_level = 0.50
+			}
+		}
+		
 		ZUL = {
 			ECO = { transfer_technology = yes }
 		}
@@ -471,6 +487,9 @@ EKS_collapse_RYB = {
 			add_state_core = 334
 			add_state_core = 338
 			add_state_core = 344
+			add_state_core = 343
+			add_state_core = 806
+			add_state_core = 369
 		}
 
 		WRO = {
@@ -478,7 +497,15 @@ EKS_collapse_RYB = {
 		}
 
 		every_owned_state = {
-			limit = { is_core_of = RYB }
+			limit = {
+					OR = {
+						state = 312
+						state = 324
+						state = 334
+						state = 344
+						state = 338
+					}
+				}
 			RYB = { transfer_state = PREV }
 		}
 
@@ -488,7 +515,6 @@ EKS_collapse_RYB = {
 
 	}
 }
-
 
 EKS_collapse_OLE = {
 	hidden_effect = {
@@ -507,6 +533,44 @@ EKS_collapse_OLE = {
 
 		OLE = {
 			load_oob = "OLE_2027"
+		}
+
+	}
+}
+
+EKS_collapse_MPK = {
+	hidden_effect = {
+		MPK = {
+			add_state_core = 608
+			add_state_core = 607
+			add_state_core = 388
+			add_state_core = 375
+			add_state_core = 376
+		}
+		
+		WRO = {
+			set_autonomy = {
+			target = MPK
+			autonomous_state = autonomy_supervised_state
+			freedom_level = 0.25 
+			}
+		}
+
+		WRO = {
+			MPK = { transfer_technology = no }
+		}
+
+		every_owned_state = {
+			limit = {
+					OR = {
+						add_state_core = 608
+					}
+				}
+			MPK = { transfer_state = PREV }
+		}
+
+		MPK = {
+			load_oob = "MPK_2027"
 		}
 
 	}
