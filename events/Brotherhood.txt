@@ -480,6 +480,7 @@ country_event = {
 
 	option = {
 		name = belchatow.24.a
+		custom_effect_tooltip = BBW_pollution_start_tt
 		hidden_effect = {
 		activate_mission = BBW_pollution_stage1
 		}
@@ -523,5 +524,37 @@ country_event = {
 			ideology = euroliberalism
 			popularity = 0.2
 		}
+	}
+}
+
+country_event = {					#LOSE
+	id = belchatow.27
+	title = belchatow.27.t
+	desc = belchatow.27.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.27.a
+			add_political_power = -75
+			add_stability = -0.05
+	}
+}
+
+country_event = { 					#WIN
+	id = belchatow.28
+	title = belchatow.28.t
+	desc = belchatow.28.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = belchatow.28.a
+			add_political_power = 15
+			add_stability = 0.03
 	}
 }

@@ -65,11 +65,11 @@ BBW_carbon_fever3_desc:0 "Well, I don't know, but I've been told\nCarbon ore's w
 BBW_futile_resistance:0 "Futile Resistance of Green Dialogue"
 BBW_futile_resistance_desc:0 "Szymon Chujownia lmao yeeet"
 BBW_resource_extraction_focus:0 "Resource Extraction Focus"
-BBW_resource_extraction_focus_desc:0 "more coal i guess"
+BBW_resource_extraction_focus_desc:0 "Nation's struggle to increase coal extraction."
 BBW_infrastructure_focus:0 "Infractructure Construction Focus"
-BBW_infrastructure_focus_desc:0 ""
+BBW_infrastructure_focus_desc:0 "Nation's struggle to develop Infractructure."
 BBW_industrial_focus:0 "Industrial Focus"
-BBW_industrial_focus_desc:0 ""
+BBW_industrial_focus_desc:0 "Nation's struggle to industrialize."
  ## COMPANIES ##
 ec_belchatow:0 "Bełchatów Power Station"
 aflofarm:0 "Aflofarm"
@@ -238,6 +238,15 @@ belchatow.26.t:0 "First Big Failure?"
 belchatow.26.desc:0 ""
 belchatow.26.a:0 "Let's hope it doesn't happen again..."
 
+belchatow.27.t:0 "Demand Failed"
+belchatow.27.desc:0 ""
+belchatow.27.a:0 "Auch, this will hurt."
+
+belchatow.28.t:0 "Demand Accomplished"
+belchatow.28.desc:0 "Success that will be a foundation of our growth."
+belchatow.28.a:0 "Splendid!"
+
+
 belchatow.zyd1.t:0 "Żydzew Agrees"
 belchatow.zyd1.desc:0 "Mojżesz kochał kopalnie więc płaci i nie marudzi"
 belchatow.zyd1.a:0 "Szalom"
@@ -287,9 +296,11 @@ BBW_industrial_mission3:0 "Demand for Industrialisation"
 BBW_industrial_mission3_desc:0 "wincej fabryczek"
 
  ##ToolTips###
+ BBW_pollution_start_tt:0 "§gNew disaster starts looming over the Brotherhood...§!"
  BBW_coal_production_tt:0 "Increase §8Coal§! Extraction to at least §8150§! units"
  BBW_capital_buildup_tt:0 "Build §OInfractructure§! in your capital city §OBełchatów§! to 10 level"
  BBW_industrial_test_tt:0 "Own more than §g20 factories§!"
+ BBW_industrial_mission_lose_tt:0 "§tOur Industrial Efficiency Stagnates!§!"
  BBW_industrial_mission_win_tt:0 "§GOur Industrial Efficiency Improves!§!"
  BBW_polution_rising_tt:0 "§gThe exctent of problems and losses this phenomenon produces, is currently unknown.§!"
  BBW_purchase_weapons_1:0 "§81000§! units of Łódź Black Market §8Ranged Weapons§! is added to the national stockpile"

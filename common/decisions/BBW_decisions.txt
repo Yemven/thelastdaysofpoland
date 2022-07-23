@@ -261,12 +261,16 @@ BBW_industrial_missions_category = {
 				instant_build = yes
 				}
 			}
-		}
+			hidden_effect = {
+			country_event = {
+				id = belchatow.28}
+				}
+			}
 		timeout_effect = {
-			BBW = {
-				add_political_power = -50
-				add_stability = -0.05
-				
+		custom_effect_tooltip = BBW_industrial_mission_lose_tt
+		hidden_effect = {
+			country_event = {
+				id = belchatow.27}
 			}
 		}
 	}
@@ -306,7 +310,7 @@ BBW_industrial_missions_category = {
 		
 		fire_only_once = yes
 		
-		 complete_effect = {
+		complete_effect = {
 		 custom_effect_tooltip = BBW_industrial_mission_win_tt
 			hidden_effect = {
 			swap_ideas = {
@@ -318,12 +322,17 @@ BBW_industrial_missions_category = {
 			341 = {
 				add_extra_state_shared_building_slots = 4
 				}
+			hidden_effect = {
+			country_event = {
+				id = belchatow.28}
+			}
 		}
 	
 		timeout_effect = {
-			BBW = {
-				add_political_power = -50
-				add_stability = -0.05
+		custom_effect_tooltip = BBW_industrial_mission_lose_tt
+		hidden_effect = {
+			country_event = {
+				id = belchatow.27}
 			}
 		}
 	}
