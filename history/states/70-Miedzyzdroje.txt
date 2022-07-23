@@ -3,7 +3,7 @@ state={
 	id=70
 	name="STATE_70"
 	provinces={
-		2365 3356 3573 6856
+		2365 3356 3573 6856 17203 17204 17205 17206 17207 17208 17209 17210 17211 17212 17213 17214
 	}
 	manpower = 15931  
 resources={
@@ -11,7 +11,8 @@ resources={
 	buildings_max_level_factor=1.000
 			history = {
 		owner = EKW
-		victory_points = { }
+		victory_points = {17207 5 }
+		victory_points = {3356 5 }
 		add_core_of = EKW
 	buildings = {
 	infrastructure = 7
