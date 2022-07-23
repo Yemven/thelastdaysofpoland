@@ -22,5 +22,25 @@ containerWindowType = {
 				scale = 1.01
 			}
 		}
+		
+		containerWindowType = {
+			size = { width = 533 height = 635}
+			name = "zona_bottom_window"
+			position = { x = 12 y = 270 }
+			background = {
+				name = "Background"		
+				spriteType ="GFX_tiled_bg"
+			}
+			instantTextboxType = {
+				name = "country_name"
+				position = { x = 12 y = 10 }
+				font = "hoi_18mbs"
+				text = "Everything here was wiped out by nuclear fire... Not a big loss, though."
+				maxWidth = 510
+				fixedsize = no
+				maxHeight = 200
+				format = left
+			}
+		}
 	}
 }
