@@ -648,7 +648,15 @@ focus_tree = {
 		
 		cost = 10
 		search_filters = {}
-		completion_reward = { 
+		completion_reward = {
+		if = {
+			limit = { has_completed_focus = ZHP_isolation_of_cities	}	
+			country_event = { id = zhp.9 }
+			}
+		else_if = {
+			limit = { has_completed_focus = ZHP_mutual_cooperation }
+			country_event = { id = zhp.10 }
+			}		
 			
 		}
 	}
