@@ -6,7 +6,11 @@ BBW_pollution_category = {
 		
 		days_mission_timeout = 45
 		
-		available = { always = no }
+		available = { 
+			hidden_effect = {
+				always = no 
+			}
+		}
 		
 		activation = {
 		always = no
