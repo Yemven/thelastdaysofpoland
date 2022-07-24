@@ -1,5 +1,71 @@
 ai_war_decisions = {
 
+###TATRY###
+	podhale_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = GUR
+			date > 2027.12.01
+			MSL = { has_war_with = GUR }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		war_with_on_remove = MSL
+		remove_effect  = {
+			set_war_support = 0.7
+			declare_war_on = {
+				target = MSL
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			GUR = {
+				has_war_with = MSL
+			}
+		}
+	}
+	
+	lososina_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = SCZ
+			date > 2027.12.12
+			LEM = { has_war_with = SCZ }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		war_with_on_remove = LEM
+		remove_effect  = {
+			set_war_support = 0.7
+			declare_war_on = {
+				target = LEM
+				type = annex_everything
+			}
+		}
+		cancel_trigger = {
+			SCZ = {
+				has_war_with = LEM
+			}
+		}
+	}
+
+
 	zaglebie_war_1 = {
 
 		icon = GFX_decision_generic_form_nation

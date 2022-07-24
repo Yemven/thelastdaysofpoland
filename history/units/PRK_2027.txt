@@ -1,0 +1,144 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Milicja Prokuratorska"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Straż Obywatelska"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "101 Batalion Lekkiej Piechoty"
+		location = 3906
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "102 Batalion Lekkiej Piechoty"
+		location = 16854
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "103 Batalion Lekkiej Piechoty"
+		location = 16940
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "61 Batalion Lekkiej Piechoty"
+		location = 16765
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "1 Kielecki Batalion Ochotniczy"
+		location = 16770
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "2 Kielecki Batalion Ochotniczy"
+		location = 16953
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "MP Staszów"
+		location = 3210
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "MP Jędrzejów"
+		location = 644
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "MP Opatów"
+		location = 3934
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "MP Kazimierza Wielka"
+		location = 14262
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "MP Busko-Zdrój"
+		location = 3027
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "MP Końskie"
+		location = 98
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "MP Włoszczowa"
+		location = 3157
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Straż Obywatelska Olkusz"
+		location = 1831
+		division_template = "Straż Obywatelska"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Straż Obywatelska Miechów"
+		location = 11133
+		division_template = "Straż Obywatelska"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Straż Obywatelska Proszowice"
+		location = 11170
+		division_template = "Straż Obywatelska"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+}
