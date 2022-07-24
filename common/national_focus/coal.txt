@@ -489,7 +489,7 @@ focus_tree = {
 		cost = 3.8
 		search_filters = { }
 		completion_reward = { 
-			add_political_power = 100
+			add_political_power = 25
 			country_event = {
 				id = belchatow.9
 				days = 1 }
@@ -532,7 +532,6 @@ focus_tree = {
 				add_idea = BBW_carbon_fever3
 				remove_idea = BBW_carbon_fever2
 			}
-			add_war_support = 0.1
 		}
 	}
 
@@ -635,7 +634,7 @@ focus_tree = {
 					owner = BBW
 				}
 			}
-			add_political_power = 200
+			add_political_power = 100
 		}
 	}
 	focus = {
