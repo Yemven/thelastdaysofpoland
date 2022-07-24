@@ -1,50 +1,59 @@
 division_template = {
-	name = "Brygada Piechoty"
+	name = "Wyznawcy Jehowy"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+		melee_infantry = { x = 2 y = 0 }
 	}
 }
 
 units = {
 	division = {
-		name = "1 Brygada Piechoty"
+		name = "Wyznawcy"
 		location = 13379
-		division_template = "Brygada Piechoty"
+		division_template = "Wyznawcy Jehowy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "2 Brygada Piechoty"
+		name = "Wyznawcy"
 		location = 13463
-		division_template = "Brygada Piechoty"
+		division_template = "Wyznawcy Jehowy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "3 Brygada Piechoty"
+		name = "Wyznawcy"
 		location = 13388
-		division_template = "Brygada Piechoty"
+		division_template = "Wyznawcy Jehowy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "4 Brygada Piechoty"
+		name = "Wyznawcy"
 		location = 13404
-		division_template = "Brygada Piechoty"
+		division_template = "Wyznawcy Jehowy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "5 Brygada Piechoty"
+		name = "Wyznawcy"
 		location = 13427
-		division_template = "Brygada Piechoty"
+		division_template = "Wyznawcy Jehowy"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Wyznawcy"
+		location = 13439
+		division_template = "Wyznawcy Jehowy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
