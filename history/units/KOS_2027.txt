@@ -29,53 +29,44 @@ division_template = {
 
 units = {
     division = {
-		name = "Freiwilligen Pro-Europa Bataillon 'Wolne Pomorze'"
-		location = 17182
+		name = "Freiwilligen Pro-Europa Bataillon 'Batalion Darłowo'"
+		location = 3553
 		division_template = "Freiwilligen Pro-Europa Bataillon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "1. Infanteriebataillon der Besatzungskräfte in Pommern"
-		location = 3550
+		name = "3. Infanteriebataillon der Besatzungskräfte in Pommern"
+		location = 16068
 		division_template = "Euromarineinfanteriebataillon"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "2. Infanteriebataillon der Besatzungskräfte in Pommern"
-		location = 17150
+		name = "4. Infanteriebataillon der Besatzungskräfte in Pommern"
+		location = 17009
 		division_template = "Euroinfanteriebataillon"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
-
-	division = {
-		name = "we're looking for rosa luxembourg"
-		location = 670
-		division_template = "Euromarineinfanteriebataillon"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
 	
     fleet = {
         name = "Europäische pommersche Flotte" 
-        naval_base = 5532
+        naval_base = 3553
         task_force = {
             name = "Europäische pommersche Einsatzverband" 
-            location = 5532
+            location = 3553
             ship = {
-                name = "EGS Pommeraner" 
+                name = "EGS Friedenswächter" 
                 pride_of_the_fleet = yes
                 definition = heavy_monitor
                 equipment = { 
                     heavy_monitor_hull_3_equipment = {
                         amount = 1
-                        owner = POM
-                        version_name = "Gepard-class"
+                        owner = KOS
+                        version_name = "Braunschweig-class"
                     }
                 }
             }
