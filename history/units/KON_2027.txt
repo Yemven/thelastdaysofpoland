@@ -8,7 +8,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Batalion Nitroszczuruw"
+	name = "Batalion Armii Bjałstockiej"
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
 		melee_infantry = { x = 0 y = 1 }
@@ -18,12 +18,21 @@ division_template = {
 }
 
 division_template = {
-	name = "Batalion Żołnierzy i Żołnierek"
+	name = "Szczelcy Prezydenccy"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
 		militia = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Gwardia Prezydencka"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		militia = { x = 2 y = 0 }
 	}
 }
 
@@ -37,50 +46,50 @@ division_template = {
 
 units = {
     division = {
-		name = "Szczelcy Bombascy"
-		location = 11748
-		division_template = "Batalion Żołnierzy i Żołnierek"
+		name = "1 Batalion Armii Bjałstockiej im. śp. Jana Ł. (bo RODO)"
+		location = 9570
+		division_template = "Batalion Armii Bjałstockiej"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "Batalion Leśny im. Wiewiórek Zwierzynieckich"
-		location = 11715
-		division_template = "Batalion Nitroszczuruw"
+		name = "1 Jednostka Funkcjonariuszy Biura Interwencji Obywatelskich"
+		location = 9574
+		division_template = "Gwardia Prezydencka"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "1 Batalion Żołnierzy i Żołnierek"
-		location = 11704
-		division_template = "Batalion Żołnierzy i Żołnierek"
+		name = "2 Batalion Armii Bjałstockiej 'PSS Zodiak'"
+		location = 9572
+		division_template = "Batalion Armii Bjałstockiej"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "Nitrosafaryści"
-		location = 11733
-		division_template = "Batalion Nitroszczuruw"
+		name = "3 Batalion Armii Bjałstockiej im. Nerka Bożego"
+		location = 9563
+		division_template = "Szczelcy Prezydenccy"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "1 Batalion Latoksowy 'Szczudlaki'"
-		location = 11721
-		division_template = "Batalion Latoksowy"
+		name = "4 Batalion Armii Bjałstockiej 'Mleczny'"
+		location = 9567
+		division_template = "Batalion Armii Bjałstockiej"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "Redaktorzy"
-		location = 11730
-		division_template = "Kompania Redaktorska"
-		start_experience_factor = 0.5
+		name = "Frajerzy spod Bramki"
+		location = 9571
+		division_template = "Batalion Latoksowy"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 }	
