@@ -761,5 +761,82 @@ tatry_unification = {
 }
 
 
+northen_greater_poland_voivodeship_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_poznanskie
+			can_unify_poznanskie = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { is_northern_greater_poland = yes }
+
+	complete_effect = {
+
+		if = {
+			limit = { tag = POZ }
+			set_cosmetic_tag = POZ_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.50 }
+				}
+			}
+			custom_effect_tooltip = POZ_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = SYJ }
+			set_cosmetic_tag = SYJ_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.51 }
+				}
+			}
+			custom_effect_tooltip = SYJ_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = NAC }
+			set_cosmetic_tag = NAC_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.52 }
+				}
+			}
+			custom_effect_tooltip = NAC_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = PIL }
+			set_cosmetic_tag = PIL_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.53 }
+				}
+			}
+			custom_effect_tooltip = PIL_unifies_southern_greater_poland_tooltip
+		}
+
+
+        ai_will_do = { factor = 1 }
+}
+
 
 }

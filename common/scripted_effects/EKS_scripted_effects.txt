@@ -442,6 +442,9 @@ EKS_collapse_BOG = {
 
 		BOG = {
 			load_oob = "BOG_2027"
+			set_politics = {
+				ruling_party = euroliberalism
+				}
 		}
 
 	}
@@ -473,6 +476,9 @@ EKS_collapse_ECO = {
 
 		ECO = {
 			load_oob = "ECO_2027"
+			set_politics = {
+				ruling_party = autocracy
+				}
 		}
 
 	}
@@ -571,6 +577,9 @@ EKS_collapse_MPK = {
 
 		MPK = {
 			load_oob = "MPK_2027"
+			set_politics = {
+				ruling_party = corporativism
+				}
 		}
 
 	}

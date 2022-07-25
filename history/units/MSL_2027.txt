@@ -1,0 +1,69 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Batalion Powietrznodesantowy"
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Żandarmeria Wojskowa"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+    division = {
+		name = "6 Batalion Dowodzenia"
+		location = 1696
+		division_template = "Batalion Powietrznodesantowy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+    division = {
+		name = "6 Batalion Powietrznodesantowy"
+		location = 10830
+		division_template = "Batalion Powietrznodesantowy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+    division = {
+		name = "16 Batalion Powietrznodesantowy"
+		location = 10755
+		division_template = "Batalion Powietrznodesantowy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+    division = {
+		name = "6 Batalion Logistyczny"
+		location = 2741
+		division_template = "Batalion Powietrznodesantowy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+    division = {
+		name = "18 Batalion Powietrznodesantowy"
+		location = 10771
+		division_template = "Batalion Powietrznodesantowy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

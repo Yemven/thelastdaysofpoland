@@ -9,10 +9,11 @@ set_technology = {
 		infantry_training = 1
 		infantry_armor = 1
 		ballistic_vests = 1
-		
+		special_forces_equipment = 1	
 		tech_support = 1
 		basic_train = 1
-		
+		tech_logistics_company = 1
+		tech_field_hospital = 1
 		light_artillery = 1
 		light_artillery1 = 1
 		
@@ -49,7 +50,7 @@ if = {
 }
 
 set_convoys = 20
-
+oob = "MSL_2027"
 recruit_character = MSL_krzysztof_goncerz
 
 add_ideas = {

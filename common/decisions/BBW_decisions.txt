@@ -7,10 +7,9 @@ BBW_pollution_category = {
 		days_mission_timeout = 45
 		
 		available = { 
-			hidden_effect = {
-				always = no 
-			}
+			always = no 
 		}
+		
 		
 		activation = {
 		always = no
@@ -26,7 +25,7 @@ BBW_pollution_category = {
 		
 		fire_only_once = yes
 		
-		 complete_effect = {
+		complete_effect = {
 		
 		}
 		
@@ -129,6 +128,8 @@ BBW_pollution_category = {
 					add_idea = BBW_smog8
 					remove_idea = BBW_smog7
 				}
+				country_event = {
+			id = belchatow.29}
 			}
 		}
 		if = {
@@ -315,13 +316,23 @@ BBW_industrial_missions_category = {
 		fire_only_once = yes
 		
 		complete_effect = {
-		 custom_effect_tooltip = BBW_industrial_mission_win_tt
+		custom_effect_tooltip = BBW_industrial_mission_win_tt
+		if = {
+			limit = { 
+				BBW = { has_idea = BBW_industrial_capabilities }
+				} 
 			hidden_effect = {
 			swap_ideas = {
 					add_idea = BBW_industrial_capabilities2
 					remove_idea = BBW_industrial_capabilities
 				}
 			}
+		}
+		else = {
+		hidden_effect = {
+			add_ideas = BBW_industrial_capabilities
+			}
+		}
 			add_offsite_building = { type = industrial_complex level = 1 }
 			341 = {
 				add_extra_state_shared_building_slots = 4
@@ -356,7 +367,7 @@ BBW_industrial_missions_category = {
 			custom_trigger_tooltip = {
 				tooltip = BBW_industrial_test_tt
 					BBW = {
-					check_variable = { num_of_factories > 20 }
+					check_variable = { num_of_owned_factories > 21 }
 					}
 				}
 			}
@@ -376,28 +387,35 @@ BBW_industrial_missions_category = {
 		
 		fire_only_once = yes
 		
-		 complete_effect = {
-			if = {
-				limit = { 
-					BBW = { has_idea = BBW_industrial_capabilities }
-				} 
-				custom_effect_tooltip = BBW_industrial_mission_win_tt
-				hidden_effect = {
-					swap_ideas = {
-					add_idea = BBW_industrial_capabilities3
-					remove_idea = BBW_industrial_capabilities
-					}
+		complete_effect = {
+		if = {
+			limit = { 
+			BBW = { has_idea = BBW_industrial_capabilities }
+			} 
+			hidden_effect = {
+				swap_ideas = {
+				add_idea = BBW_industrial_capabilities2
+				remove_idea = BBW_industrial_capabilities
 				}
 			}
-			else = {
+		}
+		if = {
+			limit = { 
+			BBW = { has_idea = BBW_industrial_capabilities2 }
+			}
+			hidden_effect = {
+				swap_ideas = {
+				add_idea = BBW_industrial_capabilities3
+				remove_idea = BBW_industrial_capabilities2
+				}
+			}
+		}
+		else = {
+		hidden_effect = {
+		add_ideas = BBW_industrial_capabilities
+			}
+		}
 			custom_effect_tooltip = BBW_industrial_mission_win_tt
-				hidden_effect = {
-					swap_ideas = {
-					add_idea = BBW_industrial_capabilities3
-					remove_idea = BBW_industrial_capabilities2
-					}
-				}
-			}
 			country_event = {
 			id = belchatow.25}	
 		}
@@ -408,4 +426,87 @@ BBW_industrial_missions_category = {
 		}
 	}
 	
+	
+	BBW_industrial_mission4 = {
+		icon = GFX_decision_generic_form_nation
+		
+		days_mission_timeout = 140
+		is_good = yes
+		available = {  
+		if = {
+			limit = { 
+				is_ai = yes
+			}  
+		}
+		else = {
+			custom_trigger_tooltip = {
+				tooltip = BBW_military_factories_count_tt
+					BBW = {
+					check_variable = { num_of_military_factories > 20 }
+					}
+				}
+			}
+		}
+		
+		activation = {
+		always = no
+		}
+		
+		allowed = {
+			tag = BBW
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+		if = {
+			limit = { 
+				BBW = { has_idea = BBW_industrial_capabilities3 }
+			} 
+			hidden_effect = {
+				swap_ideas = {
+				add_idea = BBW_industrial_capabilities4
+				remove_idea = BBW_industrial_capabilities3
+				}
+			}
+		}
+		if = {
+			limit = { 
+				BBW = { has_idea = BBW_industrial_capabilities2 }
+			} 
+			hidden_effect = {
+				swap_ideas = {
+				add_idea = BBW_industrial_capabilities3
+				remove_idea = BBW_industrial_capabilities2
+				}
+			}
+		}
+		else = {
+		hidden_effect = {
+				swap_ideas = {
+				add_idea = BBW_industrial_capabilities2
+				remove_idea = BBW_industrial_capabilities
+				}
+			}
+		}
+			custom_effect_tooltip = BBW_industrial_mission_win_tt
+			hidden_effect = {
+			country_event = {
+				id = belchatow.28}
+			}
+		}
+	
+		timeout_effect = {
+		custom_effect_tooltip = BBW_industrial_mission_lose_tt
+		hidden_effect = {
+			country_event = {
+				id = belchatow.27}
+			}
+		}
+	}
+
 }
