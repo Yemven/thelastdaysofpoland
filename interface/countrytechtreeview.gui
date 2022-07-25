@@ -3394,7 +3394,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_artillery_folder_small_item"
-		position = { x=0 y=0 }
+		position = { x=-30 y=-40 }
 		size = { width = 72 height = 72 }
 		clipping = no
 
@@ -3405,32 +3405,32 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=3 y=3 }
+			position = { x=16 y=18 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "bonus_icon"
-			position = { x=3 y=-22 }
+			position = { x=-1 y=-22 }
 			spriteType = "GFX_tech_bonus"
 		}
 		instantTextBoxType = {
 			name = "bonus"
-			position = { x = 17 y = -22 }
+			position = { x = -1 y = -22 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
-			maxWidth = 50
+			maxWidth = 80
 			maxHeight = 20
-			format = right
+			format = center
 		}
 	}
 
 	containerWindowType = {
 		name = "techtree_artillery_folder_item"
-		position = { x=-55 y=0 }
-		size = { width = 204 height = 72 }
+		position = { x=-70 y=-15 }
+		size = { width = 183 height = 84 }
 		clipping = no
 
 		background = {
@@ -3440,20 +3440,20 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 3 y = -1 }
+			position = { x = -80 y = -30 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Lortespasserkanon"
-			maxWidth = 166
+			maxWidth = 350
 			maxHeight = 20
 			fixedsize = no
-			format = left
+			format = center
 		}
 
 		iconType = {
 			name = "Icon"
-			position = { x=85 y=50 }
+			position = { x=100 y=50 }
 			spriteType = "GFX_technology_medium"
 			centerposition = yes	
 			alwaystransparent = yes
