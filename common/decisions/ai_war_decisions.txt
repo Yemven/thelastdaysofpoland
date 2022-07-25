@@ -1066,6 +1066,11 @@ ai_war_decisions = {
 		available = {
 			tag = FEL
 			date > 2028.04.01
+			SUS = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = SUS
 		}
 
 		cost = 1
@@ -1097,6 +1102,11 @@ ai_war_decisions = {
 		available = {
 			tag = CAL
 			date > 2028.04.01
+			GNI = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = GNI
 		}
 
 		cost = 1
@@ -1127,6 +1137,11 @@ ai_war_decisions = {
 		available = {
 			tag = GNI
 			date > 2028.04.01
+			CAL = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = CAL
 		}
 
 		cost = 1
@@ -1158,6 +1173,11 @@ ai_war_decisions = {
 		available = {
 			tag = SUS
 			date > 2028.04.01
+			FEL = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = FEL
 		}
 
 		cost = 1
@@ -1188,7 +1208,12 @@ ai_war_decisions = {
 
 		available = {
 			tag = FEL
-			date > 2028.09.01
+			date > 2028.10.01
+			CAL = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = CAL
 		}
 
 		cost = 1
@@ -1219,7 +1244,12 @@ ai_war_decisions = {
 
 		available = {
 			tag = FEL
-			date > 2028.09.01
+			date > 2028.10.01
+			GNI = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = GNI
 		}
 
 		cost = 1
@@ -1249,7 +1279,12 @@ ai_war_decisions = {
 
 		available = {
 			tag = CAL
-			date > 2028.09.01
+			date > 2028.10.01
+			FEL = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = FEL
 		}
 
 		cost = 1
@@ -1280,7 +1315,12 @@ ai_war_decisions = {
 
 		available = {
 			tag = CAL
-			date > 2028.09.01
+			date > 2028.10.01
+			SUS = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = SUS
 		}
 
 		cost = 1
@@ -1311,7 +1351,12 @@ ai_war_decisions = {
 
 		available = {
 			tag = GNI
-			date > 2028.09.01
+			date > 2028.10.01
+			FEL = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = FEL
 		}
 
 		cost = 1
@@ -1342,7 +1387,12 @@ ai_war_decisions = {
 
 		available = {
 			tag = GNI
-			date > 2028.09.01
+			date > 2028.10.01
+			SUS = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+		    country_exists = SUS
 		}
 
 		cost = 1
@@ -1373,7 +1423,12 @@ ai_war_decisions = {
 
 		available = {
 			tag = SUS
-			date > 2028.09.01
+			date > 2028.10.01
+			CAL = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = CAL
 		}
 
 		cost = 1
@@ -1404,7 +1459,12 @@ ai_war_decisions = {
 
 		available = {
 			tag = SUS
-			date > 2028.09.01
+			date > 2028.10.01
+			GNI = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = GNI
 		}
 
 		cost = 1
@@ -1436,6 +1496,11 @@ ai_war_decisions = {
 		available = {
 			tag = NAC
 			date > 2028.07.01
+			PIL = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = PIL
 		}
 
 		cost = 1
@@ -1445,7 +1510,7 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 14
-		war_with_on_remove = PUL
+		war_with_on_remove = PIL
 		remove_effect  = {
 			declare_war_on = {
 				target = PIL
@@ -1467,6 +1532,11 @@ ai_war_decisions = {
 		available = {
 			tag = PIL
 			date > 2028.07.01
+			NAC = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = NAC
 		}
 
 		cost = 1
@@ -1496,8 +1566,9 @@ ai_war_decisions = {
 		icon = GFX_decision_generic_form_nation
 
 		available = {
-			tag = poz
+			tag = POZ
 			date > 2028.04.01
+			country_exists = SLU
 		}
 
 		cost = 1
@@ -1529,6 +1600,7 @@ ai_war_decisions = {
 		available = {
 			tag = SYJ
 			date > 2028.04.01
+			country_exists = SLU
 		}
 
 		cost = 1
@@ -1560,6 +1632,7 @@ ai_war_decisions = {
 		available = {
 			tag = POZ
 			date > 2028.04.20
+			country_exists = SYJ
 		}
 
 		cost = 1
@@ -1591,6 +1664,7 @@ ai_war_decisions = {
 		available = {
 			tag = SYJ
 			date > 2028.04.20
+			country_exists = POZ
 		}
 
 		cost = 1
@@ -1622,6 +1696,11 @@ ai_war_decisions = {
 		available = {
 			tag = POZ
 			date > 2028.12.01
+			PIL = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = PIL
 		}
 
 		cost = 1
@@ -1652,6 +1731,11 @@ ai_war_decisions = {
 		available = {
 			tag = POZ
 			date > 2028.12.01
+			NAC = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = NAC
 		}
 
 		cost = 1
@@ -1682,6 +1766,11 @@ ai_war_decisions = {
 		available = {
 			tag = POZ
 			date > 2028.12.01
+			PIL = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = PIL
 		}
 
 		cost = 1
@@ -1712,6 +1801,11 @@ ai_war_decisions = {
 		available = {
 			tag = SYJ
 			date > 2028.12.01
+			NAC = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = NAC
 		}
 
 		cost = 1
@@ -1743,6 +1837,11 @@ ai_war_decisions = {
 		available = {
 			tag = POZ
 			date > 2028.12.01
+			POZ = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = POZ
 		}
 
 		cost = 1
@@ -1773,6 +1872,11 @@ ai_war_decisions = {
 		available = {
 			tag = PIL
 			date > 2028.12.01
+			SYJ = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = SYJ
 		}
 
 		cost = 1
@@ -1804,6 +1908,11 @@ ai_war_decisions = {
 		available = {
 			tag = NAC
 			date > 2028.12.01
+			POZ = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = POZ
 		}
 
 		cost = 1
@@ -1834,6 +1943,11 @@ ai_war_decisions = {
 		available = {
 			tag = NAC
 			date > 2028.12.01
+			SYJ = {
+		    has_war = no}
+			AND = {
+		    has_war = no}
+			country_exists = SYJ
 		}
 
 		cost = 1
