@@ -13,7 +13,7 @@ leader_traits = {
 	}
 	master_of_rethorics = {
 		random = no
-		research_speed_factor = -0.025
+		war_support_factor = 0.1
 		political_power_gain = 0.15
 	}
 	ruthless_player = {
@@ -60,7 +60,7 @@ leader_traits = {
 	central_planner = {
 		random = no
 		production_speed_buildings_factor = 0.05
-		consumer_goods_use_modifier = 0.125
+		consumer_goods_factor = 0.125
 	}
 	industrial_chemist = {
 		random = no
@@ -82,7 +82,7 @@ leader_traits = {
 	shrewd_financier = {
 		random = no
 		local_resources_factor = -0.05
-		consumer_goods_use_modifier = -0.1
+		consumer_goods_factor = -0.1
 	}
 	sailing_instructor = {
 		random = no
