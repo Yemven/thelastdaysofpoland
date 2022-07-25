@@ -8,7 +8,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Batalion Armii Bjałstockiej"
+	name = "Batalion Armii Białostockiej"
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
 		melee_infantry = { x = 0 y = 1 }
@@ -18,7 +18,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Szczelcy Prezydenccy"
+	name = "Strzelcy Prezydenccy"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -46,9 +46,9 @@ division_template = {
 
 units = {
     division = {
-		name = "1 Batalion Armii Bjałstockiej im. śp. Jana Ł. (bo RODO)"
+		name = "1 Batalion Armii Białostockiej im. śp. Jana Ł. (bo RODO)"
 		location = 9570
-		division_template = "Batalion Armii Bjałstockiej"
+		division_template = "Batalion Armii Białostockiej"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
@@ -62,15 +62,15 @@ units = {
 	}
 	
 	division = {
-		name = "2 Batalion Armii Bjałstockiej 'PSS Zodiak'"
+		name = "2 Batalion Armii Białostockiej 'PSS Zodiak'"
 		location = 9572
-		division_template = "Batalion Armii Bjałstockiej"
+		division_template = "Batalion Armii Białostockiej"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "3 Batalion Armii Bjałstockiej im. Nerka Bożego"
+		name = "3 Batalion Armii Białostockiej im. Nerka Bożego"
 		location = 9563
 		division_template = "Szczelcy Prezydenccy"
 		start_experience_factor = 0.5
@@ -78,9 +78,9 @@ units = {
 	}
 	
 	division = {
-		name = "4 Batalion Armii Bjałstockiej 'Mleczny'"
+		name = "4 Batalion Armii Białostockiej 'Mleczny'"
 		location = 9567
-		division_template = "Batalion Armii Bjałstockiej"
+		division_template = "Batalion Armii Białostockiej"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

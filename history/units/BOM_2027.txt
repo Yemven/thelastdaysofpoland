@@ -1,5 +1,5 @@
 division_template = {
-	name = "Batalion Latoksowy"
+	name = "Batalion Antyloteksowy"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		melee_infantry = { x = 0 y = 1 }
@@ -69,9 +69,9 @@ units = {
 	}
 	
 	division = {
-		name = "1 Batalion Latoksowy 'Szczudlaki'"
+		name = "1 Batalion Loteksowy 'Szczudlaki'"
 		location = 11721
-		division_template = "Batalion Latoksowy"
+		division_template = "Batalion Loteksowy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
