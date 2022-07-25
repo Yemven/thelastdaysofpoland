@@ -614,6 +614,11 @@ country_event = {
 					freedom_level = 0.15 
 				} 
 			}
+			TOU = {
+			set_politics = {
+				ruling_party = corporativism
+				}
+			}
 	}			
 	option = {
 		name = aievent.15.b #KGH
@@ -626,6 +631,11 @@ country_event = {
 				freedom_level = 0.15 
 			}	 
 		}
+		TOU = {
+			set_politics = {
+				ruling_party = corporativism
+				}
+			}
 	}
 }
 

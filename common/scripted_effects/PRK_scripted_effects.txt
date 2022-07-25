@@ -331,3 +331,92 @@ PRK_revolt_major_SND = {
 		}
 	}
 }
+
+PRK_withdrawal = {
+	hidden_effect = {
+		417 = {
+			SND = { transfer_state = PREV }
+		}
+		860 = {
+			STA = { transfer_state = PREV }
+		}
+		378 = {
+			STA = { transfer_state = PREV }
+		}
+		433 = {
+			KEL = { transfer_state = PREV }
+		}	
+		857 = {
+			KEL = { transfer_state = PREV }
+		}	
+		443 = {
+			KEL = { transfer_state = PREV }
+		}	
+		856 = {
+			KEL = { transfer_state = PREV }
+		}	
+		389 = {
+			KEL = { transfer_state = PREV }
+		}				
+		362 = {
+			NSZ = { transfer_state = PREV }
+		}
+		861 = {
+			NSZ = { transfer_state = PREV }
+		}	
+		394 = {
+			NSZ = { transfer_state = PREV }
+		}	
+		676 = {
+			NSZ = { transfer_state = PREV }
+		}	
+		398 = {
+			NSZ = { transfer_state = PREV }
+		}
+		675 = {
+			NSZ = { transfer_state = PREV }
+		}
+		864 = {
+			NRA = { transfer_state = PREV }
+		}
+		679 = {
+			NRA = { transfer_state = PREV }
+		}
+		865 = {
+			NRA = { transfer_state = PREV }
+		}
+		678 = {
+			NRA = { transfer_state = PREV }
+		}
+		677 = {
+			NRA = { transfer_state = PREV }
+		}
+		441 = {
+			NRA = { transfer_state = PREV }
+		}
+		420 = {
+			STO = { transfer_state = PREV }
+		}
+		862 = {
+			STO = { transfer_state = PREV }
+		}
+		674 = {
+			STO = { transfer_state = PREV }
+		}
+		863 = {
+			STO = { transfer_state = PREV }
+		}
+		855 = {
+			STO = { transfer_state = PREV }
+		}
+		469 = {
+			STO = { transfer_state = PREV }
+		}
+		PRK = {
+			every_enemy_country = {
+			white_peace = ROOT
+			}
+			
+		}	
+	}
+}
