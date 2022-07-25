@@ -1,6 +1,8 @@
 ai_war_decisions = {
 
 ###TATRY###
+
+	
 	podhale_war = {
 
 		icon = GFX_decision_generic_form_nation
@@ -8,7 +10,6 @@ ai_war_decisions = {
 		available = {
 			tag = GUR
 			date > 2027.12.01
-			MSL = { has_war_with = GUR }
 		}
 
 		cost = 1
@@ -40,7 +41,6 @@ ai_war_decisions = {
 		available = {
 			tag = SCZ
 			date > 2027.12.12
-			LEM = { has_war_with = SCZ }
 		}
 
 		cost = 1
