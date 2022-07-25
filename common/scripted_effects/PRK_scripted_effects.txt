@@ -337,7 +337,31 @@ PRK_withdrawal = {
 		417 = {
 			SND = { transfer_state = PREV }
 		}
+		671 = {
+			SND = { transfer_state = PREV }
+		}
+		670 = {
+			SND = { transfer_state = PREV }
+		}
+		672 = {
+			SND = { transfer_state = PREV }
+		}
 		860 = {
+			STA = { transfer_state = PREV }
+		}
+		858 = {
+			STA = { transfer_state = PREV }
+		}
+		392 = {
+			STA = { transfer_state = PREV }
+		}
+		859 = {
+			STA = { transfer_state = PREV }
+		}
+		377 = {
+			STA = { transfer_state = PREV }
+		}
+		673 = {
 			STA = { transfer_state = PREV }
 		}
 		378 = {
@@ -413,10 +437,12 @@ PRK_withdrawal = {
 			STO = { transfer_state = PREV }
 		}
 		PRK = {
-			every_enemy_country = {
-			white_peace = ROOT
-			}
-			
+			white_peace = STO
+			white_peace = SND
+			white_peace = STA
+			white_peace = NRA
+			white_peace = NSZ
+			white_peace = KEL
 		}	
 	}
 }
