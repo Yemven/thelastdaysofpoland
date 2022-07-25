@@ -5,7 +5,7 @@ ideas = {
 			allowed = {
 				original_tag = BBW
 			}
-			
+
 			cancel = {
 			has_war = no
 			}
@@ -21,8 +21,44 @@ ideas = {
 				political_power_gain = -0.1
 			}
 		}
+		KRS_corrupt_hospitals = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				monthly_population = -0.2
+				stability_factor = 0.05
+			}
+		}
+		KRS_rutkowski_patrol = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				drift_defence_factor = 0.25
+				war_support_factor = 0.02
+				surrender_limit = 0.15
+			}
+		}
+
+
+
+
+		}
 	}
-	
+
 	industrial_company = {
 		use_list_view = yes
 
@@ -35,7 +71,7 @@ ideas = {
 			research_bonus = {
 				industry = 0.1
 				}
-		}	
+		}
 		mabion_krs = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = KRS }
@@ -69,7 +105,7 @@ ideas = {
 	}
 	armament_company = {
 		use_list_view = yes
-		
+
 		rutkowski_krs = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = KRS }
