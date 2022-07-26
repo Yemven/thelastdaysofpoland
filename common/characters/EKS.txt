@@ -7,17 +7,18 @@ characters={
 			}
 		}
 		country_leader={
+		  desc = POLITICS_GRZEGORZ_SCHETYNA_DESC"
 			ideology=euroliberalism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	
+
 	EKS_slawomir_neumann={
 		name="Sławomin Neumann"
 		portraits={
 			civilian={
-				
+
 			}
 		}
 		advisor = {
@@ -30,14 +31,14 @@ characters={
 				original_tag = EKS
 			}
 		}
-		
+
 	}
-	
+
 	EKS_malgorzata_kidawa_blonska={
 		name="Małgorzata Kidawa-Błońska"
 		portraits={
 			civilian={
-				
+
 			}
 		}
 		advisor = {
@@ -50,14 +51,14 @@ characters={
 				original_tag = EKS
 			}
 		}
-		
+
 	}
-	
+
 	EKS_tomasz_siemoniak={
 		name="Tomasz Siemoniak"
 		portraits={
 			civilian={
-				
+
 			}
 		}
 		advisor = {
@@ -78,14 +79,14 @@ characters={
 			planning_skill = 3
 			logistics_skill = 1
 		}
-		
+
 	}
-	
+
 	EKS_rafał_jurkowlaniec={
 		name="Rafał Jurkowlaniec"
 		portraits={
 			civilian={
-				
+
 			}
 		}
 		advisor = {
@@ -98,6 +99,6 @@ characters={
 				original_tag = EKS
 			}
 		}
-		
+
 	}
 }
