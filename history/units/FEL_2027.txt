@@ -13,10 +13,8 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
 	}
 }
 
@@ -28,7 +26,6 @@ division_template = {
 		militia = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-		motorized = { x = 2 y = 0 }
 	}
 }
 
@@ -61,15 +58,7 @@ units = {
 		name = "Hetmański Pułk Kawaleryjski"
 		location = 13746 
 		division_template = "Pułk Kawalerii"
-		start_experience_factor = 1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "2. Pułk Kawalerii im. Chodkiewicza"
-		location = 13668 
-		division_template = "Pułk Kawalerii"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	

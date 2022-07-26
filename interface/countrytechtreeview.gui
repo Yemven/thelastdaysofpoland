@@ -3480,7 +3480,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_air_techs_folder_item"
-		position = { x=-20 y=-15 }
+		position = { x=-60 y=0 }
 		size = { width = 183 height = 84 }
 		clipping = no
 
@@ -3491,20 +3491,20 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = -0 y = -45 }
+			position = { x = 3 y = -1 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = ""
-			maxWidth = 183
+			maxWidth = 166
 			maxHeight = 20
 			fixedsize = no
-			format = center
+			format = left
 		}
 
 		iconType = {
 			name = "Icon"
-			position = { x=100 y=50 }
+			position = { x=89 y=50 }
 			spriteType = "GFX_technology_medium"
 			centerposition = yes	
 			alwaystransparent = yes
