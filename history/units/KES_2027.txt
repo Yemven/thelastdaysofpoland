@@ -9,7 +9,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Europanzergrenadierbataillon der Besatzungskräfte (mot. inf.)"
+	name = "Europanzergrenadierbataillon (mot. inf.)"
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -19,7 +19,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Europanzergrenadierbataillon der Besatzungskräfte (armor)"
+	name = "Europanzergrenadierbataillon (armor)"
 	regiments = {
 		medium_armor = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -39,25 +39,25 @@ division_template = {
 
 units = {
     division = {
-		name = "1. Panzergrenadierbataillon der Besatzungskräfte in Kesselberg"
+		name = "6. Europanzergrenadierbataillon"
 		location = 13752
-		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (mot. inf.)"
+		division_template = "Europanzergrenadierbataillon (mot. inf.)"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "2. Panzergrenadierbataillon der Besatzungskräfte in Kesselberg"
+		name = "7. Europanzergrenadierbataillon"
 		location = 14646
-		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (mot. inf.)"
+		division_template = "Europanzergrenadierbataillon (mot. inf.)"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "3. Panzergrenadierbataillon der Besatzungskräfte in Kesselberg"
+		name = "9. Europanzergrenadierbataillon"
 		location = 14750
-		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (mot. inf.)"
+		division_template = "Europanzergrenadierbataillon (mot. inf.)"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
 	}
@@ -65,7 +65,7 @@ units = {
 	division = {
 		name = "Bataillon Schrimm"
 		location = 13569
-		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (mot. inf.)"
+		division_template = "Europanzergrenadierbataillon (mot. inf.)"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
 	}
@@ -79,31 +79,23 @@ units = {
 	}
 	
 	division = {
-		name = "4. Panzergrenadierbataillon der Besatzungskräfte in Kesselberg"
+		name = "8. Europanzergrenadierbataillon"
 		location = 14656
-		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (armor)"
+		division_template = "Europanzergrenadierbataillon (armor)"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "5. Panzergrenadierbataillon der Besatzungskräfte in Kesselberg"
+		name = "10. Europanzergrenadierbataillon"
 		location = 1473
-		division_template = "Europanzergrenadierbataillon der Besatzungskräfte (armor)"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "1. Infanteriebataillon der Besatzungskräfte in Kesselberg"
-		location = 14637
-		division_template = "Euroinfanteriebataillon"
+		division_template = "Europanzergrenadierbataillon (armor)"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "2. Infanteriebataillon der Besatzungskräfte in Kesselberg"
+		name = "9. Euroinfanteriebataillon"
 		location = 14621
 		division_template = "Euroinfanteriebataillon"
 		start_experience_factor = 0.5
