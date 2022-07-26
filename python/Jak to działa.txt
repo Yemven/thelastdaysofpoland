@@ -1,0 +1,29 @@
+Aby działało trzeba mieć zainstalowanego Pythona i różne packi, które zainstalujemy za pomocą pip: https://www.python.org/downloads/
+Ostatnią wersję
+
+1. Pobieramy Pythona; ważne jest by przy instalacji zaznaczyć by zainstalować również pip https://imgur.com/jtxCJ79
+
+2. Po zainstalowaniu wchodzimy w konsolę, wciśnij przycisk Windowsa i wpisz cmd
+
+3. wpisz pip install PIL
+pip install tkinter
+
+PS. Nie pamiętam czy domyślnie pack "time" jest zainstalowany w Pythonie więc lepiej sprawdzić, wpisz:
+pip install time
+
+
+
+FlagAutoResizer:
+Tworzy kopie medium i small wszystkich flag, które nie mają swoich odpowiedników w folderach small i medium.
+Aby program zadziałał potrzebny jest folder "Nowy Folder" w tym folderze i dwa foldery w nim; "medium" i "small"
+
+Focus_GFX_Maker:
+
+Wybierasz ze swojego dysku obraz, a program kopiuje go do gfx/interface/goals i wpisuje jego nazwę (dlatego najlepiej zmienić nazwę pliku przed uruchomieniem programu) do interface/PaF_goals i interface/PaF_goals_shine
+Następnie wystarczy wpisać nazwę GFX tych obrazów, które pojawiły się w PaF_goals
+
+Focus_Loc_GeneratorGui:
+
+Pisze nazwy focusów i placeholderowe opisy. 
+Przed uruchomieniem zalecam stworzenie tymczasowego pliku txt w tym folderze i wybranie go w "Select Output"
+Po przeniesienie zawartości tymvczasowego pliku do odpowiedniego pliku w localisation, należy go usunąć
