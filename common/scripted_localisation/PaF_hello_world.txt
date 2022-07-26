@@ -21,10 +21,7 @@ defined_text = {
 
 	text = {
 		trigger = { check_variable = { PaF_Opening_Screen = 1 } }
-		AND = {
 		localization_key = "[GET_COUNTRY_INFO]"
-		localization_key = "[GET_COUNTRY_TITLE]"
-			}
 	}
 
 	text = {
