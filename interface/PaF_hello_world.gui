@@ -51,51 +51,63 @@ guiTypes = {
 				text = " MOD INFORMATIONS"
 			}
 		}
+		iconType = {
+			name = "PaF_OpeningScreen_PlayerFlag"
+			position = { x = 30 y = 100 }
+			scale = 2.0
+			spriteType = "GFX_flag_large"
+		}
+			containerWindowType = {
+		name = "PaF_OpeningScreen_Main"
+		size = { width = 590 height = 530 }
+		position = { x = 736 y = 118 }
 		
+		background = {
+			name = "PaF_OpeningScreen_BG_real"
+			spriteType = "GFX_tiled_window"
+			alwaystransparent = yes
+		}
+		}
 		iconType = {
 			name = "PaF_OpeningScreen_Poster"
 			position = { x = 749 y = 131 }
-		}
-		
+		}		
 		iconType = {
 			name = "PaF_OpeningScreen_BG"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_tiled_window_transparent"
-			size = { width = 1360 height = 800 }
 		}
 
 		buttonType = {
 			name = "PaF_OpeningScreen_CloseButton"
-			quadTextureSprite = "GFX_button_123x34" 
+			quadTextureSprite = "GFX_PaF_demo_tab_button" 
 			buttonFont = "Bomb_16"
 			buttonText = "[GET_CLOSEBUTTON_TEXT]"
 			pdx_tooltip = "PaF_OPENING_SCREEN_BUTTON_TT"
-			position = { x = 970 y = 540 }
+			position = { x = 820 y = 660 }
 			shortcut = "ESCAPE"
 		}
 		
 		instantTextBoxType = {
 			name = "PaF_OpeningScreen_Text"
-			position = { x = 14 y = 38 }
+			position = { x = 17 y = 100 }
 			font = "aldrich_24_outline"
 			text = "[GET_CURRENT_INTRO_TEXT]"
-			maxWidth = 712
-			maxHeight = 325
+			maxWidth = 690
+			maxHeight = 660
 			alwaystransparent = yes
 			scrollbarType = standardtext_slider
 		}
 		
-
-		
-		buttonType = {
-			name = "opening_button_next_page"
-			quadTextureSprite = "GFX_opening_button_next_page"
-			position = { x = 578 y = 414 }
-		}
-		buttonType = {
-			name = "opening_button_prev_page"
-			quadTextureSprite = "GFX_opening_button_prev_page"
-			position = { x = 14 y = 414 }
+		instantTextBoxType = {
+			name = "PaF_OpeningScreen_Title"
+			position = { x = 14 y = 300 }
+			font = "aldrich_24_outline"
+			text = "[GET_CURRENT_INTRO_TITLE]"
+			maxWidth = 712
+			maxHeight = 500
+			alwaystransparent = yes
+			scrollbarType = standardtext_slider
 		}
 		
 		instantTextBoxType = {

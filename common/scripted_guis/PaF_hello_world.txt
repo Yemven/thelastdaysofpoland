@@ -45,47 +45,11 @@ scripted_gui = {
 			PaF_OpeningScreen_Buttons_CountryView_click = {
 				set_variable = { PaF_Opening_Screen = 1 }
 			}
-
 			PaF_OpeningScreen_Buttons_RegionView_click = {
 				set_variable = { PaF_Opening_Screen = 2 }
 			}
-			
-			PaF_OpeningScreen_Buttons_FeatureView_click = {
-				set_variable = { PaF_Opening_Screen = 3 }
-			}
-
 			PaF_OpeningScreen_Buttons_ModView_click = {
 				set_variable = { PaF_Opening_Screen = 4 }
-			}
-			
-			opening_button_next_page_click = {
-				if = {
-					limit = {
-						check_variable = { PaF_Opening_Screen = 1 }
-					}
-					add_to_variable = { COUNTRY_INFO_PAGE = 1 }
-				}
-				else_if = {
-					limit = {
-						check_variable = { PaF_Opening_Screen = 3 }
-					}
-					add_to_variable = { FEATURES_INFO_PAGE = 1 }
-				}
-			}
-			
-			opening_button_prev_page_click = {
-				if = {
-					limit = {
-						check_variable = { PaF_Opening_Screen = 1 }
-					}
-					add_to_variable = { COUNTRY_INFO_PAGE = -1 }
-				}
-				else_if = {
-					limit = {
-						check_variable = { PaF_Opening_Screen = 3 }
-					}
-					add_to_variable = { FEATURES_INFO_PAGE = -1 }
-				}
 			}
 		}
 		
@@ -93,11 +57,12 @@ scripted_gui = {
 			PaF_OpeningScreen_Text_visible = {
 				NOT = { check_variable = { PaF_Opening_Screen = 4 } }
 			}
-			
 			PaF_OpeningScreen_Text_ModInfo_Buttons_visible = {
 				check_variable = { PaF_Opening_Screen = 4 }
 			}
-			
+			PaF_OpeningScreen_PlayerFlag_visible = {
+				check_variable = { PaF_Opening_Screen = 1 }
+			}
 			PaF_discord_button_visible = {
 				check_variable = { PaF_Opening_Screen = 4 }
 			}
@@ -111,44 +76,6 @@ scripted_gui = {
 				check_variable = { PaF_Opening_Screen = 4 }
 			}
 			
-			opening_button_next_page_visible = {
-				NOT = {
-					OR = {
-						check_variable = { PaF_Opening_Screen = 2 }
-						check_variable = { PaF_Opening_Screen = 4 }
-					}
-				}
-				OR = {
-					AND = {
-						check_variable = { PaF_Opening_Screen = 1 }
-						PaF_has_big_opening_screen = yes
-						check_variable = { COUNTRY_INFO_PAGE < 1.99 }
-					}
-					AND = {
-						check_variable = { PaF_Opening_Screen = 3 }
-						check_variable = { FEATURES_INFO_PAGE < 0.99 }
-					}
-				}
-			}
-			opening_button_prev_page_visible = {
-				NOT = {
-					OR = {
-						check_variable = { PaF_Opening_Screen = 2 }
-						check_variable = { PaF_Opening_Screen = 4 }
-					}
-				}
-				OR = {
-					AND = {
-						check_variable = { PaF_Opening_Screen = 1 }
-						PaF_has_big_opening_screen = yes
-						check_variable = { COUNTRY_INFO_PAGE > 0.01 }
-					}
-					AND = {
-						check_variable = { PaF_Opening_Screen = 3 }
-						check_variable = { FEATURES_INFO_PAGE > 0.01 }
-					}
-				}
-			}
 			
 			PaF_OpeningScreen_Text_Small_visible = {
 				OR = {

@@ -4,7 +4,7 @@ defined_text = {
 	## Mazovia
 	text = {
 		trigger = { tag = POL }
-		localization_key = PaF_OPENING_SCREEN_BUTTON_TEXT_KIR
+		localization_key = PaF_OPENING_SCREEN_BUTTON_TEXT_POL
 	}
 
 
@@ -17,9 +17,14 @@ defined_text = {
 defined_text = {
 	name = GET_CURRENT_INTRO_TEXT
 
+
+
 	text = {
 		trigger = { check_variable = { PaF_Opening_Screen = 1 } }
+		AND = {
 		localization_key = "[GET_COUNTRY_INFO]"
+		localization_key = "[GET_COUNTRY_TITLE]"
+			}
 	}
 
 	text = {
@@ -72,7 +77,7 @@ defined_text = {
 
 	text = {
 		trigger = { tag = POL }
-		localization_key = COUNTRY_INFO_VYATKA
+		localization_key = COUNTRY_INFO_POL
 	}
 
 	## Default
@@ -82,16 +87,8 @@ defined_text = {
 
 }
 
-Gdefined_text = {
+defined_text = {
 	name = GET_REGIONAL_INFO
-
-	## MAZOVIA
-	text = {
-		trigger = {
-			is_central_russian_nation = yes
-		}
-		localization_key = REGIONAL_INFO_WEST_RUSSIA
-	}
 
 	## Default
 	text = {
@@ -118,13 +115,13 @@ defined_text = {
 defined_text = {
 	name = GET_POSTER
 
-	## West Russia
+	## 
 	text = {
 		trigger = { tag = POL }
-		localization_key = "GFX_PaF_OpeningScreen_Poster_Vyatka"
+		localization_key = "GFX_PaF_OpeningScreen_POL"
 	}
 	## Default
 	text = {
-		localization_key = "GFX_PaF_OpeningScreen_Poster_NoContent"
+		localization_key = "GFX_PaF_OpeningScreen_Default"
 	}
 }
