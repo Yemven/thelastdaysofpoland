@@ -2,19 +2,12 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "Super_Event_Window"
-		position = { x= -20 y= -6000 }
-		show_position = { x = -20 y = 20 }
-		hide_position = { x= -20 y= -6000 }
-		animation_time = 1
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
 		size = { width = 800 height = 500 }
+		position = { x= 0 y= 0 }
 		Orientation = center
 		Origo = center
 		moveable = yes
-		clipping = no
-
-
+		
 		background = {
 			name = "Background"
 			spriteType =  "GFX_blank_background"
@@ -24,101 +17,121 @@ guiTypes = {
 			name ="BBW_karbonizacja_super_image"
 			spriteType = "GFX_SE_BBW_Karbonizacja"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="BBW_roksi_super_image"
 			spriteType = "GFX_SE_BBW_Roksi"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="DGR_nazbol_super_image"
 			spriteType = "GFX_SE_DGR_Nazbol"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="DGR_rasta_super_image"
 			spriteType = "GFX_SE_DGR_Rasta"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="EK_collapse_super_image"
 			spriteType = "GFX_SE_EK_Collapse"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="KRS_kwiatki_super_image"
 			spriteType = "GFX_SE_KRS_Kwiatki"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="KRS_rutkowski_super_image"
 			spriteType = "GFX_SE_KRS_Rutkowski"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="KRS_pavulon_super_image"
 			spriteType = "GFX_SE_KRS_Pavulon"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="SAP_insane_super_image"
 			spriteType = "GFX_SE_SAP_Insane"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="SAP_sane_super_image"
 			spriteType = "GFX_SE_SAP_Sane"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="SAP_carlistas_super_image"
 			spriteType = "GFX_SE_SAP_Carlistas"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="WML_hoiownia_super_image"
 			spriteType = "GFX_SE_WML_Hoiownia"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="WML_dialog_super_image"
 			spriteType = "GFX_SE_WML_Dialog"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="ZHP_zhp_super_image"
 			spriteType = "GFX_SE_ZHP_ZHP"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="ZHP_zhr_super_image"
 			spriteType = "GFX_SE_ZHP_ZHR"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="ZHP_zawisza_super_image"
 			spriteType = "GFX_SE_ZHP_Zawisza"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="ZYD_widzew_super_image"
 			spriteType = "GFX_SE_ZYD_Widzew"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="ZYD_urban_super_image"
 			spriteType = "GFX_SE_ZYD_Urban"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="ZYD_lks_super_image"
 			spriteType = "GFX_SE_ZYD_LKS"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name ="ZERO_super_image"
 			spriteType = "GFX_SE_ZERO"
 			position = { x = 0 y = 0 }
+			alwaystransparent = yes
 		}
 	
 		buttonType = {

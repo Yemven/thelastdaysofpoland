@@ -15,13 +15,13 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "PaF_OpeningScreen_Main"
-		size = { width = 1360 height = 600 }
+		size = { width = 1360 height = 800 }
 		position = { x = 155 y = 155 }
 		moveable = yes
 		
 		background = {
 			name = "PaF_OpeningScreen_BG_real"
-			spriteType = "GFX_tiled_window_transparent"
+			spriteType = "GFX_tiled_window"
 		}
 
 		containerWindowType = {
@@ -64,12 +64,12 @@ guiTypes = {
 				position = { x = 480 y = -2 }
 				quadTextureSprite = "GFX_PaF_demo_tab_button"
 				buttonFont = "Bomb_18"
-				text = "ABOUT MOD"
+				text = " MOD INFORMATIONS"
 			}
 			iconType = {
 				name = "PaF_mod_logo"
 				quadTextureSprite = "GFX_PaF_mod_logo"
-				position = { x = 500 y = 5 }
+				position = { x = 495 y = 8 }
 			}
 		}
 		
@@ -81,8 +81,8 @@ guiTypes = {
 		iconType = {
 			name = "PaF_OpeningScreen_BG"
 			position = { x = 0 y = 0 }
-			spriteType = "GFX_PaF_Intro_BG"
-			alwaystransparent = yes
+			spriteType = "GFX_tiled_window_transparent"
+			size = { width = 1360 height = 800 }
 		}
 
 		buttonType = {

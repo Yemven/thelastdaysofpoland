@@ -3,7 +3,6 @@ scripted_gui = {
 	Super_Window = {
 		context_type = player_context
 		window_name = "Super_Event_Window"
-		moveable = yes
 		visible = {
 			has_global_flag = Super_Event_Visible
 		}
