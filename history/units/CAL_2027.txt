@@ -28,6 +28,17 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Imperatoria Mechanized Potestate"
+	regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		armored_car = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+
 units = {
     division = {
 		name = "Legio I Alpha"
@@ -68,6 +79,14 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
+	
+	division = {
+		name = "Legio VI Mars"
+		location = 14579
+		division_template = "Legio"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
 
 	division = {
 		name = "Cohors I Porta Vratislavia"
@@ -75,5 +94,21 @@ units = {
 		division_template = "Praetoria Cohortes"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Municipium Aliquam Calisia"
+		location = 13770
+		division_template = "Auxilia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		name = "1. Mechanized Potestate"
+		location = 14564
+		division_template = "Imperatoria Mechanized Potestate"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 }
