@@ -1,0 +1,168 @@
+defined_text = {
+	name = GetSubIdeologyLoc
+	text = {
+		trigger = { has_government = marxism_cranism }
+		localization_key = "[GetSubIdeologyLocMarxismCranism]"
+	}
+	text = {
+		trigger = { has_government = squattism }
+		localization_key = "[GetSubIdeologyLocSquattism]"
+	}
+	text = {
+		trigger = { has_government = socialdemocrature }
+		localization_key = "[GetSubIdeologyLocSocialdemocrature]"
+	}
+	text = {
+		trigger = { has_government = euroliberalism }
+		localization_key = "[GetSubIdeologyLocEuroliberalism]"
+	}
+	text = {
+		trigger = { has_government = freemarketism }
+		localization_key = "[GetSubIdeologyLocFreemarketism]"
+	}
+	text = {
+		trigger = { has_government = paternal_conservatism }
+		localization_key = "[GetSubIdeologyLocPaternalConservatism]"
+	}
+	text = {
+		trigger = { has_government = autocracy }
+		localization_key = "[GetSubIdeologyLocAutocracy]"
+	}
+	text = {
+		trigger = { has_government = reactionary }
+		localization_key = "[GetSubIdeologyLocReactionary]"
+	}
+	text = {
+		trigger = { has_government = neonationalism }
+		localization_key = "[GetSubIdeologyLocNeoNationalism]"
+	}
+	text = {
+		trigger = { has_government = corporativism }
+		localization_key = "[GetSubIdeologyLocCorporativism]"
+	}
+	text = {
+		trigger = { has_government = postpolonism }
+		localization_key = "[GetSubIdeologyLocPostPolonism]"
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocMarxismCranism
+	#text = {
+	#	trigger = { has_country_leader_ideology =  }
+	#	localization_key = 
+	#}
+	text = {
+		localization_key = marxism_cranism_noun
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocSquattism
+	#text = {
+	#	trigger = { has_country_leader_ideology =  }
+	#	localization_key = 
+	#}
+	text = {
+		localization_key = squattism_noun
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocSocialdemocrature
+	#text = {
+	#	trigger = { has_country_leader_ideology =  }
+	#	localization_key = 
+	#}
+	text = {
+		localization_key = socialdemocrature_noun
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocEuroliberalism
+	#text = {
+	#	trigger = { has_country_leader_ideology =  }
+	#	localization_key = 
+	#}
+	text = {
+		localization_key = euroliberalism_noun
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocFreemarketism
+	#text = {
+	#	trigger = { has_country_leader_ideology =  }
+	#	localization_key = 
+	#}
+	text = {
+		localization_key = freemarketism_noun
+	}		
+}
+
+defined_text = {
+	name = GetSubIdeologyLocPaternalConservatism
+	#text = {
+	#	trigger = { has_country_leader_ideology =  }
+	#	localization_key = 
+	#}
+	text = {
+		localization_key = paternal_conservatism_noun
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocAutocracy
+	#text = {
+	#	trigger = { has_country_leader_ideology =  }
+	#	localization_key = 
+	#}
+	text = {
+		localization_key = autocracy_noun
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocReactionary
+	#text = {
+	#	trigger = { has_country_leader_ideology =  }
+	#	localization_key = 
+	#}	
+	text = {
+		localization_key = reactionary_noun
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocNeoNationalism
+	#text = {
+	#	trigger = { has_country_leader_ideology =  }
+	#	localization_key = 
+	#}
+	text = {
+		localization_key = neonationalism_noun
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocCorporativism
+	#text = {
+	#	trigger = { has_country_leader_ideology =  }
+	#	localization_key = 
+	#}
+	text = {
+		localization_key = corporativism_noun
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocPostPolonism
+	text = {
+		trigger = { has_country_leader_ideology = scout_system_subtype }
+		localization_key = scout_system_subtype
+	}
+	text = {
+		localization_key = postpolonism_noun
+	}
+}

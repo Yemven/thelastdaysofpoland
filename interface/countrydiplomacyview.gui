@@ -280,12 +280,14 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "ideology_name"
-						position = { x = 5 y = 10 }
-						font = "hoi_16mbs"
+						position = { x = 5 y = 10 } #y = 27
+						#position = { x = -5000 y = 27 }
+						font = "hoi4_typewriter22_inverted"
 						text = "ideology"
 						maxWidth = 245
-						maxHeight = 20
+						maxHeight = 26 #20
 					}
+					
 					
 					instantTextboxType = {
 						name = "elections"
