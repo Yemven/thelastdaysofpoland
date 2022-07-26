@@ -3742,8 +3742,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_industry_folder_item"
-		position = { x=0 y=5 }
-		size = { width = 204 height = 72 }
+		position = { x=-30 y=-90 }
+		size = { width = 72 height = 72 }
 		clipping = no
 
 		background = {
@@ -3753,9 +3753,8 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=34 y=35 }
+			position = { x=16 y=18 }
 			spriteType = "GFX_technology_medium"
-			centerposition = yes
 			alwaystransparent = yes
 		}
 		iconType = {
@@ -3799,8 +3798,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "techtree_electronics_folder_item"
-		position = { x=0 y=5 }
-		size = { width = 204 height = 72 }
+		position = { x=-30 y=-90 }
+		size = { width = 72 height = 72 }
 		clipping = no
 
 		background = {
@@ -3810,9 +3809,8 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=34 y=35 }
-			spriteType = "GFX_technology_medium"
-			centerposition = yes	
+			position = { x=16 y=18 }
+			spriteType = "GFX_technology_medium"	
 			alwaystransparent = yes
 		}
 		iconType = {
