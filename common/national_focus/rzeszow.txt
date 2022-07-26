@@ -231,4 +231,137 @@ focus_tree = {
 			
 		}
 	}
+	focus = {
+		id = RZE_Creating_new_elite
+		icon = RZE_Creating_new_elite
+		relative_position_id = RZE_waiting_for_one_chosen_by_god
+		prerequisite = { focus = RZE_waiting_for_one_chosen_by_god }
+		prerequisite = { focus = RZE_who_can_say_im_not_artur } 
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	focus = {
+		id = RZE_Anyone_can_print_they_own_money
+		icon = RZE_Anyone_can_print_they_own_money
+		relative_position_id = RZE_Korwinism-Braunism
+		prerequisite = { focus = RZE_Korwinism-Braunism }
+		mutually_exclusive = { focus = RZE_We_Need_strength_for_next }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	focus = {
+		id = RZE_We_Need_strength_for_next_battle
+		icon = RZE_We_Need_strength_for_next_battle
+		relative_position_id = RZE_Korwinism-Braunism
+		prerequisite = { focus = RZE_Korwinism-Braunism }
+		mutually_exclusive = { focus = RZE_Anyone_can_print_they_own_money }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	focus = {
+		id = RZE_A_letter_to_the_traitors
+		icon = RZE_A_letter_to_the_traitors
+		relative_position_id = RZE_propose_cossack_autonomy
+		prerequisite = { focus = RZE_propose_cossack_autonomy }
+		prerequisite = { focus = RZE_Jeremia_has_given_us_the_example } 
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	focus = {
+		id = RZE_A_qestion_of_the_beard
+		icon = RZE_A_qestion_of_the_beard
+		relative_position_id = RZE_Anyone_can_print_they_own_money
+		prerequisite = { focus = RZE_Creating_new_elite }
+		prerequisite = { focus = RZE_Anyone_can_print_they_own_money } 
+		prerequisite = { focus = RZE_We_Need_strength_for_next } 
+		prerequisite = { focus = RZE_A_letter_to_the_traitors } 
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	focus = {
+		id = RZE_Formal_vassalization_of_Lezajsk
+		icon = RZE_Formal_vassalization_of_Lezajsk
+		relative_position_id = RZE_A_qestion_of_the_beard
+		prerequisite = { focus = RZE_A_qestion_of_the_beard }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
 }
