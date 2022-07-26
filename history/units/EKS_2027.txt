@@ -9,7 +9,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Europanzergrenadierbataillon der Kräfte der Hauptregierenden (armor)"
+	name = "Europanzergrenadierbataillon (armor)"
 	regiments = {
 		medium_armor = { x = 0 y = 0 }
 		medium_armor = { x = 0 y = 1 }
@@ -19,39 +19,12 @@ division_template = {
 }
 
 division_template = {
-	name = "Europanzergrenadierbataillon der Kräfte der Hauptregierenden (mot. inf.)"
+	name = "Europanzergrenadierbataillon (mot. inf.)"
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
-	}
-}
-
-division_template = {
-	name = "Batalion Piechoty Europejskich Sił Pokojowych"
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 2 y = 0 }
-	}
-}
-
-division_template = {
-	name = "Batalion Pancerny Europejskich Sił Pokojowych"
-	regiments = {
-		medium_armor = { x = 0 y = 0 }
-		medium_armor = { x = 1 y = 0 }
-		medium_armor = { x = 2 y = 0 }
-	}
-}
-
-division_template = {
-	name = "Batalion Zmotoryzowany Europejskich Sił Pokojowych"
-	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 2 y = 0 }
 	}
 }
 
@@ -67,7 +40,7 @@ division_template = {
 
 units = {
 	division = {
-		name = "1. Deutsches Infanteriebataillon der Kräfte der Hauptregierenden"
+		name = "2. Euroinfanteriebataillon"
 		location = 3018
 		division_template = "Euroinfanteriebataillon"
 		start_experience_factor = 0.6
@@ -75,7 +48,7 @@ units = {
 	}
 	
 	division = {
-		name = "2. Deutsches Infanteriebataillon der Kräfte der Hauptregierenden"
+		name = "3. Euroinfanteriebataillon"
 		location = 13258
 		division_template = "Euroinfanteriebataillon"
 		start_experience_factor = 0.6
@@ -83,33 +56,33 @@ units = {
 	}
 	
 	division = {
-		name = "1. Deutsches Panzergrenadierbataillon der Kräfte der Hauptregierenden"
+		name = "1. Europanzergrenadierbataillon"
 		location = 13312
-		division_template = "Europanzergrenadierbataillon der Kräfte der Hauptregierenden (armor)"
+		division_template = "Europanzergrenadierbataillon (armor)"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "1. Eurobatalion Polski"
+		name = "6 Batalion Piechoty Europejskiej"
 		location = 13224
-		division_template = "Batalion Piechoty Europejskich Sił Pokojowych"
+		division_template = "Euroinfanteriebataillon"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	
 	division = {
-		name = "2. Eurobatalion Polski"
+		name = "7 Batalion Piechoty Europejskiej"
 		location = 2728
-		division_template = "Batalion Piechoty Europejskich Sił Pokojowych"
+		division_template = "Euroinfanteriebataillon"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	
 	division = {
-		name = "2. Deutsches Panzergrenadierbataillon der Kräfte der Hauptregierenden"
+		name = "4. Europanzergrenadierbataillon"
 		location = 374
-		division_template = "Europanzergrenadierbataillon der Kräfte der Hauptregierenden (mot. inf.)"
+		division_template = "Europanzergrenadierbataillon (mot. inf.)"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
