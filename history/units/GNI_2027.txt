@@ -4,6 +4,7 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 	}
 }
 
@@ -40,7 +41,7 @@ units = {
 		location = 13486
 		division_template = "Rezerwowy Batalion Książecy"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.6
 	}
 	
 	division = {
@@ -48,7 +49,7 @@ units = {
 		location = 13486
 		division_template = "Milicja Książeca"
 		start_experience_factor = 0
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.7
 	}
 
 	division = {
@@ -56,7 +57,7 @@ units = {
 		location = 1372
 		division_template = "Drużyna Książeca"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -64,7 +65,7 @@ units = {
 		location = 14382
 		division_template = "Rezerwowy Batalion Książecy"
 		start_experience_factor = 0
-		start_equipment_factor = 0.1
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -72,7 +73,7 @@ units = {
 		location = 1372
 		division_template = "Milicja Książeca"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	
 	division = {
@@ -80,7 +81,7 @@ units = {
 		location = 13748
 		division_template = "Milicja Książeca"
 		start_experience_factor = 0
-		start_equipment_factor = 0.1
+		start_equipment_factor = 0.8
 	}
 	
 	division = {
@@ -88,7 +89,7 @@ units = {
 		location = 13526
 		division_template = "Drużyna Książeca"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.4
 	}
 	
 	division = {
@@ -96,7 +97,7 @@ units = {
 		location = 3760
 		division_template = "Milicja Książeca"
 		start_experience_factor = 0
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.4
 	}
 	
 	division = {
@@ -104,14 +105,14 @@ units = {
 		location = 14492
 		division_template = "Drużyna Książeca"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.6
 	}
 	
 	division = {
 		name = "Słupecka Drużyna Książeca"
 		location = 14239
 		division_template = "Rezerwowy Batalion Książecy"
-		start_experience_factor = 0
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 }
