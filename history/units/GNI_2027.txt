@@ -5,6 +5,8 @@ division_template = {
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
 	}
 }
 
@@ -24,6 +26,16 @@ division_template = {
 		militia = { x = 0 y = 1 }
 		militia = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Zmotoryzowana Milicja Książeca"
+	regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
 	}
 }
 
@@ -33,30 +45,30 @@ units = {
 		location = 13506
 		division_template = "Drużyna Książeca"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	
 	division = {
 		name = "2. Gnieźnieńska Drużyna Książeca"
 		location = 13486
 		division_template = "Rezerwowy Batalion Książecy"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.6
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	
 	division = {
 		name = "Batalion Milicji Gnieźnieńskiej"
-		location = 13486
+		location = 13491
 		division_template = "Milicja Książeca"
-		start_experience_factor = 0
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 
 	division = {
 		name = "Konińska Drużyna Książeca"
 		location = 1372
 		division_template = "Drużyna Książeca"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	
@@ -64,7 +76,7 @@ units = {
 		name = "2. Konińska Drużyna Książeca"
 		location = 14382
 		division_template = "Rezerwowy Batalion Książecy"
-		start_experience_factor = 0
+		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	
@@ -72,16 +84,16 @@ units = {
 		name = "Koniński Książecy Pułk Milicyjny"
 		location = 1372
 		division_template = "Milicja Książeca"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	
 	division = {
 		name = "2. Koniński Książecy Pułk Milicyjny"
 		location = 13748
 		division_template = "Milicja Książeca"
-		start_experience_factor = 0
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -89,23 +101,23 @@ units = {
 		location = 13526
 		division_template = "Drużyna Książeca"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
+		start_equipment_factor = 1
 	}
 	
 	division = {
 		name = "Wrzesińska Drużyna Milicyjna"
-		location = 3760
+		location = 13896
 		division_template = "Milicja Książeca"
-		start_experience_factor = 0
-		start_equipment_factor = 0.4
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	
 	division = {
 		name = "Kolska Drużyna Książeca"
 		location = 14492
 		division_template = "Drużyna Książeca"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.6
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -113,6 +125,14 @@ units = {
 		location = 14239
 		division_template = "Rezerwowy Batalion Książecy"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Gnieźnieńska ZMK"
+		location = 13505
+		division_template = "Zmotoryzowana Milicja Książeca"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
 	}
 }
