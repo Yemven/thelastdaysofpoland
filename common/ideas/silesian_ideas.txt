@@ -1,0 +1,21 @@
+
+hidden_ideas = {	
+	silesia_minor_surrender = {
+			allowed = { is_ai = yes }
+			cancel = { NOT = { is_ai = yes } }
+			allowed_civil_war = {
+				always = yes
+			}
+			available = { 
+					OR = { tag = FER
+						   tag = RUD 
+						   tag = TRC 
+						   } }
+			removal_cost = -1
+			
+			cancel_if_invalid = yes
+			modifier = {
+				surrender_limit = 0.7
+			}
+		}
+	}

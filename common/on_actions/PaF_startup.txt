@@ -7,6 +7,25 @@ on_actions = {
 					value = 0
 				}
 			}
+			if = {
+				limit = { 
+					AND = {
+						is_poland_unifier = yes
+						is_ai = yes
+						}
+					}
+					add_ideas = { fucking_ai }
+				}
+			if = {
+				limit = { 
+					AND = {
+						is_upper_silesia = yes
+						is_ai = yes
+						}
+					}
+					add_ideas = { silesia_minor_surrender }
+				}
+
 			PRK = {
 				set_country_flag = ziobro_start_war
 				activate_mission = ziobro_holy_war
