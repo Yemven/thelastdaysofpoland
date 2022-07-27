@@ -623,13 +623,13 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
-				if = { limit = { NOT = country_exists = JWK } 
+				if = { limit = { NOT = { country_exists = JWK } }
 			declare_war_on = {
 					target = BRZ
 					type = annex_everything
 				}
 			}
-			else_if = { limit = { NOT = country_exists = BRZ }
+			else_if = { limit = { NOT = { country_exists = BRZ } }
 			declare_war_on = {
 					target = JWK
 					type = annex_everything
@@ -655,13 +655,13 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
-				if = { limit = { NOT = country_exists = JWK } 
+				if = { limit = { NOT = { country_exists = JWK } }
 			declare_war_on = {
 					target = BRZ
 					type = annex_everything
 				}
 			}
-			else_if = { limit = { NOT = country_exists = BRZ }
+			else_if = { limit = { NOT = { country_exists = BRZ } }
 			declare_war_on = {
 					target = JWK
 					type = annex_everything
@@ -1701,7 +1701,7 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 14
-		war_with_on_remove = slu
+		war_with_on_remove = SLU
 		remove_effect  = {
 			declare_war_on = {
 				target = SLU
@@ -3084,14 +3084,14 @@ ai_war_decisions = {
 			WRO = {
 				end_puppet = MPK
 			}
-			BRE = (
+			BRE = {
 				remove_state_core = 371
 				remove_state_core = 607
 				remove_state_core = 387 
 				remove_state_core = 608
 				remove_state_core = 388
 				remove_state_core = 375
-			)
+			}
 		}
 		cancel_trigger = {
 			RYB = {

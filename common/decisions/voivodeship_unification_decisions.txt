@@ -634,9 +634,9 @@ south_greater_poland_voivodeship_unification = {
 			custom_effect_tooltip = SUS_unifies_southern_greater_poland_tooltip
 		}
 
-
-        ai_will_do = { factor = 1 }
 }
+        ai_will_do = { factor = 1 }
+
 }
 
 tatry_unification = {
@@ -768,7 +768,7 @@ northen_greater_poland_voivodeship_unification = {
 	available = {
 		custom_trigger_tooltip = {
 			tooltip = controls_poznanskie
-			can_unify_poznanskie = yes
+			can_unify_north_greater_poland = yes
 		}
 	}
 	
@@ -835,8 +835,8 @@ northen_greater_poland_voivodeship_unification = {
 		}
 
 
-        ai_will_do = { factor = 1 }
+      
 }
-
+  ai_will_do = { factor = 1 }
 
 }

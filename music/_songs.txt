@@ -56,7 +56,12 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_government = democratic
+			OR = {
+			has_government = euroliberalism
+			has_government = paternal_conservatism
+			has_government = freemarketism
+			has_government = socialdemocrature
+			}
 		}		
 	}	
 }
@@ -69,7 +74,12 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_government = democratic
+			OR = {
+			has_government = euroliberalism
+			has_government = paternal_conservatism
+			has_government = freemarketism
+			has_government = socialdemocrature
+			}
 		}		
 	}	
 }
@@ -82,7 +92,7 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_government = fascism
+			has_government = neonationalism
 		}		
 	}	
 }
@@ -95,7 +105,7 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_government = fascism
+			has_government = neonationalism
 		}		
 	}	
 }
@@ -134,7 +144,7 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_government = fascism
+			has_government = neonationalism
 		}		
 	}	
 }
@@ -147,7 +157,7 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_government = fascism
+			has_government = neonationalism
 		}		
 	}	
 }
@@ -160,7 +170,7 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_government = fascism
+			has_government = neonationalism
 		}		
 	}	
 }
@@ -173,7 +183,7 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_government = fascism
+			has_government = neonationalism
 		}		
 	}	
 }
@@ -186,7 +196,12 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_government = democratic
+			OR = {
+			has_government = euroliberalism
+			has_government = paternal_conservatism
+			has_government = freemarketism
+			has_government = socialdemocrature
+			}
 		}		
 	}	
 }
@@ -199,7 +214,12 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_government = democratic
+			OR = {
+			has_government = euroliberalism
+			has_government = paternal_conservatism
+			has_government = freemarketism
+			has_government = socialdemocrature
+			}
 		}		
 	}	
 }
@@ -212,7 +232,7 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_government = communism
+			has_government = marxism_cranism
 		}		
 	}	
 }
@@ -225,7 +245,7 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_government = communism
+			has_government = marxism_cranism
 		}		
 	}	
 }
@@ -238,7 +258,7 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_government = communism
+			has_government = marxism_cranism
 		}		
 	}	
 }
@@ -252,7 +272,7 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_government = communism
+			has_government = marxism_cranism
 		}		
 	}	
 }
@@ -265,7 +285,7 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_government = communism
+			has_government = marxism_cranism
 		}		
 	}	
 }
@@ -278,7 +298,7 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_government = communism
+			has_government = marxism_cranism
 		}		
 	}	
 }

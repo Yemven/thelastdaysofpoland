@@ -687,7 +687,7 @@ focus_tree = {
 				category = electronics
 				}
 			if = {
-			limit = { is_core_of = ZHP }
+			limit = { any_controlled_state = { is_core_of = ZHP } }
 			random_controlled_state = {
 				prioritize = { 321 357 368 370 379 396 352 680 848 } 
 				add_building_construction = {
@@ -698,7 +698,7 @@ focus_tree = {
 			}
 			}
 			if = {
-			limit = { is_core_of = ZHP }
+			limit = { any_controlled_state = { is_core_of = ZHP } }
 			random_controlled_state = {
 				prioritize = { 321 357 368 370 379 396 352 680 848 } 
 				add_building_construction = {
@@ -709,7 +709,7 @@ focus_tree = {
 			}
 			}
 			if = {
-			limit = { is_core_of = ZHP }
+			limit = { any_controlled_state = { is_core_of = ZHP } }
 			random_controlled_state = {
 				prioritize = { 321 357 368 370 379 396 352 680 848 } 
 				add_building_construction = {
@@ -720,8 +720,9 @@ focus_tree = {
 			}
 			}
 			if = {
-			limit = { is_core_of = ZHP }
+			limit = { any_controlled_state = { is_core_of = ZHP } }
 			every_controlled_state = {
+				limit = { any_controlled_state = { is_core_of = ZHP } }
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -861,9 +862,8 @@ focus_tree = {
 				idea = BBW_futile_resistance
 				days = 360
 			}
-			AND = {
-			is_core_of = WML 
 			every_controlled_state = {
+				limit = { any_controlled_state = { is_core_of = WML } }
 				add_building_construction = {
 					type = infrastructure
 					level = -1
@@ -913,7 +913,7 @@ focus_tree = {
 		bypass = {
 			OR = {
 				NOT = { country_exists = KRS }
-			at_war_with = KRS
+			has_war_with = KRS
 			}
 		}
 		
