@@ -18,6 +18,138 @@ focus_tree = {
 	
 	continuous_focus_position = {x = 50 y = 1500 }
 	
+	### NOWE DRZEWKO ###
+	
+	focus = {
+		id = WML_new_morning_in_old_lodz
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 13
+		y = 0
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			#lore evencik pokazujący jak ludzie żyją w łodzi jakby nic się nie zmieniło 
+			
+		
+		}
+	}
+	
+	focus = {
+		id = WML_behind_the_curtains_of_denial
+		relative_position_id = WML_new_morning_in_old_lodz
+		prerequisite = { focus = WML_new_morning_in_old_lodz }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			#lore event pokazujący że cała ta sielanka to iluzja i wyparcie prawdy. W praktyce kolorowo nie jest i miasto ma wiele problemów. Event opowiada po krótko o 3 najważniejszych.
+			#po tym evencie ma się odpalić następny który to pokazuje że każdy z problemów można rozwiązać za pomocą dialogu lub na własną rękę
+		}
+	}
+	
+	focus = {
+		id = WML_energy_issues
+		relative_position_id = WML_behind_the_curtains_of_denial
+		prerequisite = { focus = WML_behind_the_curtains_of_denial }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			#wybór pomiędzy opieraniem się na bractwie czy zamiana spowrotem ec1 na elektrownie
+		}
+	}
+	
+	focus = {
+		id = WML_food_shortages
+		relative_position_id = WML_behind_the_curtains_of_denial
+		prerequisite = { focus = WML_behind_the_curtains_of_denial }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			#wybór pomiędzy współpracą z zhp, sapkiem lub rozwiązanie tego samemu 
+		}
+	}
+	
+	focus = {
+		id = WML_lack_of_materials
+		relative_position_id = WML_behind_the_curtains_of_denial
+		prerequisite = { focus = WML_behind_the_curtains_of_denial }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			#wybór pomiędzy współpracą z konsorcjum, lub widzewem lub wprowadzenie ograniczeń i recyklingu
+		}
+	}
+	
+	focus = {
+		id = WML_city_will_hold_on
+		relative_position_id = WML_food_shortages
+		prerequisite = { focus = WML_food_shortages }
+		prerequisite = { focus = WML_lack_of_materials }
+		prerequisite = { focus = WML_energy_issues }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			
+		}
+	}
+	
+	### STARE DRZEWKO ###
 	focus = {
 		id = WML_the_beginning_of_the_dialogue
 		available = {
@@ -28,7 +160,7 @@ focus_tree = {
 		}
 		
 		x = 13
-		y = 0
+		y = 10
 		
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
