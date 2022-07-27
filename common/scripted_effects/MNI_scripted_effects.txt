@@ -34,10 +34,6 @@ MNI_collapse_LEH = {
 			add_state_core = 478
 		}
 
-		MNI = {
-			LEH = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = LEH }
 			LEH = { transfer_state = PREV }
@@ -46,6 +42,22 @@ MNI_collapse_LEH = {
 		LEH = {
 			load_oob = "LEH_2027"
 			set_cosmetic_tag = LEH_IMP
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -65,17 +77,9 @@ MNI_collapse_WOD = {
 			add_state_core = 500
 		}
 
-		MNI = {
-			WOD = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = WOD }
 			WOD = { transfer_state = PREV }
-		}
-
-		WOD = {
-			set_cosmetic_tag = WOD_IMP
 		}
 
 	}
@@ -91,10 +95,6 @@ MNI_collapse_LCH = {
 			add_state_core = 427
 		}
 
-		LEH = {
-			LCH = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = LCH }
 			LCH = { transfer_state = PREV }
@@ -102,7 +102,22 @@ MNI_collapse_LCH = {
 
 		LCH = {
 			load_oob = "LCH_2027"
-			set_cosmetic_tag = LCH_IMP
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -117,10 +132,6 @@ MNI_collapse_WAN = {
 			add_state_core = 478
 		}
 
-		LEH = {
-			WAN = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = WAN }
 			WAN = { transfer_state = PREV }
@@ -128,7 +139,22 @@ MNI_collapse_WAN = {
 
 		WAN = {
 			load_oob = "WAN_2027"
-			set_cosmetic_tag = WAN_IMP
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -140,10 +166,6 @@ MNI_collapse_NYS = {
 			add_state_core = 603
 		}
 
-		LEH = {
-			NYS = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = NYS }
 			NYS = { transfer_state = PREV }
@@ -151,7 +173,22 @@ MNI_collapse_NYS = {
 
 		NYS = {
 			load_oob = "NYS_2027"
-			set_cosmetic_tag = NYS_IMP
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}

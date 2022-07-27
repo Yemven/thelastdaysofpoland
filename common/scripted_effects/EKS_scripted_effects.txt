@@ -19,7 +19,6 @@ EKS_collapse_KES = {
 		}
 
 		EKS = {
-			KES = { transfer_technology = yes }
 			leave_faction = yes
 		}
 
@@ -31,6 +30,22 @@ EKS_collapse_KES = {
 			load_oob = "KES_2027"
 			add_ideas = {
 				EK_disfunctional_military
+			}
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
 			}
 		}
 		every_country = {
@@ -58,10 +73,6 @@ EKS_collapse_WRO = {
 			add_state_core = 409
 		}
 
-		EKS = {
-			WRO = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = WRO }
 			WRO = { transfer_state = PREV }
@@ -70,6 +81,22 @@ EKS_collapse_WRO = {
 
 		WRO = {
 			load_oob = "WRO_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -85,9 +112,6 @@ EKS_collapse_BRE = {
 			add_state_core = 388
 			add_state_core = 375
 		}
-		EKS = {
-			BRE = { transfer_technology = yes }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = BRE }
@@ -99,6 +123,22 @@ EKS_collapse_BRE = {
 			load_oob = "BRE_2027"
 			add_ideas = {
 				EK_disfunctional_military
+			}
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
 			}
 		}
 
@@ -116,9 +156,6 @@ EKS_collapse_ZUL = {
 			add_state_core = 726
 		}
 
-		EKS = {
-			ZUL = { transfer_technology = yes }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = ZUL }
@@ -129,6 +166,22 @@ EKS_collapse_ZUL = {
 		ZUL = {
 			load_oob = "ZUL_2027"
 			set_cosmetic_tag = ZUL_UE
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -143,9 +196,6 @@ EKS_collapse_CZE = {
 			add_state_core = 452
 		}
 
-		EKS = {
-			CZE = { transfer_technology = yes }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = CZE }
@@ -154,6 +204,22 @@ EKS_collapse_CZE = {
 
 		CZE = {
 			set_cosmetic_tag = CZE_UE
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -165,10 +231,6 @@ EKS_collapse_OPO = {
 		OPO = {
 			add_state_core = 380
 			add_state_core = 796
-		}
-
-		EKS = {
-			OPO = { transfer_technology = no }
 		}
 
 		every_owned_state = {
@@ -188,6 +250,22 @@ EKS_collapse_OPO = {
 
 		OPO = {
 			load_oob = "OPO_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -202,10 +280,6 @@ EKS_collapse_ZAG = {
 			add_state_core = 308
 		}
 
-		EKS = {
-			ZAG = { transfer_technology = yes }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = ZAG }
 			ZAG = { transfer_state = PREV }
@@ -213,6 +287,22 @@ EKS_collapse_ZAG = {
 
 		ZAG = {
 			load_oob = "ZAG_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -231,10 +321,6 @@ EKS_collapse_WIN = {
 			add_state_core = 287
 		}
 
-		EKS = {
-			WIN = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = WIN }
 			WIN = { transfer_state = PREV }
@@ -242,6 +328,22 @@ EKS_collapse_WIN = {
 
 		WIN = {
 			load_oob = "WIN_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -261,13 +363,28 @@ EKS_collapse_KGH = {
 			add_state_core = 727
 		}
 
-		EKS = {
-			KGH = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = KGH }
 			KGH = { transfer_state = PREV }
+		}
+		
+		KGH = {
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 	}
 }
@@ -284,9 +401,6 @@ EKS_collapse_SUS = {
 			add_state_core = 299
 		}
 
-		EKS = {
-			SUS = { transfer_technology = no }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = SUS }
@@ -295,6 +409,22 @@ EKS_collapse_SUS = {
 
 		SUS = {
 			load_oob = "SUS_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -310,13 +440,28 @@ EKS_collapse_CYG = {
 			add_state_core = 725
 		}
 
-		KGH = {
-			CYG = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = CYG }
 			CYG = { transfer_state = PREV }
+		}
+		
+		CYG = {
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 		
 
@@ -332,10 +477,6 @@ EKS_collapse_TOU = {
 			add_state_core = 728
 		}
 
-		EKS = {
-			TOU = { transfer_technology = yes }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = TOU }
 			TOU = { transfer_state = PREV }
@@ -343,6 +484,22 @@ EKS_collapse_TOU = {
 
 		TOU = {
 			load_oob = "TOU_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -355,10 +512,6 @@ EKS_collapse_MNL = {
 			add_state_core = 397
 		}
 
-		ZUL = {
-			MNL = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = MNL }
 			MNL = { transfer_state = PREV }
@@ -366,6 +519,22 @@ EKS_collapse_MNL = {
 
 		MNL = {
 			load_oob = "MNL_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -376,11 +545,7 @@ EKS_collapse_ANA = {
 		ANA = {
 			add_state_core = 419
 		}
-
-		ZUL = {
-			ANA = { transfer_technology = no }
-		}
-
+		
 		every_owned_state = {
 			limit = { is_core_of = ANA }
 			ANA = { transfer_state = PREV }
@@ -388,6 +553,22 @@ EKS_collapse_ANA = {
 
 		ANA = {
 			load_oob = "ANA_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -400,9 +581,6 @@ EKS_collapse_FEM = {
 			add_state_core = 805
 		}
 
-		ZUL = {
-			FEM = { transfer_technology = no }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = FEM }
@@ -411,6 +589,22 @@ EKS_collapse_FEM = {
 
 		FEM = {
 			load_oob = "FEM_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -430,10 +624,6 @@ EKS_collapse_BOG = {
 			freedom_level = 0.50 
 			}
 		}
-		
-		EKS = {
-			BOG = { transfer_technology = no }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = BOG }
@@ -445,6 +635,22 @@ EKS_collapse_BOG = {
 			set_politics = {
 				ruling_party = euroliberalism
 				}
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -465,9 +671,6 @@ EKS_collapse_ECO = {
 			}
 		}
 		
-		ZUL = {
-			ECO = { transfer_technology = yes }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = ECO }
@@ -479,6 +682,22 @@ EKS_collapse_ECO = {
 			set_politics = {
 				ruling_party = autocracy
 				}
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -498,9 +717,6 @@ EKS_collapse_RYB = {
 			add_state_core = 369
 		}
 
-		WRO = {
-			RYB = { transfer_technology = no }
-		}
 
 		every_owned_state = {
 			limit = {
@@ -517,6 +733,22 @@ EKS_collapse_RYB = {
 
 		RYB = {
 			load_oob = "RYB_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -528,10 +760,6 @@ EKS_collapse_OLE = {
 			add_state_core = 351
 		}
 
-		WRO = {
-			OLE = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = OLE }
 			OLE = { transfer_state = PREV }
@@ -539,6 +767,22 @@ EKS_collapse_OLE = {
 
 		OLE = {
 			load_oob = "OLE_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
@@ -562,9 +806,6 @@ EKS_collapse_MPK = {
 			}
 		}
 
-		WRO = {
-			MPK = { transfer_technology = no }
-		}
 
 		every_owned_state = {
 			limit = {
@@ -580,6 +821,22 @@ EKS_collapse_MPK = {
 			set_politics = {
 				ruling_party = corporativism
 				}
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 		}
 
 	}
