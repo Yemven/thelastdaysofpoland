@@ -842,3 +842,18 @@ news_event = {
 		name = unification.54.a
 	}
 }
+
+#Sasin
+news_event = {
+	id = unification.55
+	title = unification.55.t
+	desc = unification.55.desc
+
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = unification.55.a
+	}
+}
