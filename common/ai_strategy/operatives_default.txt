@@ -11,7 +11,7 @@ enable_operative_missions = {
 
 	# enabled once the first operative has been recruited
 	enable = {
-		always = no
+		any_operative_leader = { always = yes }
 	}
 
 	ai_strategy = {

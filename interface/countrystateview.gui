@@ -311,20 +311,6 @@ guiTypes = {
 				name = "custom_icon_container"
 				size = { width=100% height=100% }
 				position = { x = -416 y= 4 }
-				
-				iconType = {
-					name = "flooded_icon"
-					spriteType = "GFX_modifiers_flooded_icon"
-					position = { x = 0 y = 0 }
-					Orientation = "UPPER_LEFT"			
-				}
-
-				iconType = {
-					name = "unplanned_offensive_icon"
-					spriteType = "GFX_modifiers_unplanned_offensive_icon"
-					position = { x = 0 y = 0 }
-					Orientation = "UPPER_LEFT"			
-				}	
 
 			iconType = {
 				name = "terrain_lublin_center_icon"
@@ -725,6 +711,11 @@ guiTypes = {
 			iconType = {
 				name = "terrain_poznan_malta_icon"
 				spriteType = "GFX_terrain_poznan_malta"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_poznan_lawica_icon"
+				spriteType = "GFX_terrain_poznan_lawica"
 				alwaystransparent = yes
 			}
 			iconType = {
@@ -1878,7 +1869,7 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 			iconType = {
-				name = "ImielinJAW_icon"
+				name = "Imielin_icon"
 				spriteType = "GFX_Imielin"
 				alwaystransparent = yes
 			}
@@ -2875,6 +2866,13 @@ guiTypes = {
 			
 		}
 
+			iconType = {
+				name = "province_required_rule"
+				position = { x = 100 y = -3 }
+				spriteType = "GFX_required_rule"
+				Orientation = "UPPER_LEFT"
+			}
+
 			### Positioning of these are controlled by the positionType "countrystateview_weathericons_position" and "countrystateview_weathericons_offset" above
 			iconType = {
 				name = "modifiers_mud_icon"
@@ -2922,7 +2920,25 @@ guiTypes = {
 				slotsize = { width = 40 height = 47 }
 				max_slots_vertical = 1
 			}
+		containerWindowType = {
+				name = "custom_icon_container"
+				size = { width=100% height=100% }
+				position = { x = 0 y= 0 }
 
+				iconType = {
+					name = "flooded_icon"
+					spriteType = "GFX_modifiers_flooded_icon"
+					position = { x = 0 y = 0 }
+					Orientation = "UPPER_LEFT"			
+				}
+
+				iconType = {
+					name = "unplanned_offensive_icon"
+					spriteType = "GFX_modifiers_unplanned_offensive_icon"
+					position = { x = 0 y = 0 }
+					Orientation = "UPPER_LEFT"			
+				}	
+}
 			gridBoxType = {
 				name = "province_building_entries"
 				position = { x = -2 y = 48 }
