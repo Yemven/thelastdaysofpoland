@@ -1,4 +1,38 @@
 ideas = {
+
+country = {
+SAP_confused_population =	{
+			allowed = {
+				original_tag = SAP
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+
+				stability_factor = -0.2
+			}
+		}
+SAP_divided_supporters =	{
+			allowed = {
+				original_tag = SAP
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				political_power_gain = -0.1
+			}
+		}
+}
 	industrial_company = {
 		use_list_view = yes
 		
