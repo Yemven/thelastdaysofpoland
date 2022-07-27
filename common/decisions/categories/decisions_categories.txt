@@ -98,3 +98,14 @@ coring_category = {
 		zoom = 1000
 	}
 }
+
+### IDEOLOGY CATEGORIES ###
+
+generic_decisions_eurolib_category = {
+	priority = 20
+	icon = generic_economy
+	visible_when_empty = no
+	available = {
+	has_government = euroliberalism 
+	}
+}

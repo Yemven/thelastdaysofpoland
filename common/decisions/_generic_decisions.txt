@@ -1,3 +1,135 @@
+### GENERIC IDEOLOGICZNE ###
+### EUROLIB GENERIC ###
+generic_decisions_eurolib_category = {
+
+	pro_federalist_propaganda = {
+	
+		visible = {
+		ROOT = {
+			has_government = euroliberalism 
+			}
+		}
+	
+		allowed = {
+		ROOT = {
+				has_government = euroliberalism 
+			}
+		}
+		
+		modifier = {	
+			stability_weekly = 0.003
+			political_power_gain = -0.15
+		}
+		
+		cost = 75
+		days_re_enable = 35
+		days_remove = 56
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_popularity = {
+			ideology = euroliberalism
+			popularity = 0.01
+			}
+			add_political_power  = 15
+		}
+	}
+	
+	increase_bureaucracy = {
+	
+		visible = {
+		ROOT = {
+			has_government = euroliberalism 
+			}
+		}
+	
+		allowed = {
+		ROOT = {
+				has_government = euroliberalism 
+			}
+		}
+		
+		modifier = {	
+			stability_weekly = -0.001
+			political_power_gain = 0.25
+		}
+		
+		cost = 50
+		days_re_enable = 35
+		days_remove = 35
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_popularity = {
+			ideology = euroliberalism
+			popularity = -0.01
+			}
+			add_political_power  = 35
+		}
+	}
+	
+	implement_harsher_gun_laws = {
+	
+		visible = {
+		ROOT = {
+			has_government = euroliberalism 
+			}
+		}
+	
+		allowed = {
+		ROOT = {
+				has_government = euroliberalism 
+			}
+		}
+		
+		modifier = {	
+			stability_weekly = -0.002
+			political_power_gain = -0.35
+		}
+		
+		cost = 75
+		days_re_enable = 75
+		days_remove = 35
+		complete_effect = {
+			add_equipment_to_stockpile = {
+    				type = ranged_equipment
+    				amount = 100
+    				producer = GER
+			}
+		}
+		
+		remove_effect = {
+			add_stability = 0.02
+			add_war_support = -0.005
+			add_equipment_to_stockpile = {
+    				type = ranged_equipment
+    				amount = 250
+    				producer = GER
+			}
+		}
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+## WEAPON GUNWO ###
+
+
 weapon_dealer = {
 	sell_ranged = {
 		days_remove = 5
