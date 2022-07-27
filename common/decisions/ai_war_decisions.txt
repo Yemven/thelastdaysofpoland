@@ -3072,7 +3072,7 @@ ai_war_decisions = {
 		remove_effect  = {
 			RYB = {
 				transfer_state = 343
-				transfer_state = 806
+				transfer_state = 866
 				transfer_state = 369
 			}
 			MPK = {
@@ -3080,6 +3080,7 @@ ai_war_decisions = {
 				transfer_state = 388
 				transfer_state = 375
 				transfer_state = 376
+				transfer_state = 806
 			}
 			WRO = {
 				end_puppet = MPK
