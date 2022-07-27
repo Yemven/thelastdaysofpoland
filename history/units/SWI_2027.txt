@@ -1,0 +1,94 @@
+division_template = {
+	name = "Batalion Robotniczy"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalion Piechoty Ludowej"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalion Robotników Portowych i Rybaków"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Dźwigi"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "1 Batalion Piechoty Ludowej 'Fort Zachodni'"
+		location = 17222
+		division_template = "Batalion Piechoty Ludowej"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+	    name = "1 Batalion Ochotniczy"
+		location = 17217
+		division_template = "Batalion Robotniczy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+	    name = "3 Batalion Ochotniczy"
+		location = 17219
+		division_template = "Dźwigi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+	    name = "2 Batalion Ochotniczy 'Stawa Młyny'"
+		location = 17222
+		division_template = "Batalion Robotników Portowych i Rybaków"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+
+    fleet = {
+        name = "Marynarka Wojenna ŚRL" 
+        naval_base = 17222
+        task_force = {
+            name = "Grupa Operacyjna Zalew Szczeciński" 
+            location = 17222
+            ship = {
+                name = "OŚRL Czerwona Fala" 
+                pride_of_the_fleet = yes
+                definition = heavy_monitor
+                equipment = { 
+                    heavy_monitor_hull_equipment = {
+                        amount = 1
+                        owner = SWI
+                        version_name = "typ Czerwona Fala"
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -20,6 +20,18 @@ PRK_revolt_minor_NRA = {
 				target = PRK
 				type = annex_everything
 			}
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
+			}
 		}
 		every_country = {
 			limit = { NOT = { is_ai = yes } }
@@ -49,6 +61,18 @@ PRK_revolt_minor_NSZ = {
 				target = PRK
 				type = annex_everything
 			}
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
+			}
 		}
 	}
 }
@@ -73,6 +97,18 @@ PRK_revolt_minor_KEL = {
 			declare_war_on = {
 				target = PRK
 				type = annex_everything
+			}
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
 			}
 		}
 	}
@@ -100,6 +136,18 @@ PRK_revolt_minor_STO = {
 				type = annex_everything
 			}
 		}
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
+			}
 	}
 }
 
@@ -119,6 +167,18 @@ PRK_revolt_minor_KIE = {
 		}
 		KIE = {
 			load_oob = "KIE_2027"
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
+			}
 		}
 	}
 }
@@ -146,6 +206,18 @@ PRK_revolt_minor_STA = {
 				target = PRK
 				type = annex_everything
 			}
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
+			}
 		}
 	}
 }
@@ -171,6 +243,18 @@ PRK_revolt_minor_SND = {
 		declare_war_on = {
 				target = PRK
 				type = annex_everything
+			}
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
 			}
 		}
 	}
@@ -198,6 +282,18 @@ PRK_revolt_major_NRA = {
 			declare_war_on = {
 				target = PRK
 				type = annex_everything
+			}
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
 			}
 		}
 		every_country = {
@@ -232,6 +328,18 @@ PRK_revolt_major_NSZ = {
 				target = PRK
 				type = annex_everything
 			}
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
+			}
 		}
 	}
 }
@@ -257,6 +365,18 @@ PRK_revolt_major_KEL = {
 			declare_war_on = {
 				target = PRK
 				type = annex_everything
+			}
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
 			}
 		}
 	}
@@ -284,6 +404,18 @@ PRK_revolt_major_STO = {
 				target = PRK
 				type = annex_everything
 			}
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
+			}
 		}
 	}
 }
@@ -304,6 +436,18 @@ PRK_revolt_major_KIE = {
 		}
 		KIE = {
 			load_oob = "KIE_2027"
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
+			}
 		}
 	}
 }
@@ -317,6 +461,20 @@ PRK_revolt_major_STA = {
 			limit = { is_core_of = STA }
 			STA = { transfer_state = PREV }
 		}
+		STA = {
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
+			}
+		}
 	}
 }
 
@@ -328,6 +486,20 @@ PRK_revolt_major_SND = {
 		every_owned_state = {
 			limit = { is_core_of = SND }
 			SND = { transfer_state = PREV }
+		}
+		SND = {
+			delete_unit_template_and_units = {
+				division_template = "Batalion Piechoty"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Milicja Prokuratorska"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Straż Obywatelska"
+				disband = yes
+			}		
 		}
 	}
 }
@@ -380,7 +552,7 @@ PRK_withdrawal = {
 			KEL = { transfer_state = PREV }
 		}	
 		389 = {
-			KEL = { transfer_state = PREV }
+			SND = { transfer_state = PREV }
 		}				
 		362 = {
 			NSZ = { transfer_state = PREV }
@@ -395,10 +567,10 @@ PRK_withdrawal = {
 			NSZ = { transfer_state = PREV }
 		}	
 		398 = {
-			NSZ = { transfer_state = PREV }
+			STO = { transfer_state = PREV }
 		}
 		675 = {
-			NSZ = { transfer_state = PREV }
+			STO = { transfer_state = PREV }
 		}
 		864 = {
 			NRA = { transfer_state = PREV }
@@ -428,13 +600,13 @@ PRK_withdrawal = {
 			STO = { transfer_state = PREV }
 		}
 		863 = {
-			STO = { transfer_state = PREV }
+			KEL = { transfer_state = PREV }
 		}
 		855 = {
-			STO = { transfer_state = PREV }
+			KEL = { transfer_state = PREV }
 		}
 		469 = {
-			STO = { transfer_state = PREV }
+			KEL = { transfer_state = PREV }
 		}
 		PRK = {
 			white_peace = STO
