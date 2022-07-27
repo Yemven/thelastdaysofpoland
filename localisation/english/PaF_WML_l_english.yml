@@ -9,6 +9,7 @@ WML_den_of_decadence_desc:0 "A massive urban center and peaceful foreign policy 
 WML_three_problems1:0 "Three Problems"
 WML_three_problems2:0 "Three Problems"
 WML_three_problems3:0 "Three Problems"
+WML_three_problems4:0 "Three Problems"
 WML_fragile_denial_of_reality:0 "Fragile Denial of Reality"
 WML_fragile_denial_of_reality_desc:0 "todo"
  ##COMPANIES##
@@ -34,8 +35,20 @@ abb_transformatory:0 "ABB Transformer Factory"
  
  
  ##Events##
-
-
+ WML.4.t:0 "Search for Energy Source"
+ WML.4.desc:0 "todo"
+ WML.4.a:0 "bractwo"
+ WML.4.b:0 "ec1 zostaje elektrownia"
+ WML.5.t:0 "In search of Food Supplier"
+ WML.5.desc:0 "todo"
+ WML.5.a:0 "harcerze"
+ WML.5.b:0 "sapek"
+ WML.5.c:0 "alternatywne rozwiazania"
+ WML.6.t:0 "Search for Raw Materials Supplier"
+ WML.6.desc:0 "todo"
+ WML.6.a:0 "konsorcjum.jpg"
+ WML.6.b:0 "widzew"
+ WML.6.c:0 "recykling + ograniczenia"
 
 unification.1.t:0 "[GetNewspaper]Free City of Łódź unifies Łódź Voivodeship"
 unification.1.desc:0 "Ever since the tragic accident in Bałuty, it seemed like most of the past Łódź Voivodeship was doomed to spiral into insanity, with various ideologically outlandish cliques securing both large swaths of land and large followings in the region. The victor in the region, however, was the government of tbe City of Łódź, and a balanced, diplomatic approach won in the end. Today, Szymon Hołownia - the head of Łódź's government and the mediator in diplomatic talks concerning the Bałuty incident - proclaimed that all of Łódź Voivodeship has been united under a single flag. The newly born state aims to become a fully democratic republic that takes every citizen's opinion and worldview into account. This highly diplomatic and centrist approach made most local and international observers dismiss the City of Łódź as a noble, but doomed to fail state. Now that Hołownia united the whole voivodeship, however, the republic's neighbours start preparing their best orators to engage the state of Łódź on the diplomatic battlefield."
@@ -46,3 +59,10 @@ POLITICS_SZYMON_HOLOWNIA_DESC:0 "Szymon Hołownia (born 3 September 1976) is a P
 
  ##Decisions##
 WML_unifies_lodz_tooltip:0 "Gets event '§YFree City of Łódź unifies Łódź Voivodeship§!'"
+
+####TOOLTIPS####
+WML_three_problems_big_decrease_tt:0 "§GModerate decrease of the Three Problems effects§!"
+WML_three_problems_small_decrease_tt:0 "§GSmall decrease of the Three Problems effects§!"
+WML_three_problems_removal_tt:0 "§2Three Problems existance and its effects fades away, let's hope forever...§!"
+
+

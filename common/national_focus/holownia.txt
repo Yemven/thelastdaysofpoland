@@ -32,11 +32,13 @@ focus_tree = {
 		x = 13
 		y = 0
 		
-		cost = 5
+		cost = 1
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
 			#lore evencik pokazujący jak ludzie żyją w łodzi jakby nic się nie zmieniło 
-			
+			country_event = {
+			id = WML.1 
+			}
 		
 		}
 	}
@@ -55,11 +57,14 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 1
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#lore event pokazujący że cała ta sielanka to iluzja i wyparcie prawdy. W praktyce kolorowo nie jest i miasto ma wiele problemów. Event opowiada po krótko o 3 najważniejszych.
 			#po tym evencie ma się odpalić następny który to pokazuje że każdy z problemów można rozwiązać za pomocą dialogu lub na własną rękę
+		country_event = {
+			id = WML.2
+			}
 		}
 	}
 	
@@ -77,10 +82,13 @@ focus_tree = {
 		x = -2
 		y = 1
 		
-		cost = 5
+		cost = 1
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#wybór pomiędzy opieraniem się na bractwie czy zamiana spowrotem ec1 na elektrownie
+			country_event = {
+			id = WML.4
+			}
 		}
 	}
 	
@@ -98,10 +106,13 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 1
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#wybór pomiędzy współpracą z zhp, sapkiem lub rozwiązanie tego samemu 
+			country_event = {
+			id = WML.5
+			}
 		}
 	}
 	
@@ -119,10 +130,13 @@ focus_tree = {
 		x = 2
 		y = 1
 		
-		cost = 5
+		cost = 1
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#wybór pomiędzy współpracą z konsorcjum, lub widzewem lub wprowadzenie ograniczeń i recyklingu
+			country_event = {
+			id = WML.6
+			}
 		}
 	}
 	
@@ -132,22 +146,22 @@ focus_tree = {
 		prerequisite = { focus = WML_food_shortages }
 		prerequisite = { focus = WML_lack_of_materials }
 		prerequisite = { focus = WML_energy_issues }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
 		
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 1
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+		custom_effect_tooltip = WML_three_problems_removal_tt
+			country_event = {
+			id = WML.3
+			}
+			hidden_effect = {
+					remove_ideas = WML_three_problems4
+				}
+			}
 		}
-	}
 	
 	### STARE DRZEWKO ###
 	focus = {
