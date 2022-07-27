@@ -69,6 +69,17 @@ BBW_industrial_missions_category = {
     visible_when_empty = no
 }
 
+KRS_funeral_gains_category = {
+    allowed = {
+        tag = KRS
+    }
+    priority = 50
+    #picture = GFX_decision_category_picture
+	#Tu dać jakieś kominy z dymem czarnym
+    #icon = BBW_category
+    visible_when_empty = no
+}
+
 coring_category = {
 	priority = 2
 	icon = GFX_category_icon

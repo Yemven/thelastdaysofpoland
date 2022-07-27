@@ -38,12 +38,17 @@ country_event = {
     tag = KRS
     has_war = yes
 		NOT = {
-		has_idea = KRS_war_profiteering
+		has_idea = KRS_war_profiteering1
+		has_idea = KRS_war_profiteering2
+		has_idea = KRS_war_profiteering3
 		}
 	}
 
 	option = {
 		name = krosniewice.2.a
-		add_ideas = KRS_war_profiteering	
+		add_ideas = KRS_war_profiteering1
+		hidden_effect = {
+			activate_mission = KRS_funeral_gains_mission
+		}
 	}
 }

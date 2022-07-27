@@ -1,0 +1,70 @@
+KRS_funeral_gains_category = {
+
+	KRS_funeral_gains_mission = {
+		icon = GFX_decision_generic_form_nation
+		
+		days_mission_timeout = 30
+		
+		available = { 
+			always = no 
+		}
+		
+		activation = {
+		always = no
+		}
+		
+		allowed = {
+			tag = KRS
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = no
+		
+		complete_effect = {
+		
+		}
+		
+		timeout_effect = {
+		if = {
+			limit = {
+				KRS = { has_idea = KRS_war_profiteering2 }
+			}
+			#custom_effect_tooltip = BBW_polution_rising_tt
+			
+			swap_ideas = {
+					add_idea = KRS_war_profiteering3
+					remove_idea = KRS_war_profiteering2
+				}
+			
+		}
+		
+		if = {
+			limit = {
+				KRS = { has_idea = KRS_war_profiteering1 }
+			}
+			#custom_effect_tooltip = BBW_polution_rising_tt
+			swap_ideas = {
+					add_idea = KRS_war_profiteering2
+					remove_idea = KRS_war_profiteering1
+				}
+			}
+		###KUNIEC
+		if = {
+			limit = {
+				KRS = { has_idea = KRS_war_profiteering3 }
+			}  
+			add_war_support = -0.05
+		}
+		else = {
+			hidden_effect = {
+					activate_mission = KRS_funeral_gains_mission
+				}
+		}
+		
+		}
+	}
+	
+}
