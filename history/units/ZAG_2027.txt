@@ -70,6 +70,14 @@ units = {
 	}
 	
 	division = {
+		name = "1 Brabancki Batalion Czołgów"
+		location = 16217
+		division_template = "Batalion Kawalerii Pancernej"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
 		name = "7 Batalion Strzelców Konnych Wielkopolskich"
 		location = 235
 		division_template = "Batalion Piechoty Zmotoryzowanej"
@@ -86,10 +94,26 @@ units = {
 	}
 	
 	division = {
+		name = "15 batalion Ułanów Poznańskich im. Władysława Andersa"
+		location = 16250
+		division_template = "Batalion Piechoty Zmotoryzowanej"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
 		name = "8 Batalion Europejskiej Piechoty Zmotoryzowanej"
 		location = 16232
 		division_template = "Batalion Piechoty Zmotoryzowanej"
 		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "9 Europejski Batalion Pancerny"
+		location = 16232
+		division_template = "Batalion Kawalerii Pancernej"
+		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 	
@@ -102,8 +126,24 @@ units = {
 	}
 	
 	division = {
+		name = "4 Krośnieński Batalion Zaopatrzenia"
+		location = 1502
+		division_template = "Jednostka Pomocnicza"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
 		name = "1 Batalion Ochotniczy z Żagania"
 		location = 235
+		division_template = "Batalion Ochotniczy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2 Batalion Ochotniczy z Żarów"
+		location = 23
 		division_template = "Batalion Ochotniczy"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
