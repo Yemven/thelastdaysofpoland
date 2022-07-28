@@ -51,7 +51,7 @@ technologies = {
 			tank_close_support_gun
 		}
 		path = {
-			leads_to_tech = light_artillery_upgrade
+			leads_to_tech = light_artillery2
 			research_cost_coeff = 1
 		}
 		
@@ -70,37 +70,6 @@ technologies = {
 		}
 	}
 	
-	light_artillery_upgrade = {
-	
-		research_cost = 1.5
-		start_year = 2028
-		
-		path = {
-			leads_to_tech = light_artillery2
-			research_cost_coeff = 1
-		}
-		
-		folder = {
-		name = artillery_folder
-		position = { x = 0 y = 4}
-		}
-	
-		artillery = {
-		soft_attack = 0.05
-		}
-		
-		artillery_brigade = {
-		soft_attack = 0.05
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-		factor = 2
-		}
-	}
 	
 	light_artillery2 = {
 		enable_equipments = {
@@ -291,7 +260,7 @@ technologies = {
 			tank
 		}
 		path = {
-			leads_to_tech = heavy_artillery_upgrade
+			leads_to_tech = heavy_artillery2
 			research_cost_coeff = 1
 		}
 		path = {
@@ -313,44 +282,7 @@ technologies = {
 			factor = 2
 		}
 	}
-	
-	heavy_artillery_upgrade = {
-	
-		research_cost = 1.5
-		start_year = 2028
-		
-		path = {
-			leads_to_tech = heavy_artillery2
-			research_cost_coeff = 1
-		}
-		
-		folder = {
-		name = artillery_folder
-		position = { x = -3 y = 4}
-		}
-		
-		heavy_artillery = {
-		soft_attack = 0.05
-		hard_attack = 0.05
-		ap_attack = 0.05
-		breakthrough = 0.05
-		}
-		
-		heavy_artillery_brigade = {
-		soft_attack = 0.05
-		hard_attack = 0.05
-		ap_attack = 0.05
-		breakthrough = 0.05
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-		factor = 2
-		}
-	}
+
 	
 	heavy_artillery2 = {
 		enable_equipments = {
@@ -782,7 +714,7 @@ technologies = {
 			rocket_artillery_brigade
 		}
 		path = {
-			leads_to_tech = rocket_artillery_upgrade
+			leads_to_tech = rocket_artillery2
 			research_cost_coeff = 1
 		}
 		path = {
@@ -806,47 +738,6 @@ technologies = {
 		}
 	}
 	
-	rocket_artillery_upgrade = {
-	
-		research_cost = 1.5
-		start_year = 2028
-		
-		path = {
-			leads_to_tech = rocket_artillery2
-			research_cost_coeff = 1
-		}
-		
-		#allow_branch = { # po chuj ktoś to wstawił
-			#NOT = {
-				#has_dlc = "No Step Back"
-			#}
-		#}
-		
-		folder = {
-		name = artillery_folder
-		position = { x = 3 y = 4}
-		}
-		
-		rocket_artillery = {
-		soft_attack = 0.05
-		hard_attack = 0.03
-		breakthrough = 0.05
-		}
-		
-		rocket_artillery_brigade = {
-		soft_attack = 0.05
-		hard_attack = 0.03
-		breakthrough = 0.05
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-		factor = 2
-		}
-	}
 	
 	rocket_artillery2 ={
 		enable_equipments = {
