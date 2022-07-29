@@ -407,3 +407,36 @@ country_event = {
 		
 	}
 }
+country_event = {
+	id = WML.7
+	title = WML.7.t
+	desc = WML.7.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = WML.7.a
+		
+	}
+	option = {
+		name = WML.7.b
+		
+	}
+	option = {
+		name = WML.7.c
+		
+	}
+	option = {
+		name = WML.7.d
+		
+	}
+	option = {
+		name = WML.7.e
+		
+	}
+	option = {
+		name = WML.7.f
+		
+	}
+}
