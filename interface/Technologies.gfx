@@ -1,6 +1,50 @@
 spriteTypes = {
 
 	SpriteType = {
+		name = "GFX_light_artillery_medium"
+		texturefile = "gfx/interface/technologies/light_artillery.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_artillery1_medium"
+		texturefile = "gfx/interface/technologies/light_artillery1.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_artillery2_medium"
+		texturefile = "gfx/interface/technologies/light_artillery2.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_artillery3_medium"
+		texturefile = "gfx/interface/technologies/light_artillery3.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_artillery4_medium"
+		texturefile = "gfx/interface/technologies/light_artillery4.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_artillery5_medium"
+		texturefile = "gfx/interface/technologies/light_artillery5.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_artillery_medium"
+		texturefile = "gfx/interface/technologies/heavy_artillery.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_artillery2_medium"
+		texturefile = "gfx/interface/technologies/heavy_artillery2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_artillery3_medium"
+		texturefile = "gfx/interface/technologies/heavy_artillery3.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_artillery4_medium"
+		texturefile = "gfx/interface/technologies/heavy_artillery4.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_artillery5_medium"
+		texturefile = "gfx/interface/technologies/heavy_artillery5.dds"
+	}
+	SpriteType = {
 		name = "GFX_radio_detection_medium"
 		texturefile = "gfx/interface/technologies/radio_detection.dds"
 	}
@@ -79,6 +123,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_mbt_1_medium"
 		texturefile = "gfx/interface/technologies/mbt_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_mbt_2_medium"
+		texturefile = "gfx/interface/technologies/mbt_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_mbt_3_medium"
+		texturefile = "gfx/interface/technologies/mbt_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_mbt_4_medium"
+		texturefile = "gfx/interface/technologies/mbt_4.dds"
 	}
 	SpriteType = {
 		name = "GFX_nsb_mbt_0_medium"

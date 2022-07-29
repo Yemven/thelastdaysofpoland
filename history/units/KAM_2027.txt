@@ -34,7 +34,6 @@ division_template = {
 		armored_car = { x = 0 y = 0 }
 		armored_car = { x = 0 y = 1 }
 		armored_car = { x = 1 y = 0 }
-
 	}
 	support = {
 		armored_car_recon = { x = 0 y = 0 }
@@ -59,6 +58,14 @@ units = {
 	}
 	
 	division = {
+		name = "2. Infanteriebataillon der KGWP"
+		location = 16349
+		division_template = "Infanteriebataillon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
 		name = "1. Panzergrenadierbataillon der KGWP"
 		location = 1775
 		division_template = "Panzergrenadierbataillon (armor)"
@@ -69,6 +76,14 @@ units = {
 	division = {
 		name = "6. Europanzergrenadierbataillon"
 		location = 1944
+		division_template = "Panzergrenadierbataillon (mot. inf.)"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3. Panzergrenadierbataillon der KGWP"
+		location = 3011
 		division_template = "Panzergrenadierbataillon (mot. inf.)"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
@@ -91,8 +106,32 @@ units = {
 	}
 	
 	division = {
+		name = "4. Panzergrenadierbataillon der KGWP"
+		location = 16354
+		division_template = "Panzergrenadierbataillon (mot. inf.)"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Polnische Überläuferbataillon (11. Euroinfanteriebataillon)"
+		location = 3426
+		division_template = "Infanteriebataillon"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
 		name = "1. Aufklärungsbataillon der KGWP"
 		location = 1525
+		division_template = "Aufklärungsbataillon"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2. Aufklärungsbataillon der KGWP"
+		location = 3802
 		division_template = "Aufklärungsbataillon"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0

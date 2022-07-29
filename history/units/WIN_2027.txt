@@ -1,0 +1,95 @@
+division_template = {
+	name = "Batalion Hedonistycznej Republiki Winnegogrodu"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Milicja Winniczna"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Miłośnicy Amareny"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 2 y = 0 }
+	}
+}
+
+units = {
+ 	division = {
+		name = "1 Batalion Hedonistycznej Republiki Winnegogrodu"
+		location = 16317
+		division_template = "Batalion Hedonistycznej Republiki Winnegogrodu"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+  	division = {
+		name = "Prywatne Siły Ochroniarskie Winiarzy Zaborskich"
+		location = 124
+		division_template = "Milicja Winniczna"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+  	division = {
+		name = "2 Batalion Hedonistycznej Republiki Winnegogrodu"
+		location = 16318
+		division_template = "Batalion Hedonistycznej Republiki Winnegogrodu"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+  	division = {
+		name = "1 Batalion Milicji Miejskiej"
+		location = 16222
+		division_template = "Batalion Hedonistycznej Republiki Winnegogrodu"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+  	division = {
+		name = "Prywatne Siły Ochroniarskie Winiarzy Nowosolnych"
+		location = 3810
+		division_template = "Milicja Winniczna"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+  	division = {
+		name = "Wynajęci Żule"
+		location = 2240
+		division_template = "Miłośnicy Amareny"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+  	division = {
+		name = "Batalion Studentów Historii Antycznej 'Menady Bachusa'"
+		location = 902
+		division_template = "Miłośnicy Amareny"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+  	division = {
+		name = "Batalion Studencki 'Snajper Enjoyers'"
+		location = 16291
+		division_template = "Miłośnicy Amareny"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+}

@@ -6,6 +6,10 @@ defined_text = {
 		localization_key = TITLE_SOS
 	}
 	text = {
+		trigger = { original_tag = KEL }
+		localization_key = TITLE_KEL
+	}
+	text = {
 		trigger = { original_tag = PRK }
 		localization_key = TITLE_PRK
 	}
@@ -222,6 +226,10 @@ defined_text = {
 	text = {
 		trigger = { original_tag = TAT }
 		localization_key = GOVERNMENT_TAT
+	}
+	text = {
+		trigger = { original_tag = KEL }
+		localization_key = GOVERNMENT_KEL
 	}
 	text = {
 		trigger = { original_tag = SAN }

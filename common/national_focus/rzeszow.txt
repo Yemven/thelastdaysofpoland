@@ -123,7 +123,7 @@ focus_tree = {
 	focus = {
 		id = RZE_waiting_for_one_chosen_by_god
 		icon = RZE_waiting_for_one_chosen_by_god
-		relative_position_id = RZE_anothesr_session_of_the_regency_council
+		relative_position_id = RZE_another_session_of_the_regency_council
 		prerequisite = { focus = RZE_another_session_of_the_regency_council }
 		mutually_exclusive = { focus = RZE_who_can_say_im_not_artur }
 		available = {
@@ -145,7 +145,7 @@ focus_tree = {
 	focus = {
 		id = RZE_who_can_say_im_not_artur
 		icon = RZE_who_can_say_im_not_artur
-		relative_position_id = RZE_anothesr_session_of_the_regency_council
+		relative_position_id = RZE_another_session_of_the_regency_council
 		prerequisite = { focus = RZE_another_session_of_the_regency_council }
 		mutually_exclusive = { focus = RZE_waiting_for_one_chosen_by_god }
 		available = {
@@ -257,7 +257,7 @@ focus_tree = {
 		icon = RZE_Anyone_can_print_they_own_money
 		relative_position_id = RZE_Korwinism-Braunism
 		prerequisite = { focus = RZE_Korwinism-Braunism }
-		mutually_exclusive = { focus = RZE_We_Need_strength_for_next }
+		mutually_exclusive = { focus = RZE_We_Need_strength_for_next_battle }
 		available = {
 		
 		}
