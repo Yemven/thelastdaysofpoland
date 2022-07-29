@@ -2689,6 +2689,9 @@ ai_war_decisions = {
 		available = {
 			tag = ZUL
 			date > 2027.07.01
+			NOT = {
+				ANA = { has_war_with = FEM }
+			}
 		}
 		
 		cost = 1
@@ -2720,6 +2723,9 @@ ai_war_decisions = {
 		available = {
 			tag = MNL
 			date > 2027.07.01
+			NOT = {
+				ANA = { has_war_with = FEM }
+			}
 		}
 		
 		cost = 1
@@ -2751,6 +2757,9 @@ ai_war_decisions = {
 		available = {
 			tag = ANA
 			date > 2027.07.01
+			NOT = {
+				ANA = { has_war_with = FEM }
+			}
 		}
 		
 		cost = 1
@@ -2811,6 +2820,9 @@ ai_war_decisions = {
 		available = {
 			tag = CZE
 			date > 2027.09.10
+			NOT = {
+				WRO = { has_war_with = BRE }
+			}
 		}
 
 		cost = 1
@@ -2841,6 +2853,9 @@ ai_war_decisions = {
 		available = {
 			tag = EKS
 			date > 2028.03.01
+			NOT = {
+				KHG = { has_war_with = CYG }
+			}
 		}
 		
 		cost = 1
@@ -2865,6 +2880,31 @@ ai_war_decisions = {
 				id = aievent.15
 				days = 3
 				}
+			}
+		}	
+	}
+	
+	RYB_MPK_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			tag = RYB
+			date > 2028.04.01
+		}
+		
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = MPK
+		remove_effect  = {
+			declare_war_on = {
+				target = MPK
+				type = annex_everything
 			}
 		}	
 	}
@@ -2928,10 +2968,6 @@ ai_war_decisions = {
 					tag = EKS
 					tag = KGH
 					tag = CYG
-					tag = WRO
-					tag = CZE
-					tag = RYB
-					
 					}
 				date > 2029.06.01
 				count_triggers = {
@@ -2956,10 +2992,6 @@ ai_war_decisions = {
 		remove_effect  = {
 			annex_country = {
 				target = TOU
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = MPK
 				transfer_troops = yes
 			}
 		}
@@ -3059,7 +3091,7 @@ ai_war_decisions = {
 
 		available = {
 			tag = WRO
-			date > 2027.11.01
+			WRO = { has_war_with = CZE }
 		}
 
 		cost = 1
@@ -3072,8 +3104,8 @@ ai_war_decisions = {
 		remove_effect  = {
 			RYB = {
 				transfer_state = 343
-				transfer_state = 866
 				transfer_state = 369
+				transfer_state = 866
 			}
 			MPK = {
 				transfer_state = 607
@@ -3085,14 +3117,14 @@ ai_war_decisions = {
 			WRO = {
 				end_puppet = MPK
 			}
-			BRE = {
+			BRE = (
 				remove_state_core = 371
 				remove_state_core = 607
 				remove_state_core = 387 
 				remove_state_core = 608
 				remove_state_core = 388
 				remove_state_core = 375
-			}
+			)
 		}
 		cancel_trigger = {
 			RYB = {
