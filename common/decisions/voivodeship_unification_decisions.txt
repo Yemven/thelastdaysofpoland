@@ -28,6 +28,9 @@ lodz_voivodeship_unification = {
 					limit = { NOT = { is_ai = yes } }
 					news_event = { id = unification.4 }
 				}
+				ZHP = {
+					event = { id = zhp.11 }
+				}
 			}
 			custom_effect_tooltip = ZHP_unifies_lodz_tooltip
 		}
