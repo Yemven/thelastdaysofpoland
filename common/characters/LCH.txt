@@ -12,4 +12,45 @@ characters={
 			id=-1
 		}
 	}
+	LCH_jaruha={
+		name="Jaruha"
+		portraits={
+			civilian={
+				large="gfx/leaders/LCH/LCH_Jaruha.dds
+				small = "gfx/interface/ideas/LCH/LCH_jaruha.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = LCH_min_jaruha
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = LCH
+			}
+			traits = { }
+		}
+	}
+	
+	LCH_vedamir={
+		name="Vedamir"
+		portraits={
+			civilian={
+				large="gfx/leaders/LCH/LCH_Vedamir.dds
+				small = "gfx/interface/ideas/LCH/LCH_vedamir.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = LCH_min_vedamir
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = LCH
+			}
+			traits = { }
+		}
+	}
 }
