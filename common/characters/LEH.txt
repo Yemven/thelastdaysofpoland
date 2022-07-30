@@ -16,7 +16,7 @@ characters={
 		name="Miłar"
 		portraits=
 		{ civilian = { large="gfx/leaders/LEH/LEH_Milar.dds"
-		small = "gfx/interface/ideas/LEH/LEH_milar.dds" }
+		small="gfx/interface/ideas/LEH/LEH_milar.dds" }
 		}
 		advisor = {
 			cost = -1
@@ -40,10 +40,10 @@ characters={
 	}
 	LEH_armil={
 		name="Armil Jaroch"
-		portraits=
-		{ civilian = { large="gfx/leaders/LEH/LEH_Armil.dds"
-		small = "gfx/interface/ideas/LEH/LEH_armil.dds" }
-		}
+		portraits={ 
+			civilian={ 
+				small="gfx/interface/ideas/LEH/LEH_armil.dds" }
+			}
 		advisor = {
 			cost = -1
 			slot = minister_of_economy
@@ -59,9 +59,9 @@ characters={
 	
 	LEH_rosmir={
 		name="Rosmir"
-		portraits=
-		{ civilian = { large="gfx/leaders/LEH/LEH_Rosmir.dds"
-		small = "gfx/interface/ideas/LEH/LEH_rosmir.dds" }
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/LEH/LEH_rosmir.dds" }
 		}
 		advisor = {
 			cost = -1
@@ -76,11 +76,12 @@ characters={
 		}
 	}
 	
+	
 	LEH_mamir={
 		name="Mamir"
 		portraits=
 		{ civilian = { large="gfx/leaders/LEH/LEH_Mamir.dds"
-		small = "gfx/interface/ideas/LEH/LEH_mamir.dds" }
+		small="gfx/interface/ideas/LEH/LEH_mamir.dds" }
 		}
 		advisor = {
 			cost = -1
@@ -153,7 +154,7 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/LCH/LCH_Bieszk1.dds"
-				small = "gfx/interface/ideas/LEH/LEH_bieszk.dds"
+				small="gfx/interface/ideas/LEH/LEH_bieszk.dds"
 			}
 		}
 		country_leader={
@@ -179,7 +180,7 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/WAN/WAN_Szydłowski1.dds"
-				small = "gfx/interface/ideas/LEH/LEH_szydlowski.dds"
+				small="gfx/interface/ideas/LEH/LEH_szydlowski.dds"
 			}
 		}
 		country_leader={
@@ -204,7 +205,7 @@ characters={
 		name="Jaruha"
 		portraits={
 			civilian={
-				small = "gfx/interface/ideas/LEH/LEH_jaruha.dds"
+				small="gfx/interface/ideas/LEH/LEH_jaruha.dds"
 			}
 		}
 		advisor = {

@@ -38,4 +38,169 @@ characters={
 			id=-1
 		}
 	}
+	OPO_tyszka={
+		name="Stanisław Tyszka"
+		portraits=
+		{ civilian = { small="gfx/interface/ideas/OPO/OPO_tyszka.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = OPO_min_tyszka
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OPO
+			}
+			traits = { }
+		}
+	}
+	OPO_kobylarz={
+		name="Andrzej Kobylarz"
+		portraits={ 
+			civilian={ 
+				small="gfx/interface/ideas/OPO/OPO_kobylarz.dds" }
+			}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = OPO_min_kobylarz
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OPO
+			}
+			traits = { }
+		}
+	}
+	
+	OPO_maslowski={
+		name="Maciej Masłowski"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/OPO/OPO_maslowski.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = OPO_min_maslowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OPO
+			}
+			traits = { }
+		}
+	}
+	
+	
+	OPO_szramka={
+		name="Paweł Szramka"
+		portraits=
+		{ civilian = { large="gfx/leaders/OPO/OPO_Szramka.dds"
+		small="gfx/interface/ideas/OPO/OPO_szramka.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = OPO_min_szramka
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OPO
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	OPO_siarka={
+		name="Edward Siarka"
+		portraits=
+		{ civilian = { small="gfx/interface/ideas/OPO/OPO_siarka.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = OPO_min_siarka
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OPO
+			}
+			traits = { }
+		}
+	}
+	OPO_kaluzny={
+		name="Mariusz Kałużny"
+		portraits={ 
+			civilian={ 
+				small="gfx/interface/ideas/OPO/OPO_kaluzny.dds" }
+			}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = OPO_min_kaluzny
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OPO
+			}
+			traits = { }
+		}
+	}
+	
+	OPO_bortniczuk={
+		name="Kamil Bortniczuk"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/OPO/OPO_bortniczuk.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = OPO_min_bortniczuk
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OPO
+			}
+			traits = { }
+		}
+	}
+	
+	
+	OPO_siudak={
+		name="Maciej Siudak"
+		portraits=
+		{ civilian = { large="gfx/leaders/OPO/OPO_Siudak.dds"
+		small="gfx/interface/ideas/OPO/OPO_siudak.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = OPO_min_siudak
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = OPO
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
 }
