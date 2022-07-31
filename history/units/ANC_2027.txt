@@ -1,5 +1,5 @@
 division_template = {
-	name = "Dziki"
+	name = "Animals"
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
 		melee_infantry = { x = 0 y = 1 }
@@ -14,28 +14,28 @@ units = {
     division = {
 		name = "Jeleń"
 		location = 12255
-		division_template = "Batalion Phunk"
+		division_template = "Animals"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Orlik"
 		location = 2078
-		division_template = "Batalion Phunk"
+		division_template = "Animals"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 	}
     division = {
 		name = "Puszczyk"
 		location = 12247
-		division_template = "Batalion Phunk"
+		division_template = "Animals"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "Żmija"
 		location = 12240
-		division_template = "Batalion Phunk"
+		division_template = "Animals"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 	}
