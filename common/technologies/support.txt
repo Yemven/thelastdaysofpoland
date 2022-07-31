@@ -1385,11 +1385,6 @@ technologies = {
 			leads_to_tech = wartime_train
 			research_cost_coeff = 1
 		}
-
-		path = {
-			leads_to_tech = armored_train
-			research_cost_coeff = 1
-		}
 		
 		categories = {
 			train_tech
@@ -1427,7 +1422,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = support_folder
-			position = { x = 4 y = 3 }
+			position = { x = 4 y = 10 }
 		}
 		
 		categories = {
@@ -1452,6 +1447,29 @@ technologies = {
 			#}
 		}
 	}
+	
+	
+	railway_gun2 = {
+		enable_equipments = {
+			railway_gun_equipment_2
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 16 }
+		}
+		
+		categories = {
+			train_tech
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	wartime_train = {
 		enable_equipments = {
@@ -1462,11 +1480,116 @@ technologies = {
 		start_year = 2033
 		folder = {
 			name = support_folder
-			position = { x = 0 y = @1941 }
+			position = { x = 0 y = 5 }
 		}
 		
 		categories = {
 			train_tech
+		}
+		
+		path = {
+			leads_to_tech = wartime_train2
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = armored_train
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				has_war = yes
+				factor = 20
+			}
+			modifier = {
+				factor = 1.2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2035.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2036.1.1"
+			}
+		}
+	}
+	
+	wartime_train2 = {
+		enable_equipments = {
+			train_equipment_4
+		}
+
+		research_cost = 1.5
+		start_year = 2033
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			train_tech
+		}
+		
+		path = {
+			leads_to_tech = wartime_train3
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = armored_train2
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				has_war = yes
+				factor = 20
+			}
+			modifier = {
+				factor = 1.2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2035.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2036.1.1"
+			}
+		}
+	}
+	
+	wartime_train3 = {
+		enable_equipments = {
+			train_equipment_5
+		}
+
+		research_cost = 1.5
+		start_year = 2033
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			train_tech
+		}
+		
+		path = {
+			leads_to_tech = armored_train3
+			research_cost_coeff = 1
 		}
 		
 		ai_will_do = {
@@ -1501,6 +1624,52 @@ technologies = {
 		allow_branch = {
 			has_dlc = "No Step Back"
 		}
+		
+		
+		research_cost = 1.5
+		start_year = 2033
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 5 }
+		}
+		
+		categories = {
+			train_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 20
+			}
+	
+			modifier = {
+				factor = 1.2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2035.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2036.1.1"
+			}
+		}
+	}
+	
+	armored_train2 = {
+		enable_equipments = {
+			train_equipment_6
+		}
+
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
 
 		path = {
 			leads_to_tech = railway_gun
@@ -1515,7 +1684,61 @@ technologies = {
 		start_year = 2033
 		folder = {
 			name = support_folder
-			position = { x = 2 y = 3 }
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			train_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 20
+			}
+	
+			modifier = {
+				factor = 1.2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2035.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2036.1.1"
+			}
+		}
+	}
+	
+	armored_train3 = {
+		enable_equipments = {
+			train_equipment_7
+		}
+
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
+		
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
+		
+		path = {
+			leads_to_tech = railway_gun2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 2033
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 16 }
 		}
 		
 		categories = {

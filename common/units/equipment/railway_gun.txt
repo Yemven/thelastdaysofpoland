@@ -37,4 +37,20 @@ equipments = {
 			chromium = 2
 		}		
 	}
+	#supersasin
+	railway_gun_equipment_2 = {
+		year = 1934
+
+		archetype = railway_gun_equipment
+		priority = 50
+		visual_level = 0
+		active = no
+
+		build_cost_ic = 800.0
+		resources = {
+			steel = 4
+			tungsten = 2
+			chromium = 2
+		}		
+	}
 }

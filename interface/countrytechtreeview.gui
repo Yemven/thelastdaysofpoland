@@ -2882,7 +2882,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_support_folder_item"
-		position = { x=-56 y=-7 }
+		position = { x=-65 y=-17 }
 		size = { width = 183 height = 84 }
 		clipping = no
 
@@ -2901,15 +2901,15 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 3 y = -3 }
+			position = { x = -50 y = -30 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Happy-Go-Lucky-Tank"
-			maxWidth = 166
+			maxWidth = 300
 			maxHeight = 20
 			fixedsize = no
-			format = left
+			format = center
 		}
 		iconType = {
 			name = "bonus_icon"
