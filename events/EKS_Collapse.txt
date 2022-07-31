@@ -533,9 +533,41 @@ country_event = {
 				type = annex_everything
 				}
 			load_oob = "CYG_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 			}
 		KGH = {
 			load_oob = "KGH_2027"
+			delete_unit_template_and_units = {
+				division_template = "Euroinfanteriebataillon"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (armor)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Europanzergrenadierbataillon (mot. inf.)"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Pro-europejscy ochotnicy"
+				disband = yes
+			}
 			}
 	}
 }
@@ -623,6 +655,11 @@ country_event = {
 
 	option = {
 		name = eksrozpad.15.a
+	ZUL = {
+			country_event = { id = walbrzych.1 
+			days = 7
+			}
+		}
 	}
 }
 

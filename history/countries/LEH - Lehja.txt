@@ -52,6 +52,39 @@ set_convoys = 20
 
 
 recruit_character = LEH_sanjaya_i
+recruit_character = LEH_bieszk
+recruit_character = LEH_szydłowski
+recruit_character = LEH_barmir
+recruit_character = LEH_mamir
+recruit_character = LEH_armil
+recruit_character = LEH_rosmir
+recruit_character = LEH_kamir
+recruit_character = LEH_milar
+recruit_character = LEH_zbyszko
+recruit_character = LEH_jaruha
+
+add_ideas = {
+	LEH_min_bieszk
+	LEH_min_milar
+	LEH_min_jaruha
+	LEH_min_szydlos
+	regime_council
+	state_press
+	improvised_security
+	witch_doctors
+	no_subsidies
+	random_enlistment
+	training_battle
+	officer_random
+	economy_primal_economy
+	taxes_minimal
+	trade_none
+	lgbt_illegal_tolerated
+	drugs_all_penalised
+	women_traditional_roles
+	minorities_hidden_oppresion
+	state_religion
+}
 
 set_politics = {
 	ruling_party = postpolonism

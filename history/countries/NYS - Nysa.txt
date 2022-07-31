@@ -51,7 +51,34 @@ if = {
 set_convoys = 20
 
 
-recruit_character = NYS_kordian_kolbiarz
+recruit_character = NYS_kolbiarz
+recruit_character = NYS_nakonieczny
+recruit_character = NYS_wojewodka
+recruit_character = NYS_miller
+recruit_character = NYS_flaga
+
+add_ideas = {
+	NYS_min_nakonieczny
+	NYS_min_wojewodka
+	NYS_min_miller
+	NYS_min_flaga
+	controlled_opposition
+	autocensorship
+	advanced_security
+	partial_refundation
+	no_subsidies
+	random_enlistment
+	training_basic
+	officer_clerks
+	economy_regulated_capitalism
+	taxes_medium
+	trade_regulated
+	lgbt_limited_laws
+	drugs_illegal_unenforced
+	women_working_women
+	minorities_hidden_oppresion
+	full_secularism
+}
 
 set_politics = {
 	ruling_party = autocracy

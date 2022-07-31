@@ -1,5 +1,5 @@
 characters={
-	NYS_kordian_kolbiarz={
+	NYS_kolbiarz={
 		name="Kordian Kolbiarz"
 		portraits={
 			civilian={
@@ -10,6 +10,83 @@ characters={
 			ideology=autocracy_subtype
 			expire="1.1.1.1"
 			id=-1
+		}
+	}
+	NYS_nakonieczny={
+		name="Paweł Nakonieczny"
+		portraits= { civilian = { small="gfx/interface/ideas/NYS/NYS_nakonieczny.dds" } }
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = NYS_min_nakonieczny
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = NYS
+			}
+			traits = { }
+		}
+	}
+	NYS_wojewodka={
+		name="Robert Wojewódka"
+		portraits={ 
+			civilian={ 
+				small="gfx/interface/ideas/NYS/NYS_wojewodka.dds" }
+			}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = NYS_min_wojewodka
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = NYS
+			}
+			traits = { }
+		}
+	}
+	NYS_miller={
+		name="Rajmund Miller"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/NYS/NYS_miller.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = NYS_min_miller
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = NYS
+			}
+			traits = { }
+		}
+	}
+	NYS_flaga={
+		name="Edward Flaga"
+		portraits=
+		{ civilian = { large="gfx/leaders/NYS/NYS_Flaga.dds"
+		small="gfx/interface/ideas/NYS/NYS_flaga.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = NYS_min_flaga
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = NYS
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 }

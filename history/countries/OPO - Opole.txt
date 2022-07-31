@@ -54,6 +54,38 @@ set_convoys = 20
 recruit_character = OPO_paweł_kukiz
 recruit_character = OPO_janusz_kowalski
 recruit_character = OPO_kowalski.exe
+recruit_character = OPO_tyszka
+recruit_character = OPO_maslowski
+recruit_character = OPO_szramka
+recruit_character = OPO_kobylarz
+recruit_character = OPO_siarka
+recruit_character = OPO_kaluzny
+recruit_character = OPO_siudak
+recruit_character = OPO_bortniczuk
+
+add_ideas = {
+	OPO_min_tyszka
+	OPO_min_maslowski
+	OPO_min_szramka
+	OPO_min_kobylarz
+	two_party_system
+	state_press
+	basic_security
+	private_healthcare
+	no_subsidies
+	random_enlistment
+	training_basic
+	officer_leftovers
+	economy_authoritarian_capitalism
+	taxes_low
+	trade_regulated
+	lgbt_limited_laws
+	drugs_illegal_unenforced
+	women_gender_equality
+	minorities_equal_rights
+	partial_secularism
+}
+
 
 set_politics = {
 	ruling_party = autocracy

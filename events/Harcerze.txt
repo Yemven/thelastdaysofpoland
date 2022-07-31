@@ -134,3 +134,47 @@ country_event = {
 		name = zhp.10.a
 	}
 }
+
+country_event = {
+	id = zhp.11 #wojna wśród harcerzy; todo: opóźnienie wystrzelenia eventu; podzielenie ZHP
+	title = zhp.11.t
+	desc = zhp.11.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zhp.11.a # idealiści
+		trigger = {
+			or = {
+				if = {
+					limit = {
+						has_variable = zhp_idealist_influence
+						has_variable = zhp_conservative_influence
+					}
+					check_variable = { zhp_idealist_influence < zhp_conservative_influence}
+				}
+				else = {
+					has_variable = zhp_idealist_influence
+				}
+			}
+		}
+	}
+	option = {
+		name = zhp.11.b #konserwatyści
+		trigger = {
+			or = {
+				if = {
+					limit = {
+						has_variable = zhp_idealist_influence
+						has_variable = zhp_conservative_influence
+					}
+					check_variable = { zhp_idealist_influence > zhp_conservative_influence}
+				}
+				else = {
+					has_variable = zhp_conservative_influence
+				}
+			}
+		}
+	}
+}

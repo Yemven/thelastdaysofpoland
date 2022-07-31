@@ -83,7 +83,7 @@ technologies = {
 		start_year=2030
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 4}
 		}
 		ai_will_do = {
 			factor = 2
@@ -102,7 +102,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 0 y = 8}
+		position = { x = 0 y = 6}
 		}
 	
 		artillery = {
@@ -138,7 +138,7 @@ technologies = {
 		start_year=2033
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 8 }
 		}
 		ai_will_do = {
 			factor = 2
@@ -157,7 +157,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 0 y = 12}
+		position = { x = 0 y = 10}
 		}
 	
 		artillery = {
@@ -189,7 +189,7 @@ technologies = {
 		start_year=2036
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 14 }
+			position = { x = 0 y = 12 }
 		}
 		ai_will_do = {
 			factor = 2
@@ -208,7 +208,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 0 y = 16}
+		position = { x = 0 y = 14}
 		}
 	
 		artillery = {
@@ -240,7 +240,7 @@ technologies = {
 		start_year=2040
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 18}
+			position = { x = 0 y = 16}
 		}
 		ai_will_do = {
 			factor = 2
@@ -296,7 +296,7 @@ technologies = {
 		start_year=2030
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 6 }
+			position = { x = -3 y = 4}
 		}
 
 		categories = {
@@ -320,7 +320,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = -3 y = 8}
+		position = { x = -3 y = 6}
 		}
 	
 		heavy_artillery = {
@@ -358,7 +358,7 @@ technologies = {
 		start_year=2033
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 10 }
+			position = { x = -3 y = 8 }
 		}
 
 		categories = {
@@ -382,7 +382,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = -3 y = 12}
+		position = { x = -3 y = 10}
 		}
 	
 		heavy_artillery = {
@@ -420,7 +420,7 @@ technologies = {
 		start_year=2036
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 14 }
+			position = { x = -3 y = 12 }
 		}
 
 		categories = {
@@ -444,7 +444,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = -3 y = 16}
+		position = { x = -3 y = 14}
 		}
 	
 		heavy_artillery = {
@@ -478,7 +478,7 @@ technologies = {
 		start_year=2040
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 18 }
+			position = { x = -3 y = 16 }
 		}
 
 		categories = {
@@ -498,16 +498,11 @@ technologies = {
 			leads_to_tech = self_propelled_artillery_upgrade
 			research_cost_coeff = 1
 		}
-		allow_branch = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
 		research_cost = 2
 		start_year=2030
 		folder = {
 			name = artillery_folder
-			position = { x = -6 y = 6 }
+			position = { x = -6 y = 4}
 		}
 		
 		enable_subunits = {
@@ -533,12 +528,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		allow_branch = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
-		
 		self_propelled_artillery_brigade = {
 		soft_attack = 0.05
 		hard_attack = 0.05
@@ -547,7 +536,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = -6 y = 8}
+		position = { x = -6 y = 6}
 		}
 	
 	
@@ -573,7 +562,7 @@ technologies = {
 		start_year=2033
 		folder = {
 			name = artillery_folder
-			position = { x = -6 y = 10}
+			position = { x = -6 y = 8}
 		}
 
 		categories = {
@@ -595,15 +584,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		allow_branch = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
-		
 		folder = {
 		name = artillery_folder
-		position = { x = -6 y = 12}
+		position = { x = -6 y = 10}
 		}
 		
 		self_propelled_artillery_brigade = {
@@ -633,7 +616,7 @@ technologies = {
 		start_year=2036
 		folder = {
 			name = artillery_folder
-			position = { x = -6 y = 14}
+			position = { x = -6 y = 12}
 		}
 
 		categories = {
@@ -654,12 +637,7 @@ technologies = {
 			leads_to_tech = self_propelled_artillery4
 			research_cost_coeff = 1
 		}
-		
-		allow_branch = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
+	
 		
 		self_propelled_artillery_brigade = {
 		soft_attack = 0.05
@@ -669,7 +647,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = -6 y = 16}
+		position = { x = -6 y = 14}
 		}
 	
 		
@@ -690,7 +668,7 @@ technologies = {
 		start_year=2040
 		folder = {
 			name = artillery_folder
-			position = { x = -6 y = 18 }
+			position = { x = -6 y = 16 }
 		}
 
 		categories = {
@@ -751,7 +729,7 @@ technologies = {
 		start_year=2030
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 6 }
+			position = { x = 3 y = 4}
 		}
 
 		categories = {
@@ -782,7 +760,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 3 y = 8}
+		position = { x = 3 y = 6}
 		}
 	
 		rocket_artillery = {
@@ -821,7 +799,7 @@ technologies = {
 		start_year=2033
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 10 }
+			position = { x = 3 y = 8 }
 		}
 
 		categories = {
@@ -852,7 +830,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 3 y = 12}
+		position = { x = 3 y = 10}
 		}
 	
 		rocket_artillery = {
@@ -888,7 +866,7 @@ technologies = {
 		start_year=2036
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 14 }
+			position = { x = 3 y = 12 }
 		}
 
 		categories = {
@@ -919,7 +897,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 3 y = 16}
+		position = { x = 3 y = 14}
 		}
 	
 		rocket_artillery = {
@@ -951,7 +929,7 @@ technologies = {
 		start_year=2040
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 18 }
+			position = { x = 3 y = 16 }
 		}
 
 		categories = {
@@ -983,7 +961,7 @@ technologies = {
 		start_year=2030
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = 6 }
+			position = { x = 6 y = 4}
 		}
 		categories = {
 			artillery
@@ -1006,7 +984,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 6 y = 8}
+		position = { x = 6 y = 6}
 		}
 		
 		anti_air = {
@@ -1045,7 +1023,7 @@ technologies = {
 		start_year=2033
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = 10 }
+			position = { x = 6 y = 8 }
 		}
 		categories = {
 			artillery
@@ -1068,7 +1046,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 6 y = 12}
+		position = { x = 6 y = 10}
 		}
 	
 		anti_air = {
@@ -1108,7 +1086,7 @@ technologies = {
 		start_year=2036
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = 14 }
+			position = { x = 6 y = 12 }
 		}
 		categories = {
 			artillery
@@ -1131,7 +1109,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 6 y = 16}
+		position = { x = 6 y = 14}
 		}
 	
 		anti_air = {
@@ -1167,7 +1145,7 @@ technologies = {
 		start_year=2040
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = 18 }
+			position = { x = 6 y = 16 }
 		}
 		categories = {
 			artillery
@@ -1248,7 +1226,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 9 y = 10}
+		position = { x = 9 y = 8}
 		}
 	
 		category_line_artillery = {
@@ -1277,7 +1255,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 9 y = 14}
+		position = { x = 9 y = 12}
 		}
 	
 		category_line_artillery = {
@@ -1301,7 +1279,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 9 y = 18}
+		position = { x = 9 y = 16}
 		}
 		
 		category_line_artillery = {

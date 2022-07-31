@@ -12,5 +12,212 @@ characters={
 			id=-1
 		}
 	}
-
+	LEH_milar={
+		name="Miłar"
+		portraits=
+		{ civilian = { large="gfx/leaders/LEH/LEH_Milar.dds"
+		small="gfx/interface/ideas/LEH/LEH_milar.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = LEH_min_milar
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = LEH
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	LEH_armil={
+		name="Armil Jaroch"
+		portraits={ 
+			civilian={ 
+				small="gfx/interface/ideas/LEH/LEH_armil.dds" }
+			}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = LEH_min_armil
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = LEH
+			}
+			traits = { }
+		}
+	}
+	
+	LEH_rosmir={
+		name="Rosmir"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/LEH/LEH_rosmir.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = LEH_min_rosmir
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = LEH
+			}
+			traits = { }
+		}
+	}
+	
+	
+	LEH_mamir={
+		name="Mamir"
+		portraits=
+		{ civilian = { large="gfx/leaders/LEH/LEH_Mamir.dds"
+		small="gfx/interface/ideas/LEH/LEH_mamir.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = LEH_min_mamir
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = LEH
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	LEH_kamir={
+		name="Kamir"
+		portraits=
+		{ civilian = { large="gfx/leaders/LEH/LEH_Kamir.dds" }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	
+	LEH_zbyszko={
+		name="Zbyszko"
+		portraits=
+		{ civilian = { large="gfx/leaders/LEH/LEH_Zbyszko.dds" }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	
+	LEH_barmir={
+		name="Barmir"
+		portraits=
+		{ civilian = { large="gfx/leaders/LEH/LEH_Barmir.dds" }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	LEH_bieszk={
+		name="Janusz Bieszk"
+		portraits={
+			civilian={
+				large="gfx/leaders/LCH/LCH_Bieszk1.dds"
+				small="gfx/interface/ideas/LEH/LEH_bieszk.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = LEH_min_bieszk
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = LEH
+			}
+			traits = { }
+		}
+	}
+	
+	LEH_szydłowski={
+		name="Paweł Szydłowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAN/WAN_Szydłowski1.dds"
+				small="gfx/interface/ideas/LEH/LEH_szydlowski.dds"
+			}
+		}
+		country_leader={
+			ideology=squattism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = LEH_min_szydlos
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = LEH
+			}
+			traits = { }
+		}
+	}
+	
+	LEH_jaruha={
+		name="Jaruha"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/LEH/LEH_jaruha.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = LEH_min_jaruha
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = LEH
+			}
+			traits = { }
+		}
+	}
 }

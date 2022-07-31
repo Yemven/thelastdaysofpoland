@@ -51,6 +51,29 @@ if = {
 set_convoys = 20
 
 recruit_character = LCH_janusz_bieszk
+recruit_character = LCH_jaruha
+recruit_character = LCH_vedamir
+
+add_ideas = {
+	LCH_min_jaruha
+	LCH_min_vedamir
+	monoparty
+	absolute_censorship
+	basic_security
+	witch_doctors
+	no_subsidies
+	random_enlistment
+	training_basic
+	officer_random
+	economy_feudalism
+	taxes_medium
+	trade_none
+	lgbt_illegal_tolerated
+	drugs_all_penalised
+	women_traditional_roles
+	minorities_hidden_oppresion
+	state_religion
+}
 
 
 set_politics = {

@@ -223,6 +223,9 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
+		country_event = {
+				id = WML.7 
+				}
 			
 		}
 	}
@@ -491,7 +494,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = WML_rights_of_sexual_minorities
+		id = WML_wizardring_schools
 		relative_position_id = WML_ignacy_moscicki_potions_laboratory
 		prerequisite = { focus = WML_ignacy_moscicki_potions_laboratory }
 		available = {
@@ -513,7 +516,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_witcher_training
-		relative_position_id = WML_rights_of_sexual_minorities
+		relative_position_id = WML_wizardring_schools
 		prerequisite = { focus = WML_wizardring_schools }
 		available = {
 		
