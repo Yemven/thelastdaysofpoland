@@ -498,11 +498,6 @@ technologies = {
 			leads_to_tech = self_propelled_artillery_upgrade
 			research_cost_coeff = 1
 		}
-		allow_branch = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
 		research_cost = 2
 		start_year=2030
 		folder = {
@@ -531,12 +526,6 @@ technologies = {
 		path = {
 			leads_to_tech = self_propelled_artillery2
 			research_cost_coeff = 1
-		}
-		
-		allow_branch = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
 		}
 		
 		self_propelled_artillery_brigade = {
@@ -595,12 +584,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		allow_branch = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
-		
 		folder = {
 		name = artillery_folder
 		position = { x = -6 y = 10}
@@ -654,12 +637,7 @@ technologies = {
 			leads_to_tech = self_propelled_artillery4
 			research_cost_coeff = 1
 		}
-		
-		allow_branch = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
+	
 		
 		self_propelled_artillery_brigade = {
 		soft_attack = 0.05
