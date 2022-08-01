@@ -79,3 +79,48 @@ country_event = {
 		add_ideas = ZYD_mobile_ark
 	}
 }
+
+country_event = {
+	id = zydzew.6 #siedem cudów
+	title = zydzew.6.t
+	desc = zydzew.6.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.6.a
+		add_war_support = 0.15
+	}
+}
+
+country_event = {
+	id = zydzew.7 #zebranie komitetu
+	title = zydzew.7.t
+	desc = zydzew.7.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.7.a
+		add_war_support = 0.15
+	}
+}
+
+country_event = {
+	id = zydzew.8 #ostatni focus z pierwszego drzewka
+	title = zydzew.8.t
+	desc = zydzew.8.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.8.a
+		add_political_power = 50
+		hidden_effect = {
+			load_focus_tree = zydzew_war_focus
+		}
+	}
+}

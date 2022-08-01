@@ -758,7 +758,430 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
-			
+			country_event = {
+			id = zydzew.8
+			}
 		}
 	}
+}
+
+####################################
+
+focus_tree = {
+	id = zydzew_war_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = ZYD
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+
+
+	focus = {
+		id = ZYD_meeting
+		icon = ZYD_meeting
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 6
+		y = 0
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ZYD_sanhedryn
+		icon = ZYD_sanhedryn
+		relative_position_id = ZYD_meeting
+		prerequisite = { focus = ZYD_meeting }
+		mutually_exclusive = { focus = ZYD_rabbi_is_dead }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ZYD_rabbi_is_dead
+		icon = ZYD_rabbi_is_dead
+		relative_position_id = ZYD_meeting
+		prerequisite = { focus = ZYD_meeting }
+		mutually_exclusive = { focus = ZYD_sanhedryn }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ZYD_seven_miracles
+		icon = ZYD_seven_miracles
+		relative_position_id = ZYD_sanhedryn
+		prerequisite = { focus = ZYD_sanhedryn }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			country_event = {
+			id = zydzew.6
+			}
+		}
+	}
+	
+	focus = {
+		id = ZYD_revenge_on_coal
+		icon = ZYD_revenge_on_coal
+		relative_position_id = ZYD_seven_miracles
+		prerequisite = { focus = ZYD_seven_miracles }
+		available = {
+		  NOT = { has_war_with = BBW }
+		}
+		
+		bypass = {
+		  NOT = { country_exists = BBW }
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = BBW
+					type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_challenge_of_strength
+		icon = ZYD_challenge_of_strength
+		relative_position_id = ZYD_revenge_on_coal
+		prerequisite = { focus = ZYD_revenge_on_coal }
+		available = {
+		  NOT = { has_war_with = ZHP }
+		  NOT = { country_exists = BBW }
+		}
+		
+		bypass = {
+			NOT = { country_exists = ZHP }
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = ZHP
+					type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_new_synagogues_and_stadiums
+		icon = ZYD_new_synagogues_and_stadiums
+		relative_position_id = ZYD_challenge_of_strength
+		prerequisite = { focus = ZYD_challenge_of_strength }
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	
+	focus = {
+		id = ZYD_blooming_business
+		icon = ZYD_blooming_business
+		relative_position_id = ZYD_new_synagogues_and_stadiums
+		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
+		mutually_exclusive = { focus = ZYD_last_obstacle }
+		available = {
+		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = KRS
+					type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_last_obstacle
+		icon = ZYD_last_obstacle
+		relative_position_id = ZYD_new_synagogues_and_stadiums
+		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
+		mutually_exclusive = { focus = ZYD_blooming_business }
+		available = {
+		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = SAP
+					type = annex_everything
+				}
+		}
+	}
+	
+	
+	focus = {
+		id = ZYD_central_committee_meeting
+		icon = ZYD_central_committee_meeting
+		relative_position_id = ZYD_rabbi_is_dead
+		prerequisite = { focus = ZYD_rabbi_is_dead }
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			country_event = { 
+				id = zydzew.7
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_miners_liberation
+		icon = ZYD_miners_liberation
+		relative_position_id = ZYD_central_committee_meeting
+		prerequisite = { focus = ZYD_central_committee_meeting }
+		available = {
+			NOT = { has_war_with = BBW }
+		}
+		
+		bypass = {
+			NOT = { country_exists = BBW }
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+				target = BBW 
+				type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_fifth_generation_of_ak
+		icon = ZYD_fifth_generation_of_ak
+		relative_position_id = ZYD_miners_liberation
+		prerequisite = { focus = ZYD_miners_liberation }
+		available = {
+		  NOT = { has_war_with = ZHP }
+		  NOT = { country_exists = BBW }
+		}
+		
+		bypass = {
+			NOT = { country_exists = ZHP }
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = ZHP
+					type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_recruit_collaborators
+		icon = ZYD_recruit_collaborators
+		relative_position_id = ZYD_fifth_generation_of_ak
+		prerequisite = { focus = ZYD_fifth_generation_of_ak }
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	
+	focus = {
+		id = ZYD_rotten_capitalism
+		icon = ZYD_rotten_capitalism
+		relative_position_id = ZYD_recruit_collaborators
+		prerequisite = { focus = ZYD_recruit_collaborators }
+		mutually_exclusive = { focus = ZYD_slavic_reactionism }
+		available = {
+		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = KRS
+					type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_slavic_reactionism
+		icon = ZYD_slavic_reactionism
+		relative_position_id = ZYD_recruit_collaborators
+		prerequisite = { focus = ZYD_recruit_collaborators }
+		mutually_exclusive = { focus = ZYD_rotten_capitalism }
+		available = {
+		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = SAP
+					type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_allija
+		icon = ZYD_allija
+		relative_position_id = ZYD_meeting
+		prerequisite = { focus = ZYD_rotten_capitalism 
+					     focus = ZYD_slavic_reactionism 
+						 focus = ZYD_last_obstacle 
+					     focus = ZYD_blooming_business }						 
+		available = {
+		  NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		  NOT = { country_exists = WML }
+		  577 = { is_controlled_by = ZYD }
+		}
+		
+		x = 0
+		y = 8
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = WML
+					type = annex_everything
+				}
+		}
+	}
+	
 }
