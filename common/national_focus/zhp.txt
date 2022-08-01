@@ -767,8 +767,345 @@ focus_tree = {
 		cost = 10
 		search_filters = {}
 		completion_reward = {
+			hidden_effect = {
+				load_focus_tree = harcerze_war_focus
+			}
+		}
+	}
+}
+
+focus_tree = {
+	id = harcerze_war_focus
 	
+	focus = {
+		id = ZHP_last_touches
+		icon = ZHP_last_touches
+		
+		available = {
+		
+		}
+		
+		bypass = {
+		
+		}
+		x = 3
+		y = 0
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			add_stability = 0.10
+			add_war_support = 0.10
+		}
+	}
+	
+	focus = {
+		id = ZHP_destroy_coal_lords
+		icon = ZHP_destroy_coal_lords
+		relative_position_id = ZHP_last_touches
+		prerequisite = { focus = ZHP_last_touches }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = { country_exists = BBW }
+		}
+		x = 0
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+				target = BBW
+				type = annex_everything
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_spare_the_elder
+		icon = ZHP_spare_the_elder
+		relative_position_id = ZHP_destroy_coal_lords
+		prerequisite = { focus = ZHP_destroy_coal_lords }
+		mutually_exclusive = { focus = ZHP_execute_the_elder }
+		available = {
+			NOT = { country_exists = BBW }
+		}
+		
+		bypass = {
+			#NOT = { country_exists = BBW }
+		}
+		x = -1
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			country_event = {
+				id = zhp.11
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_execute_the_elder
+		icon = ZHP_execute_the_elder
+		relative_position_id = ZHP_destroy_coal_lords
+		prerequisite = { focus = ZHP_destroy_coal_lords }
+		mutually_exclusive = { focus = ZHP_spare_the_elder }
+		available = {
+			NOT = { country_exists = BBW }
+		}
+		
+		bypass = {
+			#NOT = { country_exists = BBW } id do 
+		}
+		x = 1
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			country_event = {
+				id = zhp.12
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_regroup
+		icon = ZHP_regroup
+		relative_position_id = ZHP_spare_the_elder
+		prerequisite = { 
+			focus = ZHP_spare_the_elder
+			focus = ZHP_execute_the_elder
+		}
+		available = {
 			
+		}
+		
+		bypass = {
+			
+		}
+		x = 1
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+	
+	focus = {
+		id = ZHP_KRS_war #nazwa bardziej lore pls
+		icon = ZHP_regroup
+		relative_position_id = ZHP_regroup
+		prerequisite = { 
+			focus = ZHP_regroup
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = { country_exists = KRS }
+		}
+		x = -2
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+				target = KRS
+				type = annex_everything
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_KRS_after_war #nazwa bardziej lore pls
+		icon = ZHP_regroup
+		relative_position_id = ZHP_KRS_war
+		prerequisite = { 
+			focus = ZHP_KRS_war
+		}
+		available = {
+			NOT = { country_exists = KRS }
+		}
+		
+		bypass = {
+			
+		}
+		x = 0
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			country_event = {
+				id = zhp.13
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_WML_war #nazwa bardziej lore pls
+		icon = ZHP_regroup
+		relative_position_id = ZHP_regroup
+		prerequisite = { 
+			focus = ZHP_regroup
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = { country_exists = WML }
+		}
+		x = 0
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+				target = WML
+				type = annex_everything
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_baluty_pilgrimage
+		icon = ZHP_regroup
+		relative_position_id = ZHP_WML_war
+		prerequisite = { 
+			focus = ZHP_WML_war
+		}
+		available = {
+			NOT = { country_exists = WML }
+		}
+		
+		bypass = {
+			
+		}
+		x = 0
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			country_event = {
+				id = zhp.14
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_ZYD_war #nazwa bardziej lore pls
+		icon = ZHP_regroup
+		relative_position_id = ZHP_regroup
+		prerequisite = { 
+			focus = ZHP_regroup
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = { country_exists = ZYD }
+		}
+		x = 2
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+				target = ZYD
+				type = annex_everything
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_ZYD_after_war #nazwa bardziej lore pls
+		icon = ZHP_regroup
+		relative_position_id = ZHP_ZYD_war
+		prerequisite = { 
+			focus = ZHP_ZYD_war
+		}
+		available = {
+			NOT = { country_exists = ZYD }
+		}
+		
+		bypass = {
+			
+		}
+		x = 0
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			country_event = {
+				id = zhp.15
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_takedown_the_fantast
+		icon = ZHP_regroup
+		relative_position_id = ZHP_baluty_pilgrimage
+		prerequisite = { focus = ZHP_KRS_after_war }
+		prerequisite = { focus = ZHP_baluty_pilgrimage }
+		prerequisite = { focus = ZHP_ZYD_after_war }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = { country_exists = SAP }
+		}
+		x = 0
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+				target = SAP
+				type = annex_everything
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_the_cracks_are_showing 
+		icon = ZHP_regroup
+		relative_position_id = ZHP_takedown_the_fantast
+		prerequisite = { focus = ZHP_takedown_the_fantast }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = { country_exists = SAP }
+		}
+		x = 0
+		y = 1
+		cost = 10
+		
+		search_filters = {}
+		completion_reward = {
+			country_event = {
+				id = zhp.16
+			}
 		}
 	}
 }

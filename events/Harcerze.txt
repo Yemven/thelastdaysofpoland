@@ -136,7 +136,7 @@ country_event = {
 }
 
 country_event = {
-	id = zhp.11 #wojna wśród harcerzy; todo: opóźnienie wystrzelenia eventu; podzielenie ZHP
+	id = zhp.11 #ziemkiewicz zyje
 	title = zhp.11.t
 	desc = zhp.11.desc
 
@@ -144,7 +144,72 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = zhp.11.a # idealiści
+		name = zhp.11.a
+	}
+}
+
+country_event = {
+	id = zhp.12 #ziemkiewicz zdycha
+	title = zhp.12.t
+	desc = zhp.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zhp.12.a
+	}
+}
+
+country_event = {
+	id = zhp.13 #KRS rozjebane
+	title = zhp.13.t
+	desc = zhp.13.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zhp.13.a
+	}
+}
+
+country_event = {
+	id = zhp.14 #pielgrzymka na Bałuty
+	title = zhp.14.t
+	desc = zhp.14.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zhp.14.a
+	}
+}
+
+country_event = {
+	id = zhp.15 #ZYD rozjebane
+	title = zhp.15.t
+	desc = zhp.15.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zhp.15.a
+	}
+}
+
+country_event = {
+	id = zhp.16 #wojna wśród harcerzy; todo: opóźnienie wystrzelenia eventu; podzielenie ZHP
+	title = zhp.16.t
+	desc = zhp.16.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zhp.16.a # idealiści
 		trigger = {
 			or = {
 				if = {
@@ -161,7 +226,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = zhp.11.b #konserwatyści
+		name = zhp.16.b #konserwatyści
 		trigger = {
 			or = {
 				if = {
