@@ -8,7 +8,7 @@ state={
 	manpower = 81415 state_category = city
 	buildings_max_level_factor=1.000
 	
-							history={
+	history={
 		owner = KUJ
 		victory_points = {14440 15}
 		victory_points = {14445 10}
@@ -17,11 +17,12 @@ state={
 		victory_points = {14443 3}
 		victory_points = {14442 3}
 
-		}
+
 		buildings = {
 			infrastructure = 7
 
 		}
 		add_core_of = KUJ
+	}
 }
-}
+

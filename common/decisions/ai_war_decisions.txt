@@ -2854,7 +2854,7 @@ ai_war_decisions = {
 			tag = EKS
 			date > 2028.03.01
 			NOT = {
-				KHG = { has_war_with = CYG }
+				KGH = { has_war_with = CYG }
 			}
 		}
 		
@@ -3116,14 +3116,14 @@ ai_war_decisions = {
 			WRO = {
 				end_puppet = MPK
 			}
-			BRE = (
+			BRE = {
 				remove_state_core = 371
 				remove_state_core = 607
 				remove_state_core = 387 
 				remove_state_core = 608
 				remove_state_core = 388
 				remove_state_core = 375
-			)
+			}
 		}
 		cancel_trigger = {
 			RYB = {

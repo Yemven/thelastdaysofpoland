@@ -9,7 +9,6 @@ KSZ_collapse_GAY = {
 		}
 
 		KSZ = {
-			GAY = { transfer_technology = no }
 			leave_faction = yes
 		}
 
@@ -34,10 +33,6 @@ KSZ_collapse_HEL = {
 			add_state_core = 666
 		}
 
-		KSZ = {
-			HEL = { transfer_technology = no }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = HEL }
 			HEL = { transfer_state = PREV }
@@ -55,10 +50,6 @@ KSZ_collapse_CZL = {
 			add_state_core = 81
 			add_state_core = 89
 			add_state_core = 74
-		}
-
-		KSZ = {
-			CZL = { transfer_technology = no }
 		}
 
 		every_owned_state = {
@@ -81,9 +72,6 @@ KSZ_collapse_ARK = {
 			add_state_core = 711
 		}
 
-		KSZ = {
-			ARK = { transfer_technology = no }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = ARK }
@@ -106,7 +94,6 @@ KSZ_collapse_OWS = {
 		}
 
 		KSZ = {
-			OWS = { transfer_technology = no }
 			drop_cosmetic_tag = yes
 		}
 
