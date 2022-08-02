@@ -482,30 +482,6 @@ country_event = {
 				target = POM
 				type = annex_everything
 			}
-			create_unit = {
-				division = "name = \"Vikingasveit 'Fehu'\" division_template = \"Víkingasveitin\""
-				owner = JOM
-				prioritize_location = 17203
-				allow_spawning_on_enemy_provs = yes
-			}
-			create_unit = {
-				division = "name = \"Vikingasveit 'Hagall'\" division_template = \"Víkingasveitin\""
-				owner = JOM
-				prioritize_location = 17209
-				allow_spawning_on_enemy_provs = yes
-			}
-			create_unit = {
-				division = "name = \"Vikingasveit 'Thurs'\" division_template = \"Víkingasveitin\""
-				owner = JOM
-				prioritize_location = 2882
-				allow_spawning_on_enemy_provs = yes
-			}
-			create_unit = {
-				division = "name = \"Vikingasveit 'Sólringen'\" division_template = \"Víkingasveitin\""
-				owner = JOM
-				prioritize_location = 2787
-				allow_spawning_on_enemy_provs = yes
-			}
 		}
 	}
 }
@@ -524,30 +500,6 @@ country_event = {
 			declare_war_on = {
 				target = KOS
 				type = annex_everything
-			}
-			create_unit = {
-				division = "name = \"Tearington National Guard\" division_template = \"National Guard\""
-				owner = USP
-				prioritize_location = 2939
-				allow_spawning_on_enemy_provs = yes
-			}
-			create_unit = {
-				division = "name = \"Slavton National Guard\" division_template = \"National Guard\""
-				owner = USP
-				prioritize_location = 16956
-				allow_spawning_on_enemy_provs = yes
-			}
-			create_unit = {
-				division = "name = \"Basketown National Guard\" division_template = \"National Guard\""
-				owner = USP
-				prioritize_location = 1008
-				allow_spawning_on_enemy_provs = yes
-			}
-			create_unit = {
-				division = "name = \"Backshore National Guard\" division_template = \"National Guard\""
-				owner = USP
-				prioritize_location = 320
-				allow_spawning_on_enemy_provs = yes
 			}
 		}
 	}

@@ -51,26 +51,6 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
-	
-    fleet = {
-        name = "Europäische pommersche Flotte" 
-        naval_base = 3553
-        task_force = {
-            name = "Europäische pommersche Einsatzverband" 
-            location = 3553
-            ship = {
-                name = "EGS Friedenswächter" 
-                pride_of_the_fleet = yes
-                definition = heavy_monitor
-                equipment = { 
-                    heavy_monitor_hull_3_equipment = {
-                        amount = 1
-                        owner = KOS
-                        version_name = "Braunschweig-class"
-                    }
-                }
-            }
-        }
-    }
+
 
 }
