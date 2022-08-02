@@ -31,7 +31,7 @@ focus_tree = {
 		x = 8
 		y = 0
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -52,7 +52,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -73,7 +73,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -94,7 +94,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -115,7 +115,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -136,7 +136,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -157,7 +157,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -178,7 +178,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -199,7 +199,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -220,7 +220,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -242,7 +242,7 @@ focus_tree = {
 		x = 0
 		y = 4
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -264,7 +264,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -286,7 +286,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -310,7 +310,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -331,8 +331,11 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
+		hidden_reward = {
+			load_focus_tree = sapek_war_focus
+		}
 		completion_reward = {
 		}
 	}
@@ -352,7 +355,7 @@ focus_tree = {
 		x = -7
 		y = 2
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -374,7 +377,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -395,7 +398,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -416,7 +419,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -437,7 +440,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -458,7 +461,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -479,7 +482,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -500,7 +503,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -522,7 +525,7 @@ focus_tree = {
 		x = 0
 		y = 5
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -544,7 +547,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -565,7 +568,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -586,7 +589,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -607,7 +610,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -628,7 +631,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -649,7 +652,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -670,7 +673,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -691,7 +694,7 @@ focus_tree = {
 		x = 7
 		y = 2
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -713,7 +716,7 @@ focus_tree = {
 		x = -3
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -734,7 +737,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -755,7 +758,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -777,7 +780,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -798,7 +801,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -819,7 +822,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -840,7 +843,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -861,7 +864,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -882,7 +885,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -904,7 +907,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
@@ -927,9 +930,412 @@ focus_tree = {
 		x = 1
 		y = 2
 		
-		cost = 5
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
 	}
+}	
+	
+############################
+
+focus_tree = {
+	id = sapek_war_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = SAP
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+
+	focus = {
+		id = SAP_voice_of_reason
+		icon = SAP_voice_of_reason
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 30
+		y = 0
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SAP_choose_between_evil
+		icon = SAP_choose_between_evil
+		relative_position_id = SAP_voice_of_reason
+		prerequisite = { focus = SAP_voice_of_reason }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_rather_not_choose
+		icon = SAP_rather_not_choose
+		relative_position_id = SAP_choose_between_evil
+		prerequisite = { focus = SAP_choose_between_evil }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_tridam_ultimatum
+		icon = SAP_tridam_ultimatum
+		relative_position_id = SAP_rather_not_choose
+		prerequisite = { focus = SAP_rather_not_choose }
+		available = {
+		  NOT = {
+			AND = {
+				country_exists = KRS
+				country_exists = BBW
+				country_exists = ZYD
+				country_exists = ZHP
+				}
+			}
+		}
+		
+		bypass = {
+			NOT = { country_exists = WML }
+		}
+		
+		x = 0
+		y = 3
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+			WML = {
+				declare_war_on = {
+				target = SAP
+				type = annex_everything
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = SAP_throne_of_vizima
+		icon = SAP_throne_of_vizima
+		relative_position_id = SAP_tridam_ultimatum
+		prerequisite = { focus = SAP_tridam_ultimatum }
+
+		available = {
+		  302 = { is_controlled_by = SAP }
+		  NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_great_chasm
+		icon = SAP_great_chasm
+		relative_position_id = SAP_tridam_ultimatum
+		prerequisite = { focus = SAP_tridam_ultimatum }
+
+		available = {
+		  302 = { is_controlled_by = SAP }
+		  NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_question_of_price
+		icon = SAP_question_of_price
+		relative_position_id = SAP_tridam_ultimatum
+		prerequisite = { focus = SAP_throne_of_vizima }	
+		prerequisite = { focus = SAP_great_chasm }
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_war_of_daggers
+		icon = SAP_war_of_daggers
+		relative_position_id = SAP_rather_not_choose
+		prerequisite = { focus = SAP_rather_not_choose }
+
+		available = {
+		}
+		
+		bypass = {
+		NOT = { country_exists = KRS }
+		236 = { is_controlled_by = SAP }
+		}
+		
+		x = -3
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = { 
+				target = KRS 
+				type = annex_everything 
+				}
+		}
+	}
+	
+	focus = {
+		id = SAP_ghouls_and_alghouls
+		icon = SAP_ghouls_and_alghouls
+		relative_position_id = SAP_war_of_daggers
+		prerequisite = { focus = SAP_war_of_daggers }
+
+		available = {
+		  236 = { is_controlled_by = SAP }
+		  NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_pesky_landsknechts
+		icon = SAP_pesky_landsknechts
+		relative_position_id = SAP_war_of_daggers
+		prerequisite = { focus = SAP_war_of_daggers }
+
+		available = {
+		  236 = { is_controlled_by = SAP }
+		  NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_seize_mutagen_labs
+		icon = SAP_seize_mutagen_labs
+		relative_position_id = SAP_war_of_daggers
+		prerequisite = { focus = SAP_war_of_daggers }
+
+		available = {
+		  236 = { is_controlled_by = SAP }
+		  NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_southern_campaign
+		icon = SAP_southern_campaign
+		relative_position_id = SAP_rather_not_choose
+		prerequisite = { focus = SAP_rather_not_choose }
+
+		available = {
+			NOT = { country_exists = KRS }
+		count_triggers  = {
+			amount = 1
+			NOT = { country_exists = ZYD }
+			NOT = { country_exists = BBW }
+			NOT = { country_exists = ZHP }
+		    }
+		}
+		
+		bypass = {
+		count_triggers  = {
+			amount = 3
+			NOT = { country_exists = ZYD }
+			NOT = { country_exists = BBW }
+			NOT = { country_exists = ZHP }
+		}
+		
+		}
+		
+		x = 3
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+			if = {
+				limit = { country_exists = ZHP }
+					declare_war_on = {
+						target = ZHP
+						type = annex_everything 
+						}
+					}
+			if = {
+				limit = { country_exists = BBW }
+					declare_war_on = {
+						target = BBW
+						type = annex_everything 
+						}
+					}
+			if = {
+				limit = { country_exists = ZYD }
+					declare_war_on = {
+						target = ZYD
+						type = annex_everything 
+						}
+					}
+		}
+	}
+	
+	focus = {
+		id = SAP_pogrom_at_brugge
+		icon = SAP_pogrom_at_brugge
+		relative_position_id = SAP_southern_campaign
+		prerequisite = { focus = SAP_southern_campaign }
+
+		available = {
+		  353 = { is_controlled_by = SAP }
+		  NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_death_woods_of_velen
+		icon = SAP_death_woods_of_velen
+		relative_position_id = SAP_southern_campaign
+		prerequisite = { focus = SAP_southern_campaign }
+
+		available = {
+		  368 = { is_controlled_by = SAP }
+		  NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SAP_mines_of_mahakam
+		icon = SAP_mines_of_mahakam
+		relative_position_id = SAP_southern_campaign
+		prerequisite = { focus = SAP_southern_campaign }
+
+		available = {
+		  341 = { is_controlled_by = SAP }
+		  NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
 }
