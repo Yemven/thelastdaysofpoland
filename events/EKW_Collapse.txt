@@ -482,6 +482,10 @@ country_event = {
 				target = POM
 				type = annex_everything
 			}
+			country_event = {
+				id = jomsborg.1
+				days = 2
+			}
 		}
 	}
 }
@@ -500,6 +504,10 @@ country_event = {
 			declare_war_on = {
 				target = KOS
 				type = annex_everything
+			}
+			country_event = {
+				id = usp.1
+				days = 2
 			}
 		}
 	}
