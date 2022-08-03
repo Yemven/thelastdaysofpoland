@@ -1,0 +1,63 @@
+﻿add_namespace = ekw
+
+country_event = {
+	id = ekw.1 
+	title = ekw.1.t
+	desc = ekw.1.desc
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = EKW
+		has_war_with = JAS
+		EKW = {
+			surrender_progress > 0.3
+		}
+	}
+
+	option = {
+		ai_chance = { base = 99 }
+		name = ekw.1.a
+		JAS = {
+			country_event = { 
+			id = jaszczur.1
+			days = 1
+			}
+		}
+	}
+	option = {
+		ai_chance = { base = 1 }
+		name = ekw.1.b
+	}
+}
+
+
+country_event = {
+	id = ekw.2 
+	title = ekw.2.t
+	desc = ekw.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ekw.2.a
+		EKW = {
+			white_peace = JAS
+		}
+		82 = {
+			JAS = { transfer_state = PREV }
+		}
+		78 = {
+			JAS = { transfer_state = PREV }
+		}
+		84 = {
+			JAS = { transfer_state = PREV }
+		}
+		98 = {
+			JAS = { transfer_state = PREV }
+		}
+		118 = {
+			JAS = { transfer_state = PREV }
+		}
+	}
+}

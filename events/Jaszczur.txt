@@ -1,0 +1,27 @@
+﻿add_namespace = jaszczur
+
+country_event = {
+	id = jaszczur.1 
+	title = jaszczur.1.t
+	desc = jaszczur.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = jaszczur.1.a
+		ai_chance = { base = 99 }
+		EKW = {
+			country_event = { 
+			id = ekw.2
+			days = 1
+			}
+		}
+	}
+	option = {
+		name = jaszczur.1.b
+		ai_chance = { base = 1 }
+	}
+}
+
+

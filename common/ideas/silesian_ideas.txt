@@ -7,15 +7,16 @@ hidden_ideas = {
 				always = yes
 			}
 			available = { 
-					OR = { tag = FER
-						   tag = RUD 
-						   tag = TRC 
-						   } }
+				original_tag = FER
+				original_tag = RUD 
+				original_tag = TRC 
+			 }
+		  }
 			removal_cost = -1
 			
 			cancel_if_invalid = yes
 			modifier = {
-				surrender_limit = 0.7
+				surrender_limit = 0.3
 			}
 		}
 	}

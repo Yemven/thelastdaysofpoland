@@ -396,11 +396,11 @@ ideas = {
 		
 		golem_army = {
 			
+			allowed = {
+				original_tag = BEX
+			}
 			available = {
 				always = no 
-			}
-			visible = {
-			tag = BEX
 			}
 			
 			cost = 999
