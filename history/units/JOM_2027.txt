@@ -9,7 +9,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Víkingasveitin"
+	name = "Vikingasveitin"
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
 		melee_infantry = { x = 0 y = 1 }
@@ -30,7 +30,7 @@ division_template = {
 
 units = {
     division = {
-		name = "Húskarlar"
+		name = "Huskarlar"
 		location = 4170
 		division_template = "Berserkir"
 		start_experience_factor = 1.0
@@ -46,26 +46,26 @@ units = {
 	}
 	
 	division = {
-		name = "Víkingasveit 'Mjollnir'"
+		name = "Vikingasveit Mjollnir"
 		location = 4170
-		division_template = "Víkingasveitin"
+		division_template = "Vikingasveitin"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "Víkingasveit 'Járngreipr'"
+		name = "Vikingasveit Jarngreipr"
 		location = 4170
-		division_template = "Víkingasveitin"
+		division_template = "Vikingasveitin"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
     fleet = {
-        name = "Stórheiðinnfloti" 
+        name = "Stórheidinnfloti" 
         naval_base = 4170
         task_force = {
-            name = "Innrásarhópur" 
+            name = "Innrasarhópur" 
             location = 4170
             ship = {
                 name = "FJM Karl Marx" 
@@ -82,7 +82,7 @@ units = {
         }
 
         task_force = {
-            name = "Hjálparfloti"
+            name = "Hjalparfloti"
             location = 4170
             ship = {
                 name = "FJM Sleipnir" 

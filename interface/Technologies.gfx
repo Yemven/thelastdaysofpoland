@@ -1,6 +1,22 @@
 spriteTypes = {
 
 	SpriteType = {
+		name = "GFX_legacy_of_warsaw_pact_medium"
+		texturefile = "gfx/interface/technologies/warsaw_pact.dds"
+	}
+	SpriteType = {
+		name = "GFX_people's_army_medium"
+		texturefile = "gfx/interface/technologies/people_army.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tech_cqc_fusion_medium"
+		texturefile = "gfx/interface/technologies/tech_cqc_fusion.dds"
+	}	
+	SpriteType = {
+		name = "GFX_legacy_of_nato_medium"
+		texturefile = "gfx/interface/technologies/nato.dds"
+	}
+	SpriteType = {
 		name = "GFX_light_artillery_medium"
 		texturefile = "gfx/interface/technologies/light_artillery.dds"
 	}
