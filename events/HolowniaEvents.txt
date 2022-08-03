@@ -425,18 +425,53 @@ country_event = {
 	}
 	option = {
 		name = WML.7.c
+		country_event = {
+				id = wml.8
+				}
+		
+	}
+
+}
+country_event = {
+	id = WML.8
+	title = WML.8.t
+	desc = WML.8.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = WML.8.a
 		
 	}
 	option = {
-		name = WML.7.d
+		name = WML.8.b
 		
 	}
 	option = {
-		name = WML.7.e
+		name = WML.8.c
+		country_event = {
+				id = wml.9
+				}
+		}
+}
+country_event = {
+	id = WML.9
+	title = WML.9.t
+	desc = WML.9.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = WML.9.a
 		
 	}
 	option = {
-		name = WML.7.f
+		name = WML.9.b
+		country_event = {
+				id = wml.7
+				}
 		
 	}
 }
