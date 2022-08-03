@@ -358,6 +358,13 @@
  light_artillery_equipment_4_desc: "Mortars from the later periods of the Cold War and the early 2000s, copied or bought from powers that still use them to this day, like the 2B11 or the LM-60 for example."
  light_artillery_equipment_5: "Modern Self-Propelled Mortar"
  light_artillery_equipment_5_desc: "Copies of modern and Cold War-era self-propelled mortars (such as Polish M120 Raks or Soviet Akatsiyas) that still see use in the armies of global great powers."
+#upgrady lekkiej arty
+ light_artillery_upgrade1:0 "Close Fire Support"
+ light_artillery_upgrade1_desc: "Fighting a war is a team effort. If we are to win, we need to ensure that all parts of the machine (as in - all sectors of our army) work in tandem with each other. An all-infantry army will have a hard time defending and pushing the frontline forward, and a mortar crews left by itself won't do too much. Ergo, we have to teach our infantry and artillerymen to synchronize and help each other out, so that they're able to successfully accomplish their goals in the battle."
+ light_artillery_upgrade2:0 "Indirect Fire"
+ light_artillery_upgrade2_desc: "It takes a bit of practice to accurately fire at enemy positions without having a direct line of sight or having to find the right trajectory by trial and error. However, as our mortars become more and more accurate and convienient to use, we start to see the need of teaching our mortar crews the art of indirect fire, in order to fully utilise their weaponry and unleash their true potential."
+ light_artillery_upgrade3:0 "Special Shell Types"
+ light_artillery_upgrade3_desc: "Shrapnel shells, HE shells, phosphorus shells, anti-armor shells, guided and rocket-assisted shells too. \nBecause everyone is special, and deserves to go *boom* in their own, unique way."
 #ciężka arta
  heavy_artillery_equipment:0 "Howitzer"
  heavy_artillery_equipment_desc:0 "Artillery category covering heavy, towed howitzers and guns."
@@ -371,6 +378,13 @@
  heavy_artillery_equipment_4_desc: "Bought, copied or licensed howitzers from the earlier days of the Cold War, still serving in American and various post-Soviet armies. 2A18 D-30s, M198s, D-20s and other such models."
  heavy_artillery_equipment_5: "Modern Howitzer"
  heavy_artillery_equipment_5_desc: "Top notch, late Cold War- and turn of the XXth century-era towed howitzer artillery pieces such as the M198, the M777 or the Msta-B."
+#upgrady ciężkiej arty
+ heavy_artillery_upgrade1:0
+ heavy_artillery_upgrade1_desc:
+ heavy_artillery_upgrade2:0
+ heavy_artillery_upgrade2_desc:
+ heavy_artillery_upgrade3:0
+ heavy_artillery_upgrade3_desc:
 #arta rakietowa
  rocket_artillery_equipment:0 "Rocket Artillery"
  rocket_artillery_equipment_desc:0 "todo"
