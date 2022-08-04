@@ -1,11 +1,404 @@
 ai_war_decisions = {
 
+	zachpom_war_1 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_west_pomerania = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = JAS
+					original_tag = JOM
+					original_tag = SWI
+					original_tag = USP
+					original_tag = EKS
+					original_tag = STE
+				}
+			date > 2028.01.01
+			count_triggers = {
+				amount = 3
+					JAS = { num_of_controlled_states < 1 }
+					JOM = { num_of_controlled_states < 1 }
+					SWI = { num_of_controlled_states < 1 }
+					USP = { num_of_controlled_states < 1 }
+					EKS = { num_of_controlled_states < 1 }
+					STE = { num_of_controlled_states < 1 }	
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = JAS
+								 ROOT = { NOT = { tag = JAS } } }
+				declare_war_on = {
+					target = JAS
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = JOM 
+						 ROOT = { NOT = { tag = JOM } } }
+				declare_war_on = {
+					target = JOM
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = SWI
+								 ROOT = { NOT = { tag = SWI } } }				
+				declare_war_on = {
+					target = SWI
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = USP 
+								 ROOT = { NOT = { tag = USP } } }
+				declare_war_on = {
+					target = USP
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = EKS 
+						 ROOT = { NOT = { tag = EKS } } }
+				declare_war_on = {
+					target = EKS
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = STE 
+								 ROOT = { NOT = { tag = STE } }
+								 }
+				declare_war_on = {
+					target = STE
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	zachpom_war_ekw_ste = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_west_pomerania = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = EKW
+					original_tag = STE
+				}
+			date > 2028.05.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = EKW
+								 ROOT = { NOT = { tag = EKW } } }
+				declare_war_on = {
+					target = EKW
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists =  STE
+						 ROOT = { NOT = { tag = STE } } }
+				declare_war_on = {
+					target = STE
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+
+	zachpom_war_jom_swi = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_west_pomerania = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = JOM
+					original_tag = SWI
+				}
+			date > 2028.05.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 5
+		remove_effect  = {
+				if = { limit = { country_exists = JOM
+								 ROOT = { NOT = { tag = JOM } } }
+				declare_war_on = {
+					target = JOM
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = SWI
+						 ROOT = { NOT = { tag = SWI } } }
+				declare_war_on = {
+					target = SWI
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+
+	zachpom_war_jas_usp = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_west_pomerania = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = JAS
+					original_tag = USP
+				}
+			date > 2028.05.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = JAS
+								 ROOT = { NOT = { tag = JAS } } }
+				declare_war_on = {
+					target = JAS
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = USP 
+						 ROOT = { NOT = { tag = USP } } }
+				declare_war_on = {
+					target = USP
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+
+	opole_nysa_end = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_opolskie = yes
+				}
+
+		available = {
+			OR = {
+				original_tag = OPO
+				original_tag = MNI
+			}
+				date > 2029.12.01
+				count_triggers = {
+					amount = 4
+					OPO = { num_of_controlled_states < 1 }
+					MNI = { num_of_controlled_states < 1 }
+					LCH = { num_of_controlled_states < 1 }
+					LEH = { num_of_controlled_states < 1 }
+					WND = { num_of_controlled_states < 1 }
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		remove_effect  = {
+			annex_country = {
+				target = NYS
+				transfer_troops = yes
+			}
+		}
+	}
+
+	opole_war_3 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_opolskie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = OPO
+					original_tag = MNI
+					original_tag = LEH
+					original_tag = LCH
+					original_tag = WAN
+				}
+			date > 2028.01.01
+			count_triggers = {
+				amount = 3
+					OPO = { num_of_controlled_states < 1 }
+					MNI = { num_of_controlled_states < 1 }
+					LEH = { num_of_controlled_states < 1 }
+					LCH = { num_of_controlled_states < 1 }
+					WAN = { num_of_controlled_states < 1 }
+					NYS = { num_of_controlled_states < 1 }	
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = OPO }
+					OPO = {
+						set_autonomy = {
+							target = NYS
+							autonomous_state = autonomy_supervised_state
+							freedom_level = 0.15 
+						} 
+					}
+				}
+				if = { limit = { country_exists = MNI }
+					MNI = {
+						set_autonomy = {
+							target = NYS
+							autonomous_state = autonomy_supervised_state
+							freedom_level = 0.15 
+						} 
+					}
+				}
+
+				if = { limit = { country_exists = OPO
+								 ROOT = { NOT = { tag = OPO } } }
+				declare_war_on = {
+					target = OPO
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = MNI 
+						 ROOT = { NOT = { tag = MNI } } }
+				declare_war_on = {
+					target = MNI
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = LEH
+								 ROOT = { NOT = { tag = LEH } } }				
+				declare_war_on = {
+					target = LEH
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = LCH 
+								 ROOT = { NOT = { tag = LCH } } }
+				declare_war_on = {
+					target = LCH
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = WAN 
+						 ROOT = { NOT = { tag = WAN } } }
+				declare_war_on = {
+					target = WAN
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = NYS 
+								 ROOT = { NOT = { tag = NYS } }
+								 ROOT = { NOT = { tag = OPO } }
+								 ROOT = { NOT = { tag = MNI } }
+								 }
+				declare_war_on = {
+					target = NYS
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+
+	opole_war_2 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_opolskie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = OPO
+					original_tag = MNI
+				}
+			date > 2028.03.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 11
+		remove_effect  = {	
+				if = { limit = { country_exists = OPO
+								 ROOT = { NOT = { tag = OPO } } }
+				declare_war_on = {
+					target = OPO
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = MNI 
+						 ROOT = { NOT = { tag = MNI } } }
+				declare_war_on = {
+					target = MNI
+					type = annex_everything
+				}
+				}
+		}
+	}
+
 	opole_war_1 = {
 
 		icon = GFX_decision_generic_form_nation
 		
 		allowed = {
-			is_holy_cross = yes
+			is_opolskie = yes
 				}
 
 		available = {
@@ -24,16 +417,7 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 11
-		remove_effect  = {
-			every_country = {
-				limit = {
-					AND = {
-						original_tag = WAN
-						original_tag = LCH
-						original_tag = LEH
-						}
-					}
-				}	
+		remove_effect  = {	
 				if = { limit = { country_exists = WAN
 								 ROOT = { NOT = { tag = WAN } } }
 				declare_war_on = {
@@ -97,20 +481,7 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 30
-		remove_effect  = {
-			every_country = {
-				limit = {
-					AND = {
-						original_tag = STA
-						original_tag = SND
-						original_tag = NRA
-						original_tag = KEL
-						original_tag = STO
-						original_tag = KIE
-						original_tag = NSZ
-						}
-					}
-				}	
+		remove_effect  = {	
 				if = { limit = { country_exists = STA
 								 ROOT = { NOT = { tag = STA } } }
 				declare_war_on = {
@@ -195,17 +566,7 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 21
-		remove_effect  = {
-			every_country = {
-				limit = {
-					AND = {
-						original_tag = STA
-						original_tag = SND
-						original_tag = NRA
-						original_tag = KEL
-						}
-					}
-				}	
+		remove_effect  = {	
 				if = { limit = { country_exists = STA
 								 ROOT = { NOT = { tag = STA } } }
 				declare_war_on = {
@@ -668,17 +1029,7 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 21
-		remove_effect  = {
-			every_country = {
-				limit = {
-					AND = {
-						original_tag = BRZ
-						original_tag = JWK
-						original_tag = ZAW
-						original_tag = CCH
-						}
-					}
-				}	
+		remove_effect  = {	
 				if = { limit = { country_exists = DGR } 
 				declare_war_on = {
 					target = DGR
@@ -735,15 +1086,6 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 21
 		remove_effect  = {
-			every_country = {
-				limit = {
-					AND = {
-						original_tag = JAW
-						original_tag = SOS
-						original_tag = DGR
-						}
-					}
-				}	
 				if = { limit = { country_exists = ZAW } 
 				declare_war_on = {
 					target = ZAW
@@ -811,19 +1153,7 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 21
-		remove_effect  = {
-			every_country = {
-				limit = {
-					AND = {
-						original_tag = RAS
-						original_tag = CHO
-						original_tag = GLI
-						original_tag = FER
-						original_tag = TRC
-						original_tag = RUD
-						}
-					}
-				}	
+		remove_effect  = {	
 				if = { limit = { country_exists = KAT } 
 				declare_war_on = {
 					target = KAT
@@ -889,17 +1219,7 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 21
-		remove_effect  = {
-			every_country = {
-				limit = {
-					AND = {
-						original_tag = WOD
-						original_tag = JSW
-						original_tag = KAT
-						original_tag = ASG
-						}
-					}
-				}	
+		remove_effect  = {	
 				if = { limit = { country_exists = GLI } 
 				declare_war_on = {
 					target = GLI
@@ -3787,19 +4107,7 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 14
-		remove_effect  = {
-			every_country = {
-				limit = {
-					OR = {
-						original_tag = EKS
-						original_tag = KGH
-						original_tag = CYG
-						original_tag = WRO
-						original_tag = CZE
-						original_tag = RYB
-						}
-					}
-				}	
+		remove_effect  = {	
 				if = { limit = { country_exists = EKS } 
 				declare_war_on = {
 					target = EKS

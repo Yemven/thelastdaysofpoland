@@ -755,9 +755,6 @@ country_event = {
 	fire_only_once = yes
 	trigger = { 
 		original_tag = STA
-		PRK = {
-		has_country_flag = holy_cross_revolt_strong
-		}
 		date > 2027.12.20
 	}
 
@@ -790,9 +787,6 @@ country_event = {
 	fire_only_once = yes
 	trigger = { 
 		original_tag = SND
-		PRK = {
-		has_country_flag = holy_cross_revolt_strong
-		}
 		date > 2027.12.20
 	}
 
@@ -825,9 +819,6 @@ country_event = {
 	fire_only_once = yes
 	trigger = { 
 		original_tag = UMN
-		PRK = {
-		has_country_flag = holy_cross_revolt_strong
-		}
 		date > 2027.10.20
 	}
 

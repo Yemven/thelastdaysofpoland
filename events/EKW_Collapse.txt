@@ -529,6 +529,22 @@ country_event = {
 		name = ekwrozpad.15.a
 		STE = {
 			drop_cosmetic_tag = yes 
+			set_politics = {
+				ruling_party = corporativism
+				}
+			set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 0
+			euroliberalism = 20
+			freemarketism = 15
+			paternal_conservatism = 0
+			autocracy = 0
+			corporativism = 65
+			neonationalism = 0
+			reactionary = 0
+			postpolonism = 0
+			}
 			}
 	}
 }
