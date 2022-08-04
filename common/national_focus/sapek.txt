@@ -4,14 +4,14 @@
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 
 focus_tree = {
-	id = sapek_intro_focus
+	id = zydzew_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add =10
-			tag = SAP
+			tag = ZYD
 		}
 	}
 	default = no
@@ -19,8 +19,8 @@ focus_tree = {
 	continuous_focus_position = {x = 50 y = 1500 }
 	
 	focus = {
-		id = SAP_the_last_wish
-		icon = SAP_the_last_wish
+		id = ZYD_genesis
+		icon = ZYD_genesis
 		available = {
 		
 		}
@@ -32,16 +32,18 @@ focus_tree = {
 		y = 0
 		
 		cost = 1
-		search_filters = {}
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			country_event = {
+				id = zydzew.1 }
 		}
 	}
 	
 	focus = {
-		id = SAP_herolds_and_counts
-		icon = SAP_herolds_and_counts
-		relative_position_id = SAP_the_last_wish
-		prerequisite = { focus = SAP_the_last_wish }
+		id = ZYD_exodus
+		icon = ZYD_exodus
+		relative_position_id = ZYD_genesis
+		prerequisite = { focus = ZYD_genesis }
 		available = {
 		
 		}
@@ -53,16 +55,18 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {}
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			country_event = {
+				id = zydzew.2 }
 		}
 	}
 	
 	focus = {
-		id = SAP_temerian_dream_shattered
-		icon = SAP_temerian_dream_shattered
-		relative_position_id = SAP_herolds_and_counts
-		prerequisite = { focus = SAP_herolds_and_counts }
+		id = ZYD_leviticus
+		icon = ZYD_leviticus
+		relative_position_id = ZYD_exodus
+		prerequisite = { focus = ZYD_exodus }
 		available = {
 		
 		}
@@ -74,16 +78,18 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {}
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			country_event = {
+				id = zydzew.3 }
 		}
 	}
 	
 	focus = {
-		id = SAP_attack_on_kaer_nevitz
-		icon = SAP_attack_on_kaer_nevitz
-		relative_position_id = SAP_temerian_dream_shattered
-		prerequisite = { focus = SAP_temerian_dream_shattered }
+		id = ZYD_numbers
+		icon = ZYD_numbers
+		relative_position_id = ZYD_leviticus
+		prerequisite = { focus = ZYD_leviticus }
 		available = {
 		
 		}
@@ -92,19 +98,67 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 2
+		y = 1
 		
-		cost = 0.2
-		search_filters = {}
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			country_event = {
+				id = zydzew.4 }
 		}
 	}
-
+	
 	focus = {
-		id = SAP_put_out_fires
-		icon = SAP_put_out_fires
-		relative_position_id = SAP_attack_on_kaer_nevitz
-		prerequisite = { focus = SAP_attack_on_kaer_nevitz }
+		id = ZYD_deuteronomy
+		icon = ZYD_deuteronomy
+		relative_position_id = ZYD_numbers
+		prerequisite = { focus = ZYD_numbers }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			country_event = {
+				id = zydzew.5 }
+		}
+	}
+	
+	focus = {
+		id = ZYD_warriors_overview
+		icon = ZYD_warriors
+		relative_position_id = ZYD_deuteronomy
+		prerequisite = { focus = ZYD_deuteronomy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_eleven_felash
+		icon = ZYD_11_falashas
+		relative_position_id = ZYD_warriors_overview
+		prerequisite = { focus = ZYD_warriors_overview }
+		mutually_exclusive = { focus = ZYD_eleven_sons_of_labour }
 		available = {
 		
 		}
@@ -115,17 +169,19 @@ focus_tree = {
 		x = -1
 		y = 1
 		
-		cost = 1
-		search_filters = {}
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			
 		}
 	}
 	
 	focus = {
-		id = SAP_status_report
-		icon = SAP_status_report
-		relative_position_id = SAP_attack_on_kaer_nevitz
-		prerequisite = { focus = SAP_attack_on_kaer_nevitz }
+		id = ZYD_eleven_sons_of_labour
+		icon = ZYD_11_sons
+		relative_position_id = ZYD_warriors_overview
+		prerequisite = { focus = ZYD_warriors_overview }
+		mutually_exclusive = { focus = ZYD_eleven_felash }
 		available = {
 		
 		}
@@ -136,17 +192,63 @@ focus_tree = {
 		x = 1
 		y = 1
 		
-		cost = 1
-		search_filters = {}
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			
 		}
 	}
 	
 	focus = {
-		id = SAP_issue_manhunt
-		icon = SAP_issue_manhunt
-		relative_position_id = SAP_put_out_fires
-		prerequisite = { focus = SAP_put_out_fires }
+		id = ZYD_pitches_of_prayer
+		icon = ZYD_pitches_of_prayer
+		relative_position_id = ZYD_eleven_felash
+		prerequisite = { focus = ZYD_eleven_sons_of_labour 
+						 focus = ZYD_eleven_felash }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 4
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_constant_brawls
+		icon = ZYD_constant_brawls
+		relative_position_id = ZYD_deuteronomy
+		prerequisite = { focus = ZYD_deuteronomy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_mutual_destruction
+		icon = ZYD_mutual_destruction
+		relative_position_id = ZYD_constant_brawls
+		prerequisite = { focus = ZYD_constant_brawls }
 		available = {
 		
 		}
@@ -157,17 +259,109 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
-		search_filters = {}
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			
 		}
 	}
 	
 	focus = {
-		id = SAP_trail_vanishes
-		icon = SAP_trail_vanishes
-		relative_position_id = SAP_issue_manhunt
-		prerequisite = { focus = SAP_issue_manhunt }
+		id = ZYD_the_decalogue_upgrade
+		icon = ZYD_improve_decalogue
+		relative_position_id = ZYD_mutual_destruction
+		prerequisite = { focus = ZYD_mutual_destruction }
+		mutually_exclusive = { focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes
+		icon = ZYD_decrease_autonomy
+		relative_position_id = ZYD_mutual_destruction
+		prerequisite = { focus = ZYD_mutual_destruction }
+		mutually_exclusive = { focus = ZYD_the_decalogue_upgrade }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_alcohol_rationing
+		icon = ZYD_alcohol
+		relative_position_id = ZYD_the_decalogue_upgrade
+		prerequisite = { focus = ZYD_the_decalogue_upgrade 
+						 focus = ZYD_limitation_of_the_autonomy_of_the_twelve_tribes }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_communal_and_robbery_economy
+		icon = ZYD_robbery_economy
+		relative_position_id = ZYD_deuteronomy
+		prerequisite = { focus = ZYD_deuteronomy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_wrath_of_the_losers
+		icon = ZYD_wrath_of_the_losers
+		relative_position_id = ZYD_communal_and_robbery_economy
+		prerequisite = { focus = ZYD_communal_and_robbery_economy }
 		available = {
 		
 		}
@@ -178,17 +372,19 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
-		search_filters = {}
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			
 		}
 	}
 	
 	focus = {
-		id = SAP_refilling_supplies
-		icon = SAP_refilling_supplies
-		relative_position_id = SAP_status_report
-		prerequisite = { focus = SAP_status_report }
+		id = ZYD_the_kibbutz_reform
+		icon = ZYD_the_kibbutz_reform
+		relative_position_id = ZYD_wrath_of_the_losers
+		prerequisite = { focus = ZYD_wrath_of_the_losers }
+		mutually_exclusive = { focus = ZYD_sending_widzewiaks_to_factories }
 		available = {
 		
 		}
@@ -196,20 +392,22 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = -1
 		y = 1
 		
-		cost = 1
-		search_filters = {}
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			
 		}
 	}
 	
 	focus = {
-		id = SAP_convene_chapter
-		icon = SAP_convene_chapter
-		relative_position_id = SAP_refilling_supplies
-		prerequisite = { focus = SAP_refilling_supplies }
+		id = ZYD_sending_widzewiaks_to_factories
+		icon = ZYD_send_widzewiaks
+		relative_position_id = ZYD_wrath_of_the_losers
+		prerequisite = { focus = ZYD_wrath_of_the_losers }
+		mutually_exclusive = { focus = ZYD_the_kibbutz_reform }
 		available = {
 		
 		}
@@ -217,21 +415,46 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = 1
 		y = 1
 		
-		cost = 1
-		search_filters = {}
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			
 		}
 	}
 	
 	focus = {
-		id = SAP_who_is_to_blame
-		icon = SAP_who_is_to_blame
-		relative_position_id = SAP_attack_on_kaer_nevitz
-		prerequisite = { focus = SAP_trail_vanishes }
-		prerequisite = { focus = SAP_convene_chapter }
+		id = ZYD_usury_as_an_alternative_to_robbery
+		icon = ZYD_usury_as_an_alternative_to_robbery
+		relative_position_id = ZYD_the_kibbutz_reform
+		prerequisite = { focus = ZYD_sending_widzewiaks_to_factories 
+						 focus = ZYD_the_kibbutz_reform }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_discuss_of_the_high_command
+		icon = ZYD_question_of_leadership
+		relative_position_id = ZYD_warriors_overview
+		prerequisite = { focus = ZYD_usury_as_an_alternative_to_robbery }
+		prerequisite = { focus = ZYD_alcohol_rationing }
+		prerequisite = { focus = ZYD_pitches_of_prayer }
 		available = {
 		
 		}
@@ -242,18 +465,19 @@ focus_tree = {
 		x = 0
 		y = 4
 		
-		cost = 2
-		search_filters = {}
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			
 		}
 	}
 	
 	focus = {
-		id = SAP_blame_scoiatael
-		icon = SAP_blame_scoiatael
-		relative_position_id = SAP_who_is_to_blame
-		prerequisite = { focus = SAP_who_is_to_blame }
-		mutually_exclusive = { focus = SAP_blame_order }
+		id = ZYD_rabbis_as_commanders
+		icon = ZYD_rabbis_as_commanders
+		relative_position_id = ZYD_discuss_of_the_high_command
+		prerequisite = { focus = ZYD_discuss_of_the_high_command }
+		mutually_exclusive = { focus = ZYD_good_old_comrades }
 		available = {
 		
 		}
@@ -264,18 +488,19 @@ focus_tree = {
 		x = -1
 		y = 1
 		
-		cost = 1
-		search_filters = {}
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			
 		}
 	}
 	
 	focus = {
-		id = SAP_blame_order
-		icon = SAP_blame_order
-		relative_position_id = SAP_who_is_to_blame
-		prerequisite = { focus = SAP_who_is_to_blame }
-		mutually_exclusive = { focus = SAP_blame_scoiatael }
+		id = ZYD_good_old_comrades
+		icon = ZYD_good_old_comrades
+		relative_position_id = ZYD_discuss_of_the_high_command
+		prerequisite = { focus = ZYD_discuss_of_the_high_command }
+		mutually_exclusive = { focus = ZYD_rabbis_as_commanders }
 		available = {
 		
 		}
@@ -286,20 +511,18 @@ focus_tree = {
 		x = 1
 		y = 1
 		
-		cost = 1
-		search_filters = {}
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			
 		}
 	}
 	
 	focus = {
-		id = SAP_blame_neighbours
-		icon = SAP_blame_neighbours
-		relative_position_id = SAP_who_is_to_blame
-		prerequisite = { focus = SAP_blame_scoiatael
-						 focus =  SAP_blame_order }
-		prerequisite = { focus = SAP_ducal_mint }
-		prerequisite = { focus = SAP_of_monsters_and_men }
+		id = ZYD_sanctioning_the_kibbutz_cult_of_strength
+		icon = ZYD_sanctioning_the_kibbutz_cult_of_strength
+		relative_position_id = ZYD_rabbis_as_commanders
+		prerequisite = { focus = ZYD_rabbis_as_commanders }
 		available = {
 		
 		}
@@ -307,20 +530,21 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
-		y = 2
+		x = -1
+		y = 1
 		
 		cost = 2
-		search_filters = {}
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			
 		}
 	}
 	
 	focus = {
-		id = SAP_envoy_to_krosniewice
-		icon = SAP_envoy_to_krosniewice
-		relative_position_id = SAP_blame_neighbours
-		prerequisite = { focus = SAP_blame_neighbours }
+		id = ZYD_davids_army
+		icon = ZYD_davids_army
+		relative_position_id = ZYD_sanctioning_the_kibbutz_cult_of_strength
+		prerequisite = { focus = ZYD_sanctioning_the_kibbutz_cult_of_strength }
 		available = {
 		
 		}
@@ -331,633 +555,237 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
-		search_filters = {}
-			
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
-			hidden_effect = {
-				load_focus_tree = sapek_war_focus
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_recreation_of_wzw
+		icon = ZYD_recreation_of_wzw
+		relative_position_id = ZYD_good_old_comrades
+		prerequisite = { focus = ZYD_good_old_comrades }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			create_intelligence_agency = yes
+		}
+	}
+	
+	focus = {
+		id = ZYD_restoration_of_discipline
+		icon = ZYD_restoration_of_discipline
+		relative_position_id = ZYD_recreation_of_wzw
+		prerequisite = { focus = ZYD_recreation_of_wzw }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_sharpening_the_old_sticks
+		icon = ZYD_sharpening_the_old_sticks
+		relative_position_id = ZYD_rabbis_as_commanders
+		prerequisite = { focus = ZYD_davids_army 
+						 focus = ZYD_restoration_of_discipline }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 3
+		
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ZYD_pacyfication_of_the_lks_remnants
+		icon = ZYD_destroy_lks
+		relative_position_id = ZYD_sharpening_the_old_sticks
+		prerequisite = { focus = ZYD_sharpening_the_old_sticks }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ZYD_forced_converions
+		icon = ZYD_forced_converions
+		relative_position_id = ZYD_pacyfication_of_the_lks_remnants
+		prerequisite = { focus = ZYD_pacyfication_of_the_lks_remnants }
+		mutually_exclusive = { focus = ZYD_forced_labor }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_forced_labor
+		icon = ZYD_forced_labor
+		relative_position_id = ZYD_pacyfication_of_the_lks_remnants
+		prerequisite = { focus = ZYD_pacyfication_of_the_lks_remnants }
+		mutually_exclusive = { focus = ZYD_forced_converions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_taking_the_dogs_off_the_leash
+		icon = ZYD_taking_the_dogs_off_the_leash
+		relative_position_id = ZYD_forced_converions
+		prerequisite = { focus = ZYD_forced_converions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_zomo_action
+		icon = ZYD_zomo_action
+		relative_position_id = ZYD_forced_labor
+		prerequisite = { focus = ZYD_forced_labor }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = ZYD_rts_is_a_power
+		icon = ZYD_rts_is_powerful
+		relative_position_id = ZYD_zomo_action
+		prerequisite = { focus = ZYD_zomo_action 
+						 focus = ZYD_taking_the_dogs_off_the_leash }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+			country_event = {
+			id = zydzew.8
 			}
 		}
 	}
-	
-	focus = {
-		id = SAP_toss_a_coin
-		icon = SAP_toss_a_coin
-		relative_position_id = SAP_temerian_dream_shattered
-		prerequisite = { focus = SAP_temerian_dream_shattered }
-		available = {
-		has_completed_focus = SAP_convene_chapter 
-		}
-		
-		bypass = {
-		}
-		
-		x = -7
-		y = 2
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_to_your_prince
-		icon = SAP_to_your_prince
-		relative_position_id = SAP_toss_a_coin
-		prerequisite = { focus = SAP_toss_a_coin }
-		mutually_exclusive = { focus = SAP_to_your_witcher }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -1
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_land_for_the_feudals
-		icon = SAP_land_for_the_feudals
-		relative_position_id = SAP_to_your_prince
-		prerequisite = { focus = SAP_to_your_prince }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_stronghold_for_order
-		icon = SAP_stronghold_for_order
-		relative_position_id = SAP_land_for_the_feudals
-		prerequisite = { focus = SAP_land_for_the_feudals }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -2
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_crack_down_on_merchant_unions
-		icon = SAP_crack_down_on_merchant_unions
-		relative_position_id = SAP_land_for_the_feudals
-		prerequisite = { focus = SAP_land_for_the_feudals }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_production_control
-		icon = SAP_production_control
-		relative_position_id = SAP_crack_down_on_merchant_unions
-		prerequisite = { focus = SAP_crack_down_on_merchant_unions }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -2
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
+}
 
-	focus = {
-		id = SAP_status_dependent_taxes
-		icon = SAP_status_dependent_taxes
-		relative_position_id = SAP_crack_down_on_merchant_unions
-		prerequisite = { focus = SAP_crack_down_on_merchant_unions }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_exemption_from_taxes
-		icon = SAP_exemption_from_taxes
-		relative_position_id = SAP_status_dependent_taxes
-		prerequisite = { focus = SAP_status_dependent_taxes }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -2
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_ducal_mint
-		icon = SAP_ducal_mint
-		relative_position_id = SAP_toss_a_coin
-		prerequisite = { focus = SAP_status_dependent_taxes 
-						 focus = SAP_equal_taxes }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 5
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_to_your_witcher
-		icon = SAP_to_your_witcher
-		relative_position_id = SAP_toss_a_coin
-		prerequisite = { focus = SAP_toss_a_coin }
-		mutually_exclusive = { focus = SAP_to_your_prince }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 1
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_fair_right_to_land
-		icon = SAP_fair_right_to_land
-		relative_position_id = SAP_to_your_witcher
-		prerequisite = { focus = SAP_to_your_witcher }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_land_for_princely_warriors
-		icon = SAP_land_for_princely_warriors
-		relative_position_id = SAP_fair_right_to_land
-		prerequisite = { focus = SAP_fair_right_to_land }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 2
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_free_enterprise
-		icon = SAP_free_enterprise
-		relative_position_id = SAP_fair_right_to_land
-		prerequisite = { focus = SAP_fair_right_to_land }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_free_hand_for_guilds
-		icon = SAP_free_hand_for_guilds
-		relative_position_id = SAP_free_enterprise
-		prerequisite = { focus = SAP_free_enterprise }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 2
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_equal_taxes
-		icon = SAP_equal_taxes
-		relative_position_id = SAP_free_enterprise
-		prerequisite = { focus = SAP_free_enterprise }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_priviliges_for_peasants
-		icon = SAP_priviliges_for_peasants
-		relative_position_id = SAP_equal_taxes
-		prerequisite = { focus = SAP_equal_taxes }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 2
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_poor_fucking_infantry
-		icon = SAP_poor_fucking_infantry
-		relative_position_id = SAP_temerian_dream_shattered
-		prerequisite = { focus = SAP_temerian_dream_shattered }
-		available = {
-		has_completed_focus = SAP_trail_vanishes
-		}
-		
-		bypass = {
-		}
-		
-		x = 7
-		y = 2
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_temeria_finest
-		icon = SAP_temeria_finest
-		relative_position_id = SAP_poor_fucking_infantry
-		prerequisite = { focus = SAP_poor_fucking_infantry }
-		mutually_exclusive = { focus = SAP_scoiatael_legions }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -3
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_army_of_faithful
-		icon = SAP_army_of_faithful
-		relative_position_id = SAP_temeria_finest
-		prerequisite = { focus = SAP_temeria_finest }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_order_of_white_rose
-		icon = SAP_order_of_white_rose
-		relative_position_id = SAP_army_of_faithful
-		prerequisite = { focus = SAP_army_of_faithful }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_scoiatael_legions
-		icon = SAP_scoiatael_legions
-		relative_position_id = SAP_poor_fucking_infantry
-		prerequisite = { focus = SAP_poor_fucking_infantry }
-		mutually_exclusive = { focus = SAP_temeria_finest }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -1
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_commando_of_oppressed
-		icon = SAP_commando_of_oppressed
-		relative_position_id = SAP_scoiatael_legions
-		prerequisite = { focus = SAP_scoiatael_legions }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_vrihedd_brigade
-		icon = SAP_vrihedd_brigade
-		relative_position_id = SAP_commando_of_oppressed
-		prerequisite = { focus = SAP_commando_of_oppressed }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_establish_order_of_witchers
-		icon = SAP_establish_order_of_witchers
-		relative_position_id = SAP_poor_fucking_infantry
-		prerequisite = { focus = SAP_poor_fucking_infantry }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 3
-		y = 1
-		
-		cost = 1
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_question_of_origin
-		icon = SAP_question_of_origin
-		relative_position_id = SAP_establish_order_of_witchers
-		prerequisite = { focus = SAP_establish_order_of_witchers }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -1
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_question_of_witcher_trials
-		icon = SAP_question_of_witcher_trials
-		relative_position_id = SAP_establish_order_of_witchers
-		prerequisite = { focus = SAP_establish_order_of_witchers }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 1
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_school_of_the_wolf
-		icon = SAP_school_of_the_wolf
-		relative_position_id = SAP_establish_order_of_witchers
-		prerequisite = { focus = SAP_question_of_origin }
-		prerequisite = { focus = SAP_question_of_witcher_trials }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 2
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_of_monsters_and_men
-		icon = SAP_of_monsters_and_men
-		relative_position_id = SAP_vrihedd_brigade
-		prerequisite = { focus = SAP_vrihedd_brigade
-						 focus = SAP_order_of_white_rose }
-		prerequisite = { focus = SAP_school_of_the_wolf }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 1
-		y = 2
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-}	
-	
-############################
+####################################
 
 focus_tree = {
-	id = sapek_war_focus
+	id = zydzew_war_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add =10
-			tag = SAP
+			tag = ZYD
 		}
 	}
 	default = no
 	
 	continuous_focus_position = {x = 50 y = 1500 }
 
+
 	focus = {
-		id = SAP_voice_of_reason
-		icon = SAP_voice_of_reason
+		id = ZYD_meeting
+		icon = ZYD_meeting
 		available = {
 		
 		}
@@ -965,7 +793,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 30
+		x = 6
 		y = 0
 		
 		cost = 1
@@ -973,11 +801,56 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	
 	focus = {
-		id = SAP_choose_between_evil
-		icon = SAP_choose_between_evil
-		relative_position_id = SAP_voice_of_reason
-		prerequisite = { focus = SAP_voice_of_reason }
+		id = ZYD_sanhedryn
+		icon = ZYD_sanhedryn
+		relative_position_id = ZYD_meeting
+		prerequisite = { focus = ZYD_meeting }
+		mutually_exclusive = { focus = ZYD_rabbi_is_dead }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ZYD_rabbi_is_dead
+		icon = ZYD_rabbi_is_dead
+		relative_position_id = ZYD_meeting
+		prerequisite = { focus = ZYD_meeting }
+		mutually_exclusive = { focus = ZYD_sanhedryn }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ZYD_seven_miracles
+		icon = ZYD_seven_miracles
+		relative_position_id = ZYD_sanhedryn
+		prerequisite = { focus = ZYD_sanhedryn }
 		available = {
 		
 		}
@@ -988,77 +861,98 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 2
 		search_filters = {}
 		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_rather_not_choose
-		icon = SAP_rather_not_choose
-		relative_position_id = SAP_choose_between_evil
-		prerequisite = { focus = SAP_choose_between_evil }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 1
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_tridam_ultimatum
-		icon = SAP_tridam_ultimatum
-		relative_position_id = SAP_rather_not_choose
-		prerequisite = { focus = SAP_rather_not_choose }
-		available = {
-		  NOT = {
-			AND = {
-				country_exists = KRS
-				country_exists = BBW
-				country_exists = ZYD
-				country_exists = ZHP
-				}
+			country_event = {
+			id = zydzew.6
 			}
 		}
+	}
+	
+	focus = {
+		id = ZYD_revenge_on_coal
+		icon = ZYD_revenge_on_coal
+		relative_position_id = ZYD_seven_miracles
+		prerequisite = { focus = ZYD_seven_miracles }
+		available = {
+		  NOT = { has_war_with = BBW }
+		}
 		
 		bypass = {
-			NOT = { country_exists = WML }
+		  NOT = { country_exists = BBW }
 		}
 		
 		x = 0
-		y = 3
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = BBW
+					type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_challenge_of_strength
+		icon = ZYD_challenge_of_strength
+		relative_position_id = ZYD_revenge_on_coal
+		prerequisite = { focus = ZYD_revenge_on_coal }
+		available = {
+		  NOT = { has_war_with = ZHP }
+		  NOT = { country_exists = BBW }
+		}
+		
+		bypass = {
+			NOT = { country_exists = ZHP }
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = ZHP
+					type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_new_synagogues_and_stadiums
+		icon = ZYD_new_synagogues_and_stadiums
+		relative_position_id = ZYD_challenge_of_strength
+		prerequisite = { focus = ZYD_challenge_of_strength }
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
 		
 		cost = 3
 		search_filters = {}
 		completion_reward = {
-			WML = {
-				declare_war_on = {
-				target = SAP
-				type = annex_everything
-				}
-			}
+			add_stability = 0.1
 		}
 	}
 	
 	focus = {
-		id = SAP_throne_of_vizima
-		icon = SAP_throne_of_vizima
-		relative_position_id = SAP_tridam_ultimatum
-		prerequisite = { focus = SAP_tridam_ultimatum }
-
+		id = ZYD_blooming_business
+		icon = ZYD_blooming_business
+		relative_position_id = ZYD_new_synagogues_and_stadiums
+		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
 		available = {
-		  302 = { is_controlled_by = SAP }
 		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
 		}
 		
 		bypass = {
@@ -1067,21 +961,25 @@ focus_tree = {
 		x = -1
 		y = 1
 		
-		cost = 3
+		cost = 2
 		search_filters = {}
 		completion_reward = {
+			declare_war_on = {
+					target = KRS
+					type = annex_everything
+				}
 		}
 	}
 	
 	focus = {
-		id = SAP_great_chasm
-		icon = SAP_great_chasm
-		relative_position_id = SAP_tridam_ultimatum
-		prerequisite = { focus = SAP_tridam_ultimatum }
-
+		id = ZYD_last_obstacle
+		icon = ZYD_last_obstacle
+		relative_position_id = ZYD_new_synagogues_and_stadiums
+		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
 		available = {
-		  302 = { is_controlled_by = SAP }
 		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
 		}
 		
 		bypass = {
@@ -1090,19 +988,22 @@ focus_tree = {
 		x = 1
 		y = 1
 		
-		cost = 3
+		cost = 2
 		search_filters = {}
 		completion_reward = {
+			declare_war_on = {
+					target = SAP
+					type = annex_everything
+				}
 		}
 	}
 	
+	
 	focus = {
-		id = SAP_question_of_price
-		icon = SAP_question_of_price
-		relative_position_id = SAP_tridam_ultimatum
-		prerequisite = { focus = SAP_throne_of_vizima }	
-		prerequisite = { focus = SAP_great_chasm }
-
+		id = ZYD_central_committee_meeting
+		icon = ZYD_central_committee_meeting
+		relative_position_id = ZYD_rabbi_is_dead
+		prerequisite = { focus = ZYD_rabbi_is_dead }
 		available = {
 		}
 		
@@ -1110,175 +1011,76 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 2
-		
-		cost = 1
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_war_of_daggers
-		icon = SAP_war_of_daggers
-		relative_position_id = SAP_rather_not_choose
-		prerequisite = { focus = SAP_rather_not_choose }
-
-		available = {
-		}
-		
-		bypass = {
-		NOT = { country_exists = KRS }
-		236 = { is_controlled_by = SAP }
-		}
-		
-		x = -3
 		y = 1
 		
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			declare_war_on = { 
-				target = KRS 
-				type = annex_everything 
+			country_event = { 
+				id = zydzew.7
 				}
 		}
 	}
 	
 	focus = {
-		id = SAP_ghouls_and_alghouls
-		icon = SAP_ghouls_and_alghouls
-		relative_position_id = SAP_war_of_daggers
-		prerequisite = { focus = SAP_war_of_daggers }
-
+		id = ZYD_miners_liberation
+		icon = ZYD_miners_liberation
+		relative_position_id = ZYD_central_committee_meeting
+		prerequisite = { focus = ZYD_central_committee_meeting }
 		available = {
-		  236 = { is_controlled_by = SAP }
-		  NOT = { has_war = yes }
+			NOT = { has_war_with = BBW }
 		}
 		
 		bypass = {
+			NOT = { country_exists = BBW }
 		}
 		
 		x = 0
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_pesky_landsknechts
-		icon = SAP_pesky_landsknechts
-		relative_position_id = SAP_war_of_daggers
-		prerequisite = { focus = SAP_war_of_daggers }
-
-		available = {
-		  236 = { is_controlled_by = SAP }
-		  NOT = { has_war = yes }
-		}
-		
-		bypass = {
-		}
-		
-		x = -2
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_seize_mutagen_labs
-		icon = SAP_seize_mutagen_labs
-		relative_position_id = SAP_war_of_daggers
-		prerequisite = { focus = SAP_war_of_daggers }
-
-		available = {
-		  236 = { is_controlled_by = SAP }
-		  NOT = { has_war = yes }
-		}
-		
-		bypass = {
-		}
-		
-		x = 2
-		y = 1
-		
-		cost = 3
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = SAP_southern_campaign
-		icon = SAP_southern_campaign
-		relative_position_id = SAP_rather_not_choose
-		prerequisite = { focus = SAP_rather_not_choose }
-
-		available = {
-			NOT = { country_exists = KRS }
-		count_triggers  = {
-			amount = 1
-			NOT = { country_exists = ZYD }
-			NOT = { country_exists = BBW }
-			NOT = { country_exists = ZHP }
-		    }
-		}
-		
-		bypass = {
-		count_triggers  = {
-			amount = 3
-			NOT = { country_exists = ZYD }
-			NOT = { country_exists = BBW }
-			NOT = { country_exists = ZHP }
-		}
-		
-		}
-		
-		x = 3
 		y = 1
 		
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			if = {
-				limit = { country_exists = ZHP }
-					declare_war_on = {
-						target = ZHP
-						type = annex_everything 
-						}
-					}
-			if = {
-				limit = { country_exists = BBW }
-					declare_war_on = {
-						target = BBW
-						type = annex_everything 
-						}
-					}
-			if = {
-				limit = { country_exists = ZYD }
-					declare_war_on = {
-						target = ZYD
-						type = annex_everything 
-						}
-					}
+			declare_war_on = {
+				target = BBW 
+				type = annex_everything
+				}
 		}
 	}
 	
 	focus = {
-		id = SAP_pogrom_at_brugge
-		icon = SAP_pogrom_at_brugge
-		relative_position_id = SAP_southern_campaign
-		prerequisite = { focus = SAP_southern_campaign }
-
+		id = ZYD_fifth_generation_of_ak
+		icon = ZYD_fifth_generation_of_ak
+		relative_position_id = ZYD_miners_liberation
+		prerequisite = { focus = ZYD_miners_liberation }
 		available = {
-		  353 = { is_controlled_by = SAP }
-		  NOT = { has_war = yes }
+		  NOT = { has_war_with = ZHP }
+		  NOT = { country_exists = BBW }
+		}
+		
+		bypass = {
+			NOT = { country_exists = ZHP }
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = ZHP
+					type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_recruit_collaborators
+		icon = ZYD_recruit_collaborators
+		relative_position_id = ZYD_fifth_generation_of_ak
+		prerequisite = { focus = ZYD_fifth_generation_of_ak }
+		available = {
 		}
 		
 		bypass = {
@@ -1287,56 +1089,95 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 3
+		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_stability = 0.1
 		}
 	}
 	
 	focus = {
-		id = SAP_death_woods_of_velen
-		icon = SAP_death_woods_of_velen
-		relative_position_id = SAP_southern_campaign
-		prerequisite = { focus = SAP_southern_campaign }
-
+		id = ZYD_rotten_capitalism
+		icon = ZYD_rotten_capitalism
+		relative_position_id = ZYD_recruit_collaborators
+		prerequisite = { focus = ZYD_recruit_collaborators }
 		available = {
-		  368 = { is_controlled_by = SAP }
 		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
 		}
 		
 		bypass = {
 		}
 		
-		x = -2
+		x = -1
 		y = 1
 		
-		cost = 3
+		cost = 2
 		search_filters = {}
 		completion_reward = {
+			declare_war_on = {
+					target = KRS
+					type = annex_everything
+				}
 		}
 	}
 	
 	focus = {
-		id = SAP_mines_of_mahakam
-		icon = SAP_mines_of_mahakam
-		relative_position_id = SAP_southern_campaign
-		prerequisite = { focus = SAP_southern_campaign }
-
+		id = ZYD_slavic_reactionism
+		icon = ZYD_slavic_reactionism
+		relative_position_id = ZYD_recruit_collaborators
+		prerequisite = { focus = ZYD_recruit_collaborators }
 		available = {
-		  341 = { is_controlled_by = SAP }
 		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
 		}
 		
 		bypass = {
 		}
 		
-		x = 2
+		x = 1
 		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+					target = SAP
+					type = annex_everything
+				}
+		}
+	}
+	
+	focus = {
+		id = ZYD_allija
+		icon = ZYD_allija
+		relative_position_id = ZYD_meeting
+		prerequisite = { focus = ZYD_rotten_capitalism 
+					     focus = ZYD_slavic_reactionism 
+						 focus = ZYD_last_obstacle 
+					     focus = ZYD_blooming_business }						 
+		available = {
+		  NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		  NOT = { country_exists = WML }
+		  577 = { is_controlled_by = ZYD }
+		}
+		
+		x = 0
+		y = 8
 		
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			declare_war_on = {
+					target = WML
+					type = annex_everything
+				}
 		}
 	}
-
+	
 }
