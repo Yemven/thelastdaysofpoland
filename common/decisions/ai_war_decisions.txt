@@ -1,5 +1,62 @@
 ai_war_decisions = {
 
+###AI_TEST_AID###
+
+	ai_test_aid = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_poland_unifier = yes
+				}
+				
+		available = {
+		  OR = {
+			AND = {
+				has_war = yes 
+				is_ai = yes
+				NOT = {
+					OR = {
+						original_tag = BBW
+						original_tag = ZHP
+						original_tag = SAP
+						original_tag = WML
+						original_tag = KRS
+						original_tag = ZYD
+						original_tag = PRK
+						}
+					}
+			}
+			if = { limit = { date > 2028.03.01 }
+					original_tag = SND
+					original_tag = STA
+					original_tag = EKW
+					original_tag = EKS
+				}
+			}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 7
+		remove_effect  = {
+			load_oob = "AI_AID"
+			235 = { 
+				teleport_armies = {
+					limit = {
+						has_war = yes
+					}
+					to_state_array = owned_controlled_states
+				}
+			}
+		}
+	}
+
+
 ###TATRY###
 
 	tatry3_war = {

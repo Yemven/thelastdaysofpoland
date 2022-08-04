@@ -1,0 +1,70 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Milicja"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Kibole"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "1 Batalion Piechoty"
+		location = 4171
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "1 Batalion Milicji"
+		location = 4171
+		division_template = "Milicja"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "2 Batalion Milicji"
+		location = 4171
+		division_template = "Milicja"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Hooligans 01"
+		location = 4171
+		division_template = "Kibole"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Hooligans 02"
+		location = 4171
+		division_template = "Kibole"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}
