@@ -379,12 +379,13 @@
  heavy_artillery_equipment_5: "Modern Howitzer"
  heavy_artillery_equipment_5_desc: "Top notch, late Cold War- and turn of the XXth century-era towed howitzer artillery pieces such as the M198, the M777 or the Msta-B."
 #upgrady ciężkiej arty
- heavy_artillery_upgrade1:0
- heavy_artillery_upgrade1_desc:
- heavy_artillery_upgrade2:0
- heavy_artillery_upgrade2_desc:
- heavy_artillery_upgrade3:0
- heavy_artillery_upgrade3_desc:
+ heavy_artillery_upgrade1:0 "Accurate Fire"
+ heavy_artillery_upgrade1_desc: "Shooting blindly and watching how random things in front of you get torn apart is fun. At least until you accidentally blow up a friendly unit. That's why, despite the rudimentary nature of our artillery, we should teach our artillerymen how to conduct more precise fire and how to assemble cannons according to guidelines, so that they more-or-less resemble specific models."
+ heavy_artillery_upgrade2:0 "Partial Standardization"
+ heavy_artillery_upgrade2_desc: "To make mass production and in-the-field usage of ammunition easier, we should at least partially standardize our artillery pieces, either by producing copies of a few specific models, or by adapting different artillery pieces to the same callibers."
+ heavy_artillery_upgrade3:0 "Cannon-Launched Guided Projectiles"
+ heavy_artillery_upgrade3_short:0 "CLGPs"
+ heavy_artillery_upgrade3_desc: "Cannon-launched guided projectiles, or CLGPs for short, are munitions that utilize geocoordinates-based systems to correct their trajectory in order to land closer to or directly onto the target. Unless you somehow fuck up aiming the short *twice*.
 #arta rakietowa
  rocket_artillery_equipment:0 "Rocket Artillery"
  rocket_artillery_equipment_desc:0 "todo"
@@ -398,6 +399,13 @@
  rocket_artillery_equipment_4_desc:0 "todo"
  rocket_artillery_equipment_5:0 "Modern MRLS"
  rocket_artillery_equipment_5_desc:0 "todo"
+#arta rakietowa upgrade'y
+ rocket_artillery_upgrade1:0
+ rocket_artillery_upgrade1_desc:0
+ rocket_artillery_upgrade2:0
+ rocket_artillery_upgrade2_desc:0
+ rocket_artillery_upgrade3:0
+ rocket_artillery_upgrade3_desc:0
 #AA
  anti_air_equipment:0 "Anti Air Equipment"
  anti_air_equipment_desc:0 "todo"
@@ -410,6 +418,13 @@
  anti_air_equipment_3_desc:1 "todo"
  anti_air_equipment_4:0 "Modern SAM"
  anti_air_equipment_4_desc:0 "todo"
+#aaapgrejdy
+ anti_air_upgrade1:0
+ anti_air_upgrade1_desc:0
+ anti_air_upgrade2:0
+ anti_air_upgrade2_desc:0
+ anti_air_upgrade3:0
+ anti_air_upgrade3_desc:0
 #SELF PROPELLEDY ŻYJĄ
  self_propelled_artillery:0 "Self Propelled Artillery"
  self_propelled_artillery_desc:0 "todo"
@@ -429,6 +444,13 @@
  self_propelled_artillery_equipment_4: "Modern Self-Propelled Guns"
  self_propelled_artillery_equipment_4_short: "Modern SPGs"
  self_propelled_artillery_equipment_4_desc: "todo"
+#upgrady samobieżne
+ self_propelled_artillery_upgrade1:0
+ self_propelled_artillery_upgrade1_desc:0
+ self_propelled_artillery_upgrade2:0
+ self_propelled_artillery_upgrade2_desc:0
+ self_propelled_artillery_upgrade3:0
+ self_propelled_artillery_upgrade3_desc:0
 #ł00dki
  #kayak_equipment: "Kayak"
  #kayak_equipment_desc: "Found rowing dinghies, kayaks and inflatable pontoons (the same kind your dad used for fishing)."
