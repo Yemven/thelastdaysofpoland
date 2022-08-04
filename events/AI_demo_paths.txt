@@ -747,4 +747,96 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = aievent.18 #star
+	title = aievent.18.t
+	desc = aievent.18.desc
+
+	fire_only_once = yes
+	trigger = { 
+		original_tag = STA
+		date > 2027.12.20
+	}
+
+	option = {
+		name = aievent.18.a
+		set_politics = {
+			ruling_party = squattism
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 58
+			socialdemocrature = 0
+			euroliberalism = 0
+			freemarketism = 0
+			paternal_conservatism = 0
+			autocracy = 22
+			corporativism = 20
+			neonationalism = 0
+			reactionary = 0
+			postpolonism = 0
+		}
+	}
+}
+
+country_event = {
+	id = aievent.19 #donmateo
+	title = aievent.19.t
+	desc = aievent.19.desc
+
+	fire_only_once = yes
+	trigger = { 
+		original_tag = SND
+		date > 2027.12.20
+	}
+
+	option = {
+		name = aievent.19.a
+		set_politics = {
+			ruling_party = socialdemocrature
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 78
+			euroliberalism = 22
+			freemarketism = 0
+			paternal_conservatism = 0
+			autocracy = 0
+			corporativism = 0
+			neonationalism = 0
+			reactionary = 0
+			postpolonism = 0
+		}
+	}
+}
+
+country_event = {
+	id = aievent.20 #bochnia
+	title = aievent.20.t
+	desc = aievent.20.desc
+
+	fire_only_once = yes
+	trigger = { 
+		original_tag = UMN
+		date > 2027.10.20
+	}
+
+	option = {
+		name = aievent.20.a
+		UMN = {
+			declare_war_on = { 
+				target = BOH
+				type = annex_everything 
+				}
+			}
+		TRN = {
+			declare_war_on = { 
+				target = BOH
+				type = annex_everything 
+				}
+			}
+	}
+}
+
 	

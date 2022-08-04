@@ -722,7 +722,7 @@ focus_tree = {
 			if = {
 			limit = { any_controlled_state = { is_core_of = ZHP } }
 			every_controlled_state = {
-				limit = { any_controlled_state = { is_core_of = ZHP } }
+				limit = { is_core_of = ZHP }
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -863,7 +863,7 @@ focus_tree = {
 				days = 360
 			}
 			every_controlled_state = {
-				limit = { any_controlled_state = { is_core_of = WML } }
+				limit = { is_core_of = WML }
 				add_building_construction = {
 					type = infrastructure
 					level = -1

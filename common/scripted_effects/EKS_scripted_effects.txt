@@ -778,22 +778,16 @@ EKS_collapse_MPK = {
 			add_state_core = 376
 		}
 		
+		608 = {
+			MPK = { transfer_state = PREV }
+		}
+		
 		WRO = {
 			set_autonomy = {
 			target = MPK
 			autonomous_state = autonomy_supervised_state
 			freedom_level = 0.25 
 			}
-		}
-
-
-		every_owned_state = {
-			limit = {
-					OR = {
-						add_state_core = 608
-					}
-				}
-			MPK = { transfer_state = PREV }
 		}
 
 		MPK = {

@@ -333,10 +333,11 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = {}
-		hidden_reward = {
-			load_focus_tree = sapek_war_focus
-		}
+			
 		completion_reward = {
+			hidden_effect = {
+				load_focus_tree = sapek_war_focus
+			}
 		}
 	}
 	
@@ -1020,18 +1021,16 @@ focus_tree = {
 		relative_position_id = SAP_rather_not_choose
 		prerequisite = { focus = SAP_rather_not_choose }
 		available = {
-		  NOT = {
-			AND = {
-				country_exists = KRS
-				country_exists = BBW
-				country_exists = ZYD
-				country_exists = ZHP
-				}
+			count_triggers = {
+				amount = 3
+				ZYD = { num_of_controlled_states < 1 }
+				BBW = { num_of_controlled_states < 1 }
+				ZHP = { num_of_controlled_states < 1 }
 			}
 		}
 		
 		bypass = {
-			NOT = { country_exists = WML }
+			WML = { num_of_controlled_states < 1 }
 		}
 		
 		x = 0
@@ -1127,7 +1126,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-		NOT = { country_exists = KRS }
+		KRS = { num_of_controlled_states < 1 }
 		236 = { is_controlled_by = SAP }
 		}
 		
@@ -1220,21 +1219,21 @@ focus_tree = {
 		prerequisite = { focus = SAP_rather_not_choose }
 
 		available = {
-			NOT = { country_exists = KRS }
+			KRS = { num_of_controlled_states < 1 }
 		count_triggers  = {
 			amount = 1
-			NOT = { country_exists = ZYD }
-			NOT = { country_exists = BBW }
-			NOT = { country_exists = ZHP }
+			ZYD = { num_of_controlled_states < 1 }
+			BBW = { num_of_controlled_states < 1 }
+			ZHP = { num_of_controlled_states < 1 }
 		    }
 		}
 		
 		bypass = {
 		count_triggers  = {
 			amount = 3
-			NOT = { country_exists = ZYD }
-			NOT = { country_exists = BBW }
-			NOT = { country_exists = ZHP }
+			ZYD = { num_of_controlled_states < 1 }
+			BBW = { num_of_controlled_states < 1 }
+			ZHP = { num_of_controlled_states < 1 }
 		}
 		
 		}

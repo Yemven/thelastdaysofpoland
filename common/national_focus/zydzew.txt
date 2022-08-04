@@ -949,7 +949,6 @@ focus_tree = {
 		icon = ZYD_blooming_business
 		relative_position_id = ZYD_new_synagogues_and_stadiums
 		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
-		mutually_exclusive = { focus = ZYD_last_obstacle }
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -977,7 +976,6 @@ focus_tree = {
 		icon = ZYD_last_obstacle
 		relative_position_id = ZYD_new_synagogues_and_stadiums
 		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
-		mutually_exclusive = { focus = ZYD_blooming_business }
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -1103,7 +1101,6 @@ focus_tree = {
 		icon = ZYD_rotten_capitalism
 		relative_position_id = ZYD_recruit_collaborators
 		prerequisite = { focus = ZYD_recruit_collaborators }
-		mutually_exclusive = { focus = ZYD_slavic_reactionism }
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -1131,7 +1128,6 @@ focus_tree = {
 		icon = ZYD_slavic_reactionism
 		relative_position_id = ZYD_recruit_collaborators
 		prerequisite = { focus = ZYD_recruit_collaborators }
-		mutually_exclusive = { focus = ZYD_rotten_capitalism }
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }

@@ -1,0 +1,70 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Milicja"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Kibole"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "1 Batalion Pomocniczy"
+		location = 4171
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "2 Batalion Pomocniczy"
+		location = 4171
+		division_template = "Milicja"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "3 Batalion Pomocniczy"
+		location = 4171
+		division_template = "Milicja"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "4 Batalion Pomocniczy"
+		location = 4171
+		division_template = "Kibole"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5 Batalion Pomocniczy"
+		location = 4171
+		division_template = "Kibole"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}
