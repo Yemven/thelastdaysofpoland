@@ -746,6 +746,9 @@ ai_war_decisions = {
 		available = {
 				has_war = yes 
 				is_ai = yes
+				all_enemy_country = {
+					is_ai = yes
+					}
 				NOT = {
 					OR = {
 						original_tag = BBW
