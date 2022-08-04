@@ -1,6 +1,319 @@
 ai_war_decisions = {
 
-###AI_TEST_AID###
+	kielce_war_3 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_holy_cross = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = STA
+					original_tag = SND
+					original_tag = NRA
+					original_tag = KEL
+					original_tag = STO
+					original_tag = NSZ
+					original_tag = KIE
+				}
+			date > 2028.01.01
+			count_triggers = {
+				amount = 4
+					STA = { num_of_controlled_states < 1 }
+					SND = { num_of_controlled_states < 1 }
+					NRA = { num_of_controlled_states < 1 }
+					KEL = { num_of_controlled_states < 1 }
+					STO = { num_of_controlled_states < 1 }
+					KIE = { num_of_controlled_states < 1 }
+					NSZ = { num_of_controlled_states < 1 }	
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			every_country = {
+				limit = {
+					AND = {
+						original_tag = STA
+						original_tag = SND
+						original_tag = NRA
+						original_tag = KEL
+						original_tag = STO
+						original_tag = KIE
+						original_tag = NSZ
+						}
+					}
+				}	
+				if = { limit = { country_exists = STA
+								 ROOT = { NOT = { tag = STA } } }
+				declare_war_on = {
+					target = STA
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = SND 
+						 ROOT = { NOT = { tag = SND } } }
+				declare_war_on = {
+					target = SND
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = NRA
+								 ROOT = { NOT = { tag = NRA } } }				
+				declare_war_on = {
+					target = NRA
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = KEL 
+								 ROOT = { NOT = { tag = KEL } } }
+				declare_war_on = {
+					target = KEL
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = STO 
+						 ROOT = { NOT = { tag = STO } } }
+				declare_war_on = {
+					target = STO
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = KIE
+								 ROOT = { NOT = { tag = KIE } } }				
+				declare_war_on = {
+					target = KIE
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = NSZ 
+								 ROOT = { NOT = { tag = NSZ } } }
+				declare_war_on = {
+					target = NSZ
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	kielce_war_2 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_holy_cross = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = STA
+					original_tag = SND
+					original_tag = NRA
+					original_tag = KEL
+				}
+			date > 2028.01.01
+			count_triggers = {
+				amount = 2
+					STA = { num_of_controlled_states < 1 }
+					SND = { num_of_controlled_states < 1 }
+					NRA = { num_of_controlled_states < 1 }
+					KEL = { num_of_controlled_states < 1 }
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 21
+		remove_effect  = {
+			every_country = {
+				limit = {
+					AND = {
+						original_tag = STA
+						original_tag = SND
+						original_tag = NRA
+						original_tag = KEL
+						}
+					}
+				}	
+				if = { limit = { country_exists = STA
+								 ROOT = { NOT = { tag = STA } } }
+				declare_war_on = {
+					target = STA
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = SND 
+						 ROOT = { NOT = { tag = SND } } }
+				declare_war_on = {
+					target = SND
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = NRA
+								 ROOT = { NOT = { tag = NRA } } }				
+				declare_war_on = {
+					target = NRA
+					type = annex_everything
+				}
+				}
+				else_if = { limit = { country_exists = KEL 
+								 ROOT = { NOT = { tag = KEL } } }
+				declare_war_on = {
+					target = KEL
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+
+	kielce_war_1 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_holy_cross = yes
+			}
+
+		available = {
+				OR = {
+					original_tag = NSZ
+					original_tag = STO
+				}
+				date > 2028.01.01
+				count_triggers = {
+				amount = 1
+					NSZ = { num_of_controlled_states < 1 }
+					STO = { num_of_controlled_states < 1 }
+				}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 21
+		remove_effect  = {	
+				declare_war_on = {
+					target = KIE
+					type = annex_everything
+				}
+		}
+	}
+
+	holy_cross_stonoga_nacjo_war = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_holy_cross = yes
+				}
+
+		available = {
+				original_tag = NSZ
+				date > 2028.03.21
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 5
+		war_with_on_remove = STO
+		remove_effect  = {
+			declare_war_on = {
+					target = STO
+					type = annex_everything
+				}
+		}
+	}
+	
+	holy_cross_waffen_nra_war = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_holy_cross = yes
+				}
+
+		available = {
+				original_tag = KEL
+				date > 2028.03.18
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 5
+		war_with_on_remove = NRA
+		remove_effect  = {
+			declare_war_on = {
+					target = NRA
+					type = annex_everything
+				}
+		}
+	}
+	
+	holy_cross_star_sand_war = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_holy_cross = yes
+				}
+
+		available = {
+			OR = {	
+				original_tag = SND
+				original_tag = STA
+			}
+				date > 2028.03.10
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 5
+		remove_effect  = {
+			if = { limit = { country_exists = STA
+							 ROOT = { NOT = { tag = STA } } } 
+				declare_war_on = {
+					target = STA
+					type = annex_everything
+				}
+				}
+			else_if = { limit = { country_exists = SND 
+							ROOT = { NOT = { tag = SND } } } 
+				declare_war_on = {
+					target = SND
+					type = annex_everything
+				}
+				}
+		}
+	}
+
 
 	ai_test_aid = {
 
@@ -11,8 +324,6 @@ ai_war_decisions = {
 				}
 				
 		available = {
-		  OR = {
-			AND = {
 				has_war = yes 
 				is_ai = yes
 				NOT = {
@@ -24,16 +335,10 @@ ai_war_decisions = {
 						original_tag = KRS
 						original_tag = ZYD
 						original_tag = PRK
+						original_tag = EKW
+						original_tag = EKS
 						}
 					}
-			}
-			if = { limit = { date > 2028.03.01 }
-					original_tag = SND
-					original_tag = STA
-					original_tag = EKW
-					original_tag = EKS
-				}
-			}
 		}
 
 		cost = 1
@@ -42,7 +347,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 7
+		days_remove = 1
 		remove_effect  = {
 			load_oob = "AI_AID"
 			235 = { 
@@ -57,7 +362,6 @@ ai_war_decisions = {
 	}
 
 
-###TATRY###
 
 	tatry3_war = {
 
