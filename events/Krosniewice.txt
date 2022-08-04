@@ -35,12 +35,14 @@ country_event = {
 	desc = krosniewice.2.desc
 	
 	trigger = {
-    tag = KRS
-    has_war = yes
-		NOT = {
-		has_idea = KRS_war_profiteering1
-		has_idea = KRS_war_profiteering2
-		has_idea = KRS_war_profiteering3
+		AND = {
+			original_tag = KRS
+			has_war = yes
+				NOT = {
+					has_idea = KRS_war_profiteering1
+					has_idea = KRS_war_profiteering2
+					has_idea = KRS_war_profiteering3
+				}
 		}
 	}
 

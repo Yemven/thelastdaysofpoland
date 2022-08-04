@@ -34,7 +34,7 @@ weapon_dealer = {
 	visible_when_empty = yes
 	available = {
 		num_of_civilian_factories > 1
-		melee_weapons > 500
+		melee_equipment > 500
 	}
 }
 

@@ -5,15 +5,11 @@ generic_decisions_eurolib_category = {
 	pro_federalist_propaganda = {
 	
 		visible = {
-		ROOT = {
 			has_government = euroliberalism 
-			}
 		}
 	
 		allowed = {
-		ROOT = {
 				has_government = euroliberalism 
-			}
 		}
 		
 		modifier = {	
@@ -40,15 +36,11 @@ generic_decisions_eurolib_category = {
 	increase_bureaucracy = {
 	
 		visible = {
-		ROOT = {
 			has_government = euroliberalism 
-			}
 		}
 	
 		allowed = {
-		ROOT = {
-				has_government = euroliberalism 
-			}
+			has_government = euroliberalism 
 		}
 		
 		modifier = {	
@@ -56,7 +48,7 @@ generic_decisions_eurolib_category = {
 			political_power_gain = 0.25
 		}
 		
-		cost = 50
+		cost = 250
 		days_re_enable = 35
 		days_remove = 35
 		complete_effect = {
@@ -75,15 +67,11 @@ generic_decisions_eurolib_category = {
 	implement_harsher_gun_laws = {
 	
 		visible = {
-		ROOT = {
 			has_government = euroliberalism 
-			}
 		}
 	
 		allowed = {
-		ROOT = {
 				has_government = euroliberalism 
-			}
 		}
 		
 		modifier = {	
@@ -133,8 +121,8 @@ generic_decisions_eurolib_category = {
 weapon_dealer = {
 	sell_ranged = {
 		days_remove = 5
+		cost = 95
 		complete_effect = {
-			cost = 95
 			send_equipment = {
 				equipment = ranged_equipment
 				amount = 250
@@ -144,18 +132,18 @@ weapon_dealer = {
 	
 	}
 
-	sell_antitank = {
+	sell_melee = {
 		days_remove = 5
+		cost = 95
 		complete_effect = {
-			cost = 95
 			send_equipment = {
-				equipment = inf_anti_tank_equipment
-				amount = 50
+				equipment = melee_equipment
+				amount = 250
 				target = TSB
 			}
 		}
-	
 	}
+	
 	buy_german_ranged = {
 		days_remove = 5
 		cost = 95
@@ -170,7 +158,8 @@ weapon_dealer = {
 			}
 		}
 	}
-	buy_austrian_ranged = {
+
+	buy_radom_ranged = {
 		days_remove = 5
 		cost = 95
 		modifier = {
@@ -180,10 +169,11 @@ weapon_dealer = {
 		add_equipment_to_stockpile = {
     				type = ranged_equipment
     				amount = 250
-    				producer = AUT
+    				producer = RAD
 			}
 		}
 	}
+
 	buy_swedish_ranged = {
 		days_remove = 5
 		cost = 95
@@ -227,7 +217,7 @@ weapon_dealer = {
 			}
 		}
 	}
-	buy_german_antitank = {
+	buy_german_melee = {
 		days_remove = 5
 		cost = 95
 		modifier = {
@@ -235,14 +225,14 @@ weapon_dealer = {
         	}
 		complete_effect = {
 			add_equipment_to_stockpile = {
-    				type = inf_anti_tank_equipment
-    				amount = 50
+    				type = melee_equipment
+    				amount = 250
     				producer = GER
 			}
 		}
 	}
 
-	buy_austrian_antitank = {
+	buy_radom_melee = {
 		days_remove = 5
 		cost = 95
 		modifier = {
@@ -250,13 +240,13 @@ weapon_dealer = {
         	}
 		complete_effect = {
 			add_equipment_to_stockpile = {
-    				type = inf_anti_tank_equipment
-    				amount = 50
-    				producer = AUT
+    				type = melee_equipment
+    				amount = 250
+    				producer = RAD
 			}
 		}
 	}
-	buy_swedish_antitank = {
+	buy_swedish_melee = {
 		days_remove = 5
 		cost = 95
 		modifier = {
@@ -264,13 +254,13 @@ weapon_dealer = {
         	}
 		complete_effect = {
 			add_equipment_to_stockpile = {
-    				type = inf_anti_tank_equipment
-    				amount = 50
+    				type = melee_equipment
+    				amount = 250
     				producer = SWE
 			}
 		}
 	}
-	buy_ukrainian_antitank = {
+	buy_ukrainian_melee = {
 		days_remove = 5
 		cost = 95
 		modifier = {
@@ -278,13 +268,13 @@ weapon_dealer = {
         	}
 		complete_effect = {
 			add_equipment_to_stockpile = {
-    				type = inf_anti_tank_equipment
-    				amount = 50
+    				type = melee_equipment
+    				amount = 250
     				producer = UKR
 			}
 		}
 	}
-	buy_russian_antitank = {
+	buy_russian_melee = {
 		days_remove = 5
 		cost = 95
 		modifier = {
@@ -292,8 +282,8 @@ weapon_dealer = {
         	}
 		complete_effect = {
 			add_equipment_to_stockpile = {
-    				type = inf_anti_tank_equipment
-    				amount = 50
+    				type = melee_equipment
+    				amount = 250
     				producer = RUS
 			}
 		}

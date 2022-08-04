@@ -4,10 +4,9 @@ DGR_lore_category = {
 
 		icon = GFX_decision_generic_form_nation
 
-		allowed = {
+		allowed = { 
 			tag = DGR
-			PRK = { has_country_flag = ziobro_start_war_lose }
-		}
+			PRK = { has_country_flag = ziobro_start_war_lose } }
 
 		cost = 10
 

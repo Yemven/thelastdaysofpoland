@@ -11,7 +11,6 @@ EKW_collapse_POM = {
 		}
 
 		EKW = {
-			POM = { transfer_technology = yes }
 			leave_faction = yes
 		}
 
@@ -40,9 +39,6 @@ EKW_collapse_KOS = {
 			add_state_core = 623	
 		}
 
-		EKW = {
-			KOS = { transfer_technology = yes }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = KOS }
@@ -90,9 +86,7 @@ EKW_collapse_WRT = {
 			add_state_core = 102
 			add_state_core = 135
 		}
-		EKW = {
-			WRT = { transfer_technology = yes }
-		}
+
 
 		every_owned_state = {
 			limit = { is_core_of = WRT }
@@ -129,10 +123,6 @@ EKW_collapse_KAM = {
 			add_state_core = 209
 		}
 
-		EKW = {
-			KAM = { transfer_technology = yes }
-		}
-
 		every_owned_state = {
 			limit = { is_core_of = KAM }
 			KAM = { transfer_state = PREV }
@@ -162,9 +152,6 @@ EKW_collapse_STE = {
 			add_state_core = 54
 		}
 
-		EKW = {
-			STE = { transfer_technology = yes }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = STE }
@@ -187,9 +174,6 @@ EKW_collapse_JAS = {
 			add_state_core = 82
 		}
 
-		EKW = {
-			JAS = { transfer_technology = no }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = JAS }
@@ -221,9 +205,6 @@ EKW_collapse_NAC = {
 			add_state_core = 244
 		}
 
-		WRT = {
-			NAC = { transfer_technology = no }
-		}
 
 		every_owned_state = {
 			limit = { is_core_of = NAC }
@@ -266,7 +247,6 @@ EKW_collapse_MOT = {
 			add_state_core = 208
 		}
 		KAM = {
-			MOT = { transfer_technology = no }
 			drop_cosmetic_tag = yes
 		}
 
@@ -295,9 +275,7 @@ EKW_collapse_SYJ = {
 			add_state_core = 584
 			add_state_core = 583
 		}
-		WRT = {
-			SYJ = { transfer_technology = no }
-		}
+
 
 		every_owned_state = {
 			limit = { is_core_of = SYJ }
@@ -324,7 +302,6 @@ EKW_collapse_PIL = {
 			add_state_core = 102
 		}
 		WRT = {
-			PIL = { transfer_technology = no }
 			drop_cosmetic_tag = yes
 		}
 
@@ -351,9 +328,7 @@ EKW_collapse_SWI = {
 			add_state_core = 619
 			add_state_core = 54
 		}
-		STE = {
-			SWI = { transfer_technology = no }
-		}
+
 
 		every_owned_state = {
 			limit = { is_core_of = SWI }

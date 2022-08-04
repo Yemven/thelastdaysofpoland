@@ -13,7 +13,6 @@ country_event = {
 		name = okamura.1.a
 		drop_cosmetic_tag = yes
 			hidden_effect = {
-				load_focus_tree = siogun_intro_focus
 				load_oob = "CZE_2027"
 					set_party_name = { 
 						ideology = reactionary
@@ -33,5 +32,4 @@ country_event = {
 				}
 
 			}	
-	}
 }
