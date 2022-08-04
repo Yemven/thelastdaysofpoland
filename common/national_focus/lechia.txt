@@ -1,0 +1,45 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = lechia_intro_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = LEH
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 2000 }
+	
+	focus = {
+		id = LEH_empire_of_lechia
+		icon = LEH_empire_of_lechia
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 4
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			add_political_power = 50 
+			country_event = {
+				id = LEH.1
+				days = 1
+		}
+	}
+	
+
+	}
