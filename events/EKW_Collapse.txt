@@ -364,6 +364,10 @@ country_event = {
 			id = ekwrozpad.12
 			days = 10
 			}
+		country_event = {
+			id = ekwrozpad.15
+			days = 45
+			}
 		}
 	}
 }
@@ -510,5 +514,21 @@ country_event = {
 				days = 2
 			}
 		}
+	}
+}
+
+country_event = {
+	id = ekwrozpad.15
+	title = ekwrozpad.15.t
+	desc = ekwrozpad.15.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ekwrozpad.15.a
+		STE = {
+			drop_cosmetic_tag = yes 
+			}
 	}
 }

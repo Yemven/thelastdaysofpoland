@@ -1,5 +1,64 @@
 ai_war_decisions = {
 
+	opole_war_1 = {
+
+		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_holy_cross = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = WAN
+					original_tag = LCH
+					original_tag = LEH
+				}
+			date > 2028.03.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 11
+		remove_effect  = {
+			every_country = {
+				limit = {
+					AND = {
+						original_tag = WAN
+						original_tag = LCH
+						original_tag = LEH
+						}
+					}
+				}	
+				if = { limit = { country_exists = WAN
+								 ROOT = { NOT = { tag = WAN } } }
+				declare_war_on = {
+					target = WAN
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = LCH 
+						 ROOT = { NOT = { tag = LCH } } }
+				declare_war_on = {
+					target = LCH
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = LEH
+								 ROOT = { NOT = { tag = LEH } } }				
+				declare_war_on = {
+					target = LEH
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+
 	kielce_war_3 = {
 
 		icon = GFX_decision_generic_form_nation
@@ -59,42 +118,42 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = SND 
+				if = { limit = { country_exists = SND 
 						 ROOT = { NOT = { tag = SND } } }
 				declare_war_on = {
 					target = SND
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = NRA
+				if = { limit = { country_exists = NRA
 								 ROOT = { NOT = { tag = NRA } } }				
 				declare_war_on = {
 					target = NRA
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = KEL 
+				if = { limit = { country_exists = KEL 
 								 ROOT = { NOT = { tag = KEL } } }
 				declare_war_on = {
 					target = KEL
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = STO 
+				if = { limit = { country_exists = STO 
 						 ROOT = { NOT = { tag = STO } } }
 				declare_war_on = {
 					target = STO
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = KIE
+				if = { limit = { country_exists = KIE
 								 ROOT = { NOT = { tag = KIE } } }				
 				declare_war_on = {
 					target = KIE
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = NSZ 
+				if = { limit = { country_exists = NSZ 
 								 ROOT = { NOT = { tag = NSZ } } }
 				declare_war_on = {
 					target = NSZ
@@ -154,21 +213,21 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = SND 
+				if = { limit = { country_exists = SND 
 						 ROOT = { NOT = { tag = SND } } }
 				declare_war_on = {
 					target = SND
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = NRA
+				if = { limit = { country_exists = NRA
 								 ROOT = { NOT = { tag = NRA } } }				
 				declare_war_on = {
 					target = NRA
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = KEL 
+				if = { limit = { country_exists = KEL 
 								 ROOT = { NOT = { tag = KEL } } }
 				declare_war_on = {
 					target = KEL
@@ -304,7 +363,7 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
-			else_if = { limit = { country_exists = SND 
+			if = { limit = { country_exists = SND 
 							ROOT = { NOT = { tag = SND } } } 
 				declare_war_on = {
 					target = SND
@@ -337,6 +396,10 @@ ai_war_decisions = {
 						original_tag = PRK
 						original_tag = EKW
 						original_tag = EKS
+						original_tag = BRE
+						original_tag = KES
+						original_tag = KOS
+						original_tag = POM
 						}
 					}
 		}
@@ -622,13 +685,13 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = SOS } 
+				if = { limit = { country_exists = SOS } 
 				declare_war_on = {
 					target = SOS
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = JAW } 
+				if = { limit = { country_exists = JAW } 
 				declare_war_on = {
 					target = JAW
 					type = annex_everything
@@ -687,19 +750,19 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = CCH } 
+				if = { limit = { country_exists = CCH } 
 				declare_war_on = {
 					target = CCH
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = JWK } 
+				if = { limit = { country_exists = JWK } 
 				declare_war_on = {
 					target = JWK
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = BRZ } 
+				if = { limit = { country_exists = BRZ } 
 				declare_war_on = {
 					target = BRZ
 					type = annex_everything
@@ -767,19 +830,19 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = ASG } 
+				if = { limit = { country_exists = ASG } 
 				declare_war_on = {
 					target = ASG
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = WOD } 
+				if = { limit = { country_exists = WOD } 
 				declare_war_on = {
 					target = WOD
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = JSW } 
+				if = { limit = { country_exists = JSW } 
 				declare_war_on = {
 					target = JSW
 					type = annex_everything
@@ -843,31 +906,31 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = CHO } 
+				if = { limit = { country_exists = CHO } 
 				declare_war_on = {
 					target = CHO
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = TRC } 
+				if = { limit = { country_exists = TRC } 
 				declare_war_on = {
 					target = TRC
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = RAS } 
+				if = { limit = { country_exists = RAS } 
 				declare_war_on = {
 					target = RAS
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = FER } 
+				if = { limit = { country_exists = FER } 
 				declare_war_on = {
 					target = FER
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = RUD } 
+				if = { limit = { country_exists = RUD } 
 				declare_war_on = {
 					target = RUD
 					type = annex_everything
@@ -1046,7 +1109,7 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 			}
-			else_if = { limit = { NOT = { country_exists = BRZ } }
+			if = { limit = { NOT = { country_exists = BRZ } }
 			declare_war_on = {
 					target = JWK
 					type = annex_everything
@@ -1082,7 +1145,7 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 			}
-			else_if = { limit = { NOT = { country_exists = BRZ } }
+			if = { limit = { NOT = { country_exists = BRZ } }
 			declare_war_on = {
 					target = JWK
 					type = annex_everything
@@ -1193,7 +1256,7 @@ ai_war_decisions = {
 				type = annex_everything
 			}
 		}
-		else_if = { limit = { NOT = {country_exists = KAT} }
+		if = { limit = { NOT = {country_exists = KAT} }
 			declare_war_on = {
 					target = ASG
 					type = annex_everything
@@ -1245,7 +1308,7 @@ ai_war_decisions = {
 				type = annex_everything
 			}
 		}
-		else_if = { limit = { NOT = {country_exists = JSW} }
+		if = { limit = { NOT = {country_exists = JSW} }
 			declare_war_on = {
 					target = WOD
 					type = annex_everything
