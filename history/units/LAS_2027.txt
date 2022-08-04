@@ -1,31 +1,108 @@
 division_template = {
-	name = "Straż leśna"
+	name = "Oddział Leśniczych"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Oddział Dyrekcji Leśnictwa"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Milicja Wiejska"
 	regiments = {
 		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
 		militia = { x = 1 y = 0 }
+		militia = { x = 2 y = 0 }
 	}
 }
+
+division_template = {
+	name = "Zbrojni drwale"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		motorized = { x = 2 y = 0 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+	}
+}
+
 units = {
-    division = {
-		name = "Straż Nadleśnictwa Celestyńskiego"
-		location = 2434
-		division_template = "Straż leśna"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-	}
 	division = {
-		name = "Straż Karczewska"
-		location = 1465
-		division_template = "Straż leśna"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		name = "Leśnictwo Przyćmień"
+		location = 3339
+		division_template = "Oddział Leśniczych"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 	}
+
 	division = {
-		name = "Gwardziści Kampinowskiego PN"
+		name = "Leśnictwo Rózin"
+		location = 3339
+		division_template = "Oddział Leśniczych"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Oddział Dyrekcji Kampinoskiego Parku Narodowego"
+		location = 2295
+		division_template = "Oddział Dyrekcji Leśnictwa"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Kampinoski Batalion Ochotniczy"
+		location = 663
+		division_template = "Milicja Wiejska"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Leśnictwo Kromnów"
 		location = 2511
-		division_template = "Straż leśna"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		division_template = "Oddział Leśniczych"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Nadleśnictwo Celestynów"
+		location = 2434
+		division_template = "Oddział Leśniczych"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Celestyński Batalion Ochotniczy"
+		location = 2434
+		division_template = "Milicja Wiejska"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Konwój Drwali Celestyńskich"
+		location = 1465
+		division_template = "Zbrojni drwale"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 }
+	
