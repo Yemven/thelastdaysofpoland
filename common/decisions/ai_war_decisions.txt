@@ -5,11 +5,15 @@ ai_war_decisions = {
 	tatry3_war = {
 
 		icon = GFX_decision_generic_form_nation
-
+		
+		allowed = {
+			is_tatry_region = yes
+				}
+				
 		available = {
 				OR = {
-				tag = SCZ
-				tag = LEM
+				original_tag = SCZ
+				original_tag = LEM
 				}
 				count_triggers = {
 				amount = 2
@@ -53,11 +57,15 @@ ai_war_decisions = {
 	tatry2_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_tatry_region = yes
+				}
 
 		available = {
 				OR = {
-				tag = BSK
-				tag = CIE
+				original_tag = BSK
+				original_tag = CIE
 				}
 				count_triggers = {
 				amount = 1
@@ -92,10 +100,14 @@ ai_war_decisions = {
 
 		icon = GFX_decision_generic_form_nation
 
+		allowed = {
+			is_tatry_region = yes
+				}
+
 		available = {
 				OR = {
-				tag = MSL
-				tag = GUR
+				original_tag = MSL
+				original_tag = GUR
 				}
 				count_triggers = {
 				amount = 1
@@ -129,9 +141,13 @@ ai_war_decisions = {
 	podhale_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_tatry_region = yes
+				}
 
 		available = {
-			tag = GUR
+			original_tag = GUR
 			date > 2027.12.01
 		}
 
@@ -160,9 +176,12 @@ ai_war_decisions = {
 	lososina_war = {
 
 		icon = GFX_decision_generic_form_nation
+		allowed = {
+			is_tatry_region = yes
+				}
 
 		available = {
-			tag = SCZ
+			original_tag = SCZ
 			date > 2027.12.12
 		}
 
@@ -189,16 +208,21 @@ ai_war_decisions = {
 	}
 
 
+
 	zaglebie_war_1 = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
 				OR = {
-					tag = BRZ
-					tag = JWK
-					tag = ZAW
-					tag = CCH
+					original_tag = BRZ
+					original_tag = JWK
+					original_tag = ZAW
+					original_tag = CCH
 				}
 
 				count_triggers = {
@@ -224,10 +248,10 @@ ai_war_decisions = {
 			every_country = {
 				limit = {
 					AND = {
-						tag = BRZ
-						tag = JWK
-						tag = ZAW
-						tag = CCH
+						original_tag = BRZ
+						original_tag = JWK
+						original_tag = ZAW
+						original_tag = CCH
 						}
 					}
 				}	
@@ -255,12 +279,16 @@ ai_war_decisions = {
 	zaglebie_war_2 = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
 				OR = {
-					tag = SOS
-					tag = JAW
-					tag = DGR
+					original_tag = SOS
+					original_tag = JAW
+					original_tag = DGR
 				}
 
 			count_triggers = {
@@ -286,9 +314,9 @@ ai_war_decisions = {
 			every_country = {
 				limit = {
 					AND = {
-						tag = JAW
-						tag = SOS
-						tag = DGR
+						original_tag = JAW
+						original_tag = SOS
+						original_tag = DGR
 						}
 					}
 				}	
@@ -322,15 +350,19 @@ ai_war_decisions = {
 	metropolis_war_1 = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
 				OR = {
-					tag = RAS
-					tag = CHO
-					tag = GLI
-					tag = RUD
-					tag = TRC
-					tag = FER
+					original_tag = RAS
+					original_tag = CHO
+					original_tag = GLI
+					original_tag = RUD
+					original_tag = TRC
+					original_tag = FER
 				}
 
 				count_triggers = {
@@ -359,12 +391,12 @@ ai_war_decisions = {
 			every_country = {
 				limit = {
 					AND = {
-						tag = RAS
-						tag = CHO
-						tag = GLI
-						tag = FER
-						tag = TRC
-						tag = RUD
+						original_tag = RAS
+						original_tag = CHO
+						original_tag = GLI
+						original_tag = FER
+						original_tag = TRC
+						original_tag = RUD
 						}
 					}
 				}	
@@ -398,13 +430,17 @@ ai_war_decisions = {
 	metropolis_war_2 = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
 				OR = {
-					tag = WOD
-					tag = JSW
-					tag = KAT
-					tag = ASG
+					original_tag = WOD
+					original_tag = JSW
+					original_tag = KAT
+					original_tag = ASG
 				}
 
 				count_triggers = {
@@ -433,10 +469,10 @@ ai_war_decisions = {
 			every_country = {
 				limit = {
 					AND = {
-						tag = WOD
-						tag = JSW
-						tag = KAT
-						tag = ASG
+						original_tag = WOD
+						original_tag = JSW
+						original_tag = KAT
+						original_tag = ASG
 						}
 					}
 				}	
@@ -482,13 +518,17 @@ ai_war_decisions = {
 	north_jura_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
 				OR = {
-				tag = CCH
-				tag = ZAW
-				tag = BRZ
-				tag = JWK
+				original_tag = CCH
+				original_tag = ZAW
+				original_tag = BRZ
+				original_tag = JWK
 				}
 				date > 2028.06.01
 
@@ -533,9 +573,13 @@ ai_war_decisions = {
 	CCH_north_jura_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
-				tag = CCH
+				original_tag = CCH
 				date > 2028.03.01
 		}
 
@@ -558,9 +602,13 @@ ai_war_decisions = {
 	ZAW_north_jura_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
-				tag = ZAW
+				original_tag = ZAW
 				date > 2028.03.01
 		}
 
@@ -583,9 +631,13 @@ ai_war_decisions = {
 	BRZ_hooligan_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
-				tag = BRZ
+				original_tag = BRZ
 				date > 2028.03.01
 		}
 
@@ -609,9 +661,13 @@ ai_war_decisions = {
 	ZAW_north_jura_war_2 = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
-				tag = ZAW
+				original_tag = ZAW
 				CCH  = { num_of_controlled_states < 1 }
 		}
 
@@ -641,9 +697,13 @@ ai_war_decisions = {
 	CCH_north_jura_war_2 = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
-				tag = CCH
+				original_tag = CCH
 				ZAW = { num_of_controlled_states < 1 }
 		}
 
@@ -673,9 +733,13 @@ ai_war_decisions = {
 	BRZ_north_jura_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
-				tag = BRZ
+				original_tag = BRZ
 				JWK = { num_of_controlled_states < 1 }
 		}
 
@@ -703,9 +767,13 @@ ai_war_decisions = {
 	JWK_north_jura_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
-				tag = JWK
+				original_tag = JWK
 				BRZ = { num_of_controlled_states < 1 }
 		}
 
@@ -733,11 +801,15 @@ ai_war_decisions = {
 	WOD_south_silesian_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
 			OR = {
-				tag = WOD
-				tag = JSW
+				original_tag = WOD
+				original_tag = JSW
 				}
 			OR = {
 					WOD = { num_of_controlled_states < 1 }
@@ -782,11 +854,15 @@ ai_war_decisions = {
 	KAT_south_silesian_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
 			OR = {
-				tag = KAT
-				tag = ASG
+				original_tag = KAT
+				original_tag = ASG
 				}
 			OR = {
 				KAT = { num_of_controlled_states < 1 }
@@ -830,11 +906,15 @@ ai_war_decisions = {
 	gliwice_war_2 = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
 			OR = {
-			tag = TRC
-			tag = GLI
+			original_tag = TRC
+			original_tag = GLI
 			}
 
 			OR = {
@@ -875,11 +955,15 @@ ai_war_decisions = {
 	chorzow_war_2 = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
 			OR = {
-			tag = RUD
-			tag = CHO
+			original_tag = RUD
+			original_tag = CHO
 			}
 			OR = { 
 			 RUD = { num_of_controlled_states < 1 }
@@ -919,11 +1003,15 @@ ai_war_decisions = {
 	bytom_war_2 = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
 			OR = {
-			tag = RAS
-			tag = FER
+			original_tag = RAS
+			original_tag = FER
 			}
 			OR = { 
 				RAS = { num_of_controlled_states < 1 }
@@ -962,9 +1050,13 @@ ai_war_decisions = {
 	chorzow_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
-			tag = CHO
+			original_tag = CHO
 			date > 2028.02.14
 		}
 
@@ -986,9 +1078,13 @@ ai_war_decisions = {
 	bytom_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
-			tag = RAS
+			original_tag = RAS
 			date > 2028.02.17
 		}
 
@@ -1011,9 +1107,13 @@ ai_war_decisions = {
 	gliwice_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
-			tag = GLI
+			original_tag = GLI
 			date > 2028.02.30
 		}
 
@@ -1036,9 +1136,13 @@ ai_war_decisions = {
 	KAT_asg_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
-			tag = KAT
+			original_tag = KAT
 			date > 2028.03.01
 		}
 
@@ -1061,10 +1165,14 @@ ai_war_decisions = {
 	WOD_jsw_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_upper_silesia = yes
+				}
 
 		available = {
-			tag = WOD
-			date > 2028.04.01
+			original_tag = WOD
+			date > 2028.03.05
 		}
 
 		cost = 1
@@ -1073,7 +1181,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 14
+		days_remove = 4
 		war_with_on_remove = JSW
 		remove_effect  = {
 			declare_war_on = {
@@ -1087,9 +1195,13 @@ ai_war_decisions = {
 	SOS_zaglebie_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
-			tag = SOS
+			original_tag = SOS
 			date > 2028.02.01
 		}
 
@@ -1117,9 +1229,13 @@ ai_war_decisions = {
 	DGR_zaglebie_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_zaglebie_and_jura = yes
+				}
 
 		available = {
-			tag = DGR
+			original_tag = DGR
 			date > 2028.02.01
 			SOS = { has_war_with = JAW }
 		}
@@ -1130,7 +1246,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 3
+		days_remove = 2
 		war_with_on_remove = SOS
 		remove_effect  = {
 			set_war_support = 0.7
@@ -1154,9 +1270,13 @@ ai_war_decisions = {
 	BSK_podbeskidzie_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_tatry_region = yes
+				}
 
 		available = {
-			tag = BSK
+			original_tag = BSK
 			date > 2027.06.01
 		}
 
@@ -1185,9 +1305,13 @@ ai_war_decisions = {
 	FEL_leszno_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = FEL
+			original_tag = FEL
 			date > 2028.04.01
 			SUS = {
 		    has_war = no}
@@ -1221,9 +1345,13 @@ ai_war_decisions = {
 	CAL_gniezno_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = CAL
+			original_tag = CAL
 			date > 2028.04.01
 			GNI = {
 		    has_war = no}
@@ -1256,9 +1384,13 @@ ai_war_decisions = {
 	GNI_kalisz_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = GNI
+			original_tag = GNI
 			date > 2028.04.01
 			CAL = {
 		    has_war = no}
@@ -1292,9 +1424,13 @@ ai_war_decisions = {
 	SUS_sroda_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = SUS
+			original_tag = SUS
 			date > 2028.04.01
 			FEL = {
 		    has_war = no}
@@ -1328,9 +1464,13 @@ ai_war_decisions = {
 	FEL_kalisz_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = FEL
+			original_tag = FEL
 			date > 2028.10.01
 			CAL = {
 		    has_war = no}
@@ -1364,9 +1504,13 @@ ai_war_decisions = {
 	FEL_gniezno_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = FEL
+			original_tag = FEL
 			date > 2028.10.01
 			GNI = {
 		    has_war = no}
@@ -1399,9 +1543,13 @@ ai_war_decisions = {
 	CAL_sroda_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+			allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = CAL
+			original_tag = CAL
 			date > 2028.10.01
 			FEL = {
 		    has_war = no}
@@ -1435,9 +1583,13 @@ ai_war_decisions = {
 	CAL_leszno_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = CAL
+			original_tag = CAL
 			date > 2028.10.01
 			SUS = {
 		    has_war = no}
@@ -1471,9 +1623,13 @@ ai_war_decisions = {
     GNI_sroda_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = GNI
+			original_tag = GNI
 			date > 2028.10.01
 			FEL = {
 		    has_war = no}
@@ -1507,9 +1663,13 @@ ai_war_decisions = {
 	GNI_leszno_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = GNI
+			original_tag = GNI
 			date > 2028.10.01
 			SUS = {
 		    has_war = no}
@@ -1543,9 +1703,13 @@ ai_war_decisions = {
 	SUS_kalisz_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = SUS
+			original_tag = SUS
 			date > 2028.10.01
 			CAL = {
 		    has_war = no}
@@ -1579,9 +1743,13 @@ ai_war_decisions = {
 	SUS_gniezno_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_southern_greater_poland = yes
+				}
 
 		available = {
-			tag = SUS
+			original_tag = SUS
 			date > 2028.10.01
 			GNI = {
 		    has_war = no}
@@ -1615,9 +1783,13 @@ ai_war_decisions = {
     NAC_pila_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = NAC
+			original_tag = NAC
 			date > 2028.07.01
 			PIL = {
 		    has_war = no}
@@ -1651,9 +1823,13 @@ ai_war_decisions = {
 	PIL_grodzisk_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = PIL
+			original_tag = PIL
 			date > 2028.07.01
 			NAC = {
 		    has_war = no}
@@ -1687,9 +1863,13 @@ ai_war_decisions = {
 	POZ_slums_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = POZ
+			original_tag = POZ
 			date > 2028.04.01
 			country_exists = SLU
 		}
@@ -1719,9 +1899,13 @@ ai_war_decisions = {
 	SYJ_slums_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = SYJ
+			original_tag = SYJ
 			date > 2028.04.01
 			country_exists = SLU
 		}
@@ -1751,9 +1935,13 @@ ai_war_decisions = {
 	POZ_syjon_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = POZ
+			original_tag = POZ
 			date > 2028.04.20
 			country_exists = SYJ
 		}
@@ -1783,9 +1971,13 @@ ai_war_decisions = {
 	SYJ_jaskowiak_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = SYJ
+			original_tag = SYJ
 			date > 2028.04.20
 			country_exists = POZ
 		}
@@ -1815,9 +2007,13 @@ ai_war_decisions = {
 	POZ_pila_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = POZ
+			original_tag = POZ
 			date > 2028.12.01
 			PIL = {
 		    has_war = no}
@@ -1850,9 +2046,13 @@ ai_war_decisions = {
 	POZ_grodzisk_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = POZ
+			original_tag = POZ
 			date > 2028.12.01
 			NAC = {
 		    has_war = no}
@@ -1885,9 +2085,13 @@ ai_war_decisions = {
 	SYJ_pila_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = POZ
+			original_tag = POZ
 			date > 2028.12.01
 			PIL = {
 		    has_war = no}
@@ -1920,9 +2124,13 @@ ai_war_decisions = {
 	SYJ_grodzisk_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = SYJ
+			original_tag = SYJ
 			date > 2028.12.01
 			NAC = {
 		    has_war = no}
@@ -1956,9 +2164,13 @@ ai_war_decisions = {
 	PIL_jaskowiak_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = POZ
+			original_tag = POZ
 			date > 2028.12.01
 			POZ = {
 		    has_war = no}
@@ -1991,9 +2203,13 @@ ai_war_decisions = {
 	PIL_syjon_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = PIL
+			original_tag = PIL
 			date > 2028.12.01
 			SYJ = {
 		    has_war = no}
@@ -2027,9 +2243,13 @@ ai_war_decisions = {
 	NAC_jaskowiak_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = NAC
+			original_tag = NAC
 			date > 2028.12.01
 			POZ = {
 		    has_war = no}
@@ -2062,9 +2282,13 @@ ai_war_decisions = {
 	NAC_syjon_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_northern_greater_poland = yes
+				}
 
 		available = {
-			tag = NAC
+			original_tag = NAC
 			date > 2028.12.01
 			SYJ = {
 		    has_war = no}
@@ -2098,9 +2322,13 @@ ai_war_decisions = {
 	CRN_east_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = CRN
+			original_tag = CRN
 			NOT = { country_exists = PUL }
 			NOT = { country_exists = KSN }
 		}
@@ -2140,9 +2368,13 @@ ai_war_decisions = {
 	PUL_czarnek_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = PUL
+			original_tag = PUL
 			date > 2027.03.01
 		}
 
@@ -2166,9 +2398,13 @@ ai_war_decisions = {
 	PUL_krasnik_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = PUL
+			original_tag = PUL
 			NOT = { country_exists = CRN }
 		}
 
@@ -2192,9 +2428,13 @@ ai_war_decisions = {
 	PUL_east_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = PUL
+			original_tag = PUL
 			NOT = { country_exists = CRN }
 			NOT = { country_exists = KSN }
 		}
@@ -2234,9 +2474,13 @@ ai_war_decisions = {
 	KSN_czarnek_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = KSN
+			original_tag = KSN
 			date > 2027.03.01
 		}
 
@@ -2260,9 +2504,13 @@ ai_war_decisions = {
 	KSN_east_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = KSN
+			original_tag = KSN
 			NOT = { country_exists = CRN }
 			NOT = { country_exists = PUL }
 		}
@@ -2302,9 +2550,13 @@ ai_war_decisions = {
 	SWD_biala_podlaska_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = SWD
+			original_tag = SWD
 			date > 2027.03.15
 		}
 
@@ -2328,9 +2580,13 @@ ai_war_decisions = {
 	SWD_southeast_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = SWD
+			original_tag = SWD
 			NOT = { country_exists = BPD }
 		}
 
@@ -2359,9 +2615,13 @@ ai_war_decisions = {
 	SWD_west_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = SWD
+			original_tag = SWD
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BIL }
 			NOT = { country_exists = BPD }
@@ -2397,9 +2657,13 @@ ai_war_decisions = {
 	ZUK_bilgoraj_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = ZUK
+			original_tag = ZUK
 			date > 2027.03.29
 		}
 
@@ -2423,9 +2687,13 @@ ai_war_decisions = {
 	ZUK_northeast_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = ZUK
+			original_tag = ZUK
 			NOT = { country_exists = BIL }
 		}
 
@@ -2454,9 +2722,13 @@ ai_war_decisions = {
 	ZUK_west_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = ZUK
+			original_tag = ZUK
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = BIL }
 			NOT = { country_exists = BPD }
@@ -2492,9 +2764,13 @@ ai_war_decisions = {
 	BIL_northeast_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = BIL
+			original_tag = BIL
 			NOT = { country_exists = ZUK }
 		}
 
@@ -2523,9 +2799,13 @@ ai_war_decisions = {
 	BIL_west_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = ZUK
+			original_tag = ZUK
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BPD }
@@ -2561,9 +2841,13 @@ ai_war_decisions = {
 	BPD_southeast_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = BPD
+			original_tag = BPD
 			NOT = { country_exists = SWD }
 		}
 
@@ -2592,9 +2876,13 @@ ai_war_decisions = {
 	BPD_west_lublin_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lubelskie = yes
+				}
 
 		available = {
-			tag = BPD
+			original_tag = BPD
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BIL }
@@ -2629,10 +2917,14 @@ ai_war_decisions = {
 	ANA_FEM_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
-			tag = ANA
-			date > 2027.05.01
+			original_tag = ANA
+			date > 2027.12.01
 		}
 		
 		cost = 1
@@ -2655,10 +2947,14 @@ ai_war_decisions = {
 	RYB_OLE_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
-			tag = RYB
-			date > 2027.07.01
+			original_tag = RYB
+			date > 2028.02.01
 		}
 
 		cost = 1
@@ -2685,10 +2981,14 @@ ai_war_decisions = {
 	ZUL_zule_wars = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
-			tag = ZUL
-			date > 2027.07.01
+			original_tag = ZUL
+			date > 2028.03.11
 			NOT = {
 				ANA = { has_war_with = FEM }
 			}
@@ -2719,10 +3019,14 @@ ai_war_decisions = {
 	MNL_zule_wars = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
-			tag = MNL
-			date > 2027.07.01
+			original_tag = MNL
+			date > 2028.03.11
 			NOT = {
 				ANA = { has_war_with = FEM }
 			}
@@ -2753,10 +3057,14 @@ ai_war_decisions = {
 	ANA_zule_wars = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
-			tag = ANA
-			date > 2027.07.01
+			original_tag = ANA
+			date > 2028.03.11
 			NOT = {
 				ANA = { has_war_with = FEM }
 			}
@@ -2787,10 +3095,14 @@ ai_war_decisions = {
 	EKS_subjection = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
-			tag = EKS
-			date > 2027.08.01
+			original_tag = EKS
+			date > 2028.05.01
 		}
 
 		cost = 1
@@ -2816,10 +3128,14 @@ ai_war_decisions = {
 	okamura_WRO_conquest_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
-			tag = CZE
-			date > 2027.09.10
+			original_tag = CZE
+			date > 2028.02.16
 			NOT = {
 				WRO = { has_war_with = BRE }
 			}
@@ -2849,10 +3165,14 @@ ai_war_decisions = {
 	EKS_KGH_or_CYG_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
-			tag = EKS
-			date > 2028.03.01
+			original_tag = EKS
+			date > 2028.06.01
 			NOT = {
 				KGH = { has_war_with = CYG }
 			}
@@ -2887,10 +3207,15 @@ ai_war_decisions = {
 	RYB_MPK_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
-			tag = RYB
-			date > 2028.04.01
+			original_tag = RYB
+			date > 2028.06.01
+			376 = { is_controlled_by = MPK }
 		}
 		
 		cost = 1
@@ -2912,18 +3237,22 @@ ai_war_decisions = {
 	East_vs_ZUL_war = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
-				OR = {
-				tag = WRO
-				tag = CZE
-				}
-				date > 2028.03.01
-				count_triggers = {
+			OR = {
+				original_tag = WRO
+				original_tag = CZE
+			}
+		count_triggers = {
 				amount = 1
-					NOT = { country_exists = WRO }
-					NOT = { country_exists = CZE }
+					WRO = { num_of_controlled_states < 1 }
+					CZE = { num_of_controlled_states < 1 }
 				}
+			date > 2028.01.01
 		}
 		cost = 1
 
@@ -2942,14 +3271,13 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 			}
-			else_if = { limit = { country_exists = MNL } 
+			if = { limit = { country_exists = MNL } 
 				declare_war_on = {
 					target = MNL
 					type = annex_everything
 				}
 			}
-				
-			else_if = { limit = { country_exists = ANA } 
+			if = { limit = { country_exists = ANA } 
 				declare_war_on = {
 					target = ANA
 					type = annex_everything
@@ -2962,22 +3290,26 @@ ai_war_decisions = {
 	Lowersilesia_eating_of_puppets = {
 
 		icon = GFX_decision_generic_form_nation
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
 			OR = {
-					tag = EKS
-					tag = KGH
-					tag = CYG
-					}
-				date > 2029.06.01
+				original_tag = EKS
+				original_tag = KGH
+				original_tag = CYG
+			}
+				date > 2029.12.01
 				count_triggers = {
 					amount = 5
-					NOT = { country_exists = EKS }
-					NOT = { country_exists = CYG }
-					NOT = { country_exists = KGH }
-					NOT = { country_exists = RYB }
-					NOT = { country_exists = WRO }
-					NOT = { country_exists = CZE }
+					EKS = { num_of_controlled_states < 1 }
+					CYG = { num_of_controlled_states < 1 }
+					KGH = { num_of_controlled_states < 1 }
+					RYB = { num_of_controlled_states < 1 }
+					WRO = { num_of_controlled_states < 1 }
+					CZE = { num_of_controlled_states < 1 }
 				}
 		}
 
@@ -2988,7 +3320,6 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 14
-		war_with_on_remove = POZ
 		remove_effect  = {
 			annex_country = {
 				target = TOU
@@ -2998,26 +3329,31 @@ ai_war_decisions = {
 	}
 	
 	Last_lowersilesia_war = {
+	
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		available = {
 				OR = {
-					tag = EKS
-					tag = KGH
-					tag = CYG
-					tag = WRO
-					tag = CZE
-					tag = RYB
+					original_tag = EKS
+					original_tag = KGH
+					original_tag = CYG
+					original_tag = WRO
+					original_tag = CZE
+					original_tag = RYB
 					}
-					date > 2029.01.01
 			count_triggers = {
-				amount = 3
-					NOT = { country_exists = EKS }
-					NOT = { country_exists = CYG }
-					NOT = { country_exists = KGH }
-					NOT = { country_exists = RYB }
-					NOT = { country_exists = WRO }
-					NOT = { country_exists = CZE }
+				amount = 4
+					EKS = { num_of_controlled_states < 1 }
+					CYG = { num_of_controlled_states < 1 }
+					KGH = { num_of_controlled_states < 1 }
+					RYB = { num_of_controlled_states < 1 }
+					WRO = { num_of_controlled_states < 1 }
+					CZE = { num_of_controlled_states < 1 }
+					MPK = { num_of_controlled_states < 1 }
 				}
+			date > 2028.01.01
 		}
 
 		cost = 1
@@ -3027,22 +3363,16 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 14
-		war_with_on_remove = EKS
-		war_with_on_remove = CYG
-		war_with_on_remove = KGH
-		war_with_on_remove = RYB
-		war_with_on_remove = WRO
-		war_with_on_remove = CZE
 		remove_effect  = {
 			every_country = {
 				limit = {
-					AND = {
-						tag = EKS
-						tag = KGH
-						tag = CYG
-						tag = WRO
-						tag = CZE
-						tag = RYB
+					OR = {
+						original_tag = EKS
+						original_tag = KGH
+						original_tag = CYG
+						original_tag = WRO
+						original_tag = CZE
+						original_tag = RYB
 						}
 					}
 				}	
@@ -3052,33 +3382,39 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = KGH } 
+				if = { limit = { country_exists = KGH } 
 				declare_war_on = {
 					target = KGH
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = CYG } 
+				if = { limit = { country_exists = CYG } 
 				declare_war_on = {
 					target = CYG
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = WRO } 
+				if = { limit = { country_exists = WRO } 
 				declare_war_on = {
 					target = WRO
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = CZE } 
+				if = { limit = { country_exists = CZE } 
 				declare_war_on = {
 					target = CZE
 					type = annex_everything
 				}
 				}
-				else_if = { limit = { country_exists = RYB } 
+				if = { limit = { country_exists = RYB } 
 				declare_war_on = {
 					target = RYB
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = MPK } 
+				declare_war_on = {
+					target = MPK
 					type = annex_everything
 				}
 				}
@@ -3090,9 +3426,13 @@ ai_war_decisions = {
 		icon = GFX_decision_generic_form_nation
 
 		available = {
-			tag = WRO
+			original_tag = WRO
 			WRO = { has_war_with = CZE }
 		}
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
 
 		cost = 1
 
@@ -3100,7 +3440,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 14
+		days_remove = 50
 		remove_effect  = {
 			RYB = {
 				transfer_state = 343

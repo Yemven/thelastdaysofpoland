@@ -333,10 +333,11 @@ focus_tree = {
 		
 		cost = 1
 		search_filters = {}
-		hidden_reward = {
-			load_focus_tree = sapek_war_focus
-		}
+			
 		completion_reward = {
+			hidden_effect = {
+				load_focus_tree = sapek_war_focus
+			}
 		}
 	}
 	
