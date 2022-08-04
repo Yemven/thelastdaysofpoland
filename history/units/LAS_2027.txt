@@ -1,0 +1,31 @@
+division_template = {
+	name = "Straż leśna"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+	}
+}
+units = {
+    division = {
+		name = "Straż Nadleśnictwa Celestyńskiego"
+		location = 2434
+		division_template = "Straż leśna"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Straż Karczewska"
+		location = 1465
+		division_template = "Straż leśna"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Gwardziści Kampinowskiego PN"
+		location = 2511
+		division_template = "Straż leśna"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+}
