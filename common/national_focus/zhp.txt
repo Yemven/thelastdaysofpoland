@@ -323,7 +323,7 @@ focus_tree = {
 		prerequisite = { focus = ZHP_our_pride_army }
 		mutually_exclusive = { focus = ZHP_volunteer_army }
 		available = {
-		
+			
 		}
 		
 		bypass = {
@@ -334,7 +334,12 @@ focus_tree = {
 		
 		cost = 4
 		search_filters = {}
-		completion_reward = { 
+		completion_reward = {
+			add_ideas = ZHP_gray_lilies
+			swap_ideas = {
+				remove_idea = system_enlistment
+				add_idea = total_mobilisation
+			}
 			hidden_effect = {
 				if = {
 					limit = {
@@ -371,7 +376,11 @@ focus_tree = {
 		
 		cost = 4
 		search_filters = {}
-		completion_reward = { 
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = system_enlistment
+				add_idea = expanded_conscription
+			}
 			hidden_effect = {
 				if = {
 					limit = {
@@ -408,7 +417,10 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			
+			swap_ideas = {
+				remove_idea = ZHP_gray_lilies
+				add_idea = ZHP_gray_lily_auxillaries
+			}
 		}
 	}
 	
@@ -430,7 +442,15 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			
+			swap_ideas = {
+				remove_idea = ZHP_gray_lily_auxillaries
+				add_idea = ZHP_gray_lily_partisans
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 	
@@ -452,7 +472,10 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			
+			add_popularity = {
+				ideology = postpolonism
+				popularity = -0.05
+			}
 		}
 	}
 	
@@ -474,7 +497,7 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			
+			#todo: event dejący plany
 		}
 	}
 	
