@@ -45,7 +45,7 @@ ai_war_decisions = {
 				ROOT = { any_neighbor_country = { tag = TAT } }
 			NOT = { has_war = yes }
 				count_triggers = {
-					amount = 17
+					amount = 16
 						TNO = { num_of_controlled_states < 1 }
 						COL = { num_of_controlled_states < 1 }
 						ZAM = { num_of_controlled_states < 1 }
@@ -128,7 +128,7 @@ ai_war_decisions = {
 				ROOT = { any_neighbor_country = { tag = SAN } }
 			NOT = { has_war = yes }
 				count_triggers = {
-					amount = 17
+					amount = 16
 						TNO = { num_of_controlled_states < 1 }
 						COL = { num_of_controlled_states < 1 }
 						ZAM = { num_of_controlled_states < 1 }
@@ -211,7 +211,7 @@ ai_war_decisions = {
 				ROOT = { any_neighbor_country = { tag = BEL } }
 			NOT = { has_war = yes }
 				count_triggers = {
-					amount = 17
+					amount = 16
 						TNO = { num_of_controlled_states < 1 }
 						COL = { num_of_controlled_states < 1 }
 						ZAM = { num_of_controlled_states < 1 }
@@ -294,7 +294,7 @@ ai_war_decisions = {
 				ROOT = { any_neighbor_country = { tag = KON } }
 			NOT = { has_war = yes }
 				count_triggers = {
-					amount = 17
+					amount = 16
 						TNO = { num_of_controlled_states < 1 }
 						COL = { num_of_controlled_states < 1 }
 						ZAM = { num_of_controlled_states < 1 }
@@ -377,7 +377,7 @@ ai_war_decisions = {
 				ROOT = { any_neighbor_country = { tag = BOM } }
 			NOT = { has_war = yes }
 				count_triggers = {
-					amount = 17
+					amount = 16
 						TNO = { num_of_controlled_states < 1 }
 						COL = { num_of_controlled_states < 1 }
 						ZAM = { num_of_controlled_states < 1 }
@@ -460,7 +460,7 @@ ai_war_decisions = {
 				ROOT = { any_neighbor_country = { tag = LMZ } }
 			NOT = { has_war = yes }
 				count_triggers = {
-					amount = 17
+					amount = 16
 						TNO = { num_of_controlled_states < 1 }
 						COL = { num_of_controlled_states < 1 }
 						ZAM = { num_of_controlled_states < 1 }
@@ -2989,7 +2989,7 @@ ai_war_decisions = {
 
 		available = {
 				original_tag = BRZ
-				date > 2028.03.01
+				date > 2028.02.01
 		}
 
 		cost = 1
@@ -3436,7 +3436,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = RAS
-			date > 2028.02.17
+			date > 2028.02.16
 		}
 
 		cost = 1
@@ -3494,7 +3494,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = KAT
-			date > 2028.03.01
+			date > 2028.02.12
 		}
 
 		cost = 1
@@ -3523,7 +3523,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = WOD
-			date > 2028.03.05
+			date > 2028.02.10
 		}
 
 		cost = 1
