@@ -188,11 +188,11 @@ focus_tree = {
 		id = WML_election_of_vice_president
 		relative_position_id = WML_the_beginning_of_the_dialogue
 		prerequisite = { focus = WML_the_beginning_of_the_dialogue }
-		available = {
+		available = {}
 			country_event = {
 					id = WML.7 
 					}
-		}
+		
 		
 		bypass = {
 		}
