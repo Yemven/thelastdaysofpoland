@@ -654,9 +654,11 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-			declare_war_on = {
-				target = ZHP
-				type = annex_everything
+			if = { limit = { NOT = { has_war_with = ZHP } } 
+				declare_war_on = {
+					target = ZHP
+					type = annex_everything
+				}
 			}
 		}
 	}
@@ -751,9 +753,11 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-			declare_war_on = {
-				target = ZYD
-				type = annex_everything
+				if = { limit = { NOT = { has_war_with = ZYD } } 
+				declare_war_on = {
+					target = ZYD
+					type = annex_everything
+				}
 			}
 		}
 	}
@@ -831,9 +835,11 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-			declare_war_on = {
-				target = WML
-				type = annex_everything
+			if = { limit = { NOT = { has_war_with = WML } } 
+				declare_war_on = {
+					target = WML
+					type = annex_everything
+				}
 			}
 		}
 	}
@@ -949,9 +955,11 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-			declare_war_on = {
-				target = SAP
-				type = annex_everything
+			if = { limit = { NOT = { has_war_with = SAP } } 
+				declare_war_on = {
+					target = SAP
+					type = annex_everything
+				}
 			}
 		}
 	}
