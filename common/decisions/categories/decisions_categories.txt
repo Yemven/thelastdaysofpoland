@@ -47,6 +47,15 @@ ziobro_war = {
 	}
 }
 
+konon_decisions = {
+	priority = 5
+	icon = generic_economy
+	visible_when_empty = yes
+	allowed = {
+		original_tag = KON
+	}
+}
+
 BBW_pollution_category = {
     allowed = {
         tag = BBW
