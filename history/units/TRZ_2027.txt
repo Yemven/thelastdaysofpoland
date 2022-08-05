@@ -1,0 +1,119 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Batalion Ochotniczy"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Ochotniczy Batalion Uliczny"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+		melee_infantry = { x = 2 y = 0 }
+		melee_infantry = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Szpital Polowy"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+	}
+}
+
+units = {
+    division = {
+		name = "Straż Konstytucji"
+		location = 1143
+		division_template = "Batalion Ochotniczy"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Batalion Ocalenia Konstytucji"
+		location = 11470
+		division_template = "Batalion Ochotniczy"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1 Batalion Ochotniczy im. Wojtka"
+		location = 11455
+		division_template = "Batalion Ochotniczy"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2 Batalion Ochotniczy 'Akcja Okęcie'"
+		location = 11451
+		division_template = "Batalion Ochotniczy"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3 Batalion Ochotniczy"
+		location = 11445
+		division_template = "Ochotniczy Batalion Uliczny"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Antyfaszystowska Warszawa"
+		location = 11469
+		division_template = "Ochotniczy Batalion Uliczny"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Batalion 'Ursynów'"
+		location = 11450
+		division_template = "Ochotniczy Batalion Uliczny"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "4 Batalion Ochotniczy 'Młodzi Powstańcy'"
+		location = 11476
+		division_template = "Ochotniczy Batalion Uliczny"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Ochotniczy Oddział Pomocy Humanitarnej"
+		location = 3478
+		division_template = "Szpital Polowy"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+}
