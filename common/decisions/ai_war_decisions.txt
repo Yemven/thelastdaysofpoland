@@ -1,8 +1,1612 @@
 ai_war_decisions = {
 
+	podlasie_TAT = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = KON
+					original_tag = BOM
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = TAT } }
+			NOT = { has_war = yes }
+				count_triggers = {
+					amount = 17
+						TNO = { num_of_controlled_states < 1 }
+						COL = { num_of_controlled_states < 1 }
+						ZAM = { num_of_controlled_states < 1 }
+						HMA = { num_of_controlled_states < 1 }
+						WIL = { num_of_controlled_states < 1 }
+						UHL = { num_of_controlled_states < 1 }
+						DRO = { num_of_controlled_states < 1 }
+						ZAB = { num_of_controlled_states < 1 }
+						SUP = { num_of_controlled_states < 1 }
+						GRO = { num_of_controlled_states < 1 }
+						TYK = { num_of_controlled_states < 1 }
+						OSO = { num_of_controlled_states < 1 }
+						DAM = { num_of_controlled_states < 1 }
+						BRD = { num_of_controlled_states < 1 }
+						AUG = { num_of_controlled_states < 1 }
+						SEI = { num_of_controlled_states < 1 }
+						RAJ = { num_of_controlled_states < 1 }
+					}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = TAT }
+				declare_war_on = {
+					target = TAT
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_SAN = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = BOM
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = SAN } }
+			NOT = { has_war = yes }
+				count_triggers = {
+					amount = 17
+						TNO = { num_of_controlled_states < 1 }
+						COL = { num_of_controlled_states < 1 }
+						ZAM = { num_of_controlled_states < 1 }
+						HMA = { num_of_controlled_states < 1 }
+						WIL = { num_of_controlled_states < 1 }
+						UHL = { num_of_controlled_states < 1 }
+						DRO = { num_of_controlled_states < 1 }
+						ZAB = { num_of_controlled_states < 1 }
+						SUP = { num_of_controlled_states < 1 }
+						GRO = { num_of_controlled_states < 1 }
+						TYK = { num_of_controlled_states < 1 }
+						OSO = { num_of_controlled_states < 1 }
+						DAM = { num_of_controlled_states < 1 }
+						BRD = { num_of_controlled_states < 1 }
+						AUG = { num_of_controlled_states < 1 }
+						SEI = { num_of_controlled_states < 1 }
+						RAJ = { num_of_controlled_states < 1 }
+					}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = SAN }
+				declare_war_on = {
+					target = SAN
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_BEL = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BOM
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = BEL } }
+			NOT = { has_war = yes }
+				count_triggers = {
+					amount = 17
+						TNO = { num_of_controlled_states < 1 }
+						COL = { num_of_controlled_states < 1 }
+						ZAM = { num_of_controlled_states < 1 }
+						HMA = { num_of_controlled_states < 1 }
+						WIL = { num_of_controlled_states < 1 }
+						UHL = { num_of_controlled_states < 1 }
+						DRO = { num_of_controlled_states < 1 }
+						ZAB = { num_of_controlled_states < 1 }
+						SUP = { num_of_controlled_states < 1 }
+						GRO = { num_of_controlled_states < 1 }
+						TYK = { num_of_controlled_states < 1 }
+						OSO = { num_of_controlled_states < 1 }
+						DAM = { num_of_controlled_states < 1 }
+						BRD = { num_of_controlled_states < 1 }
+						AUG = { num_of_controlled_states < 1 }
+						SEI = { num_of_controlled_states < 1 }
+						RAJ = { num_of_controlled_states < 1 }
+					}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = BEL }
+				declare_war_on = {
+					target = BEL
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_KON = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = KON } }
+			NOT = { has_war = yes }
+				count_triggers = {
+					amount = 17
+						TNO = { num_of_controlled_states < 1 }
+						COL = { num_of_controlled_states < 1 }
+						ZAM = { num_of_controlled_states < 1 }
+						HMA = { num_of_controlled_states < 1 }
+						WIL = { num_of_controlled_states < 1 }
+						UHL = { num_of_controlled_states < 1 }
+						DRO = { num_of_controlled_states < 1 }
+						ZAB = { num_of_controlled_states < 1 }
+						SUP = { num_of_controlled_states < 1 }
+						GRO = { num_of_controlled_states < 1 }
+						TYK = { num_of_controlled_states < 1 }
+						OSO = { num_of_controlled_states < 1 }
+						DAM = { num_of_controlled_states < 1 }
+						BRD = { num_of_controlled_states < 1 }
+						AUG = { num_of_controlled_states < 1 }
+						SEI = { num_of_controlled_states < 1 }
+						RAJ = { num_of_controlled_states < 1 }
+					}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = KON }
+				declare_war_on = {
+					target = KON
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_BOM = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = BOM } }
+			NOT = { has_war = yes }
+				count_triggers = {
+					amount = 17
+						TNO = { num_of_controlled_states < 1 }
+						COL = { num_of_controlled_states < 1 }
+						ZAM = { num_of_controlled_states < 1 }
+						HMA = { num_of_controlled_states < 1 }
+						WIL = { num_of_controlled_states < 1 }
+						UHL = { num_of_controlled_states < 1 }
+						DRO = { num_of_controlled_states < 1 }
+						ZAB = { num_of_controlled_states < 1 }
+						SUP = { num_of_controlled_states < 1 }
+						GRO = { num_of_controlled_states < 1 }
+						TYK = { num_of_controlled_states < 1 }
+						OSO = { num_of_controlled_states < 1 }
+						DAM = { num_of_controlled_states < 1 }
+						BRD = { num_of_controlled_states < 1 }
+						AUG = { num_of_controlled_states < 1 }
+						SEI = { num_of_controlled_states < 1 }
+						RAJ = { num_of_controlled_states < 1 }
+					}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = BOM }
+				declare_war_on = {
+					target = BOM
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_LMZ = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = LMZ } }
+			NOT = { has_war = yes }
+				count_triggers = {
+					amount = 17
+						TNO = { num_of_controlled_states < 1 }
+						COL = { num_of_controlled_states < 1 }
+						ZAM = { num_of_controlled_states < 1 }
+						HMA = { num_of_controlled_states < 1 }
+						WIL = { num_of_controlled_states < 1 }
+						UHL = { num_of_controlled_states < 1 }
+						DRO = { num_of_controlled_states < 1 }
+						ZAB = { num_of_controlled_states < 1 }
+						SUP = { num_of_controlled_states < 1 }
+						GRO = { num_of_controlled_states < 1 }
+						TYK = { num_of_controlled_states < 1 }
+						OSO = { num_of_controlled_states < 1 }
+						DAM = { num_of_controlled_states < 1 }
+						BRD = { num_of_controlled_states < 1 }
+						AUG = { num_of_controlled_states < 1 }
+						SEI = { num_of_controlled_states < 1 }
+						RAJ = { num_of_controlled_states < 1 }
+					}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = LMZ }
+				declare_war_on = {
+					target = LMZ
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_SEI = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = SEI } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = SEI }
+				declare_war_on = {
+					target = SEI
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_BRD = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = BRD } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = BRD }
+				declare_war_on = {
+					target = BRD
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_AUG = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = AUG } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = AUG }
+				declare_war_on = {
+					target = AUG
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_RAJ = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = RAJ } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = RAJ }
+				declare_war_on = {
+					target = RAJ
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_DAM = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = DAM } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = DAM }
+				declare_war_on = {
+					target = DAM
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_COL = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = COL } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = COL }
+				declare_war_on = {
+					target = COL
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_OSO = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = OSO } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = OSO }
+				declare_war_on = {
+					target = OSO
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_GRO = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = GRO } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = GRO }
+				declare_war_on = {
+					target = GRO
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_SUP = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = SUP } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = SUP }
+				declare_war_on = {
+					target = SUP
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_ZAB = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = ZAB } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = ZAB }
+				declare_war_on = {
+					target = ZAB
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_WIL = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = WIL } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = WIL }
+				declare_war_on = {
+					target = WIL
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_ZAM = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = ZAM } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = ZAM }
+				declare_war_on = {
+					target = ZAM
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_HMA = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = HMA } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = HMA }
+				declare_war_on = {
+					target = HMA
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_UHL = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = UHL } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = UHL }
+				declare_war_on = {
+					target = UHL
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_DRO = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = DRO } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = DRO }
+				declare_war_on = {
+					target = DRO
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+
+	podlasie_TYK = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = TYK } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = TYK }
+				declare_war_on = {
+					target = TYK
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_TNO = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = KON
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_KON
+							has_decision = podlasie_BOM
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = TNO } }
+			date > 2027.09.01
+			NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = TNO }
+				declare_war_on = {
+					target = TNO
+					type = annex_everything
+				}
+				}
+		}
+	}
+	
 	zachpom_war_1 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_west_pomerania = yes
@@ -85,7 +1689,7 @@ ai_war_decisions = {
 
 	zachpom_war_ekw_ste = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_west_pomerania = yes
@@ -127,7 +1731,7 @@ ai_war_decisions = {
 
 	zachpom_war_jom_swi = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_west_pomerania = yes
@@ -169,7 +1773,7 @@ ai_war_decisions = {
 
 	zachpom_war_jas_usp = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_west_pomerania = yes
@@ -211,7 +1815,7 @@ ai_war_decisions = {
 
 	opole_nysa_end = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_opolskie = yes
@@ -250,7 +1854,7 @@ ai_war_decisions = {
 
 	opole_war_3 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_opolskie = yes
@@ -354,7 +1958,7 @@ ai_war_decisions = {
 
 	opole_war_2 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_opolskie = yes
@@ -395,7 +1999,7 @@ ai_war_decisions = {
 
 	opole_war_1 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_opolskie = yes
@@ -445,7 +2049,7 @@ ai_war_decisions = {
 
 	kielce_war_3 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_holy_cross = yes
@@ -536,7 +2140,7 @@ ai_war_decisions = {
 
 	kielce_war_2 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_holy_cross = yes
@@ -601,7 +2205,7 @@ ai_war_decisions = {
 
 	kielce_war_1 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_holy_cross = yes
@@ -637,7 +2241,7 @@ ai_war_decisions = {
 
 	holy_cross_stonoga_nacjo_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_holy_cross = yes
@@ -666,7 +2270,7 @@ ai_war_decisions = {
 	
 	holy_cross_waffen_nra_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_holy_cross = yes
@@ -695,7 +2299,7 @@ ai_war_decisions = {
 	
 	holy_cross_star_sand_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_holy_cross = yes
@@ -737,7 +2341,7 @@ ai_war_decisions = {
 
 	ai_test_aid = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_poland_unifier = yes
@@ -792,7 +2396,7 @@ ai_war_decisions = {
 
 	tatry3_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_tatry_region = yes
@@ -844,7 +2448,7 @@ ai_war_decisions = {
 
 	tatry2_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_tatry_region = yes
@@ -886,7 +2490,7 @@ ai_war_decisions = {
 
 	tatry1_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 
 		allowed = {
 			is_tatry_region = yes
@@ -928,7 +2532,7 @@ ai_war_decisions = {
 	
 	podhale_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_tatry_region = yes
@@ -963,7 +2567,7 @@ ai_war_decisions = {
 	
 	lososina_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		allowed = {
 			is_tatry_region = yes
 				}
@@ -999,7 +2603,7 @@ ai_war_decisions = {
 
 	zaglebie_war_1 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -1056,7 +2660,7 @@ ai_war_decisions = {
 	
 	zaglebie_war_2 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -1118,7 +2722,7 @@ ai_war_decisions = {
 	
 	metropolis_war_1 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1186,7 +2790,7 @@ ai_war_decisions = {
 	
 	metropolis_war_2 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1264,7 +2868,7 @@ ai_war_decisions = {
 
 	north_jura_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -1319,7 +2923,7 @@ ai_war_decisions = {
 
 	CCH_north_jura_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -1348,7 +2952,7 @@ ai_war_decisions = {
 
 	ZAW_north_jura_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -1377,7 +2981,7 @@ ai_war_decisions = {
 
 	BRZ_hooligan_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -1407,7 +3011,7 @@ ai_war_decisions = {
 
 	ZAW_north_jura_war_2 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -1443,7 +3047,7 @@ ai_war_decisions = {
 	
 	CCH_north_jura_war_2 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -1479,7 +3083,7 @@ ai_war_decisions = {
 	
 	BRZ_north_jura_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -1513,7 +3117,7 @@ ai_war_decisions = {
 	
 	JWK_north_jura_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -1547,7 +3151,7 @@ ai_war_decisions = {
 
 	WOD_south_silesian_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1600,7 +3204,7 @@ ai_war_decisions = {
 
 	KAT_south_silesian_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1652,7 +3256,7 @@ ai_war_decisions = {
 
 	gliwice_war_2 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1701,7 +3305,7 @@ ai_war_decisions = {
 	
 	chorzow_war_2 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1749,7 +3353,7 @@ ai_war_decisions = {
 
 	bytom_war_2 = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1796,7 +3400,7 @@ ai_war_decisions = {
 
 	chorzow_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1824,7 +3428,7 @@ ai_war_decisions = {
 	}
 	bytom_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1853,7 +3457,7 @@ ai_war_decisions = {
 
 	gliwice_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1882,7 +3486,7 @@ ai_war_decisions = {
 
 	KAT_asg_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1911,7 +3515,7 @@ ai_war_decisions = {
 	
 	WOD_jsw_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_upper_silesia = yes
@@ -1941,7 +3545,7 @@ ai_war_decisions = {
 	
 	SOS_zaglebie_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -1975,7 +3579,7 @@ ai_war_decisions = {
 	
 	DGR_zaglebie_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_zaglebie_and_jura = yes
@@ -2016,7 +3620,7 @@ ai_war_decisions = {
 	
 	BSK_podbeskidzie_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_tatry_region = yes
@@ -2051,7 +3655,7 @@ ai_war_decisions = {
 	
 	FEL_leszno_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_southern_greater_poland = yes
@@ -2091,7 +3695,7 @@ ai_war_decisions = {
 	
 	CAL_gniezno_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_southern_greater_poland = yes
@@ -2130,7 +3734,7 @@ ai_war_decisions = {
 	
 	GNI_kalisz_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_southern_greater_poland = yes
@@ -2170,7 +3774,7 @@ ai_war_decisions = {
 	
 	SUS_sroda_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_southern_greater_poland = yes
@@ -2210,7 +3814,7 @@ ai_war_decisions = {
 	
 	FEL_kalisz_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_southern_greater_poland = yes
@@ -2250,7 +3854,7 @@ ai_war_decisions = {
 	
 	FEL_gniezno_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_southern_greater_poland = yes
@@ -2289,7 +3893,7 @@ ai_war_decisions = {
 	
 	CAL_sroda_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 			allowed = {
 			is_southern_greater_poland = yes
@@ -2329,7 +3933,7 @@ ai_war_decisions = {
 	
 	CAL_leszno_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_southern_greater_poland = yes
@@ -2369,7 +3973,7 @@ ai_war_decisions = {
 	
     GNI_sroda_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_southern_greater_poland = yes
@@ -2409,7 +4013,7 @@ ai_war_decisions = {
 	
 	GNI_leszno_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_southern_greater_poland = yes
@@ -2449,7 +4053,7 @@ ai_war_decisions = {
 	
 	SUS_kalisz_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_southern_greater_poland = yes
@@ -2489,7 +4093,7 @@ ai_war_decisions = {
 	
 	SUS_gniezno_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_southern_greater_poland = yes
@@ -2529,7 +4133,7 @@ ai_war_decisions = {
 
     NAC_pila_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2569,7 +4173,7 @@ ai_war_decisions = {
 	
 	PIL_grodzisk_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2609,7 +4213,7 @@ ai_war_decisions = {
 	
 	POZ_slums_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2645,7 +4249,7 @@ ai_war_decisions = {
 	
 	SYJ_slums_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2681,7 +4285,7 @@ ai_war_decisions = {
 	
 	POZ_syjon_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2717,7 +4321,7 @@ ai_war_decisions = {
 	
 	SYJ_jaskowiak_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2753,7 +4357,7 @@ ai_war_decisions = {
 	
 	POZ_pila_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2792,7 +4396,7 @@ ai_war_decisions = {
 	
 	POZ_grodzisk_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2831,7 +4435,7 @@ ai_war_decisions = {
 	
 	SYJ_pila_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2870,7 +4474,7 @@ ai_war_decisions = {
 	
 	SYJ_grodzisk_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2910,7 +4514,7 @@ ai_war_decisions = {
 	
 	PIL_jaskowiak_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2949,7 +4553,7 @@ ai_war_decisions = {
 	
 	PIL_syjon_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -2989,7 +4593,7 @@ ai_war_decisions = {
 	
 	NAC_jaskowiak_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -3028,7 +4632,7 @@ ai_war_decisions = {
 	
 	NAC_syjon_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_northern_greater_poland = yes
@@ -3068,7 +4672,7 @@ ai_war_decisions = {
 	
 	CRN_east_lublin_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3114,7 +4718,7 @@ ai_war_decisions = {
 
 	PUL_czarnek_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3144,7 +4748,7 @@ ai_war_decisions = {
 
 	PUL_krasnik_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3174,7 +4778,7 @@ ai_war_decisions = {
 
 	PUL_east_lublin_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3220,7 +4824,7 @@ ai_war_decisions = {
 
 	KSN_czarnek_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3250,7 +4854,7 @@ ai_war_decisions = {
 
 	KSN_east_lublin_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3296,7 +4900,7 @@ ai_war_decisions = {
 
 	SWD_biala_podlaska_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3326,7 +4930,7 @@ ai_war_decisions = {
 
 	SWD_southeast_lublin_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3361,7 +4965,7 @@ ai_war_decisions = {
 
 	SWD_west_lublin_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3403,7 +5007,7 @@ ai_war_decisions = {
 
 	ZUK_bilgoraj_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3433,7 +5037,7 @@ ai_war_decisions = {
 
 	ZUK_northeast_lublin_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3468,7 +5072,7 @@ ai_war_decisions = {
 
 	ZUK_west_lublin_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3510,7 +5114,7 @@ ai_war_decisions = {
 
 	BIL_northeast_lublin_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3545,7 +5149,7 @@ ai_war_decisions = {
 
 	BIL_west_lublin_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3587,7 +5191,7 @@ ai_war_decisions = {
 
 	BPD_southeast_lublin_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3622,7 +5226,7 @@ ai_war_decisions = {
 
 	BPD_west_lublin_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lubelskie = yes
@@ -3663,7 +5267,7 @@ ai_war_decisions = {
 	
 	ANA_FEM_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lower_silesia = yes
@@ -3693,7 +5297,7 @@ ai_war_decisions = {
 	
 	RYB_OLE_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lower_silesia = yes
@@ -3727,7 +5331,7 @@ ai_war_decisions = {
 	
 	ZUL_zule_wars = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lower_silesia = yes
@@ -3765,7 +5369,7 @@ ai_war_decisions = {
 	
 	MNL_zule_wars = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lower_silesia = yes
@@ -3803,7 +5407,7 @@ ai_war_decisions = {
 	
 	ANA_zule_wars = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lower_silesia = yes
@@ -3841,7 +5445,7 @@ ai_war_decisions = {
 	
 	EKS_subjection = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lower_silesia = yes
@@ -3874,7 +5478,7 @@ ai_war_decisions = {
 	
 	okamura_WRO_conquest_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lower_silesia = yes
@@ -3911,7 +5515,7 @@ ai_war_decisions = {
 	
 	EKS_KGH_or_CYG_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lower_silesia = yes
@@ -3953,7 +5557,7 @@ ai_war_decisions = {
 	
 	RYB_MPK_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lower_silesia = yes
@@ -3983,7 +5587,7 @@ ai_war_decisions = {
 	
 	East_vs_ZUL_war = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lower_silesia = yes
@@ -4036,7 +5640,7 @@ ai_war_decisions = {
 	
 	Lowersilesia_eating_of_puppets = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
 			is_lower_silesia = yes
@@ -4158,7 +5762,7 @@ ai_war_decisions = {
 	
 	MPK_RYB_makao = {
 
-		icon = GFX_decision_generic_form_nation
+		icon = GFX_decision_generic_prepare_civil_war
 
 		available = {
 			original_tag = WRO

@@ -749,6 +749,7 @@ BBW_infrastructure_focus = {
 					}
 				}
 			available = { controls_province = 10234 }	
+			cancel = { BBW = { NOT = { controls_province = 10234 } } }
 			traits = { belchatow_power_plant }
 			
 			research_bonus = {
@@ -761,6 +762,7 @@ BBW_infrastructure_focus = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = BBW }
 			available = { controls_province = 2723 }
+			cancel = { BBW = { NOT = { controls_province = 2723 } } }
 			cost = 200
 			traits = { medicine_company }
 			research_bonus = {
@@ -771,6 +773,7 @@ BBW_infrastructure_focus = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = BBW }
 			available = { controls_province = 10406 }
+			cancel = { BBW = { NOT = { controls_province = 10406 } } }
 			cost = 200
 			traits = { food_company }
 			research_bonus = {
@@ -786,6 +789,7 @@ BBW_infrastructure_focus = {
 			allowed = { tag = BBW }
 			available = { has_country_flag = parzno_cytadela 
 				controls_province = 3869 }
+			cancel = { BBW = { NOT = { controls_province = 3869 } } }
 			cost = 125
 			traits = { kombinat_cytadela_company }
 		}
@@ -793,6 +797,7 @@ BBW_infrastructure_focus = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = BBW }
 			available = { controls_province = 10235 }
+			cancel = { BBW = { NOT = { controls_province = 10235 } } }
 			cost = 200
 			traits = { car_reliability_company }
 			research_bonus = {

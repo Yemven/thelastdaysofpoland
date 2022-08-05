@@ -189,11 +189,7 @@ focus_tree = {
 		relative_position_id = WML_the_beginning_of_the_dialogue
 		prerequisite = { focus = WML_the_beginning_of_the_dialogue }
 		available = {}
-			country_event = {
-					id = WML.7 
-					}
-		
-		
+
 		bypass = {
 		}
 		
@@ -203,7 +199,9 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			country_event = {
+				id = WML.7 
+			}
 		}
 	}
 	
