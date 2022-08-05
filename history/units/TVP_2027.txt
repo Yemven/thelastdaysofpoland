@@ -1,0 +1,109 @@
+division_template = {
+	name = "Służby Specjalne Telewizji Polskiej"
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Bojówka Lojalistów TVP"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Widzowie TVP"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 2 y = 0 }
+		melee_infantry = { x = 3 y = 0 }
+		melee_infantry = { x = 4 y = 0 }
+	}
+}
+
+units = {
+    division = {
+		name = "Straż Siedziby Telewizji Polskiej"
+		location = 11463
+		division_template = "Służby Specjalne Telewizji Polskiej"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Jednostka Służb Specjalnych TVP 'Ochota'"
+		location = 3190
+		division_template = "Służby Specjalne Telewizji Polskiej"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+
+    division = {
+		name = "Jednostka Służb Specjalnych TVP 'Wilanów'"
+		location = 11485
+		division_template = "Służby Specjalne Telewizji Polskiej"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Bojówka Młodzieżowa TVP 'Młodzi w Łączności z Bogiem'"
+		location = 11442
+		division_template = "Bojówka Lojalistów TVP"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Ochotnicza Straż Siedziby TVP"
+		location = 11463
+		division_template = "Widzowie TVP"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.1
+	}
+
+	division = {
+		name = "Bojówka Lojalistów TVP ze Śródmieścia"
+		location = 11465
+		division_template = "Bojówka Lojalistów TVP"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Garnizon Powsin"
+		location = 11481
+		division_template = "Bojówka Lojalistów TVP"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Lojaliści TVP z Woli"
+		location = 11442
+		division_template = "Widzowie TVP"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+
+	division = {
+		name = "Lojaliści TVP z Ursynowa"
+		location = 11480
+		division_template = "Widzowie TVP"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+}
