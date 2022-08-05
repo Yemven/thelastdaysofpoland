@@ -2155,7 +2155,7 @@ ai_war_decisions = {
 				}
 			date > 2028.01.01
 			count_triggers = {
-				amount = 2
+				amount = 1
 					STA = { num_of_controlled_states < 1 }
 					SND = { num_of_controlled_states < 1 }
 					NRA = { num_of_controlled_states < 1 }
@@ -2884,7 +2884,7 @@ ai_war_decisions = {
 				date > 2028.06.01
 
 				count_triggers = {
-				amount = 2
+				amount = 1
 					CCH = { num_of_controlled_states < 1 }
 					ZAW = { num_of_controlled_states < 1 }
 					BRZ = { num_of_controlled_states < 1 }
