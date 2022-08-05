@@ -67,6 +67,26 @@ focus_tree = {
 			}
 		}
 	}
+			focus = {
+		id = WML_minuscule_civil_guard
+		relative_position_id = WML_behind_the_curtains_of_denial
+		prerequisite = { focus = WML_behind_the_curtains_of_denial }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		
+		cost = 1
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+		}
+	}
+	#pomoc od harcerzy w strzeżeniu ulic Łodzi
 	
 	focus = {
 		id = WML_energy_issues
@@ -86,6 +106,7 @@ focus_tree = {
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#wybór pomiędzy opieraniem się na bractwie czy zamiana spowrotem ec1 na elektrownie
+			Ale wybieramy tylko bractwo Komisarz
 			country_event = {
 			id = WML.4
 			}
@@ -109,7 +130,8 @@ focus_tree = {
 		cost = 1
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			#wybór pomiędzy współpracą z zhp, sapkiem lub rozwiązanie tego samemu 
+			#wybór pomiędzy współpracą z zhp, sapkiem lub rozwiązanie tego samemu
+				Z tej strony komisarz. Ma być do wyboru wyłącznie sapek 
 			country_event = {
 			id = WML.5
 			}
@@ -134,18 +156,41 @@ focus_tree = {
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#wybór pomiędzy współpracą z konsorcjum, lub widzewem lub wprowadzenie ograniczeń i recyklingu
+			Z tej strony komisarz. Ma być do wyboru wyłącznie konsorcjum
 			country_event = {
 			id = WML.6
 			}
 		}
 	}
-	
+	focus = {
+		id = WML_striking_workers
+		relative_position_id = WML_behind_the_curtains_of_denial
+		prerequisite = { focus = WML_behind_the_curtains_of_denial }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 1
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			}
+		}
+	#pomoc od żydów jak naprawić sytuację łódzkich robotników
 	focus = {
 		id = WML_city_will_hold_on
 		relative_position_id = WML_food_shortages
+		prerequisite = { focus = WML_minuscule_civil_guard }
+		prerequisite = { focus = WML_energy_issues }
 		prerequisite = { focus = WML_food_shortages }
 		prerequisite = { focus = WML_lack_of_materials }
-		prerequisite = { focus = WML_energy_issues }
+		prerequisite = { focus = WML_striking_workers }
+		
 		
 		x = 0
 		y = 1
@@ -174,7 +219,7 @@ focus_tree = {
 		}
 		
 		x = 13
-		y = 10
+		y = 5
 		
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
