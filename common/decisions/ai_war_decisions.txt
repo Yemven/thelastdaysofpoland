@@ -5693,9 +5693,12 @@ ai_war_decisions = {
 					original_tag = WRO
 					original_tag = CZE
 					original_tag = RYB
+					original_tag = ZUL
+					original_tag = MNL
+					original_tag = ANA
 					}
 			count_triggers = {
-				amount = 4
+				amount = 7
 					EKS = { num_of_controlled_states < 1 }
 					CYG = { num_of_controlled_states < 1 }
 					KGH = { num_of_controlled_states < 1 }
@@ -5703,6 +5706,9 @@ ai_war_decisions = {
 					WRO = { num_of_controlled_states < 1 }
 					CZE = { num_of_controlled_states < 1 }
 					MPK = { num_of_controlled_states < 1 }
+					ZUL = { num_of_controlled_states < 1 }
+					MNL = { num_of_controlled_states < 1 }
+					ANA = { num_of_controlled_states < 1 }
 				}
 			date > 2028.01.01
 		}
@@ -5754,6 +5760,24 @@ ai_war_decisions = {
 				if = { limit = { country_exists = MPK } 
 				declare_war_on = {
 					target = MPK
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = ZUL } 
+				declare_war_on = {
+					target = ZUL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = MNL } 
+				declare_war_on = {
+					target = MNL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = ANA } 
+				declare_war_on = {
+					target = ANA
 					type = annex_everything
 				}
 				}
