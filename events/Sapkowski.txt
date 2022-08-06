@@ -1,0 +1,390 @@
+﻿add_namespace = sapek
+add_namespace = sapek_war
+
+country_event = {
+	id = sapek.1 #intro-sapek
+	title = sapek.1.t
+	desc = sapek.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.1.a
+	}
+}
+
+country_event = {
+	id = sapek.2 #intro-bartyzel
+	title = sapek.2.t
+	desc = sapek.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.2.a
+	}
+}
+
+country_event = {
+	id = sapek.3 #intro-wojewodztwo
+	title = sapek.3.t
+	desc = sapek.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.3.a
+	}
+}
+
+country_event = {
+	id = sapek.4 #jaszczur-atakuje
+	title = sapek.4.t
+	desc = sapek.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.4.a
+		hidden_effect = {
+			set_country_flag = kaer_nevitz_attack
+		}
+	}
+}
+
+country_event = {
+	id = sapek.5 #plonie-stodola
+	title = sapek.5.t
+	desc = sapek.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.5.a
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_insanity
+				value = 10
+			}
+		}
+	}
+	option = {
+		name = sapek.5.b
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_sanity
+				value = 10
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = sapek_war.1 #spotkanie-kapituly
+	title = sapek_war.1.t
+	desc = sapek_war.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_war.1.a
+	}
+}
+
+country_event = {
+	id = sapek_war.2 #sapek-gollum
+	title = sapek_war.2.t
+	desc = sapek_war.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_war.2.a
+	}
+}
+
+country_event = {
+	id = sapek_war.3 #edykt-wojenny
+	title = sapek_war.3.t
+	desc = sapek_war.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_war.3.a
+		add_war_support = 0.1
+	}
+}
+
+country_event = {
+	id = sapek_war.4 #ultimatum
+	title = sapek_war.4.t
+	desc = sapek_war.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_war.4.a
+			WML = {
+				declare_war_on = {
+				target = SAP
+				type = annex_everything
+				}
+			}
+	}
+}
+
+country_event = {
+	id = sapek_war.5 #palac-w-manufakturze
+	title = sapek_war.5.t
+	desc = sapek_war.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_war.5.a
+	}
+}
+
+country_event = {
+	id = sapek_war.6 #baluty
+	title = sapek_war.6.t
+	desc = sapek_war.6.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_war.6.a
+	}
+}
+
+
+country_event = {
+	id = sapek_war.7 #ostatni-event-sane
+	title = sapek_war.7.t
+	desc = sapek_war.7.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_war.7.a
+	}
+}
+
+country_event = {
+	id = sapek_war.8 #ostatni-event-insane
+	title = sapek_war.8.t
+	desc = sapek_war.8.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_war.8.a
+	}
+}
+
+country_event = {
+	id = sapek_war.9 #skrzydlewscy-postwar
+	title = sapek_war.9.t
+	desc = sapek_war.9.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.9.a
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_insanity
+				value = 10
+			}
+		}
+		add_stability = 0.1
+	}
+	option = {
+		name = sapek.9.b
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_sanity
+				value = 10
+			}
+		}
+		add_stability = -0.1
+	}
+}
+
+country_event = {
+	id = sapek_war.10 #rutkowski-postwar
+	title = sapek_war.10.t
+	desc = sapek_war.10.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.10.a
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_insanity
+				value = 10
+			}
+		}
+		add_stability = -0.1
+		set_nationality = {
+			target_country = SAP
+			character = KRS_krzysztof_rutkowski
+		}
+		set_portraits = {
+			character = KRS_krzysztof_rutkowski
+			army = { large ="gfx/leaders/SAP/SAP_Rutkowski.dds" }
+		}
+		849 = {
+			create_unit = {
+				division = "division_template = \"Patrol Rutkowskiego\" start_experience_factor = 0.2 start_equipment_factor = 0.5"
+				owner = KRS
+			}
+			create_unit = {
+				division = "division_template = \"Patrol Rutkowskiego\" start_experience_factor = 0.2 start_equipment_factor = 0.5"
+				owner = KRS
+			}
+		}
+	}
+	option = {
+		name = sapek.10.b
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_sanity
+				value = 10
+			}
+		}
+		add_stability = 0.1
+		add_equipment_to_stockpile = {
+			type = ranged_equipment_2
+			amount = 1000
+			producer = KRS
+		}
+	}
+}
+
+country_event = {
+	id = sapek_war.11 #pogotowie-postwar
+	title = sapek_war.11.t
+	desc = sapek_war.11.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.11.a
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_insanity
+				value = 10
+			}
+		}
+	}
+}
+
+country_event = {
+	id = sapek_war.12 #widzew-postwar
+	title = sapek_war.12.t
+	desc = sapek_war.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.12.a
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_insanity
+				value = 10
+			}
+		}
+		add_stability = 0.1
+	}
+	option = {
+		name = sapek.12.b
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_sanity
+				value = 10
+			}
+		}
+		add_stability = -0.1
+	}
+}
+
+country_event = {
+	id = sapek_war.13 #zhp-postwar
+	title = sapek_war.13.t
+	desc = sapek_war.13.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.13.a
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_insanity
+				value = 10
+			}
+		}
+		add_stability = 0.1
+	}
+	option = {
+		name = sapek.13.b
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_sanity
+				value = 10
+			}
+		}
+		add_stability = -0.1
+	}
+}
+
+country_event = {
+	id = sapek_war.14 #bractwo-postwar
+	title = sapek_war.14.t
+	desc = sapek_war.14.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.14.a
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_insanity
+				value = 10
+			}
+		}
+		add_stability = 0.1
+	}
+	option = {
+		name = sapek.14.b
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_sanity
+				value = 10
+			}
+		}
+		add_stability = -0.1
+	}
+}

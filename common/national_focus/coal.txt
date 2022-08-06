@@ -455,10 +455,10 @@ focus_tree = {
 				days = 1 }
 		}
 	}
-	}
+}
 
+##WAR FOCUS TREE##
 
-	
 focus_tree = {
 	id = belchatow_war_focus
 	
@@ -466,12 +466,13 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add =10
 			tag = BBW
 		}
 	}
 	default = no
-
+	
+	continuous_focus_position = {x = 50 y = 1500 }
 	
 		focus = {
 		id = BBW_emergency_council
@@ -483,7 +484,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 3
+		x = 4
 		y = 0
 		
 		cost = 3.8
@@ -641,11 +642,18 @@ focus_tree = {
 		id = BBW_poor_examples
 		icon = BBW_poor_examples
 		available = {
-		has_country_flag = BBW_war_time
+		hidden_trigger = {
+		has_country_flag = BBW_war_time }
 		}
 		
 		bypass = {
-		NOT = { country_exists = ZHP }
+		OR = { 
+			AND = {	
+				ZHP = { num_of_controlled_states < 1 }
+				368 = { is_controlled_by = BBW }
+				}
+			has_war_with = ZHP
+			}
 		}
 		
 		x = 10
@@ -654,12 +662,10 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-			if = { limit = { NOT = { has_war_with = ZHP } } 
 				declare_war_on = {
 					target = ZHP
 					type = annex_everything
 				}
-			}
 		}
 	}
 	focus = {
@@ -668,10 +674,7 @@ focus_tree = {
 		relative_position_id = BBW_poor_examples
 		prerequisite = { focus = BBW_poor_examples }
 		available = {
-		AND = {
-		has_war = no
 		NOT = { country_exists = ZHP }
-		}
 		}
 		
 		bypass = {
@@ -744,7 +747,13 @@ focus_tree = {
 		}
 		
 		bypass = {
-		NOT = { country_exists = ZYD }
+		OR = { 
+			AND = {	
+				ZYD = { num_of_controlled_states < 1 }
+				353 = { is_controlled_by = BBW }
+				}
+			has_war_with = ZYD
+			}
 		}
 		
 		x = 0
@@ -753,12 +762,10 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-				if = { limit = { NOT = { has_war_with = ZYD } } 
 				declare_war_on = {
 					target = ZYD
 					type = annex_everything
 				}
-			}
 		}
 	}
 	focus = {
@@ -767,7 +774,7 @@ focus_tree = {
 		relative_position_id = BBW_revolution_avantgarde
 		prerequisite = { focus = BBW_revolution_avantgarde }
 		available = {
-		
+		NOT = { country_exists = ZYD }
 		}
 		
 		bypass = {
@@ -788,10 +795,7 @@ focus_tree = {
 		relative_position_id = BBW_revolution_avantgarde
 		prerequisite = { focus = BBW_revolution_avantgarde }
 		available = {
-		AND = {
-		has_war = no
 		NOT = { country_exists = ZYD }
-		}
 		}
 		
 		bypass = {
@@ -819,28 +823,38 @@ focus_tree = {
 		id = BBW_dangerous_ruins
 		icon = BBW_dangerous_ruins
 		relative_position_id = BBW_revolution_avantgarde
-		prerequisite = { focus = BBW_order_in_red_wilderness }
-		prerequisite = { focus = BBW_rehab_conscription }
+		prerequisite = { focus = BBW_normalcy_guarantee }
+		prerequisite = { focus = BBW_divide_et_impera }
 		available = {
-		
+			count_triggers = {
+				amount = 4
+				KRS = { num_of_controlled_states < 1 }
+				SAP = { num_of_controlled_states < 1 }
+				ZHP = { num_of_controlled_states < 1 }
+				ZYD = { num_of_controlled_states < 1 }				
+			}
 		}
 		
 		bypass = {
-		NOT = { country_exists = WML }
+		OR = { 
+			AND = {	
+				WML = { num_of_controlled_states < 1 }
+				302 = { is_controlled_by = BBW }
+				}
+			has_war_with = WML
+			}
 		}
 		
 		x = 0
-		y = 2
+		y = 4
 		
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-			if = { limit = { NOT = { has_war_with = WML } } 
 				declare_war_on = {
 					target = WML
 					type = annex_everything
 				}
-			}
 		}
 	}
 	focus = {
@@ -849,16 +863,14 @@ focus_tree = {
 		relative_position_id = BBW_dangerous_ruins
 		prerequisite = { focus = BBW_dangerous_ruins }
 		available = {
-		AND = {
-		has_war = no
-		NOT = { country_exists = WML }
-		}
+			WML = { num_of_controlled_states < 1 }
+			302 = { is_controlled_by = BBW }
 		}
 		
 		bypass = {
 		}
 		
-		x = -3
+		x = -2
 		y = 1
 		
 		cost = 2
@@ -885,16 +897,14 @@ focus_tree = {
 		relative_position_id = BBW_dangerous_ruins
 		prerequisite = { focus = BBW_dangerous_ruins }
 		available = {
-		AND = {
-		has_war = no
-		NOT = { country_exists = WML }
-		}
+			WML = { num_of_controlled_states < 1 }
+			302 = { is_controlled_by = BBW }
 		}
 		
 		bypass = {
 		}
 		
-		x = 3
+		x = 2
 		y = 1
 		
 		cost = 2
@@ -909,18 +919,16 @@ focus_tree = {
 	focus = {
 		id = BBW_ordinary_people
 		icon = BBW_ordinary_people
-		relative_position_id = BBW_chaos_among_rubble
-		prerequisite = { focus = BBW_chaos_among_rubble }
-		prerequisite = { focus = BBW_false_hope_symbols }
+		relative_position_id = BBW_order_in_red_wilderness
+		prerequisite = { focus = BBW_order_in_red_wilderness }
+		prerequisite = { focus = BBW_rehab_conscription }
 		available = {
-		has_war = no
+			has_war = no
+			KRS = { num_of_controlled_states > 1 }
 		}
 		
 		bypass = {
-			OR = {
-				NOT = { country_exists = KRS }
-			has_war_with = KRS
-			}
+			KRS = { num_of_controlled_states < 1 }
 		}
 		
 		x = 0
@@ -929,24 +937,30 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			KRS = {
-			country_event = { id = krosniewice.1 }
+			if = { limit = { NOT = { has_war_with = KRS } }
+				KRS = {
+				country_event = { id = krosniewice.1 }
+				}
+				custom_effect_tooltip = BBW_kroswiecki_tooltip
+			else = {
+				add_political_power = 50 
+				}
 			}
-			custom_effect_tooltip = BBW_kroswiecki_tooltip
 		}
 	}
 	focus = {
 		id = BBW_northern_retrograde
 		icon = BBW_northern_retrograde
-		relative_position_id = BBW_false_hope_symbols
-		prerequisite = { focus = BBW_chaos_among_rubble }
-		prerequisite = { focus = BBW_false_hope_symbols }
+		relative_position_id = BBW_rehab_conscription
+		prerequisite = { focus = BBW_rehab_conscription }
+		prerequisite = { focus = BBW_order_in_red_wilderness }
 		available = {
-		has_war = no
+			has_war = no
+			SAP = { num_of_controlled_states > 1 }
 		}
 		
 		bypass = {
-		NOT = { country_exists = SAP }
+			SAP = { num_of_controlled_states < 1 }
 		}
 		
 		x = 0
@@ -966,22 +980,26 @@ focus_tree = {
 	focus = {
 		id = BBW_divide_et_impera
 		icon = BBW_divide_et_impera
-		relative_position_id = BBW_dangerous_ruins
+		relative_position_id = BBW_northern_retrograde
 		prerequisite = { focus = BBW_northern_retrograde }
 		available = {
-		
+			SAP = { num_of_controlled_states < 1 }
+			269 = { is_controlled_by = BBW }
 		}
 		
 		bypass = {
 		}
 		
 		x = 0
-		y = 3
+		y = 1
 		
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-			
+			set_nationality = {
+				target_country = BBW
+				character = SAP_jacek_bartyzel
+			}
 		}
 	}
 	focus = {
@@ -990,10 +1008,8 @@ focus_tree = {
 		relative_position_id = BBW_ordinary_people
 		prerequisite = { focus = BBW_ordinary_people }
 		available = {
-		AND = {
-			has_war = no
-			NOT = { country_exists = KRS }
-		}
+			KRS = { num_of_controlled_states < 1 }
+			236 = { is_controlled_by = BBW }
 		}
 		
 		bypass = {
@@ -1015,11 +1031,12 @@ focus_tree = {
 	focus = {
 		id = BBW_licking_wounds
 		icon = BBW_licking_wounds
-		relative_position_id = BBW_northern_retrograde
-		prerequisite = { focus = BBW_normalcy_guarantee }
-		prerequisite = { focus = BBW_northern_retrograde }
+		relative_position_id = BBW_dangerous_ruins
+		prerequisite = { focus = BBW_false_hope_symbols }
+		prerequisite = { focus = BBW_chaos_among_rubble }
 		available = {
-		
+		  302 = { is_controlled_by = SAP }
+		  NOT = { has_war = yes }
 		}
 		
 		bypass = {
