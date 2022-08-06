@@ -105,8 +105,8 @@ focus_tree = {
 		cost = 1
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			#wybór pomiędzy opieraniem się na bractwie czy zamiana spowrotem ec1 na elektrownie
-			Ale wybieramy tylko bractwo Komisarz
+			#wybór pomiędzy opieraniem się na bractwie czy zamiana spowrotem ec1 na elektrownie 
+			#Ale wybieramy tylko bractwo -Komisarz
 			country_event = {
 			id = WML.4
 			}
@@ -131,7 +131,7 @@ focus_tree = {
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#wybór pomiędzy współpracą z zhp, sapkiem lub rozwiązanie tego samemu
-				Z tej strony komisarz. Ma być do wyboru wyłącznie sapek 
+			# Z tej strony komisarz. Ma być do wyboru wyłącznie sapek 
 			country_event = {
 			id = WML.5
 			}
@@ -156,7 +156,7 @@ focus_tree = {
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#wybór pomiędzy współpracą z konsorcjum, lub widzewem lub wprowadzenie ograniczeń i recyklingu
-			Z tej strony komisarz. Ma być do wyboru wyłącznie konsorcjum
+			#Z tej strony komisarz. Ma być do wyboru wyłącznie konsorcjum
 			country_event = {
 			id = WML.6
 			}
