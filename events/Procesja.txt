@@ -335,14 +335,26 @@ country_event = {
 
 	option = {
 		name = procesja_west.12.a
+		if = { limit = { HOR = { controls_state = 740 } }
 		740	= {			
 			teleport_armies = {
 				limit = {
-					has_war_with = SKW
+					ROOT = { has_war_with = SKW }
 				}
-					to_province = 11008
+					to_state = 800
 				}
 			}
+		}
+		if = { limit = { HOR = { controls_state = 472 } }
+		472	= {			
+			teleport_armies = {
+				limit = {
+					ROOT = { has_war_with = SKW }
+				}
+					to_state = 800
+				}
+			}
+		}
 	}
 }
 
@@ -380,6 +392,7 @@ country_event = {
 
 	option = {
 		name = procesja_west.14.a
+		if = { limit = { HOR = { controls_state = 740 } }
 		740	= {			
 			teleport_armies = {
 				limit = {
@@ -388,6 +401,17 @@ country_event = {
 					to_state = 800
 				}
 			}
+		}
+		if = { limit = { HOR = { controls_state = 472 } }
+		472	= {			
+			teleport_armies = {
+				limit = {
+					ROOT = { any_neighbor_country = { tag = WDW } }
+				}
+					to_state = 800
+				}
+			}
+		}
 		declare_war_on = {
 			target = WDW
 			type = annex_everything 
