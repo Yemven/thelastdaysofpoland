@@ -243,3 +243,41 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = zhp.17 # ekonomia
+	title = zhp.17.t
+	desc = zhp.17.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = zhp.17.a # broń palna
+		368 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	option = {
+		name = zhp.17.b # ciężarówki
+		368 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	option = {
+		name = zhp.17.c # łódki
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = naval_equipment
+		}
+	}
+}
