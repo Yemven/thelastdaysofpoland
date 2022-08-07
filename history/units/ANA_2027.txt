@@ -31,7 +31,39 @@ units = {
 		name = "2 Komando Czaka"
 		location = 1243
 		division_template = "Strzelcy Menelscy"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3 Komando Czaka"
+		location = 12870
+		division_template = "Strzelcy Menelscy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Brygada Bielawska"
+		location = 12885
+		division_template = "Zgraja Żuli"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Brygada z Gór Sowich"
+		location = 2561
+		division_template = "Zgraja Żuli"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Ekipa spod drzewka"
+		location = 12869
+		division_template = "Zgraja Żuli"
+		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
 }

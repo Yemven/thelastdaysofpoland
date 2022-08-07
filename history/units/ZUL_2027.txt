@@ -1,58 +1,109 @@
 division_template = {
-	name = "Batalion Milicji"
+	name = "Batalion Samoobrony Miejskiej"
 	regiments = {
-		militia = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 0 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		melee_infantry = { x = 1 y = 0 }
 	}
 }
 
 division_template = {
-	name = "Batalion Milicji Zmotoryzowanej"
-	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
-	}
-}
-
-division_template = {
-	name = "Batalion Rowerowy"
+	name = "Batalion Samoobrony Powiatowej"
 	regiments = {
 		bicycle_battalion = { x = 0 y = 0 }
-		bicycle_battalion = { x = 0 y = 1 }
 		bicycle_battalion = { x = 1 y = 0 }
-		bicycle_battalion = { x = 1 y = 1 }
+		bicycle_battalion = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Zmotoryzowany Batalion Samoobrony Powiatowej"
+	regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		armored_car = { x = 1 y = 0 }
+		armored_car = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Batalion Prezydencki"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		bicycle_battalion = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		bicycle_battalion = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Huligani"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 2 y = 0 }
 	}
 }
 
 
 units = {
-    division = {
-		name = "3 Batalion Straży Wałbrzyskiej"
+	division = {
+		name = "1 Batalion Armii Wałbrzyskiej 'Książ'"
 		location = 1167
-		division_template = "Batalion Rowerowy"
-		start_experience_factor = 0.2
+		division_template = "Batalion Prezydencki"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
-    division = {
-		name = "1 Batalion Straży Wałbrzyskiej"
-		location = 3936
-		division_template = "Batalion Milicji"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
+	
 	division = {
-		name = "2 Batalion Straży Wałbrzyskiej"
-		location = 12844
-		division_template = "Batalion Milicji"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		name = "Batalion Samoobrony Miejskiej 'Sobięcin-Podgórze'"
+		location = 12837
+		division_template = "Huligani"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
 	}
+	
 	division = {
-		name = "1 Batalion Zmotoryzowanej Straży Powiatowej"
-		location = 12844
-		division_template = "Batalion Milicji Zmotoryzowanej"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		name = "Batalion Szczawniańskiej Samoobrony Miejskiej"
+		location = 12846
+		division_template = "Batalion Samoobrony Miejskiej"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
+	
+	division = {
+		name = "Batalion Samoobrony Miejskiej 'Podzamcze-Piaskowa Góra'"
+		location = 16982
+		division_template = "Batalion Samoobrony Miejskiej"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "1 Batalion Samoobrony Powiatowej 'Zamek Cisy'"
+		location = 12845
+		division_template = "Batalion Samoobrony Powiatowej"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "2 Batalion Samoobrony Powiatowej 'Głuszyca'"
+		location = 12848
+		division_template = "Batalion Samoobrony Powiatowej"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "3 Batalion Samoobrony Powiatowej 'Mieroszów'"
+		location = 12843
+		division_template = "Zmotoryzowany Batalion Samoobrony Powiatowej"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+}

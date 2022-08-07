@@ -21,25 +21,48 @@ division_template = {
 units = {
 	division = {
 		name = "1 Brygada Pistona"
-		location = 2428
-		division_template = "Zgraja Żuli"
+		location = 12863
+		division_template = "Strzelcy Menelscy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 
 	division = {
 		name = "2 Brygada Pistona"
-		location = 2936
-		division_template = "Zgraja Żuli"
-		start_experience_factor = 0.1
+		location = 12891
+		division_template = "Strzelcy Menelscy"
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
 		name = "Wolne Strzelce"
-		location = 3933
+		location = 12854
 		division_template = "Strzelcy Menelscy"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Wspólnota Strzegomska"
+		location = 12858
+		division_template = "Zgraja Żuli"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Wspólnota Świdnicka"
+		location = 2428
+		division_template = "Zgraja Żuli"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Brygada 'Sowie Oko'"
+		location = 12874
+		division_template = "Strzelcy Menelscy"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 }
