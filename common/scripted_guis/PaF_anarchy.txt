@@ -1,0 +1,45 @@
+scripted_gui = {
+	
+	Zona_Diplomacy = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view
+		window_name = "Zona_Diplomacy_Container"
+		
+		visible = { zona_anarchy_ZON = yes }
+		
+		properties = {
+			Zona_ZZZ = {
+				image = "[GetZonaImage]"
+			}
+		}
+	}
+	
+	Skawina_Diplomacy = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view
+		window_name = "Skawina_Diplomacy_Container"
+		
+		visible = { skawina_anarchy_SKW = yes }
+		
+		properties = {
+			Skawina_ZZZ = {
+				image = "[GetSkawinaImage]"
+			}
+		}
+	}
+	
+	Bieszczady_Diplomacy = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view
+		window_name = "Bieszczady_Diplomacy_Container"
+		
+		visible = { bieszczady_anarchy_ANC = yes }
+		
+		properties = {
+			Bieszczady_ZZZ = {
+				image = "[GetBieszczadyImage]"
+			}
+		}
+	}
+
+}

@@ -839,4 +839,98 @@ country_event = {
 	}
 }
 
+
+country_event = {
+	id = aievent.21 #torun
+	title = aievent.21.t
+	desc = aievent.21.desc
+
+	fire_only_once = yes
+	trigger = { 
+		original_tag = TOR
+		date > 2027.09.01
+	}
+
+	option = {
+		name = aievent.21.a #rydzyk
+		set_politics = {
+			ruling_party = corporativism
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 0
+			euroliberalism = 0
+			freemarketism = 11
+			paternal_conservatism = 0
+			autocracy = 0
+			corporativism = 64
+			neonationalism = 19
+			reactionary = 6
+			postpolonism = 0
+		}
+		set_global_flag = procesja_lets_go
+	}
+	option = {
+		name = aievent.21.b #slusarski
+		set_politics = {
+			ruling_party = neonationalism 
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 0
+			euroliberalism = 0
+			freemarketism = 11
+			paternal_conservatism = 0
+			autocracy = 0
+			corporativism = 34
+			neonationalism = 49
+			reactionary = 6
+			postpolonism = 0
+		}
+		set_global_flag = procesja_lets_go
+	}
+	option = {
+		name = aievent.21.c #hoga
+		set_politics = {
+			ruling_party = reactionary
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 0
+			euroliberalism = 0
+			freemarketism = 11
+			paternal_conservatism = 0
+			autocracy = 0
+			corporativism = 34
+			neonationalism = 19
+			reactionary = 36
+			postpolonism = 0
+		}
+		set_global_flag = procesja_lets_go
+	}
+	option = {
+		name = aievent.21.d #memcen
+		set_politics = {
+			ruling_party = freemarketism
+			}
+		set_popularities = {
+			marxism_cranism	= 0
+			squattism = 0
+			socialdemocrature = 0
+			euroliberalism = 0
+			freemarketism = 41
+			paternal_conservatism = 0
+			autocracy = 0
+			corporativism = 34
+			neonationalism = 19
+			reactionary = 6
+			postpolonism = 0
+		}
+		set_global_flag = procesja_lets_go
+	}
+}
+
 	

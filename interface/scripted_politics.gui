@@ -43,4 +43,92 @@ containerWindowType = {
 			}
 		}
 	}
+	
+	
+containerWindowType = {
+		name = "Skawina_Diplomacy_Container"
+		position = { x = 0 y = 0 }
+		size = { width = 540 height = -11 }
+		
+		icontype = {
+			name = "Skawina_Relations_Block"
+			position = { x = 324 y = -45 }
+			spriteType = "GFX_Anarchy_Relations_Block"
+		}
+		
+		containerWindowType = {
+			name = "skawina_top_window"
+			position = { x = 12 y = -12 }
+			iconType = { # Image gets replaced thru scripted loc
+				name = "skawina_gui"
+				spriteType = "GFX_skawina"
+				position = { x = 0 y = 7 }
+				scale = 1.01
+			}
+		}
+		
+		containerWindowType = {
+			size = { width = 533 height = 635}
+			name = "skawina_bottom_window"
+			position = { x = 12 y = 270 }
+			background = {
+				name = "Background"		
+				spriteType ="GFX_tiled_bg"
+			}
+			instantTextboxType = {
+				name = "country_name"
+				position = { x = 12 y = 10 }
+				font = "hoi_33"
+				text = "Skawina_desc"
+				maxWidth = 510
+				fixedsize = no
+				maxHeight = 200
+				format = left
+			}
+		}
+	}
+	
+	
+containerWindowType = {
+		name = "Bieszczady_Diplomacy_Container"
+		position = { x = 0 y = 0 }
+		size = { width = 540 height = -11 }
+		
+		icontype = {
+			name = "Bieszczady_Relations_Block"
+			position = { x = 324 y = -45 }
+			spriteType = "GFX_Anarchy_Relations_Block"
+		}
+		
+		containerWindowType = {
+			name = "bieszczady_top_window"
+			position = { x = 12 y = -12 }
+			iconType = { # Image gets replaced thru scripted loc
+				name = "bieszczady_gui"
+				spriteType = "GFX_bieszczady"
+				position = { x = 0 y = 7 }
+				scale = 1.01
+			}
+		}
+		
+		containerWindowType = {
+			size = { width = 533 height = 635}
+			name = "bieszczady_bottom_window"
+			position = { x = 12 y = 270 }
+			background = {
+				name = "Background"		
+				spriteType ="GFX_tiled_bg"
+			}
+			instantTextboxType = {
+				name = "country_name"
+				position = { x = 12 y = 10 }
+				font = "hoi_33"
+				text = "Bieszczady_desc"
+				maxWidth = 510
+				fixedsize = no
+				maxHeight = 200
+				format = left
+			}
+		}
+	}
 }

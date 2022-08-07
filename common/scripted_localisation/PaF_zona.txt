@@ -7,3 +7,23 @@ defined_text = {
 		localization_key = "GFX_zona"
 	}
 }
+
+defined_text = {
+	name = GetSkawinaImage
+	text = {
+		trigger = {
+			skawina_visible = yes
+		}
+		localization_key = "GFX_skawina"
+	}
+}
+
+defined_text = {
+	name = GetBieszczadyImage
+	text = {
+		trigger = {
+			bieszczady_visible = yes
+		}
+		localization_key = "GFX_bieszczady"
+	}
+}
