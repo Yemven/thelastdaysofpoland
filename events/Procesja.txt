@@ -429,6 +429,9 @@ country_event = {
 
 	option = {
 		name = procesja_east.2.a
+		305 = {
+			KRS = { transfer_state = PREV }
+		}
 		192 = {
 			HOR = { transfer_state = PREV }
 		}
@@ -616,23 +619,20 @@ country_event = {
 
 	option = {
 		name = procesja_east.9.a
-		trigger = { 
-			SND = { controls_state = 417 }
-			}
+		if = { 
+			limit = { SND = { controls_state = 417 } }
 		country_event = {
 			id = procesja_east.10
 			days = 23
 		}
-	}
-	option = {
-		name = procesja_east.9.a
-		trigger = { 
-			PRK = { controls_state = 417 }
-			}
+		}
+		if = { 
+			limit = { PRK = { controls_state = 417 } }
 		country_event = {
 			id = procesja_west.9
 			days = 30
 		}
+		}		
 	}
 }
 
