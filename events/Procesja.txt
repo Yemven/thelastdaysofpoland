@@ -111,12 +111,10 @@ country_event = {
 	option = {
 		ai_chance = { base = 80 } #jestesmy-frajerami-dajemy-hajs
 		name = procesja_west.2.a
-		HOR = {
 		country_event = {
 			id = procesja_west.3
 			days = 14
 			}
-		}
 		305 = {
 			HOR = { transfer_state = PREV }
 		}
@@ -125,7 +123,11 @@ country_event = {
 		}
 		196 = {
 			TOR = { transfer_state = PREV }
-		}		
+		}
+		country_event = {
+			id = procesja_west.3
+			days = 14
+			}		
 	}
 	option = {
 		ai_chance = { base = 20 } #albo-jednak-spierdalamy
@@ -368,7 +370,7 @@ country_event = {
 				limit = {
 					ROOT = { has_war_with = SKW }
 				}
-					to_state = 800
+					to_province = 11008
 				}
 			}
 		}
@@ -378,7 +380,7 @@ country_event = {
 				limit = {
 					ROOT = { has_war_with = SKW }
 				}
-					to_state = 800
+					to_province = 11008
 				}
 			}
 		}
@@ -700,8 +702,15 @@ country_event = {
 		417 = {
 			HOR = { transfer_state = PREV }
 		}
+		if = { limit = { HOR = { controls_state = 660 } } 
 		660 = {
 			PUL = { transfer_state = PREV }
+		}
+		}
+		if = { limit = { HOR = { controls_state = 366 } }		
+		366 = {
+			SKA = { transfer_state = PREV }
+			}
 		}
 		HOR = { 
 			country_event = {
