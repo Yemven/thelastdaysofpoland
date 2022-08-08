@@ -677,11 +677,9 @@ ai_war_decisions = {
 				}
 
 		available = {
-				OR = {
-					original_tag = WOW
-				}
-			date > 2027.02.11
-				NOT = { has_war = yes }
+			original_tag = WOW
+			date > 2027.05.11
+			NOT = { has_war = yes }
 		}
 
 		cost = 1
@@ -1140,6 +1138,7 @@ ai_war_decisions = {
 					BOL = { num_of_controlled_states < 1 }
 				}
 				NOT = { has_war = yes }
+				date > 2028.01.01
 		}
 
 		cost = 1
@@ -1213,6 +1212,7 @@ ai_war_decisions = {
 					CZL = { num_of_controlled_states < 1 }
 				}
 				NOT = { has_war = yes }
+				date > 2028.01.01
 		}
 
 		cost = 1
@@ -1272,6 +1272,7 @@ ai_war_decisions = {
 					GDA = { num_of_controlled_states < 1 }
 				}
 				NOT = { has_war = yes }
+				date > 2028.01.01
 		}
 
 		cost = 1
@@ -1317,6 +1318,7 @@ ai_war_decisions = {
 					BOL = { num_of_controlled_states < 1 }
 				}
 				NOT = { has_war = yes }
+				date > 2028.01.01
 		}
 
 		cost = 1
@@ -1365,6 +1367,7 @@ ai_war_decisions = {
 					KSZ = { num_of_controlled_states < 1 }
 				}
 				NOT = { has_war = yes }
+				date > 2028.01.01
 		}
 
 		cost = 1
@@ -1410,6 +1413,7 @@ ai_war_decisions = {
 					CZL = { num_of_controlled_states < 1 }
 				}
 				NOT = { has_war = yes }
+				date > 2028.01.01
 		}
 
 		cost = 1
