@@ -43,15 +43,38 @@ country_event = {
 
 
 country_event = {
-	id = jomsborg.1 
-	title = jomsborg.1.t
-	desc = jomsborg.1.desc
+	id = jomsborg.2 
+	title = jomsborg.2.t
+	desc = jomsborg.2.desc
 
 	fire_only_once = yes
-	is_triggered_only = yes
+	trigger = { 
+		NOT = { has_war = yes }
+		POM = { num_of_controlled_states < 1 }
+		JOM = {	controls_state = 70 }
+		70 = { is_core_of = JOM }
+		original_tag = JOM
+	}
 
 	option = {
-		name = jomsborg.1.a
+		name = jomsborg.2.a
 		set_capital = {state = 70}
+		70 = { set_state_name = "Jomsborg" }
+		68 = { set_state_name = "Pommernstein" }
+		620 = { set_state_name = "Reval" }
+		61 = { set_state_name = "Grifsborg" }
+		55 = { set_state_name = "Gesturheim" }
+		621 = { set_state_name = "Pinnaströnd" }
+
+		set_province_name = { id = 17209 name = "Jomsborg" }
+		set_province_name = { id = 2787 name = "Pommernstein" }
+		set_province_name = { id = 17145 name = "Reval" }
+		set_province_name = { id = 17166 name = "Grifsborg" }
+		set_province_name = { id = 411 name = "Gesturheim" }
+		set_province_name = { id = 5532 name = "Pinnaströnd" }
+		
+	221 = {
+			DEN = { transfer_state = PREV }
+			}
 	}
 }

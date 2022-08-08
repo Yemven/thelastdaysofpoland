@@ -2759,11 +2759,11 @@ NAI = {
 	-- <end> assigning leaders to armies
 
 	-- Which settings will AI use for area defense by default
-	AREA_DEFENSE_SETTING_VP = false,
+	AREA_DEFENSE_SETTING_VP = true,
 	AREA_DEFENSE_SETTING_PORTS = true,
 	AREA_DEFENSE_SETTING_AIRBASES = false,
 	AREA_DEFENSE_SETTING_FORTS = false,
-	AREA_DEFENSE_SETTING_COASTLINES = true,
+	AREA_DEFENSE_SETTING_COASTLINES = false,
 	AREA_DEFENSE_SETTING_RAILWAYS = false,
 
 	AREA_DEFENSE_MINCAP_MAX_CAPITAL_DEFENSE = 100,              -- MaxUnits for capital defense is at least this. (basically use capital defense as a buffer if we have "too many units")

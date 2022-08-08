@@ -1,5 +1,1715 @@
 ai_war_decisions = {
 
+	war_kujpom_holy_shit = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_kuyavia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BYD
+					original_tag = INO
+					original_tag = TOR
+				}
+			date > 2028.03.06
+
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = TOR
+								 ROOT = { NOT = { tag = TOR } }
+								 ROOT = { NOT = { has_war_with = TOR } }
+								 }
+				declare_war_on = {
+					target = TOR
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = INO
+								 ROOT = { NOT = { tag = INO } }
+								 ROOT = { NOT = { has_war_with = INO } }
+								 }
+				declare_war_on = {
+					target = INO
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = BYD
+								 ROOT = { NOT = { tag = BYD } }
+								 ROOT = { NOT = { has_war_with = BYD } }
+								 }
+				declare_war_on = {
+					target = BYD
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	war_kujpom_grudziadz = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_kuyavia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = KUJ
+					original_tag = GRU
+				}
+			date > 2028.02.24
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = KUJ
+								 ROOT = { NOT = { tag = KUJ } } }
+				declare_war_on = {
+					target = KUJ
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = GRU
+								 ROOT = { NOT = { tag = GRU } } }
+				declare_war_on = {
+					target = GRU
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	warszawo_walcz_final_zachod = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = DUP
+					original_tag = MAF
+					original_tag = ZYR
+					original_tag = TVP
+					original_tag = TRZ
+				}
+				count_triggers = {
+					amount = 4
+					DUP = { num_of_controlled_states < 1 }
+					MAF = { num_of_controlled_states < 1 }
+					ZYR = { num_of_controlled_states < 1 }
+					TVP = { num_of_controlled_states < 1 }
+					TRZ = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = PLC
+								 ROOT = { NOT = { tag = PLC } } }
+				declare_war_on = {
+					target = PLC
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = LEG
+						 ROOT = { NOT = { tag = LEG } } }
+				declare_war_on = {
+					target = LEG
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = BIE
+								 ROOT = { NOT = { tag = BIE } } }
+				declare_war_on = {
+					target = BIE
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = ZIE 
+						 ROOT = { NOT = { tag = ZIE } } }
+				declare_war_on = {
+					target = ZIE
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = WOW 
+						 ROOT = { NOT = { tag = WOW } } }
+				declare_war_on = {
+					target = WOW
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = WOL 
+						 ROOT = { NOT = { tag = WOL } } }
+				declare_war_on = {
+					target = WOL
+					type = annex_everything
+				}
+				}				
+		}
+	}
+
+
+	warszawo_walcz_final_wschod = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = PLC
+					original_tag = BIE
+					original_tag = ZIE
+					original_tag = WOW
+				}
+				count_triggers = {
+					amount = 5
+					PLC = { num_of_controlled_states < 1 }
+					BIE = { num_of_controlled_states < 1 }
+					ZIE = { num_of_controlled_states < 1 }
+					WOW = { num_of_controlled_states < 1 }
+					LEG = { num_of_controlled_states < 1 }
+					WOL = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = MAF
+								 ROOT = { NOT = { tag = MAF } } }
+				declare_war_on = {
+					target = MAF
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = TVP 
+						 ROOT = { NOT = { tag = TVP } } }
+				declare_war_on = {
+					target = TVP
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = TRZ
+								 ROOT = { NOT = { tag = TRZ } } }
+				declare_war_on = {
+					target = TRZ
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = DUP 
+						 ROOT = { NOT = { tag = DUP } } }
+				declare_war_on = {
+					target = DUP
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = ZYR 
+						 ROOT = { NOT = { tag = ZYR } } }
+				declare_war_on = {
+					target = ZYR
+					type = annex_everything
+				}
+				}				
+		}
+	}
+
+	warszawo_walcz_poludnie_zachod = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = DUP
+					original_tag = MAF
+					original_tag = ZYR
+				}
+				count_triggers = {
+					amount = 2
+					DUP = { num_of_controlled_states < 1 }
+					MAF = { num_of_controlled_states < 1 }
+					ZYR = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = TVP
+								 ROOT = { NOT = { tag = TVP } } }
+				declare_war_on = {
+					target = TVP
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = TRZ 
+						 ROOT = { NOT = { tag = TRZ } } }
+				declare_war_on = {
+					target = TRZ
+					type = annex_everything
+				}
+				}					
+		}
+	}
+
+
+	warszawo_walcz_poludnie_wschod = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = TRZ
+					original_tag = TVP
+				}
+				OR = {
+					TRZ = { num_of_controlled_states < 1 }
+					TVP = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = DUP
+								 ROOT = { NOT = { tag = DUP } } }
+				declare_war_on = {
+					target = DUP
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = MAF 
+						 ROOT = { NOT = { tag = MAF } } }
+				declare_war_on = {
+					target = MAF
+					type = annex_everything
+				}
+				}	
+				if = { limit = { country_exists = ZYR 
+						 ROOT = { NOT = { tag = ZYR } } }
+				declare_war_on = {
+					target = ZYR
+					type = annex_everything
+				}
+				}					
+		}
+	}
+
+	warszawo_walcz_polnoc_zachod = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = PLC
+					original_tag = BIE
+				}
+				OR = {
+					PLC = { num_of_controlled_states < 1 }
+					BIE = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = ZIE
+								 ROOT = { NOT = { tag = ZIE } } }
+				declare_war_on = {
+					target = ZIE
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = WOW 
+						 ROOT = { NOT = { tag = WOW } } }
+				declare_war_on = {
+					target = WOW
+					type = annex_everything
+				}
+				}				
+		}
+	}
+
+	warszawo_walcz_polnoc_wschod = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = WOW
+					original_tag = ZIE
+				}
+				OR = {
+					WOW = { num_of_controlled_states < 1 }
+					ZIE = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = BIE
+								 ROOT = { NOT = { tag = BIE } } }
+				declare_war_on = {
+					target = BIE
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = PLC 
+						 ROOT = { NOT = { tag = PLC } } }
+				declare_war_on = {
+					target = PLC
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = LEG 
+						 ROOT = { NOT = { tag = LEG } } }
+				declare_war_on = {
+					target = LEG
+					type = annex_everything
+				}
+				}				
+		}
+	}
+
+
+	warszawo_walcz_dziki_inka = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = ZIE
+					original_tag = WOW
+
+				}
+			date > 2028.04.11
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = ZIE
+								 ROOT = { NOT = { tag = ZIE } } }
+				declare_war_on = {
+					target = ZIE
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = WOW 
+						 ROOT = { NOT = { tag = WOW } } }
+				declare_war_on = {
+					target = WOW
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	warszawo_walcz_podsiadlo = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BIE
+				}
+			date > 2028.04.03
+				NOT = { has_war = yes }
+				PLC = { num_of_controlled_states < 1 }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		remove_effect  = {
+				if = { limit = { country_exists = LEG }
+					declare_war_on = {
+						target = LEG
+						type = annex_everything
+					}
+				}
+		}
+	}
+
+
+	warszawo_walcz_jp = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = PLC
+				}
+			date > 2028.04.03
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = PLC
+								 ROOT = { tag = PLC }
+								 NOT = { has_war = yes } }
+					declare_war_on = {
+						target = BIE
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = LEG
+						type = annex_everything
+					}
+				}
+		}
+	}
+
+
+	warszawo_walcz_tvp_trzask = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = TRZ
+					original_tag = TVP
+
+				}
+			date > 2028.04.20
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = TVP
+								 ROOT = { NOT = { tag = TVP } } }
+				declare_war_on = {
+					target = TVP
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = TRZ 
+						 ROOT = { NOT = { tag = TRZ } } }
+				declare_war_on = {
+					target = TRZ
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	warszawo_walcz_dupa = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = DUP
+					original_tag = MAF
+					original_tag = ZYR
+				}
+			date > 2028.04.16
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = DUP
+								 ROOT = { NOT = { tag = DUP } }
+								 ROOT = { NOT = { has_war_with = DUP } }								
+								 }
+				declare_war_on = {
+					target = DUP
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = MAF 
+						 ROOT = { NOT = { tag = MAF } } 
+						 ROOT = { NOT = { has_war_with = MAF } }
+						 }
+				declare_war_on = {
+					target = MAF
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = ZYR 
+						 ROOT = { NOT = { tag = ZYR } } 
+						 ROOT = { NOT = { has_war_with = ZYR } }	 
+						 }
+				declare_war_on = {
+					target = ZYR
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	warszawo_walcz_wolomin = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = WOW
+				}
+			date > 2027.02.11
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = WOL
+								 ROOT = { NOT = { tag = WOL } } }
+				declare_war_on = {
+					target = WOL
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	warszawo_walcz_zie_las = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_capital_district = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = ZIE
+				}
+			date > 2027.10.24
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = LAS
+								 ROOT = { NOT = { tag = LAS } } }
+				declare_war_on = {
+					target = LAS
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	eating_of_radom = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_radom_province = yes
+				}
+
+		available = {
+			OR = {
+				original_tag = GAR
+				original_tag = SAT
+				original_tag = SKA
+			}
+				date > 2030.05.01
+				count_triggers = {
+					amount = 2
+					SAT = { num_of_controlled_states < 1 }
+					SKA = { num_of_controlled_states < 1 }
+					GAR = { num_of_controlled_states < 1 }
+				}
+			RAD = { is_puppet_of = ROOT }	
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		remove_effect  = {
+			annex_country = {
+				target = RAD
+				transfer_troops = yes
+			}
+		}
+	}
+
+	radom_final_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_radom_province = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = GAR
+					original_tag = SAT
+					original_tag = SKA
+				}
+				date > 2028.04.10
+				NOT = { has_war = yes }
+				OR = {
+					GAR = { num_of_controlled_states < 1 }
+					SAT = { num_of_controlled_states < 1 }
+					SKA = { num_of_controlled_states < 1 }
+					}
+				RAD = { num_of_controlled_states < 1 }	
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 4
+		remove_effect  = {
+				if = { limit = { country_exists = SAT
+								 ROOT = { NOT = { tag = SAT } } }
+				declare_war_on = {
+					target = SAT
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = GAR
+						 ROOT = { NOT = { tag = GAR } } }
+				declare_war_on = {
+					target = GAR
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = SKA
+								 ROOT = { NOT = { tag = SKA } } }
+				declare_war_on = {
+					target = SKA
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	radom_fb_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_radom_province = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = GAR
+					original_tag = SAT
+					original_tag = SKA
+				}
+				RAD = { is_puppet = yes } 
+				date > 2028.04.10
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 4
+		remove_effect  = {
+			if = { limit = { country_exists = SKA
+					RAD = { is_puppet_of = SKA } }
+				SAT = {
+					declare_war_on = {
+					target = SKA
+					type = annex_everything
+				}
+				}
+				GAR = {
+					declare_war_on = {
+					target = SKA
+					type = annex_everything
+				}
+				}
+			}
+			if = { limit = { country_exists = SAT
+					RAD = { is_puppet_of = SAT } }
+				SKA = {
+					declare_war_on = {
+					target = SAT
+					type = annex_everything
+				}
+				}
+				GAR = {
+					declare_war_on = {
+					target = SAT
+					type = annex_everything
+				}
+				}
+			}
+			if = { limit = { country_exists = GAR
+					RAD = { is_puppet_of = GAR } }
+				SKA = {
+					declare_war_on = {
+					target = GAR
+					type = annex_everything
+				}
+				}
+				SAT = {
+					declare_war_on = {
+					target = GAR
+					type = annex_everything
+				}
+				}
+			}			
+		}
+	}
+
+	radom_mafia_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_radom_province = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = RAD
+				}
+				RAD = { NOT = { is_puppet = yes } }
+				date > 2028.04.10
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 4
+		remove_effect  = {
+			RAD = {
+				if = { limit = { country_exists = SAT 
+						 ROOT = { NOT = { tag = SAT } } }
+				declare_war_on = {
+					target = SAT
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = SKA
+								 ROOT = { NOT = { tag = SKA } } }
+				declare_war_on = {
+					target = SKA
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = GAR 
+						 ROOT = { NOT = { tag = GAR } } }
+				declare_war_on = {
+					target = GAR
+					type = annex_everything
+				}
+				}
+			}
+			SAT = {
+				if = { limit = { country_exists = SKA
+								 ROOT = { NOT = { tag = SKA } } }
+				declare_war_on = {
+					target = SKA
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = GAR 
+						 ROOT = { NOT = { tag = GAR } } }
+				declare_war_on = {
+					target = GAR
+					type = annex_everything
+				}
+				}
+			}
+			GAR = {
+				if = { limit = { country_exists = SKA
+								 ROOT = { NOT = { tag = SKA } } }
+				declare_war_on = {
+					target = SKA
+					type = annex_everything
+				}
+				}
+			}
+		}
+	}
+
+	north_mazovia_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_mazovia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = POL
+					original_tag = ORL
+					original_tag = SAS
+				}
+				date > 2028.04.01
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 4
+		remove_effect  = {
+				if = { limit = { country_exists = ORL
+								 ROOT = { NOT = { tag = ORL } } }
+				declare_war_on = {
+					target = ORL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = POL 
+						 ROOT = { NOT = { tag = POL } } }
+				declare_war_on = {
+					target = POL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = SAS
+								 ROOT = { NOT = { tag = SAS } } }
+				declare_war_on = {
+					target = SAS
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = KUR 
+						 ROOT = { NOT = { tag = KUR } } }
+				declare_war_on = {
+					target = KUR
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = ZWK 
+						 ROOT = { NOT = { tag = ZWK } } }
+				declare_war_on = {
+					target = ZWK
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	potezny_sasin_masakruje_kurpie = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_mazovia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = SAS
+				}
+			date > 2027.11.01
+				NOT = { has_war = yes
+						has_decision = potezny_sasin_masakruje_zawkrze }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 15
+		remove_effect  = {
+				if = { limit = { country_exists = KUR
+								 ROOT = { NOT = { tag = KUR } } }
+				declare_war_on = {
+					target = KUR
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	potezny_sasin_masakruje_zawkrze = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_mazovia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = SAS
+				}
+			date > 2027.11.01
+				NOT = { has_war = yes
+						has_decision = potezny_sasin_masakruje_zawkrze }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 15
+		remove_effect  = {
+				if = { limit = { country_exists = ZWK
+								 ROOT = { NOT = { tag = ZWK } } }
+				declare_war_on = {
+					target = ZWK
+					type = annex_everything
+				}
+				}
+		}
+	}
+	
+
+	pom_war_final_tricity = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_pomerelia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = KOR
+					original_tag = GDA
+					original_tag = OWS
+					original_tag = BOL
+				}
+				count_triggers = {
+					amount = 3
+					GDA = { num_of_controlled_states < 1 }
+					KOR = { num_of_controlled_states < 1 }
+					OWS = { num_of_controlled_states < 1 }
+					BOL = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = LOT
+								 ROOT = { NOT = { tag = LOT } } }
+				declare_war_on = {
+					target = LOT
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = KSZ 
+						 ROOT = { NOT = { tag = KSZ } } }
+				declare_war_on = {
+					target = KSZ
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = HEL
+								 ROOT = { NOT = { tag = HEL } } }
+				declare_war_on = {
+					target = HEL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = CZL 
+						 ROOT = { NOT = { tag = CZL } } }
+				declare_war_on = {
+					target = CZL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = GAY 
+						 ROOT = { NOT = { tag = GAY } } }
+				declare_war_on = {
+					target = GAY
+					type = annex_everything
+				}
+				}				
+		}
+	}
+
+	pom_war_final_kaszubia = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_pomerelia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = LOT
+					original_tag = HEL
+					original_tag = KSZ
+					original_tag = GAY
+					original_tag = CZL
+				}
+				count_triggers = {
+					amount = 4 
+					LOT = { num_of_controlled_states < 1 }
+					HEL = { num_of_controlled_states < 1 }
+					KSZ = { num_of_controlled_states < 1 }
+					GAY = { num_of_controlled_states < 1 }
+					CZL = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = GDA
+								 ROOT = { NOT = { tag = GDA } } }
+				declare_war_on = {
+					target = GDA
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = KOR 
+						 ROOT = { NOT = { tag = KOR } } }
+				declare_war_on = {
+					target = KOR
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = BOL
+								 ROOT = { NOT = { tag = BOL } } }
+				declare_war_on = {
+					target = BOL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = OWS 
+						 ROOT = { NOT = { tag = OWS } } }
+				declare_war_on = {
+					target = OWS
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	pom_war_tricity_south = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_pomerelia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = KOR
+					original_tag = GDA
+				}
+				OR = {
+					KOR = { num_of_controlled_states < 1 }
+					GDA = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = OWS
+								 ROOT = { NOT = { tag = OWS } } }
+				declare_war_on = {
+					target = OWS
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = GDA 
+						 ROOT = { NOT = { tag = GDA } } }
+				declare_war_on = {
+					target = GDA
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	pom_war_tricity_north = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_pomerelia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = OWS
+					original_tag = BOL
+				}
+				OR = {
+					OWS = { num_of_controlled_states < 1 }
+					BOL = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = GDA
+								 ROOT = { NOT = { tag = GDA } } }
+				declare_war_on = {
+					target = GDA
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = KOR 
+						 ROOT = { NOT = { tag = KOR } } }
+				declare_war_on = {
+					target = KOR
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	pom_war_gay_kaszubia = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_pomerelia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = LOT
+					original_tag = HEL
+					original_tag = KSZ
+				}
+				count_triggers = {
+					amount = 2 
+					LOT = { num_of_controlled_states < 1 }
+					HEL = { num_of_controlled_states < 1 }
+					KSZ = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = GAY
+								 ROOT = { NOT = { tag = GAY } } }
+				declare_war_on = {
+					target = GAY
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = CZL 
+						 ROOT = { NOT = { tag = CZL } } }
+				declare_war_on = {
+					target = CZL
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	pom_war_kaszuby_gay = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_pomerelia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = GAY
+					original_tag = CZL
+				}
+				OR = {
+					GAY = { num_of_controlled_states < 1 }
+					CZL = { num_of_controlled_states < 1 }
+				}
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = HEL
+								 ROOT = { NOT = { tag = HEL } } }
+				declare_war_on = {
+					target = HEL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = KSZ 
+						 ROOT = { NOT = { tag = KSZ } } }
+				declare_war_on = {
+					target = KSZ
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = LOT 
+						 ROOT = { NOT = { tag = LOT } } }
+				declare_war_on = {
+					target = LOT
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+
+	pom_gay_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_pomerelia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = GAY
+					original_tag = CZL
+				}
+			date > 2028.03.19
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = GAY
+								 ROOT = { NOT = { tag = GAY } } }
+				declare_war_on = {
+					target = GAY
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = CZL 
+						 ROOT = { NOT = { tag = CZL } } }
+				declare_war_on = {
+					target = CZL
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	pom_war_kaszuby = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_pomerelia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = HEL
+					original_tag = KSZ
+					original_tag = LOT
+				}
+			date > 2028.03.16
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = HEL
+								 ROOT = { NOT = { tag = HEL } } 
+								 ROOT = { NOT = { has_war_with = HEL } }
+								 }
+				declare_war_on = {
+					target = HEL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = KSZ 
+						 ROOT = { NOT = { tag = KSZ } } 
+						 ROOT = { NOT = { has_war_with = KSZ } }
+						 }
+				declare_war_on = {
+					target = KSZ
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = LOT 
+						 ROOT = { NOT = { tag = LOT } } 
+						ROOT = { NOT = { has_war_with = LOT } }
+						 }
+				declare_war_on = {
+					target = LOT
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+
+	pom_war_gda_kor = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_pomerelia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = GDA
+					original_tag = KOR
+				}
+			date > 2028.03.26
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = KOR
+								 ROOT = { NOT = { tag = KOR } } }
+				declare_war_on = {
+					target = KOR
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = GDA 
+						 ROOT = { NOT = { tag = GDA } } }
+				declare_war_on = {
+					target = GDA
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	pom_war_ows_bol = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_pomerelia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = OWS
+					original_tag = BOL
+				}
+			date > 2028.03.28
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = OWS
+								 ROOT = { NOT = { tag = OWS } } }
+				declare_war_on = {
+					target = OWS
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = BOL 
+						 ROOT = { NOT = { tag = BOL } } }
+				declare_war_on = {
+					target = BOL
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	podlasie_traktor_boss = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_podlasie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BOM
+					original_tag = TAT
+					original_tag = BEL
+					original_tag = SAN
+					original_tag = LMZ
+					original_tag = KON
+				}
+				NOT = { 
+					OR = {
+							has_decision = podlasie_BOM
+							has_decision = podlasie_TNO
+							has_decision = podlasie_COL
+							has_decision = podlasie_LMZ
+							has_decision = podlasie_ZAM
+							has_decision = podlasie_HMA
+							has_decision = podlasie_WIL
+							has_decision = podlasie_UHL
+							has_decision = podlasie_BEL
+							has_decision = podlasie_DRO
+							has_decision = podlasie_ZAB
+							has_decision = podlasie_SUP
+							has_decision = podlasie_GRO
+							has_decision = podlasie_TYK
+							has_decision = podlasie_TAT
+							has_decision = podlasie_OSO
+							has_decision = podlasie_DAM
+							has_decision = podlasie_BRD
+							has_decision = podlasie_AUG
+							has_decision = podlasie_SAN
+							has_decision = podlasie_SEI
+							has_decision = podlasie_RAJ
+							has_decision = podlasie_KON
+						}
+					}
+				ROOT = { any_neighbor_country = { tag = AGR } }
+				ROOT = { any_neighbor_country = { tag = SDL } }
+				
+			NOT = { has_war = yes }
+				count_triggers = {
+					amount = 5
+						LMZ = { num_of_controlled_states < 1 }
+						BOM = { num_of_controlled_states < 1 }
+						KON = { num_of_controlled_states < 1 }
+						BEL = { num_of_controlled_states < 1 }
+						TAT = { num_of_controlled_states < 1 }
+						SAN = { num_of_controlled_states < 1 }
+					}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = AGR }
+				declare_war_on = {
+					target = AGR
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = SDL }
+				declare_war_on = {
+					target = SDL
+					type = annex_everything
+				}
+				}
+		}
+	}
+
 	podlasie_TAT = {
 
 		icon = GFX_decision_generic_prepare_civil_war
@@ -2365,7 +4075,6 @@ ai_war_decisions = {
 						original_tag = EKW
 						original_tag = EKS
 						original_tag = BRE
-						original_tag = KES
 						original_tag = KOS
 						original_tag = POM
 						}

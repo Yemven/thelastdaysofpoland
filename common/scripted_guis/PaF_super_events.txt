@@ -9,6 +9,9 @@ scripted_gui = {
 		}
 
 		triggers = {
+			ARK_exodus_super_image_visible = {
+				has_global_flag = ARK_exodus_super_visible
+			}
 			BBW_karbonizacja_super_image_visible = {
 				has_global_flag = BBW_karbonizacja_super_visible
 			}
@@ -84,6 +87,7 @@ scripted_gui = {
 				if = {
 					limit = {
 						OR = {
+							has_global_flag = ARK_exodus_super_visible
 							has_global_flag = BBW_karbonizacja_super_visible
 							has_global_flag = BBW_roksi_super_visible
 							has_global_flag = ZYD_lks_super_visible
@@ -106,6 +110,7 @@ scripted_gui = {
 							has_global_flag = ZERO_super_visible
 						}
 					}
+							clr_global_flag = ARK_exodus_super_visible
 							clr_global_flag = BBW_karbonizacja_super_visible
 							clr_global_flag = BBW_roksi_super_visible
 							clr_global_flag = ZYD_lks_super_visible

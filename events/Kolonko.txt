@@ -39,3 +39,41 @@ country_event = {
 }
 
 
+country_event = {
+	id = usp.2 
+	title = usp.2.t
+	desc = usp.2.desc
+
+	fire_only_once = yes
+	trigger = { 
+		NOT = { has_war = yes }
+		KOS = { num_of_controlled_states < 1 }
+		USP = {	controls_state = 53 }
+		53 = { is_core_of = USP }
+		original_tag = USP
+	}
+
+	option = {
+		name = usp.2.a
+		set_capital = {state = 53}
+		622 = { set_state_name = "Backshore" }
+		63 = { set_state_name = "Whitecastle" }
+		45 = { set_state_name = "Fieldtown" }
+		53 = { set_state_name = "Basketown" }
+		33 = { set_state_name = "Slavton" }
+		623 = { set_state_name = "Tearington" }
+
+		set_province_name = { id = 17000 name = "Backshore" }
+		set_province_name = { id = 2898 name = "Whitecastle" }
+		set_province_name = { id = 17018 name = "Fieldtown" }
+		set_province_name = { id = 16078 name = "Basketown" }
+		set_province_name = { id = 1509 name = "Slavton" }
+		set_province_name = { id = 3553 name = "Tearington" }
+		
+		27 = {
+			DEN = { transfer_state = PREV }
+			}
+	}
+}
+
+

@@ -1,5 +1,303 @@
 coring_category = {
 
+############USP#############
+
+	core_county_bialogard = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 63
+			controls_state = 45
+			}
+		}
+
+		visible = {
+			owns_state = 63
+			NOT = {
+				AND = {
+					63 = {
+						is_core_of = ROOT
+					}
+					45 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 63
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 63
+			add_state_core = 45
+			add_stability = 0.025
+		}
+	}
+
+
+	core_county_koszalin = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 622
+			controls_state = 53
+			}
+		}
+
+		visible = {
+			owns_state = 622
+			NOT = {
+				AND = {
+					622 = {
+						is_core_of = ROOT
+					}
+					53 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 622
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 622
+			add_state_core = 53
+			add_stability = 0.025
+		}
+	}
+
+	core_county_slawno = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 623
+			controls_state = 33
+			}
+		}
+
+		visible = {
+			owns_state = 623
+			NOT = {
+				AND = {
+					623 = {
+						is_core_of = ROOT
+					}
+					33 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 623
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 623
+			add_state_core = 33
+			add_stability = 0.025
+		}
+	}
+
+
+
+############JOM#############
+
+	core_county_kolobrzeg = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 621
+			controls_state = 55
+			}
+		}
+
+		visible = {
+			owns_state = 621
+			NOT = {
+				AND = {
+					621 = {
+						is_core_of = ROOT
+					}
+					55 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 621
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 621
+			add_state_core = 55
+			add_stability = 0.025
+		}
+	}
+
+
+	core_county_gryfice = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 620
+			controls_state = 61
+			}
+		}
+
+		visible = {
+			owns_state = 620
+			NOT = {
+				AND = {
+					620 = {
+						is_core_of = ROOT
+					}
+					61 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 620
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 620
+			add_state_core = 61
+			add_stability = 0.025
+		}
+	}
+
+
+	core_county_kamien_pomorski = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 70
+			controls_state = 68
+			}
+		}
+
+		visible = {
+			owns_state = 70
+			NOT = {
+				AND = {
+					70 = {
+						is_core_of = ROOT
+					}
+					68 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 70
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 70
+			add_state_core = 68
+			add_stability = 0.025
+		}
+	}
+
+
 ############OSO#############
 
 	core_monki = {

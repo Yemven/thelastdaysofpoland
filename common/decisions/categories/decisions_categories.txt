@@ -40,7 +40,7 @@ weapon_dealer = {
 
 ziobro_war = {
 	priority = 5
-	icon = generic_economy
+	icon = GFX_category_icon
 	visible_when_empty = no
 	allowed = {
 		original_tag = PRK
@@ -54,6 +54,16 @@ konon_decisions = {
 	visible_when_empty = yes
 	allowed = {
 		original_tag = KON
+	}
+}
+
+arka_decisions = {
+	priority = 5
+	icon = generic_economy
+	picture = GFX_category_icon
+	visible_when_empty = no
+	allowed = {
+		original_tag = ARK
 	}
 }
 
