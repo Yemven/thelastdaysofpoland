@@ -281,3 +281,32 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = zhp.18 # ostateczne rozwiązanie kwestii miast
+	title = zhp.18.t
+	desc = zhp.18.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = zhp.18.a
+		add_manpower = -1000
+		add_stability = -0.1
+	}
+}
+
+country_event = {
+	id = zhp.19 # miasto jest harcerzy
+	title = zhp.19.t
+	desc = zhp.19.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = zhp.19.a
+		add_stability = 0.05
+	}
+}

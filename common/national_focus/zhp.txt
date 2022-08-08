@@ -643,7 +643,11 @@ focus_tree = {
 		
 		cost = 4
 		search_filters = {}
-		completion_reward = { 
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = drugs_all_penalised
+				add_idea = drugs_harsh_penalised
+			}
 			hidden_effect = {
 				if = {
 					limit = {
@@ -680,7 +684,7 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			
+			add_ideas = ZHP_mandatory_scout_service
 		}
 	}
 	
@@ -702,7 +706,7 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			
+			country_event = {id = zhp.18}
 		}
 	}
 	
@@ -724,7 +728,8 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			
+			add_stability = 0.05
+			add_war_support = 0.05
 		}
 	}
 	
@@ -746,7 +751,7 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			
+			country_event = {id = zhp.19}
 		}
 	}
 	
