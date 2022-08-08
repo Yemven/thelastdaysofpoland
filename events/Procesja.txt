@@ -25,6 +25,7 @@ country_event = {
 			id = procesja_west.1
 			days = 2
 			}
+		
 		}
 	}
 	option = {
@@ -37,6 +38,32 @@ country_event = {
 			days = 2
 			}
 		}
+	}
+}
+
+news_event = {
+	id = procesja.3
+	title = procesja.3.t
+	desc = procesja.3.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = procesja.3.a
+		trigger = {
+			NOT = { 
+				tag = WDW
+				}
+			}
+	}
+	option = {
+		name = procesja.3.b
+		trigger = {
+			tag = WDW
+			}
 	}
 }
 
