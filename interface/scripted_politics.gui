@@ -6,11 +6,6 @@ containerWindowType = {
 		position = { x = 0 y = 0 }
 		size = { width = 540 height = -11 }
 		
-		icontype = {
-			name = "Zona_Relations_Block"
-			position = { x = 324 y = -45 }
-			spriteType = "GFX_Anarchy_Relations_Block"
-		}
 		
 		containerWindowType = {
 			name = "zona_top_window"
@@ -50,11 +45,6 @@ containerWindowType = {
 		position = { x = 0 y = 0 }
 		size = { width = 540 height = -11 }
 		
-		icontype = {
-			name = "Skawina_Relations_Block"
-			position = { x = 324 y = -45 }
-			spriteType = "GFX_Anarchy_Relations_Block"
-		}
 		
 		containerWindowType = {
 			name = "skawina_top_window"
@@ -93,12 +83,7 @@ containerWindowType = {
 		name = "Bieszczady_Diplomacy_Container"
 		position = { x = 0 y = 0 }
 		size = { width = 540 height = -11 }
-		
-		icontype = {
-			name = "Bieszczady_Relations_Block"
-			position = { x = 324 y = -45 }
-			spriteType = "GFX_Anarchy_Relations_Block"
-		}
+
 		
 		containerWindowType = {
 			name = "bieszczady_top_window"

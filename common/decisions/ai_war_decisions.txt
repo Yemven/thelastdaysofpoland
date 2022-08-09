@@ -416,6 +416,41 @@ ai_war_decisions = {
 				}
 		}
 	}
+	
+	osw_wdw_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lesser_poland = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = OSW
+				}
+				HOR = { has_war_with = WDW }
+				NOT = { has_war = yes }
+				date > 2028.01.01
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = WDW
+								 ROOT = { NOT = { tag = WDW } } }
+				declare_war_on = {
+					target = WDW
+					type = annex_everything
+				}
+				}
+		}
+	}
 
 	procesja_rules_cw = {
 
@@ -428,8 +463,6 @@ ai_war_decisions = {
 		available = {
 				original_tag = HOR
 				NOT = { has_war = yes }
-				WDW = { num_of_controlled_states < 1 }
-				HOR = { controls_state = 515 }
 				HOR = {	controls_state = 519 } 
 		}
 
@@ -446,6 +479,14 @@ ai_war_decisions = {
 												   has_war_with = OSW } } }
 				declare_war_on = {
 					target = OSW
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = WDW
+								 ROOT = { NOT = { tag = WDW 
+												   has_war_with = WDW } } }
+				declare_war_on = {
+					target = WDW
 					type = annex_everything
 				}
 				}
@@ -614,7 +655,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 5
 		remove_effect  = {
-				if = { limit = { country_exists = NHY
+				if = { limit = { country_exists = NHT
 								 ROOT = { NOT = { tag = NHT } } }
 				declare_war_on = {
 					target = NHT

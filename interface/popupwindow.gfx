@@ -1,6 +1,16 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_kwik"
+		texturefile = "gfx//interface//kwik.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_kwik_bg"
+		texturefile = "gfx//interface//kwik_bg.dds"
+	}
+
+	spriteType = {
 		name = "GFX_diplo_war_large_icon"
 		texturefile = "gfx//interface//diplo_war_large_icon.dds"
 	}
