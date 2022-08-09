@@ -582,7 +582,7 @@ country_event = {
 
 	option = {
 		name = aievent.14.a #jacek-krul
-		ai_chance = { base = 50 }
+		ai_chance = { base = 60 }
 		KRK = {
 		set_politics = {
 			ruling_party = autocracy
@@ -591,7 +591,7 @@ country_event = {
 	}
 	option = {
 		name = aievent.14.b #maklowicz
-		ai_chance = { base = 25 }
+		ai_chance = { base = 40 }
 		KRK_krul_maklowicz = yes
 	}
 }
