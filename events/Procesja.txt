@@ -365,6 +365,13 @@ country_event = {
 	option = {
 		name = procesja_west.12.a
 		if = { limit = { HOR = { controls_state = 740 } }
+		519 = {		
+			create_unit = {
+				division = "name = \"Święta Dywersja\" division_template = \"Pielgrzymi\" start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes				
+				prioritize_location = 11008			
+				owner = HOR
+			}
 		740	= {			
 			teleport_armies = {
 				limit = {
