@@ -1980,14 +1980,14 @@ NAI = {
 	AREA_DEFENSE_OTHER_VP_WEIGHT = { 0.0, 0.0, 1.0 },
 
 	AREA_DEFENSE_CAPITAL_PEACE_COAST_WEIGHT = { 0.0, 0.0, 0.0 },
-	AREA_DEFENSE_CAPITAL_COAST_WEIGHT = { 0.0, 0.2, 0.7 },
-	AREA_DEFENSE_HOME_COAST_WEIGHT = { 0.0, 0.1, 0.5 },
+	AREA_DEFENSE_CAPITAL_COAST_WEIGHT = { 0.0, 0.0, 0.0 },
+	AREA_DEFENSE_HOME_COAST_WEIGHT = { 0.0, 0.0, 0.0 },
 	AREA_DEFENSE_OTHER_COAST_WEIGHT = { 0.0, 0.0, 0.0 },
 
 	AREA_DEFENSE_CAPITAL_PEACE_BASE_WEIGHT = { 0.0, 0.0, 0.0 },
-	AREA_DEFENSE_CAPITAL_BASE_WEIGHT = { 0.5, 1.0, 1.5 },
-	AREA_DEFENSE_HOME_BASE_WEIGHT = { 0.5, 1.0, 1.0 },
-	AREA_DEFENSE_OTHER_BASE_WEIGHT = { 0.5, 0.5, 1.0 },
+	AREA_DEFENSE_CAPITAL_BASE_WEIGHT = { 0.2, 0.2, 0.2 },
+	AREA_DEFENSE_HOME_BASE_WEIGHT = { 0.2, 0.2, 0.2 },
+	AREA_DEFENSE_OTHER_BASE_WEIGHT = { 0.2, 0.2, 0.2 },
 
 	ESTIMATED_CONVOYS_PER_DIVISION = 6,			-- Not always correct, but mainly used to make sure AI does not go crazy
 	ENTRENCHMENT_WEIGHT = 2.0,					-- AI should favour units with less entrenchment when assigning units around.
@@ -2023,7 +2023,7 @@ NAI = {
 	MIN_FUEL_RATIO_TO_NOT_IGNORE_STRIKE_FORCE_COST = 0.0, -- ai will still assign strike forces unless fuel ratio drops below this one
 	MIN_FUEL_RATIO_TO_NOT_IGNORE_INVASION_SUPPORT_COST = 0.0, -- ai will still naval invasion support forces unless fuel ratio drops below this one
 
-	ENEMY_HOME_AREA_RATIO_TO_DISABLE_INVASIONS = 0.3, -- if we are fighting against an enemy home area from our home area and if the enemy area is larger than this ratio, non strategy invasions are disabled
+	ENEMY_HOME_AREA_RATIO_TO_DISABLE_INVASIONS = 0.1, -- if we are fighting against an enemy home area from our home area and if the enemy area is larger than this ratio, non strategy invasions are disabled
 
 	HOURS_BETWEEN_ENCIRCLEMENT_DISCOVERY = 72,	-- Per army, interval in hours between refresh of which provinces it considers make up potential encirclement points
 
@@ -2219,9 +2219,9 @@ NAI = {
 	PLAN_ACTIVATION_PLAYER_WEIGHT_FACTOR = 1,		-- AI countries will hold on activating plans if player controlled countries have plans in the same location. Majors count extra (value of 1 will negate this)
 	AREA_DEFENSE_BASE_IMPORTANCE = 30,                  -- Area defense order base importance value (used for determining order of troop selections)
 	AREA_DEFENSE_CIVIL_WAR_IMPORTANCE = 30,             -- Area defense order importance value when a country is in a civil war as target or revolter.
-	AREA_DEFENSE_IMPORTANCE_FACTOR = 1.0,               -- used to balance defensive area importance vs other fronts
+	AREA_DEFENSE_IMPORTANCE_FACTOR = 0.3,               -- used to balance defensive area importance vs other fronts
 
-	COMBINED_ARMS_LEVEL = 1,							-- 0 = Never, 1 = Infantry/Artillery, 2 = Go wild
+	COMBINED_ARMS_LEVEL = 2,							-- 0 = Never, 1 = Infantry/Artillery, 2 = Go wild
 	MAX_DISTANCE_NAVAL_INVASION = 400.0,				-- AI is extremely unwilling to plan naval invasions above this naval distance limit.
 	ENEMY_NAVY_STRENGTH_DONT_BOTHER = 2.5,				-- If the enemy has a navy at least these many times stronger that the own, don't bother invading
 	MIN_SUPPLY_USE_SANITY_CAP = 100,					-- Ignore supply cap if below this value when deciding on how many divisions to produce.
@@ -2603,9 +2603,9 @@ NAI = {
 
 	PLAN_VALUE_BONUS_FOR_MOVING_UNITS = 0.35,					-- AI plans gets a bonus when units are not moving and ready to fight
 	AGGRESSIVENESS_BONUS_FOR_FRONTS_THAT_ARE_ON_HIGH_AGGRESSIVENESS	= -0.5,	-- AI gets a bonus to aggresiveness if it is already executing an aggressive plan (lower is more aggressive)
-	AGGRESSIVENESS_CHECK_BASE = 1.0,							-- front comparison where ai will consider aggressive stance, unless it is already then the number above is used
+	AGGRESSIVENESS_CHECK_BASE = 0.75,							-- front comparison where ai will consider aggressive stance, unless it is already then the number above is used
 	AGGRESSIVENESS_CHECK_EASY_TARGET = -0.3,					-- if target nation is flagged as easy target we also adjust down the front comparison needed
-	AGGRESSIVENESS_CHECK_CAREFUL = 0.8,							-- at what front strength balance do we go careful
+	AGGRESSIVENESS_CHECK_CAREFUL = 0.5,							-- at what front strength balance do we go careful
 	AGGRESSIVENESS_CHECK_PARTLY_FORTIFIED = 2.0,				-- if front strength balance is at or above this value versus a party fortified enemy, we do a balanced attack
 	AGGRESSIVENESS_CHECK_PARTLY_FORTIFIED_WEAK_POINTS = 0.75,	-- if front strength balance is at or above this value versus a party fortified enemy, we rush attack weak points; below this value, we are careful
 	AGGRESSIVENESS_CHECK_FULLY_FORTIFIED = 10,					-- if front strength balance is at or above this value versus a fully fortified enemy with no weak points, we do a balanced attack instead being careful

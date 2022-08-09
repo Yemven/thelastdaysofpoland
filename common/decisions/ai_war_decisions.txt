@@ -189,7 +189,7 @@ ai_war_decisions = {
 					original_tag = TRN
 				}
 				count_triggers = {
-					amount = 7
+					amount = 3
 					UMN = { num_of_controlled_states < 1 }
 					BOH = { num_of_controlled_states < 1 }
 					PRK = { num_of_controlled_states < 1 }
@@ -936,12 +936,126 @@ ai_war_decisions = {
 
 		available = {
 				OR = {
+					original_tag = GRU
+					original_tag = KUJ
+				}
+				OR = { 
+					GRU = { num_of_controlled_states < 1 }
+					KUJ = { num_of_controlled_states < 1 }
+					}
+				NOT = { has_war = yes }
+			date > 2028.03.06
+
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = TOR
+								 ROOT = { NOT = { tag = TOR } }
+								 ROOT = { NOT = { has_war_with = TOR } }
+								 }
+				declare_war_on = {
+					target = TOR
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = INO
+								 ROOT = { NOT = { tag = INO } }
+								 ROOT = { NOT = { has_war_with = INO } }
+								 }
+				declare_war_on = {
+					target = INO
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = BYD
+								 ROOT = { NOT = { tag = BYD } }
+								 ROOT = { NOT = { has_war_with = BYD } }
+								 }
+				declare_war_on = {
+					target = BYD
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	war_kujpom_holy_shit_final1 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_kuyavia = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = BYD
+					original_tag = INO
+					original_tag = TOR
+				}
+				count_triggers = {
+				amount = 2 
+				BYD = { num_of_controlled_states < 1 }
+				INO = { num_of_controlled_states < 1 }
+				TOR = { num_of_controlled_states < 1 }
+				}
+			NOT = { has_war = yes }	
+			date > 2028.03.06
+
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = GRU
+								 ROOT = { NOT = { tag = GRU } }
+								 ROOT = { NOT = { has_war_with = GRU } }
+								 }
+				declare_war_on = {
+					target = GRU
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = KUJ
+								 ROOT = { NOT = { tag = KUJ } }
+								 ROOT = { NOT = { has_war_with = KUJ } }
+								 }
+				declare_war_on = {
+					target = KUJ
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	war_kujpom_holy_shit = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_kuyavia = yes
+				}
+
+		available = {
+				OR = {
 					original_tag = BYD
 					original_tag = INO
 					original_tag = TOR
 				}
 			date > 2028.03.06
-
+				NOT = { has_war = yes }
 		}
 
 		cost = 1
@@ -4258,7 +4372,7 @@ ai_war_decisions = {
 					original_tag = JOM
 					original_tag = SWI
 					original_tag = USP
-					original_tag = EKS
+					original_tag = EKW
 					original_tag = STE
 				}
 			date > 2028.01.01
@@ -4268,7 +4382,7 @@ ai_war_decisions = {
 					JOM = { num_of_controlled_states < 1 }
 					SWI = { num_of_controlled_states < 1 }
 					USP = { num_of_controlled_states < 1 }
-					EKS = { num_of_controlled_states < 1 }
+					EKW = { num_of_controlled_states < 1 }
 					STE = { num_of_controlled_states < 1 }	
 				}
 		}
