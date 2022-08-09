@@ -406,7 +406,7 @@ country_event = {
 		}
 		country_event = {
 			id = procesja_west.14
-			days = 3
+			days = 1
 			}
 	}
 }
@@ -446,10 +446,8 @@ country_event = {
 			type = annex_everything 
 		}
 		OSW = {
-			add_to_war = { 
-				targeted_alliance = HOR 
-				enemy = WDW 
-			}
+			create_faction = "Papal Crusaders"
+			add_to_faction = HOR
 		}
 	}
 }

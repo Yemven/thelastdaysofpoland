@@ -25,4 +25,30 @@ characters={
 			id=-1
 		}
 	}
+	RAD_bubak={
+		name="Witold Bubak"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAD/RAD_Bubak.dds"
+			}
+		}
+		country_leader={
+			ideology=paternal_conservatism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RAD_arndt={
+		name="Wojciech Arndt"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAD/RAD_Arndt.dds"
+			}
+		}
+		country_leader={
+			ideology=corporativism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
 }
