@@ -991,17 +991,6 @@ guiTypes = {
 			maxHeight = 100
 			format = left
 		}
-		instantTextBoxType = {
-			name = "date"
-			position = { x = 160 y = 233 }
-			textureFile = ""
-			font = "stellaris_main"
-			borderSize = {x = 0 y = 0}
-			text = [GetDate]
-			maxWidth = 350
-			maxHeight = 100
-			format = left
-		}
 		iconType = {
 			name ="diplo_popup_bottom"
 			spriteType = "GFX_diplo_popup_bottom"

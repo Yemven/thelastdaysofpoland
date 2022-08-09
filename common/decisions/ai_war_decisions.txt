@@ -1,5 +1,181 @@
 ai_war_decisions = {
 
+	lu_bush_war_4 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubuskie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = WIN
+					original_tag = ZAG
+				}
+				OR = {
+					WIN = { num_of_controlled_states < 1 }
+					ZAG = { num_of_controlled_states < 1 }
+					}
+				NOT = { has_war = yes }
+				date > 2028.03.21
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = MOT
+								 ROOT = { NOT = { tag = MOT } } }
+				declare_war_on = {
+					target = MOT
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = KAM 
+						 ROOT = { NOT = { tag = KAM } } }
+				declare_war_on = {
+					target = KAM
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	lu_bush_war_3 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubuskie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = MOT
+					original_tag = KAM
+				}
+				OR = {
+					MOT = { num_of_controlled_states < 1 }
+					KAM = { num_of_controlled_states < 1 }
+					}
+				NOT = { has_war = yes }
+				date > 2028.03.21
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = WIN
+								 ROOT = { NOT = { tag = WIN } } }
+				declare_war_on = {
+					target = WIN
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = ZAG 
+						 ROOT = { NOT = { tag = ZAG } } }
+				declare_war_on = {
+					target = ZAG
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	lu_bush_war_2 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubuskie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = MOT
+					original_tag = KAM
+				}
+				NOT = { has_war = yes }
+				date > 2028.03.21
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = MOT
+								 ROOT = { NOT = { tag = MOT } } }
+				declare_war_on = {
+					target = MOT
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = KAM 
+						 ROOT = { NOT = { tag = KAM } } }
+				declare_war_on = {
+					target = KAM
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	lu_bush_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubuskie = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = WIN
+					original_tag = ZAG
+				}
+				NOT = { has_war = yes }
+				date > 2028.03.18
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 3
+		remove_effect  = {
+				if = { limit = { country_exists = WIN
+								 ROOT = { NOT = { tag = WIN } } }
+				declare_war_on = {
+					target = WIN
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = ZAG 
+						 ROOT = { NOT = { tag = ZAG } } }
+				declare_war_on = {
+					target = ZAG
+					type = annex_everything
+				}
+				}
+		}
+	}
+
 	combat_wiejskiej_klasie = {
 
 		icon = GFX_decision_generic_prepare_civil_war
