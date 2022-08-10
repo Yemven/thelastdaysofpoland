@@ -1061,6 +1061,7 @@ country_event = {
 		name = aievent.23.a #bad
 		ai_chance = { base = 50 }
 			KGH = {
+			every_army_leader = {
 			add_temporary_buff_to_units = {
 			combat_offense = -0.25
 			combat_breakthrough = -0.25
@@ -1073,23 +1074,26 @@ country_event = {
 			tooltip = ABILITY_FORCE_ATTACK_TOOLTIP
 				}
 			}
+			}
 	}			
 	option = {
 		name = aievent.23.b #gud
 		ai_chance = { base = 50 }
 
 				KGH = {
-			add_temporary_buff_to_units = {
-			combat_offense = 0.25
-			combat_breakthrough = 0.25
-			org_damage_multiplier = -1.0
-			str_damage_multiplier = 0.25
-			war_support_reduction_on_damage = 0.2
-			cannot_retreat_while_attacking = 1.0
-						
-			days = 90
-			tooltip = ABILITY_FORCE_ATTACK_TOOLTIP
-				}
+				every_army_leader = {
+					add_temporary_buff_to_units = {
+					combat_offense = 0.25
+					combat_breakthrough = 0.25
+					org_damage_multiplier = -1.0
+					str_damage_multiplier = 0.25
+					war_support_reduction_on_damage = 0.2
+					cannot_retreat_while_attacking = 1.0
+								
+					days = 90
+					tooltip = ABILITY_FORCE_ATTACK_TOOLTIP
+						}
+					}
 			}
 	}
 }

@@ -855,7 +855,7 @@ ai_war_decisions = {
 		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
-			is_capital_district = yes
+			is_lesser_poland = yes
 				}
 
 		available = {
@@ -935,7 +935,7 @@ ai_war_decisions = {
 		}
 	}
 
-	war_kujpom_holy_shit = {
+	war_kujpom_holy_shit_final2 = {
 
 		icon = GFX_decision_generic_prepare_civil_war
 		
@@ -4386,7 +4386,7 @@ ai_war_decisions = {
 				}
 			date > 2028.01.01
 			count_triggers = {
-				amount = 3
+				amount = 2
 					JAS = { num_of_controlled_states < 1 }
 					JOM = { num_of_controlled_states < 1 }
 					SWI = { num_of_controlled_states < 1 }
@@ -4432,10 +4432,10 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
-				if = { limit = { country_exists = EKS 
-						 ROOT = { NOT = { tag = EKS } } }
+				if = { limit = { country_exists = EKW 
+						 ROOT = { NOT = { tag = EKW } } }
 				declare_war_on = {
-					target = EKS
+					target = EKW
 					type = annex_everything
 				}
 				}

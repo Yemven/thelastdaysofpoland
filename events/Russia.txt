@@ -1,0 +1,44 @@
+﻿add_namespace = kacap
+
+country_event = {
+	id = kacap.1
+	title = kacap.1.t
+	desc = kacap.1.desc
+
+	fire_only_once = yes
+	trigger = { 
+		date > 2030.02.20
+		tag = RUS
+	}
+
+	option = {
+		name = kacap.1.a 
+		set_politics = {
+				ruling_party = squattism
+			}
+		set_party_name = { 
+			ideology = squattism
+			long_name = "Civil War"
+			name = "Civil War"
+		}
+		news_event = {
+			id = kacap.2
+			days = 30
+			}
+		set_global_flag = russia_cw
+	}
+
+}
+
+news_event = {
+	id = kacap.2
+	title = kacap.2.t
+	desc = kacap.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = kacap.2.a 
+		}
+}
