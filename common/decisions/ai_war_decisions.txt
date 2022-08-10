@@ -8065,7 +8065,7 @@ ai_war_decisions = {
 		}
 	}
 	
-	ANA_FEM_war = {
+	ANA_WRO_war = {
 
 		icon = GFX_decision_generic_prepare_civil_war
 		
@@ -8074,8 +8074,9 @@ ai_war_decisions = {
 				}
 
 		available = {
-			original_tag = ANA
-			date > 2027.12.01
+			original_tag = WRO
+			NOT = { country_exists = BRE }
+			date > 2028.05.01
 		}
 		
 		cost = 1
@@ -8092,7 +8093,6 @@ ai_war_decisions = {
 				type = annex_everything
 			}
 		}
-
 	}
 	
 	RYB_OLE_war = {
@@ -8105,7 +8105,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = RYB
-			date > 2028.02.01
+			date > 2027.11.01
 		}
 
 		cost = 1
@@ -8139,7 +8139,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = ZUL
-			date > 2028.03.11
+			date > 2027.08.01
 			NOT = {
 				ANA = { has_war_with = FEM }
 			}
@@ -8177,7 +8177,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = MNL
-			date > 2028.03.11
+			date > 2027.08.01
 			NOT = {
 				ANA = { has_war_with = FEM }
 			}
@@ -8215,7 +8215,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = ANA
-			date > 2028.03.11
+			date > 2027.08.01
 			NOT = {
 				ANA = { has_war_with = FEM }
 			}
@@ -8276,7 +8276,7 @@ ai_war_decisions = {
 	}
 	
 	
-	okamura_WRO_conquest_war = {
+	okamura_ZUL_conquest_war = {
 
 		icon = GFX_decision_generic_prepare_civil_war
 		
@@ -8287,11 +8287,15 @@ ai_war_decisions = {
 		available = {
 			original_tag = CZE
 			date > 2028.02.16
-			NOT = {
-				WRO = { has_war_with = BRE }
-			}
 		}
-
+		
+		count_triggers = {
+			amount = 2
+			ZUL = { num_of_controlled_states < 1 }
+			ANA = { num_of_controlled_states < 1 }
+			MNL = { num_of_controlled_states < 1 }
+		}
+		
 		cost = 1
 
 		ai_will_do = {
@@ -8299,17 +8303,29 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 14
-		war_with_on_remove = WRO
+		war_with_on_remove = ZUL
+		war_with_on_remove = MNL
+		war_with_on_remove = ANA
 		remove_effect  = {
-			declare_war_on = {
-				target = WRO
-				type = annex_everything
+			if = { limit = { country_exists = ZUL } 
+				declare_war_on = {
+					target = ZUL
+					type = annex_everything
+				}
 			}
-		}
-		cancel_trigger = {
-			CZE = {
-				has_war_with = WRO
+			if = { limit = { country_exists = MNL } 
+				declare_war_on = {
+					target = MNL
+					type = annex_everything
+				}
 			}
+			if = { limit = { country_exists = ANA } 
+				declare_war_on = {
+					target = ANA
+					type = annex_everything
+				}
+			}
+
 		}
 	}
 	
@@ -8385,7 +8401,7 @@ ai_war_decisions = {
 		}	
 	}
 	
-	East_vs_ZUL_war = {
+	RYB_vs_WRO_war = {
 
 		icon = GFX_decision_generic_prepare_civil_war
 		
@@ -8394,16 +8410,9 @@ ai_war_decisions = {
 				}
 
 		available = {
-			OR = {
-				original_tag = WRO
-				original_tag = CZE
-			}
-		count_triggers = {
-				amount = 1
-					WRO = { num_of_controlled_states < 1 }
-					CZE = { num_of_controlled_states < 1 }
-				}
-			date > 2028.01.01
+			original_tag = WRO
+			NOT = { country_exists = MPK }
+			date > 2028.07.01
 		}
 		cost = 1
 
@@ -8412,29 +8421,12 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 14
-		war_with_on_remove = ZUL
-		war_with_on_remove = MNL
-		war_with_on_remove = ANA
+		war_with_on_remove = RYB
 		remove_effect  = {
-			if = { limit = { country_exists = ZUL } 
-				declare_war_on = {
-					target = ZUL
-					type = annex_everything
-				}
+			declare_war_on = {
+				target = RYB
+				type = annex_everything
 			}
-			if = { limit = { country_exists = MNL } 
-				declare_war_on = {
-					target = MNL
-					type = annex_everything
-				}
-			}
-			if = { limit = { country_exists = ANA } 
-				declare_war_on = {
-					target = ANA
-					type = annex_everything
-				}
-			}
-
 		}
 	}
 	
@@ -8584,13 +8576,44 @@ ai_war_decisions = {
 		}
 	}
 	
+	KGH_drastic_measures = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lower_silesia = yes
+				}
+
+		available = {
+			original_tag = KGH
+			date > 2029.01.01
+			KGH = { has_war_with = CYG }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		remove_effect  = {
+			KGH = {
+				country_event = {
+				id = aievent.23
+				days = 3
+				}
+			}
+		}
+	}
+	
 	MPK_RYB_makao = {
 
 		icon = GFX_decision_generic_prepare_civil_war
 
 		available = {
 			original_tag = WRO
-			WRO = { has_war_with = CZE }
+			WRO = { has_war_with = FEM }
 		}
 		
 		allowed = {
