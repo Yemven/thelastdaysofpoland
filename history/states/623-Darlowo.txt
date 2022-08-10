@@ -9,14 +9,20 @@ state={
 			history = {
 		owner = EKW
 		add_core_of = EKW
+		
+		victory_points = { 3353 20 }
+		victory_points = { 16956 2 }
+		victory_points = { 710 2 }
+		victory_points = { 1917 2 }
 	buildings = {
-	infrastructure = 7
-	3553 = {
-	naval_base = 3
-	}
-	16956 = {
-	naval_base = 1
-	}
+		infrastructure = 7
+		3553 = {
+		naval_base = 3
+		}
+		16956 = {
+		naval_base = 1
+		}
+		air_base = 4
 }
 }
 }
