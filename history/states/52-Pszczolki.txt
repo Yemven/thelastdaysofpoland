@@ -5,7 +5,7 @@ state={
 	provinces={
 		61 1906 2413 3267 3547 15999 16000 16001 16002 16003 16004 16006 16007 16008 16010 16011 16012 16013 16014 16015 16016 16017 16018 16019 16020 16021 16022 16023 16024 16025 16079
 	}
-	manpower = 43493   state_category = city
+	manpower = 43493   state_category = rural
 	buildings_max_level_factor=1.000
 				history = {
 		owner = GDA
@@ -17,7 +17,8 @@ state={
 		victory_points = {16019 2 }
 		add_core_of = GDA
 	buildings = {
-	infrastructure = 7
+	infrastructure = 4
+	industrial_complex = 1
 }
 }
 }

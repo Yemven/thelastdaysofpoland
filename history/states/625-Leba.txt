@@ -11,7 +11,8 @@ state={
 		victory_points = { 16148 2 }
 		add_core_of = KSZ
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
+			industrial_complex = 1
 		16151 = {
 			naval_base = 3
 			}
@@ -24,6 +25,6 @@ state={
 	}
 	manpower=9103
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 	local_supplies=0.000
 }

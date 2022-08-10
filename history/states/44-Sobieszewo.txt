@@ -4,7 +4,7 @@ state={
 	provinces={
 		4165 11343 11344
 	}
-	manpower = 22319   state_category = city
+	manpower = 22319   state_category = large_town
 	buildings_max_level_factor=1.000
 				history = {
 		owner = GDA
@@ -12,7 +12,7 @@ state={
 		victory_points = {11343 2}
 		add_core_of = GDA
 	buildings = {
-	infrastructure = 7
+	infrastructure = 6
 	11343 = {
 	naval_base = 6
 	}
@@ -22,6 +22,9 @@ state={
 	4165 = {
 	naval_base = 1
 	}
+	fuel_silo = 3
+	arms_factory = 2
+	dockyard = 2
 }
 }
 }

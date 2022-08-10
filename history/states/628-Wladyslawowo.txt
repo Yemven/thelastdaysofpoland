@@ -7,7 +7,7 @@ state={
 	}
 	manpower = 23516 
 resources={
-		oil = 12} state_category = city
+		oil = 12} state_category = rural
 	buildings_max_level_factor=1.000
 				history = {
 		owner = KSZ
@@ -19,10 +19,11 @@ resources={
 		victory_points = {7435 2 }
 		add_core_of = KSZ
 	buildings = {
-	infrastructure = 7
+	infrastructure = 4
 	16400 = {
 	naval_base = 1
 	}
+	industrial_complex = 1
 }
 }
 }

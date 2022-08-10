@@ -40,7 +40,7 @@ state={
 		}
 		add_core_of = KSZ
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			11366 = {
 			naval_base = 4
 			}
@@ -51,6 +51,8 @@ state={
 			16421 = {
 			naval_base = 1
 			}
+			fuel_silo = 2
+			industrial_complex = 1
 		}
 
 	}
@@ -60,6 +62,6 @@ state={
 	}
 	manpower=53426
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 	local_supplies=0.000
 }

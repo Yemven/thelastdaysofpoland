@@ -21,8 +21,11 @@ state={
 		victory_points = { 15951 2 }
 		add_core_of = MAL
 		buildings = {
-			infrastructure = 7
+			infrastructure = 6
 			air_base = 4
+			industrial_complex = 3
+			arms_factory = 1
+			15947 = { bunker = 3 }
 		}
 
 	}
@@ -32,6 +35,6 @@ state={
 	}
 	manpower=61835
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 	local_supplies=0.000
 }

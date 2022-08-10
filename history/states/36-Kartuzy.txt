@@ -4,7 +4,7 @@ state={
 	provinces={
 		1053 1978 2079 2405 2849 3060 3475 3541 16005 16009 16080 16081 16082 16083 16084 16085 16086 16087 16088 16089 16090 16091 16092 16093 16094 16095 16096 16097 16098 16099 16100 16101 16102 16103 16104 16105 16106 16107 16108 16109 16110 16111 16112 16113 16114 16115 16116 16117 16118 16119 16120 16121 16122 16123 16124
 	}
-	manpower = 136304   state_category = city
+	manpower = 136304   state_category = town
 	buildings_max_level_factor=1.000
 				history = {
 		owner = KSZ
@@ -21,7 +21,8 @@ state={
 		victory_points = {16114 1 }
 		add_core_of = KSZ
 	buildings = {
-	infrastructure = 7
+	infrastructure = 5
+	industrial_complex = 2 
 }
 }
 }
