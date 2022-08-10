@@ -640,6 +640,8 @@ ai_war_decisions = {
 				original_tag = HOR
 				NOT = { has_war = yes }
 				HOR = {	controls_state = 519 } 
+				OSW = { num_of_controlled_states > 1 }
+				WDW = { num_of_controlled_states > 1 }
 		}
 
 		cost = 1
@@ -647,9 +649,12 @@ ai_war_decisions = {
 		ai_will_do = {
 			factor = 100
 		}
-		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+				519 = {
+				`	add_core_of = HOR 
+				}
+				set_capital = {state = 519}
 				if = { limit = { country_exists = OSW
 								 ROOT = { NOT = { tag = OSW 
 												   has_war_with = OSW } } }
@@ -703,6 +708,10 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+				800 = {
+				`	add_core_of = HOR 
+				}
+				set_capital = {state = 800}
 				if = { limit = { country_exists = OSW
 								 ROOT = { NOT = { tag = OSW 
 												   has_war_with = OSW } } }

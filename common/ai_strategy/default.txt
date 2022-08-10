@@ -912,3 +912,31 @@ default_produce_floating_harbors = {
 		value = 10
 	}
 }
+
+
+zandberg_debilu_kryj_front = {
+
+enable = { 
+	tag = JOM
+	has_war_with = SWI
+	}
+ai_strategy = {
+ 	type = front_control
+
+	tag = SWI
+	priority = 10 
+	ordertype = front 
+	execution_type = aggresive 
+	execute_order = yes 
+}
+	ai_strategy = {
+		type = conquer
+		id = SWI
+		value = 500
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = SWI
+		value = 1000
+	}
+}

@@ -575,10 +575,7 @@ country_event = {
 	desc = aievent.14.desc
 
 	fire_only_once = yes
-	trigger = { 
-		original_tag = KRK
-		date > 2027.12.01
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = aievent.14.a #jacek-krul
