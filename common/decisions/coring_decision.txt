@@ -9219,7 +9219,59 @@ core_nowy_sacz = {
 	}
 	
 #################CCH################
+	core_czestochowa = {
 
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 418
+			controls_state = 869
+			controls_state = 870
+			}
+		}
+
+		visible = {
+			owns_state = 418
+			NOT = {
+				AND = {
+					418 = {
+						is_core_of = ROOT
+					}
+					869 = {
+						is_core_of = ROOT
+					}
+					870 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 418
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 30
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 418
+			add_state_core = 869
+			add_state_core = 870
+			add_stability = 0.025
+		}
+	}
+	
 	core_koniecpol = {
 
 		icon = GFX_decision_generic_form_nation
@@ -9274,7 +9326,6 @@ core_nowy_sacz = {
 
 		available = {
 			AND = {
-			controls_state = 418
 			controls_state = 592
 			controls_state = 423
 			}
@@ -9285,9 +9336,6 @@ core_nowy_sacz = {
 			NOT = {
 				AND = {
 					592 = {
-						is_core_of = ROOT
-					}
-					418 = {
 						is_core_of = ROOT
 					}
 					423 = {
@@ -9316,7 +9364,6 @@ core_nowy_sacz = {
 		remove_effect  = {
 			add_state_core = 592
 			add_state_core = 423
-			add_state_core = 418
 			add_stability = 0.025
 		}
 	}
