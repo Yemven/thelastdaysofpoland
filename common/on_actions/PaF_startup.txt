@@ -54,6 +54,12 @@ on_actions = {
 					days = 190 
 					}
 			}
+			RZE = {
+				country_event = {
+					id = rzeszow_siege.1
+					days = 14
+					}
+			}
 			OSW = {
 				add_to_war = { 
 					targeted_alliance = PRK 
@@ -203,6 +209,7 @@ on_actions = {
 			}
 			BSC = { 
 				scoped_play_song = "intro_bieszczady"
+			}
 		}
 	}
 }

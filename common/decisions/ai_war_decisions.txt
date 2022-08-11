@@ -1,5 +1,383 @@
 ai_war_decisions = {
 
+
+	warmia_vs_masuria_2 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_warmia_and_masuria = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = PRU
+					original_tag = MAL
+					original_tag = TEU
+				}
+				date > 2028.04.01
+				NOT = { has_war_with = ROS }
+				count_triggers = {
+					amount = 2
+					PRU = { num_of_controlled_states < 1 }
+					MAL = { num_of_controlled_states < 1 }
+					TEU = { num_of_controlled_states < 1 }
+					}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = WAR
+								 ROOT = { NOT = { tag = WAR } }
+								 ROOT = { NOT = { has_war_with = WAR } }
+								 }
+				declare_war_on = {
+					target = WAR
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = PZW
+								 ROOT = { NOT = { tag = PZW } }
+								 ROOT = { NOT = { has_war_with = PZW } }
+								 }
+				declare_war_on = {
+					target = PZW
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	warmia_vs_masuria_1 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_warmia_and_masuria = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = PZW
+					original_tag = WAR
+				}
+				date > 2028.04.01
+				NOT = { has_war_with = ROS }
+				OR = {
+					PZW = { num_of_controlled_states < 1 }
+					WAR = { num_of_controlled_states < 1 }
+					}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+				if = { limit = { country_exists = PRU
+								 ROOT = { NOT = { tag = PRU } }
+								 ROOT = { NOT = { has_war_with = PRU } }
+								 }
+				declare_war_on = {
+					target = PRU
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = MAL
+								 ROOT = { NOT = { tag = MAL } }
+								 ROOT = { NOT = { has_war_with = MAL } }
+								 }
+				declare_war_on = {
+					target = MAL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = TEU
+								 ROOT = { NOT = { tag = TEU } }
+								 ROOT = { NOT = { has_war_with = TEU } }
+								 }
+				declare_war_on = {
+					target = TEU
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	lake_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_warmia_and_masuria = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = PZW
+					original_tag = WAR
+				}
+				date > 2028.04.01
+				NOT = { has_war_with = ROS }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = PZW
+								 ROOT = { NOT = { tag = PZW } }
+								 ROOT = { NOT = { has_war_with = PZW } }
+								 }
+				declare_war_on = {
+					target = PZW
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = WAR
+								 ROOT = { NOT = { tag = WAR } }
+								 ROOT = { NOT = { has_war_with = WAR } }
+								 }
+				declare_war_on = {
+					target = WAR
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	great_teutonic_war2 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_warmia_and_masuria = yes
+				}
+
+		available = {
+				original_tag = TEU
+				date > 2028.04.01
+				NOT = { has_war_with = ROS }
+				NOT = { has_war = yes }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = PRU
+								 ROOT = { NOT = { tag = PRU } }
+								 ROOT = { NOT = { has_war_with = PRU } }
+								 }
+				declare_war_on = {
+					target = PRU
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = MAL
+								 ROOT = { NOT = { tag = MAL } }
+								 ROOT = { NOT = { has_war_with = MAL } }
+								 }
+				declare_war_on = {
+					target = MAL
+					type = annex_everything
+				}
+				}				
+		}
+	}
+
+	great_teutonic_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_warmia_and_masuria = yes
+				}
+
+		available = {
+				OR = {
+					original_tag = MAL
+					original_tag = PRU
+				}
+				date > 2028.04.01
+				NOT = { has_war_with = ROS }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 10
+		remove_effect  = {
+				if = { limit = { country_exists = TEU
+								 ROOT = { NOT = { tag = TEU } }
+								 ROOT = { NOT = { has_war_with = TEU } }
+								 }
+				declare_war_on = {
+					target = TEU
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = PRU
+								 ROOT = { NOT = { tag = PRU } }
+								 ROOT = { NOT = { has_war_with = PRU } }
+								 }
+				declare_war_on = {
+					target = PRU
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = MAL
+								 ROOT = { NOT = { tag = MAL } }
+								 ROOT = { NOT = { has_war_with = MAL } }
+								 }
+				declare_war_on = {
+					target = MAL
+					type = annex_everything
+				}
+				}
+		}
+	}
+
+	russian_invasion = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_warmia_and_masuria = yes
+				}
+
+		available = {
+				original_tag = ROS
+				ROS = { num_of_controlled_states > 1 }
+				NOT = { has_war = yes }
+				date > 2028.02.19
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 5
+		remove_effect  = {
+				if = { limit = { country_exists = TEU
+								 ROOT = { NOT = { tag = TEU } } }
+				declare_war_on = {
+					target = TEU
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = MAL
+								 ROOT = { NOT = { tag = MAL } } }
+				declare_war_on = {
+					target = MAL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = PRU
+								 ROOT = { NOT = { tag = PRU } } }
+				declare_war_on = {
+					target = PRU
+					type = annex_everything
+				}
+				}	
+				if = { limit = { country_exists = WAR
+								 ROOT = { NOT = { tag = WAR } } }
+				declare_war_on = {
+					target = WAR
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = PZW
+								 ROOT = { NOT = { tag = PZW } } }
+				declare_war_on = {
+					target = PZW
+					type = annex_everything
+				}
+				}	
+		}
+	}
+
+	anti_russian_front = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_warmia_and_masuria = yes
+				}
+
+		available = {
+			OR = {	
+				AND = {
+					OR = {
+						original_tag = TEU
+						original_tag = WAR 
+						original_tag = PZW
+					}
+					ROS = { num_of_controlled_states > 1 }
+					NOT = { has_war_with = ROS }
+					date > 2028.04.01
+				}
+				AND = {	
+					OR = {
+						original_tag = TEU
+						original_tag = WAR 
+						original_tag = PZW
+					}
+					ROS = { num_of_controlled_states > 1 }
+					has_war_with = ROS
+				}
+			}
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 5
+		remove_effect  = {
+				if = { limit = { country_exists = ROS
+								 ROOT = { NOT = { tag = ROS } }
+								 ROOT = { NOT = { has_war_with = ROS } } }
+				declare_war_on = {
+					target = ROS
+					type = annex_everything
+				}
+				}
+			WAR = {	
+				create_faction = "Anti-Russian Front"
+				add_to_faction = TEU
+				add_to_faction = PZW
+				}
+				news_event = { 
+					id = rosja.3
+					}
+		}
+	}
+
 	lu_bush_war_4 = {
 
 		icon = GFX_decision_generic_prepare_civil_war
@@ -5118,6 +5496,7 @@ ai_war_decisions = {
 					}
 				NOT = {
 					OR = {
+						original_tag = SND
 						original_tag = BBW
 						original_tag = ZHP
 						original_tag = SAP

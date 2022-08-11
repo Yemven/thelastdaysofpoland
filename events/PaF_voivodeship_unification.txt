@@ -861,3 +861,18 @@ news_event = {
 		name = unification.55.a
 	}
 }
+
+#Rosja
+news_event = {
+	id = unification.56
+	title = unification.56.t
+	desc = unification.56.desc
+
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = unification.56.a
+	}
+}

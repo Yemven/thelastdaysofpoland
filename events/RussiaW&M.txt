@@ -1,0 +1,100 @@
+﻿add_namespace = rosja
+
+country_event = {
+	id = rosja.1
+	title = rosja.1.t
+	desc = rosja.1.desc
+
+	fire_only_once = yes
+	trigger = { 
+		ROS = {
+			has_war = yes
+			num_of_controlled_states < 7
+			}
+		OR = {
+			country_exists = TEU
+			country_exists = WAR
+			country_exists = PZW
+			}
+	}
+
+	option = {
+		name = rosja.1.a 
+		news_event = {
+			id = rosja.2
+			}
+		white_peace = TEU
+		white_peace = WAR
+		white_peace = MAL
+		white_peace = PRU
+		white_peace = PZW
+		40 = {
+			add_core_of = TEU
+		}
+		632 = {
+			add_core_of = TEU
+		}
+		42 = {
+			add_core_of = WAR			
+		}
+		47 = {
+			add_core_of = WAR
+		}
+		51 = {
+			add_core_of = PZW
+		}
+		46 = {
+			add_core_of = PZW
+		}
+		every_owned_state = {
+			limit = { is_core_of = TEU }
+			TEU = { transfer_state = PREV }
+		}
+		every_owned_state = {
+			limit = { is_core_of = WAR }
+			WAR = { transfer_state = PREV }
+		}
+		every_owned_state = {
+			limit = { is_core_of = PRU }
+			PRU = { transfer_state = PREV }
+		}
+		every_owned_state = {
+			limit = { is_core_of = MAL }
+			MAL = { transfer_state = PREV }
+		}
+		every_owned_state = {
+			limit = { is_core_of = PZW }
+			PZW = { transfer_state = PREV }
+		}
+		set_politics = {
+			ruling_party = reactionary
+		}
+	}
+}
+
+news_event = {
+	id = rosja.2
+	title = rosja.2.t
+	desc = rosja.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = rosja.2.a 
+		}
+}
+
+news_event = {
+	id = rosja.3
+	title = rosja.3.t
+	desc = rosja.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = rosja.3.a 
+		}
+}
+

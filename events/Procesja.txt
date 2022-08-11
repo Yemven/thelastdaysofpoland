@@ -25,8 +25,13 @@ country_event = {
 			id = procesja_west.1
 			days = 2
 			}
-		
 		}
+		every_country = {
+			limit = { NOT = { is_ai = yes } }
+			news_event = {
+				id = procesja.3
+				}
+			}
 	}
 	option = {
 		ai_chance = { base = 35 }
@@ -38,6 +43,12 @@ country_event = {
 			days = 2
 			}
 		}
+		every_country = {
+			limit = { NOT = { is_ai = yes } }
+			news_event = {
+				id = procesja.3
+				}
+			}
 	}
 }
 
