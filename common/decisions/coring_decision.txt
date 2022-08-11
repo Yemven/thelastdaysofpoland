@@ -9271,12 +9271,13 @@ core_nowy_sacz = {
 			add_stability = 0.025
 			
 		if = { 
-				limit = { ROOT = USP }
+				limit = { original_tag = USP }
 					418 = { set_state_name = USP_STATE_418 }
-				}
-			else = {
+					}
+		else = {
 				418 = { reset_state_name = yes }
 				}
+
 		}
 	}
 	
