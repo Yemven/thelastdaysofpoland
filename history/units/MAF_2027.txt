@@ -1,0 +1,81 @@
+division_template = {
+	name = "Osiłki Mafii Pruszkowskiej"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Policja pod kontrolą mafii"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Konwój policji podległej mafii"
+	regiments = {
+		armored_car = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		armored_car = { x = 0 y = 3 }
+		armored_car = { x = 1 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Ożarowskie bojówki mafijne"
+		location = 2980
+		division_template = "Osiłki Mafii Pruszkowskiej"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Nadarzyńskie bojówki mafijne"
+		location = 2161
+		division_template = "Osiłki Mafii Pruszkowskiej"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Pruszkowskie bojówki mafijne"
+		location = 1665
+		division_template = "Osiłki Mafii Pruszkowskiej"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Pruszkowska policja"
+		location = 1665
+		division_template = "Policja pod kontrolą mafii"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Konwój policji pruszkowskiej"
+		location = 1665
+		division_template = "Konwój policji podległej mafii"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Nadarzyńska policja"
+		location = 2161
+		division_template = "Policja pod kontrolą mafii"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+}

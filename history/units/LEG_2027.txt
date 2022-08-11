@@ -1,0 +1,70 @@
+division_template = {
+	name = "Gangi Osiedlowe"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kibole Legii"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Kibole z Targówka"
+		location = 3762
+		division_template = "Kibole Legii"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Kibole z Pragi"
+		location = 3767
+		division_template = "Kibole Legii"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Kibole z Saskiej"
+		location = 11394
+		division_template = "Kibole Legii"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Kibole z Narodowego"
+		location = 11396
+		division_template = "Kibole Legii"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Gangusy z Pragi"
+		location = 11398
+		division_template = "Gangi Osiedlowe"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "Gangusy z Targówka"
+		location = 11394
+		division_template = "Gangi Osiedlowe"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+}
