@@ -9269,6 +9269,14 @@ core_nowy_sacz = {
 			add_state_core = 869
 			add_state_core = 870
 			add_stability = 0.025
+			
+		if = { 
+				limit = { ROOT = USP }
+					418 = { set_state_name = USP_STATE_418 }
+				}
+			else = {
+				418 = { reset_state_name = yes }
+				}
 		}
 	}
 	
