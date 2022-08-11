@@ -14,7 +14,7 @@ country_event = {
 
 	option = {
 		name = WML.1.a
-		
+
 	}
 }
 
@@ -28,9 +28,9 @@ country_event = {
 
 	option = {
 		name = WML.2.a
-		
+
 		add_ideas = WML_three_problems1
-		
+
 	}
 }
 
@@ -44,7 +44,7 @@ country_event = {
 
 	option = {
 		name = WML.3.a
-		
+
 	}
 }
 
@@ -60,7 +60,7 @@ country_event = {
 
 	option = {
 		name = WML.4.a
-		
+
 		if = {
 			limit = {
 				WML = { has_idea = WML_three_problems2 }
@@ -97,12 +97,12 @@ country_event = {
 				}
 			}
 		}
-		
-		
+
+
 	}
 	option = {
 		name = WML.4.b
-		
+
 		if = {
 			limit = {
 				WML = { has_idea = WML_three_problems2 }
@@ -139,7 +139,7 @@ country_event = {
 				}
 			}
 		}
-		
+
 	}
 }
 
@@ -153,7 +153,7 @@ country_event = {
 
 	option = {
 		name = WML.5.a
-		
+
 		if = {
 			limit = {
 				WML = { has_idea = WML_three_problems2 }
@@ -191,10 +191,10 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = WML.5.b
-		
+
 		if = {
 			limit = {
 				WML = { has_idea = WML_three_problems2 }
@@ -232,10 +232,10 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = WML.5.c
-		
+
 		if = {
 			limit = {
 				WML = { has_idea = WML_three_problems2 }
@@ -273,7 +273,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 }
 
 country_event = {
@@ -322,11 +322,11 @@ country_event = {
 				}
 			}
 		}
-		
+
 	}
 	option = {
 		name = WML.6.b
-		
+
 		if = {
 			limit = {
 				WML = { has_idea = WML_three_problems2 }
@@ -363,11 +363,11 @@ country_event = {
 				}
 			}
 		}
-		
+
 	}
 	option = {
 		name = WML.6.c
-		
+
 		if = {
 			limit = {
 				WML = { has_idea = WML_three_problems2 }
@@ -404,7 +404,58 @@ country_event = {
 				}
 			}
 		}
-		
+	}
+	}
+	country_event = {
+		id = WML.10
+		title = WML.10.t
+		desc = WML.10.desc
+
+		fire_only_once = yes
+		is_triggered_only = yes
+
+		option = {
+			name = WML.10.a
+
+			if = {
+				limit = {
+					WML = { has_idea = WML_three_problems2 }
+				}
+				custom_effect_tooltip = WML_three_problems_big_decrease_tt
+				hidden_effect = {
+				swap_ideas = {
+						add_idea = WML_three_problems3
+						remove_idea = WML_three_problems2
+					}
+				}
+			}
+			if = {
+				limit = {
+					WML = { has_idea = WML_three_problems1 }
+				}
+				custom_effect_tooltip = WML_three_problems_big_decrease_tt
+				hidden_effect = {
+				swap_ideas = {
+						add_idea = WML_three_problems2
+						remove_idea = WML_three_problems1
+					}
+				}
+			}
+			if = {
+				limit = {
+					WML = { has_idea = WML_three_problems3 }
+				}
+				custom_effect_tooltip = WML_three_problems_small_decrease_tt
+				hidden_effect = {
+				swap_ideas = {
+						add_idea = WML_three_problems4
+						remove_idea = WML_three_problems3
+					}
+				}
+			}
+	}
+	}
+	}
 	}
 }
 country_event = {
@@ -417,18 +468,18 @@ country_event = {
 
 	option = {
 		name = WML.7.a
-		
+
 	}
 	option = {
 		name = WML.7.b
-		
+
 	}
 	option = {
 		name = WML.7.c
 		country_event = {
 				id = wml.8
 				}
-		
+
 	}
 
 }
@@ -442,11 +493,11 @@ country_event = {
 
 	option = {
 		name = WML.8.a
-		
+
 	}
 	option = {
 		name = WML.8.b
-		
+
 	}
 	option = {
 		name = WML.8.c
@@ -465,13 +516,13 @@ country_event = {
 
 	option = {
 		name = WML.9.a
-		
+
 	}
 	option = {
 		name = WML.9.b
 		country_event = {
 				id = wml.7
 				}
-		
+
 	}
 }
