@@ -13,10 +13,10 @@ konon_decisions = {
 
 		icon = mission_icon   
 		days_mission_timeout = 90
-		hidden_effect = {
 		complete_effect = {
-			remove_decision = konon_carousel
-		}
+			hidden_effect = {
+				remove_decision = konon_carousel
+			}
 		}
 		timeout_effect = {
 			custom_effect_tooltip = konon_carousel_tooltip

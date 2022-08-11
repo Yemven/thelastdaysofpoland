@@ -24,7 +24,6 @@ country_event = {
 		}
 		news_event = {
 			id = kacap.2
-			days = 30
 			}
 		set_global_flag = russia_cw
 		random_list = {
@@ -58,7 +57,7 @@ news_event = {
        set_global_flag = Super_Event_Visible
         set_global_flag = RUS_CW_super_visible
        hidden_effect = {
-			sound_effect = "RUS_CW_super"
+			sound_effect = "RUS_CW"
 			play_song = "cisza45"
 		}
 		}
@@ -260,7 +259,7 @@ news_event = {
        set_global_flag = Super_Event_Visible
         set_global_flag = RUS_nawalny_super_visible
        hidden_effect = {
-			sound_effect = "RUS_nawalny_super"
+			sound_effect = "RUS_nawalny"
 			play_song = "cisza60"
 		}
 		}
@@ -329,7 +328,7 @@ news_event = {
        set_global_flag = Super_Event_Visible
         set_global_flag = RUS_medvedev_super_visible
        hidden_effect = {
-			sound_effect = "RUS_medvedev_super"
+			sound_effect = "RUS_medvedev"
 			play_song = "cisza60"
 		}
 		}
@@ -348,7 +347,7 @@ news_event = {
        set_global_flag = Super_Event_Visible
         set_global_flag = RUS_army_super_visible
        hidden_effect = {
-			sound_effect = "RUS_army_super"
+			sound_effect = "RUS_army"
 			play_song = "cisza45"
 		}
 		}
@@ -393,7 +392,7 @@ news_event = {
        set_global_flag = Super_Event_Visible
         set_global_flag = RUS_army_super_visible
        hidden_effect = {
-			sound_effect = "RUS_army_super"
+			sound_effect = "RUS_army"
 			play_song = "cisza45"
 		}
 		}
@@ -438,7 +437,7 @@ news_event = {
        set_global_flag = Super_Event_Visible
         set_global_flag = RUS_dugin_super_visible
        hidden_effect = {
-			sound_effect = "RUS_dugin_super"
+			sound_effect = "RUS_dugin"
 			play_song = "cisza45"
 		}
 		}
@@ -509,7 +508,7 @@ news_event = {
        set_global_flag = Super_Event_Visible
         set_global_flag = RUS_zsrr_super_visible
        hidden_effect = {
-			sound_effect = "RUS_zsrr_super"
+			sound_effect = "RUS_zsrr"
 			play_song = "cisza60"
 		}
 		}
@@ -555,7 +554,7 @@ news_event = {
        set_global_flag = Super_Event_Visible
         set_global_flag = RUS_czeczen_super_visible
        hidden_effect = {
-			sound_effect = "RUS_czeczen_super"
+			sound_effect = "RUS_czeczen"
 			play_song = "cisza45"
 		}
 		}
@@ -600,7 +599,7 @@ news_event = {
        set_global_flag = Super_Event_Visible
         set_global_flag = RUS_fsb_super_visible
        hidden_effect = {
-			sound_effect = "RUS_fsb_super"
+			sound_effect = "RUS_fsb"
 			play_song = "cisza30"
 		}
 		}

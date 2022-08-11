@@ -652,7 +652,7 @@ ai_war_decisions = {
 		days_remove = 30
 		remove_effect  = {
 				519 = {
-				`	add_core_of = HOR 
+					add_core_of = HOR 
 				}
 				set_capital = {state = 519}
 				if = { limit = { country_exists = OSW
@@ -709,7 +709,7 @@ ai_war_decisions = {
 		days_remove = 30
 		remove_effect  = {
 				800 = {
-				`	add_core_of = HOR 
+					add_core_of = HOR 
 				}
 				set_capital = {state = 800}
 				if = { limit = { country_exists = OSW
@@ -8287,15 +8287,14 @@ ai_war_decisions = {
 		available = {
 			original_tag = CZE
 			date > 2028.02.16
+			count_triggers = {
+				amount = 2
+				ZUL = { num_of_controlled_states < 1 }
+				ANA = { num_of_controlled_states < 1 }
+				MNL = { num_of_controlled_states < 1 }
+			}			
 		}
-		
-		count_triggers = {
-			amount = 2
-			ZUL = { num_of_controlled_states < 1 }
-			ANA = { num_of_controlled_states < 1 }
-			MNL = { num_of_controlled_states < 1 }
-		}
-		
+
 		cost = 1
 
 		ai_will_do = {

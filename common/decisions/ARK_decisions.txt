@@ -14,8 +14,8 @@ arka_decisions = {
 		icon = mission_icon   
 		fire_only_once = yes
 		days_mission_timeout = 100
-		hidden_effect = {
 		complete_effect = {
+			hidden_effect = {
 			remove_decision = arka_exodus
 		}
 		}

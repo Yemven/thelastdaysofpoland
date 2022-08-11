@@ -1885,7 +1885,9 @@ soundeffect = {
 }
 soundeffect = {
 	name = RUS_cw
-	sounds = { sound = RUS_CW }
+	sounds = { 
+		sound = RUS_cw 
+		}
 	volume = 2.0
 }
 

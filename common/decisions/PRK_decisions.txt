@@ -29,20 +29,42 @@ ziobro_war = {
 				}
 		}
 		timeout_effect = {
-			clr_country_flag = ziobro_start_war
-			set_country_flag = ziobro_start_war_lose
-			every_country = {
-				limit = { NOT = { is_ai = yes } }
-				news_event = { id = ziobro.2 }
-				}
-			PRK = {
-				white_peace = SND
-				white_peace = STA
-				end_puppet = OSW
-				end_puppet = BOH
+			if = {
+				limit = { 
+					OR = { 
+						STA = { num_of_controlled_states < 1 }
+						SND = { num_of_controlled_states < 1 }
+						}
+					NOT = {
+						AND = { 
+							STA = { num_of_controlled_states < 1 }
+							SND = { num_of_controlled_states < 1 }	
+							}
+						}
+					}
+				clr_country_flag = ziobro_start_war
+				set_country_flag = ziobro_start_war_victory
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = ziobro.1 }
+					}
 			}
-			BOH = { drop_cosmetic_tag = yes }
-			OSW = { drop_cosmetic_tag = yes }
+			else = {		
+				clr_country_flag = ziobro_start_war
+				set_country_flag = ziobro_start_war_lose
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = ziobro.2 }
+					}
+				PRK = {
+					white_peace = SND
+					white_peace = STA
+					end_puppet = OSW
+					end_puppet = BOH
+				}
+				BOH = { drop_cosmetic_tag = yes }
+				OSW = { drop_cosmetic_tag = yes }
+			}
 		}
 	}
 	

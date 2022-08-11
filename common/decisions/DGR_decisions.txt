@@ -6,7 +6,11 @@ DGR_lore_category = {
 
 		allowed = { 
 			tag = DGR
-			PRK = { has_country_flag = ziobro_start_war_lose } }
+			}
+		
+		available = {
+			PRK = { has_country_flag = ziobro_start_war_lose }		
+		}
 
 		cost = 10
 
