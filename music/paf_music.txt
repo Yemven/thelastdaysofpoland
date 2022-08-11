@@ -1,5 +1,23 @@
 music_station = "paf_station"
 music = {
+	song = "cisza60"
+	chance = {
+		base = -1000
+	}
+}
+music = {
+	song = "cisza45"
+	chance = {
+		base = -1000
+	}
+}
+music = {
+	song = "cisza30"
+	chance = {
+		base = -1000
+	}
+}
+music = {
 	song = "intro_bombas"
 	chance = {
 		base = 1

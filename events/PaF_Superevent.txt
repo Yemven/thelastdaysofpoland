@@ -16,8 +16,9 @@ news_event = {
         set_global_flag = Super_Event_Visible
         set_global_flag = BBW_karbonizacja_super_visible
        hidden_effect = {
-	sound_effect = "BBW_karbonizacja_super"
-}
+
+			sound_effect = "BBW_karbonizacja_super"
+		}
 	}
 }
 
@@ -39,6 +40,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "BBW_roksi_super"
+			play_song = "cisza60"			
 		}
 	}
 }
@@ -61,6 +63,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "DGR_nazbol_super"
+			play_song = "cisza45"
 		}
 	}
 }
@@ -83,6 +86,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "DGR_rasta_super"
+			play_song = "cisza45"
 		}
 	}
 }
@@ -106,6 +110,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "EK_collapse_super"
+			play_song = "cisza30"
 		}
 	}
 }
@@ -128,6 +133,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "KRS_kwiatki_super"
+			play_song = "cisza60"
 		}
 	}
 }
@@ -150,6 +156,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "KRS_rutkowski_super"
+			play_song = "cisza30"
 		}
 	}
 }
@@ -172,6 +179,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "KRS_pavulon_super"
+			play_song = "cisza45"
 		}
 	}
 }
@@ -194,6 +202,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "SAP_carlistas_super"
+			play_song = "cisza60"
 		}
 	}
 }
@@ -216,6 +225,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "SAP_insane_super"
+			play_song = "cisza45"
 		}
 	}
 }
@@ -238,6 +248,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "SAP_sane_super"
+			play_song = "cisza45"
 		}
 	}
 }
@@ -260,6 +271,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "WML_dialogtotalny_super"
+			play_song = "cisza60"
 		}
 	}
 }
@@ -282,6 +294,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "WML_hoiownia_super"
+			play_song = "cisza45"
 		}
 	}
 }
@@ -304,6 +317,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "ZHP_zawisza_super"
+			play_song = "cisza45"
 		}
 	}
 }
@@ -326,6 +340,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "ZHP_zhp_super"
+			play_song = "cisza60"
 		}
 	}
 }
@@ -348,6 +363,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "ZHP_zhr_super"
+			play_song = "cisza60"
 		}
 	}
 }
@@ -370,6 +386,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "ZYD_lks_super"
+			play_song "cisza60"
 		}
 	}
 }
@@ -392,6 +409,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "ZYD_urban_super"
+			play_song = "cisza60"
 		}
 	}
 }
@@ -414,6 +432,7 @@ news_event = {
 
 		hidden_effect = {
 			sound_effect = "ZYD_widzew_super"
+			play_song = "cisza60"
 		}
 	}
 }

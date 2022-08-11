@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=autocracy_subtype
+			ideology=paternal_conservatism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
@@ -43,22 +43,6 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/RUS/RUS_Grudinin.dds"
-			}
-		}
-		country_leader={
-			ideology=marxism_cranism_subtype
-			expire="1.1.1.1"
-			id=-1
-		}
-	}
-	RUS_sergey_mironov={
-		name="Sergey Mironov"
-		portraits={
-			civilian={
-				small="_small"
-			}
-			civilian={
-				large=""
 			}
 		}
 		country_leader={
@@ -106,4 +90,58 @@ characters={
 			id=-1
 		}
 	}
+	RUS_denaturov={
+		name="Viktor Zolotov"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/RUS_Denaturow.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_bortnikov={
+		name="Alexander Bortnikov"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/RUS_Bortnikov.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_dugin={
+		name="Aleksandr Dugin"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/RUS_Dugin.dds"
+			}
+		}
+		country_leader={
+			ideology=reactionary_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RUS_szojgu={
+		name="Sergei Shoigu"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/RUS_Szojgu.dds"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+
 }

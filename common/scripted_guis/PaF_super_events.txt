@@ -72,6 +72,30 @@ scripted_gui = {
 			ZERO_super_image_visible = {
 				has_global_flag = ZERO_super_visible
 			}
+			RUS_fsb_super_image_visible = {
+				has_global_flag = RUS_fsb_super_visible
+			}
+			RUS_cw_super_image_visible = {
+				has_global_flag = RUS_cw_super_visible
+			}
+			RUS_army_super_image_visible = {
+				has_global_flag = RUS_army_super_visible
+			}
+			RUS_zsrr_super_image_visible = {
+				has_global_flag = RUS_zsrr_super_visible
+			}
+			RUS_nawalny_super_image_visible = {
+				has_global_flag = RUS_nawalny_super_visible
+			}
+			RUS_medvedev_super_image_visible = {
+				has_global_flag = RUS_medvedev_super_visible
+			}
+			RUS_dugin_super_image_visible = {
+				has_global_flag = RUS_dugin_super_visible
+			}
+			RUS_czeczen_super_image_visible = {
+				has_global_flag = RUS_czeczen_super_visible
+			}
 		}
 
 		properties = {
@@ -108,6 +132,14 @@ scripted_gui = {
 							has_global_flag = DGR_rasta_super_visible
 							has_global_flag = DGR_nazbol_super_visible
 							has_global_flag = ZERO_super_visible
+							has_global_flag = RUS_cw_super_visible
+							has_global_flag = RUS_army_super_visible
+							has_global_flag = RUS_dugin_super_visible
+							has_global_flag = RUS_fsb_super_visible
+							has_global_flag = RUS_zsrr_super_visible
+							has_global_flag = RUS_medvedev_super_visible	
+							has_global_flag = RUS_nawalny_super_visible
+							has_global_flag = RUS_czeczen_super_visible								
 						}
 					}
 							clr_global_flag = ARK_exodus_super_visible
@@ -131,6 +163,14 @@ scripted_gui = {
 							clr_global_flag = DGR_rasta_super_visible
 							clr_global_flag = DGR_nazbol_super_visible
 							clr_global_flag = ZERO_super_visible
+							clr_global_flag = RUS_cw_super_visible
+							clr_global_flag = RUS_army_super_visible
+							clr_global_flag = RUS_dugin_super_visible
+							clr_global_flag = RUS_fsb_super_visible
+							clr_global_flag = RUS_zsrr_super_visible
+							clr_global_flag = RUS_medvedev_super_visible	
+							clr_global_flag = RUS_nawalny_super_visible
+							clr_global_flag = RUS_czeczen_super_visible			
 				}
 			}
 		}

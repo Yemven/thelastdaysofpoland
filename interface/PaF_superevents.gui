@@ -136,9 +136,62 @@ guiTypes = {
 		iconType = {
 			name ="ZERO_super_image"
 			spriteType = "GFX_SE_ZERO"
-			position = { x = 0 y = 0 }
+			
 			alwaystransparent = yes
 		}
+	iconType = {
+		name = "RUS_army_super_image"
+		spriteType = "GFX_SE_RUS_Army"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "RUS_cw_super_image"
+		spriteType = "GFX_SE_RUS_CW"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "RUS_czeczen_super_image"
+		spriteType ="GFX_SE_RUS_Czeczen"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name = "RUS_dugin_super_image"
+		spriteType ="GFX_SE_RUS_Dugin"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "RUS_fsb_super_image"
+		spriteType ="GFX_SE_RUS_FSB"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "RUS_medvedev_super_image"
+		spriteType ="GFX_SE_RUS_Medvedev"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name = "RUS_nawalny_super_image"
+		spriteType ="GFX_SE_RUS_Nawalny"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "RUS_zsrr_super_image"
+		spriteType ="GFX_SE_RUS_ZSRR"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
 	
 		buttonType = {
             name = "Super_Event_Close"

@@ -99,7 +99,51 @@ spriteTypes = {
 		texturefile = "gfx/superevent/SE_zhp3.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_SE_RUS_Army"
+		texturefile = "gfx/superevent/SE_rus_army.dds"
+		legacy_lazy_load = no
+	}
 
+	spriteType = {
+		name = "GFX_SE_RUS_CW"
+		texturefile = "gfx/superevent/SE_rus_cw.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SE_RUS_Czeczen"
+		texturefile = "gfx/superevent/SE_rus_czeczen.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SE_RUS_Dugin"
+		texturefile = "gfx/superevent/SE_rus_dugin.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SE_RUS_FSB"
+		texturefile = "gfx/superevent/SE_rus_fsb.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SE_RUS_Medvedev"
+		texturefile = "gfx/superevent/SE_rus_medvedev.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SE_RUS_Nawalny"
+		texturefile = "gfx/superevent/SE_rus_nawalny.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SE_RUS_ZSRR"
+		texturefile = "gfx/superevent/SE_rus_zsrr.dds"
+		legacy_lazy_load = no
+	}	
 	spriteType = {
 		name = "GFX_SE_ZYD_Widzew"
 		texturefile = "gfx/superevent/SE_zyd1.dds"
@@ -122,4 +166,5 @@ spriteTypes = {
 		texturefile = "gfx/superevent/SE_zero.dds"
 		legacy_lazy_load = no
 	}
+
 }
