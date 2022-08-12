@@ -5,6 +5,7 @@ division_template = {
 		melee_infantry = { x = 1 y = 0 }
 		melee_infantry = { x = 2 y = 0 }
 		melee_infantry = { x = 3 y = 0 }
+		}
 }
 
 units = {
@@ -16,7 +17,7 @@ units = {
 		start_equipment_factor = 1.0
 	}
 
-units = {
+
 	division = {
 		name = "JSM Prudnik"
 		location = 129
@@ -25,7 +26,7 @@ units = {
 		start_equipment_factor = 1.0
 	}
 
-units = {
+
 	division = {
 		name = "JSM Korfantów"
 		location = 829
@@ -34,7 +35,7 @@ units = {
 		start_equipment_factor = 1.0
 	}
 
-units = {
+
 	division = {
 		name = "JSM Paczków"
 		location = 3969
@@ -43,7 +44,7 @@ units = {
 		start_equipment_factor = 1.0
 	}
 
-units = {
+
 	division = {
 		name = "JSM Głuchołazy"
 		location = 867
@@ -52,7 +53,6 @@ units = {
 		start_equipment_factor = 1.0
 	}
 
-units = {
 	division = {
 		name = "JSM Pakosławice"
 		location = 9299
