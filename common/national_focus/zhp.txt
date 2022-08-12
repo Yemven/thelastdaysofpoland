@@ -872,7 +872,10 @@ focus_tree = {
 		}
 		
 		bypass = {
-			#NOT = { country_exists = BBW }
+			NOT = {
+				country_exists = BBW 
+				owns_state = 341
+			}
 		}
 		x = -1
 		y = 1
@@ -897,7 +900,10 @@ focus_tree = {
 		}
 		
 		bypass = {
-			#NOT = { country_exists = BBW } id do 
+			NOT = {
+				country_exists = BBW 
+				owns_state = 341
+			}
 		}
 		x = 1
 		y = 1
@@ -975,7 +981,8 @@ focus_tree = {
 		}
 		
 		bypass = {
-			
+			NOT = { country_exists = KRS }
+			owns_state = 236
 		}
 		x = 0
 		y = 1
@@ -1028,7 +1035,8 @@ focus_tree = {
 		}
 		
 		bypass = {
-			
+			NOT = { country_exists = WML }
+			owns_state = 302
 		}
 		x = 0
 		y = 1
@@ -1081,7 +1089,8 @@ focus_tree = {
 		}
 		
 		bypass = {
-			
+			NOT = { country_exists = ZYD }
+			owns_state = 353
 		}
 		x = 0
 		y = 1
