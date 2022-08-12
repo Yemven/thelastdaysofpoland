@@ -118,7 +118,7 @@ guiTypes = {
 					}
 
 					buttonType = {
-						name = "rubber_icon"
+						name = "synthetic_materials_icon"
 						position = { x=70 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 3
@@ -126,7 +126,7 @@ guiTypes = {
 					}
 
 					instantTextboxType = {
-						name = "rubber_value"
+						name = "synthetic_materials_value"
 						position = { x = 101 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
@@ -181,7 +181,7 @@ guiTypes = {
 					}
 
 					buttonType = {
-						name = "tungsten_icon"
+						name = "coal_icon"
 						position = { x=280 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 4
@@ -189,7 +189,7 @@ guiTypes = {
 					}
 
 					instantTextboxType = {
-						name = "tungsten_value"
+						name = "coal_value"
 						position = { x = 309 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
@@ -202,7 +202,7 @@ guiTypes = {
 					}
 
 					buttonType = {
-						name = "chromium_icon"
+						name = "electronics_icon"
 						position = { x=350 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 6
@@ -210,7 +210,7 @@ guiTypes = {
 					}
 
 					instantTextboxType = {
-						name = "chromium_value"
+						name = "electronics_value"
 						position = { x = 381 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
@@ -1222,7 +1222,7 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "rubber_icon"
+				name = "synthetic_materials_icon"
 				position = { x=58 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 3
@@ -1230,7 +1230,7 @@ guiTypes = {
 			}
 
 			buttonType = {
-				name = "rubber_checkbox"
+				name = "synthetic_materials_checkbox"
 				position = { x = 80 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
@@ -1270,7 +1270,7 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "tungsten_icon"
+				name = "coal_icon"
 				position = { x=229 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 4
@@ -1278,7 +1278,7 @@ guiTypes = {
 			}
 
 			buttonType = {
-				name = "tungsten_checkbox"
+				name = "coal_checkbox"
 				position = { x = 253 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
@@ -1286,7 +1286,7 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "chromium_icon"
+				name = "electronics_icon"
 				position = { x=287 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 6
@@ -1294,7 +1294,7 @@ guiTypes = {
 			}
 
 			buttonType = {
-				name = "chromium_checkbox"
+				name = "electronics_checkbox"
 				position = { x = 311 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
