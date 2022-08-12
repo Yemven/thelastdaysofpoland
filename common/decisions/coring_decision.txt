@@ -1,5 +1,1262 @@
 coring_category = {
 
+############UPA#############
+core_dubiecko = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 807
+			}
+		}
+
+		visible = {
+			owns_state = 807
+			NOT = {
+				AND = {
+					807 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 807
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 807
+			add_stability = 0.025
+		}
+	}
+
+core_pruchnik = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 808
+			}
+		}
+
+		visible = {
+			owns_state = 808
+			NOT = {
+				AND = {
+					808 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 808
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 808
+			add_stability = 0.025
+		}
+	}
+
+core_sokolow_malopolski = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 468
+			}
+		}
+
+		visible = {
+			owns_state = 468
+			NOT = {
+				AND = {
+					468 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 468
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 468
+			add_stability = 0.025
+		}
+	}
+	
+	core_county_przeworsk= {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 809
+			controls_state = 489
+			}
+		}
+
+		visible = {
+			owns_state = 809
+			NOT = {
+				AND = {
+					809 = {
+						is_core_of = ROOT
+					}
+					489 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 809
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 809
+			add_state_core = 489
+			add_stability = 0.025
+		}
+	}
+	
+	core_county_jaroslaw = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 499
+			controls_state = 473
+			}
+		}
+
+		visible = {
+			owns_state = 499
+			NOT = {
+				AND = {
+					499 = {
+						is_core_of = ROOT
+					}
+					473 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 499
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 499
+			add_state_core = 473
+			add_stability = 0.025
+		}
+	}
+
+	core_county_przemysl = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 485
+			controls_state = 517
+			}
+		}
+
+		visible = {
+			owns_state = 485
+			NOT = {
+				AND = {
+					485 = {
+						is_core_of = ROOT
+					}
+					517 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 485
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 485
+			add_state_core = 517
+			add_stability = 0.025
+		}
+	}
+
+	core_eastern_rzeszow_county = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 484
+			controls_state = 601
+			}
+		}
+
+		visible = {
+			owns_state = 484
+			NOT = {
+				AND = {
+					484 = {
+						is_core_of = ROOT
+					}
+					601 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 484
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 484
+			add_state_core = 601
+			add_stability = 0.025
+		}
+	}
+
+############UHR#############
+core_medyka = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 520
+			}
+		}
+
+		visible = {
+			owns_state = 520
+			NOT = {
+				AND = {
+					520 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 520
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 520
+			add_stability = 0.025
+		}
+	}
+
+############LCZ#############
+core_county_lubaczow = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 457
+			}
+		}
+
+		visible = {
+			owns_state = 457
+			NOT = {
+				AND = {
+					457 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 457
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 457
+			add_stability = 0.025
+		}
+	}
+
+############LEZ#############
+core_county_lezajsk = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 461
+			}
+		}
+
+		visible = {
+			owns_state = 461
+			NOT = {
+				AND = {
+					461 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 461
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 461
+			add_stability = 0.025
+		}
+	}
+
+############CHR#############
+
+	core_county_nisko = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 447
+			controls_state = 442
+			}
+		}
+
+		visible = {
+			owns_state = 447
+			NOT = {
+				AND = {
+					447 = {
+						is_core_of = ROOT
+					}
+					442 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 447
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 447
+			add_state_core = 442
+			add_stability = 0.025
+		}
+	}
+
+############TAR#############
+
+	core_county_stalowa_wola = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 430
+			controls_state = 815
+			}
+		}
+
+		visible = {
+			owns_state = 430
+			NOT = {
+				AND = {
+					430 = {
+						is_core_of = ROOT
+					}
+					815 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 430
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 430
+			add_state_core = 815
+			add_stability = 0.025
+		}
+	}
+	
+	core_county_tarnobrzeg = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 429
+			controls_state = 814
+			}
+		}
+
+		visible = {
+			owns_state = 429
+			NOT = {
+				AND = {
+					429 = {
+						is_core_of = ROOT
+					}
+					814 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 429
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 429
+			add_state_core = 814
+			add_stability = 0.025
+		}
+	}
+
+############MIE#############
+core_county_mielec = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 455
+			}
+		}
+
+		visible = {
+			owns_state = 455
+			NOT = {
+				AND = {
+					455 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 455
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 455
+			add_stability = 0.025
+		}
+	}
+
+############KOL#############
+core_county_kolbuszowa = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 456
+			}
+		}
+
+		visible = {
+			owns_state = 456
+			NOT = {
+				AND = {
+					456 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 456
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 456
+			add_stability = 0.025
+		}
+	}
+
+
+############RZE#############
+core_rzeszow = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 507
+			}
+		}
+
+		visible = {
+			owns_state = 507
+			NOT = {
+				AND = {
+					507 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 507
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 507
+			add_stability = 0.025
+		}
+	}
+
+############DBI#############
+
+	core_county_debica = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 498
+			controls_state = 812
+			}
+		}
+
+		visible = {
+			owns_state = 498
+			NOT = {
+				AND = {
+					498 = {
+						is_core_of = ROOT
+					}
+					812 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 498
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 498
+			add_state_core = 812
+			add_stability = 0.025
+		}
+	}
+
+############KOZ#############
+
+	core_western_rzeszow_county = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 817
+			controls_state = 816
+			}
+		}
+
+		visible = {
+			owns_state = 817
+			NOT = {
+				AND = {
+					817 = {
+						is_core_of = ROOT
+					}
+					816 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 817
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 817
+			add_state_core = 816
+			add_stability = 0.025
+		}
+	}
+
+core_county_ropczyce_sedziszow = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 494
+			controls_state = 813
+			}
+		}
+
+		visible = {
+			owns_state = 494
+			NOT = {
+				AND = {
+					494 = {
+						is_core_of = ROOT
+					}
+					813 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 494
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 494
+			add_state_core = 813
+			add_stability = 0.025
+		}
+	}
+
+
+core_county_strzyzow = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 518
+			}
+		}
+
+		visible = {
+			owns_state = 518
+			NOT = {
+				AND = {
+					518 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 518
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 518
+			add_stability = 0.025
+		}
+	}
+
+core_county_brzozow = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 526
+			}
+		}
+
+		visible = {
+			owns_state = 526
+			NOT = {
+				AND = {
+					526 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 526
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 526
+			add_stability = 0.025
+		}
+	}
+
+core_krosno = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 535
+			}
+		}
+
+		visible = {
+			owns_state = 535
+			NOT = {
+				AND = {
+					535 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 535
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 535
+			add_stability = 0.025
+		}
+	}
+
+############JSO#############
+core_jaslo = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 524
+			}
+		}
+
+		visible = {
+			owns_state = 524
+			NOT = {
+				AND = {
+					524 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 524
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 524
+			add_stability = 0.025
+		}
+	}
+
+############KRO#############
+
+	core_new_krosno = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 811
+			controls_state = 527
+			}
+		}
+
+		visible = {
+			owns_state = 811
+			NOT = {
+				AND = {
+					811 = {
+						is_core_of = ROOT
+					}
+					527 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 811
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 811
+			add_state_core = 527
+			add_stability = 0.025
+		}
+	}
+
+############BEX#############
+core_sanok = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 538
+			}
+		}
+
+		visible = {
+			owns_state = 538
+			NOT = {
+				AND = {
+					538 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 538
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 538
+			add_stability = 0.025
+		}
+	}
+
+############ANC#############
+
+
+	core_bieszczady = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 810
+			controls_state = 542
+			controls_state = 547
+			}
+		}
+
+		visible = {
+			owns_state = 547
+			NOT = {
+				AND = {
+					810 = {
+						is_core_of = ROOT
+					}
+					542 = {
+						is_core_of = ROOT
+					}
+					547 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 547
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 810
+			add_state_core = 542
+			add_state_core = 547
+			add_stability = 0.025
+		}
+	}
+
+############BSC#############
+
+	core_ustrzyki = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			AND = {
+			controls_state = 536
+			controls_state = 541
+			}
+		}
+
+		visible = {
+			owns_state = 536
+			NOT = {
+				AND = {
+					536 = {
+						is_core_of = ROOT
+					}
+					541 = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			state = 536
+		}
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 30
+		remove_effect  = {
+			add_state_core = 536
+			add_state_core = 541
+			add_stability = 0.025
+		}
+	}
+
 ############USP#############
 
 	core_county_bialogard = {
