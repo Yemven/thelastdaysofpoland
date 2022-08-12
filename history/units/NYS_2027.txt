@@ -1,0 +1,56 @@
+division_template = {
+	name = "Nyska Policja"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+}
+
+division_template = {
+	name = "Milicja"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Garnizon Policyjny 'Fort Prusy'"
+		location = 9281
+		division_template = "Nyska Policja"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Garnizon Policyjny 'Niwnica'"
+		location = 9290
+		division_template = "Nyska Policja"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Kompania Komendy Powiatowej Policji"
+		location = 1787
+		division_template = "Nyska Policja"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "1 Kompania Nyskiej Samoobrony 'Fort III'"
+		location = 9284
+		division_template = "Milicja"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "2 Kompania Nyskiej Samoobrony"
+		location = 9285
+		division_template = "Milicja"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+}

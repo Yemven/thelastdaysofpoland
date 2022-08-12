@@ -1,0 +1,64 @@
+division_template = {
+	name = "Plemię Wandalów"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		melee_infantry = { x = 0 y = 4 }
+}
+
+units = {
+	division = {
+		name = "Plemię Roszowickie"
+		location = 3516
+		division_template = "Plemię Wandalów"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+units = {
+	division = {
+		name = "Plemię Polskocerkiewskie"
+		location = 4018
+		division_template = "Plemię Wandalów"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+units = {
+	division = {
+		name = "Plemię Krapkowickie"
+		location = 1612
+		division_template = "Plemię Wandalów"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+units = {
+	division = {
+		name = "Plemię Baborowskie"
+		location = 9202
+		division_template = "Plemię Wandalów"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+units = {
+	division = {
+		name = "Plemię Kietlickie"
+		location = 9214
+		division_template = "Plemię Wandalów"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+units = {
+	division = {
+		name = "Plemię Radyńskie"
+		location = 9213
+		division_template = "Plemię Wandalów"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+}
