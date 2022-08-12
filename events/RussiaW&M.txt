@@ -20,9 +20,12 @@ country_event = {
 
 	option = {
 		name = rosja.1.a 
+		every_country = {
+			limit = { NOT = { is_ai = yes } }
 		news_event = {
 			id = rosja.2
 			}
+		}
 		white_peace = TEU
 		white_peace = WAR
 		white_peace = MAL

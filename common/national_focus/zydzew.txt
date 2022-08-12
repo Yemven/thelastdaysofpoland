@@ -952,6 +952,7 @@ focus_tree = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
 		  NOT = { country_exists = ZHP }
+		  KRS = { num_of_controlled_states > 1 }
 		}
 		
 		bypass = {
@@ -979,6 +980,7 @@ focus_tree = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
 		  NOT = { country_exists = ZHP }
+		  SAP = { num_of_controlled_states > 1 }
 		}
 		
 		bypass = {
