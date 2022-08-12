@@ -740,14 +740,14 @@ BBW_infrastructure_focus = {
 
 		ec_belchatow = {
 			picture = generic_industrial_concern_1
-
+			allowed = { tag = BBW }
 			cost = 350
 			
-			visible = {
-				ROOT = {
-					controls_province = 10234
-					}
-				}
+			#visible = {
+				#ROOT = {
+					#controls_province = 10234
+					#}
+				#}
 			traits = { belchatow_power_plant }
 			
 			research_bonus = {
