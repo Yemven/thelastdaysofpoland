@@ -6,6 +6,12 @@ defined_text = {
 		}
 		localization_key = WAR_CONCLUSION
 	}
+	text = {
+		trigger = {
+			has_global_flag = zero_withdraws
+		}
+		localization_key = ZERO_WITHDRAWS_LOC
+	}
 }
 
 defined_text = {
