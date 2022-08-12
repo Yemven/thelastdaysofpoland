@@ -60,7 +60,7 @@ ideas = {
 		ceramika_paradyz = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = ZYD }
-			available = { controls_province = 1444 }	
+			#available = { controls_province = 1444 }	
 			cost = 200
 			traits = { light_industry_company }
 			research_bonus = {
@@ -70,7 +70,7 @@ ideas = {
 		fmg_pioma = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = ZYD }
-			available = { controls_province = 3358 }	
+			#available = { controls_province = 3358 }	
 			cost = 200
 			traits = { heavy_industry_company }
 			research_bonus = {
@@ -80,7 +80,7 @@ ideas = {
 		chipita_tomaszow = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = ZYD }
-			available = { controls_province = 7456 }	
+			#available = { controls_province = 7456 }	
 			cost = 200
 			traits = { food_company }
 			research_bonus = {
