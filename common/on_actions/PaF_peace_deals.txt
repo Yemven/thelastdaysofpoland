@@ -127,27 +127,6 @@ on_actions = {
 					}
 					set_global_flag = skip_default_capitulation
 				}
-			if = {	
-				limit = {
-					OR = {
-						ROOT = { is_in_faction = no }
-						ROOT = {
-							all_allied_country = {
-								has_capitulated = yes
-							}
-						}
-					}
-				}
-				set_global_flag = war_won
-				set_global_flag = skip_default_capitulation
-				FROM = {
-					white_peace = ROOT
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
-					}
-				}
-			}
 			if = {
 					limit = {
 						ROOT = {
@@ -219,6 +198,27 @@ on_actions = {
 					}
 					set_global_flag = skip_default_capitulation
 				}
+			if = {	
+				limit = {
+					OR = {
+						ROOT = { is_in_faction = no }
+						ROOT = {
+							all_allied_country = {
+								has_capitulated = yes
+							}
+						}
+					}
+				}
+				set_global_flag = war_won
+				set_global_flag = skip_default_capitulation
+				FROM = {
+					white_peace = ROOT
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
 		}
 	}
 }
