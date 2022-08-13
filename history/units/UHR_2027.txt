@@ -26,7 +26,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Militsija Poryadkova"
+	name = "Medychnyy Batalyon"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -65,9 +65,9 @@ units = {
 	}
 	
 	division = {
-		name = "Militsija Medika"
+		name = "Medychnyy Batalyon 'Hospitalyery'"
 		location = 12420
-		division_template = "Militsija Poryadkova"
+		division_template = "Medychnyy Batalyon"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
