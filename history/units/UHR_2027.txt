@@ -1,0 +1,62 @@
+division_template = {
+	name = "Hirsko-Shturmovyy Batalyon"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Pichotnyy Batalyon"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Militsija Poryadkova"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "8 Okremyy Hirsko-Shturmovyy Batalyon"
+		location = 12420
+		division_template = "Hirsko-Shturmovyy Batalyon"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "108 Okremyy Hirsko-Shturmovyy Batalyon"
+		location = 12421
+		division_template = "Hirsko-Shturmovyy Batalyon"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "109 Okremyy Hirsko-Shturmovyy Batalyon"
+		location = 1960
+		division_template = "Hirsko-Shturmovyy Batalyon"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Militsija Medika"
+		location = 12420
+		division_template = "Militsija Poryadkova"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+}

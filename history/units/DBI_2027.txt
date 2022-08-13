@@ -1,0 +1,57 @@
+division_template = {
+	name = "Straż Dębicka"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Proste Chłopaki"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Miłośnicy Ostrej Jazdy"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "1 Oddział Straży Dębickiej"
+		location = 12181
+		division_template = "Straż Dębicka"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Wisłoka Dębica"
+		location = 2335
+		division_template = "Proste Chłopaki"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Ekipa z Pilzna"
+		location = 12171
+		division_template = "Proste Chłopaki"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Klub Motoryzacyjny"
+		location = 2335
+		division_template = "Miłośnicy Ostrej Jazdy"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}

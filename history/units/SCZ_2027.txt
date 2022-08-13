@@ -1,0 +1,86 @@
+division_template = {
+	name = "Batalion Najemniczy"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Straż Miejska"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Prywatne Grupy Bojowe"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+units = {
+	division = {
+		name = "Tymbark Gang"
+		location = 11001
+		division_template = "Prywatne Grupy Bojowe"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+    division = {
+		name = "Straż Miejska Mszana Dolna"
+		location = 10848
+		division_template = "Straż Miejska"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+    division = {
+		name = "Straż Miejska Nowy Sącz"
+		location = 4123
+		division_template = "Straż Miejska"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+    division = {
+		name = "Straż Miejska Stary Sącz"
+		location = 10890
+		division_template = "Straż Miejska"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+    division = {
+		name = "Straż Miejska Limanowa"
+		location = 2332
+		division_template = "Straż Miejska"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}	
+	division = {
+		name = "Łososina Dolna Boys"
+		location = 3463
+		division_template = "Prywatne Grupy Bojowe"
+		start_experience_factor = 0
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "Agencja Ochrony Koral"
+		location = 10897
+		division_template = "Batalion Najemniczy"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "NEWAG Security"
+		location = 10904
+		division_template = "Batalion Najemniczy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+}
+	

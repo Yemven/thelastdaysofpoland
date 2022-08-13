@@ -1,0 +1,91 @@
+﻿division_template = {
+	name = "Batalion RNK"
+	regiments = {
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }		
+	}
+}
+
+division_template = {
+	name = "Strażnicy Nowego Krosna"
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Żandarmeria RNK"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }		
+	}
+}
+
+division_template = {
+	name = "Lokalne Grupy"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 0 y = 2 }
+		melee_infantry = { x = 0 y = 3 }		
+	}
+}
+
+
+
+units = {
+	division = {
+		name = "1 Batalion Strażników RNK"
+		location = 1938
+		division_template = "Strażnicy Nowego Krosna"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "1 Batalion RNK 'Wilki'"
+		location = 12196
+		division_template = "Batalion RNK"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Oddział Żandarmerii Rymanów"
+		location = 12200
+		division_template = "Żandarmeria RNK"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Chorągiew Ziemi Krośnieńskiej"
+		location = 2579
+		division_template = "Lokalne Grupy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "2 Batalion RNK 'Białobrzeżanie'"
+		location = 12159
+		division_template = "Batalion RNK"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Oddział Żandarmerii Nowy Żmigród"
+		location = 4121
+		division_template = "Żandarmeria RNK"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+}
+
