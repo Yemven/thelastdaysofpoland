@@ -7,14 +7,10 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = { 
+		original_tag = ROS
 		ROS = {
 			has_war = yes
 			num_of_controlled_states < 7
-			}
-		OR = {
-			country_exists = TEU
-			country_exists = WAR
-			country_exists = PZW
 			}
 	}
 
