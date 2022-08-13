@@ -1,5 +1,5 @@
 division_template = {
-	name = "Batalion Phunk"
+	name = "Gangi Punków"
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
 		melee_infantry = { x = 0 y = 1 }
@@ -8,22 +8,55 @@ division_template = {
 	}
 }
 
-
+division_template = {
+	name = "Milicja WRB"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
 
 units = {
-    division = {
-		name = "Piraci Solinscy"
-		location = 12253
-		division_template = "Batalion Phunk"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-	}
 	division = {
-		name = "Karpatia"
-		location = 12249
-		division_template = "Batalion Phunk"
+		name = "1 Brygada 'KSU'"
+		location = 12251
+		division_template = "Milicja WRB"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1.0
 	}
-    
+	
+	division = {
+		name = "2 Brygada 'Kryzys'"
+		location = 12249
+		division_template = "Milicja WRB"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Nocne Szczury"
+		location = 12253
+		division_template = "Gangi Punków"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Homomilitia"
+		location = 12251
+		division_template = "Gangi Punków"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Psy Wojny"
+		location = 12250
+		division_template = "Gangi Punków"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+
 }
