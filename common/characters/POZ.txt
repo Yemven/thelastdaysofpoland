@@ -74,12 +74,12 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { old_guard urban_assault_specialist armor_officer media_personality }
+			traits = { old_guard urban_assault_specialist armor_officer media_personality trait_reckless politically_connected }
 			skill=4
 			attack_skill=3
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=-1
 		}
 		advisor = {
@@ -103,12 +103,12 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { }
+			traits = { old_guard trickster inflexible_strategist trait_reckless }
 			skill=3
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
 			legacy_id=-1
 		}
 	}
@@ -120,12 +120,12 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits = { trait_cautious trait_reckless infantry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -137,12 +137,12 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
-			skill=1
-			attack_skill=1
+			traits = { infantry_leader media_personality skilled_staffer }
+			skill=3
+			attack_skill=3
 			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -154,11 +154,62 @@ characters={
 			}
 		}
 		corps_commander = {
+			traits = { harsh_leader infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	POZ_adam_dabrowski = {
+		name="Adam Dąbrowski"
+		portraits = {
+			army = {
+			    large="gfx/leaders/POZ/POZ_Dabrowski.dds"
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	POZ_rafal_wojciechowski = {
+		name="Rafał Wojciechowski"
+		portraits = {
+			army = {
+			    large="gfx/leaders/POZ/POZ_Wojciechowski.dds"
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer trait_reckless }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+    POZ_mariusz_wozniak = {
+		name="Mariusz Woźniak"
+		portraits = {
+			army = {
+			    large="gfx/leaders/POZ/POZ_Wozniak2.dds"
+			}
+		}
+		corps_commander = {
 			traits = { }
 			skill=1
 			attack_skill=1
-			defense_skill=1
-			planning_skill=1
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=1
 			legacy_id=-1
 		}
