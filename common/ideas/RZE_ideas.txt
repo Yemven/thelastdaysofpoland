@@ -1,0 +1,47 @@
+ideas = {
+
+	country = {
+
+		RZE_patodeveloperka = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+        global_building_slots = 2
+        stability_factor = -0.3
+			}
+		}
+    RZE_ukrainian_siege = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+      cancel = {
+        any_country = {
+          AND = {
+            is_neighbor_of = RZE
+            NOT = {tag = UPA}
+            NOT = {tag = KOZ}
+          }
+        }
+      }
+
+			picture = ukrainian_siege
+
+			modifier = {
+        war_support_factor = -0.3
+        stability_factor = -0.3
+			}
+		}
+  }
+
+}

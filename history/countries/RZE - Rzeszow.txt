@@ -4,20 +4,20 @@ oob = "RZE_2027"
 
 # Starting tech
 set_technology = {
-		melee_weapons = 1  
+		melee_weapons = 1
 		ranged_weapons_upgrade = 1
 		ranged_weapons = 1
 		ranged_weapons1 = 1
 		infantry_training = 1
 		infantry_armor = 1
 		ballistic_vests = 1
-		
+
 		tech_support = 1
 		basic_train = 1
-		
+
 		light_artillery = 1
 		light_artillery1 = 1
-		
+
 		primitive_aircraft = 1
 		fighter_0 = 1
 		china_drone = 1
@@ -28,7 +28,7 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_technology = { 
+	set_technology = {
 		nsb_bicycle = 1
 		nsb_truck_1 = 1
 		nsb_sidecar = 1
@@ -42,7 +42,7 @@ if = {
 		has_dlc = "No Step Back"
 		}
 	}
-	set_technology = { 
+	set_technology = {
 		bicycle = 1
 		truck_1 = 1
 		sidecar = 1
@@ -76,3 +76,7 @@ set_popularities = {
 	postpolonism = 0
 }
 
+add_ideas = {
+	RZE_patodeveloperka
+	RZE_ukrainian_siege
+}
