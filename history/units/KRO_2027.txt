@@ -1,10 +1,10 @@
 ﻿division_template = {
 	name = "Batalion RNK"
 	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }		
+		infantry = { x = 1 y = 1 }		
 	}
 }
 
@@ -22,8 +22,8 @@ division_template = {
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-		militia = { x = 0 y = 3 }		
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }		
 	}
 }
 
@@ -32,8 +32,8 @@ division_template = {
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
 		melee_infantry = { x = 0 y = 1 }
-		melee_infantry = { x = 0 y = 2 }
-		melee_infantry = { x = 0 y = 3 }		
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }		
 	}
 }
 
