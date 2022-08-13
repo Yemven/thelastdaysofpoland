@@ -1,0 +1,65 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Straż Miejska"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Brygada Rowerowa"
+	regiments = {
+		bicycle_battalion = { x = 0 y = 0 }
+		bicycle_battalion = { x = 0 y = 1 }
+		bicycle_battalion = { x = 1 y = 0 }
+		bicycle_battalion = { x = 1 y = 1 }
+	}
+}
+units = {
+	division = {
+		name = "Straż Miejska Mydlniki"
+		location = 4053
+		division_template = "Straż Miejska"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+    division = {
+		name = "Straż Balicka"
+		location = 4053
+		division_template = "Straż Miejska"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+    division = {
+		name = "Brygada Powiśle"
+		location = 4053
+		division_template = "Brygada Rowerowa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Brygada Stradom"
+		location = 4053
+		division_template = "Brygada Rowerowa"
+		start_experience_factor = 0
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "Batalion Piechoty 'Zielona Alternatywa'"
+		location = 4053
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+	
