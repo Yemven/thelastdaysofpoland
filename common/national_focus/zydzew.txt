@@ -879,7 +879,10 @@ focus_tree = {
 		}
 		
 		bypass = {
-		  NOT = { country_exists = BBW }
+		  OR = {
+			NOT = { country_exists = BBW }
+			ZYD = { has_war_with = BBW }
+			}
 		}
 		
 		x = 0
@@ -906,7 +909,10 @@ focus_tree = {
 		}
 		
 		bypass = {
+			 OR = {
 			NOT = { country_exists = ZHP }
+			ZYD = { has_war_with = ZHP }
+			}
 		}
 		
 		x = 0
@@ -956,6 +962,10 @@ focus_tree = {
 		}
 		
 		bypass = {
+		OR = {
+			NOT = { country_exists = KRS }
+			ZYD = { has_war_with = KRS }
+			}
 		}
 		
 		x = -1
@@ -984,6 +994,10 @@ focus_tree = {
 		}
 		
 		bypass = {
+		OR = {
+			NOT = { country_exists = SAP }
+			ZYD = { has_war_with = SAP }
+			}
 		}
 		
 		x = 1
@@ -1033,7 +1047,10 @@ focus_tree = {
 		}
 		
 		bypass = {
+		 OR = {
 			NOT = { country_exists = BBW }
+			ZYD = { has_war_with = BBW }
+			}
 		}
 		
 		x = 0
@@ -1060,7 +1077,10 @@ focus_tree = {
 		}
 		
 		bypass = {
+		OR = {
 			NOT = { country_exists = ZHP }
+			ZYD = { has_war_with = ZHP }
+			}
 		}
 		
 		x = 0
@@ -1109,6 +1129,10 @@ focus_tree = {
 		}
 		
 		bypass = {
+				  OR = {
+			NOT = { country_exists = KRS }
+			ZYD = { has_war_with = KRS }
+			}
 		}
 		
 		x = -1
@@ -1136,6 +1160,10 @@ focus_tree = {
 		}
 		
 		bypass = {
+				  OR = {
+			NOT = { country_exists = SAP }
+			ZYD = { has_war_with = SAP }
+			}
 		}
 		
 		x = 1
@@ -1164,8 +1192,13 @@ focus_tree = {
 		}
 		
 		bypass = {
-		  NOT = { country_exists = WML }
-		  577 = { is_controlled_by = ZYD }
+		OR = {
+		  AND = {
+			NOT = { country_exists = WML }
+			577 = { is_controlled_by = ZYD }
+			}
+			ZYD = { has_war_with = WML }
+		  }
 		}
 		
 		x = 0
