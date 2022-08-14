@@ -43,7 +43,6 @@ guiTypes = {
 			format = left
 		}
 
-
 		containerWindowType = {
 			name = "military_tab"
 			position = { x=0 y = 30 }
@@ -221,6 +220,20 @@ guiTypes = {
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
 					}
+					
+					instantTextboxType = {
+						name = "electrical_energy_value"
+						position = { x = 400 y = 5 }
+						textureFile = ""
+						font = "hoi_18mbs"
+						borderSize = {x = 0 y = 0}
+						text = "999"
+						maxWidth = 50
+						maxHeight = 20
+						format = left
+						#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
+					}
+
 				}
 				#################################
 				iconType = {
