@@ -15,6 +15,7 @@ UPA_collapse_LGP = {
 						target = UPA
 						type = annex_everything
 						}
+					load_oob = "LGP_2027"
 					}
 			}
 			60 = {
@@ -38,6 +39,9 @@ UPA_collapse_LGP = {
 						num_provinces = 3
 					}
 				}
+				LGP = { 
+					load_oob = "LGP_2027"
+					}
 			}
 			20 = {
 				LGP = {
@@ -49,6 +53,9 @@ UPA_collapse_LGP = {
 					limit = { is_core_of = LGP }
 					LGP = { transfer_state = PREV }
 				}
+				LGP = {
+					load_oob = "LGP_2027"
+					}
 			}
 		}
 		

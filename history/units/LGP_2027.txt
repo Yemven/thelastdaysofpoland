@@ -1,0 +1,72 @@
+division_template = {
+	name = "Pułk Legionu"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+division_template = {
+	name = "Pułk Ułanów"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalion Sił Poborowych"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "1 Pułk Piechoty Legionu Polskiego"
+		location = 12481
+		division_template = "Pułk Legionu"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "2 Pułk Piechoty Legionu Polskieg"
+		location = 12481
+		division_template = "Pułk Legionu"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1 Pułk Ułanów Legionu Polskiego"
+		location = 12481
+		division_template = "Pułk Ułanów"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Pierwsza Kompania Kadrowa"
+		location = 12481
+		division_template = "Batalion Sił Poborowych"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Polski Korpus Posiłkowy"
+		location = 12481
+		division_template = "Batalion Sił Poborowych"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+}
