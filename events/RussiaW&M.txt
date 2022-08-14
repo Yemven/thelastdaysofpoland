@@ -68,6 +68,9 @@ country_event = {
 		set_politics = {
 			ruling_party = reactionary
 		}
+		PZW = { leave_faction = yes }
+		TEU = { leave_faction = yes }
+		WAR = { dismantle_faction = yes }
 	}
 }
 
