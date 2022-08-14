@@ -1,0 +1,7 @@
+scripted_gui = {
+	PaF_economy = {
+		window_name = energy_balance_window
+		parent_window_token = construction_tab
+		visible = { always = yes }
+	}
+}
