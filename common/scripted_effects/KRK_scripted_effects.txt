@@ -16,6 +16,9 @@ KRK_cw_KRA = {
 			limit = { is_core_of = KRA }
 			KRA = { transfer_state = PREV }
 		}
+		KRA = {	
+			load_oob = "KRA_2027"
+			}
 	}
 }
 
@@ -36,6 +39,10 @@ KRK_cw_BRK = {
 			limit = { is_core_of = BRK }
 			BRK = { transfer_state = PREV }
 		}
+		
+		BRK = { 
+			load_oob = "BRK_2027"
+		}
 	}
 }
 
@@ -55,6 +62,10 @@ KRK_cw_WND = {
 			limit = { is_core_of = WND }
 			WND = { transfer_state = PREV }
 		}
+		
+		WND = {
+			load_oob = "WND_2027"
+			}
 	}
 }
 
