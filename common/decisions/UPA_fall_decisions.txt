@@ -52,7 +52,7 @@ UPA_fall_category = {
 		available = {
 			UPA = { has_global_flag = upa_trupa }	
 			NOT = { has_decision = RZE_lancut_invasion }
-			NOT = { is_border_conflict = yes }
+			NOT = { has_border_war = yes }
 		}
 
 		cost = 10
@@ -95,7 +95,7 @@ UPA_fall_category = {
 		available = {
 			UPA = { has_global_flag = upa_trupa }	
 			NOT = { has_decision = RZE_dynow_invasion }
-			NOT = { is_border_conflict = yes }
+			NOT = { has_border_war = yes }
 		}
 
 		cost = 10
@@ -138,7 +138,7 @@ UPA_fall_category = {
 		available = {
 			UPA = { has_global_flag = upa_trupa }	
 			NOT = { has_decision = UHR_radymno_invasion }
-			NOT = { is_border_conflict = yes }
+			NOT = { has_border_war = yes }
 		}
 
 		cost = 10
@@ -181,7 +181,7 @@ UPA_fall_category = {
 		available = {
 			UPA = { has_global_flag = upa_trupa }	
 			NOT = { has_decision = UHR_przemysl_invasion }
-			NOT = { is_border_conflict = yes }
+			NOT = { has_border_war = yes }
 		}
 
 		cost = 10
