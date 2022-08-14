@@ -164,12 +164,6 @@ on_actions = {
 					province = { id = 3465 }
 				}
 			}
-			579 = {
-				add_province_modifier = {
-					static_modifiers = { terrain_lodz_polesie }
-					province = { id = 3829 }
-				}
-			}
 			757 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_lodz_radogoszcz }
@@ -186,12 +180,6 @@ on_actions = {
 				add_province_modifier = {
 					static_modifiers = { terrain_lodz_srodmiescie }
 					province = { id = 3826 }
-				}
-			}
-			758 = {
-				add_province_modifier = {
-					static_modifiers = { terrain_lodz_widzew_north }
-					province = { id = 2962 }
 				}
 			}
 			577 = {
@@ -2707,6 +2695,18 @@ on_actions = {
 				add_province_modifier = {
 					static_modifiers = { terrain_hutalegnica}
 					province = { id = 7442 }
+				}
+			}
+			758 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_niciarniana}
+					province = { id = 11513 }
+				}
+			}
+			579 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_retkinia}
+					province = { id = 11499 }
 				}
 			}
 			

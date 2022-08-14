@@ -1,0 +1,57 @@
+calculate_energy_balance = {
+	#set_variable = { current_balance = electrical_energy_value }
+	#if = {
+		#limit = {
+			#current_balance = 0 czemu nie bierze ujemnej energii aaaa
+		#}
+		#set_variable = { generated_energy = power_plant }
+		#count_power_plants = yes
+		#set_variable = { guwno = power_plant }
+		#multiply_variable = { generated_energy = 1350 }
+		#set_variable = { used_energy = num_of_military_factories }
+		#multiply_variable = { used_energy = 200 }
+		#set_variable = { energy_for_industry = num_of_civilian_factories}
+		#add_to_variable = { energy_for_industry = synthetic_refinery }
+		#add_to_variable = { energy_for_industry = high_tech_complex}
+		#multiply_variable = { energy_for_industry = 100 }
+		#add_to_variable = { used_energy = energy_for_industry }
+		#add_to_variable = { current_balance = generated_energy}
+		#subtract_from_variable = { current_balance = used_energy }
+	#}
+	calculate_generated_energy = yes
+	calculate_used_energy = yes
+	set_variable = { current_balance = generated_energy }
+	subtract_from_variable = { current_balance = used_energy }
+}
+
+calculate_generated_energy = {
+	set_temp_variable = { num_of_power_plants = 0 }
+	set_temp_variable = { num_of_wind_farms = 0 }
+	every_owned_state = {
+		limit = {
+			always = yes
+		}
+		add_to_temp_variable = { PREV.num_of_power_plants = building_level@power_plant }
+		add_to_temp_variable = { PREV.num_of_wind_farms = building_level@wind_farm }
+	}
+	set_variable = { generated_energy = num_of_power_plants }
+	multiply_variable = { generated_energy = 1350 }
+	set_temp_variable = { energy_from_wind_farms = num_of_wind_farms }
+	multiply_temp_variable = { energy_from_wind_farms = 675 }
+	add_to_variable = { generated_energy = energy_from_wind_farms }
+}
+
+calculate_used_energy = {
+	set_variable = { used_energy = num_of_military_factories}
+	multiply_variable = { used_energy = 200 }
+	set_temp_variable = { energy_for_industry = num_of_civilian_factories }
+	every_owned_state = {
+		limit = {
+			always = yes
+		}
+		add_to_temp_variable = { PREV.energy_for_industry = building_level@synthetic_refinery }
+		add_to_temp_variable = { PREV.energy_for_industry = building_level@high_tech_complex }
+	}
+	multiply_temp_variable = { energy_for_industry = 100 }
+	add_to_variable = { used_energy = energy_for_industry }
+}
