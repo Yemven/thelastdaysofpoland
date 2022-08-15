@@ -123,23 +123,3 @@ special_projects = {
 		has_dlc = "Waking the Tiger"
 	}
 }
-
-###PIU OC DONUT STEEL
-
-generic_decisions_eurolib_category = {
-	visible = {
-		has_government = euroliberalism 
-	}
-	allowed = {
-		has_government = euroliberalism 
-	}
-}
-
-generic_decisions_squat_category = {
-	visible = {
-		has_government = squattism
-	}
-	allowed = {
-		has_government = squattism 
-	}
-}

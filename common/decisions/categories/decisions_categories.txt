@@ -125,7 +125,22 @@ generic_decisions_eurolib_category = {
 	priority = 20
 	icon = generic_economy
 	visible_when_empty = no
+	visible = {
+		has_government = euroliberalism 
+	}
 	available = {
-	has_government = euroliberalism 
+		has_government = euroliberalism 
+	}
+}
+
+generic_decisions_squat_category = {
+	priority = 20
+	icon = generic_economy
+	visible_when_empty = no
+	visible = {
+		has_government = squattism
+	}
+	allowed = {
+		has_government = squattism 
 	}
 }
