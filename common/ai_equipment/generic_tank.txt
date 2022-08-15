@@ -272,7 +272,7 @@ generic_medium_tanks = {
 			tank_atgm 
 			tank_adv_atgm 
 			tank_mbt_cannon_3
-			tank_modern_tank_turret
+			tank_mbt_three_man_tank_turret
 			tank_torsion_bar_suspension
 			tank_hiquality_steel
 			tank_diesel_engine
@@ -306,8 +306,8 @@ generic_medium_tanks = {
 						tank_atgm
 					} 
 				}
-				turret_type_slot = tank_modern_tank_turret
-				suspension_type_slot = tank_mbt_three_man_tank_turret
+				turret_type_slot = tank_mbt_three_man_tank_turret
+				suspension_type_slot = tank_torsion_bar_suspension
 				armor_type_slot = tank_hiquality_steel
 				engine_type_slot = tank_diesel_engine
 				special_type_slot_1 = tank_radio_module
@@ -338,7 +338,7 @@ generic_medium_tanks = {
 			tank_atgm 
 			tank_adv_atgm
 			tank_mbt_cannon_3
-			tank_modern_tank_turret
+			tank_mbt_three_man_tank_turret
 			tank_torsion_bar_suspension
 			tank_hiquality_steel
 			tank_diesel_engine

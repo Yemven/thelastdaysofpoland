@@ -34,7 +34,9 @@ weapon_dealer = {
 	visible_when_empty = yes
 	available = {
 		num_of_civilian_factories > 1
-		melee_equipment > 500
+		has_equipment = {
+			melee_equipment > 500
+		}
 	}
 }
 
@@ -142,5 +144,113 @@ generic_decisions_squat_category = {
 	}
 	allowed = {
 		has_government = squattism 
+	}
+}
+
+generic_decisions_cranism_category = {
+	priority = 20
+	icon = generic_economy
+	visible_when_empty = no
+	visible = {
+		has_government = marxism_cranism
+	}
+	allowed = {
+		has_government = marxism_cranism
+	}
+}
+
+generic_decisions_succdem_category = {
+	priority = 20
+	icon = generic_economy
+	visible_when_empty = no
+	visible = {
+		has_government = socialdemocrature
+	}
+	allowed = {
+		has_government = socialdemocrature
+	}
+}
+
+generic_decisions_freemarket_category = {
+	priority = 20
+	icon = generic_economy
+	visible_when_empty = no
+	visible = {
+		has_government = freemarketism
+	}
+	allowed = {
+		has_government = freemarketism
+	}
+}
+
+generic_decisions_patcon_category = {
+	priority = 20
+	icon = generic_economy
+	visible_when_empty = no
+	visible = {
+		has_government = paternal_conservatism
+	}
+	allowed = {
+		has_government = paternal_conservatism
+	}
+}
+
+generic_decisions_autocrat_category = {
+	priority = 20
+	icon = generic_economy
+	visible_when_empty = no
+	visible = {
+		has_government = autocracy
+	}
+	allowed = {
+		has_government = autocracy
+	}
+}
+
+generic_decisions_corporate_category = {
+	priority = 20
+	icon = generic_economy
+	visible_when_empty = no
+	visible = {
+		has_government = corporativism
+	}
+	allowed = {
+		has_government = corporativism
+	}
+}
+
+generic_decisions_neonat_category = {
+	priority = 20
+	icon = generic_economy
+	visible_when_empty = no
+	visible = {
+		has_government = neonationalism
+	}
+	allowed = {
+		has_government = neonationalism
+	}
+}
+
+generic_decisions_react_category = {
+	priority = 20
+	icon = generic_economy
+	visible_when_empty = no
+	visible = {
+		has_government = reactionary
+	}
+	allowed = {
+		has_government = reactionary
+	}
+}
+
+generic_decisions_postpol_category = {
+	priority = 20
+	icon = generic_economy
+	visible_when_empty = no
+	visible = {
+		has_government = postpolonism
+	}
+	allowed = {
+		has_government = postpolonism
 	}
 }

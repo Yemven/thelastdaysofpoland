@@ -916,19 +916,18 @@ default_produce_floating_harbors = {
 
 zandberg_debilu_kryj_front = {
 
-enable = { 
-	tag = JOM
-	has_war_with = SWI
+	enable = { 
+		tag = JOM
+		has_war_with = SWI
 	}
-ai_strategy = {
- 	type = front_control
-
-	tag = SWI
-	priority = 10 
-	ordertype = front 
-	execution_type = aggresive 
-	execute_order = yes 
-}
+	ai_strategy = {
+		type = front_control
+		tag = SWI
+		priority = 10 
+		ordertype = front 
+		execution_type = rush 
+		execute_order = yes 
+	}
 	ai_strategy = {
 		type = conquer
 		id = SWI
