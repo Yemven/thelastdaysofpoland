@@ -1,6 +1,3 @@
-# Written by Henrik "Groogy" Hansson
-# Modified by Daniel "Da9L" Sjöberg
-
 default_unit_production = { #If adding country-unique ones, bear in mind that they STACK
 	enable = {
 		always = yes
@@ -937,5 +934,40 @@ zandberg_debilu_kryj_front = {
 		type = front_unit_request
 		tag = SWI
 		value = 1000
+	}
+}
+
+budujemy_elektrownie = {
+	enable = {
+		check_variable = {
+			current_balance < 0
+		}
+	}
+	abort = {
+		check_variable = {
+			var = current_balance
+			value = 0
+		}
+	}
+	abort_when_not_enabled = no
+	ai_strategy = {
+		type = building_target
+		id = power_plant
+		value = 30
+	}
+	ai_strategy = {
+		type = building_target
+		id = wind_farm
+		value = 12
+	}
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = -1000
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = -1000
 	}
 }

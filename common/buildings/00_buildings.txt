@@ -249,13 +249,12 @@ buildings = {
 	
 	wind_farm = {
 		show_on_map = 10
-		base_cost = 10000
+		base_cost = 4000
 		icon_frame = 19
 		value = 8
 		shares_slots = yes
 		max_level = 2
 		shares_slots = yes
-		local_resources_coal = -1
 		infrastructure_construction_effect = yes
 	}
 }
