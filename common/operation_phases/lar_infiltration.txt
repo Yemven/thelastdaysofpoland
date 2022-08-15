@@ -6,11 +6,11 @@ infiltration_paradrop = {
 	icon = "GFX_phase_infiltration_airplane_small"
 	requirements = {
 		ROOT = {
-			has_equipment = { transport_plane_equipment > 0 }
+			has_equipment = { transport_equipment > 0 }
 		}
 	}
 	equipment = {
-		transport_plane_equipment = 1
+		transport_equipment = 1
 	}
 	return_on_complete = yes
 }
