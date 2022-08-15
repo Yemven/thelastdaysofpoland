@@ -3,14 +3,6 @@
 generic_decisions_eurolib_category = {
 
 	pro_federalist_propaganda = {
-	
-		visible = {
-			has_government = euroliberalism 
-		}
-	
-		allowed = {
-			has_government = euroliberalism 
-		}
 		
 		modifier = {	
 			stability_weekly = 0.003
@@ -34,14 +26,6 @@ generic_decisions_eurolib_category = {
 	}
 	
 	increase_bureaucracy = {
-	
-		visible = {
-			has_government = euroliberalism 
-		}
-	
-		allowed = {
-			has_government = euroliberalism 
-		}
 		
 		modifier = {	
 			stability_weekly = -0.001
@@ -66,14 +50,6 @@ generic_decisions_eurolib_category = {
 	
 	implement_harsher_gun_laws = {
 	
-		visible = {
-			has_government = euroliberalism 
-		}
-	
-		allowed = {
-			has_government = euroliberalism 
-		}
-		
 		modifier = {	
 			stability_weekly = -0.002
 			political_power_gain = -0.35
@@ -104,7 +80,65 @@ generic_decisions_eurolib_category = {
 }
 
 
-
+generic_decisions_squat_category = {
+	blunt_of_peace = {
+		modifier = {	
+			stability_weekly = 0.005
+			war_support_weekly = -0.01
+		}
+		
+		cost = 75
+		days_re_enable = 90
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = squattism
+				popularity = 0.02
+			}
+		}
+	}
+	
+	get_some_baseball_bats = {
+		modifier = {	
+			industrial_capacity_factory = -0.10
+		}
+		
+		cost = 100
+		days_re_enable = 180
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = melee_equipment
+				amount = 250
+			}
+		}
+	}
+	
+	pump_yourself_to_fight = {
+		modifier = {	
+			conscription_factor = -0.10
+		}
+		
+		cost = 150
+		days_re_enable = 365
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_war_support = 0.10
+		}
+	}
+}
 
 
 
