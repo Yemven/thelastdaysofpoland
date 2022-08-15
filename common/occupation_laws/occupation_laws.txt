@@ -381,20 +381,20 @@ forced_labor_occupation = {
 			multiply_temp_variable = { t = ai_desire_aluminium }
 			add_to_temp_variable = { releveant_resources = t }
 
-			set_temp_variable = { t = resource@rubber }
-			multiply_temp_variable = { t = ai_desire_rubber }
+			set_temp_variable = { t = resource@synthetic_materials }
+			multiply_temp_variable = { t = ai_desire_synthetic_materials }
 			add_to_temp_variable = { releveant_resources = t }
 
-			set_temp_variable = { t = resource@tungsten }
-			multiply_temp_variable = { t = ai_desire_tungsten }
+			set_temp_variable = { t = resource@coal }
+			multiply_temp_variable = { t = ai_desire_coal }
 			add_to_temp_variable = { releveant_resources = t }
 
 			set_temp_variable = { t = resource@steel }
 			multiply_temp_variable = { t = ai_desire_steel }
 			add_to_temp_variable = { releveant_resources = t }
 
-			set_temp_variable = { t = resource@chromium }
-			multiply_temp_variable = { t = ai_desire_chromium }
+			set_temp_variable = { t = resource@electronics }
+			multiply_temp_variable = { t = ai_desire_electronics }
 			add_to_temp_variable = { releveant_resources = t }
 
 			check_variable = { releveant_resources > 0 }
