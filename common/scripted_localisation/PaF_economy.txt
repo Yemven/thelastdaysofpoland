@@ -1,7 +1,26 @@
 defined_text = {
 	name = GetEnergyBalance
+	text = { 
+		trigger = {
+			check_variable = { current_balance < 0 }
+		}
+		localization_key = ENERGY_BALANCE_NEGATIVE
+	}
 	text = {
 		localization_key = ENERGY_BALANCE
+	}
+}
+
+defined_text = {
+	name = GetEnergyBalanceTooltip
+	text = { 
+		trigger = {
+			check_variable = { current_balance < 0 }
+		}
+		localization_key = ENERGY_BALANCE_TT_NEGATIVE
+	}
+	text = {
+		localization_key = ""
 	}
 }
 

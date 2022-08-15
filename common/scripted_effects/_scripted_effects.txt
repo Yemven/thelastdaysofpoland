@@ -1,27 +1,9 @@
 calculate_energy_balance = {
-	#set_variable = { current_balance = electrical_energy_value }
-	#if = {
-		#limit = {
-			#current_balance = 0 czemu nie bierze ujemnej energii aaaa
-		#}
-		#set_variable = { generated_energy = power_plant }
-		#count_power_plants = yes
-		#set_variable = { guwno = power_plant }
-		#multiply_variable = { generated_energy = 1350 }
-		#set_variable = { used_energy = num_of_military_factories }
-		#multiply_variable = { used_energy = 200 }
-		#set_variable = { energy_for_industry = num_of_civilian_factories}
-		#add_to_variable = { energy_for_industry = synthetic_refinery }
-		#add_to_variable = { energy_for_industry = high_tech_complex}
-		#multiply_variable = { energy_for_industry = 100 }
-		#add_to_variable = { used_energy = energy_for_industry }
-		#add_to_variable = { current_balance = generated_energy}
-		#subtract_from_variable = { current_balance = used_energy }
-	#}
 	calculate_generated_energy = yes
 	calculate_used_energy = yes
 	set_variable = { current_balance = generated_energy }
 	subtract_from_variable = { current_balance = used_energy }
+	calculate_energy_effects = yes
 }
 
 calculate_generated_energy = {
@@ -54,4 +36,31 @@ calculate_used_energy = {
 	}
 	multiply_temp_variable = { energy_for_industry = 100 }
 	add_to_variable = { used_energy = energy_for_industry }
+}
+
+calculate_energy_effects = {
+	set_variable = { ee_multiplier = current_balance }
+	if = {
+		limit = {
+			check_variable = { generated_energy = 0 }
+		}
+		divide_variable = { ee_multiplier = 675 }
+	}
+	else = {
+		divide_variable = { ee_multiplier = generated_energy }
+	}
+	clamp_variable = {
+		var = ee_multiplier
+		min = -1
+	}
+	if = {
+		limit = {
+			check_variable = { ee_multiplier < 0 }
+		}
+		set_variable = { low_power_penalty = 0.5 }
+		multiply_variable = { low_power_penalty = ee_multiplier }
+		add_dynamic_modifier = {
+			modifier = lack_of_energy_modifier
+		}
+	}
 }
