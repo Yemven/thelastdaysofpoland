@@ -4,7 +4,7 @@ state={
 	provinces={
 		2567 16059 16060 16061 16062 16063 16064 16065 16066
 	}
-	manpower = 53441  state_category = city
+	manpower = 57441  state_category = city
 	buildings_max_level_factor=1.000
 					history = {
 		owner = EKW
@@ -18,6 +18,8 @@ state={
 		add_core_of = EKW
 	buildings = {
 	infrastructure = 7
+	industrial_complex = 3
+	arms_factory = 1
 }
 }
 }

@@ -5,7 +5,7 @@ state={
 	provinces={
 		381 2375 2633 2978 3036 3623 3654 17505 17506 17507 17508 17509 17510 17511 17512 17513 17514 17515 17516 17517 17518 17519 17520 17521 17522 17523 17524 17525 17526 17527 17528 17529 17530 17531 17532 17533
 	}
-	manpower = 52718   state_category = city
+	manpower = 52718   state_category = town
 	buildings_max_level_factor=1.000
 						history = {
 		owner = EKW
@@ -15,7 +15,9 @@ state={
 		victory_points = {17522 2 }
 		add_core_of = EKW
 	buildings = {
-	infrastructure = 7
+	infrastructure = 5
+	industrial_complex = 2
+	arms_factory = 1
 }
 }
 }

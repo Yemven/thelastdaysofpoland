@@ -7,7 +7,7 @@ state={
 	}
 	manpower = 15931  
 resources={
-		oil = 13} state_category = city
+		oil = 13} state_category = town
 	buildings_max_level_factor=1.000
 			history = {
 		owner = EKW
@@ -18,7 +18,8 @@ resources={
 		victory_points = {17212 2 }
 		add_core_of = EKW
 	buildings = {
-	infrastructure = 7
+	infrastructure = 5
+	industrial_complex = 1
 	17203 = { naval_base = 2 }
 	17209 = { naval_base = 3 }
 }

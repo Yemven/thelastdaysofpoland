@@ -10,7 +10,8 @@ state={
 		}
 		add_core_of = EKW
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
+			industrial_complex = 1
 
 		}
 
@@ -23,6 +24,6 @@ state={
 resources={
 		oil = 60}
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 	local_supplies=0.000
 }
