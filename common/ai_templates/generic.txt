@@ -39,7 +39,11 @@ armor_generic = {
 		}
 		
 		can_upgrade_in_field = {
-			has_equipment = { nsb_mbt_0 < 500 } 
+			OR = {
+				has_equipment = { ifv_chassis_1 < 500 }
+				has_equipment = { ifv_equipment_1 < 500 }
+			}
+			 
 		}
 		
 		target_width = 18.0
