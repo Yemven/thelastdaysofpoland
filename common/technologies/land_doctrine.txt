@@ -1967,16 +1967,17 @@ technologies = {
 			leads_to_tech = hacker_espionage
 		}
 		
+		
 		category_all_armor = {
-			attack = 0.1
+			soft_attack = 0.1
 			defense = 0.1
 		}
 		motorized = {
-			attack = 0.1
+			soft_attack = 0.1
 			defense = 0.1
 		}
 		mechanized = {
-			attack = 0.1
+			soft_attack = 0.1
 			defense = 0.1
 		}
 		
@@ -2183,7 +2184,7 @@ technologies = {
 		}
 		
 		category_all_infantry = {
-			soft_attack - 0.15
+			soft_attack = 0.15
 			maximum_speed = 0.1
 		}
 
@@ -2476,12 +2477,12 @@ technologies = {
 		
 		melee_infantry = {
 			breakthrough = 0.15
-			org_loss_when_at_low_org_factor = -0.1
+			default_morale = 0.1
 		}
 		
 		cavalry = {
 		    breakthrough = 0.15
-			org_loss_when_at_low_org_factor = -0.1
+			default_morale = 0.1
 		}
 		doctrine = yes
 		categories = {
@@ -2640,7 +2641,7 @@ technologies = {
 			position = { x = -8 y = 8 }
 		}
 		
-		initiative = 0.25
+		initiative_factor = 0.25
 		army_defence_factor = 0.15
 		
 		doctrine = yes
@@ -2733,7 +2734,7 @@ technologies = {
 		initiative_factor = 0.25
 		extra_paratrooper_supply_grace = 96
 		
-		paratroopers = {
+		paratrooper = {
 			soft_attack = 0.1
 			max_organisation = 6
 		}
@@ -2893,7 +2894,7 @@ technologies = {
 		
 		land_night_attack = 1
 		militia = {
-			attack = 0.25
+			soft_attack = 0.25
 		}
 		
 		doctrine = yes
@@ -2949,7 +2950,7 @@ technologies = {
 		
 		coordination_bonus = 0.1
 		recon_factor = 0.2
-		org_loss_when_at_low_org_factor = 0.2
+		org_loss_at_low_org_factor = 0.2
 		
 		
 		doctrine = yes
@@ -3016,7 +3017,9 @@ technologies = {
 			position = { x = 1 y = 12 }
 		}
 		
-		melee_infantry_breakthrough = 0.15
+		melee_infantry= {
+			breakthrough = 0.15
+		}
 		fortification_damage = 0.5
 		
 		doctrine = yes

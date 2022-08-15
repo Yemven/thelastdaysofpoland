@@ -71,7 +71,7 @@ operation_rescue_operative = { ### 0 1/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -105,7 +105,7 @@ operation_rescue_operative = { ### 0 1/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -214,7 +214,7 @@ operation_infiltrate_civilian = { ### 1 1/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -248,7 +248,7 @@ operation_infiltrate_civilian = { ### 1 1/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -499,7 +499,7 @@ operation_capture_cipher = { ### 3 1/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -536,7 +536,7 @@ operation_capture_cipher = { ### 3 1/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -644,7 +644,7 @@ operation_infiltrate_armed_forces_army = { ### 4 1/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -685,7 +685,7 @@ operation_infiltrate_armed_forces_army = { ### 4 1/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -802,7 +802,7 @@ operation_infiltrate_armed_forces_navy = { ### 5 1/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -843,7 +843,7 @@ operation_infiltrate_armed_forces_navy = { ### 5 1/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -953,7 +953,7 @@ operation_infiltrate_armed_forces_airforce = { ### 6 1/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -994,7 +994,7 @@ operation_infiltrate_armed_forces_airforce = { ### 6 1/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -1027,7 +1027,7 @@ operation_coup_government = { ### 7 1/70
 	}
 
 	equipment = {
-		infantry_equipment = 12000
+		ranged_equipment = 1200
 	}
 	# Cannot spawn a civil war in the capital
 	selection_target_state = {
@@ -1054,27 +1054,69 @@ operation_coup_government = { ### 7 1/70
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = fascism }
+					PREV.ROOT = { has_government = marxism_cranism }
 				}
-				fascism > 0.2
+				marxism_cranism > 0.2
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = communism }
+					PREV.ROOT = { has_government = squattism }
 				}
-				communism > 0.2
+				squattism > 0.2
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = democratic }
+					PREV.ROOT = { has_government = socialdemocrature }
 				}
-				democratic > 0.2
+				socialdemocrature > 0.2
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = neutrality }
+					PREV.ROOT = { has_government = euroliberalism }
 				}
-				neutrality > 0.2
+				euroliberalism > 0.2
+			}
+			if = {
+				limit = {
+					PREV.ROOT = { has_government = freemarketism }
+				}
+				freemarketism > 0.2
+			}
+			if = {
+				limit = {
+					PREV.ROOT = { has_government = paternal_conservatism }
+				}
+				paternal_conservatism > 0.2
+			}
+			if = {
+				limit = {
+					PREV.ROOT = { has_government = autocracy }
+				}
+				autocracy > 0.2
+			}
+			if = {
+				limit = {
+					PREV.ROOT = { has_government = corporativism }
+				}
+				corporativism > 0.2
+			}
+			if = {
+				limit = {
+					PREV.ROOT = { has_government = neonationalism }
+				}
+				neonationalism > 0.2
+			}
+			if = {
+				limit = {
+					PREV.ROOT = { has_government = reactionary }
+				}
+				reactionary > 0.2
+			}
+			if = {
+				limit = {
+					PREV.ROOT = { has_government = postpolonism }
+				}
+				postpolonism > 0.2
 			}
 				#set_temp_variable = { coup_ideology@ROOT = PREV.ROOT.current_party_ideology_group }
 				#set_temp_variable = { coup_ideology_popularity@ROOT = party_popularity@ROOT.coup_ideology }
@@ -1246,7 +1288,7 @@ operation_coup_government = { ### 7 1/70
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -1545,7 +1587,7 @@ operation_make_resistance_contacts = { ### 9 2/40
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -1563,7 +1605,7 @@ operation_make_resistance_contacts = { ### 9 2/40
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -1596,8 +1638,8 @@ operation_collaboration_government = { ### 10 2/55
 	}
 
 	equipment = {
-		support_equipment = 200
-		infantry_equipment = 1000
+		support_equipment = 20
+		ranged_equipment = 100
 		civilian_factories = {
 			amount = 10
 			days = 60
@@ -1652,7 +1694,7 @@ operation_collaboration_government = { ### 10 2/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -1680,7 +1722,7 @@ operation_collaboration_government = { ### 10 2/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -1761,7 +1803,7 @@ operation_coordinated_strike = { ### 11 2/70
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -1920,7 +1962,7 @@ operation_steal_tech_civilian = { ### 12 3/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -1954,7 +1996,7 @@ operation_steal_tech_civilian = { ### 12 3/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2055,7 +2097,7 @@ operation_targeted_sabotage_industry = { ### 13 3/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2088,7 +2130,7 @@ operation_targeted_sabotage_industry = { ### 13 3/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2184,7 +2226,7 @@ operation_targeted_sabotage_infrastructure = { ### 14 3/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2219,7 +2261,7 @@ operation_targeted_sabotage_infrastructure = { ### 14 3/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2316,7 +2358,7 @@ operation_targeted_sabotage_resources = { ### 15 3/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2349,7 +2391,7 @@ operation_targeted_sabotage_resources = { ### 15 3/35
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2581,7 +2623,7 @@ operation_steal_tech_army = { ### 16 3/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2614,7 +2656,7 @@ operation_steal_tech_army = { ### 16 3/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2802,7 +2844,7 @@ operation_steal_tech_navy = { ### 17 3/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2836,7 +2878,7 @@ operation_steal_tech_navy = { ### 17 3/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2959,7 +3001,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
@@ -2993,7 +3035,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 			modifier = {
 				ROOT = { 
 					has_equipment = {
-						transport_plane_equipment < 1
+						transport_equipment < 1
 					}
 				}
 				factor = 0
