@@ -1833,11 +1833,11 @@ leader_traits = {
 			#}
 		}
 		sub_unit_modifiers = {
-			destroyer = {
-				naval_damage_factor = 0.1
-				naval_torpedo_hit_chance_factor = 0.1
-				navy_visibility = -0.1
-			}
+			#destroyer = {
+				#naval_damage_factor = 0.1
+				#naval_torpedo_hit_chance_factor = 0.1
+				#navy_visibility = -0.1
+			#}
 		}	
 		ai_will_do = {
 			factor = 0
@@ -1892,14 +1892,14 @@ leader_traits = {
 			
 		}
 		sub_unit_modifiers = {
-			light_cruiser = {
-				naval_damage_factor = 0.1
-				naval_speed_factor = 0.1
-			}
-			heavy_cruiser = {
-				naval_damage_factor = 0.1
-				naval_speed_factor = 0.1
-			}
+			#light_cruiser = {
+				#naval_damage_factor = 0.1
+				#naval_speed_factor = 0.1
+			#}
+			#heavy_cruiser = {
+				#naval_damage_factor = 0.1
+				#naval_speed_factor = 0.1
+			#}
 		}	
 		ai_will_do = {
 			factor = 0
@@ -2166,10 +2166,10 @@ leader_traits = {
 	dive_bomber = { 
 		type = navy
 		sub_unit_modifiers = {
-			cv_cas = {
-				air_attack_factor = 0.1
-				air_mission_efficiency = 0.1
-			}
+			#cv_cas = {
+				#air_attack_factor = 0.1
+				#air_mission_efficiency = 0.1
+			#}
 		}	
 		ai_will_do = {
 			factor = 0
@@ -2191,10 +2191,10 @@ leader_traits = {
 	torpedo_bomber = { 
 		type = navy
 		sub_unit_modifiers = {
-			cv_nav_bomber = {
-				air_attack_factor = 0.1
-				air_mission_efficiency = 0.1
-			}
+			#cv_nav_bomber = {
+				#air_attack_factor = 0.1
+				#air_mission_efficiency = 0.1
+			#}
 		}	
 
 		slot = high_command
