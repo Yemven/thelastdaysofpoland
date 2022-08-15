@@ -388,17 +388,25 @@ country_event = {
 		740	= {			
 			teleport_armies = {
 				limit = {
-					ROOT = { has_war_with = SKW }
+					original_tag = HOR
 				}
 					to_province = 11008
 				}
 			}
 		}
 		if = { limit = { HOR = { controls_state = 472 } }
+		519 = {		
+			create_unit = {
+				division = "name = \"Święta Dywersja\" division_template = \"Pielgrzymi\" start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes				
+				prioritize_location = 11008			
+				owner = HOR
+			}
+		}
 		472	= {			
 			teleport_armies = {
 				limit = {
-					ROOT = { has_war_with = SKW }
+					original_tag = HOR
 				}
 					to_province = 11008
 				}
