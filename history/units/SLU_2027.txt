@@ -13,7 +13,7 @@ units = {
 		name = "Gangi Wildy"
 		location = 13347
 		division_template = "Gangi Osiedlowe"
-		start_experience_factor = 0
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.2
 	}
 
@@ -21,7 +21,7 @@ units = {
 		name = "Gangi Rataj"
 		location = 13342
 		division_template = "Gangi Osiedlowe"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.7
 		start_equipment_factor = 0.4
 	}
 	
@@ -29,7 +29,55 @@ units = {
 		name = "Gangi Chartowa"
 		location = 13355
 		division_template = "Gangi Osiedlowe"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.1
+	}
+
+	division = {
+		name = "Gangi Głuszyny"
+		location = 13354
+		division_template = "Gangi Osiedlowe"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+	}
+
+	division = {
+		name = "Gangi Dębiny"
+		location = 13350
+		division_template = "Gangi Osiedlowe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		name = "Gangi Żegrzy"
+		location = 13344
+		division_template = "Gangi Osiedlowe"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.1
+	}
+
+	division = {
+		name = "Gangi Starołęki"
+		location = 2421
+		division_template = "Gangi Osiedlowe"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+	}
+
+	division = {
+		name = "Gang z Mostu"
+		location = 13349
+		division_template = "Gangi Osiedlowe"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		name = "Gangi Nowego Miasta"
+		location = 13346
+		division_template = "Gangi Osiedlowe"
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.1
 	}
 }
