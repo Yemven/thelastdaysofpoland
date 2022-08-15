@@ -48,6 +48,15 @@ ziobro_war = {
 					limit = { NOT = { is_ai = yes } }
 					news_event = { id = ziobro.1 }
 					}
+				every_country = {
+					limit = { has_war_with = PRK }
+					white_peace = PRK
+					}					
+				PRK = {
+					end_puppet = OSW
+					end_puppet = BOH
+				}
+				OSW = { drop_cosmetic_tag = yes }				
 			}
 			else = {		
 				clr_country_flag = ziobro_start_war
