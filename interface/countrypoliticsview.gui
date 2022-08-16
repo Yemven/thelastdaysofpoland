@@ -149,7 +149,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "ideology"
 				position = { x = 87 y = 75 }
-				font = "hoi_18mbs"
+				font = "stellaris_main"
 				text = "ideology"
 				maxWidth = 150
 				maxHeight = 20
@@ -159,7 +159,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "faction_name"
 				position = { x = 98 y = 115 }
-				font = "hoi_18mbs"
+				font = "stellaris_main"
 				text = "faction"
 				maxWidth = 135
 				maxHeight = 20
@@ -351,7 +351,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 128 y = 34 }
-				font = "stellaris_main"
+				font = "cg_18b"
 				text = "POLITICS_ACTIVE_GOAL"
 				maxWidth = 200
 				maxHeight = 20
@@ -381,8 +381,8 @@ guiTypes = {
 						
 			instantTextboxType = {
 				name = "title"
-				position = { x = 110 y = -16 }
-				font = "hoi_18mbs"
+				position = { x = 100 y = -10 }
+				font = "hoi_20bs"
 				text = "POLITICS_NATIONAL_SPIRIT"
 				maxWidth = 200
 				maxHeight = 20
@@ -435,7 +435,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_name"
 			position = { x = 15 y = 291 }
-			font = "hoi_18mbs"
+			font = "hoi_20bs"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 20
@@ -513,10 +513,10 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
-			position = { x = 29 y = 338 }
-			font = "hoi_16mbs"
+			position = { x = 25 y = 338 }
+			font = "stellaris_main"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
-			maxWidth = 122
+			maxWidth = 140
 			alwaystransparent = yes
 		}
 		
@@ -535,11 +535,11 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "show_subjects_button_text"
-				position = { x = 24 y = 9 }
-				font = "hoi_16mbs"
+				position = { x = 18 y = 9 }
+				font = "stellaris_main"
 				text = "MANAGE_SUBJECTS"
 				Orientation = "UPPER_LEFT"
-				maxWidth = 130
+				maxWidth = 140
 				alwaystransparent = yes
 				format = center
 			}
@@ -556,9 +556,9 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
-			position = { x = 25 y = 430 }
-			font = "hoi_16mbs"
-			maxWidth = 130
+			position = { x = 20` y = 430 }
+			font = "stellaris_main"
+			maxWidth = 140
 			maxHeight = 20
 			fixedsize = yes
 			text = "MANAGE_EXILED_GOVERNMENTS"
@@ -588,7 +588,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 200 y = -10 }
-			font = "hoi_20b"
+			font = "cg_22"
 			orientation = "category_header"
 			format = centre
 			text = "Government"

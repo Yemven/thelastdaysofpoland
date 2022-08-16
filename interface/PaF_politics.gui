@@ -8,8 +8,8 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "leader_title"
-				position = { x = -74 y = -245 }
-				font = "hoi_18mbs"
+				position = { x = -74 y = -248 }
+				font = "hoi_20bs"
 				text = [Root.GetLocTitle]
 				maxWidth = 155
 				maxHeight = 20
@@ -19,7 +19,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "party_type"
 				position = { x = 253  y = 100 }
-				font = "hoi_18mbs"
+				font = "stellaris_main"
 				text = [Root.GetRulingPartyLong]
 				maxWidth = 180
 				maxHeight = 20
