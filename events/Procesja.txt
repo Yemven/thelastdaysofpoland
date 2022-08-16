@@ -363,6 +363,14 @@ country_event = {
 			days = 3
 			}
 		PRK = { give_military_access = HOR }
+		519 = {		
+			create_unit = {
+				division = "name = \"Święta Dywersja\" division_template = \"Pielgrzymi\" start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes				
+				prioritize_location = 11008			
+				owner = HOR
+			}
+		}		
 	}
 }
 
@@ -376,42 +384,19 @@ country_event = {
 
 	option = {
 		name = procesja_west.12.a
-		if = { limit = { HOR = { controls_state = 740 } }
-		519 = {		
-			create_unit = {
-				division = "name = \"Święta Dywersja\" division_template = \"Pielgrzymi\" start_experience_factor = 0.1"
-				allow_spawning_on_enemy_provs = yes				
-				prioritize_location = 11008			
-				owner = HOR
-			}
+		delete_units = {
+			division_template = "Ochotnicy"
+			disband = yes
 		}
-		740	= {			
-			teleport_armies = {
-				limit = {
-					original_tag = HOR
-				}
-					to_province = 11008
-				}
-			}
+		delete_units = {
+			division_template = "Pielgrzymi"
+			disband = yes
 		}
-		if = { limit = { HOR = { controls_state = 472 } }
-		519 = {		
-			create_unit = {
-				division = "name = \"Święta Dywersja\" division_template = \"Pielgrzymi\" start_experience_factor = 0.1"
-				allow_spawning_on_enemy_provs = yes				
-				prioritize_location = 11008			
-				owner = HOR
-			}
-		}
-		472	= {			
-			teleport_armies = {
-				limit = {
-					original_tag = HOR
-				}
-					to_province = 11008
-				}
-			}
-		}
+		delete_units = {
+			division_template = "Wieczna Procesja"
+			disband = yes
+		}	
+		load_oob = "HOR_skawina"
 	}
 }
 
@@ -450,26 +435,19 @@ country_event = {
 
 	option = {
 		name = procesja_west.14.a
-		if = { limit = { HOR = { controls_state = 740 } }
-		740	= {			
-			teleport_armies = {
-				limit = {
-					ROOT = { any_neighbor_country = { tag = WDW } }
-				}
-					to_state = 800
-				}
-			}
+		delete_units = {
+			division_template = "Ochotnicy"
+			disband = yes
 		}
-		if = { limit = { HOR = { controls_state = 472 } }
-		472	= {			
-			teleport_armies = {
-				limit = {
-					ROOT = { any_neighbor_country = { tag = WDW } }
-				}
-					to_state = 800
-				}
-			}
+		delete_units = {
+			division_template = "Pielgrzymi"
+			disband = yes
 		}
+		delete_units = {
+			division_template = "Wieczna Procesja"
+			disband = yes
+		}	
+		load_oob = "HOR_zator"
 		declare_war_on = {
 			target = WDW
 			type = annex_everything 
