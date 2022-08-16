@@ -142,7 +142,81 @@ generic_decisions_squat_category = {
 }
 
 generic_decisions_cranism_category = {
-
+	central_commitee_meeting = {
+		modifier = {	
+			consumer_goods_factor = 0.05
+		}
+		
+		cost = 75
+		days_re_enable = 90
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = marxism_cranism
+				popularity = 0.02
+			}
+		}
+	}
+	
+	military_parade = {
+		modifier = {	
+			conscription_factor = -0.10
+			industrial_capacity_factory = -0.10
+		}
+		
+		cost = 100
+		days_re_enable = 180
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_stability = 0.05
+			add_war_support = 0.05
+		}
+	}
+	
+	build_great_project_of_socialism = {
+		modifier = {	
+			conscription_factor = -0.20
+			production_speed_buildings_factor = -0.20
+		}
+		
+		cost = 150
+		days_re_enable = 365
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		fixed_random_seed = no
+		remove_effect = {
+			random_list = {
+				10 = {
+					random_owned_state = {
+						add_building_construction = { type = power_plant level = 1 instant_build = yes }
+					}
+				}
+				10 = {
+					random_owned_state = {
+						add_building_construction = { type = power_plant level = 1 instant_build = yes }
+						add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+					}
+				}
+				10 = {
+					random_owned_state = {
+						add_building_construction = { type = power_plant level = 1 instant_build = yes }
+						add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+						add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+					}
+				}
+			}
+		}
+	}
 }
 
 generic_decisions_succdem_category = {
