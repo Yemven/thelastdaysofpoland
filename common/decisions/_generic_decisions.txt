@@ -256,7 +256,7 @@ generic_decisions_postpol_category = {
 
 weapon_dealer = {
 	sell_ranged = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		complete_effect = {
 			send_equipment = {
@@ -269,7 +269,7 @@ weapon_dealer = {
 	}
 
 	sell_melee = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		complete_effect = {
 			send_equipment = {
@@ -281,7 +281,7 @@ weapon_dealer = {
 	}
 	
 	buy_german_ranged = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
@@ -296,7 +296,7 @@ weapon_dealer = {
 	}
 
 	buy_radom_ranged = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
@@ -311,7 +311,7 @@ weapon_dealer = {
 	}
 
 	buy_swedish_ranged = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
@@ -325,7 +325,7 @@ weapon_dealer = {
 		}
 	}
 	buy_ukrainian_ranged = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
@@ -340,7 +340,7 @@ weapon_dealer = {
 	}
 
 	buy_russian_ranged = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
@@ -354,7 +354,7 @@ weapon_dealer = {
 		}
 	}
 	buy_german_melee = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
@@ -369,7 +369,7 @@ weapon_dealer = {
 	}
 
 	buy_radom_melee = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
@@ -383,7 +383,7 @@ weapon_dealer = {
 		}
 	}
 	buy_swedish_melee = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
@@ -397,7 +397,7 @@ weapon_dealer = {
 		}
 	}
 	buy_ukrainian_melee = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
@@ -411,7 +411,7 @@ weapon_dealer = {
 		}
 	}
 	buy_russian_melee = {
-		days_remove = 5
+		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1

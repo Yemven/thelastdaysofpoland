@@ -32,11 +32,13 @@ weapon_dealer = {
 	priority = 2
 	icon = generic_economy
 	visible_when_empty = yes
-	available = {
-		num_of_civilian_factories > 1
-		has_equipment = {
-			melee_equipment > 500
+	allowed = {
+		NOT = { 
+			original_tag = BEX
+			}
 		}
+	available = {
+		num_of_civilian_factories > 2
 	}
 }
 
