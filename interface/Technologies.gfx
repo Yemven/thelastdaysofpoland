@@ -1,5 +1,8 @@
 spriteTypes = {
-
+	SpriteType = {
+		name = "GFX_inf_anti_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/inf_anti_tank_equipment_0.dds"
+	}
 	SpriteType = {
 		name = "GFX_legacy_of_warsaw_pact_medium"
 		texturefile = "gfx/interface/technologies/warsaw_pact.dds"
@@ -1392,7 +1395,15 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_inf_antitank_2_medium"
 		texturefile = "gfx/interface/technologies/inf_antitank_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_inf_antitank_3_medium"
+		texturefile = "gfx/interface/technologies/inf_antitank_3.dds"
 	}	
+	SpriteType = {
+		name = "GFX_inf_antitank_1_medium"
+		texturefile = "gfx/interface/technologies/inf_antitank_1.dds"
+	}
 	SpriteType = {
 		name = "GFX_technological_supremacy_medium"
 		texturefile = "gfx/interface/technologies/technological_supremacy.dds"
