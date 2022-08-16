@@ -51,9 +51,22 @@ units = {
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
-	
 	division = {
-		name = "Śledczy Batalion Piechoty"
+		name = "1 Śledczy Batalion Piechoty"
+		location = 916
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "2 Leszczyński Batalion Piechoty"
+		location = 916
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "3 Wolsztyński Batalion Piechoty"
 		location = 916
 		division_template = "Batalion Piechoty"
 		start_experience_factor = 0.2
