@@ -36,11 +36,6 @@ scripted_gui = {
 			PaF_OpeningScreen_CloseButton_click = {
 				clear_variable = PaF_Opening_Screen
 			}
-
-			#Country = 1
-			#Regions = 2
-			#Features = 3
-			#Mod Info = 4
 			
 			PaF_OpeningScreen_Buttons_CountryView_click = {
 				set_variable = { PaF_Opening_Screen = 1 }
@@ -49,95 +44,47 @@ scripted_gui = {
 				set_variable = { PaF_Opening_Screen = 2 }
 			}
 			PaF_OpeningScreen_Buttons_ModView_click = {
-				set_variable = { PaF_Opening_Screen = 4 }
+				set_variable = { PaF_Opening_Screen = 3 }
 			}
 		}
 		
 		triggers = {
 			PaF_OpeningScreen_Text_visible = {
-				NOT = { check_variable = { PaF_Opening_Screen = 4 } }
+				NOT = { check_variable = { PaF_Opening_Screen = 3 } }
+				NOT = { check_variable = { PaF_Opening_Screen = 2 } }				
 			}
+			PaF_OpeningScreen_Title_visible = {
+				NOT = { check_variable = { PaF_Opening_Screen = 3 } }
+				NOT = { check_variable = { PaF_Opening_Screen = 2 } }
+			}
+			PaF_OpeningScreen_Lore_visible = {
+				NOT = { check_variable = { PaF_Opening_Screen = 3 } }
+				NOT = { check_variable = { PaF_Opening_Screen = 1 } }
+			}			
 			PaF_OpeningScreen_Text_ModInfo_Buttons_visible = {
-				check_variable = { PaF_Opening_Screen = 4 }
+				check_variable = { PaF_Opening_Screen = 3 }
 			}
 			PaF_OpeningScreen_PlayerFlag_visible = {
 				check_variable = { PaF_Opening_Screen = 1 }
 			}
 			PaF_discord_button_visible = {
-				check_variable = { PaF_Opening_Screen = 4 }
+				check_variable = { PaF_Opening_Screen = 3 }
 			}
 			PaF_reddit_button_visible = {
-				check_variable = { PaF_Opening_Screen = 4 }
+				check_variable = { PaF_Opening_Screen = 3 }
 			}
-			PaF_tvtropes_button_visible = {
-				check_variable = { PaF_Opening_Screen = 4 }
+			PaF_facebook_button_visible = {
+				check_variable = { PaF_Opening_Screen = 3 }
 			}
-			PaF_twitter_button_visible = {
-				check_variable = { PaF_Opening_Screen = 4 }
-			}
-			
-			
-			PaF_OpeningScreen_Text_Small_visible = {
-				OR = {
-					AND = {
-						check_variable = { PaF_Opening_Screen = 1 }
-						PaF_has_big_opening_screen = yes
-					}
-					check_variable = { PaF_Opening_Screen = 3 }
-				}
-			}
-			
-			PaF_OpeningScreen_Text_visible = {
-				OR = {
-					check_variable = { PaF_Opening_Screen = 4 }
-					check_variable = { PaF_Opening_Screen = 2 }
-					AND = {
-						PaF_has_big_opening_screen = no
-						check_variable = { PaF_Opening_Screen = 1 }
-					}
-				}
-				NOT = { check_variable = { PaF_Opening_Screen = 4 } }
-			}
+			PaF_button_bg_visible = {
+				check_variable = { PaF_Opening_Screen = 3 }
+			}			
 		}
 		
 		properties = {
 			PaF_OpeningScreen_PlayerFlag = { image = "[This.GetFlag]" }
 			PaF_OpeningScreen_Poster = { image = "[GET_POSTER]" }
-			PaF_OpeningScreen_RegionSymbol = { image = "[GET_REGIONALSYMBOL]" }
 		}
 	}
-	
-	PaF_closing_screen_main = {
-		context_type = player_context
-		parent_window_token = top_bar
-		window_name = "PaF_ClosingScreen_Main"
 
-		visible = {
-			AND = {
-				is_ai = no
-				has_country_flag = PaF_closing_screen_show
-			}
-		}
-		
-		effects = {
-			PaF_ClosingScreen_CloseButton_click = {
-				clr_country_flag = PaF_closing_screen_show
-			}
-			closing_button_next_page_click = {
-				add_to_variable = { ENDING_INFO_PAGE = 1 }
-			}
-			closing_button_prev_page_click = {
-				add_to_variable = { ENDING_INFO_PAGE = -1 }
-			}
-		}
-		
-		triggers = {
-			closing_button_next_page_visible = {
-				check_variable = { ENDING_INFO_PAGE < 1.99 }
-			}
-			closing_button_prev_page_visible = {
-				check_variable = { ENDING_INFO_PAGE > 0.01 }
-			}
-		}
-	}
 }

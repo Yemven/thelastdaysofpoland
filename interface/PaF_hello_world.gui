@@ -33,28 +33,27 @@ guiTypes = {
 				name = "PaF_OpeningScreen_Buttons_CountryView"
 				position = { x = 15 y = 13 }
 				quadTextureSprite = "GFX_PaF_demo_tab_button"
-				buttonFont = "Bomb_18"
+				buttonFont = "cg_22"
 				text = "WARLORD LORE"
 			}
 			buttonType = {
 				name = "PaF_OpeningScreen_Buttons_RegionView"
 				position = { x = 464 y = 13 }
 				quadTextureSprite = "GFX_PaF_demo_tab_button"
-				buttonFont = "Bomb_18"
+				buttonFont = "cg_22"
 				text = "MAIN LORE"
 			}
 			buttonType = {
 				name = "PaF_OpeningScreen_Buttons_ModView"
 				position = { x = 910 y = 13 }
 				quadTextureSprite = "GFX_PaF_demo_tab_button"
-				buttonFont = "Bomb_18"
+				buttonFont = "cg_22"
 				text = " MOD INFORMATIONS"
 			}
 		}
 		iconType = {
 			name = "PaF_OpeningScreen_PlayerFlag"
 			position = { x = 30 y = 100 }
-			scale = 2.0
 			spriteType = "GFX_flag_large"
 		}
 			containerWindowType = {
@@ -81,7 +80,7 @@ guiTypes = {
 		buttonType = {
 			name = "PaF_OpeningScreen_CloseButton"
 			quadTextureSprite = "GFX_PaF_demo_tab_button" 
-			buttonFont = "Bomb_16"
+			buttonFont = "cg_22"
 			buttonText = "[GET_CLOSEBUTTON_TEXT]"
 			pdx_tooltip = "PaF_OPENING_SCREEN_BUTTON_TT"
 			position = { x = 820 y = 660 }
@@ -91,24 +90,35 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "PaF_OpeningScreen_Text"
 			position = { x = 17 y = 100 }
-			font = "aldrich_24_outline"
+			font = "cg_22"
 			text = "[GET_CURRENT_INTRO_TEXT]"
 			maxWidth = 690
 			maxHeight = 660
 			alwaystransparent = yes
-			scrollbarType = standardtext_slider
 		}
 		
 		instantTextBoxType = {
 			name = "PaF_OpeningScreen_Title"
-			position = { x = 14 y = 300 }
-			font = "aldrich_24_outline"
-			text = "[GET_CURRENT_INTRO_TITLE]"
+			position = { x = 0 y = 100 }
+			font = "vic_36"
+			text = "[GET_COUNTRY_TITLE]"
 			maxWidth = 712
 			maxHeight = 500
 			alwaystransparent = yes
-			scrollbarType = standardtext_slider
+			format = centre
 		}
+		
+		instantTextBoxType = {
+			name = "PaF_OpeningScreen_Lore"
+			position = { x = 20 y = 100 }
+			font = "hoi_30"
+			text = "[GET_LORE]"
+			maxWidth = 700
+			maxHeight = 680
+			alwaystransparent = yes
+			scrollbarType = standardtext_slider
+			format = centre
+		}	
 		
 		instantTextBoxType = {
 			name = "PaF_OpeningScreen_Text_ModInfo_Buttons"
@@ -120,68 +130,31 @@ guiTypes = {
 			alwaystransparent = yes
 			scrollbarType = standardtext_slider
 		}
-		
+		buttonType = {
+			name = "PaF_button_bg"
+			quadTextureSprite = "GFX_PaF_buttons_bg"
+			position = { x = 80 y = 100 }
+			alwaystransparent = yes
+		}			
 		buttonType = {
 			name = "PaF_discord_button"
 			quadTextureSprite = "GFX_discord_button"
-			position = { x = 14 y = 40 }
-			web_link = "https://discordapp.com/invite/NUmjGny"
+			position = { x = 100 y = 140 }
+			web_link = "https://discord.gg/aRHmncRB7d"
 		}
 		buttonType = {
 			name = "PaF_reddit_button"
 			quadTextureSprite = "GFX_reddit_button"
-			position = { x = 202 y = 40 }
-			web_link = "https://www.reddit.com/r/PaFmod/"
+			position = { x = 275 y = 140 }
+			web_link = "https://www.reddit.com/r/prideandfall/"
 		}
+		buttonType = {
+			name = "PaF_facebook_button"
+			quadTextureSprite = "GFX_facebook_button"
+			position = { x = 450 y = 140 }
+			web_link = "https://www.facebook.com/groups/neworderawka"
+		}
+	
 	}
 	
-	containerWindowType = {
-		name = "PaF_ClosingScreen_Main"
-		size = { width = 803 height = 552 }
-		position = { x = 155 y = 155 }
-		moveable = yes
-		
-		background = {
-			name = "PaF_ClosingScreen_BG_real"
-			spriteType = "GFX_tiled_window_transparent"
-		}
-		
-		iconType = {
-			name = "PaF_ClosingScreen_BG"
-			position = { x = 0 y = 0 }
-			spriteType = "GFX_PaF_Closing_BG"
-			alwaystransparent = yes
-		}
-
-		buttonType = {
-			name = "PaF_ClosingScreen_CloseButton"
-			quadTextureSprite = "GFX_button_359x34" 
-			buttonFont = "Bomb_20"
-			buttonText = "Thank you for playing!"
-			position = { x = 227 y = 497 }
-			shortcut = "ESCAPE"
-		}
-		
-		instantTextBoxType = {
-			name = "PaF_ClosingScreen_Text"
-			position = { x = 20 y = 21 }
-			font = "aldrich_24_outline_closing"
-			text = "[GET_CLOSING_SCREEN_TEXT]"
-			maxWidth = 748
-			maxHeight = 406
-			alwaystransparent = yes
-			scrollbarType = standardtext_slider
-		}
-
-		buttonType = {
-			name = "closing_button_next_page"
-			quadTextureSprite = "GFX_opening_button_next_page"
-			position = { x = 588 y = 444 }
-		}
-		buttonType = {
-			name = "closing_button_prev_page"
-			quadTextureSprite = "GFX_opening_button_prev_page"
-			position = { x = 24 y = 444 }
-		}
-	}
 }
