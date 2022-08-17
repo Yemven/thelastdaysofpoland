@@ -64,3 +64,9 @@ calculate_energy_effects = {
 		}
 	}
 }
+
+help_expectional_ai_build_power_plants = {
+	random_owned_state = {
+		add_building_construction = { type = power_plant level = 1 instant_build = yes }
+	}
+}

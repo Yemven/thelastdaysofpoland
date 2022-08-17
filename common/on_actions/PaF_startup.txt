@@ -217,11 +217,22 @@ on_actions = {
 	on_weekly = {
 		effect = {
 			every_country = {
-				set_variable = {
-					var = doctrines_researched
-					value = 0
+				limit = {
+					country_exists = PREV
 				}
 				calculate_energy_balance = yes
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			every_country = {
+				limit = {
+					country_exists = PREV
+					check_variable = { current_balance < 0 }
+					is_ai = yes
+				}
+				help_expectional_ai_build_power_plants = yes
 			}
 		}
 	}
