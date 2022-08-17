@@ -217,10 +217,6 @@ on_actions = {
 	on_weekly = {
 		effect = {
 			every_country = {
-				set_variable = {
-					var = doctrines_researched
-					value = 0
-				}
 				calculate_energy_balance = yes
 			}
 		}
