@@ -167,23 +167,7 @@ ai_war_decisions = {
 					}
 				ROOT = { any_neighbor_country = { tag = TAR } }
 				NOT = { has_war = yes }
-					AND = {
-						KOL = { num_of_controlled_states < 1 }
-						LEZ = { num_of_controlled_states < 1 }
-						ANC = { num_of_controlled_states < 1 }
-						JSO = { num_of_controlled_states < 1 }
-						}
-					OR = {
-						KRO = { num_of_controlled_states < 1 }
-						TAR = { num_of_controlled_states < 1 }	
-						UPA = { num_of_controlled_states < 1 }
-						KOZ = { num_of_controlled_states < 1 }
-						BSC = { num_of_controlled_states < 1 }
-						UHR = { num_of_controlled_states < 1 }
-						LGP = { num_of_controlled_states < 1 }
-						CHR = { num_of_controlled_states < 1 }	
-						RZE = { num_of_controlled_states < 1 }							
-					}
+				date > 2028.04.20
 		}
 
 		cost = 1
@@ -200,6 +184,12 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
+				if = { limit = { country_exists = KOL }
+				declare_war_on = {
+					target = KOL
+					type = annex_everything
+				}
+				}				
 		}
 	}
 
@@ -236,23 +226,7 @@ ai_war_decisions = {
 					}
 				ROOT = { any_neighbor_country = { tag = BSC } }
 				NOT = { has_war = yes }
-					AND = {
-						KOL = { num_of_controlled_states < 1 }
-						LEZ = { num_of_controlled_states < 1 }
-						ANC = { num_of_controlled_states < 1 }
-						JSO = { num_of_controlled_states < 1 }
-						}
-					OR = {
-						KRO = { num_of_controlled_states < 1 }
-						TAR = { num_of_controlled_states < 1 }	
-						UPA = { num_of_controlled_states < 1 }
-						KOZ = { num_of_controlled_states < 1 }
-						BSC = { num_of_controlled_states < 1 }
-						UHR = { num_of_controlled_states < 1 }
-						LGP = { num_of_controlled_states < 1 }
-						CHR = { num_of_controlled_states < 1 }	
-						RZE = { num_of_controlled_states < 1 }							
-					}
+				date > 2028.04.20
 		}
 
 		cost = 1
@@ -269,6 +243,12 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
+				if = { limit = { country_exists = ANC }
+				declare_war_on = {
+					target = ANC
+					type = annex_everything
+				}
+				}			
 		}
 	}
 
@@ -305,23 +285,7 @@ ai_war_decisions = {
 					}
 				ROOT = { any_neighbor_country = { tag = KOZ } }
 				NOT = { has_war = yes }
-					AND = {
-						KOL = { num_of_controlled_states < 1 }
-						LEZ = { num_of_controlled_states < 1 }
-						ANC = { num_of_controlled_states < 1 }
-						JSO = { num_of_controlled_states < 1 }
-						}
-					OR = {
-						KRO = { num_of_controlled_states < 1 }
-						TAR = { num_of_controlled_states < 1 }	
-						UPA = { num_of_controlled_states < 1 }
-						KOZ = { num_of_controlled_states < 1 }
-						BSC = { num_of_controlled_states < 1 }
-						UHR = { num_of_controlled_states < 1 }
-						LGP = { num_of_controlled_states < 1 }
-						CHR = { num_of_controlled_states < 1 }	
-						RZE = { num_of_controlled_states < 1 }							
-					}
+				date > 2028.04.20
 		}
 
 		cost = 1
@@ -374,23 +338,7 @@ ai_war_decisions = {
 					}
 				ROOT = { any_neighbor_country = { tag = RZE } }
 				NOT = { has_war = yes }
-					AND = {
-						KOL = { num_of_controlled_states < 1 }
-						LEZ = { num_of_controlled_states < 1 }
-						ANC = { num_of_controlled_states < 1 }
-						JSO = { num_of_controlled_states < 1 }
-						}
-					OR = {
-						KRO = { num_of_controlled_states < 1 }
-						TAR = { num_of_controlled_states < 1 }	
-						UPA = { num_of_controlled_states < 1 }
-						KOZ = { num_of_controlled_states < 1 }
-						BSC = { num_of_controlled_states < 1 }
-						UHR = { num_of_controlled_states < 1 }
-						LGP = { num_of_controlled_states < 1 }
-						CHR = { num_of_controlled_states < 1 }	
-						RZE = { num_of_controlled_states < 1 }							
-					}
+				date > 2028.04.20
 		}
 
 		cost = 1
@@ -443,23 +391,7 @@ ai_war_decisions = {
 					}
 				ROOT = { any_neighbor_country = { tag = CHR } }
 				NOT = { has_war = yes }
-					AND = {
-						KOL = { num_of_controlled_states < 1 }
-						LEZ = { num_of_controlled_states < 1 }
-						ANC = { num_of_controlled_states < 1 }
-						JSO = { num_of_controlled_states < 1 }
-						}
-					OR = {
-						KRO = { num_of_controlled_states < 1 }
-						TAR = { num_of_controlled_states < 1 }	
-						UPA = { num_of_controlled_states < 1 }
-						KOZ = { num_of_controlled_states < 1 }
-						BSC = { num_of_controlled_states < 1 }
-						UHR = { num_of_controlled_states < 1 }
-						LGP = { num_of_controlled_states < 1 }
-						CHR = { num_of_controlled_states < 1 }	
-						RZE = { num_of_controlled_states < 1 }							
-					}
+				date > 2028.04.20
 		}
 
 		cost = 1
@@ -476,6 +408,12 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
+				if = { limit = { country_exists = LEZ }
+				declare_war_on = {
+					target = LEZ
+					type = annex_everything
+				}
+				}				
 		}
 	}
 
@@ -512,23 +450,7 @@ ai_war_decisions = {
 					}
 				ROOT = { any_neighbor_country = { tag = UPA } }
 				NOT = { has_war = yes }
-					AND = {
-						KOL = { num_of_controlled_states < 1 }
-						LEZ = { num_of_controlled_states < 1 }
-						ANC = { num_of_controlled_states < 1 }
-						JSO = { num_of_controlled_states < 1 }
-						}
-					OR = {
-						KRO = { num_of_controlled_states < 1 }
-						TAR = { num_of_controlled_states < 1 }	
-						UPA = { num_of_controlled_states < 1 }
-						KOZ = { num_of_controlled_states < 1 }
-						BSC = { num_of_controlled_states < 1 }
-						UHR = { num_of_controlled_states < 1 }
-						LGP = { num_of_controlled_states < 1 }
-						CHR = { num_of_controlled_states < 1 }	
-						RZE = { num_of_controlled_states < 1 }							
-					}
+				date > 2028.04.20
 		}
 
 		cost = 1
@@ -581,23 +503,7 @@ ai_war_decisions = {
 					}
 				ROOT = { any_neighbor_country = { tag = UHR } }
 				NOT = { has_war = yes }
-					AND = {
-						KOL = { num_of_controlled_states < 1 }
-						LEZ = { num_of_controlled_states < 1 }
-						ANC = { num_of_controlled_states < 1 }
-						JSO = { num_of_controlled_states < 1 }
-						}
-					OR = {
-						KRO = { num_of_controlled_states < 1 }
-						TAR = { num_of_controlled_states < 1 }	
-						UPA = { num_of_controlled_states < 1 }
-						KOZ = { num_of_controlled_states < 1 }
-						BSC = { num_of_controlled_states < 1 }
-						UHR = { num_of_controlled_states < 1 }
-						LGP = { num_of_controlled_states < 1 }
-						CHR = { num_of_controlled_states < 1 }	
-						RZE = { num_of_controlled_states < 1 }							
-					}
+				date > 2028.04.20
 		}
 
 		cost = 1
@@ -611,6 +517,12 @@ ai_war_decisions = {
 				if = { limit = { country_exists = UHR }
 				declare_war_on = {
 					target = UHR
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = LCZ }
+				declare_war_on = {
+					target = LCZ
 					type = annex_everything
 				}
 				}
@@ -650,23 +562,7 @@ ai_war_decisions = {
 					}
 				ROOT = { any_neighbor_country = { tag = LGP } }
 				NOT = { has_war = yes }
-					AND = {
-						KOL = { num_of_controlled_states < 1 }
-						LEZ = { num_of_controlled_states < 1 }
-						ANC = { num_of_controlled_states < 1 }
-						JSO = { num_of_controlled_states < 1 }
-						}
-					OR = {
-						KRO = { num_of_controlled_states < 1 }
-						TAR = { num_of_controlled_states < 1 }	
-						UPA = { num_of_controlled_states < 1 }
-						KOZ = { num_of_controlled_states < 1 }
-						BSC = { num_of_controlled_states < 1 }
-						UHR = { num_of_controlled_states < 1 }
-						LGP = { num_of_controlled_states < 1 }
-						CHR = { num_of_controlled_states < 1 }	
-						RZE = { num_of_controlled_states < 1 }							
-					}
+				date > 2028.04.20
 		}
 
 		cost = 1
@@ -683,6 +579,12 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
+				if = { limit = { country_exists = LCZ }
+				declare_war_on = {
+					target = LCZ
+					type = annex_everything
+				}
+				}				
 		}
 	}
 
@@ -719,23 +621,7 @@ ai_war_decisions = {
 					}
 				ROOT = { any_neighbor_country = { tag = KRO } }
 				NOT = { has_war = yes }
-					AND = {
-						KOL = { num_of_controlled_states < 1 }
-						LEZ = { num_of_controlled_states < 1 }
-						ANC = { num_of_controlled_states < 1 }
-						JSO = { num_of_controlled_states < 1 }
-						}
-					OR = {
-						KRO = { num_of_controlled_states < 1 }
-						TAR = { num_of_controlled_states < 1 }	
-						UPA = { num_of_controlled_states < 1 }
-						KOZ = { num_of_controlled_states < 1 }
-						BSC = { num_of_controlled_states < 1 }
-						UHR = { num_of_controlled_states < 1 }
-						LGP = { num_of_controlled_states < 1 }
-						CHR = { num_of_controlled_states < 1 }	
-						RZE = { num_of_controlled_states < 1 }							
-					}
+				date > 2028.04.20
 		}
 
 		cost = 1
@@ -752,6 +638,12 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
+				if = { limit = { country_exists = JSO }
+				declare_war_on = {
+					target = JSO
+					type = annex_everything
+				}
+				}				
 		}
 	}
 
