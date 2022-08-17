@@ -1,22 +1,28 @@
+
 state={
 	id=88
 	name="STATE_88"
-	provinces={
-		848 1055 1319 1671 1873 2847 2977 3192 3212 3364 3584 3597 3602 17451 17452 17453 17454 17455 17456 17457 17458 17459 17460 17461 17462 17463 17464 17465 17466 17467 17468 17469 17470 17471 17472 17473 17474 17475 17476 17477 17478 17479 17480 17481 17482 17483 17484 17485 17486 17487 17488 17489 17490 17491 17492 17493 17494 17495 17496 17497 17498 17499 17500 17501 17502 17503 17504 
-	}
-	manpower = 79303   state_category = town
-	buildings_max_level_factor=1.000
-					history = {
+
+	history={
 		owner = EKW
-		victory_points = {17456 20 }
-		victory_points = {17457 5 }
-		victory_points = {17460 2 }
-		victory_points = {17489 2 }
+		victory_points = {
+			17457 5 
+		}
 		add_core_of = EKW
-	buildings = {
-	infrastructure = 5
-	industrial_complex = 2
-	arms_factory = 1
-}
-}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		848 1319 1671 2847 2977 3192 3364 3602 17451 17452 17453 17454 17455 17456 17458 17459 17460 17461 17462 17463 17464 17465 17466 17467 17468 17469 17483 17484 17485 17486 17487 17488 17489 17490 17491 17492 17493 17494 17495 
+	}
+	manpower=45303
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

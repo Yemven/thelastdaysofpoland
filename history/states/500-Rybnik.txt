@@ -2,12 +2,21 @@
 state={
 	id=500
 	name="STATE_500"
+	resources={
+		coal=50.000
+	}
 
 	history={
 		owner = MNI
-		victory_points = { 2343 20 }
-		victory_points = { 8235 2 }
-		victory_points = { 8254 2 }
+		victory_points = {
+			2343 20 
+		}
+		victory_points = {
+			8235 2 
+		}
+		victory_points = {
+			8254 2 
+		}
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -15,17 +24,17 @@ state={
 			anti_air_building = 0
 			air_base = 2
 			power_plant = 1
+
 		}
 		add_core_of = MNI
 
 	}
 
 	provinces={
-		2343 8233 8234 8235 8236 8237 8238 8239 8240 8241 8242 8243 8244 8245 8246 8247 8248 8249 8250 8252 8253 8254 8255 4191
+		2343 4191 8233 8234 8235 8236 8237 8238 8239 8240 8241 8242 8243 8245 8246 8247 8248 8249 8250 8252 8253 8254 8255 
 	}
 	manpower=133234
 	buildings_max_level_factor=1.000
 	state_category=large_city
-	resources={
-		coal = 50 }
+	local_supplies=0.000
 }
