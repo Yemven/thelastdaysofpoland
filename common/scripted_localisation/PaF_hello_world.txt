@@ -89,3 +89,16 @@ defined_text = {
 		localization_key = "GFX_PaF_OpeningScreen_Default"
 	}
 }
+
+
+defined_text = {
+	name = GetCoA
+	
+text = {
+	trigger = {
+		original_tag = POL
+		}
+		localization_key = coa_POL
+	}
+}
+

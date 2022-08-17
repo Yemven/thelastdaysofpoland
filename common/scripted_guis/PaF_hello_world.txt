@@ -64,9 +64,6 @@ scripted_gui = {
 			PaF_OpeningScreen_Text_ModInfo_Buttons_visible = {
 				check_variable = { PaF_Opening_Screen = 3 }
 			}
-			PaF_OpeningScreen_PlayerFlag_visible = {
-				check_variable = { PaF_Opening_Screen = 1 }
-			}
 			PaF_discord_button_visible = {
 				check_variable = { PaF_Opening_Screen = 3 }
 			}
@@ -82,7 +79,6 @@ scripted_gui = {
 		}
 		
 		properties = {
-			PaF_OpeningScreen_PlayerFlag = { image = "[This.GetFlag]" }
 			PaF_OpeningScreen_Poster = { image = "[GET_POSTER]" }
 		}
 	}
