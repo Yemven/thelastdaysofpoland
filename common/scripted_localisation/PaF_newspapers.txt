@@ -1,7 +1,14 @@
 defined_text = {
 	name = GetNewspaper
 	
-	
+	##SAP
+	text = {
+		trigger = {
+			original_tag = SAP
+			has_government = autocracy
+		}
+		localization_key = newspaper_sapek
+	}	
 	##ZYD
 	text = {
 		trigger = {

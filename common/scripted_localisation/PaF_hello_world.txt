@@ -1,12 +1,46 @@
 defined_text = {
 	name = GET_CLOSEBUTTON_TEXT
 
-	## Mazovia
 	text = {
 		trigger = { tag = POL }
 		localization_key = PaF_OPENING_SCREEN_BUTTON_TEXT_POL
 	}
-
+text = {
+	trigger = {
+		original_tag = WML
+		}
+		localization_key = PaF_OPENING_SCREEN_BUTTON_TEXT_WML
+	}	
+text = {
+	trigger = {
+		original_tag = BBW
+		}
+		localization_key = PaF_OPENING_SCREEN_BUTTON_TEXT_BBW
+	}
+text = {
+	trigger = {
+		original_tag = SAP
+		}
+		localization_key = PaF_OPENING_SCREEN_BUTTON_TEXT_SAP
+	}		
+text = {
+	trigger = {
+		original_tag = ZYD
+		}
+		localization_key = PaF_OPENING_SCREEN_BUTTON_TEXT_ZYD
+	}	
+text = {
+	trigger = {
+		original_tag = ZHP
+		}
+		localization_key = PaF_OPENING_SCREEN_BUTTON_TEXT_ZHP
+	}
+text = {
+	trigger = {
+		original_tag = KRS
+		}
+		localization_key = PaF_OPENING_SCREEN_BUTTON_TEXT_KRS	
+	}
 
 	## Default
 	text = {
@@ -49,7 +83,42 @@ defined_text = {
 		trigger = { tag = POL }
 		localization_key = COUNTRY_INFO_POL
 	}
-
+text = {
+	trigger = {
+		original_tag = WML
+		}
+		localization_key = COUNTRY_INFO_WML
+	}	
+text = {
+	trigger = {
+		original_tag = BBW
+		}
+		localization_key = COUNTRY_INFO_BBW
+	}
+text = {
+	trigger = {
+		original_tag = SAP
+		}
+		localization_key = COUNTRY_INFO_SAP
+	}		
+text = {
+	trigger = {
+		original_tag = ZYD
+		}
+		localization_key = COUNTRY_INFO_ZYD
+	}	
+text = {
+	trigger = {
+		original_tag = ZHP
+		}
+		localization_key = COUNTRY_INFO_ZHP
+	}
+text = {
+	trigger = {
+		original_tag = KRS
+		}
+		localization_key = COUNTRY_INFO_KRS
+}
 	## Default
 	text = {
 		localization_key = COUNTRY_INFO_NO_CONTENT
@@ -64,6 +133,42 @@ defined_text = {
 		trigger = { tag = POL }
 		localization_key = COUNTRY_TITLE_POL
 	}
+text = {
+	trigger = {
+		original_tag = WML
+		}
+		localization_key = COUNTRY_TITLE_WML
+	}	
+text = {
+	trigger = {
+		original_tag = BBW
+		}
+		localization_key = COUNTRY_TITLE_BBW
+	}
+text = {
+	trigger = {
+		original_tag = SAP
+		}
+		localization_key = COUNTRY_TITLE_SAP
+	}		
+text = {
+	trigger = {
+		original_tag = ZYD
+		}
+		localization_key = COUNTRY_TITLE_ZYD
+	}	
+text = {
+	trigger = {
+		original_tag = ZHP
+		}
+		localization_key = COUNTRY_TITLE_ZHP
+	}
+text = {
+	trigger = {
+		original_tag = KRS
+		}
+		localization_key = COUNTRY_TITLE_KRS
+	}	
 }
 
 defined_text = {
@@ -100,5 +205,41 @@ text = {
 		}
 		localization_key = coa_POL
 	}
+text = {
+	trigger = {
+		original_tag = WML
+		}
+		localization_key = coa_WML
+	}	
+text = {
+	trigger = {
+		original_tag = BBW
+		}
+		localization_key = coa_BBW
+	}
+text = {
+	trigger = {
+		original_tag = SAP
+		}
+		localization_key = coa_SAP
+	}		
+text = {
+	trigger = {
+		original_tag = ZYD
+		}
+		localization_key = coa_ZYD
+	}	
+text = {
+	trigger = {
+		original_tag = ZHP
+		}
+		localization_key = coa_ZHP
+	}
+text = {
+	trigger = {
+		original_tag = KRS
+		}
+		localization_key = coa_KRS
+	}		
 }
 
