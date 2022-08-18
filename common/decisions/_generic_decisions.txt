@@ -280,17 +280,76 @@ generic_decisions_succdem_category = {
 		}
 		fixed_random_seed = no
 		remove_effect = {
-				random_owned_state = {
-					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
-				}
+			random_owned_state = {
+				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 			}
 		}
 	}
 }
 
 generic_decisions_freemarket_category = {
-
+	cut_down_taxes = {
+		modifier = {	
+			consumer_goods_factor = 0.1
+			war_support_factor = -0.1
+		}
+		
+		cost = 75
+		days_re_enable = 90
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = freemarketism
+				popularity = 0.05
+			}
+		}
+	}
+	
+	print_3d_guns = {
+		modifier = {
+			industrial_capacity_factory = -0.1
+			production_speed_buildings_factor = -0.1
+		}
+		
+		cost = 100
+		days_re_enable = 180
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = ranged_equipment
+				amount = 250
+			}
+		}
+	}
+	
+	fund_small_businesses = {
+		modifier = {	
+			consumer_goods_factor = 0.15
+		}
+		
+		cost = 150
+		days_re_enable = 365
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		fixed_random_seed = no
+		remove_effect = {
+			random_owned_state = {
+				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+			}
+		}
+	}
 }
+
 
 generic_decisions_patcon_category = {
 
