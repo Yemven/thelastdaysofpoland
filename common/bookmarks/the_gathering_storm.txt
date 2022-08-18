@@ -13,9 +13,13 @@ bookmarks = {
 		"BBW"={
 			history = "OTHER_GATHERING_STORM_DESC"
 			ideas = {
-			BBW_steam_power
-			BBW_smog
-			BBW_green_counter_revolution
+				BBW_steam_power
+				BBW_smog
+				BBW_green_counter_revolution
+			focuses = {
+				BBW_wiechowszczyzna
+				BBW_autumn
+				BBW_black_fever
 		}
 		}
 		"KRS"={
@@ -23,12 +27,32 @@ bookmarks = {
 		}
 		"SAP"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideas = { 
+				SAP_divided_supporters
+				SAP_confused_population
+			focuses = {
+				SAP_of_monsters_and_men
+				SAP_temerian_dream_shattered
+				SAP_attack_on_kaer_nevitz
 		}
 		"ZYD"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideas = {
+				ZYD_minority_rule
+				ZYD_mobile_ark
+				ZYD_unfinished_collectivization
+			focuses = {
+				ZYD_communal_and_robbery_economy
+				ZYD_rts_is_a_power
+				ZYD_pitches_of_prayer
 		}
 		"ZHP"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			focuses = {
+				ZHP_prohibition_of_sex
+				ZHP_we_are_ready
+				ZHP_everything_that_ours
+				}
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
