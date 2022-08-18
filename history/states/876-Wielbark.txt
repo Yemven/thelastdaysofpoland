@@ -1,26 +1,24 @@
-
 state={
-	id=72
-	name="STATE_72"
+	id=876
+	name="STATE_876"
+	provinces={
+		131 792 2308 3154 3594 
+	}
 
 	history={
-		owner = WAR
+		owner = PRU
 		victory_points = {
 
 		}
-		add_core_of = WAR
+		add_core_of = PRU
 		buildings = {
 			infrastructure = 7
-
 		}
 
 	}
-
-	provinces={
-		1250 1294 1358 2358 3464 
-	}
-	manpower=38415
+	
+	manpower=12045
+	state_category = rural
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
 }

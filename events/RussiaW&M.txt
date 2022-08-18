@@ -45,6 +45,9 @@ country_event = {
 		46 = {
 			add_core_of = PZW
 		}
+		875 = {
+			add_core_of = PZW
+		}
 		every_owned_state = {
 			limit = { is_core_of = TEU }
 			TEU = { transfer_state = PREV }
