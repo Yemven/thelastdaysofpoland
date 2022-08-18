@@ -189,46 +189,47 @@ defined_text = {
 		trigger = { tag = POL }
 		localization_key = "GFX_PaF_OpeningScreen_POL"
 	}
-	## Default
-	text = {
-		localization_key = "GFX_PaF_OpeningScreen_Default"
-	}	
 	text = {
 		trigger = {
 			original_tag = WML
 			}
-			localization_key = GFX_PaF_OpeningScreen_WML
+			localization_key = "GFX_PaF_OpeningScreen_WML"
 		}	
 	text = {
 		trigger = {
 			original_tag = BBW
 			}
-			localization_key = GFX_PaF_OpeningScreen_BBW
+			localization_key = "GFX_PaF_OpeningScreen_BBW"
 		}
 	text = {
 		trigger = {
 			original_tag = SAP
 			}
-			localization_key = GFX_PaF_OpeningScreen_SAP
+			localization_key = "GFX_PaF_OpeningScreen_SAP"
 		}		
 	text = {
 		trigger = {
 			original_tag = ZYD
 			}
-			localization_key = GFX_PaF_OpeningScreen_ZYD
+			localization_key = "GFX_PaF_OpeningScreen_ZYD"
 		}	
 	text = {
 		trigger = {
 			original_tag = ZHP
 			}
-			localization_key = GFX_PaF_OpeningScreen_ZHP
+			localization_key = "GFX_PaF_OpeningScreen_ZHP"
 		}
 	text = {
 		trigger = {
 			original_tag = KRS
 			}
-			localization_key = GFX_PaF_OpeningScreen_KRS
-		}
+			localization_key = "GFX_PaF_OpeningScreen_KRS"
+		}	
+	## Default
+	text = {
+		localization_key = "GFX_PaF_OpeningScreen_Default"
+	}	
+
 }
 
 
