@@ -19,6 +19,19 @@ characters={
 			id=-1
 		}
 	}
+	SOS_arkadiusz_checinski={
+		name="Arkadiusz Chęciński"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
 	SOS_gorski={
 		name="Kazimierz Górski"
 		portraits={
@@ -101,4 +114,5 @@ characters={
 			traits = {  }
 		}
 	}
+	
 }
