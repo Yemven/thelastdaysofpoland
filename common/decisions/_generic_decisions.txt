@@ -352,7 +352,66 @@ generic_decisions_freemarket_category = {
 
 
 generic_decisions_patcon_category = {
-
+	organize_a_grand_mass = {
+		modifier = {	
+			consumer_goods_factor = 0.1
+			stability_factor = -0.1
+		}
+		
+		cost = 75
+		days_re_enable = 90
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = paternal_conservatism
+				popularity = 0.05
+			}
+		}
+	}
+	
+	gather_the_guns = {
+		modifier = {
+			consumer_goods_factor = 0.1
+			conscription_factor = -0.2
+		}
+		
+		cost = 100
+		days_re_enable = 180
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = ranged_equipment
+				amount = 150
+			}
+		}
+	}
+	
+	fund_church_owned_businesses = {
+		modifier = {	
+			stability_factor = -0.2
+		}
+		
+		cost = 150
+		days_re_enable = 365
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		fixed_random_seed = no
+		remove_effect = {
+			random_owned_state = {
+				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+			}
+		}
+	}
 }
 
 generic_decisions_autocrat_category = {
