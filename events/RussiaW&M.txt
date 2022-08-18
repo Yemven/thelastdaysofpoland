@@ -10,7 +10,7 @@ country_event = {
 		original_tag = ROS
 		ROS = {
 			has_war = yes
-			num_of_controlled_states < 7
+			surrender_progress > 0.3
 			}
 	}
 
