@@ -1,8 +1,9 @@
-
 state={
-	id=29
-	name="STATE_29"
-
+	id=891
+	name="STATE_891"
+	provinces={
+		192 548 
+	}
 	history={
 		owner = ROS
 		victory_points = {
@@ -10,17 +11,13 @@ state={
 		}
 		add_core_of = ROS
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 
 		}
 
 	}
-
-	provinces={
-		2485 3224 
-	}
-	manpower=45304
+	manpower=14330
+	state_category = rural
 	buildings_max_level_factor=1.000
-	state_category=large_town
 	local_supplies=0.000
 }
