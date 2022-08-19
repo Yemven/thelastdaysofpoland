@@ -19,8 +19,8 @@ focus_tree = {
 	continuous_focus_position = {x = 50 y = 1500 }
 	
 	focus = {
-		id = KRS_triumvirate
-		icon = KRS_triumvirate
+		id = KRS_up_in_the_town_of_krosniewice
+		icon = KRS_up_in_the_town_of_krosniewice
 		available = {
 		
 		}
@@ -31,372 +31,18 @@ focus_tree = {
 		x = 4
 		y = 0
 		
-		cost = 5
-		search_filters = {FOCUS_STABILITY}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_red_market
-		icon = KRS_red_market
-		relative_position_id = KRS_triumvirate
-		prerequisite = { focus = KRS_triumvirate }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -3
-		y = 1
-		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_family_concern
-		icon = KRS_family_concern
-		relative_position_id = KRS_triumvirate
-		prerequisite = { focus = KRS_triumvirate }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_free_competition
-		icon = KRS_free_competition
-		relative_position_id = KRS_triumvirate
-		prerequisite = { focus = KRS_triumvirate }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 3
-		y = 1
-		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_pharmaceutical_industry
-		icon = KRS_pharmaceutical_industry
-		relative_position_id = KRS_red_market
-		prerequisite = { focus = KRS_red_market }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_training_new_staff
-		icon = KRS_training_new_staff
-		relative_position_id = KRS_pharmaceutical_industry
-		prerequisite = { focus = KRS_pharmaceutical_industry }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_secret_recipe
-		icon = KRS_secret_recipe
-		relative_position_id = KRS_training_new_staff
-		prerequisite = { focus = KRS_training_new_staff }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_corporate_espionage
-		icon = KRS_corporate_espionage
-		relative_position_id = KRS_secret_recipe
-		prerequisite = { focus = KRS_secret_recipe }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_balanced_growth
-		icon = KRS_balanced_growth
-		relative_position_id = KRS_family_concern
-		prerequisite = { focus = KRS_family_concern }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_new_fertilization_techniques
-		icon = KRS_new_fertilization_techniques
-		relative_position_id = KRS_balanced_growth
-		prerequisite = { focus = KRS_balanced_growth }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_trade_contacts
-		icon = KRS_trade_contacts
-		relative_position_id = KRS_new_fertilization_techniques
-		prerequisite = { focus = KRS_new_fertilization_techniques }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_grand_investitions
-		icon = KRS_grand_investitions
-		relative_position_id = KRS_trade_contacts
-		prerequisite = { focus = KRS_trade_contacts }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_parapolice_arsenal
-		icon = KRS_parapolice_arsenal
-		relative_position_id = KRS_free_competition
-		prerequisite = { focus = KRS_free_competition }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_security_for_hire
-		icon = KRS_security_for_hire
-		relative_position_id = KRS_parapolice_arsenal
-		prerequisite = { focus = KRS_parapolice_arsenal }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_requisition_of_evidence
-		icon = KRS_requisition_of_evidence
-		relative_position_id = KRS_security_for_hire
-		prerequisite = { focus = KRS_security_for_hire }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_guarded_airfields
-		icon = KRS_guarded_airfields
-		relative_position_id = KRS_requisition_of_evidence
-		prerequisite = { focus = KRS_requisition_of_evidence }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_corporate_army
-		icon = KRS_corporate_army
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 13
-		y = 0
-		
-		cost = 5
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			
 		}
 	}
+	
 	focus = {
-		id = KRS_nobody_expects_lodz_paramedics
-		icon = KRS_nobody_expects_lodz_paramedics
-		relative_position_id = KRS_corporate_army
-		prerequisite = { focus = KRS_corporate_army }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -3
-		y = 1
-		
-		cost = 5
-		search_filters = {}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_air_terror
-		icon = KRS_air_terror
-		relative_position_id = KRS_nobody_expects_lodz_paramedics
-		prerequisite = { focus = KRS_nobody_expects_lodz_paramedics }
+		id = KRS_the_new_agenda
+		relative_position_id = KRS_up_in_the_town_of_krosniewice
+		prerequisite = { focus = KRS_up_in_the_town_of_krosniewice }
+		icon = KRS_the_new_agenda
 		available = {
 		
 		}
@@ -407,17 +53,18 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			
 		}
 	}
+	
 	focus = {
-		id = KRS_mobile_first_aid_centers
-		icon = KRS_mobile_first_aid_centers
-		relative_position_id = KRS_air_terror
-		prerequisite = { focus = KRS_air_terror }
+		id = KRS_lock_the_doors
+		icon = KRS_lock_the_doors
+		relative_position_id = KRS_the_new_agenda
+		prerequisite = { focus = KRS_the_new_agenda }
 		available = {
 		
 		}
@@ -428,17 +75,18 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			
 		}
 	}
+	
 	focus = {
-		id = KRS_asclepius_divisions
-		icon = KRS_asclepius_divisions
-		relative_position_id = KRS_mobile_first_aid_centers
-		prerequisite = { focus = KRS_mobile_first_aid_centers }
+		id = KRS_and_begin_the_meeting
+		icon = KRS_and_begin_the_meeting
+		relative_position_id = KRS_lock_the_doors
+		prerequisite = { focus = KRS_lock_the_doors }
 		available = {
 		
 		}
@@ -449,17 +97,18 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			
 		}
 	}
+	
 	focus = {
-		id = KRS_flower_of_polish_army
-		icon = KRS_flower_of_polish_army
-		relative_position_id = KRS_corporate_army
-		prerequisite = { focus = KRS_corporate_army }
+		id = KRS_fixin_our_problems
+		icon = KRS_fixin_our_problems
+		relative_position_id = KRS_and_begin_the_meeting
+		prerequisite = { focus = KRS_and_begin_the_meeting }
 		available = {
 		
 		}
@@ -470,17 +119,18 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			
 		}
 	}
+	
 	focus = {
-		id = KRS_supply_protection
-		icon = KRS_supply_protection
-		relative_position_id = KRS_flower_of_polish_army
-		prerequisite = { focus = KRS_flower_of_polish_army }
+		id = KRS_educating_civil_servants
+		icon = KRS_educating_civil_servants
+		relative_position_id = KRS_fixin_our_problems
+		prerequisite = { focus = KRS_fixin_our_problems }
 		available = {
 		
 		}
@@ -491,17 +141,18 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			
 		}
 	}
+	
 	focus = {
-		id = KRS_bred_food_rations
-		icon = KRS_bred_food_rations
-		relative_position_id = KRS_supply_protection
-		prerequisite = { focus = KRS_supply_protection }
+		id = KRS_destroying_crime
+		icon = KRS_destroying_crime
+		relative_position_id = KRS_educating_civil_servants
+		prerequisite = { focus = KRS_educating_civil_servants }
 		available = {
 		
 		}
@@ -512,17 +163,20 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			
 		}
 	}
+
 	focus = {
-		id = KRS_checked_methods
-		icon = KRS_checked_methods
-		relative_position_id = KRS_bred_food_rations
-		prerequisite = { focus = KRS_bred_food_rations }
+		id = KRS_invest_in_a_megaproject
+		icon = KRS_invest_in_a_megaproject
+		relative_position_id = KRS_destroying_crime
+		prerequisite = { focus = KRS_destroying_crime }
+		prerequisite = { focus = KRS_standard_training_programmes }
+		prerequisite = { focus = KRS_aquiring_resources }		
 		available = {
 		
 		}
@@ -533,38 +187,18 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			
 		}
 	}
+
 	focus = {
-		id = KRS_right_to_bear_arms
-		icon = KRS_right_to_bear_arms
-		relative_position_id = KRS_corporate_army
-		prerequisite = { focus = KRS_corporate_army }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 3
-		y = 1
-		
-		cost = 5
-		search_filters = {}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = KRS_ordinary_things
-		icon = KRS_ordinary_things
-		relative_position_id = KRS_right_to_bear_arms
-		prerequisite = { focus = KRS_right_to_bear_arms }
+		id = KRS_conclude_the_meeting
+		icon = KRS_conclude_the_meeting
+		relative_position_id = KRS_invest_in_a_megaproject
+		prerequisite = { focus = KRS_invest_in_a_megaproject }
 		available = {
 		
 		}
@@ -575,17 +209,18 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			
 		}
-	}
+	}	
+
 	focus = {
-		id = KRS_detectives_at_war
-		icon = KRS_detectives_at_war
-		relative_position_id = KRS_ordinary_things
-		prerequisite = { focus = KRS_ordinary_things }
+		id = KRS_expand_the_patrol
+		icon = KRS_expand_the_patrol
+		relative_position_id = KRS_conclude_the_meeting
+		prerequisite = { focus = KRS_conclude_the_meeting }
 		available = {
 		
 		}
@@ -596,17 +231,18 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			
 		}
 	}
+
 	focus = {
-		id = KRS_still_only_detectives
-		icon = KRS_still_only_detectives
-		relative_position_id = KRS_detectives_at_war
-		prerequisite = { focus = KRS_detectives_at_war }
+		id = KRS_prepare_the_airfields
+		icon = KRS_prepare_the_airfields
+		relative_position_id = KRS_expand_the_patrol
+		prerequisite = { focus = KRS_expand_the_patrol }
 		available = {
 		
 		}
@@ -617,7 +253,515 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_old_police_weapons
+		icon = KRS_old_police_weapons
+		relative_position_id = KRS_prepare_the_airfields
+		prerequisite = { focus = KRS_prepare_the_airfields }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_no_time_to_lose
+		icon = KRS_no_time_to_lose
+		relative_position_id = KRS_old_police_weapons
+		prerequisite = { focus = KRS_old_police_weapons }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_guardin_our_interests
+		icon = KRS_guardin_our_interests
+		relative_position_id = KRS_and_begin_the_meeting
+		prerequisite = { focus = KRS_and_begin_the_meeting }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_controlling_the_border
+		icon = KRS_controlling_the_border
+		relative_position_id = KRS_guardin_our_interests
+		prerequisite = { focus = KRS_guardin_our_interests }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_standard_training_programmes
+		icon = KRS_standard_training_programmes
+		relative_position_id = KRS_controlling_the_border
+		prerequisite = { focus = KRS_controlling_the_border }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	focus = {
+		id = KRS_uppin_our_revenue
+		icon = KRS_uppin_our_revenue
+		relative_position_id = KRS_and_begin_the_meeting
+		prerequisite = { focus = KRS_and_begin_the_meeting }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_contracts_from_abroad
+		icon = KRS_contracts_from_abroad
+		relative_position_id = KRS_uppin_our_revenue
+		prerequisite = { focus = KRS_uppin_our_revenue }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_aquiring_resources
+		icon = KRS_aquiring_resources
+		relative_position_id = KRS_contracts_from_abroad
+		prerequisite = { focus = KRS_contracts_from_abroad }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+
+	focus = {
+		id = KRS_battle_for_lodzkie
+		icon = KRS_battle_for_lodzkie
+		relative_position_id = KRS_lock_the_doors
+		prerequisite = { focus = KRS_lock_the_doors }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = KRS_divert_our_assets
+		icon = KRS_divert_our_assets
+		relative_position_id = KRS_battle_for_lodzkie
+		prerequisite = { focus = KRS_battle_for_lodzkie }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_patch_the_holes_in_our_logistics
+		icon = KRS_patch_the_holes_in_our_logistics
+		relative_position_id = KRS_divert_our_assets
+		prerequisite = { focus = KRS_divert_our_assets }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_establish_a_supply_line
+		icon = KRS_establish_a_supply_line
+		relative_position_id = KRS_patch_the_holes_in_our_logistics
+		prerequisite = { focus = KRS_patch_the_holes_in_our_logistics }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_establish_an_auxiliary_corps
+		icon = KRS_establish_an_auxiliary_corps
+		relative_position_id = KRS_establish_a_supply_line
+		prerequisite = { focus = KRS_establish_a_supply_line }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_comfort_families
+		icon = KRS_comfort_families
+		relative_position_id = KRS_establish_an_auxiliary_corps
+		prerequisite = { focus = KRS_establish_an_auxiliary_corps }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_why_we_fight
+		icon = KRS_why_we_fight
+		relative_position_id = KRS_comfort_families
+		prerequisite = { focus = KRS_comfort_families }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_detectives_ready_for_action
+		icon = KRS_detectives_ready_for_action
+		relative_position_id = KRS_why_we_fight
+		prerequisite = { focus = KRS_why_we_fight }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_conscript_women
+		icon = KRS_conscript_women
+		relative_position_id = KRS_detectives_ready_for_action
+		prerequisite = { focus = KRS_detectives_ready_for_action }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_pass_out_the_pitchforks
+		icon = KRS_pass_out_the_pitchforks
+		relative_position_id = KRS_conscript_women
+		prerequisite = { focus = KRS_conscript_women }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_roll_out_the_paramedics
+		icon = KRS_roll_out_the_paramedics
+		relative_position_id = KRS_patch_the_holes_in_our_logistics
+		prerequisite = { focus = KRS_patch_the_holes_in_our_logistics }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = KRS_experimental_concoctions
+		icon = KRS_experimental_concoctions
+		relative_position_id = KRS_roll_out_the_paramedics
+		prerequisite = { focus = KRS_roll_out_the_paramedics }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_poisonous_gasses
+		icon = KRS_poisonous_gasses
+		relative_position_id = KRS_experimental_concoctions
+		prerequisite = { focus = KRS_experimental_concoctions }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_complex_submolecular_modifications
+		icon = KRS_complex_submolecular_modifications
+		relative_position_id = KRS_poisonous_gasses
+		prerequisite = { focus = KRS_poisonous_gasses }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KRS_unleash_the_terrors
+		icon = KRS_unleash_the_terrors
+		relative_position_id = KRS_complex_submolecular_modifications
+		prerequisite = { focus = KRS_complex_submolecular_modifications }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			
