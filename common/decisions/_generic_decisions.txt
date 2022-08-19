@@ -415,7 +415,64 @@ generic_decisions_patcon_category = {
 }
 
 generic_decisions_autocrat_category = {
-
+	get_army_on_streets = {
+		modifier = {	
+			stability_factor = -0.2
+			war_support_factor = -0.1
+		}
+		
+		cost = 75
+		days_re_enable = 90
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = autocracy
+				popularity = 0.05
+			}
+		}
+	}
+	
+	take_guns_from_people = {
+		modifier = {
+			stability_weekly = -0.025
+		}
+		
+		cost = 100
+		days_re_enable = 180
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = ranged_equipment
+				amount = 150
+			}
+		}
+	}
+	
+	force_people_to_work = {
+		modifier = {	
+			industrial_capacity_factory = 0.2
+			production_speed_buildings_factor = 0.2
+		}
+		
+		cost = 150
+		days_re_enable = 365
+		days_remove = 30
+		complete_effect = {
+			
+		}
+		fixed_random_seed = no
+		remove_effect = {
+			add_manpower = -100
+		}
+	}
 }
 
 generic_decisions_corporate_category = {
