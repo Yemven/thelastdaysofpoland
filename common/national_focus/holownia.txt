@@ -270,13 +270,12 @@ focus_tree = {
 		search_filters = {FOCUS_MANPOWER}
 				completion_reward = {
 				if = {
-			limit = { has_coutry_flag = {Gill_piatek_remains}	}	
+			limit = { has_country_flag = WML_Gill_piatek_remains	}	
 					country_event = {
 				id = WML.10 
 				}
 			}
-		else_if = {
-		limit = {}
+		else = {
 			country_event = { id = WML.11 }
 			}
 			
