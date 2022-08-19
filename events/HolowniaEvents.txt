@@ -524,3 +524,16 @@ country_event = {
 
 	}
 }
+country_event = {
+	id = WML.10
+	title = WML.10.t
+	desc = WML.10.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.10.a
+
+	}
+}
