@@ -7,13 +7,18 @@ country_event = {
 	desc = kacap.1.desc
 
 	fire_only_once = yes
-	trigger = { 
 		date > 2030.02.20
-		tag = RUS
-	}
+
 
 	option = {
 		name = kacap.1.a 
+		every_country = {
+			limit = { NOT = { is_ai = yes } }
+			news_event = {
+				id = kacap.2
+				}
+			}	
+		RUS = {
 		set_politics = {
 				ruling_party = squattism
 			}
@@ -22,9 +27,7 @@ country_event = {
 			long_name = "Civil War"
 			name = "Civil War"
 		}
-		news_event = {
-			id = kacap.2
-			}
+
 		set_global_flag = russia_cw
 		random_list = {
 			90 = {
@@ -39,6 +42,7 @@ country_event = {
 					days = 360
 					}
 			}
+		}
 		}
 	}
 
