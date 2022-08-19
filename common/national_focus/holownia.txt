@@ -268,12 +268,20 @@ focus_tree = {
 		
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-		country_event = {
+				completion_reward = {
+				if = {
+			limit = { has_coutry_flag = {Gill_piatek_remains}	}	
+					country_event = {
 				id = WML.10 
 				}
+			}
+		else_if = {
+		limit = {}
+			country_event = { id = WML.11 }
+			}
 			
 		}
+	
 	}
 	
 	focus = {

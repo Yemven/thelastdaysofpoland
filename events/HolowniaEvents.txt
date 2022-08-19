@@ -473,6 +473,7 @@ country_event = {
 
 	option = {
 		name = WML.7.a
+		set_country_flag = {gill_piatek_remains}
 
 	}
 	option = {
@@ -531,6 +532,19 @@ country_event = {
 
 	}
 }
+country_event = {
+	id = WML.10
+	title = WML.10.t
+	desc = WML.10.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.10.a
+
+	}
+}s
 country_event = {
 	id = WML.11
 	title = WML.11.t
