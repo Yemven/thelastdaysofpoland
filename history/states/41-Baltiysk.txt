@@ -5,20 +5,22 @@ state={
 
 	history={
 		owner = ROS
-		victory_points = { 554 20 }
+		victory_points = {
+			554 20 
+		}
 		add_core_of = ROS
 		buildings = {
-			infrastructure = 7
+			infrastructure = 6
 
 		}
 
 	}
 
 	provinces={
-		554 1121 2260 2306 3214 
+		554 3214 
 	}
-	manpower=1
+	manpower=37001
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 	local_supplies=0.000
 }

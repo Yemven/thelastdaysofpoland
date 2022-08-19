@@ -2,18 +2,26 @@
 state={
 	id=46
 	name="STATE_46"
-	provinces={
-		139 1094 1350 2722 3040 3381 3552 3558 
-	}
-	manpower = 46551   state_category = city
-	buildings_max_level_factor=1.000
-		history = {
+
+	history={
 		owner = ROS
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = ROS
-	buildings = {
-	infrastructure = 7
-	wind_farm = 1
-}
-}
+		buildings = {
+			infrastructure = 7
+			wind_farm = 1
+
+		}
+
+	}
+
+	provinces={
+		1094 1350 3040 
+	}
+	manpower=24551
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

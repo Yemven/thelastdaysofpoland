@@ -1,0 +1,122 @@
+
+division_template = {
+	name = "Baner des Dojczen Orden"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+division_template = {
+	name = "Ryterbruderen"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Orden Milicaj"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Halbbruderen"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Ryterbruderen Baner 'Ulryk won Jungyngen'"
+		location = 2582
+		division_template = "Ryterbruderen"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Ryterbruderen Baner 'Herman won Zalza'"
+		location = 2582
+		division_template = "Ryterbruderen"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Ejlałisze Komturej Baner "
+		location = 1534
+		division_template = "Baner des Dojczen Orden"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Elbyngisze Komturej Baner"
+		location = 2582
+		division_template = "Baner des Dojczen Orden"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Morungen Komturej Baner"
+		location = 2600
+		division_template = "Baner des Dojczen Orden"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Milicaj Libsztad"
+		location = 2147
+		division_template = "Orden Milicaj"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Milicaj Tolkmyt"
+		location = 2402
+		division_template = "Orden Milicaj"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Milicaj Zalfeld"
+		location = 3585
+		division_template = "Orden Milicaj"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1 Halbbruderen Baner"
+		location = 764
+		division_template = "Halbbruderen"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2 Halbbruderen Baner"
+		location = 3026
+		division_template = "Halbbruderen"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+}

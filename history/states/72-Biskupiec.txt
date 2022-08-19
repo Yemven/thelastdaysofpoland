@@ -1,17 +1,26 @@
+
 state={
 	id=72
 	name="STATE_72"
-	provinces={
-		1250 1294 1358 1605 1748 2358 3464 3596 
-	}
-	manpower = 68415   state_category = city
-	buildings_max_level_factor=1.000
-		history = {
+
+	history={
 		owner = WAR
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = WAR
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		1250 1294 1358 2358 3464 
+	}
+	manpower=38415
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
