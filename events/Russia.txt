@@ -58,12 +58,13 @@ news_event = {
 	
 	option = {
 		name = kacap.2.a 
-       set_global_flag = Super_Event_Visible
-        set_global_flag = RUS_CW_super_visible
-       hidden_effect = {
-			sound_effect = "RUS_cw"
-			play_song = "cisza45"
-		}
+		every_country = {
+			limit = { NOT = { is_ai = yes } }
+			news_event = {
+				id = kacap.15
+				days = 7
+				}
+			}	
 		}
 }
 
@@ -631,6 +632,45 @@ news_event = {
        hidden_effect = {
 			sound_effect = "RUS_fsb"
 			play_song = "cisza30"
+		}
+		}
+}
+
+news_event = {
+	id = kacap.15 #kitaj-gorod
+	title = kacap.15.t
+	desc = kacap.15.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = kacap.15.a 
+ 		every_country = {
+			limit = { NOT = { is_ai = yes } }
+			news_event = {
+				id = kacap.16
+				days = 7
+				}
+			}
+		}
+}
+
+news_event = {
+	id = kacap.16 #kadyrow
+	title = kacap.16.t
+	desc = kacap.16.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = kacap.16.a 
+       set_global_flag = Super_Event_Visible
+        set_global_flag = RUS_CW_super_visible
+       hidden_effect = {
+			sound_effect = "RUS_cw"
+			play_song = "cisza45"
 		}
 		}
 }
