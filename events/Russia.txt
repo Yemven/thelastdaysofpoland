@@ -7,13 +7,18 @@ country_event = {
 	desc = kacap.1.desc
 
 	fire_only_once = yes
-	trigger = { 
 		date > 2030.02.20
-		tag = RUS
-	}
+
 
 	option = {
 		name = kacap.1.a 
+		every_country = {
+			limit = { NOT = { is_ai = yes } }
+			news_event = {
+				id = kacap.2
+				}
+			}	
+		RUS = {
 		set_politics = {
 				ruling_party = squattism
 			}
@@ -22,9 +27,7 @@ country_event = {
 			long_name = "Civil War"
 			name = "Civil War"
 		}
-		news_event = {
-			id = kacap.2
-			}
+
 		set_global_flag = russia_cw
 		random_list = {
 			90 = {
@@ -40,6 +43,7 @@ country_event = {
 					}
 			}
 		}
+		}
 	}
 
 }
@@ -54,12 +58,13 @@ news_event = {
 	
 	option = {
 		name = kacap.2.a 
-       set_global_flag = Super_Event_Visible
-        set_global_flag = RUS_CW_super_visible
-       hidden_effect = {
-			sound_effect = "RUS_cw"
-			play_song = "cisza45"
-		}
+		every_country = {
+			limit = { NOT = { is_ai = yes } }
+			news_event = {
+				id = kacap.15
+				days = 7
+				}
+			}	
 		}
 }
 
@@ -628,5 +633,71 @@ news_event = {
 			sound_effect = "RUS_fsb"
 			play_song = "cisza30"
 		}
+		}
+}
+
+news_event = {
+	id = kacap.15 #kitaj-gorod
+	title = kacap.15.t
+	desc = kacap.15.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = kacap.15.a 
+ 		every_country = {
+			limit = { NOT = { is_ai = yes } }
+			news_event = {
+				id = kacap.16
+				days = 7
+				}
+			}
+		}
+}
+
+news_event = {
+	id = kacap.16 #kadyrow
+	title = kacap.16.t
+	desc = kacap.16.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = kacap.16.a 
+       set_global_flag = Super_Event_Visible
+        set_global_flag = RUS_CW_super_visible
+       hidden_effect = {
+			sound_effect = "RUS_cw"
+			play_song = "cisza45"
+		}
+ 		every_country = {
+			limit = { NOT = { is_ai = yes } }
+			news_event = {
+				id = kacap.16
+				hours = 70
+				}
+			}
+		}
+}
+
+news_event = {
+	id = kacap.17 #red-dawn
+	title = kacap.17.t
+	desc = kacap.17.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = kacap.17.a 
+ 		every_country = {
+			limit = { NOT = { is_ai = yes } }
+			news_event = {
+				id = kacap.18
+				days = 7
+				}
+			}
 		}
 }
