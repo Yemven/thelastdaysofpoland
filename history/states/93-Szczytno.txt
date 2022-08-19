@@ -1,17 +1,26 @@
+
 state={
 	id=93
 	name="STATE_93"
-	provinces={
-		131 542 792 917 2308 2496 2498 3154 3458 3594 
-	}
-	manpower = 66487  state_category = city
-	buildings_max_level_factor=1.000
-		history = {
+
+	history={
 		owner = PRU
-		victory_points = { }
+		victory_points = {
+
+		}
 		add_core_of = PRU
-	buildings = {
-	infrastructure = 7
-}
-}
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		542 917 2496 2498 3458 
+	}
+	manpower=54487
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

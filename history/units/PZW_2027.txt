@@ -1,0 +1,97 @@
+division_template = {
+	name = "Straż Rybacka"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+    }
+}
+
+division_template = {
+	name = "Batalion Wędkarski"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Gromada Rybacka"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Oddział Straży Rybackiej Śniardwy"
+		location = 968
+		division_template = "Straż Rybacka"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Oddział Straży Rybackiej Mamry"
+		location = 3398
+		division_template = "Straż Rybacka"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1 Batalion Wędkarski"
+		location = 3014
+		division_template = "Batalion Wędkarski"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2 Batalion Wędkarski"
+		location = 565
+		division_template = "Batalion Wędkarski"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3 Batalion Wędkarski"
+		location = 2686
+		division_template = "Batalion Wędkarski"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "4 Batalion Wędkarski"
+		location = 716
+		division_template = "Batalion Wędkarski"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}	
+	
+	division = {
+		name = "Gromada Pisz"
+		location = 517
+		division_template = "Gromada Rybacka"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Gromada Mrągowo"
+		location = 3014
+		division_template = "Gromada Rybacka"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}

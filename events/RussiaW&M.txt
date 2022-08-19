@@ -10,7 +10,7 @@ country_event = {
 		original_tag = ROS
 		ROS = {
 			has_war = yes
-			num_of_controlled_states < 7
+			surrender_progress > 0.3
 			}
 	}
 
@@ -43,6 +43,9 @@ country_event = {
 			add_core_of = PZW
 		}
 		46 = {
+			add_core_of = PZW
+		}
+		875 = {
 			add_core_of = PZW
 		}
 		every_owned_state = {
