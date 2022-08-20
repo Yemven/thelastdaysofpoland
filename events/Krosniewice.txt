@@ -1,4 +1,7 @@
 ﻿add_namespace = krosniewice
+add_namespace = rutkowski
+add_namespace = pogotowie
+add_namespace = skrzydlewscy
 
 country_event = {
 	id = krosniewice.1
@@ -53,5 +56,48 @@ country_event = {
 		hidden_effect = {
 			activate_mission = KRS_funeral_gains_mission
 		}
+	}
+}
+
+country_event = {
+	id = skrzydlewscy.1 #skrzydlewscy-intro
+	title = skrzydlewscy.1.t
+	desc = skrzydlewscy.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = skrzydlewscy.1.a
+	
+	}
+}
+
+country_event = {
+	id = rutkowski.1 #rutkowski-intro
+	title = rutkowski.1.t
+	desc = rutkowski.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = rutkowski.1.a
+	
+	}
+}
+
+
+country_event = {
+	id = pogotowie.1 #pogotowie-intro
+	title = pogotowie.1.t
+	desc = pogotowie.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = pogotowie.1.a
+	
 	}
 }

@@ -31,10 +31,13 @@ focus_tree = {
 		x = 4
 		y = 0
 		
-		cost = 2
+		cost = 1
 		search_filters = {}
 		completion_reward = {
-			
+			country_event = {
+				id = skrzydlewscy.1
+				days = 2
+			}
 		}
 	}
 	
@@ -53,10 +56,14 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 2
+		cost = 1
 		search_filters = {}
 		completion_reward = {
-			
+			add_political_power = 50
+			country_event = {
+				id = rutkowski.1
+				days = 2
+			}			
 		}
 	}
 	
@@ -75,10 +82,18 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 2
+		cost = 1
 		search_filters = {}
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = encryption_tech
+			}
+			country_event = {
+				id = pogotowie.1
+				days = 2
+			}
 		}
 	}
 	
@@ -97,7 +112,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 2
+		cost = 1
 		search_filters = {}
 		completion_reward = {
 			
