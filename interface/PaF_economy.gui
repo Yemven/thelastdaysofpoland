@@ -13,12 +13,12 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "balance"
-			position = { x = 10 y = 5 }
-			font = "hoi_18mbs"
+			position = { x = 6 y = 3 }
+			font = "cg_18b"
 			maxWidth = 54
 			maxHeight = 18
 			text = "ENERGY_LOC"
-			format = center
+			format = centre
 			pdx_tooltip = "ENERGY_BALANCE_TOOLTIP"
 		}
 		
@@ -32,12 +32,12 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "generated"
-			position = { x = 90 y = 5 }
-			font = "hoi_18mbs"
+			position = { x = 87 y = 3 }
+			font = "cg_18b"
 			maxWidth = 54
 			maxHeight = 18
 			text = "GENERATED_ENERGY"
-			format = center
+			format = centre
 			pdx_tooltip = "GENERATED_ENERGY_TOOLTIP"
 		}
 	}

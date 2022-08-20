@@ -50,7 +50,7 @@ guiTypes = {
 				name = "to_find_text"
 				position = { x=41 y=14 }
 				size = { x=150 y=25 }
-				font = "hoi_16mbs"
+				font = "cg_16b"
 				text = ""
 				tooltip = "FOCUS_SEARCH_TOOLTIP"
 			}
@@ -341,7 +341,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 15 y = 58 }
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			text = ""
 			maxWidth = 145
 			maxHeight = 20
@@ -359,7 +359,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "focus_cost"
 			position = { x = 147 y = 27 }
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			text = "2"
 			maxWidth = 145
 			maxHeight = 20
@@ -572,7 +572,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 30 y = 12 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "cg_22"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 450
@@ -596,7 +596,7 @@ guiTypes = {
 			name = "prerequisites"
 			position = { x = 215 y = 100 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 287
@@ -624,7 +624,7 @@ guiTypes = {
 			name = "desc"
 			position = { x = 34 y = 250 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			borderSize = {x = 5 y = 0}
 			text = "Description"
 			maxWidth = 485
@@ -643,7 +643,7 @@ guiTypes = {
 			name = "reward_label"
 			position = { x = 34 y = 520 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = "FOCUS_REWARD"
 			maxWidth = 485
@@ -653,9 +653,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "reward"
-			position = { x = 50 y = 547 }
+			position = { x = 50 y = 550 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 455
@@ -668,7 +668,7 @@ guiTypes = {
 			name = "start"
 			quadTextureSprite = "GFX_button_123x34"
 			buttonText = "START_FOCUS"
-			buttonFont = "hoi_20b"
+			buttonFont = "cg_18b"
 			position = { x=390 y=53 }
 			clicksound = select_focus
 			shortcut = "RETURN"
@@ -689,7 +689,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "status"
 			position = { x = 208 y = 60 }
-			font = "hoi_20b"
+			font = "cg_18b"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 170
@@ -763,7 +763,7 @@ guiTypes = {
 			name = "prerequisites"
 			position = { x = 215 y = 100 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 287
@@ -821,7 +821,7 @@ guiTypes = {
 			name = "reward"
 			position = { x = 50 y = 397 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 455
