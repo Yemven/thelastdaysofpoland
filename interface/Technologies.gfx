@@ -1,5 +1,21 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_drone_0_medium"
+		texturefile = "gfx/interface/technologies/drone_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_drone_2_medium"
+		texturefile = "gfx/interface/technologies/drone_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_drone_4_medium"
+		texturefile = "gfx/interface/technologies/drone_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_china_drone_medium"
+		texturefile = "gfx/interface/technologies/china_drone.dds"
+	}
+	SpriteType = {
 		name = "GFX_tech_support_medium"
 		texturefile = "gfx/interface/technologies/support_equipment_1.dds"
 	}
