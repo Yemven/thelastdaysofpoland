@@ -67,7 +67,8 @@ focus_tree = {
 			}
 		}
 	}
-			focus = {
+	
+	focus = {
 		id = WML_minuscule_civil_guard
 		relative_position_id = WML_behind_the_curtains_of_denial
 		prerequisite = { focus = WML_behind_the_curtains_of_denial }
@@ -84,9 +85,9 @@ focus_tree = {
 		cost = 1
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
+		#pomoc od harcerzy w strzeżeniu ulic Łodzi
 		}
 	}
-	#pomoc od harcerzy w strzeżeniu ulic Łodzi
 	
 	focus = {
 		id = WML_energy_issues
@@ -179,9 +180,10 @@ focus_tree = {
 		cost = 1
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			}
+		#pomoc od żydów jak naprawić sytuację łódzkich robotników
 		}
-	#pomoc od żydów jak naprawić sytuację łódzkich robotników
+	} 
+	
 	focus = {
 		id = WML_city_will_hold_on
 		relative_position_id = WML_food_shortages
@@ -190,7 +192,6 @@ focus_tree = {
 		prerequisite = { focus = WML_food_shortages }
 		prerequisite = { focus = WML_lack_of_materials }
 		prerequisite = { focus = WML_striking_workers }
-		
 		
 		x = 0
 		y = 1
@@ -267,12 +268,19 @@ focus_tree = {
 		
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-		country_event = {
-				id = WML.10 
+				completion_reward = {
+				if = {
+			limit = { has_country_flag = WML_Gill_piatek_remains	}	
+					country_event = {
+				id = WML.13 
 				}
+			}
+		else = {
+			country_event = { id = WML.11 }
+			}
 			
 		}
+	
 	}
 	
 	focus = {

@@ -30,7 +30,6 @@ country_event = {
 		name = WML.2.a
 
 		add_ideas = WML_three_problems1
-
 	}
 }
 
@@ -126,6 +125,7 @@ country_event = {
 					remove_idea = WML_three_problems1
 				}
 			}
+			
 		}
 		if = {
 			limit = {
@@ -139,6 +139,12 @@ country_event = {
 				}
 			}
 		}
+		
+		custom_effect_tooltip = WML_brotherhood_trust_great_increase_tt
+		custom_effect_tooltip = WML_brotherhood_influence_great_increase_tt
+		country_event = {
+			id = WML.12
+			}
 
 	}
 }
@@ -404,8 +410,81 @@ country_event = {
 				}
 			}
 		}
+		}
 	}
+	
+
+
+country_event = {
+	id = WML.7
+	title = WML.7.t
+	desc = WML.7.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.7.a
+		set_country_flag = WML_gill_piatek_remains
+
 	}
+	option = {
+		name = WML.7.b
+
+	}
+	option = {
+		name = WML.7.c
+		country_event = {
+				id = WML.8
+				}
+
+	}
+
+}
+country_event = {
+	id = WML.8
+	title = WML.8.t
+	desc = WML.8.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.8.a
+
+	}
+	option = {
+		name = WML.8.b
+
+	}
+	option = {
+		name = WML.8.c
+		country_event = {
+				id = WML.9
+				}
+		}
+}
+country_event = {
+	id = WML.9
+	title = WML.9.t
+	desc = WML.9.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.9.a
+
+	}
+	option = {
+		name = WML.9.b
+		country_event = {
+				id = WML.7
+				}
+
+	}
+}
+
 	country_event = {
 		id = WML.10
 		title = WML.10.t
@@ -457,83 +536,44 @@ country_event = {
 }
 
 country_event = {
-	id = WML.7
-	title = WML.7.t
-	desc = WML.7.desc
+	id = WML.11
+	title = WML.11.t
+	desc = WML.11.desc
 
 	fire_only_once = no
 	is_triggered_only = yes
 
 	option = {
-		name = WML.7.a
-
-	}
-	option = {
-		name = WML.7.b
-
-	}
-	option = {
-		name = WML.7.c
-		country_event = {
-				id = wml.8
-				}
-
-	}
-
-}
-country_event = {
-	id = WML.8
-	title = WML.8.t
-	desc = WML.8.desc
-
-	fire_only_once = no
-	is_triggered_only = yes
-
-	option = {
-		name = WML.8.a
-
-	}
-	option = {
-		name = WML.8.b
-
-	}
-	option = {
-		name = WML.8.c
-		country_event = {
-				id = wml.9
-				}
-		}
-}
-country_event = {
-	id = WML.9
-	title = WML.9.t
-	desc = WML.9.desc
-
-	fire_only_once = no
-	is_triggered_only = yes
-
-	option = {
-		name = WML.9.a
-
-	}
-	option = {
-		name = WML.9.b
-		country_event = {
-				id = wml.7
-				}
+		name = WML.11.a
 
 	}
 }
+
 country_event = {
-	id = WML.10
-	title = WML.10.t
-	desc = WML.10.desc
+	id = WML.12
+	title = WML.12.t
+	desc = WML.12.desc
 
 	fire_only_once = no
 	is_triggered_only = yes
 
 	option = {
-		name = WML.10.a
+		name = WML.12.a
+		custom_effect_tooltip = WML_brotherhood_energy_reliance_tt
+		add_idea = WML_brotherhood_energy_reliance
+	}
+}
+
+country_event = {
+	id = WML.13
+	title = WML.13.t
+	desc = WML.13.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.13.a
 
 	}
 }

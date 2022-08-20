@@ -129,6 +129,21 @@ ideas = {
 			}
 		}
 		
+		WML_brotherhood_energy_reliance =	{
+			allowed = {
+				original_tag = WML
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				consumer_goods_factor = -0.03
+			}
+		}
+		
 		WML_lodz_przemysl =	{
 			allowed = {
 				original_tag = WML
