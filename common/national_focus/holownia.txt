@@ -865,7 +865,9 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+						country_event = {
+			id = WML.15
+			}
 		}
 	}
 	
