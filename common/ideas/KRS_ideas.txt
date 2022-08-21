@@ -94,10 +94,58 @@ ideas = {
 			}
 		}
 
+		
+		KRS_wave_of_kidnappings = {
 
+			allowed_civil_war = {
+				always = yes
+			}
 
+			removal_cost = -1
 
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.15
+				industrial_capacity_factory = -0.1
+				conscription_factor = -0.075
+				production_speed_buildings_factor = -0.1
+			}
 		}
+		
+		KRS_recruitment_drive = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				weekly_manpower = 50
+				army_morale_factor = 0.1
+			}
+		}
+		
+		KRS_j22_compound = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.10
+				stability_factor = -0.1
+			}
+		}
+	}
 
 
 	industrial_company = {

@@ -11,6 +11,8 @@
  KRS_corrupt_hospitals_desc:0 "The doctors of the Łódź ambulance service have a reputation of intentionally killing their patients. Citizens of the Consortium live in constant fear as even the smallest injury or illness can result in an "unfortunate accident". "
  KRS_lack_of_legitimacy:0 "Lack of Legitimacy"
  KRS_lack_of_legitimacy_desc:0 "Every state regardless of their type or form, needs mainly one thing to stay in power. Legitimacy. The precious luxury that we unfortunately cannot afford even with all the money in the world. Not really surprising barring that, our government is composed mainly of three groups, which aren’t all especially reputable . While our only achievement so far is implementing barely "some" semblance of order and stability."
+ KRS_wave_of_kidnappings:0 "Wave of Kidnappings"
+ KRS_wave_of_kidnappings_desc:0 "Krośniewice and its surrounding area are paralyzed with fear. Rumors of white vans taking people of all kinds at night and driving of to God-Knows-Where are the town's latest hot talk. Nobody on the streets has any idea why this is happening and where the people are taken - if they're taken somewhere at all.\n\nThe only thing known for certain is that those who get themselves dragged into the vans §Rnever come back.§!"
  #KRS_rutkowski_patrol:0 "Rutkowski Patrol"
  #KRS_rutkowski_patrol_desc:0 "The famous private police force makes sure that the population stays loyal to the government"
  ##Companies##
@@ -93,15 +95,19 @@ KRS_experimental_concoctions_desc: ""
 KRS_poisonous_gasses_desc: ""
 KRS_complex_submolecular_modifications_desc: ""
 KRS_unleash_the_terrors_desc: ""
- ##Events##
- krosniewice.1.t:0 "A Proposal from the South"
- krosniewice.1.desc:0 "POWER RANGERS AKTYWACJA"
- krosniewice.1.a:0 "Lets fucking go"
- krosniewice.1.b:0 "To hell with them"
+ ##Events#
+ #krosniewice.1.t:0 "A Proposal from the South"
+ #krosniewice.1.desc:0 "POWER RANGERS AKTYWACJA"
+ #krosniewice.1.a:0 "Lets fucking go"
+ #krosniewice.1.b:0 "To hell with them"
 
- krosniewice.2.t:0 "The Spoils of War"
- krosniewice.2.desc:0 "War, such a big tragedy that befalls a whole nation, right? WRONG, war is in fact one of (if not) the most lucrative and sure way of profit. While we may not profit from selling guns or other military equipment, we sure do have a monopoly on funeral services and there is a lot to gain from that. What we need to do now is to drag out this conflict as much as we can, so while cemeteries will fill up with new graves our pockets will fill up with new shiny coins."
- krosniewice.2.a:0 "Fire up the crematories, we're going to profit!"
+ #krosniewice.2.t:0 "The Spoils of War"
+ #krosniewice.2.desc:0 "War, such a big tragedy that befalls a whole nation, right? WRONG, war is in fact one of (if not) the most lucrative and sure way of profit. While we may not profit from selling guns or other military equipment, we sure do have a monopoly on funeral services and there is a lot to gain from that. What we need to do now is to drag out this conflict as much as we can, so while cemeteries will fill up with new graves our pockets will fill up with new shiny coins."
+ #krosniewice.2.a:0 "Fire up the crematories, we're going to profit!"
+
+ krosniewice.1.t:0 "Refugees from abroad"
+ krosniewice.1.desc:0 "cośtam z uchodźcami"
+ krosniewice.1.a:0 "Come here, you'll be served well"
 
  skrzydlewscy.1.t:0 "Blooming Business"
  skrzydlewscy.1.desc:0 "event opisujący skrzydlewskich, wprowadzający do biznesu itp"
@@ -114,6 +120,12 @@ KRS_unleash_the_terrors_desc: ""
  pogotowie.1.t:0 "Shadow of the Red Cross"
  pogotowie.1.desc:0 "event opisujący pogotowie"
  pogotowie.1.a:0 ""
+ 
+ krs_meeting.1.t:0 "Question of War"#hujowo napisałem pozdrawiam
+ krs_meeting.1.desc:0 "wat we should invest?"
+ krs_meeting.1.a:0 "Begin a recruitment drive"
+ krs_meeting.1.b:0 "Hire some McSoliders"
+ krs_meeting.1.c:0 "Develop J-22 compound"
  
 unification.6.t:0 "[GetNewspaper]Flower Consortium unifies Łódź Voivodeship"
 unification.6.desc:0 "For a long time, Łódź remained one of the few regions not engulfed in constant war, with the local cliques instead taking to the bargaining table to investigate the mysterious nuclear explosion in Bałuty. It seems like cooperation turned out for the better for Łodzian power players, as the region has just got united by a union of three factions working in symbiosis with each other. \n\nThe so-called "Flower Consortium" is a triumvirate of Krzysztof Rutkowski, the Łódź Emergency Medical Service, and Witold Skrzydlewski - Consortium's main power broker, spokesman and the head of H. Skrzydlewska - a funeral service and florist company which now holds a monopoly on the state's politics and economy, controlling most of the businesses and civil services in their lands. The Triumvirate's neighbours worry whether they'll be able to stop it's growth, or will their statelets only serve as fertile ground for the Consortium to further blossom upon."

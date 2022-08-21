@@ -115,7 +115,11 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-			
+			hidden_effect = {
+				set_variable = { KRS_skrzyldewscy_holding_on = 0 }
+				set_variable = { KRS_rutkowski_takeover = 0 }
+				set_variable = { KRS_skinhunters_takeover = 0 }
+			}
 		}
 	}
 	
@@ -329,6 +333,12 @@ focus_tree = {
 		}
 		
 		bypass = {
+		}
+		
+		select_effect = {
+			country_event = {
+				id = krosniewice.1
+			}
 		}
 		
 		x = -2
