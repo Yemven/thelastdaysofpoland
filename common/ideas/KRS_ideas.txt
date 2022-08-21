@@ -552,6 +552,22 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
+		
+		KRS_expanded_rutkowski_patrol = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				experience_gain_army_factor = 0.05
+				training_time_army_factor = -0.1
+			}
+		}
 	}
 
 
