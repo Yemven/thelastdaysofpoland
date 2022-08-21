@@ -135,13 +135,21 @@ focus_tree = {
 		bypass = {
 		}
 		
+		select_effect = {
+			country_event = {
+				id = krosniewice.2
+			}
+		}
+		
 		x = 0
 		y = 1
 		
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			country_event = {
+				id = krs_meeting.4
+			}
 		}
 	}
 	
@@ -163,7 +171,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			country_event = {
+				id = krs_meeting.5
+			}
 		}
 	}
 	
@@ -185,7 +195,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			country_event = {
+				id = krs_meeting.6
+			}
 		}
 	}
 

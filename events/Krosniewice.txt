@@ -118,6 +118,20 @@ country_event = {
 }
 
 country_event = {
+	id = krosniewice.2
+	title = krosniewice.2.t
+	desc = krosniewice.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = krosniewice.2.a
+		add_ideas = KRS_armed_banditry
+	}
+}
+
+country_event = {
 	id = krs_meeting.1
 	title = krs_meeting.1.t
 	desc = krs_meeting.1.desc
@@ -233,6 +247,132 @@ country_event = {
 	option = {
 		name = krs_meeting.3.c
 		add_ideas = KRS_untrained_soliders
+		hidden_effect = {
+			add_to_variable = { KRS_skinhunters_takeover = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = krs_meeting.4
+	title = krs_meeting.4.t
+	desc = krs_meeting.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = krs_meeting.4.a
+		add_trait = {
+			character = KRS_anna_maria_wesolowska
+			slot = interior_minister
+			trait = supreme_mayor
+		}
+		hidden_effect = {
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
+			
+		}
+	}
+	option = {
+		name = krs_meeting.4.b
+		add_ideas = KRS_informants
+		hidden_effect = {
+			add_to_variable = { KRS_rutkowski_takeover = 1 }
+		}
+	}
+	option = {
+		name = krs_meeting.4.c
+		add_ideas = KRS_dissidents_disappearing
+		hidden_effect = {
+			add_to_variable = { KRS_skinhunters_takeover = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = krs_meeting.5
+	title = krs_meeting.5.t
+	desc = krs_meeting.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = krs_meeting.5.a
+		add_ideas = KRS_civil_servants_as_managers
+		hidden_effect = {
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
+			
+		}
+	}
+	option = {
+		name = krs_meeting.5.b
+		add_ideas = KRS_civil_servants_as_soldiers
+		hidden_effect = {
+			add_to_variable = { KRS_rutkowski_takeover = 1 }
+		}
+	}
+	option = {
+		name = krs_meeting.5.c
+		add_ideas = KRS_civil_servants_as_paramedics
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = hospital_tech
+		}
+		hidden_effect = {
+			add_to_variable = { KRS_skinhunters_takeover = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = krs_meeting.6
+	title = krs_meeting.6.t
+	desc = krs_meeting.6.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = krs_meeting.6.a
+		849 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		swap_ideas = {
+			remove_idea = KRS_armed_banditry
+			add_idea = KRS_bandits_bought_out
+		}
+		hidden_effect = {
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
+			
+		}
+	}
+	option = {
+		name = krs_meeting.6.b
+		swap_ideas = {
+			remove_idea = KRS_armed_banditry
+			add_idea = KRS_bandits_in_work_camps
+		}
+		hidden_effect = {
+			add_to_variable = { KRS_rutkowski_takeover = 1 }
+		}
+	}
+	option = {
+		name = krs_meeting.6.c
+		swap_ideas = {
+			remove_idea = KRS_armed_banditry
+			add_idea = KRS_boneless
+		}
 		hidden_effect = {
 			add_to_variable = { KRS_skinhunters_takeover = 1 }
 		}

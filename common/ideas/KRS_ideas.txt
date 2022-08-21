@@ -285,6 +285,155 @@ ideas = {
 				attrition = -0.05
 			}
 		}
+		
+		KRS_armed_banditry = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+		}
+		
+		KRS_informants = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				encryption_factor = 0.1
+				decryption_factor = 0.1
+				resistance_activity = -0.3
+				non_core_manpower = 0.55
+			}
+		}
+		
+		KRS_dissidents_disappearing = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				monthly_population = -0.05
+				postpolonism_drift = 0.05
+				stability_factor = 0.05
+			}
+		}
+		
+		KRS_civil_servants_as_managers = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+		
+		KRS_civil_servants_as_soldiers = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+		
+		KRS_civil_servants_as_paramedics = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+		
+		KRS_bandits_bought_out = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				experience_gain_army = 0.05
+			}
+		}
+		
+		KRS_bandits_in_work_camps = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				local_resources_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+		
+		KRS_boneless = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				army_attack_factor = 0.2
+				army_defence_factor = 0.2
+				local_resources_factor = -0.1
+			}
+		}
 	}
 
 
