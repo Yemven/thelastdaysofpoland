@@ -2110,10 +2110,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_KRS_contracts_from_abroad_shine"
-		texturefile = "gfx/interface/goals/KRS_contracts_from_abroad.dds"
+		texturefile = "gfx/interface/goals/KRS_contacts_from_abroad.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KRS_contracts_from_abroad.dds"
+			animationmaskfile = "gfx/interface/goals/KRS_conracts_from_abroad.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2125,7 +2125,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KRS_contracts_from_abroad.dds"
+			animationmaskfile = "gfx/interface/goals/KRS_contacts_from_abroad.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
 			animationrotation = 90.0
 			animationlooping = no
