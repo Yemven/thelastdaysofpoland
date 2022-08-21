@@ -347,7 +347,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			country_event = {
+				id = krs_meeting.1
+			}
 		}
 	}
 	
@@ -369,7 +371,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			country_event = {
+				id = krs_meeting.2
+			}
 		}
 	}
 	
@@ -391,7 +395,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			country_event = {
+				id = krs_meeting.3
+			}
 		}
 	}
 	

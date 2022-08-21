@@ -168,7 +168,7 @@ country_event = {
 
 	option = {
 		name = krs_meeting.2.a
-		add_ideas = KRS_recruitment_drive
+		add_ideas = KRS_checkpoint_adverts
 		hidden_effect = {
 			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
 			
@@ -176,14 +176,63 @@ country_event = {
 	}
 	option = {
 		name = krs_meeting.2.b
-		load_oob = KRS_mercs
+		add_ideas = KRS_riot_eq_issued
 		hidden_effect = {
 			add_to_variable = { KRS_rutkowski_takeover = 1 }
 		}
 	}
 	option = {
 		name = krs_meeting.2.c
-		add_ideas = KRS_j22_compound
+		add_ideas = KRS_additional_test_subjects
+		if = {
+			limit = {
+				KRS = {
+					has_idea = KRS_wave_of_kidnappings
+				}
+			}
+			swap_ideas = {
+				remove_idea = KRS_wave_of_kidnappings
+				add_idea = KRS_wave_of_kidnappings_2
+			}
+		}
+		else = {
+			swap_ideas = {
+				remove_idea = KRS_wave_of_kidnappings_2
+				add_idea = KRS_wave_of_kidnappings_3
+			}
+		}
+		hidden_effect = {
+			add_to_variable = { KRS_skinhunters_takeover = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = krs_meeting.3
+	title = krs_meeting.3.t
+	desc = krs_meeting.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = krs_meeting.3.a
+		add_ideas = KRS_corporate_security
+		hidden_effect = {
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
+			
+		}
+	}
+	option = {
+		name = krs_meeting.3.b
+		add_ideas = KRS_vip_protection
+		hidden_effect = {
+			add_to_variable = { KRS_rutkowski_takeover = 1 }
+		}
+	}
+	option = {
+		name = krs_meeting.3.c
+		add_ideas = KRS_untrained_soliders
 		hidden_effect = {
 			add_to_variable = { KRS_skinhunters_takeover = 1 }
 		}

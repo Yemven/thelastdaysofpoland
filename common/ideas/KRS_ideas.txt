@@ -113,6 +113,42 @@ ideas = {
 			}
 		}
 		
+		KRS_wave_of_kidnappings_2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.15
+				conscription_factor = -0.1
+				production_speed_buildings_factor = -0.15
+			}
+		}
+		
+		KRS_wave_of_kidnappings_3 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.25
+				industrial_capacity_factory = -0.2
+				conscription_factor = -0.15
+				production_speed_buildings_factor = -0.2
+			}
+		}
+		
 		KRS_recruitment_drive = {
 
 			allowed_civil_war = {
@@ -143,6 +179,110 @@ ideas = {
 				army_attack_factor = 0.05
 				army_defence_factor = 0.10
 				stability_factor = -0.1
+			}
+		}
+		
+		KRS_checkpoint_adverts = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				monthly_population = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		KRS_riot_eq_issued = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				weekly_manpower = -10
+				stability_factor = 0.1
+				army_defence_factor = 0.05
+			}
+		}
+		
+		KRS_additional_test_subjects = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				research_speed_factor = 0.1
+				weekly_manpower = -20
+				stability_factor = -0.1
+			}
+		}
+		
+		KRS_corporate_security = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				army_org_factor = 0.05
+				experience_loss_factor = -0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		
+		KRS_vip_protection = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				recon_factor = 0.1
+				special_forces_cap = 0.02
+				special_forces_training_time_factor = -0.1
+				stability_factor = -0.1
+			}
+		}
+		
+		KRS_untrained_soliders = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				land_reinforce_rate = 0.05
+				army_attack_factor = 0.02
+				attrition = -0.05
 			}
 		}
 	}
