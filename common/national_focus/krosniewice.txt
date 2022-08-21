@@ -532,7 +532,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_ideas = KRS_trenches_system
 		}
 	}
 
@@ -554,7 +554,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_ideas = KRS_diverted_assets
 		}
 	}
 	
@@ -576,7 +576,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_ideas = KRS_improved_logistics
 		}
 	}
 	
@@ -598,7 +598,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_ideas = KRS_supply_lines
 		}
 	}
 	
@@ -620,7 +620,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_ideas = KRS_auxillaries
 		}
 	}
 	
@@ -642,7 +642,8 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_stability = 0.1
+			add_political_power = 100
 		}
 	}
 	
@@ -664,7 +665,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_war_support = 0.1
 		}
 	}
 	
@@ -686,7 +687,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			load_oob = KRS_rutkowski_reinfs
 		}
 	}
 	
@@ -708,7 +709,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_ideas = KRS_woman_soldiers
 		}
 	}
 	
@@ -730,7 +731,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_stability = -0.15
+			add_war_support = -0.15
+			load_oob = KRS_peasant_reinfs
 		}
 	}
 	
@@ -752,7 +755,11 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = hospital_tech
+			}
 		}
 	}
 
@@ -774,7 +781,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_ideas = KRS_chemical_doping
 		}
 	}
 	
