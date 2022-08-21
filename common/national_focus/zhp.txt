@@ -1176,8 +1176,10 @@ focus_tree = {
 				remove_idea = ZHP_division_within_ranks_2
 				add_idea = ZHP_division_within_ranks_3
 			}
-			country_event = {
-				id = zhp.16
+			hidden_reward = {
+				country_event = {
+					id = zhp.16
+				}
 			}
 		}
 	}
