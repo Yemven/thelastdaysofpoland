@@ -103,4 +103,21 @@ characters={
 			traits = { persecutor }
 		}
 	}
+    KRS_stanislaw_kaczynski = {
+		name="Stanisław Kaczyński"
+		portraits = {
+			army = {
+			    large="gfx/leaders/KRS/KRS_Kaczynski.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill=4
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 }
