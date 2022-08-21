@@ -96,6 +96,7 @@ BBW_industrial_missions_category = {
 KRS_funeral_gains_category = {
     allowed = {
         tag = KRS
+		has_country_flag = KRS_offers_funeral_services
     }
     priority = 50
     #picture = GFX_decision_category_picture
@@ -104,6 +105,18 @@ KRS_funeral_gains_category = {
     visible_when_empty = no
 }
 
+
+KRS_hired_guns_category= {
+    allowed = {
+        tag = KRS
+		has_country_flag = KRS_offers_hired_guns
+    }
+    priority = 50
+    #picture = GFX_decision_category_picture
+	#Tu dać jakieś kominy z dymem czarnym
+    #icon = BBW_category
+    visible_when_empty = no
+}
 coring_category = {
 	priority = 2
 	icon = GFX_category_icon

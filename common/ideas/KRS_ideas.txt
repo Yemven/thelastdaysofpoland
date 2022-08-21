@@ -434,6 +434,124 @@ ideas = {
 				local_resources_factor = -0.1
 			}
 		}
+		
+		KRS_economic_stagnation = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		KRS_tulip_farms = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				industrial_factory_donations = 1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		KRS_lab_no_3 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				experience_gain_army = 0.1
+				research_speed_factor = 0.2
+				monthly_population = -0.2
+			}
+		}
+		
+		KRS_cheap_meds = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				monthly_population = 0.1
+				stability_factor = 0.1
+				experience_loss_factor = -0.02
+			}
+		}
+		
+		KRS_grand_greenhouse = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				consumer_goods_factor = -0.15
+				industrial_capacity_factory = 0.15
+				line_change_production_efficiency_factor = 0.15
+			}
+		}
+		
+		KRS_rutkowski_hq = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				static_anti_air_damage_factor = 0.2
+				static_anti_air_hit_chance_factor = 0.2
+				encryption_factor = 0.2
+				decryption_factor = 0.2
+			}
+		}
+		
+		KRS_institute = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				research_speed_factor = 0.2
+				stability_factor = -0.1
+			}
+		}
 	}
 
 
