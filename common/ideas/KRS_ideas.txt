@@ -94,10 +94,481 @@ ideas = {
 			}
 		}
 
+		
+		KRS_wave_of_kidnappings = {
 
+			allowed_civil_war = {
+				always = yes
+			}
 
+			removal_cost = -1
 
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.15
+				industrial_capacity_factory = -0.1
+				conscription_factor = -0.075
+				production_speed_buildings_factor = -0.1
+			}
 		}
+		
+		KRS_wave_of_kidnappings_2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.15
+				conscription_factor = -0.1
+				production_speed_buildings_factor = -0.15
+			}
+		}
+		
+		KRS_wave_of_kidnappings_3 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.25
+				industrial_capacity_factory = -0.2
+				conscription_factor = -0.15
+				production_speed_buildings_factor = -0.2
+			}
+		}
+		
+		KRS_recruitment_drive = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				weekly_manpower = 50
+				army_morale_factor = 0.1
+			}
+		}
+		
+		KRS_j22_compound = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.10
+				stability_factor = -0.1
+			}
+		}
+		
+		KRS_checkpoint_adverts = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				monthly_population = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		KRS_riot_eq_issued = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				weekly_manpower = -10
+				stability_factor = 0.1
+				army_defence_factor = 0.05
+			}
+		}
+		
+		KRS_additional_test_subjects = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				research_speed_factor = 0.1
+				weekly_manpower = -20
+				stability_factor = -0.1
+			}
+		}
+		
+		KRS_corporate_security = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				army_org_factor = 0.05
+				experience_loss_factor = -0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		
+		KRS_vip_protection = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				recon_factor = 0.1
+				special_forces_cap = 0.02
+				special_forces_training_time_factor = -0.1
+				stability_factor = -0.1
+			}
+		}
+		
+		KRS_untrained_soliders = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				land_reinforce_rate = 0.05
+				army_attack_factor = 0.02
+				attrition = -0.05
+			}
+		}
+		
+		KRS_armed_banditry = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+		}
+		
+		KRS_informants = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				encryption_factor = 0.1
+				decryption_factor = 0.1
+				resistance_activity = -0.3
+				non_core_manpower = 0.55
+			}
+		}
+		
+		KRS_dissidents_disappearing = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				monthly_population = -0.05
+				postpolonism_drift = 0.05
+				stability_factor = 0.05
+			}
+		}
+		
+		KRS_civil_servants_as_managers = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+		
+		KRS_civil_servants_as_soldiers = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+		
+		KRS_civil_servants_as_paramedics = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+		
+		KRS_bandits_bought_out = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				experience_gain_army = 0.05
+			}
+		}
+		
+		KRS_bandits_in_work_camps = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				local_resources_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+		
+		KRS_boneless = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				army_attack_factor = 0.2
+				army_defence_factor = 0.2
+				local_resources_factor = -0.1
+			}
+		}
+		
+		KRS_economic_stagnation = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		KRS_tulip_farms = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				industrial_factory_donations = 1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		KRS_lab_no_3 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				experience_gain_army = 0.1
+				research_speed_factor = 0.2
+				monthly_population = -0.2
+			}
+		}
+		
+		KRS_cheap_meds = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				monthly_population = 0.1
+				stability_factor = 0.1
+				experience_loss_factor = -0.02
+			}
+		}
+		
+		KRS_grand_greenhouse = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				consumer_goods_factor = -0.15
+				industrial_capacity_factory = 0.15
+				line_change_production_efficiency_factor = 0.15
+			}
+		}
+		
+		KRS_rutkowski_hq = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				static_anti_air_damage_factor = 0.2
+				static_anti_air_hit_chance_factor = 0.2
+				encryption_factor = 0.2
+				decryption_factor = 0.2
+			}
+		}
+		
+		KRS_institute = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				research_speed_factor = 0.2
+				stability_factor = -0.1
+			}
+		}
+		
+		KRS_expanded_rutkowski_patrol = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				experience_gain_army_factor = 0.05
+				training_time_army_factor = -0.1
+			}
+		}
+	}
 
 
 	industrial_company = {

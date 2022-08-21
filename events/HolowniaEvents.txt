@@ -96,8 +96,10 @@ country_event = {
 				}
 			}
 		}
-
-
+		custom_effect_tooltip = WML_brotherhood_trust_in_the_deal_tt
+		country_event = {
+		id = WML.12
+		}
 	}
 	option = {
 		name = WML.4.b
@@ -139,13 +141,9 @@ country_event = {
 				}
 			}
 		}
-		
-		custom_effect_tooltip = WML_brotherhood_trust_great_increase_tt
-		custom_effect_tooltip = WML_brotherhood_influence_great_increase_tt
-		country_event = {
-			id = WML.12
-			}
-
+		custom_effect_tooltip = WML_our_own_energy_plant_tt
+		add_political_power = -50
+		add_stability = -0.03
 	}
 }
 
@@ -196,6 +194,12 @@ country_event = {
 				}
 			}
 		}
+		custom_effect_tooltip = WML_sapek_food_suply_short_tt
+		
+		
+		country_event = {
+		id = WML.12
+		}
 	}
 
 	option = {
@@ -237,6 +241,8 @@ country_event = {
 				}
 			}
 		}
+		custom_effect_tooltip = WML_dispersed_food_supply_tt
+		custom_effect_tooltip = WML_dispersed_food_supply_bad_tt
 	}
 
 	option = {
@@ -485,7 +491,7 @@ country_event = {
 	}
 }
 
-	country_event = {
+country_event = {
 		id = WML.10
 		title = WML.10.t
 		desc = WML.10.desc
@@ -493,45 +499,45 @@ country_event = {
 		fire_only_once = yes
 		is_triggered_only = yes
 
-		option = {
-			name = WML.10.a
+	option = {
+	name = WML.10.a
 
-			if = {
-				limit = {
-					WML = { has_idea = WML_three_problems2 }
-				}
-				custom_effect_tooltip = WML_three_problems_big_decrease_tt
-				hidden_effect = {
-				swap_ideas = {
-						add_idea = WML_three_problems3
-						remove_idea = WML_three_problems2
-					}
+		if = {
+			limit = {
+				WML = { has_idea = WML_three_problems2 }
+			}
+			custom_effect_tooltip = WML_three_problems_big_decrease_tt
+			hidden_effect = {
+			swap_ideas = {
+					add_idea = WML_three_problems3
+					remove_idea = WML_three_problems2
 				}
 			}
-			if = {
-				limit = {
-					WML = { has_idea = WML_three_problems1 }
-				}
-				custom_effect_tooltip = WML_three_problems_big_decrease_tt
-				hidden_effect = {
-				swap_ideas = {
-						add_idea = WML_three_problems2
-						remove_idea = WML_three_problems1
-					}
+		}
+		if = {
+			limit = {
+				WML = { has_idea = WML_three_problems1 }
+			}
+			custom_effect_tooltip = WML_three_problems_big_decrease_tt
+			hidden_effect = {
+			swap_ideas = {
+					add_idea = WML_three_problems2
+					remove_idea = WML_three_problems1
 				}
 			}
-			if = {
-				limit = {
-					WML = { has_idea = WML_three_problems3 }
-				}
-				custom_effect_tooltip = WML_three_problems_small_decrease_tt
-				hidden_effect = {
-				swap_ideas = {
-						add_idea = WML_three_problems4
-						remove_idea = WML_three_problems3
-					}
+		}
+		if = {
+			limit = {
+				WML = { has_idea = WML_three_problems3 }
+			}
+			custom_effect_tooltip = WML_three_problems_small_decrease_tt
+			hidden_effect = {
+			swap_ideas = {
+					add_idea = WML_three_problems4
+					remove_idea = WML_three_problems3
 				}
 			}
+		}
 	}
 }
 
@@ -559,8 +565,15 @@ country_event = {
 
 	option = {
 		name = WML.12.a
+		custom_effect_tooltip = WML_brotherhood_trust_great_increase_tt
+		custom_effect_tooltip = WML_brotherhood_influence_great_increase_tt
 		custom_effect_tooltip = WML_brotherhood_energy_reliance_tt
 		add_idea = WML_brotherhood_energy_reliance
+		BBW = {
+			country_event = {
+			id = belchatow.30
+			}
+		}
 	}
 }
 
@@ -574,6 +587,42 @@ country_event = {
 
 	option = {
 		name = WML.13.a
+
+	}
+}
+
+country_event = {
+	id = WML.14
+	title = WML.14.t
+	desc = WML.14.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.14.a
+		
+		add_idea = WML_duchy_food_reliance
+		custom_effect_tooltip = WML_spapek_trust_moderate_increase_tt
+		custom_effect_tooltip = WML_sapek_influence_great_increase_tt
+		custom_effect_tooltip = WML_sapek_food_suply_tt
+		#SAP = { nie mam czasu robić eventu dla nich teraz poźniej zrobie
+		#	country_event = {
+		#	id = belchatow.30
+		#	}
+		#}
+	}
+}
+country_event = {
+	id = WML.15
+	title = WML.15.t
+	desc = WML.15.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.15.a
 
 	}
 }

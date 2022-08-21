@@ -67,7 +67,7 @@ guiTypes = {
 				name = "shared_slot_count"
 				position = { x = 194 y = 147 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "cg_18b"
 				text = "SLOTS"
 				maxWidth = 190
 				maxHeight = 30
@@ -93,7 +93,7 @@ guiTypes = {
 				name = "victory_points"
 				position = { x = -13 y = 18 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "cg_18b"
 				text = ""
 				maxWidth = 70
 				maxHeight = 30
@@ -104,7 +104,7 @@ guiTypes = {
 				name = "claims"
 				position = { x = 15 y = 99 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "cg_18b"
 				text = ""
 				maxWidth = 140
 				maxHeight = 30
@@ -124,7 +124,7 @@ guiTypes = {
 				name = "owner"
 				position = { x = 15 y = 42 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "cg_18b"
 				text = ""
 				maxWidth = 140
 				maxHeight = 30
@@ -192,7 +192,7 @@ guiTypes = {
 				name = "manpower"
 				position = { x = 64 y = 167 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "cg_18b"
 				maxWidth = 80
 				maxHeight = 30
 				format = center
@@ -234,7 +234,7 @@ guiTypes = {
 						name = "select_law_button"
 						position = { x = 0 y = 68 }
 						quadTextureSprite = "GFX_occupation_state_select_law_button"
-						buttonFont = "hoi_18mbs"
+						buttonFont = "cg_18b"
 						Orientation = "UPPER_LEFT"
 					}
 
@@ -255,7 +255,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name ="template_need_text"
 						position = { x = 100 y = 75 }
-						font = "hoi_16mbs"
+						font = "cg_16b"
 						text = "42"
 						maxWidth = 57
 						maxHeight = 24
@@ -294,7 +294,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "province" 
 				position = { x = 175 y= -40 }
-				font = "hoi_16mbs"
+				font = "cg_16b"
 				maxWidth = 80
 				maxHeight = 30 
 				format = left
@@ -3029,7 +3029,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "level"
 			position = { x = -1 y = 63 }
-			font = "hoi_20b"
+			font = "cg_18b"
 			maxWidth = 60
 			maxHeight = 20
 			format = center
@@ -3110,7 +3110,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "level"
 			position = { x = 32 y = 14 }
-			font = "hoi_20b"
+			font = "cg_18b"
 			maxWidth = 100
 			maxHeight = 100
 			format = center
@@ -3147,7 +3147,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "amount"
 			position = { x = 70 y = 11 }
-			font = "hoi_20b"
+			font = "cg_18b"
 			maxWidth = 37
 			maxHeight = 18
 			format = center
@@ -3176,7 +3176,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="progress_text"
 			position = { x = 4 y = 0 }
-			font = "hoi_18mbs"
+			font = "cg_18b"
 			text = "100%"
 			maxWidth = 80
 			format = center
@@ -3204,7 +3204,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="progress_text"
 			position = { x = 4 y = 0 }
-			font = "hoi_18mbs"
+			font = "cg_18b"
 			text = "100%"
 			maxWidth = 80
 			format = center

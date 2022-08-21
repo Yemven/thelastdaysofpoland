@@ -336,7 +336,7 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = {
-			add_ideas = ZHP_gray_lilies
+			add_ideas = ZHP_gray_lily_trainees
 			swap_ideas = {
 				remove_idea = system_enlistment
 				add_idea = total_mobilisation
@@ -382,6 +382,10 @@ focus_tree = {
 				remove_idea = system_enlistment
 				add_idea = expanded_conscription
 			}
+			swap_ideas = {
+				remove_idea = ZHP_partisan_legacy
+				add_idea = ZHP_volunteer_army_idea
+			}
 			hidden_effect = {
 				if = {
 					limit = {
@@ -419,7 +423,7 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = { 
 			swap_ideas = {
-				remove_idea = ZHP_gray_lilies
+				remove_idea = ZHP_gray_lily_trainees
 				add_idea = ZHP_gray_lily_auxillaries
 			}
 		}
@@ -473,9 +477,10 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			add_popularity = {
-				ideology = postpolonism
-				popularity = -0.05
+			remove_ideas = ZHP_gray_lilies
+			swap_ideas = {
+				remove_idea = ZHP_division_within_ranks
+				add_idea = ZHP_division_within_ranks_2
 			}
 		}
 	}
@@ -577,11 +582,19 @@ focus_tree = {
 		
 		cost = 4
 		search_filters = {}
-		completion_reward = 
-		{ country_event = {
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = ZHP_division_within_ranks
+				}
+				swap_ideas = {
+					remove_idea = ZHP_division_within_ranks
+					add_idea = ZHP_division_within_ranks_2
+				}
+			}
+			country_event = {
 				id = zhp.6
-				}	
-			
+			}	
 		}
 	}
 	
@@ -706,6 +719,10 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
+			swap_ideas = {
+				remove_idea = ZHP_division_within_ranks
+				add_idea = ZHP_division_within_ranks_2
+			}
 			country_event = {id = zhp.18}
 		}
 	}
@@ -1155,8 +1172,14 @@ focus_tree = {
 		
 		search_filters = {}
 		completion_reward = {
-			country_event = {
-				id = zhp.16
+			swap_ideas = {
+				remove_idea = ZHP_division_within_ranks_2
+				add_idea = ZHP_division_within_ranks_3
+			}
+			hidden_effect = {
+				country_event = {
+					id = zhp.16
+				}
 			}
 		}
 	}

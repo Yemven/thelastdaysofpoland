@@ -201,13 +201,15 @@ country_event = {
 }
 
 country_event = {
-	id = zhp.16 #wojna wśród harcerzy; todo: opóźnienie wystrzelenia eventu; podzielenie ZHP
+	id = zhp.16 #wojna wśród harcerzy; todo: podzielenie ZHP
 	title = zhp.16.t
 	desc = zhp.16.desc
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	mean_time_to_happen = {
+		weeks = 2
+	}
 	option = {
 		name = zhp.16.a # idealiści
 		trigger = {

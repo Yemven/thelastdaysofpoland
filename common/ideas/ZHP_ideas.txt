@@ -1,6 +1,110 @@
 ideas = {
 	
 	country = {
+		ZHP_gray_lilies = {
+			allowed = {
+				original_tag = ZHP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = ZHP_idealist_economy
+			modifier = {
+				decryption = 0.1
+				encryption = 0.1
+				stability_factor = -0.10
+				resistance_growth = -0.1
+				postpolonism_drift = 0.01
+			}
+		}
+		
+		ZHP_division_within_ranks = {
+			allowed = {
+				original_tag = ZHP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = ZHP_idealist_economy
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_factory = -0.05
+			}
+		}
+		
+		ZHP_division_within_ranks_2 = {
+			allowed = {
+				original_tag = ZHP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = ZHP_idealist_economy
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.1
+			}
+		}
+		
+		ZHP_division_within_ranks_3 = {
+			allowed = {
+				original_tag = ZHP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = ZHP_idealist_economy
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.2
+			}
+		}
+	
+		ZHP_partisan_legacy = {
+			allowed = {
+				original_tag = ZHP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = ZHP_idealist_economy
+			modifier = {
+				army_org_factor = -0.1
+				conscription_factor = 0.1
+				army_morale_factor = 0.1
+				training_time_factor = -0.1
+			}
+		}
+		
+		ZHP_volunteer_army_idea = {
+			allowed = {
+				original_tag = ZHP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = ZHP_idealist_economy
+			modifier = {
+				army_org_factor = -0.05
+				conscription_factor = 0.1
+				army_morale_factor = 0.1
+				training_time_factor = -0.1
+				army_attack_factor = 0.05
+			}
+		}
+	
 		ZHP_idealist_economy =	{
 			allowed = {
 				original_tag = ZHP
@@ -70,7 +174,7 @@ ideas = {
 			}
 		}
 		
-		ZHP_gray_lilies = {
+		ZHP_gray_lily_trainees = {
 			allowed = {
 				original_tag = ZHP
 			}

@@ -129,7 +129,7 @@ ideas = {
 			}
 		}
 		
-		WML_brotherhood_energy_reliance =	{
+		WML_brotherhood_energy_reliance = {
 			allowed = {
 				original_tag = WML
 			}
@@ -140,7 +140,23 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_smog
 			modifier = {
-				consumer_goods_factor = -0.03
+				consumer_goods_factor = -0.01
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		WML_duchy_food_reliance = {
+			allowed = {
+				original_tag = WML
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				monthly_population = 0.15
 			}
 		}
 		
