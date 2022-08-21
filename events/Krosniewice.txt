@@ -167,7 +167,10 @@ country_event = {
 
 	option = {
 		name = krs_meeting.1.a
-		add_ideas = KRS_recruitment_drive
+		swap_ideas = {
+			remove_idea = random_enlistment
+			add_idea = system_enlistment
+		}
 		hidden_effect = {
 			add_to_variable = { KRS_rutkowski_takeover = 1 }
 		}
@@ -257,7 +260,10 @@ country_event = {
 
 	option = {
 		name = krs_meeting.3.a
-		add_ideas = KRS_corporate_security
+		swap_ideas = {
+			remove_idea = training_basic
+			add_idea = training_veterans
+		}
 		hidden_effect = {
 			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
 			
@@ -265,14 +271,20 @@ country_event = {
 	}
 	option = {
 		name = krs_meeting.3.b
-		add_ideas = KRS_vip_protection
+		swap_ideas = {
+			remove_idea = training_basic
+			add_idea = training_western_instructors
+		}
 		hidden_effect = {
 			add_to_variable = { KRS_rutkowski_takeover = 1 }
 		}
 	}
 	option = {
 		name = krs_meeting.3.c
-		add_ideas = KRS_untrained_soliders
+		swap_ideas = {
+			remove_idea = training_basic
+			add_idea = training_battle
+		}
 		hidden_effect = {
 			add_to_variable = { KRS_skinhunters_takeover = 1 }
 		}

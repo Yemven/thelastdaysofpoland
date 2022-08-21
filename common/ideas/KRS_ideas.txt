@@ -568,6 +568,116 @@ ideas = {
 				training_time_army_factor = -0.1
 			}
 		}
+		
+		KRS_trenches_system = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				max_dig_in_factor = 0.1
+			}
+		}
+		
+		KRS_diverted_assets = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				conversion_cost_civ_to_mil_factor = -0.1
+			}
+		}
+		
+		KRS_improved_logistics = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				line_change_production_efficiency_factor = -0.1
+			}
+		}
+		
+		KRS_supply_lines = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				attrition = -0.05
+				no_supply_grace = 48
+			}
+		}
+		
+		KRS_auxillaries = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				dig_in_speed_factor = 0.1
+			}
+		}
+		
+		KRS_woman_soldiers = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				army_org_factor = 0.05
+				supply_consumption_factor = 0.1
+			}
+		}
+		
+		KRS_chemical_doping = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				army_org_factor = 0.05
+				supply_consumption_factor = 0.1
+			}
+		}
 	}
 
 
