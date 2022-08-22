@@ -156,7 +156,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = WML.5.a
+		name = WML.5.a	#Sapek
 
 		if = {
 			limit = {
@@ -196,14 +196,13 @@ country_event = {
 		}
 		custom_effect_tooltip = WML_sapek_food_suply_short_tt
 		
-		
 		country_event = {
 		id = WML.12
 		}
 	}
 
 	option = {
-		name = WML.5.b
+		name = WML.5.b #Źródło jedzenia rozproszone: handel z mniejszymi farmami i firmami, szmulgowanie zza granicy i produkcja na własnym podwórku (np. na działkach czy na dachach budynków)
 
 		if = {
 			limit = {
@@ -243,47 +242,6 @@ country_event = {
 		}
 		custom_effect_tooltip = WML_dispersed_food_supply_tt
 		custom_effect_tooltip = WML_dispersed_food_supply_bad_tt
-	}
-
-	option = {
-		name = WML.5.c
-
-		if = {
-			limit = {
-				WML = { has_idea = WML_three_problems2 }
-			}
-			custom_effect_tooltip = WML_three_problems_big_decrease_tt
-			hidden_effect = {
-			swap_ideas = {
-					add_idea = WML_three_problems3
-					remove_idea = WML_three_problems2
-				}
-			}
-		}
-		if = {
-			limit = {
-				WML = { has_idea = WML_three_problems1 }
-			}
-			custom_effect_tooltip = WML_three_problems_big_decrease_tt
-			hidden_effect = {
-			swap_ideas = {
-					add_idea = WML_three_problems2
-					remove_idea = WML_three_problems1
-				}
-			}
-		}
-		if = {
-			limit = {
-				WML = { has_idea = WML_three_problems3 }
-			}
-			custom_effect_tooltip = WML_three_problems_small_decrease_tt
-			hidden_effect = {
-			swap_ideas = {
-					add_idea = WML_three_problems4
-					remove_idea = WML_three_problems3
-				}
-			}
-		}
 	}
 
 }
@@ -624,5 +582,78 @@ country_event = {
 	option = {
 		name = WML.15.a
 
+	}
+}
+
+country_event = {
+	id = WML.16
+	title = WML.16.t
+	desc = WML.16.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	#Zatrudnienie harcerzy do przetrenowania i wyposażenia naszych sił
+	option = {
+		name = WML.16.a
+		swap_ideas = {
+					add_idea = basic_security
+					remove_idea = improvised_security
+				}
+	add_manpower = 200
+	army_experience = 15
+	
+	country_event = {
+				id = WML.17
+				days = 3
+				}		
+	}
+	#Obniżenie poziomu wymagań do służby (przez co wiele kanali się dostaje)
+	option = {
+		name = WML.16.b	
+		swap_ideas = {
+					add_idea = basic_security
+					remove_idea = improvised_security
+				}
+	add_manpower = 1500
+	add_political_power = -100
+	add_stability = -0.10
+	}
+}
+
+country_event = { #Treaty of park piłsudskiego
+	id = WML.17
+	title = WML.17.t
+	desc = WML.17.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.17.a
+		hidden_effect = {
+		country_event = {
+				id = WML.18
+				days = 36
+				}
+			}
+	custom_effect_tooltip = WML_zhp_trust_moderate_increase_tt
+	custom_effect_tooltip = WML_zhp_influence_small_increase_tt
+	add_political_power = 5
+	custom_effect_tooltip = WML_zhp_police_training_tt
+	}
+}
+
+country_event = { #lore event opisujący szkolenie naszych ludzi
+	id = WML.18
+	title = WML.18.t
+	desc = WML.18.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.18.a
+	army_experience = 5
 	}
 }
