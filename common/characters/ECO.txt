@@ -12,4 +12,63 @@ characters={
 			id=-1
 		}
 	}
+	
+	ECO_jurgen_weigt={
+		name="Jürgen Weigt"
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ECO
+			}
+		}
+		
+	}
+	
+	ECO_pierre_gerrard={
+		name="Pierre Gérard"
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ECO
+			}
+		}
+		
+	}
+	
+	ECO_fernando_blazquez={
+		name="Fernando Blázquez"
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ECO
+			}
+		}
+		
+	}
+	
+	ECO_claudio_graziano={
+		name="Claudio Graziano"
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = ECO
+			}
+		}
+	}
 }

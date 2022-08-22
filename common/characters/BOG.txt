@@ -12,4 +12,63 @@ characters={
 			id=-1
 		}
 	}
+	
+	BOG_frasyniuk={
+		name="Władysław Frasyniuk"
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BOG
+			}
+		}
+		
+	}
+	
+	BOG_balcerowicz={
+		name="Leszek Balcerowicz"
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BOG
+			}
+		}
+		
+	}
+	
+	BOG_krzysztof_mieszkowski={
+		name="Krzysztof Mieszkowski"
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BOG
+			}
+		}
+		
+	}
+	
+	BOG_joanna_schmidt={
+		name="Joanna Schmidt"
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BBW_min_rzymkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BOG
+			}
+		}
+	}
 }
