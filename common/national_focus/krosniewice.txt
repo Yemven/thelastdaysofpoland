@@ -803,7 +803,10 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = KRS_chemical_doping
+				add_idea = KRS_chemical_doping_2
+			}
 		}
 	}
 	
@@ -825,7 +828,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			add_ideas = KRS_human_experiments
 		}
 	}
 	
@@ -847,7 +850,10 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = KRS_human_experiments
+				add_idea = KRS_human_terrors
+			}
 		}
 	}
 }

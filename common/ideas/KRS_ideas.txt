@@ -678,6 +678,58 @@ ideas = {
 				supply_consumption_factor = 0.1
 			}
 		}
+		
+		KRS_chemical_doping_2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				army_attack_factor = 0.05
+				stability_factor = -0.1
+				army_org_factor = 0.05
+				supply_consumption_factor = 0.1
+			}
+		}
+		
+		KRS_human_experiments = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				conscription_factor = 0.1
+			}
+		}
+		
+		KRS_human_terrors = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				conscription_factor = 0.1
+				monthly_population = -0.1
+				stability_factor = -0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
 	}
 
 
