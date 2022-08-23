@@ -840,3 +840,143 @@ northen_greater_poland_voivodeship_unification = {
   ai_will_do = { factor = 1 }
 
 }
+
+lower_silesia_voivodeship_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_lower_silesia
+			can_unify_lower_silesia = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { is_lower_silesia = yes }
+
+	complete_effect = {
+
+		if = {
+			limit = { tag = WRO }
+			set_cosmetic_tag = WRO_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.46 }
+				}
+			}
+			custom_effect_tooltip = WRO_unifies_lower_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = CZE }
+			set_cosmetic_tag = CZE_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.47 }
+				}
+			}
+			custom_effect_tooltip = CZE_unifies_lower_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = EKS }
+			set_cosmetic_tag = EKS_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.45 }
+				}
+			}
+			custom_effect_tooltip = EKS_unifies_lower_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = KGH }
+			set_cosmetic_tag = KGH_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.48 }
+				}
+			}
+			custom_effect_tooltip = KGH_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = RYB }
+			set_cosmetic_tag = RYB_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { RYB = { is_ai = yes } }
+					news_event = { id = unification.49 }
+				}
+			}
+			custom_effect_tooltip = RYB_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = ANA }
+			set_cosmetic_tag = ANA_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.57 }
+				}
+			}
+			custom_effect_tooltip = ANA_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = ZUL }
+			set_cosmetic_tag = ZUL_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.58 }
+				}
+			}
+			custom_effect_tooltip = ZUL_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = MNL }
+			set_cosmetic_tag = MNL_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.59 }
+				}
+			}
+			custom_effect_tooltip = MNL_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = CYG }
+			set_cosmetic_tag = CYG_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.60 }
+				}
+			}
+			custom_effect_tooltip = CYG_unifies_lower_silesia_tooltip
+		}
+
+
+      
+}
+  ai_will_do = { factor = 1 }
+
+}
