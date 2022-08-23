@@ -102,4 +102,105 @@ characters={
 			legacy_id=-1
 		}
 	}
+	WML_rafal_ostrowski = {
+		name="Rafał Ostrowski"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Ostrowski.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WML_pawel_wiktorowicz = {
+		name="Paweł Wiktorowicz"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Wiktorowicz.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WML_jacek_birus = {
+		name="Jacek Biruś"
+		portraits = {
+			army = {
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WML_robert_foks = {
+		name="Robert Foks"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Foks.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WML_przemyslaw_kornacki = {
+		name="Przemysław Kornacki"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Kornacki.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WML_Przemyslaw_Polubinski = {
+		name="Przemysław Połubiński"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Polubinski.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 }
