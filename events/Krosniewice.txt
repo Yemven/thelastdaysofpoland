@@ -185,16 +185,6 @@ country_event = {
 	option = {
 		name = krs_meeting.1.c
 		add_ideas = KRS_j22_compound
-		every_state = {
-			limit = {
-				is_owned_by = KRS
-			}
-			add_state_modifier = {
-				modifier = {
-					attrition = 0.2
-				}
-			}
-		}
 		hidden_effect = {
 			add_to_variable = { KRS_skinhunters_takeover = 1 }
 		}
