@@ -1,0 +1,73 @@
+music_station = "radio_lodz"
+
+
+music = {
+	song = "intro_bractwo"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = BBW
+		}
+	}
+}
+music = {
+	song = "intro_lodz"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = WML
+		}
+	}
+}
+music = {
+	song = "intro_rutkowski"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = KRS
+		}
+	}
+}
+music = {
+	song = "intro_sapek"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = SAP
+		}
+	}
+}
+music = {
+	song = "intro_skrzydlewscy"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = KRS
+		}
+	}
+}
+music = {
+	song = "intro_widzew"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = ZYD
+		}
+	}
+}
+music = {
+	song = "intro_zhp"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = ZHP
+		}
+	}
+}
