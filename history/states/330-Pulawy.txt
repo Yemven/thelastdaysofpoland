@@ -3,13 +3,14 @@ state={
 	id=330
 	name="STATE_330"
 	provinces={
-		8896
+		4455 4759 4897 5767 5834 6068 6279 8896
 	}
 	manpower = 51619   state_category = city
 	buildings_max_level_factor=1.000
 	history = {
 		owner = PUL
 		victory_points = { 8896 15 }
+		victory_points = { 6279 1 }
 		add_core_of = PUL
 	buildings = {
 	infrastructure = 5
