@@ -1,46 +1,27 @@
 division_template = {
-	name = "Batalion Chłopski"
+	name = "Patrol Rutkowskiego"
 	regiments = {
-		melee_infantry = { x = 0 y = 0 }
-		melee_infantry = { x = 0 y = 1 }
-		melee_infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
 	}
 }
 
 units = {
  	division = {
-		name = "1. Batalion Chłopski"
+		name = "Dodatkowy Patrol Rutkowskiego"
 		location = 10515
-		division_template = "Batalion Chłopski"
+		division_template = "Patrol Rutkowskiego"
 		start_experience_factor = 1
 		start_equipment_factor = 0.5
 	}
 	
 	division = {
-		name = "2. Batalion Chłopski"
+		name = "Dodatkowy Patrol Rutkowskiego"
 		location = 10515
-		division_template = "Batalion Chłopski"
-		start_experience_factor = 1
-		start_equipment_factor = 0.5
-	}
-	division = {
-		name = "3. Batalion Chłopski"
-		location = 10515
-		division_template = "Batalion Chłopski"
-		start_experience_factor = 1
-		start_equipment_factor = 0.5
-	}
-	division = {
-		name = "4. Batalion Chłopski"
-		location = 10515
-		division_template = "Batalion Chłopski"
-		start_experience_factor = 1
-		start_equipment_factor = 0.5
-	}
-	division = {
-		name = "5. Batalion Chłopski"
-		location = 10515
-		division_template = "Batalion Chłopski"
+		division_template = "Patrol Rutkowskiego"
 		start_experience_factor = 1
 		start_equipment_factor = 0.5
 	}
