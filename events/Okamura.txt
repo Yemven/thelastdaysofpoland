@@ -22,6 +22,9 @@ country_event = {
 					set_politics = {
 						ruling_party = autocracy
 					}
+					add_ideas = {
+						CZE_flower_of_bohemio_nippon
+					}
 					set_popularities = {
 						autocracy = 46
 						paternal_conservatism = 20
@@ -29,6 +32,7 @@ country_event = {
 						reactionary = 15
 						squattism = 4
 					}
+					add_manpower = 10000
 				}
 
 			}	
