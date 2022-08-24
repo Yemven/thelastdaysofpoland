@@ -687,7 +687,14 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			load_oob = KRS_rutkowski_reinfs
+			create_unit = {
+				division = "name = \"Dodatkowy Patrol Rutkowskiego\" division_template = \"Patrol Rutkowskiego\" start_experience_factor = 1 start_equipment_factor = 0.5"
+				owner = KRS
+			}
+			create_unit = {
+				division = "name = \"Dodatkowy Patrol Rutkowskiego\" division_template = \"Patrol Rutkowskiego\" start_experience_factor = 1 start_equipment_factor = 0.5"
+				owner = KRS
+			}
 		}
 	}
 	
