@@ -102,6 +102,16 @@ music = {
 	}
 }
 music = {
+	song = "lodz_bractwo4"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = BBW
+		}
+	}
+}
+music = {
 	song = "lodz_lodz1"
 	chance = {
 		base = 1
