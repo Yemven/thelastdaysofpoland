@@ -13,7 +13,7 @@ state={
 		
 		add_core_of = EKW
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 
 		}
 
@@ -27,4 +27,6 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000
+	resources={
+		coal = 10 }
 }

@@ -14,6 +14,11 @@ state={
 		add_core_of = EKS
 		buildings = {
 			infrastructure = 6
+			16241 = { bunker = 1 }
+			anti_air_building = 2
+			fuel_silo = 1
+			radar_station = 2
+			industrial_complex = 1
 
 		}
 
@@ -22,7 +27,7 @@ state={
 	provinces={
 		 1502 1547 2094 16213 16214 16215 16216 16217 16218 16219 16221 16225 16226 16227 16228 16230 16241 18268 18269 18270 18271 18272 18273 18274 18275  18277 18278 18279 18280 18281 18282 18283 18284 18285 
 	}
-	manpower=32468
+	manpower=37468
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000
