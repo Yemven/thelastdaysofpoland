@@ -152,6 +152,16 @@ music = {
 	}
 }
 music = {
+	song = "lodz_pogotowie3"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = KRS
+		}
+	}
+}
+music = {
 	song = "lodz_rutkowski1"
 	chance = {
 		base = 1
@@ -172,6 +182,16 @@ music = {
 	}
 }
 music = {
+	song = "lodz_rutkowski3"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = KRS
+		}
+	}
+}
+music = {
 	song = "lodz_sapek1"
 	chance = {
 		base = 1
@@ -183,6 +203,56 @@ music = {
 }
 music = {
 	song = "lodz_sapek2"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = SAP
+		}
+	}
+}
+music = {
+	song = "lodz_sapek3"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = SAP
+		}
+	}
+}
+music = {
+	song = "lodz_sapek4"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = SAP
+		}
+	}
+}
+music = {
+	song = "lodz_sapek5"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = SAP
+		}
+	}
+}
+music = {
+	song = "lodz_sapek6"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = SAP
+		}
+	}
+}
+music = {
+	song = "lodz_sapek7"
 	chance = {
 		base = 1
 		modifier = {
