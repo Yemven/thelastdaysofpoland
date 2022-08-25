@@ -123,6 +123,21 @@ characters={
 			logistics_skill = 3
 		}
 	}
+	SAP_pazdzioch={
+		name="Sir Paździoch von Bibersztajn"
+		portraits=
+		{ civilian = { large="gfx/leaders/SAP/SAP_Pazdzioch.dds" }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+
 	SAP_dukaj={
 		name="Jacek Dukaj"
 		portraits=

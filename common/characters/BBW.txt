@@ -133,6 +133,18 @@ characters={
 			traits = { pragmatic_organiser }
 		}
 }
+	BBW_rola={
+		name="Marcin Rola"
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Rola.dds" } }
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+}
 
 	BBW_gen_janecki={
 		name="Stanisław Janecki"
