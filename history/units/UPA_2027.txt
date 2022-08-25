@@ -1,5 +1,5 @@
 division_template = {
-	name = "Pichotna Sotnia"
+	name = "Kurin UPA"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -9,7 +9,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Pichotna Roja"
+	name = "Sotnia UPA"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -17,100 +17,108 @@ division_template = {
 }
 
 division_template = {
-	name = "Militsija Poryadkova"
+	name = "Sluzhba Bezpeky OUN"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
 		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Samooboronni Kushchovi Viddily"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
 	}
 }
 
 units = {
 	division = {
-		name = "1 Sotnia Pichotni im. Stepana Bandery"
+		name = "1-y Lemkivskyy Kurin"
 		location = 12513
-		division_template = "Pichotna Sotnia"
+		division_template = "Kurin UPA"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "2 Sotnia Pichotni"
+		name = "2-y Peremyskyy Kurin"
 		location = 12334
-		division_template = "Pichotna Sotnia"
+		division_template = "Kurin UPA"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "3 Sotnia Pichotni"
+		name = "3-y Lyubachivskyy Kurin 'Mesnyky'"
 		location = 912
-		division_template = "Pichotna Sotnia"
+		division_template = "Kurin UPA"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 	}
 	
 	division = {
-		name = "1 Piachotnij Roj"
+		name = "4-y Kholmskyy Kurin 'Vovky'"
 		location = 12217
-		division_template = "Pichotna Roja"
+		division_template = "Kurin UPA"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.6
 	}
 
 	division = {
-		name = "2 Piachotnij Roj"
+		name = "Sotnia 'Vytyazy'"
 		location = 12328
-		division_template = "Pichotna Roja"
+		division_template = "Sotnia UPA"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
 	}
 	
 	division = {
-		name = "3 Piachotnij Roj"
+		name = "Sotnia 'Druzhynnyky'"
 		location = 3149
-		division_template = "Pichotna Roja"
+		division_template = "Sotnia UPA"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.9
 	}
 	
 	division = {
-		name = "4 Piachotnij Roj"
+		name = "Sotnia 'Kochovyky'"
 		location = 12272
-		division_template = "Pichotna Roja"
+		division_template = "Sotnia UPA"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.6
 	}
 	
 	division = {
-		name = "5 Piachotnij Roj"
+		name = "Sotnia 'Tyhry'"
 		location = 12370
-		division_template = "Pichotna Roja"
+		division_template = "Sotnia UPA"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 	}
 	
 	division = {
-		name = "Militsija Lantsut"
+		name = "SB OUN Lantsut"
 		location = 3149
-		division_template = "Militsija Poryadkova"
+		division_template = "Sluzhba Bezpeky OUN"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 	}
 	
 	division = {
-		name = "Militsija Perevorsk"
+		name = "SB OUN Perevorsk"
 		location = 4045
-		division_template = "Militsija Poryadkova"
+		division_template = "Sluzhba Bezpeky OUN"
 		start_experience_factor = 0
 		start_equipment_factor = 0.3
 	}
 	
 	division = {
-		name = "Militsija Peremyshl"
+		name = "Kushch Vynna Hora"
 		location = 912
-		division_template = "Militsija Poryadkova"
+		division_template = "Samooboronni Kushchovi Viddily"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.1
 	}
