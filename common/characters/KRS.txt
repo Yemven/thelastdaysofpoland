@@ -120,4 +120,21 @@ characters={
 			legacy_id=-1
 		}
 	}
+
+   KRS_jakimowicz = {
+		name="Jarosław Jakimowicz"
+		portraits = {
+			army = {
+			    large="gfx/leaders/KRS/KRS_Jakimowicz.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
 }
