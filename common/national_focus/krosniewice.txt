@@ -352,7 +352,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			#przejście do drzewka wojennego?
+			hidden_effect = {
+				load_focus_tree = krosniewice_war_focus
+			}
 		}
 	}
 	
@@ -688,11 +690,11 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			create_unit = {
-				division = "name = \"Dodatkowy Patrol Rutkowskiego\" division_template = \"Patrol Rutkowskiego\" start_experience_factor = 1 start_equipment_factor = 0.5"
+				division = "name = \"Oddział Prewencyjny Patrolu\" division_template = \"Patrol Rutkowskiego\" start_experience_factor = 1 start_equipment_factor = 0.5"
 				owner = KRS
 			}
 			create_unit = {
-				division = "name = \"Dodatkowy Patrol Rutkowskiego\" division_template = \"Patrol Rutkowskiego\" start_experience_factor = 1 start_equipment_factor = 0.5"
+				division = "name = \"Samodzielny Pododdział Antyterrorystyczny Patrolu\" division_template = \"Patrol Rutkowskiego\" start_experience_factor = 1 start_equipment_factor = 0.5"
 				owner = KRS
 			}
 		}
@@ -863,4 +865,573 @@ focus_tree = {
 			}
 		}
 	}
+	
+}	
+	
+focus_tree = {
+	id = krosniewice_war_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KRS
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+		
+	
+	focus = {
+		id = KRS_all_hell_is_breaking_loose
+		icon = KRS_all_hell_is_breaking_loose
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 16
+		y = 0
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			add_war_support = 0.1
+			}
+	}
+	
+	focus = {
+		id = KRS_fortify_our_cities
+		relative_position_id = KRS_all_hell_is_breaking_loose
+		prerequisite = { focus = KRS_all_hell_is_breaking_loose }
+		icon = KRS_fortify_our_cities
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 2683
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 10447
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 3112
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 7454
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 3109
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 10506
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 3770
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 10537
+			}
+		}
+	}
+	focus = {
+		id = KRS_gather_the_war_council
+		icon = KRS_gather_the_war_council
+		relative_position_id = KRS_fortify_our_cities
+		prerequisite = { focus = KRS_fortify_our_cities }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = KRS_skrzydlewski_heritage
+		icon = KRS_skrzydlewski_heritage
+		mutually_exclusive = { focus = KRS_rutkowski_expertise }
+		mutually_exclusive = { focus = KRS_ebrantil_creativity }
+		relative_position_id = KRS_gather_the_war_council
+		prerequisite = { focus = KRS_gather_the_war_council }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			every_unit_leader = {
+					add_logistics = 1
+				}
+		}
+	}
+	focus = {
+		id = KRS_state_funeral_service
+		icon = KRS_state_funeral_service
+		relative_position_id = KRS_skrzydlewski_heritage
+		prerequisite = { focus = KRS_skrzydlewski_heritage }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = KRS_convert_the_krosniewice_narrow_gauge_railway
+		icon = KRS_convert_the_krosniewice_narrow_gauge_railway
+		relative_position_id = KRS_state_funeral_service
+		prerequisite = { focus = KRS_state_funeral_service }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			build_railway = {
+			  level = 1
+			  build_only_on_allied = yes
+			  controller_priority = {
+				base = 1
+
+				modifier = {
+				  tag = KRS
+				  add = 2
+				}
+			  }
+			  fallback = yes
+			  path = { 10536 10537 3271 3777 10504 10507 10506 }
+			  start_province = 10536
+			  target_province = 10506
+			}
+		}
+	}
+	focus = {
+		id = KRS_use_the_speedway_bikes
+		icon = KRS_use_the_speedway_bikes
+		relative_position_id = KRS_convert_the_krosniewice_narrow_gauge_railway
+		prerequisite = { focus = KRS_convert_the_krosniewice_narrow_gauge_railway }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			add_ideas = KRS_speedway_bikes
+		}
+	}
+	focus = {
+		id = KRS_start_the_war_machine
+		icon = KRS_start_the_war_machine
+		relative_position_id = KRS_use_the_speedway_bikes
+		prerequisite = { focus = KRS_use_the_speedway_bikes
+						 focus = KRS_badges_into_rifles 
+						 focus = KRS_fields_of_flesh }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = KRS_rutkowski_expertise
+		icon = KRS_rutkowski_expertise
+		mutually_exclusive = { focus = KRS_skrzydlewski_heritage }
+		mutually_exclusive = { focus = KRS_ebrantil_creativity }
+		relative_position_id = KRS_gather_the_war_council
+		prerequisite = { focus = KRS_gather_the_war_council }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			every_unit_leader = {
+					add_attack = 1
+				}
+		}
+	}
+	focus = {
+		id = KRS_hidden_armories
+		icon = KRS_hidden_armories
+		relative_position_id = KRS_rutkowski_expertise
+		prerequisite = { focus = KRS_rutkowski_expertise }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = ranged_equipment_1
+				amount = 300
+				producer = POL
+			}
+			add_equipment_to_stockpile = {
+				type = armored_car_equipment_1
+				amount = 50
+				producer = KRS
+			}
+		}
+	}
+
+	focus = {
+		id = KRS_foreign_drill_instructors
+		icon = KRS_foreign_drill_instructors
+		relative_position_id = KRS_hidden_armories
+		prerequisite = { focus = KRS_hidden_armories }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = officer_clerks
+				add_idea = officer_mercenaries
+			}
+		}
+	}
+	focus = {
+		id = KRS_badges_into_rifles
+		icon = KRS_badges_into_rifles
+		relative_position_id = KRS_foreign_drill_instructors
+		prerequisite = { focus = KRS_foreign_drill_instructors }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = no_subsidies
+				add_idea = military_industry_subsidies
+			}
+		}
+	}
+	focus = {
+		id = KRS_ebrantil_creativity
+		icon = KRS_ebrantil_creativity
+		mutually_exclusive = { focus = KRS_rutkowski_expertise }
+		mutually_exclusive = { focus = KRS_skrzydlewski_heritage }
+		relative_position_id = KRS_gather_the_war_council
+		prerequisite = { focus = KRS_gather_the_war_council }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			every_unit_leader = {
+					add_defense = 1
+				}
+		}
+	}
+	focus = {
+		id = KRS_weaponised_pavulon
+		icon = KRS_weaponised_pavulon
+		relative_position_id = KRS_ebrantil_creativity
+		prerequisite = { focus = KRS_ebrantil_creativity }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			add_ideas = KRS_weaponised_pavulon_1
+		}
+	}
+	focus = {
+		id = KRS_memory_enhancing_pills
+		icon = KRS_memory_enhancing_pills
+		relative_position_id = KRS_weaponised_pavulon
+		prerequisite = { focus = KRS_weaponised_pavulon }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			army_experience = 50
+			swap_ideas = {
+				remove_idea = KRS_weaponised_pavulon_1
+				add_idea = KRS_weaponised_pavulon_2
+			}
+		}
+	}
+	focus = {
+		id = KRS_fields_of_flesh
+		icon = KRS_fields_of_flesh
+		relative_position_id = KRS_memory_enhancing_pills
+		prerequisite = { focus = KRS_memory_enhancing_pills }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			if = {
+				limit = { has_idea = KRS_boneless }
+					swap_ideas = {
+						remove_idea = KRS_boneless
+						add_idea = KRS_boneless_2
+					}
+				}
+			else = {
+				add_ideas = KRS_boneless
+				}
+		}
+	}
+	focus = {
+		id = KRS_fires_in_the_west
+		icon = KRS_fires_in_the_west
+		relative_position_id = KRS_start_the_war_machine
+		prerequisite = { focus = KRS_start_the_war_machine }
+		available = {
+			NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		OR = {
+			SAP = { num_of_controlled_states < 1 }
+			269 = { is_controlled_by = KRS }
+			SAP = { has_war_with = KRS }
+			}
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = { 
+				target = SAP
+				type = annex_everything 
+				}
+		}
+	}
+	focus = {
+		id = KRS_secure_our_capital_interests
+		icon = KRS_secure_our_capital_interests
+		relative_position_id = KRS_start_the_war_machine
+		prerequisite = { focus = KRS_start_the_war_machine }
+		available = {
+			NOT = { has_war = yes }
+			SAP = { num_of_controlled_states < 1 }			
+		}
+		
+		bypass = {
+		OR = {
+			WML = { num_of_controlled_states < 1 }
+			302 = { is_controlled_by = KRS }
+			WML = { has_war_with = KRS }
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = { 
+				target = WML
+				type = annex_everything 
+				}
+		}
+	}
+	
+	focus = {
+		id = KRS_finish_off_the_stragglers
+		icon = KRS_finish_off_the_stragglers
+		relative_position_id = KRS_start_the_war_machine
+		prerequisite = { focus = KRS_start_the_war_machine }
+
+		available = {
+			WML = { num_of_controlled_states < 1 }
+		}
+		
+		bypass = {
+		count_triggers  = {
+			amount = 3
+			ZYD = { num_of_controlled_states < 1 }
+			BBW = { num_of_controlled_states < 1 }
+			ZHP = { num_of_controlled_states < 1 }
+		}
+		
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+			if = {
+				limit = { country_exists = ZHP }
+					declare_war_on = {
+						target = ZHP
+						type = annex_everything 
+						}
+					}
+			if = {
+				limit = { country_exists = BBW }
+					declare_war_on = {
+						target = BBW
+						type = annex_everything 
+						}
+					}
+			if = {
+				limit = { country_exists = ZYD }
+					declare_war_on = {
+						target = ZYD
+						type = annex_everything 
+						}
+					}
+		}
+	}
+
 }

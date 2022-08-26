@@ -429,9 +429,28 @@ ideas = {
 			modifier = {
 				stability_factor = -0.1
 				war_support_factor = -0.1
-				army_attack_factor = 0.2
-				army_defence_factor = 0.2
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
 				local_resources_factor = -0.1
+			}
+		}
+		KRS_boneless_2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				army_attack_factor = 0.25
+				army_defence_factor = 0.25
+				breakthrough_factor = 0.1
+				local_resources_factor = -0.15				
 			}
 		}
 		
@@ -730,6 +749,56 @@ ideas = {
 				army_core_defence_factor = 0.1
 			}
 		}
+		KRS_speedway_bikes = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				army_speed_factor = 0.1
+				recon_factor = 0.2
+				army_morale_factor = 0.05
+			}
+		}
+		KRS_weaponised_pavulon_1 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				army_attack_factor = 0.1
+				land_night_attack = 0.1
+				river_crossing_factor = -0.1
+			}
+		}
+		KRS_weaponised_pavulon_2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				army_attack_factor = 0.1
+				land_night_attack = 0.1
+				river_crossing_factor = -0.1
+				experience_gain_army_unit = 0.05			
+			}
+		}
+
 	}
 
 

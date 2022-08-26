@@ -1234,11 +1234,15 @@ focus_tree = {
 		prerequisite = { focus = SAP_rather_not_choose }
 
 		available = {
+			NOT = { has_war = yes }
 		}
 		
 		bypass = {
-		KRS = { num_of_controlled_states < 1 }
-		236 = { is_controlled_by = SAP }
+			OR = {
+				KRS = { num_of_controlled_states < 1 }
+				236 = { is_controlled_by = SAP }
+				KRS = { has_war_with = SAP }
+			}
 		}
 		
 		x = -3
