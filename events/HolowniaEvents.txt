@@ -58,8 +58,20 @@ country_event = { #Problem z energią
 	is_triggered_only = yes
 
 	option = {
-		name = WML.4.a
-
+		name = WML.4.a #IN BRACTWO WE TRUST
+		
+		if = {
+			limit = {
+				WML = { has_idea = WML_three_problems3 }
+			}
+			custom_effect_tooltip = WML_three_problems_small_decrease_tt
+			hidden_effect = {
+			swap_ideas = {
+					add_idea = WML_three_problems4
+					remove_idea = WML_three_problems3
+				}
+			}
+		}
 		if = {
 			limit = {
 				WML = { has_idea = WML_three_problems2 }
@@ -81,29 +93,30 @@ country_event = { #Problem z energią
 			swap_ideas = {
 					add_idea = WML_three_problems2
 					remove_idea = WML_three_problems1
-				}
-			}
-		}
-		if = {
-			limit = {
-				WML = { has_idea = WML_three_problems3 }
-			}
-			custom_effect_tooltip = WML_three_problems_small_decrease_tt
-			hidden_effect = {
-			swap_ideas = {
-					add_idea = WML_three_problems4
-					remove_idea = WML_three_problems3
 				}
 			}
 		}
 		custom_effect_tooltip = WML_brotherhood_trust_in_the_deal_tt
 		country_event = {
 		id = WML.12
+		days = 3
 		}
 	}
 	option = {
-		name = WML.4.b
+		name = WML.4.b #zamiana części EC1 spowrotem w elektrownie
 
+		if = {
+			limit = {
+				WML = { has_idea = WML_three_problems3 }
+			}
+			custom_effect_tooltip = WML_three_problems_small_decrease_tt
+			hidden_effect = {
+			swap_ideas = {
+					add_idea = WML_three_problems4
+					remove_idea = WML_three_problems3
+				}
+			}
+		}
 		if = {
 			limit = {
 				WML = { has_idea = WML_three_problems2 }
@@ -125,19 +138,6 @@ country_event = { #Problem z energią
 			swap_ideas = {
 					add_idea = WML_three_problems2
 					remove_idea = WML_three_problems1
-				}
-			}
-
-		}
-		if = {
-			limit = {
-				WML = { has_idea = WML_three_problems3 }
-			}
-			custom_effect_tooltip = WML_three_problems_small_decrease_tt
-			hidden_effect = {
-			swap_ideas = {
-					add_idea = WML_three_problems4
-					remove_idea = WML_three_problems3
 				}
 			}
 		}
@@ -160,6 +160,18 @@ country_event = { #Problem z jedzeniem
 
 		if = {
 			limit = {
+				WML = { has_idea = WML_three_problems3 }
+			}
+			custom_effect_tooltip = WML_three_problems_small_decrease_tt
+			hidden_effect = {
+			swap_ideas = {
+					add_idea = WML_three_problems4
+					remove_idea = WML_three_problems3
+				}
+			}
+		}
+		if = {
+			limit = {
 				WML = { has_idea = WML_three_problems2 }
 			}
 			custom_effect_tooltip = WML_three_problems_big_decrease_tt
@@ -182,22 +194,11 @@ country_event = { #Problem z jedzeniem
 				}
 			}
 		}
-		if = {
-			limit = {
-				WML = { has_idea = WML_three_problems3 }
-			}
-			custom_effect_tooltip = WML_three_problems_small_decrease_tt
-			hidden_effect = {
-			swap_ideas = {
-					add_idea = WML_three_problems4
-					remove_idea = WML_three_problems3
-				}
-			}
-		}
 		custom_effect_tooltip = WML_sapek_food_suply_short_tt
 
 		country_event = {
 		id = WML.14
+		days = 2
 		}
 	}
 
@@ -206,6 +207,18 @@ country_event = { #Problem z jedzeniem
 
 		if = {
 			limit = {
+				WML = { has_idea = WML_three_problems3 }
+			}
+			custom_effect_tooltip = WML_three_problems_small_decrease_tt
+			hidden_effect = {
+			swap_ideas = {
+					add_idea = WML_three_problems4
+					remove_idea = WML_three_problems3
+				}
+			}
+		}
+		if = {
+			limit = {
 				WML = { has_idea = WML_three_problems2 }
 			}
 			custom_effect_tooltip = WML_three_problems_big_decrease_tt
@@ -225,18 +238,6 @@ country_event = { #Problem z jedzeniem
 			swap_ideas = {
 					add_idea = WML_three_problems2
 					remove_idea = WML_three_problems1
-				}
-			}
-		}
-		if = {
-			limit = {
-				WML = { has_idea = WML_three_problems3 }
-			}
-			custom_effect_tooltip = WML_three_problems_small_decrease_tt
-			hidden_effect = {
-			swap_ideas = {
-					add_idea = WML_three_problems4
-					remove_idea = WML_three_problems3
 				}
 			}
 		}
@@ -246,7 +247,7 @@ country_event = { #Problem z jedzeniem
 
 }
 
-country_event = {
+country_event = { # Problemy z Materiałami
 	id = WML.6
 	title = WML.6.t
 	desc = WML.6.desc
@@ -254,8 +255,20 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
+	option = { #Konsorcjum
 		name = WML.6.a
+		if = {
+			limit = {
+				WML = { has_idea = WML_three_problems3 }
+			}
+			custom_effect_tooltip = WML_three_problems_small_decrease_tt
+			hidden_effect = {
+			swap_ideas = {
+					add_idea = WML_three_problems4
+					remove_idea = WML_three_problems3
+				}
+			}
+		}
 		if = {
 			limit = {
 				WML = { has_idea = WML_three_problems2 }
@@ -280,21 +293,10 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				WML = { has_idea = WML_three_problems3 }
-			}
-			custom_effect_tooltip = WML_three_problems_small_decrease_tt
-			hidden_effect = {
-			swap_ideas = {
-					add_idea = WML_three_problems4
-					remove_idea = WML_three_problems3
-				}
-			}
-		}
 	
 	country_event = {
 		id = WML.20
+		days = 1
 		}
 		
 	}
@@ -303,6 +305,18 @@ country_event = {
 
 		if = {
 			limit = {
+				WML = { has_idea = WML_three_problems3 }
+			}
+			custom_effect_tooltip = WML_three_problems_small_decrease_tt
+			hidden_effect = {
+			swap_ideas = {
+					add_idea = WML_three_problems4
+					remove_idea = WML_three_problems3
+				}
+			}
+		}
+		if = {
+			limit = {
 				WML = { has_idea = WML_three_problems2 }
 			}
 			custom_effect_tooltip = WML_three_problems_big_decrease_tt
@@ -322,18 +336,6 @@ country_event = {
 			swap_ideas = {
 					add_idea = WML_three_problems2
 					remove_idea = WML_three_problems1
-				}
-			}
-		}
-		if = {
-			limit = {
-				WML = { has_idea = WML_three_problems3 }
-			}
-			custom_effect_tooltip = WML_three_problems_small_decrease_tt
-			hidden_effect = {
-			swap_ideas = {
-					add_idea = WML_three_problems4
-					remove_idea = WML_three_problems3
 				}
 			}
 		}
@@ -344,6 +346,18 @@ country_event = {
 
 		if = {
 			limit = {
+				WML = { has_idea = WML_three_problems3 }
+			}
+			custom_effect_tooltip = WML_three_problems_small_decrease_tt
+			hidden_effect = {
+			swap_ideas = {
+					add_idea = WML_three_problems4
+					remove_idea = WML_three_problems3
+				}
+			}
+		}
+		if = {
+			limit = {
 				WML = { has_idea = WML_three_problems2 }
 			}
 			custom_effect_tooltip = WML_three_problems_big_decrease_tt
@@ -366,20 +380,9 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				WML = { has_idea = WML_three_problems3 }
-			}
-			custom_effect_tooltip = WML_three_problems_small_decrease_tt
-			hidden_effect = {
-			swap_ideas = {
-					add_idea = WML_three_problems4
-					remove_idea = WML_three_problems3
-				}
-			}
-		}
-		}
+		
 	}
+}
 
 
 
@@ -466,6 +469,18 @@ country_event = {
 
 		if = {
 			limit = {
+				WML = { has_idea = WML_three_problems3 }
+			}
+			custom_effect_tooltip = WML_three_problems_small_decrease_tt
+			hidden_effect = {
+			swap_ideas = {
+					add_idea = WML_three_problems4
+					remove_idea = WML_three_problems3
+				}
+			}
+		}
+		if = {
+			limit = {
 				WML = { has_idea = WML_three_problems2 }
 			}
 			custom_effect_tooltip = WML_three_problems_big_decrease_tt
@@ -485,18 +500,6 @@ country_event = {
 			swap_ideas = {
 					add_idea = WML_three_problems2
 					remove_idea = WML_three_problems1
-				}
-			}
-		}
-		if = {
-			limit = {
-				WML = { has_idea = WML_three_problems3 }
-			}
-			custom_effect_tooltip = WML_three_problems_small_decrease_tt
-			hidden_effect = {
-			swap_ideas = {
-					add_idea = WML_three_problems4
-					remove_idea = WML_three_problems3
 				}
 			}
 		}
@@ -530,7 +533,7 @@ country_event = { #Negocjacje z bractwem
 		custom_effect_tooltip = WML_brotherhood_trust_great_increase_tt
 		custom_effect_tooltip = WML_brotherhood_influence_great_increase_tt
 		custom_effect_tooltip = WML_brotherhood_energy_reliance_tt
-		add_idea = WML_brotherhood_energy_reliance
+		add_ideas = WML_brotherhood_energy_reliance
 		BBW = {
 			country_event = {
 			id = belchatow.30
@@ -564,7 +567,7 @@ country_event = { #negocjacje z sapkiem i jego larp gangiem
 	option = {
 		name = WML.14.a
 
-		add_idea = WML_duchy_food_reliance
+		add_ideas = WML_duchy_food_reliance
 		custom_effect_tooltip = WML_spapek_trust_moderate_increase_tt
 		custom_effect_tooltip = WML_sapek_influence_great_increase_tt
 		add_political_power = -5
@@ -620,13 +623,15 @@ country_event = {
 					add_idea = basic_security
 					remove_idea = improvised_security
 				}
-	add_manpower = 1500
-	add_political_power = -100
-	add_stability = -0.10
+	add_manpower = 2000
+	add_political_power = -50
+	add_stability = -0.05
+	hidden_effect = {
 	country_event = {
 				id = WML.21
 				days = 64
 				}
+		}
 	}
 }
 
@@ -645,10 +650,12 @@ country_event = { #Treaty of park piłsudskiego
 				id = WML.18
 				days = 36
 				}
-		country_event = {
-				id = WML.19
-				days = 42
-						}
+				hidden_effect = {
+				country_event = {
+					id = WML.19
+					days = 42
+					}
+				}
 			}
 	custom_effect_tooltip = WML_zhp_trust_moderate_increase_tt
 	custom_effect_tooltip = WML_zhp_influence_small_increase_tt
@@ -695,7 +702,7 @@ country_event = {
 	option = {
 		name = WML.20.a
 
-		add_idea = WML_consortium_material_reliance
+		add_ideas = WML_consortium_material_reliance
 		custom_effect_tooltip = WML_konsorcjum_trust_moderate_increase_tt
 		custom_effect_tooltip = WML_konsorcjum_influence_moderate_increase_tt
 		add_political_power = 15
