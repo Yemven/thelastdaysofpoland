@@ -230,6 +230,62 @@ country_event = {
 			ruling_party = postpolonism
 		}
 		set_country_leader_ideology = scout_system_subtype
+		add_to_array = { ZHP_breaker_states = 283 }
+		add_to_array = { ZHP_breaker_states = 685 }			
+		add_to_array = { ZHP_breaker_states = 579 }			
+		add_to_array = { ZHP_breaker_states = 578 }
+		add_to_array = { ZHP_breaker_states = 759 }
+		add_to_array = { ZHP_breaker_states = 315 }
+		add_to_array = { ZHP_breaker_states = 319 }
+		add_to_array = { ZHP_breaker_states = 300 }	
+		add_to_array = { ZHP_breaker_states = 850 }	
+		add_to_array = { ZHP_breaker_states = 296 }	
+		add_to_array = { ZHP_breaker_states = 303 }		
+		add_to_array = { ZHP_breaker_states = 288 }		
+		add_to_array = { ZHP_breaker_states = 272 }		
+		add_to_array = { ZHP_breaker_states = 269 }		
+		add_to_array = { ZHP_breaker_states = 682 }		
+		add_to_array = { ZHP_breaker_states = 577 }		
+		add_to_array = { ZHP_breaker_states = 302 }		
+		add_to_array = { ZHP_breaker_states = 576 }	
+		add_to_array = { ZHP_breaker_states = 757 }		
+		add_to_array = { ZHP_breaker_states = 758 }			
+		add_to_array = { ZHP_breaker_states = 687 }			
+		add_to_array = { ZHP_breaker_states = 686 }			
+		add_to_array = { ZHP_breaker_states = 681 }		
+		add_to_array = { ZHP_breaker_states = 289 }			
+		add_to_array = { ZHP_breaker_states = 275 }
+		add_to_array = { ZHP_breaker_states = 258 }
+		add_to_array = { ZHP_breaker_states = 236 }
+		add_to_array = { ZHP_breaker_states = 849 }
+		for_each_loop = {
+			array = ZHP_breaker_states
+			
+			ZHR = {
+				#set_variable = { breaker_state = v }
+				transfer_state = v
+			}
+		}
+		for_each_scope_loop = {
+			array = ZHP_breaker_states
+			value = breaker_state
+			if = {
+				limit = {
+					breaker_state = {
+						is_core_of = ZHP
+					}
+				}
+				ZHR = {
+					add_state_core = breaker_state
+				}
+			}
+		}
+		#ZHR = {
+			#declare_war_on = {
+				#target = ZHP
+				#type = annex_everything
+			#}
+		#}
 	}
 	option = {
 		name = zhp.16.b #konserwatyści
