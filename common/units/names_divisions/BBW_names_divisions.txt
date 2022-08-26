@@ -1,0 +1,84 @@
+﻿BBW_INF_01 = 
+{
+	name = "Rycerze Bractwa"
+
+	for_countries = { BBW }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { BBW_GAR_01 }
+
+	fallback_name = "% Rycerze Bractwa."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Rycerze Tuszyna." }
+		2 = { "Rycerze Dłutowa." }
+		3 = { "Rycerze Łasku." }
+		4 = { "Rycerze Ostrowa." }
+		5 = { "Rycerze Tuszyna." }
+		6 = { "Rycerze Srocka." }
+		7 = { "Rycerze Ksawerowa." }
+		8 = { "Rycerze Szadka." }
+		9 = { "Rycerze Kanady" }
+		10 = { "10 Rycerze Bractwa." }
+		11 = { "11 Rycerze Bractwa." }
+		12 = { "12 Rycerze Bractwa." }
+		13 = { "13 Rycerze Bractwa." }
+		14 = { "14 Rycerze Bractwa." }
+		15 = { "15 Rycerze Bractwa." }
+		16 = { "16 Rycerze Bractwa." }
+		17 = { "17 Rycerze Bractwa." }
+		18 = { "18 Rycerze Bractwa." }
+		19 = { "19 Rycerze Bractwa." }
+		20 = { "20 Rycerze Bractwa." }
+	}
+}
+
+BBW_PAL_01 = 
+{
+	name = "Paladyni Bractwa"
+
+	for_countries = { BBW }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { BBW_GAR_02 }
+
+	fallback_name = "% Paladyni Bractwa."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Paladyni Najyższego Czasu." }
+		2 = { "Paladyni Kataryniarze." }
+		3 = { "Paladyni Czerwonych Dywanów." }
+		4 = { "Szare Płaszcze." }
+		5 = { "Siwe Sumienia." }
+		6 = { "Czarne Oczy." }
+		7 = { "Brunatna Fala." }
+		8 = { "Popielaci Wędrowcy." }
+		9 = { "9 Paladyni Bractwa" }
+		10 = { "10 Paladyni Bractwa." }
+		11 = { "11 Paladyni Bractwa." }
+		12 = { "12 Paladyni Bractwa." }
+		13 = { "13 Paladyni Bractwa." }
+		14 = { "14 Paladyni Bractwa." }
+		15 = { "15 Paladyni Bractwa." }
+		16 = { "16 Paladyni Bractwa." }
+		17 = { "17 Paladyni Bractwa." }
+		18 = { "18 Paladyni Bractwa." }
+		19 = { "19 Paladyni Bractwa." }
+		20 = { "20 Paladyni Bractwa." }
+	}
+}
+

@@ -1,5 +1,6 @@
 ﻿division_template = {
 	name = "Rycerze Bractwa"
+	division_names_group = BBW_INF_01
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -10,6 +11,7 @@
 
 division_template = {
 	name = "Paladyni Bractwa"
+	division_names_group = BBW_PAL_01
 	regiments = {
 		elite_infantry = { x = 0 y = 0 }
 		elite_infantry = { x = 0 y = 1 }
