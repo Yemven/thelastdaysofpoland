@@ -44,6 +44,8 @@ characters={
 		name="Rafał Chwedoruk"
 		portraits={
 			civilian={
+			    large="gfx/leaders/CAL/CAL_Chwedoruk.dds"
+				small="gfx/interface/ideas/CAL/CAL_Chwedoruk.dds"
 			}
 		}
 		advisor = {
@@ -58,11 +60,22 @@ characters={
 			}
 			traits = { }
 		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
 	}
 	CAL_pawel_delag={
 		name="Paweł Deląg"
 		portraits={
 			civilian={
+			    large="gfx/leaders/CAL/CAL_Delag.dds"
+				small="gfx/interface/ideas/CAL/CAL_Delag.dds"
 			}
 		}
 		advisor = {
@@ -77,11 +90,22 @@ characters={
 			}
 			traits = { }
 		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
 	}
 	CAL_andrzej_kompa={
 		name="Andrzej Kompa"
 		portraits={
 			civilian={
+			    large="gfx/leaders/CAL/CAL_Kompa.dds"
+				small="gfx/interface/ideas/CAL/CAL_Kompa.dds"
 			}
 		}
 		advisor = {
@@ -95,6 +119,15 @@ characters={
 				original_tag = CAL
 			}
 			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
 }

@@ -25,6 +25,40 @@ characters={
 			traits = { }
 		}
 	}
+	POZ_szymon_szynkowski={
+		name="Szymon Szynkowski vel Sęk"
+		portraits={
+			civilian={
+				large="gfx/leaders/POZ/POZ_Szynkowski.dds"
+			}
+		}
+		country_leader={
+			ideology=paternal_conservatism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	POZ_mariusz_wisniewski={
+		name="Mariusz Wiśniewski"
+		portraits={
+			civilian={
+				large="gfx/leaders/POZ/POZ_Wisniewski.dds"
+				small="gfx/interface/ideas/POZ/POZ_Wisniewski.dds"
+			}
+		}
+		advisor = {
+			desc = "POLITICS_MARIUSZ_WISNIEWSKI_DESC"
+			cost = -1
+			slot = head_of_government
+			idea_token = POZ_min_wisniewski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = POZ
+			}
+			traits = { }
+		}
+	}
 	POZ_maciej_jan_zukowski={
 		name="Maciej Jan Żukowski"
 		portraits={
