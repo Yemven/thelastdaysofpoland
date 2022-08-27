@@ -1449,5 +1449,32 @@ focus_tree = {
 					}
 		}
 	}
+	focus = {
+		id = KRS_business_is_business
+		icon = KRS_business_is_business
+		relative_position_id = KRS_secure_our_capital_interests
+		prerequisite = { focus = KRS_secure_our_capital_interests }
+		prerequisite = { focus = KRS_finish_off_the_stragglers }
+		prerequisite = { focus = KRS_fires_in_the_west }		
 
+		available = {
+			WML = { num_of_controlled_states < 1 }
+			BBW = { num_of_controlled_states < 1 }	
+			ZYD = { num_of_controlled_states < 1 }
+			ZHP = { num_of_controlled_states < 1 }	
+			SAP = { num_of_controlled_states < 1 }		
+			NOT = { has_war = yes }
+		}
+		
+		bypass = {		
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
 }
