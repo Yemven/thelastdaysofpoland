@@ -4,6 +4,7 @@ news_event = {
 	id = ziobro.1 #ZIOBRO WYGRYWA PIERWSZA WOJNE W SANTA CRUZ
 	title = ziobro.1.t
 	desc = ziobro.1.desc
+	picture = GFX_news_event_ziobro_win
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -26,6 +27,7 @@ news_event = {
 	id = ziobro.2 #ZIOBRO DOSTAJE PO PIŹDZIE
 	title = ziobro.2.t
 	desc = ziobro.2.desc
+	picture = GFX_news_event_ziobro_lose
 
 	fire_only_once = yes
 	is_triggered_only = yes

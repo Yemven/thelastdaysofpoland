@@ -823,6 +823,20 @@ northen_greater_poland_voivodeship_unification = {
 
 
 		else_if = {
+			limit = { tag = SLU }
+			set_cosmetic_tag = SLU_voivodeship
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.61 }
+				}
+			}
+			custom_effect_tooltip = NAC_unifies_southern_greater_poland_tooltip
+		}
+		
+		
+		
+		else_if = {
 			limit = { tag = PIL }
 			set_cosmetic_tag = PIL_voivodeship
 			hidden_effect = {

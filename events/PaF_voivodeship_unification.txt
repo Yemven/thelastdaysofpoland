@@ -778,6 +778,7 @@ news_event = {
 	id = unification.50
 	title = unification.50.t
 	desc = unification.50.desc
+	picture = GFX_news_event_unification50
 
 	major = yes
 	fire_only_once = yes
@@ -808,6 +809,7 @@ news_event = {
 	id = unification.52
 	title = unification.52.t
 	desc = unification.52.desc
+	picture = GFX_news_event_unification52
 
 	major = yes
 	fire_only_once = yes
@@ -937,6 +939,22 @@ news_event = {
 
 	option = {
 		name = unification.60.a
+	}
+}
+
+#Peja
+news_event = {
+	id = unification.61
+	title = unification.61.t
+	desc = unification.61.desc
+	picture = GFX_news_event_unification61
+
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = unification.61.a
 	}
 }
 
