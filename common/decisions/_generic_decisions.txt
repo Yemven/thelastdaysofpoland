@@ -2,7 +2,7 @@
 ### EUROLIB GENERIC ###
 generic_decisions_eurolib_category = {
 
-	pro_federalist_propaganda = {
+	eurolib_pro_federalist_propaganda = {
 		
 		modifier = {	
 			stability_weekly = 0.003
@@ -10,31 +10,64 @@ generic_decisions_eurolib_category = {
 		}
 		
 		cost = 75
-		days_re_enable = 35
+		days_re_enable = 25
 		days_remove = 56
 		complete_effect = {
 			
 		}
 		
 		remove_effect = {
-			add_popularity = {
-			ideology = euroliberalism
-			popularity = 0.01
+			random_list = {
+			15 = {
+				add_popularity = {
+				ideology = euroliberalism
+				popularity = 0.01
+				}
+				add_political_power = 5
+				}
+			15 = {
+				add_popularity = {
+				ideology = euroliberalism
+				popularity = 0.02
+				}
+				add_political_power = 10
+				}
+			15 = {
+				add_popularity = {
+				ideology = euroliberalism
+				popularity = 0.03
+				}
+				add_political_power = 15
+				}
+			10 = {
+				add_popularity = {
+				ideology = euroliberalism
+				popularity = 0.04
+				}
+				add_political_power = 20
+				}
+			5 = {
+				add_popularity = {
+				ideology = euroliberalism
+				popularity = 0.05
+				}
+				add_political_power = 50
+				add_stability = 0.05
+				}
 			}
-			add_political_power  = 15
 		}
 	}
 	
-	increase_bureaucracy = {
+	eurolib_complicate_bureaucracy = {
 		
 		modifier = {	
 			stability_weekly = -0.001
-			political_power_gain = 0.25
+			political_power_gain = 0.75
 		}
 		
-		cost = 250
+		cost = 75
 		days_re_enable = 35
-		days_remove = 35
+		days_remove = 75
 		complete_effect = {
 			
 		}
@@ -44,45 +77,232 @@ generic_decisions_eurolib_category = {
 			ideology = euroliberalism
 			popularity = -0.01
 			}
-			add_political_power  = 35
+			add_political_power  = 75
 		}
 	}
 	
-	implement_harsher_gun_laws = {
-	
+	eurolib_taxes_increase = {
+		
 		modifier = {	
-			stability_weekly = -0.002
-			political_power_gain = -0.35
+			stability_weekly = -0.005
+			political_power_gain = -0.15
+			consumer_goods_factor = -0.05
 		}
 		
 		cost = 75
-		days_re_enable = 75
-		days_remove = 35
+		days_re_enable = 35
+		days_remove = 75
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_popularity = {
+			ideology = euroliberalism
+			popularity = -0.02
+			}
+			add_political_power  = 5
+		}
+	}
+	
+	eurolib_agricultural_funds = {
+		
+		modifier = {	
+			monthly_population = 0.5
+			political_power_gain = -0.1
+			consumer_goods_factor = 0.01
+		}
+		
+		cost = 75
+		days_re_enable = 45
+		days_remove = 90
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_stability = 0.03
+		}
+	}
+	
+	eurolib_public_works_funds = {
+		
+		modifier = {	
+			production_speed_buildings_factor = 0.2
+			political_power_gain = -0.1
+			consumer_goods_factor = 0.01
+		}
+		
+		cost = 75
+		days_re_enable = 35
+		days_remove = 70
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_stability = 0.03
+		}
+	}
+	
+	eurolib_cultural_dev_funds = {
+		
+		modifier = {	
+			war_support_weekly = 0.002
+			stability_weekly = 0.005
+			political_power_gain = 0.15
+			consumer_goods_factor = 0.01
+		}
+		
+		cost = 100
+		days_re_enable = 35
+		days_remove = 70
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_manpower = 50
+		}
+	}
+	
+	eurolib_implement_harsher_gun_laws = {
+	
+		modifier = {	
+			stability_weekly = 0.001
+			war_support_weekly = -0.003
+			political_power_gain = -0.25
+		}
+		
+		cost = 75
+		days_re_enable = 35
+		days_remove = 25
 		complete_effect = {
 			add_equipment_to_stockpile = {
     				type = ranged_equipment
-    				amount = 100
+    				amount = 150
     				producer = GER
 			}
 		}
 		
 		remove_effect = {
-			add_stability = 0.02
-			add_war_support = -0.005
-			add_equipment_to_stockpile = {
+			random_list = {
+			15 = {
+				add_equipment_to_stockpile = {
     				type = ranged_equipment
     				amount = 250
     				producer = GER
+					}
+				add_war_support = -0.01
+				}
+			15 = {
+				add_equipment_to_stockpile = {
+    				type = ranged_equipment
+    				amount = 350
+    				producer = GER
+					}
+				add_political_power = 10
+				add_war_support = -0.05
+				}
+			15 = {
+				add_equipment_to_stockpile = {
+    				type = ranged_equipment
+    				amount = 500
+    				producer = GER
+					}
+				add_political_power = 25
+				add_war_support = -0.1
+				}
 			}
 		}
 	}
+	
+	eurolib_offensive_war_propaganda = {
+		available = {  
+			if = {
+				ROOT = { 
+					has_offensive_war = yes
+				}  
+			}
+		}
+		modifier = {	
+			war_support_weekly = 0.003
+			stability_weekly = -0.005
+			political_power_gain = -0.2
+			weekly_manpower = 50
+		}
+		
+		cost = 75
+		days_re_enable = 15
+		days_remove = 70
+		complete_effect = {
+		}
+		
+		remove_effect = {
+		random_list = {
+			15 = {
+				add_war_support = 0.01
+				add_manpower = 50
+				}
+			15 = {
+				add_war_support = 0.03
+				add_manpower = 100
+				}
+			15 = {
+				add_war_support = 0.05
+				add_manpower = 200	
+				}
+			}
+		}
+	}
+	
+	eurolib_defensive_war_propaganda = {
+		available = {  
+			if = {
+				ROOT = { 
+					has_defensive_war = yes
+				}  
+			}
+		}
+		modifier = {	
+			war_support_weekly = 0.01
+			political_power_gain = 0.15
+			weekly_manpower = 100
+		}
+		
+		cost = 50
+		days_re_enable = 20
+		days_remove = 70
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+		random_list = {
+			15 = {
+				add_war_support = 0.03
+				add_manpower = 100
+				}
+			15 = {
+				add_war_support = 0.05
+				add_manpower = 200
+				}
+			15 = {
+				add_war_support = 0.1
+				add_manpower = 350
+				}
+			}
+		}
+	}
+	
+	
 	
 }
 
 #squattism generic
 
 generic_decisions_squat_category = {
-	blunt_of_peace = {
+	squat_blunt_of_peace = {
 		modifier = {	
 			stability_weekly = 0.005
 			war_support_weekly = -0.01
@@ -103,7 +323,7 @@ generic_decisions_squat_category = {
 		}
 	}
 	
-	get_some_baseball_bats = {
+	squat_get_some_baseball_bats = {
 		modifier = {	
 			industrial_capacity_factory = -0.10
 		}
@@ -123,7 +343,7 @@ generic_decisions_squat_category = {
 		}
 	}
 	
-	pump_yourself_to_fight = {
+	squat_pump_yourself_to_fight = {
 		modifier = {	
 			conscription_factor = -0.10
 		}
@@ -142,7 +362,7 @@ generic_decisions_squat_category = {
 }
 
 generic_decisions_cranism_category = {
-	central_commitee_meeting = {
+	cranism_central_commitee_meeting = {
 		modifier = {	
 			consumer_goods_factor = 0.05
 		}
@@ -162,7 +382,7 @@ generic_decisions_cranism_category = {
 		}
 	}
 	
-	military_parade = {
+	cranism_military_parade = {
 		modifier = {	
 			conscription_factor = -0.10
 			industrial_capacity_factory = -0.10
@@ -181,7 +401,7 @@ generic_decisions_cranism_category = {
 		}
 	}
 	
-	build_great_project_of_socialism = {
+	cranism_build_great_project_of_socialism = {
 		modifier = {	
 			conscription_factor = -0.20
 			production_speed_buildings_factor = -0.20
@@ -220,7 +440,7 @@ generic_decisions_cranism_category = {
 }
 
 generic_decisions_succdem_category = {
-	promise_safety_net = {
+	succdem_promise_safety_net = {
 		modifier = {	
 			consumer_goods_factor = 0.025
 			stability_factor = -0.1
@@ -241,7 +461,7 @@ generic_decisions_succdem_category = {
 		}
 	}
 	
-	self_defence_courses = {
+	succdem_self_defence_courses = {
 		modifier = {	
 			conscription_factor = -0.10
 			consumer_goods_factor = 0.05
@@ -267,7 +487,7 @@ generic_decisions_succdem_category = {
 		}
 	}
 	
-	fund_national_businesses = {
+	succdem_fund_national_businesses = {
 		modifier = {	
 			consumer_goods_factor = 0.1
 		}
@@ -288,7 +508,7 @@ generic_decisions_succdem_category = {
 }
 
 generic_decisions_freemarket_category = {
-	cut_down_taxes = {
+	freemarket_cut_down_taxes = {
 		modifier = {	
 			consumer_goods_factor = 0.1
 			war_support_factor = -0.1
@@ -309,7 +529,7 @@ generic_decisions_freemarket_category = {
 		}
 	}
 	
-	print_3d_guns = {
+	freemarket_print_3d_guns = {
 		modifier = {
 			industrial_capacity_factory = -0.1
 			production_speed_buildings_factor = -0.1
@@ -330,7 +550,7 @@ generic_decisions_freemarket_category = {
 		}
 	}
 	
-	fund_small_businesses = {
+	freemarket_fund_small_businesses = {
 		modifier = {	
 			consumer_goods_factor = 0.15
 		}
@@ -352,7 +572,7 @@ generic_decisions_freemarket_category = {
 
 
 generic_decisions_patcon_category = {
-	organize_a_grand_mass = {
+	patcon_organize_a_grand_mass = {
 		modifier = {	
 			consumer_goods_factor = 0.1
 			stability_factor = -0.1
@@ -373,7 +593,7 @@ generic_decisions_patcon_category = {
 		}
 	}
 	
-	gather_the_guns = {
+	patcon_gather_the_guns = {
 		modifier = {
 			consumer_goods_factor = 0.1
 			conscription_factor = -0.2
@@ -394,7 +614,7 @@ generic_decisions_patcon_category = {
 		}
 	}
 	
-	fund_church_owned_businesses = {
+	patcon_fund_church_owned_businesses = {
 		modifier = {	
 			stability_factor = -0.2
 		}
@@ -415,7 +635,7 @@ generic_decisions_patcon_category = {
 }
 
 generic_decisions_autocrat_category = {
-	get_army_on_streets = {
+	autocrat_get_army_on_streets = {
 		modifier = {	
 			stability_factor = -0.2
 			war_support_factor = -0.1
@@ -436,7 +656,7 @@ generic_decisions_autocrat_category = {
 		}
 	}
 	
-	take_guns_from_people = {
+	autocrat_take_guns_from_people = {
 		modifier = {
 			stability_weekly = -0.025
 		}
@@ -456,7 +676,7 @@ generic_decisions_autocrat_category = {
 		}
 	}
 	
-	force_people_to_work = {
+	autocrat_force_people_to_work = {
 		modifier = {	
 			industrial_capacity_factory = 0.2
 			production_speed_buildings_factor = 0.2
@@ -476,7 +696,7 @@ generic_decisions_autocrat_category = {
 }
 
 generic_decisions_corporate_category = {
-	bribe_officials = {
+	corp_bribe_officials = {
 		modifier = {	
 			stability_factor = -0.2
 			consumer_goods_factor = 0.1
@@ -497,7 +717,7 @@ generic_decisions_corporate_category = {
 		}
 	}
 	
-	hire_mercenaries = {
+	corp_hire_mercenaries = {
 		modifier = {
 			consumer_goods_factor = 0.1
 		}
@@ -518,7 +738,7 @@ generic_decisions_corporate_category = {
 		}
 	}
 	
-	bend_the_labour_laws = {
+	corp_bend_the_labour_laws = {
 		modifier = {	
 			stability_factor = -0.1
 		}
@@ -540,7 +760,7 @@ generic_decisions_corporate_category = {
 }
 
 generic_decisions_neonat_category = {
-	organize_patriotic_demonstration = {
+	neonat_organize_patriotic_demonstration = {
 		modifier = {	
 			stability_factor = -0.05
 			weekly_manpower = -50
@@ -561,7 +781,7 @@ generic_decisions_neonat_category = {
 		}
 	}
 	
-	train_patrotic_youth = {
+	neonat_train_patrotic_youth = {
 		modifier = {
 			consumer_goods_factor = 0.1
 			conscription_factor = -0.1
@@ -583,7 +803,7 @@ generic_decisions_neonat_category = {
 		}
 	}
 	
-	build_work_camps = {
+	neonat_build_work_camps = {
 		modifier = {	
 			stability_factor = -0.1
 			weekly_manpower = -25
@@ -606,7 +826,7 @@ generic_decisions_neonat_category = {
 }
 
 generic_decisions_react_category = {
-	destroy_bad_literature= {
+	react_destroy_bad_literature= {
 		modifier = {	
 			stability_factor = -0.05
 			stability_weekly = -0.01
@@ -627,7 +847,7 @@ generic_decisions_react_category = {
 		}
 	}
 	
-	whip_people_to_fight = {
+	react_whip_people_to_fight = {
 		modifier = {
 			stability_weekly = -0.01
 		}
@@ -644,7 +864,7 @@ generic_decisions_react_category = {
 		}
 	}
 	
-	whip_people_to_work = {
+	react_whip_people_to_work = {
 		modifier = {	
 			stability_weekly = -0.01
 		}
@@ -666,6 +886,7 @@ generic_decisions_react_category = {
 }
 
 generic_decisions_postpol_category = { #herder ty zrób te ostatnie bo ty najbardziej postpol ogarniasz
+									#PostPol jest pojęciem tak szerokim, a osoby go wyznające tak różne, że najlepiej będzie jak każda frakcja z tej ideologii będzie miała własne
 
 }
 
