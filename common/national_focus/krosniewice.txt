@@ -281,8 +281,8 @@ focus_tree = {
 	focus = {
 		id = KRS_prepare_the_airfields
 		icon = KRS_prepare_the_airfields
-		relative_position_id = KRS_expand_the_patrol
-		prerequisite = { focus = KRS_expand_the_patrol }
+		relative_position_id = KRS_conclude_the_meeting
+		prerequisite = { focus = KRS_conclude_the_meeting }
 		available = {
 		
 		}
@@ -290,7 +290,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = 2
 		y = 1
 		
 		cost = 2
@@ -309,8 +309,8 @@ focus_tree = {
 	focus = {
 		id = KRS_old_police_weapons
 		icon = KRS_old_police_weapons
-		relative_position_id = KRS_prepare_the_airfields
-		prerequisite = { focus = KRS_prepare_the_airfields }
+		relative_position_id = KRS_conclude_the_meeting
+		prerequisite = { focus = KRS_conclude_the_meeting }
 		available = {
 		
 		}
@@ -318,7 +318,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = -2
 		y = 1
 		
 		cost = 2
@@ -337,8 +337,11 @@ focus_tree = {
 	focus = {
 		id = KRS_no_time_to_lose
 		icon = KRS_no_time_to_lose
-		relative_position_id = KRS_old_police_weapons
-		prerequisite = { focus = KRS_old_police_weapons }
+		relative_position_id = KRS_expand_the_patrol
+		prerequisite = { focus = KRS_expand_the_patrol
+							focus = KRS_prepare_the_airfields
+							focus = KRS_old_police_weapons }
+		
 		available = {
 		
 		}
@@ -519,17 +522,15 @@ focus_tree = {
 	focus = {
 		id = KRS_battle_for_lodzkie
 		icon = KRS_battle_for_lodzkie
-		relative_position_id = KRS_lock_the_doors
-		prerequisite = { focus = KRS_lock_the_doors }
 		available = {
-		
+		has_completed_focus = KRS_and_begin_the_meeting
 		}
 		
 		bypass = {
 		}
 		
-		x = 4
-		y = 1
+		x = 12
+		y = 0
 		
 		cost = 2
 		search_filters = {}
@@ -607,8 +608,8 @@ focus_tree = {
 	focus = {
 		id = KRS_establish_an_auxiliary_corps
 		icon = KRS_establish_an_auxiliary_corps
-		relative_position_id = KRS_establish_a_supply_line
-		prerequisite = { focus = KRS_establish_a_supply_line }
+		relative_position_id = KRS_battle_for_lodzkie
+		prerequisite = { focus = KRS_battle_for_lodzkie }
 		available = {
 		
 		}
@@ -616,7 +617,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = -2
 		y = 1
 		
 		cost = 2
@@ -629,8 +630,8 @@ focus_tree = {
 	focus = {
 		id = KRS_comfort_families
 		icon = KRS_comfort_families
-		relative_position_id = KRS_establish_an_auxiliary_corps
-		prerequisite = { focus = KRS_establish_an_auxiliary_corps }
+		relative_position_id = KRS_establish_a_supply_line
+		prerequisite = { focus = KRS_establish_a_supply_line }
 		available = {
 		
 		}
@@ -652,8 +653,8 @@ focus_tree = {
 	focus = {
 		id = KRS_why_we_fight
 		icon = KRS_why_we_fight
-		relative_position_id = KRS_comfort_families
-		prerequisite = { focus = KRS_comfort_families }
+		relative_position_id = KRS_establish_an_auxiliary_corps
+		prerequisite = { focus = KRS_establish_an_auxiliary_corps }
 		available = {
 		
 		}
@@ -749,8 +750,8 @@ focus_tree = {
 	focus = {
 		id = KRS_roll_out_the_paramedics
 		icon = KRS_roll_out_the_paramedics
-		relative_position_id = KRS_patch_the_holes_in_our_logistics
-		prerequisite = { focus = KRS_patch_the_holes_in_our_logistics }
+		relative_position_id = KRS_battle_for_lodzkie
+		prerequisite = { focus = KRS_battle_for_lodzkie }
 		available = {
 		
 		}
@@ -894,7 +895,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 16
+		x = 4
 		y = 0
 		
 		cost = 1
@@ -1470,7 +1471,7 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 1
+		y = 2
 		
 		cost = 2
 		search_filters = {}
