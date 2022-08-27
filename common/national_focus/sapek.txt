@@ -768,6 +768,14 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			add_field_marshal_role = {
+				character = SAP_jacek_bartyzel
+					skill = 2
+					attack_skill = 4
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 2
+				}
 		}
 	}
 	
@@ -832,6 +840,14 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			add_corps_commander_role = {
+				character = SAP_pazura
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 1
+			}
 		}
 	}
 	
@@ -873,7 +889,7 @@ focus_tree = {
 		
 		cost = 3
 		search_filters = {}
-		completion_reward = {
+		completion_reward = {		
 		}
 	}
 	
@@ -895,6 +911,14 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			add_corps_commander_role = {
+				character = SAP_zebrowski
+				skill = 2
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 1
+				logistics_skill = 1
+			}
 		}
 	}
 	
