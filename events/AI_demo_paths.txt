@@ -608,7 +608,7 @@ country_event = {
 				set_autonomy = {
 					target = TOU
 					autonomous_state = autonomy_supervised_state
-					freedom_level = 0.15 
+					freedom_level = 0
 				} 
 			}
 			TOU = {
@@ -616,6 +616,7 @@ country_event = {
 				ruling_party = corporativism
 				}
 			}
+			set_political_power = -100
 	}			
 	option = {
 		name = aievent.15.b #KGH
@@ -625,7 +626,7 @@ country_event = {
 			set_autonomy = {
 				target = TOU
 				autonomous_state = autonomy_supervised_state
-				freedom_level = 0.15 
+				freedom_level = 0 
 			}	 
 		}
 		TOU = {
@@ -633,6 +634,7 @@ country_event = {
 				ruling_party = corporativism
 				}
 			}
+			set_political_power = -100
 	}
 }
 
