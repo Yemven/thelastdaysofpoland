@@ -10,6 +10,12 @@ country_event = {
 
 	option = {
 		name = jomsborg.1.a
+		hidden_effect = = {
+		every_country = {
+			limit = { NOT = { is_ai = yes } }
+			news_event = { id = jomsborg.3 }
+			}
+		}
 		70 = {		
 				create_unit = {
 					division = "name = \"Vikingasveit Fehu\" division_template = \"Vikingasveitin\" start_experience_factor = 0.1"
@@ -76,5 +82,19 @@ country_event = {
 	221 = {
 			DEN = { transfer_state = PREV }
 			}
+	}
+}
+
+news_event = {
+	id = jomsborg.3
+	title = jomsborg.3.t
+	desc = jomsborg.3.desc
+	picture = GFX_news_event_zagan
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = jomsborg.3.a
 	}
 }
