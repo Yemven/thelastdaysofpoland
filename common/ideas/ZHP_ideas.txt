@@ -232,6 +232,22 @@ ideas = {
 				war_support_factor = -0.05
 			}
 		}
+		
+		ZHP_robber_economy_idea = {
+			allowed = {
+				original_tag = ZHP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = ZHP_idealist_economy
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.05
+				
+			}
+		}
 	}
 	
 	industrial_company = {
