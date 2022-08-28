@@ -214,7 +214,7 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			add_political_power = 30
+			add_ideas = ZHP_robber_economy_idea
 		}
 	}
 	
@@ -313,7 +313,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = { 
-			
+			army_experience = 50
 		}
 	}
 	
