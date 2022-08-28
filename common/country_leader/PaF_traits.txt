@@ -128,6 +128,27 @@ leader_traits = {
 		stability_factor = 0.1
 		political_power_gain = 1
 	}
+	necronomist = {
+		consumer_goods_factor = -0.03
+		trade_opinion_factor = 0.4
+		}
+	zealous_prophet = { 
+		army_org_factor = 0.1
+		war_support_factor = 0.1
+	}
+	puppet_president = { 
+		stability_factor = 0.1
+		compliance_growth_on_our_occupied_states = 0.3
+	}
+	lord_of_dialogue = { 
+		drift_defence_factor = 0.3
+		opinion_gain_monthly_factor = 0.3
+	}
+	gwynbleidd = { 
+		stability_factor = -0.15
+		army_attack_factor = 0.1
+	}
+	
 	
 	#####INDUSTRIAL CONCERNS TRAITS######
 	
