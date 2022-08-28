@@ -198,6 +198,52 @@ on_actions = {
 					}
 					set_global_flag = skip_default_capitulation
 				}
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = ZHP
+					}
+					FROM = {
+						original_tag = GFL
+					}
+				}
+				ROOT = {
+					white_peace = FROM
+					annex_country = {
+						target = FROM
+						transfer_troops = yes
+					}
+				}
+				set_politics = {
+					ruling_party = postpolonism
+				}
+				set_country_leader_ideology = scout_system_subtype
+				set_global_flag = ZHP_civil_war_lost
+				set_global_flag = skip_default_capitulation
+			}
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = ZHP
+					}
+					FROM = {
+						original_tag = ZHR
+					}
+				}
+				ROOT = {
+					white_peace = FROM
+					annex_country = {
+						target = FROM
+						transfer_troops = yes
+					}
+				}
+				set_politics = {
+					ruling_party = paternal_conservatism
+				}
+				set_country_leader_ideology = paternal_conservatism_subtype
+				set_global_flag = ZHP_civil_war_lost
+				set_global_flag = skip_default_capitulation
+			}
 			if = {	
 				limit = {
 					OR = {
