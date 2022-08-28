@@ -300,7 +300,7 @@ generic_decisions_eurolib_category = {
 	
 }
 
-#squattism generic
+	####SQUATTISM GENERIC####
 
 generic_decisions_squat_category = {
 	squat_blunt_of_peace = {
@@ -361,6 +361,8 @@ generic_decisions_squat_category = {
 		}
 	}
 }
+
+	####GOD DAMN COMMIES GENERIC#####
 
 generic_decisions_cranism_category = {
 	cranism_central_commitee_meeting = {
@@ -440,6 +442,8 @@ generic_decisions_cranism_category = {
 	}
 }
 
+	####SOCIAL DEMOCRATIC GENERIC####
+
 generic_decisions_succdem_category = {
 	succdem_promise_safety_net = {
 		modifier = {	
@@ -508,6 +512,8 @@ generic_decisions_succdem_category = {
 	}
 }
 
+	####FREEMARKETISM GENERIC####
+
 generic_decisions_freemarket_category = {
 	freemarket_cut_down_taxes = {
 		modifier = {	
@@ -571,6 +577,7 @@ generic_decisions_freemarket_category = {
 	}
 }
 
+	####PATERNAL CONSERVATISM GENERIC#####
 
 generic_decisions_patcon_category = {
 	patcon_organize_a_grand_mass = {
@@ -635,6 +642,8 @@ generic_decisions_patcon_category = {
 	}
 }
 
+####AUTOCRATIC GENERIC####
+
 generic_decisions_autocrat_category = {
 	autocrat_get_army_on_streets = {
 		modifier = {	
@@ -695,6 +704,8 @@ generic_decisions_autocrat_category = {
 		}
 	}
 }
+
+####CORPOTATIVISM GENERIC####
 
 generic_decisions_corporate_category = {
 	corp_bribe_officials = {
@@ -760,6 +771,7 @@ generic_decisions_corporate_category = {
 	}
 }
 
+ ###NEONATIONALIST GENERIC####
 generic_decisions_neonat_category = {
 	neonat_organize_patriotic_demonstration = {
 		modifier = {	
@@ -826,7 +838,7 @@ generic_decisions_neonat_category = {
 	}
 }
 
-###REACTIONARY###
+####REACTIONARY GENERIC####
 
 generic_decisions_react_category = {
 	react_rewrite_unfavorable_history= {
@@ -837,7 +849,7 @@ generic_decisions_react_category = {
 		}
 		
 		cost = 150
-		days_re_enable = 30
+		days_re_enable = 64
 		days_remove = 140
 		complete_effect = {
 			
@@ -847,17 +859,18 @@ generic_decisions_react_category = {
 		
 		random_list = {
 			15 = {
+				add_manpower = 100
 				add_political_power = 75
 				add_stability = 0.05
 				}
 			15 = {
-				add_manpower = 200
-				add_political_power = 15
+				add_manpower = 500
+				add_political_power = 35
 				add_stability = 0.10
 				}
 				15 = {
-				add_manpower = 3000
-				add_political_power = 15
+				add_manpower = 2000
+				add_political_power = 35
 				war_support_factor = 0.15
 				}
 			}
@@ -884,7 +897,7 @@ generic_decisions_react_category = {
 	react_tell_people_what_they_want_to_hear = {
 		modifier = {
 		political_power_gain = 0.25
-		war_support_weekly = -0.003
+		war_support_weekly = -0.002
 		}
 		
 		cost = 25
@@ -1076,15 +1089,15 @@ generic_decisions_react_category = {
 		remove_effect = {
 		random_list = {
 			15 = {
-			add_war_support = 0.01
+			army_experience = 15
 				add_manpower = 1500
 			}
 			15 = {
-			add_war_support = 0.03
+			army_experience = 10
 				add_manpower = 2500
 			}
 			10 = {
-				add_war_support = 0.05
+				army_experience = 5
 				add_manpower = 5000
 			}
 		}
@@ -1094,19 +1107,20 @@ generic_decisions_react_category = {
 	react_proclaim_holy_war = {
 		available = {  
 			if = {
-					has_war_support > 0.6
-					has_war = yes
+				has_war_support > 0.75
+				has_war = yes
 			}
 		}
 		
-		cost = 200
-		days_re_enable = 180
+		cost = 250
+		days_re_enable = 360
 		
 		complete_effect = {
 		ROOT = {
 		custom_effect_tooltip = react_holy_war_tt
 		hidden_effect = {
-		add_stability = -0.10
+		add_stability = -0.15
+		add_manpower = 5000
 		add_ideas = react_holy_war
 				}
 			}
