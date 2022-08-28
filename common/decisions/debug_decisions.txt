@@ -49,4 +49,46 @@ debug_category = {
 			}
 		}
 	}
+	
+	load_war_tree = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect  = {
+			if = {
+				limit = { tag = BBW }
+				load_focus_tree = belchatow_war_focus
+				}
+			else_if = {
+				limit = { tag = ZHP }
+				load_focus_tree = harcerze_war_focus
+				}
+			else_if = {
+				limit = { tag = ZYD }
+				load_focus_tree = zydzew_war_focus
+				}
+			else_if = {
+				limit = { tag = KRS }
+				load_focus_tree = krosniewice_war_focus
+				}
+			else_if = { 
+				limit = { tag = SAP }
+				load_focus_tree = sapek_war_focus
+				}
+		}
+	}
 }

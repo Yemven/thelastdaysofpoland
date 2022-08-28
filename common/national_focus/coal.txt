@@ -939,7 +939,7 @@ focus_tree = {
 		completion_reward = {
 			if = { limit = { NOT = { has_war_with = KRS } }
 				KRS = {
-				country_event = { id = krosniewice.1 }
+				country_event = { id = krs_bbw.1 }
 				}
 				custom_effect_tooltip = BBW_kroswiecki_tooltip
 			else = {
@@ -996,10 +996,33 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-			set_nationality = {
-				target_country = BBW
-				character = SAP_jacek_bartyzel
+			every_possible_country = {
+				limit = { has_character = SAP_jacek_bartyzel }
+				random_character = {
+					limit = { is_character = SAP_jacek_bartyzel }
+					set_nationality = BBW
+				}
 			}
+			every_possible_country = {
+				limit = { has_character = SAP_pudzian }
+				random_character = {
+					limit = { is_character = SAP_pudzian }
+					set_nationality = BBW
+				}
+			}
+			if = {
+				limit = {
+					SAP_jacek_bartyzel = { NOT = { is_corps_commander = yes } }
+					}
+				add_field_marshal_role = {
+					character = SAP_jacek_bartyzel
+						skill = 2
+						attack_skill = 4
+						defense_skill = 2
+						planning_skill = 4
+						logistics_skill = 2
+					}
+				}
 		}
 	}
 	focus = {
