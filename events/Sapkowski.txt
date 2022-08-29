@@ -72,6 +72,8 @@ country_event = {
 				value = 10
 			}
 		}
+		add_stability = -0.2
+		add_political_power = 50
 	}
 	option = {
 		name = sapek.5.b
@@ -81,6 +83,35 @@ country_event = {
 				value = 10
 			}
 		}
+		add_stability = 0.1
+		add_political_power = -50
+	}
+}
+
+
+country_event = {
+	id = sapek.6 #status-report
+	title = sapek.6.t
+	desc = sapek.6.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.6.a
+	}
+}
+
+country_event = {
+	id = sapek.7 #trop-zniknal
+	title = sapek.7.t
+	desc = sapek.7.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.7.a
 	}
 }
 

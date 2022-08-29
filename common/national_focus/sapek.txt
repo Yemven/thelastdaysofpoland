@@ -73,6 +73,7 @@ focus_tree = {
 				id = sapek.2
 				days = 1 
 			}
+			add_stability = 0.1
 		}
 	}
 	
@@ -102,6 +103,7 @@ focus_tree = {
 				id = sapek.4
 				days = 7 
 			}
+			add_war_support = 0.1
 		}
 	}
 	
@@ -166,6 +168,10 @@ focus_tree = {
 			country_event = {
 				id = sapek.5
 			}
+			add_timed_idea = {
+				idea = SAP_ravaged_country
+				days = 120
+			}
 		}
 	}
 	
@@ -187,6 +193,34 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = sapek.6
+			}
+			set_equipment_fraction = 0.9
+			269 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			272 = {
+				damage_building = {
+					type = infrastructure
+					damage = 1
+				}
+			}
+			682 = {
+				damage_building = {
+					type = infrastructure
+					damage = 1
+				}
+			}
+			269 = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
 		}
 	}
 	
@@ -208,6 +242,8 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			add_command_power = 20
+			add_political_power = 50
 		}
 	}
 	
@@ -229,6 +265,11 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			add_stability = -0.1
+			add_war_support = 0.1
+			country_event = {
+				id = sapek.7
+			}
 		}
 	}
 	
@@ -1102,12 +1143,8 @@ focus_tree = {
 		relative_position_id = SAP_rather_not_choose
 		prerequisite = { focus = SAP_rather_not_choose }
 		available = {
-			count_triggers = {
-				amount = 3
-				ZYD = { num_of_controlled_states < 1 }
-				BBW = { num_of_controlled_states < 1 }
-				ZHP = { num_of_controlled_states < 1 }
-			}
+				KRS = { num_of_controlled_states < 1 }
+				NOT = { has_war = yes }
 		}
 		
 		bypass = {
@@ -1139,6 +1176,11 @@ focus_tree = {
 		prerequisite = { focus = SAP_tridam_ultimatum }
 
 		available = {
+			KRS = { num_of_controlled_states < 1 }
+				BBW = { num_of_controlled_states < 1 }
+					WML = { num_of_controlled_states < 1 }
+						ZHP = { num_of_controlled_states < 1 }
+							ZYD = { num_of_controlled_states < 1 }
 		  302 = { is_controlled_by = SAP }
 		  NOT = { has_war = yes }
 		}
@@ -1167,6 +1209,11 @@ focus_tree = {
 		available = {
 		  302 = { is_controlled_by = SAP }
 		  NOT = { has_war = yes }
+			KRS = { num_of_controlled_states < 1 }
+				BBW = { num_of_controlled_states < 1 }
+					WML = { num_of_controlled_states < 1 }
+						ZHP = { num_of_controlled_states < 1 }
+							ZYD = { num_of_controlled_states < 1 }
 		}
 		
 		bypass = {
