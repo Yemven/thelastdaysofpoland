@@ -68,6 +68,58 @@ ideas = {
 				supply_consumption_factor = 0.1
 			}
 		}
+		
+		ZYD_pitch_failures = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				stability_factor = -0.1
+				army_org_factor = -0.1
+				war_support_factor = -0.1
+				political_power_factor = -0.2
+			}
+		}
+		ZYD_eleven_falashas = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				stability_factor = 0.05
+				army_org_factor = 0.1
+				war_support_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		ZYD_eleven_praca = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				industrial_capacity_factory = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
 
 	}
 	

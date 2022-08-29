@@ -10,7 +10,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add =10
+			add = 10
 			tag = ZYD
 		}
 	}
@@ -32,7 +32,7 @@ focus_tree = {
 		y = 0
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			country_event = {
 				id = zydzew.1 }
@@ -55,7 +55,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			country_event = {
 				id = zydzew.2 }
@@ -78,7 +78,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = {}
 		completion_reward = {
 			country_event = {
 				id = zydzew.3 }
@@ -101,7 +101,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			country_event = {
 				id = zydzew.4 }
@@ -124,7 +124,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			country_event = {
 				id = zydzew.5 }
@@ -147,9 +147,9 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			add_ideas = ZYD_pitch_failures
 		}
 	}
 	
@@ -170,9 +170,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ZYD_pitch_failures
+				add_idea = ZYD_eleven_falashas
+				}
 		}
 	}
 	
@@ -193,9 +196,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ZYD_pitch_failures
+				add_idea = ZYD_eleven_praca
+				}
 		}
 	}
 	
@@ -216,7 +222,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 4
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -238,7 +244,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -260,7 +266,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -283,7 +289,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -306,7 +312,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -329,7 +335,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -351,7 +357,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -373,7 +379,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -396,7 +402,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -419,7 +425,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -442,7 +448,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -466,7 +472,7 @@ focus_tree = {
 		y = 4
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -489,7 +495,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -512,7 +518,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -534,7 +540,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -556,7 +562,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -578,7 +584,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 		}
 	}
@@ -599,7 +605,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -622,7 +628,7 @@ focus_tree = {
 		y = 3
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -643,7 +649,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -665,7 +671,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -688,7 +694,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -710,7 +716,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -732,7 +738,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			
 		}
@@ -755,7 +761,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			country_event = {
 			id = zydzew.8

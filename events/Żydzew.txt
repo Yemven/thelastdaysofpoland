@@ -63,6 +63,14 @@ country_event = {
 	option = {
 		name = zydzew.4.a
 		add_war_support = 0.15
+		every_country = {
+			limit = { is_lodzkie = yes 
+						NOT = { tag = ZYD } }
+			add_opinion_modifier = {
+				target = ZYD
+				modifier = red_goebbels
+			}
+		}
 	}
 }
 
