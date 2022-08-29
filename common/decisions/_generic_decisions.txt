@@ -708,64 +708,351 @@ generic_decisions_autocrat_category = {
 ####CORPOTATIVISM GENERIC####
 
 generic_decisions_corporate_category = {
-	corp_bribe_officials = {
+	
+	corp_depoliticize_population  = {
 		modifier = {	
-			stability_factor = -0.2
+			stability_weekly = 0.002
+			political_power_gain = 0.15
+			war_support_weekly = -0.001
+		}
+		
+		cost = 70
+		days_re_enable = 10
+		days_remove = 70
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+		}
+		
+	}
+	
+	corp_increase_population_comfort  = {
+		modifier = {	
+			stability_weekly = 0.003
 			consumer_goods_factor = 0.1
+			monthly_population = 0.05
 		}
 		
 		cost = 75
 		days_re_enable = 90
 		days_remove = 30
-		complete_effect = {
-			
+		complete_effect = {	
 		}
 		
 		remove_effect = {
-			add_popularity = {
-				ideology = corporativism
-				popularity = 0.05
-			}
+		}
+		
+	}
+	
+	corp_lend_out_monopoles = {
+		modifier = {
+			political_power_gain = 0.25
+			consumer_goods_factor = 0.10
+			industrial_capacity_factory = 0.10
+			industrial_capacity_dockyard = 0.10
+			stability_weekly = 0.001
+		}
+		
+		cost = 50
+		days_re_enable = 360
+		days_remove = 56
+		complete_effect = {	
+		}
+		
+		remove_effect = {
+		#tu będzie wiele, jutro dokończę
 		}
 	}
 	
-	corp_hire_mercenaries = {
-		modifier = {
-			consumer_goods_factor = 0.1
+	corp_lower_quotas  = {
+		modifier = {	
+			consumer_goods_factor = -0.075
+			industrial_capacity_factory = -0.15
+			industrial_capacity_dockyard = -0.15
+			production_factory_efficiency_gain_factor = -0.30
+		}
+		
+		cost = 75
+		days_re_enable = 10
+		days_remove = 90
+		complete_effect = {	
+		}
+		
+		remove_effect = {
+			random_list = {
+				1 = {
+				add_stability = 0.05
+				}
+				2 = {
+				add_stability = -0.025
+				}
+				
+			}
+		}
+		
+	}
+	
+	corp_crank_up_quotas  = {
+		modifier = {	
+			consumer_goods_factor = 0.05
+			industrial_capacity_factory = 0.1
+			industrial_capacity_dockyard = 0.15
+			production_factory_efficiency_gain_factor = 0.15
+			production_factory_max_efficiency_factor = 0.05
 		}
 		
 		cost = 100
-		days_re_enable = 180
-		days_remove = 30
+		days_re_enable = 10
+		days_remove = 90
+		complete_effect = {	
+		}
+		
+		remove_effect = {
+		
+			random_list = {
+				2 = {
+				add_stability = 0.025
+				}
+				1 = {
+				add_stability = -0.05
+				}
+				1 = {
+				add_stability = -0.075
+				}
+			}
+			
+			random_list = {
+				2 = {
+				add_equipment_to_stockpile = {
+				type = ranged_equipment
+				amount = 100
+					}
+				
+				}
+				1 = {
+				add_equipment_to_stockpile = {
+				type = equipment_vests
+				amount = 125
+					}
+				
+				}
+				1 = {
+				add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 75
+					}
+				}
+			}
+			
+		}
+		
+	}
+	
+	corp_expand_security_forces = {
+		modifier = {
+			political_power_gain = -0.15
+			consumer_goods_factor = 0.05
+			experience_gain_army_factor = 0.20
+		}
+		
+		cost = 75
+		days_re_enable = 5
+		days_remove = 35
 		complete_effect = {
 			
 		}
 		
 		remove_effect = {
-			add_equipment_to_stockpile = {
+		
+			random_list = {
+				2 = {
+				add_equipment_to_stockpile = {
 				type = ranged_equipment
-				amount = 200
+				amount = 500
+					}
+				add_equipment_to_stockpile = {
+				type = equipment_vests
+				amount = 500
+					}
+				}
+				2 = {
+				add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 75
+					}
+				}
+				2 = {
+				add_equipment_to_stockpile = {
+				type = light_artillery_equipment
+				amount = 25
+					}
+				}
 			}
-			add_manpower = 500
+			
+			random_list = {
+				2 = {
+				add_manpower = 1000
+				army_experience = 5
+				}
+				2 = {
+				add_manpower = 2000
+				army_experience = 10
+				}
+				2 = {
+				add_manpower = 3000
+				army_experience = 15
+				}
+			}
 		}
 	}
 	
-	corp_bend_the_labour_laws = {
-		modifier = {	
-			stability_factor = -0.1
+	corp_encite_military_service = {
+	available = {  
+			if = {
+				has_war = yes
+			}
 		}
 		
-		cost = 150
-		days_re_enable = 365
-		days_remove = 30
+		modifier = {
+			political_power_gain = -0.15
+			consumer_goods_factor = 0.075
+			army_org_factor = 0.15
+			army_org_regain = 0.10
+			army_defence_factor = 0.05
+			recruitable_population_factor = 0.10
+		}
+		
+		cost = 115
+		days_re_enable = 15
+		days_remove = 180
+		complete_effect = {
+		add_manpower = 1000
+		}
+		
+		remove_effect = {
+		}
+	}
+	
+	corp_lower_the_costs = {
+		modifier = {
+			political_power_gain = -0.40
+			consumer_goods_factor = -0.10
+			industrial_capacity_factory = 0.10
+			monthly_population = -0.10
+			war_support_weekly = -0.002
+			stability_weekly = -0.004
+		}
+		
+		cost = 75
+		days_re_enable = 50
+		days_remove = 56
+		complete_effect = {	
+		}
+		
+		remove_effect = {
+		}
+	}
+	
+	corp_crush_the_unions = {
+		available = {  
+			OR = {
+				marxism_cranism > 0.05
+				squattism > 0.05
+				socialdemocrature > 0.05
+			}
+		}
+		
+		modifier = {
+			stability_weekly = -0.005
+			war_support_weekly = -0.002
+			monthly_population = -0.15
+		}
+		
+		cost = 75
+		days_re_enable = 30
+		days_remove = 35
 		complete_effect = {
 			
 		}
-		fixed_random_seed = no
-		fixed_random_seed = no
+		
 		remove_effect = {
-			random_owned_state = {
-				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+		custom_effect_tooltip = corpo_lefties_crush_tt
+			IF = {
+			limit = {
+			marxism_cranism > 0.05
+				}
+				random_list = {
+					3 = {
+					add_popularity = {
+						ideology = marxism_cranism
+						popularity = -0.01
+						}
+					}
+					2 = {
+					add_popularity = {
+						ideology = marxism_cranism
+						popularity = -0.025
+						}
+					}
+					1 = {
+					add_popularity = {
+						ideology = marxism_cranism
+						popularity = -0.05
+						}
+					}
+				}
+			}
+			IF = {
+			limit = {
+			squattism > 0.05
+				}
+				random_list = {
+					3 = {
+					add_popularity = {
+						ideology = squattism
+						popularity = -0.01
+						}
+					}
+					2 = {
+					add_popularity = {
+						ideology = squattism
+						popularity = -0.025
+						}
+					}
+					1 = {
+					add_popularity = {
+						ideology = squattism
+						popularity = -0.05
+						}
+					}
+				}
+			}
+			IF = {
+			limit = {
+			socialdemocrature > 0.05
+				}
+				random_list = {
+						3 = {
+						add_popularity = {
+							ideology = socialdemocrature
+							popularity = -0.01
+							}
+						}
+						2 = {
+						add_popularity = {
+							ideology = socialdemocrature
+							popularity = -0.025
+							}
+						}
+						1 = {
+						add_popularity = {
+						ideology = socialdemocrature
+						popularity = -0.05
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1079,6 +1366,7 @@ generic_decisions_react_category = {
 		war_support_weekly = 0.005
 		stability_weekly = -0.003
 		weekly_manpower = 100
+		experience_gain_army_factor = 0.10
 		}
 		
 		cost = 100
