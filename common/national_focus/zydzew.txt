@@ -246,7 +246,7 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			
+			add_ideas = ZYD_i_znow_bijatyka
 		}
 	}
 	
@@ -268,8 +268,36 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ZYD_i_znow_bijatyka
+				add_idea = ZYD_i_znow_bijatyka2
+				}
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}			
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
 		}
+		
 	}
 	
 	focus = {
@@ -291,7 +319,6 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			
 		}
 	}
 	
@@ -359,7 +386,7 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			
+			add_ideas = ZYD_ekonomia_kradziejsko_kibolska
 		}
 	}
 	
@@ -381,7 +408,34 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ZYD_ekonomia_kradziejsko_kibolska
+				add_idea = ZYD_ekonomia_kradziejsko_kibolska2
+				}
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}			
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
 		}
 	}
 	
@@ -404,7 +458,13 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = { 
+				remove_idea = ZYD_ekonomia_kradziejsko_kibolska2
+				add_idea = ZYD_ekonomia_kibucowska
+				}
+			country_event = {
+				id = zydzew.9
+			}
 		}
 	}
 	
@@ -427,7 +487,13 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = { 
+				remove_idea = ZYD_ekonomia_kradziejsko_kibolska2
+				add_idea = ZYD_ekonomia_urbana
+				}
+			country_event = {
+				id = zydzew.10
+			}
 		}
 	}
 	

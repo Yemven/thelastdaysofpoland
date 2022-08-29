@@ -132,3 +132,38 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = zydzew.9 #ekonomia-kibucowska
+	title = zydzew.9.t
+	desc = zydzew.9.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.9.a
+		swap_ideas = {
+			remove_idea = training_battle
+			add_idea = training_basic
+			}
+	}
+}
+
+country_event = {
+	id = zydzew.10 #ekonomia-urbanska
+	title = zydzew.10.t
+	desc = zydzew.10.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.10.a
+		swap_ideas = {
+			remove_idea = improvised_security
+			add_idea = basic_security
+			}
+	}
+}
+

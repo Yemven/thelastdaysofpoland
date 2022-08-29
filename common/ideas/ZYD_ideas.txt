@@ -120,6 +120,111 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.05
 			}
 		}
+		ZYD_i_znow_bijatyka = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_org_factor = -0.15
+				war_support_factor = -0.2
+				political_power_factor = -0.05
+				army_defence_factor = -0.15
+			}
+		}
+		ZYD_i_znow_bijatyka2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_org_factor = -0.15
+				war_support_factor = -0.2
+				political_power_factor = -0.05
+				army_defence_factor = -0.15
+				stability_factor = -0.2
+			}
+		}
+		ZYD_ekonomia_kradziejsko_kibolska = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				army_org_factor = -0.2
+			}
+		}
+		ZYD_ekonomia_kradziejsko_kibolska2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				army_org_factor = -0.2
+				stability_factor = -0.15
+			}
+		}
+		ZYD_ekonomia_kibucowska = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_org_factor = 0.1
+				stability_factor = 0.05
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+		ZYD_ekonomia_urbana = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = 0.05
+				decryption_factor = 0.05
+				encryption_factor = 0.05
+			}
+		}		
 
 	}
 	
