@@ -32,6 +32,24 @@ SAP_divided_supporters =	{
 				political_power_gain = -0.1
 			}
 		}
+SAP_ravaged_country =	{
+			allowed = {
+				original_tag = SAP
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				stability_factor = -0.2
+				civilian_factory_use = 2
+				industrial_capacity_factory = -0.2
+				industry_repair_factor = 0.1
+			}
+	}
 }
 	industrial_company = {
 		use_list_view = yes
