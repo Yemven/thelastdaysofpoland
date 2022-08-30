@@ -722,10 +722,8 @@ generic_decisions_corporate_category = {
 		complete_effect = {
 			
 		}
-		
 		remove_effect = {
 		}
-		
 	}
 	
 	corp_increase_population_comfort  = {
@@ -740,29 +738,7 @@ generic_decisions_corporate_category = {
 		days_remove = 30
 		complete_effect = {	
 		}
-		
 		remove_effect = {
-		}
-		
-	}
-	
-	corp_lend_out_monopoles = {
-		modifier = {
-			political_power_gain = 0.25
-			consumer_goods_factor = 0.10
-			industrial_capacity_factory = 0.10
-			industrial_capacity_dockyard = 0.10
-			stability_weekly = 0.001
-		}
-		
-		cost = 50
-		days_re_enable = 360
-		days_remove = 56
-		complete_effect = {	
-		}
-		
-		remove_effect = {
-		#tu będzie wiele, jutro dokończę
 		}
 	}
 	
@@ -788,7 +764,6 @@ generic_decisions_corporate_category = {
 				2 = {
 				add_stability = -0.025
 				}
-				
 			}
 		}
 		
@@ -822,7 +797,7 @@ generic_decisions_corporate_category = {
 				add_stability = -0.075
 				}
 			}
-			
+			custom_effect_tooltip = corpo_random_eq_small_tt
 			random_list = {
 				2 = {
 				add_equipment_to_stockpile = {
@@ -844,10 +819,27 @@ generic_decisions_corporate_category = {
 				amount = 75
 					}
 				}
-			}
-			
+			}	
+		}
+	}
+	
+	corp_lower_the_costs = {
+		modifier = {
+			political_power_gain = -0.40
+			consumer_goods_factor = -0.10
+			industrial_capacity_factory = 0.10
+			monthly_population = -0.10
+			war_support_weekly = -0.002
+			stability_weekly = -0.004
 		}
 		
+		cost = 75
+		days_re_enable = 50
+		days_remove = 56
+		complete_effect = {	
+		}
+		remove_effect = {
+		}
 	}
 	
 	corp_expand_security_forces = {
@@ -865,7 +857,7 @@ generic_decisions_corporate_category = {
 		}
 		
 		remove_effect = {
-		
+		custom_effect_tooltip = corpo_random_eq_tt
 			random_list = {
 				2 = {
 				add_equipment_to_stockpile = {
@@ -890,7 +882,7 @@ generic_decisions_corporate_category = {
 					}
 				}
 			}
-			
+			custom_effect_tooltip = corpo_soldiers_random_tt
 			random_list = {
 				2 = {
 				add_manpower = 1000
@@ -930,28 +922,130 @@ generic_decisions_corporate_category = {
 		complete_effect = {
 		add_manpower = 1000
 		}
-		
 		remove_effect = {
 		}
 	}
 	
-	corp_lower_the_costs = {
+		corp_lend_out_monopoles = {
 		modifier = {
-			political_power_gain = -0.40
-			consumer_goods_factor = -0.10
+			political_power_gain = 0.25
+			consumer_goods_factor = 0.10
 			industrial_capacity_factory = 0.10
-			monthly_population = -0.10
-			war_support_weekly = -0.002
-			stability_weekly = -0.004
+			industrial_capacity_dockyard = 0.10
+			stability_weekly = 0.001
 		}
 		
-		cost = 75
-		days_re_enable = 50
+		cost = 50
+		days_re_enable = 360
 		days_remove = 56
 		complete_effect = {	
 		}
 		
 		remove_effect = {
+		custom_effect_tooltip = corpo_monopoles_tt
+			add_popularity = {
+						ideology = corporativism
+						popularity = 0.01
+			}
+		random_list = {
+			15 = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			15 = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			15 = {
+				random_owned_state = {
+				add_manpower = 1000
+				add_extra_state_shared_building_slots = 5
+				}
+			}
+			15 = {
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+						building = infrastructure
+						size > 0
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+										building = infrastructure
+										size > 0
+										}
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			
+			}
+		}
 		}
 	}
 	
