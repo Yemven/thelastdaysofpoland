@@ -119,4 +119,20 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
+
+    division = {
+		name = "Janikowska Straż Wiejska"
+		location = 15659
+		division_template = "Ochotnicy"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+
+    division = {
+		name = "Grudziądzka Straż Episkopalna"
+		location = 2137
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
 }
