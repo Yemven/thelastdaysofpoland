@@ -1050,11 +1050,14 @@ generic_decisions_corporate_category = {
 	}
 	
 	corp_crush_the_unions = {
-		available = {  
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = corp_commie_danger_tt
 			OR = {
 				marxism_cranism > 0.05
 				squattism > 0.05
 				socialdemocrature > 0.05
+				}
 			}
 		}
 		
@@ -1487,10 +1490,13 @@ generic_decisions_react_category = {
 	}
 	
 	react_proclaim_holy_war = {
-		available = {  
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = react_holy_war_devotion_tt
 			if = {
 				has_war_support > 0.75
 				has_war = yes
+			}
 			}
 		}
 		
