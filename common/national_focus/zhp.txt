@@ -192,7 +192,7 @@ focus_tree = {
 			swap_ideas = {
 				add_idea = ZHP_idealist_economy2
 				remove_idea = ZHP_idealist_economy
-				}
+			}
 		}
 	}
 	
@@ -214,7 +214,10 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			add_ideas = ZHP_robber_economy_idea
+			swap_ideas = {
+				add_idea = ZHP_idealist_economy3
+				remove_idea = ZHP_idealist_economy2
+			}
 		}
 	}
 	
@@ -239,7 +242,7 @@ focus_tree = {
 			swap_ideas = {
 				add_idea = ZHP_conservatist_economy2
 				remove_idea = ZHP_conservatist_economy
-				}
+			}
 		}
 	}
 	
@@ -260,7 +263,11 @@ focus_tree = {
 		
 		cost = 4
 		search_filters = {}
-		completion_reward = { 
+		completion_reward = {
+			swap_ideas = {
+				add_idea = ZHP_conservatist_economy3
+				remove_idea = ZHP_conservatist_economy2
+			}
 			country_event = { id = zhp.17 }
 		}
 	}

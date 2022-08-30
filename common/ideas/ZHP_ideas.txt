@@ -140,6 +140,25 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
+		ZHP_idealist_economy3 =	{
+			allowed = {
+				original_tag = ZHP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZHP_idealist_economy
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industry_air_damage_factor = -0.1
+				line_change_production_efficiency_factor = 0.1
+				supply_consumption_factor = -0.1
+				stability_factor = -0.15
+				consumer_goods_factor = -0.05
+			}
+		}
 		ZHP_conservatist_economy =	{
 			allowed = {
 				original_tag = ZHP
@@ -173,7 +192,24 @@ ideas = {
 				monthly_population = 0.05
 			}
 		}
-		
+		ZHP_conservatist_economy3 =	{
+			allowed = {
+				original_tag = ZHP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZHP_conservatist_economy
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+				recruitable_population_factor = -0.05
+				monthly_population = 0.05
+				stability_factor = 0.05
+			}
+		}
 		ZHP_gray_lily_trainees = {
 			allowed = {
 				original_tag = ZHP
@@ -230,22 +266,6 @@ ideas = {
 				conscription = 0.005
 				stability_factor = -0.05
 				war_support_factor = -0.05
-			}
-		}
-		
-		ZHP_robber_economy_idea = {
-			allowed = {
-				original_tag = ZHP
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			picture = ZHP_idealist_economy
-			modifier = {
-				consumer_goods_factor = -0.05
-				stability_factor = -0.05
-				
 			}
 		}
 	}
