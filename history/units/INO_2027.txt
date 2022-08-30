@@ -1,0 +1,122 @@
+division_template = {
+	name = "Straż Episkopalna"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Ochotnicy"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Straż Parafialna"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "1 Inowrocławska Straż Episkopalna"
+		location = 15606
+		division_template = "Straż Episkopalna"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+    division = {
+		name = "Bydgoska Straż Episkopalna"
+		location = 15630
+		division_template = "Straż Episkopalna"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+    division = {
+		name = "2 Inowrocławska Straż Episkopalna"
+		location = 15607
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+    division = {
+		name = "Toruńska Straż Episkopalna"
+		location = 399
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+
+    division = {
+		name = "Gnieźnieńska Straż Episkopalna"
+		location = 15668
+		division_template = "Straż Episkopalna"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+    division = {
+		name = "Włocławska Straż Episkopalna"
+		location = 15578
+		division_template = "Straż Episkopalna"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+    division = {
+		name = "Lojaliści Episkopatu z Aleksandrowa Kujawskiego"
+		location = 15604
+		division_template = "Straż Parafialna"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+    division = {
+		name = "Lojaliści Episkopatu z Gniewkowa i Torunia"
+		location = 15625
+		division_template = "Straż Parafialna"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+    division = {
+		name = "Lojaliści Episkopatu z Janikowa i Bydgoszczy"
+		location = 15633
+		division_template = "Straż Parafialna"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+    division = {
+		name = "Lubieńska Straż Wiejska"
+		location = 15543
+		division_template = "Ochotnicy"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+}
