@@ -224,7 +224,21 @@ ideas = {
 				decryption_factor = 0.05
 				encryption_factor = 0.05
 			}
-		}		
+		}
+		ZYD_wspolpraca_ekonomiczna =	{
+				allowed = {
+					original_tag = ZYD
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					consumer_goods_factor = -0.05
+				}
+			}	
 
 	}
 	

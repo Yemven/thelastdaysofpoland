@@ -894,7 +894,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			add_ideas = WML_lodz_forall
 		}
 	}
 	
@@ -915,7 +915,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			add_ideas = WML_lodz_victory
 		}
 	}
 	
@@ -936,7 +936,9 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			add_ideas = WML_wspolpraca_ekonomiczna
+			BBW = {add_ideas = BBW_wspolpraca_ekonomiczna}
+			ZYD = {add_ideas = ZYD_wspolpraca_ekonomiczna}
 		}
 	}
 	
@@ -957,7 +959,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			add_ideas = WML_lodz_syndykalizm
 		}
 	}
 	
@@ -978,7 +980,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			add_ideas = WML_lodz_skauci_guard
 		}
 	}
 	
@@ -999,7 +1001,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			add_ideas = WML_lodz_generalowie
 		}
 	}
 	
@@ -1020,7 +1022,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			add_ideas = WML_lodz_inspekcje
 		}
 	}
 	
@@ -1041,7 +1043,14 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			757 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = wind_farm
+						level = 2
+						instant_build = yes
+					}
+				}
 		}
 	}
 	
@@ -1062,7 +1071,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			add_ideas = WML_lodz_gildie
 		}
 	}
 	
@@ -1083,7 +1092,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			add_ideas = WML_lodz_scavenging
 		}
 	}
 	
@@ -1104,7 +1113,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			add_ideas = WML_lodz_303
 		}
 	}
 	
@@ -1125,7 +1134,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
-			
+			add_ideas = WML_lodz_power_armor
 		}
 	}
 }
