@@ -2,6 +2,7 @@
  ## National Spirits ##
  SAP_sanity_tooltip:0 "§GSapkowski's Sanity Increases!§!"
  SAP_insanity_tooltip:0 "§RSapkowski's Sanity Decreases...§!"
+ SAP_wilcy_tooltip:0 "§RWolves are coming...§!" 
  SAP_ravaged_country:0 "Ravaged Country"
  SAP_ravaged_country_desc:0 ""
  
@@ -16,15 +17,15 @@ asfalt_sap:0 "Strabag Ellander"
 zamet_sap:0 "Zamet Głowno"
 ferrox_sap:0 "Iarannciúb"
  ##Events##
-sapek.1.t:0 "sapek intro"
+sapek.1.t:0 "His Highness the Delirious"
 sapek.1.desc:0 "event o tym kim jest dokładnie Sapek, co się stało i co sobie myśli będąc jebanym księciem"
 sapek.1.a:0 "dajcie mi golda z góry"
 
-sapek.2.t:0 "bartyzel intro"
+sapek.2.t:0 "Echoes of Yesterday"
 sapek.2.desc:0 "event o tym kim jest dokładnie stary Bartyzel, i jaką ma pozycję jako Wielki Mistrz Zakonu Białej Róży"
 sapek.2.a:0 "que voy a matar más guiris"
 
-sapek.3.t:0 "temeria intro"
+sapek.3.t:0 "Memories of Kingdom"
 sapek.3.desc:0 "event o sytuacji wojewódzkiej postrzeganej przez Sapka - tron Temerski okupowany przez pretendenta Hołownię, Mahakam (Bractwo), Velen (ZHP), Brugge (Żydzew), Maribor (Krośniewice)"
 sapek.3.a:0 "żymon oddawaj Wyzimę"
 
@@ -41,19 +42,19 @@ sapek.6.t:0 "Report of the Council"
 sapek.6.desc:0 "raport Kapituły ze strat zadanych przez atak Salamandry"
 sapek.6.a:0 ""
 
-sapek.7.t:0 "We've lost them"
+sapek.7.t:0 "Lizard's Tail"
 sapek.7.desc:0 "pierdolona biedna piechota zgubiła trop który urwał się na granicy z Krośniewicami"
 sapek.7.a:0 ""
 
-sapek_war.1.t:0 "spotkanie kapituły"
+sapek_war.1.t:0 "Price of Peace"
 sapek_war.1.desc:0 "event mówiący o spotkaniu kapituły czarodziejów która przestrzega przed jakąkolwiek wojną, jedna część mówi że trzeba się ułożyć z Hołownią, druga że z Krośniewicami (aka Mariborem w oczach Sapka)"
 sapek_war.1.a:0 "złap sie kurwa w yrden i tam siedź"
 
-sapek_war.2.t:0 "nocne rozkminy"
+sapek_war.2.t:0 "Matters of Conscience"
 sapek_war.2.desc:0 "event - Sapek przechadza się w nocy po swoim pseudopałacu i gada sam do siebie jak jebany Gollum"
 sapek_war.2.a:0 "choroszcz czeka"
 
-sapek_war.3.t:0 "edykt wojenny"
+sapek_war.3.t:0 "By the King's Will"
 sapek_war.3.desc:0 "event - obóz wojskowy gdzieś pod Łowiczem, lejtnant odczytuje edykt książęcy mówiący o powszechnych brankach i mobilizacji"
 sapek_war.3.a:0 "DOKĄD KURWA ZMIERZAMY?"
 
@@ -65,38 +66,38 @@ sapek_war.5.t:0 "Palace for Vizima"
 sapek_war.5.desc:0 "Sapek dziwi się jakim cudem Hołownia nie urzędował w pałacu ani nie miał tronu. Każe sobie przyszykować terytorium Manufaktury jako jeden wielki kompleks pałacowy."
 sapek_war.5.a:0 "extreme home makeover"
 
-sapek_war.6.t:0 "Bałuty Blues"
+sapek_war.6.t:0 "Oblivion"
 sapek_war.6.desc:0 "event o tym jak Sapek po raz pierwszy widzi co się stało z Bałutami i zastanawia się co z tym zrobić"
 sapek_war.6.a:0 "ło ja pierdole jaka dziura"
 
-sapek_war.7.t:0 "Final-Sane"
+sapek_war.7.t:0 "Hope Burns Bright"
 sapek_war.7.desc:0 "Sapek toczy ostateczną wewnętrzną walkę między idiotą a debilem - event dla sane sapka"
 sapek_war.7.a:0 "dajcie mi golda z góry jeszcze więcej"
 
-sapek_war.8.t:0 "Final-Insane"
+sapek_war.8.t:0 "Ashes of Vizima"
 sapek_war.8.desc:0 "Sapek toczy ostateczną wewnętrzną walkę między idiotą a debilem - event dla insane sapka"
 sapek_war.8.a:0 "rozjebać wszystkie elfy"
 
-sapek_war.9.t:0 "Skrzydlewscy"
+sapek_war.9.t:0 "Flowers and Gold"
 sapek_war.9.desc:0 "co zrobić ze Skrzydlewskimi"
 sapek_war.9.a:0 "nasłać Inkwizycje"
 sapek_war.9.b:0 "skomunalizować"
 
-sapek_war.10.t:0 "Rutkowski"
+sapek_war.10.t:0 "Suspect: Krzysztof Rutkowski"
 sapek_war.10.desc:0 "co zrobić z Rutkowskim"
 sapek_war.10.a:0 "przekupić"
 sapek_war.10.b:0 "skazać"
 
-sapek_war.11.t:0 "Pogotowie"
+sapek_war.11.t:0 "Medic in Distress"
 sapek_war.11.desc:0 "przejmujemy wszystkie laboratoria mutagenów"
 sapek_war.11.a:0 "MOJA KREW"
 
-sapek_war.12.t:0 "Holobunga"
+sapek_war.12.t:0 "Blood of the Elves"
 sapek_war.12.desc:0 "w Brugge (Piotrkowie) stało się ups - żołdacy zaczęli mordować masowo widzewiaków i żydów"
 sapek_war.12.a:0 "they did nothing wrong"
 sapek_war.12.b:0 "potępić i wyciągnąć odpowiedzialność"
 
-sapek_war.13.t:0 "Ghosts of Velen"
+sapek_war.13.t:0 "Spirits of Velen"
 sapek_war.13.desc:0 "po przejęciu Velen (Wielunia [ZHP]) trzeba sobie poradzić z partyzantką"
 sapek_war.13.a:0 "wysłać Zakon, spalić lasy, wyrżnąc wszystkich"
 sapek_war.13.b:0 "wysłać Wiewióry"

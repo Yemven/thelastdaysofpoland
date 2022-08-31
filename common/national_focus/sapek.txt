@@ -99,11 +99,14 @@ focus_tree = {
 				id = sapek.3
 				days = 1 
 			}
+			add_war_support = 0.1			
+			hidden_effect = {
 			country_event = {
 				id = sapek.4
 				days = 7 
 			}
-			add_war_support = 0.1
+			}
+			custom_effect_tooltip = SAP_wilcy_tooltip
 		}
 	}
 	
