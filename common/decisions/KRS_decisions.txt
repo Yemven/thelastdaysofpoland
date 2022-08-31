@@ -67,6 +67,44 @@ KRS_funeral_gains_category = {
 		}
 	}
 	
+	KRS_reckless_offensives = {
+		allowed = {
+			tag = KRS
+		}
+		
+		modifier = {	
+			war_support_weekly = -0.003
+			political_power_gain = -0.35
+			consumer_goods_factor = -0.075
+			army_attack_factor = 0.03
+			experience_loss_factor = 0.5
+			army_org_regain = -0.25
+		}
+		
+		cost = 50
+		days_re_enable = 25
+		days_remove = 35
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+		hidden_effect = {
+			random_list = {
+			2 = { #żołnierze odmawiają ataku
+				#event na to powyżej
+				}
+			5 = { #informacja wycieka do ludności
+				#event na to powyżej
+				}
+			20 = { #nic sie nie dzieje - pozostajemy bezkarni
+			#LITERALNIE NICOŚĆ
+				}
+			}
+			}
+		}
+	}
+	
 }
 
 KRS_hired_guns_category = { #którym watażkom?
