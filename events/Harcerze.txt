@@ -404,3 +404,64 @@ country_event = {
 		add_stability = 0.05
 	}
 }
+
+country_event = {
+	id = zhp.20 # wielgi rabunek rzeczy
+	title = zhp.20.t
+	desc = zhp.20.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = zhp.20.a
+		random_list = {
+			10 = {
+
+			}
+			10 = {
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					category = industry
+				}
+			}
+			10 = {
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					category = industry
+				}
+				368 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}	
+				}
+			}
+			10 = {
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					category = industry
+				}
+				368 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}	
+				}
+				368 = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}	
+				}
+			}
+		}
+		
+	}
+}

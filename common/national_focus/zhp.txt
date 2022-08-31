@@ -215,6 +215,9 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			add_political_power = 30
+			country_event = {
+				id = zhp.20
+			}
 			swap_ideas = {
 				add_idea = ZHP_idealist_economy3
 				remove_idea = ZHP_idealist_economy2
