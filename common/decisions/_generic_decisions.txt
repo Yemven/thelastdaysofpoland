@@ -73,11 +73,17 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
-			add_popularity = {
-			ideology = euroliberalism
-			popularity = -0.01
+			random_list = {
+			5 = {
+				add_popularity = {
+				ideology = euroliberalism
+				popularity = -0.01
+				}
+				}
+			15 = {
+				}
 			}
-			add_political_power  = 75
+			add_political_power = 45
 		}
 	}
 	
@@ -86,7 +92,7 @@ generic_decisions_eurolib_category = {
 		modifier = {	
 			stability_weekly = -0.005
 			political_power_gain = -0.15
-			consumer_goods_factor = -0.05
+			consumer_goods_factor = -0.075
 		}
 		
 		cost = 75
@@ -97,11 +103,23 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
-			add_popularity = {
-			ideology = euroliberalism
-			popularity = -0.02
+			random_list = {
+			10 = {
+				add_popularity = {
+				ideology = euroliberalism
+				popularity = -0.02
+				}
+				}
+			5 = {
+				add_popularity = {
+				ideology = euroliberalism
+				popularity = -0.03
+				}
+				}
+			15 = {
+				}
 			}
-			add_political_power  = 5
+			add_political_power = 15
 		}
 	}
 	
@@ -109,8 +127,8 @@ generic_decisions_eurolib_category = {
 		
 		modifier = {	
 			monthly_population = 0.5
-			political_power_gain = -0.1
-			consumer_goods_factor = 0.01
+			political_power_gain = -0.15
+			consumer_goods_factor = 0.025
 		}
 		
 		cost = 75
@@ -129,8 +147,8 @@ generic_decisions_eurolib_category = {
 		
 		modifier = {	
 			production_speed_buildings_factor = 0.2
-			political_power_gain = -0.1
-			consumer_goods_factor = 0.01
+			political_power_gain = -0.15
+			consumer_goods_factor = 0.025
 		}
 		
 		cost = 75
@@ -163,7 +181,19 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
-			add_manpower = 50
+			random_list = {
+			15 = {
+				add_war_support = 0.03
+				add_manpower = 50
+				army_experience = 5
+				}
+			15 = {
+				add_manpower = 250
+				}
+			15 = {
+			add_political_power = 25
+				}
+			}
 		}
 	}
 	
@@ -213,6 +243,7 @@ generic_decisions_eurolib_category = {
 					}
 				add_political_power = 25
 				add_war_support = -0.1
+				add_manpower = -27
 				}
 			}
 		}
@@ -243,15 +274,15 @@ generic_decisions_eurolib_category = {
 		random_list = {
 			15 = {
 				add_war_support = 0.01
-				add_manpower = 50
+				add_manpower = 250
 				}
-			15 = {
+			10 = {
 				add_war_support = 0.03
-				add_manpower = 100
+				add_manpower = 1000
 				}
-			15 = {
+			10 = {
 				add_war_support = 0.05
-				add_manpower = 200	
+				add_manpower = 200	0
 				}
 			}
 		}
@@ -267,12 +298,12 @@ generic_decisions_eurolib_category = {
 		}
 		modifier = {	
 			war_support_weekly = 0.01
-			political_power_gain = 0.15
-			weekly_manpower = 100
+			political_power_gain = 0.25
+			weekly_manpower = 125
 		}
 		
 		cost = 50
-		days_re_enable = 20
+		days_re_enable = 25
 		days_remove = 70
 		complete_effect = {
 			
@@ -282,15 +313,15 @@ generic_decisions_eurolib_category = {
 		random_list = {
 			15 = {
 				add_war_support = 0.03
-				add_manpower = 100
+				add_manpower = 1500
 				}
 			15 = {
 				add_war_support = 0.05
-				add_manpower = 200
+				add_manpower = 2000
 				}
 			15 = {
 				add_war_support = 0.1
-				add_manpower = 350
+				add_manpower = 3500
 				}
 			}
 		}
@@ -1050,11 +1081,14 @@ generic_decisions_corporate_category = {
 	}
 	
 	corp_crush_the_unions = {
-		available = {  
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = corp_commie_danger_tt
 			OR = {
 				marxism_cranism > 0.05
 				squattism > 0.05
 				socialdemocrature > 0.05
+				}
 			}
 		}
 		
@@ -1487,10 +1521,13 @@ generic_decisions_react_category = {
 	}
 	
 	react_proclaim_holy_war = {
-		available = {  
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = react_holy_war_devotion_tt
 			if = {
 				has_war_support > 0.75
 				has_war = yes
+			}
 			}
 		}
 		
