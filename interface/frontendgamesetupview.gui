@@ -601,17 +601,17 @@ guiTypes = {
 		size = { width=100% height=100% }
 		clipping = no
 		
-		instantTextBoxType = {
-			name = "title"
-			position = { x = 435 y = 12 }
-			textureFile = ""
-			font = "hoi_24header"
-			borderSize = {x = 0 y = 0}
-			text = "FE_SELECT_COUNTRY"
-			maxWidth = 340
-			maxHeight = 30	
-			format = centre
-		}
+#		instantTextBoxType = {
+#			name = "title"
+#			position = { x = 435 y = 12 }
+#			textureFile = ""
+#			font = "hoi_24header"
+#			borderSize = {x = 0 y = 0}
+#			text = "FE_SELECT_COUNTRY"
+#			maxWidth = 340
+#			maxHeight = 30	
+#			format = centre
+#		}
 		
 		background = {
 			name = "single_player_country_bg"
@@ -649,19 +649,18 @@ guiTypes = {
 			
 			gridboxType = {
 				name ="countries_grid"
-				position = { x = 135 y = 0 }
+				position = { x = 500 y = 300 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 150 height = 0 }
 				add_horizontal = yes
-				max_slots_vertical = 1
+				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
-			}	
-			
+			}					
 		}
 			
 		containerWindowType = {
 			name ="countries_medium"
-			position = { x = 15 y = 330 }
+			position = { x = 500 y = 123 }
 			size = { width = -15 height = 120}
 			
 			gridboxType = {
@@ -695,8 +694,8 @@ guiTypes = {
 		iconType = {
 			name = "minor_country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 289 y = 441 }
-			scale=0.696
+			position = { x = 346 y = 448 }
+			scale=1.11
 
 		}
 		
@@ -711,20 +710,20 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "leader"
-				position = { x = 0 y = -45 }
+				position = { x = 300 y = 200 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 240
-				format = left
+				maxWidth = 190
+				format = centre
 			}
 			
 			instantTextBoxType = {
 				name = "ideology_label"
-				position = { x = 0 y = 35 }
+				position = { x = 0 y = 5 }
 				textureFile = ""
-				font = "hoi_20bs"
+				font = "previewer_gar_40"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
 				maxWidth = 340
@@ -733,8 +732,8 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "ideology"
-				position = { x = 1 y = 52 }
-				font = "hoi_20b"
+				position = { x = 1 y = 40 }
+				font = "hoi_30"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -743,7 +742,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "government_label"
 				position = { x = 0 y = 75 }
-				font = "hoi_20bs"
+				font = "previewer_gar_40"
 				borderSize = {x = 0 y = 0}
 				text = "GOVERNMENT"
 				maxWidth = 340
@@ -752,8 +751,8 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "government"
-				position = { x = 1 y = 92 }
-				font = "hoi_20b"
+				position = { x = 1 y = 110 }
+				font = "hoi_30"
 				borderSize = {x = 0 y = 0}
 				text = "FE_INTERESTING_COUNTRIES"
 				maxWidth = 340
@@ -762,8 +761,8 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "elections_label"
-				position = { x = 0 y = 115 }
-				font = "hoi_20bs"
+				position = { x = 0 y = 145 }
+				font = "previewer_gar_40"
 				borderSize = {x = 0 y = 0}
 				text = "ELECTIONS"
 				maxWidth = 340
@@ -772,8 +771,8 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "elections"
-				position = { x = 0 y = 132 }
-				font = "hoi_20b"
+				position = { x = 0 y = 180 }
+				font = "hoi_30"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -781,8 +780,8 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "party_label"
-				position = { x = 0 y = 155 }
-				font = "hoi_20bs"
+				position = { x = 0 y = 215 }
+				font = "previewer_gar_40"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
 				maxWidth = 340
@@ -791,9 +790,10 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "party"
-				position = { x = 0 y = 172 }
-				font = "hoi_20b"
+				position = { x = 0 y = 250 }
+				font = "hoi_30"
 				borderSize = {x = 0 y = 0}
+				text = [Root.GetRulingPartyLong]
 				maxWidth = 340
 				format = left
 			}
@@ -801,24 +801,25 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "nation_title"
-			position = { x = 437 y = 429 }
-			font = "hoi_20bs"
+			position = { x = 35 y = 405 }
+			font = "hoi_30"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 340
+			maxWidth = 290
 			maxHeight = 30	
-			format = centre
+			format = left
+			orientation = left
 		}
 
 		containerWindowType = {
 			name = "spirit"
-			position = { x = 451 y = 475 }
+			position = { x = 77% y = 72% }
 			
-			iconType ={
-				name ="pol_faction_icon"
-				spriteType = "GFX_pol_factions_strip"
-				position = { x= -4 y = -2 }
-				frame = 1
-			}
+#			iconType ={
+#				name ="pol_faction_icon"
+#				spriteType = "GFX_pol_factions_strip"
+#				position = { x= -300 y = -8 }
+#				frame = 4
+#			}
 			
 			containerWindowType = {
 				name ="ideas"
@@ -829,8 +830,8 @@ guiTypes = {
 					name ="ideas_grid"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 70 }
-					slotsize = { width = 60 height = 66 }
-					max_slots = { x = 3 y = 1 }
+					slotsize = { width = 80 height = 66 }
+					max_slots = { x = 5 y = 1 }
 					add_horizontal = yes
 					format = "UPPER_LEFT"
 				}
@@ -838,24 +839,23 @@ guiTypes = {
 			
 			containerWindowType = {
 				name ="focus"
-				position = { x = 9 y = 85 }
+				position = { x = 45 y = 130 }
 				size = { width = 100% height = 100 }
 				
 				gridboxType = {
 					name ="focus_grid"
 					position = { x = 17 y = 8 }
 					size = { width = 100% height = 100 }
-					slotsize = { width = 105 height = 100 }
+					slotsize = { width = 150 height = 100 }
 					max_slots = { x = 4 y = 1 }
 					add_horizontal = yes
-					format = "UPPER_LEFT"
 				}
 			}
 		}
 		
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 830 y = 440 }
+			position = { x = 90 y = 775 }
 			font = "vic_36s"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_HISTORY_TITLE"
@@ -866,11 +866,11 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "history"
-			position = { x = 808 y = 490 }
-			font = "vic_18s"
+			position = { x = 34 y = 810 }
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 380
-			maxHeight = 30	
+			maxWidth = 490
+			maxHeight = 70	
 			format = left
 		}
 	}

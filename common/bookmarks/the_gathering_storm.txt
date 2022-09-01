@@ -7,10 +7,12 @@ bookmarks = {
 		default = yes
 		
 		"WML"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+			history = "POLITICS_SZYMON_HOLOWNIA_DESC"
 		}
 		"BBW"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+			history = "POLITICS_RAFAL_ZIEMKIEWICZ_DESC"
 			ideas = {
 				BBW_steam_power
 				BBW_smog
@@ -23,7 +25,8 @@ bookmarks = {
 		}
 		}
 		"SAP"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+			history = "POLITICS_ANDRZEJ_SAPKOWSKI_DESC"
 			ideas = { 
 				SAP_divided_supporters
 				SAP_confused_population
@@ -35,7 +38,8 @@ bookmarks = {
 		}
 		}
 		"KRS"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+			history = "POLITICS_WITOLD_SKRZYDLEWSKI_DESC"
 			ideas = { 
 				KRS_corrupt_hospitals
 				KRS_lack_of_legitimacy
@@ -48,7 +52,8 @@ bookmarks = {
 		}
 		}
 		"ZYD"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+			history = "POLITICS_RED_RABBI_DESC"
 			ideas = {
 				ZYD_minority_rule
 				ZYD_mobile_ark
@@ -61,7 +66,9 @@ bookmarks = {
 		}
 		}
 		"ZHP"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+			ideology = scout_system_subtype
+			history = "POLITICS_ANDRZEJ_DUDA_DESC"
 			focuses = {
 				ZHP_prohibition_of_sex
 				ZHP_we_are_ready
