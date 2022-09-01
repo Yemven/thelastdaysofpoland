@@ -1,0 +1,119 @@
+
+division_template = {
+	name = "Sztandar Obrońców Malborka"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+division_template = {
+	name = "Chorągiew zbrojnych"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Milicja wiejska"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Pikinierzy"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Chorągiew zaciężna Zbrojnych Nowowiejskich"
+		location = 15939
+		division_template = "Chorągiew zbrojnych"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Rota Malborska"
+		location = 15947
+		division_template = "Chorągiew zbrojnych"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Sztandar Piechoty Malborskiej im. Władysława Jagiełły"
+		location = 2183
+		division_template = "Sztandar Obrońców Malborka"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2 Sztandard Kwidzyński 'Grunwald'"
+		location = 3586
+		division_template = "Sztandar Obrońców Malborka"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1 Sztandar Kwidzyński"
+		location = 15915
+		division_template = "Milicja wiejska"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Chorągiew ziemska 'Z Bogiem w Prusaków'"
+		location = 1341
+		division_template = "Milicja wiejska"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Sztandar Chłopski z Mikołajków Pomorskich"
+		location = 15920
+		division_template = "Milicja wiejska"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Milicja dzierzgońska"
+		location = 15942
+		division_template = "Milicja wiejska"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Pikinierzy sztumscy"
+		location = 3386
+		division_template = "Pikinierzy"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Pikinierzy nadwiślańscy"
+		location = 2844
+		division_template = "Pikinierzy"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+}
