@@ -79,9 +79,9 @@ units = {
 	}
 	division = {
 		name = "Chorągiew ziemska 'Z Bogiem w Prusaków'"
-		location = 1341
+		location = 15943
 		division_template = "Milicja wiejska"
-		start_experience_factor = 0.9
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 	
@@ -94,16 +94,8 @@ units = {
 	}
 	
 	division = {
-		name = "Milicja dzierzgońska"
-		location = 15942
-		division_template = "Milicja wiejska"
-		start_experience_factor = 0.9
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
 		name = "Pikinierzy sztumscy"
-		location = 3386
+		location = 2071
 		division_template = "Pikinierzy"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
