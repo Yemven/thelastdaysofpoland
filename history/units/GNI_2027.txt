@@ -52,7 +52,7 @@ units = {
 		location = 13486
 		division_template = "Rezerwowy Batalion Książecy"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1
+		start_equipment_factor = 0.8
 	}
 	
 	division = {
@@ -60,7 +60,7 @@ units = {
 		location = 13491
 		division_template = "Milicja Książeca"
 		start_experience_factor = 0.2
-		start_equipment_factor = 1
+		start_equipment_factor = 0.8
 	}
 
 	division = {
@@ -76,7 +76,7 @@ units = {
 		location = 14382
 		division_template = "Rezerwowy Batalion Książecy"
 		start_experience_factor = 0.2
-		start_equipment_factor = 1
+		start_equipment_factor = 0.9
 	}
 	
 	division = {
@@ -88,27 +88,11 @@ units = {
 	}
 	
 	division = {
-		name = "2. Koniński Książecy Pułk Milicyjny"
-		location = 13748
-		division_template = "Milicja Książeca"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
 		name = "Wrzesińska Drużyna Książeca"
 		location = 13526
 		division_template = "Drużyna Książeca"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "Wrzesińska Drużyna Milicyjna"
-		location = 13896
-		division_template = "Milicja Książeca"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
+		start_equipment_factor = 0.9
 	}
 	
 	division = {
@@ -116,7 +100,7 @@ units = {
 		location = 14492
 		division_template = "Drużyna Książeca"
 		start_experience_factor = 0.2
-		start_equipment_factor = 1
+		start_equipment_factor = 0.8
 	}
 	
 	division = {
@@ -124,7 +108,7 @@ units = {
 		location = 14239
 		division_template = "Rezerwowy Batalion Książecy"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1
+		start_equipment_factor = 0.7
 	}
 	
 	division = {
