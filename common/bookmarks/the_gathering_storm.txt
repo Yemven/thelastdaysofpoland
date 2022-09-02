@@ -9,14 +9,28 @@ bookmarks = {
 		"WML"={
 			minor = yes
 			history = "POLITICS_SZYMON_HOLOWNIA_DESC"
+			ideas = {
+				atlas_lodz
+				WML_baluty_radiation
+				WML_sphere_of_dialogue
+				WML_fragile_denial_of_reality
+				bosch_lodz
+				}
+			focuses = {
+				WML_new_morning_in_old_lodz
+				WML_system
+				WML_the_beginning_of_the_dialogue
+		}			
 		}
 		"BBW"={
 			minor = yes
 			history = "POLITICS_RAFAL_ZIEMKIEWICZ_DESC"
 			ideas = {
+				ec_belchatow
 				BBW_steam_power
 				BBW_smog
-				BBW_green_counter_revolution
+				BBW_carbon_fever
+				kombinat_cytadela
 				}
 			focuses = {
 				BBW_wiechowszczyzna
@@ -28,8 +42,11 @@ bookmarks = {
 			minor = yes
 			history = "POLITICS_ANDRZEJ_SAPKOWSKI_DESC"
 			ideas = { 
+				pudzian_sap
 				SAP_divided_supporters
 				SAP_confused_population
+				SAP_ravaged_country
+				zamet_sap
 				}
 			focuses = {
 				SAP_of_monsters_and_men
@@ -41,9 +58,11 @@ bookmarks = {
 			minor = yes
 			history = "POLITICS_WITOLD_SKRZYDLEWSKI_DESC"
 			ideas = { 
+				skrzydlewska_krs
 				KRS_corrupt_hospitals
-				KRS_lack_of_legitimacy
+				KRS_pawulon
 				KRS_wave_of_kidnappings
+				rutkowski_krs
 				}
 			focuses = {
 				KRS_up_in_the_town_of_krosniewice
@@ -55,9 +74,11 @@ bookmarks = {
 			minor = yes
 			history = "POLITICS_RED_RABBI_DESC"
 			ideas = {
+				ceramika_paradyz
 				ZYD_minority_rule
-				ZYD_mobile_ark
 				ZYD_unfinished_collectivization
+				ZYD_pitch_failures
+				gerlach_drzewica
 				}
 			focuses = {
 				ZYD_communal_and_robbery_economy
@@ -69,6 +90,13 @@ bookmarks = {
 			minor = yes
 			ideology = scout_system_subtype
 			history = "POLITICS_ANDRZEJ_DUDA_DESC"
+			ideas = {
+				fameg_zhp
+				ZHP_gray_lilies
+				ZHP_division_within_ranks
+				ZHP_partisan_legacy
+				wielton_zhp
+				}			
 			focuses = {
 				ZHP_prohibition_of_sex
 				ZHP_we_are_ready
