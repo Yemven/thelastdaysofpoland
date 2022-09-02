@@ -22,6 +22,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_new_morning_in_old_lodz
+		icon = WML_new_morning_in_old_lodz
 		available = {
 		
 		}
@@ -45,6 +46,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_behind_the_curtains_of_denial
+		icon = WML_behind_the_curtains_of_denial
 		relative_position_id = WML_new_morning_in_old_lodz
 		prerequisite = { focus = WML_new_morning_in_old_lodz }
 		available = {
@@ -70,6 +72,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_minuscule_civil_guard
+		icon = WML_minuscule_civil_guard
 		relative_position_id = WML_behind_the_curtains_of_denial
 		prerequisite = { focus = WML_behind_the_curtains_of_denial }
 		available = {
@@ -97,6 +100,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_energy_issues
+		icon = WML_energy_issues
 		relative_position_id = WML_behind_the_curtains_of_denial
 		prerequisite = { focus = WML_behind_the_curtains_of_denial }
 		available = {
@@ -122,6 +126,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_food_shortages
+		icon = WML_food_shortages
 		relative_position_id = WML_behind_the_curtains_of_denial
 		prerequisite = { focus = WML_behind_the_curtains_of_denial }
 		available = {
@@ -147,6 +152,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_lack_of_materials
+		icon = WML_lack_of_materials
 		relative_position_id = WML_behind_the_curtains_of_denial
 		prerequisite = { focus = WML_behind_the_curtains_of_denial }
 		available = {
@@ -171,6 +177,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WML_striking_workers
+		icon = WML_striking_workers
 		relative_position_id = WML_behind_the_curtains_of_denial
 		prerequisite = { focus = WML_behind_the_curtains_of_denial }
 		available = {
@@ -192,6 +199,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_city_will_hold_on
+		icon = WML_city_will_hold_on
 		relative_position_id = WML_food_shortages
 		prerequisite = { focus = WML_minuscule_civil_guard }
 		prerequisite = { focus = WML_energy_issues }
@@ -218,6 +226,7 @@ focus_tree = {
 	### STARE DRZEWKO ###
 	focus = {
 		id = WML_the_beginning_of_the_dialogue
+		icon = WML_the_beginning_of_the_dialogue
 		available = {
 		
 		}
@@ -238,6 +247,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_election_of_vice_president
+		icon = WML_election_of_vice_president
 		relative_position_id = WML_the_beginning_of_the_dialogue
 		prerequisite = { focus = WML_the_beginning_of_the_dialogue }
 		available = {}
@@ -259,6 +269,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_incomplete_compromise
+		icon = WML_incomplete_compromise
 		relative_position_id = WML_election_of_vice_president
 		prerequisite = { focus = WML_election_of_vice_president }
 		mutually_exclusive = { focus = WML_total_dialogue }
@@ -291,6 +302,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_industrial_lodz
+		icon = WML_industrial_lodz
 		relative_position_id = WML_incomplete_compromise
 		prerequisite = { focus = WML_incomplete_compromise }
 		mutually_exclusive = { focus = WML_forest_lodz }
@@ -315,6 +327,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_forest_lodz
+		icon = WML_forest_lodz
 		relative_position_id = WML_incomplete_compromise
 		prerequisite = { focus = WML_incomplete_compromise }
 		mutually_exclusive = { focus = WML_industrial_lodz }
@@ -338,6 +351,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_lodz_industry
+		icon = WML_lodz_industry
 		relative_position_id = WML_industrial_lodz
 		prerequisite = { focus = WML_industrial_lodz }
 		available = {
@@ -359,6 +373,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_renovation_of_lask_airport
+		icon = WML_renovation_of_lask_airport
 		relative_position_id = WML_lodz_industry
 		prerequisite = { focus = WML_lodz_industry }
 		available = {
@@ -387,6 +402,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_state_positions_for_the_power_plant_staff
+		icon = WML_state_positions_for_the_power_plant_staff
 		relative_position_id = WML_renovation_of_lask_airport
 		prerequisite = { focus = WML_renovation_of_lask_airport }
 		available = {
@@ -408,6 +424,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_mining_in_lodz
+		icon = WML_mining_in_lodz
 		relative_position_id = WML_state_positions_for_the_power_plant_staff
 		prerequisite = { focus = WML_state_positions_for_the_power_plant_staff }
 		available = {
@@ -429,6 +446,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_construction_of_parks
+		icon = WML_construction_of_parks
 		relative_position_id = WML_forest_lodz
 		prerequisite = { focus = WML_forest_lodz }
 		available = {
@@ -450,6 +468,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_scout_commandos
+		icon = WML_scout_commandos
 		relative_position_id = WML_construction_of_parks
 		prerequisite = { focus = WML_construction_of_parks }
 		available = {
@@ -471,6 +490,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_spartan_standards
+		icon = WML_spartan_standards
 		relative_position_id = WML_scout_commandos
 		prerequisite = { focus = WML_scout_commandos }
 		available = {
@@ -492,6 +512,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_lily_agents
+		icon = WML_lily_agents
 		relative_position_id = WML_spartan_standards
 		prerequisite = { focus = WML_spartan_standards }
 		available = {
@@ -514,6 +535,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_fantastical_lodz
+		icon = WML_fantastical_lodz
 		relative_position_id = WML_incomplete_compromise
 		prerequisite = { focus = WML_incomplete_compromise }
 		mutually_exclusive = { focus = WML_forest_lodz }
@@ -540,6 +562,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_ignacy_moscicki_potions_laboratory
+		icon = WML_ignacy_moscicki_potions_laboratory
 		relative_position_id = WML_fantastical_lodz
 		prerequisite = { focus = WML_fantastical_lodz }
 		available = {
@@ -561,6 +584,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_wizardring_schools
+		icon = WML_wizardring_schools
 		relative_position_id = WML_ignacy_moscicki_potions_laboratory
 		prerequisite = { focus = WML_ignacy_moscicki_potions_laboratory }
 		available = {
@@ -582,6 +606,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_witcher_training
+		icon = WML_witcher_training
 		relative_position_id = WML_wizardring_schools
 		prerequisite = { focus = WML_wizardring_schools }
 		available = {
@@ -603,6 +628,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_support_of_landowners
+		icon = WML_support_of_landowners
 		relative_position_id = WML_witcher_training
 		prerequisite = { focus = WML_witcher_training }
 		available = {
@@ -624,6 +650,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_fairer_lodz
+		icon = WML_fairer_lodz
 		relative_position_id = WML_incomplete_compromise
 		prerequisite = { focus = WML_incomplete_compromise }
 		mutually_exclusive = { focus = WML_the_primacy_of_entrepreneurs }
@@ -646,6 +673,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_the_primacy_of_entrepreneurs
+		icon = WML_the_primacy_of_entrepreneurs
 		relative_position_id = WML_incomplete_compromise
 		prerequisite = { focus = WML_incomplete_compromise }
 		mutually_exclusive = { focus = WML_fairer_lodz }
@@ -668,6 +696,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_the_rights_of_religious_minorities
+		icon = WML_the_rights_of_religious_minorities
 		relative_position_id = WML_fairer_lodz
 		prerequisite = { focus = WML_fairer_lodz }
 		available = {
@@ -689,6 +718,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_primacy_of_trade_unions
+		icon = WML_primacy_of_trade_unions
 		relative_position_id = WML_the_rights_of_religious_minorities
 		prerequisite = { focus = WML_the_rights_of_religious_minorities }
 		available = {
@@ -718,6 +748,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_co_-_financing_of_sports
+		icon = WML_co_-_financing_of_sports
 		relative_position_id = WML_primacy_of_trade_unions
 		prerequisite = { focus = WML_primacy_of_trade_unions }
 		available = {
@@ -739,6 +770,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_defenders_of_faith
+		icon = WML_defenders_of_faith
 		relative_position_id = WML_co_-_financing_of_sports
 		prerequisite = { focus = WML_co_-_financing_of_sports }
 		available = {
@@ -760,6 +792,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_preferential_government_contracts
+		icon = WML_preferential_government_contracts
 		relative_position_id = WML_the_primacy_of_entrepreneurs
 		prerequisite = { focus = WML_the_primacy_of_entrepreneurs }
 		available = {
@@ -789,6 +822,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_tax_breaks
+		icon = WML_tax_breaks
 		relative_position_id = WML_preferential_government_contracts
 		prerequisite = { focus = WML_preferential_government_contracts }
 		available = {
@@ -813,6 +847,7 @@ focus_tree = {
 	
 		focus = {
 		id = WML_graves_of_an_unknown_soldier
+		icon = WML_graves_of_an_unknown_soldier
 		relative_position_id = WML_tax_breaks
 		prerequisite = { focus = WML_tax_breaks }
 		available = {
@@ -834,6 +869,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_private_security_agencies
+		icon = WML_private_security_agencies
 		relative_position_id = WML_graves_of_an_unknown_soldier
 		prerequisite = { focus = WML_graves_of_an_unknown_soldier }
 		available = {
@@ -855,6 +891,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_total_dialogue
+		icon = WML_total_dialogue
 		relative_position_id = WML_election_of_vice_president
 		prerequisite = { focus = WML_election_of_vice_president }
 		mutually_exclusive = { focus = WML_incomplete_compromise }
@@ -879,6 +916,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_system
+		icon = WML_system
 		relative_position_id = WML_total_dialogue
 		prerequisite = { focus = WML_total_dialogue }
 		available = {
@@ -900,6 +938,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_military
+		icon = WML_military
 		relative_position_id = WML_total_dialogue
 		prerequisite = { focus = WML_total_dialogue }
 		available = {
@@ -921,6 +960,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_economy
+		icon = WML_economy
 		relative_position_id = WML_total_dialogue
 		prerequisite = { focus = WML_total_dialogue }
 		available = {
@@ -944,6 +984,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_entrepreneurial_syndicalism
+		icon = WML_entrepreneurial_syndicalism
 		relative_position_id = WML_system
 		prerequisite = { focus = WML_system }
 		available = {
@@ -965,6 +1006,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_scout_guard
+		icon = WML_scout_guard
 		relative_position_id = WML_entrepreneurial_syndicalism
 		prerequisite = { focus = WML_entrepreneurial_syndicalism }
 		available = {
@@ -986,6 +1028,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_ennoblement_of_entrepreneurs
+		icon = WML_ennoblement_of_entrepreneurs
 		relative_position_id = WML_scout_guard
 		prerequisite = { focus = WML_scout_guard }
 		available = {
@@ -1007,6 +1050,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_state_farms_of_the_skrzydlewski_family
+		icon = WML_state_farms_of_the_skrzydlewski_family
 		relative_position_id = WML_economy
 		prerequisite = { focus = WML_economy }
 		available = {
@@ -1028,6 +1072,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_gas_and_sun
+		icon = WML_gas_and_sun
 		relative_position_id = WML_state_farms_of_the_skrzydlewski_family
 		prerequisite = { focus = WML_state_farms_of_the_skrzydlewski_family }
 		available = {
@@ -1056,6 +1101,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_catholic_guilds
+		icon = WML_catholic_guilds
 		relative_position_id = WML_gas_and_sun
 		prerequisite = { focus = WML_gas_and_sun }
 		available = {
@@ -1077,6 +1123,7 @@ focus_tree = {
 	
 	focus = {
 		id = WML_looting_expeditions
+		icon = WML_looting_expeditions
 		relative_position_id = WML_military
 		prerequisite = { focus = WML_military }
 		available = {

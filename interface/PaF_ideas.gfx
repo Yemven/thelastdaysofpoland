@@ -392,6 +392,38 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/KRS/KRS_wave_of_kidnappings.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_KRS_civil_servants_as_soldiers"
+		texturefile = "gfx/interface/ideas/KRS/KRS_civil_servants_as_soldiers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_civil_servants_as_paramedics"
+		texturefile = "gfx/interface/ideas/KRS/KRS_civil_servants_as_soldiers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_seryjny_samobojca"
+		texturefile = "gfx/interface/ideas/KRS/KRS_seryjny_samobojca.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KRS_civil_servants_as_managers"
+		texturefile = "gfx/interface/ideas/KRS/KRS_civil_servants_as_soldiers.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KRS_lab3"
+		texturefile = "gfx/interface/ideas/KRS/KRS_lab3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_60"
+		texturefile = "gfx/interface/ideas/KRS/KRS_60.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KRS_institute"
+		texturefile = "gfx/interface/ideas/KRS/KRS_institute.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KRS_chinskie_leki"
+		texturefile = "gfx/interface/ideas/KRS/KRS_chinskie_leki.dds"
+	}	
+	spriteType = {
 		name = "GFX_idea_ZYD_mobile_ark"
 		texturefile = "gfx/interface/ideas/ZYD/ZYD_mobile_ark.dds"
 	}
@@ -407,6 +439,23 @@ spriteTypes = {
 		name = "GFX_idea_ZHP_conservatist_economy"
 		texturefile = "gfx/interface/ideas/ZHP/ZHP_conservatist_economy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_ZHP_podzial_rang"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_podzial_rang.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_pomysl_armii_wolontariuszy"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_pomysl_armii_wolontariuszy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_szara_lilijka"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_szara_lilijka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_legacja_partyzany"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_legacja_partyzany.dds"
+	}	
+
 	spriteType = {
 		name = "GFX_idea_WML_baluty_radiation"
 		texturefile = "gfx/interface/ideas/WML/WML_baluty_radiation.dds"
@@ -567,4 +616,29 @@ spriteTypes = {
 		name = "GFX_idea_weaponised_pavulon"
 		texturefile = "gfx/interface/ideas/KRS/weaponised_pavulon.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_ZYD_pitch_failures"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_pitch_failures.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_eleven_falashas"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_eleven_falashas.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_ZYD_eleven_praca"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_eleven_praca.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_unfinished_collectivization"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_unfinished_collectivization.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_BBW_smol_biznes"
+		texturefile = "gfx/interface/ideas/BBW/BBW_smol_biznes.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_WML_fragile_denial_of_reality"
+		texturefile = "gfx/interface/ideas/WML/WML_fragile_denial_of_reality.dds"
+	}	
+	
 }
