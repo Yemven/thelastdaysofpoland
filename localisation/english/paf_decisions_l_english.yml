@@ -9,19 +9,25 @@ controls_lublin_voivodeship:0 "Controls the entire Lublin Voivodeship"
 
 weapon_dealer:0"Weapon Dealer"
 weapon_dealer_desc:0"We've managed to find a reliable source for procuring new weapons, even from well-renown companies."
-sell_ranged:0"Sell Ranged Weapons"
-sell_melee:0"Sell Melee Equipment"
+sell_ranged:0"Sell Old Ranged Weapons"
+sell_melee:0"Sell Old Melee Equipment"
 
 buy_german_ranged:0"Buy German Guns"
-buy_swedish_ranged:0"Buy Swedish Guns"
-buy_ukrainian_ranged:0"Buy Ukrainian Guns"
+buy_german_ranged_desc:0 "Ever since the European army halted its advance, the Eurokommissariats have devolved into what is basically a country-sized black market operation, and German guns became a commonly available good or even a currency of sorts. We don't even need to search for any German ex-soldiers or smugglers, we can just hit up any local arms dealer to get our hands on them."  
+buy_swedish_ranged:0"Buy Guns From Sweden"
+buy_swedish_ranged_desc:0 "Very few Swedish guns have reached Poland due to the Swedish government's surprising reluctance to partake in the European intervention. Their scarcity has given them a certaint status among the populace, however, and the usage of them is seen as both more prestigious in the eyes of gangsters and as more patriotic in the eyes of the commonfolk. Through our connections with the always enigmatic Master Weapon Dealer we can secure a large supply of armament provided by Swedish smugglers for ourselves." 
+buy_ukrainian_ranged:0"Strike a Deal with the Ukrainians"
+buy_ukrainian_ranged_desc:0 "The Ukrainian Humanitarian Mission in Poland has fallen prey to saboteurs from Rzeszów and Nisko, leaving only those with a dubious reputation on our side of the border: nationalist ex-humanitarian workers enraged by Braun's betrayal and refusal of Ukrainian help, humanitarian workers who banded up together with Polish villagers and formed a joint quasi-military government of sorts, the few Ukrainian border guards who still occupy Medyka and gangsters. Gangsters who are more than willing to sell us their old armament, left behind by the Soviet government and the Russian army in 1991 and 2022."
 buy_russian_ranged:0"Buy Russian Guns"
-buy_radom_ranged:0"Buy Radom-Made Guns"
+buy_russian_ranged_desc:0 "Once Navalny took power in Moscow and started his crusade against the corruption and crime that have been synonymous with the Russian government since times immemorial, many Russkie mafiozos and gangbangers ran abroad, trying to escape his judgement. With no perspectives in life, seemingly left to die in a hostile world, they've been saved by the downfall of the Polish state which allowed them to get back to a life of crime by forming a competition to German arms dealers and even establishing back some of the old connections with pro-Russian Polish political organisations and the remains of the old guard of Russian politics."
+buy_radom_ranged:0"Sign an Arms Deal with Radom"
+buy_radom_ranged_desc:0 "A real patriot supports domestic products. There's even a certain Polish saying about this: 'cudze chwalicie, swego nie znacie', which roughly translates to 'stop creaming yourself to foreign garbage and start appreciating our own shit instead'."
+
 buy_german_melee:0"Buy German Melee Equipment"
-buy_swedish_melee:0"Buy Swedish Melee Equipment"
-buy_ukrainian_melee:0"Buy Ukrainian Melee Equipment"
+buy_swedish_melee:0"Buy Melee Equipment from Sweden"
+buy_ukrainian_melee:0"Buy Melee Equipment from the Ukrainians"
 buy_russian_melee:0"Buy Russian Melee Equipment"
-buy_radom_melee:0"Buy Radom-Made Melee Equipment"
+buy_radom_melee:0"Sign a Melee Equipment Deal with Radom"
 
 #unused
 buy_austrian_ranged:0"Buy Austrian Guns"
@@ -88,45 +94,86 @@ military_parade:0 "Military Parade"
 military_parade_desc:0 "zróbmy 9 maja co"
 
 ##### GENERIC IDEOLOGY DECISIONS #####
-generic_decisions_eurolib_category:0 "§2Euroliberal§! Decisions"
-generic_decisions_react_category:0 "§0Reactionary§! Decisions"
-generic_decisions_corporate_category:0 "§CCorporativist§! Decisions"
+generic_decisions_eurolib_category:0 "§OEuroliberal§! Actions"
+generic_decisions_patcon_category:0 "§2Conservative§! Actions"
+generic_decisions_autocrat_category:0 "§gAutocratic§! Actions"
+generic_decisions_react_category:0 "§0Reactionary§! Actions"
+generic_decisions_corporate_category:0 "§CCorporativist§! Actions"
 
 eurolib_pro_federalist_propaganda:0 "Entrench liberal mindsets among the populace"
 eurolib_pro_federalist_propaganda_desc:0 "Due to Poland's history of foreign occupations and germanization or russification, Poles have adopted a very cautious and conservative approach to foreign ideas and cultural notions, which are immedeatly received by them as invasive and intrusive. We can warm the public eye's image of ourselves through cultural subsidies and development of villages and cities that have been neglected by the previous, conservative regime."
+
 eurolib_complicate_bureaucracy:0 "Rig bureaucracy in our favour"
 eurolib_complicate_bureaucracy_desc:0 "'EKHEM... ACKCHYUALLY, the documents provided by you cannot be accepted by us, as they are not up to the Default Local Paperwork Standard included in the Chungus-Quagmire Chart Measurement Form that JUUUUUST SO HAPPENS to have been accepted yesterday by the Provisional Insitute of Governance and Development of the Łososina Dolna-Cyców Region. Ergo, they have been declared null and void, and so did your request to the Local Transitionary Government of Zadupie Dolne.'"
+
 eurolib_taxes_increase:0 "Crank up tax revenues"
 eurolib_taxes_increase_desc:0 "A liberal state has to simultaneously fund tons of projects, subsidies and investments as well as the bureaucracy associated with them. And we are slowly running out of funds and resources. Our people will have to bit their lip a bit to fund living conditions worthy of a first world state for themselves."
+
 eurolib_agricultural_funds:0 "Subsidize agriculture"
 eurolib_agricultural_funds_desc:0 "Food is hard to get by nowadays. So are other products and goods. By funding our farmers, we can win the hearts of farmers on our lands and at least slightly increase the availability of food and farm products."
+
 eurolib_public_works_funds:0 "Subsidize public works and projects"
 eurolib_public_works_funds_desc:0 "Times are hard. People are either struggling with surviving to the next day, or trying to keep their battered psyche intact. We should fund some public artists and development projects to make the reality they're living in at least a little bit less harsh and drab for them. Small local artisans who decorate houses in traditional ways, new town parks and attractions, improved city infrastructure to make their daily commute a tad more bearable - all those things will help our image and provide our people with something to admire in these bleak times."
+
 eurolib_cultural_dev_funds:0 "Subsidize artists"
 eurolib_cultural_dev_funds_desc:0 "There's much to be gained from funding various types of artists in our lands, from loudspeaking political caricaturists to small local painters, sculptors and artisanal artists. Depending on whom are we subsidizing, we can either discredit our enemies and improve the public's opinion about us, or help out small communities and aspiring artists with sharing their art with the world." 
+
 eurolib_implement_harsher_gun_laws:0 "Enforce stricter gun control"
 eurolib_implement_harsher_gun_laws_desc:0 "Even before the Fall, most gun owners in Poland were made out to be weirdos and political radicals who definitely shouldn't be allowed anywhere near firearms. However, now that every larger settlement is at war with their neighbours, this stereotype became truth. Implementing strict gun laws and strongly enforcing them in newly acquired land will not only disarm most potentially dangerous individuals in the area, but also enlarge our own stockpile of weapons."
-eurolib_offensive_war_propaganda:0 "§ROffensive§! War Propaganda"
+
+eurolib_offensive_war_propaganda:0 "'Liberation' rhetoric"
 eurolib_offensive_war_propaganda_desc:0 "Push the frontline forward! Every captured village is a §2liberized§! village!"
-eurolib_defensive_war_propaganda:0 "§2Defensive§! War Propaganda"
+eurolib_defensive_war_propaganda:0 "For freedom of ours and yours"
 eurolib_defensive_war_propaganda_desc:0 "We cannot let them break our lines! Remember - we're fighting for the §2freedom§! of our wifes and daughters!"
+
+
+
+autocrat_get_army_on_streets:0 "Tighten our control"
+autocrat_get_army_on_streets_desc:0 "We need to keep our people on a tight leash, unless we want them to start undermining our authority, or even worse yet - to suddenly stab us in the back. A couple of civil restrictions and a little police sweep of less loyal streets and settlements will keep any locals from raising their hand on us."
+
+autocrat_take_guns_from_people:0 "Seize guns from the populace"
+autocrat_take_guns_from_people_desc:0 "If we ever start running short on guns, we can simply seize them from our people. After all, they won't be able to put up any resistance, if they won't have anything to rebel with."
+
+autocrat_force_people_to_work:0 "'Motivate' the workers"
+autocrat_force_people_to_work_desc:0 "We need to keep our weapon manufacturers working at rates higher than their predicted norm. For the war effort. Therefore, our policing forces should check onto our factories and workshops from time to time to catch any slackers and send them back to work."
+
+######################################################################pomysł na potencjalną decyzję: Show our force/Brandish our guns: In order to keep our people in check, we need to remind them who's the boss here every once in a while. We cannot use direct force, however, as that would only encourage troublemakers to stand up for themselves. Instead, we should use a gunboat diplomacy-like approach and simply brandish our guns in front of them through organizing military parades, joint exercises where the civvies have to cooperate with the military and other such public actions.
+
+
+
+patcon_organize_a_grand_mass:0 ""
+patcon_organize_a_grand_mass_desc:0 ""
+patcon_gather_the_guns:0 ""
+patcon_gather_the_guns_desc:0 ""
+patcon_fund_church_owned_businesses:0 ""
+patcon_fund_church_owned_businesses_desc:0 ""
+
+
 
 react_rewrite_unfavorable_history:0 "Rewrite problematic history"
 react_rewrite_unfavorable_history_desc:0 "Some parts of our forefathers' history are quite problematic. We should rewrite them or hide them away from the public eye to cement our reputation of noble benefactors among those who are easily influenceable."
-react_exploit_nostalgy:0 "Exploit Nostalgy"
-react_exploit_nostalgy_desc:0 "Recently we found out a great opportunity to exploit nostalgy, feeling that is so present in our populaces mind. Using simple tricks and changes we can make people feel like their time of prime haven't gone away completly, making them far more complecent and satisfied."
-react_tell_people_what_they_want_to_hear:0 "Tell people, what they want to Hear"
-react_tell_people_what_they_want_to_hear_desc:0 "Customer is always Right! These are known principles of capitalist companies operation. It's actually suprising how easily and effectively can this be applied to the propaganda industry. By following these principles we can quickly create feeling in population of having common goals with the goverment, making our governance that much easier."
-react_rebuild_the_good_old_days:0 "Rebuild the Good Old Days"
-react_rebuild_the_good_old_days_desc:0 "No paradise will just come to us, thus we need to make one. One that will be just as good or even better than the one in §0Good Old Days§!. Unfortunetly, this task unfortunetly requires a lot of work and we are barely starting. §0There is much to be done...§!"
-react_return_to_old_ways:0 "Return to the Good Old Times"
-react_return_to_old_ways_desc:0 "Simply reliving memories of our best days is not enough. We §0MUST§! make them a reality once again, so that future generations and us could experience these long gone, §0Times of Greatness!§!" 
-react_warriors_of_great_past:0 "Warriors of our Magnificent Past"
-react_warriors_of_great_past_desc:0 "These §0Brave§! and §0Honorable§! Warriors are few people fit to bear torch of §0Humility§! to the §0Past§! and grant it to both, §0Present§! and §0Future§!. Unfortunetly these kind of people are few and usually hidden among the filth of §0unblessed§!. We need to find as many of them as we can, convince them, train them and ready them to our Cause!"
-react_proclaim_holy_war:0 "Proclaim §0Holy War§!"
-react_proclaim_holy_war_desc:0 "§0Holy War§! is an act being a §0Pinnacle§! of every §GEternal Civilisation§!. Only those §0most Devoted§!, with §0biggest Piety§! and §0steadfast Faith§! are able to achieve this act of §0Immortal Glory§!. A §0Magnificent§! act that decides the fate of §0Nations, Empires and History as a whole...§!"
-react_holy_war_tt:0 "By Proclaiming a §0Holy War§! against our current enemies, we will gain §GMassive Benefits§! that will be present until our §YState of War§! ends. In exchange for that, we will suffer a §RGreat Blow to our Stability.§!"
-react_holy_war_devotion_tt:0 "We are at §0War§! and our §0War Devotion§! is at least at §075%§!"
+
+react_exploit_nostalgy:0 "Increase our direct control over the populace"
+react_exploit_nostalgy_desc:0 "Progressive dissidents are awaiting us behind every corner, trying to sabotage our efforts to bring things back to how they used to be - §0to how they *should* be§!. We need to increase the levels of our direct control over the population to halt the spread of their inane, liberal bullshit."
+
+react_tell_people_what_they_want_to_hear:0 "Tell the people what they want to hear"
+react_tell_people_what_they_want_to_hear_desc:0 "Success rhetoric is one of the easier ways of"
+
+react_rebuild_the_good_old_days:0 "Entrust control over businesses to the Church"
+react_rebuild_the_good_old_days_desc:0 ""
+
+react_return_to_old_ways:0 "Implement reactionary policies"
+react_return_to_old_ways_desc:0 "" 
+
+react_warriors_of_great_past:0 "Relive old grudges"
+react_warriors_of_great_past_desc:0 ""
+
+react_proclaim_holy_war:0 "Fan the flames of hatefulness"
+react_proclaim_holy_war_desc:0 ""
+react_holy_war_tt:0 "Targeting the populace's spitefulness against our current enemies will urge it to fight harder, §Ggiving us benefits§! until the war ends. A rabid population is harder to control, however, and we will suffer a §Rblow to our stability§!."
+react_holy_war_devotion_tt:0 "We are at war and our War Support is at least at §075%§!"
+
+
 
 corp_commie_danger_tt:0 "§RReds§! presence is at least noticable"
 corpo_lefties_crush_tt:0 "Once §RCommie§! Threat arises in our country to at least concerning levels, we will be able to crush them with our §CUnmatched Power!§!"
