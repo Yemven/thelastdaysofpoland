@@ -145,8 +145,8 @@ patcon_organize_a_grand_mass:0 "Organize state-backed religious ceremonies"
 patcon_organize_a_grand_mass_desc:0 ""
 
 patcon_gather_the_guns:0 "Let our loyalists bankroll our endeavors"
-
 patcon_gather_the_guns_desc:0 "pan xiądz przyjdzie i ładnie poprosi o szekle na gnaty dla pisu"
+
 patcon_fund_church_owned_businesses:0 "Entrust control over businesses to the Church"
 patcon_fund_church_owned_businesses_desc:0 ""
 
@@ -156,24 +156,30 @@ react_rewrite_unfavorable_history:0 "Rewrite problematic history"
 react_rewrite_unfavorable_history_desc:0 "Some parts of our forefathers' history are quite problematic. We should rewrite them or hide them away from the public eye to cement our reputation of noble benefactors among those who are easily influenceable."
 
 react_exploit_nostalgy:0 "Increase our direct control over the populace"
-react_exploit_nostalgy_desc:0 "Progressive dissidents are awaiting us behind every corner, trying to sabotage our efforts to bring things back to how they used to be - §0to how they *should* be§!. We need to increase the levels of our direct control over the population to halt the spread of their inane, liberal bullshit."
+react_exploit_nostalgy_desc:0 "Various ideological dissidents are awaiting us behind every corner, trying to sabotage our efforts to bring things back to how they used to be - to how they *should* be. We need to increase the levels of our direct control over the population to halt the spread of their inane ideas."
 
 react_tell_people_what_they_want_to_hear:0 "Tell the people what they want to hear"
 react_tell_people_what_they_want_to_hear_desc:0 "Propaganda of success works, because people LOVE to hear things that are right up their alley - it's why all reactionary politicians and governments need to keep bombarding their loyalists with constant news on how foreign powers envy our nation's stability, economic growth and resilience against foreign, harmful agendas, promises of brand new social programs and policies which will develop the state into THE independent world power that's free from globalism and foreign meddling and tales of unspeakable acts of terror and degeneracy commited by their enemies that legitimize the state's interference in its citizens' daily life."
 
 react_rebuild_the_good_old_days:0 "Entrust control over businesses to the Church"
-react_rebuild_the_good_old_days_desc:0 ""
+react_rebuild_the_good_old_days_desc:0 "Weirdos and foreign agents surround us from all sides - thankfully, we're not the sole force standing up against them, for we have the Church on our side, and not only does the clergy know how to lead people's minds and hearts in the right direction, it also is GREAT at handling money and connections. By entrusting them with control over businesses (both ones of real and of dubious legality), government institutions and various sectors of the economy we can cement our cooperation with them and secure the growth of both the Church's and the state's coffers."
 
 react_return_to_old_ways:0 "Implement reactionary policies"
-react_return_to_old_ways_desc:0 "" 
+react_return_to_old_ways_desc:0 "Our mission is simple: bring back the old order - the old way of life from back when things were simpler and made more sense to the commonfolk. Therefore, we need to implement new reactionary policies that will bring us a step closer to the good ol' days and allow us to at least partially relive their glory again." 
 
-react_warriors_of_great_past:0 "Relive old grudges"
-react_warriors_of_great_past_desc:0 ""
+react_warriors_of_great_past:0 "Reminisce over heroes of our past"
+react_warriors_of_great_past_desc:0 "Our history has given us a bit of a complex. Ahhh... if only we could be as brave and noble as those who fought to save Poland in the days of the Second Republic and the Commonwealth. Ahh... if only we could be as noble as the knights who fought in Grunwald against the treacherous Teutons. As famous and legendary as the Winged Hussars who seized Moscow in 1610. As brave as Kościuszko's kosynierzy. As fast as the Ułans who drove the Soviets back to Russia and as patriotic, resilient and heroic as the Polish partisans during the Warsaw uprising. Ah... if only... \n... \n...actually, you know what? Scratch that. We shouldn't just reminiscent about them. We should BE like them - because just like the heroes of our past, we're fighting for Poland's survival."
+#prawdopodobnie przydałoby się zaprogramować osobną wersję tej decyzji dla teutonów
 
-react_proclaim_holy_war:0 "Fan the flames of hatefulness"
-react_proclaim_holy_war_desc:0 ""
-react_holy_war_tt:0 "Directing the populace's hate at our current enemies will urge it to fight harder, §Ggiving us benefits§! until the war ends. A rabid population is harder to control, however, and we will suffer a §Rblow to our stability§!."
-react_holy_war_devotion_tt:0 "We are at war and our War Support is at least at §075%§!"
+react_proclaim_holy_war:0 "Fight for Poland, just like our fathers did!"
+react_proclaim_holy_war_desc:0 "'HEAR YE! HEAR YE! The wolves are at the gates! We have to stand up for ourselves! Arm yourselves, mount your horses and at them, like the Hussars and the Uhlans! HEJ, KTO POLAK - NA BAGNETY!'"
+react_holy_war_tt:0 "Conducting a war propaganda campaign will §Ggive us sizeable benefits§! for the duration of the war. However, we will receive a §Rblow to our stability§! once the dust settles and the overt optimism among the populace dies down."
+react_holy_war_devotion_tt:0 "We are at war and our War Support is at least at §H75%§!"
+#
+#prawdopodobnie przydałoby się zaprogramować osobną wersję tej decyzji dla teutonów i schulza
+#można by też walnąć tu odrębną wersję dla brauna i bieszka, do których akurat pasowałoby bardziej schizolska i furiacka wersja tej decyzji
+#
+###stara wersja our cause is just którą potencjalnie można by gdzieś indziej wykorzystać: While we'd rather prefer our people to be docile than potentially opposed to our cause, we can let them off their leashes while we're waging deadly wars with our neighbours. This is because hate is the most unifying of notions, and even those fundamentally opposed to our ethos of the past will stand side by side with us if they see our enemies as the bigger threat. So HEAR YE, PEOPLE! Fan the flames in your forges! Forge swords to kill with! For we have a mighty beast to slay - one that intends to slay *us* first...
 
 
 
