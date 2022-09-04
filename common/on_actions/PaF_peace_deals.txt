@@ -258,11 +258,18 @@ on_actions = {
 				set_global_flag = war_won
 				set_global_flag = skip_default_capitulation
 				FROM = {
-					white_peace = ROOT
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
+					every_controlled_state = {
+						limit = {
+							is_owned_by = ROOT
+						}
+						transfer_state_to = FROM
 					}
+					
+					#white_peace = ROOT
+					#annex_country = {
+						#target = ROOT
+						#transfer_troops = no
+					#}
 				}
 			}
 		}
