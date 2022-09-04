@@ -76,9 +76,6 @@ BBW_pollution_category = {
         tag = BBW
     }
     priority = 50
-    #picture = GFX_decision_category_picture
-	#Tu dać jakieś kominy z dymem czarnym
-    #icon = BBW_category
     visible_when_empty = no
 }
 
@@ -100,7 +97,6 @@ KRS_funeral_gains_category = {
     }
     priority = 50
     #picture = GFX_decision_category_picture
-	#Tu dać jakieś kominy z dymem czarnym
     #icon = BBW_category
     visible_when_empty = no
 }
@@ -274,6 +270,46 @@ generic_decisions_react_category = {
 	allowed = {
 		hidden_trigger = {
 		has_government = reactionary
+		}
+		NOT = {
+			OR = {
+			tag = BBW
+			tag = ZWK
+			tag = TEU
+			tag = DRO
+			tag = RZE
+			tag = LCH
+			}
+		}
+	}
+}
+
+generic_decisions_react_shizo_category = {
+	priority = 10
+	icon = generic_economy
+	visible_when_empty = yes
+	visible = {
+		has_government = reactionary
+		OR = {
+		tag = BBW
+		tag = ZWK
+		tag = TEU
+		tag = DRO
+		tag = RZE
+		tag = LCH
+		}
+	}
+	allowed = {
+		hidden_trigger = {
+		has_government = reactionary
+		}
+		OR = {
+		tag = BBW
+		tag = ZWK
+		tag = TEU
+		tag = DRO
+		tag = RZE
+		tag = LCH
 		}
 	}
 }

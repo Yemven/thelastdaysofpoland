@@ -100,6 +100,7 @@ generic_decisions_autocrat_category:0 "§gAutocratic§! Actions"
 generic_decisions_react_category:0 "§0Reactionary§! Actions"
 generic_decisions_corporate_category:0 "§CCorporativist§! Actions"
 
+#EUROLIB#
 eurolib_pro_federalist_propaganda:0 "Entrench liberal mindsets among the populace"
 eurolib_pro_federalist_propaganda_desc:0 "Due to Poland's history of foreign occupations, Germanisation and Russification, Poles have adopted a very cautious and conservative approach to foreign ideas and cultural notions, which are immedeatly received by them as invasive and intrusive. We can warm the public eye's image of ourselves through cultural subsidies and development of villages and cities that have been neglected by the previous, conservative regime."
 
@@ -120,14 +121,12 @@ eurolib_cultural_dev_funds_desc:0 "There's much to be gained from funding variou
 
 eurolib_implement_harsher_gun_laws:0 "Enforce stricter gun control"
 eurolib_implement_harsher_gun_laws_desc:0 "Even before the Fall, most gun owners in Poland were made out to be weirdos and political radicals who definitely shouldn't be allowed anywhere near firearms. However, now that every larger settlement is at war with their neighbours, this stereotype became truth. Implementing strict gun laws and strongly enforcing them in newly acquired land will not only disarm most potentially dangerous individuals in the area, but also enlarge our own stockpile of weapons."
+eurolib_offensive_war_propaganda:0 "Offensive War Propaganda"
+eurolib_offensive_war_propaganda_desc:0 "Our society was drenched in pacifism and embracement of normal life. So its not easy to convince people from free world that we need to go to the offensive war. The second we will start an invasion, our media will brand us as Imperialists, while our population will flock to the streets to show us their anger. Best way to reduce this is to craft an irrefutably righteous cause of our Invasion. This "proof" can be anything from a horrifying "confessions" made by a small girl, to a falsified claim of production and research of forbidden Weapons."
+eurolib_defensive_war_propaganda:0 "Defensive War Propaganda"
+eurolib_defensive_war_propaganda_desc:0 "Antifragility - a term applicable towards western societies, meaning unparalleled unity in times of foreign invasion or attack. This term is applicable right now, as we find ourselves in such crisis. Such circumstances make all those who would normaly be against us, becoming our most devoted allies, as we all are brothers and sisters of the same nation, nation that find itself in a great need! Now, we should only give a small guided push, one that will guide our nation to its fullest potential in this conflict."
 
-eurolib_offensive_war_propaganda:0 "'Liberation' rhetoric"
-eurolib_offensive_war_propaganda_desc:0 "Push the frontline forward! Every captured village is a §2liberized§! village!"
-eurolib_defensive_war_propaganda:0 "For freedom of ours and yours"
-eurolib_defensive_war_propaganda_desc:0 "We cannot let them break our lines! Remember - we're fighting for the §2freedom§! of our wifes and daughters!"
-
-
-
+#AUTOCRAT#
 autocrat_get_army_on_streets:0 "Tighten our control"
 autocrat_get_army_on_streets_desc:0 "We need to keep our people on a tight leash, unless we want them to start undermining our authority, or even worse yet - to suddenly stab us in the back. A couple of civil restrictions and a little police sweep of less loyal streets and settlements will keep any locals from raising their hand on us."
 
@@ -140,7 +139,7 @@ autocrat_force_people_to_work_desc:0 "We need to keep our weapon manufacturers w
 ######################################################################pomysł na potencjalną decyzję: Show our force/Brandish our guns: In order to keep our people in check, we need to remind them who's the boss here every once in a while. We cannot use direct force, however, as that would only encourage troublemakers to stand up for themselves. Instead, we should use a gunboat diplomacy-like approach and simply brandish our guns in front of them through organizing military parades, joint exercises where the civvies have to cooperate with the military and other such public actions.
 
 
-
+#PATCON#
 patcon_organize_a_grand_mass:0 "Organize state-backed religious ceremonies"
 patcon_organize_a_grand_mass_desc:0 ""
 
@@ -151,7 +150,7 @@ patcon_fund_church_owned_businesses:0 "Entrust control over businesses to the Ch
 patcon_fund_church_owned_businesses_desc:0 "Weirdos and foreign agents surround us from all sides - thankfully, we're not the sole force standing up against them, for we have the Church on our side, and not only does the clergy know how to lead people's minds and hearts in the right direction, it's also GREAT at handling money and connections. By entrusting them with control over businesses (both ones of real and of dubious legality), government institutions and various sectors of the economy we can cement our cooperation with them and secure the growth of both the Church's and the state's coffers."
 
 
-
+#REACTIONARY#
 react_rewrite_unfavorable_history:0 "Rewrite problematic history"
 react_rewrite_unfavorable_history_desc:0 "Some parts of our forefathers' history are quite problematic. We should rewrite them or hide them away from the public eye to cement our reputation of noble benefactors among those who are easily influenceable."
 
@@ -182,8 +181,26 @@ react_holy_war_devotion_tt:0 "We are at war and our War Support is at least at �
 #
 ###stara wersja our cause is just którą potencjalnie można by gdzieś indziej wykorzystać: While we'd rather prefer our people to be docile than potentially opposed to our cause, we can let them off their leashes while we're waging deadly wars with our neighbours. This is because hate is the most unifying of notions, and even those fundamentally opposed to our ethos of the past will stand side by side with us if they see our enemies as the bigger threat. So HEAR YE, PEOPLE! Fan the flames in your forges! Forge swords to kill with! For we have a mighty beast to slay - one that intends to slay *us* first...
 
+#REACTIONARY SHIZOO#
+react_shizo_rewrite_unfavorable_history:0 "Rewrite Unfavorable History"
+react_shizo_rewrite_unfavorable_history_desc:0 "By rewriting parts of history that aren't either positive or glorious for us enough, we can make people appreciate our greatness even more, thus feeling more obliged to behave as good citizens or §0Devoted§! soldiers to our cause."
+react_shizo_exploit_nostalgy:0 "Exploit Nostalgy"
+react_shizo_exploit_nostalgy_desc:0 "Recently we found out a great opportunity to exploit nostalgy, feeling that is so present in our populaces mind. Using simple tricks and changes we can make people feel like their time of prime haven't gone away completly, making them far more complecent and satisfied."
+react_shizo_tell_people_what_they_want_to_hear:0 "Tell people, what they want to Hear"
+react_shizo_tell_people_what_they_want_to_hear_desc:0 "Customer is always Right! These are known principles of capitalist companies operation. It's actually suprising how easily and effectively can this be applied to the propaganda industry. By following these principles we can quickly create feeling in population of having common goals with the goverment, making our governance that much easier."
+react_shizo_rebuild_the_good_old_days:0 "Rebuild the Good Old Days"
+react_shizo_rebuild_the_good_old_days_desc:0 "No paradise will just come to us, thus we need to make one. One that will be just as good or even better than the one in §0Good Old Days§!. Unfortunetly, this task unfortunetly requires a lot of work and we are barely starting. §0There is much to be done...§!"
+react_shizo_return_to_old_ways:0 "Return to the Good Old Times"
+react_shizo_return_to_old_ways_desc:0 "Simply reliving memories of our best days is not enough. We §0MUST§! make them a reality once again, so that future generations and us could experience these long gone, §0Times of Greatness!§!" 
+react_shizo_warriors_of_great_past:0 "Warriors of our Magnificent Past"
+react_shizo_warriors_of_great_past_desc:0 "These Brave and Honorable Warriors are one of the few people fit to bear torch of humility to the §0Past§! and grant it to both, present and the future. Unfortunetly these kind of people are few and usually hidden among the filth of §0Unblessed§!. We need to find as many of them as we can, convince them, train them and ready them for our Cause!"
+react_shizo_proclaim_holy_war:0 "Proclaim §0Holy War§!"
+react_shizo_proclaim_holy_war_desc:0 "§0Holy War§! is an act being a pinnacle of every §0Holy§! civilisation. Only those most devoted, with biggest piety and steadfast Faith are able to achieve this act of §0Immortal Glory§!. A magnificent act that decides the fate of §0Nations, Empires and History as a whole...§!"
+react_shizo_holy_war_tt:0 "By Proclaiming a §0Holy War§! against our current enemies, we will gain §GMassive Benefits§! that will be present until our §YState of War§! ends. In exchange for that, we will suffer a §RGreat Blow to our Stability.§!"
+react_shizo_holy_war_devotion_tt:0 "We are at §YWar§! and our §0War Devotion§! is at least at §075%§!"
+#jeszcze zrobie specjalne loci decyzji dla wybranych shizoli 
 
-
+#CORPRATS#
 corp_commie_danger_tt:0 "§RReds§! presence is at least noticable"
 corpo_lefties_crush_tt:0 "Once §RCommie§! Threat arises in our country to at least concerning levels, we will be able to crush them with our §CUnmatched Power!§!"
 corpo_random_eq_small_tt:0 "We will receive an §GExtra§! batch of random §gMilitary Equipment.§!"
