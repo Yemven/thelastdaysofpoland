@@ -1185,3 +1185,41 @@ focus_tree = {
 		}
 	}
 }
+
+focus_tree = {
+	id = fortress_lodz
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = WML
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	### NOWE DRZEWKO ###
+	
+	focus = {
+		id = WML_fortress_lodz
+		icon = WML_new_morning_in_old_lodz
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 13
+		y = 0
+		
+		cost = 0.4
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		
+		}
+	}
+}
