@@ -21,7 +21,7 @@ buy_ukrainian_ranged_desc:0 "The Ukrainian Humanitarian Mission in Poland has fa
 buy_russian_ranged:0"Buy Russian Guns"
 buy_russian_ranged_desc:0 "Once Navalny took power in Moscow and started his crusade against the corruption and crime that have been synonymous with the Russian government since times immemorial, many Russkie mafiozos and gangbangers ran abroad, trying to escape his judgement. With no perspectives in life, seemingly left to die in a hostile world, they've been saved by the downfall of the Polish state which allowed them to get back to a life of crime by forming a competition to German arms dealers and even establishing back some of the old connections with pro-Russian Polish political organisations and the remains of the old guard of Russian politics."
 buy_radom_ranged:0"Sign an Arms Deal with Radom"
-buy_radom_ranged_desc:0 "A real patriot supports domestic products. There's even a certain Polish saying about this: 'cudze chwalicie, swego nie znacie', which roughly translates to 'stop creaming yourself to foreign garbage and start appreciating our own shit instead'."
+buy_radom_ranged_desc:0 "A real patriot supports domestic products, hence why we should hit up the arms manufacturers in Radom. There's even a certain Polish saying about this: 'cudze chwalicie, swego nie znacie', which roughly translates to 'stop creaming yourself to foreign garbage and start appreciating our own shit instead'."
 
 buy_german_melee:0"Buy German Melee Equipment"
 buy_swedish_melee:0"Buy Melee Equipment from Sweden"
@@ -118,19 +118,21 @@ eurolib_implement_harsher_gun_laws:0 "Enforce stricter gun control"
 eurolib_implement_harsher_gun_laws_desc:0 "Even before the Fall, most gun owners in Poland were made out to be weirdos and political radicals who definitely shouldn't be allowed anywhere near firearms. However, now that every larger settlement is at war with their neighbours, this stereotype became truth. Implementing strict gun laws and strongly enforcing them in newly acquired land will not only disarm most potentially dangerous individuals in the area, but also enlarge our own stockpile of weapons."
 eurolib_offensive_war_propaganda:0 "'Onwards, for a free Europa!'"
 eurolib_offensive_war_propaganda_desc:0 "Though our mission is to bring personal freedoms and rule of law to Polish lands, the Poles themselves reject us, percieving us with more distrust and hatred than ever before, which means that we cannot count on any support from the commonfolk. The West has also turned its back towards Polish liberals, not wanting to have anything to do with Poland once Morawiecki's government and even the country's populace rejected the European interventionary corps. So stand up, people, for our cause is just, and we have *only ourselves* to do the job. Onwards, for a free Europa!"
-eurolib_defensive_war_propaganda:0 ""
-eurolib_defensive_war_propaganda_desc:0 ""
-#Antifragility - a term applicable towards western societies, meaning unparalleled unity in times of foreign invasion or attack. This term is applicable right now, as we find ourselves in such crisis. Such circumstances make all those who would normaly be against us, becoming our most devoted allies, as we all are brothers and sisters of the same nation, nation that find itself in a great need! Now, we should only give a small guided push, one that will guide our nation to its fullest potential in this conflict.
+eurolib_defensive_war_propaganda:0 "Keep the torch of liberty burning!"
+eurolib_defensive_war_propaganda_desc:0 "Forest bandits and nationalist bumfucks are trying their hardest to undermine our goal of building a Polish state that's worth living in. They sacrifice hundreds of human lives and resources to build their personal kingdoms found on principles of corruption and oppresion, and we - as the bearers of the torch of liberty - are their natural adversaries who represent their biggest fears. In the past, we already gave them the access to power once, and now we see the results of that. We cannot let it happen again, so STAND UP, PEOPLE! Stand up for your liberties - for the liberties of your daughters and your wifes! Keep the torch of liberty burning!"
 
 
 
 #AUTOCRAT#
 autocrat_get_army_on_streets:0 "Tighten our control"
 autocrat_get_army_on_streets_desc:0 "We need to keep our people on a tight leash, unless we want them to start undermining our authority, or even worse yet - to suddenly stab us in the back. A couple of civil restrictions and a little police sweep of less loyal streets and settlements will keep any locals from raising their hand on us."
+
 autocrat_take_guns_from_people:0 "Seize guns from the populace"
 autocrat_take_guns_from_people_desc:0 "If we ever start running short on guns, we can simply seize them from our people. After all, they won't be able to put up any resistance, if they won't have anything to rebel with."
+
 autocrat_force_people_to_work:0 "'Motivate' the workers"
 autocrat_force_people_to_work_desc:0 "We need to keep our weapon manufacturers working at rates higher than their predicted norm. For the war effort. Therefore, our policing forces should check onto our factories and workshops from time to time to catch any slackers and send them back to work."
+
 ######################################################################pomysł na potencjalną decyzję: Show our force/Brandish our guns: In order to keep our people in check, we need to remind them who's the boss here every once in a while. We cannot use direct force, however, as that would only encourage troublemakers to stand up for themselves. Instead, we should use a gunboat diplomacy-like approach and simply brandish our guns in front of them through organizing military parades, joint exercises where the civvies have to cooperate with the military and other such public actions.
 
 
@@ -164,8 +166,7 @@ react_return_to_old_ways:0 "Implement reactionary policies"
 react_return_to_old_ways_desc:0 "Our mission is simple: bring back the old order - the old way of life from back when things were simpler and made more sense to the commonfolk. Therefore, we need to implement new reactionary policies that will bring us a step closer to the good ol' days and allow us to at least partially relive their glory again." 
 
 react_warriors_of_great_past:0 "Reminisce over heroes of our past"
-react_warriors_of_great_past_desc:0 "Our history has given us a bit of a complex. Ahhh... if only we could be as brave and noble as those who fought to save Poland in the days of the Second Republic and the Commonwealth. Ahh... if only we could be as noble as the knights who fought in Grunwald against the treacherous Teutons. As famous and legendary as the Winged Hussars who seized Moscow in 1610. As brave as Kościuszko's scythemen. As fast as the Uhlans who drove the Soviets back to Russia and as patriotic, resilient and heroic as the Polish partisans during the Warsaw uprising. Ah... if only... \n... \n...actually, you know what? Scratch that. We shouldn't just reminiscent about them. We should BE like them - because just like the heroes of our past, we're fighting for Poland's survival."
-#prawdopodobnie przydałoby się zaprogramować osobną wersję tej decyzji dla teutonów i bieszka
+react_warriors_of_great_past_desc:0 "Our history has given us a bit of a complex... If only we could be as brave and noble as those who fought to save Poland in the days of the Second Republic and the Commonwealth. Ahhh... \n...if only we could be as noble as the knights who fought in Grunwald against the treacherous Teutons. As famous and legendary as the Winged Hussars who seized Moscow in 1610. As brave as Kościuszko's scythemen. As fast as the Uhlans who drove the Soviets back to Russia and as patriotic, resilient and heroic as the Polish partisans during the Warsaw uprising. Ah... if only... \n... \n...actually, you know what? Scratch that. We shouldn't just reminiscent about them. We should BE like them - because just like the heroes of our past, we're fighting for Poland's survival."
 
 react_proclaim_holy_war:0 "Fight for Poland, just like our fathers did!"
 react_proclaim_holy_war_desc:0 "'HEAR YE! HEAR YE! The wolves are at the gates! We have to stand up for ourselves! Arm yourselves, mount your horses and at them, like the Hussars and the Uhlans! HEJ, KTO POLAK - NA BAGNETY!'"
@@ -189,8 +190,8 @@ react_shizo_rebuild_the_good_old_days_desc:0 "Weirdos and foreign agents surroun
 react_shizo_return_to_old_ways:0 "Bring back normalcy"
 react_shizo_return_to_old_ways_desc:0 "Our mission is simple: bring back the old order - the old way of life from back when things were simpler and made more sense to the commonfolk. Therefore, we need to implement new reactionary policies that will bring us a step closer to the good ol' days and allow us to at least partially relive their glory again." 
  
-react_shizo_warriors_of_great_past:0 ""
-react_shizo_warriors_of_great_past_desc:0 ""
+react_shizo_warriors_of_great_past:0 "Follow the footsteps of ancient warriors"
+react_shizo_warriors_of_great_past_desc:0 "We strive to be like our great, great ancestors - noble men whose courage and power were the subjects of legends even in their times. Sadly, the hearts and minds of everyone around us are corrupted, and the only way to bring our past glory back is to do so through force by fighting our way through the legions of foreign pawns. Fear not, however, for we bear the noble marks of our ancestors - their holy might and possess their holy strenght - we'll be bound to succeed, if we'll follow in their footsteps and honour their rites and traditions."
 
 react_shizo_proclaim_holy_war:0 "Fan the flames of hatred"
 react_shizo_proclaim_holy_war_desc:0 "While we'd rather prefer our people to be docile than potentially opposed to our cause, we can let them off their leashes while we're waging deadly wars with our neighbours. This is because hate is the most unifying of notions, and even those fundamentally opposed to our ethos of the past will stand side by side with us if they see our enemies as the bigger threat. So HEAR YE, PEOPLE! Fan the flames in your forges! Forge swords to kill with! For we have a mighty beast to slay - one that intends to slay *us* first..."
@@ -201,26 +202,40 @@ react_shizo_holy_war_devotion_tt:0 "We are at war and our War Support is at leas
 
 #CORPRATS#
 corp_commie_danger_tt:0 "§RReds§! presence is at least noticable"
+
 corpo_lefties_crush_tt:0 "Once §RCommie§! Threat arises in our country to at least concerning levels, we will be able to crush them with our §CUnmatched Power!§!"
+
 corpo_random_eq_small_tt:0 "We will receive an §GExtra§! batch of random §gMilitary Equipment.§!"
+
 corpo_random_eq_tt:0 "We will §Greceive§! a medium number of random §gMilitary Equipment.§!"
+
 corpo_soldiers_random_tt:0 "We will §Greceive§! a random number of §gnew conscripts.§!"
+
 corpo_monopoles_tt:0 "By granting these §CMonopoles§! we will gain favours and good relations with powerful §CCorporations§! and §CIndividuals§! which in turn will grant us §GBig Benefits§!. §RUnfortunetly we can't do this too often so we better use it wisely.§!"
+
 corp_depoliticize_population:0 "Depoliticize the Population"
 corp_depoliticize_population_desc:0 "Politicized population is a §Rthinking§!, §Rquestioning§! and §Rdemanding§! population. It's possible to make them into staunch supporters of our cause, which would certainly help us achieve our goals, but would put us in their crosshair if we were to fail. Thus it's best for us, to make them into disorganized, §Capathetic§! mess that "§Coutsources§!" politics onto us."
+
 corp_increase_population_comfort:0 "Increase Population's Comfort"
 corp_increase_population_comfort_desc:0 ""§0Bread and Circuses!§!" - §0Roman proverb.§! By following these simple principles we can achieve societal §Capathy§! or even satisfaction from fulfillment of these few primal needs."
+
 corp_lower_quotas:0 "Lower Production Quotas"
 corp_lower_quotas_desc:0 "As much as it pains as to admit. No one can live only by his work, people need free time to live their life and waste precious time. Temporarily relieving people from part of their duties will make them happier and will increase their consumerism §Gboosting§! our economy, for the price of §Rreduced§! industrial output."
+
 corp_crank_up_quotas:0 "Crank up Production Quotas"
 corp_crank_up_quotas_desc:0 "Sometimes you just need to do hard decisions that won't be liked by many, but that's the price of §Gprosperity§!, it never comes §Rcostless...§!"
+
 corp_lower_the_costs:0 "Cut Corners"
 corp_lower_the_costs_desc:0 "§REverything Costs so Much!§! We must at least temporarily §Creduce§! these §Ccosts§! as much as possible to save up valuable resources, that can be used for far more important tasks. Of coarse §Rit won't be liked by many...§!"
+
 corp_expand_security_forces:0 "Expand Security Forces"
 corp_expand_security_forces_desc:0 "Gather §Gmore§! men, equip them §GBetter§!, train them §GBetter§!. These three steps are all you need to know how to build a §GGrand Army§! from ground up."
+
 corp_encite_military_service:0 "Encite Military Service"
 corp_encite_military_service_desc:0 "It's obvious that people usually §Rdon't want§! war. It's even more obvious that if they §Rhate§! war, they will §Ravoid§! taking part in them like it was fire. There are many ways to tackle this problem, one of them is to simply offer them §GNoticable Benefits§! for taking part in our little "§CAdventures§!"."
+
 corp_crush_the_unions:0 "§CCrush§! the §RUnions!§!"
 corp_crush_the_unions_desc:0 "These §RUngrateful Imbeciles!§! They think they can conspire to destroy our §CProsperity§!, our §CDream§!?! We won't let them do this, §CWE MUSTN'T LET THEM!§! We will §CCrush them§! and §CCrush them§!, until there is nothing left, but a dust being reminder of their §GInevitable Failure§!. §RIf we hesitate, they will drag us all in their pit of Decay and Degeneracy.§!"
+
 corp_lend_out_monopoles:0 "Lend Out §CMonopoles§!"
 corp_lend_out_monopoles_desc:0 "Within our borders there are many §Guseful§! and §Gfriendly§! powerful §CEnterprises§! or §CIndividuals§!. It's wise to reward them with our spoils to keep our §CFruitful Cooperation§! secured!"
