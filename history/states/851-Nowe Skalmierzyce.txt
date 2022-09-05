@@ -50,14 +50,16 @@ state={
 		}
 		add_core_of = EKS
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			industrial_complex = 2
 
 		}
 
 	}
-	manpower=66056
-	state_category=rural
+	manpower=68417
+resources={
+		oil = 1}
+	state_category=town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

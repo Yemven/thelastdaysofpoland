@@ -35,10 +35,10 @@ ideas = {
 			picture = POZ_divided_city
 			modifier = {
 				industry_repair_factor = -0.3
-				consumer_goods_factor = 0.2
+				consumer_goods_factor = 0.15
 				stability_factor = -0.2
 				monthly_population = -0.5
-				production_speed_buildings_factor = -0.5
+				production_speed_buildings_factor = -0.2
 				industrial_capacity_factory = -0.2
 				
 			}
@@ -80,8 +80,8 @@ ideas = {
 			removal_cost = -1
 			picture = BBW_more_steam
 			modifier = {
-				production_speed_buildings_factor = -0.5
-				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.3
+				consumer_goods_factor = 0.1
 				
 			}
 	    }

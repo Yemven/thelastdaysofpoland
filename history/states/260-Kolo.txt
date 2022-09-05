@@ -19,8 +19,8 @@ state={
 		}
 		add_core_of = GNI
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 2
+			infrastructure = 6
+			industrial_complex = 3
 
 		}
 
@@ -29,7 +29,10 @@ state={
 	provinces={
 		289 1528 2490 14488 14489 14490 14491 14492 14493 14494 14495 14496 14497 14498 14499 14500 14501 14502 14503 14504 14505 14506 14509 
 	}
-	manpower=37916
+	manpower=39518
+resources={
+		oil=5
+        coal=11}
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000
