@@ -71,9 +71,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = WML_minuscule_civil_guard
-		icon = WML_minuscule_civil_guard
-		relative_position_id = WML_behind_the_curtains_of_denial
+		id = WML_and_a_look_onto_the_stage
+		icon = WML_and_a_look_onto_the_stage
+		relative_position_id = WML_new_morning_in_old_lodz
 		prerequisite = { focus = WML_behind_the_curtains_of_denial }
 		available = {
 		
@@ -82,7 +82,162 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -4
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			#jakiś lore event trza zrobić
+		#country_event = {
+		#	id = WML.2
+		#	}
+		}
+	}
+	
+	####LEWE DRZEWKO####
+	
+	focus = {
+		id = WML_hungry_and_lost
+		icon = WML_hungry_and_lost
+		relative_position_id = WML_and_a_look_onto_the_stage
+		prerequisite = { focus = WML_and_a_look_onto_the_stage }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -3
+		y = 1
+		
+		cost = 1
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			#jakiś lore event trza zrobić
+		#country_event = {
+		#	id = WML.2
+		#	}
+		}
+	}
+	
+	focus = {
+		id = WML_energy_issues
+		icon = WML_energy_issues
+		relative_position_id = WML_hungry_and_lost
+		prerequisite = { focus = WML_hungry_and_lost }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			#wybór pomiędzy opieraniem się na bractwie czy zamiana spowrotem ec1 na elektrownie 
+			country_event = {
+			id = WML.4
+			}
+		}
+	}
+	
+	focus = {
+		id = WML_food_shortages
+		icon = WML_food_shortages
+		relative_position_id = WML_hungry_and_lost
+		prerequisite = { focus = WML_hungry_and_lost }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			#wybór pomiędzy współpracą z sapkiem lub rozwiązanie tego samemu
+			country_event = {
+			id = WML.5
+			}
+		}
+	}
+	
+	focus = {
+		id = WML_lack_of_materials
+		icon = WML_lack_of_materials
+		relative_position_id = WML_food_shortages
+		prerequisite = { focus = WML_food_shortages }
+		prerequisite = { focus = WML_energy_issues }
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			#wybór pomiędzy współpracą z konsorcjum lub wprowadzenie ograniczeń i recyklingu
+			country_event = {
+			id = WML.6
+			}
+		}
+	}
+	
+	####PRAWE DRZEWKO####
+	
+	focus = {
+		id = WML_why_cant_we_just_agree
+		icon = WML_why_cant_we_just_agree
+		relative_position_id = WML_and_a_look_onto_the_stage
+		prerequisite = { focus = WML_and_a_look_onto_the_stage }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 3
+		y = 1
+		
+		cost = 1
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			#jakiś lore event trza zrobić
+		#country_event = {
+		#	id = WML.2
+		#	}
+		}
+	}
+	
+	
+	focus = {
+		id = WML_minuscule_civil_guard
+		icon = WML_minuscule_civil_guard
+		relative_position_id = WML_why_cant_we_just_agree
+		prerequisite = { focus = WML_why_cant_we_just_agree }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
 		y = 1
 		
 		cost = 2
@@ -98,96 +253,18 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = WML_energy_issues
-		icon = WML_energy_issues
-		relative_position_id = WML_behind_the_curtains_of_denial
-		prerequisite = { focus = WML_behind_the_curtains_of_denial }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -2
-		y = 1
-		
-		cost = 2
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			#wybór pomiędzy opieraniem się na bractwie czy zamiana spowrotem ec1 na elektrownie 
-			#Ale wybieramy tylko bractwo -Komisarz
-			country_event = {
-			id = WML.4
-			}
-		}
-	}
-	
-	focus = {
-		id = WML_food_shortages
-		icon = WML_food_shortages
-		relative_position_id = WML_behind_the_curtains_of_denial
-		prerequisite = { focus = WML_behind_the_curtains_of_denial }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 2
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			#wybór pomiędzy współpracą z zhp, sapkiem lub rozwiązanie tego samemu
-			# Z tej strony komisarz. Ma być do wyboru wyłącznie sapek 
-			country_event = {
-			id = WML.5
-			}
-		}
-	}
-	
-	focus = {
-		id = WML_lack_of_materials
-		icon = WML_lack_of_materials
-		relative_position_id = WML_behind_the_curtains_of_denial
-		prerequisite = { focus = WML_behind_the_curtains_of_denial }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 2
-		y = 1
-		
-		cost = 2
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			#wybór pomiędzy współpracą z konsorcjum, lub widzewem lub wprowadzenie ograniczeń i recyklingu
-			#Z tej strony komisarz. Ma być do wyboru wyłącznie konsorcjum
-			country_event = {
-			id = WML.6
-			}
-		}
-	}
+
 	focus = {
 		id = WML_striking_workers
 		icon = WML_striking_workers
-		relative_position_id = WML_behind_the_curtains_of_denial
-		prerequisite = { focus = WML_behind_the_curtains_of_denial }
+		relative_position_id = WML_why_cant_we_just_agree
+		prerequisite = { focus = WML_why_cant_we_just_agree }
 		available = {
-		
 		}
-		
 		bypass = {
 		}
 		
-		x = 4
+		x = 1
 		y = 1
 		
 		cost = 2
@@ -198,16 +275,39 @@ focus_tree = {
 	} 
 	
 	focus = {
+		id = WML_sow_the_seeds_of_dialogue
+		icon = WML_sow_the_seeds_of_dialogue
+		relative_position_id = WML_striking_workers
+		prerequisite = { focus = WML_striking_workers }
+		prerequisite = { focus = WML_minuscule_civil_guard }
+		available = {
+		}
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 1
+		search_filters = {FOCUS_MANPOWER}
+		completion_reward = {
+			#jakiś lore event trza zrobić
+		#country_event = {
+		#	id = WML.2
+		#	}
+		}
+	}
+	
+	###KONIEC DRZEWKA TUTORIALOWEGO###
+	
+	focus = {
 		id = WML_city_will_hold_on
 		icon = WML_city_will_hold_on
-		relative_position_id = WML_food_shortages
-		prerequisite = { focus = WML_minuscule_civil_guard }
-		prerequisite = { focus = WML_energy_issues }
-		prerequisite = { focus = WML_food_shortages }
+		relative_position_id = WML_sow_the_seeds_of_dialogue
+		prerequisite = { focus = WML_sow_the_seeds_of_dialogue }
 		prerequisite = { focus = WML_lack_of_materials }
-		prerequisite = { focus = WML_striking_workers }
 		
-		x = 0
+		x = -3
 		y = 1
 		
 		cost = 1
@@ -235,7 +335,7 @@ focus_tree = {
 		}
 		
 		x = 13
-		y = 5
+		y = 8
 		
 		cost = 5
 		search_filters = {FOCUS_STABILITY}
