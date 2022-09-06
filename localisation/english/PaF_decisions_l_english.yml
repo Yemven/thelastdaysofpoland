@@ -95,11 +95,16 @@ military_parade_desc:0 "zróbmy 9 maja co"
 
 ##### GENERIC IDEOLOGY DECISIONS #####
 generic_decisions_eurolib_category:0 "§OEuroliberal§! Actions"
-generic_decisions_patcon_category:0 "§2Conservative§! Actions"
-generic_decisions_autocrat_category:0 "§gAutocratic§! Actions"
 generic_decisions_react_category:0 "§0Reactionary§! Actions"
 generic_decisions_react_shizo_category:0 "§0Reactionary§! Actions"
 generic_decisions_corporate_category:0 "§CCorporativist§! Actions"
+generic_decisions_autocrat_category:0 "§gAutocratic§! Actions"
+generic_decisions_patcon_category:0 "§2Conservative§! Actions"
+generic_decisions_neonat_category:0 "§GNeonationalist§! Actions"
+generic_decisions_freemarket_category:0 "§YFreemarketist§! Actions"
+generic_decisions_succdem_category:0 "§tSocialdemocrat§! Actions"
+generic_decisions_cranism_category:0 "§RCommunard§! Actions"
+generic_decisions_squat_category:0 "§tSquattist§! Actions"
 
 #EUROLIB#
 eurolib_pro_federalist_propaganda:0 "Entrench liberal mindsets among the populace"
@@ -120,32 +125,6 @@ eurolib_offensive_war_propaganda:0 "'Onwards, for a free Europa!'"
 eurolib_offensive_war_propaganda_desc:0 "Though our mission is to bring personal freedoms and rule of law to Polish lands, the Poles themselves reject us, percieving us with more distrust and hatred than ever before, which means that we cannot count on any support from the commonfolk. The West has also turned its back towards Polish liberals, not wanting to have anything to do with Poland once Morawiecki's government and even the country's populace rejected the European interventionary corps. So stand up, people, for our cause is just, and we have *only ourselves* to do the job. Onwards, for a free Europa!"
 eurolib_defensive_war_propaganda:0 "Keep the torch of liberty burning!"
 eurolib_defensive_war_propaganda_desc:0 "Forest bandits and nationalist bumfucks are trying their hardest to undermine our goal of building a Polish state that's worth living in. They sacrifice hundreds of human lives and resources to build their personal kingdoms found on principles of corruption and oppresion, and we - as the bearers of the torch of liberty - are their natural adversaries who represent their biggest fears. In the past, we already gave them the access to power once, and now we see the results of that. We cannot let it happen again, so STAND UP, PEOPLE! Stand up for your liberties - for the liberties of your daughters and your wifes! Keep the torch of liberty burning!"
-
-
-
-#AUTOCRAT#
-autocrat_get_army_on_streets:0 "Tighten our control"
-autocrat_get_army_on_streets_desc:0 "We need to keep our people on a tight leash, unless we want them to start undermining our authority, or even worse yet - to suddenly stab us in the back. A couple of civil restrictions and a little police sweep of less loyal streets and settlements will keep any locals from raising their hand on us."
-
-autocrat_take_guns_from_people:0 "Seize guns from the populace"
-autocrat_take_guns_from_people_desc:0 "If we ever start running short on guns, we can simply seize them from our people. After all, they won't be able to put up any resistance, if they won't have anything to rebel with."
-
-autocrat_force_people_to_work:0 "'Motivate' the workers"
-autocrat_force_people_to_work_desc:0 "We need to keep our weapon manufacturers working at rates higher than their predicted norm. For the war effort. Therefore, our policing forces should check onto our factories and workshops from time to time to catch any slackers and send them back to work."
-
-######################################################################pomysł na potencjalną decyzję: Show our force/Brandish our guns: In order to keep our people in check, we need to remind them who's the boss here every once in a while. We cannot use direct force, however, as that would only encourage troublemakers to stand up for themselves. Instead, we should use a gunboat diplomacy-like approach and simply brandish our guns in front of them through organizing military parades, joint exercises where the civvies have to cooperate with the military and other such public actions.
-
-
-
-#PATCON#
-patcon_organize_a_grand_mass:0 "Organize state-backed religious ceremonies"
-patcon_organize_a_grand_mass_desc:0 ""
-
-patcon_gather_the_guns:0 "Let our loyalists bankroll our endeavors"
-patcon_gather_the_guns_desc:0 "pan xiądz przyjdzie i ładnie poprosi o szekle na gnaty dla pisu"
-
-patcon_fund_church_owned_businesses:0 "Entrust control over businesses to religious authorities"
-patcon_fund_church_owned_businesses_desc:0 "Weirdos and foreign agents surround us from all sides - thankfully, we're not the sole force standing up against them, for we have the religious authorities on our side, and not only does the clergy know how to lead people's minds and hearts in the right direction, it's also GREAT at handling money and connections. By entrusting the priesthood with control over businesses (both ones of real and of dubious legality), government institutions and various sectors of the economy we can cement our cooperation with it and secure the growth of both their and our coffers."
 
 
 
@@ -194,14 +173,13 @@ react_shizo_holy_war_devotion_tt:0 "We are at war and our War Support is at leas
 
 #CORPRATS#
 corpo_commie_danger_tt:0 "§RReds§! presence is at least noticable"
-corpo_random_eq_tt:0 "We will §Greceive§! a medium number of random §gMilitary Equipment.§!"
 #
 #
 corp_depoliticize_population:0 "Depoliticize the population"
 corp_depoliticize_population_desc:0 "A politicized population is a moralist and demanding population, hence why we have to conduct depolitisation campaigns that make sure that any political agitations amongst our people are watered down, any Internet or public actions that put our errors, shortcomings and crimes on spotlight are clamped down upon and that the word of them is kept away from the public ears."
 
 corp_increase_population_comfort:0 "Satisfy the population"
-corp_increase_population_comfort_desc:0 "'Give them bread and circuses and they will never revolt', said Juvenal. His words are to live by for all governments and *especially* for corporate entities like ourselves - numbing down the populace's voice is what we are built upon in the first place. By diverting our people's attention away from us with new available goods and services, we ensure that they'll stay docile."
+corp_increase_population_comfort_desc:0 "'Give them bread and circuses and they will never revolt', said Juvenal. His words are to live by for all governments and *especially* for corporate entities like ourselves - numbing down the populace's voice is what we are built upon in the first place. By diverting our people's attention away from their problems with new available goods and services, we ensure that they'll stay docile."
 
 corp_lower_quotas:0 "Lower the production quotas"
 corp_lower_quotas_desc:0 "Sadly, people need some free time to rest and work on their families and aspirations. In times of crisis, we can temporarily relieve our people of parts of their duties to ensure they're content enough to keep having their mouths shut."
@@ -213,13 +191,15 @@ corpo_random_eq_small_tt:0 "The increased production will yield us an extra batc
 corp_lower_the_costs:0 "Replace pentions with company scrip"
 corp_lower_the_costs_desc:0 "We can increase our monopoly on power by giving our workers company scrip that can only be exchanged for goods in our own shops, instead of paying them with actual money that they could spend elsewhere. Obviously, increasing our hold over people's lives is gonna make them hate us more, but it will bring us one step closer to establishing our dream neo-feudal state."
 
-########################################################################################DOKOŃCZYĆ############################################################################
-corp_expand_security_forces:0 "Expand Security Forces"
-corp_expand_security_forces_desc:0 "Gather §Gmore§! men, equip them §GBetter§!, train them §GBetter§!. These three steps are all you need to know how to build a §GGrand Army§! from ground up."
+corp_expand_security_forces:0 "Offer contracts for temporary army duty"
+corp_expand_security_forces_desc:0 "Food security is very low in post-Fall Poland, and there's lots of struggling people who'd be willing to serve in the army in exchange for food and money, but cannot leave their families alone, as then they'd be left without a breadwinner. Therefore - how about we offer these people contracts for *temporary* army duty? The Russian government used a similar method of hiring new people for the army during their invasion of Ukraine, where anyone of working age could simply hit up their local wojenkomat (army drafting commitee, or WKU in Polish) and sign up for service on the front for a limited time. These contract troops would receive their salary only after some time spent on the front, meaning that many of them died without even getting paid, meaning that we can use this conscription method to gain new recruits while simultaneously keeping our money."
 corpo_soldiers_random_tt:0 "We will receive a random number of new conscripts."
+corpo_random_eq_tt:0 "We will receive additional random military equipment."
 
-corp_encite_military_service:0 "Encite Military Service"
-corp_encite_military_service_desc:0 "It's obvious that people usually §Rdon't want§! war. It's even more obvious that if they §Rhate§! war, they will §Ravoid§! taking part in them like it was fire. There are many ways to tackle this problem, one of them is to simply offer them §GNoticable Benefits§! for taking part in our little "§CAdventures§!"."
+corp_encite_military_service:0 "Expand core army parts"
+corp_encite_military_service_desc:0 "Our army works the same way the armies of colonial companies did so in the past - it is comprised of levied locals and contracted volunteers commanded over by the core corporate troops. This system ensures that we've always got access to a large manpower pool, but it also creates the need to balance the ratio between the levy and our own men as to not let them outnumber us too much, as that would let 'em easily overwhelm us in a potential rebelion. Let's expand the core rank to ensure that the lower ranks don't suddenly get any funny ideas, like recreating the Sepoy Mutiny for example."
+
+########################################################################################DOKOŃCZYĆ############################################################################
 
 corp_crush_the_unions:0 "§CCrush§! the §RUnions!§!"
 corp_crush_the_unions_desc:0 "These §RUngrateful Imbeciles!§! They think they can conspire to destroy our §CProsperity§!, our §CDream§!?! We won't let them do this, §CWE MUSTN'T LET THEM!§! We will §CCrush them§! and §CCrush them§!, until there is nothing left, but a dust being reminder of their §GInevitable Failure§!. §RIf we hesitate, they will drag us all in their pit of Decay and Degeneracy.§!"
@@ -231,13 +211,88 @@ corpo_monopoles_tt:0 "By granting these §CMonopoles§! we will gain favours and
 
 
 
+#AUTOCRAT#
+autocrat_get_army_on_streets:0 "Tighten our control"
+autocrat_get_army_on_streets_desc:0 "We need to keep our people on a tight leash, unless we want them to start undermining our authority, or even worse yet - to suddenly stab us in the back. A couple of civil restrictions and a little police sweep of less loyal streets and settlements will keep any locals from raising their hand on us."
+
+autocrat_take_guns_from_people:0 "Seize guns from the populace"
+autocrat_take_guns_from_people_desc:0 "If we ever start running short on guns, we can simply seize them from our people. After all, they won't be able to put up any resistance, if they won't have anything to rebel with."
+
+autocrat_force_people_to_work:0 "'Motivate' the workers"
+autocrat_force_people_to_work_desc:0 "We need to keep our weapon manufacturers working at rates higher than their predicted norm. For the war effort. Therefore, our policing forces should check onto our factories and workshops from time to time to catch any slackers and send them back to work."
 
 
 
+########################################################################################PATCON############################################################################################
+patcon_organize_a_grand_mass:0 "Organize state-backed religious ceremonies"
+patcon_organize_a_grand_mass_desc:0 "pochód z krzyżem i obrazem kacziego przez miasto"
+
+patcon_gather_the_guns:0 "Let our loyalists bankroll our endeavors"
+patcon_gather_the_guns_desc:0 "pan xiądz przyjdzie i ładnie poprosi o szekle na gnaty dla pisu"
+
+patcon_fund_church_owned_businesses:0 "Entrust control over businesses to religious authorities"
+patcon_fund_church_owned_businesses_desc:0 "Weirdos and foreign agents surround us from all sides - thankfully, we're not the sole force standing up against them, for we have the religious authorities on our side, and not only does the clergy know how to lead people's minds and hearts in the right direction, it's also GREAT at handling money and connections. By entrusting the priesthood with control over businesses (both ones of real and of dubious legality), government institutions and various sectors of the economy we can cement our cooperation with it and secure the growth of both their and our coffers."
 
 
 
+########################################################################################NEONAT#######################################################################################
+neonat_organize_patriotic_demonstration:0 "Organize nationalist demonstrations"
+neonat_organize_patriotic_demonstration_desc:0 "jaszczur jedzie na qniu"
 
+neonat_train_patriotic_youth:0 "Train nationalist paramilitaries"
+neonat_train_patriotic_youth_desc:0 "hitlerjuden"
+
+neonat_build_work_camps:0 "Utilize the undesirables"
+neonat_build_work_camps_desc:0 "więźniowie, w*stoidy, i femboye"
+
+
+
+########################################################################################PARÓWECZKI#######################################################################################
+freemarket_cut_down_taxes:0 "Cut down taxes"
+freemarket_cut_down_taxes_desc:0 "tax cut'y i tax breaki"
+
+freemarket_print_3d_guns:0 "Make 3D-printed guns"
+freemarket_print_3d_guns_desc:0 "dae glock plastykowy nie wykrywalny przez skanery metalu??????"
+
+freemarket_fund_small_businesses:0 "Encourage the formation of small businesses"
+freemarket_fund_small_businesses_desc:0 "tax breakuj i paróweczkuj"
+
+
+
+########################################################################################SSUC DEM (SSIJ DĘBSKIEGO)#######################################################################################
+succdem_promise_safety_net:0 "co to kurwa jest safety net"
+succdem_promise_safety_net_desc:0 "chodzi o te takie sieci do łapania spadających robotników?"
+#ej nie serio niech ktoś wyjaśni o co konkretniej chodzi
+
+succdem_self_defence_courses:0 "Organize militias"
+succdem_self_defence_courses_desc:0 "siemaa dzisiaj pokażemy wam yyy podstawowego low kinga"
+
+succdem_fund_national_businesses:0 "Fund national businesses"
+succdem_fund_national_businesses_desc:0 "tax breakuj bez paróweczkowania"
+
+
+
+########################################################################################DŹWIGIZM#######################################################################################
+cranism_central_commitee_meeting:0 "Organize a meeting of the Central Committee"
+cranism_central_commitee_meeting_desc:0 "zebranie w niedziele halo gdzie nargton"
+
+cranism_military_parade:0 "Show our might to the people"
+cranism_military_parade_desc:0 "In order to keep our people's morale high, we need to show them how great and powerful we are every once in a while. By organizing military parades, joint exercises where the civvies have to cooperate with the military and other public happenings involving the army, we let the commonfolk connect with the army, giving them a thing to be proud of and brewing the sense of allegiance to the people in our soldiers' hearts."
+
+cranism_build_great_project_of_socialism:0 "Raise public monuments"
+cranism_build_great_project_of_socialism_desc:0 "jakieś tam pomniczki i inne monumenty uliczne, bo duże budynki to raczej na focusy się tylko nadają"
+
+
+
+########################################################################################ANTIFA JAWORZNO IDEOLOGY#######################################################################################
+squat_blunt_of_peace:0 "Let the people connect with each other"
+squat_blunt_of_peace_desc:0 "hehe BLUNT of peace get it temacik ziółko jaranko skun 420 towar zielone, pamiętać żeby też do np. takich wandali pasowało"
+
+squat_get_some_baseball_bats:0 "Tell the people to prepare weapons"
+squat_get_some_baseball_bats_desc:0 "base balls"
+
+squat_pump_yourself_to_fight:0 "idk"
+squat_pump_yourself_to_fight_desc:0 "pon pon chaka chaka ładujemy atak"
 
 
 
