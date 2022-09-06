@@ -96,7 +96,7 @@ military_parade_desc:0 "zróbmy 9 maja co"
 ##### GENERIC IDEOLOGY DECISIONS #####
 generic_decisions_eurolib_category:0 "§OEuroliberal§! Actions"
 generic_decisions_react_category:0 "§0Reactionary§! Actions"
-generic_decisions_react_shizo_category:0 "§0Reactionary§! Actions"
+generic_decisions_react_shizo_category:0 "§0Ultrareactionary§! Actions"
 generic_decisions_corporate_category:0 "§CCorporativist§! Actions"
 generic_decisions_autocrat_category:0 "§gAutocratic§! Actions"
 generic_decisions_patcon_category:0 "§2Conservative§! Actions"
@@ -107,9 +107,9 @@ generic_decisions_cranism_category:0 "§RCommunard§! Actions"
 generic_decisions_squat_category:0 "§tSquattist§! Actions"
 
 #EUROLIB#
-eurolib_pro_federalist_propaganda:0 "Entrench liberal mindsets among the populace"
+eurolib_pro_federalist_propaganda:0 "Entrench Liberal Mindsets"
 eurolib_pro_federalist_propaganda_desc:0 "Due to Poland's history of foreign occupations, Germanisation and Russification, Poles have adopted a very cautious and conservative approach to foreign ideas and cultural notions, which are immedeatly received by them as invasive and intrusive. We can warm the public eye's image of ourselves through cultural subsidies and development of villages and cities that have been neglected by the previous, conservative regime."
-eurolib_complicate_bureaucracy:0 "Rig bureaucracy in our favour"
+eurolib_complicate_bureaucracy:0 "Rig the Bureaucracy"
 eurolib_complicate_bureaucracy_desc:0 "'EKHEM... ACKCHYUALLY, the documents provided by you cannot be accepted by us, as they are not up to the Default Local Paperwork Standard included in the Chungus-Quagmire Chart Measurement Form that JUUUUUST SO HAPPENS to have been accepted yesterday by the Provisional Institute of Governance and Development of the Łososina Dolna-Cyców Region. Ergo, they have been declared null and void, and so did your request to the Local Transitionary Government of Zadupie Dolne.'"
 eurolib_taxes_increase:0 "Crank up tax revenues"
 eurolib_taxes_increase_desc:0 "A liberal state has to simultaneously fund tons of projects, subsidies and investments as well as the bureaucracy associated with them. And we are slowly running out of funds and resources. Our people will have to bit their lip a bit to fund living conditions worthy of a first world state for themselves."
@@ -146,33 +146,42 @@ react_return_to_old_ways_desc:0 "Our mission is simple: bring back the old order
 
 react_warriors_of_great_past:0 "Reminisce over heroes of our past"
 react_warriors_of_great_past_desc:0 "Our history has given us a bit of a complex... If only we could be as brave and noble as those who fought to save Poland in the days of the Second Republic and the Commonwealth. Ahhh... \n...if only we could be as noble as the knights who fought in Grunwald against the treacherous Teutons. As famous and legendary as the Winged Hussars who seized Moscow in 1610. As brave as Kościuszko's scythemen. As fast as the Uhlans who drove the Soviets back to Russia and as patriotic, resilient and heroic as the Polish partisans during the Warsaw uprising. Ah... if only... \n... \n...actually, you know what? Scratch that. We shouldn't just reminiscent about them. We should BE like them - because just like the heroes of our past, we're fighting for Poland's survival."
-#do warty tylko
-react_warriors_of_great_past_wrt:0 ""
-react_warriors_of_great_past_wrt_desc:0 ""
+
 #REACTIONARY S(c)HIZO
 react_shizo_rewrite_unfavorable_history:0 "Rewrite problematic history"
-react_shizo_rewrite_unfavorable_history_desc:0 "Some parts of our forefathers' history are quite problematic. We should rewrite them or hide them away from the public eye to cement our reputation of noble and devoted people, among those who would care about our §RTrue Past...§!"
-react_shizo_exploit_nostalgy:0 "Exploit Nostalgy"
-react_shizo_exploit_nostalgy_desc:0 "There is this one feeling which is ever-present in our society, this feeling is called nostalgy. Using simple tricks and changes we can make people feel like their time of prime haven't gone away completly, making them far more complecent and satisfied."
+react_shizo_rewrite_unfavorable_history_desc:0 "Some parts of our forefathers' history are quite problematic. We should rewrite them or hide them away from the public eye to cement our reputation of noble benefactors among those who are easily influenceable."
+
+react_shizo_exploit_nostalgy:0 "Increase our direct control over the populace"
+react_shizo_exploit_nostalgy_desc:0 "Disgusting, godless progressives and liberals are awaiting us behind every corner, trying to sabotage our efforts to bring things back to how they used to be - to how they *should* be. Obviously, we need to protect our people from their snake tongues and 5G thought interference, and thus we need to tighten our leash on their necks and get some more direct control over the what they're doing, saying and hearing."
+
 react_shizo_tell_people_what_they_want_to_hear:0 "Tell the people what they want to hear"
-react_shizo_tell_people_what_they_want_to_hear_desc:0 "Customer is always Right! These are known principles of capitalist companies operation. It's actually suprising how easily and effectively can this be applied to the propaganda industry. By following these principles we can quickly create feeling in population of having common goals with the goverment, making our governance that much easier."
-react_shizo_rebuild_the_good_old_days:0 "Reward to Religious Authorities"
-react_shizo_rebuild_the_good_old_days_desc:0 "Weirdos and foreign agents surround us from all sides - thankfully, we're not the sole force standing up against them, for we can ensure the country's priesthood staying on our side by rewarding them with dividends from our economy, government institutions and various sectors of the business - after all, everyone knows that not only does the clergy know how to lead people's minds and hearts in the right direction, it's also great at handling money and connections."
-react_shizo_return_to_old_ways:0 "Bring back Good Old Times"
-react_shizo_return_to_old_ways_desc:0 "Our mission is simple: bring back the old order - the old way of life from back when things were simpler and made more sense to the commonfolk. Therefore, we need to implement traditional policies that will bring us a step closer to the good ol' days and allow us to at least taste our long gone glory again." 
-react_shizo_warriors_of_great_past:0 "Follow the footsteps of our ancestral Warriors"
+react_shizo_tell_people_what_they_want_to_hear_desc:0 "'Enemies TRAMPLED by our forces!' \n'This year's harvests have been PLENTIFUL!' \n'Germans IN AVE of our PROSPERITY!' \n\nPropaganda of success works, because people LOVE to hear things that are right up their alley - hence why we should constantly bombard our loyalists with constant news on how foreign powers envy our nation's stability, economic growth and resilience against foreign, harmful agendas, promises of brand new social programs and policies which will develop the state into THE independent world power that's free from globalism and foreign meddling - so let's sit down for a moment, invent a couple of shouty headlines, and let our media nicely hammer them into people's heads."
+
+react_shizo_rebuild_the_good_old_days:0 "Reward the clergy"
+react_shizo_rebuild_the_good_old_days_desc:0 "Weirdos and foreign agents surround us from all sides - thankfully, we're not the sole force standing up against them, for we have the religious authorities on our side. We should lease parts of the economy, government institutions and various sectors of the business to them, after all not only does the clergy know how to lead people's minds and hearts in the right direction, it's also great at handling money and connections."
+
+react_shizo_return_to_old_ways:0 "Bring back normalcy and morality"
+react_shizo_return_to_old_ways_desc:0 "Our mission is simple: bring back the old order - the old way of life from back when things were untouched by degenerate, demi-bi-ultra-homo-stereosexual alt-girls, and when they still made some sense to the innocent commonfolk. Therefore, we need to implement new reactionary policies that will bring us a step closer to the good ol' days and allow us to at least partially relive their glory again."
+
+react_shizo_warriors_of_great_past:0 "Follow the footsteps of our ancestral warriors"
 react_shizo_warriors_of_great_past_desc:0 "We strive to be like our great, great ancestors - noble men whose courage and power were the subjects of legends even in their times. Sadly, the hearts and minds of everyone around us are corrupted, and the only way to bring our past glory back is to do so by fighting our way through the legions of foreign pawns. Fear not, however, for we bear the noble marks of our ancestors - their holy might and possess their holy strenght - we'll be bound to succeed, if we'll follow in their footsteps and honour their rites and traditions."
-react_shizo_proclaim_holy_war:0 "Proclaim §0Holy War§!"
-react_shizo_proclaim_holy_war_desc:0 "§0Holy War§! is an act being a pinnacle of every §0Blessed§! civilisation. Only those most devoted, with biggest piety and steadfast Faith are able to achieve this act of immortal glory. A magnificent act that decides the fate of §0Nations, Empires and History as a whole...§!"
-react_shizo_holy_war_tt:0 "By Proclaiming a §0Holy War§! against our current enemies, we will gain §GMassive Benefits§! that will be present until our §YState of War§! ends. In exchange for that, we will suffer a §RGreat Blow to our Stability.§!"
-react_shizo_holy_war_devotion_tt:0 "We are at §YWar§! and our §0War Devotion§! is at least at §075%§!"
-#Jest teraz dobrze i ma to być nie zmieniane
+
+react_shizo_proclaim_holy_war:0 "Bring §0HOLY WAR§! to the heathens!"
+react_shizo_proclaim_holy_war_desc:0 "HEAR YE, PEOPLE! Fan the flames in your forges! Forge swords to kill with! For we have a HOLY WAR to wage! \nAs those who are most devoted, most pious and most fit to wield the divine blade, we need to depart on a campaign of slaughter and holy combat - as has been sanctioned by higher powers. Our battle with the vile heathen will be LEGENDARY! TO ARMS! \n...For we have a mighty beast to slay - one that intends to slay *us* first..."
+react_shizo_holy_war_tt:0 "By proclaiming a §0HOLY WAR§! against our current enemies and letting people of their leashes will sharply raise their willingness to fight, §Ggiving us sizeable benefits§! for the duration of the war. However, we will receive a §Rblow to our stability§!, as a rabid population is much harder to manage and control."
+react_shizo_holy_war_devotion_tt:0 "We are at war and our War Support is at least at §H75%§!"
+
+
 
 #CORPRATS#
+<<<<<<< Updated upstream
 corpo_commie_danger_tt:0 "§RReds§! presence is at least noticable"
 corpo_random_eq_tt:0 "We will §Greceive§! a medium number of random §gMilitary Equipment.§!"
 #
 #
+=======
+
+>>>>>>> Stashed changes
 corp_depoliticize_population:0 "Depoliticize the population"
 corp_depoliticize_population_desc:0 "A politicized population is a moralist and demanding population, hence why we have to conduct depolitisation campaigns that make sure that any political agitations amongst our people are watered down, any Internet or public actions that put our errors, shortcomings and crimes on spotlight are clamped down upon and that the word of them is kept away from the public ears."
 
@@ -197,11 +206,16 @@ corpo_random_eq_tt:0 "We will receive additional random military equipment."
 corp_encite_military_service:0 "Expand core army parts"
 corp_encite_military_service_desc:0 "Our army works the same way the armies of colonial companies did so in the past - it is comprised of levied locals and contracted volunteers commanded over by the core corporate troops. This system ensures that we've always got access to a large manpower pool, but it also creates the need to balance the ratio between the levy and our own men as to not let them outnumber us too much, as that would let 'em easily overwhelm us in a potential rebelion. Let's expand the core rank to ensure that the lower ranks don't suddenly get any funny ideas, like recreating the Sepoy Mutiny for example."
 
+
+
 ########################################################################################DOKOŃCZYĆ############################################################################
 
 corp_crush_the_unions:0 "§CCrush§! the §RUnions!§!"
 corp_crush_the_unions_desc:0 "These §RUngrateful Imbeciles!§! They think they can conspire to destroy our §CProsperity§!, our §CDream§!?! We won't let them do this, §CWE MUSTN'T LET THEM!§! We will §CCrush them§! and §CCrush them§!, until there is nothing left, but a dust being reminder of their §GInevitable Failure§!. §RIf we hesitate, they will drag us all in their pit of Decay and Degeneracy.§!"
 corpo_lefties_crush_tt:0 "Once §RCommie§! Threat arises in our country to at least concerning levels, we will be able to crush them with our §CUnmatched Power!§!"
+#
+corpo_commie_danger_tt:0 "§RReds§! presence is at least noticable"
+#
 
 corp_lend_out_monopoles:0 "Lend Out §CMonopoles§!"
 corp_lend_out_monopoles_desc:0 "Within our borders there are many §Guseful§! and §Gfriendly§! powerful §CEnterprises§! or §CIndividuals§!. It's wise to reward them with our spoils to keep our §CFruitful Cooperation§! secured!"
