@@ -1,0 +1,91 @@
+division_template = {
+	name = "Budowniczowie Arki"
+	regiments = {
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+		melee_infantry = { x = 0 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Milicja Arki Gdynii"
+	regiments = {
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kibole"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 0 y = 2 }
+		melee_infantry = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "Budowniczowie Arki"
+		location = 11353
+		division_template = "Budowniczowie Arki"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Korpus Pomocniczy z Wielkiej Triady"
+		location = 11353
+		division_template = "Budowniczowie Arki"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Milicja Arki 'Radiostacja S-S-S-SSS-SSSPEE-EED FREAKS FM"
+		location = 2323
+		division_template = "Milicja Arki Gdynii"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Milicja Arki 'Leszcze z Leszczynki'"
+		location = 11356
+		division_template = "Milicja Arki Gdynii"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Milicja Arki 'Oksy Morons'"
+		location = 11358
+		division_template = "Milicja Arki Gdynii"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Chłopaki z Cisowej"
+		location = 11357
+		division_template = "Kibole"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Chłopaki z Działek"
+		location = 11354
+		division_template = "Kibole"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+}
