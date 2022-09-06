@@ -1519,7 +1519,45 @@ generic_decisions_react_category = {
 		}
 		}
 	}
-
+	
+	react_warriors_of_great_past_wrt = {
+	
+	visible = {
+		has_government = reactionary
+		tag = WRT
+	}
+	
+		modifier = {
+		political_power_gain = -0.1
+		war_support_weekly = 0.005
+		stability_weekly = -0.003
+		weekly_manpower = 100
+		experience_gain_army_factor = 0.10
+		}
+		
+		cost = 100
+		days_re_enable = 56
+		days_remove = 70
+		complete_effect = {
+		}
+		remove_effect = {
+		random_list = {
+			15 = {
+			army_experience = 15
+				add_manpower = 1500
+			}
+			15 = {
+			army_experience = 10
+				add_manpower = 2500
+			}
+			10 = {
+				army_experience = 5
+				add_manpower = 5000
+			}
+		}
+		}
+	}
+	
 }
 
 ####GENERIC REACTIONARY SHIZO########

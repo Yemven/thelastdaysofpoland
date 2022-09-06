@@ -95,135 +95,128 @@ military_parade_desc:0 "zróbmy 9 maja co"
 
 ##### GENERIC IDEOLOGY DECISIONS #####
 generic_decisions_eurolib_category:0 "§OEuroliberal§! Actions"
-generic_decisions_patcon_category:0 "§2Conservative§! Actions"
-generic_decisions_autocrat_category:0 "§gAutocratic§! Actions"
 generic_decisions_react_category:0 "§0Reactionary§! Actions"
-generic_decisions_react_shizo_category:0 "§0Reactionary§! Actions"
+generic_decisions_react_shizo_category:0 "§0Ultrareactionary§! Actions"
 generic_decisions_corporate_category:0 "§CCorporativist§! Actions"
+generic_decisions_autocrat_category:0 "§gAutocratic§! Actions"
+generic_decisions_patcon_category:0 "§2Conservative§! Actions"
+generic_decisions_neonat_category:0 "§GNeonationalist§! Actions"
+generic_decisions_freemarket_category:0 "§YFreemarketist§! Actions"
+generic_decisions_succdem_category:0 "§tSocialdemocrat§! Actions"
+generic_decisions_cranism_category:0 "§RCommunard§! Actions"
+generic_decisions_squat_category:0 "§tSquattist§! Actions"
 
 #EUROLIB#
-eurolib_pro_federalist_propaganda:0 "Entrench liberal mindsets among the populace"
+eurolib_pro_federalist_propaganda:0 "Entrench Liberal Mindsets"
 eurolib_pro_federalist_propaganda_desc:0 "Due to Poland's history of foreign occupations, Germanisation and Russification, Poles have adopted a very cautious and conservative approach to foreign ideas and cultural notions, which are immedeatly received by them as invasive and intrusive. We can warm the public eye's image of ourselves through cultural subsidies and development of villages and cities that have been neglected by the previous, conservative regime."
-eurolib_complicate_bureaucracy:0 "Rig bureaucracy in our favour"
+
+eurolib_complicate_bureaucracy:0 "Rig the Bureaucracy"
 eurolib_complicate_bureaucracy_desc:0 "'EKHEM... ACKCHYUALLY, the documents provided by you cannot be accepted by us, as they are not up to the Default Local Paperwork Standard included in the Chungus-Quagmire Chart Measurement Form that JUUUUUST SO HAPPENS to have been accepted yesterday by the Provisional Institute of Governance and Development of the Łososina Dolna-Cyców Region. Ergo, they have been declared null and void, and so did your request to the Local Transitionary Government of Zadupie Dolne.'"
-eurolib_taxes_increase:0 "Crank up tax revenues"
+
+eurolib_taxes_increase:0 "Crank Up Tax Revenues"
 eurolib_taxes_increase_desc:0 "A liberal state has to simultaneously fund tons of projects, subsidies and investments as well as the bureaucracy associated with them. And we are slowly running out of funds and resources. Our people will have to bit their lip a bit to fund living conditions worthy of a first world state for themselves."
-eurolib_agricultural_funds:0 "Subsidize agriculture"
+
+eurolib_agricultural_funds:0 "Subsidize Agriculture"
 eurolib_agricultural_funds_desc:0 "Food is hard to get by nowadays. So are other products and goods. By funding our farmers, we can win the hearts of farmers on our lands and at least slightly increase the availability of food and farm products."
-eurolib_public_works_funds:0 "Subsidize public works and projects"
+
+eurolib_public_works_funds:0 "Subsidize Public Works & Projects"
 eurolib_public_works_funds_desc:0 "Times are hard. People are either struggling with surviving to the next day, or trying to keep their battered psyche intact. We should fund some public artists and development projects to make the reality they're living in at least a little bit less harsh and drab for them. Small local artisans who decorate houses in traditional ways, new town parks and attractions, improved city infrastructure to make their daily commute a tad more bearable - all those things will help our image and provide our people with something to admire in these bleak times."
-eurolib_cultural_dev_funds:0 "Subsidize artists"
+
+eurolib_cultural_dev_funds:0 "Subsidize Artists"
 eurolib_cultural_dev_funds_desc:0 "There's much to be gained from funding various types of artists in our lands, from loudspeaking political caricaturists to small local painters, sculptors and artisanal artists. Depending on whom are we subsidizing, we can either discredit our enemies and improve the public's opinion about us, or help out small communities and aspiring artists with sharing their art with the world." 
-eurolib_implement_harsher_gun_laws:0 "Enforce stricter gun control"
+
+eurolib_implement_harsher_gun_laws:0 "Enforce Stricter Gun Control"
 eurolib_implement_harsher_gun_laws_desc:0 "Even before the Fall, most gun owners in Poland were made out to be weirdos and political radicals who definitely shouldn't be allowed anywhere near firearms. However, now that every larger settlement is at war with their neighbours, this stereotype became truth. Implementing strict gun laws and strongly enforcing them in newly acquired land will not only disarm most potentially dangerous individuals in the area, but also enlarge our own stockpile of weapons."
-eurolib_offensive_war_propaganda:0 "'Onwards, for a free Europa!'"
+
+eurolib_offensive_war_propaganda:0 "'Onwards, for a Free Europa!'"
 eurolib_offensive_war_propaganda_desc:0 "Though our mission is to bring personal freedoms and rule of law to Polish lands, the Poles themselves reject us, percieving us with more distrust and hatred than ever before, which means that we cannot count on any support from the commonfolk. The West has also turned its back towards Polish liberals, not wanting to have anything to do with Poland once Morawiecki's government and even the country's populace rejected the European interventionary corps. So stand up, people, for our cause is just, and we have *only ourselves* to do the job. Onwards, for a free Europa!"
-eurolib_defensive_war_propaganda:0 "Keep the torch of liberty burning!"
+
+eurolib_defensive_war_propaganda:0 "Keep the Torch of Liberty Burning!"
 eurolib_defensive_war_propaganda_desc:0 "Forest bandits and nationalist bumfucks are trying their hardest to undermine our goal of building a Polish state that's worth living in. They sacrifice hundreds of human lives and resources to build their personal kingdoms found on principles of corruption and oppresion, and we - as the bearers of the torch of liberty - are their natural adversaries who represent their biggest fears. In the past, we already gave them the access to power once, and now we see the results of that. We cannot let it happen again, so STAND UP, PEOPLE! Stand up for your liberties - for the liberties of your daughters and your wifes! Keep the torch of liberty burning!"
 
 
 
-#AUTOCRAT#
-autocrat_get_army_on_streets:0 "Tighten our control"
-autocrat_get_army_on_streets_desc:0 "We need to keep our people on a tight leash, unless we want them to start undermining our authority, or even worse yet - to suddenly stab us in the back. A couple of civil restrictions and a little police sweep of less loyal streets and settlements will keep any locals from raising their hand on us."
-
-autocrat_take_guns_from_people:0 "Seize guns from the populace"
-autocrat_take_guns_from_people_desc:0 "If we ever start running short on guns, we can simply seize them from our people. After all, they won't be able to put up any resistance, if they won't have anything to rebel with."
-
-autocrat_force_people_to_work:0 "'Motivate' the workers"
-autocrat_force_people_to_work_desc:0 "We need to keep our weapon manufacturers working at rates higher than their predicted norm. For the war effort. Therefore, our policing forces should check onto our factories and workshops from time to time to catch any slackers and send them back to work."
-
-######################################################################pomysł na potencjalną decyzję: Show our force/Brandish our guns: In order to keep our people in check, we need to remind them who's the boss here every once in a while. We cannot use direct force, however, as that would only encourage troublemakers to stand up for themselves. Instead, we should use a gunboat diplomacy-like approach and simply brandish our guns in front of them through organizing military parades, joint exercises where the civvies have to cooperate with the military and other such public actions.
-
-
-
-#PATCON#
-patcon_organize_a_grand_mass:0 "Organize state-backed religious ceremonies"
-patcon_organize_a_grand_mass_desc:0 ""
-
-patcon_gather_the_guns:0 "Let our loyalists bankroll our endeavors"
-patcon_gather_the_guns_desc:0 "pan xiądz przyjdzie i ładnie poprosi o szekle na gnaty dla pisu"
-
-patcon_fund_church_owned_businesses:0 "Entrust control over businesses to religious authorities"
-patcon_fund_church_owned_businesses_desc:0 "Weirdos and foreign agents surround us from all sides - thankfully, we're not the sole force standing up against them, for we have the religious authorities on our side, and not only does the clergy know how to lead people's minds and hearts in the right direction, it's also GREAT at handling money and connections. By entrusting the priesthood with control over businesses (both ones of real and of dubious legality), government institutions and various sectors of the economy we can cement our cooperation with it and secure the growth of both their and our coffers."
-
-
-
 #REACTIONARY#
-react_rewrite_unfavorable_history:0 "Rewrite problematic history"
+react_rewrite_unfavorable_history:0 "Rewrite Problematic History"
 react_rewrite_unfavorable_history_desc:0 "Some parts of our forefathers' history are quite problematic. We should rewrite them or hide them away from the public eye to cement our reputation of noble benefactors among those who are easily influenceable."
 
-react_exploit_nostalgy:0 "Increase our direct control over the populace"
+react_exploit_nostalgy:0 "Increase our Direct Control over the Populace"
 react_exploit_nostalgy_desc:0 "Various ideological dissidents are awaiting us behind every corner, trying to sabotage our efforts to bring things back to how they used to be - to how they *should* be. We need to increase the levels of our direct control over the population to halt the spread of their inane ideas."
 
-react_tell_people_what_they_want_to_hear:0 "Tell the people what they want to hear"
+react_tell_people_what_they_want_to_hear:0 "Tell the People What They Want to Hear"
 react_tell_people_what_they_want_to_hear_desc:0 "Propaganda of success works, because people LOVE to hear things that are right up their alley - it's why all reactionary politicians and governments need to keep bombarding their loyalists with constant news on how foreign powers envy our nation's stability, economic growth and resilience against foreign, harmful agendas, promises of brand new social programs and policies which will develop the state into THE independent world power that's free from globalism and foreign meddling and tales of unspeakable acts of terror and degeneracy commited by their enemies that legitimize the state's interference in its citizens' daily life."
 
-react_rebuild_the_good_old_days:0 "Entrust control over businesses to religious authorities"
+react_rebuild_the_good_old_days:0 "Entrust Religious Authorities with Control over Economic Sectors"
 react_rebuild_the_good_old_days_desc:0 "Harmful actors surround us from all sides - thankfully, we're not the sole force standing up against them, for we can bring the country's priesthood to our side by entrusting it with control over businesses (both ones of real and of dubious legality), government institutions and various sectors of the economy - after all, everyone knows that not only does the clergy know how to lead people's minds and hearts in the right direction, it's also GREAT at handling money and connections."
 
-react_return_to_old_ways:0 "Implement reactionary policies"
+react_return_to_old_ways:0 "Implement Reactionary Policies"
 react_return_to_old_ways_desc:0 "Our mission is simple: bring back the old order - the old way of life from back when things were simpler and made more sense to the commonfolk. Therefore, we need to implement new reactionary policies that will bring us a step closer to the good ol' days and allow us to at least partially relive their glory again." 
 
-react_warriors_of_great_past:0 "Reminisce over heroes of our past"
+react_warriors_of_great_past:0 "Reminisce over Heroes of our Past"
 react_warriors_of_great_past_desc:0 "Our history has given us a bit of a complex... If only we could be as brave and noble as those who fought to save Poland in the days of the Second Republic and the Commonwealth. Ahhh... \n...if only we could be as noble as the knights who fought in Grunwald against the treacherous Teutons. As famous and legendary as the Winged Hussars who seized Moscow in 1610. As brave as Kościuszko's scythemen. As fast as the Uhlans who drove the Soviets back to Russia and as patriotic, resilient and heroic as the Polish partisans during the Warsaw uprising. Ah... if only... \n... \n...actually, you know what? Scratch that. We shouldn't just reminiscent about them. We should BE like them - because just like the heroes of our past, we're fighting for Poland's survival."
 
 #REACTIONARY S(c)HIZO
-react_shizo_rewrite_unfavorable_history:0 "Rewrite problematic history"
+react_shizo_rewrite_unfavorable_history:0 "Rewrite Problematic History"
 react_shizo_rewrite_unfavorable_history_desc:0 "Some parts of our forefathers' history are quite problematic. We should rewrite them or hide them away from the public eye to cement our reputation of noble benefactors among those who are easily influenceable."
 
-react_shizo_exploit_nostalgy:0 "Increase our direct control over the populace"
-react_shizo_exploit_nostalgy_desc:0 "Disgusting, godless progressives and liberals are awaiting us behind every corner, trying to sabotage our efforts to bring things back to how they used to be - to how they *should* be. We need to increase the levels of our direct control over the population to halt the spread of their inane ideas."
+react_shizo_exploit_nostalgy:0 "Protect the Population Against Progressive Agents"
+react_shizo_exploit_nostalgy_desc:0 "Disgusting, godless progressives and liberals await us behind every corner, trying to sabotage our efforts to bring things back to how they used to be - to how they *should* be. Obviously, we need to protect our people from their snake tongues and 5G thought interference, and thus we need to tighten our leash around their necks and get some more direct control over the what they're doing, saying and hearing."
 
-react_shizo_tell_people_what_they_want_to_hear:0 "Tell the people what they want to hear"
-react_shizo_tell_people_what_they_want_to_hear_desc:0 "Propaganda of success works, because people LOVE to hear things that are right up their alley - it's why all reactionary politicians and governments need to keep bombarding their loyalists with constant news on how foreign powers envy our nation's stability, economic growth and resilience against foreign, harmful agendas, promises of brand new social programs and policies which will develop the state into THE independent world power that's free from globalism and foreign meddling and tales of unspeakable acts of terror and degeneracy commited by their enemies that legitimize the state's interference in its citizens' daily life."
+react_shizo_tell_people_what_they_want_to_hear:0 "Tell the People What They Want to Hear"
+react_shizo_tell_people_what_they_want_to_hear_desc:0 "'Enemies TRAMPLED by our forces!' \n'This year's harvests have been PLENTIFUL!' \n'Germans IN AWE of our PROSPERITY!' \n\nPropaganda of success works, because people LOVE to hear things that are right up their alley - hence why we should constantly bombard our loyalists with constant news on how foreign powers envy our nation's stability, economic growth and resilience against foreign, harmful agendas, promises of brand new social programs and policies which will develop the state into THE independent world power that's free from globalism and foreign meddling - so let's sit down for a moment, invent a couple of shouty headlines, and let our media nicely hammer them into people's heads."
 
-react_shizo_rebuild_the_good_old_days:0 "Entrust control over businesses to religious authorities"
+react_shizo_rebuild_the_good_old_days:0 "Reward the Clergy"
 react_shizo_rebuild_the_good_old_days_desc:0 "Weirdos and foreign agents surround us from all sides - thankfully, we're not the sole force standing up against them, for we have the religious authorities on our side. We should lease parts of the economy, government institutions and various sectors of the business to them, after all not only does the clergy know how to lead people's minds and hearts in the right direction, it's also great at handling money and connections."
 
-react_shizo_return_to_old_ways:0 "Bring back normalcy"
-react_shizo_return_to_old_ways_desc:0 "Our mission is simple: bring back the old order - the old way of life from back when things were simpler and made more sense to the commonfolk. Therefore, we need to implement new reactionary policies that will bring us a step closer to the good ol' days and allow us to at least partially relive their glory again." 
+react_shizo_return_to_old_ways:0 "Bring Back Normalcy and Morality"
+react_shizo_return_to_old_ways_desc:0 "Our mission is simple: bring back the old order - the old way of life from back when things were untouched by degenerate, demi-bi-ultra-homo-stereosexual alt-girls, and when they still made some sense to the innocent commonfolk. Therefore, we need to implement new reactionary policies that will bring us a step closer to the good ol' days and allow us to at least partially relive their glory again."
 
-react_shizo_warriors_of_great_past:0 "Follow the footsteps of our ancestral warriors"
+react_shizo_warriors_of_great_past:0 "Follow the Footsteps of our Ancestral Warriors"
 react_shizo_warriors_of_great_past_desc:0 "We strive to be like our great, great ancestors - noble men whose courage and power were the subjects of legends even in their times. Sadly, the hearts and minds of everyone around us are corrupted, and the only way to bring our past glory back is to do so by fighting our way through the legions of foreign pawns. Fear not, however, for we bear the noble marks of our ancestors - their holy might and possess their holy strenght - we'll be bound to succeed, if we'll follow in their footsteps and honour their rites and traditions."
 
-react_shizo_proclaim_holy_war:0 "Proclaim a §0holy war§!"
-react_shizo_proclaim_holy_war_desc:0 "While we'd rather prefer our people to be docile than potentially opposed to our cause, we can let them off their leashes while we're waging deadly wars with our neighbours. This is because hate is the most unifying of notions, and even those fundamentally opposed to our ethos of the past will stand side by side with us if they see our enemies as the bigger threat. So HEAR YE, PEOPLE! Fan the flames in your forges! Forge swords to kill with! For we have a mighty beast to slay - one that intends to slay *us* first..."
-react_shizo_holy_war_tt:0 "Letting people of their leashes will sharply raise their willingness to fight, §Ggiving us sizeable benefits§! for the duration of the war. However, we will receive a §Rblow to our stability§!, as a rabid population is much harder to manage and control."
+react_shizo_proclaim_holy_war:0 "Bring §0HOLY WAR§! to the Heathens!"
+react_shizo_proclaim_holy_war_desc:0 "HEAR YE, PEOPLE! Fan the flames in your forges! Forge swords with which to kill! For we have a HOLY WAR to wage! \nAs those who are most devoted, most pious and most fit to wield the divine blade, we need to depart on a campaign of slaughter and holy combat - as has been sanctioned by higher powers. Our battle with the vile heathens will be LEGENDARY! TO ARMS! \n...For we have a mighty beast to slay - one that intends to slay *us* first..."
+react_shizo_holy_war_tt:0 "By proclaiming a §0HOLY WAR§! against our current enemies and letting people off their leashes will sharply raise their willingness to fight, §Ggiving us sizeable benefits§! for the duration of the war. However, we will receive a §Rblow to our stability§!, as a rabid population is much harder to manage and control."
 react_shizo_holy_war_devotion_tt:0 "We are at war and our War Support is at least at §H75%§!"
 
+
+
 #CORPRATS#
-corpo_commie_danger_tt:0 "§RReds§! presence is at least noticable"
-corpo_random_eq_tt:0 "We will §Greceive§! a medium number of random §gMilitary Equipment.§!"
-#
-#
-corp_depoliticize_population:0 "Depoliticize the population"
+
+corp_depoliticize_population:0 "Depoliticize the Population"
 corp_depoliticize_population_desc:0 "A politicized population is a moralist and demanding population, hence why we have to conduct depolitisation campaigns that make sure that any political agitations amongst our people are watered down, any Internet or public actions that put our errors, shortcomings and crimes on spotlight are clamped down upon and that the word of them is kept away from the public ears."
 
-corp_increase_population_comfort:0 "Satisfy the population"
-corp_increase_population_comfort_desc:0 "'Give them bread and circuses and they will never revolt', said Juvenal. His words are to live by for all governments and *especially* for corporate entities like ourselves - numbing down the populace's voice is what we are built upon in the first place. By diverting our people's attention away from us with new available goods and services, we ensure that they'll stay docile."
+corp_increase_population_comfort:0 "Satisfy the Population"
+corp_increase_population_comfort_desc:0 "'Give them bread and circuses and they will never revolt', said Juvenal. His words are to live by for all governments and *especially* for corporate entities like ourselves - numbing down the populace's voice is what we are built upon in the first place. By diverting our people's attention away from their problems with new available goods and services, we ensure that they'll stay docile."
 
-corp_lower_quotas:0 "Lower the production quotas"
+corp_lower_quotas:0 "Lower the Production Quotas"
 corp_lower_quotas_desc:0 "Sadly, people need some free time to rest and work on their families and aspirations. In times of crisis, we can temporarily relieve our people of parts of their duties to ensure they're content enough to keep having their mouths shut."
 
-corp_crank_up_quotas:0 "Crank up production quotas"
+corp_crank_up_quotas:0 "Crank Up Production Quotas"
 corp_crank_up_quotas_desc:0 "Whenever we are going through hard times or vice versa - through times of prosperity, we can crank up our workers' production quotas to stay afloat or to capitalize on the bigger supply of money and goods available to them."
 corpo_random_eq_small_tt:0 "The increased production will yield us an extra batch of random military equipment."
 
-corp_lower_the_costs:0 "Replace pentions with company scrip"
+corp_lower_the_costs:0 "Replace Pentions with Company Scrip"
 corp_lower_the_costs_desc:0 "We can increase our monopoly on power by giving our workers company scrip that can only be exchanged for goods in our own shops, instead of paying them with actual money that they could spend elsewhere. Obviously, increasing our hold over people's lives is gonna make them hate us more, but it will bring us one step closer to establishing our dream neo-feudal state."
 
-########################################################################################DOKOŃCZYĆ############################################################################
-corp_expand_security_forces:0 "Expand Security Forces"
-corp_expand_security_forces_desc:0 "Gather §Gmore§! men, equip them §GBetter§!, train them §GBetter§!. These three steps are all you need to know how to build a §GGrand Army§! from ground up."
+corp_expand_security_forces:0 "Offer Contracts for Temporary Army Duty"
+corp_expand_security_forces_desc:0 "Food security is very low in post-Fall Poland, and there's lots of struggling people who'd be willing to serve in the army in exchange for food and money, but cannot leave their families alone, as then they'd be left without a breadwinner. Therefore - how about we offer these people contracts for *temporary* army duty? The Russian government used a similar method of hiring new people for the army during their invasion of Ukraine, where anyone of working age could simply hit up their local wojenkomat (army drafting commitee, or WKU in Polish) and sign up for service on the front for a limited time. These contract troops would receive their salary only after some time spent on the front, meaning that many of them died without even getting paid, meaning that we can use this conscription method to gain new recruits while simultaneously keeping our money."
 corpo_soldiers_random_tt:0 "We will receive a random number of new conscripts."
+corpo_random_eq_tt:0 "We will receive additional random military equipment."
 
-corp_encite_military_service:0 "Encite Military Service"
-corp_encite_military_service_desc:0 "It's obvious that people usually §Rdon't want§! war. It's even more obvious that if they §Rhate§! war, they will §Ravoid§! taking part in them like it was fire. There are many ways to tackle this problem, one of them is to simply offer them §GNoticable Benefits§! for taking part in our little "§CAdventures§!"."
+corp_encite_military_service:0 "Expand Core Army Parts"
+corp_encite_military_service_desc:0 "Our army works the same way the armies of colonial companies did so in the past - it is comprised of levied locals and contracted volunteers commanded over by the core corporate troops. This system ensures that we've always got access to a large manpower pool, but it also creates the need to balance the ratio between the levy and our own men as to not let them outnumber us too much, as that would let 'em easily overwhelm us in a potential rebelion. Let's expand the core rank to ensure that the lower ranks don't suddenly get any funny ideas, like recreating the Sepoy Mutiny for example."
+
+
+
+########################################################################################DOKOŃCZYĆ############################################################################
 
 corp_crush_the_unions:0 "§CCrush§! the §RUnions!§!"
 corp_crush_the_unions_desc:0 "These §RUngrateful Imbeciles!§! They think they can conspire to destroy our §CProsperity§!, our §CDream§!?! We won't let them do this, §CWE MUSTN'T LET THEM!§! We will §CCrush them§! and §CCrush them§!, until there is nothing left, but a dust being reminder of their §GInevitable Failure§!. §RIf we hesitate, they will drag us all in their pit of Decay and Degeneracy.§!"
 corpo_lefties_crush_tt:0 "Once §RCommie§! Threat arises in our country to at least concerning levels, we will be able to crush them with our §CUnmatched Power!§!"
+#
+corpo_commie_danger_tt:0 "§RReds§! presence is at least noticable"
+#
 
 corp_lend_out_monopoles:0 "Lend Out §CMonopoles§!"
 corp_lend_out_monopoles_desc:0 "Within our borders there are many §Guseful§! and §Gfriendly§! powerful §CEnterprises§! or §CIndividuals§!. It's wise to reward them with our spoils to keep our §CFruitful Cooperation§! secured!"
@@ -231,13 +224,88 @@ corpo_monopoles_tt:0 "By granting these §CMonopoles§! we will gain favours and
 
 
 
+#AUTOCRAT#
+autocrat_get_army_on_streets:0 "Tighten our Control"
+autocrat_get_army_on_streets_desc:0 "We need to keep our people on a tight leash, unless we want them to start undermining our authority, or even worse yet - to suddenly stab us in the back. A couple of civil restrictions and a little police sweep of less loyal streets and settlements will keep any locals from raising their hand on us."
+
+autocrat_take_guns_from_people:0 "Seize Guns from the Populace"
+autocrat_take_guns_from_people_desc:0 "If we ever start running short on guns, we can simply seize them from our people. After all, they won't be able to put up any resistance, if they won't have anything to rebel with."
+
+autocrat_force_people_to_work:0 "'Motivate' the Workers"
+autocrat_force_people_to_work_desc:0 "We need to keep our weapon manufacturers working at rates higher than their predicted norm. For the war effort. Therefore, our policing forces should check onto our factories and workshops from time to time to catch any slackers and send them back to work."
 
 
 
+########################################################################################PATCON############################################################################################
+patcon_organize_a_grand_mass:0 "Organize State-backed Religious Ceremonies"
+patcon_organize_a_grand_mass_desc:0 "pochód z krzyżem i obrazem kacziego przez miasto"
+
+patcon_gather_the_guns:0 "Let our Loyalists Bankroll our Endeavors"
+patcon_gather_the_guns_desc:0 "pan xiądz przyjdzie i ładnie poprosi o szekle na gnaty dla pisu"
+
+patcon_fund_church_owned_businesses:0 "Entrust Religious Authorities with Control over Economic Sectors"
+patcon_fund_church_owned_businesses_desc:0 "Weirdos and foreign agents surround us from all sides - thankfully, we're not the sole force standing up against them, for we have the religious authorities on our side, and not only does the clergy know how to lead people's minds and hearts in the right direction, it's also GREAT at handling money and connections. By entrusting the priesthood with control over businesses (both ones of real and of dubious legality), government institutions and various sectors of the economy we can cement our cooperation with it and secure the growth of both their and our coffers."
 
 
 
+########################################################################################NEONAT#######################################################################################
+neonat_organize_patriotic_demonstration:0 "Organize Nationalist Demonstrations"
+neonat_organize_patriotic_demonstration_desc:0 "jaszczur jedzie na qniu"
 
+neonat_train_patriotic_youth:0 "Train Nationalist Paramilitaries"
+neonat_train_patriotic_youth_desc:0 "hitlerjuden"
+
+neonat_build_work_camps:0 "Utilize the Undesirables"
+neonat_build_work_camps_desc:0 "więźniowie, w*stoidy, i femboye"
+
+
+
+########################################################################################PARÓWECZKI#######################################################################################
+freemarket_cut_down_taxes:0 "Cut Down Taxes"
+freemarket_cut_down_taxes_desc:0 "tax cut'y i tax breaki"
+
+freemarket_print_3d_guns:0 "3D print Guns"
+freemarket_print_3d_guns_desc:0 "dae glock plastykowy nie wykrywalny przez skanery metalu??????"
+
+freemarket_fund_small_businesses:0 "Encourage the Formation of Small Businesses"
+freemarket_fund_small_businesses_desc:0 "tax breakuj i paróweczkuj"
+
+
+
+########################################################################################SSUC DEM (SSIJ DĘBSKIEGO)#######################################################################################
+succdem_promise_safety_net:0 "co to kurwa jest safety net"
+succdem_promise_safety_net_desc:0 "chodzi o te takie sieci do łapania spadających robotników?"
+#ej nie serio niech ktoś wyjaśni o co konkretniej chodzi
+
+succdem_self_defence_courses:0 "Organize Local Self-Defense Forces"
+succdem_self_defence_courses_desc:0 "siemaa dzisiaj pokażemy wam yyy podstawowego low kinga"
+
+succdem_fund_national_businesses:0 "Fund National Businesses"
+succdem_fund_national_businesses_desc:0 "tax breakuj bez paróweczkowania"
+
+
+
+########################################################################################DŹWIGIZM#######################################################################################
+cranism_central_commitee_meeting:0 "Organize a Meeting of the Central Committee"
+cranism_central_commitee_meeting_desc:0 "zebranie w niedziele halo gdzie nargton"
+
+cranism_military_parade:0 "Show our Might to the People"
+cranism_military_parade_desc:0 "In order to keep our people's morale high, we need to show them how great and powerful we are every once in a while. By organizing military parades, joint exercises where the civvies have to cooperate with the military and other public happenings involving the army, we let the commonfolk connect with the army, giving them a thing to be proud of and brewing the sense of allegiance to the people in our soldiers' hearts."
+
+cranism_build_great_project_of_socialism:0 "Raise Public Monuments"
+cranism_build_great_project_of_socialism_desc:0 "jakieś tam pomniczki i inne monumenty uliczne, bo duże budynki to raczej na focusy się tylko nadają"
+
+
+
+########################################################################################ANTIFA JAWORZNO IDEOLOGY#######################################################################################
+squat_blunt_of_peace:0 "Let the People Connect with Each Other"
+squat_blunt_of_peace_desc:0 "hehe BLUNT of peace get it temacik ziółko jaranko skun 420 towar zielone, pamiętać żeby też do np. takich wandali pasowało"
+
+squat_get_some_baseball_bats:0 "Tell the People to Prepare Weapons"
+squat_get_some_baseball_bats_desc:0 "base balls"
+
+squat_pump_yourself_to_fight:0 "idk"
+squat_pump_yourself_to_fight_desc:0 "pon pon chaka chaka ładujemy atak"
 
 
 
