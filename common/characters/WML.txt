@@ -137,6 +137,23 @@ characters={
 			legacy_id=-1
 		}
 	}
+	WML_slawomir_litwin = {
+		name="Sławomir Litwin"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Litwin.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 	WML_pawel_wiktorowicz = {
 		name="Paweł Wiktorowicz"
 		portraits = {
@@ -158,6 +175,24 @@ characters={
 		name="Jacek Biruś"
 		portraits = {
 			army = {
+			    large="gfx/leaders/WML/WML_Birus.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WML_zbigniew_aszkielaniec = {
+		name="Zbigniew Aszkielaniec"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Aszkielaniec.dds"
 			}
 		}
 		corps_commander = {
