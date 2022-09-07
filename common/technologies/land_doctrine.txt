@@ -13,6 +13,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_early_range
 		}
 		path = {
 			leads_to_tech = vehicular_combat
@@ -52,6 +53,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_early_range
 		}		
 		ai_will_do = {
 			factor = 20 
@@ -82,6 +84,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_early_range
 		}	
 		ai_will_do = {
 			factor = 20 
@@ -116,6 +119,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_early_melee
 		}		
 		ai_will_do = {
 			factor = 20 
@@ -146,6 +150,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_early_melee
 		}		
 		ai_will_do = {
 			factor = 20 
@@ -178,6 +183,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_early_melee
 		}
 		ai_will_do = {
 			factor = 20 
@@ -263,6 +269,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_elite_tech
 		}
 		path = {
 			leads_to_tech = specialized_service
@@ -299,6 +306,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_elite_tech
 		}
 		path = {
 			leads_to_tech = expensive_upgrades
@@ -339,6 +347,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_elite_tech
 		}
 		path = {
 			leads_to_tech = maximum_speed
@@ -375,6 +384,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_elite_tech
 		}
 		path = {
 			leads_to_tech = hardened_materials
@@ -413,6 +423,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_elite_tech
 		}
 		path = {
 			leads_to_tech = allied_mastercomputer
@@ -456,6 +467,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_elite_tech
 		}
 		ai_will_do = {
 			factor = 20 
@@ -490,6 +502,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_common_tech
 		}
 		path = {
 			leads_to_tech = simplified_instructions
@@ -526,6 +539,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_common_tech
 		}
 		path = {
 			leads_to_tech = common_improvements
@@ -563,6 +577,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_common_tech
 		}
 		path = {
 			leads_to_tech = habituation_of_troops
@@ -591,6 +606,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_common_tech
 		}
 		path = {
 			leads_to_tech = quick_replacements
@@ -619,6 +635,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_common_tech
 		}
 		path = {
 			leads_to_tech = support_implants
@@ -655,6 +672,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_common_tech
 		}
 		ai_will_do = {
 			factor = 20 
@@ -736,6 +754,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_nato
 		}
 		path = {
 			leads_to_tech = brilliant_organisation
@@ -771,6 +790,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_nato
 		}
 		path = {
 			leads_to_tech = intensive_planning
@@ -800,6 +820,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_nato
 		}
 		path = {
 			leads_to_tech = precise_strike
@@ -831,6 +852,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_nato
 		}
 		path = {
 			leads_to_tech = defence_of_supply_chains
@@ -873,6 +895,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_nato
 		}
 		path = {
 			leads_to_tech = rotation_of_soldiers
@@ -903,6 +926,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_nato
 		}
 		ai_will_do = {
 			factor = 20 
@@ -931,6 +955,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_warsaw_pact
 		}
 		path = {
 			leads_to_tech = people's_army
@@ -961,6 +986,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_warsaw_pact
 		}
 		path = {
 			leads_to_tech = let's_gooo
@@ -993,6 +1019,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_warsaw_pact
 		}
 		path = {
 			leads_to_tech = blind_fire
@@ -1023,6 +1050,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_warsaw_pact
 		}
 		path = {
 			leads_to_tech = emergency_methods_of_operation
@@ -1055,6 +1083,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_warsaw_pact
 		}
 		path = {
 			leads_to_tech = saving_rations
@@ -1087,6 +1116,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_warsaw_pact
 		}
 		ai_will_do = {
 			factor = 20 
@@ -1171,6 +1201,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_partisan
 		}
 		xor = { spreading_of_terror }
 		ai_will_do = {
@@ -1201,6 +1232,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_partisan
 		}
 		path = {
 			leads_to_tech = helping_hands
@@ -1230,6 +1262,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_partisan
 		}
 		path = {
 			leads_to_tech = terrain_usage
@@ -1263,6 +1296,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_partisan
 		}
 		path = {
 			leads_to_tech = false_flag_operations
@@ -1292,6 +1326,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_partisan
 		}
 		path = {
 			leads_to_tech = don't_let_them_sleep
@@ -1328,6 +1363,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_partisan
 		}
 		ai_will_do = {
 			factor = 20 
@@ -1355,6 +1391,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_terrorism
 		}
 		path = {
 			leads_to_tech = blending_in
@@ -1384,6 +1421,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_terrorism
 		}
 		path = {
 			leads_to_tech = strike_in_vital_parts
@@ -1414,6 +1452,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_terrorism
 		}
 		path = {
 			leads_to_tech = indoctrination
@@ -1444,6 +1483,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_terrorism
 		}
 		path = {
 			leads_to_tech = countervalue
@@ -1473,6 +1513,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_terrorism
 		}
 		path = {
 			leads_to_tech = prisoners_recruitment
@@ -1509,6 +1550,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_terrorism
 		}
 
 		ai_will_do = {
@@ -1587,6 +1629,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_honor
 		}
 		path = {
 			leads_to_tech = dummy_training
@@ -1619,6 +1662,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_honor
 		}
 		path = {
 			leads_to_tech = grace
@@ -1648,6 +1692,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_honor
 		}
 		path = {
 			leads_to_tech = remembering_the_past
@@ -1677,6 +1722,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_honor
 		}
 		path = {
 			leads_to_tech = best_of_the_best
@@ -1707,6 +1753,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_honor
 		}
 		path = {
 			leads_to_tech = meaning_of_bravery_and_sword
@@ -1741,6 +1788,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_honor
 		}
 		ai_will_do = {
 			factor = 20 
@@ -1776,6 +1824,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_horde
 		}
 		path = {
 			leads_to_tech = devouring
@@ -1806,6 +1855,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_horde
 		}
 		path = {
 			leads_to_tech = mindless_obedience
@@ -1838,6 +1888,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_horde
 		}
 		path = {
 			leads_to_tech = flesh_modifications
@@ -1872,6 +1923,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_horde
 		}
 		path = {
 			leads_to_tech = copying_of_prey
@@ -1901,6 +1953,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_horde
 		}
 		path = {
 			leads_to_tech = eternal_fear
@@ -1935,6 +1988,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			land_doctrine
+			land_horde
 		}
 		ai_will_do = {
 			factor = 20 

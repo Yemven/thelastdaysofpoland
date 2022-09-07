@@ -1,5 +1,6 @@
 ﻿add_namespace = sapek
 add_namespace = sapek_war
+add_namespace = sapek_wiedzmin
 
 country_event = {
 	id = sapek.1 #intro-sapek
@@ -50,6 +51,7 @@ country_event = {
 
 	option = {
 		name = sapek.4.a
+		complete_national_focus = SAP_attack_on_kaer_nevitz
 		hidden_effect = {
 			set_country_flag = kaer_nevitz_attack
 		}
@@ -239,7 +241,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = sapek.9.a
+		name = sapek_war.9.a
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_insanity
@@ -249,7 +251,7 @@ country_event = {
 		add_stability = 0.1
 	}
 	option = {
-		name = sapek.9.b
+		name = sapek_war.9.b
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_sanity
@@ -269,7 +271,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = sapek.10.a
+		name = sapek_war.10.a
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_insanity
@@ -297,7 +299,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = sapek.10.b
+		name = sapek_war.10.b
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_sanity
@@ -322,7 +324,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = sapek.11.a
+		name = sapek_war.11.a
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_insanity
@@ -341,7 +343,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = sapek.12.a
+		name = sapek_war.12.a
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_insanity
@@ -351,7 +353,7 @@ country_event = {
 		add_stability = 0.1
 	}
 	option = {
-		name = sapek.12.b
+		name = sapek_war.12.b
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_sanity
@@ -371,7 +373,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = sapek.13.a
+		name = sapek_war.13.a
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_insanity
@@ -381,7 +383,7 @@ country_event = {
 		add_stability = 0.1
 	}
 	option = {
-		name = sapek.13.b
+		name = sapek_war.13.b
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_sanity
@@ -401,7 +403,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = sapek.14.a
+		name = sapek_war.14.a
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_insanity
@@ -409,9 +411,10 @@ country_event = {
 			}
 		}
 		add_stability = 0.1
+		custom_effect_tooltip = SAP_insanity_tooltip
 	}
 	option = {
-		name = sapek.14.b
+		name = sapek_war.14.b
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_sanity
@@ -419,5 +422,304 @@ country_event = {
 			}
 		}
 		add_stability = -0.1
+		custom_effect_tooltip = SAP_sanity_tooltip
+	}
+}
+
+country_event = {
+	id = sapek.8 #ekonomia-wybor
+	title = sapek.8.t
+	desc = sapek.8.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.8.a
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_insanity
+				value = 10
+			}
+		}
+		add_ideas = SAP_feudal_extortion
+		custom_effect_tooltip = SAP_insanity_tooltip
+		complete_national_focus = SAP_to_your_prince
+	}
+	option = {
+		name = sapek.8.b
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_sanity
+				value = 10
+			}
+		}
+		add_ideas = SAP_syndicate_coin
+		custom_effect_tooltip = SAP_sanity_tooltip
+		complete_national_focus = SAP_to_your_witcher
+	}
+}
+
+
+country_event = {
+	id = sapek.9 #zamek-dla-zakonu
+	title = sapek.9.t
+	desc = sapek.9.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.9.a
+		set_country_flag = SAP_zakon_lowicz
+		272 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 7449
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+		}
+	}
+	option = {
+		name = sapek.9.b
+		set_country_flag = SAP_zakon_zychlin
+		682 = {
+			add_building_construction = {
+				type = bunker
+				level = 4
+				instant_build = yes
+				province = 1539
+			}
+		}
+	}
+	option = {
+		name = sapek.9.c #skierniewice -  jesli wybierzemy to, to przy potencjalnym przewrocie bartyzel bedzie mial wieksze szanse
+		set_country_flag = SAP_zakon_skierniewice
+		269 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 7449
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}	
+		custom_effect_tooltip = SAP_zakon_zamek_tooltip
+		}
+}
+
+
+
+country_event = {
+	id = sapek.10 #folwark
+	title = sapek.10.t
+	desc = sapek.10.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.10.a
+		set_country_flag = SAP_folwark_lipce
+		850 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	option = {
+		name = sapek.10.b
+		set_country_flag = SAP_folwark_moskwa
+		303 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = sapek.11 #bpp
+	title = sapek.11.t
+	desc = sapek.11.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.11.a
+		add_ideas = SAP_biedna_pierdolona_piechota
+	}
+}
+
+country_event = {
+	id = sapek.12 #lepszy-zakon
+	title = sapek.12.t
+	desc = sapek.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.12.a
+		swap_idea = {
+			remove_idea = SAP_army_of_bartyzel
+			add_idea = SAP_army_of_bartyzel_2
+			}
+	}
+}
+
+country_event = {
+	id = sapek.13 #lepsze-wiewiory
+	title = sapek.13.t
+	desc = sapek.13.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.13.a
+		swap_idea = {
+			remove_idea = SAP_army_of_wiewiorki
+			add_idea = SAP_army_of_wiewiorki_2
+			}
+	}
+}
+
+country_event = {
+	id = sapek_wiedzmin.1 #wprowadzenie-do-wiedzminow
+	title = sapek_wiedzmin.1.t
+	desc = sapek_wiedzmin.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_wiedzmin.1.a
+		add_ideas = SAP_szkola_wilka		
+	}
+}
+
+country_event = {
+	id = sapek_wiedzmin.2 #viedmolol-genesis
+	title = sapek_wiedzmin.2.t
+	desc = sapek_wiedzmin.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_wiedzmin.2.a #dawaj-dzieciora
+		add_manpower = 1000
+		swap_idea = {
+			remove_idea = SAP_szkola_wilka
+			add_idea = SAP_szkola_wilka_insane_1
+			}
+		custom_effect_tooltip = SAP_insanity_tooltip
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_insanity
+				value = 10
+			}
+		}
+	}
+	option = { 
+		name = sapek_wiedzmin.2.b #ochotnicy
+		add_manpower = 1500
+		swap_idea = {
+			remove_idea = SAP_szkola_wilka
+			add_idea = SAP_szkola_wilka_sane_1
+			}
+		custom_effect_tooltip = SAP_sanity_tooltip
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_sanity
+				value = 10
+			}
+		}
+	}	
+}
+
+country_event = {
+	id = sapek_wiedzmin.3 #viedmolol-trening
+	title = sapek_wiedzmin.3.t
+	desc = sapek_wiedzmin.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_wiedzmin.3.a
+		swap_idea = {
+			remove_idea = SAP_szkola_wilka_insane_1
+			add_idea = SAP_szkola_wilka_insane_2
+			}
+		custom_effect_tooltip = SAP_insanity_tooltip
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_insanity
+				value = 10
+			}
+		}
+	}
+	option = {
+		name = sapek_wiedzmin.3.b
+		swap_idea = {
+			remove_idea = SAP_szkola_wilka_sane_1
+			add_idea = SAP_szkola_wilka_sane_2
+			}
+		custom_effect_tooltip = SAP_sanity_tooltip
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_sanity
+				value = 10
+			}
+		}
+	}	
+}
+
+
+country_event = {
+	id = sapek_wiedzmin.4 #wyprowadzenie-wiedzminow
+	title = sapek_wiedzmin.4.t
+	desc = sapek_wiedzmin.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_wiedzmin.4.a
+		300 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 7453
+			}
+		}
 	}
 }

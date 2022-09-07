@@ -690,6 +690,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		 685 = {
 			create_unit = {
 				division = "name = \"Oddział Prewencyjny Patrolu\" division_template = \"Patrol Rutkowskiego\" start_experience_factor = 1 start_equipment_factor = 0.5"
 				owner = KRS
@@ -698,6 +699,7 @@ focus_tree = {
 				division = "name = \"Samodzielny Pododdział Antyterrorystyczny Patrolu\" division_template = \"Patrol Rutkowskiego\" start_experience_factor = 1 start_equipment_factor = 0.5"
 				owner = KRS
 			}
+		}
 		}
 	}
 	

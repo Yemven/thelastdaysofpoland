@@ -295,7 +295,19 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		add_equipment_to_stockpile = {
+			type = ranged_equipment_1
+			amount = 300
+			producer = WML
 		}
+		add_equipment_to_stockpile = {
+			type = melee_equipment_1
+			amount = 300
+			producer = WML
+		}
+		}
+		add_fuel = 5000
+		add_war_support = -0.2
 	}
 	
 	focus = {
@@ -452,6 +464,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = sapek.8
+				}
 		}
 	}
 	
@@ -474,6 +489,10 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_idea = {
+				remove_idea = economy_primal_economy			
+				add_idea = economy_feudalism
+				}
 		}
 	}
 	
@@ -495,6 +514,23 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_idea = {
+				remove_idea = SAP_ravaged_country
+				add_idea = SAP_ravaged_country_2
+				}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+			custom_effect_tooltip = SAP_insanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_insanity
+					value = 5
+				}
+			}
 		}
 	}
 	
@@ -516,6 +552,9 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = sapek.9
+				}
 		}
 	}
 	
@@ -537,6 +576,26 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		swap_idea = {
+				remove_idea = trade_regulated			
+				add_idea = trade_minimal
+				}
+		swap_idea = {
+				remove_idea = SAP_feudal_extortion			
+				add_idea = SAP_feudal_extortion_2
+				}
+		add_equipment_to_stockpile = {
+				type = melee_equipment_1
+				amount = 500
+				producer = SAP
+			}
+			custom_effect_tooltip = SAP_insanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_insanity
+					value = 5
+				}
+			}
 		}
 	}
 	
@@ -558,6 +617,16 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			if = {
+				limit = { has_idea = SAP_order_priviliges_2_alt }
+					swap_idea = {
+						remove_idea = SAP_order_priviliges_2_alt
+						add_idea = SAP_order_priviliges_2
+						}
+			}
+			else = {
+				add_ideas = SAP_order_priviliges_1
+				}
 		}
 	}
 
@@ -579,6 +648,17 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_idea = {
+				remove_idea = taxes_high
+				add_idea = taxes_low
+				}
+			custom_effect_tooltip = SAP_sanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_sanity
+					value = 5
+				}
+			}
 		}
 	}
 	
@@ -600,6 +680,16 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			if = {
+				limit = { has_idea = SAP_order_priviliges }
+					swap_idea = {
+						remove_idea = SAP_order_priviliges
+						add_idea = SAP_order_priviliges_2
+						}
+			}
+			else = {
+				add_ideas = SAP_order_priviliges_2_alt
+				}
 		}
 	}
 	
@@ -622,6 +712,14 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			add_ideas = SAP_ducal_mint_idea
+			269 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			}
 		}
 	}
 	
@@ -644,6 +742,10 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_idea = {
+				remove_idea = economy_primal_economy			
+				add_idea = economy_feudalism
+				}
 		}
 	}
 	
@@ -665,6 +767,26 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+				269 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			custom_effect_tooltip = SAP_sanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_sanity
+					value = 5
+				}
+			}
 		}
 	}
 	
@@ -686,6 +808,9 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = sapek.10
+				}
 		}
 	}
 	
@@ -707,6 +832,21 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_idea = {
+				remove_idea = trade_regulated			
+				add_idea = trade_free
+				}
+			swap_idea = {
+				remove_idea = SAP_syndicate_coin		
+				add_idea = SAP_syndicate_coin_2
+				}
+			custom_effect_tooltip = SAP_sanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_sanity
+					value = 5
+				}
+			}
 		}
 	}
 	
@@ -728,6 +868,16 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			if = {
+				limit = { has_idea = SAP_syndicate_priviliges_2_alt }
+					swap_idea = {
+						remove_idea = SAP_syndicate_priviliges_2_alt
+						add_idea = SAP_syndicate_priviliges_2
+						}
+			}
+			else = {
+				add_ideas = SAP_syndicate_priviliges_1
+				}
 		}
 	}
 	
@@ -749,6 +899,17 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_idea = {
+				remove_idea = taxes_high
+				add_idea = taxes_medium
+				}
+			custom_effect_tooltip = SAP_insanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_insanity
+					value = 5
+				}
+			}
 		}
 	}
 	
@@ -770,6 +931,16 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			if = {
+				limit = { has_idea = SAP_syndicate_priviliges_1 }
+					swap_idea = {
+						remove_idea = SAP_syndicate_priviliges_1
+						add_idea = SAP_syndicate_priviliges_2
+						}
+			}
+			else = {
+				add_ideas = SAP_syndicate_priviliges_2_alt
+				}
 		}
 	}
 	
@@ -791,6 +962,9 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			country_event = { 
+				id = sapek.11
+				}
 		}
 	}
 	
@@ -821,6 +995,24 @@ focus_tree = {
 					planning_skill = 4
 					logistics_skill = 2
 				}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_honor
+			}
+			269 = {
+			create_unit = {
+				division = "name = \"2 Batalion 'Obrońcy Lebiody'\" division_template = \"Batalion Książęcy\" start_experience_factor = 1 start_equipment_factor = 1"
+				owner = SAP
+			}
+			}
+			custom_effect_tooltip = SAP_insanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_insanity
+					value = 10
+				}
+			}
 		}
 	}
 	
@@ -842,6 +1034,21 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			swap_idea = {
+				remove_idea = SAP_biedna_pierdolona_piechota
+				add_idea = SAP_army_of_bartyzel
+			}
+			swap_idea = {
+				remove_idea = improvised_security
+				add_idea = advanced_security
+			}
+			custom_effect_tooltip = SAP_insanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_insanity
+					value = 5
+				}
+			}
 		}
 	}
 	
@@ -863,6 +1070,37 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			swap_idea = {
+				remove_idea = officer_random
+				add_idea = officer_clerks
+			}
+			division_template = {
+				name = "Zakon Białej Róży"
+				priority = 2
+				template_counter = 48
+				regiments = {
+					elite_infantry = { x = 0 y = 0 }
+					elite_infantry = { x = 0 y = 1 }
+					elite_infantry = { x = 0 y = 2 }
+				}
+			}
+			269 = {
+				create_unit = {
+					division = "name = \"1 Chorągiew Zakonna Wielkiego Mistrza'\" division_template = \"Zakon Białej Róży\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = SAP
+				}
+				create_unit = {
+					division = "name = \"2 Chorągiew Zakonna 'Wieczny Ogień'\" division_template = \"Zakon Białej Róży\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = SAP
+				}			
+			}
+			custom_effect_tooltip = SAP_insanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_insanity
+					value = 5
+				}
+			}
 		}
 	}
 	
@@ -893,6 +1131,28 @@ focus_tree = {
 				planning_skill = 2
 				logistics_skill = 1
 			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_partisan
+			}
+			272 = {
+			create_unit = {
+				division = "name = \"Komando 'Lwi Pazur'\" division_template = \"Komando Scoia'tael\" start_experience_factor = 1 start_equipment_factor = 1"
+				owner = SAP
+			}
+			create_unit = {
+				division = "name = \"Komando 'Rój'\" division_template = \"Komando Scoia'tael\" start_experience_factor = 1 start_equipment_factor = 1"
+				owner = SAP
+			}
+			}
+			custom_effect_tooltip = SAP_sanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_sanity
+					value = 10
+				}
+			}
 		}
 	}
 	
@@ -914,6 +1174,21 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			swap_idea = {
+				remove_idea = SAP_biedna_pierdolona_piechota
+				add_idea = SAP_army_of_wiewiorki
+			}
+			swap_idea = {
+				remove_idea = improvised_security
+				add_idea = basic_security
+			}
+			custom_effect_tooltip = SAP_sanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_sanity
+					value = 5
+				}
+			}
 		}
 	}
 	
@@ -934,7 +1209,39 @@ focus_tree = {
 		
 		cost = 3
 		search_filters = {}
-		completion_reward = {		
+		completion_reward = {	
+			swap_idea = {
+				remove_idea = training_battle
+				add_idea = training_basic
+			}
+			division_template = {
+				name = "Brygada Vrihedd"
+				priority = 2
+				template_counter = 4
+				regiments = {
+					cavalry = { x = 0 y = 0 }
+					cavalry = { x = 0 y = 1 }
+					cavalry = { x = 0 y = 2 }
+					cavalry = { x = 0 y = 3 }
+				}
+			}
+			269 = {
+				create_unit = {
+					division = "name = \"1 Szwadron Brygady Vrihedd 'Vhóelblaen'\" division_template = \"Brygada Vrihedd\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = SAP
+				}
+				create_unit = {
+					division = "name = \"2 Szwadron Brygady Vrihedd 'Feainnewedd'\" division_template = \"Brygada Vrihedd\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = SAP
+				}			
+			}
+			custom_effect_tooltip = SAP_sanity_tooltip			
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_sanity
+					value = 5
+				}
+			}		
 		}
 	}
 	
@@ -964,6 +1271,9 @@ focus_tree = {
 				planning_skill = 1
 				logistics_skill = 1
 			}
+			country_event = {
+				id = sapek_wiedzmin.1 
+				}
 		}
 	}
 	
@@ -985,6 +1295,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = sapek_wiedzmin.2
+				}
 		}
 	}
 	
@@ -994,7 +1307,7 @@ focus_tree = {
 		relative_position_id = SAP_establish_order_of_witchers
 		prerequisite = { focus = SAP_establish_order_of_witchers }
 		available = {
-		
+			has_completed_focus = SAP_question_of_origin
 		}
 		
 		bypass = {
@@ -1006,6 +1319,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = sapek_wiedzmin.3
+				}		
 		}
 	}
 	
@@ -1028,6 +1344,9 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = sapek_wiedzmin.4
+				}	
 		}
 	}
 	
@@ -1051,6 +1370,24 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			army_experience = 100
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+			if = {
+				limit = { has_completed_focus = SAP_vrihedd_brigade }
+					country_event = {
+						id = sapek.13
+						}
+				}
+			else_if = {
+				limit = { has_completed_focus = SAP_order_of_white_rose }
+					country_event = {
+						id = sapek.12
+						}
+				}
 		}
 	}
 }	
