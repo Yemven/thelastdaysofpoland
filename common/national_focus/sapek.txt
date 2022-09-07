@@ -695,7 +695,7 @@ focus_tree = {
 						}
 			}
 			else = {
-				add_ideas = SAP_order_priviliges_1
+				add_ideas = SAP_order_priviliges
 				}
 		}
 	}
@@ -946,7 +946,7 @@ focus_tree = {
 						}
 			}
 			else = {
-				add_ideas = SAP_syndicate_priviliges_1
+				add_ideas = SAP_syndicate_priviliges
 				}
 		}
 	}
@@ -1002,9 +1002,9 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			if = {
-				limit = { has_idea = SAP_syndicate_priviliges_1 }
+				limit = { has_idea = SAP_syndicate_priviliges }
 					swap_ideas = {
-						remove_idea = SAP_syndicate_priviliges_1
+						remove_idea = SAP_syndicate_priviliges
 						add_idea = SAP_syndicate_priviliges_2
 						}
 			}

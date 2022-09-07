@@ -572,7 +572,11 @@ country_event = {
 
 	option = {
 		name = sapek.11.a
-		
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = infantry_tech
+		}
 	}
 }
 
@@ -586,7 +590,7 @@ country_event = {
 
 	option = {
 		name = sapek.12.a
-		swap_idea = {
+		swap_ideas = {
 			remove_idea = SAP_army_of_bartyzel
 			add_idea = SAP_army_of_bartyzel_2
 			}
@@ -603,7 +607,7 @@ country_event = {
 
 	option = {
 		name = sapek.13.a
-		swap_idea = {
+		swap_ideas = {
 			remove_idea = SAP_army_of_wiewiorki
 			add_idea = SAP_army_of_wiewiorki_2
 			}
@@ -692,7 +696,7 @@ country_event = {
 	option = {
 		name = sapek_wiedzmin.2.a #dawaj-dzieciora
 		add_manpower = 1000
-		swap_idea = {
+		swap_ideas = {
 			remove_idea = SAP_szkola_wilka
 			add_idea = SAP_szkola_wilka_insane_1
 			}
@@ -707,7 +711,7 @@ country_event = {
 	option = { 
 		name = sapek_wiedzmin.2.b #ochotnicy
 		add_manpower = 1500
-		swap_idea = {
+		swap_ideas = {
 			remove_idea = SAP_szkola_wilka
 			add_idea = SAP_szkola_wilka_sane_1
 			}
@@ -731,7 +735,7 @@ country_event = {
 
 	option = {
 		name = sapek_wiedzmin.3.a
-		swap_idea = {
+		swap_ideas = {
 			remove_idea = SAP_szkola_wilka_insane_1
 			add_idea = SAP_szkola_wilka_insane_2
 			}
@@ -745,7 +749,7 @@ country_event = {
 	}
 	option = {
 		name = sapek_wiedzmin.3.b
-		swap_idea = {
+		swap_ideas = {
 			remove_idea = SAP_szkola_wilka_sane_1
 			add_idea = SAP_szkola_wilka_sane_2
 			}
