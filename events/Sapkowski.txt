@@ -572,7 +572,7 @@ country_event = {
 
 	option = {
 		name = sapek.11.a
-		add_ideas = SAP_biedna_pierdolona_piechota
+		
 	}
 }
 
@@ -607,6 +607,63 @@ country_event = {
 			remove_idea = SAP_army_of_wiewiorki
 			add_idea = SAP_army_of_wiewiorki_2
 			}
+	}
+}
+
+country_event = {
+	id = sapek.14 #spotkanie-kapituly
+	title = sapek.14.t
+	desc = sapek.14.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.14.a
+	}
+}
+
+country_event = {
+	id = sapek.15 #obwinianie-wiewiorek
+	title = sapek.15.t
+	desc = sapek.15.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.15.a
+	}
+}
+
+country_event = {
+	id = sapek.16 #obwinianie-zakonu
+	title = sapek.16.t
+	desc = sapek.16.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.16.a
+		set_country_flag = SAP_sapek_oskarzyciel
+	}
+}
+
+country_event = {
+	id = sapek.17 #poselstwo-do-krosniewic
+	title = sapek.17.t
+	desc = sapek.17.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek.17.a
+		add_opinion_modifier = {
+			target = KRS
+			modifier = rejected_demands
+		}
 	}
 }
 

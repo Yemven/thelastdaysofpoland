@@ -295,19 +295,19 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-		add_equipment_to_stockpile = {
-			type = ranged_equipment_1
-			amount = 300
-			producer = WML
+			add_equipment_to_stockpile = {
+				type = ranged_equipment_1
+				amount = 300
+				producer = WML
+			}
+			add_equipment_to_stockpile = {
+				type = melee_equipment_0
+				amount = 300
+				producer = WML
+			}
+			add_fuel = 5000
+			add_war_support = -0.2
 		}
-		add_equipment_to_stockpile = {
-			type = melee_equipment_1
-			amount = 300
-			producer = WML
-		}
-		}
-		add_fuel = 5000
-		add_war_support = -0.2
 	}
 	
 	focus = {
@@ -328,6 +328,10 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			add_political_power = 100
+			country_event = {
+				id = sapek.14
+				}
 		}
 	}
 	
@@ -350,6 +354,14 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = sapek.15
+				days = 1
+				}
+			country_event = {
+				id = sapek.16
+				days = 2
+				}
 		}
 	}
 	
@@ -360,7 +372,9 @@ focus_tree = {
 		prerequisite = { focus = SAP_who_is_to_blame }
 		mutually_exclusive = { focus = SAP_blame_order }
 		available = {
-		
+			hidden_trigger = {
+			has_country_flag = SAP_sapek_oskarzyciel
+			}
 		}
 		
 		bypass = {
@@ -372,6 +386,29 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			clr_country_flag = SAP_sapek_oskarzyciel
+			custom_effect_tooltip = SAP_insanity_tooltip
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_insanity
+					value = 10
+				}
+			}
+			if = { 
+				limit = { NOT = {
+							OR = {
+								has_idea = SAP_army_of_wiewiorki_2
+								has_idea = SAP_army_of_wiewiorki }}}
+					add_ideas = SAP_wkurwione_wiewiory
+					}			
+			else_if = { 
+				limit = { has_idea = SAP_army_of_wiewiorki }
+					remove_ideas = SAP_army_of_wiewiorki
+					}
+			else_if = { 
+				limit = { has_idea = SAP_army_of_wiewiorki_2 }
+					remove_ideas = SAP_army_of_wiewiorki_2
+					}
 		}
 	}
 	
@@ -382,7 +419,9 @@ focus_tree = {
 		prerequisite = { focus = SAP_who_is_to_blame }
 		mutually_exclusive = { focus = SAP_blame_scoiatael }
 		available = {
-		
+			hidden_trigger = {
+			has_country_flag = SAP_sapek_oskarzyciel
+			}		
 		}
 		
 		bypass = {
@@ -394,6 +433,29 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			clr_country_flag = SAP_sapek_oskarzyciel	
+			custom_effect_tooltip = SAP_sanity_tooltip
+			hidden_effect = {
+				add_to_variable = {
+					var = sapek_sanity
+					value = 10
+				}
+			}
+			if = { 
+				limit = { NOT = {
+							OR = {
+								has_idea = SAP_army_of_bartyzel_2
+								has_idea = SAP_army_of_bartyzel }}}
+					add_ideas = SAP_wkurwiony_zakon
+					}				
+			else_if = { 
+				limit = { has_idea = SAP_army_of_bartyzel }
+					remove_ideas = SAP_army_of_bartyzel
+					}
+			else_if = { 
+				limit = { has_idea = SAP_army_of_bartyzel_2 }
+					remove_ideas = SAP_army_of_bartyzel_2
+					}
 		}
 	}
 	
@@ -418,6 +480,11 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_war_support = 0.15
+			add_decryption = {
+				target = KRS
+				ratio = 0.5
+			}
 		}
 	}
 	
@@ -440,6 +507,9 @@ focus_tree = {
 		search_filters = {}
 			
 		completion_reward = {
+			country_event = {
+				id = sapek.17
+				}
 			hidden_effect = {
 				load_focus_tree = sapek_war_focus
 			}
@@ -489,7 +559,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = economy_primal_economy			
 				add_idea = economy_feudalism
 				}
@@ -514,7 +584,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = SAP_ravaged_country
 				add_idea = SAP_ravaged_country_2
 				}
@@ -576,11 +646,11 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-		swap_idea = {
+		swap_ideas = {
 				remove_idea = trade_regulated			
 				add_idea = trade_minimal
 				}
-		swap_idea = {
+		swap_ideas = {
 				remove_idea = SAP_feudal_extortion			
 				add_idea = SAP_feudal_extortion_2
 				}
@@ -619,7 +689,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { has_idea = SAP_order_priviliges_2_alt }
-					swap_idea = {
+					swap_ideas = {
 						remove_idea = SAP_order_priviliges_2_alt
 						add_idea = SAP_order_priviliges_2
 						}
@@ -648,7 +718,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = taxes_high
 				add_idea = taxes_low
 				}
@@ -682,7 +752,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { has_idea = SAP_order_priviliges }
-					swap_idea = {
+					swap_ideas = {
 						remove_idea = SAP_order_priviliges
 						add_idea = SAP_order_priviliges_2
 						}
@@ -742,7 +812,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = economy_primal_economy			
 				add_idea = economy_feudalism
 				}
@@ -832,11 +902,11 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = trade_regulated			
 				add_idea = trade_free
 				}
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = SAP_syndicate_coin		
 				add_idea = SAP_syndicate_coin_2
 				}
@@ -870,7 +940,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { has_idea = SAP_syndicate_priviliges_2_alt }
-					swap_idea = {
+					swap_ideas = {
 						remove_idea = SAP_syndicate_priviliges_2_alt
 						add_idea = SAP_syndicate_priviliges_2
 						}
@@ -899,7 +969,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = taxes_high
 				add_idea = taxes_medium
 				}
@@ -933,7 +1003,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { has_idea = SAP_syndicate_priviliges_1 }
-					swap_idea = {
+					swap_ideas = {
 						remove_idea = SAP_syndicate_priviliges_1
 						add_idea = SAP_syndicate_priviliges_2
 						}
@@ -1034,11 +1104,11 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = SAP_biedna_pierdolona_piechota
 				add_idea = SAP_army_of_bartyzel
 			}
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = improvised_security
 				add_idea = advanced_security
 			}
@@ -1070,7 +1140,7 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = officer_random
 				add_idea = officer_clerks
 			}
@@ -1174,11 +1244,11 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = SAP_biedna_pierdolona_piechota
 				add_idea = SAP_army_of_wiewiorki
 			}
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = improvised_security
 				add_idea = basic_security
 			}
@@ -1210,7 +1280,7 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {	
-			swap_idea = {
+			swap_ideas = {
 				remove_idea = training_battle
 				add_idea = training_basic
 			}

@@ -304,6 +304,25 @@ SAP_army_of_bartyzel =	{
 			}
 	}
 	
+SAP_wkurwiony_zakon =	{
+			allowed = {
+				original_tag = SAP
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				army_defence_factor = -0.1
+				army_morale_factor = -0.1
+				planning_speed = -0.1
+				stability_factor = -0.2
+			}
+	}
+	
 SAP_army_of_bartyzel_2 =	{
 			allowed = {
 				original_tag = SAP
@@ -339,6 +358,25 @@ SAP_army_of_wiewiorki =	{
 				pocket_penalty = -0.2
 				army_speed_factor = 0.15
 				stability_factor = 0.1
+			}
+	}
+	
+SAP_wkurwione_wiewiory =	{
+			allowed = {
+				original_tag = SAP
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				army_attack_factor = -0.1
+				pocket_penalty = 0.1
+				army_speed_factor = -0.1
+				stability_factor = -0.2
 			}
 	}
 	
