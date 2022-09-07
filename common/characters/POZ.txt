@@ -38,6 +38,19 @@ characters={
 			id=-1
 		}
 	}
+	POZ_rozbrat={
+		name="Rozbrat"
+		portraits={
+			civilian={
+				large="gfx/leaders/POZ/POZ_Rozbrat.dds"
+			}
+		}
+		country_leader={
+			ideology=squattism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
 	POZ_mariusz_wisniewski={
 		name="Mariusz Wiśniewski"
 		portraits={
@@ -146,6 +159,23 @@ characters={
 			legacy_id=-1
 		}
 	}
+	POZ_michal_rohde = {
+		name="Michał Rohde"
+		portraits = {
+			army = {
+			    large="gfx/leaders/POZ/POZ_Michal_Rohde.dds"
+			}
+		}
+		corps_commander = {
+			traits = { urban_assault_specialist armor_officer trait_reckless trickster }
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
 	POZ_michal_rozga = {
 		name="Michał Rózga"
 		portraits = {
@@ -197,6 +227,23 @@ characters={
 			legacy_id=-1
 		}
 	}
+	POZ_grzegorz_konopko = {
+		name="Grzegorz Konopko"
+		portraits = {
+			army = {
+			    large="gfx/leaders/POZ/POZ_Grzegorz_Konopko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 	POZ_adam_dabrowski = {
 		name="Adam Dąbrowski"
 		portraits = {
@@ -211,6 +258,23 @@ characters={
 			defense_skill=2
 			planning_skill=2
 			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	POZ_ireneusz_nowak = {
+		name="Ireneusz Nowak"
+		portraits = {
+			army = {
+			    large="gfx/leaders/POZ/POZ_Ireneusz_Nowak.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -244,6 +308,23 @@ characters={
 			attack_skill=1
 			defense_skill=2
 			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	POZ_wojciech_chudy = {
+		name="Wojciech Chudy"
+		portraits = {
+			army = {
+			    large="gfx/leaders/POZ/POZ_Wojciech_Chudy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
 		}
