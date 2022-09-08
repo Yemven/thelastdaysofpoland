@@ -734,7 +734,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = sapek_wiedzmin.3.a
+		name = sapek_wiedzmin.3.a #mutageny
 		swap_ideas = {
 			remove_idea = SAP_szkola_wilka_insane_1
 			add_idea = SAP_szkola_wilka_insane_2
@@ -748,7 +748,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = sapek_wiedzmin.3.b
+		name = sapek_wiedzmin.3.b #mordownia
 		swap_ideas = {
 			remove_idea = SAP_szkola_wilka_sane_1
 			add_idea = SAP_szkola_wilka_sane_2
