@@ -46,16 +46,16 @@ characters={
 			id=-1
 		}
 	}
-	ZYD_zygmuntowski={
-		name="Jan J. Zygmuntowski"
+	ZYD_olejniczak={
+		name="Wojciech Olejniczak"
 		portraits=
 		{ civilian = {
-		small = "gfx/interface/ideas/ZYD/ZYD_zygmuntowski.dds" }
+		small = "gfx/interface/ideas/ZYD/ZYD_olejniczak.dds" }
 		}
 		advisor = {
 			cost = -1
 			slot = minister_of_economy
-			idea_token = ZYD_min_zygmuntowski
+			idea_token = ZYD_min_olejniczak
 			removal_cost = -1
 			ledger = civilian
 			allowed = {

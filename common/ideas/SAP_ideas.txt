@@ -11,7 +11,7 @@ SAP_confused_population =	{
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = SAP_confused_population
 			modifier = {
 
 				stability_factor = -0.2
@@ -27,7 +27,7 @@ SAP_divided_supporters =	{
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = SAP_divided_supporters
 			modifier = {
 				political_power_gain = -0.1
 			}
@@ -42,7 +42,7 @@ SAP_ravaged_country =	{
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = SAP_ravaged_country
 			modifier = {
 				stability_factor = -0.2
 				civilian_factory_use = 2
@@ -61,7 +61,7 @@ SAP_ravaged_country_2 =	{
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = SAP_ravaged_country
 			modifier = {
 				stability_factor = -0.2
 				civilian_factory_use = 2
@@ -116,7 +116,7 @@ SAP_order_priviliges =	{
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = SAP_order_przywileju
 			modifier = {
 				industrial_capacity_factory = 0.2
 				line_change_production_efficiency_factor = -0.1
@@ -133,7 +133,7 @@ SAP_order_priviliges_2 =	{
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = SAP_order_przywileju
 			modifier = {
 				industrial_capacity_factory = 0.2
 				line_change_production_efficiency_factor = -0.1
@@ -152,7 +152,7 @@ SAP_order_priviliges_2_alt =	{
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = SAP_order_przywileju
 			modifier = {
 				consumer_goods_factor = 0.1
 				license_infantry_eq_production_speed_factor = 0.15
@@ -169,7 +169,7 @@ SAP_syndicate_priviliges =	{
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = SAP_syndykat_przywileju
 			modifier = {
 				consumer_goods_factor = -0.2
 				min_export = 0.5
@@ -186,7 +186,7 @@ SAP_syndicate_priviliges_2 =	{
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = SAP_syndykat_przywileju
 			modifier = {
 				consumer_goods_factor = -0.2
 				min_export = 0.5
@@ -205,7 +205,7 @@ SAP_syndicate_priviliges_2_alt =	{
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = SAP_syndykat_przywileju
 			modifier = {
 				local_resources_factor = 0.2
 				local_supplies = 0.2
@@ -259,7 +259,7 @@ SAP_ducal_mint_idea =	{
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = SAP_ksiazeca_mieta
 			modifier = {
 				stability_factor = 0.2
 				political_power_gain = 0.15

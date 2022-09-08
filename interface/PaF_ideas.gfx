@@ -380,6 +380,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SAP/SAP_divided_supporters.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_SAP_ravaged_country"
+		texturefile = "gfx/interface/ideas/SAP/SAP_ravaged_country.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_order_przywileju"
+		texturefile = "gfx/interface/ideas/SAP/SAP_order_przywileju.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SAP_syndykat_przywileju"
+		texturefile = "gfx/interface/ideas/SAP/SAP_syndykat_przywileju.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_ksiazeca_mieta"
+		texturefile = "gfx/interface/ideas/SAP/SAP_ksiazeca_mieta.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_KRS_lack_of_legitimacy"
 		texturefile = "gfx/interface/ideas/KRS/KRS_lack_of_legitimacy.dds"
 	}
@@ -436,6 +452,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ZYD/ZYD_minority_rule.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_ZHP_gray_lily_auxillaries"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_gray_lily_auxillaries.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_gray_lily_trainees"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_gray_lily_trainees.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_gray_lily_partisans"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_gray_lily_partisans.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_mandatory_scout_service"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_mandatory_scout_service.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_ZHP_idealist_economy"
 		texturefile = "gfx/interface/ideas/ZHP/ZHP_idealist_economy.dds"
 	}
@@ -459,7 +491,6 @@ spriteTypes = {
 		name = "GFX_idea_ZHP_legacja_partyzany"
 		texturefile = "gfx/interface/ideas/ZHP/ZHP_legacja_partyzany.dds"
 	}	
-
 	spriteType = {
 		name = "GFX_idea_WML_baluty_radiation"
 		texturefile = "gfx/interface/ideas/WML/WML_baluty_radiation.dds"
@@ -475,6 +506,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_POZ_divided_city"
 		texturefile = "gfx/interface/ideas/POZ/POZ_divided_city.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZIE_looming_famine"
+		texturefile = "gfx/interface/ideas/ZIE/ZIE_looming_famine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RZE_patodeveloperka"
+		texturefile = "gfx/interface/ideas/RZE/RZE_patodeveloperka.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_kombinat_cytadela"
@@ -633,6 +672,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ZYD/ZYD_eleven_praca.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_ZYD_LKS"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_LKS.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_ZYD_unfinished_collectivization"
 		texturefile = "gfx/interface/ideas/ZYD/ZYD_unfinished_collectivization.dds"
 	}	
@@ -643,6 +686,41 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_WML_fragile_denial_of_reality"
 		texturefile = "gfx/interface/ideas/WML/WML_fragile_denial_of_reality.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAL_ager_publicus"
+		texturefile = "gfx/interface/ideas/CAL/CAL_ager_publicus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAL_civic_army"
+		texturefile = "gfx/interface/ideas/CAL/CAL_civic_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAL_civic_faith"
+		texturefile = "gfx/interface/ideas/CAL/CAL_civic_faith.dds"
 	}	
-	
+	spriteType = {
+		name = "GFX_idea_FEL_easing_up"
+		texturefile = "gfx/interface/ideas/FEL/FEL_easing_up.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FEL_golden_liberty"
+		texturefile = "gfx/interface/ideas/FEL/FEL_golden_liberty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_last_stand"
+		texturefile = "gfx/interface/ideas/POZ/POZ_last_stand.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_anti_religious_fervor"
+		texturefile = "gfx/interface/ideas/POZ/POZ_anti_religious_fervor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_incompetent_administration"
+		texturefile = "gfx/interface/ideas/POZ/POZ_incompetent_administration.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_EK_disfunctional_military"
+		texturefile = "gfx/interface/ideas/EKW/EK_disfunctional_military.dds"
+	}	
 }
