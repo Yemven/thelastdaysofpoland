@@ -1027,7 +1027,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ZHP_WML_war #nazwa bardziej lore pls
+		id = ZHP_takedown_the_fantast
 		icon = ZHP_regroup
 		relative_position_id = ZHP_regroup
 		prerequisite = { 
@@ -1054,11 +1054,11 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ZHP_baluty_pilgrimage
+		id = ZHP_lighting_up_the_pyres
 		icon = ZHP_regroup
-		relative_position_id = ZHP_WML_war
+		relative_position_id = ZHP_takedown_the_fantast
 		prerequisite = { 
-			focus = ZHP_WML_war
+			focus = ZHP_takedown_the_fantast
 		}
 		available = {
 			NOT = { country_exists = WML }
@@ -1139,11 +1139,11 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ZHP_takedown_the_fantast
+		id = ZHP_WML_war
 		icon = ZHP_regroup
-		relative_position_id = ZHP_baluty_pilgrimage
+		relative_position_id = ZHP_lighting_up_the_pyres
 		prerequisite = { focus = ZHP_KRS_after_war }
-		prerequisite = { focus = ZHP_baluty_pilgrimage }
+		prerequisite = { focus = ZHP_lighting_up_the_pyres }
 		prerequisite = { focus = ZHP_ZYD_after_war }
 		available = {
 		
@@ -1168,8 +1168,8 @@ focus_tree = {
 	focus = {
 		id = ZHP_the_cracks_are_showing 
 		icon = ZHP_regroup
-		relative_position_id = ZHP_takedown_the_fantast
-		prerequisite = { focus = ZHP_takedown_the_fantast }
+		relative_position_id = ZHP_WML_war
+		prerequisite = { focus = ZHP_WML_war }
 		available = {
 		
 		}
