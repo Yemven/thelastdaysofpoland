@@ -24,6 +24,7 @@ buy_radom_ranged:0"Sign an Arms Deal with Radom"
 buy_radom_ranged_desc:0 "A real patriot supports domestic products, hence why we should hit up the arms manufacturers in Radom. There's even a certain Polish saying about this: 'cudze chwalicie, swego nie znacie', which roughly translates to 'stop creaming yourself to foreign garbage and start appreciating our own shit instead'."
 
 buy_german_melee:0"Buy German Melee Equipment"
+buy_german_melee_desc:0 "The Germans wasted away so much of their own equipment, that now almost everyone in Poland is utilizing some of it on a daily basis. Tableware, shovels, 
 buy_swedish_melee:0"Buy Melee Equipment from Sweden"
 buy_ukrainian_melee:0"Buy Melee Equipment from the Ukrainians"
 buy_russian_melee:0"Buy Russian Melee Equipment"
@@ -155,6 +156,9 @@ react_return_to_old_ways_desc:0 "Our mission is simple: bring back the old order
 react_warriors_of_great_past:0 "Reminisce over Heroes of our Past"
 react_warriors_of_great_past_desc:0 "Our history has given us a bit of a complex... If only we could be as brave and noble as those who fought to save Poland in the days of the Second Republic and the Commonwealth. Ahhh... \n...if only we could be as noble as the knights who fought in Grunwald against the treacherous Teutons. As famous and legendary as the Winged Hussars who seized Moscow in 1610. As brave as Kościuszko's scythemen. As fast as the Uhlans who drove the Soviets back to Russia and as patriotic, resilient and heroic as the Polish partisans during the Warsaw uprising. Ah... if only... \n... \n...actually, you know what? Scratch that. We shouldn't just reminiscent about them. We should BE like them - because just like the heroes of our past, we're fighting for Poland's survival."
 
+react_warriors_of_great_past_wrt:0 "Settle Germans in Poland Again"
+react_warriors_of_great_past_wrt_desc:0 "We can be thankful that the Prussians are no longer here, for if they saw the modern borders of Poland, we'd get our Hinterns spanked by them *to death*. The Poles - as they've done before - are constantly trying to resist and rebel against the German folk who settled back in Schlesien, Posen and Pommern - and given their numbers, they would have a very easy time overwhelming us with sheer numbers... if they knew how to properly organize. Therefore, in order to cement our returned presence in Poland, we need to look for Germans willing to relocate here, take up arms and defend the land that we once already proved to be much more capable of governing."
+
 #REACTIONARY S(c)HIZO
 react_shizo_rewrite_unfavorable_history:0 "Rewrite Problematic History"
 react_shizo_rewrite_unfavorable_history_desc:0 "Some parts of our forefathers' history are quite problematic. We should rewrite them or hide them away from the public eye to cement our reputation of noble benefactors among those who are easily influenceable."
@@ -182,7 +186,6 @@ react_shizo_holy_war_devotion_tt:0 "We are at war and our War Support is at leas
 
 
 #CORPRATS#
-
 corp_depoliticize_population:0 "Depoliticize the Population"
 corp_depoliticize_population_desc:0 "A politicized population is a moralist and demanding population, hence why we have to conduct depolitisation campaigns that make sure that any political agitations amongst our people are watered down, any Internet or public actions that put our errors, shortcomings and crimes on spotlight are clamped down upon and that the word of them is kept away from the public ears."
 
@@ -207,20 +210,14 @@ corpo_random_eq_tt:0 "We will receive additional random military equipment."
 corp_encite_military_service:0 "Expand Core Army Parts"
 corp_encite_military_service_desc:0 "Our army works the same way the armies of colonial companies did so in the past - it is comprised of levied locals and contracted volunteers commanded over by the core corporate troops. This system ensures that we've always got access to a large manpower pool, but it also creates the need to balance the ratio between the levy and our own men as to not let them outnumber us too much, as that would let 'em easily overwhelm us in a potential rebelion. Let's expand the core rank to ensure that the lower ranks don't suddenly get any funny ideas, like recreating the Sepoy Mutiny for example."
 
+corp_crush_the_unions:0 "Fracture Worker Movements"
+corp_crush_the_unions_desc:0 "Higher quotas, less worker rights, lowered safety standards and the corporate hold over our employees' lives has made them prone to putting up resistance our administration, usually in the form of getting into brawls and arguments with our henchmen. However, as their conditions worsen, strikes, organized movements and even open violence become much more alluring to them. Therefore, we should take up preventive measures to dissolve any worker movements before their proportions grow too large for us to handle."
+corpo_lefties_crush_tt:0 "Once the threat of our employees rising up against our rule reaches at least §Rconcerning levels§!, they'll be much less organized and effective in rising up against us."
+corp_commie_danger_tt:0 "Our workers have begun organizing"
 
-
-########################################################################################DOKOŃCZYĆ############################################################################
-
-corp_crush_the_unions:0 "§CCrush§! the §RUnions!§!"
-corp_crush_the_unions_desc:0 "These §RUngrateful Imbeciles!§! They think they can conspire to destroy our §CProsperity§!, our §CDream§!?! We won't let them do this, §CWE MUSTN'T LET THEM!§! We will §CCrush them§! and §CCrush them§!, until there is nothing left, but a dust being reminder of their §GInevitable Failure§!. §RIf we hesitate, they will drag us all in their pit of Decay and Degeneracy.§!"
-corpo_lefties_crush_tt:0 "Once §RCommie§! Threat arises in our country to at least concerning levels, we will be able to crush them with our §CUnmatched Power!§!"
-#
-corpo_commie_danger_tt:0 "§RReds§! presence is at least noticable"
-#
-
-corp_lend_out_monopoles:0 "Lend Out §CMonopoles§!"
-corp_lend_out_monopoles_desc:0 "Within our borders there are many §Guseful§! and §Gfriendly§! powerful §CEnterprises§! or §CIndividuals§!. It's wise to reward them with our spoils to keep our §CFruitful Cooperation§! secured!"
-corpo_monopoles_tt:0 "By granting these §CMonopoles§! we will gain favours and good relations with powerful §CCorporations§! and §CIndividuals§! which in turn will grant us §GBig Benefits§!. §RUnfortunetly we can't do this too often so we better use it wisely.§!"
+corp_lend_out_monopoles:0 "Incorporate Smaller Businesses"
+corp_lend_out_monopoles_desc:0 "Many small enterprises, companies and businesses still operate on our turf. Though they obviously don't possess the power to threaten us, they still might prove to be thorns in our back if they grow up a little too much and/or start cooperating with various conspirants to undermine our position. Therefore, we should buy them out and incorporate them into our corporate web, forever trapping them inside ourselves."
+corpo_monopoles_tt:0 "By integrating these various enterprises into our corporate structure, we also branch out our field of operations on the market, potentially resulting in §Glarge-scale benefits§!. Not all acquired companies will be useful for us, however, so we should perform acquisitions §Ronly at opportune moments§! so that we don't start losing money too much."
 
 
 
@@ -264,7 +261,7 @@ neonat_build_work_camps_desc:0 "więźniowie, w*stoidy, i femboye"
 freemarket_cut_down_taxes:0 "Cut Down Taxes"
 freemarket_cut_down_taxes_desc:0 "tax cut'y i tax breaki"
 
-freemarket_print_3d_guns:0 "3D print Guns"
+freemarket_print_3d_guns:0 "3D Print Guns"
 freemarket_print_3d_guns_desc:0 "dae glock plastykowy nie wykrywalny przez skanery metalu??????"
 
 freemarket_fund_small_businesses:0 "Encourage the Formation of Small Businesses"
@@ -304,7 +301,7 @@ squat_blunt_of_peace_desc:0 "hehe BLUNT of peace get it temacik ziółko jaranko
 squat_get_some_baseball_bats:0 "Tell the People to Prepare Weapons"
 squat_get_some_baseball_bats_desc:0 "base balls"
 
-squat_pump_yourself_to_fight:0 "idk"
+squat_pump_yourself_to_fight:0 "Rouse the People up"
 squat_pump_yourself_to_fight_desc:0 "pon pon chaka chaka ładujemy atak"
 
 
