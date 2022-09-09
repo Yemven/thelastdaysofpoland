@@ -1,5 +1,37 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_idea_one_state_one_religion"
+		texturefile = "gfx/interface/ideas/religia1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_state_religion"
+		texturefile = "gfx/interface/ideas/religia2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_one_religion_favoured"
+		texturefile = "gfx/interface/ideas/religia3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_partial_secularism"
+		texturefile = "gfx/interface/ideas/religia4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_full_secularism"
+		texturefile = "gfx/interface/ideas/religia5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_atheism_encouraged"
+		texturefile = "gfx/interface/ideas/religia6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_state_atheism"
+		texturefile = "gfx/interface/ideas/religia7.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_gods_no_masters"
+		texturefile = "gfx/interface/ideas/religia8.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_women_men_nation"
 		texturefile = "gfx/interface/ideas/women_1.dds"
 	}
@@ -371,6 +403,22 @@ spriteTypes = {
 		name = "GFX_idea_BBW_industrial_capabilities5"
 		texturefile = "gfx/interface/ideas/BBW/BBW_industrial_capabilities5.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SAP_wkurwiony_zakon"
+		texturefile = "gfx/interface/ideas/SAP/SAP_wkurwiony_zakon.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SAP_wkurwione_wiewiory"
+		texturefile = "gfx/interface/ideas/SAP/SAP_wkurwione_wiewiory.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_army_of_bartyzel"
+		texturefile = "gfx/interface/ideas/SAP/SAP_army_of_bartyzel.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SAP_feudal_extortion"
+		texturefile = "gfx/interface/ideas/SAP/SAP_feudal_extortion.dds"
+	}	
 	spriteType = {
 		name = "GFX_idea_SAP_confused_population"
 		texturefile = "gfx/interface/ideas/SAP/SAP_confused_population.dds"
