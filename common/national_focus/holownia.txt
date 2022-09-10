@@ -1284,22 +1284,7 @@ focus_tree = {
 			add_ideas = WML_lodz_power_armor
 		}
 	}
-}
 
-focus_tree = {
-	id = fortress_lodz
-	
-	country = {
-		factor = 0
-		
-		modifier = {
-			add =10
-			tag = WML
-		}
-	}
-	default = no
-	
-	continuous_focus_position = {x = 50 y = 1500 }
 	
 	### NOWE DRZEWKO ###
 	
@@ -1313,7 +1298,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = 40
 		y = 0
 		
 		cost = 0.4
