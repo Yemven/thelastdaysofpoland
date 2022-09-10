@@ -2729,13 +2729,13 @@ on_actions = {
 			}
 			115 = {
 				add_province_modifier = {
-					static_modifiers = { grudziadz_strzemiecin }
+					static_modifiers = { terrain_grudziadz_strzemiecin }
 					province = { id = 15685 }
 				}
 			}
 			115 = {
 				add_province_modifier = {
-					static_modifiers = { grudziadz_lotnicze }
+					static_modifiers = { terrain_grudziadz_lotnicze }
 					province = { id = 15686 }
 				}
 			}
@@ -2839,6 +2839,84 @@ on_actions = {
 				add_province_modifier = {
 					static_modifiers = { terrain_swarzedz }
 					province = { id = 13399 }
+				}
+			}
+			200 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_radziejow }
+					province = { id = 15646 }
+				}
+			}
+			146 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_rypin }
+					province = { id = 15800 }
+				}
+			}
+			159 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_szubin }
+					province = { id = 15241 }
+				}
+			}
+			99 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_swiecie }
+					province = { id = 15303 }
+				}
+			}
+			100 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_tuchola }
+					province = { id = 14989 }
+				}
+			}
+			129 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_wabrzezno }
+					province = { id = 15730 }
+				}
+			}
+			104 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_wiecbork }
+					province = { id = 15284 }
+				}
+			}
+			198 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_wloclawek }
+					province = { id = 15328 }
+				}
+			}
+			196 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_wloclawek_zawisle }
+					province = { id = 15335 }
+				}
+			}
+			166 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_znin }
+					province = { id = 15426 }
+				}
+			}
+			128 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_koronowo }
+					province = { id = 14972 }
+				}
+			}
+			705 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_solec_kujawski }
+					province = { id = 14950 }
+				}
+			}
+			104 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_sepolno_krajenskie }
+					province = { id = 15290 }
 				}
 			}
 			
