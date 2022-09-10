@@ -338,7 +338,7 @@ focus_tree = {
 		y = 8
 		
 		cost = 5
-		search_filters = {FOCUS_STABILITY}
+		search_filters = {}
 		completion_reward = {
 			add_political_power = 100
 			
@@ -346,8 +346,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = WML_election_of_vice_president
-		icon = WML_election_of_vice_president
+		id = WML_insider_perspective
+		icon = WML_insider_perspective
 		relative_position_id = WML_the_beginning_of_the_dialogue
 		prerequisite = { focus = WML_the_beginning_of_the_dialogue }
 		available = {}
@@ -355,11 +355,50 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = 1
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_send_out_delegations
+		icon = WML_send_out_delegations
+		relative_position_id = WML_the_beginning_of_the_dialogue
+		prerequisite = { focus = WML_the_beginning_of_the_dialogue }
+		available = {}
+
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_election_of_vice_president
+		icon = WML_election_of_vice_president
+		relative_position_id = WML_the_beginning_of_the_dialogue
+		prerequisite = { focus = WML_send_out_delegations }
+		prerequisite = { focus = WML_insider_perspective }
+		available = {}
+
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 5
+		search_filters = {}
 		completion_reward = {
 			country_event = {
 				id = WML.7 
@@ -368,45 +407,163 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = WML_incomplete_compromise
-		icon = WML_incomplete_compromise
+		id = WML_convene_general_assembly
+		icon = WML_convene_general_assembly
 		relative_position_id = WML_election_of_vice_president
 		prerequisite = { focus = WML_election_of_vice_president }
-		mutually_exclusive = { focus = WML_total_dialogue }
-		available = {
-		
-		}
-		
+		available = {}
+
 		bypass = {
 		}
 		
-		x = -8
+		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-				completion_reward = {
-				if = {
-			limit = { has_country_flag = WML_Gill_piatek_remains	}	
-					country_event = {
-				id = WML.13 
-				}
-			}
-		else = {
-			country_event = { id = WML.11 }
-			}
-			
+		cost = 2
+		search_filters = {}
+		completion_reward = {
 		}
-	
 	}
+	
+	focus = {
+		id = WML_lodz_among_spokesmen
+		icon = WML_lodz_among_spokesmen
+		relative_position_id = WML_convene_general_assembly
+		prerequisite = { focus = WML_convene_general_assembly }
+		available = {}
+
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_hold_onto_normality
+		icon = WML_hold_onto_normality
+		relative_position_id = WML_lodz_among_spokesmen
+		prerequisite = { focus = WML_lodz_among_spokesmen }
+		available = {}
+
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_crackdown_on_consoomers
+		icon = WML_crackdown_on_consoomers
+		relative_position_id = WML_hold_onto_normality
+		prerequisite = { focus = WML_hold_onto_normality }
+		available = {}
+
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_pamper_delegations
+		icon = WML_pamper_delegations
+		relative_position_id = WML_crackdown_on_consoomers
+		prerequisite = { focus = WML_crackdown_on_consoomers }
+		available = {}
+
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_ultimate_compromise
+		icon = WML_ultimate_compromise
+		relative_position_id = WML_pamper_delegations
+		prerequisite = { focus = WML_pamper_delegations }
+		available = {}
+
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_send_final_letters
+		icon = WML_send_final_letters
+		relative_position_id = WML_convene_general_assembly
+		prerequisite = { focus = WML_convene_general_assembly }
+		available = {}
+
+		bypass = {
+		}
+		
+		x = 0
+		y = 6
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_hold_great_conference
+		icon = WML_hold_great_conference
+		relative_position_id = WML_send_final_letters
+		prerequisite = { focus = WML_send_final_letters }
+		available = {}
+
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}	
+	
 	
 	focus = {
 		id = WML_industrial_lodz
 		icon = WML_industrial_lodz
-		relative_position_id = WML_incomplete_compromise
-		prerequisite = { focus = WML_incomplete_compromise }
-		mutually_exclusive = { focus = WML_forest_lodz }
-		mutually_exclusive = { focus = WML_fantastical_lodz }
+		relative_position_id = WML_convene_general_assembly
+		prerequisite = { focus = WML_convene_general_assembly }
 		
 		available = {
 		
@@ -415,7 +572,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 2
+		x = -3
 		y = 1
 		
 		cost = 5
@@ -428,10 +585,8 @@ focus_tree = {
 	focus = {
 		id = WML_forest_lodz
 		icon = WML_forest_lodz
-		relative_position_id = WML_incomplete_compromise
-		prerequisite = { focus = WML_incomplete_compromise }
-		mutually_exclusive = { focus = WML_industrial_lodz }
-		mutually_exclusive = { focus = WML_fantastical_lodz }
+		relative_position_id = WML_convene_general_assembly
+		prerequisite = { focus = WML_convene_general_assembly }
 		available = {
 		
 		}
@@ -439,7 +594,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 4
+		x = -1
 		y = 1
 		
 		cost = 5
@@ -636,8 +791,8 @@ focus_tree = {
 	focus = {
 		id = WML_fantastical_lodz
 		icon = WML_fantastical_lodz
-		relative_position_id = WML_incomplete_compromise
-		prerequisite = { focus = WML_incomplete_compromise }
+		relative_position_id = WML_convene_general_assembly
+		prerequisite = { focus = WML_convene_general_assembly }
 		mutually_exclusive = { focus = WML_forest_lodz }
 		mutually_exclusive = { focus = WML_industrial_lodz }
 		available = {
@@ -647,7 +802,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 6
+		x = 5
 		y = 1
 		
 		cost = 5
@@ -751,9 +906,8 @@ focus_tree = {
 	focus = {
 		id = WML_fairer_lodz
 		icon = WML_fairer_lodz
-		relative_position_id = WML_incomplete_compromise
-		prerequisite = { focus = WML_incomplete_compromise }
-		mutually_exclusive = { focus = WML_the_primacy_of_entrepreneurs }
+		relative_position_id = WML_convene_general_assembly
+		prerequisite = { focus = WML_convene_general_assembly }
 		available = {
 		
 		}
@@ -761,7 +915,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -6
+		x = -5
 		y = 1
 		
 		cost = 5
@@ -774,9 +928,8 @@ focus_tree = {
 	focus = {
 		id = WML_the_primacy_of_entrepreneurs
 		icon = WML_the_primacy_of_entrepreneurs
-		relative_position_id = WML_incomplete_compromise
-		prerequisite = { focus = WML_incomplete_compromise }
-		mutually_exclusive = { focus = WML_fairer_lodz }
+		relative_position_id = WML_convene_general_assembly
+		prerequisite = { focus = WML_convene_general_assembly }
 		available = {
 		
 		}
@@ -784,7 +937,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -4
+		x = 3
 		y = 1
 		
 		cost = 5
@@ -988,13 +1141,426 @@ focus_tree = {
 			add_ideas = WML_agencje_obronne
 		}
 	}
+
+	focus = {
+		id = WML_incomplete_compromise
+		icon = WML_incomplete_compromise
+		relative_position_id = WML_election_of_vice_president
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -8
+		y = 7
+		
+		cost = 5
+		search_filters = {}
+				completion_reward = {
+				if = {
+			limit = { has_country_flag = WML_Gill_piatek_remains	}	
+					country_event = {
+				id = WML.13 
+				}
+			}
+		else = {
+			country_event = { id = WML.11 }
+			}
+			
+		}
+	
+	}
+	
+	focus = {
+		id = WML_coalition_of_necesity
+		icon = WML_coalition_of_necesity
+		relative_position_id = WML_incomplete_compromise
+		prerequisite = { focus = WML_incomplete_compromise }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_wrangle_those_loyal_to_us
+		icon = WML_wrangle_those_loyal_to_us
+		relative_position_id = WML_coalition_of_necesity
+		prerequisite = { focus = WML_coalition_of_necesity }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_chaos_in_our_ranks
+		icon = WML_chaos_in_our_ranks
+		relative_position_id = WML_wrangle_those_loyal_to_us
+		prerequisite = { focus = WML_wrangle_those_loyal_to_us }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_conflicted_soldiers
+		icon = WML_conflicted_soldiers
+		relative_position_id = WML_chaos_in_our_ranks
+		prerequisite = { focus = WML_chaos_in_our_ranks }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_commanders_in_turmoil
+		icon = WML_commanders_in_turmoil
+		relative_position_id = WML_chaos_in_our_ranks
+		prerequisite = { focus = WML_chaos_in_our_ranks }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_bring_order_to_chaos
+		icon = WML_bring_order_to_chaos
+		relative_position_id = WML_chaos_in_our_ranks
+		prerequisite = { focus = WML_commanders_in_turmoil }
+		prerequisite = { focus = WML_conflicted_soldiers }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_coordinate_our_war_bureaus
+		icon = WML_coordinate_our_war_bureaus
+		relative_position_id = WML_bring_order_to_chaos
+		prerequisite = { focus = WML_bring_order_to_chaos }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_fighting_the_good_fight
+		icon = WML_fighting_the_good_fight
+		relative_position_id = WML_coordinate_our_war_bureaus
+		prerequisite = { focus = WML_coordinate_our_war_bureaus }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_airdrop_leaflets
+		icon = WML_airdrop_leaflets
+		relative_position_id = WML_coordinate_our_war_bureaus
+		prerequisite = { focus = WML_coordinate_our_war_bureaus }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_chaos_at_homefront
+		icon = WML_chaos_at_homefront
+		relative_position_id = WML_wrangle_those_loyal_to_us
+		prerequisite = { focus = WML_wrangle_those_loyal_to_us }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_haphazardly_merge_our_governance
+		icon = WML_haphazardly_merge_our_governance
+		relative_position_id = WML_chaos_at_homefront
+		prerequisite = { focus = WML_chaos_at_homefront }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_pool_our_chips
+		icon = WML_pool_our_chips
+		relative_position_id = WML_haphazardly_merge_our_governance
+		prerequisite = { focus = WML_haphazardly_merge_our_governance }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_sync_up_our_networks
+		icon = WML_sync_up_our_networks
+		relative_position_id = WML_pool_our_chips
+		prerequisite = { focus = WML_pool_our_chips }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_connect_our_roads
+		icon = WML_connect_our_roads
+		relative_position_id = WML_pool_our_chips
+		prerequisite = { focus = WML_pool_our_chips }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_spread_propaganda
+		icon = WML_spread_propaganda
+		relative_position_id = WML_pool_our_chips
+		prerequisite = { focus = WML_pool_our_chips }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_workers_of_frontlines
+		icon = WML_workers_of_frontlines
+		relative_position_id = WML_sync_up_our_networks
+		prerequisite = { focus = WML_sync_up_our_networks }
+		prerequisite = { focus = WML_spread_propaganda }
+		prerequisite = { focus = WML_connect_our_roads }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_we_did_our_best
+		icon = WML_we_did_our_best
+		relative_position_id = WML_airdrop_leaflets
+		prerequisite = { focus = WML_workers_of_frontlines }
+		prerequisite = { focus = WML_airdrop_leaflets }
+		prerequisite = { focus = WML_fighting_the_good_fight }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_let_that_be_our_legacy
+		icon = WML_let_that_be_our_legacy
+		relative_position_id = WML_we_did_our_best
+		prerequisite = { focus = WML_we_did_our_best }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
 	
 	focus = {
 		id = WML_total_dialogue
 		icon = WML_total_dialogue
 		relative_position_id = WML_election_of_vice_president
-		prerequisite = { focus = WML_election_of_vice_president }
-		mutually_exclusive = { focus = WML_incomplete_compromise }
 		available = {
 		
 		}
@@ -1003,7 +1569,7 @@ focus_tree = {
 		}
 		
 		x = 8
-		y = 1
+		y = 7
 		
 		cost = 5
 		search_filters = {FOCUS_MANPOWER}
@@ -1015,8 +1581,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = WML_system
-		icon = WML_system
+		id = WML_echoes_of_confusion
+		icon = WML_echoes_of_confusion
 		relative_position_id = WML_total_dialogue
 		prerequisite = { focus = WML_total_dialogue }
 		available = {
@@ -1026,7 +1592,49 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -2
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_what_now
+		icon = WML_what_now
+		relative_position_id = WML_echoes_of_confusion
+		prerequisite = { focus = WML_echoes_of_confusion }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_system
+		icon = WML_system
+		relative_position_id = WML_what_now
+		prerequisite = { focus = WML_what_now }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
 		y = 1
 		
 		cost = 5
@@ -1039,8 +1647,8 @@ focus_tree = {
 	focus = {
 		id = WML_military
 		icon = WML_military
-		relative_position_id = WML_total_dialogue
-		prerequisite = { focus = WML_total_dialogue }
+		relative_position_id = WML_what_now
+		prerequisite = { focus = WML_what_now }
 		available = {
 		
 		}
@@ -1048,7 +1656,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 2
+		x = 4
 		y = 1
 		
 		cost = 5
@@ -1061,8 +1669,8 @@ focus_tree = {
 	focus = {
 		id = WML_economy
 		icon = WML_economy
-		relative_position_id = WML_total_dialogue
-		prerequisite = { focus = WML_total_dialogue }
+		relative_position_id = WML_what_now
+		prerequisite = { focus = WML_what_now }
 		available = {
 		
 		}
@@ -1070,7 +1678,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = -4
 		y = 1
 		
 		cost = 5
@@ -1083,8 +1691,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = WML_entrepreneurial_syndicalism
-		icon = WML_entrepreneurial_syndicalism
+		id = WML_accursed_wiechowszczyzna
+		icon = WML_accursed_wiechowszczyzna
 		relative_position_id = WML_system
 		prerequisite = { focus = WML_system }
 		available = {
@@ -1094,21 +1702,135 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = -1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		cost = 2
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_lodz_syndykalizm
+
 		}
 	}
 	
 	focus = {
-		id = WML_scout_guard
-		icon = WML_scout_guard
-		relative_position_id = WML_entrepreneurial_syndicalism
-		prerequisite = { focus = WML_entrepreneurial_syndicalism }
+		id = WML_launch_the_tvl
+		icon = WML_launch_the_tvl
+		relative_position_id = WML_system
+		prerequisite = { focus = WML_system }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = WML_cervantes_institute
+		icon = WML_cervantes_institute
+		relative_position_id = WML_system
+		prerequisite = { focus = WML_accursed_wiechowszczyzna }
+		prerequisite = { focus = WML_launch_the_tvl }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = WML_YAHWEHCON
+		icon = WML_YAHWEHCON
+		relative_position_id = WML_cervantes_institute
+		prerequisite = { focus = WML_cervantes_institute }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = WML_unite_the_abrahamic_faiths
+		icon = WML_unite_the_abrahamic_faiths
+		relative_position_id = WML_cervantes_institute
+		prerequisite = { focus = WML_cervantes_institute }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = WML_lodzkie_cultural_hodgepodge
+		icon = WML_lodzkie_cultural_hodgepodge
+		relative_position_id = WML_cervantes_institute
+		prerequisite = { focus = WML_YAHWEHCON }
+		prerequisite = { focus = WML_unite_the_abrahamic_faiths }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = WML_6_warlords_under_1_union
+		icon = WML_6_warlords_under_1_union
+		relative_position_id = WML_lodzkie_cultural_hodgepodge
+		prerequisite = { focus = WML_lodzkie_cultural_hodgepodge }
+		prerequisite = { focus = WML_caravans_of_death }
+		prerequisite = { focus = WML_scoiatael_rangers }
 		available = {
 		
 		}
@@ -1119,38 +1841,17 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		cost = 2
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_lodz_skauci_guard
+
 		}
-	}
+	}	
+
 	
 	focus = {
-		id = WML_ennoblement_of_entrepreneurs
-		icon = WML_ennoblement_of_entrepreneurs
-		relative_position_id = WML_scout_guard
-		prerequisite = { focus = WML_scout_guard }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			add_ideas = WML_lodz_generalowie
-		}
-	}
-	
-	focus = {
-		id = WML_state_farms_of_the_skrzydlewski_family
-		icon = WML_state_farms_of_the_skrzydlewski_family
+		id = WML_unify_lodzkie_power_grid
+		icon = WML_unify_lodzkie_power_grid
 		relative_position_id = WML_economy
 		prerequisite = { focus = WML_economy }
 		available = {
@@ -1163,18 +1864,17 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		cost = 2
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_lodz_inspekcje
 		}
 	}
 	
 	focus = {
-		id = WML_gas_and_sun
-		icon = WML_gas_and_sun
-		relative_position_id = WML_state_farms_of_the_skrzydlewski_family
-		prerequisite = { focus = WML_state_farms_of_the_skrzydlewski_family }
+		id = WML_crushing_our_carbon_footprint
+		icon = WML_crushing_our_carbon_footprint
+		relative_position_id = WML_unify_lodzkie_power_grid
+		prerequisite = { focus = WML_unify_lodzkie_power_grid }
 		available = {
 		
 		}
@@ -1182,11 +1882,11 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = -1
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		cost = 2
+		search_filters = {}
 		completion_reward = {
 			757 = {
 					add_extra_state_shared_building_slots = 2
@@ -1200,10 +1900,53 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = WML_catholic_guilds
-		icon = WML_catholic_guilds
-		relative_position_id = WML_gas_and_sun
-		prerequisite = { focus = WML_gas_and_sun }
+		id = WML_fields_of_flowers
+		icon = WML_fields_of_flowers
+		relative_position_id = WML_unify_lodzkie_power_grid
+		prerequisite = { focus = WML_unify_lodzkie_power_grid }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_new_lodzermensch
+		icon = WML_new_lodzermensch
+		relative_position_id = WML_unify_lodzkie_power_grid
+		prerequisite = { focus = WML_crushing_our_carbon_footprint }
+		prerequisite = { focus = WML_fields_of_flowers }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_caravans_of_death
+		icon = WML_caravans_of_death
+		relative_position_id = WML_new_lodzermensch
+		prerequisite = { focus = WML_new_lodzermensch }
 		available = {
 		
 		}
@@ -1214,16 +1957,15 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		cost = 2
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_lodz_gildie
 		}
 	}
 	
 	focus = {
-		id = WML_looting_expeditions
-		icon = WML_looting_expeditions
+		id = WML_paladins_in_shining_armor
+		icon = WML_paladins_in_shining_armor
 		relative_position_id = WML_military
 		prerequisite = { focus = WML_military }
 		available = {
@@ -1236,17 +1978,82 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		cost = 2
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_lodz_scavenging
 		}
 	}
 	
 	focus = {
-		id = WML_Scoia'tael_in_303_squadron
-		relative_position_id = WML_looting_expeditions
-		prerequisite = { focus = WML_looting_expeditions }
+		id = WML_creating_real_witchers
+		icon = WML_creating_real_witchers
+		relative_position_id = WML_paladins_in_shining_armor
+		prerequisite = { focus = WML_paladins_in_shining_armor }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_carbon_based_stimulants
+		icon = WML_carbon_based_stimulants
+		relative_position_id = WML_paladins_in_shining_armor
+		prerequisite = { focus = WML_paladins_in_shining_armor }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_mossad_branch
+		icon = WML_mossad_branch
+		relative_position_id = WML_paladins_in_shining_armor
+		prerequisite = { focus = WML_creating_real_witchers }
+		prerequisite = { focus = WML_carbon_based_stimulants }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	
+	focus = {
+		id = WML_scoiatael_rangers
+		icon = WML_scoiatael_rangers
+		relative_position_id = WML_mossad_branch
+		prerequisite = { focus = WML_mossad_branch }
 		available = {
 		
 		}
@@ -1257,31 +2064,9 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		cost = 2
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_lodz_303
-		}
-	}
-	
-	focus = {
-		id = WML_power_armor_reactivation
-		relative_position_id = WML_Scoia'tael_in_303_squadron
-		prerequisite = { focus = WML_Scoia'tael_in_303_squadron }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 5
-		search_filters = {FOCUS_MANPOWER}
-		completion_reward = {
-			add_ideas = WML_lodz_power_armor
 		}
 	}
 
@@ -1289,8 +2074,8 @@ focus_tree = {
 	### NOWE DRZEWKO ###
 	
 	focus = {
-		id = WML_fortress_lodz
-		icon = WML_new_morning_in_old_lodz
+		id = WML_or_will_it
+		icon = WML_or_will_it
 		available = {
 		
 		}
@@ -1302,9 +2087,962 @@ focus_tree = {
 		y = 0
 		
 		cost = 0.4
-		search_filters = {FOCUS_STABILITY}
+		search_filters = {}
 		completion_reward = {
 		
 		}
 	}
+	
+	focus = {
+		id = WML_a_broken_veil
+		icon = WML_a_broken_veil
+		relative_position_id = WML_or_will_it
+		prerequisite = { focus = WML_or_will_it }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+
+	focus = {
+		id = WML_they_know_we_lied
+		icon = WML_they_know_we_lied
+		relative_position_id = WML_a_broken_veil
+		prerequisite = { focus = WML_a_broken_veil }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_and_they_want_answers
+		icon = WML_and_they_want_answers
+		relative_position_id = WML_they_know_we_lied
+		prerequisite = { focus = WML_they_know_we_lied }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_and_they_are_afraid
+		icon = WML_and_they_are_afraid
+		relative_position_id = WML_they_know_we_lied
+		prerequisite = { focus = WML_they_know_we_lied }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}	
+
+	focus = {
+		id = WML_to_hell_with_dialogue
+		icon = WML_to_hell_with_dialogue
+		relative_position_id = WML_they_know_we_lied
+		prerequisite = { focus = WML_and_they_are_afraid }
+		prerequisite = { focus = WML_and_they_want_answers}
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_we_cannot_fall_behind
+		icon = WML_we_cannot_fall_behind
+		relative_position_id = WML_to_hell_with_dialogue
+		prerequisite = { focus = WML_to_hell_with_dialogue }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_kick_start_military_research
+		icon = WML_kick_start_military_research
+		relative_position_id = WML_we_cannot_fall_behind
+		prerequisite = { focus = WML_we_cannot_fall_behind }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_expand_military_sector
+		icon = WML_expand_military_sector
+		relative_position_id = WML_kick_start_military_research
+		prerequisite = { focus = WML_kick_start_military_research }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_forts_and_trenches
+		icon = WML_forts_and_trenches
+		relative_position_id = WML_kick_start_military_research
+		prerequisite = { focus = WML_kick_start_military_research }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_city_guard_reserve
+		icon = WML_city_guard_reserve
+		relative_position_id = WML_kick_start_military_research
+		prerequisite = { focus = WML_expand_military_sector }
+		prerequisite = { focus = WML_forts_and_trenches }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_mandatory_militia_training
+		icon = WML_mandatory_militia_training
+		relative_position_id = WML_city_guard_reserve
+		prerequisite = { focus = WML_city_guard_reserve }
+		mutually_exclusive = { focus = WML_hand_out_weapons }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_hand_out_weapons
+		icon = WML_hand_out_weapons
+		relative_position_id = WML_city_guard_reserve
+		prerequisite = { focus = WML_city_guard_reserve }
+		mutually_exclusive = { focus = WML_mandatory_militia_training }		
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_molotov_making_lessons
+		icon = WML_molotov_making_lessons
+		relative_position_id = WML_city_guard_reserve
+		prerequisite = { focus = WML_mandatory_militia_training
+						 focus = WML_hand_out_weapons }		
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_nation_of_soldiers
+		icon = WML_nation_of_soldiers
+		relative_position_id = WML_molotov_making_lessons
+		prerequisite = { focus = WML_molotov_making_lessons }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+
+	focus = {
+		id = WML_but_was_it_all_worth_it
+		icon = WML_but_was_it_all_worth_it
+		relative_position_id = WML_nation_of_soldiers
+		prerequisite = { focus = WML_nation_of_soldiers }
+		prerequisite = { focus = WML_last_hope_for_boat }
+		prerequisite = { focus = WML_victory_gardens }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = WML_for_people_good
+		icon = WML_for_people_good
+		relative_position_id = WML_to_hell_with_dialogue
+		prerequisite = { focus = WML_to_hell_with_dialogue }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}	
+	
+	focus = {
+		id = WML_declare_martial_law
+		icon = WML_declare_martial_law
+		relative_position_id = WML_for_people_good
+		prerequisite = { focus = WML_for_people_good }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_everyone_keep_calm
+		icon = WML_everyone_keep_calm
+		relative_position_id = WML_declare_martial_law
+		prerequisite = { focus = WML_declare_martial_law }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_emergency_presidential_powers
+		icon = WML_emergency_presidential_powers
+		relative_position_id = WML_everyone_keep_calm
+		prerequisite = { focus = WML_everyone_keep_calm }
+		mutually_exclusive = { focus = WML_assure_our_people }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+
+	focus = {
+		id = WML_assure_our_people
+		icon = WML_assure_our_people
+		relative_position_id = WML_everyone_keep_calm
+		prerequisite = { focus = WML_everyone_keep_calm }
+		mutually_exclusive = { focus = WML_assure_our_people }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = WML_cut_off_contact
+		icon = WML_cut_off_contact
+		relative_position_id = WML_everyone_keep_calm
+		prerequisite = { focus = WML_emergency_presidential_powers
+							focus = WML_assure_our_people }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_radio_free_boat
+		icon = WML_radio_free_boat
+		relative_position_id = WML_cut_off_contact
+		prerequisite = { focus = WML_cut_off_contact }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_last_hope_for_boat
+		icon = WML_last_hope_for_boat
+		relative_position_id = WML_radio_free_boat
+		prerequisite = { focus = WML_radio_free_boat }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_self_sustainability
+		icon = WML_self_sustainability
+		relative_position_id = WML_to_hell_with_dialogue
+		prerequisite = { focus = WML_to_hell_with_dialogue }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_cut_off_power
+		icon = WML_cut_off_power
+		relative_position_id = WML_self_sustainability
+		prerequisite = { focus = WML_self_sustainability }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_cut_off_trade
+		icon = WML_cut_off_trade
+		relative_position_id = WML_self_sustainability
+		prerequisite = { focus = WML_self_sustainability }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_solar_and_wind
+		icon = WML_solar_and_wind
+		relative_position_id = WML_self_sustainability
+		prerequisite = { focus = WML_cut_off_power }
+		prerequisite = { focus = WML_cut_off_trade }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_annul_all_contracts
+		icon = WML_annul_all_contracts
+		relative_position_id = WML_solar_and_wind
+		prerequisite = { focus = WML_solar_and_wind }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_and_forget_about_new_ones
+		icon = WML_and_forget_about_new_ones
+		relative_position_id = WML_annul_all_contracts
+		prerequisite = { focus = WML_annul_all_contracts }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}	
+	
+	
+	focus = {
+		id = WML_ration_cards
+		icon = WML_ration_cards
+		relative_position_id = WML_and_forget_about_new_ones
+		prerequisite = { focus = WML_and_forget_about_new_ones }
+		mutually_exclusive = { focus = WML_rapidly_expand_production }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_rapidly_expand_production
+		icon = WML_rapidly_expand_production
+		relative_position_id = WML_and_forget_about_new_ones
+		prerequisite = { focus = WML_and_forget_about_new_ones }
+		mutually_exclusive = { focus = WML_ration_cards }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_victory_gardens
+		icon = WML_victory_gardens
+		relative_position_id = WML_and_forget_about_new_ones
+		prerequisite = { focus = WML_ration_cards
+						 focus = WML_rapidly_expand_production 
+						 }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_calm_before_storm
+		icon = WML_calm_before_storm
+		relative_position_id = WML_but_was_it_all_worth_it
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_final_additions
+		icon = WML_final_additions
+		relative_position_id = WML_calm_before_storm
+		prerequisite = { focus = WML_calm_before_storm }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_capitalise_enemies_brutality
+		icon = WML_capitalise_enemies_brutality
+		relative_position_id = WML_final_additions
+		prerequisite = { focus = WML_final_additions }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+
+	focus = {
+		id = WML_everyone_equal_in_face_of_adversity
+		icon = WML_everyone_equal_in_face_of_adversity
+		relative_position_id = WML_final_additions
+		prerequisite = { focus = WML_final_additions }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_deafening_silence
+		icon = WML_deafening_silence
+		relative_position_id = WML_final_additions
+		prerequisite = { focus = WML_capitalise_enemies_brutality }
+		prerequisite = { focus = WML_everyone_equal_in_face_of_adversity }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_triumvirate_shortsightedness
+		icon = WML_triumvirate_shortsightedness
+		relative_position_id = WML_deafening_silence
+		prerequisite = { focus = WML_deafening_silence }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_duke_madness
+		icon = WML_duke_madness
+		relative_position_id = WML_deafening_silence
+		prerequisite = { focus = WML_deafening_silence }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_elder_folly
+		icon = WML_elder_folly
+		relative_position_id = WML_deafening_silence
+		prerequisite = { focus = WML_deafening_silence }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = WML_hooligan_overzealousness
+		icon = WML_hooligan_overzealousness
+		relative_position_id = WML_deafening_silence
+		prerequisite = { focus = WML_deafening_silence }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WML_scouts_arrogance
+		icon = WML_scouts_arrogance
+		relative_position_id = WML_deafening_silence
+		prerequisite = { focus = WML_deafening_silence }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	
+	focus = {
+		id = WML_we_are_next
+		icon = WML_we_are_next
+		relative_position_id = WML_triumvirate_shortsightedness
+		prerequisite = { focus = WML_elder_folly }
+		prerequisite = { focus = WML_duke_madness }
+		prerequisite = { focus = WML_triumvirate_shortsightedness }
+		prerequisite = { focus = WML_hooligan_overzealousness }
+		prerequisite = { focus = WML_scouts_arrogance }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = WML_our_future_saved
+		icon = WML_our_future_saved
+		relative_position_id = WML_we_are_next
+		prerequisite = { focus = WML_we_are_next }
+		available = {
+
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	
 }

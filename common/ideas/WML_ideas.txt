@@ -479,49 +479,7 @@ ideas = {
 				modifier = {
 					 	recruitable_population_factor = 0.05
 				}
-			}
-		WML_lodz_syndykalizm =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					industrial_capacity_factory = 0.15
-				}
-			}
-		WML_lodz_skauci_guard =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					army_core_defence_factor = 0.1
-				}
-			}	
-		WML_lodz_generalowie =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					military_leader_cost_factor = -0.5 
-				}
-			}	
+			}		
 		WML_wspolpraca_ekonomiczna =	{
 				allowed = {
 					original_tag = WML
@@ -536,36 +494,6 @@ ideas = {
 					consumer_goods_factor = -0.05
 				}
 			}
-		WML_lodz_inspekcje =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					line_change_production_efficiency_factor = 0.3
-					industry_repair_factor = 0.5
-					stability_factor = 0.05
-				}
-			}
-		WML_lodz_gildie =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					production_speed_buildings_factor = 0.1
-				}
-			}	
 		WML_lodz_victory =	{
 				allowed = {
 					original_tag = WML
@@ -580,64 +508,6 @@ ideas = {
 					stability_factor = 0.15
 				}
 			}		
-		WML_lodz_scavenging =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					local_resources_factor = 0.15
-				}
-			}
-		WML_lodz_303= {
-			allowed = {
-				original_tag = WML
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			picture = BBW_smog
-			equipment_bonus = {
-				fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				CAS_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				transport_plane_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-			}
-		
-		
-	}
-	WML_lodz_power_armor =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					 	special_forces_cap = 0.5
-						special_forces_no_supply_grace = 120
-						special_forces_out_of_supply_factor = -0.3
-				}
-			}
-	}
 	
 	
 	industrial_company = {
