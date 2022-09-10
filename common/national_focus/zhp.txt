@@ -876,7 +876,7 @@ focus_tree = {
 		bypass = {
 			NOT = { country_exists = BBW }
 		}
-		x = 0
+		x = -1
 		y = 1
 		cost = 2
 		
@@ -897,13 +897,11 @@ focus_tree = {
 		mutually_exclusive = { focus = ZHP_execute_the_elder }
 		available = {
 			NOT = { country_exists = BBW }
+			341 = { is_controlled_by = ZHP }
+			NOT = { has_war = yes }
 		}
 		
 		bypass = {
-			NOT = {
-				country_exists = BBW 
-				owns_state = 341
-			}
 		}
 		x = -1
 		y = 1
@@ -925,13 +923,11 @@ focus_tree = {
 		mutually_exclusive = { focus = ZHP_spare_the_elder }
 		available = {
 			NOT = { country_exists = BBW }
+			341 = { is_controlled_by = ZHP }
+			NOT = { has_war = yes }
 		}
 		
 		bypass = {
-			NOT = {
-				country_exists = BBW 
-				owns_state = 341
-			}
 		}
 		x = 1
 		y = 1
@@ -944,150 +940,13 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
-		id = ZHP_regroup
-		icon = ZHP_regroup
-		relative_position_id = ZHP_spare_the_elder
+		id = ZHP_ZYD_war 
+		icon = ZHP_ZYD_war
+		relative_position_id = ZHP_last_touches
 		prerequisite = { 
-			focus = ZHP_spare_the_elder
-			focus = ZHP_execute_the_elder
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-			
-		}
-		x = 1
-		y = 1
-		cost = 2
-		
-		search_filters = {}
-		completion_reward = {
-			add_war_support = 0.05
-		}
-	}
-	
-	focus = {
-		id = ZHP_KRS_war #nazwa bardziej lore pls
-		icon = ZHP_regroup
-		relative_position_id = ZHP_regroup
-		prerequisite = { 
-			focus = ZHP_regroup
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-			NOT = { country_exists = KRS }
-		}
-		x = -2
-		y = 1
-		cost = 2
-		
-		search_filters = {}
-		completion_reward = {
-			declare_war_on = {
-				target = KRS
-				type = annex_everything
-			}
-		}
-	}
-	
-	focus = {
-		id = ZHP_KRS_after_war #nazwa bardziej lore pls
-		icon = ZHP_regroup
-		relative_position_id = ZHP_KRS_war
-		prerequisite = { 
-			focus = ZHP_KRS_war
-		}
-		available = {
-			NOT = { country_exists = KRS }
-		}
-		
-		bypass = {
-			NOT = { 
-				country_exists = KRS 
-				owns_state = 236
-			}
-		}
-		x = 0
-		y = 1
-		cost = 2
-		
-		search_filters = {}
-		completion_reward = {
-			country_event = {
-				id = zhp.13
-			}
-		}
-	}
-	
-	focus = {
-		id = ZHP_takedown_the_fantast
-		icon = ZHP_regroup
-		relative_position_id = ZHP_regroup
-		prerequisite = { 
-			focus = ZHP_regroup
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-			NOT = { country_exists = WML }
-		}
-		x = 0
-		y = 1
-		cost = 2
-		
-		search_filters = {}
-		completion_reward = {
-			declare_war_on = {
-				target = WML
-				type = annex_everything
-			}
-		}
-	}
-	
-	focus = {
-		id = ZHP_lighting_up_the_pyres
-		icon = ZHP_regroup
-		relative_position_id = ZHP_takedown_the_fantast
-		prerequisite = { 
-			focus = ZHP_takedown_the_fantast
-		}
-		available = {
-			NOT = { country_exists = WML }
-		}
-		
-		bypass = {
-			NOT = {
-				country_exists = WML
-				owns_state = 302
-			}
-		}
-		x = 0
-		y = 1
-		cost = 3
-		
-		search_filters = {}
-		completion_reward = {
-			country_event = {
-				id = zhp.14
-			}
-		}
-	}
-	
-	focus = {
-		id = ZHP_ZYD_war #nazwa bardziej lore pls
-		icon = ZHP_regroup
-		relative_position_id = ZHP_regroup
-		prerequisite = { 
-			focus = ZHP_regroup
+			focus = ZHP_last_touches
 		}
 		available = {
 			
@@ -1110,21 +969,19 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ZHP_ZYD_after_war #nazwa bardziej lore pls
-		icon = ZHP_regroup
+		id = ZHP_ZYD_after_war 
+		icon = ZHP_ZYD_after_war
 		relative_position_id = ZHP_ZYD_war
 		prerequisite = { 
 			focus = ZHP_ZYD_war
 		}
 		available = {
 			NOT = { country_exists = ZYD }
+			353 = { is_controlled_by = ZHP }
+			NOT = { has_war = yes }
 		}
 		
 		bypass = {
-			NOT = { 
-				country_exists = ZYD
-				owns_state = 353
-			}
 		}
 		x = 0
 		y = 1
@@ -1139,20 +996,100 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ZHP_WML_war
+		id = ZHP_regroup
 		icon = ZHP_regroup
-		relative_position_id = ZHP_lighting_up_the_pyres
-		prerequisite = { focus = ZHP_KRS_after_war }
-		prerequisite = { focus = ZHP_lighting_up_the_pyres }
+		relative_position_id = ZHP_execute_the_elder
+		prerequisite = { 
+			focus = ZHP_spare_the_elder
+			focus = ZHP_execute_the_elder
+		}
 		prerequisite = { focus = ZHP_ZYD_after_war }
 		available = {
+			NOT = { has_war = yes }
+		}
 		
+		bypass = {
+			
+		}
+		x = 0
+		y = 1
+		cost = 2
+		
+		search_filters = {}
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+	
+	focus = {
+		id = ZHP_KRS_war #nazwa bardziej lore pls
+		icon = ZHP_KRS_war
+		relative_position_id = ZHP_regroup
+		prerequisite = { 
+			focus = ZHP_regroup
+		}
+		available = {
+			NOT = { has_war = yes }
+		}
+		
+		bypass = {
+			NOT = { country_exists = KRS }
+		}
+		x = -1
+		y = 1
+		cost = 2
+		
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+				target = KRS
+				type = annex_everything
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_KRS_after_war #nazwa bardziej lore pls
+		icon = ZHP_KRS_after_war
+		relative_position_id = ZHP_KRS_war
+		prerequisite = { 
+			focus = ZHP_KRS_war
+		}
+		available = {
+			NOT = { country_exists = KRS }
+			236 = { is_controlled_by = ZHP }
+			NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		}
+		x = 0
+		y = 1
+		cost = 2
+		
+		search_filters = {}
+		completion_reward = {
+			country_event = {
+				id = zhp.13
+			}
+		}
+	}
+	
+	focus = {
+		id = ZHP_takedown_the_fantast
+		icon = ZHP_takedown_the_fantast
+		relative_position_id = ZHP_regroup
+		prerequisite = { 
+			focus = ZHP_regroup
+		}
+		available = {
+			NOT = { has_war = yes }
 		}
 		
 		bypass = {
 			NOT = { country_exists = SAP }
 		}
-		x = 0
+		x = 1
 		y = 1
 		cost = 2
 		
@@ -1166,12 +1103,70 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = ZHP_lighting_up_the_pyres
+		icon = ZHP_lighting_up_the_pyres
+		relative_position_id = ZHP_takedown_the_fantast
+		prerequisite = { 
+			focus = ZHP_takedown_the_fantast
+		}
+		available = {
+			NOT = { country_exists = SAP }
+			269 = { is_controlled_by = ZHP }
+			NOT = { has_war = yes }
+		}
+		
+		bypass = {
+		}
+		x = 0
+		y = 1
+		cost = 3
+		
+		search_filters = {}
+		completion_reward = {
+			country_event = {
+				id = zhp.14
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = ZHP_WML_war
+		icon = ZHP_WML_war
+		relative_position_id = ZHP_regroup
+		prerequisite = { focus = ZHP_KRS_after_war
+						 focus = ZHP_lighting_up_the_pyres
+		}
+
+		available = {
+			NOT = { has_war = yes }
+		}
+		
+		bypass = {
+			NOT = { country_exists = WML }
+			302 = { is_controlled_by = ZHP }
+
+		}
+		x = 0
+		y = 3
+		cost = 2
+		
+		search_filters = {}
+		completion_reward = {
+			declare_war_on = {
+				target = WML
+				type = annex_everything
+			}
+		}
+	}
+	
+	focus = {
 		id = ZHP_the_cracks_are_showing 
-		icon = ZHP_regroup
+		icon = ZHP_the_cracks_are_showing
 		relative_position_id = ZHP_WML_war
 		prerequisite = { focus = ZHP_WML_war }
 		available = {
-		
+			NOT = { has_war = yes }
 		}
 		
 		bypass = {
