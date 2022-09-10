@@ -14,10 +14,10 @@ sell_melee:0"Sell Old Melee Equipment"
 
 buy_german_ranged:0"Buy German Guns"
 buy_german_ranged_desc:0 "Ever since the European army halted its advance, the Eurokommissariats have devolved into what is basically a country-sized black market operation, and German guns became a commonly available good or even a currency of sorts. We don't even need to search for any German ex-soldiers or smugglers, we can just hit up any local arms dealer to get our hands on them."  
-buy_swedish_ranged:0"Buy Guns From Sweden"
+buy_swedish_ranged:0"Buy Guns from Sweden"
 buy_swedish_ranged_desc:0 "Very few Swedish guns have reached Poland due to the Swedish government's surprising reluctance to partake in the European intervention. Their scarcity has given them a certaint status among the populace, however, and the usage of them is seen as both more prestigious in the eyes of gangsters and as more patriotic in the eyes of the commonfolk. Through our connections with the always enigmatic Master Weapon Dealer we can secure a large supply of armament provided by Swedish smugglers for ourselves." 
 buy_ukrainian_ranged:0"Strike a Deal with the Ukrainians"
-buy_ukrainian_ranged_desc:0 "The Ukrainian Humanitarian Mission in Poland has fallen prey to saboteurs from Rzeszów and Nisko, leaving only those with a dubious reputation on our side of the border: nationalist ex-humanitarian workers enraged by Braun's betrayal and refusal of Ukrainian help, humanitarian workers who banded up together with Polish villagers and formed a joint quasi-military government of sorts, the few Ukrainian border guards who still occupy Medyka and gangsters. Gangsters who are more than willing to sell us their old armament, left behind by the Soviet government and the Russian army in 1991 and 2022."
+buy_ukrainian_ranged_desc:0 "The Ukrainian Humanitarian Mission in Poland has fallen prey to saboteurs from Rzeszów and Nisko, leaving mostly those with a dubious reputation on our side of the border: nationalist ex-humanitarian workers enraged by Braun's betrayal and refusal of Ukrainian help, humanitarian workers who banded up together with Polish villagers and formed a joint quasi-military government of sorts, the few Ukrainian border guards who still occupy Medyka and gangsters. Gangsters who are more than willing to sell us their old armament, left behind by the Soviet government and the Russian army in 1991 and 2022."
 buy_russian_ranged:0"Buy Russian Guns"
 buy_russian_ranged_desc:0 "Once Navalny took power in Moscow and started his crusade against the corruption and crime that have been synonymous with the Russian government since times immemorial, many Russkie mafiozos and gangbangers ran abroad, trying to escape his judgement. With no perspectives in life, seemingly left to die in a hostile world, they've been saved by the downfall of the Polish state which allowed them to get back to a life of crime by forming a competition to German arms dealers and even establishing back some of the old connections with pro-Russian Polish political organisations and the remains of the old guard of Russian politics."
 buy_radom_ranged:0"Sign an Arms Deal with Radom"
@@ -26,10 +26,13 @@ buy_radom_ranged_desc:0 "A real patriot supports domestic products, hence why we
 buy_german_melee:0"Buy German Melee Equipment"
 buy_german_melee_desc:0 "The Germans wasted away so much of their own equipment, that now almost everyone in Poland is utilizing some of it on a daily basis. If you ever see some tableware, shovels, picks, fire starting tools or other such items in a Polish household - it's most likely they got that stuff from the Germans."
 buy_swedish_melee:0"Buy Melee Equipment from Sweden"
-buy_swedish_melee_desc:0 "German equipment, though much easier to acquire, tends to already possess marks of previous usage. Thankfully, if we ever find ourselves in need of factory quality equipment, we can hook up our connections in Sweden and get ourselves some brand new Ikea tools and utensils from them."
+buy_swedish_melee_desc:0 "German equipment, though much easier to acquire, tends to already possess marks of previous usage. Thankfully, if we ever find ourselves in need of factory new equipment, we can hook up our connections in Sweden and get ourselves some brand new Ikea tools and utensils from them."
 buy_ukrainian_melee:0"Buy Melee Equipment from the Ukrainians"
-buy_russian_melee:0"Buy Russian Melee Equipment"
-buy_radom_melee:0"Sign a Melee Equipment Deal with Radom"
+buy_ukrainian_melee_desc:0 "Western donations and Russian logistical incompetence have left the Ukrainians with copious amounts of old, mismatched army equipment that is completely useless for a modern army which the Armed Forces of Ukraine is striving to become. There's lots of offers and auctions put up by Ukrainian sellers on the Internet, we just need to find somebody who could smuggle their goods to Poland."
+buy_russian_melee:0"Buy Melee Equipment from the Russians"
+buy_russian_melee_desc:0 "The Russian army might fail to provide its soldiers with tools and equipment, but there's still plenty of commercial szpej manufacturers and sellers in Russia who'd be willing to supply us with some of their products in exchange for cash and political capital."
+buy_radom_melee:0"Buy Radom-Made Melee Equipment"
+buy_radom_melee_desc:0 "Even before the Fall, FB Łucznik produced not only guns, but also military-grade equipment such as bayonets, toolboxes and ammo boxes. Nowadays, their offer includes even more types of tools and utensils, since now they're responsible for supplying the army of Radom Republic. While their prices might be higher than those of Russian gangsters or German small-time smugglers, their products are a symbol of respect for those whom we conquer, and most importantly - what we buy from them is made to order, unlike the equipment resold to us by criminals and Internet vendors."
 
 #unused
 buy_austrian_ranged:0"Buy Austrian Guns"
@@ -101,7 +104,7 @@ generic_decisions_react_category:0 "§0Reactionary§! Actions"
 generic_decisions_react_shizo_category:0 "§0Ultrareactionary§! Actions"
 generic_decisions_corporate_category:0 "§CCorporativist§! Actions"
 generic_decisions_autocrat_category:0 "§gAutocratic§! Actions"
-generic_decisions_patcon_category:0 "§2Conservative§! Actions"
+generic_decisions_patcon_category:0 "§2Paternalist§! Actions"
 generic_decisions_neonat_category:0 "§GNeonationalist§! Actions"
 generic_decisions_freemarket_category:0 "§YFreemarketist§! Actions"
 generic_decisions_succdem_category:0 "§tSocialdemocrat§! Actions"
@@ -234,12 +237,12 @@ autocrat_force_people_to_work_desc:0 "We need to keep our weapon manufacturers w
 
 
 
-########################################################################################PATCON############################################################################################
+#PATCON#
 patcon_organize_a_grand_mass:0 "Organize State-backed Religious Ceremonies"
-patcon_organize_a_grand_mass_desc:0 "pochód z krzyżem i obrazem kacziego przez miasto"
+patcon_organize_a_grand_mass_desc:0 "In times as dire as those we live in, it's hard to keep morale high. We are barely clinging to power, being able to resist for only as long, as foreign powers decide not to intervene deeper into Poland, and our coffers are almost completely empty, so we won't be able to secure a nice retirement pension for ourselve-... wait, did I say that out loud? Well... shit, i-it's not important, people know that we don't really care about them anyway. However, they cannot feel completely abandoned by everyone, as that would extinguish their willingness to fight, for they need *a cause* or *someone* to fight for - even slimy fucks such as ourselves have a cause to fight for, such as upholding religious values. Yes.. we need to entrench religion in our people's hearts - not only for our gain, but also for moral reasons, and for *our survival*, for God is with His humble flock, but those who reject His word end up rotting in Hell."
 
 patcon_gather_the_guns:0 "Let our Loyalists Bankroll our Endeavors"
-patcon_gather_the_guns_desc:0 "pan xiądz przyjdzie i ładnie poprosi o szekle na gnaty dla pisu"
+patcon_gather_the_guns_desc:0 "During the PiS era, the right wing has managed to breed a type of overtly devout, fearful, but simultaneously hateful people, who stick to their leaders and mindlessly do as they say, now matter how much following their orders will cost them. Now we capitalize on those very people, trying to suck up to them in exchange for their loyalty, and OH BOY is their loyalty profitable for us - if we asked them nicely, they'd give us all their lifesavings and possessions. In fact, using the clergy as henchmen for gathering additional taxes from our loyalists is already common in the our administration, so it's completely fine if we ask them for a handout to cover our army's upkeep - after all, every grosz not spent on our forces is a grosz earned by Germans, Russians and lefties!"
 
 patcon_fund_church_owned_businesses:0 "Entrust Religious Authorities with Control over Economic Sectors"
 patcon_fund_church_owned_businesses_desc:0 "Weirdos and foreign agents surround us from all sides - thankfully, we're not the sole force standing up against them, for we have the religious authorities on our side, and not only does the clergy know how to lead people's minds and hearts in the right direction, it's also GREAT at handling money and connections. By entrusting the priesthood with control over businesses (both ones of real and of dubious legality), government institutions and various sectors of the economy we can cement our cooperation with it and secure the growth of both their and our coffers."
