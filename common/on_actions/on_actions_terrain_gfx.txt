@@ -2919,9 +2919,192 @@ on_actions = {
 					province = { id = 15290 }
 				}
 			}
-			
-			
-			
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_torun }
+					province = { id = 14773 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_torun_rubinkowo }
+					province = { id = 14783 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_torun_bielany }
+					province = { id = 14782 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_torun_bydgoskie_przedmiescie }
+					province = { id = 14774 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_torun_chelminskie }
+					province = { id = 14776 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_torun_na_skarpie }
+					province = { id = 14778 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_torun_mokre }
+					province = { id = 14775 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_torun_winnica }
+					province = { id = 14777 }
+				}
+			}
+			847 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_torun_podgorz }
+					province = { id = 14769 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_torun_stawki }
+					province = { id = 14772 }
+				}
+			}
+			148 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_srodmiescie }
+					province = { id = 14440 }
+				}
+			}
+			148 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_os_lesne }
+					province = { id = 14443 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_bocianowo }
+					province = { id = 3648 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_bielawy }
+					province = { id = 14442 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_bartodzieje }
+					province = { id = 14445 }
+				}
+			}
+			165 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_jachcice }
+					province = { id = 14441 }
+				}
+			}
+			150 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_czyzkowko }
+					province = { id = 14404 }
+				}
+			}
+			150 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_okole }
+					province = { id = 14405 }
+				}
+			}
+			150 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_wilczak }
+					province = { id = 14410 }
+				}
+			}
+			150 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_miedzyn }
+					province = { id = 14409 }
+				}
+			}
+			150 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_jary }
+					province = { id = 14412 }
+				}
+			}
+			150 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_prady }
+					province = { id = 14408 }
+				}
+			}
+			150 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_osowa_gora }
+					province = { id = 14407 }
+				}
+			}
+			707 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_brdyujscie }
+					province = { id = 14450 }
+				}
+			}
+			708 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_szwederowo }
+					province = { id = 14414 }
+				}
+			}
+			708 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_blonie }
+					province = { id = 14415 }
+				}
+			}
+			708 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_lotnisko }
+					province = { id = 14431 }
+				}
+			}
+			708 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_wzgorze_wolnosci }
+					province = { id = 14416 }
+				}
+			}
+			708 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_babia_wies }
+					province = { id = 1688 }
+				}
+			}
+			708 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_kapusciska }
+					province = { id = 14439 }
+				}
+			}
+			708 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bydgoszcz_glinki }
+					province = { id = 14417 }
+				}
+			}
 		}
 	}
 }
