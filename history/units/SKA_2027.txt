@@ -1,0 +1,102 @@
+division_template = {
+	name = "Batalion piechoty wzoru A/03.2027"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalion ochotniczy zg. z ustawą nt. sił ochotniczych z 02.27"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Bojówka huligańska zg. z ustawą nt. sił ochotniczych z 02.27"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "1 batalion piechoty wzoru A/03.2027"
+		location = 2715
+		division_template = "Batalion piechoty wzoru A/03.2027"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+
+    division = {
+		name = "2 batalion piechoty wzoru A/03.2027"
+		location = 1991
+		division_template = "Batalion piechoty wzoru A/03.2027"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+
+    division = {
+		name = "3 batalion piechoty wzoru A/03.2027"
+		location = 1963
+		division_template = "Batalion piechoty wzoru A/03.2027"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+	    name = "1 batalion ochotniczy zg. z ustawą nt. sił ochotniczych z 02.27"
+		location = 3902
+		division_template = "Batalion ochotniczy zg. z ustawą nt. sił ochotniczych z 02.27"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	
+	division = {
+	    name = "2 batalion ochotniczy zg. z ustawą nt. sił ochotniczych z 02.27"
+		location = 1826
+		division_template = "Batalion ochotniczy zg. z ustawą nt. sił ochotniczych z 02.27"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+	    name = "3 batalion ochotniczy zg. z ustawą nt. sił ochotniczych z 02.27"
+		location = 2374
+		division_template = "Batalion ochotniczy zg. z ustawą nt. sił ochotniczych z 02.27"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+	    name = "1 bojówka huligańska zg. z ustawą nt. sił ochotniczych z 02.27"
+		location = 3064
+		division_template = "Bojówka huligańska zg. z ustawą nt. sił ochotniczych z 02.27"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+	    name = "2 bojówka huligańska zg. z ustawą nt. sił ochotniczych z 02.27"
+		location = 3325
+		division_template = "Bojówka huligańska zg. z ustawą nt. sił ochotniczych z 02.27"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+	    name = "3 bojówka zg. z ustawą nt. sił ochotniczych z 02.27"
+		location = 1778
+		division_template = "Bojówka huligańska zg. z ustawą nt. sił ochotniczych z 02.27"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
