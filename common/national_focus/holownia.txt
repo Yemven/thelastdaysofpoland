@@ -89,9 +89,9 @@ focus_tree = {
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#jakiś lore event trza zrobić
-		#country_event = {
-		#	id = WML.2
-		#	}
+		country_event = {
+			id = WML.22
+			}
 		}
 	}
 	
@@ -116,9 +116,9 @@ focus_tree = {
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#jakiś lore event trza zrobić
-		#country_event = {
-		#	id = WML.2
-		#	}
+		country_event = {
+			id = WML.23
+			}
 		}
 	}
 	
@@ -144,6 +144,7 @@ focus_tree = {
 			country_event = {
 			id = WML.4
 			}
+			custom_effect_tooltip = WML_three_problems_big_effect_tt
 		}
 	}
 	
@@ -169,6 +170,7 @@ focus_tree = {
 			country_event = {
 			id = WML.5
 			}
+			custom_effect_tooltip = WML_three_problems_big_effect_tt
 		}
 	}
 	
@@ -194,6 +196,7 @@ focus_tree = {
 			country_event = {
 			id = WML.6
 			}
+			custom_effect_tooltip = WML_three_problems_big_effect_tt
 		}
 	}
 	
@@ -218,9 +221,9 @@ focus_tree = {
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#jakiś lore event trza zrobić
-		#country_event = {
-		#	id = WML.2
-		#	}
+		country_event = {
+			id = WML.24
+			}
 		}
 	}
 	
@@ -249,7 +252,6 @@ focus_tree = {
 		country_event = {
 			id = WML.16
 			}
-			
 		}
 	}
 	
@@ -271,6 +273,10 @@ focus_tree = {
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 		#pomoc od żydów jak naprawić sytuację łódzkich robotników
+		custom_effect_tooltip = WML_strikes_removal_tt
+		country_event = {
+			id = WML.25
+			}
 		}
 	} 
 	
@@ -292,10 +298,10 @@ focus_tree = {
 		search_filters = {FOCUS_MANPOWER}
 		completion_reward = {
 			#jakiś lore event trza zrobić
-		#country_event = {
-		#	id = WML.2
-		#	}
-		}
+		country_event = {
+			id = WML.29
+			}
+		} 
 	}
 	
 	###KONIEC DRZEWKA TUTORIALOWEGO###
@@ -324,6 +330,7 @@ focus_tree = {
 		}
 	
 	### STARE DRZEWKO ###
+	
 	focus = {
 		id = WML_the_beginning_of_the_dialogue
 		icon = WML_the_beginning_of_the_dialogue
@@ -340,8 +347,10 @@ focus_tree = {
 		cost = 5
 		search_filters = {}
 		completion_reward = {
-			add_political_power = 100
-			
+		#jakiś lore event trza zrobić
+		country_event = {
+			id = WML.30
+			}
 		}
 	}
 	
@@ -361,6 +370,10 @@ focus_tree = {
 		cost = 5
 		search_filters = {}
 		completion_reward = {
+		#jakiś lore event trza zrobić
+		country_event = {
+			id = WML.31
+			}
 		}
 	}
 
@@ -380,6 +393,11 @@ focus_tree = {
 		cost = 5
 		search_filters = {}
 		completion_reward = {
+		add_political_power = 10
+			#jakiś lore event trza zrobić
+			country_event = {
+			id = WML.32
+			}
 		}
 	}
 

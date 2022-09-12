@@ -61,6 +61,41 @@ ideas = {
 			}
 		}
 		
+		#IDEE UŻYWANE W TUTORIAL DRZEWKU
+		
+		WML_regional_strikes =	{ #Dawane wraz z 3 problemami
+			allowed = {
+				original_tag = WML
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				stability_factor = -0.20
+				industrial_capacity_factory = -0.20
+			}
+		}
+		
+		WML_bowed_to_the_strikers = {
+			allowed = {
+				original_tag = WML
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_smog
+			modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = -0.10
+				consumer_goods_factor = 0.05
+			}
+		}
+		
 		WML_three_problems1 =	{
 			allowed = {
 				original_tag = WML
@@ -177,6 +212,8 @@ ideas = {
 				trade_opinion_factor = 0.10
 			}
 		}
+		
+		#KONIEC TUTORIAL DRZEWKA 
 		
 		WML_lodz_przemysl =	{
 			allowed = {
