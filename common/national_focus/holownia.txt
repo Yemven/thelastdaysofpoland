@@ -60,7 +60,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			#lore event pokazujący że cała ta sielanka to iluzja i wyparcie prawdy. W praktyce kolorowo nie jest i miasto ma wiele problemów. Event opowiada po krótko o 3 najważniejszych.
 			#po tym evencie ma się odpalić następny który to pokazuje że każdy z problemów można rozwiązać za pomocą dialogu lub na własną rękę
@@ -86,7 +86,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			#jakiś lore event trza zrobić
 		country_event = {
@@ -113,7 +113,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			#jakiś lore event trza zrobić
 		country_event = {
@@ -138,7 +138,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			#wybór pomiędzy opieraniem się na bractwie czy zamiana spowrotem ec1 na elektrownie 
 			country_event = {
@@ -164,7 +164,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			#wybór pomiędzy współpracą z sapkiem lub rozwiązanie tego samemu
 			country_event = {
@@ -190,7 +190,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			#wybór pomiędzy współpracą z konsorcjum lub wprowadzenie ograniczeń i recyklingu
 			country_event = {
@@ -218,7 +218,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			#jakiś lore event trza zrobić
 		country_event = {
@@ -244,7 +244,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 		#pomoc od harcerzy w strzeżeniu ulic Łodzi
 		#albo pobór każdego 
@@ -270,7 +270,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 		#pomoc od żydów jak naprawić sytuację łódzkich robotników
 		custom_effect_tooltip = WML_strikes_removal_tt
@@ -295,7 +295,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			#jakiś lore event trza zrobić
 		country_event = {
@@ -317,7 +317,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 		custom_effect_tooltip = WML_three_problems_removal_tt
 			country_event = {
@@ -459,6 +459,8 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
 		}
 	}
 	
@@ -594,9 +596,14 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
+			add_ideas = WML_dialog_lodz_bractwo
+			add_opinion_modifier = {
+				target = BBW
+					modifier = opened_dialogue
+				}
 		}
 	}
 	
@@ -616,9 +623,14 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
+			add_ideas = WML_dialog_lodz_harcerze
+			add_opinion_modifier = {
+				target = ZHP
+					modifier = opened_dialogue
+				}
 		}
 	}
 	
@@ -638,9 +650,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_lodz_przemysl
+			swap_ideas = {
+				remove_idea = WML_dialog_lodz_bractwo
+				add_idea = WML_dialog_lodz_bractwo2
+			}
 		}
 	}
 	
@@ -660,7 +675,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			317 = {
 					add_building_construction = {
@@ -669,7 +684,14 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
-			add_ideas = WML_lask_airport
+			give_military_access = BBW
+			BBW = { 
+				give_military_access = WML
+			}
+			swap_ideas = {
+				remove_idea = training_basic
+				add_idea = training_veterans
+				}
 		}
 	}
 	
@@ -689,9 +711,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_lodz_inzynierzy
+			swap_ideas = {
+				remove_idea = WML_dialog_lodz_bractw2
+				add_idea = WML_dialog_lodz_bractwo3
+			}
 		}
 	}
 	
@@ -711,9 +736,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_lodz_kopalnie
+			swap_ideas = {
+				remove_idea = WML_dialog_lodz_bractwo3
+				add_idea = WML_dialog_lodz_bractwo4
+			}
 		}
 	}
 	
@@ -733,9 +761,19 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_budowane_parki
+			576 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+		swap_ideas = {
+				remove_idea = WML_dialog_lodz_harcerze
+				add_idea = WML_dialog_lodz_harcerze2
+			}
 		}
 	}
 	
@@ -755,9 +793,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_komandosi
+		swap_ideas = {
+				remove_idea = WML_dialog_lodz_harcerze2
+				add_idea = WML_dialog_lodz_harcerze3
+			}
 		}
 	}
 	
@@ -777,9 +818,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_spartanie
+		swap_ideas = {
+				remove_idea = WML_dialog_lodz_harcerze3
+				add_idea = WML_dialog_lodz_harcerze4
+			}
 		}
 	}
 	
@@ -799,9 +843,20 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_agenci
+		swap_ideas = {
+				remove_idea = improvised_security
+				add_idea = basic_security
+			}
+		create_operative_leader = {
+			name = "Patryk Łodzianin"
+			GFX = GFX_lodzianin1
+			traits = { operative_seducer operative_tough operative_well_groomed }
+			bypass_recruitment = no
+			available_to_spy_master = yes
+			nationalities = { WML }
+		}
 		}
 	}
 	
@@ -824,9 +879,14 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
+			add_ideas = WML_dialog_lodz_sapek
+			add_opinion_modifier = {
+				target = SAP
+					modifier = opened_dialogue
+				}
 		}
 	}
 	
@@ -849,9 +909,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_potki
+		swap_ideas = {
+				remove_idea = WML_dialog_lodz_sapek
+				add_idea = WML_dialog_lodz_sapek2
+			}
 		}
 	}
 	
@@ -871,9 +934,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_szkoly
+		swap_ideas = {
+				remove_idea = WML_dialog_lodz_sape2
+				add_idea = WML_dialog_lodz_sapek3
+			}
 		}
 	}
 	
@@ -893,9 +959,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_wiedzmini
+		swap_ideas = {
+				remove_idea = WML_dialog_lodz_sapek3
+				add_idea = WML_dialog_lodz_sapek4
+			}
 		}
 	}
 	
@@ -915,9 +984,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_wlasciciele_ziemscy
+		swap_ideas = {
+				remove_idea = trade_regulated
+				add_idea = trade_promoted
+			}
 		}
 	}
 	
@@ -937,9 +1009,14 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
+			add_ideas = WML_dialog_lodz_zydzew
+			add_opinion_modifier = {
+				target = ZYD
+					modifier = opened_dialogue
+				}
 		}
 	}
 	
@@ -959,9 +1036,14 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
+			add_ideas = WML_dialog_lodz_triumwirat
+			add_opinion_modifier = {
+				target = KRS
+					modifier = opened_dialogue
+				}
 		}
 	}
 	
@@ -981,9 +1063,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_prawa_mniejszosci
+			swap_ideas = {
+				remove_idea = partial_secularism
+				add_idea = full_secularism
+			}
 		}
 	}
 	
@@ -1003,17 +1088,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_unie_handlowe
-			302 = {
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}
-				}
+			swap_ideas = {
+				remove_idea = WML_dialog_lodz_zydzew
+				add_idea = WML_dialog_lodz_zydzew2
+			}			
 		}
 	}
 	
@@ -1033,9 +1113,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_sport
+			swap_ideas = {
+				remove_idea = WML_dialog_lodz_zydzew2
+				add_idea = WML_dialog_lodz_zydzew3
+			}
 		}
 	}
 	
@@ -1055,9 +1138,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_obroncy_wiary
+			swap_ideas = {
+				remove_idea = WML_dialog_lodz_zydzew3
+				add_idea = WML_dialog_lodz_zydzew4
+			}
 		}
 	}
 	
@@ -1077,17 +1163,17 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_kontrakty
-			302 = {
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = arms_factory
-						level = 2
-						instant_build = yes
-					}
-				}
+		add_equipment_to_stockpile = {
+			type = ranged_equipment_1
+			amount = 1000
+			producer = KRS
+		}
+			swap_ideas = {
+				remove_idea = WML_dialog_lodz_triumwirat
+				add_idea = WML_dialog_lodz_triumwirat2
+			}		
 		}
 	}
 	
@@ -1107,7 +1193,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			swap_ideas = {
 					add_idea = taxes_low
@@ -1132,9 +1218,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_groby
+			swap_ideas = {
+				remove_idea = WML_dialog_lodz_triumwira2
+				add_idea = WML_dialog_lodz_triumwirat3
+			}	
 		}
 	}
 	
@@ -1154,9 +1243,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
-			add_ideas = WML_agencje_obronne
+			swap_ideas = {
+				remove_idea = WML_dialog_lodz_triumwirat3
+				add_idea = WML_dialog_lodz_triumwirat4
+			}	
 		}
 	}
 
@@ -1590,7 +1682,7 @@ focus_tree = {
 		y = 7
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 						country_event = {
 			id = WML.15
@@ -1656,7 +1748,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			add_ideas = WML_lodz_forall
 		}
@@ -1678,7 +1770,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			add_ideas = WML_lodz_victory
 		}
@@ -1700,7 +1792,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 5
-		search_filters = {FOCUS_MANPOWER}
+		search_filters = {}
 		completion_reward = {
 			add_ideas = WML_wspolpraca_ekonomiczna
 			BBW = {add_ideas = BBW_wspolpraca_ekonomiczna}

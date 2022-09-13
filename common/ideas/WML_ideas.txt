@@ -214,295 +214,8 @@ ideas = {
 		}
 		
 		#KONIEC TUTORIAL DRZEWKA 
-		
-		WML_lodz_przemysl =	{
-			allowed = {
-				original_tag = WML
-			}
-			allowed_civil_war = {
-				always = yes
-			}
 
-			removal_cost = -1
-			picture = BBW_smog
-			modifier = {
-				production_speed_buildings_factor = 0.15
-			}
-		}
-		WML_lask_airport = {
-			allowed = {
-				original_tag = WML
-			}
-			allowed_civil_war = {
-				always = yes
-			}
 
-			removal_cost = -1
-			picture = BBW_smog
-			equipment_bonus = {
-				fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				CAS_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				transport_plane_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-			}		
-		
-	}
-		WML_lodz_inzynierzy =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					industrial_capacity_factory = 0.15
-					stability_factor = -0.05
-				}
-			}
-		WML_lodz_kopalnie =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					local_resources_factor = 0.10
-				}
-			}
-		WML_budowane_parki =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					stability_factor = 0.15
-				}
-			}	
-		WML_komandosi =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				
-				modifier = {
-					special_forces_cap = 0.05
-					special_forces_training_time_factor = -0.1
-					special_forces_no_supply_grace = 48
-				}
-			}
-		WML_spartanie =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-							army_infantry_attack_factor = 0.1
-				}
-			}	
-		WML_agenci =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-							operative_slot = 1
-							decryption = 1
-							encryption = 1
-				}
-			}
-		WML_potki =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-							army_morale_factor = 0.1
-							army_org_factor = 0.1
-				}
-			}	
-		WML_szkoly =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-							research_speed_factor = 0.1
-				}
-			}		
-		WML_wiedzmini =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-						special_forces_cap = 0.1
-						army_infantry_attack_factor = 0.05
-						army_infantry_defence_factor = 0.05
-				}
-			}	
-		WML_wlasciciele_ziemscy =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-							monthly_population = 0.1
-				}
-			}		
-		WML_kontrakty =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-							production_speed_arms_factory_factor = 0.15
-				}
-			}
-		WML_groby =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-							war_support_factor = 0.15
-				}
-			}	
-		WML_agencje_obronne = {
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-						army_core_defence_factor = 0.1
-				}
-			}	
-		WML_prawa_mniejszosci = {
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-						non_core_manpower = 0.1
-						recruitable_population_factor = 0.03
-				}
-			}
-		WML_unie_handlowe =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-							production_speed_industrial_complex_factor = 0.15
-				}
-			}
-		WML_sport =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					stability_factor = 0.15
-				}
-			}		
-		WML_obroncy_wiary =	{
-				allowed = {
-					original_tag = WML
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					 	army_defence_factor = 0.1
-				}
-			}
 		WML_lodz_forall =	{
 				allowed = {
 					original_tag = WML
@@ -545,8 +258,329 @@ ideas = {
 					stability_factor = 0.15
 				}
 			}		
-	
-	
+	##NOWE IDEE##
+		WML_dialog_lodz_zydzew =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+				}
+			}
+			
+		WML_dialog_lodz_zydzew2 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					line_change_production_efficiency_factor = 0.1
+				}
+			}
+			
+		WML_dialog_lodz_zydzew3 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					line_change_production_efficiency_factor = 0.1
+					training_time_army_factor = -0.2
+				}
+			}
+			
+		WML_dialog_lodz_zydzew4 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					line_change_production_efficiency_factor = 0.1
+					training_time_army_factor = -0.2
+					army_org_factor = 0.1
+					army_org_regain = 0.1
+				}
+			}
+
+		WML_dialog_lodz_bractwo =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+				}
+			}
+			
+		WML_dialog_lodz_bractwo2 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					production_speed_power_plant_factor = 0.15 
+				}
+			}
+			
+		WML_dialog_lodz_bractwo3 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					production_speed_power_plant_factor = 0.15
+					stability_factor = -0.05
+					industrial_capacity_factory = 0.1
+				}
+			}
+			
+		WML_dialog_lodz_bractwo4 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					production_speed_power_plant_factor = 0.15
+					stability_factor = -0.05
+					industrial_capacity_factory = 0.1
+					local_resources_factor = 0.1
+				}
+			}
+			
+		WML_dialog_lodz_harcerze =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+				}
+			}
+			
+		WML_dialog_lodz_harcerze2 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					stability_factor = 0.1
+					consumer_goods_factor = -0.05
+				}
+			}
+			
+		WML_dialog_lodz_harcerze3 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					stability_factor = 0.1
+					consumer_goods_factor = -0.05					
+					special_forces_training_time_factor = -0.1
+					terrain_penalty_reduction = 0.1
+				}
+			}
+			
+		WML_dialog_lodz_harcerze4 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					stability_factor = 0.1
+					consumer_goods_factor = -0.05	
+					special_forces_training_time_factor = -0.1
+					terrain_penalty_reduction = 0.1
+					supply_consumption_factor = -0.1
+				}
+			}
+			
+
+		WML_dialog_lodz_triumwirat =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+				}
+			}
+			
+		WML_dialog_lodz_triumwirat2 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					equipment_conversion_speed = 0.2
+				}
+			}
+			
+		WML_dialog_lodz_triumwirat3 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					equipment_conversion_speed = 0.2
+					war_support_factor = 0.1
+					consumer_goods_factor = -0.05
+				}
+			}
+			
+		WML_dialog_lodz_triumwirat4 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					equipment_conversion_speed = 0.2
+					war_support_factor = 0.1
+					consumer_goods_factor = -0.05
+					army_core_defence_factor = 0.1
+				}
+			}
+
+		WML_dialog_lodz_sapek =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+				}
+			}
+			
+		WML_dialog_lodz_sapek2 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					out_of_supply_factor = 0.1
+				}
+			}
+			
+		WML_dialog_lodz_sapek3 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					out_of_supply_factor = 0.1
+					research_speed_factor = 0.5
+				}
+			}
+
+		WML_dialog_lodz_sapek4 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					out_of_supply_factor = 0.1
+					research_speed_factor = 0.5
+					special_forces_cap = 0.15
+					army_attack_factor = 0.05
+				}
+			}	
+
 	industrial_company = {
 		use_list_view = yes
 	
