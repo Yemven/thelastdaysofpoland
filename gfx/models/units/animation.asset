@@ -116,6 +116,18 @@ animation = {
 	file = "bicycle_infantry_retreat_2.anim"
 }
 
+###########
+#MELEE
+###########
+animation = {
+	name = "melee_attack_animation"
+	file = "melee_attack.anim"
+}
+
+animation = {
+	name = "melee_attack_charge_animation"
+	file = "melee_attack_charge.anim"
+}
 
 
 
