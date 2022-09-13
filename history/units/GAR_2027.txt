@@ -1,4 +1,4 @@
-
+############################################################WORK IN KURWA PROGRESS ROZUMIECIE?##################################################################
 
 division_template = {
 	name = "Batalion Piechoty"
@@ -31,9 +31,16 @@ division_template = {
 }
 
 units = {
-	
+    division = {
+		name = "1 Batalion Piechoty"
+		location = 2220
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.2
+	}
+		
 	division = {
-	    name = "1 Batalion Piechoty"
+	    name = "2 Batalion Piechoty"
 		location = 3849
 		division_template = "Batalion Piechoty"
 		start_experience_factor = 0.4
@@ -41,7 +48,7 @@ units = {
 	}
 	
 	division = {
-	    name = "2 Garwoliński Batalion Piechoty"
+	    name = "3 Garwoliński Batalion Piechoty"
 		location = 987
 		division_template = "Batalion Piechoty"
 		start_experience_factor = 0.3
@@ -62,6 +69,22 @@ units = {
 		division_template = "Batalion Ochotniczy"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
+	}
+
+	division = {
+	    name = "3 Batalion Ochotniczy"
+		location = 675
+		division_template = "Batalion Ochotniczy"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+	    name = "4 Batalion Ochotniczy"
+		location = 1907
+		division_template = "Batalion Ochotniczy"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
 	}
 
 	division = {
