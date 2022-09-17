@@ -866,8 +866,6 @@ focus_tree = {
 		icon = WML_fantastical_lodz
 		relative_position_id = WML_convene_general_assembly
 		prerequisite = { focus = WML_convene_general_assembly }
-		mutually_exclusive = { focus = WML_forest_lodz }
-		mutually_exclusive = { focus = WML_industrial_lodz }
 		available = {
 		
 		}
@@ -2619,7 +2617,7 @@ focus_tree = {
 		icon = WML_assure_our_people
 		relative_position_id = WML_everyone_keep_calm
 		prerequisite = { focus = WML_everyone_keep_calm }
-		mutually_exclusive = { focus = WML_assure_our_people }
+		mutually_exclusive = { focus = WML_emergency_presidential_powers }
 		available = {
 
 		}
