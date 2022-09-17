@@ -152,6 +152,16 @@ music = {
 	}
 }
 music = {
+	song = "lodz_lodz5"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = WML
+		}
+	}
+}
+music = {
 	song = "lodz_pogotowie1"
 	chance = {
 		base = 1
