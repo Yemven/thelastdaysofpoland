@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = WML
+add_namespace = WML_news
 
 country_event = {
 	id = WML.1
@@ -930,15 +931,15 @@ country_event = { #WML_send_out_delegations
 }
 
 country_event = { #Wprowadzenie o Strajkujących 
-	id = WML.32
-	title = WML.32.t
-	desc = WML.32.desc
+	id = WML.33
+	title = WML.33.t
+	desc = WML.33.desc
 
 	fire_only_once = no
 	is_triggered_only = yes
 
 	option = {
-		name = WML.32.a
+		name = WML.33.a
 		add_ideas = WML_regional_strikes
 	}
 }
