@@ -112,6 +112,16 @@ music = {
 	}
 }
 music = {
+	song = "lodz_bractwo5"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = BBW
+		}
+	}
+}
+music = {
 	song = "lodz_lodz1"
 	chance = {
 		base = 1
@@ -153,6 +163,16 @@ music = {
 }
 music = {
 	song = "lodz_lodz5"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = WML
+		}
+	}
+}
+music = {
+	song = "lodz_lodz6"
 	chance = {
 		base = 1
 		modifier = {
