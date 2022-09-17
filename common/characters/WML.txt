@@ -49,14 +49,6 @@ characters={
 			}
 			traits = { media_personality }
 		}
-		corps_commander = {
-			traits = { }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
-		}
 	}
 	WML_belka={
 		name="Marek Belka"
@@ -164,23 +156,6 @@ characters={
 		corps_commander = {
 			traits = { }
 			skill=3
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	WML_jacek_birus = {
-		name="Jacek Biruś"
-		portraits = {
-			army = {
-			    large="gfx/leaders/WML/WML_Birus.dds"
-			}
-		}
-		corps_commander = {
-			traits = { }
-			skill=2
 			attack_skill=1
 			defense_skill=1
 			planning_skill=1
