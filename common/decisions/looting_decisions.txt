@@ -1,0 +1,40 @@
+looting_decisions{
+	stealing_from_local_junkyard{
+		cost = 40
+		icon = GFX_decision_icon_default
+		complete_effect = {
+			random_controlled_state = {
+			add_resource = {
+				type = steel
+				amount = 5
+				state
+			}
+			add_resource = {
+				type = aluminium
+				amount = 2
+			}
+			add_resource = {
+				type = electronics
+				amount = 5
+			}
+			}
+			
+		}
+		days_remove = 30
+		remove_effect = {
+			add_resource = {
+				type = steel
+				amount = -5
+			}
+			add_resource = {
+				type = aluminium
+				amount = -2
+			}
+			add_resource = {
+				type = electronics
+				amount = -5
+			}
+		}
+		days_reenable = 30
+	}
+}
