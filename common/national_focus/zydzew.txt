@@ -149,7 +149,10 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			add_ideas = ZYD_pitch_failures
+			swap_ideas = {
+				remove_idea = ZYD_pitch_failures
+			add_idea = ZYD_pitch_failures2
+			}
 		}
 	}
 	
@@ -224,7 +227,20 @@ focus_tree = {
 		cost = 4
 		search_filters = { }
 		completion_reward = {
-			
+				if = { 
+				limit = { has_idea = ZYD_eleven_falashas }
+			swap_ideas =  {
+				remove_idea = ZYD_eleven_falashas
+				add_idea = ZYD_eleven_falashas2
+			}
+			}
+			else_if = {
+				limit = { has_idea = ZYD_eleven_praca }
+			swap_ideas =  {
+				remove_idea = ZYD_eleven_praca
+				add_idea = ZYD_eleven_praca2
+			}
+			}	
 		}
 	}
 	
@@ -246,7 +262,10 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			add_ideas = ZYD_i_znow_bijatyka
+			swap_ideas = {
+				remove_idea = ZYD_i_znow_bijatyka
+				add_idea = ZYD_i_znow_bijatyka2
+				}
 		}
 	}
 	
@@ -268,10 +287,6 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = ZYD_i_znow_bijatyka
-				add_idea = ZYD_i_znow_bijatyka2
-				}
 			random_controlled_state = {
 				damage_building = {
 					type = industrial_complex
@@ -319,6 +334,10 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
+			swap_ideas =  {
+				remove_idea = ZYD_i_znow_bijatyka2
+				add_idea = ZYD_armia_dawida
+			}
 		}
 	}
 	
@@ -341,7 +360,10 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas =  {
+				remove_idea = ZYD_i_znow_bijatyka2
+				add_idea = ZYD_armia_urbana
+			}
 		}
 	}
 	
@@ -364,7 +386,20 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			
+			if = { 
+				limit = { has_idea = ZYD_armia_urbana }
+			swap_ideas =  {
+				remove_idea = ZYD_armia_urbana
+				add_idea = ZYD_armia_urbana2
+			}
+			}
+			else_if = {
+				limit = { has_idea = ZYD_armia_dawida }
+			swap_ideas =  {
+				remove_idea = ZYD_armia_dawida
+				add_idea = ZYD_armia_dawida2
+			}
+			}			
 		}
 	}
 	
@@ -386,7 +421,10 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			add_ideas = ZYD_ekonomia_kradziejsko_kibolska
+			swap_ideas = {
+				remove_idea = ZYD_unfinished_collectivization
+				add_idea = ZYD_ekonomia_kradziejsko_kibolska2
+				}
 		}
 	}
 	
@@ -408,10 +446,6 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = ZYD_ekonomia_kradziejsko_kibolska
-				add_idea = ZYD_ekonomia_kradziejsko_kibolska2
-				}
 			random_controlled_state = {
 				damage_building = {
 					type = industrial_complex
@@ -652,6 +686,16 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
+			create_corps_commander = {
+				name = "Sebastian Birkut"
+				picture = "gfx/leaders/ZYD/ZYD_Birkut.dds"
+				traits = { commando }
+				skill = 2
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 2
+			}
 		}
 	}
 	
@@ -696,7 +740,11 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = melee_equipment_0
+				amount = 500
+				producer = ZYD
+			}
 		}
 	}
 	focus = {
@@ -717,7 +765,8 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			
+			remove_ideas = ZYD_LKS_guerilla
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -739,7 +788,11 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			
+			add_manpower = 1000
+			swap_ideas = {
+				remove_idea = one_religion_favoured
+				add_idea = state_religion
+			}
 		}
 	}
 	
