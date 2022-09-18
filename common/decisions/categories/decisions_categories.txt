@@ -41,7 +41,18 @@ weapon_dealer = {
 		num_of_civilian_factories > 2
 	}
 }
-
+looting_decisions = {
+	priority = 2
+	icon = generic_economy
+	visible_when_empty = yes
+	allowed = {
+		NOT = { 
+			original_tag = BEX
+			}
+		}
+	available = {
+	}
+}
 ziobro_war = {
 	priority = 5
 	icon = GFX_category_icon
