@@ -51,6 +51,10 @@ if = {
 oob = "BPD_2027"
 
 recruit_character = BPD_Miroslaw_Hermaszewski
+recruit_character = BPD_Dawid_Mysliwiec
+recruit_character = BPD_Dariusz_Hoffman
+recruit_character = BPD_Piotr_Kosek
+recruit_character = BPD_Huyen_Pham
 
 set_politics = {
 	ruling_party = socialdemocrature
@@ -61,6 +65,11 @@ set_politics = {
 
 add_ideas = {
 	BPD_debuff
+
+	BPD_min_Dawid_Mysliwiec
+	BPD_min_Dariusz_Hoffman
+	BPD_min_Piotr_Kosek
+	BPD_min_Huyen_Pham
 
 	controlled_opposition
 	autocensorship

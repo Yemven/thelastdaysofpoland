@@ -12,4 +12,76 @@ characters={
 			id=-1
 		}
 	}
+	KSN_Eunika_Chojecka={
+		name="Eunika Chojecka"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/KSN/KSN_Eunika_Chojecka.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = KSN_min_Eunika_Chojecka
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KSN
+			}
+		}
+	}
+	KSN_Tymoteusz_Chojecki={
+		name="Tymoteusz_Chojecki"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/KSN/KSN_Tymoteusz_Chojecki.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = KSN_min_Tymoteusz_Chojecki
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KSN
+			}
+		}
+	}
+	KSN_Kornelia_Chojecka={
+		name="Kornelia Chojecka"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/KSN/KSN_Kornelia_Chojecka.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = KSN_min_Kornelia_Chojecka
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KSN
+			}
+		}
+	}
+	KSN_Pawel_Machala={
+		name="Paweł Machała"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/KSN/KSN_Pawel_Machala.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = KSN_min_Pawel_Machala
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = KSN
+			}
+		}
+	}
 }
