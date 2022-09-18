@@ -923,6 +923,14 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		 if = {
+			limit = { party_popularity@squattism > party_popularity@marxism_cranism }
+				complete_national_focus = ZYD_sanhedryn
+			}
+		else_if = {
+			limit = { party_popularity@squattism < party_popularity@marxism_cranism }
+				complete_national_focus = ZYD_rabbi_is_dead
+			}		
 		}
 	}
 	
@@ -945,6 +953,9 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = zydzew.11
+				}
 		}
 	}
 	
@@ -967,6 +978,9 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = zydzew.12
+				}
 		}
 	}
 	
@@ -1030,7 +1044,6 @@ focus_tree = {
 		prerequisite = { focus = ZYD_revenge_on_coal }
 		available = {
 		  NOT = { has_war_with = ZHP }
-		  NOT = { country_exists = BBW }
 		}
 		
 		bypass = {
@@ -1071,6 +1084,27 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			add_stability = 0.1
+			division_template = {
+				name = "Samarytańskie Kluby"
+				priority = 0
+				template_counter = 13
+				regiments = {
+					melee_infantry = { x = 0 y = 0 }
+					melee_infantry = { x = 0 y = 1 }
+				}
+			}
+			341 = {
+				create_unit = {
+					division = "name = \"GKS Bełchatów'\" division_template = \"Samarytańskie Kluby\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ZYD
+				}
+			}
+			370 = {
+				create_unit = {
+					division = "name = \"Radomszczański Kolektyw Sportowy'\" division_template = \"Samarytańskie Kluby\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ZYD
+				}			
+			}
 		}
 	}
 	
@@ -1198,7 +1232,6 @@ focus_tree = {
 		prerequisite = { focus = ZYD_miners_liberation }
 		available = {
 		  NOT = { has_war_with = ZHP }
-		  NOT = { country_exists = BBW }
 		}
 		
 		bypass = {
@@ -1238,7 +1271,22 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_stability = 0.1
+			add_stability = -0.1
+			division_template = {
+				name = "Ochotnicza Rezerwa Milicji Obywatelskiej"
+				priority = 0
+				template_counter = 13
+				regiments = {
+					melee_infantry = { x = 0 y = 0 }
+					melee_infantry = { x = 0 y = 1 }
+				}
+			}
+			341 = {
+				create_unit = {
+					division = "name = \"Batalion ORMO 'Sieradzkie'\" division_template = \"Ochotnicza Rezerwa Milicji Obywatelskiej\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ZYD
+				}
+			}
 		}
 	}
 	
