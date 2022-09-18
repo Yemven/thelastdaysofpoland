@@ -31,10 +31,24 @@ ideas = {
 				stability_factor = -0.3
 				marxism_cranism_drift = -0.1
 				squattism_drift = -0.1
-			
-				
 			}
 		}
+
+		ZYD_minority_rule2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				stability_factor = -0.2			
+			}
+		}		
+
 		ZYD_LKS_guerilla = {
 			allowed = {
 				original_tag = ZYD

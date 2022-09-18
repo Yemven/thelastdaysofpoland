@@ -167,3 +167,54 @@ country_event = {
 	}
 }
 
+
+country_event = {
+	id = zydzew.11 #rabbi-sanhedryn
+	title = zydzew.11.t
+	desc = zydzew.11.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.11.a
+		add_popularity = {
+			ideology = marxism_cranism
+			popularity = -0.1
+		}
+		add_popularity = {
+			ideology = squattism
+			popularity = 0.2
+		}
+		swap_ideas = { 
+			remove_idea = ZYD_minority_rule
+			add_idea = ZYD_minority_rule2
+		}
+	}
+}
+
+
+country_event = {
+	id = zydzew.12 #rabbi-zdech
+	title = zydzew.12.t
+	desc = zydzew.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.12.a
+		add_popularity = {
+			ideology = marxism_cranism
+			popularity = 0.2
+		}
+		add_popularity = {
+			ideology = squattism
+			popularity = -0.1
+		}
+		swap_ideas = { 
+			remove_idea = ZYD_minority_rule
+			add_idea = ZYD_minority_rule2
+		}
+	}
+}
