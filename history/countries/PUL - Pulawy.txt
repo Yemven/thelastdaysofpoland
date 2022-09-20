@@ -50,18 +50,18 @@ if = {
 oob = "PUL_2027"
 
 recruit_character = PUL_Marian_Kowalski
-recruit_character = PUL_Rafal_Mekler
-recruit_character = PUL_Marek_Szewczyk
-recruit_character = PUL_Arkadiusz_Gajda
-recruit_character = PUL_Andrzej_Wieclawski
+recruit_character = PUL_Adam_Kaczmarkiewicz
+recruit_character = PUL_Andrzej_Seweryn
+recruit_character = PUL_Krzysztof_Kobylas
+recruit_character = PUL_Krzysztof_Szalecki
 
 add_ideas = {
 	PUL_debuff
 
-	PUL_min_Rafal_Mekler
-	PUL_min_Marek_Szewczyk
-	PUL_min_Arkadiusz_Gajda
-	PUL_min_Andrzej_Wieclawski
+	PUL_min_Adam_Kaczmarkiewicz
+	PUL_min_Andrzej_Seweryn
+	PUL_min_Krzysztof_Kobylas
+	PUL_min_Krzysztof_Szalecki
 
 	monoparty
 	state_press
@@ -92,12 +92,12 @@ set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
 	socialdemocrature = 0
-	euroliberalism = 0
+	euroliberalism = 5
 	freemarketism = 0
-	paternal_conservatism = 0
+	paternal_conservatism = 25
 	autocracy = 0
 	corporativism = 0 
-	neonationalism = 100
+	neonationalism = 70
 	reactionary = 0
 	postpolonism = 0
 }

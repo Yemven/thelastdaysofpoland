@@ -99,7 +99,38 @@ guiTypes = {
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
+
+		iconType = {
+			name = "sp_continue_flag_left"
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= -3500 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
 		
+		iconType = {
+			name = "sp_continue_flag_left_overlay"
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= -3500 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "sp_continue_flag_right"
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= -2450 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "sp_continue_flag_right_overlay"
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= -2450 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}		
 		
 		ButtonType = {
 			name = "sp_new_button"
@@ -245,6 +276,16 @@ guiTypes = {
 		positionType = {
 			name = "position_without_social_gui"
 			position = { x = 0 y = 155 }
+		}
+
+		positionType = {
+			name = "subscription_position"
+			position = { x = -5000 y = 89 }
+		}
+
+		positionType = {
+			name = "subscription_position_without_social_gui"
+			position = { x = -9000 y = 219 }
 		}
 		
 		containerWindowType = {

@@ -51,6 +51,10 @@ if = {
 oob = "BIL_2027"
 
 recruit_character = BIL_Janusz_Palikot
+recruit_character = BIL_Kuba_Wojewodzki
+recruit_character = BIL_Michal_Kabacinski
+recruit_character = BIL_Marek_Poznanski
+recruit_character = BIL_Tomasz_Czechowicz
 
 set_politics = {
 	ruling_party = corporativism
@@ -60,7 +64,12 @@ set_politics = {
 }
 
 add_ideas = {
-	controlled_opposition
+	BIL_min_Kuba_Wojewodzki
+	BIL_min_Michal_Kabacinski
+	BIL_min_Marek_Poznanski
+	BIL_min_Tomasz_Czechowicz
+
+	regime_council
 	autocensorship
 	basic_security
 	private_healthcare
@@ -81,12 +90,12 @@ add_ideas = {
 set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
-	socialdemocrature = 0
-	euroliberalism = 0
+	socialdemocrature = 30
+	euroliberalism = 15
 	freemarketism = 0
-	paternal_conservatism = 0
+	paternal_conservatism = 10
 	autocracy = 0
-	corporativism = 100
+	corporativism = 45
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0

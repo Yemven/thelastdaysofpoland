@@ -12,4 +12,76 @@ characters={
 			id=-1
 		}
 	}
+	BPD_Dawid_Mysliwiec={
+		name="Dawid Myśliwiec"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/BPD/BPD_Dawid_Mysliwiec.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BPD_min_Dawid_Mysliwiec
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BPD
+			}
+		}
+	}
+	BPD_Dariusz_Hoffman={
+		name="Dariusz Hoffman"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/BPD/BPD_Dariusz_Hoffman.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BPD_min_Dariusz_Hoffman
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BPD
+			}
+		}
+	}
+	BPD_Piotr_Kosek={
+		name="Piotr Kosek"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/BPD/BPD_Piotr_Kosek.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BPD_min_Piotr_Kosek
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BPD
+			}
+		}
+	}
+	BPD_Huyen_Pham={
+		name="Huyen Pham"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/BPD/BPD_Huyen_Pham.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BPD_min_Huyen_Pham
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BPD
+			}
+		}
+	}
 }

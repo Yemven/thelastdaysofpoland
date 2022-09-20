@@ -12,17 +12,17 @@ characters={
 			id=-1
 		}
 	}
-	PUL_Rafal_Mekler={
-		name="Rafał Mekler"
+	PUL_Adam_Kaczmarkiewicz={
+		name="Adam Kaczmarkiewicz"
 		portraits={
 			civilian={
-				small = "gfx/interface/ideas/PUL/PUL_Rafal_Mekler.dds"
+				small = "gfx/interface/ideas/PUL/PUL_Adam_Kaczmarkiewicz.dds"
 			}
 		}
 		advisor = {
 			cost = -1
 			slot = head_of_government
-			idea_token = PUL_min_Rafal_Mekler
+			idea_token = PUL_min_Adam_Kaczmarkiewicz
 			removal_cost = -1
 			ledger = civilian
 			allowed = {
@@ -30,17 +30,17 @@ characters={
 			}
 		}
 	}
-	PUL_Marek_Szewczyk={
-		name="Marek Szewczyk"
+	PUL_Andrzej_Seweryn={
+		name="Andrzej Seweryn"
 		portraits={
 			civilian={
-				small = "gfx/interface/ideas/PUL/PUL_Marek_Szewczyk.dds"
+				small = "gfx/interface/ideas/PUL/PUL_Andrzej_Seweryn.dds"
 			}
 		}
 		advisor = {
 			cost = -1
 			slot = minister_of_war
-			idea_token = PUL_min_Marek_Szewczyk
+			idea_token = PUL_min_Andrzej_Seweryn
 			removal_cost = -1
 			ledger = civilian
 			allowed = {
@@ -48,17 +48,17 @@ characters={
 			}
 		}
 	}
-	PUL_Arkadiusz_Gajda={
-		name="Arkadiusz Gajda"
+	PUL_Krzysztof_Kobylas={
+		name="Krzysztof Kobylas"
 		portraits={
 			civilian={
-				small = "gfx/interface/ideas/PUL/PUL_Arkadiusz_Gajda.dds"
+				small = "gfx/interface/ideas/PUL/PUL_Krzysztof_Kobylas.dds"
 			}
 		}
 		advisor = {
 			cost = -1
 			slot = minister_of_economy
-			idea_token = PUL_min_Arkadiusz_Gajda
+			idea_token = PUL_min_Krzysztof_Kobylas
 			removal_cost = -1
 			ledger = civilian
 			allowed = {
@@ -66,17 +66,17 @@ characters={
 			}
 		}
 	}
-	PUL_Andrzej_Wieclawski={
-		name="Andrzej Więcławski"
+	PUL_Krzysztof_Szalecki={
+		name="Krzysztof Szałecki"
 		portraits={
 			civilian={
-				small = "gfx/interface/ideas/PUL/PUL_Andrzej_Wieclawski.dds"
+				small = "gfx/interface/ideas/PUL/PUL_Krzysztof_Szalecki.dds"
 			}
 		}
 		advisor = {
 			cost = -1
 			slot = interior_minister
-			idea_token = PUL_min_Andrzej_Wieclawski
+			idea_token = PUL_min_Krzysztof_Szalecki
 			removal_cost = -1
 			ledger = civilian
 			allowed = {

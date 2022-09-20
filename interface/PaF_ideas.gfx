@@ -1,5 +1,25 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_idea_trade_none"
+		texturefile = "gfx/interface/ideas/trade1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_minimal"
+		texturefile = "gfx/interface/ideas/trade2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_regulated"
+		texturefile = "gfx/interface/ideas/trade3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_promoted"
+		texturefile = "gfx/interface/ideas/trade4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_free"
+		texturefile = "gfx/interface/ideas/trade5.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_two_party_system"
 		texturefile = "gfx/interface/ideas/parties_5.dds"
 	}

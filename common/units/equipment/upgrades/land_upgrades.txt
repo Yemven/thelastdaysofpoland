@@ -11,20 +11,23 @@ upgrades = {
 		}
 
 		level_requirements = {
-			6 = {
+			5 = {
 				has_tech = engine_tech_1
 			}
-			11 = {
+			9 = {
 				has_tech = engine_tech_2
 			}
-			16 = {
+			13 = {
 				has_tech = engine_tech_3
+			}
+			17 = {
+				has_tech = engine_tech_4
 			}
 		}
 
 		resource_cost_thresholds = {
-			11 = { #higher level engines do require more strategic resources
-				chromium = 1
+			13 = { #higher level engines do require more strategic resources
+				coal = 1
 			}
 		}
 
@@ -47,28 +50,34 @@ upgrades = {
 		}
 
 		level_requirements = {
-			6 = {
+			5 = {
 				has_tech = armor_tech_1
 			}
-			11 = {
+			9 = {
 				has_tech = armor_tech_2
 			}
-			16 = {
+			13 = {
 				has_tech = armor_tech_3
+			}
+			17 = {
+				has_tech = armor_tech_4
 			}
 		}
 
 		resource_cost_thresholds = { # resource values defined here are TOTAL added cost, not cumulative
-			6 = { #more armor requires more resources
+			5 = { #more armor requires more resources
 				steel = 1 
 			}
-			11 = {
+			9 = {
 				steel = 2
-				chromium = 1
 			}
-			16 = {
+			13 = {
 				steel = 2
-				chromium = 2
+				coal = 1
+			}
+			17 = {
+				steel = 2
+				coal = 2
 			}
 		}
 

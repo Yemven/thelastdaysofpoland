@@ -1,5 +1,10 @@
 spriteTypes = {	
 	spriteType = {
+		name = "GFX_blank_background"
+		texturefile = "gfx/superevent/blankbg.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_SE_ARK_Exodus"
 		texturefile = "gfx/superevent/SE_ark1.dds"
 		legacy_lazy_load = no

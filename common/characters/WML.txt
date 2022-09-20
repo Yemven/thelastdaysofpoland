@@ -14,6 +14,22 @@ characters={
 			id=-1
 		}
 	}
+	
+	WML_jasmina={
+		name="Jaśmina"
+		portraits={
+			civilian={
+				large="gfx/leaders/WML/WML_Jasmina.dds"
+			}
+		}
+		country_leader={
+			desc = ""
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
 	WML_gilpiatek={
 		name="Hanna Gil-Piątek"
 		portraits=
@@ -48,14 +64,6 @@ characters={
 				original_tag = WML
 			}
 			traits = { media_personality }
-		}
-		corps_commander = {
-			traits = { }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
 		}
 	}
 	WML_belka={
@@ -164,23 +172,6 @@ characters={
 		corps_commander = {
 			traits = { }
 			skill=3
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	WML_jacek_birus = {
-		name="Jacek Biruś"
-		portraits = {
-			army = {
-			    large="gfx/leaders/WML/WML_Birus.dds"
-			}
-		}
-		corps_commander = {
-			traits = { }
-			skill=2
 			attack_skill=1
 			defense_skill=1
 			planning_skill=1

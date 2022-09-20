@@ -149,7 +149,10 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			add_ideas = ZYD_pitch_failures
+			swap_ideas = {
+				remove_idea = ZYD_pitch_failures
+			add_idea = ZYD_pitch_failures2
+			}
 		}
 	}
 	
@@ -224,7 +227,20 @@ focus_tree = {
 		cost = 4
 		search_filters = { }
 		completion_reward = {
-			
+				if = { 
+				limit = { has_idea = ZYD_eleven_falashas }
+			swap_ideas =  {
+				remove_idea = ZYD_eleven_falashas
+				add_idea = ZYD_eleven_falashas2
+			}
+			}
+			else_if = {
+				limit = { has_idea = ZYD_eleven_praca }
+			swap_ideas =  {
+				remove_idea = ZYD_eleven_praca
+				add_idea = ZYD_eleven_praca2
+			}
+			}	
 		}
 	}
 	
@@ -246,7 +262,10 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			add_ideas = ZYD_i_znow_bijatyka
+			swap_ideas = {
+				remove_idea = ZYD_i_znow_bijatyka
+				add_idea = ZYD_i_znow_bijatyka2
+				}
 		}
 	}
 	
@@ -268,10 +287,6 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = ZYD_i_znow_bijatyka
-				add_idea = ZYD_i_znow_bijatyka2
-				}
 			random_controlled_state = {
 				damage_building = {
 					type = industrial_complex
@@ -319,6 +334,10 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
+			swap_ideas =  {
+				remove_idea = ZYD_i_znow_bijatyka2
+				add_idea = ZYD_armia_dawida
+			}
 		}
 	}
 	
@@ -341,7 +360,10 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas =  {
+				remove_idea = ZYD_i_znow_bijatyka2
+				add_idea = ZYD_armia_urbana
+			}
 		}
 	}
 	
@@ -364,7 +386,20 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			
+			if = { 
+				limit = { has_idea = ZYD_armia_urbana }
+			swap_ideas =  {
+				remove_idea = ZYD_armia_urbana
+				add_idea = ZYD_armia_urbana2
+			}
+			}
+			else_if = {
+				limit = { has_idea = ZYD_armia_dawida }
+			swap_ideas =  {
+				remove_idea = ZYD_armia_dawida
+				add_idea = ZYD_armia_dawida2
+			}
+			}			
 		}
 	}
 	
@@ -386,7 +421,10 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			add_ideas = ZYD_ekonomia_kradziejsko_kibolska
+			swap_ideas = {
+				remove_idea = ZYD_unfinished_collectivization
+				add_idea = ZYD_ekonomia_kradziejsko_kibolska2
+				}
 		}
 	}
 	
@@ -408,10 +446,6 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = ZYD_ekonomia_kradziejsko_kibolska
-				add_idea = ZYD_ekonomia_kradziejsko_kibolska2
-				}
 			random_controlled_state = {
 				damage_building = {
 					type = industrial_complex
@@ -652,6 +686,16 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
+			create_corps_commander = {
+				name = "Sebastian Birkut"
+				picture = "gfx/leaders/ZYD/ZYD_Birkut.dds"
+				traits = { commando }
+				skill = 2
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 2
+			}
 		}
 	}
 	
@@ -696,7 +740,11 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = melee_equipment_0
+				amount = 500
+				producer = ZYD
+			}
 		}
 	}
 	focus = {
@@ -717,7 +765,8 @@ focus_tree = {
 		cost = 3
 		search_filters = { }
 		completion_reward = {
-			
+			remove_ideas = ZYD_LKS_guerilla
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -739,7 +788,11 @@ focus_tree = {
 		cost = 2
 		search_filters = { }
 		completion_reward = {
-			
+			add_manpower = 1000
+			swap_ideas = {
+				remove_idea = one_religion_favoured
+				add_idea = state_religion
+			}
 		}
 	}
 	
@@ -870,6 +923,14 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		 if = {
+			limit = { party_popularity@squattism > party_popularity@marxism_cranism }
+				complete_national_focus = ZYD_sanhedryn
+			}
+		else_if = {
+			limit = { party_popularity@squattism < party_popularity@marxism_cranism }
+				complete_national_focus = ZYD_rabbi_is_dead
+			}		
 		}
 	}
 	
@@ -892,6 +953,9 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = zydzew.11
+				}
 		}
 	}
 	
@@ -914,6 +978,9 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = zydzew.12
+				}
 		}
 	}
 	
@@ -977,7 +1044,6 @@ focus_tree = {
 		prerequisite = { focus = ZYD_revenge_on_coal }
 		available = {
 		  NOT = { has_war_with = ZHP }
-		  NOT = { country_exists = BBW }
 		}
 		
 		bypass = {
@@ -1018,6 +1084,27 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			add_stability = 0.1
+			division_template = {
+				name = "Samarytańskie Kluby"
+				priority = 0
+				template_counter = 13
+				regiments = {
+					melee_infantry = { x = 0 y = 0 }
+					melee_infantry = { x = 0 y = 1 }
+				}
+			}
+			341 = {
+				create_unit = {
+					division = "name = \"GKS Bełchatów'\" division_template = \"Samarytańskie Kluby\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ZYD
+				}
+			}
+			370 = {
+				create_unit = {
+					division = "name = \"Radomszczański Kolektyw Sportowy'\" division_template = \"Samarytańskie Kluby\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ZYD
+				}			
+			}
 		}
 	}
 	
@@ -1145,7 +1232,6 @@ focus_tree = {
 		prerequisite = { focus = ZYD_miners_liberation }
 		available = {
 		  NOT = { has_war_with = ZHP }
-		  NOT = { country_exists = BBW }
 		}
 		
 		bypass = {
@@ -1185,7 +1271,22 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_stability = 0.1
+			add_stability = -0.1
+			division_template = {
+				name = "Ochotnicza Rezerwa Milicji Obywatelskiej"
+				priority = 0
+				template_counter = 13
+				regiments = {
+					melee_infantry = { x = 0 y = 0 }
+					melee_infantry = { x = 0 y = 1 }
+				}
+			}
+			341 = {
+				create_unit = {
+					division = "name = \"Batalion ORMO 'Sieradzkie'\" division_template = \"Ochotnicza Rezerwa Milicji Obywatelskiej\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ZYD
+				}
+			}
 		}
 	}
 	

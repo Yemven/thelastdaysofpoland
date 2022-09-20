@@ -112,6 +112,16 @@ music = {
 	}
 }
 music = {
+	song = "lodz_bractwo5"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = BBW
+		}
+	}
+}
+music = {
 	song = "lodz_lodz1"
 	chance = {
 		base = 1
@@ -143,6 +153,26 @@ music = {
 }
 music = {
 	song = "lodz_lodz4"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = WML
+		}
+	}
+}
+music = {
+	song = "lodz_lodz5"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = WML
+		}
+	}
+}
+music = {
+	song = "lodz_lodz6"
 	chance = {
 		base = 1
 		modifier = {
@@ -432,6 +462,26 @@ music = {
 	}
 }
 music = {
+	song = "lodz_widzew9"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = ZYD
+		}
+	}
+}
+music = {
+	song = "lodz_widzew10"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = ZYD
+		}
+	}
+}
+music = {
 	song = "lodz_zhp1"
 	chance = {
 		base = 1
@@ -493,6 +543,16 @@ music = {
 }
 music = {
 	song = "lodz_zhp7"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = ZHP
+		}
+	}
+}
+music = {
+	song = "lodz_zhp8"
 	chance = {
 		base = 1
 		modifier = {
