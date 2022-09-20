@@ -90,6 +90,7 @@ characters={
 		portraits={
 			civilian={
 				small = "gfx/interface/ideas/CRN/CRN_Stanislaw_Budzik.dds"
+				large="gfx/leaders/CRN/CRN_Stanislaw_Budzik.dds"
 			}
 		}
 		advisor = {
@@ -101,6 +102,19 @@ characters={
 			allowed = {
 				original_tag = CRN
 			}
+		}
+		country_leader={
+			ideology=reactionary_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRN_Joanna_Mucha={
+		name="Joanna Mucha"
+		country_leader={
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
 }
