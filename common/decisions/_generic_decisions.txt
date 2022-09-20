@@ -1898,6 +1898,22 @@ weapon_dealer = {
 			}
 		}
 	}
+	
+	buy_chinese_armor = {
+		visible = { has_country_flag = click_buy_armor }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            	civilian_factory_use = 1
+        	}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+    				type = equipment_armor
+    				amount = 250
+    				producer = CHI
+			}
+		}
+	}
 
 	buy_radom_armor = {
 		visible = { has_country_flag = click_buy_armor }
@@ -2026,6 +2042,22 @@ weapon_dealer = {
 			}
 		}
 	}
+	
+	buy_chinese_vests = {
+		visible = { has_country_flag = click_buy_vests }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
+		add_equipment_to_stockpile = {
+    				type = equipment_vests
+    				amount = 250
+    				producer = CHI
+			}
+		}
+	}
 
 	buy_swedish_vests = {
 		visible = { has_country_flag = click_buy_vests }
@@ -2132,9 +2164,25 @@ weapon_dealer = {
         	}
 		complete_effect = {
 		add_equipment_to_stockpile = {
-    				type = ranged_equipment
+    				type = ranged_equipment_4
     				amount = 250
     				producer = RAD
+			}
+		}
+	}
+
+	buy_chinese_ranged = {
+		visible = { has_country_flag = click_buy_ranged }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
+		add_equipment_to_stockpile = {
+    				type = ranged_equipment_4
+    				amount = 250
+    				producer = CHI
 			}
 		}
 	}
@@ -2148,12 +2196,13 @@ weapon_dealer = {
         	}
 		complete_effect = {
 		add_equipment_to_stockpile = {
-    				type = ranged_equipment
+    				type = ranged_equipment_4
     				amount = 250
     				producer = SWE
 			}
 		}
 	}
+	
 	buy_ukrainian_ranged = {
 		visible = { has_country_flag = click_buy_ranged }
 		days_remove = 30
@@ -2163,7 +2212,7 @@ weapon_dealer = {
         	}
 		complete_effect = {
 		add_equipment_to_stockpile = {
-    				type = ranged_equipment
+    				type = ranged_equipment_4
     				amount = 250
     				producer = UKR
 			}
@@ -2179,7 +2228,7 @@ weapon_dealer = {
         	}
 		complete_effect = {
 		add_equipment_to_stockpile = {
-    				type = ranged_equipment
+    				type = ranged_equipment_4
     				amount = 250
     				producer = RUS
 			}
@@ -2195,7 +2244,7 @@ weapon_dealer = {
         	}
 		complete_effect = {
 		add_equipment_to_stockpile = {
-    				type = ranged_equipment
+    				type = ranged_equipment_4
     				amount = 250
     				producer = USA
 			}
@@ -2268,6 +2317,23 @@ weapon_dealer = {
 			}
 		}
 	}
+	
+	buy_chinese_at = {
+		visible = { has_country_flag = click_buy_at }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		complete_effect = {
+		add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
+    				amount = 250
+    				producer = CHI
+			}
+		}
+	}
+	
 	buy_ukrainian_at = {
 		visible = { has_country_flag = click_buy_at }
 		days_remove = 30

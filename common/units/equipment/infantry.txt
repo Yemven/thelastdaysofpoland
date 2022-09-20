@@ -158,6 +158,8 @@ equipments = {
 		
 		interface_category = interface_category_land
 		
+		active = yes
+		
 		#różne
 		reliability = 0.95
 		maximum_speed = 4
@@ -324,6 +326,7 @@ equipments = {
 			electronics = 1
 		}
 	}
+
 	
 	inf_anti_tank_equipment = {
 		year = 1936
@@ -336,6 +339,8 @@ equipments = {
 			anti_tank
 		}
 		group_by = archetype
+		
+		active = yes
 		
 		interface_category = interface_category_land
 		
@@ -483,6 +488,8 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_land
+		
+		active = yes
 		
 		#różne
 		reliability = 0.95
@@ -658,6 +665,8 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_land
+		
+		active = yes
 		
 		#różne
 		reliability = 0.80
