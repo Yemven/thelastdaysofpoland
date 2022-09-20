@@ -1,4 +1,4 @@
-looting_decisions{
+looting_decisions = {
 	stealing_from_local_junkyard = {
 		cost = 40
 		icon = GFX_decision_icon_default
@@ -36,7 +36,7 @@ looting_decisions{
 			}
 			}
 		}
-		days_reenable = 30
+		days_re_enable = 30
 	}
 	open_bootleg_mine = {
 		cost = 40
@@ -63,7 +63,7 @@ looting_decisions{
 				}
 			}
 		}
-		days_reenable = 30
+		days_re_enable = 30
 	}
 	steal_from_local_gas_stations = {
 		cost = 40
@@ -86,7 +86,7 @@ looting_decisions{
 				}
 			}
 		}
-		days_reenable = 30
+		days_re_enable = 30
 	}
 	smelting_old_tires = {
 		cost = 40
@@ -109,7 +109,7 @@ looting_decisions{
 				}
 			}
 		}
-		days_reenable = 30
+		days_re_enable = 30
 	}
 	something_with_tracks = {
 		cost = 25
@@ -157,7 +157,7 @@ looting_decisions{
 			}
 		}
 		
-		days_reenable = 30
+		days_re_enable = 30
 	}
 	smelting_cans = {
 		cost = 25
@@ -180,7 +180,7 @@ looting_decisions{
 				}
 			}
 		}
-		days_reenable = 30
+		days_re_enable = 30
 	}
 	museum_heist = {
 		cost = 65
@@ -225,6 +225,6 @@ looting_decisions{
 			}
 		}
 		days_remove = 30
-		days_reenable = 30
+		days_re_enable = 30
 	}
 }
