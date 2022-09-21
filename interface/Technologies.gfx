@@ -387,6 +387,7 @@ spriteTypes = {
 		name = "GFX_nsb_sidecar_medium"
 		texturefile = "gfx/interface/technologies/sidecar.dds"
 	}
+
 	SpriteType = {
 		name = "GFX_mbt_0_medium"
 		texturefile = "gfx/interface/technologies/mbt_0.dds"
@@ -1707,5 +1708,19 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ZHP_ranged_weapons5_medium"
 		texturefile = "gfx/interface/technologies/ZHP_ranged_weapons5.dds"
+	}
+	
+	#eq ikony
+	SpriteType = {
+		name = "GFX_sidecar_equipment_medium"
+		texturefile = "gfx/interface/technologies/sidecar.dds"
+	}
+	SpriteType = {
+		name = "GFX_bicycle_equipment_medium"
+		texturefile = "gfx/interface/technologies/bicycle.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/truck_1.dds"
 	}
 }
