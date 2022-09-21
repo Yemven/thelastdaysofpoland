@@ -8,7 +8,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Straż Miejska"
+	name = "Samoobrona Gminna"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -34,35 +34,35 @@ units = {
 		start_equipment_factor = 0.7
 	}
     division = {
-		name = "Straż Miejska Mszana Dolna"
+		name = "Batalion SG Mszana Dolna"
 		location = 10848
-		division_template = "Straż Miejska"
+		division_template = "Samoobrona Gminna"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
     division = {
-		name = "Straż Miejska Nowy Sącz"
-		location = 4123
-		division_template = "Straż Miejska"
+		name = "Batalion SG Grybów"
+		location = 10937
+		division_template = "Samoobrona Gminna"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 	}
     division = {
-		name = "Straż Miejska Stary Sącz"
+		name = "Batalion SG Stary Sącz"
 		location = 10890
-		division_template = "Straż Miejska"
+		division_template = "Samoobrona Gminna"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 	}
     division = {
-		name = "Straż Miejska Limanowa"
+		name = "Batalion SG Limanowa"
 		location = 2332
-		division_template = "Straż Miejska"
+		division_template = "Samoobrona Gminna"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 	}	
 	division = {
-		name = "Łososina Dolna Boys"
+		name = "Łososina Dolna 7C Boys"
 		location = 3463
 		division_template = "Prywatne Grupy Bojowe"
 		start_experience_factor = 0
