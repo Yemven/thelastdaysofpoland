@@ -2,6 +2,7 @@ looting_decisions = {
 	stealing_from_local_junkyard = {
 		cost = 40
 		icon = GFX_decision_icon_default
+		fixed_random_seed = no
 		complete_effect = {
 			random_owned_state = {
 			add_resource = {
@@ -41,6 +42,7 @@ looting_decisions = {
 	open_bootleg_mine = {
 		cost = 40
 		icon = GFX_decision_icon_default
+		fixed_random_seed = no
 		complete_effect = {
 			random_owned_state = {
 				add_resource = {
@@ -68,6 +70,7 @@ looting_decisions = {
 	steal_from_local_gas_stations = {
 		cost = 40
 		icon = GFX_decision_icon_default
+		fixed_random_seed = no
 		complete_effect = {
 			random_owned_state = {
 				add_resource = {
@@ -91,6 +94,7 @@ looting_decisions = {
 	smelting_old_tires = {
 		cost = 40
 		icon = GFX_decision_icon_default
+		fixed_random_seed = no
 		complete_effect = {
 			random_owned_state = {
 				add_resource = {
@@ -114,6 +118,7 @@ looting_decisions = {
 	something_with_tracks = {
 		cost = 25
 		icon = GFX_decision_icon_default
+		fixed_random_seed = no
 		complete_effect = {
 			random_owned_state = {
 				random_list={
@@ -122,14 +127,14 @@ looting_decisions = {
 							type = steel
 							amount = 3
 						}
-						set_country_flag = loot_tory
+						set_state_flag = loot_tory
 					}
 					50 ={
 						add_resource = {
 							type = electronics
 							amount = 3
 						}
-						set_country_flag = loot_kabelki
+						set_state_flag = loot_kabelki
 					}
 				}
 			}
@@ -137,31 +142,37 @@ looting_decisions = {
 		}
 		days_remove = 30
 		remove_effect = {
-			random_owned_state = {
-				if = {
-					limit = {has_country_flag = loot_kabelki}
-					add_resource = {
-						type = electronics
-						amount = -3
-					}
-					clr_country_flag = loot_kabelki
-				}
-				if = {
-					limit = {has_country_flag = loot_tory}
-					add_resource = {
-						type = steel
-						amount = -3
-					}
-					clr_country_flag = loot_tory
-				}
-			}
-		}
+				random_state = {
+					limit = {
+						is_controlled_by = ROOT
+						has_state_flag = loot_kabelki
+							}
+						add_resource = {
+							type = electronics
+							amount = -3
+						}
+						clr_state_flag = loot_kabelki
+						}
+						
+				random_state = {
+					limit = {
+						is_controlled_by = ROOT
+						has_state_flag = loot_tory
+							}
+						add_resource = {
+							type = steel
+							amount = -3
+						}
+						clr_state_flag = loot_tory
+						}
+	}
 		
 		days_re_enable = 30
 	}
 	smelting_cans = {
 		cost = 25
 		icon = GFX_decision_icon_default
+		fixed_random_seed = no
 		complete_effect = {
 			random_owned_state = {
 				add_resource = {
@@ -185,6 +196,7 @@ looting_decisions = {
 	museum_heist = {
 		cost = 65
 		icon = GFX_decision_icon_default
+		fixed_random_seed = no
 		complete_effect = {
 			random_list={
 				30 = {
