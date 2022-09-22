@@ -270,6 +270,9 @@ BBW_industrial_missions_category = {
 			country_event = {
 				id = belchatow.28}
 				}
+				add_to_variable = {
+				var_industrial_missions_completed = 1
+				}
 			}
 		timeout_effect = {
 		custom_effect_tooltip = BBW_industrial_mission_lose_tt
@@ -341,6 +344,9 @@ BBW_industrial_missions_category = {
 			hidden_effect = {
 			country_event = {
 				id = belchatow.28}
+			}
+			add_to_variable = {
+			var_industrial_missions_completed = 1
 			}
 		}
 	
@@ -419,6 +425,9 @@ BBW_industrial_missions_category = {
 			custom_effect_tooltip = BBW_industrial_mission_win_tt
 			country_event = {
 			id = belchatow.25}	
+			add_to_variable = {
+			var_industrial_missions_completed = 1
+			}
 		}
 	
 		timeout_effect = {
@@ -510,4 +519,68 @@ BBW_industrial_missions_category = {
 		}
 	}
 
+}
+	
+	#### JAK COŚ TO MA TO I TAK NA RAZIE NIE DZIAŁAĆ - JEST NA PRZYSZŁOŚĆ ######
+	
+#Odblokowane dopiero po zjednoczeniu wojewódzctwa 
+BBW_industrial_rush_category = {
+	BBW_industrial_rush = {
+		allowed = {
+		tag = BBW
+		has_country_flag = BBW_voivodship_united
+		NOT = {
+		check_variable = { var_industrial_missions_completed > var_industrial_missions_started }
+			}
+		}
+		
+		modifier = {	
+			consumer_goods_factor = 0.05
+			stability_weekly = -0.01
+			war_support_weekly = -0.005
+		}
+		
+		cost = 225
+		days_re_enable = 10
+		days_remove = 28
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			#Pozwala zwiększyć poziom industrializacji jeśli jesteśmy w tyle
+			
+		if = {
+			limit = { 
+				BBW = { has_idea = BBW_industrial_capabilities3 }
+			} 
+			hidden_effect = {
+				swap_ideas = {
+				add_idea = BBW_industrial_capabilities4
+				remove_idea = BBW_industrial_capabilities3
+				}
+			}
+		}
+		if = {
+			limit = { 
+				BBW = { has_idea = BBW_industrial_capabilities2 }
+			} 
+			hidden_effect = {
+				swap_ideas = {
+				add_idea = BBW_industrial_capabilities3
+				remove_idea = BBW_industrial_capabilities2
+				}
+			}
+		}
+		else = {
+		hidden_effect = {
+				swap_ideas = {
+				add_idea = BBW_industrial_capabilities2
+				remove_idea = BBW_industrial_capabilities
+				}
+			}
+		}
+		
+		}
+	}
 }

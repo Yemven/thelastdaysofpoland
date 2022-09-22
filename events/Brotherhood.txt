@@ -399,6 +399,15 @@ country_event = {
 		name = belchatow.20.a
 		activate_mission = BBW_industrial_mission1
 		add_ideas = BBW_resource_extraction_focus
+		
+		set_variable = {
+		var = var_industrial_missions_started
+		value = 1
+		}
+		set_variable = {
+		var = var_industrial_missions_completed
+		value = 1
+		}
 	}
 }
 
@@ -415,6 +424,11 @@ country_event = {
 		name = belchatow.21.a
 		activate_mission = BBW_industrial_mission2
 		add_ideas = BBW_infrastructure_focus
+		
+		add_to_variable = {
+		var_industrial_missions_started = 1
+		}
+
 	}
 }
 
@@ -431,6 +445,10 @@ country_event = {
 		name = belchatow.22.a
 		activate_mission = BBW_industrial_mission3
 		add_ideas = BBW_industrial_focus
+		
+		add_to_variable = {
+		var_industrial_missions_started = 1
+		}
 	}
 }
 
