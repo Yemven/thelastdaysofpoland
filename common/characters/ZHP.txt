@@ -45,12 +45,6 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
-		country_leader={
-			desc = "POLITICS_MAREK_JEDRASZEWSKI_DESC"
-			ideology=paternal_conservatism_subtype
-			expire="1.1.1.1"
-			id=-1
-		}
 	}
 	ZHP_orsza={
 		name="Wojciech 'Orsza' Zieliński"
@@ -59,11 +53,6 @@ characters={
 				large="gfx/leaders/ZHP/ZHP_Orsza.dds"
 				small = "gfx/interface/ideas/ZHP/ZHP_orsza.dds"
 			}
-		}
-		country_leader={
-			ideology=scout_system_subtype
-			expire="1.1.1.1"
-			id=-1
 		}
 		advisor = {
 			cost = -1

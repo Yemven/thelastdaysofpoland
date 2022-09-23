@@ -220,4 +220,53 @@ on_actions = {
 			}
 		}
 	}
+	on_daily_ZHR = {
+		effect = {
+			if = {
+				limit = {
+					has_character = ZHP_marek_jedraszewski
+					not = {
+						has_country_leader = {
+							character = ZHP_marek_jedraszewski
+							ruling_only = yes
+						}
+					}
+				}
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ZHP_marek_jedraszewski
+					country_leader = {
+						ideology = paternal_conservatism_subtype
+						expire="1.1.1.1"
+						id = -1
+					}
+				}
+			}
+		}
+	}
+	
+	on_daily_GFL = {
+		effect = {
+			if = {
+				limit = {
+					has_character = ZHP_orsza
+					not = {
+						has_country_leader = {
+							character = ZHP_orsza
+							ruling_only = yes
+						}
+					}
+				}
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ZHP_orsza
+					country_leader = {
+						ideology = scout_system_subtype
+						expire="1.1.1.1"
+						id = -1
+					}
+				}
+			}
+		}
+	}
 }
