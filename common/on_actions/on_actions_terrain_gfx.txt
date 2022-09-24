@@ -3105,6 +3105,102 @@ on_actions = {
 					province = { id = 14417 }
 				}
 			}
+			709 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_sopot }
+					province = { id = 11345 }
+				}
+			}
+			709 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_sopot_przylesie }
+					province = { id = 7428 }
+				}
+			}
+			637 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_speer }
+					province = { id = 9577 }
+				}
+			}
+			34 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia }
+					province = { id = 11353 }
+				}
+			}
+			711 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_chylonia }
+					province = { id = 7433 }
+				}
+			}
+			711 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_leszczynki }
+					province = { id = 11356 }
+				}
+			}
+			711 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_cisowa }
+					province = { id = 11357 }
+				}
+			}
+			710 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_oksywie }
+					province = { id = 11358 }
+				}
+			}
+			710 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_obluze }
+					province = { id = 7432 }
+				}
+			}
+			34 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_dzialki_lesne }
+					province = { id = 11354 }
+				}
+			}
+			34 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_witomino_radiostacja }
+					province = { id = 2323 }
+				}
+			}
+			712 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_orlowo }
+					province = { id = 11346 }
+				}
+			}
+			712 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_maly_kack }
+					province = { id = 11347 }
+				}
+			}
+			712 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_karwiny }
+					province = { id = 11348 }
+				}
+			}
+			34 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_grabowek }
+					province = { id = 11355 }
+				}
+			}
+			34 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gdynia_redlowo }
+					province = { id = 11352 }
+				}
+			}
 		}
 	}
 }
