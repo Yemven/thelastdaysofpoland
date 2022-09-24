@@ -1010,10 +1010,11 @@ focus_tree = {
 					set_nationality = BBW
 				}
 			}
-			if = {
-				limit = {
-					SAP_jacek_bartyzel = { NOT = { is_corps_commander = yes } }
-					}
+			random_character = {
+				limit = { 
+					is_character = SAP_jacek_bartyzel 
+					NOT = { is_corps_commander = yes }
+					}	
 				add_field_marshal_role = {
 					character = SAP_jacek_bartyzel
 						skill = 2
@@ -1021,8 +1022,9 @@ focus_tree = {
 						defense_skill = 2
 						planning_skill = 4
 						logistics_skill = 2
-					}
+				}				
 				}
+
 		}
 	}
 	focus = {
@@ -1058,7 +1060,7 @@ focus_tree = {
 		prerequisite = { focus = BBW_false_hope_symbols }
 		prerequisite = { focus = BBW_chaos_among_rubble }
 		available = {
-		  302 = { is_controlled_by = SAP }
+		  302 = { is_controlled_by = BBW }
 		  NOT = { has_war = yes }
 		}
 		
