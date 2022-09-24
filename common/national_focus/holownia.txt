@@ -2320,7 +2320,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = -3
 		y = 1
 		
 		cost = 2
@@ -2329,9 +2329,10 @@ focus_tree = {
 		}
 	}
 	
+	
 	focus = {
-		id = WML_kick_start_military_research
-		icon = WML_kick_start_military_research
+		id = WML_city_guard_reserve
+		icon = WML_city_guard_reserve
 		relative_position_id = WML_we_cannot_fall_behind
 		prerequisite = { focus = WML_we_cannot_fall_behind }
 		available = {
@@ -2351,53 +2352,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = WML_expand_military_sector
-		icon = WML_expand_military_sector
-		relative_position_id = WML_kick_start_military_research
-		prerequisite = { focus = WML_kick_start_military_research }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -1
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = WML_forts_and_trenches
-		icon = WML_forts_and_trenches
-		relative_position_id = WML_kick_start_military_research
-		prerequisite = { focus = WML_kick_start_military_research }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 1
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = WML_city_guard_reserve
-		icon = WML_city_guard_reserve
-		relative_position_id = WML_kick_start_military_research
-		prerequisite = { focus = WML_expand_military_sector }
-		prerequisite = { focus = WML_forts_and_trenches }
+		id = WML_mandatory_militia_training
+		icon = WML_mandatory_militia_training
+		relative_position_id = WML_city_guard_reserve
+		prerequisite = { focus = WML_city_guard_reserve }
 		available = {
 		
 		}
@@ -2406,28 +2364,6 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 2
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = WML_mandatory_militia_training
-		icon = WML_mandatory_militia_training
-		relative_position_id = WML_city_guard_reserve
-		prerequisite = { focus = WML_city_guard_reserve }
-		mutually_exclusive = { focus = WML_hand_out_weapons }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -1
 		y = 1
 		
 		cost = 2
@@ -2436,34 +2372,12 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = WML_hand_out_weapons
-		icon = WML_hand_out_weapons
-		relative_position_id = WML_city_guard_reserve
-		prerequisite = { focus = WML_city_guard_reserve }
-		mutually_exclusive = { focus = WML_mandatory_militia_training }		
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 1
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
 
 	focus = {
 		id = WML_molotov_making_lessons
 		icon = WML_molotov_making_lessons
 		relative_position_id = WML_city_guard_reserve
-		prerequisite = { focus = WML_mandatory_militia_training
-						 focus = WML_hand_out_weapons }		
+		prerequisite = { focus = WML_mandatory_militia_training }	
 		available = {
 		
 		}
@@ -2505,10 +2419,8 @@ focus_tree = {
 	focus = {
 		id = WML_but_was_it_all_worth_it
 		icon = WML_but_was_it_all_worth_it
-		relative_position_id = WML_nation_of_soldiers
-		prerequisite = { focus = WML_nation_of_soldiers }
-		prerequisite = { focus = WML_last_hope_for_boat }
-		prerequisite = { focus = WML_victory_gardens }
+		relative_position_id = WML_radio_free_boat
+		prerequisite = { focus = WML_radio_free_boat }
 		available = {
 		
 		}
@@ -2538,7 +2450,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -4
+		x = 0
 		y = 1
 		
 		cost = 2
@@ -2589,27 +2501,6 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = WML_emergency_presidential_powers
-		icon = WML_emergency_presidential_powers
-		relative_position_id = WML_everyone_keep_calm
-		prerequisite = { focus = WML_everyone_keep_calm }
-		mutually_exclusive = { focus = WML_assure_our_people }
-		available = {
-
-		}
-		
-		bypass = {
-		}
-		
-		x = -1
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
 	
 
 	focus = {
@@ -2617,7 +2508,6 @@ focus_tree = {
 		icon = WML_assure_our_people
 		relative_position_id = WML_everyone_keep_calm
 		prerequisite = { focus = WML_everyone_keep_calm }
-		mutually_exclusive = { focus = WML_emergency_presidential_powers }
 		available = {
 
 		}
@@ -2625,7 +2515,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 1
+		x = 0
 		y = 1
 		
 		cost = 2
@@ -2661,6 +2551,8 @@ focus_tree = {
 		id = WML_radio_free_boat
 		icon = WML_radio_free_boat
 		relative_position_id = WML_cut_off_contact
+		prerequisite = { focus = WML_nation_of_soldiers }
+		prerequisite = { focus = WML_victory_gardens }
 		prerequisite = { focus = WML_cut_off_contact }
 		available = {
 
@@ -2678,26 +2570,6 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = WML_last_hope_for_boat
-		icon = WML_last_hope_for_boat
-		relative_position_id = WML_radio_free_boat
-		prerequisite = { focus = WML_radio_free_boat }
-		available = {
-
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
 	
 	focus = {
 		id = WML_self_sustainability
@@ -2711,7 +2583,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 4
+		x = 3
 		y = 1
 		
 		cost = 2
@@ -2720,26 +2592,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = WML_cut_off_power
-		icon = WML_cut_off_power
-		relative_position_id = WML_self_sustainability
-		prerequisite = { focus = WML_self_sustainability }
-		available = {
 
-		}
-		
-		bypass = {
-		}
-		
-		x = -1
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
 	
 	focus = {
 		id = WML_cut_off_trade
@@ -2753,7 +2606,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 1
+		x = 0
 		y = 1
 		
 		cost = 2
@@ -2762,11 +2615,11 @@ focus_tree = {
 		}
 	}
 	
+	
 	focus = {
-		id = WML_solar_and_wind
-		icon = WML_solar_and_wind
-		relative_position_id = WML_self_sustainability
-		prerequisite = { focus = WML_cut_off_power }
+		id = WML_annul_all_contracts
+		icon = WML_annul_all_contracts
+		relative_position_id = WML_cut_off_trade
 		prerequisite = { focus = WML_cut_off_trade }
 		available = {
 
@@ -2776,27 +2629,6 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 2
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = WML_annul_all_contracts
-		icon = WML_annul_all_contracts
-		relative_position_id = WML_solar_and_wind
-		prerequisite = { focus = WML_solar_and_wind }
-		available = {
-
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
 		y = 1
 		
 		cost = 2
@@ -2805,9 +2637,11 @@ focus_tree = {
 		}
 	}
 
+	
+	
 	focus = {
-		id = WML_and_forget_about_new_ones
-		icon = WML_and_forget_about_new_ones
+		id = WML_ration_cards
+		icon = WML_ration_cards
 		relative_position_id = WML_annul_all_contracts
 		prerequisite = { focus = WML_annul_all_contracts }
 		available = {
@@ -2824,60 +2658,14 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 		}
-	}	
-	
-	
-	focus = {
-		id = WML_ration_cards
-		icon = WML_ration_cards
-		relative_position_id = WML_and_forget_about_new_ones
-		prerequisite = { focus = WML_and_forget_about_new_ones }
-		mutually_exclusive = { focus = WML_rapidly_expand_production }
-		available = {
-
-		}
-		
-		bypass = {
-		}
-		
-		x = -1
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
 	}
-	
-	focus = {
-		id = WML_rapidly_expand_production
-		icon = WML_rapidly_expand_production
-		relative_position_id = WML_and_forget_about_new_ones
-		prerequisite = { focus = WML_and_forget_about_new_ones }
-		mutually_exclusive = { focus = WML_ration_cards }
-		available = {
 
-		}
-		
-		bypass = {
-		}
-		
-		x = 1
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
 	
 	focus = {
 		id = WML_victory_gardens
 		icon = WML_victory_gardens
-		relative_position_id = WML_and_forget_about_new_ones
-		prerequisite = { focus = WML_ration_cards
-						 focus = WML_rapidly_expand_production 
-						 }
+		relative_position_id = WML_ration_cards
+		prerequisite = { focus = WML_ration_cards }
 		available = {
 
 		}
@@ -2886,7 +2674,7 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 2
+		y = 1
 		
 		cost = 2
 		search_filters = {}
@@ -2898,6 +2686,7 @@ focus_tree = {
 		id = WML_calm_before_storm
 		icon = WML_calm_before_storm
 		relative_position_id = WML_but_was_it_all_worth_it
+		prerequisite = { focus = WML_but_was_it_all_worth_it }
 		available = {
 
 		}
@@ -2906,7 +2695,7 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 2
+		y = 1
 		
 		cost = 2
 		search_filters = {}
