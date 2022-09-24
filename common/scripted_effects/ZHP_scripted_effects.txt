@@ -1,0 +1,26 @@
+ZHP_return_characters = {
+	if = {
+		limit = {
+			GFL = {
+				exists = yes
+				has_character = ZHP_orsza
+			}
+		}
+		set_nationality = {
+			target_country = ZHP
+			character = ZHP_orsza
+		}
+	}
+	if = {
+		limit = {
+			ZHR = {
+				exists = yes
+				has_character = ZHP_marek_jedraszewski
+			}
+		}
+		set_nationality = {
+			target_country = ZHP
+			character = ZHP_marek_jedraszewski
+		}
+	}
+}

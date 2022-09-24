@@ -235,6 +235,7 @@ on_actions = {
 				retire_country_leader = yes
 				add_country_leader_role = {
 					character = ZHP_marek_jedraszewski
+					promote_leader = yes
 					country_leader = {
 						ideology = paternal_conservatism_subtype
 						expire="1.1.1.1"
