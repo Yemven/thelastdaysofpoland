@@ -624,7 +624,6 @@ focus_tree = {
 		cost = 3.8
 		search_filters = {}
 		completion_reward = {
-			set_country_flag = BBW_war_time
 			341 = {
 				create_unit = {
 					division = "division_template = \"Rycerze Bractwa\" start_experience_factor = 0.1 start_equipment_factor = 1"
@@ -642,8 +641,6 @@ focus_tree = {
 		id = BBW_poor_examples
 		icon = BBW_poor_examples
 		available = {
-		hidden_trigger = {
-		has_country_flag = BBW_war_time }
 		}
 		
 		bypass = {
@@ -740,8 +737,6 @@ focus_tree = {
 	focus = {
 		id = BBW_revolution_avantgarde
 		icon = BBW_revolution_avantgarde
-		relative_position_id = BBW_rapid_electrification
-		prerequisite = { focus = BBW_rapid_electrification }
 		available = {
 		has_war = no
 		}
@@ -756,8 +751,8 @@ focus_tree = {
 			}
 		}
 		
-		x = 0
-		y = 1
+		x = 13
+		y = 0
 		
 		cost = 1
 		search_filters = {}
@@ -780,7 +775,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -2
+		x = -1
 		y = 1
 		
 		cost = 2
@@ -801,7 +796,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 2
+		x = 1
 		y = 1
 		
 		cost = 2
@@ -822,7 +817,7 @@ focus_tree = {
 	focus = {
 		id = BBW_dangerous_ruins
 		icon = BBW_dangerous_ruins
-		relative_position_id = BBW_revolution_avantgarde
+		relative_position_id = BBW_order_in_red_wilderness
 		prerequisite = { focus = BBW_normalcy_guarantee }
 		prerequisite = { focus = BBW_divide_et_impera }
 		available = {
@@ -846,7 +841,7 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 4
+		y = 3
 		
 		cost = 1
 		search_filters = {}
@@ -919,9 +914,10 @@ focus_tree = {
 	focus = {
 		id = BBW_ordinary_people
 		icon = BBW_ordinary_people
-		relative_position_id = BBW_order_in_red_wilderness
+		relative_position_id = BBW_rapid_electrification
 		prerequisite = { focus = BBW_order_in_red_wilderness }
 		prerequisite = { focus = BBW_rehab_conscription }
+		prerequisite = { focus = BBW_rapid_electrification }
 		available = {
 			has_war = no
 			KRS = { num_of_controlled_states > 1 }
@@ -954,6 +950,7 @@ focus_tree = {
 		relative_position_id = BBW_rehab_conscription
 		prerequisite = { focus = BBW_rehab_conscription }
 		prerequisite = { focus = BBW_order_in_red_wilderness }
+		prerequisite = { focus = BBW_rapid_electrification }
 		available = {
 			has_war = no
 			SAP = { num_of_controlled_states > 1 }

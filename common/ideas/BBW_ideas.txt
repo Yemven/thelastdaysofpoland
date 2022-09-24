@@ -84,20 +84,6 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.05
 			}
 		}
-		BBW_wspolpraca_ekonomiczna =	{
-				allowed = {
-					original_tag = BBW
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-
-				removal_cost = -1
-				picture = BBW_smog
-				modifier = {
-					consumer_goods_factor = -0.05
-				}
-			}	
 #### POLLUTION LEVELS ###############
 		BBW_smog = {
 			allowed = {
