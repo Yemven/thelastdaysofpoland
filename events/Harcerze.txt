@@ -226,9 +226,11 @@ country_event = {
 				}
 			}
 		}
-		set_nationality = {
-			target_country = ZHR
-			character = ZHP_marek_jedraszewski
+		hidden_effect = {
+			set_nationality = {
+				target_country = ZHR
+				character = ZHP_marek_jedraszewski
+			}
 		}
 		set_politics = {
 			ruling_party = postpolonism
@@ -271,13 +273,6 @@ country_event = {
 			}
 		}
 		ZHR = {
-			add_country_leader_role = {
-				character = ZHP_marek_jedraszewski
-				country_leader = {
-					ideology = paternal_conservatism_subtype
-					expire="1.1.1.1"
-				}
-			}
 			declare_war_on = {
 				target = ZHP
 				type = annex_everything
@@ -300,9 +295,11 @@ country_event = {
 				}
 			}
 		}
-		set_nationality = {
-			target_country = GFL
-			character = ZHP_orsza
+		hidden_effect = {
+			set_nationality = {
+				target_country = GFL
+				character = ZHP_orsza
+			}
 		}
 		set_politics = {
 			ruling_party = paternal_conservatism
@@ -345,18 +342,6 @@ country_event = {
 		}
 		
 		GFL = {
-			add_country_leader_role = {
-				character = ZHP_orsza
-				country_leader={
-					ideology=scout_system_subtype
-					expire="1.1.1.1"
-					id=-1
-				}
-				country_leader = {
-					ideology = paternal_conservatism_subtype
-					expire="1.1.1.1"
-				}
-			}
 			declare_war_on = {
 				target = ZHP
 				type = annex_everything

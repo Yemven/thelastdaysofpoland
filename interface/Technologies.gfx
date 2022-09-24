@@ -1,5 +1,29 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_infantry_training_medium"
+		texturefile = "gfx/interface/technologies/infantry_training1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_training1_medium"
+		texturefile = "gfx/interface/technologies/infantry_training2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_training2_medium"
+		texturefile = "gfx/interface/technologies/infantry_training3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_training3_medium"
+		texturefile = "gfx/interface/technologies/infantry_training4.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_training4_medium"
+		texturefile = "gfx/interface/technologies/infantry_training5.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_training5_medium"
+		texturefile = "gfx/interface/technologies/infantry_training6.dds"
+	}
+	SpriteType = {
 		name = "GFX_strike_in_vital_parts_medium"
 		texturefile = "gfx/interface/technologies/terroryzm3.dds"
 	}
@@ -1664,7 +1688,219 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_support_implants_medium"
 		texturefile = "gfx/interface/technologies/support_implants.dds"
+	}
+	SpriteType = {
+		name = "GFX_WML_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/WML_melee_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_WML_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WML_melee_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_WML_melee_weapons2_medium"
+		texturefile = "gfx/interface/technologies/WML_melee_weapons2.dds"
+	}
+	SpriteType = {
+		name = "GFX_WML_melee_weapons3_medium"
+		texturefile = "gfx/interface/technologies/WML_melee_weapons3.dds"
+	}
+	SpriteType = {
+		name = "GFX_WML_melee_weapons4_medium"
+		texturefile = "gfx/interface/technologies/WML_melee_weapons4.dds"
+	}
+	SpriteType = {
+		name = "GFX_WML_ranged_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WML_ranged_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_WML_ranged_weapons2_medium"
+		texturefile = "gfx/interface/technologies/WML_ranged_weapons2.dds"
+	}
+	SpriteType = {
+		name = "GFX_WML_ranged_weapons3_medium"
+		texturefile = "gfx/interface/technologies/WML_ranged_weapons3.dds"
+	}
+	SpriteType = {
+		name = "GFX_WML_ranged_weapons4_medium"
+		texturefile = "gfx/interface/technologies/WML_ranged_weapons4.dds"
+	}
+	SpriteType = {
+		name = "GFX_WML_ranged_weapons5_medium"
+		texturefile = "gfx/interface/technologies/WML_ranged_weapons5.dds"
 	}	
+	SpriteType = {
+		name = "GFX_BBW_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/BBW_melee_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_BBW_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BBW_melee_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BBW_melee_weapons2_medium"
+		texturefile = "gfx/interface/technologies/BBW_melee_weapons2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BBW_melee_weapons3_medium"
+		texturefile = "gfx/interface/technologies/BBW_melee_weapons3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BBW_melee_weapons4_medium"
+		texturefile = "gfx/interface/technologies/BBW_melee_weapons4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BBW_ranged_weapons_medium"
+		texturefile = "gfx/interface/technologies/BBW_ranged_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_BBW_ranged_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BBW_ranged_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BBW_ranged_weapons2_medium"
+		texturefile = "gfx/interface/technologies/BBW_ranged_weapons2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BBW_ranged_weapons3_medium"
+		texturefile = "gfx/interface/technologies/BBW_ranged_weapons3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BBW_ranged_weapons4_medium"
+		texturefile = "gfx/interface/technologies/BBW_ranged_weapons4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BBW_ranged_weapons5_medium"
+		texturefile = "gfx/interface/technologies/BBW_ranged_weapons5.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZYD_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/ZYD_melee_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZYD_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/ZYD_melee_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZYD_melee_weapons2_medium"
+		texturefile = "gfx/interface/technologies/ZYD_melee_weapons2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZYD_melee_weapons3_medium"
+		texturefile = "gfx/interface/technologies/ZYD_melee_weapons3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZYD_melee_weapons4_medium"
+		texturefile = "gfx/interface/technologies/ZYD_melee_weapons4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZYD_ranged_weapons1_medium"
+		texturefile = "gfx/interface/technologies/ZYD_ranged_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZYD_ranged_weapons2_medium"
+		texturefile = "gfx/interface/technologies/ZYD_ranged_weapons2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZYD_ranged_weapons3_medium"
+		texturefile = "gfx/interface/technologies/ZYD_ranged_weapons3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZYD_ranged_weapons4_medium"
+		texturefile = "gfx/interface/technologies/ZYD_ranged_weapons4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZYD_ranged_weapons5_medium"
+		texturefile = "gfx/interface/technologies/ZYD_ranged_weapons5.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SAP_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/SAP_melee_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAP_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SAP_melee_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAP_melee_weapons2_medium"
+		texturefile = "gfx/interface/technologies/SAP_melee_weapons2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAP_melee_weapons3_medium"
+		texturefile = "gfx/interface/technologies/SAP_melee_weapons3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAP_melee_weapons4_medium"
+		texturefile = "gfx/interface/technologies/SAP_melee_weapons4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAP_ranged_weapons_medium"
+		texturefile = "gfx/interface/technologies/SAP_ranged_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAP_ranged_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SAP_ranged_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAP_ranged_weapons2_medium"
+		texturefile = "gfx/interface/technologies/SAP_ranged_weapons2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAP_ranged_weapons3_medium"
+		texturefile = "gfx/interface/technologies/SAP_ranged_weapons3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAP_ranged_weapons4_medium"
+		texturefile = "gfx/interface/technologies/SAP_ranged_weapons4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAP_ranged_weapons5_medium"
+		texturefile = "gfx/interface/technologies/SAP_ranged_weapons5.dds"
+	}
+	SpriteType = {
+		name = "GFX_KRS_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/KRS_melee_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_KRS_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/KRS_melee_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_KRS_melee_weapons2_medium"
+		texturefile = "gfx/interface/technologies/KRS_melee_weapons2.dds"
+	}
+	SpriteType = {
+		name = "GFX_KRS_melee_weapons3_medium"
+		texturefile = "gfx/interface/technologies/KRS_melee_weapons3.dds"
+	}
+	SpriteType = {
+		name = "GFX_KRS_melee_weapons4_medium"
+		texturefile = "gfx/interface/technologies/KRS_melee_weapons4.dds"
+	}
+	SpriteType = {
+		name = "GFX_KRS_ranged_weapons_medium"
+		texturefile = "gfx/interface/technologies/KRS_ranged_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_KRS_ranged_weapons1_medium"
+		texturefile = "gfx/interface/technologies/KRS_ranged_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_KRS_ranged_weapons2_medium"
+		texturefile = "gfx/interface/technologies/KRS_ranged_weapons2.dds"
+	}
+	SpriteType = {
+		name = "GFX_KRS_ranged_weapons3_medium"
+		texturefile = "gfx/interface/technologies/KRS_ranged_weapons3.dds"
+	}
+	SpriteType = {
+		name = "GFX_KRS_ranged_weapons4_medium"
+		texturefile = "gfx/interface/technologies/KRS_ranged_weapons4.dds"
+	}
+	SpriteType = {
+		name = "GFX_KRS_ranged_weapons5_medium"
+		texturefile = "gfx/interface/technologies/KRS_ranged_weapons5.dds"
+	}
 	SpriteType = {
 		name = "GFX_ZHP_melee_weapons_medium"
 		texturefile = "gfx/interface/technologies/ZHP_melee_weapons.dds"
