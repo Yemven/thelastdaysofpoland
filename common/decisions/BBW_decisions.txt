@@ -215,6 +215,25 @@ BBW_pollution_category = {
 	}
 }	
 
+BBW_energy_deals_category = {
+	
+	BBW_energy_deal = {
+		available = {
+			has_completed_focus = BBW_energy_export
+		}
+		targets_array = { BBW.neighbors_owned }
+		targets_dynamic = yes
+		target_trigger = {
+			FROM = {
+				is_neighbor_of = BBW
+			}
+		}
+		complete_effect = {
+			#i tutaj pójdzie event z propozycją
+		}
+	}
+}
+
 
 BBW_industrial_missions_category = {
 	

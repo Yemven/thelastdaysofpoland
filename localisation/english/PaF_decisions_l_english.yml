@@ -96,25 +96,25 @@ buy_radom_melee:0"Buy Radom-Made Melee Equipment"
 buy_radom_melee_desc:0 "Even before the Fall, FB Łucznik produced not only guns, but also military-grade equipment such as bayonets, toolboxes and ammo boxes. Nowadays, their offer includes even more types of tools and utensils, since now they're responsible for supplying the army of Radom Republic. While their prices might be higher than those of Russian gangsters or German small-time smugglers, their products are a symbol of respect for those whom we conquer, and most importantly - what we buy from them is made to order, unlike the equipment resold to us by criminals and Internet vendors."
 
 
-###MATERIAL_FINDER(WYNAJĘTY ŻUL SPOD MONOPOLOWEGO)###
+###MATERIAL_FINDER(WYNAJĘTY ŻUL SPOD MONOPOLOWEGO)################################################zrobić jeszcze kradnięcie z instrybutora yo###################################################
 
 looting_decisions:0 "Resource Gathering Operations"
 looting_decisions_desc:0 "We can conduct these short-term operations to temporarily net some additional resources for ourselves."
 
 stealing_from_local_junkyard:0 "Search Local Junkyards for Various Scrap"
-stealing_from_local_junkyard_desc:0 ""
-open_bootleg_mine:0 "Open Temporary Bootleg Mines"
-open_bootleg_mine_desc:0 "
+stealing_from_local_junkyard_desc:0 "There's a ton of trash lying around that could be reused or recycled by us, all we gonna do is send some scavenging parties to start gathering it. Yes, government workers picking up trash from the ground might ruin our image in the eyes of some, but hey - no work is disgrace, right? It's just like those Clean Up the World days in school."
+open_bootleg_mine:0 "Set Up Temporary Bootleg Mines & Charcoal Kilns"
+open_bootleg_mine_desc:0 "You don't require any sophisticated tools or skills to gather enough wood to heat your home for a night, but it takes more than a single man with an axe to provide enough coal to power even a rudimentary industry. Thankfully, in some regions of Poland, coal deposits can be reached by simply digging in ground with a shovel, so if we ever find ourselves running short on coal supplies, we can open up small, temporary bootleg mines for a quick gain of resources. We can also set up some charcoal kilns dedicated to providing smaller quantities of coal for civilian usage."
 steal_from_local_gas_stations:0 "Rob Local Gas Stations"
 steal_from_local_gas_stations_desc:0 ""
 smelting_old_tires:0 "Smelt Old Tires"
 smelting_old_tires_desc:0 "Rubber and plastics can be mechanically recycled by grinding them down and then melting them into a different thing. It's not exactly a very healthy process, but thankfully, most Poles have developed a natural immunity to toxic fumes by visiting their grandparents who insist on burning trash in their furnaces, or by having to live in Kraków and inhaling Beijing levels of smog on a daily basis."
-something_with_tracks:0 "Steal Rails and Wires"
-something_with_tracks_desc:0 ""
+something_with_tracks:0 "Plunder Railway Tractions"
+something_with_tracks_desc:0 "Old railways that don't have too much tactical use for us can instead be utilized by us as excellent (but temporary) sources of metal and electric wires."
 smelting_cans:0 "Smelt Cans"
-smelting_cans_desc:0 ""
+smelting_cans_desc:0 "Aluminium can't be produced using rudimentary methods, but it can be recycled through simple means. There's lots of old cans, furnitures, cars and other things that are at least partially made out of aluminium parts that can be smelted and recycled into something more useful."
 museum_heist:0 "Steal Museum Exhibits"
-museum_heist_desc:0 ""
+museum_heist_desc:0 "Most military equipment gets its original combat capabilities neutered before being put up on display in museums, but with a bit of refurbishment and perhaps some modifications to their original form some of these weapons and vehicles could be major boons for our army."
 
 
 
@@ -336,7 +336,7 @@ neonat_build_work_camps_desc:0 "War prisoners, criminals, sexual deviants and va
 
 
 
-########################################################################################PARÓWECZKI#######################################################################################
+#PARÓWECZKI#
 freemarket_cut_down_taxes:0 "Cut Down Taxes"
 freemarket_cut_down_taxes_desc:0 "No taxes is good taxes - that's our motto!"
 
@@ -348,7 +348,7 @@ freemarket_fund_small_businesses_desc:0 "Civil wars, despite their power to brin
 
 
 
-########################################################################################SSUC DEM (SSIJ DĘBSKIEGO)#######################################################################################
+#SSUC DEM (SSIJ DĘBSKIEGO)#
 succdem_promise_safety_net:0 "Tend to the Poorest"
 succdem_promise_safety_net_desc:0 "All of Poland has fallen into destitution and misery, and we are surrounded by children not having anything to eat and homeless not having anything to warm themselves up with. This isn't an over exaggeration - some places are almost *PORNOGRAPHICALLY* poor, and we HAVE to do something about it unless we want our country to be the setting of the next Slumdog Millionaire movie. \n\nFood donations, basic infrastructure repairs, free clothes and other textiles - anything to make the lives of those poorest at least a little bit more sufferable."
 
@@ -360,7 +360,7 @@ succdem_fund_national_businesses_desc:0 "Before the Fall, people couldn't safely
 
 
 
-########################################################################################DŹWIGIZM#######################################################################################
+#######################################################################################DŹWIGIZM#######################################################################################
 cranism_central_commitee_meeting:0 "Organize a Meeting of the Central Committee"
 cranism_central_commitee_meeting_desc:0 "zebranie w niedziele halo gdzie nargton"
 
@@ -372,7 +372,7 @@ cranism_build_great_project_of_socialism_desc:0 "[FUCK THAT SHIT NIE ZMIENIAM NA
 
 
 
-########################################################################################ANTIFA JAWORZNO IDEOLOGY#######################################################################################
+#ANTIFA JAWORZNO IDEOLOGY#
 squat_blunt_of_peace:0 "Let the People Connect with Each Other"
 squat_blunt_of_peace_desc:0 "Authoritarians try to artificially organize people according to arbitrary laws and rules in a way that fits their interests. Their minions - bureaucrats and cops - purposefully break up communities and connections between people in the pursuit of turning them into docile, obedient slaves to the system. Thankfully, we're here to let the communities organize themselves with no interferences from outside forces - in accordance to the natural order. \n\nTo heal the scars left by police batons and tyrans' orders, the people need to reunite with each other and to bring back their old customs - their natural ways. Let us organize some events that will help communities celebrate their ways and bond with each other."
 
