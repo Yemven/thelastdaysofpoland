@@ -923,68 +923,11 @@ technologies = {
 		}
 	}
 	
-	infantry_armor = {
+
 	
-		enable_equipments ={
-		equipment_armor_0
-		}
-		
-		path = {
-			leads_to_tech = infantry_armor_upgrade
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1900
-	
-		folder = {
-		name = infantry_folder
-		position = { x = 8 y = 0}
-		}
-	
-		categories = {
-		infantry_weapons
-		}
-	
-		ai_will_do = {
-		factor = 1
-		}
-	}
-	
-	infantry_armor_upgrade = {
-	
-		research_cost = 1.5
-		start_year = 2027
-		
-		path = {
-			leads_to_tech = infantry_armor1
-			research_cost_coeff = 1
-		}
-		
-		folder = {
-		name = infantry_folder
-		position = { x = 8 y = 3}
-		}
-	
-		melee_infantry = {
-		max_organisation = 1
-		defense = 0.05
-		}
-		
-		categories = {
-		infantry_weapons
-		}
-		ai_will_do = {
-		factor = 1
-		}
-	}
 	
 	infantry_armor1 = {
-	
-		enable_equipments ={
-		equipment_armor_1
-		}
-		
+
 		path = {
 			leads_to_tech = infantry_armor_upgrade1
 			research_cost_coeff = 1
@@ -995,7 +938,12 @@ technologies = {
 	
 		folder = {
 		name = infantry_folder
-		position = { x = 8 y = 6}
+		position = { x = 9 y = 3}
+		}
+		
+		melee_infantry = {
+		max_organisation = 1
+		defense = 0.05
 		}
 	
 		categories = {
@@ -1019,7 +967,7 @@ technologies = {
 		
 		folder = {
 		name = infantry_folder
-		position = { x = 8 y = 9}
+		position = { x = 9 y = 9}
 		}
 	
 		melee_infantry = {
@@ -1036,10 +984,6 @@ technologies = {
 	}
 	
 	infantry_armor2 = {
-	
-		enable_equipments ={
-		equipment_armor_2
-		}
 		
 		path = {
 			leads_to_tech = infantry_armor_upgrade2
@@ -1051,7 +995,12 @@ technologies = {
 	
 		folder = {
 		name = infantry_folder
-		position = { x = 8 y = 12}
+		position = { x = 9 y = 15}
+		}
+		
+		melee_infantry = {
+		max_organisation = 1
+		defense = 0.05
 		}
 	
 		categories = {
@@ -1075,7 +1024,7 @@ technologies = {
 		
 		folder = {
 		name = infantry_folder
-		position = { x = 8 y = 15}
+		position = { x = 9 y = 21}
 		}
 	
 		melee_infantry = {
@@ -1092,79 +1041,20 @@ technologies = {
 	}
 	
 	infantry_armor3 = {
-	
-		enable_equipments ={
-		equipment_armor_3
-		}
 		
-		path = {
-			leads_to_tech = infantry_armor_upgrade3
-			research_cost_coeff = 1
-		}
-		
+
 		research_cost = 2.5
 		start_year = 2033
 	
 		folder = {
 		name = infantry_folder
-		position = { x = 8 y = 18}
-		}
-	
-		categories = {
-		infantry_weapons
-		}
-	
-		ai_will_do = {
-		factor = 1
-		}
-	}
-	
-	infantry_armor_upgrade3 = {
-	
-		research_cost = 1.5
-		start_year = 2034
-		
-		path = {
-			leads_to_tech = infantry_armor4
-			research_cost_coeff = 1
+		position = { x = 9 y = 27}
 		}
 		
-		folder = {
-		name = infantry_folder
-		position = { x = 8 y = 21}
-		}
-	
 		melee_infantry = {
 		max_organisation = 1
 		defense = 0.05
 		}
-		
-		categories = {
-		infantry_weapons
-		}
-		ai_will_do = {
-		factor = 1
-		}
-	}
-	
-	infantry_armor4 = {
-	
-		enable_equipments ={
-		equipment_armor_4
-		}
-		
-		path = {
-			leads_to_tech = infantry_armor_upgrade4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 3
-		start_year = 2036
-	
-		folder = {
-		name = infantry_folder
-		position = { x = 8 y = 24}
-		}
 	
 		categories = {
 		infantry_weapons
@@ -1175,28 +1065,8 @@ technologies = {
 		}
 	}
 	
-	infantry_armor_upgrade4 = {
 	
-		research_cost = 2 
-		start_year = 2037
-		
-		folder = {
-		name = infantry_folder
-		position = { x = 8 y = 27}
-		}
-	
-		melee_infantry = {
-		max_organisation = 1
-		defense = 0.05
-		}
-		
-		categories = {
-		infantry_weapons
-		}
-		ai_will_do = {
-		factor = 1
-		}
-	}
+
 	
 	#VESTY aka Uniformy aka Żołnierskie oporządzenie
 	
@@ -1206,7 +1076,12 @@ technologies = {
 		}
 			
 		path = {
-			leads_to_tech = camouflage_upgrade
+			leads_to_tech = ballistic_vests1
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = infantry_armor1
 			research_cost_coeff = 1
 		}
 		
@@ -1214,7 +1089,7 @@ technologies = {
 		start_year = 2027
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 6}
+			position = { x = 9 y = 0 }
 		}
 		
 		categories = {
@@ -1226,32 +1101,6 @@ technologies = {
 		}
 	}
 	
-	camouflage_upgrade = {
-		research_cost = 1.8
-		start_year = 2028
-			
-		path = {
-			leads_to_tech = ballistic_vests1
-			research_cost_coeff = 1
-		}
-		
-		cas_damage_reduction = 0.05
-		land_reinforce_rate = 0.01
-		
-		category_ranged_infantry = {
-			casualty_trickleback  = 0.03
-		}
-	
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		folder = {
-			name = infantry_folder
-			position = { x = 10 y = 9}
-		}
-	}
 	
 	ballistic_vests1 = {
 		enable_equipments = {
@@ -1267,7 +1116,7 @@ technologies = {
 		start_year = 2030
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 12}
+			position = { x = 11 y = 3}
 		}
 		
 		categories = {
@@ -1301,7 +1150,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 15}
+			position = { x = 11 y = 9}
 		}
 	}
 	
@@ -1319,7 +1168,7 @@ technologies = {
 		start_year = 2033
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 18}
+			position = { x = 11 y = 15}
 		}
 		
 		categories = {
@@ -1353,7 +1202,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 21}
+			position = { x = 11 y = 21}
 		}
 	}
 	
@@ -1362,16 +1211,12 @@ technologies = {
 			equipment_vests_3
 		}
 		
-		path = {
-			leads_to_tech = camouflage_upgrade3
-			research_cost_coeff = 1
-		}
 		
 		research_cost = 2.5
 		start_year = 2036
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 24}
+			position = { x = 11 y = 27}
 		}
 		
 		categories = {
@@ -1382,82 +1227,7 @@ technologies = {
 			factor = 1
 		}
 	}	
-	
-	camouflage_upgrade3 = {
-		research_cost = 1.8
-		start_year = 2037
 		
-		path = {
-			leads_to_tech = ballistic_vests4
-			research_cost_coeff = 1
-		}
-		
-		cas_damage_reduction = 0.03
-		land_reinforce_rate = 0.01
-		
-		category_ranged_infantry = {
-			casualty_trickleback  = 0.03
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		folder = {
-			name = infantry_folder
-			position = { x = 10 y = 27}
-		}
-	}
-	
-	ballistic_vests4 = {
-		enable_equipments = {
-			equipment_vests_4
-		}
-		
-		path = {
-			leads_to_tech = camouflage_upgrade4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 3
-		start_year = 2040
-		folder = {
-			name = infantry_folder
-			position = { x = 10 y = 30}
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	camouflage_upgrade4 = {
-		research_cost = 2.5
-		start_year = 2041
-		
-		cas_damage_reduction = 0.03
-		land_reinforce_rate = 0.01
-		
-		category_ranged_infantry = {
-			casualty_trickleback  = 0.03
-		}
-		
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		folder = {
-			name = infantry_folder
-			position = { x = 10 y = 33}
-		}
-	}
-	
-	###### SPECIAL FORCES #######
 	
 	special_forces_equipment = {
 		enable_equipments = {
@@ -1468,8 +1238,6 @@ technologies = {
 			marine
 			mountaineers
 			paratrooper
-			stormtroopers
-			elite_infantry
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -1493,7 +1261,7 @@ technologies = {
 		start_year = 2027
 		folder = {
 			name = infantry_folder
-			position = { x = 12 y = 6}
+			position = { x = 12 y = 3}
 		}
 		
 		categories = {
@@ -1522,7 +1290,7 @@ technologies = {
 		start_year = 2033
 		folder = {
 			name = infantry_folder
-			position = { x = 12 y = 18}
+			position = { x = 12 y = 15}
 		}
 		
 		categories = {
@@ -1546,7 +1314,7 @@ technologies = {
 		start_year = 2040
 		folder = {
 			name = infantry_folder
-			position = { x = 12 y = 30}
+			position = { x = 12 y = 27}
 		}
 		
 		categories = {
@@ -1562,8 +1330,14 @@ technologies = {
 	}
 	
 	special_forces_training = {
+		
 		path = {
-			leads_to_tech = special_forces_training1
+			leads_to_tech = special_forces_quantity
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = special_forces_quality
 			research_cost_coeff = 1
 		}
 		
@@ -1596,61 +1370,12 @@ technologies = {
 		}
 	}
 	
-	special_forces_training1 = {
-		
-		path = {
-			leads_to_tech = special_forces_quantity
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = special_forces_quality
-			research_cost_coeff = 1
-		}
-		
-		#path = {
-		#	leads_to_tech = special_forces_training2
-		#	research_cost_coeff = 1
-		#}
-		
-		research_cost = 2
-		start_year = 2030
-		
-		category_special_forces = {
-			max_organisation = 2
-			soft_attack = 0.05
-			defense = 0.05
-			supply_consumption_factor = -0.05
-		}
-		
-		special_forces_no_supply_grace = 24
-		
-		folder = {
-			name = infantry_folder
-			position = { x = 15 y = 9}
-		}
-		
-		categories = {
-			infantry_weapons
-			mountaineers_tech
-			marine_tech
-			para_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	special_forces_training2 = {
 		
 		research_cost = 2
 		start_year = 2037
-		
-		path = {
-			leads_to_tech = special_forces_training3
-			research_cost_coeff = 1
-		}
+
 		
 		category_special_forces = {
 			max_organisation = 3
@@ -1678,36 +1403,6 @@ technologies = {
 		}
 	}
 	
-	special_forces_training3 = {
-		
-		research_cost = 2.5
-		start_year = 2038
-		
-		category_special_forces = {
-			max_organisation = 5
-			soft_attack = 0.05
-			defense = 0.05
-			supply_consumption_factor = -0.05
-		}
-		
-		special_forces_no_supply_grace = 24
-		
-		folder = {
-			name = infantry_folder
-			position = { x = 15 y = 27}
-		}
-		
-		categories = {
-			infantry_weapons
-			mountaineers_tech
-			marine_tech
-			para_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	special_forces_quantity = {
 	
@@ -1732,7 +1427,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 14 y = 12}
+			position = { x = 14 y = 9}
 		}
 		
 		categories = {
@@ -1744,22 +1439,12 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 0
-				has_tech = special_forces_quality
-			}
-			modifier = {
-				factor = 0
-				is_researching_technology = special_forces_quality
-			}
-			
 		}
 	}
 	
 	special_forces_quantity1 = {
 		path = {
-			leads_to_tech = special_forces_quantity2
+			leads_to_tech = special_forces_quantity3
 			research_cost_coeff = 1
 		}
 		
@@ -1790,38 +1475,6 @@ technologies = {
 		}
 	}
 	
-	special_forces_quantity2 = {
-		path = {
-			leads_to_tech = special_forces_quantity3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 2034
-		
-		category_special_forces = {
-			supply_consumption_factor = -0.1
-		}
-		
-		special_forces_cap = 0.10
-		special_forces_training_time_factor = -0.1
-		
-		folder = {
-			name = infantry_folder
-			position = { x = 14 y = 18}
-		}
-		
-		categories = {
-			infantry_weapons
-			mountaineers_tech
-			marine_tech
-			para_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	special_forces_quantity3 = {
 		
@@ -1858,17 +1511,16 @@ technologies = {
 	}
 	
 	special_forces_quality = {
+
+		xor={
+			special_forces_quantity
+		}
+
 		path = {
 			leads_to_tech = special_forces_quality1
 			research_cost_coeff = 1
 		}
 		
-		xor={
-			special_forces_quantity
-			mountaineers_tech
-			marine_tech
-			para_tech
-		}
 		
 		research_cost = 1.5
 		start_year = 2031
@@ -1883,7 +1535,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 16 y = 12}
+			position = { x = 16 y = 9}
 		}
 		
 		categories = {
@@ -1892,20 +1544,12 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				has_tech = special_forces_quantity
-			}
-			modifier = {
-				factor = 0
-				is_researching_technology = special_forces_quantity
-			}
 		}
 	}
 	
 	special_forces_quality1 = {
 		path = {
-			leads_to_tech = special_forces_quality2
+			leads_to_tech = special_forces_quality3
 			research_cost_coeff = 1
 		}
 		
@@ -1937,41 +1581,7 @@ technologies = {
 			factor = 1
 		}
 	}
-	
-	special_forces_quality2 = {
-		path = {
-			leads_to_tech = special_forces_quality3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 2034
-		
-		category_special_forces = {
-			max_organisation = 2
-			soft_attack = 0.05
-			defense = 0.05
-			supply_consumption_factor = 0.1
-		}
-		
-		special_forces_no_supply_grace = 24
-		
-		folder = {
-			name = infantry_folder
-			position = { x = 16 y = 18}
-		}
-		
-		categories = {
-			infantry_weapons
-			mountaineers_tech
-			marine_tech
-			para_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
+
 	
 	special_forces_quality3 = {
 		
