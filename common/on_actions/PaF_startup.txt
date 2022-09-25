@@ -105,6 +105,10 @@ on_actions = {
 			}
 			BBW = {
 				scoped_play_song = "intro_bractwo"
+				set_variable = { energy_exported = 0 }
+				every_neighbor_country = {
+					set_variable = { energy_imported = 0 }
+				}
 			}
 			FER = {
 				scoped_play_song = "intro_ferajna"

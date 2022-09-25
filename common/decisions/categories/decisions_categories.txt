@@ -90,6 +90,14 @@ BBW_pollution_category = {
     visible_when_empty = no
 }
 
+BBW_energy_deals_category = {
+	allowed = {
+        tag = BBW
+    }
+    priority = 60
+    visible_when_empty = no
+}
+
 BBW_industrial_missions_category = {
     allowed = {
         tag = BBW
