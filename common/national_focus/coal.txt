@@ -782,6 +782,10 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			add_stability = 0.1
+			every_controlled_state = {
+				limit = { is_core_of = ZYD }
+					add_compliance = 20
+					}
 		}
 	}
 	focus = {
@@ -871,9 +875,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_timed_idea = {
-				idea = BBW_futile_resistance
-				days = 360
+			swap_ideas = {
+				remove_idea = BBW_green_counter_revolution4
+				add_idea = BBW_green_counter_revolution5
 			}
 			every_controlled_state = {
 				limit = { is_core_of = WML }

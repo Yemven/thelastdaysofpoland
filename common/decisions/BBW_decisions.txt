@@ -452,7 +452,7 @@ BBW_industrial_missions_category = {
 			custom_trigger_tooltip = {
 				tooltip = BBW_military_factories_count_tt
 					BBW = {
-					check_variable = { num_of_military_factories > 20 }
+					check_variable = { num_of_military_factories > 15 }
 					}
 				}
 			}
