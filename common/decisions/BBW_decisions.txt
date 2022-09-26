@@ -226,10 +226,19 @@ BBW_energy_deals_category = {
 		target_trigger = {
 			FROM = {
 				is_neighbor_of = BBW
+				NOT = {
+					has_country_flag = declined_importing_energy
+					has_country_flag = agreed_importing_energy
+					has_country_flag = importing_energy
+				}
 			}
 		}
 		complete_effect = {
-			#i tutaj pójdzie event z propozycją
+			FROM = {
+				country_event = {
+					id = energydeal.1
+				}
+			}
 		}
 	}
 }

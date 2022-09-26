@@ -47,9 +47,9 @@ calculate_used_energy = {
 	}
 	if = {
 		limit = {
-			has_variable = energy_imported
+			has_country_flag = importing_energy
 		}
-		substract_from_variable = { used_energy = energy_imported }
+		substract_from_variable = { used_energy = 500 }
 	}
 }
 

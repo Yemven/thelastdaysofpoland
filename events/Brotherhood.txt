@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = belchatow
+add_namespace = energydeals
 
 
 country_event = {
@@ -608,5 +609,115 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = energydeals.1 #bractwo oferuje energię
+	title = belchatow.1.t
+	desc = belchatow.1.desc
+	picture = GFX_report_event_german_Army
 
+	fire_only_once = yes
+	is_triggered_only = yes
 
+	option = {
+		name = energydeals.1.a #jo bierzemy
+		trigger = {
+			num_of_civilian_factories_available_for_projects > 0
+		}
+		set_country_flag = agreed_importing_energy
+		ai_chance = {
+            base = 9       
+        }
+		BBW = {
+			country_event = {
+				id = energydeals.2
+				days = 7
+			}
+		}
+	}
+	option = {
+		name = energydeals.1.b #spadaj
+		trigger = {
+			num_of_civilian_factories_available_for_projects > 0
+		}
+		ai_chance = {
+            base = 1     
+        }
+		set_country_flag = declined_importing_energy
+		BBW = {
+			country_event = {
+				id = energydeals.3
+				days = 7
+			}
+		}
+	}
+	option = {
+		name = energydeals.1.c #nie stać nas, przyjdź później
+		trigger = {
+			num_of_civilian_factories_available_for_projects < 1
+		}
+		BBW = {
+			country_event = {
+				id = energydeals.4
+				days = 7
+			}
+		}
+	}
+}
+
+country_event = {
+	id = energydeals.2 #dil ogarnięty
+	title = belchatow.2.t
+	desc = belchatow.2.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = energydeals.2.a #podłączamy prąd
+		if = {
+			limit = {
+				has_variable = energy_exported
+			}
+			add_to_variable = { energy_exported = 500 }
+		}
+		else = {
+			set_variable = { energy_exported = 500 }
+		}
+		every_country = {
+			limit = {
+				has_country_flag = agreed_importing_energy
+			}
+			remove_country_flag = agreed_importing_energy
+			set_country_flag = importing_energy
+		}
+	}
+}
+
+country_event = {
+	id = energydeals.3 #dil odrzucony
+	title = belchatow.3.t
+	desc = belchatow.3.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = energydeals.3.a #jak nie to nie
+	}
+}
+
+country_event = {
+	id = energydeals.4 #nie stać ich
+	title = belchatow.4.t
+	desc = belchatow.4.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = energydeals.4.a #ok then
+	}
+}
