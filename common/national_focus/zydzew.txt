@@ -924,13 +924,24 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 		 if = {
-			limit = { party_popularity@squattism > party_popularity@marxism_cranism }
+			limit = { check_variable = { party_popularity_100@squattism > party_popularity_100@marxism_cranism } }
 				complete_national_focus = ZYD_sanhedryn
 			}
 		else_if = {
-			limit = { party_popularity@squattism < party_popularity@marxism_cranism }
+			limit = { check_variable = { party_popularity_100@squattism < party_popularity_100@marxism_cranism } }
 				complete_national_focus = ZYD_rabbi_is_dead
-			}		
+			}
+		else_if = {
+			limit = { check_variable = { party_popularity_100@squattism = party_popularity_100@marxism_cranism } }
+				random_list = {
+					50 = {
+						complete_national_focus = ZYD_rabbi_is_dead
+					}
+					50 = {
+						complete_national_focus = ZYD_sanhedryn
+					}					
+				}
+			}			
 		}
 	}
 	

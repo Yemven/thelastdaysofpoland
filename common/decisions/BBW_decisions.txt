@@ -221,7 +221,7 @@ BBW_energy_deals_category = {
 		available = {
 			has_completed_focus = BBW_energy_export
 		}
-		targets_array = { BBW.neighbors_owned }
+		target_array = { BBW.neighbors_owned }
 		targets_dynamic = yes
 		target_trigger = {
 			FROM = {
@@ -555,12 +555,16 @@ BBW_industrial_missions_category = {
 BBW_industrial_rush_category = {
 	BBW_industrial_rush = {
 		allowed = {
-		tag = BBW
-		has_country_flag = BBW_voivodship_united
+			tag = BBW
+			}
+			
+		target_root_trigger = {
+			has_country_flag = BBW_voivodship_united
 		NOT = {
 		check_variable = { var_industrial_missions_completed > var_industrial_missions_started }
 			}
 		}
+
 		
 		modifier = {	
 			consumer_goods_factor = 0.05

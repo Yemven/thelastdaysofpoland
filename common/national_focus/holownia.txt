@@ -2412,29 +2412,6 @@ focus_tree = {
 		}
 	}
 	
-
-	focus = {
-		id = WML_but_was_it_all_worth_it
-		icon = WML_but_was_it_all_worth_it
-		relative_position_id = WML_radio_free_boat
-		prerequisite = { focus = WML_radio_free_boat }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
-
-
 	focus = {
 		id = WML_for_people_good
 		icon = WML_for_people_good
@@ -2496,9 +2473,7 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 		}
-	}
-	
-	
+	}	
 
 	focus = {
 		id = WML_assure_our_people
@@ -2526,8 +2501,7 @@ focus_tree = {
 		id = WML_cut_off_contact
 		icon = WML_cut_off_contact
 		relative_position_id = WML_everyone_keep_calm
-		prerequisite = { focus = WML_emergency_presidential_powers
-							focus = WML_assure_our_people }
+		prerequisite = { focus = WML_assure_our_people }
 		available = {
 
 		}
@@ -2543,7 +2517,7 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	
+
 	focus = {
 		id = WML_radio_free_boat
 		icon = WML_radio_free_boat
@@ -2566,7 +2540,28 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	
+
+	focus = {
+		id = WML_but_was_it_all_worth_it
+		icon = WML_but_was_it_all_worth_it
+		relative_position_id = WML_radio_free_boat
+		prerequisite = { focus = WML_radio_free_boat }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+
 	
 	focus = {
 		id = WML_self_sustainability
