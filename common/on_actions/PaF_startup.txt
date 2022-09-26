@@ -274,4 +274,18 @@ on_actions = {
 			}
 		}
 	}
+	
+	on_declare_war = {
+		if = {
+            limit = {
+                FROM = { tag = BBW }
+				has_country_flag = importing_energy
+            }
+			remove_country_flag = importing_energy
+			remove_opinion_modifier = {
+				target = BBW
+				modifier = aided_industry
+			}
+        }
+	}
 }

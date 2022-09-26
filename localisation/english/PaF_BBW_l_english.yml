@@ -288,7 +288,25 @@ belchatow.krs2.t:0 "Consortium Declines"
 belchatow.krs2.desc:0 "O ty kurwa"
 belchatow.krs2.a:0 "Od węgla się odpierdol bo zajebe"
 
+##sprzedaż prądu##
 
+energydeals.1.t:0 "Brotherhood of Coal offers electricity"
+energydeals.1.desc:0 "Envoys from the Brotherhood of Coal offer electricity for our factories etc. (kurwa nie wiem)"
+energydeals.1.a:0 "OK, it's a deal"
+energydeals.1.b:0 "Go away with this dirty energy"
+energydeals.1.c:0 "Come later, we can't afford this"
+
+energydeals.2.t:0 "Our deal passed"
+energydeals.2.desc:0 "Our envoys are reporting, that we signed an electricity export deal"
+energydeals.2.a:0 "Great"
+
+energydeals.3.t:0 "Our deal failed"
+energydeals.3.desc:0 "Our envoys are reporting, that our electricity export deal fell through"
+energydeals.3.a:0 "Enjoy your dark nights, then"
+
+energydeals.4.t:0 "Our deal is considered for later"
+energydeals.4.desc:0 "Our envoys are reporting, that our potential client can't take the offer yet"
+energydeals.4.a:0 "We're gonna ask later"
 
 unification.2.t:0 "[GetNewspaper]Brotherhood of Coal unifies Łódź Voivodeship"
 unification.2.desc:0 "Despite communications dying down in Poland after the Fall, there's always been a steady stream of information flowing out of the past Łódź Voivodeship due to the nuclear incident in Bałuty and the investigation surrounding it. Today, the region has become active again; \n\nIn the city of Łódź, Rafał Ziemkiewicz - a highly conservative author and journalist in the past - has proclaimed complete hegemony of the so-called "Brotherhood of Coal" over the past voivodeship's area. The Brotherhood - a military order of anti-ecological fanatics - has took it upon itself to destroy green politics and bring "common sense" and technological and economical progress back to Poland. The clique's reputation and economical and military power are a source of alarm for its neighbours, and it looks like we too will have to keep a closer eye on it, lest we have to bend under the power of coal and steel."
@@ -319,6 +337,9 @@ BBW_industrial_mission3:0 "Crave for Industrialisation"
 BBW_industrial_mission3_desc:0 "All of our work comes down to this. To build and maintain a "fleet" of efficient Industrial Complexes that will bring jobs and prosperity to our people. It's our time to shine, to show the world how our work bears fruits and grants all sorts of benefits to our people."
 BBW_industrial_mission4:0 "Own Military-Industrial Complex"
 BBW_industrial_mission4_desc:0 "We need to account for the maintenance of our army as we rapidly expand our factories and forges. Weapons’ workshops and factories will need to be constructed to make sure our army is fully equipped with the highest grade equipment, not the butts of broken bottles.  What good would a state be without a well equipped standing army?"
+BBW_energy_deals_category:0 "Energy export"
+BBW_energy_deal:0 "Make offer to [FROM.GetName]"
+
 
  ##ToolTips###
  BBW_levarage_against_lodz_tt:0 "Łódź will §Rgreatly benefit§! from this agreement, but in return §Gthey will be entirely at our mercy when it comes to their energy supply!§!."
