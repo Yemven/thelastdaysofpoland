@@ -1346,6 +1346,7 @@ focus_tree = {
 	focus = {
 		id = KRS_fires_in_the_west
 		icon = KRS_fires_in_the_west
+		will_lead_to_war_with = SAP
 		relative_position_id = KRS_start_the_war_machine
 		prerequisite = { focus = KRS_start_the_war_machine }
 		available = {
@@ -1377,6 +1378,7 @@ focus_tree = {
 		icon = KRS_secure_our_capital_interests
 		relative_position_id = KRS_start_the_war_machine
 		prerequisite = { focus = KRS_start_the_war_machine }
+		will_lead_to_war_with = WML
 		available = {
 			NOT = { has_war = yes }
 			SAP = { num_of_controlled_states < 1 }			
@@ -1408,7 +1410,10 @@ focus_tree = {
 		icon = KRS_finish_off_the_stragglers
 		relative_position_id = KRS_start_the_war_machine
 		prerequisite = { focus = KRS_start_the_war_machine }
-
+		will_lead_to_war_with = BBW
+		will_lead_to_war_with = ZHP
+		will_lead_to_war_with = ZYD
+		
 		available = {
 			WML = { num_of_controlled_states < 1 }
 		}

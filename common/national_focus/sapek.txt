@@ -1553,6 +1553,7 @@ focus_tree = {
 		icon = SAP_tridam_ultimatum
 		relative_position_id = SAP_rather_not_choose
 		prerequisite = { focus = SAP_rather_not_choose }
+		will_lead_to_war_with = WML
 		available = {
 				KRS = { num_of_controlled_states < 1 }
 				NOT = { has_war = yes }
@@ -1714,7 +1715,7 @@ focus_tree = {
 		icon = SAP_war_of_daggers
 		relative_position_id = SAP_rather_not_choose
 		prerequisite = { focus = SAP_rather_not_choose }
-
+		will_lead_to_war_with = KRS
 		available = {
 			NOT = { has_war = yes }
 		}
@@ -1823,7 +1824,10 @@ focus_tree = {
 		icon = SAP_southern_campaign
 		relative_position_id = SAP_rather_not_choose
 		prerequisite = { focus = SAP_rather_not_choose }
-
+		will_lead_to_war_with = ZHP
+		will_lead_to_war_with = ZYD
+		will_lead_to_war_with = BBW
+		
 		available = {
 			KRS = { num_of_controlled_states < 1 }
 		count_triggers  = {

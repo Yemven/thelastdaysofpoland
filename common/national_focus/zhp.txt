@@ -869,6 +869,7 @@ focus_tree = {
 		icon = ZHP_destroy_coal_lords
 		relative_position_id = ZHP_last_touches
 		prerequisite = { focus = ZHP_last_touches }
+		will_lead_to_war_with = BBW
 		available = {
 		
 		}
@@ -945,9 +946,8 @@ focus_tree = {
 		id = ZHP_ZYD_war 
 		icon = ZHP_ZYD_war
 		relative_position_id = ZHP_last_touches
-		prerequisite = { 
-			focus = ZHP_last_touches
-		}
+		prerequisite = { focus = ZHP_last_touches}
+		will_lead_to_war_with = ZYD
 		available = {
 			
 		}
@@ -1025,9 +1025,8 @@ focus_tree = {
 		id = ZHP_KRS_war #nazwa bardziej lore pls
 		icon = ZHP_KRS_war
 		relative_position_id = ZHP_regroup
-		prerequisite = { 
-			focus = ZHP_regroup
-		}
+		prerequisite = {focus = ZHP_regroup}
+		will_lead_to_war_with = KRS
 		available = {
 			NOT = { has_war = yes }
 		}
@@ -1079,6 +1078,7 @@ focus_tree = {
 		id = ZHP_takedown_the_fantast
 		icon = ZHP_takedown_the_fantast
 		relative_position_id = ZHP_regroup
+		will_lead_to_war_with = SAP
 		prerequisite = { 
 			focus = ZHP_regroup
 		}
@@ -1134,10 +1134,8 @@ focus_tree = {
 		id = ZHP_WML_war
 		icon = ZHP_WML_war
 		relative_position_id = ZHP_regroup
-		prerequisite = { focus = ZHP_KRS_after_war
-						 focus = ZHP_lighting_up_the_pyres
-		}
-
+		prerequisite = { focus = ZHP_KRS_after_war focus = ZHP_lighting_up_the_pyres}
+		will_lead_to_war_with = WML
 		available = {
 			NOT = { has_war = yes }
 		}

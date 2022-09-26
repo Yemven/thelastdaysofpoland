@@ -1013,6 +1013,7 @@ focus_tree = {
 		icon = ZYD_revenge_on_coal
 		relative_position_id = ZYD_seven_miracles
 		prerequisite = { focus = ZYD_seven_miracles }
+		will_lead_to_war_with = BBW
 		available = {
 		  NOT = { has_war_with = BBW }
 		}
@@ -1042,6 +1043,7 @@ focus_tree = {
 		icon = ZYD_challenge_of_strength
 		relative_position_id = ZYD_revenge_on_coal
 		prerequisite = { focus = ZYD_revenge_on_coal }
+		will_lead_to_war_with = ZHP
 		available = {
 		  NOT = { has_war_with = ZHP }
 		}
@@ -1113,6 +1115,7 @@ focus_tree = {
 		icon = ZYD_blooming_business
 		relative_position_id = ZYD_new_synagogues_and_stadiums
 		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
+		will_lead_to_war_with = KRS
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -1145,6 +1148,7 @@ focus_tree = {
 		icon = ZYD_last_obstacle
 		relative_position_id = ZYD_new_synagogues_and_stadiums
 		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
+		will_lead_to_war_with = SAP
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -1201,6 +1205,7 @@ focus_tree = {
 		icon = ZYD_miners_liberation
 		relative_position_id = ZYD_central_committee_meeting
 		prerequisite = { focus = ZYD_central_committee_meeting }
+		will_lead_to_war_with = BBW
 		available = {
 			NOT = { has_war_with = BBW }
 		}
@@ -1230,6 +1235,7 @@ focus_tree = {
 		icon = ZYD_fifth_generation_of_ak
 		relative_position_id = ZYD_miners_liberation
 		prerequisite = { focus = ZYD_miners_liberation }
+		will_lead_to_war_with = ZHP
 		available = {
 		  NOT = { has_war_with = ZHP }
 		}
@@ -1295,6 +1301,7 @@ focus_tree = {
 		icon = ZYD_rotten_capitalism
 		relative_position_id = ZYD_recruit_collaborators
 		prerequisite = { focus = ZYD_recruit_collaborators }
+		will_lead_to_war_with = KRS
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -1326,6 +1333,7 @@ focus_tree = {
 		icon = ZYD_slavic_reactionism
 		relative_position_id = ZYD_recruit_collaborators
 		prerequisite = { focus = ZYD_recruit_collaborators }
+		will_lead_to_war_with = SAP
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -1356,6 +1364,7 @@ focus_tree = {
 		id = ZYD_allija
 		icon = ZYD_allija
 		relative_position_id = ZYD_meeting
+		will_lead_to_war_with = WML
 		prerequisite = { focus = ZYD_rotten_capitalism 
 					     focus = ZYD_slavic_reactionism 
 						 focus = ZYD_last_obstacle 

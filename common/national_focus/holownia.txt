@@ -329,7 +329,7 @@ focus_tree = {
 			}
 		}
 	
-	### STARE DRZEWKO ###
+	### DIALOGOWE DRZEWKO ###
 	
 	focus = {
 		id = WML_the_beginning_of_the_dialogue
@@ -2876,6 +2876,7 @@ focus_tree = {
 		icon = WML_scouts_arrogance
 		relative_position_id = WML_deafening_silence
 		prerequisite = { focus = WML_deafening_silence }
+		
 		available = {
 
 		}
