@@ -30,7 +30,6 @@ buy_chinese_ranged:0 "Import Guns from China"
 buy_chinese_ranged_desc:0 "Buying Chinese guns might be tricky, as we'll have to appeal for them to the Chinese government itself, plus... \n...we don't exactly know what to expect from them, as the only contact with Chinese guns that anyone in our government ever had was when that one accountant found Battlefield 4 installed on one of the computers we stole for one of our bureaus, so... Eh, at least if we choose our words right, we'll be able to make these military requests out as opening ourselves for future Chinese investments, which will surely and warm CCP's opinion about us and make future deals with them easier."
 
 
-
 buy_at:0 "BUY ANTI-TANK WEAPONRY"
 collapse_at:0 "§gCOLLAPSE THE AT WEAPON PURCHASE LIST§!"
 buy_german_at:0"Buy German Anti-Tank Weapons"
@@ -48,23 +47,37 @@ buy_american_at_desc:0 "Saint Javelina of 50 States, witness of the Mission, Fre
 buy_chinese_at:0 "Import Chinese Anti-Tank Weaponry"
 buy_chinese_at_desc:0 "In 2020, the Chinese started exporting Hongjian-12s - their newest, top-notch man-portable guided AT missile systems. Possessing similar qualities to the Javelin, it seems very promising, but VERY costly, and there's very few countries who received them from China yet. This, however, means that from now on China will attempt to grow their anti-tank export and will have more of their older and/or less effective weapons to sell for other countries, which is - of course - very handy for us."
 
-buy_vests:0 "BUY UNIFORMS AND BALLISTIC VESTS"
-collapse_vests:0 "§gCOLLAPSE THE UNIFORM/VEST PURCHASE LIST§!"
+
+buy_vests:0 "BUY UNIFORMS AND PROTECTIVE EQUIPMENT"
+collapse_vests:0 "§gCOLLAPSE THE UNIFORM/PROTECTION PURCHASE LIST§!"
 buy_german_vests:0"Buy German Uniforms and Ballistic Vests"
 buy_german_vests_desc:0 ""
-buy_radom_vests:0 "Order Radom-Made Uniforms and Ballistic Vests"
+buy_radom_vests:0 "Order Radom-Made Uniforms and Vests"
 buy_radom_vests_desc:0 ""
-buy_swedish_vests:0 "Buy Uniforms & Ballistic Vests from Sweden"
+buy_swedish_vests:0 "Buy Uniforms & Protective Equipment from Sweden"
 buy_swedish_vests_desc:0 ""
-buy_ukrainian_vests:0 "Buy off old Uniforms and Ballistic Vests from the Ukrainians"
+buy_ukrainian_vests:0 "Buy off old Uniforms and Protective Equipment from the Ukrainians"
 buy_ukrainian_vests_desc:0 ""
-buy_russian_vests:0 "Buy Russian Uniforms and Ballistic Vests"
+buy_russian_vests:0 "Buy Russian Uniforms and Protective Vests"
 buy_russian_vests_desc:0 ""
 buy_american_vests:0 "Buy Uniforms and Ballistic Vests from America"
 buy_american_vests_desc:0 ""
-buy_chinese_vests:0 "Import Uniforms and Ballistic Vests from China"
+buy_chinese_vests:0 "Import Uniforms and Protective Vests from China"
 buy_chinese_vests_desc:0 ""
 
+
+
+#unused
+buy_german_melee:0"Buy German Melee Equipment"
+buy_german_melee_desc:0 "The Germans wasted away so much of their own equipment, that now almost everyone in Poland is utilizing some of it on a daily basis. If you ever see some tableware, shovels, picks, fire starting tools or other such items in a Polish household - it's most likely they got that stuff from the Germans."
+buy_swedish_melee:0"Buy Melee Equipment from Sweden"
+buy_swedish_melee_desc:0 "German equipment, though much easier to acquire, tends to already possess marks of previous usage. Thankfully, if we ever find ourselves in need of factory new equipment, we can hook up our connections in Sweden and get ourselves some brand new Ikea tools and utensils from them."
+buy_ukrainian_melee:0"Buy Melee Equipment from the Ukrainians"
+buy_ukrainian_melee_desc:0 "Western donations and Russian logistical incompetence have left the Ukrainians with copious amounts of old, mismatched army equipment that is completely useless for a modern army which the Armed Forces of Ukraine is striving to become. There's lots of offers and auctions put up by Ukrainian sellers on the Internet, we just need to find somebody who could smuggle their goods to Poland."
+buy_russian_melee:0"Buy Melee Equipment from the Russians"
+buy_russian_melee_desc:0 "The Russian army might fail to provide its soldiers with tools and equipment, but there's still plenty of commercial szpej manufacturers and sellers in Russia who'd be willing to supply us with some of their products in exchange for cash and political capital."
+buy_radom_melee:0"Buy Radom-Made Melee Equipment"
+buy_radom_melee_desc:0 "Even before the Fall, FB Łucznik produced not only guns, but also military-grade equipment such as bayonets, toolboxes and ammo boxes. Nowadays, their offer includes even more types of tools and utensils, since now they're responsible for supplying the army of Radom Republic. While their prices might be higher than those of Russian gangsters or German small-time smugglers, their products are a symbol of respect for those whom we conquer, and most importantly - what we buy from them is made to order, unlike the equipment resold to us by criminals and Internet vendors."
 buy_armor:0 "BUY PROTECTIVE EQUIPMENT AND ARMOR"
 collapse_armor:0 "§gCOLLAPSE THE ARMOR PURCHASE LIST§!"
 buy_german_armor:0"Buy German Riot Armor & Stab Vests"
@@ -82,18 +95,6 @@ buy_american_armor_desc:0 ""
 buy_chinese_armor:0 "Import Chinese Stab-proof Vests & Riot Armor"
 buy_chinese_armor_desc:0 ""
 
-
-#unused
-buy_german_melee:0"Buy German Melee Equipment"
-buy_german_melee_desc:0 "The Germans wasted away so much of their own equipment, that now almost everyone in Poland is utilizing some of it on a daily basis. If you ever see some tableware, shovels, picks, fire starting tools or other such items in a Polish household - it's most likely they got that stuff from the Germans."
-buy_swedish_melee:0"Buy Melee Equipment from Sweden"
-buy_swedish_melee_desc:0 "German equipment, though much easier to acquire, tends to already possess marks of previous usage. Thankfully, if we ever find ourselves in need of factory new equipment, we can hook up our connections in Sweden and get ourselves some brand new Ikea tools and utensils from them."
-buy_ukrainian_melee:0"Buy Melee Equipment from the Ukrainians"
-buy_ukrainian_melee_desc:0 "Western donations and Russian logistical incompetence have left the Ukrainians with copious amounts of old, mismatched army equipment that is completely useless for a modern army which the Armed Forces of Ukraine is striving to become. There's lots of offers and auctions put up by Ukrainian sellers on the Internet, we just need to find somebody who could smuggle their goods to Poland."
-buy_russian_melee:0"Buy Melee Equipment from the Russians"
-buy_russian_melee_desc:0 "The Russian army might fail to provide its soldiers with tools and equipment, but there's still plenty of commercial szpej manufacturers and sellers in Russia who'd be willing to supply us with some of their products in exchange for cash and political capital."
-buy_radom_melee:0"Buy Radom-Made Melee Equipment"
-buy_radom_melee_desc:0 "Even before the Fall, FB Łucznik produced not only guns, but also military-grade equipment such as bayonets, toolboxes and ammo boxes. Nowadays, their offer includes even more types of tools and utensils, since now they're responsible for supplying the army of Radom Republic. While their prices might be higher than those of Russian gangsters or German small-time smugglers, their products are a symbol of respect for those whom we conquer, and most importantly - what we buy from them is made to order, unlike the equipment resold to us by criminals and Internet vendors."
 
 
 ###MATERIAL_FINDER(WYNAJĘTY ŻUL SPOD MONOPOLOWEGO)################################################zrobić jeszcze kradnięcie z instrybutora yo###################################################
