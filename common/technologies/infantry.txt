@@ -929,7 +929,7 @@ technologies = {
 	infantry_armor1 = {
 
 		path = {
-			leads_to_tech = infantry_armor_upgrade1
+			leads_to_tech = infantry_armor2
 			research_cost_coeff = 1
 		}
 		
@@ -955,13 +955,13 @@ technologies = {
 		}
 	}
 	
-	infantry_armor_upgrade1 = {
+	infantry_armor2 = {
 	
 		research_cost = 1.5
 		start_year = 2028
 		
 		path = {
-			leads_to_tech = infantry_armor2
+			leads_to_tech = infantry_armor3
 			research_cost_coeff = 1
 		}
 		
@@ -983,10 +983,10 @@ technologies = {
 		}
 	}
 	
-	infantry_armor2 = {
+	infantry_armor3 = {
 		
 		path = {
-			leads_to_tech = infantry_armor_upgrade2
+			leads_to_tech = infantry_armor4
 			research_cost_coeff = 1
 		}
 		
@@ -1012,13 +1012,13 @@ technologies = {
 		}
 	}
 	
-	infantry_armor_upgrade2 = {
+	infantry_armor4 = {
 	
 		research_cost = 1.5
 		start_year = 2031
 		
 		path = {
-			leads_to_tech = infantry_armor3
+			leads_to_tech = infantry_armor5
 			research_cost_coeff = 1
 		}
 		
@@ -1040,7 +1040,7 @@ technologies = {
 		}
 	}
 	
-	infantry_armor3 = {
+	infantry_armor5 = {
 		
 
 		research_cost = 2.5
@@ -1070,13 +1070,13 @@ technologies = {
 	
 	#VESTY aka Uniformy aka Żołnierskie oporządzenie
 	
-	ballistic_vests = {
+	army_uniform = {
 		enable_equipments = {
 			equipment_vests_0
 		}
 			
 		path = {
-			leads_to_tech = ballistic_vests1
+			leads_to_tech = army_uniform1
 			research_cost_coeff = 1
 		}
 		
@@ -1102,7 +1102,7 @@ technologies = {
 	}
 	
 	
-	ballistic_vests1 = {
+	army_uniform1 = {
 		enable_equipments = {
 			equipment_vests_1
 		}
@@ -1133,7 +1133,7 @@ technologies = {
 		start_year = 2031
 		
 		path = {
-			leads_to_tech = ballistic_vests2
+			leads_to_tech = army_uniform2
 			research_cost_coeff = 1
 		}
 		
@@ -1154,7 +1154,7 @@ technologies = {
 		}
 	}
 	
-	ballistic_vests2 = {
+	army_uniform2 = {
 		enable_equipments = {
 			equipment_vests_2
 		}
@@ -1185,7 +1185,7 @@ technologies = {
 		start_year = 2034
 		
 		path = {
-			leads_to_tech = ballistic_vests3
+			leads_to_tech = army_uniform3
 			research_cost_coeff = 1
 		}
 		
@@ -1206,7 +1206,7 @@ technologies = {
 		}
 	}
 	
-	ballistic_vests3 = {
+	army_uniform3 = {
 		enable_equipments = {
 			equipment_vests_3
 		}
