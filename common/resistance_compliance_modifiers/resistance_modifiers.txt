@@ -108,6 +108,7 @@ KRS_J22_resistance = {
 	
 	state_modifier = {
 		army_speed_factor_for_controller = -0.5
-		attrition_for_controller = 0.5
+		#attrition_for_controller = 0.5
+		attrition_for_controller = 0.1
 	}
 }
