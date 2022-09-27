@@ -422,7 +422,34 @@ soundeffect = {
 		sound = peace_conference_02
 		sound = peace_conference_03
 		sound = peace_conference_04
-	} 
+}
+soundeffect = {
+	name = peace_conference_contested_bid
+	volume = 0.6
+	sounds = {
+		sound = peace_conference_contested_bid_01
+	}
+}
+soundeffect = {
+	name = peace_conference_new_turn
+	volume = 0.6
+	sounds = {
+		sound = peace_conference_new_turn_01
+	}
+}
+soundeffect = {
+	name = peace_conference_pass
+	volume = 0.6
+	sounds = {
+		sound = peace_conference_pass_01
+	}
+}
+soundeffect = {
+	name = peace_conference_submit_bid
+	volume = 0.6
+	sounds = {
+		sound = peace_conference_submit_bid_01
+	}
 }
 
 #################################################################
@@ -1732,6 +1759,63 @@ soundeffect = {
 	}
 	max_audible = 1
 	max_audible_behaviour = fail
+	is3d = no
+	volume = 0.85
+}
+
+########### CAREER PROFILE ############
+
+soundeffect = {
+	name = ui_career_points_counting_up
+	loop = no
+	sounds = {
+		sound = ui_career_points_counting_up
+	}
+	is3d = no
+	volume = 1.0
+}
+
+############### AWARDS ################
+
+soundeffect = {
+	name = ui_award_collect_reward
+	loop = no
+	sounds = { # Abuse/Creative use of list, make one sound more likely to occur
+		sound = ui_award_collect_reward_02
+		sound = ui_award_collect_reward_02
+		sound = ui_award_collect_reward_02
+		sound = ui_award_collect_reward_01
+	}
+	is3d = no
+	volume = 1.0
+}
+
+soundeffect = {
+	name = ui_award_tier_01
+	loop = no
+	sounds = {
+		sound = ui_award_tier_01
+	}
+	is3d = no
+	volume = 1.0
+}
+
+soundeffect = {
+	name = ui_award_tier_02
+	loop = no
+	sounds = {
+		sound = ui_award_tier_02
+	}
+	is3d = no
+	volume = 0.85
+}
+
+soundeffect = {
+	name = ui_award_tier_03
+	loop = no
+	sounds = {
+		sound = ui_award_tier_03
+	}
 	is3d = no
 	volume = 0.85
 }
