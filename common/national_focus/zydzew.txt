@@ -612,7 +612,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			every_unit_leader = {
+				gain_xp = 70
+			}
 		}
 	}
 	
