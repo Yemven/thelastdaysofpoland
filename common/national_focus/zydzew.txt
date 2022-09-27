@@ -1504,17 +1504,13 @@ focus_tree = {
 		icon = ZYD_allija
 		relative_position_id = ZYD_meeting
 		will_lead_to_war_with = WML
-		prerequisite = { OR = {
-							AND = {
-								focus = ZYD_rotten_capitalism 
+		prerequisite = { 		focus = ZYD_rotten_capitalism 
 								focus = ZYD_slavic_reactionism 
 							}
-							AND = {
+		prerequisite = { 
 								focus = ZYD_last_obstacle 
 								focus = ZYD_blooming_business 
 							}
-							}
-						}
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
