@@ -1041,25 +1041,27 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
-		 if = {
-			limit = { check_variable = { party_popularity_100@squattism > party_popularity_100@marxism_cranism } }
-				complete_national_focus = ZYD_sanhedryn
-			}
-		else_if = {
-			limit = { check_variable = { party_popularity_100@squattism < party_popularity_100@marxism_cranism } }
-				complete_national_focus = ZYD_rabbi_is_dead
-			}
-		else_if = {
-			limit = { check_variable = { party_popularity_100@squattism = party_popularity_100@marxism_cranism } }
-				random_list = {
-					50 = {
+			hidden_effect = { 
+				 if = {
+					limit = { check_variable = { party_popularity_100@squattism > party_popularity_100@marxism_cranism } }
+						complete_national_focus = ZYD_sanhedryn
+					}
+				else_if = {
+					limit = { check_variable = { party_popularity_100@squattism < party_popularity_100@marxism_cranism } }
 						complete_national_focus = ZYD_rabbi_is_dead
 					}
-					50 = {
-						complete_national_focus = ZYD_sanhedryn
-					}					
-				}
-			}			
+				else_if = {
+					limit = { check_variable = { party_popularity_100@squattism = party_popularity_100@marxism_cranism } }
+						random_list = {
+							50 = {
+								complete_national_focus = ZYD_rabbi_is_dead
+							}
+							50 = {
+								complete_national_focus = ZYD_sanhedryn
+							}					
+						}
+					}
+			}
 		}
 	}
 	
@@ -1154,7 +1156,7 @@ focus_tree = {
 			}
 		}
 		
-		x = 0
+		x = -1
 		y = 1
 		
 		cost = 2
@@ -1170,8 +1172,8 @@ focus_tree = {
 	focus = {
 		id = ZYD_challenge_of_strength
 		icon = ZYD_challenge_of_strength
-		relative_position_id = ZYD_revenge_on_coal
-		prerequisite = { focus = ZYD_revenge_on_coal }
+		relative_position_id = ZYD_seven_miracles
+		prerequisite = { focus = ZYD_seven_miracles }
 		will_lead_to_war_with = ZHP
 		available = {
 		  NOT = { has_war_with = ZHP }
@@ -1184,7 +1186,7 @@ focus_tree = {
 			}
 		}
 		
-		x = 0
+		x = 1
 		y = 1
 		
 		cost = 2
@@ -1202,7 +1204,11 @@ focus_tree = {
 		icon = ZYD_new_synagogues_and_stadiums
 		relative_position_id = ZYD_challenge_of_strength
 		prerequisite = { focus = ZYD_challenge_of_strength }
+		prerequisite = { focus = ZYD_revenge_on_coal }
 		available = {
+		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
 		}
 		
 		bypass = {
@@ -1346,7 +1352,7 @@ focus_tree = {
 			}
 		}
 		
-		x = 0
+		x = -1
 		y = 1
 		
 		cost = 2
@@ -1362,8 +1368,8 @@ focus_tree = {
 	focus = {
 		id = ZYD_fifth_generation_of_ak
 		icon = ZYD_fifth_generation_of_ak
-		relative_position_id = ZYD_miners_liberation
-		prerequisite = { focus = ZYD_miners_liberation }
+		relative_position_id = ZYD_central_committee_meeting
+		prerequisite = { focus = ZYD_central_committee_meeting }
 		will_lead_to_war_with = ZHP
 		available = {
 		  NOT = { has_war_with = ZHP }
@@ -1376,7 +1382,7 @@ focus_tree = {
 			}
 		}
 		
-		x = 0
+		x = 1
 		y = 1
 		
 		cost = 2
@@ -1394,7 +1400,11 @@ focus_tree = {
 		icon = ZYD_recruit_collaborators
 		relative_position_id = ZYD_fifth_generation_of_ak
 		prerequisite = { focus = ZYD_fifth_generation_of_ak }
+		prerequisite = { focus = ZYD_miners_liberation }
 		available = {
+			NOT = { has_war = yes }
+			NOT = { country_exists = BBW }
+			NOT = { country_exists = ZHP }
 		}
 		
 		bypass = {
@@ -1494,12 +1504,23 @@ focus_tree = {
 		icon = ZYD_allija
 		relative_position_id = ZYD_meeting
 		will_lead_to_war_with = WML
-		prerequisite = { focus = ZYD_rotten_capitalism 
-					     focus = ZYD_slavic_reactionism 
-						 focus = ZYD_last_obstacle 
-					     focus = ZYD_blooming_business }						 
+		prerequisite = { OR = {
+							AND = {
+								focus = ZYD_rotten_capitalism 
+								focus = ZYD_slavic_reactionism 
+							}
+							AND = {
+								focus = ZYD_last_obstacle 
+								focus = ZYD_blooming_business 
+							}
+							}
+						}
 		available = {
 		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
+		  NOT = { country_exists = KRS }
+		  NOT = { country_exists = SAP }
 		}
 		
 		bypass = {

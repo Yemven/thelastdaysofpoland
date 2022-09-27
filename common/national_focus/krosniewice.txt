@@ -535,7 +535,30 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_ideas = KRS_trenches_system
+			236 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 3132
+				}
+			}
+			275 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 10491
+				}
+			}			
+			687 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 11592
+				}
+			}
 		}
 	}
 
@@ -557,7 +580,10 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_ideas = KRS_diverted_assets
+			add_timed_idea = {
+				idea = KRS_diverted_assets
+				days = 90
+			}
 		}
 	}
 	
@@ -579,7 +605,12 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_ideas = KRS_improved_logistics
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 200
+				producer = KRS
+			}
+			add_fuel = 10000
 		}
 	}
 	
@@ -601,7 +632,30 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_ideas = KRS_supply_lines
+			275 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 10491
+				}
+			}
+			685 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3109
+				}
+			}
+			305 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2683
+				}
+			}
 		}
 	}
 	
@@ -623,7 +677,8 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_ideas = KRS_auxillaries
+			add_manpower = 1000
+			add_war_support = 0.1
 		}
 	}
 	
@@ -721,7 +776,11 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_ideas = KRS_woman_soldiers
+			add_manpower = 500
+			swap_ideas = {
+				remove_idea = women_working_women
+				add_idea = women_gender_equality
+				}
 		}
 	}
 	
