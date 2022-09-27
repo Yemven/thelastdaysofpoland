@@ -254,6 +254,24 @@ ideas = {
 				industrial_capacity_factory = 0.1
 			}
 		}
+		ZYD_ekonomia_kibucowska2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_org_factor = 0.1
+				stability_factor = 0.05
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.1
+				production_lack_of_resource_penalty_factor = -0.15
+			}
+		}
 		ZYD_ekonomia_urbana = {
 			allowed = {
 				original_tag = ZYD
@@ -269,10 +287,26 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.1
 				consumer_goods_factor = 0.05
 				decryption_factor = 0.05
-				encryption_factor = 0.05
 			}
 		}
+		ZYD_ekonomia_urbana2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
 
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = 0.05
+				decryption_factor = 0.05
+				production_lack_of_resource_penalty_factor = -0.15
+			}
+		}
 		ZYD_armia_dawida = {
 			allowed = {
 				original_tag = ZYD

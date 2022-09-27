@@ -1,6 +1,5 @@
 ﻿capital = 547
 
-recruit_character = ANC_anarchy
 recruit_character = ANC_wojtek
 
 # Starting tech
@@ -73,15 +72,15 @@ no_gods_no_masters
 }
 
 set_politics = {
-	ruling_party = squattism
+	ruling_party = marxism_cranism
 	last_election = "2027.3.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	marxism_cranism	= 0
-	squattism = 100
+	marxism_cranism	= 100
+	squattism = 0
 	socialdemocrature = 0
 	euroliberalism = 0
 	freemarketism = 0
