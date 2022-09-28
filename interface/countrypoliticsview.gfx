@@ -14,6 +14,13 @@ spriteTypes = {
         
     }
 	
+	spriteType = {
+		name = "GFX_idee_menu_window"
+		textureFile = "gfx//interface//idee_menu_window.dds"
+		#borderSize = { x=64 y=64 } # dla pojedynczego sprita to nie działa xD
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	
 	#Government in Exile
 
 	spriteType = {
@@ -182,10 +189,13 @@ spriteTypes = {
 		name = "GFX_autonomy_supervised_state_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_supervised_state.dds"
 	}
+
 	spriteType = {
 		name = "GFX_autonomy_personal_union_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_personal_union_puppet.dds"
 	}
+	
+	#-------------
 
 	spriteType = {
 		name = "GFX_ongoing_focus_goal_icon"
@@ -202,7 +212,8 @@ spriteTypes = {
 		pause_on_loop = 0.0
 		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
-	}	
+	}
+
 	frameAnimatedSpriteType = {
 		name = "GFX_spirit_glow"
 		texturefile = "gfx/interface/officer_corp/spirit_glow.dds"
@@ -214,6 +225,7 @@ spriteTypes = {
 		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
+	
 	frameAnimatedSpriteType = {
 		name = "GFX_ongoing_focus_goal_polview"
 		texturefile = "gfx/interface/ongoing_focus_goal_polview.dds"
@@ -252,6 +264,8 @@ spriteTypes = {
 		name = "GFX_rules_sum_icon"
 		textureFile = "gfx/interface/rules_sum_icon.dds"
 	}
+
+
 	spriteType = {
 		name = "GFX_idea_slot_high_command"
 		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
@@ -276,7 +290,7 @@ spriteTypes = {
 		name = "GFX_idea_slot_theorist"
 		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_idea_slot_industrial_concern"
 		textureFile = "gfx/interface/idea_slot_industrial_concern.dds"
@@ -603,7 +617,7 @@ spriteTypes = {
 	
 	pieChartType = {
 		name = "GFX_political_chart"
-		size = 71
+		size = 27
 	}
 	
 	pieChartType = {
@@ -641,12 +655,7 @@ spriteTypes = {
 		textureFile = "gfx//interface//occupied_list_entry.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
-	spriteType = {
-		name = "GFX_idee_menu_window"
-		textureFile = "gfx//interface//idee_menu_window.dds"
-		#borderSize = { x=64 y=64 } # dla pojedynczego sprita to nie działa xD
-		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
-	}
+
 	spriteType = {
 		name = "GFX_generic_square_button"
 		textureFile = "gfx//interface//occupation_policy_button.dds"

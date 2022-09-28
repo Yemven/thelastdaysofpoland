@@ -306,6 +306,12 @@ guiTypes = {
 				spriteType = "GFX_required_rule"
 				Orientation = "UPPER_LEFT"
 	   	}	
+		
+			buttonType = {
+				name = "nuke_province"
+				quadTextureSprite ="GFX_empty_bg"
+				position = { x = -2000 y = 166 }
+			}
 
 			containerWindowType = {
 				name = "custom_icon_container"
@@ -3272,26 +3278,9 @@ guiTypes = {
 				name = "terrain_gdynia_pustki_cisowskie_icon"
 				spriteType = "GFX_terrain_gdynia_pustki_cisowskie"
 				alwaystransparent = yes
-			}
-			iconType = {
-				name = "terrain_gdynia_redlowo_icon"
-				spriteType = "GFX_terrain_gdynia_redlowo"
-				alwaystransparent = yes
-			}
-			iconType = {
-				name = "terrain_gdynia_grabowek_icon"
-				spriteType = "GFX_terrain_gdynia_grabowek"
-				alwaystransparent = yes
-			}
-			
+			}			
 		}
 
-			iconType = {
-				name = "province_required_rule"
-				position = { x = 100 y = -3 }
-				spriteType = "GFX_required_rule"
-				Orientation = "UPPER_LEFT"
-			}
 
 			### Positioning of these are controlled by the positionType "countrystateview_weathericons_position" and "countrystateview_weathericons_offset" above
 			iconType = {
