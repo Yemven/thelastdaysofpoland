@@ -43,6 +43,7 @@ guiTypes = {
 			format = left
 		}
 
+
 		containerWindowType = {
 			name = "military_tab"
 			position = { x=0 y = 30 }
@@ -220,7 +221,6 @@ guiTypes = {
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
 					}
-
 				}
 				#################################
 				iconType = {
@@ -1394,8 +1394,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				spriteType = "GFX_tiled_generic_bg_1"
-				#spriteType = "GFX_tiled_window_transparent"
+				spriteType = "GFX_mini_bg"
 			}
 
 			iconType = {
@@ -1684,7 +1683,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 170
 			maxHeight = 20
-			fixedsize = yes
+			multiline = no
 			format = left
 			alwaystransparent = yes
 		}
@@ -1695,6 +1694,7 @@ guiTypes = {
 			font = "cg_16b"
 			maxWidth = 150
 			maxHeight = 30
+			fixedsize = yes
 			format = left
 			alwaystransparent = yes
 		}
@@ -2665,7 +2665,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 167
 			maxHeight = 20
-			fixedsize = yes
+			multiline = no
 			format = left
 			alwaystransparent = yes
 		}
@@ -2676,6 +2676,7 @@ guiTypes = {
 			font = "cg_16b"
 			maxWidth = 150
 			maxHeight = 30
+			fixedsize = yes
 			format = left
 			alwaystransparent = yes
 		}
@@ -3232,7 +3233,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 145
 			maxHeight = 20
-			fixedsize = yes
+			multiline = no
 			format = left
 			alwaystransparent = yes
 		}
@@ -3243,6 +3244,7 @@ guiTypes = {
 			font = "cg_16b"
 			maxWidth = 150
 			maxHeight = 30
+			fixedsize = yes
 			format = left
 			alwaystransparent = yes
 		}
@@ -3494,7 +3496,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 170
 			maxHeight = 20
-			fixedsize = yes
+			multiline = no
 			format = left
 			alwaystransparent = yes
 		}
@@ -3505,6 +3507,7 @@ guiTypes = {
 			font = "cg_16b"
 			maxWidth = 150
 			maxHeight = 30
+			fixedsize = yes
 			format = left
 			alwaystransparent = yes
 		}
@@ -4117,10 +4120,10 @@ guiTypes = {
 			clicksound = click_default
 			frame = 1
 		}
-
+		
 		iconType = {
 			name ="outdated_equipment_overlay"
-			spriteType = "GFX_outdated_equipment_overlay"
+			spriteType = "GFX_outdated_naval_equipment_overlay"
 			position = { x=9 y=5 }
 			alwaystransparent = yes
 		}
@@ -4128,7 +4131,7 @@ guiTypes = {
 		iconType = {
 			name = "prod_line_glow"
 			position = { x = 9 y = 7 }
-			spriteType = "GFX_new_equipment_glow"
+			spriteType = "GFX_new_equipment_glow_large"
 			alwaystransparent = yes
 		}
 
@@ -4146,7 +4149,29 @@ guiTypes = {
 			quadTextureSprite ="GFX_flag_small"
 			position = { x = 230 y = 10 }
 		}
+		
+		iconType = {
+			name = "role_icon"
+			spriteType = "GFX_wing_types_map"
+			position = { x = 334 y = 10 }
+			alwaystransparent = yes
+		}
+		
+		containerWindowType = {
+			name = "missions"
+			position = { x = 67 y = 60 }
+			size = { width = 150 height = 20 }
+			Orientation = upper_left
 
+			gridboxtype = {
+				name = "mission_grid"
+				size = { width = 150 height = 20 }
+				slotsize = { width = 25 height = 20 }
+				max_slots = { x = 6 y = 2 }
+				format = "LOWER_LEFT"
+			}
+		}
+		
 		iconType = {
 			name ="equipment_designer"
 			spriteType = "GFX_tech_idea_bg"
@@ -4175,9 +4200,9 @@ guiTypes = {
 			position = { x = 20 y = 6 }
 			font = "cg_18b"
 			text = "Maus"
-			maxWidth = 234
+			maxWidth = 308
 			maxHeight = 20
-			fixedsize = yes
+			multiline = no
 			format = left
 			alwaystransparent = yes
 		}
@@ -4187,16 +4212,10 @@ guiTypes = {
 			position = { x = 20 y = 22 }
 			font = "cg_16b"
 			text = "Perkele-tankki"
-			maxWidth = 150
+			maxWidth = 308
 			maxHeight = 30
+			multiline = no
 			format = left
-			alwaystransparent = yes
-		}
-
-		iconType = {
-			name = "prod_entry_resource_bg"
-			position = { x = 257 y = 7 }
-			spriteType = "GFX_prod_entry_resource_bg"
 			alwaystransparent = yes
 		}
 
@@ -4311,10 +4330,10 @@ guiTypes = {
 			font = "cg_18b"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
-			maxWidth = 290
-			maxHeight = 20
+			maxWidth = 308
+			maxHeight = 30
+			multiline = no
 			format = left
-			fixedsize = yes
 			alwaystransparent = yes
 		}
 
@@ -4325,12 +4344,33 @@ guiTypes = {
 			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = "Perkele-tankki"
-			maxWidth = 160
+			maxWidth = 308
 			maxHeight = 30
+			multiline = no
 			format = left
 			alwaystransparent = yes
 		}
-
+		
+		containerWindowType = { #Currently unused, but we might put something in here eventually.
+			name = "missions"
+			position = { x = 72 y = 58 }
+			size = { width = 200 height = 20 }
+			Orientation = upper_left
+			
+			# background = {
+			# 	name = "Background"
+			# 	quadTextureSprite ="GFX_tiled_window_transparent"
+			# }
+			
+			gridboxtype = {
+				name = "mission_grid"
+				size = { width = 200 height = 20 }
+				slotsize = { width = 25 height = 20 }
+				max_slots = { x = 8 y = 2 }
+				format = "UPPER_LEFT"
+			}
+		}
+		
 		gridBoxType = {
 			name = "resources_grid"
 			position = { x = 376 y = 8 }
