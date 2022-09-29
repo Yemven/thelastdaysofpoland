@@ -112,3 +112,31 @@ KRS_J22_resistance = {
 		attrition_for_controller = 0.1
 	}
 }
+
+#SAP-ZHP
+
+SAP_ZHP_resistance = {
+	type = core_resistance_modifier
+	icon = "GFX_occupation_resistance_modifier_strip:4"
+	small_icon = "GFX_occupation_resistance_modifier_small_strip:4"
+	threshold = 2
+	margin = 2
+	visible = {
+		FROM = {
+			has_idea = SAP_zhp_partisans
+		}
+	}
+	
+	enabled = {
+		FROM = {
+			has_idea = SAP_zhp_partisans
+		}
+	}
+	
+	state_modifier = {
+		army_speed_factor_for_controller = -0.5
+		recruitable_population_factor = -0.2
+		resistance_growth = 0.2
+		resistance_damage_to_garrison = 0.3
+	}
+}
