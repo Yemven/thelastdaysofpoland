@@ -34,7 +34,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			light_artillery
 		}
 		
 		ai_will_do = {
@@ -62,7 +62,7 @@ technologies = {
 			position = { x = 0 y = 2 }
 		}
 		categories = {
-			artillery
+			light_artillery
 		}
 		
 		ai_will_do = {
@@ -84,6 +84,9 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 4}
+		}
+		categories = {
+			light_artillery
 		}
 		ai_will_do = {
 			factor = 2
@@ -114,7 +117,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			light_artillery
 		}
 		
 		ai_will_do = {
@@ -139,6 +142,9 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 8 }
+		}
+		categories = {
+			light_artillery
 		}
 		ai_will_do = {
 			factor = 2
@@ -169,7 +175,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			light_artillery
 		}
 		
 		ai_will_do = {
@@ -190,6 +196,9 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 12 }
+		}
+		categories = {
+			light_artillery
 		}
 		ai_will_do = {
 			factor = 2
@@ -220,7 +229,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			light_artillery
 		}
 		
 		ai_will_do = {
@@ -241,6 +250,9 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 16}
+		}
+		categories = {
+			light_artillery
 		}
 		ai_will_do = {
 			factor = 2
@@ -275,7 +287,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			heavy_artillery
 		}
 		
 		ai_will_do = {
@@ -300,7 +312,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			heavy_artillery
 		}
 		
 		ai_will_do = {
@@ -338,7 +350,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			heavy_artillery
 		}
 		
 		ai_will_do = {
@@ -362,7 +374,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			heavy_artillery
 		}
 		
 		ai_will_do = {
@@ -400,7 +412,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			heavy_artillery
 		}
 		
 		ai_will_do = {
@@ -424,7 +436,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			heavy_artillery
 		}
 		
 		ai_will_do = {
@@ -462,7 +474,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			heavy_artillery
 		}
 		
 		ai_will_do = {
@@ -482,7 +494,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			heavy_artillery
 		}
 		
 		ai_will_do = {
@@ -510,7 +522,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			sp_artillery
 		}
 		
 		ai_will_do = {
@@ -539,10 +551,8 @@ technologies = {
 		position = { x = -6 y = 6}
 		}
 	
-	
-		
 		categories = {
-			artillery
+			sp_artillery
 		}
 		
 		ai_will_do = {
@@ -564,9 +574,8 @@ technologies = {
 			name = artillery_folder
 			position = { x = -6 y = 8}
 		}
-
 		categories = {
-			artillery
+			sp_artillery
 		}
 		
 		ai_will_do = {
@@ -596,7 +605,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			sp_artillery
 		}
 		
 		ai_will_do = {
@@ -620,7 +629,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			sp_artillery
 		}
 		
 		ai_will_do = {
@@ -650,9 +659,8 @@ technologies = {
 		position = { x = -6 y = 14}
 		}
 	
-		
 		categories = {
-			artillery
+			sp_artillery
 		}
 		
 		ai_will_do = {
@@ -672,7 +680,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
+			sp_artillery
 		}
 		
 		ai_will_do = {
@@ -707,8 +715,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
-			#rocket
+			rocket_artillery
 		}
 		
 		ai_will_do = {
@@ -733,8 +740,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
-			#rocket
+			rocket_artillery
 		}
 		
 		ai_will_do = {
@@ -776,7 +782,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			rocket_artillery
 		}
 		
 		ai_will_do = {
@@ -803,8 +809,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
-			#rocket
+			rocket_artillery
 		}
 		
 		ai_will_do = {
@@ -846,7 +851,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			rocket_artillery
 		}
 		
 		ai_will_do = {
@@ -870,8 +875,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
-			#rocket
+			rocket_artillery
 		}
 		
 		ai_will_do = {
@@ -933,8 +937,7 @@ technologies = {
 		}
 
 		categories = {
-			artillery
-			#rocket
+			rocket_artillery
 		}
 		
 		ai_will_do = {
@@ -964,8 +967,7 @@ technologies = {
 			position = { x = 6 y = 4}
 		}
 		categories = {
-			artillery
-			cat_anti_air
+			aa_artillery
 		}
 		ai_will_do = {
 			factor = 1
@@ -1000,7 +1002,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			aa_artillery
 		}
 		
 		ai_will_do = {
@@ -1026,9 +1028,9 @@ technologies = {
 			position = { x = 6 y = 8 }
 		}
 		categories = {
-			artillery
-			cat_anti_air
+			aa_artillery
 		}
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1062,7 +1064,7 @@ technologies = {
 		}
 		
 		categories = {
-			artillery
+			aa_artillery
 		}
 		
 		ai_will_do = {
@@ -1089,8 +1091,7 @@ technologies = {
 			position = { x = 6 y = 12 }
 		}
 		categories = {
-			artillery
-			cat_anti_air
+			aa_artillery
 		}
 		ai_will_do = {
 			factor = 1
@@ -1123,9 +1124,8 @@ technologies = {
 		soft_attack = 0.05
 		defense = 0.05
 		}
-		
 		categories = {
-			artillery
+			aa_artillery
 		}
 		
 		ai_will_do = {
@@ -1148,8 +1148,7 @@ technologies = {
 			position = { x = 6 y = 16 }
 		}
 		categories = {
-			artillery
-			cat_anti_air
+			aa_artillery
 		}
 		ai_will_do = {
 			factor = 1

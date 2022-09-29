@@ -94,6 +94,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
 		}
 		path = {
 			leads_to_tech = fighter_primacy
@@ -124,6 +125,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_fighters
 		}
 		fighter = {
 			maximum_speed = 0.1
@@ -154,6 +157,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_fighters
 		}
 		air_agility_factor = 0.1
 		path = {
@@ -180,6 +185,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_fighters
 		}
 		air_power_projection_factor = 0.1
 		path = {
@@ -206,6 +213,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_fighters
 		}
 		air_ace_generation_chance_factor = 0.1
 		path = {
@@ -232,6 +241,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_fighters
 		}
 		bomber = {
 			air_defence = 0.1
@@ -260,6 +271,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_fighters
 		}
 		air_cas_efficiency = 0.05
 		air_strategic_bomber_bombing_factor = 0.05
@@ -285,6 +298,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_bombers
 		}
 		bomber = {
 			air_bombing = 0.1
@@ -315,6 +330,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_bombers
 		}
 		air_bombing_targetting = 0.1
 		path = {
@@ -341,6 +358,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_bombers
 		}
 		bomber = {
 			air_defence = 0.1
@@ -369,6 +388,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_bombers
 		}
 		air_strategic_bomber_night_penalty = -0.1
 		path = {
@@ -395,6 +416,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_bombers
 		}
 		path = {
 			leads_to_tech = bomber_doctrine_6
@@ -422,6 +445,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_superiority
+			air_bombers
 		}
 		air_attack_factor = 0.05
 		ai_will_do = {
@@ -446,6 +471,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
 		}
 		air_cas_efficiency = 0.1
 		path = {
@@ -476,6 +502,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
+			air_ground_bombers
 		}
 		bomber = {
 			air_ground_attack = 0.15
@@ -504,6 +532,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
+			air_ground_bombers
 		}
 		air_superiority_efficiency = 0.05
 		path = {
@@ -530,6 +560,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
+			air_ground_bombers
 		}
 		air_nav_efficiency = 0.10
 		path = {
@@ -556,6 +588,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
+			air_ground_bombers
 		}
 		air_intercept_efficiency = 0.1
 		path = {
@@ -582,6 +616,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
+			air_ground_bombers
 		}
 		path = {
 			leads_to_tech = fixed_wing_cas_6
@@ -608,6 +644,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
+			air_ground_bombers
 		}
 		bomber = {
 			air_range = 0.1
@@ -634,6 +672,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
+			air_attack_helis
 		}
 		helicopter = {
 			air_ground_attack = 0.15
@@ -662,6 +702,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_attack_helis
+			air_ground_support
 		}
 		air_superiority_efficiency = 0.05
 		path = {
@@ -688,6 +730,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
+			air_attack_helis
 		}
 		path = {
 			leads_to_tech = heli_cas_4
@@ -714,6 +758,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
+			air_attack_helis
 		}
 		path = {
 			leads_to_tech = heli_cas_5
@@ -740,6 +786,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
+			air_attack_helis
 		}
 		path = {
 			leads_to_tech = heli_cas_6
@@ -767,6 +815,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_ground_support
+			air_attack_helis
 		}
 		helicopter = {
 			air_range = 0.15
@@ -794,6 +844,7 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
 		}
 		air_intercept_efficiency = 0.1
 		path = {
@@ -824,6 +875,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_light_fighters
 		}
 		path = {
 			leads_to_tech = lf_doctrine_2
@@ -855,6 +908,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_light_fighters
 		}
 		air_training_xp_gain_factor = 0.1
 		air_untrained_pilots_penalty_factor = -0.1
@@ -882,6 +937,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_light_fighters
 		}
 		fighter = {
 			build_cost_ic = 0.05
@@ -911,6 +968,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_light_fighters
 		}
 		air_home_defence_factor = 0.1
 		path = {
@@ -937,6 +996,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_light_fighters
 		}
 		fighter = {
 			build_cost_ic = 0.05
@@ -966,6 +1027,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_light_fighters
 		}
 		air_cas_efficiency = 0.05
 		air_superiority_efficiency = 0.05
@@ -991,6 +1054,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_aa
 		}
 		path = {
 			leads_to_tech = aa_doctrine_2
@@ -1022,6 +1087,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_aa
 		}
 		air_superiority_efficiency = 0.05
 		path = {
@@ -1048,6 +1115,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_aa
 		}
 		anti_air = {
 			max_organisation = 2.5
@@ -1079,6 +1148,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_aa
 		}
 		air_ace_generation_chance_factor = 0.05
 		path = {
@@ -1105,6 +1176,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_aa
 		}
 		anti_air = {
 			max_organisation = 5
@@ -1136,6 +1209,8 @@ technologies = {
 		doctrine = yes
 		categories = {
 			air_doctrine
+			air_parity
+			air_aa
 		}
 		air_cas_efficiency = 0.05
 		ai_will_do = {
