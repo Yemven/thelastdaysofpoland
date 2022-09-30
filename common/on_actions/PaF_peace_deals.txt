@@ -258,6 +258,7 @@ on_actions = {
 					}
 				}
 				FROM = {
+					log = "Before: [?ROOT.num_of_controlled_states]"
 					every_controlled_state = {
 						limit = {
 							is_owned_by = ROOT
@@ -275,7 +276,8 @@ on_actions = {
 							transfer_state_to = PREV
 						}
 					}
-					log = "[FROM] won with [ROOT]"
+					log = "[FROM.GetName] killed [ROOT.GetName]"
+					log = "After: [?ROOT.num_of_controlled_states]"
 					if = {
 						limit = {
 							ROOT = {
