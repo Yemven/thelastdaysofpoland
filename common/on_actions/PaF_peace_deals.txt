@@ -257,8 +257,6 @@ on_actions = {
 						}
 					}
 				}
-				set_global_flag = war_won
-				set_global_flag = skip_default_capitulation
 				FROM = {
 					every_controlled_state = {
 						limit = {
@@ -266,13 +264,31 @@ on_actions = {
 						}
 						transfer_state_to = FROM
 					}
-					
+					every_other_country = {
+						limit = {
+							has_war_together_with = FROM
+						}
+						every_controlled_state = {
+							limit = {
+								is_owned_by = ROOT
+							}
+							transfer_state_to = PREV
+						}
+					}
+					log = "[FROM] won with [ROOT]"
+					#if = {
+						#limit = ROOT = {
+							#num_of_controlled_states > 0
+						#}
+					#}
 					#white_peace = ROOT
 					#annex_country = {
 						#target = ROOT
 						#transfer_troops = no
 					#}
 				}
+				set_global_flag = war_won
+				set_global_flag = skip_default_capitulation
 			}
 		}
 	}
