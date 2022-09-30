@@ -276,11 +276,17 @@ on_actions = {
 						}
 					}
 					log = "[FROM] won with [ROOT]"
-					#if = {
-						#limit = ROOT = {
-							#num_of_controlled_states > 0
-						#}
-					#}
+					if = {
+						limit = {
+							ROOT = {
+								num_of_controlled_states > 0
+							}
+						}
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
 					#white_peace = ROOT
 					#annex_country = {
 						#target = ROOT
