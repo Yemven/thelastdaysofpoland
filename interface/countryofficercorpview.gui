@@ -64,7 +64,7 @@ guiTypes = {
 		size = { width=84 height=150 }
 		Orientation = upper_left
 		clipping = no
-		scale = 1
+		scale = 0.9
 		
 		iconType = {
 			name = "idea_alert_glow"
@@ -88,15 +88,6 @@ guiTypes = {
 			spriteType = "GFX_chief_and_theorist_strip"
 			alwaystransparent = yes
 			centerposition = yes
-			frame = 1
-		}
-
-		iconType = {
-			name = "idea_traits"
-			position = { x = 83 y = 104 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
 			frame = 1
 		}
 	}
@@ -644,14 +635,15 @@ guiTypes = {
 				buttonType = {
 					name = "button"
 					quadTextureSprite = "GFX_technology_land_doctrine_folder_available_item_bg"
-					position = { x=34 y=47 }
+					position = { x=-13 y=37 }
 					#buttonText = "Doctrines"
 					font = "hoi_24header"
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "icon"
-					position = { x=58 y=72 }
+					position = { x=9 y= 60 }
 					Orientation = CENTER
 					spriteType = "GFX_placeholder_bordered"
 					alwaystransparent = yes
@@ -661,14 +653,14 @@ guiTypes = {
 				iconType = {
 					name = "nb_doctrine_unlocked_bg"
 					spriteType = "GFX_topbar_alert_bg"
-					position = { x=36 y=97 }
+					position = { x=10 y=90 }
 					alwaystransparent = yes
 					frame = 1
 				}
 
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
-					position = { x=34 y=97 }
+					position = { x=8 y=90 }
 					font = "cg_16b"
 					text = "0"
 					format = center
@@ -769,21 +761,22 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "navy_doctrine_button"
-				position = { x=210 y=-8 }
+				position = { x=130 y=-8 }
 				size = {width=20 height=20}
 				clipping = no
 
 				buttonType = {
 					name = "button"
 					quadTextureSprite = "GFX_technology_land_doctrine_folder_available_item_bg"
-					position = { x=68 y=47 }
+					position = { x=97 y=37 }
 					#buttonText = "Doctrines"
 					font = "hoi_24header"
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "icon"
-					position = { x=92 y=70 }
+					position = { x=117 y=60 }
 					spriteType = "GFX_placeholder_bordered"
 					Orientation = CENTER
 					alwaystransparent = yes
@@ -793,14 +786,14 @@ guiTypes = {
 				iconType = {
 					name = "nb_doctrine_unlocked_bg"
 					spriteType = "GFX_topbar_alert_bg"
-					position = { x=71 y=97 }
+					position = { x=120 y=90 }
 					alwaystransparent = yes
 					frame = 1
 				}
 
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
-					position = { x=69 y=97 }
+					position = { x=118 y=90 }
 					font = "cg_16b"
 					text = "0"
 					format = center
@@ -897,14 +890,15 @@ guiTypes = {
 				buttonType = {
 					name = "button"
 					quadTextureSprite = "GFX_technology_land_doctrine_folder_available_item_bg"
-					position = { x=34 y=47 }
+					position = { x=-15 y=37 }
 					#buttonText = "Doctrines"
 					font = "hoi_24header"
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "icon"
-					position = { x=59 y=71 }
+					position = { x=5 y=60 }
 					spriteType = "GFX_placeholder_bordered"
 					Orientation = CENTER
 					alwaystransparent = yes
@@ -914,14 +908,14 @@ guiTypes = {
 				iconType = {
 					name = "nb_doctrine_unlocked_bg"
 					spriteType = "GFX_topbar_alert_bg"
-					position = { x=36 y=97 }
+					position = { x=8 y=90 }
 					alwaystransparent = yes
 					frame = 1
 				}
 
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
-					position = { x=34 y=97 }
+					position = { x=6 y=90 }
 					font = "cg_16b"
 					text = "0"
 					format = center

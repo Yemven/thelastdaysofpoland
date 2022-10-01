@@ -4,6 +4,7 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/SAP/SAP_Sapek1.dds"
+				small = "gfx/interface/ideas/SAP/SAP_sapek.dds"
 			}
 		}
 		country_leader={
@@ -21,12 +22,28 @@ characters={
 			planning_skill = 3
 			logistics_skill = 3
 		}
+		advisor = {
+			slot = high_command
+			idea_token = SAP_hc_sapek
+			ledger = army
+			allowed = {
+				original_tag = SAP
+			}
+			traits = {
+				army_chief_old_guard
+			}
+			cost = 75
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
 	SAP_jacek_bartyzel={
 		name="Jacek Bartyzel"
 		portraits={
 			civilian={
 				large="gfx/leaders/SAP/SAP_BartyzelSr.dds"
+				small = "gfx/interface/ideas/SAP/SAP_bartyzel.dds"
 			}
 		}
 		country_leader={
@@ -34,6 +51,24 @@ characters={
 			ideology=reactionary_subtype
 			expire="1.1.1.1"
 			id=-1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = SAP_hc_bartyzel
+			ledger = army
+			allowed = {
+				original_tag = SAP
+			}
+			available = {
+				has_completed_focus = SAP_temeria_finest
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	SAP_bartyzel_junior={
@@ -55,7 +90,26 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/SAP/SAP_Pazura.dds"
+				small = "gfx/interface/ideas/SAP/SAP_pazura.dds"
 			}
+		advisor = {
+			slot = high_command
+			idea_token = SAP_hc_pazura
+			ledger = army
+			allowed = {
+				original_tag = SAP
+			}
+			available = {
+				has_completed_focus = SAP_scoiatael_legions
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 		}
 	}
 	SAP_zebrowski={
@@ -63,6 +117,25 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/SAP/SAP_Zebrowski.dds"
+				small = "gfx/interface/ideas/SAP/SAP_zebrowski.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = SAP_hc_zebrowski
+			ledger = army
+			allowed = {
+				original_tag = SAP
+			}
+			available = {
+				has_completed_focus = SAP_establish_order_of_witchers
+			}
+			traits = {
+				army_commando_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
 			}
 		}
 	}
@@ -96,6 +169,21 @@ characters={
 				original_tag = SAP
 			}
 			traits = { inspiring_warrior }
+		}
+		advisor = {
+			slot = high_command
+			idea_token = SAP_hc_pudzian
+			ledger = army
+			allowed = {
+				original_tag = SAP
+			}
+			traits = {
+				army_chief_morale_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		field_marshal = {
 			traits = { commando aggressive_assaulter }
@@ -135,7 +223,24 @@ characters={
 	SAP_pazdzioch={
 		name="Sir Paździoch von Bibersztajn"
 		portraits=
-		{ civilian = { large="gfx/leaders/SAP/SAP_Pazdzioch.dds" }
+		{ civilian = { large="gfx/leaders/SAP/SAP_Pazdzioch.dds"
+		small = "gfx/interface/ideas/SAP/SAP_pazdzioch.dds"
+		}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = SAP_hc_pazdzioch
+			ledger = army
+			allowed = {
+				original_tag = SAP
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		corps_commander = {
 			traits = { }
