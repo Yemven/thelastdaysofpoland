@@ -63,6 +63,10 @@ focus_tree = {
 			country_event = {
 				id = rutkowski.1
 				days = 2
+			}
+			country_event = {
+				id = krosniewice.3
+				days = 6
 			}			
 		}
 	}
@@ -274,7 +278,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_ideas = KRS_expanded_rutkowski_patrol
+			army_experience = 100
 		}
 	}
 
@@ -296,10 +300,17 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			283 = {
+			236 = {
 				add_building_construction = {
 					type = air_base
-					level = 1
+					level = 2
+					instant_build = yes
+				}
+			}
+			289 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -324,12 +335,15 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
+			add_equipment_to_stockpile = {
+				type = melee_equipment_0
+				amount = 500
+				producer = KRS
+			}
+			add_equipment_to_stockpile = {
+				type = ranged_equipment_3
+				amount = 100
+				producer = TSB
 			}
 		}
 	}
@@ -452,11 +466,6 @@ focus_tree = {
 		bypass = {
 		}
 		
-		select_effect = {
-			country_event = {
-				id = krosniewice.3
-			}
-		}
 		
 		x = 2
 		y = 1
@@ -523,7 +532,7 @@ focus_tree = {
 		id = KRS_battle_for_lodzkie
 		icon = KRS_battle_for_lodzkie
 		available = {
-		has_completed_focus = KRS_and_begin_the_meeting
+		has_completed_focus = KRS_conclude_the_meeting
 		}
 		
 		bypass = {
@@ -567,8 +576,21 @@ focus_tree = {
 		icon = KRS_divert_our_assets
 		relative_position_id = KRS_battle_for_lodzkie
 		prerequisite = { focus = KRS_battle_for_lodzkie }
+		mutually_exclusive = { focus = KRS_establish_an_auxiliary_corps }
+		mutually_exclusive = { focus = KRS_roll_out_the_paramedics }
 		available = {
-		
+			AND = {
+				check_variable = {
+					var = KRS_skrzyldewscy_holding_on
+					value = KRS_skinhunters_takeover
+					compare = greater_than_or_equals
+					}
+				check_variable = {
+					var = KRS_skrzyldewscy_holding_on
+					value = KRS_rutkowski_takeover
+					compare = greater_than_or_equals
+					}
+				}
 		}
 		
 		bypass = {
@@ -664,8 +686,21 @@ focus_tree = {
 		icon = KRS_establish_an_auxiliary_corps
 		relative_position_id = KRS_battle_for_lodzkie
 		prerequisite = { focus = KRS_battle_for_lodzkie }
+		mutually_exclusive = { focus = KRS_divert_our_assets }
+		mutually_exclusive = { focus = KRS_roll_out_the_paramedics }
 		available = {
-		
+			AND = {
+				check_variable = {
+					var = KRS_rutkowski_takeover
+					value = KRS_skinhunters_takeover
+					compare = greater_than_or_equals
+					}
+				check_variable = {
+					var = KRS_rutkowski_takeover
+					value = KRS_skrzyldewscy_holding_on
+					compare = greater_than_or_equals
+					}
+				}
 		}
 		
 		bypass = {
@@ -813,8 +848,21 @@ focus_tree = {
 		icon = KRS_roll_out_the_paramedics
 		relative_position_id = KRS_battle_for_lodzkie
 		prerequisite = { focus = KRS_battle_for_lodzkie }
+		mutually_exclusive = { focus = KRS_establish_an_auxiliary_corps }
+		mutually_exclusive = { focus = KRS_divert_our_assets }
 		available = {
-		
+			AND = {
+				check_variable = {
+					var = KRS_skinhunters_takeover
+					value = KRS_skrzyldewscy_holding_on
+					compare = greater_than_or_equals
+					}
+				check_variable = {
+					var = KRS_skinhunters_takeover
+					value = KRS_rutkowski_takeover
+					compare = greater_than_or_equals
+					}
+				}
 		}
 		
 		bypass = {

@@ -197,57 +197,6 @@ ideas = {
 			}
 		}
 		
-		KRS_checkpoint_adverts = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				monthly_population = 0.1
-				industrial_capacity_factory = 0.1
-				production_speed_buildings_factor = 0.1
-			}
-		}
-		
-		KRS_riot_eq_issued = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				weekly_manpower = -10
-				stability_factor = 0.1
-				army_defence_factor = 0.05
-			}
-		}
-		
-		KRS_additional_test_subjects = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				research_speed_factor = 0.1
-				weekly_manpower = -20
-				stability_factor = -0.1
-			}
-		}
-		
 		KRS_corporate_security = {
 
 			allowed_civil_war = {
@@ -314,89 +263,6 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				war_support_factor = -0.05
-			}
-		}
-		
-		KRS_informants = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = KRS_60
-
-			modifier = {
-				encryption_factor = 0.1
-				decryption_factor = 0.1
-				resistance_activity = -0.3
-				non_core_manpower = 0.55
-			}
-		}
-		
-		KRS_dissidents_disappearing = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = KRS_seryjny_samobojca
-
-			modifier = {
-				monthly_population = -0.05
-				postpolonism_drift = 0.05
-				stability_factor = 0.05
-			}
-		}
-		
-		KRS_civil_servants_as_managers = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = KRS_civil_servants_as_managers
-
-			modifier = {
-				stability_factor = 0.1
-				political_power_gain = 0.1
-			}
-		}
-		
-		KRS_civil_servants_as_soldiers = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = KRS_civil_servants_as_soldiers
-
-			modifier = {
-				stability_factor = 0.1
-				political_power_gain = 0.1
-			}
-		}
-		
-		KRS_civil_servants_as_paramedics = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = KRS_civil_servants_as_paramedics
-
-			modifier = {
-				stability_factor = 0.1
-				political_power_gain = 0.1
 			}
 		}
 		
@@ -513,13 +379,13 @@ ideas = {
 			picture = KRS_lab3
 
 			modifier = {
-				experience_gain_army = 0.1
-				research_speed_factor = 0.2
-				monthly_population = -0.2
+				experience_gain_army = 0.05
+				research_speed_factor = 0.1
+				monthly_population = -0.1
 			}
 		}
 		
-		KRS_cheap_meds = {
+		KRS_megaproject_wip = {
 
 			allowed_civil_war = {
 				always = yes
@@ -527,15 +393,14 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = KRS_chinskie_leki
+			picture = BBW_smog
 
 			modifier = {
-				monthly_population = 0.1
-				stability_factor = 0.1
-				experience_loss_factor = -0.02
+				consumer_goods_factor = 0.3
+				industrial_capacity_factory = -0.15
 			}
 		}
-		
+
 		KRS_grand_greenhouse = {
 
 			allowed_civil_war = {
@@ -584,22 +449,6 @@ ideas = {
 			modifier = {
 				research_speed_factor = 0.2
 				stability_factor = -0.1
-			}
-		}
-		
-		KRS_expanded_rutkowski_patrol = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				experience_gain_army_factor = 0.05
-				training_time_army_factor = -0.1
 			}
 		}
 		
