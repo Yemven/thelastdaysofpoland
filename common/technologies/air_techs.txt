@@ -21,6 +21,9 @@ technologies = {
 			leads_to_tech = transport_0
 			research_cost_coeff = 1
 		}
+		categories = {
+			civilian_aircrafts
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -39,6 +42,10 @@ technologies = {
 		path = {
 			leads_to_tech = fighter_1
 			research_cost_coeff = 1
+		}
+		categories = {
+			civilian_aircrafts
+			fighters
 		}
 		ai_will_do = {
 			factor = 1
@@ -59,6 +66,10 @@ technologies = {
 			leads_to_tech = bomber_1
 			research_cost_coeff = 1
 		}
+		categories = {
+			civilian_aircrafts
+			bombers
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -77,6 +88,10 @@ technologies = {
 		path = {
 			leads_to_tech = transport_1
 			research_cost_coeff = 1
+		}
+		categories = {
+			civilian_aircrafts
+			airlifters
 		}
 		ai_will_do = {
 			factor = 1
@@ -97,6 +112,9 @@ technologies = {
 			leads_to_tech = fighter_2
 			research_cost_coeff = 1
 		}
+		categories = {
+			fighters
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -115,6 +133,10 @@ technologies = {
 		path = {
 			leads_to_tech = bomber_2
 			research_cost_coeff = 1
+		}
+		categories = {
+			civilian_aircrafts
+			bombers
 		}
 		ai_will_do = {
 			factor = 1
@@ -135,6 +157,10 @@ technologies = {
 			leads_to_tech = transport_2
 			research_cost_coeff = 1
 		}
+		categories = {
+			civilian_aircrafts
+			airlifters
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -153,6 +179,9 @@ technologies = {
 		path = {
 			leads_to_tech = fighter_3
 			research_cost_coeff = 1
+		}
+		categories = {
+			fighters
 		}
 		ai_will_do = {
 			factor = 1
@@ -173,6 +202,9 @@ technologies = {
 			leads_to_tech = bomber_3
 			research_cost_coeff = 1
 		}
+		categories = {
+			bombers
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -191,6 +223,10 @@ technologies = {
 		path = {
 			leads_to_tech = transport_3
 			research_cost_coeff = 1
+		}
+		categories = {
+			civilian_aircrafts
+			airlifters
 		}
 		ai_will_do = {
 			factor = 1
@@ -211,6 +247,9 @@ technologies = {
 			leads_to_tech = fighter_4
 			research_cost_coeff = 1
 		}
+		categories = {
+			fighters
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -229,6 +268,9 @@ technologies = {
 		path = {
 			leads_to_tech = bomber_4
 			research_cost_coeff = 1
+		}		
+		categories = {
+			bombers
 		}
 		ai_will_do = {
 			factor = 1
@@ -249,6 +291,9 @@ technologies = {
 			leads_to_tech = transport_4
 			research_cost_coeff = 1
 		}
+		categories = {
+			airlifters
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -263,6 +308,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = {x = -2 y = 21}
+		}
+		categories = {
+			fighters
 		}
 		ai_will_do = {
 			factor = 1
@@ -279,6 +327,9 @@ technologies = {
 			name = air_techs_folder
 			position = {x = 0 y = 21}
 		}
+		categories = {
+			bombers
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -293,6 +344,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = {x = 2 y = 21}
+		}
+		categories = {
+			airlifters
 		}
 		ai_will_do = {
 			factor = 1
@@ -317,6 +371,9 @@ technologies = {
 			name = air_techs_folder
 			position = {x = 0 y = 0}
 		}
+		categories = {
+			drones
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -335,6 +392,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 5}
+		}
+		categories = {
+			drones
 		}
 		ai_will_do = {
 			factor = 1
@@ -355,6 +415,9 @@ technologies = {
 			name = air_techs_folder
 			position = {x = 0 y = 9}
 		}
+		categories = {
+			drones
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -373,6 +436,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 13}
+		}
+		categories = {
+			drones
 		}
 		ai_will_do = {
 			factor = 1
@@ -393,6 +459,9 @@ technologies = {
 			name = air_techs_folder
 			position = {x = 0 y = 17}
 		}
+		categories = {
+			drones
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -407,6 +476,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = {x = 0 y = 21}
+		}
+		categories = {
+			drones
 		}
 		ai_will_do = {
 			factor = 1
@@ -426,6 +498,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = {x = 2 y = 5}
+		}
+		categories = {
+			helicopters
 		}
 		ai_will_do = {
 			factor = 1
@@ -448,6 +523,9 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		categories = {
+			helicopters
 		}
 	}
 	
@@ -472,6 +550,9 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		categories = {
+			helicopters
+		}
 	}
 	
 	
@@ -493,6 +574,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		categories = {
+			helicopters
+			gunships
+		}
 	}
 	
 	
@@ -509,6 +594,10 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		categories = {
+			helicopters
+			gunships
 		}
 	}
 	
@@ -529,6 +618,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		categories = {
+			helicopters
+			transport_helis
+		}
 	}
 	
 	transport_helicopter_1 = {
@@ -548,6 +641,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		categories = {
+			helicopters
+			transport_helis
+		}
 	}
 	
 	transport_helicopter_2 = {
@@ -562,6 +659,10 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		categories = {
+			helicopters
+			transport_helis
 		}
 	}
 	

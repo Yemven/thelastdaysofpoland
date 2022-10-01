@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = belchatow
+add_namespace = energydeals
 
 
 country_event = {
@@ -608,5 +609,124 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = energydeals.1 #bractwo oferuje energię
+	title = energydeals.1.t
+	desc = energydeals.1.desc
+	picture = GFX_report_event_german_Army
 
+	fire_only_once = yes
+	is_triggered_only = yes
 
+	option = {
+		name = energydeals.1.a #jo bierzemy
+		trigger = {
+			num_of_civilian_factories_available_for_projects > 0
+		}
+		set_country_flag = agreed_importing_energy
+		ai_chance = {
+            base = 9       
+        }
+		add_opinion_modifier = {
+			target = BBW
+			modifier = aided_industry
+		}
+		BBW = {
+			country_event = {
+				id = energydeals.2
+				days = 7
+			}
+		}
+	}
+	option = {
+		name = energydeals.1.b #spadaj
+		trigger = {
+			num_of_civilian_factories_available_for_projects > 0
+		}
+		ai_chance = {
+            base = 1     
+        }
+		set_country_flag = declined_importing_energy
+		BBW = {
+			country_event = {
+				id = energydeals.3
+				days = 7
+			}
+		}
+	}
+	option = {
+		name = energydeals.1.c #nie stać nas, przyjdź później
+		trigger = {
+			num_of_civilian_factories_available_for_projects < 1
+		}
+		BBW = {
+			country_event = {
+				id = energydeals.4
+				days = 7
+			}
+		}
+	}
+}
+
+country_event = {
+	id = energydeals.2 #dil ogarnięty
+	title = energydeals.2.t
+	desc = energydeals.2.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = energydeals.2.a #podłączamy prąd
+		if = {
+			limit = {
+				has_variable = energy_exported
+			}
+			add_to_variable = { energy_exported = 750 }
+		}
+		else = {
+			set_variable = { energy_exported = 750 }
+		}
+		add_offsite_building = {
+			type = industrial_complex
+			level = 1
+		}
+		every_country = {
+			limit = {
+				has_country_flag = agreed_importing_energy
+			}
+			clr_country_flag = agreed_importing_energy
+			set_country_flag = importing_energy
+			add_ideas = importing_energy_idea
+		}
+	}
+}
+
+country_event = {
+	id = energydeals.3 #dil odrzucony
+	title = energydeals.3.t
+	desc = energydeals.3.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = energydeals.3.a #jak nie to nie
+	}
+}
+
+country_event = {
+	id = energydeals.4 #nie stać ich
+	title = energydeals.4.t
+	desc = energydeals.4.desc
+	picture = GFX_report_event_german_Army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = energydeals.4.a #ok then
+	}
+}

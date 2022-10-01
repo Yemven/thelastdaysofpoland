@@ -15,7 +15,7 @@ on_actions = {
 						is_ai = yes
 						}
 					}
-					add_ideas = { fucking_ai }
+					add_ideas = fucking_ai 
 				}
 			if = {
 				limit = { 
@@ -24,7 +24,7 @@ on_actions = {
 						is_ai = yes
 						}
 					}
-					add_ideas = { silesia_minor_surrender }
+					add_ideas = silesia_minor_surrender
 				}
 
 			PRK = {
@@ -269,6 +269,29 @@ on_actions = {
 						ideology = scout_system_subtype
 						expire="1.1.1.1"
 						id = -1
+					}
+				}
+			}
+		}
+	}
+	
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { tag = BBW }
+					has_country_flag = importing_energy
+				}
+				clr_country_flag = importing_energy
+				remove_opinion_modifier = {
+					target = BBW
+					modifier = aided_industry
+				}
+				remove_ideas = importing_energy_idea
+				BBW = {
+					add_offsite_building = {
+						type = industrial_complex
+						level = -1
 					}
 				}
 			}

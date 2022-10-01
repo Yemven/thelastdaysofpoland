@@ -814,7 +814,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = economy_primal_economy			
-				add_idea = economy_feudalism
+				add_idea = economy_solidarism
 				}
 		}
 	}
@@ -1060,6 +1060,7 @@ focus_tree = {
 			add_field_marshal_role = {
 				character = SAP_jacek_bartyzel
 					skill = 2
+					traits = { organisational_leader politically_connected }
 					attack_skill = 4
 					defense_skill = 2
 					planning_skill = 4
@@ -1196,6 +1197,7 @@ focus_tree = {
 			add_corps_commander_role = {
 				character = SAP_pazura
 				skill = 3
+				traits = { ranger trickster guerilla_fighter }
 				attack_skill = 3
 				defense_skill = 2
 				planning_skill = 2
@@ -1335,6 +1337,7 @@ focus_tree = {
 		completion_reward = {
 			add_corps_commander_role = {
 				character = SAP_zebrowski
+				traits = { commando skirmisher  }
 				skill = 2
 				attack_skill = 3
 				defense_skill = 3
@@ -1444,7 +1447,12 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 1
-				category = infantry_weapons
+				category = melee_weapons
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = special_forces_training
 			}
 			if = {
 				limit = { has_completed_focus = SAP_vrihedd_brigade }
@@ -1553,6 +1561,7 @@ focus_tree = {
 		icon = SAP_tridam_ultimatum
 		relative_position_id = SAP_rather_not_choose
 		prerequisite = { focus = SAP_rather_not_choose }
+		will_lead_to_war_with = WML
 		available = {
 				KRS = { num_of_controlled_states < 1 }
 				NOT = { has_war = yes }
@@ -1714,7 +1723,7 @@ focus_tree = {
 		icon = SAP_war_of_daggers
 		relative_position_id = SAP_rather_not_choose
 		prerequisite = { focus = SAP_rather_not_choose }
-
+		will_lead_to_war_with = KRS
 		available = {
 			NOT = { has_war = yes }
 		}
@@ -1814,7 +1823,8 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				id = sapek_war.11
-			}	
+			}
+			custom_effect_tooltip = SAP_insanity_tooltip	
 		}
 	}
 	
@@ -1823,7 +1833,10 @@ focus_tree = {
 		icon = SAP_southern_campaign
 		relative_position_id = SAP_rather_not_choose
 		prerequisite = { focus = SAP_rather_not_choose }
-
+		will_lead_to_war_with = ZHP
+		will_lead_to_war_with = ZYD
+		will_lead_to_war_with = BBW
+		
 		available = {
 			KRS = { num_of_controlled_states < 1 }
 		count_triggers  = {
@@ -1948,7 +1961,8 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				id = sapek_war.14
-			}	
+			}
+
 		}
 	}
 

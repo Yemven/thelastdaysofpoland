@@ -306,6 +306,12 @@ guiTypes = {
 				spriteType = "GFX_required_rule"
 				Orientation = "UPPER_LEFT"
 	   	}	
+		
+			buttonType = {
+				name = "nuke_province"
+				quadTextureSprite ="GFX_empty_bg"
+				position = { x = -2000 y = 166 }
+			}
 
 			containerWindowType = {
 				name = "custom_icon_container"
@@ -3273,25 +3279,22 @@ guiTypes = {
 				spriteType = "GFX_terrain_gdynia_pustki_cisowskie"
 				alwaystransparent = yes
 			}
-			iconType = {
-				name = "terrain_gdynia_redlowo_icon"
-				spriteType = "GFX_terrain_gdynia_redlowo"
-				alwaystransparent = yes
-			}
-			iconType = {
-				name = "terrain_gdynia_grabowek_icon"
-				spriteType = "GFX_terrain_gdynia_grabowek"
-				alwaystransparent = yes
-			}
-			
-		}
 
 			iconType = {
-				name = "province_required_rule"
-				position = { x = 100 y = -3 }
-				spriteType = "GFX_required_rule"
-				Orientation = "UPPER_LEFT"
-			}
+				name = "flooded_icon"
+				spriteType = "GFX_modifiers_flooded_icon"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"			
+				}
+
+			iconType = {
+				name = "unplanned_offensive_icon"
+				spriteType = "GFX_modifiers_unplanned_offensive_icon"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"			
+				}
+		}
+
 
 			### Positioning of these are controlled by the positionType "countrystateview_weathericons_position" and "countrystateview_weathericons_offset" above
 			iconType = {
@@ -3340,25 +3343,7 @@ guiTypes = {
 				slotsize = { width = 40 height = 47 }
 				max_slots_vertical = 1
 			}
-		containerWindowType = {
-				name = "custom_icon_container"
-				size = { width=100% height=100% }
-				position = { x = 0 y= 0 }
 
-				iconType = {
-					name = "flooded_icon"
-					spriteType = "GFX_modifiers_flooded_icon"
-					position = { x = 0 y = 0 }
-					Orientation = "UPPER_LEFT"			
-				}
-
-				iconType = {
-					name = "unplanned_offensive_icon"
-					spriteType = "GFX_modifiers_unplanned_offensive_icon"
-					position = { x = 0 y = 0 }
-					Orientation = "UPPER_LEFT"			
-				}	
-}
 			gridBoxType = {
 				name = "province_building_entries"
 				position = { x = -2 y = 48 }
@@ -3368,11 +3353,6 @@ guiTypes = {
 				max_slots_horizontal = 4
 			}
 
-			buttonType = {
-				name = "nuke_province"
-				quadTextureSprite ="GFX_nuke_button"
-				position = { x= 313 y = 50 }
-			}
 
 			iconType = {
 				name = "nuclear_strike_bar"
