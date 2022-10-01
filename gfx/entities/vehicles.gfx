@@ -22,16 +22,16 @@ objectTypes = {
 		name = "generic_motorized_mesh"
 		file = "gfx/models/units/vehicles/zuk1.mesh"
 		
-		animation = { id = "idle"			type = "generic_motorized_01_idle_animation" }
-		animation = { id = "move"			type = "generic_motorized_01_move_animation" }
+		animation = { id = "idle"			type = "GER_motorized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_motorized_01_move_animation" }
 	}
 	
 	pdxmesh = {
 		name = "generic_mechanized_mesh"
 		file = "gfx/models/units/vehicles/nysan.mesh"
 		
-		animation = { id = "idle"			type = "generic_motorized_01_idle_animation" }
-		animation = { id = "move"			type = "generic_motorized_01_move_animation" }
+		aanimation = { id = "idle"			type = "GER_motorized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_motorized_01_move_animation" }
 	}
 
 	pdxmesh = {
