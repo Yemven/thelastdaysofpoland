@@ -258,7 +258,7 @@ on_actions = {
 					}
 				}
 				FROM = {
-					log = "Before: [?ROOT.num_of_controlled_states]"
+					log = "Before: [?ROOT.num_owned_states]"
 					every_controlled_state = {
 						limit = {
 							is_owned_by = ROOT
@@ -277,13 +277,14 @@ on_actions = {
 						}
 					}
 					log = "[FROM.GetName] killed [ROOT.GetName]"
-					log = "After: [?ROOT.num_of_controlled_states]"
+					log = "After: [?ROOT.num_owned_states]"
 					if = {
 						limit = {
 							ROOT = {
 								num_of_controlled_states > 0
 							}
 						}
+						log = "[ROOT.GetName] refuse to die!"
 						annex_country = {
 							target = ROOT
 							transfer_troops = no
