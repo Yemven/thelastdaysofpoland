@@ -643,24 +643,25 @@ guiTypes = {
 
 				iconType = {
 					name = "icon"
-					position = { x=9 y= 60 }
+					position = { x=8 y= 69 }
 					Orientation = CENTER
 					spriteType = "GFX_placeholder_bordered"
 					alwaystransparent = yes
 					centerposition = yes
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "nb_doctrine_unlocked_bg"
 					spriteType = "GFX_topbar_alert_bg"
-					position = { x=10 y=90 }
+					position = { x=-3000 y=90 }
 					alwaystransparent = yes
 					frame = 1
 				}
 
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
-					position = { x=8 y=90 }
+					position = { x=-3000 y=90 }
 					font = "cg_16b"
 					text = "0"
 					format = center
@@ -776,24 +777,25 @@ guiTypes = {
 
 				iconType = {
 					name = "icon"
-					position = { x=117 y=60 }
+					position = { x=117 y=69 }
 					spriteType = "GFX_placeholder_bordered"
 					Orientation = CENTER
 					alwaystransparent = yes
 					centerposition = yes
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "nb_doctrine_unlocked_bg"
 					spriteType = "GFX_topbar_alert_bg"
-					position = { x=120 y=90 }
+					position = { x=-3000 y=90 }
 					alwaystransparent = yes
 					frame = 1
 				}
 
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
-					position = { x=118 y=90 }
+					position = { x=-3000 y=90 }
 					font = "cg_16b"
 					text = "0"
 					format = center
@@ -898,24 +900,25 @@ guiTypes = {
 
 				iconType = {
 					name = "icon"
-					position = { x=5 y=60 }
+					position = { x=5 y=69 }
 					spriteType = "GFX_placeholder_bordered"
 					Orientation = CENTER
 					alwaystransparent = yes
 					centerposition = yes
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "nb_doctrine_unlocked_bg"
 					spriteType = "GFX_topbar_alert_bg"
-					position = { x=8 y=90 }
+					position = { x=-3000 y=90 }
 					alwaystransparent = yes
 					frame = 1
 				}
 
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
-					position = { x=6 y=90 }
+					position = { x=-3000 y=90 }
 					font = "cg_16b"
 					text = "0"
 					format = center

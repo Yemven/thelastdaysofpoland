@@ -21,6 +21,21 @@ characters={
 			planning_skill = 3
 			logistics_skill = 3
 		}
+		advisor = {
+			slot = high_command
+			idea_token = SAP_hc_rabin
+			ledger = army
+			allowed = {
+				original_tag = SAP
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
 	ZYD_urban={
 		name="Jerzy Urban"

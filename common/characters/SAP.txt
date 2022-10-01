@@ -92,6 +92,7 @@ characters={
 				large="gfx/leaders/SAP/SAP_Pazura.dds"
 				small = "gfx/interface/ideas/SAP/SAP_pazura.dds"
 			}
+		}
 		advisor = {
 			slot = high_command
 			idea_token = SAP_hc_pazura
@@ -109,7 +110,6 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
-		}
 		}
 	}
 	SAP_zebrowski={
