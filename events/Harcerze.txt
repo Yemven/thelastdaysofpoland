@@ -246,18 +246,7 @@ country_event = {
 	option = {
 		name = zhp.16.a # idealiści
 		trigger = {
-			or = {
-				if = {
-					limit = {
-						has_variable = zhp_idealist_influence
-						has_variable = zhp_conservative_influence
-					}
-					check_variable = { zhp_idealist_influence < zhp_conservative_influence}
-				}
-				else = {
-					has_variable = zhp_idealist_influence
-				}
-			}
+			has_country_flag = idealist_takeover
 		}
 		hidden_effect = {
 			set_nationality = {
@@ -445,17 +434,8 @@ country_event = {
 	option = {
 		name = zhp.16.b #konserwatyści
 		trigger = {
-			or = {
-				if = {
-					limit = {
-						has_variable = zhp_idealist_influence
-						has_variable = zhp_conservative_influence
-					}
-					check_variable = { zhp_idealist_influence > zhp_conservative_influence}
-				}
-				else = {
-					has_variable = zhp_conservative_influence
-				}
+			trigger = {
+				has_country_flag = conservative_takeover
 			}
 		}
 		hidden_effect = {

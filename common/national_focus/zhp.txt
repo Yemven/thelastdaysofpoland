@@ -834,6 +834,40 @@ focus_tree = {
 		completion_reward = {
 			hidden_effect = {
 				load_focus_tree = harcerze_war_focus
+				if = {
+					limit = {
+						or = {
+							if = {
+								limit = {
+									has_variable = zhp_idealist_influence
+									has_variable = zhp_conservative_influence
+								}
+								check_variable = { zhp_idealist_influence < zhp_conservative_influence}
+							}
+							else = {
+								has_variable = zhp_idealist_influence
+							}
+						}
+					}
+					set_country_flag = idealist_takeover
+				}
+				if = {
+					limit = {
+						or = {
+							if = {
+								limit = {
+									has_variable = zhp_idealist_influence
+									has_variable = zhp_conservative_influence
+								}
+								check_variable = { zhp_conservative_influence < zhp_idealist_influence}
+							}
+							else = {
+								has_variable = zhp_conservative_influence
+							}
+						}
+					}
+					set_country_flag = conservative_takeover
+				}
 			}
 		}
 	}
