@@ -3,12 +3,14 @@ state={
 	id=211
 	name="STATE_211"
 	provinces={
-		3749 
+		3749 6030 4890
 	}
 	manpower = 34916   state_category = large_town
 	buildings_max_level_factor=1.000
 		history = {
 		owner = WOL
+	victory_points = { 3749 20 }
+	victory_points = { 6030 15 }
 		add_core_of = WOL
 	buildings = {
 	infrastructure = 6
