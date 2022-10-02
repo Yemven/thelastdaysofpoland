@@ -7,7 +7,7 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300	
-		size = { width=805 height=100%% } #550
+		size = { width=600 height=100%% } #550
 		
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
@@ -106,12 +106,12 @@ guiTypes = {
 			iconType = {
 				name ="resources_bg"
 				spriteType = "GFX_trade_resource_bg"
-				position = {x=90 y=0}
+				position = {x=0 y=0}
 			}
 
 			instantTextboxType = {
 				name = "produced_title"
-				position = { x=102 y=38 }
+				position = { x=20 y=38 }
 				font = "hoi_16mbs"
 				text = "TRADEVIEW_RES_PRODUCED"
 				maxWidth = 78
@@ -122,7 +122,7 @@ guiTypes = {
 		
 			instantTextboxType = {
 				name = "imported_title"
-				position = { x=102 y=58 }
+				position = { x=20 y=58 }
 				font = "hoi_16mbs"
 				text = "TRADEVIEW_RES_IMPORTED"
 				maxWidth = 78
@@ -133,7 +133,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "exported_title"
-				position = { x=102 y=78 }
+				position = { x=20 y=78 }
 				font = "hoi_16mbs"
 				text = "TRADEVIEW_RES_EXPORTED"
 				maxWidth = 78
@@ -144,7 +144,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "needed_title"
-				position = { x=102 y=98 }
+				position = { x=20 y=98 }
 				font = "hoi_16mbs"
 				text = "TRADEVIEW_RES_PRODUCTION"
 				maxWidth = 78
@@ -155,10 +155,10 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "resources_grid"
-				position = { x = 180 y = 0 }
-				size = { width = 422 height = 100%% }
-				slotsize = { width = 68 height = 156 }
-				max_slots = { x = 9 y = 1 }
+				position = { x = 90 y = 0 }
+				size = { width = 500 height = 100%% }
+				slotsize = { width = 69 height = 156 }
+				max_slots = { x = 7 y = 1 }
 				format = "UPPER_LEFT"
 			}
 		}
@@ -179,14 +179,14 @@ guiTypes = {
 		
 		buttonType = {
 			name = "sort_country"
-			position = {x=137 y=400}
+			position = {x=45 y=400}
 			quadTextureSprite ="GFX_trade_filter_btn_country"
 			clicksound = click_scroll
 		}
 
 		instantTextboxType = {
 			name = "name"
-			position = { x = 150 y = 407 }
+			position = { x = 50 y = 407 }
 			font = "hoi_16mbs"
 			text = "TRADE_SORT_COUNTRY"
 			maxWidth = 160
@@ -197,14 +197,14 @@ guiTypes = {
 		
 		buttonType = {
 			name = "sort_export"
-			position = {x=307 y=400}
+			position = {x=210 y=400}
 			quadTextureSprite ="GFX_trade_filter_btn_export"
 			clicksound = click_scroll
 		}
 
 		instantTextboxType = {
 			name = "export_label"
-			position = { x = 312 y = 407 }
+			position = { x = 215 y = 407 }
 			font = "hoi_16mbs"
 			text = "TRADE_SORT_EXPORT"
 			maxWidth = 90
@@ -215,14 +215,14 @@ guiTypes = {
 		
 		buttonType = {
 			name = "sort_request"
-			position = {x=405 y=400}
+			position = {x=305 y=400}
 			quadTextureSprite ="GFX_trade_filter_btn_delivered"
 			clicksound = click_scroll
 		}
 
 		instantTextboxType = {
 			name = "request_label"
-			position = { x = 408 y = 407 }
+			position = { x = 307 y = 407 }
 			font = "hoi_16mbs"
 			text = "TRADE_SORT_REQUEST"
 			maxWidth = 100
@@ -233,14 +233,14 @@ guiTypes = {
 
 		buttonType = {
 			name = "sort_convoys"
-			position = {x=510 y=400}
+			position = {x=408 y=400}
 			quadTextureSprite ="GFX_trade_filter_btn_convoy"
 			clicksound = click_scroll
 		}
 
 		instantTextboxType = {
 			name = "convoys_label"
-			position = { x=524 y=407 }
+			position = { x=430 y=407 }
 			font = "hoi_16mbs"
 			text = "TRADE_SORT_CONVOYS"
 			maxWidth = 66
@@ -636,8 +636,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "resources_filter_entry"
-		position = { x = 80 y = 1 }
-		size = { width = 75 height = 50 }
+		position = { x = -5 y = 1 }
+		size = { width = 70 height = 50 }
 		clipping = no
 		
 		buttonType = {
@@ -653,11 +653,13 @@ guiTypes = {
 			position = { x= 32 y = 12 }
 			alwaystransparent = yes
 		}
+		
 	}
+	
 	
 	containerWindowType = {
 		name = "filter_entry"
-		position = { x = 45 y = -04 }
+		position = { x = -50 y = -04 }
 		size = { width = 168 height = 50 }
 		clipping = no
 
@@ -682,7 +684,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "country_trade_entry"
-		position = { x = 0 y = 0 }
+		position = { x = -95 y = 0 }
 		size = { width = 511 height = 45 }
 		clipping = no
 
