@@ -30,7 +30,7 @@ objectTypes = {
 		name = "generic_mechanized_mesh"
 		file = "gfx/models/units/vehicles/nysan.mesh"
 		
-		aanimation = { id = "idle"			type = "GER_motorized_01_idle_animation" }
+		animation = { id = "idle"			type = "GER_motorized_01_idle_animation" }
 		animation = { id = "move"			type = "GER_motorized_01_move_animation" }
 	}
 
