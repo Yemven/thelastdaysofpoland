@@ -689,15 +689,33 @@ focus_tree = {
 		search_filters = { }
 		completion_reward = {
 			army_experience = 50
-			create_corps_commander = {
-				name = "Mosze Sztolcman"
-				picture = "gfx/leaders/ZYD/ZYD_Mosze.dds"
+			add_corps_commander_role = {
+				character = ZYD_mosze
 				traits = { trickster }
 				skill = 3
 				attack_skill = 2
 				defense_skill = 2
 				planning_skill = 4
 				logistics_skill = 4
+			}
+			add_advisor_role = {
+				character = ZYD_mosze
+				activate = yes
+				advisor = {
+					slot = high_command
+					idea_token = ZYD_hc_mosze
+					ledger = army
+					allowed = {
+						original_tag = ZYD
+					}
+					traits = {
+						army_chief_planning_2
+					}
+					cost = 150
+					ai_will_do = {
+						factor = 1.000
+					}
+				}
 			}
 		}
 	}
@@ -756,15 +774,33 @@ focus_tree = {
 		search_filters = { }
 		completion_reward = {
 			army_experience = 50
-			create_corps_commander = {
-				name = "Sebastian Birkut"
-				picture = "gfx/leaders/ZYD/ZYD_Birkut.dds"
+			add_corps_commander_role = {
+				character = ZYD_birkut
 				traits = { commando }
 				skill = 2
 				attack_skill = 3
 				defense_skill = 3
 				planning_skill = 2
 				logistics_skill = 2
+			}
+			add_advisor_role = {
+				character = ZYD_birkut
+				activate = yes
+				advisor = {
+					slot = high_command
+					idea_token = ZYD_hc_birkut
+					ledger = army
+					allowed = {
+						original_tag = ZYD
+					}
+					traits = {
+						army_chief_reform_2
+					}
+					cost = 150
+					ai_will_do = {
+						factor = 1.000
+					}
+				}
 			}
 		}
 	}

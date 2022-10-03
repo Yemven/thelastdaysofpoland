@@ -4,6 +4,7 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/BBW/BBW_Elder.dds"
+				small = "gfx/interface/ideas/BBW/BBW_raz.dds"
 			}
 		}
 		country_leader={
@@ -12,6 +13,21 @@ characters={
 			traits={ master_of_rethorics }
 			expire="2050.1.1.1"
 			id=-1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BBW_hc_raz
+			ledger = army
+			allowed = {
+				original_tag = BBW
+			}
+			traits = {
+				army_chief_morale_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	BBW_roksi_wegiel={
@@ -80,6 +96,21 @@ characters={
 			}
 			traits = { automobile_supremacist }
 		}
+		advisor = {
+			slot = high_command
+			idea_token = BBW_hc_warzecha
+			ledger = army
+			allowed = {
+				original_tag = BBW
+			}
+			traits = {
+				army_chief_maneuver_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 }
 
 	BBW_gen_rzymkowski={
@@ -107,6 +138,21 @@ characters={
 			}
 			traits = { ruthless_player }
 		}
+		advisor = {
+			slot = high_command
+			idea_token = BBW_hc_rzymkowski
+			ledger = army
+			allowed = {
+				original_tag = BBW
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 }
 	BBW_gen_gadomski={
 		name="Witold Gadomski"
@@ -132,17 +178,49 @@ characters={
 			}
 			traits = { pragmatic_organiser }
 		}
+		advisor = {
+			slot = high_command
+			idea_token = BBW_hc_rzymkowski
+			ledger = army
+			allowed = {
+				original_tag = BBW
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
 }
 	BBW_rola={
 		name="Marcin Rola"
-		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Rola.dds" } }
+		portraits={ civilian = { large = "gfx/leaders/BBW/BBW_Rola.dds"
+								small = "gfx/interface/ideas/BBW/BBW_rola.dds"} }
 		corps_commander = {
-			traits = { }
+			traits = { media_personality }
 			skill = 1
 			attack_skill = 3
 			defense_skill = 1
 			planning_skill = 2
 			logistics_skill = 1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BBW_hc_rola
+			ledger = army
+			allowed = {
+				original_tag = BBW
+			}
+			traits = {
+				army_infantry_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 }
 
@@ -169,6 +247,21 @@ characters={
 				original_tag = BBW
 			}
 			traits = { shadow_man }
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BBW_hc_janecki
+			ledger = army
+			allowed = {
+				original_tag = BBW
+			}
+			traits = {
+				army_chief_planning_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 }
 }
