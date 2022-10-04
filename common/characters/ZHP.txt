@@ -4,6 +4,7 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/ZHP/ZHP_Duda1.dds"
+				small = "gfx/interface/ideas/ZHP/ZHP_duda.dds"
 			}
 			army={
 				large="gfx/leaders/ZHP/ZHP_Duda4.dds"
@@ -24,12 +25,27 @@ characters={
 			id=-1
 		}
 		corps_commander = {
-			traits = { }
+			traits = { politically_connected }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ZHP_hc_duda
+			ledger = army
+			allowed = {
+				original_tag = ZHP
+			}
+			traits = {
+				army_concealment_1
+			}
+			cost = 75
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	ZHP_marek_jedraszewski={
@@ -66,12 +82,27 @@ characters={
 			traits = { central_planner }
 		}
 		field_marshal = {
-			traits = { }
+			traits = { organizer fast_planner }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ZHP_hc_orsza
+			ledger = army
+			allowed = {
+				original_tag = ZHP
+			}
+			traits = {
+				army_chief_planning_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	ZHP_alek={
@@ -92,12 +123,27 @@ characters={
 			traits = { athlete }
 		}
 		corps_commander = {
-			traits = { }
+			traits = { commando }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ZHP_hc_alek
+			ledger = army
+			allowed = {
+				original_tag = ZHP
+			}
+			traits = {
+				army_chief_maneuver_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	ZHP_rudy={
@@ -118,12 +164,27 @@ characters={
 			traits = { pedagogue }
 		}
 		corps_commander = {
-			traits = { }
+			traits = { trait_cautious }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ZHP_hc_rudy
+			ledger = army
+			allowed = {
+				original_tag = ZHP
+			}
+			traits = {
+				army_chief_entrenchment_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	ZHP_zoska={
@@ -144,12 +205,27 @@ characters={
 			traits = { industrial_chemist }
 		}
 		corps_commander = {
-			traits = { }
+			traits = { urban_assault_specialist }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ZHP_hc_zoska
+			ledger = army
+			allowed = {
+				original_tag = ZHP
+			}
+			traits = {
+				army_chief_morale_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 }
