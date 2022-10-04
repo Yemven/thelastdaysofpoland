@@ -292,11 +292,9 @@ sub_units = {
 		
 		marsh = {
 			attack = 0.3
-			defence = 0.3
 		}
 		river = {
 			attack = 0.3
-			defence = 0.3
 		}
 		amphibious = {
 			attack = 0.5
@@ -359,14 +357,14 @@ sub_units = {
 		}
 	
 		hills = {
-			attack = 0.25
+			attack = 0.20
 			defence = 0.15
-			movement = 0.2
+			movement = 0.10
 		}
 		mountain = {
 			attack = 0.35
-			defence = 0.2
-			movement = 0.25
+			defence = 0.20
+			movement = 0.10
 		}
 	}
 
@@ -429,8 +427,8 @@ sub_units = {
 		}
 		
 		urban = {
-			attack = 0.1
-			defence = 0.15
+			attack = 0.15
+			defence = 0.1
 			movement = 0.1
 		}
 		
