@@ -1,5 +1,45 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_special_forces_training_medium"
+		texturefile = "gfx/interface/technologies/spec1.dds"
+	}
+	SpriteType = {
+		name = "GFX_special_forces_training2_medium"
+		texturefile = "gfx/interface/technologies/spec5.dds"
+	}
+	SpriteType = {
+		name = "GFX_special_forces_quantity_medium"
+		texturefile = "gfx/interface/technologies/specquantity2.dds"
+	}
+	SpriteType = {
+		name = "GFX_special_forces_quantity1_medium"
+		texturefile = "gfx/interface/technologies/specquantity3.dds"
+	}
+	SpriteType = {
+		name = "GFX_special_forces_quantity3_medium"
+		texturefile = "gfx/interface/technologies/specquantity4.dds"
+	}
+	SpriteType = {
+		name = "GFX_special_forces_quality_medium"
+		texturefile = "gfx/interface/technologies/specquality2.dds"
+	}
+	SpriteType = {
+		name = "GFX_special_forces_quality1_medium"
+		texturefile = "gfx/interface/technologies/specquality3.dds"
+	}
+	SpriteType = {
+		name = "GFX_special_forces_quality3_medium"
+		texturefile = "gfx/interface/technologies/specquality4.dds"
+	}
+	SpriteType = {
+		name = "GFX_camouflage_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/uniform_upgrade1.dds"
+	}
+	SpriteType = {
+		name = "GFX_camouflage_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/uniform_upgrade2.dds"
+	}
+	SpriteType = {
 		name = "GFX_army_uniform_medium"
 		texturefile = "gfx/interface/technologies/army_uniform.dds"
 	}
@@ -14,6 +54,26 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_army_uniform3_medium"
 		texturefile = "gfx/interface/technologies/army_uniform3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_armor1_medium"
+		texturefile = "gfx/interface/technologies/vests1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_armor2_medium"
+		texturefile = "gfx/interface/technologies/vests2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_armor3_medium"
+		texturefile = "gfx/interface/technologies/vests3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_armor4_medium"
+		texturefile = "gfx/interface/technologies/vests4.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_armor5_medium"
+		texturefile = "gfx/interface/technologies/vests5.dds"
 	}
 	SpriteType = {
 		name = "GFX_infantry_training_medium"
