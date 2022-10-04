@@ -698,25 +698,6 @@ focus_tree = {
 				planning_skill = 4
 				logistics_skill = 4
 			}
-			add_advisor_role = {
-				character = ZYD_mosze
-				activate = yes
-				advisor = {
-					slot = high_command
-					idea_token = ZYD_hc_mosze
-					ledger = army
-					allowed = {
-						original_tag = ZYD
-					}
-					traits = {
-						army_chief_planning_2
-					}
-					cost = 150
-					ai_will_do = {
-						factor = 1.000
-					}
-				}
-			}
 		}
 	}
 	
@@ -782,25 +763,6 @@ focus_tree = {
 				defense_skill = 3
 				planning_skill = 2
 				logistics_skill = 2
-			}
-			add_advisor_role = {
-				character = ZYD_birkut
-				activate = yes
-				advisor = {
-					slot = high_command
-					idea_token = ZYD_hc_birkut
-					ledger = army
-					allowed = {
-						original_tag = ZYD
-					}
-					traits = {
-						army_chief_reform_2
-					}
-					cost = 150
-					ai_will_do = {
-						factor = 1.000
-					}
-				}
 			}
 		}
 	}

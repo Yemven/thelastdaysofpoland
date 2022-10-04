@@ -102,13 +102,46 @@ characters={
 		large = "gfx/leaders/ZYD/ZYD_Mosze.dds"
 		small = "gfx/interface/ideas/ZYD/ZYD_mosze.dds" }
 		}
+		advisor = {
+			slot = high_command
+			idea_token = ZYD_hc_mosze
+			ledger = army
+			allowed = {
+				original_tag = ZYD
+			}
+			available = { has_completed_focus = ZYD_sanctioning_the_kibbutz_cult_of_strength }
+			traits = {
+				army_chief_planning_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
 	ZYD_birkut={
-		name="Wojciech Olejniczak"
+		name="Sebastian Birkut"
 		portraits=
 		{ civilian = {
 		large = "gfx/leaders/ZYD/ZYD_Birkut.dds"
 		small = "gfx/interface/ideas/ZYD/ZYD_birkut.dds"		}
+		}
+		
+		advisor = {
+			slot = high_command
+			idea_token = ZYD_hc_birkut
+			ledger = army
+			allowed = {
+				original_tag = ZYD
+			}
+			available = { has_completed_focus = ZYD_recreation_of_wzw }
+			traits = {
+				army_chief_reform_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	ZYD_daniels={
