@@ -17,6 +17,10 @@ looting_decisions = {
 				type = electronics
 				amount = 5
 			}
+			add_resource = {
+				type = junk
+				amount = 7
+			}
 			}
 			
 		}
@@ -34,6 +38,10 @@ looting_decisions = {
 			add_resource = {
 				type = electronics
 				amount = -5
+			}
+			add_resource = {
+				type = junk
+				amount = -7
 			}
 			}
 		}
