@@ -1,5 +1,37 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_adhoc_trollbrigades_medium"
+		texturefile = "gfx/interface/technologies/troll1.dds"
+	}
+	SpriteType = {
+		name = "GFX_internet_troll_agencies_medium"
+		texturefile = "gfx/interface/technologies/troll2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ai_trollbots_medium"
+		texturefile = "gfx/interface/technologies/troll3.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_ai_trollbots_medium"
+		texturefile = "gfx/interface/technologies/troll4.dds"
+	}
+	SpriteType = {
+		name = "GFX_reconnecting_to_www_medium"
+		texturefile = "gfx/interface/technologies/reconnect.dds"
+	}
+	SpriteType = {
+		name = "GFX_battlefield_management_systems_medium"
+		texturefile = "gfx/interface/technologies/radio3.dds"
+	}
+	SpriteType = {
+		name = "GFX_improvised_radio_medium"
+		texturefile = "gfx/interface/technologies/radio1.dds"
+	}
+	SpriteType = {
+		name = "GFX_post_collapse_assesment_medium"
+		texturefile = "gfx/interface/technologies/postfall.dds"
+	}
+	SpriteType = {
 		name = "GFX_special_forces_training_medium"
 		texturefile = "gfx/interface/technologies/spec1.dds"
 	}
