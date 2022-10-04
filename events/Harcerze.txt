@@ -491,11 +491,23 @@ country_event = {
 	
 	option = {
 		name = zhp.21.a #dudiasz wraca na stołek
-		
+		set_politics = {
+			ruling_party = paternal_conservatism
+		}
+		add_country_leader_role = {
+			character = ZHP_andrzej_duda
+			desc = "POLITICS_ANDRZEJ_DUDA_DESC"
+			promote_leader = yes
+			country_leader = {
+				ideology = paternal_conservatism_subtype
+				expire="1.1.1.1"
+				id = -1
+			}
+		}
 	}
 	
 	option = {
 		name = zhp.21.b #dudiasz wykurwia
-		
+		add_stability = -0.05
 	}
 }

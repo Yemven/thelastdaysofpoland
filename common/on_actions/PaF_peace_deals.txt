@@ -207,8 +207,10 @@ on_actions = {
 						original_tag = ZHP
 					}
 				}
-				country_event = {
-					id = zhp.21
+				FROM = {
+					country_event = {
+						id = zhp.21
+					}
 				}
 			}
 			if = {
