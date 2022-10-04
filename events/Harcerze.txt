@@ -480,3 +480,22 @@ country_event = {
 		
 	}
 }
+
+country_event = {
+	id = zhp.21 # abepe jędraszewski się zastanawia
+	title = zhp.21.t
+	desc = zhp.21.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = zhp.21.a #dudiasz wraca na stołek
+		
+	}
+	
+	option = {
+		name = zhp.21.b #dudiasz wykurwia
+		
+	}
+}
