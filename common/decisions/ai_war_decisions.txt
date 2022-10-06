@@ -6163,6 +6163,11 @@ ai_war_decisions = {
 							freedom_level = 0.15 
 						} 
 					}
+					NYS = { 
+						set_politics = {
+							ruling_party = autocracy
+							}
+					}
 				}
 				if = { limit = { country_exists = MNI }
 					MNI = {
@@ -6171,6 +6176,11 @@ ai_war_decisions = {
 							autonomous_state = autonomy_supervised_state
 							freedom_level = 0.15 
 						} 
+					}
+					NYS = { 
+						set_politics = {
+							ruling_party = autocracy
+							}
 					}
 				}
 				if = { limit = { country_exists = OPO
@@ -6233,6 +6243,11 @@ ai_war_decisions = {
 							freedom_level = 0.15 
 						} 
 					}
+					NYS = { 
+						set_politics = {
+							ruling_party = autocracy
+							}
+					}
 				}
 				if = { limit = { country_exists = MNI }
 					MNI = {
@@ -6241,6 +6256,11 @@ ai_war_decisions = {
 							autonomous_state = autonomy_supervised_state
 							freedom_level = 0.15 
 						} 
+					}
+					NYS = { 
+						set_politics = {
+							ruling_party = autocracy
+							}
 					}
 				}
 
@@ -8056,7 +8076,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = CAL
-			date > 2028.04.01
+			date > 2028.02.15
 			GNI = {
 		    has_war = no}
 			AND = {
@@ -8095,7 +8115,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = GNI
-			date > 2028.04.01
+			date > 2028.02.15
 			CAL = {
 		    has_war = no}
 			AND = {

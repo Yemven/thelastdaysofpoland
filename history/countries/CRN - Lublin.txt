@@ -7,8 +7,8 @@ set_technology = {
 		ranged_weapons = 1
 		ranged_weapons1 = 1
 		infantry_training = 1
-		infantry_armor = 1
-		ballistic_vests = 1
+		infantry_armor1 = 1
+		army_uniform = 1
 		
 		tech_support = 1
 		basic_train = 1
@@ -56,6 +56,7 @@ recruit_character = CRN_Sylwester_Tulajew
 recruit_character = CRN_Artur_Sobon
 recruit_character = CRN_Tomasz_Pitucha
 recruit_character = CRN_Stanislaw_Budzik
+recruit_character = CRN_Joanna_Mucha
 
 add_ideas = {
 	CRN_debuff
@@ -92,14 +93,14 @@ set_politics = {
 
 set_popularities = {
 	marxism_cranism	= 0
-	squattism = 0
+	squattism = 10
 	socialdemocrature = 0
-	euroliberalism = 0
+	euroliberalism = 5
 	freemarketism = 0
-	paternal_conservatism = 100
+	paternal_conservatism = 45
 	autocracy = 0
 	corporativism = 0 
-	neonationalism = 0
-	reactionary = 0
+	neonationalism = 10
+	reactionary = 30
 	postpolonism = 0
 }

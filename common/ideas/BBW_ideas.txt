@@ -67,6 +67,26 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.05
 			}
 		}
+		BBW_green_counter_revolution5 =	{
+			allowed = {
+				original_tag = BBW
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_green_counter_revolution
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = 0.1
+				research_speed_factor = -0.1
+				local_resources_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				army_org_factor = -0.1
+				conscription_factor = -0.1
+			}
+		}
 		BBW_steam_power =	{
 			allowed = {
 				original_tag = BBW
@@ -707,32 +727,14 @@ BBW_infrastructure_focus = {
 			}
 
 			removal_cost = -1
-			picture = BBW_smog
+			picture = BBW_smol_biznes
 			modifier = {
 			research_speed_factor = 0.005
 			industrial_capacity_factory = 0.03
 			production_speed_buildings_factor = 0.05
 			}
 		}
-		
-		BBW_futile_resistance = {
-			allowed = {
-				original_tag = BBW
-			}
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = yes
-			}
 
-			removal_cost = -1
-			picture = BBW_smog
-			modifier = {
-				army_org_factor = -0.05
-				conscription_factor = -0.05
-			}
-		}
 	}
 	industrial_company = {
 		use_list_view = yes

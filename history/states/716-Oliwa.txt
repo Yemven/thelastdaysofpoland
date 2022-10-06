@@ -1,22 +1,38 @@
+
 state={
 	id=716
 	name="STATE_716"
-	provinces={
-		7431 11341 11342
-	}
-	manpower = 61448   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = GDA
-		victory_points = {7431 5 }
-		victory_points = {11342 5 }
-		victory_points = {11341 5 }
+		victory_points = {
+			7431 5 
+		}
+		victory_points = {
+			11342 5 
+		}
+		victory_points = {
+			11341 5 
+		}
 		add_core_of = GDA
-	buildings = {
-	infrastructure = 7
-	industrial_complex = 2
-	arms_factory = 1
-	11342 = { naval_base = 2 }
-}
-}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+			11342 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4935 5016 5102 6366 6413 6431 7431 11341 11342 
+	}
+	manpower=63448
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

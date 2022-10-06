@@ -4,6 +4,7 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/ZYD/ZYD_Rabin.dds"
+				small = "gfx/interface/ideas/ZYD/ZYD_rabin.dds"
 			}
 		}
 		country_leader={
@@ -14,12 +15,27 @@ characters={
 			id=-1
 		}
 		field_marshal = {
-			traits = { }
+			traits = { commando skirmisher }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ZYD_hc_rabin
+			ledger = army
+			allowed = {
+				original_tag = ZYD
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	ZYD_urban={
@@ -45,23 +61,87 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		advisor = {
+			slot = high_command
+			idea_token = ZYD_hc_urban
+			ledger = army
+			allowed = {
+				original_tag = ZYD
+			}
+			traits = {
+				army_chief_old_guard
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
-	ZYD_zygmuntowski={
-		name="Jan J. Zygmuntowski"
+	ZYD_olejniczak={
+		name="Wojciech Olejniczak"
 		portraits=
 		{ civilian = {
-		small = "gfx/interface/ideas/ZYD/ZYD_zygmuntowski.dds" }
+		small = "gfx/interface/ideas/ZYD/ZYD_olejniczak.dds" }
 		}
 		advisor = {
 			cost = -1
 			slot = minister_of_economy
-			idea_token = ZYD_min_zygmuntowski
+			idea_token = ZYD_min_olejniczak
 			removal_cost = -1
 			ledger = civilian
 			allowed = {
 				original_tag = ZYD
 			}
 			traits = { innovative_economist }
+		}
+	}
+	ZYD_mosze={
+		name="Mosze Sztolcman"
+		portraits=
+		{ civilian = {
+		large = "gfx/leaders/ZYD/ZYD_Mosze.dds"
+		small = "gfx/interface/ideas/ZYD/ZYD_mosze.dds" }
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ZYD_hc_mosze
+			ledger = army
+			allowed = {
+				original_tag = ZYD
+			}
+			available = { has_completed_focus = ZYD_sanctioning_the_kibbutz_cult_of_strength }
+			traits = {
+				army_chief_planning_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	ZYD_birkut={
+		name="Sebastian Birkut"
+		portraits=
+		{ civilian = {
+		large = "gfx/leaders/ZYD/ZYD_Birkut.dds"
+		small = "gfx/interface/ideas/ZYD/ZYD_birkut.dds"		}
+		}
+		
+		advisor = {
+			slot = high_command
+			idea_token = ZYD_hc_birkut
+			ledger = army
+			allowed = {
+				original_tag = ZYD
+			}
+			available = { has_completed_focus = ZYD_recreation_of_wzw }
+			traits = {
+				army_chief_reform_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	ZYD_daniels={
@@ -82,12 +162,27 @@ characters={
 			traits = { parachuter }
 		}
 		corps_commander = {
-			traits = { }
+			traits = { commando paratrooper }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ZYD_hc_daniels
+			ledger = army
+			allowed = {
+				original_tag = ZYD
+			}
+			traits = {
+				air_airborne_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	ZYD_tiger={
@@ -108,12 +203,27 @@ characters={
 			traits = { hacker }
 		}
 		corps_commander = {
-			traits = { }
+			traits = { media_personality }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ZYD_hc_tiger
+			ledger = army
+			allowed = {
+				original_tag = ZYD
+			}
+			traits = {
+				air_airborne_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 }

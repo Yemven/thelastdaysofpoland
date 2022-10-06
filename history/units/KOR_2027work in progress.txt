@@ -1,0 +1,126 @@
+division_template = {
+	name = "Batalion Piechoty Morskiej"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Załoga Korsarska"
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Bojówki śródlądowe"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Łowcy Fal"
+		location = 15969
+		division_template = "Załoga Korsarska"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Wolni Marynarze"
+		location = 15967
+		division_template = "Załoga Korsarska"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Wesoła Załoga"
+		location = 430
+		division_template = "Załoga Korsarska"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Batalion Piechoty Morskiej 'Kompania Szczwanego Zbyszka'"
+		location = 11344
+		division_template = "Batalion Piechoty Morskiej"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Bojówka Kapitanatu Gdańskiego"
+		location = 11343
+		division_template = "Bojówki śródlądowe"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Bojówki Ziembińskiego"
+		location = 16011
+		division_template = "Bojówki śródlądowe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	fleet = {
+		name = "Gdańska Flota Piracka"			
+		naval_base = 15967
+		task_force = {
+			name = "Korsarze bałtyccy"
+			location = 15967
+			ship = { name = "Piotr Jr"  pride_of_the_fleet = yes definition = heavy_monitor start_experience_factor = 0.4 equipment = { heavy_monitor_hull_equipment = { amount = 1 owner = KOR version_name = "Karaka klasy Piotr z Gdańska" } } }
+			ship = { name = "Fryderyk Chopin"  definition = monitor start_experience_factor = 0.7 equipment = { monitor_hull_equipment = { amount = 1 owner = KOR version_name = "Bryg klasy Fryderyk Chopin" } } }
+			ship = { name = "Paweł Beneke"  definition = heavy_monitor start_experience_factor = 0.4 equipment = { heavy_monitor_hull_equipment = { amount = 1 owner = KOR version_name = "Karaka klasy Piotr z Gdańska" } } }
+
+		}
+	}
+	fleet = {
+		name = "Piraci Wiślani"			
+		naval_base = 4165
+		task_force = {
+			name = "Piraci wiślani"
+			location = 4165
+			ship = { name = "Wiślanka"  definition = monitor  start_experience_factor = 0.2  equipment = { monitor_hull_equipment = { amount = 1 owner = KOR version_name = "Bryg klasy Fryderyk Chopin" } } }
+			ship = { name = "Brązowy"  definition = monitor  start_experience_factor = 0.3  equipment = { monitor_hull_equipment = { amount = 1 owner = KOR version_name = "Bryg klasy Fryderyk Chopin" } } }
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

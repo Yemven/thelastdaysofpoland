@@ -9,8 +9,8 @@ set_technology = {
 		ranged_weapons = 1
 		ranged_weapons1 = 1
 		infantry_training = 1
-		infantry_armor = 1
-		ballistic_vests = 1
+		infantry_armor1 = 1
+		army_uniform = 1
 
 		tech_support = 1
 		basic_train = 1
@@ -53,6 +53,10 @@ if = {
 set_convoys = 20
 
 recruit_character = RZE_grzegorz_braun
+recruit_character = RZE_wlodzimierz_skalik
+recruit_character = RZE_damian_banka
+recruit_character = RZE_michal_malyska
+recruit_character = RZE_adam_kania
 
 
 set_politics = {
@@ -65,20 +69,24 @@ set_politics = {
 set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
-	socialdemocrature = 0
-	euroliberalism = 0
-	freemarketism = 0
-	paternal_conservatism = 0
-	autocracy = 43
+	socialdemocrature = 18
+	euroliberalism = 12
+	freemarketism = 6
+	paternal_conservatism = 13
+	autocracy = 12
 	corporativism = 0
-	neonationalism = 0
-	reactionary = 57
-	postpolonism = 0
+	neonationalism = 7
+	reactionary = 31
+	postpolonism = 1
 }
 
 add_ideas = {
 	RZE_patodeveloperka
 	RZE_ukrainian_siege
+	RZE_min_skalik
+	RZE_min_banka
+	RZE_min_malyska
+	RZE_min_kania
 	controlled_opposition
 	state_press
 	advanced_security

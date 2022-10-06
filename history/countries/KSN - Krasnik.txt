@@ -7,8 +7,8 @@ set_technology = {
 		ranged_weapons = 1
 		ranged_weapons1 = 1
 		infantry_training = 1
-		infantry_armor = 1
-		ballistic_vests = 1
+		infantry_armor1 = 1
+		army_uniform = 1
 		
 		tech_support = 1
 		basic_train = 1
@@ -51,8 +51,16 @@ if = {
 oob = "KSN_2027"
 
 recruit_character = KSN_Pawel_Chojecki
+recruit_character = KSN_Eunika_Chojecka
+recruit_character = KSN_Tymoteusz_Chojecki
+recruit_character = KSN_Kornelia_Chojecka
+recruit_character = KSN_Pawel_Machala
 
 add_ideas = {
+	KSN_min_Eunika_Chojecka
+	KSN_min_Tymoteusz_Chojecki
+	KSN_min_Kornelia_Chojecka
+	KSN_min_Pawel_Machala
 
 	monoparty
 	absolute_censorship
@@ -86,9 +94,9 @@ set_popularities = {
 	euroliberalism = 0
 	freemarketism = 0
 	paternal_conservatism = 0
-	autocracy = 0
+	autocracy = 15
 	corporativism = 0 
-	neonationalism = 0
-	reactionary = 100
-	postpolonism = 0
+	neonationalism = 20
+	reactionary = 55
+	postpolonism = 10
 }

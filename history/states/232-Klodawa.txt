@@ -22,7 +22,7 @@ state={
 		}
 		add_core_of = GNI
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			industrial_complex = 1
 
 		}
@@ -33,6 +33,9 @@ state={
 		14 459 1129 1522 1996 14507 14508 14510 14511 14514 14515 14516 14517 14518 14519 14520 14521 14522 14523 14524 14525 14526 14527 14528 15009 
 	}
 	manpower=43045
+resources={
+		oil=10
+        coal=18}
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

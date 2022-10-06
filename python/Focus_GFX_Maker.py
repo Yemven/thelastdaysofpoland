@@ -57,7 +57,7 @@ class App(tk.Frame):
 			line_list = inp.readlines()
             # insert at second last line of file
 			line_list.insert(len(line_list)-1, f'''	spriteType = {{
-		name = "GFX_{focus_name}"
+		name = "{focus_name}"
 		texturefile = "gfx/interface/goals/{focus_image}"
 	}}
 
@@ -74,7 +74,7 @@ class App(tk.Frame):
 			line_list = inp.readlines()
             # insert at second last line of file
 			line_list.insert(len(line_list)-1, f'''	SpriteType = {{
-		name = "GFX_{focus_name}_shine"
+		name = "{focus_name}_shine"
 		texturefile = "gfx/interface/goals/{focus_image}"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {{

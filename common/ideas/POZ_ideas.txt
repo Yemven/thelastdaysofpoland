@@ -11,7 +11,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = BBW_more_steam
+			picture = POZ_last_stand
 			modifier = {
 				conscription = 0.01
 				army_org_factor = 0.1
@@ -35,10 +35,10 @@ ideas = {
 			picture = POZ_divided_city
 			modifier = {
 				industry_repair_factor = -0.3
-				consumer_goods_factor = 0.2
+				consumer_goods_factor = 0.15
 				stability_factor = -0.2
 				monthly_population = -0.5
-				production_speed_buildings_factor = -0.5
+				production_speed_buildings_factor = -0.2
 				industrial_capacity_factory = -0.2
 				
 			}
@@ -56,7 +56,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = BBW_more_steam
+			picture = POZ_anti_religious_fervor
 			modifier = {
 				stability_factor = -0.2
 				production_factory_max_efficiency_factor = -0.1
@@ -78,10 +78,10 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = BBW_more_steam
+			picture = POZ_incompetent_administration
 			modifier = {
-				production_speed_buildings_factor = -0.5
-				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.3
+				consumer_goods_factor = 0.1
 				
 			}
 	    }
@@ -187,7 +187,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = BBW_more_steam
+			picture = POZ_anti_religious_fervor
 			modifier = {
 				stability_factor = -0.25
 				production_factory_max_efficiency_factor = -0.1
@@ -208,7 +208,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = BBW_more_steam
+			picture = POZ_divided_city
 			modifier = {
 				industry_repair_factor = -0.2
 				consumer_goods_factor = 0.1

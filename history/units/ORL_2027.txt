@@ -1,0 +1,185 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalion Ochotniczy"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Policja"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		melee_infantry = { x = 2 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Bojówka korporacyjna PKN Orlenu S.A."
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+	}
+}
+
+
+division_template = {
+	name = "Zmotoryzowana bojówka PKN Orlenu S.A."
+	regiments = {
+		armored_car = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		armored_car = { x = 0 y = 3 }
+		armored_car = { x = 1 y = 0 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Tabor cysternowy"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 3 y = 0 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		name = "Komenda Powiatowa Policji w Gostyninie"
+		location = 2196
+		division_template = "Policja"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Komenda Powiatowa Policji w Sochaczewie"
+		location = 553
+		division_template = "Policja"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+
+    division = {
+		name = "Komenda Powiatowa Policji w Sierpcu"
+		location = 3701
+		division_template = "Policja"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Batalion Pomocniczy od rządu w Legionowie"
+		location = 3372
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Najemnicy PKN Orlenu"
+		location = 3395
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Batalion Pomocniczy z 2 batalionu transportowego 10wpsam"
+		location = 4164
+		division_template = "Zmotoryzowana bojówka PKN Orlenu S.A."
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Sierpskie bojówki PKN Orlenu"
+		location = 2886
+		division_template = "Zmotoryzowana bojówka PKN Orlenu S.A."
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Siły porządkowe PKN Orlenu - Sierpc-Drobin"
+		location = 395
+		division_template = "Zmotoryzowana bojówka PKN Orlenu S.A."
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Nadwiślańskie bojówki PKN Orlenu"
+		location = 363
+		division_template = "Zmotoryzowana bojówka PKN Orlenu S.A."
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Milicja PKN Orlenu 'Wyszogród' w Małej Wsi"
+		location = 1164
+		division_template = "Bojówka korporacyjna PKN Orlenu S.A."
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Milicja PKN Orlenu w Zawidzu Kościelnym"
+		location = 1434
+		division_template = "Bojówka korporacyjna PKN Orlenu S.A."
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Konwój cysternowy bojówek PKN Orlenu"
+		location = 3143
+		division_template = "Tabor cysternowy"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "PiSowscy lojaliści Obajtka"
+		location = 1736
+		division_template = "Batalion Ochotniczy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Batalion Samoobrony Płocka"
+		location = 1562
+		division_template = "Batalion Ochotniczy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+}

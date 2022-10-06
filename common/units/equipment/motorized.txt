@@ -24,11 +24,6 @@ equipments = {
 		lend_lease_cost = 5
 
 		build_cost_ic = 5
-		resources = {
-			#oil = 1
-			synthetic_materials = 1
-			steel = 1
-		}
 		
 		fuel_consumption = 1.2
 		supply_truck = yes
@@ -38,7 +33,13 @@ equipments = {
 		year = 2027
 
 		archetype = motorized_equipment
-		priority = 30			
+		priority = 30	
+
+		resources = {
+			synthetic_materials = 1
+			steel = 1
+			junk = 1
+		}
 	}
 
 	motorized_equipment_2 = {
@@ -55,6 +56,12 @@ equipments = {
 		breakthrough = 10
 		
 		build_cost_ic = 5
+		
+		resources = {
+			synthetic_materials = 1
+			steel = 2
+			junk = 2
+		}
 	}
 	
 	motorized_equipment_3 = {
@@ -70,6 +77,12 @@ equipments = {
 		breakthrough = 10
 		
 		build_cost_ic = 5.4
+		
+		resources = {
+			synthetic_materials = 1
+			steel = 3
+			junk = 2
+		}
 	}
 	
 	motorized_equipment_4 = {
@@ -85,6 +98,12 @@ equipments = {
 		breakthrough = 10
 		
 		build_cost_ic = 5.8
+		
+		resources = {
+			synthetic_materials = 2
+			aluminium = 3
+			steel = 2
+		}
 	}
 
 	motorized_equipment_5 = {
@@ -100,5 +119,11 @@ equipments = {
 		breakthrough = 10
 		
 		build_cost_ic = 6.4
+		
+		resources = {
+			synthetic_materials = 2
+			aluminium = 4
+			electronics = 1
+		}
 	}
 }

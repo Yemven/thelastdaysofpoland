@@ -39,11 +39,7 @@ equipments = {
 		lend_lease_cost = 5
 
 		build_cost_ic = 8
-		resources = {
-			steel = 2
-			#oil = 1
-			synthetic_materials = 1
-		}
+
 
 		fuel_consumption = 2.4
 		supply_truck = no
@@ -56,6 +52,12 @@ equipments = {
 		archetype = apc_equipment
 		priority = 40
 		visual_level = 0
+		
+		resources = {
+			steel = 2
+			junk = 2
+			synthetic_materials = 1
+		}
 	}
 
 	# ~1943
@@ -81,8 +83,8 @@ equipments = {
 		build_cost_ic = 10
 		resources = {
 			steel = 3
+			junk = 2
 			synthetic_materials = 1
-			#oil = 1
 		}
 	}
 
@@ -108,9 +110,9 @@ equipments = {
 
 		build_cost_ic = 12
 		resources = {
-			steel = 4
-			synthetic_materials = 1
-			#oil = 2
+			aluminium = 3
+			synthetic_materials = 2
+			electronics = 1
 		}
 	}
 	
@@ -135,9 +137,9 @@ equipments = {
 
 		build_cost_ic = 13
 		resources = {
-			steel = 4
-			synthetic_materials = 1
-			#oil = 2
+			aluminium = 4
+			synthetic_materials = 2
+			electronics = 2
 		}
 	}
 }

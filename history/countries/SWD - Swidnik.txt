@@ -7,8 +7,8 @@ set_technology = {
 		ranged_weapons = 1
 		ranged_weapons1 = 1
 		infantry_training = 1
-		infantry_armor = 1
-		ballistic_vests = 1
+		infantry_armor1 = 1
+		army_uniform = 1
 		
 		tech_support = 1
 		basic_train = 1
@@ -79,12 +79,12 @@ add_ideas = {
 }
 
 set_popularities = {
-	marxism_cranism	= 0
-	squattism = 100
+	marxism_cranism	= 20
+	squattism = 60
 	socialdemocrature = 0
-	euroliberalism = 0
+	euroliberalism = 10
 	freemarketism = 0
-	paternal_conservatism = 0
+	paternal_conservatism = 10
 	autocracy = 0
 	corporativism = 0 
 	neonationalism = 0

@@ -13,7 +13,6 @@ ideas = {
 			consumer_goods_factor = 0.50
 			production_speed_industrial_complex_factor = 0.50
 			production_speed_arms_factory_factor = -0.50
-			production_speed_dockyard_factor = -0.50
 			conversion_cost_civ_to_mil_factor = -0.50
 			conversion_cost_mil_to_civ_factor = 0.50
 			stability_factor = -0.10
@@ -32,7 +31,6 @@ ideas = {
 			consumer_goods_factor = 0.40
 			production_speed_industrial_complex_factor = 0.15
 			production_speed_arms_factory_factor = -0.30
-			production_speed_dockyard_factor = -0.30
 			conversion_cost_civ_to_mil_factor = 0.30
 			conversion_cost_mil_to_civ_factor = -0.30
 			}
@@ -46,12 +44,11 @@ ideas = {
 			modifier = 
 			{
 			consumer_goods_factor = 0.35
-			production_speed_industrial_complex_factor = 0.10
+			production_speed_industrial_complex_factor = -0.20
 			production_speed_arms_factory_factor = 0.10
-			production_speed_dockyard_factor = 0.10
-			conversion_cost_civ_to_mil_factor = -0.10
-			conversion_cost_mil_to_civ_factor = -0.10
-			stability_factor = 0.05
+			local_resources_factor = 0.1
+			conversion_cost_civ_to_mil_factor = -0.20
+			stability_factor = -0.1
 			}
 			cancel_if_invalid = no 
 			}
@@ -62,13 +59,12 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{
-			consumer_goods_factor = 0.35
-			production_speed_industrial_complex_factor = -0.20
+			consumer_goods_factor = 0.45
+			production_speed_industrial_complex_factor = 0.10
 			production_speed_arms_factory_factor = -0.20
-			production_speed_dockyard_factor = -0.20
-			conversion_cost_civ_to_mil_factor = -0.20
+			monthly_population = 0.05
 			conversion_cost_mil_to_civ_factor = -0.20
-			stability_factor = 0.10
+			stability_factor = 0.1
 			}
 			cancel_if_invalid = no 
 			default = yes
@@ -81,12 +77,11 @@ ideas = {
 			modifier = 
 			{
 			consumer_goods_factor = 0.30
-			production_speed_industrial_complex_factor = 0.10
-			production_speed_arms_factory_factor = -0.10
-			production_speed_dockyard_factor = 0.10
+			production_speed_industrial_complex_factor = -0.10
+			production_speed_arms_factory_factor = 0.10
 			conversion_cost_civ_to_mil_factor = -0.30
 			conversion_cost_mil_to_civ_factor = 0.30
-			global_building_slots_factor = 0.10
+			war_support_factor = 0.1
 			}
 			cancel_if_invalid = no 
 			}
@@ -96,17 +91,16 @@ ideas = {
 			removal_cost = -1
 			ledger = civilian
 			modifier = 
-			{
+				{
 			consumer_goods_factor = 0.20
 			production_speed_industrial_complex_factor = -0.30
 			production_speed_arms_factory_factor = 0.20
-			production_speed_dockyard_factor = 0.20
 			conversion_cost_civ_to_mil_factor = -0.20
 			industrial_capacity_factory = 0.10
-			industrial_capacity_dockyard = 0.10
-			stability_factor = -0.25
+			stability_factor = -0.15
 			ai_focus_war_production_factor = 0.25
-			}
+			war_stability_factor = 0.50
+				}
 			cancel_if_invalid = no 
 			}
 			
@@ -119,11 +113,11 @@ ideas = {
 			consumer_goods_factor = 0.40
 			production_speed_industrial_complex_factor = 0.10
 			production_speed_arms_factory_factor = 0.10
-			production_speed_dockyard_factor = 0.10
-			conversion_cost_civ_to_mil_factor = -0.10
-			conversion_cost_mil_to_civ_factor = -0.10
+			conversion_cost_civ_to_mil_factor = 0.20
+			conversion_cost_mil_to_civ_factor = 0.20
 			industry_free_repair_factor = 0.30
-			stability_factor = 0.05
+			stability_factor = 0.1
+			research_speed_factor = -0.05
 			}
 			cancel_if_invalid = no 
 			}
@@ -135,13 +129,12 @@ ideas = {
 			modifier = 
 			{
 			consumer_goods_factor = 0.35
-			production_speed_industrial_complex_factor = 0.10
-			production_speed_arms_factory_factor = 0.10
-			production_speed_dockyard_factor = 0.10
-			conversion_cost_civ_to_mil_factor = -0.20
-			conversion_cost_mil_to_civ_factor = -0.20
-			industry_free_repair_factor = 0.10
-			stability_factor = 0.05
+			production_speed_industrial_complex_factor = 0.2
+			production_speed_arms_factory_factor = 0.2
+			production_speed_buildings_factor = -0.1
+			war_support_factor = 0.1
+			conscription_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.1
 			}
 			cancel_if_invalid = no 
 			}
@@ -152,12 +145,14 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{
-			consumer_goods_factor = 0.30
-			production_speed_industrial_complex_factor = 0.30
-			production_speed_arms_factory_factor = 0.30
-			production_speed_dockyard_factor = 0.30
+			consumer_goods_factor = 0.20
+			production_speed_industrial_complex_factor = 0.10
+			production_speed_arms_factory_factor = 0.10
 			conversion_cost_civ_to_mil_factor = -0.30
 			conversion_cost_mil_to_civ_factor = -0.30
+			production_factory_max_efficiency_factor = -0.15
+			industrial_capacity_factory = -0.05
+			production_factory_efficiency_gain_factor = 0.05
 			}
 			cancel_if_invalid = no 
 			}
@@ -167,17 +162,14 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{
-			consumer_goods_factor = 0.50
-			production_speed_industrial_complex_factor = -0.90
-			production_speed_arms_factory_factor = -0.90
-			production_speed_dockyard_factor = -0.90
-			conversion_cost_civ_to_mil_factor = 0.90
-			conversion_cost_mil_to_civ_factor = 0.90
-			industrial_capacity_factory = -0.90
-			industrial_capacity_dockyard = -0.90
+			consumer_goods_factor = 0.50			
+			equipment_capture_factor = 0.7
+			production_speed_buildings_factor = -0.90
+			industrial_capacity_factory = 0.3
 			stability_factor = 0.15
 			industry_free_repair_factor = 0.50
-			research_speed_factor = -0.10
+			research_speed_factor = -0.5
+			conscription_factor = 0.25
 			}
 			cancel_if_invalid = no 
 			}
@@ -188,20 +180,15 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{
+			equipment_capture_factor = 0.5
 			consumer_goods_factor = 0.55
 			production_speed_industrial_complex_factor = -0.70
 			production_speed_arms_factory_factor = -0.70
 			production_speed_dockyard_factor = -0.70
-			conversion_cost_civ_to_mil_factor = 0.70
-			conversion_cost_mil_to_civ_factor = 0.70
 			production_factory_max_efficiency_factor = -0.20
 			production_factory_efficiency_gain_factor = 0.25
 			recruitable_population_factor = 0.15
-			resistance_growth_on_our_occupied_states = 0.25
-			resistance_decay_on_our_occupied_states = -0.25
-			resistance_decay = 0.20
-			resistance_growth = -0.20
-			compliance_growth = 0.20
+			conscription_factor = 0.15
 			}
 			cancel_if_invalid = no 
 			}
@@ -212,16 +199,13 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{
-			consumer_goods_factor = 0.15
-			production_speed_industrial_complex_factor = -0.50
-			production_speed_arms_factory_factor = -0.50
-			production_speed_dockyard_factor = -0.90
-			conversion_cost_civ_to_mil_factor = 0.90
-			conversion_cost_mil_to_civ_factor = 0.90
+			consumer_goods_factor = 0.25
+			equipment_capture_factor = 0.3
+			production_speed_buildings_factor = -0.40
 			industrial_capacity_factory = -0.25
 			industrial_capacity_dockyard = -0.25
 			industry_free_repair_factor = -0.50
-			stability_factor = -0.25
+			recruitable_population_factor = 0.05
 			}
 			cancel_if_invalid = no 
 			}
@@ -235,12 +219,10 @@ ideas = {
 			consumer_goods_factor = 0.30
 			production_speed_industrial_complex_factor = 0.20
 			production_speed_arms_factory_factor = 0.20
-			production_speed_dockyard_factor = 0.20
 			conversion_cost_civ_to_mil_factor = 0.20
 			conversion_cost_mil_to_civ_factor = 0.20
 			industrial_capacity_factory = -0.20
-			industrial_capacity_dockyard = -0.20
-			stability_factor = -0.15
+			stability_factor = -0.1
 			industry_free_repair_factor = 0.10
 			}
 			cancel_if_invalid = no 
@@ -257,6 +239,8 @@ ideas = {
 			production_speed_arms_factory_factor = -0.35
 			production_speed_dockyard_factor = -0.35
 			stability_factor = 0.10
+			conscription_factor = 0.05
+			monthly_population = 0.35
 			}
 			cancel_if_invalid = no 
 			}
@@ -289,7 +273,6 @@ ideas = {
 			ledger = civilian
 			modifier = 
 			{
-			#brak cumsumer goods, czemu tak ma byc to nie wiem :/
 			production_speed_industrial_complex_factor = 0.50
 			production_speed_arms_factory_factor = 0.50
 			production_speed_dockyard_factor = 0.50
@@ -297,8 +280,8 @@ ideas = {
 			conversion_cost_mil_to_civ_factor = -0.50
 			industrial_capacity_factory = 0.50
 			industrial_capacity_dockyard = 0.50
-			stability_factor = 0.20
-			industry_free_repair_factor = 1
+			stability_factor = 0.50
+			industry_free_repair_factor = 1.0
 			}
 			cancel_if_invalid = no 
 			}

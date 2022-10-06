@@ -16,24 +16,7 @@ ideas = {
 				land_reinforce_rate = 0.05
 			}
 		}
-		ZYD_unfinished_collectivization = {
-			allowed = {
-				original_tag = ZYD
-			}
-			allowed_civil_war = {
-				always = yes
-			}
 
-			removal_cost = -1
-			picture = ZYD_mobile_ark
-			modifier = {
-				industrial_capacity_factory = -0.1
-				production_speed_infrastructure_factor = -0.1
-				production_speed_industrial_complex_factor = -0.1
-				production_speed_arms_factory_factor = -0.1
-				
-			}
-		}
 		ZYD_minority_rule = {
 			allowed = {
 				original_tag = ZYD
@@ -46,13 +29,12 @@ ideas = {
 			picture = ZYD_mobile_ark
 			modifier = {
 				stability_factor = -0.3
-				marxism_cranism_drift = -0.1
-				squattism_drift = -0.1
-			
-				
+				marxism_cranism_drift = -0.02
+				squattism_drift = -0.02
 			}
 		}
-		ZYD_LKS_guerilla = {
+
+		ZYD_minority_rule2 = {
 			allowed = {
 				original_tag = ZYD
 			}
@@ -63,11 +45,333 @@ ideas = {
 			removal_cost = -1
 			picture = ZYD_mobile_ark
 			modifier = {
+				stability_factor = -0.2			
+			}
+		}		
+
+		ZYD_LKS_guerilla = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_LKS
+			modifier = {
 				political_power_gain = -0.1
 				monthly_population = -0.15
 				supply_consumption_factor = 0.1
 			}
 		}
+		
+		ZYD_pitch_failures = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_pitch_failures
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.2
+			}
+		}
+		
+		ZYD_pitch_failures2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_pitch_failures
+			modifier = {
+				stability_factor = -0.1
+				army_org_factor = -0.1
+				war_support_factor = -0.1
+				political_power_factor = -0.2
+			}
+		}
+		
+		
+		ZYD_eleven_falashas = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_org_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		ZYD_eleven_praca = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		ZYD_eleven_falashas2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				stability_factor = 0.05
+				army_org_factor = 0.1
+				war_support_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		ZYD_eleven_praca2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				industrial_capacity_factory = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}		
+
+		ZYD_i_znow_bijatyka = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_org_factor = -0.15
+				war_support_factor = -0.2
+				political_power_factor = -0.05
+				army_defence_factor = -0.15
+			}
+		}
+		ZYD_i_znow_bijatyka2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_org_factor = -0.15
+				war_support_factor = -0.2
+				political_power_factor = -0.05
+				army_defence_factor = -0.15
+				stability_factor = -0.2
+			}
+		}
+		ZYD_unfinished_collectivization = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_unfinished_collectivization
+			modifier = {
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = 0.2
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+
+		ZYD_ekonomia_kradziejsko_kibolska2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = 0.2
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				army_org_factor = -0.2
+			}
+		}
+		ZYD_ekonomia_kibucowska = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_org_factor = 0.1
+				stability_factor = 0.05
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+		ZYD_ekonomia_kibucowska2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_org_factor = 0.1
+				stability_factor = 0.05
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.1
+				production_lack_of_resource_penalty_factor = -0.15
+			}
+		}
+		ZYD_ekonomia_urbana = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = 0.05
+				decryption_factor = 0.05
+			}
+		}
+		ZYD_ekonomia_urbana2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = 0.05
+				decryption_factor = 0.05
+				production_lack_of_resource_penalty_factor = -0.15
+			}
+		}
+		ZYD_armia_dawida = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_morale_factor = 0.15
+				army_attack_factor = 0.1
+			}
+		}
+
+		ZYD_armia_urbana = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_org_factor = 0.1
+				planning_speed = 0.15
+			}
+		}
+
+		ZYD_armia_dawida2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_morale_factor = 0.15
+				army_attack_factor = 0.1
+				army_org_regain = 0.1
+			}
+		}
+
+		ZYD_armia_urbana2 = {
+			allowed = {
+				original_tag = ZYD
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = ZYD_mobile_ark
+			modifier = {
+				army_org_factor = 0.1
+				army_org_regain = 0.1
+				planning_speed = 0.15
+			}
+		}		
 
 	}
 	

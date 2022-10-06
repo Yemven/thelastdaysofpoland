@@ -28,7 +28,7 @@ state={
 		}
 		add_core_of = EKS
 		buildings = {
-			infrastructure = 7
+			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 1
 
@@ -39,7 +39,10 @@ state={
 	provinces={
 	  1897 3318 13536 13537 13538 13539 13540 13541 13542 13543 13544 13545 13546 13547 13548 13550 13551 13552 13553 13556 13562 13568
 	}
-	manpower=76854
+	manpower=54714
+resources={
+		oil = 7
+		steel=5}
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

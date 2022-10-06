@@ -1,6 +1,36 @@
 spriteTypes = {
 
 
+	spriteType = {
+		name = "GFX_WML_select"
+		texturefile = "gfx/interface/mainmenu/WML_select.dds"
+	    legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_KRS_select"
+		texturefile = "gfx/interface/mainmenu/KRS_select.dds"
+	    legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SAP_select"
+		texturefile = "gfx/interface/mainmenu/SAP_select.dds"
+	    legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ZYD_select"
+		texturefile = "gfx/interface/mainmenu/ZYD_select.dds"
+	    legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ZHP_select"
+		texturefile = "gfx/interface/mainmenu/ZHP_select.dds"
+	    legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_BBW_select"
+		texturefile = "gfx/interface/mainmenu/BBW_select.dds"
+	    legacy_lazy_load = no
+	}	
 
 	spriteType = {
 		name = "GFX_country_selection_minor_entry"
@@ -16,7 +46,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_enabled_achievement_icons"
 		texturefile = "gfx/interface/enabled_achievement_icons.dds"
-		noOfFrames = 3
+		noOfFrames = 4
 	}
 
 	spriteType = {

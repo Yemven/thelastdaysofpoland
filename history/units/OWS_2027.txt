@@ -1,0 +1,118 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalion Piechoty Morskiej"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Garnizon Okupacyjno-Humanitarny"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		military_police = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Batalion Piechoty Wolontaryjnej"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Ochotnicy"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+		melee_infantry = { x = 2 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Szwedzcy Wolontariusze"
+		location = 11345
+		division_template = "Batalion Piechoty Morskiej"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Garnizon Szwedzkich Wolontariuszy"
+		location = 11345
+		division_template = "Garnizon Okupacyjno-Humanitarny"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Sopockie Siły Porządkowe"
+		location = 11346
+		division_template = "Garnizon Okupacyjno-Humanitarny"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1 Batalion Ochotniczy Wielkiej Orkiestry"
+		location = 11347
+		division_template = "Batalion Piechoty Wolontaryjnej"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "2 Batalion Ochotniczy 'Wolontariusze Trójmiejscy'"
+		location = 11348
+		division_template = "Ochotnicy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Ochotnicy Samoobrony Sopockiej"
+		location = 11350
+		division_template = "Ochotnicy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+
+	division = {
+		name = "Batalion Czeczeński"
+		location = 3532
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}

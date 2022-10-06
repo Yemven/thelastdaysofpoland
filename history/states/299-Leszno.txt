@@ -4,7 +4,12 @@ state={
 	provinces={
 		916 13754 13755 13756 13757 13758 13759
 	}
-	manpower = 57618   state_category = city
+	manpower = 57618   
+resources={
+		oil = 3
+		steel=8
+		electronics=3
+		aluminium=1} state_category = city
 	buildings_max_level_factor=1.000
 								history = {
 		owner = EKS

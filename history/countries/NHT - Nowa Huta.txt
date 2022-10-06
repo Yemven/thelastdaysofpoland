@@ -7,8 +7,8 @@ set_technology = {
 		ranged_weapons = 1
 		ranged_weapons1 = 1
 		infantry_training = 1
-		infantry_armor = 1
-		ballistic_vests = 1
+		infantry_armor1 = 1
+		army_uniform = 1
 		
 		tech_support = 1
 		basic_train = 1
@@ -95,52 +95,3 @@ set_popularities = {
 	postpolonism = 0
 }
 
-create_country_leader = {
-	name = "Triumwirat"
-	desc = ""
-	picture = "gfx/leaders/NHT/NHT_Triumwirat1.dds"
-	ideology = autocracy_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Franciszek Smuda"
-	desc = ""
-	picture = ""
-	ideology = freemarketism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Michał Probierz"
-	desc = ""
-	picture = ""
-	ideology = squattism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Małgorzata Wassermann"
-	desc = ""
-	picture = "gfx/leaders/NHT/NHT_Wassermann1.dds"
-	ideology = socialdemocrature_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Krak III"
-	desc = ""
-	picture = "gfx/leaders/NHT/NHT_Triumwirat1.dds"
-	ideology = postpolonism_subtype
-	traits = {
-		#
-	}
-}

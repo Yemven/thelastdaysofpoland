@@ -20,8 +20,9 @@ set_technology = {
 	ranged_weapons1 = 1
 	melee_weapons_upgrade = 1
 	ranged_weapons_upgrade = 1
-	ballistic_vests = 1
-	infantry_armor = 1
+	army_uniform = 1
+	army_uniform1 = 1
+	infantry_armor1 = 1
 	special_forces_equipment = 1
 	armored_car_1 = 1
 	infantry_training = 1
@@ -30,11 +31,16 @@ set_technology = {
 		
 	light_artillery = 1
 	light_artillery1 = 1
+	heavy_artillery = 1
 		
 	primitive_aircraft = 1
 	fighter_0 = 1
 	china_drone = 1
 	drone_0 = 1
+	
+	basic_machine_tools = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
 }
 
 if = {
@@ -63,11 +69,8 @@ if = {
 	}
 }
 
-
-
-set_convoys = 20
-
 add_ideas = {
+	ec_belchatow
 	BBW_green_counter_revolution
 	BBW_steam_power
 	BBW_smog

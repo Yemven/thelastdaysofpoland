@@ -73,6 +73,15 @@ characters={
 			}
 			traits = { }
 		}
+		field_marshal = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
 	}
 	FEL_jacek_wojcicki={
 		name="Jacek Wójcicki"
@@ -94,8 +103,105 @@ characters={
 			traits = { }
 		}
 	}
+	FEL_zbigniew_targonski = {
+		name="Zbigniew Targoński"
+		portraits = {
+			army = {
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FEL_lukasz_piatek = {
+		name="Łukasz Piątek"
+		portraits = {
+			army = {
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FEL_radzimir_debski = {
+		name="Radzimir Dębski"
+		portraits = {
+			army = {
+			   large="gfx/leaders/FEL/FEL_Debski2.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
     FEL_remigiusz_mierzchala = {
 		name="Remigiusz Mierzchała"
+		portraits = {
+			army = {
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FEL_daniel_kubas = {
+		name="Daniel Kubas"
+		portraits = {
+			army = {
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FEL_radoslaw_sikora = {
+		name="Radosław Sikora"
+		portraits = {
+			army = {
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FEL_adam_drath = {
+		name="Adam Drath"
 		portraits = {
 			army = {
 			}

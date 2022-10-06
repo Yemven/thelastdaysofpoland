@@ -1,5 +1,7 @@
 ﻿capital = 115
 
+oob = "GRU_2027"
+
 # Starting tech
 set_technology = {
 		melee_weapons = 1  
@@ -7,8 +9,11 @@ set_technology = {
 		ranged_weapons = 1
 		ranged_weapons1 = 1
 		infantry_training = 1
-		infantry_armor = 1
-		ballistic_vests = 1
+		infantry_armor1 = 1
+		army_uniform = 1
+		special_forces_equipment = 1
+		
+		apc_1 = 1
 		
 		tech_support = 1
 		basic_train = 1
@@ -31,6 +36,7 @@ if = {
 		nsb_truck_1 = 1
 		nsb_sidecar = 1
 		nsb_mbt_0 = 1
+		nsb_apc_1 = 1
 }
 }
 
@@ -51,7 +57,17 @@ if = {
 set_convoys = 20
 
 recruit_character = GRU_command_center
+recruit_character = GRU_andrzej_dyk
+recruit_character = GRU_maciej_glamowski
+recruit_character = GRU_krzysztof_nolbert
+recruit_character = GRU_slawomir_makosa
 
+add_ideas = {
+	GRU_min_dyk
+	GRU_min_glamowski
+	GRU_min_nolbert
+	GRU_min_makosa
+}
 
 set_politics = {
 	ruling_party = reactionary
@@ -64,13 +80,13 @@ set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
 	socialdemocrature = 0
-	euroliberalism = 0
+	euroliberalism = 10
 	freemarketism = 0
 	paternal_conservatism = 0
-	autocracy = 0
+	autocracy = 5
 	corporativism = 0
 	neonationalism = 0
-	reactionary = 100
+	reactionary = 85
 	postpolonism = 0
 }
 

@@ -221,7 +221,7 @@ guiTypes = {
 			}
 			
 			gridboxtype {
-				name = "ballistic_vests_tree"
+				name = "army_uniform_tree"
 				position = { x = 140 y = 440 }
 				slotsize = { width = 70 height = 70}
 				format = "LEFT"
@@ -241,7 +241,7 @@ guiTypes = {
 				format = "LEFT"
 			}
 			
-			###powrÃ³t do wanilki
+			###powrót do wanilki
 		}
 
 		containerWindowType = {
@@ -2963,7 +2963,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=3 y=3 }
+			position = { x=-5 y=0 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
@@ -3217,7 +3217,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=3 y=3 }
+			position = { x=-5 y=0 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
@@ -3600,9 +3600,10 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=16 y=18 }
+			position = { x=10 y=25 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
+			scale = 1.3
 		}
 		iconType = {
 			name = "bonus_icon"
@@ -3656,7 +3657,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=16 y=18 }
+			position = { x=-5 y=0  }
 			spriteType = "GFX_technology_medium"	
 			alwaystransparent = yes
 		}

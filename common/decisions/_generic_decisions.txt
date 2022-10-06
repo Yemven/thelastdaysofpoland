@@ -73,11 +73,17 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
-			add_popularity = {
-			ideology = euroliberalism
-			popularity = -0.01
+			random_list = {
+			5 = {
+				add_popularity = {
+				ideology = euroliberalism
+				popularity = -0.01
+				}
+				}
+			15 = {
+				}
 			}
-			add_political_power  = 75
+			add_political_power = 45
 		}
 	}
 	
@@ -86,7 +92,7 @@ generic_decisions_eurolib_category = {
 		modifier = {	
 			stability_weekly = -0.005
 			political_power_gain = -0.15
-			consumer_goods_factor = -0.05
+			consumer_goods_factor = -0.075
 		}
 		
 		cost = 75
@@ -97,11 +103,23 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
-			add_popularity = {
-			ideology = euroliberalism
-			popularity = -0.02
+			random_list = {
+			10 = {
+				add_popularity = {
+				ideology = euroliberalism
+				popularity = -0.02
+				}
+				}
+			5 = {
+				add_popularity = {
+				ideology = euroliberalism
+				popularity = -0.03
+				}
+				}
+			15 = {
+				}
 			}
-			add_political_power  = 5
+			add_political_power = 15
 		}
 	}
 	
@@ -109,8 +127,8 @@ generic_decisions_eurolib_category = {
 		
 		modifier = {	
 			monthly_population = 0.5
-			political_power_gain = -0.1
-			consumer_goods_factor = 0.01
+			political_power_gain = -0.15
+			consumer_goods_factor = 0.025
 		}
 		
 		cost = 75
@@ -129,8 +147,8 @@ generic_decisions_eurolib_category = {
 		
 		modifier = {	
 			production_speed_buildings_factor = 0.2
-			political_power_gain = -0.1
-			consumer_goods_factor = 0.01
+			political_power_gain = -0.15
+			consumer_goods_factor = 0.025
 		}
 		
 		cost = 75
@@ -163,7 +181,19 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
-			add_manpower = 50
+			random_list = {
+			15 = {
+				add_war_support = 0.03
+				add_manpower = 50
+				army_experience = 5
+				}
+			15 = {
+				add_manpower = 250
+				}
+			15 = {
+			add_political_power = 25
+				}
+			}
 		}
 	}
 	
@@ -213,6 +243,7 @@ generic_decisions_eurolib_category = {
 					}
 				add_political_power = 25
 				add_war_support = -0.1
+				add_manpower = -27
 				}
 			}
 		}
@@ -243,15 +274,15 @@ generic_decisions_eurolib_category = {
 		random_list = {
 			15 = {
 				add_war_support = 0.01
-				add_manpower = 50
+				add_manpower = 250
 				}
-			15 = {
+			10 = {
 				add_war_support = 0.03
-				add_manpower = 100
+				add_manpower = 1000
 				}
-			15 = {
+			10 = {
 				add_war_support = 0.05
-				add_manpower = 200	
+				add_manpower = 2000
 				}
 			}
 		}
@@ -267,12 +298,12 @@ generic_decisions_eurolib_category = {
 		}
 		modifier = {	
 			war_support_weekly = 0.01
-			political_power_gain = 0.15
-			weekly_manpower = 100
+			political_power_gain = 0.25
+			weekly_manpower = 125
 		}
 		
 		cost = 50
-		days_re_enable = 20
+		days_re_enable = 25
 		days_remove = 70
 		complete_effect = {
 			
@@ -282,15 +313,15 @@ generic_decisions_eurolib_category = {
 		random_list = {
 			15 = {
 				add_war_support = 0.03
-				add_manpower = 100
+				add_manpower = 1500
 				}
 			15 = {
 				add_war_support = 0.05
-				add_manpower = 200
+				add_manpower = 2000
 				}
 			15 = {
 				add_war_support = 0.1
-				add_manpower = 350
+				add_manpower = 3500
 				}
 			}
 		}
@@ -708,64 +739,448 @@ generic_decisions_autocrat_category = {
 ####CORPOTATIVISM GENERIC####
 
 generic_decisions_corporate_category = {
-	corp_bribe_officials = {
+	
+	corp_depoliticize_population  = {
 		modifier = {	
-			stability_factor = -0.2
+			stability_weekly = 0.002
+			political_power_gain = 0.15
+			war_support_weekly = -0.001
+		}
+		
+		cost = 70
+		days_re_enable = 10
+		days_remove = 70
+		complete_effect = {
+			
+		}
+		remove_effect = {
+		}
+	}
+	
+	corp_increase_population_comfort  = {
+		modifier = {	
+			stability_weekly = 0.003
 			consumer_goods_factor = 0.1
+			monthly_population = 0.05
 		}
 		
 		cost = 75
 		days_re_enable = 90
 		days_remove = 30
-		complete_effect = {
-			
+		complete_effect = {	
 		}
-		
 		remove_effect = {
-			add_popularity = {
-				ideology = corporativism
-				popularity = 0.05
-			}
 		}
 	}
 	
-	corp_hire_mercenaries = {
-		modifier = {
-			consumer_goods_factor = 0.1
+	corp_lower_quotas  = {
+		modifier = {	
+			consumer_goods_factor = -0.075
+			industrial_capacity_factory = -0.15
+			industrial_capacity_dockyard = -0.15
+			production_factory_efficiency_gain_factor = -0.30
+		}
+		
+		cost = 75
+		days_re_enable = 10
+		days_remove = 90
+		complete_effect = {	
+		}
+		
+		remove_effect = {
+			random_list = {
+				1 = {
+				add_stability = 0.05
+				}
+				2 = {
+				add_stability = -0.025
+				}
+			}
+		}
+		
+	}
+	
+	corp_crank_up_quotas  = {
+		modifier = {	
+			consumer_goods_factor = 0.05
+			industrial_capacity_factory = 0.1
+			industrial_capacity_dockyard = 0.15
+			production_factory_efficiency_gain_factor = 0.15
+			production_factory_max_efficiency_factor = 0.05
 		}
 		
 		cost = 100
-		days_re_enable = 180
-		days_remove = 30
-		complete_effect = {
-			
+		days_re_enable = 10
+		days_remove = 90
+		complete_effect = {	
 		}
 		
 		remove_effect = {
-			add_equipment_to_stockpile = {
-				type = ranged_equipment
-				amount = 200
+		
+			random_list = {
+				2 = {
+				add_stability = 0.025
+				}
+				1 = {
+				add_stability = -0.05
+				}
+				1 = {
+				add_stability = -0.075
+				}
 			}
-			add_manpower = 500
+			custom_effect_tooltip = corpo_random_eq_small_tt
+			random_list = {
+				2 = {
+				add_equipment_to_stockpile = {
+				type = ranged_equipment
+				amount = 100
+					}
+				
+				}
+				1 = {
+				add_equipment_to_stockpile = {
+				type = equipment_vests
+				amount = 125
+					}
+				
+				}
+				1 = {
+				add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 75
+					}
+				}
+			}	
 		}
 	}
 	
-	corp_bend_the_labour_laws = {
-		modifier = {	
-			stability_factor = -0.1
+	corp_lower_the_costs = {
+		modifier = {
+			political_power_gain = -0.40
+			consumer_goods_factor = -0.10
+			industrial_capacity_factory = 0.10
+			monthly_population = -0.10
+			war_support_weekly = -0.002
+			stability_weekly = -0.004
 		}
 		
-		cost = 150
-		days_re_enable = 365
-		days_remove = 30
+		cost = 75
+		days_re_enable = 50
+		days_remove = 56
+		complete_effect = {	
+		}
+		remove_effect = {
+		}
+	}
+	
+	corp_expand_security_forces = {
+		modifier = {
+			political_power_gain = -0.15
+			consumer_goods_factor = 0.05
+			experience_gain_army_factor = 0.20
+		}
+		
+		cost = 75
+		days_re_enable = 5
+		days_remove = 35
 		complete_effect = {
 			
 		}
-		fixed_random_seed = no
-		fixed_random_seed = no
+		
 		remove_effect = {
-			random_owned_state = {
-				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+		custom_effect_tooltip = corpo_random_eq_tt
+			random_list = {
+				2 = {
+				add_equipment_to_stockpile = {
+				type = ranged_equipment
+				amount = 500
+					}
+				add_equipment_to_stockpile = {
+				type = equipment_vests
+				amount = 500
+					}
+				}
+				2 = {
+				add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 75
+					}
+				}
+				2 = {
+				add_equipment_to_stockpile = {
+				type = light_artillery_equipment
+				amount = 25
+					}
+				}
+			}
+			custom_effect_tooltip = corpo_soldiers_random_tt
+			random_list = {
+				2 = {
+				add_manpower = 1000
+				army_experience = 5
+				}
+				2 = {
+				add_manpower = 2000
+				army_experience = 10
+				}
+				2 = {
+				add_manpower = 3000
+				army_experience = 15
+				}
+			}
+		}
+	}
+	
+	corp_encite_military_service = {
+	available = {  
+			if = {
+				has_war = yes
+			}
+		}
+		
+		modifier = {
+			political_power_gain = -0.15
+			consumer_goods_factor = 0.075
+			army_org_factor = 0.15
+			army_org_regain = 0.10
+			army_defence_factor = 0.05
+			recruitable_population_factor = 0.10
+		}
+		
+		cost = 115
+		days_re_enable = 15
+		days_remove = 180
+		complete_effect = {
+		add_manpower = 1000
+		}
+		remove_effect = {
+		}
+	}
+	
+		corp_lend_out_monopoles = {
+		modifier = {
+			political_power_gain = 0.25
+			consumer_goods_factor = 0.10
+			industrial_capacity_factory = 0.10
+			industrial_capacity_dockyard = 0.10
+			stability_weekly = 0.001
+		}
+		
+		cost = 50
+		days_re_enable = 360
+		days_remove = 56
+		complete_effect = {	
+		}
+		
+		remove_effect = {
+		custom_effect_tooltip = corpo_monopoles_tt
+			add_popularity = {
+						ideology = corporativism
+						popularity = 0.01
+			}
+		random_list = {
+			15 = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			15 = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			15 = {
+				random_owned_state = {
+				add_manpower = 1000
+				add_extra_state_shared_building_slots = 5
+				}
+			}
+			15 = {
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+						building = infrastructure
+						size > 0
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+										building = infrastructure
+										size > 0
+										}
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			
+			}
+		}
+		}
+	}
+	
+	corp_crush_the_unions = {
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = corp_commie_danger_tt
+			OR = {
+				marxism_cranism > 0.05
+				squattism > 0.05
+				socialdemocrature > 0.05
+				}
+			}
+		}
+		
+		modifier = {
+			stability_weekly = -0.005
+			war_support_weekly = -0.002
+			monthly_population = -0.15
+		}
+		
+		cost = 75
+		days_re_enable = 30
+		days_remove = 35
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+		custom_effect_tooltip = corpo_lefties_crush_tt
+			IF = {
+			limit = {
+			marxism_cranism > 0.05
+				}
+				random_list = {
+					3 = {
+					add_popularity = {
+						ideology = marxism_cranism
+						popularity = -0.01
+						}
+					}
+					2 = {
+					add_popularity = {
+						ideology = marxism_cranism
+						popularity = -0.025
+						}
+					}
+					1 = {
+					add_popularity = {
+						ideology = marxism_cranism
+						popularity = -0.05
+						}
+					}
+				}
+			}
+			IF = {
+			limit = {
+			squattism > 0.05
+				}
+				random_list = {
+					3 = {
+					add_popularity = {
+						ideology = squattism
+						popularity = -0.01
+						}
+					}
+					2 = {
+					add_popularity = {
+						ideology = squattism
+						popularity = -0.025
+						}
+					}
+					1 = {
+					add_popularity = {
+						ideology = squattism
+						popularity = -0.05
+						}
+					}
+				}
+			}
+			IF = {
+			limit = {
+			socialdemocrature > 0.05
+				}
+				random_list = {
+						3 = {
+						add_popularity = {
+							ideology = socialdemocrature
+							popularity = -0.01
+							}
+						}
+						2 = {
+						add_popularity = {
+							ideology = socialdemocrature
+							popularity = -0.025
+							}
+						}
+						1 = {
+						add_popularity = {
+						ideology = socialdemocrature
+						popularity = -0.05
+						}
+					}
+				}
 			}
 		}
 	}
@@ -871,7 +1286,7 @@ generic_decisions_react_category = {
 				15 = {
 				add_manpower = 2000
 				add_political_power = 35
-				war_support_factor = 0.15
+				add_war_support = 0.15
 				}
 			}
 			
@@ -1079,6 +1494,7 @@ generic_decisions_react_category = {
 		war_support_weekly = 0.005
 		stability_weekly = -0.003
 		weekly_manpower = 100
+		experience_gain_army_factor = 0.10
 		}
 		
 		cost = 100
@@ -1104,11 +1520,321 @@ generic_decisions_react_category = {
 		}
 	}
 	
-	react_proclaim_holy_war = {
-		available = {  
+	react_warriors_of_great_past_wrt = {
+	
+	visible = {
+		has_government = reactionary
+		tag = WRT
+	}
+	
+		modifier = {
+		political_power_gain = -0.1
+		war_support_weekly = 0.005
+		stability_weekly = -0.003
+		weekly_manpower = 100
+		experience_gain_army_factor = 0.10
+		}
+		
+		cost = 100
+		days_re_enable = 56
+		days_remove = 70
+		complete_effect = {
+		}
+		remove_effect = {
+		random_list = {
+			15 = {
+			army_experience = 15
+				add_manpower = 1500
+			}
+			15 = {
+			army_experience = 10
+				add_manpower = 2500
+			}
+			10 = {
+				army_experience = 5
+				add_manpower = 5000
+			}
+		}
+		}
+	}
+	
+}
+
+####GENERIC REACTIONARY SHIZO########
+
+generic_decisions_react_shizo_category = {
+	react_shizo_rewrite_unfavorable_history= {
+		modifier = {	
+			war_support_weekly = -0.001
+			stability_weekly = -0.002
+			political_power_gain = 0.15
+		}
+		
+		cost = 150
+		days_re_enable = 64
+		days_remove = 140
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+		
+		random_list = {
+			15 = {
+				add_manpower = 100
+				add_political_power = 75
+				add_stability = 0.05
+				}
+			15 = {
+				add_manpower = 500
+				add_political_power = 35
+				add_stability = 0.10
+				}
+				15 = {
+				add_manpower = 2000
+				add_political_power = 35
+				add_war_support = 0.15
+				}
+			}
+			
+		}
+	}
+	
+	react_shizo_exploit_nostalgy = {
+		modifier = {
+			stability_weekly = 0.005
+			political_power_gain = -0.05
+			war_support_weekly = -0.003
+		}
+		
+		cost = 50
+		days_re_enable = 35
+		days_remove = 70
+		complete_effect = {
+		}
+		remove_effect = {
+		}
+	}
+	
+	react_shizo_tell_people_what_they_want_to_hear = {
+		modifier = {
+		political_power_gain = 0.25
+		war_support_weekly = -0.002
+		}
+		
+		cost = 25
+		days_re_enable = 35
+		days_remove = 70
+		complete_effect = {
+		}
+		remove_effect = {
+		add_political_power = 15
+		add_stability = 0.03
+		}
+	}
+	
+	react_shizo_rebuild_the_good_old_days = {
+	modifier = {	
+			stability_weekly = -0.005
+			political_power_gain = -0.15
+			research_speed_factor = -0.10
+			production_speed_buildings_factor = 0.10
+		}
+		
+		cost = 100
+		days_re_enable = 30
+		days_remove = 49
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+		random_list = {
+			15 = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			15 = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			15 = {
+				random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				}
+			}
+			15 = {
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+						building = infrastructure
+						size > 0
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+										building = infrastructure
+										size > 0
+										}
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+						building = infrastructure
+						size > 0
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+										building = infrastructure
+										size > 0
+										}
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			
+			}
+		}	
+		}
+	}
+	
+	react_shizo_return_to_old_ways = {
+		modifier = {
+		political_power_gain = 0.15
+		consumer_goods_factor = -0.05
+		war_support_weekly = 0.003
+		stability_weekly = -0.001
+		}
+		
+		cost = 100
+		days_re_enable = 70
+		days_remove = 70
+		complete_effect = {
+		}
+		remove_effect = {
+		add_stability = -0.05
+		}
+	}
+	
+	react_shizo_warriors_of_great_past = {
+		modifier = {
+		political_power_gain = -0.1
+		war_support_weekly = 0.005
+		stability_weekly = -0.003
+		weekly_manpower = 100
+		experience_gain_army_factor = 0.10
+		}
+		
+		cost = 100
+		days_re_enable = 56
+		days_remove = 70
+		complete_effect = {
+		}
+		remove_effect = {
+		random_list = {
+			15 = {
+			army_experience = 15
+				add_manpower = 1500
+			}
+			15 = {
+			army_experience = 10
+				add_manpower = 2500
+			}
+			10 = {
+				army_experience = 5
+				add_manpower = 5000
+			}
+		}
+		}
+	}
+	
+	react_shizo_proclaim_holy_war = {
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = react_shizo_holy_war_devotion_tt
 			if = {
 				has_war_support > 0.75
 				has_war = yes
+			}
 			}
 		}
 		
@@ -1117,7 +1843,7 @@ generic_decisions_react_category = {
 		
 		complete_effect = {
 		ROOT = {
-		custom_effect_tooltip = react_holy_war_tt
+		custom_effect_tooltip = react_shizo_holy_war_tt
 		hidden_effect = {
 		add_stability = -0.15
 		add_manpower = 5000
@@ -1127,7 +1853,6 @@ generic_decisions_react_category = {
 		}
 	}
 	
-
 }
 
 ###POSTPOL####
@@ -1141,38 +1866,160 @@ generic_decisions_postpol_category = { #herder ty zrób te ostatnie bo ty najbar
 
 
 weapon_dealer = {
-	sell_ranged = {
-		days_remove = 30
-		cost = 95
-		complete_effect = {
-			send_equipment = {
-				equipment = ranged_equipment
-				amount = 250
-				target = TSB
-			}
-		}
 	
+
+	buy_vests = {
+		visible = { NOT = { has_country_flag = click_buy_vests } }
+		cost = 0
+		complete_effect = {
+			set_country_flag = click_buy_vests
+		}
 	}
 
-	sell_melee = {
+	collapse_vests = {
+		visible = { has_country_flag = click_buy_vests }
+		cost = 0
+		complete_effect = {
+			clr_country_flag = click_buy_vests
+		}
+	}
+
+	buy_german_vests = {
+		visible = { has_country_flag = click_buy_vests }
 		days_remove = 30
 		cost = 95
-		complete_effect = {
-			send_equipment = {
-				equipment = melee_equipment
-				amount = 250
-				target = TSB
+		modifier = {
+            	civilian_factory_use = 1
+        	}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+    				type = equipment_vests
+    				amount = 250
+    				producer = GER
 			}
 		}
 	}
-	
-	buy_german_ranged = {
+
+	buy_radom_vests = {
+		visible = { has_country_flag = click_buy_vests }
 		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
         	}
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = equipment_vests
+    				amount = 250
+    				producer = RAD
+			}
+		}
+	}
+	
+	buy_chinese_vests = {
+		visible = { has_country_flag = click_buy_vests }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = equipment_vests
+    				amount = 250
+    				producer = CHI
+			}
+		}
+	}
+
+	buy_swedish_vests = {
+		visible = { has_country_flag = click_buy_vests }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = equipment_vests
+    				amount = 250
+    				producer = SWE
+			}
+		}
+	}
+	buy_ukrainian_vests = {
+		visible = { has_country_flag = click_buy_vests }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = equipment_vests
+    				amount = 250
+    				producer = UKR
+			}
+		}
+	}
+
+	buy_russian_vests = {
+		visible = { has_country_flag = click_buy_vests }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = equipment_vests
+    				amount = 250
+    				producer = RUS
+			}
+		}
+	}
+
+	buy_american_vests = {
+		visible = { has_country_flag = click_buy_vests }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = equipment_vests
+    				amount = 250
+    				producer = USA
+			}
+		}
+	}
+
+
+	buy_ranged = {
+		visible = { NOT = { has_country_flag = click_buy_ranged } }
+		cost = 0
 		complete_effect = {
+			set_country_flag = click_buy_ranged
+		}
+	}
+
+	collapse_ranged = {
+		visible = { has_country_flag = click_buy_ranged }
+		cost = 0
+		complete_effect = {
+			clr_country_flag = click_buy_ranged
+		}
+	}
+
+	buy_german_ranged = {
+		visible = { has_country_flag = click_buy_ranged }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            	civilian_factory_use = 1
+        	}
+		remove_effect = {
 			add_equipment_to_stockpile = {
     				type = ranged_equipment
     				amount = 250
@@ -1182,43 +2029,63 @@ weapon_dealer = {
 	}
 
 	buy_radom_ranged = {
+		visible = { has_country_flag = click_buy_ranged }
 		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
         	}
-		complete_effect = {
+		remove_effect = {
 		add_equipment_to_stockpile = {
-    				type = ranged_equipment
+    				type = ranged_equipment_4
     				amount = 250
     				producer = RAD
 			}
 		}
 	}
 
-	buy_swedish_ranged = {
+	buy_chinese_ranged = {
+		visible = { has_country_flag = click_buy_ranged }
 		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
         	}
-		complete_effect = {
+		remove_effect = {
 		add_equipment_to_stockpile = {
-    				type = ranged_equipment
+    				type = ranged_equipment_4
+    				amount = 250
+    				producer = CHI
+			}
+		}
+	}
+
+	buy_swedish_ranged = {
+		visible = { has_country_flag = click_buy_ranged }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = ranged_equipment_4
     				amount = 250
     				producer = SWE
 			}
 		}
 	}
+	
 	buy_ukrainian_ranged = {
+		visible = { has_country_flag = click_buy_ranged }
 		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
         	}
-		complete_effect = {
+		remove_effect = {
 		add_equipment_to_stockpile = {
-    				type = ranged_equipment
+    				type = ranged_equipment_4
     				amount = 250
     				producer = UKR
 			}
@@ -1226,87 +2093,164 @@ weapon_dealer = {
 	}
 
 	buy_russian_ranged = {
+		visible = { has_country_flag = click_buy_ranged }
 		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
         	}
-		complete_effect = {
+		remove_effect = {
 		add_equipment_to_stockpile = {
-    				type = ranged_equipment
+    				type = ranged_equipment_4
     				amount = 250
     				producer = RUS
 			}
 		}
 	}
-	buy_german_melee = {
+
+	buy_american_ranged = {
+		visible = { has_country_flag = click_buy_ranged }
 		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
         	}
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = ranged_equipment_4
+    				amount = 250
+    				producer = USA
+			}
+		}
+	}
+	
+	
+
+	
+	buy_at = {
+		visible = { NOT = { has_country_flag = click_buy_at } }
+		cost = 0
 		complete_effect = {
+			set_country_flag = click_buy_at
+		}
+	}
+
+	collapse_at = {
+		visible = { has_country_flag = click_buy_at }
+		cost = 0
+		complete_effect = {
+			clr_country_flag = click_buy_at
+		}
+	}
+
+	buy_german_at = {
+		visible = { has_country_flag = click_buy_at }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            	civilian_factory_use = 1
+        	}
+		remove_effect = {
 			add_equipment_to_stockpile = {
-    				type = melee_equipment
+    				type = inf_anti_tank_equipment
     				amount = 250
     				producer = GER
 			}
 		}
 	}
 
-	buy_radom_melee = {
+	buy_radom_at = {
+		visible = { has_country_flag = click_buy_at }
 		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
         	}
-		complete_effect = {
-			add_equipment_to_stockpile = {
-    				type = melee_equipment
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
     				amount = 250
     				producer = RAD
 			}
 		}
 	}
-	buy_swedish_melee = {
+
+	buy_swedish_at = {
+		visible = { has_country_flag = click_buy_at }
 		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
         	}
-		complete_effect = {
-			add_equipment_to_stockpile = {
-    				type = melee_equipment
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
     				amount = 250
     				producer = SWE
 			}
 		}
 	}
-	buy_ukrainian_melee = {
+	
+	buy_chinese_at = {
+		visible = { has_country_flag = click_buy_at }
 		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
         	}
-		complete_effect = {
-			add_equipment_to_stockpile = {
-    				type = melee_equipment
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
+    				amount = 250
+    				producer = CHI
+			}
+		}
+	}
+	
+	buy_ukrainian_at = {
+		visible = { has_country_flag = click_buy_at }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
     				amount = 250
     				producer = UKR
 			}
 		}
 	}
-	buy_russian_melee = {
+
+	buy_russian_at = {
+		visible = { has_country_flag = click_buy_at }
 		days_remove = 30
 		cost = 95
 		modifier = {
             		civilian_factory_use = 1
         	}
-		complete_effect = {
-			add_equipment_to_stockpile = {
-    				type = melee_equipment
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
     				amount = 250
     				producer = RUS
+			}
+		}
+	}
+
+	buy_american_at = {
+		visible = { has_country_flag = click_buy_at }
+		days_remove = 30
+		cost = 95
+		modifier = {
+            		civilian_factory_use = 1
+        	}
+		remove_effect = {
+		add_equipment_to_stockpile = {
+    				type = inf_anti_tank_equipment
+    				amount = 250
+    				producer = USA
 			}
 		}
 	}

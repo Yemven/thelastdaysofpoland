@@ -9,8 +9,8 @@ set_technology = {
 		ranged_weapons = 1
 		ranged_weapons1 = 1
 		infantry_training = 1
-		infantry_armor = 1
-		ballistic_vests = 1
+		infantry_armor1 = 1
+		army_uniform = 1
 		
 		tech_support = 1
 		basic_train = 1
@@ -52,18 +52,10 @@ if = {
 
 set_convoys = 20
 
-recruit_character = ZHP_andrzej_duda
-recruit_character = ZHP_marek_jedraszewski
-recruit_character = ZHP_alek
-recruit_character = ZHP_rudy
-recruit_character = ZHP_orsza
-recruit_character = ZHP_zoska
+
 
 add_ideas = {
-	ZHP_min_orsza
-	ZHP_min_rudy
-	ZHP_min_alek
-	ZHP_min_zoska
+	
 	
 	ZHP_gray_lilies
 	ZHP_division_within_ranks

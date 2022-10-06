@@ -1,5 +1,20 @@
 ideas = {
+	hidden_ideas = { 
+		KRS_surrender = {
+			allowed = {
+				original_tag = KRS
+			}
+			allowed_civil_war = {
+				always = yes
+			}
 
+			removal_cost = -1
+			#picture =
+			modifier = {
+				surrender_limit = -0.3
+			}
+		}
+	}
 	country = {
 		KRS_war_profiteering1 =	{
 			allowed = {
@@ -69,7 +84,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = BBW_smog
+			picture = KRS_corrupt_hospitals
 
 			modifier = {
 				monthly_population = -0.2
@@ -85,7 +100,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = BBW_smog
+			picture = KRS_lack_of_legitimacy
 
 			modifier = {
 				stability_factor = -0.2
@@ -103,7 +118,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = BBW_smog
+			picture = KRS_wave_of_kidnappings
 
 			modifier = {
 				stability_factor = -0.15
@@ -121,7 +136,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = BBW_smog
+			picture = KRS_wave_of_kidnappings
 
 			modifier = {
 				stability_factor = -0.2
@@ -139,7 +154,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = BBW_smog
+			picture = KRS_wave_of_kidnappings
 
 			modifier = {
 				stability_factor = -0.25
@@ -178,57 +193,6 @@ ideas = {
 			modifier = {
 				army_attack_factor = 0.05
 				army_defence_factor = 0.10
-				stability_factor = -0.1
-			}
-		}
-		
-		KRS_checkpoint_adverts = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				monthly_population = 0.1
-				industrial_capacity_factory = 0.1
-				production_speed_buildings_factor = 0.1
-			}
-		}
-		
-		KRS_riot_eq_issued = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				weekly_manpower = -10
-				stability_factor = 0.1
-				army_defence_factor = 0.05
-			}
-		}
-		
-		KRS_additional_test_subjects = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				research_speed_factor = 0.1
-				weekly_manpower = -20
 				stability_factor = -0.1
 			}
 		}
@@ -299,89 +263,6 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				war_support_factor = -0.05
-			}
-		}
-		
-		KRS_informants = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				encryption_factor = 0.1
-				decryption_factor = 0.1
-				resistance_activity = -0.3
-				non_core_manpower = 0.55
-			}
-		}
-		
-		KRS_dissidents_disappearing = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				monthly_population = -0.05
-				postpolonism_drift = 0.05
-				stability_factor = 0.05
-			}
-		}
-		
-		KRS_civil_servants_as_managers = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				stability_factor = 0.1
-				political_power_gain = 0.1
-			}
-		}
-		
-		KRS_civil_servants_as_soldiers = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				stability_factor = 0.1
-				political_power_gain = 0.1
-			}
-		}
-		
-		KRS_civil_servants_as_paramedics = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				stability_factor = 0.1
-				political_power_gain = 0.1
 			}
 		}
 		
@@ -495,16 +376,16 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = BBW_smog
+			picture = KRS_lab3
 
 			modifier = {
-				experience_gain_army = 0.1
-				research_speed_factor = 0.2
-				monthly_population = -0.2
+				experience_gain_army = 0.05
+				research_speed_factor = 0.1
+				monthly_population = -0.1
 			}
 		}
 		
-		KRS_cheap_meds = {
+		KRS_megaproject_wip = {
 
 			allowed_civil_war = {
 				always = yes
@@ -515,12 +396,11 @@ ideas = {
 			picture = BBW_smog
 
 			modifier = {
-				monthly_population = 0.1
-				stability_factor = 0.1
-				experience_loss_factor = -0.02
+				consumer_goods_factor = 0.3
+				industrial_capacity_factory = -0.15
 			}
 		}
-		
+
 		KRS_grand_greenhouse = {
 
 			allowed_civil_war = {
@@ -564,42 +444,11 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = BBW_smog
+			picture = KRS_institute
 
 			modifier = {
 				research_speed_factor = 0.2
 				stability_factor = -0.1
-			}
-		}
-		
-		KRS_expanded_rutkowski_patrol = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				experience_gain_army_factor = 0.05
-				training_time_army_factor = -0.1
-			}
-		}
-		
-		KRS_trenches_system = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				max_dig_in_factor = 0.1
 			}
 		}
 		
@@ -616,69 +465,6 @@ ideas = {
 			modifier = {
 				production_speed_arms_factory_factor = 0.1
 				conversion_cost_civ_to_mil_factor = -0.1
-			}
-		}
-		
-		KRS_improved_logistics = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				production_factory_max_efficiency_factor = 0.1
-				line_change_production_efficiency_factor = -0.1
-			}
-		}
-		
-		KRS_supply_lines = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				attrition = -0.05
-				no_supply_grace = 48
-			}
-		}
-		
-		KRS_auxillaries = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				dig_in_speed_factor = 0.1
-			}
-		}
-		
-		KRS_woman_soldiers = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				army_org_factor = 0.05
-				supply_consumption_factor = 0.1
 			}
 		}
 		
@@ -773,7 +559,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = BBW_smog
+			picture = KRS_pawulon
 
 			modifier = {
 				army_attack_factor = 0.1
@@ -789,7 +575,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = BBW_smog
+			picture = KRS_pawulon
 
 			modifier = {
 				army_attack_factor = 0.1

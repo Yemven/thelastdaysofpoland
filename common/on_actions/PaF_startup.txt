@@ -15,7 +15,7 @@ on_actions = {
 						is_ai = yes
 						}
 					}
-					add_ideas = { fucking_ai }
+					add_ideas = fucking_ai 
 				}
 			if = {
 				limit = { 
@@ -24,7 +24,7 @@ on_actions = {
 						is_ai = yes
 						}
 					}
-					add_ideas = { silesia_minor_surrender }
+					add_ideas = silesia_minor_surrender
 				}
 
 			PRK = {
@@ -105,6 +105,10 @@ on_actions = {
 			}
 			BBW = {
 				scoped_play_song = "intro_bractwo"
+				set_variable = { energy_exported = 0 }
+				every_neighbor_country = {
+					set_variable = { energy_imported = 0 }
+				}
 			}
 			FER = {
 				scoped_play_song = "intro_ferajna"
@@ -217,6 +221,79 @@ on_actions = {
 		effect = {
 			every_country = {
 				calculate_energy_balance = yes
+			}
+		}
+	}
+	on_daily_ZHR = {
+		effect = {
+			if = {
+				limit = {
+					has_character = ZHP_marek_jedraszewski
+					not = {
+						has_country_leader = {
+							character = ZHP_marek_jedraszewski
+							ruling_only = yes
+						}
+					}
+				}
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ZHP_marek_jedraszewski
+					promote_leader = yes
+					country_leader = {
+						ideology = paternal_conservatism_subtype
+						expire="1.1.1.1"
+						id = -1
+					}
+				}
+			}
+		}
+	}
+	
+	on_daily_GFL = {
+		effect = {
+			if = {
+				limit = {
+					has_character = ZHP_orsza
+					not = {
+						has_country_leader = {
+							character = ZHP_orsza
+							ruling_only = yes
+						}
+					}
+				}
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ZHP_orsza
+					country_leader = {
+						ideology = scout_system_subtype
+						expire="1.1.1.1"
+						id = -1
+					}
+				}
+			}
+		}
+	}
+	
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { tag = BBW }
+					has_country_flag = importing_energy
+				}
+				clr_country_flag = importing_energy
+				remove_opinion_modifier = {
+					target = BBW
+					modifier = aided_industry
+				}
+				remove_ideas = importing_energy_idea
+				BBW = {
+					add_offsite_building = {
+						type = industrial_complex
+						level = -1
+					}
+				}
 			}
 		}
 	}

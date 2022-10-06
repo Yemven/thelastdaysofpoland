@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = WML
+add_namespace = WML_news
 
 country_event = {
 	id = WML.1
@@ -28,8 +29,6 @@ country_event = {
 
 	option = {
 		name = WML.2.a
-
-		add_ideas = WML_three_problems1
 	}
 }
 
@@ -41,10 +40,16 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
+	option = {			#Wybór ścieżki Dialogu
 		name = WML.3.a
 
 	}
+	
+	option = {			#Wybór - Festung Łódź 
+		name = WML.3.b
+
+	}
+	
 }
 
 ####THREE PROBLEMS####
@@ -730,3 +735,240 @@ country_event = { #flavor event o tym że kanalie które dołączyly do naszych 
 	}
 }
 
+country_event = { #WML_and_a_look_onto_the_stage
+	id = WML.22
+	title = WML.22.t
+	desc = WML.22.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.22.a
+		add_ideas = WML_three_problems1
+		hidden_effect = {
+		country_event = {
+			id = WML.32
+			days = 7
+			}
+		}
+	}
+}
+
+country_event = { #WML_hungry_and_lost
+	id = WML.23
+	title = WML.23.t
+	desc = WML.23.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.23.a
+	}
+}
+
+country_event = { #WML_why_cant_we_just_agree
+	id = WML.24
+	title = WML.24.t
+	desc = WML.24.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.24.a
+	}
+}
+
+country_event = { #WML_striking_workers
+	id = WML.25
+	title = WML.25.t
+	desc = WML.25.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	#kibole Żymiańscy pomagają nam pałować strajkujacych
+	option = {
+		name = WML.25.a
+		country_event = {
+			id = WML.26
+			days = 2
+				}
+		add_political_power = 15
+	}
+
+	#Próba dialogu ze strajkującymi
+	option = {
+		name = WML.25.b
+	add_political_power = -15
+	hidden_effect = {
+	random_list = {
+		50 = {
+		country_event = {
+			id = WML.27
+			days = 10
+				}
+			}
+			50 = {
+				country_event = {
+				id = WML.21
+				days = 24
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Żymianie pałujom jak ZOMO w "wujku" :3
+	id = WML.26
+	title = WML.26.t
+	desc = WML.26.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.26.a
+		577 = {
+		add_manpower = -241
+		}
+		add_stability = 0.02
+		add_popularity = {
+			ideology = euroliberalism
+			popularity = -0.03
+		}
+	}
+}
+
+country_event = { #Negocjacje zakończone sukcesem
+	id = WML.27
+	title = WML.27.t
+	desc = WML.27.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 	#Przekonujemy strajkujących żeby wrócili do pracy
+		name = WML.27.a
+		add_political_power = 25
+		add_stability = 0.05
+		add_popularity = {
+				ideology = euroliberalism
+				popularity = 0.01
+		}
+	}
+}
+
+country_event = { #Negocjacje-Porażka
+	id = WML.28
+	title = WML.28.t
+	desc = WML.28.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { #Jesteśmy zmuszeni wykonać chociaż część postulatów strajkujących
+		name = WML.28.a
+		add_stability = 0.02
+		add_timed_idea = { idea = WML_bowed_to_the_strikers  days = 70 }
+	}
+}
+
+country_event = { #WML_sow_the_seeds_of_dialogue
+	id = WML.29
+	title = WML.29.t
+	desc = WML.29.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.29.a
+	}
+}
+
+country_event = { #WML_the_beginning_of_the_dialogue
+	id = WML.30
+	title = WML.30.t
+	desc = WML.30.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.30.a
+		add_political_power = 5
+	}
+}
+
+country_event = { #WML_insider_perspective
+	id = WML.31
+	title = WML.31.t
+	desc = WML.31.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.31.a
+	}
+}
+
+country_event = { #WML_send_out_delegations
+	id = WML.32
+	title = WML.32.t
+	desc = WML.32.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.32.a
+	}
+}
+
+country_event = { #Wprowadzenie o Strajkujących 
+	id = WML.33
+	title = WML.33.t
+	desc = WML.33.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = WML.33.a
+		add_ideas = WML_regional_strikes
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#####NEWS EVENTY DLA HOŁOWNI####
+
+news_event = {			#WML_convene_general_assembly - Świat dowiaduje się o Wielkiej Łódzkiej Popijawie :P
+	id = WML_news.1 
+	title = WML_news.1.t
+	desc = WML_news.1.desc
+	
+	major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = WML_news.1.a
+	}
+}

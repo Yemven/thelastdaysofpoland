@@ -1,0 +1,148 @@
+division_template = {
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalion niedobitków"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalion Ochotniczy"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Jednostka Walki Radioelektronicznej"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Jednostka Pomocnicza"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalion Wsparcia"
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Pluton Dowodzenia i Kompania Zakłóceń 8bWRE"
+		location = 3343
+		division_template = "Jednostka Walki Radioelektronicznej"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Kompania Rozpoznania Radioelektr. i Pluton Remontowy 8bWRE"
+		location = 15686
+		division_template = "Jednostka Walki Radioelektronicznej"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "81 Batalion Lekkiej Piechoty 8K-PBOT"
+		location = 15733
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "82 Batalion Lekkiej Piechoty 8K-PBOT"
+		location = 15735
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "8 Kompania Logistyczna i 8 Kompania Saperów 8K-PBOT"
+		location = 15734
+		division_template = "Jednostka Pomocnicza"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Niedobitki z 4pchem"
+		location = 15781
+		division_template = "Batalion niedobitków"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "1 Batalion Ochotników z 1BLog"
+		location = 15693
+		division_template = "Batalion niedobitków"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "2 Batalion Ochotników z 1BLog"
+		location = 15700
+		division_template = "Batalion niedobitków"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.7
+	}
+
+	division = {
+		name = "Batalion Dowodzenia Inspektoratu Wsparcia Sił Zbrojnych"
+		location = 15774
+		division_template = "Batalion Wsparcia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Rypiński Batalion Milicji Ochotniczej"
+		location = 15802
+		division_template = "Batalion Ochotniczy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+}

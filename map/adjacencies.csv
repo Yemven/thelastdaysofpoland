@@ -1,4 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+
 9238;9237;sea;5134;-1;-1;-1;-1;;Kanal K-K
 9239;9236;sea;5134;-1;-1;-1;-1;;Kanal K-K
 9557;9556;sea;5134;-1;-1;-1;-1;;Kanal Ujazd
@@ -59,9 +60,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 14438;14449;sea;5400;-1;-1;-1;-1;;BYD
 14439;14445;sea;5400;-1;-1;-1;-1;;BYD
 1688;14442;sea;5400;-1;-1;-1;-1;;BYD
-14441;14404;sea;5400;-1;-1;-1;-1;;BYD
 14405;14440;sea;5400;-1;-1;-1;-1;;BYD
-14403;14402;sea;5400;-1;-1;-1;-1;;BYD
+
 
 11343;11332;sea;4541;-1;-1;-1;-1;;Tunel Goclowskiego Gdansk
 11331;11332;sea;4541;-1;-1;-1;-1;;Most Ostrowski Gdansk
@@ -82,14 +82,24 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11367;11457;sea;5290;-1;-1;-1;-1;;Most Siekierkowski Warszawa
 11482;11372;sea;4411;-1;-1;-1;-1;;Most Anny Jagiellonki Warszawa
 
-491;13338;sea;4746;-1;-1;-1;-1;;Most-Oławski
-12680;3907;sea;4746;-1;-1;-1;-1;;Most-Siechnicki
-2105;2942;sea;4746;-1;-1;-1;-1;;Most-Brzeg-Dolny
-13094;12989;sea;4746;-1;-1;-1;-1;;Most-Prochowice
-3043;12991;sea;4746;-1;-1;-1;-1;;Most-Ścinawski
-13011;13030;sea;4746;-1;-1;-1;-1;;Most-Ciechanowski
-3392;13054;sea;4746;-1;-1;-1;-1;;Most-Tolerancji-hehe-guwnovice
+491;13338;sea;7071;-1;-1;-1;-1;;Most-Oławski
+12680;3907;sea;7049;-1;-1;-1;-1;;Most-Siechnicki
+2105;2942;sea;7043;-1;-1;-1;-1;;Most-Brzeg-Dolny
+13094;12989;sea;5215;-1;-1;-1;-1;;Most-Prochowice
+3043;12991;sea;7040;-1;-1;-1;-1;;Most-Ścinawski
+13011;13030;sea;7028;-1;-1;-1;-1;;Most-Ciechanowski
+3392;13054;sea;5792;-1;-1;-1;-1;;Most-Tolerancji-hehe-guwnovice
 
+12800;12761;sea;6310;-1;-1;-1;-1;;Most Rędziński Wrocław
+12790;12756;sea;6078;-1;-1;-1;-1;;Most Milenijny Wrocław
+3901;12766;sea;6318;-1;-1;-1;-1;;Most Nargtona Chrobrego Wrocław
+12768;12757;sea;6318;-1;-1;-1;-1;;Mosty Jagiellońskie Wrocław
+12758;12768;sea;6078;-1;-1;-1;-1;;Most Zwierzyniecki Wrocław
+12802;12758;sea;6078;-1;-1;-1;-1;;Most Grunwaldzki Wrocław
+12802;12760;sea;6078;-1;-1;-1;-1;;Mosty Wysepkowe Wrocław
+12790;12760;sea;6078;-1;-1;-1;-1;;Most Dmowskiego-Mieszczański Wrocław
+3365;12756;sea;6078;-1;-1;-1;-1;;Mosty Osobowickie Wrocław
+12758;12757;sea;6078;-1;-1;-1;-1;;Mosty Warszawskie Wrocław
 
 17218;17216;sea;6899;-1;-1;-1;-1;;Swinoujscie-Archipelag
 4167;17216;sea;6899;-1;-1;-1;-1;;Swinoujscie-Archipelag
@@ -231,12 +241,16 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 14072;14076;river;-1;-1;-1;-1;-1;;PIL
 14492;14494;river;-1;-1;-1;-1;-1;;GNI
 13903;13905;river;-1;-1;-1;-1;-1;;GNI
+13695;14460;river;-1;-1;-1;-1;-1;;GNI
+14457;14458;river;-1;-1;-1;-1;-1;;GNI
+14487;14476;river;-1;-1;-1;-1;-1;;GNI
+14472;15636;river;-1;-1;-1;-1;-1;;GNI
 
 17983;17957;sea;5935;-1;-1;-1;-1;;EKW
 18112;18098;sea;5180;-1;-1;-1;-1;;EKS
-18170;16319;sea;5735;-1;-1;-1;-1;;EKW-EKS
+18170;16319;sea;5935;-1;-1;-1;-1;;EKW-EKS
 17668;16356;sea;5789;-1;-1;-1;-1;;EKW
-17942;16372;sea;5180;-1;-1;-1;-1;;EKW
+17942;16372;sea;6964;-1;-1;-1;-1;;EKW
 3294;17684;sea;5212;-1;-1;-1;-1;;EKW
 17938;16371;sea;6964;-1;-1;-1;-1;;EKW
 2663;17948;sea;6962;-1;-1;-1;-1;;EKW

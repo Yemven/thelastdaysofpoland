@@ -11,5 +11,82 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BIL_Kuba_Wojewodzki={
+		name="Kuba Wojewódzki"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/BIL/BIL_Kuba_Wojewodzki.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BIL_min_Kuba_Wojewodzki
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BIL
+			}
+		}
+	}
+	BIL_Michal_Kabacinski={
+		name="Michał Kabaciński"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/BIL/BIL_Michal_Kabacinski.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BIL_min_Michal_Kabacinski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BIL
+			}
+		}
+	}
+	BIL_Marek_Poznanski={
+		name="Marek Poznański"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/BIL/BIL_Marek_Poznanski.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BIL_min_Marek_Poznanski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BIL
+			}
+		}
+	}
+	BIL_Tomasz_Czechowicz={
+		name="Tomasz Czechowicz"
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/BIL/BIL_Tomasz_Czechowicz.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BIL_min_Tomasz_Czechowicz
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BIL
+			}
+		}
 	}
 }

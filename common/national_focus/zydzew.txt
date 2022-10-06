@@ -10,13 +10,13 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add =10
+			add = 10
 			tag = ZYD
 		}
 	}
 	default = no
 	
-	continuous_focus_position = {x = 50 y = 1500 }
+	continuous_focus_position = {x = 10 y = 10 }
 	
 	focus = {
 		id = ZYD_genesis
@@ -32,7 +32,7 @@ focus_tree = {
 		y = 0
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			country_event = {
 				id = zydzew.1 }
@@ -55,7 +55,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			country_event = {
 				id = zydzew.2 }
@@ -78,7 +78,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = {}
 		completion_reward = {
 			country_event = {
 				id = zydzew.3 }
@@ -101,7 +101,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			country_event = {
 				id = zydzew.4 }
@@ -124,7 +124,7 @@ focus_tree = {
 		y = 1
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
 			country_event = {
 				id = zydzew.5 }
@@ -147,9 +147,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ZYD_pitch_failures
+			add_idea = ZYD_pitch_failures2
+			}
 		}
 	}
 	
@@ -170,9 +173,16 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ZYD_pitch_failures
+				add_idea = ZYD_eleven_falashas
+				}
+			add_popularity = {
+				ideology = squattism
+				popularity = 0.1
+			}
 		}
 	}
 	
@@ -193,9 +203,16 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ZYD_pitch_failures
+				add_idea = ZYD_eleven_praca
+				}
+			add_popularity = {
+				ideology = marxism_cranism
+				popularity = 0.1
+			}
 		}
 	}
 	
@@ -216,9 +233,22 @@ focus_tree = {
 		y = 1
 		
 		cost = 4
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+				if = { 
+				limit = { has_idea = ZYD_eleven_falashas }
+			swap_ideas =  {
+				remove_idea = ZYD_eleven_falashas
+				add_idea = ZYD_eleven_falashas2
+			}
+			}
+			else_if = {
+				limit = { has_idea = ZYD_eleven_praca }
+			swap_ideas =  {
+				remove_idea = ZYD_eleven_praca
+				add_idea = ZYD_eleven_praca2
+			}
+			}	
 		}
 	}
 	
@@ -238,9 +268,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ZYD_i_znow_bijatyka
+				add_idea = ZYD_i_znow_bijatyka2
+				}
 		}
 	}
 	
@@ -260,10 +293,34 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}			
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
 		}
+		
 	}
 	
 	focus = {
@@ -283,9 +340,16 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas =  {
+				remove_idea = ZYD_i_znow_bijatyka2
+				add_idea = ZYD_armia_dawida
+			}
+			add_popularity = {
+				ideology = squattism
+				popularity = 0.1
+			}
 		}
 	}
 	
@@ -306,9 +370,16 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas =  {
+				remove_idea = ZYD_i_znow_bijatyka2
+				add_idea = ZYD_armia_urbana
+			}
+			add_popularity = {
+				ideology = marxism_cranism
+				popularity = 0.1
+			}
 		}
 	}
 	
@@ -329,9 +400,22 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			if = { 
+				limit = { has_idea = ZYD_armia_urbana }
+			swap_ideas =  {
+				remove_idea = ZYD_armia_urbana
+				add_idea = ZYD_armia_urbana2
+			}
+			}
+			else_if = {
+				limit = { has_idea = ZYD_armia_dawida }
+			swap_ideas =  {
+				remove_idea = ZYD_armia_dawida
+				add_idea = ZYD_armia_dawida2
+			}
+			}			
 		}
 	}
 	
@@ -351,9 +435,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = ZYD_unfinished_collectivization
+				add_idea = ZYD_ekonomia_kradziejsko_kibolska2
+				}
 		}
 	}
 	
@@ -373,9 +460,32 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}			
+			random_controlled_state = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
 		}
 	}
 	
@@ -396,9 +506,19 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = { 
+				remove_idea = ZYD_ekonomia_kradziejsko_kibolska2
+				add_idea = ZYD_ekonomia_kibucowska
+				}
+			country_event = {
+				id = zydzew.9
+			}
+			add_popularity = {
+				ideology = squattism
+				popularity = 0.1
+			}
 		}
 	}
 	
@@ -419,9 +539,19 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = { 
+				remove_idea = ZYD_ekonomia_kradziejsko_kibolska2
+				add_idea = ZYD_ekonomia_urbana
+				}
+			country_event = {
+				id = zydzew.10
+			}
+			add_popularity = {
+				ideology = marxism_cranism
+				popularity = 0.1
+			}
 		}
 	}
 	
@@ -442,9 +572,23 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			add_political_power = 50
+			if = { 
+				limit = { has_idea = ZYD_ekonomia_urbana }
+			swap_ideas =  {
+				remove_idea = ZYD_ekonomia_urbana
+				add_idea = ZYD_ekonomia_urbana2
+			}
+			}
+			else_if = {
+				limit = { has_idea = ZYD_ekonomia_kibucowska }
+			swap_ideas =  {
+				remove_idea = ZYD_ekonomia_kibucowska
+				add_idea = ZYD_ekonomia_kibucowska2
+			}
+			}
 		}
 	}
 	
@@ -466,9 +610,11 @@ focus_tree = {
 		y = 4
 		
 		cost = 1
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			every_unit_leader = {
+				gain_xp = 70
+			}
 		}
 	}
 	
@@ -489,9 +635,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = squattism
+				popularity = 0.1
+			}
 		}
 	}
 	
@@ -512,9 +661,12 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = marxism_cranism
+				popularity = 0.1
+			}
 		}
 	}
 	
@@ -534,9 +686,18 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			army_experience = 50
+			add_corps_commander_role = {
+				character = ZYD_mosze
+				traits = { trickster }
+				skill = 3
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 4
+				logistics_skill = 4
+			}
 		}
 	}
 	
@@ -555,10 +716,23 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
+		search_filters = { }
 		completion_reward = {
-			
+			division_template = {
+				name = "Brygada Lechi"
+				priority = 1
+				regiments = {
+					militia = { x = 0 y = 0 }
+					militia = { x = 0 y = 1 }
+					militia = { x = 0 y = 2 }
+					militia = { x = 0 y = 3 }
+				}
+			}
+			swap_ideas = {
+				remove_idea = officer_random
+				add_idea = officer_clerks
+			}
 		}
 	}
 	
@@ -578,8 +752,18 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
+			army_experience = 50
+			add_corps_commander_role = {
+				character = ZYD_birkut
+				traits = { commando }
+				skill = 2
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 2
+			}
 		}
 	}
 	
@@ -598,10 +782,22 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		cost = 2
+		search_filters = { }
 		completion_reward = {
-			
+			division_template = {
+				name = "Brygada ŻOMO"
+				priority = 1
+				regiments = {
+					militia = { x = 0 y = 0 }
+					militia = { x = 0 y = 1 }
+					motorized = { x = 0 y = 2 }
+				}
+			}
+			swap_ideas = {
+				remove_idea = improvised_security
+				add_idea = basic_security
+			}
 		}
 	}
 	
@@ -622,9 +818,13 @@ focus_tree = {
 		y = 3
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = melee_equipment_0
+				amount = 1000
+				producer = ZYD
+			}
 		}
 	}
 	focus = {
@@ -643,9 +843,10 @@ focus_tree = {
 		y = 1
 		
 		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			remove_ideas = ZYD_LKS_guerilla
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -665,9 +866,14 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			add_manpower = 1000
+			swap_ideas = {
+				remove_idea = one_religion_favoured
+				add_idea = state_religion
+			}
+			add_stability = -0.1
 		}
 	}
 	
@@ -688,9 +894,32 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			add_war_support = -0.1
+			361 = {
+			add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			build_railway = {
+			  level = 1
+			  build_only_on_allied = yes
+			  controller_priority = {
+				base = 1
+
+				modifier = {
+				  tag = ZYD
+				  add = 2
+				}
+			  }
+			  fallback = yes
+			  path = { 12103 12102 12100 12092 12095 }
+			  start_province = 12103
+			  target_province = 12095
+			}
 		}
 	}
 	
@@ -710,9 +939,15 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			add_war_support = 0.15
+			add_command_power = 20	
+			add_equipment_to_stockpile = {
+				type = melee_equipment_1
+				amount = 300
+				producer = ZYD
+			}			
 		}
 	}
 	
@@ -732,9 +967,15 @@ focus_tree = {
 		y = 1
 		
 		cost = 2
-		search_filters = {FOCUS_STABILITY}
+		search_filters = { }
 		completion_reward = {
-			
+			add_stability = 0.15
+			add_command_power = 20
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 100
+				producer = ZYD
+			}
 		}
 	}
 	
@@ -754,8 +995,8 @@ focus_tree = {
 		x = -1
 		y = 1
 		
-		cost = 3
-		search_filters = {FOCUS_STABILITY}
+		cost = 1
+		search_filters = { }
 		completion_reward = {
 			country_event = {
 			id = zydzew.8
@@ -798,6 +1039,27 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			hidden_effect = { 
+				 if = {
+					limit = { check_variable = { party_popularity_100@squattism > party_popularity_100@marxism_cranism } }
+						complete_national_focus = ZYD_sanhedryn
+					}
+				else_if = {
+					limit = { check_variable = { party_popularity_100@squattism < party_popularity_100@marxism_cranism } }
+						complete_national_focus = ZYD_rabbi_is_dead
+					}
+				else_if = {
+					limit = { check_variable = { party_popularity_100@squattism = party_popularity_100@marxism_cranism } }
+						random_list = {
+							50 = {
+								complete_national_focus = ZYD_rabbi_is_dead
+							}
+							50 = {
+								complete_national_focus = ZYD_sanhedryn
+							}					
+						}
+					}
+			}
 		}
 	}
 	
@@ -820,6 +1082,9 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = zydzew.11
+				}
 		}
 	}
 	
@@ -842,6 +1107,9 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			country_event = {
+				id = zydzew.12
+				}
 		}
 	}
 	
@@ -874,6 +1142,7 @@ focus_tree = {
 		icon = ZYD_revenge_on_coal
 		relative_position_id = ZYD_seven_miracles
 		prerequisite = { focus = ZYD_seven_miracles }
+		will_lead_to_war_with = BBW
 		available = {
 		  NOT = { has_war_with = BBW }
 		}
@@ -885,7 +1154,7 @@ focus_tree = {
 			}
 		}
 		
-		x = 0
+		x = -1
 		y = 1
 		
 		cost = 2
@@ -901,11 +1170,11 @@ focus_tree = {
 	focus = {
 		id = ZYD_challenge_of_strength
 		icon = ZYD_challenge_of_strength
-		relative_position_id = ZYD_revenge_on_coal
-		prerequisite = { focus = ZYD_revenge_on_coal }
+		relative_position_id = ZYD_seven_miracles
+		prerequisite = { focus = ZYD_seven_miracles }
+		will_lead_to_war_with = ZHP
 		available = {
 		  NOT = { has_war_with = ZHP }
-		  NOT = { country_exists = BBW }
 		}
 		
 		bypass = {
@@ -915,7 +1184,7 @@ focus_tree = {
 			}
 		}
 		
-		x = 0
+		x = 1
 		y = 1
 		
 		cost = 2
@@ -931,21 +1200,46 @@ focus_tree = {
 	focus = {
 		id = ZYD_new_synagogues_and_stadiums
 		icon = ZYD_new_synagogues_and_stadiums
-		relative_position_id = ZYD_challenge_of_strength
+		relative_position_id = ZYD_seven_miracles
 		prerequisite = { focus = ZYD_challenge_of_strength }
+		prerequisite = { focus = ZYD_revenge_on_coal }
 		available = {
+		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
 		}
 		
 		bypass = {
 		}
 		
 		x = 0
-		y = 1
+		y = 2
 		
 		cost = 3
 		search_filters = {}
 		completion_reward = {
 			add_stability = 0.1
+			division_template = {
+				name = "Samarytańskie Kluby"
+				priority = 0
+				template_counter = 13
+				regiments = {
+					melee_infantry = { x = 0 y = 0 }
+					melee_infantry = { x = 0 y = 1 }
+				}
+			}
+			341 = {
+				create_unit = {
+					division = "name = \"GKS Bełchatów'\" division_template = \"Samarytańskie Kluby\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ZYD
+				}
+			}
+			370 = {
+				create_unit = {
+					division = "name = \"Radomszczański Kolektyw Sportowy'\" division_template = \"Samarytańskie Kluby\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ZYD
+				}			
+			}
 		}
 	}
 	
@@ -954,6 +1248,7 @@ focus_tree = {
 		icon = ZYD_blooming_business
 		relative_position_id = ZYD_new_synagogues_and_stadiums
 		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
+		will_lead_to_war_with = KRS
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -986,6 +1281,7 @@ focus_tree = {
 		icon = ZYD_last_obstacle
 		relative_position_id = ZYD_new_synagogues_and_stadiums
 		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
+		will_lead_to_war_with = SAP
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -1042,6 +1338,7 @@ focus_tree = {
 		icon = ZYD_miners_liberation
 		relative_position_id = ZYD_central_committee_meeting
 		prerequisite = { focus = ZYD_central_committee_meeting }
+		will_lead_to_war_with = BBW
 		available = {
 			NOT = { has_war_with = BBW }
 		}
@@ -1053,7 +1350,7 @@ focus_tree = {
 			}
 		}
 		
-		x = 0
+		x = -1
 		y = 1
 		
 		cost = 2
@@ -1069,11 +1366,11 @@ focus_tree = {
 	focus = {
 		id = ZYD_fifth_generation_of_ak
 		icon = ZYD_fifth_generation_of_ak
-		relative_position_id = ZYD_miners_liberation
-		prerequisite = { focus = ZYD_miners_liberation }
+		relative_position_id = ZYD_central_committee_meeting
+		prerequisite = { focus = ZYD_central_committee_meeting }
+		will_lead_to_war_with = ZHP
 		available = {
 		  NOT = { has_war_with = ZHP }
-		  NOT = { country_exists = BBW }
 		}
 		
 		bypass = {
@@ -1083,7 +1380,7 @@ focus_tree = {
 			}
 		}
 		
-		x = 0
+		x = 1
 		y = 1
 		
 		cost = 2
@@ -1099,21 +1396,40 @@ focus_tree = {
 	focus = {
 		id = ZYD_recruit_collaborators
 		icon = ZYD_recruit_collaborators
-		relative_position_id = ZYD_fifth_generation_of_ak
+		relative_position_id = ZYD_central_committee_meeting
 		prerequisite = { focus = ZYD_fifth_generation_of_ak }
+		prerequisite = { focus = ZYD_miners_liberation }
 		available = {
+			NOT = { has_war = yes }
+			NOT = { country_exists = BBW }
+			NOT = { country_exists = ZHP }
 		}
 		
 		bypass = {
 		}
 		
 		x = 0
-		y = 1
+		y = 2
 		
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_stability = 0.1
+			add_stability = -0.1
+			division_template = {
+				name = "Ochotnicza Rezerwa Milicji Obywatelskiej"
+				priority = 0
+				template_counter = 13
+				regiments = {
+					melee_infantry = { x = 0 y = 0 }
+					melee_infantry = { x = 0 y = 1 }
+				}
+			}
+			341 = {
+				create_unit = {
+					division = "name = \"Batalion ORMO 'Sieradzkie'\" division_template = \"Ochotnicza Rezerwa Milicji Obywatelskiej\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ZYD
+				}
+			}
 		}
 	}
 	
@@ -1122,6 +1438,7 @@ focus_tree = {
 		icon = ZYD_rotten_capitalism
 		relative_position_id = ZYD_recruit_collaborators
 		prerequisite = { focus = ZYD_recruit_collaborators }
+		will_lead_to_war_with = KRS
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -1153,6 +1470,7 @@ focus_tree = {
 		icon = ZYD_slavic_reactionism
 		relative_position_id = ZYD_recruit_collaborators
 		prerequisite = { focus = ZYD_recruit_collaborators }
+		will_lead_to_war_with = SAP
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -1180,15 +1498,23 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ZYD_allija
-		icon = ZYD_allija
+		id = ZYD_promised_land
+		icon = ZYD_promised_land
 		relative_position_id = ZYD_meeting
-		prerequisite = { focus = ZYD_rotten_capitalism 
-					     focus = ZYD_slavic_reactionism 
-						 focus = ZYD_last_obstacle 
-					     focus = ZYD_blooming_business }						 
+		will_lead_to_war_with = WML
+		prerequisite = { 		focus = ZYD_rotten_capitalism 
+								focus = ZYD_slavic_reactionism 
+							}
+		prerequisite = { 
+								focus = ZYD_last_obstacle 
+								focus = ZYD_blooming_business 
+							}
 		available = {
 		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
+		  NOT = { country_exists = KRS }
+		  NOT = { country_exists = SAP }
 		}
 		
 		bypass = {
@@ -1202,15 +1528,41 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 8
+		y = 6
 		
-		cost = 3
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			declare_war_on = {
 					target = WML
 					type = annex_everything
 				}
+		}
+	}
+
+	focus = {
+		id = ZYD_allija
+		icon = ZYD_allija
+		relative_position_id = ZYD_promised_land
+		prerequisite = { focus = ZYD_promised_land }
+		available = {
+		  NOT = { has_war = yes }
+		  NOT = { country_exists = BBW }
+		  NOT = { country_exists = ZHP }
+		  NOT = { country_exists = KRS }
+		  NOT = { country_exists = SAP }
+		  NOT = { country_exists = WML }
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3
+		search_filters = {}
+		completion_reward = {
 		}
 	}
 	

@@ -306,6 +306,12 @@ guiTypes = {
 				spriteType = "GFX_required_rule"
 				Orientation = "UPPER_LEFT"
 	   	}	
+		
+			buttonType = {
+				name = "nuke_province"
+				quadTextureSprite ="GFX_empty_bg"
+				position = { x = -2000 y = 166 }
+			}
 
 			containerWindowType = {
 				name = "custom_icon_container"
@@ -2863,15 +2869,432 @@ guiTypes = {
 				spriteType = "GFX_bbw"
 				alwaystransparent = yes
 			}
-			
-		}
+			iconType = {
+				name = "terrain_aleksandrow_kujawski_icon"
+				spriteType = "GFX_terrain_aleksandrow_kujawski"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_barcin_icon"
+				spriteType = "GFX_terrain_barcin"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_brodnica_icon"
+				spriteType = "GFX_terrain_brodnica"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_chelmno_icon"
+				spriteType = "GFX_terrain_chelmno"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_chelmza_icon"
+				spriteType = "GFX_terrain_chelmza"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_ciechocinek_icon"
+				spriteType = "GFX_terrain_ciechocinek"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gniewkowo_icon"
+				spriteType = "GFX_terrain_gniewkowo"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_golub_dobrzyn_icon"
+				spriteType = "GFX_terrain_golub_dobrzyn"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_grudziadz_icon"
+				spriteType = "GFX_terrain_grudziadz"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_grudziadz_lotnicze_icon"
+				spriteType = "GFX_terrain_grudziadz_lotnicze"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_grudziadz_os_kopernika_icon"
+				spriteType = "GFX_terrain_grudziadz_os_kopernika"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_grudziadz_strzemiecin_icon"
+				spriteType = "GFX_terrain_grudziadz_strzemiecin"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_inowroclaw_icon"
+				spriteType = "GFX_terrain_inowroclaw"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_janikowo_icon"
+				spriteType = "GFX_terrain_janikowo"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_kcynia_icon"
+				spriteType = "GFX_terrain_kcynia"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_kowal_icon"
+				spriteType = "GFX_terrain_kowal"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_mogilno_icon"
+				spriteType = "GFX_terrain_mogilno"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_naklo_nad_notecia_icon"
+				spriteType = "GFX_terrain_naklo_nad_notecia"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_nowe_icon"
+				spriteType = "GFX_terrain_nowe"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_pakosc_icon"
+				spriteType = "GFX_terrain_pakosc"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_swarzedz_icon"
+				spriteType = "GFX_terrain_swarzedz"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_radziejow_icon"
+				spriteType = "GFX_terrain_radziejow"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_rypin_icon"
+				spriteType = "GFX_terrain_rypin"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_swiecie_icon"
+				spriteType = "GFX_terrain_swiecie"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_szubin_icon"
+				spriteType = "GFX_terrain_szubin"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_tuchola_icon"
+				spriteType = "GFX_terrain_tuchola"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_wabrzezno_icon"
+				spriteType = "GFX_terrain_wabrzezno"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_wiecbork_icon"
+				spriteType = "GFX_terrain_wiecbork"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_wloclawek_icon"
+				spriteType = "GFX_terrain_wloclawek"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_wloclawek_zawisle_icon"
+				spriteType = "GFX_terrain_wloclawek_zawisle"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_znin_icon"
+				spriteType = "GFX_terrain_znin"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_koronowo_icon"
+				spriteType = "GFX_terrain_koronowo"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_solec_kujawski_icon"
+				spriteType = "GFX_terrain_solec_kujawski"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_sepolno_krajenskie_icon"
+				spriteType = "GFX_terrain_sepolno_krajenskie"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_torun_icon"
+				spriteType = "GFX_terrain_torun"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_torun_rubinkowo_icon"
+				spriteType = "GFX_terrain_torun_rubinkowo"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_torun_mokre_icon"
+				spriteType = "GFX_terrain_torun_mokre"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_torun_bielany_icon"
+				spriteType = "GFX_terrain_torun_bielany"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_torun_bydgoskie_przedmiescie_icon"
+				spriteType = "GFX_terrain_torun_bydgoskie_przedmiescie"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_torun_chelminskie_icon"
+				spriteType = "GFX_terrain_torun_chelminskie"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_torun_na_skarpie_icon"
+				spriteType = "GFX_terrain_torun_na_skarpie"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_torun_podgorz_icon"
+				spriteType = "GFX_terrain_torun_podgorz"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_torun_stawki_icon"
+				spriteType = "GFX_terrain_torun_stawki"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_torun_winnica_icon"
+				spriteType = "GFX_terrain_torun_winnica"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_bartodzieje_icon"
+				spriteType = "GFX_terrain_bydgoszcz_bartodzieje"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_bielawy_icon"
+				spriteType = "GFX_terrain_bydgoszcz_bielawy"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_blonie_icon"
+				spriteType = "GFX_terrain_bydgoszcz_blonie"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_bocianowo_icon"
+				spriteType = "GFX_terrain_bydgoszcz_bocianowo"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_brdyujscie_icon"
+				spriteType = "GFX_terrain_bydgoszcz_brdyujscie"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_czyzkowko_icon"
+				spriteType = "GFX_terrain_bydgoszcz_czyzkowko"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_jachcice_icon"
+				spriteType = "GFX_terrain_bydgoszcz_jachcice"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_jary_icon"
+				spriteType = "GFX_terrain_bydgoszcz_jary"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_kapusciska_icon"
+				spriteType = "GFX_terrain_bydgoszcz_kapusciska"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_lotnisko_icon"
+				spriteType = "GFX_terrain_bydgoszcz_lotnisko"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_miedzyn_icon"
+				spriteType = "GFX_terrain_bydgoszcz_miedzyn"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_okole_icon"
+				spriteType = "GFX_terrain_bydgoszcz_okole"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_os_lesne_icon"
+				spriteType = "GFX_terrain_bydgoszcz_os_lesne"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_osowa_gora_icon"
+				spriteType = "GFX_terrain_bydgoszcz_osowa_gora"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_prady_icon"
+				spriteType = "GFX_terrain_bydgoszcz_prady"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_srodmiescie_icon"
+				spriteType = "GFX_terrain_bydgoszcz_srodmiescie"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_szwederowo_icon"
+				spriteType = "GFX_terrain_bydgoszcz_szwederowo"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_wilczak_icon"
+				spriteType = "GFX_terrain_bydgoszcz_wilczak"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_wzgorze_wolnosci_icon"
+				spriteType = "GFX_terrain_bydgoszcz_wzgorze_wolnosci"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_babia_wies_icon"
+				spriteType = "GFX_terrain_bydgoszcz_babia_wies"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_bydgoszcz_glinki_icon"
+				spriteType = "GFX_terrain_bydgoszcz_glinki"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_sopot_icon"
+				spriteType = "GFX_terrain_sopot"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_sopot_przylesie_icon"
+				spriteType = "GFX_terrain_sopot_przylesie"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_speer_icon"
+				spriteType = "GFX_terrain_speer"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_icon"
+				spriteType = "GFX_terrain_gdynia"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_orlowo_icon"
+				spriteType = "GFX_terrain_gdynia_orlowo"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_maly_kack_icon"
+				spriteType = "GFX_terrain_gdynia_maly_kack"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_karwiny_icon"
+				spriteType = "GFX_terrain_gdynia_karwiny"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_witomino_radiostacja_icon"
+				spriteType = "GFX_terrain_gdynia_witomino_radiostacja"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_dzialki_lesne_icon"
+				spriteType = "GFX_terrain_gdynia_dzialki_lesne"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_redlowo_icon"
+				spriteType = "GFX_terrain_gdynia_redlowo"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_grabowek_icon"
+				spriteType = "GFX_terrain_gdynia_grabowek"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_chylonia_icon"
+				spriteType = "GFX_terrain_gdynia_chylonia"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_leszczynki_icon"
+				spriteType = "GFX_terrain_gdynia_leszczynki"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_oksywie_icon"
+				spriteType = "GFX_terrain_gdynia_oksywie"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_cisowa_icon"
+				spriteType = "GFX_terrain_gdynia_cisowa"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_obluze_icon"
+				spriteType = "GFX_terrain_gdynia_obluze"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "terrain_gdynia_pustki_cisowskie_icon"
+				spriteType = "GFX_terrain_gdynia_pustki_cisowskie"
+				alwaystransparent = yes
+			}
 
 			iconType = {
-				name = "province_required_rule"
-				position = { x = 100 y = -3 }
-				spriteType = "GFX_required_rule"
-				Orientation = "UPPER_LEFT"
-			}
+				name = "flooded_icon"
+				spriteType = "GFX_modifiers_flooded_icon"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"			
+				}
+
+			iconType = {
+				name = "unplanned_offensive_icon"
+				spriteType = "GFX_modifiers_unplanned_offensive_icon"
+				position = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"			
+				}
+		}
+
 
 			### Positioning of these are controlled by the positionType "countrystateview_weathericons_position" and "countrystateview_weathericons_offset" above
 			iconType = {
@@ -2920,25 +3343,7 @@ guiTypes = {
 				slotsize = { width = 40 height = 47 }
 				max_slots_vertical = 1
 			}
-		containerWindowType = {
-				name = "custom_icon_container"
-				size = { width=100% height=100% }
-				position = { x = 0 y= 0 }
 
-				iconType = {
-					name = "flooded_icon"
-					spriteType = "GFX_modifiers_flooded_icon"
-					position = { x = 0 y = 0 }
-					Orientation = "UPPER_LEFT"			
-				}
-
-				iconType = {
-					name = "unplanned_offensive_icon"
-					spriteType = "GFX_modifiers_unplanned_offensive_icon"
-					position = { x = 0 y = 0 }
-					Orientation = "UPPER_LEFT"			
-				}	
-}
 			gridBoxType = {
 				name = "province_building_entries"
 				position = { x = -2 y = 48 }
@@ -2948,11 +3353,6 @@ guiTypes = {
 				max_slots_horizontal = 4
 			}
 
-			buttonType = {
-				name = "nuke_province"
-				quadTextureSprite ="GFX_nuke_button"
-				position = { x= 313 y = 50 }
-			}
 
 			iconType = {
 				name = "nuclear_strike_bar"

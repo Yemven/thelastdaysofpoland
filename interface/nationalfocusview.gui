@@ -58,7 +58,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "found_text"
 				position = { x = -155 y = 12 }
-				font = "hoi_18mbs"
+				font = "cg_16b"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 150
@@ -69,7 +69,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "type_to_search_text"
 				position = { x = 40 y = 12 }
-				font = "hoi_18mbs"
+				font = "cg_16b"
 				borderSize = {x = 0 y = 0}
 				text = "FOCUS_SEARCH_TYPE_TEXT"
 				maxWidth = 160
@@ -159,28 +159,28 @@ guiTypes = {
 				iconType ={
 					name ="tutorial_glow_1"
 					spriteType = "GFX_tutorial_national_focus_icon_glow"
-					position = { x= 61 y = 20 }
+					position = { x= 252 y = 20 }
 					Orientation = "UPPER_LEFT"
 					hide = yes
 				}
 				iconType ={
 					name ="tutorial_glow_2"
 					spriteType = "GFX_tutorial_national_focus_icon_glow"
-					position = { x= 61 y = 150 }
+					position = { x= 829 y = 20 }
 					Orientation = "UPPER_LEFT"
 					hide = yes
 				}
 				iconType ={
 					name ="tutorial_glow_3"
 					spriteType = "GFX_tutorial_national_focus_icon_glow"
-					position = { x= 61 y = 280 }
+					position = { x= 1116 y = 150 }
 					Orientation = "UPPER_LEFT"
 					hide = yes
 				}
 				iconType ={
 					name ="tutorial_glow_4"
 					spriteType = "GFX_tutorial_national_focus_icon_glow"
-					position = { x= 155 y = 410 }
+					position = { x= 1308 y = 150 }
 					Orientation = "UPPER_LEFT"
 					hide = yes
 				}
@@ -190,6 +190,98 @@ guiTypes = {
 					position = { x=0 y=0 }
 				}
 				
+				containerWindowType = {
+					name = "continuous_focus_window"
+					position = { x=0 y=0 }
+					size = { width = 770 height = 380 }
+					margin = { top = 13 left = 0 bottom = 13 right = 13}
+					drag_scroll = { left middle }
+					clipping = no
+					
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_window_thin_border2"
+					}
+					
+					instantTextboxType = {
+						name = "continuous_focus_title"
+						position = { x = 20 y = 8 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 0}
+						text = "CONTINUOUS_FOCUS_TREE_HEADER"
+						maxWidth = 350
+						maxHeight = 20
+						format = left
+					}
+					
+					instantTextboxType = {
+						name = "continuous_focus_desc"
+						position = { x = 23 y = 56 }
+						textureFile = ""
+						font = "cg_16b"
+						borderSize = {x = 0 y = 0}
+						text = "CONTINUOUS_FOCUS_TREE_DESC"
+						maxWidth = 300
+						maxHeight = 100
+					}
+					
+					containerWindowType = {
+						name = "focus_progress_window"
+						position = { x=360 y=10 }
+						size = { width=395 height=67 }
+						clipping = no
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="GFX_mini_tooltip"
+						}
+						
+						instantTextboxType = {
+							name = "continuous_focus_progress"
+							position = { x = 20 y = 10 }
+							textureFile = ""
+							font = "cg_16b"
+							borderSize = { x = 0 y = 0 }
+							text = ""
+							maxWidth = 360
+							maxHeight = 100
+							format = center
+						}
+						
+						gridBoxType = {
+							name = "progress_grid"
+							position = {x=12 y=31}
+							size = { width=100%% height=100%% }
+							slotsize = { width=38 height=30 }
+							max_slots_vertical = 1
+							format = "UPPER_LEFT"
+						}
+					}
+					
+					containerWindowType = {
+						name = "entries"
+						position = { x=13 y=80 }
+						size = { width=744 height=280 }
+						verticalScrollbar = "right_vertical_slider"
+						clipping = yes
+						
+						background = {
+							name = "Background"
+							spriteType ="GFX_tiled_paper_bg2"
+							alwaystransparent = yes
+						} 
+						
+						gridBoxType = {
+							name = "list"
+							position = {x=16 y=33}
+							size = { width=100%% height=100%% }
+							slotsize = { width=180 height=120 }
+							max_slots_horizontal = 4
+							format = "UPPER_LEFT"
+						}
+					}
+				}
 			}
 
 			containerWindowType = {
@@ -391,12 +483,12 @@ guiTypes = {
 		buttonType = {
 			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
-			position = { x= 5 y = 40 }			
+			position = { x= 5 y = 44 }			
 		}
 		
 		buttonType = {
 			name = "symbol"
-			position = { x = 5 y = -44 }
+			position = { x = 5 y = -50 }
 			quadTextureSprite = "GFX_goal_unknown"
 			centerposition = yes
 			Orientation = CENTER
@@ -740,7 +832,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 30 y = 12 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "cg_22"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 450
@@ -791,7 +883,7 @@ guiTypes = {
 			name = "desc"
 			position = { x = 34 y = 250 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			borderSize = {x = 5 y = 0}
 			text = "Description"
 			maxWidth = 485
@@ -809,7 +901,7 @@ guiTypes = {
 			name = "reward_label"
 			position = { x = 34 y = 370 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = "FOCUS_REWARD"
 			maxWidth = 485
@@ -835,7 +927,7 @@ guiTypes = {
 			name = "start"
 			quadTextureSprite = "GFX_button_123x34"
 			buttonText = "START_FOCUS"
-			buttonFont = "hoi_20b"
+			buttonFont = "cg_18b"
 			position = { x=390 y=53 }
 			clicksound = select_focus
 			shortcut = "RETURN"
@@ -845,7 +937,7 @@ guiTypes = {
 			name = "stop"
 			quadTextureSprite = "GFX_button_123x34"
 			buttonText = "STOP_FOCUS"
-			buttonFont = "hoi_20b"
+			buttonFont = "cg_18b"
 			position = { x=390 y=53 }
 			clicksound = click_default
 			hide = yes
@@ -854,7 +946,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "status"
 			position = { x = 208 y = 60 }
-			font = "hoi_20b"
+			font = "cg_18b"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 170

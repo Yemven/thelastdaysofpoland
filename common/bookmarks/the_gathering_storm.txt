@@ -4,18 +4,33 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 2027.3.1.1
 		picture = "GFX_select_date_1936"
-		default_country = "WML"
 		default = yes
 		
 		"WML"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+			history = "COUNTRY_SELECT_WML_DESC"
+			ideas = {
+				atlas_lodz
+				WML_baluty_radiation
+				WML_sphere_of_dialogue
+				WML_fragile_denial_of_reality
+				gilette_lodz
+				}
+			focuses = {
+				WML_new_morning_in_old_lodz
+				WML_hold_great_conference
+				WML_the_beginning_of_the_dialogue
+		}			
 		}
 		"BBW"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+			history = "COUNTRY_SELECT_BBW_DESC"
 			ideas = {
+				ec_belchatow
 				BBW_steam_power
 				BBW_smog
-				BBW_green_counter_revolution
+				BBW_carbon_fever
+				kombinat_cytadela
 				}
 			focuses = {
 				BBW_wiechowszczyzna
@@ -23,35 +38,47 @@ bookmarks = {
 				BBW_black_fever
 		}
 		}
-		"KRS"={
-			history = "OTHER_GATHERING_STORM_DESC"
-			ideas = {
-				KRS_corrupt_hospitals
-				KRS_lack_of_legitimacy
-				KRS_wave_of_kidnappings
-				}
-			focuses = {
-				KRS_roll_out_the_paramedics
-		}			
-		}
 		"SAP"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+			history = "COUNTRY_SELECT_SAP_DESC"
 			ideas = { 
+				pudzian_sap
 				SAP_divided_supporters
 				SAP_confused_population
+				SAP_biedna_pierdolona_piechota
+				zamet_sap
 				}
 			focuses = {
 				SAP_of_monsters_and_men
+				SAP_question_of_price
 				SAP_temerian_dream_shattered
-				SAP_attack_on_kaer_nevitz
+		}
+		}
+		"KRS"={
+			minor = yes
+			history = "COUNTRY_SELECT_KRS_DESC"
+			ideas = { 
+				skrzydlewska_krs
+				KRS_corrupt_hospitals
+				KRS_weaponised_pavulon_1
+				KRS_wave_of_kidnappings
+				rutkowski_krs
+				}
+			focuses = {
+				KRS_up_in_the_town_of_krosniewice
+				KRS_no_time_to_lose
+				KRS_fields_of_flesh
 		}
 		}
 		"ZYD"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+			history = "COUNTRY_SELECT_ZYD_DESC"
 			ideas = {
+				ceramika_paradyz
 				ZYD_minority_rule
-				ZYD_mobile_ark
 				ZYD_unfinished_collectivization
+				ZYD_pitch_failures
+				gerlach_drzewica
 				}
 			focuses = {
 				ZYD_communal_and_robbery_economy
@@ -60,7 +87,15 @@ bookmarks = {
 		}
 		}
 		"ZHP"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			minor = yes
+			history = "COUNTRY_SELECT_ZHP_DESC"
+			ideas = {
+				fameg_zhp
+				ZHP_gray_lilies
+				ZHP_division_within_ranks
+				ZHP_partisan_legacy
+				wielton_zhp
+				}			
 			focuses = {
 				ZHP_prohibition_of_sex
 				ZHP_we_are_ready

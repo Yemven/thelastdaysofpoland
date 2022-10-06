@@ -1,14 +1,22 @@
 ﻿capital = 20
 
+oob = "HEL_2027"
+
 # Starting tech
 set_technology = {
+ 		heavy_monitor_hull_1 = 1
+ 		monitor_hull = 1
+ 		kayak_hull = 1
+ 		mtg_transport = 1
 		melee_weapons = 1  
 		ranged_weapons_upgrade = 1
 		ranged_weapons = 1
 		ranged_weapons1 = 1
 		infantry_training = 1
-		infantry_armor = 1
-		ballistic_vests = 1
+		infantry_armor1 = 1
+		army_uniform = 1
+		
+		special_forces_equipment = 1
 		
 		tech_support = 1
 		basic_train = 1

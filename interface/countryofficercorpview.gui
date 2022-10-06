@@ -64,7 +64,7 @@ guiTypes = {
 		size = { width=84 height=150 }
 		Orientation = upper_left
 		clipping = no
-		scale = 1
+		scale = 0.9
 		
 		iconType = {
 			name = "idea_alert_glow"
@@ -88,15 +88,6 @@ guiTypes = {
 			spriteType = "GFX_chief_and_theorist_strip"
 			alwaystransparent = yes
 			centerposition = yes
-			frame = 1
-		}
-
-		iconType = {
-			name = "idea_traits"
-			position = { x = 83 y = 104 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
 			frame = 1
 		}
 	}
@@ -499,28 +490,6 @@ guiTypes = {
 			}
 		}
 
-	buttonType = {
-		name = "commander_roster_army"
-		quadTextureSprite = "GFX_diplo_filter_entry"
-		position = { x=371 y=76 }
-		buttonText = "Placeholder"
-		font = "cg_16b"
-		frame = 2
-		pdx_tooltip = "COMMANDER_ROSTER_ARMY_TOOLTIP"
-		pdx_tooltip_delayed = "COMMANDER_ROSTER_ARMY_TOOLTIP_DELAYED"
-     }
-
-	buttonType = {
-		name = "commander_roster_navy"
-		quadTextureSprite = "GFX_diplo_filter_entry"
-		position = { x=371 y=109 }
-		buttonText = "Placeholder"
-		font = "cg_16b"
-		frame = 2
-		pdx_tooltip = "COMMANDER_ROSTER_NAVY_TOOLTIP"
-		pdx_tooltip_delayed = "COMMANDER_ROSTER_NAVY_TOOLTIP_DELAYED"
-     }
-
 	containerWindowType = {
 		name = "high_command"
 		position = { x=-8 y=0 }
@@ -554,7 +523,25 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 	}
+	
+	containerWindowType = {
+		name = "preferred_tactic_container"
+		position = { x = 400 y = 28 }
+		size = { width = 98% height = 270 }
+	
+		buttonType ={
+			name ="button_prefered_tactic_selection"
+			spriteType = "GFX_preferred_tactic_button"
+			position = { x=5 y=50 }
+		}
 
+		iconType ={
+			name ="icon_prefered_tactic_type"
+			spriteType = "GFX_attacker_damage_icon"
+			position = { x=390 y=80 }
+		}
+	}
+	
     containerWindowType = {
         name = "officer_core_view"
         position = { x = 0 y = 139 }
@@ -622,18 +609,6 @@ guiTypes = {
 				format = left
 			}			
 
-			buttonType ={
-                name ="button_prefered_tactic_selection"
-                spriteType = "GFX_preferred_tactic_button"
-	            position = { x=385 y=40 }
-            }
-
-            iconType ={
-                name ="icon_prefered_tactic_type"
-                spriteType = "GFX_attacker_damage_icon"
-	            position = { x=390 y=80 }
-            }
-
 			containerWindowType = {
 				name = "army_chief"
 				position = { x=90 y=-30 }
@@ -653,38 +628,40 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "army_doctrine_button"
-				position = { x=274 y=-8 }
+				position = { x=240 y=-8 }
 				size = {width=20 height=20}
 				clipping = no
 
 				buttonType = {
 					name = "button"
 					quadTextureSprite = "GFX_technology_land_doctrine_folder_available_item_bg"
-					position = { x=34 y=47 }
+					position = { x=-13 y=37 }
 					#buttonText = "Doctrines"
 					font = "hoi_24header"
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "icon"
-					position = { x=58 y=72 }
+					position = { x=8 y= 69 }
 					Orientation = CENTER
 					spriteType = "GFX_placeholder_bordered"
 					alwaystransparent = yes
 					centerposition = yes
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "nb_doctrine_unlocked_bg"
 					spriteType = "GFX_topbar_alert_bg"
-					position = { x=36 y=97 }
+					position = { x=-3000 y=90 }
 					alwaystransparent = yes
 					frame = 1
 				}
 
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
-					position = { x=34 y=97 }
+					position = { x=-3000 y=90 }
 					font = "cg_16b"
 					text = "0"
 					format = center
@@ -693,6 +670,29 @@ guiTypes = {
 					fixedsize = yes
 				}
 			}
+			
+			buttonType = {
+				name = "commander_roster_army"
+				quadTextureSprite = "GFX_diplo_filter_entry"
+				position = { x=390 y=30 }
+				buttonText = "Placeholder"
+				font = "cg_16b"
+				frame = 2
+				pdx_tooltip = "COMMANDER_ROSTER_ARMY_TOOLTIP"
+				pdx_tooltip_delayed = "COMMANDER_ROSTER_ARMY_TOOLTIP_DELAYED"
+			}
+			
+			buttonType = {
+				name = "commander_roster_division"
+				quadTextureSprite = "GFX_diplo_filter_entry"
+				position = { x=382 y=70 }
+				buttonText = "Placeholder"
+				font = "cg_16b"
+				frame = 2
+				pdx_tooltip = "COMMANDER_ROSTER_DIVISION_TOOLTIP"
+				pdx_tooltip_delayed = "COMMANDER_ROSTER_DIVISION_TOOLTIP_DELAYED"
+			}
+			
 		}
 
 		containerWindowType = {
@@ -762,38 +762,40 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "navy_doctrine_button"
-				position = { x=240 y=-8 }
+				position = { x=130 y=-8 }
 				size = {width=20 height=20}
 				clipping = no
 
 				buttonType = {
 					name = "button"
 					quadTextureSprite = "GFX_technology_land_doctrine_folder_available_item_bg"
-					position = { x=68 y=47 }
+					position = { x=97 y=37 }
 					#buttonText = "Doctrines"
 					font = "hoi_24header"
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "icon"
-					position = { x=92 y=70 }
+					position = { x=117 y=69 }
 					spriteType = "GFX_placeholder_bordered"
 					Orientation = CENTER
 					alwaystransparent = yes
 					centerposition = yes
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "nb_doctrine_unlocked_bg"
 					spriteType = "GFX_topbar_alert_bg"
-					position = { x=71 y=97 }
+					position = { x=-3000 y=90 }
 					alwaystransparent = yes
 					frame = 1
 				}
 
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
-					position = { x=69 y=97 }
+					position = { x=-3000 y=90 }
 					font = "cg_16b"
 					text = "0"
 					format = center
@@ -802,6 +804,18 @@ guiTypes = {
 					fixedsize = yes
 				}
 			}
+			
+			buttonType = {
+				name = "commander_roster_navy"
+				quadTextureSprite = "GFX_diplo_filter_entry"
+				position = { x=390 y=30 }
+				buttonText = "Placeholder"
+				font = "cg_16b"
+				frame = 2
+				pdx_tooltip = "COMMANDER_ROSTER_NAVY_TOOLTIP"
+				pdx_tooltip_delayed = "COMMANDER_ROSTER_NAVY_TOOLTIP_DELAYED"
+			}
+			
 		}
 
 		containerWindowType = {
@@ -871,38 +885,40 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "air_doctrine_button"
-				position = { x=274 y=-8 }
+				position = { x=240 y=-8 }
 				size = {width=20 height=20}
 				clipping = no
 
 				buttonType = {
 					name = "button"
 					quadTextureSprite = "GFX_technology_land_doctrine_folder_available_item_bg"
-					position = { x=34 y=47 }
+					position = { x=-15 y=37 }
 					#buttonText = "Doctrines"
 					font = "hoi_24header"
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "icon"
-					position = { x=59 y=71 }
+					position = { x=5 y=69 }
 					spriteType = "GFX_placeholder_bordered"
 					Orientation = CENTER
 					alwaystransparent = yes
 					centerposition = yes
+					scale = 0.6
 				}
 
 				iconType = {
 					name = "nb_doctrine_unlocked_bg"
 					spriteType = "GFX_topbar_alert_bg"
-					position = { x=36 y=97 }
+					position = { x=-3000 y=90 }
 					alwaystransparent = yes
 					frame = 1
 				}
 
 				instantTextBoxType = {
 					name ="nb_doctrine_unlocked"
-					position = { x=34 y=97 }
+					position = { x=-3000 y=90 }
 					font = "cg_16b"
 					text = "0"
 					format = center
@@ -968,7 +984,7 @@ guiTypes = {
 			clipping = no
 		}
 	}
-
+	
     containerWindowType = {
         name = "officer_core_view_no_spirit"
         position = { x = 0 y = 158 }
@@ -1029,18 +1045,6 @@ guiTypes = {
 				format = left
 			}			
 
-			buttonType ={
-                name ="button_prefered_tactic_selection"
-                spriteType = "GFX_preferred_tactic_button"
-	            position = { x=385 y=40 }
-            }
-
-            iconType ={
-                name ="icon_prefered_tactic_type"
-                spriteType = "GFX_attacker_damage_icon"
-	            position = { x=390 y=80 }
-            }
-
 			containerWindowType = {
 				name = "army_chief"
 				position = { x=90 y=-30 }
@@ -1100,6 +1104,29 @@ guiTypes = {
 					fixedsize = yes
 				}
 			}
+			
+			buttonType = {
+				name = "commander_roster_army"
+				quadTextureSprite = "GFX_diplo_filter_entry"
+				position = { x=382 y=70 }
+				buttonText = "Placeholder"
+				font = "cg_16b"
+				frame = 2
+				pdx_tooltip = "COMMANDER_ROSTER_ARMY_TOOLTIP"
+				pdx_tooltip_delayed = "COMMANDER_ROSTER_ARMY_TOOLTIP_DELAYED"
+			}
+			
+			buttonType = {
+				name = "commander_roster_division"
+				quadTextureSprite = "GFX_diplo_filter_entry"
+				position = { x=382 y=79				}
+				buttonText = "Placeholder"
+				font = "cg_16b"
+				frame = 2
+				pdx_tooltip = "COMMANDER_ROSTER_DIVISION_TOOLTIP"
+				pdx_tooltip_delayed = "COMMANDER_ROSTER_DIVISION_TOOLTIP_DELAYED"
+			}
+			
 		}
 		
 		containerWindowType = {
@@ -1209,6 +1236,18 @@ guiTypes = {
 					fixedsize = yes
 				}
 			}
+			
+			buttonType = {
+				name = "commander_roster_navy"
+				quadTextureSprite = "GFX_diplo_filter_entry"
+				position = { x=396 y=476 }
+				buttonText = "Placeholder"
+				font = "cg_16b"
+				frame = 2
+				pdx_tooltip = "COMMANDER_ROSTER_NAVY_TOOLTIP"
+				pdx_tooltip_delayed = "COMMANDER_ROSTER_NAVY_TOOLTIP_DELAYED"
+			}
+			
 		}
 		
 		containerWindowType = {
@@ -2232,7 +2271,7 @@ guiTypes = {
 			format = center
 			alwaystransparent = yes
 		}
-	}
+	} 
 
 	containerWindowType = {
 		name = "naval_command_spirit_window_item_grid"
