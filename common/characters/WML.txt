@@ -258,6 +258,23 @@ characters={
 			}
 		}
 	}
+	WML_robert_kopacki = {
+		name="Robert Kopacki"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Kopacki.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious commando }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 	WML_zbigniew_aszkielaniec = {
 		name="Zbigniew Aszkielaniec"
 		portraits = {
