@@ -13,13 +13,13 @@ guiTypes = {
 		click_to_front = yes
 
 		background = {
-			name = "Background"
-			quadTextureSprite ="GFX_tiled_bg"
+			name = "Background"	
+			quadTextureSprite ="GFX_kwik_bg"
 		}
 		
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 100 y = 25 }
+			position = { x = 130 y = 65 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -32,7 +32,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "description"
-			position = { x = 50 y = 86 }
+			position = { x = 80 y = 100 }
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "PEACE_ANNOUNCEMENT_DESC"
@@ -44,7 +44,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x=230 y =240}
+			position = { x=230 y =270}
 			quadTextureSprite ="GFX_sort_button_140x29"
 			buttonText = "PEACE_ANNOUNCEMENT_CLOSE"
 			buttonFont = "hoi_18mbs"
