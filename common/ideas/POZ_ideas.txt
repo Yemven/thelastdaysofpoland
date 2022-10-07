@@ -13,9 +13,10 @@ ideas = {
 			removal_cost = -1
 			picture = POZ_last_stand
 			modifier = {
-				conscription = 0.01
+				conscription = 0.005
 				army_org_factor = 0.1
 				army_core_defence_factor = 0.1
+				supply_consumption_factor = -0.1
 				
 			}
 		}
@@ -36,10 +37,12 @@ ideas = {
 			modifier = {
 				industry_repair_factor = -0.3
 				consumer_goods_factor = 0.15
-				stability_factor = -0.2
+				stability_factor = -0.35
 				monthly_population = -0.5
 				production_speed_buildings_factor = -0.2
 				industrial_capacity_factory = -0.2
+				political_power_gain = -0.4
+				war_support_factor = -0.2
 				
 			}
 		}
@@ -80,8 +83,10 @@ ideas = {
 			removal_cost = -1
 			picture = POZ_incompetent_administration
 			modifier = {
-				production_speed_buildings_factor = -0.3
-				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.2
+				consumer_goods_factor = 0.05
+				political_power_gain = -0.25
+				war_support_factor = -0.05
 				
 			}
 	    }
@@ -163,7 +168,7 @@ ideas = {
 			modifier = {
 				monthly_population = -2.0
 				max_surrender_limit_offset = 0.5
-				war_support_factor = 0.5
+				war_support_factor = 1.0
 				consumer_goods_factor = 0.1
 				compliance_growth_on_our_occupied_states = 0.2
 				army_core_attack_factor = 0.1
