@@ -176,13 +176,17 @@ focus_tree = {
 		search_filters = { }
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = ZYD_pitch_failures
+				remove_idea = ZYD_pitch_failures2
 				add_idea = ZYD_eleven_falashas
 				}
 			add_popularity = {
 				ideology = squattism
 				popularity = 0.1
 			}
+			country_event = {
+				id = zydzew.13
+				days = 3
+				}
 		}
 	}
 	
@@ -206,13 +210,17 @@ focus_tree = {
 		search_filters = { }
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = ZYD_pitch_failures
+				remove_idea = ZYD_pitch_failures2
 				add_idea = ZYD_eleven_praca
 				}
 			add_popularity = {
 				ideology = marxism_cranism
 				popularity = 0.1
 			}
+			country_event = {
+				id = zydzew.14
+				days = 3
+				}
 		}
 	}
 	
@@ -350,6 +358,10 @@ focus_tree = {
 				ideology = squattism
 				popularity = 0.1
 			}
+			country_event = {
+				id = zydzew.15
+				days = 3
+				}
 		}
 	}
 	
@@ -380,6 +392,10 @@ focus_tree = {
 				ideology = marxism_cranism
 				popularity = 0.1
 			}
+			country_event = {
+				id = zydzew.16
+				days = 3
+				}
 		}
 	}
 	
@@ -641,6 +657,9 @@ focus_tree = {
 				ideology = squattism
 				popularity = 0.1
 			}
+			country_event = {
+				id = zydzew.17
+				}
 		}
 	}
 	
@@ -667,6 +686,7 @@ focus_tree = {
 				ideology = marxism_cranism
 				popularity = 0.1
 			}
+
 		}
 	}
 	
@@ -733,6 +753,10 @@ focus_tree = {
 				remove_idea = officer_random
 				add_idea = officer_clerks
 			}
+			country_event = {
+				id = zydzew.18
+				days = 3
+				}
 		}
 	}
 	
