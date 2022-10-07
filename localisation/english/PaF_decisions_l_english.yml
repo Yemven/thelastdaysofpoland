@@ -124,6 +124,10 @@ museum_heist_desc:0 "Most military equipment gets its original combat capabiliti
 
 coring_map_category_name:0 "Integrating Polish Territories"
 coring_category:0 "Integrating Polish Territories"
+core_the_state:0 "Integrate [FROM.GetName] ([?FROM.state_population_k])"
+coring_cost:0 "£pol_power  [FROM.state_population_k]"
+coring_cost_blocked:0 "£pol_power §R[FROM.state_population_k]§!"
+coring_cost_tooltip:0 "Coring [FROM.GetName] will cost £pol_power §Y[FROM.state_population_k]§!"
 core_county_radomsko:0 "Integrate Radomsko County"
 core_county_pajeczno:0 "Integrate Pajęczno County"
 core_county_wielun:0 "Integrate Wieluń County"
