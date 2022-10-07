@@ -226,6 +226,7 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+	picture = GFX_event_zydzew13
 
 	option = {
 		name = zydzew.13.a
@@ -242,5 +243,111 @@ country_event = {
 
 	option = {
 		name = zydzew.14.a
+	}
+}
+
+country_event = {
+	id = zydzew.15 
+	title = zydzew.15.t
+	desc = zydzew.15.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.15.a
+	}
+}
+
+country_event = {
+	id = zydzew.16 
+	title = zydzew.16.t
+	desc = zydzew.16.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.16.a
+	}
+}
+
+country_event = {
+	id = zydzew.17 
+	title = zydzew.17.t
+	desc = zydzew.17.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.17.a
+	}
+}
+
+country_event = {
+	id = zydzew.18 
+	title = zydzew.18.t
+	desc = zydzew.18.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.18.a
+	}
+}
+
+country_event = {
+	id = zydzew.19 #stare-komuchy
+	title = zydzew.19.t
+	desc = zydzew.19.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.19.a
+	}
+}
+
+country_event = {
+	id = zydzew.20 #stare-komuchy
+	title = zydzew.20.t
+	desc = zydzew.20.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.20.a
+	}
+}
+
+country_event = {
+	id = zydzew.21 #grill1
+	title = zydzew.21.t
+	desc = zydzew.21.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.21.a
+	}
+}
+
+country_event = {
+	id = zydzew.22 #grill2
+	title = zydzew.22.t
+	desc = zydzew.22.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.22.a
+		country_event = { 
+			id = zydzew.23 }
 	}
 }

@@ -686,7 +686,10 @@ focus_tree = {
 				ideology = marxism_cranism
 				popularity = 0.1
 			}
-
+			country_event = {
+				id = zydzew.19
+				days = 3
+			}
 		}
 	}
 	
@@ -788,6 +791,9 @@ focus_tree = {
 				planning_skill = 2
 				logistics_skill = 2
 			}
+			country_event = {
+				id = zydzew.20
+			}
 		}
 	}
 	
@@ -821,6 +827,10 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = improvised_security
 				add_idea = basic_security
+			}
+			country_event = {
+				id = zydzew.21
+				days = 3
 			}
 		}
 	}
