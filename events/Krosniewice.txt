@@ -160,6 +160,19 @@ country_event = {
 }
 
 country_event = {
+	id = krosniewice.4
+	title = krosniewice.4.t
+	desc = krosniewice.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = krosniewice.4.a
+	}
+}
+
+country_event = {
 	id = krs_meeting.1
 	title = krs_meeting.1.t
 	desc = krs_meeting.1.desc
