@@ -2,12 +2,15 @@ state={
 	id=652
 	name="STATE_652"
 	provinces={
-		3236 
+		3236 6250 6290 5039 6268
 	}
 	manpower = 30132   state_category = large_town
 	buildings_max_level_factor=1.000
 		history = {
 		owner = RAD
+		victory_points = { 6250 5 }
+		victory_points = { 3236 5 }
+		victory_points = { 6290 5 }
 		add_core_of = RAD
 	buildings = {
 	infrastructure = 6
