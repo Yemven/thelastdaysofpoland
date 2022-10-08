@@ -4,6 +4,9 @@ coring_category = {
 		target_root_trigger = {
 			always = yes
 		}
+		ai_will_do = {
+			base = 100
+		}
 		target_array = ROOT.owned_states
 		target_trigger = {
 			FROM = {
@@ -11,17 +14,17 @@ coring_category = {
 			}
 		}
 		available = {
-			has_political_power > FROM.state_population_k
+			has_political_power > FROM.coring_cost
         }
 		days_remove = 30
 		custom_cost_trigger = {
-			has_political_power > FROM.state_population_k
+			has_political_power > FROM.coring_cost
 		}
 		custom_cost_text = coring_cost
-		#cost = FROM.state_population_k
+		cost = coring_cost
 		complete_effect = {
-			set_temp_variable = { coring_pp_cost = -1 }
-			multiply_temp_variable = { coring_pp_cost = FROM.state_population_k }
+			set_temp_variable = { coring_pp_cost = FROM.coring_cost }
+			multiply_temp_variable = { coring_pp_cost = -1 }
 			add_political_power = coring_pp_cost
 		}
 		remove_effect = {

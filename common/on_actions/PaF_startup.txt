@@ -1,6 +1,13 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			every_state = {
+				set_variable = { coring_cost = state_population_k }
+				set_variable = { coring_time = coring_cost }
+				divide_variable = { coring_time = 2 }
+				round_variable = coring_cost
+				round_variable = coring_time
+			}
 			every_country = {
 				set_variable = {
 					var = doctrines_researched
