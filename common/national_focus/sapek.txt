@@ -1839,11 +1839,7 @@ focus_tree = {
 		
 		available = {
 			KRS = { num_of_controlled_states < 1 }
-		count_triggers  = {
-			amount = 1
-			ZYD = { num_of_controlled_states < 1 }
-			BBW = { num_of_controlled_states < 1 }
-			ZHP = { num_of_controlled_states < 1 }
+			WML = { num_of_controlled_states < 1 }
 		    }
 		}
 		
@@ -1904,7 +1900,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 3
+		cost = 5
 		search_filters = {}
 		completion_reward = {
 			country_event = {
@@ -1930,7 +1926,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		
-		cost = 3
+		cost = 5
 		search_filters = {}
 		completion_reward = {
 			country_event = {
@@ -1956,7 +1952,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		
-		cost = 3
+		cost = 5
 		search_filters = {}
 		completion_reward = {
 			country_event = {

@@ -384,7 +384,27 @@ country_event = {
 				value = 10
 			}
 		}
+		custom_effect_tooltip = SAP_insanity_tooltip	
+		add_popularity = {
+			ideology = reactionary
+			popularity = 0.05
+		}
 		add_stability = 0.1
+		353 = {
+			damage_building = {
+				type = industrial_complex
+					damage = 1
+				}
+			damage_building = {
+				type = arms_factory
+					damage = 1
+				}
+			damage_building = {
+				type = infrastructure
+					damage = 3
+				}
+			add_manpower = -13695
+			}
 	}
 	option = {
 		name = sapek_war.12.b
@@ -394,7 +414,27 @@ country_event = {
 				value = 10
 			}
 		}
+		custom_effect_tooltip = SAP_sanity_tooltip	
+		add_popularity = {
+			ideology = squattism
+			popularity = 0.05
+		}
 		add_stability = -0.1
+		353 = {
+			damage_building = {
+				type = industrial_complex
+					damage = 1
+				}
+			damage_building = {
+				type = arms_factory
+					damage = 1
+				}
+			damage_building = {
+				type = infrastructure
+					damage = 3
+				}
+			add_manpower = -7135
+			}
 	}
 }
 
@@ -414,7 +454,14 @@ country_event = {
 				value = 10
 			}
 		}
+		custom_effect_tooltip = SAP_insanity_tooltip	
 		add_stability = 0.1
+		add_popularity = {
+			ideology = squattism
+			popularity = 0.05
+		}
+		remove_ideas = SAP_zhp_partisans
+		add_manpower = -1000
 	}
 	option = {
 		name = sapek_war.13.b
@@ -424,7 +471,14 @@ country_event = {
 				value = 10
 			}
 		}
+		custom_effect_tooltip = SAP_sanity_tooltip	
 		add_stability = -0.1
+		add_popularity = {
+			ideology = reactionary
+			popularity = 0.05
+		}
+		remove_ideas = SAP_zhp_partisans
+		add_manpower = -400
 	}
 }
 
