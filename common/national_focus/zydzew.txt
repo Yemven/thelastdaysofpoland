@@ -1010,6 +1010,10 @@ focus_tree = {
 				amount = 100
 				producer = ZYD
 			}
+			country_event = { 
+				id = zydzew.22
+				days = 3
+				}
 		}
 	}
 	
@@ -1461,6 +1465,12 @@ focus_tree = {
 			341 = {
 				create_unit = {
 					division = "name = \"Batalion ORMO 'Sieradzkie'\" division_template = \"Ochotnicza Rezerwa Milicji Obywatelskiej\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ZYD
+				}
+			}
+			309 = {
+				create_unit = {
+					division = "name = \"Batalion ORMO 'Pabianice'\" division_template = \"Ochotnicza Rezerwa Milicji Obywatelskiej\" start_experience_factor = 1 start_equipment_factor = 1"
 					owner = ZYD
 				}
 			}
