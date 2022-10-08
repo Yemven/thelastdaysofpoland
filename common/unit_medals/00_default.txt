@@ -27,8 +27,94 @@
 unit_medals = {
 	
 
+	### BBW MEDAL
+	
+	bbw_combatant_cross = {
+		
+		allowed = { 
+			original_tag = BBW
+		}
+		frame = 1
+		icon = "GFX_BBW_medal_strip"
+	
+		cost = @cost
+		
+		unit_modifiers = {
+			dig_in_speed_factor = 0.1
+		}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}
+	
+	bbw_ad_carbo1_medal = {
+		
+		allowed = { 
+			original_tag = BBW
+		}
+		frame = 2
+		icon = "GFX_BBW_medal_strip"
+	
+		cost = @cost
+		
+		unit_modifiers = {
+			army_fuel_consumption_factor = -0.1
+		}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}
+	
+	bbw_fumus1_medal = {
+		
+		allowed = { 
+			original_tag = BBW
+		}
+		frame = 3
+		icon = "GFX_BBW_medal_strip"
+	
+		cost = @cost
+		
+		unit_modifiers = {
+			supply_consumption_factor = -0.05
+		}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}
+	
+	bbw_fumus2_medal = {
+		
+		allowed = { 
+			original_tag = BBW
+		}
+		frame = 4
+		icon = "GFX_BBW_medal_strip"
+	
+		cost = @cost
+		
+		unit_modifiers = {
+			supply_consumption_factor = -0.1
+		}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}	
+
+
+
 	### Generic Democratic
 	
+
+
 	democratic_gallantry = {
 		
 		available = { 
