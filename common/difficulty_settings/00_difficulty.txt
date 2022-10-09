@@ -90,6 +90,19 @@ difficulty_settings = {
 		multiplier = 2.0
 	}
 	difficulty_setting = {
+		key = "custom_diff_strong_poznanskie"
+		modifier = diff_strong_ai_generic
+		countries = { POZ SLU SYJ NAC PIL WRT }
+		multiplier = 2.0
+	}
+	
+	difficulty_setting = {
+		key = "custom_diff_strong_kaliskie"
+		modifier = diff_strong_ai_generic
+		countries = { FEL CAL GNI SUS }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
 		key = "custom_diff_strong_lubusz"
 		modifier = diff_strong_ai_generic
 		countries = { KAM MOT WIN ZAG }
