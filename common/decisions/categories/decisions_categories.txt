@@ -143,6 +143,16 @@ KRS_hired_guns_category= {
     #icon = BBW_category
     visible_when_empty = no
 }
+
+KRS_shareholders_competition_category = {
+	allowed = {
+        tag = KRS
+		has_completed_focus = KRS_and_begin_the_meeting
+    }
+	
+	scripted_gui = KRS_shareholders_decision_ui
+}
+
 coring_category = {
 	priority = 2
 	icon = GFX_category_icon

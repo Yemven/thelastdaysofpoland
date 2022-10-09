@@ -110,3 +110,17 @@ KRS_funeral_gains_category = {
 KRS_hired_guns_category = { #którym watażkom?
 
 }
+
+KRS_shareholders_competition_category = {
+	KRS_sell_weapons = {
+		cost = 20
+		days_remove = 7
+		days_re_enable = 30
+		complete_effect = {
+			add_war_support = -0.05
+		}
+		remove_effect = {
+			add_political_power = 25
+		}
+	}
+}

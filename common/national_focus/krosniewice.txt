@@ -120,13 +120,14 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			hidden_effect = {
-				set_variable = { KRS_skrzyldewscy_holding_on = 0 }
-				set_variable = { KRS_rutkowski_takeover = 0 }
-				set_variable = { KRS_skinhunters_takeover = 0 }
+				set_variable = { KRS_skrzyldewscy_holding_on = 10 }
+				set_variable = { KRS_rutkowski_takeover = 10 }
+				set_variable = { KRS_skinhunters_takeover = 10 }
+				KRS_calculate_shares = yes
 			}
 			country_event = {
 				id = krosniewice.4
-				}
+			}
 		}
 	}
 	
