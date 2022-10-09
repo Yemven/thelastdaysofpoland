@@ -1,0 +1,23 @@
+ZHP_deurbanization_category = {
+    allowed = {
+        tag = ZHP
+	has_variable = ZHP_deurbanization_progress
+    }
+    priority = 1000
+    visible_when_empty = yes
+    scripted_gui = ZHP_progbar_container
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

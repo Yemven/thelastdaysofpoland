@@ -1,0 +1,42 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GFX_ZHP_Progbar"
+		position = { x = 0 y = 0 }
+		size = {
+			width = 396
+			height = 406
+		}
+		orientation = CENTER
+		icontype = {
+			name = "GFX_ZHP_Progbar"
+			position = {
+				x = 30
+				y = 350
+			}
+		spriteType = "GFX_ZHP_Progbar"
+		pdx_tooltip = "ZHP_PROGBAR_TOOLTIP"
+		}
+
+		iconType = {
+			name = "ZHP_GUI_Image"
+			position = { x = 30 y = -5 }
+			spriteType = "ZHP_drzewko"
+		}
+
+		instantTextBoxType = {
+            name = "ZHP_GUI_desc"
+			position = { x = 150 y = 10 }
+            text = ZHP_GUI_loc
+            font = "aldrich_18_outline"
+			maxWidth = 370
+			maxHeight = 500
+        }
+
+		iconType = {
+			name = "ZHP_frame"
+			position = { x = 30 y = 350 }
+			spriteType = "ZHP_progbar_frame"
+		}
+
+	}
+}

@@ -1,0 +1,31 @@
+scripted_gui = {
+	ZHP_progbar_container = {
+		window_name = "GFX_ZHP_progbar"
+		context_type = decision_category
+		parent_window_token = decision_tab
+
+		properties = {
+			GFX_ZHP_Progbar = { frame = ZHP_deurbanization_progress }
+		}
+
+		triggers = {
+			GFX_ZHP_Progbar_visible = {
+				check_variable = {
+					ZHP_deurbanization_progress > 0
+				}
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}

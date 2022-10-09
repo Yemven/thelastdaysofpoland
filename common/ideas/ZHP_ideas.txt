@@ -18,6 +18,21 @@ ideas = {
 				postpolonism_drift = 0.01
 			}
 		}
+
+		ZHP_deurban = {
+			allowed = {
+				original_tag = ZHP
+			}
+			removal_cost = -1
+			picture = ZHP_szara_lilijka
+			modifier = {
+				decryption = 0.1
+				encryption = 0.1
+				stability_factor = -0.10
+				resistance_growth = -0.1
+				postpolonism_drift = 0.01
+			}
+		}
 		
 		ZHP_division_within_ranks = {
 			allowed = {
@@ -268,6 +283,77 @@ ideas = {
 				war_support_factor = -0.05
 			}
 		}
+	}
+
+	hidden_ideas = {
+
+		ZHP_deurban1 = {
+			allowed = {
+				original_tag = ZHP
+			}
+			do_effect = {
+				check_variable = {
+					ZHP_deurbanization_progress < 25
+				}
+			}
+			modifier = {
+				political_power_gain = -0.1
+				offence = -0.1
+				defence = -0.1
+			}
+		}
+
+		ZHP_deurban2 = {
+			do_effect = {
+				check_variable = {
+					ZHP_deurbanization_progress > 25
+				}
+			}
+			modifier = {
+				political_power_gain = 0.05
+				offence = 0.05
+				defence = 0.05
+				production_factory_max_efficiency_factor = -0.05
+				monthly_population = -0.01
+			}
+		}
+
+		ZHP_deurban3 = {
+			do_effect = {
+				check_variable = {
+					ZHP_deurbanization_progress > 50
+				}
+			}
+			modifier = {
+				political_power_gain = 2.5
+				offence = 0.1
+				defence = 0.1
+				production_factory_max_efficiency_factor = -0.075
+				monthly_population = -0.02
+			}
+		}
+
+		ZHP_deurban4 = {
+			do_effect = {
+				check_variable = {
+					ZHP_deurbanization_progress > 75
+				}
+			}
+			modifier = {
+				political_power_gain = 5
+				offence = 0.15
+				defence = 0.15
+				production_factory_max_efficiency_factor = -0.1
+				monthly_population = -0.05
+			}
+		}
+
+
+
+
+
+
+
 	}
 	
 	industrial_company = {
