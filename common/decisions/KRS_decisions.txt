@@ -117,7 +117,16 @@ KRS_shareholders_competition_category = {
 		days_remove = 7
 		days_re_enable = 30
 		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = ranged_equipment
+				amount = -100
+			}
 			add_war_support = -0.05
+			hidden_effect = {
+				add_to_variable = {all_shares = 1}
+				add_to_variable = {KRS_rutkowski_takeover = 1}
+				KRS_calculate_shares = yes
+			}
 		}
 		remove_effect = {
 			add_political_power = 25
