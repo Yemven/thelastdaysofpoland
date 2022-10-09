@@ -440,6 +440,11 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			set_variable = { dialogue_SAP = 0}
+			set_variable = { dialogue_BBW = 0}
+			set_variable = { dialogue_ZHP = 0}
+			set_variable = { dialogue_KRS = 0}
+			set_variable = { dialogue_ZYD = 0}
 		}
 	}
 	
