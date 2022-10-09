@@ -1,5 +1,5 @@
 division_template = {
-	name = "Commonwealth Infantry Battalion"
+	name = "Batalion Piechoty"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -9,7 +9,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Commonwealth Riders Battalion"
+	name = "Batalion Piechoty Zmotoryzowanej"
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -18,7 +18,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Militia Group"
+	name = "Grupa Przyboczna"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -27,9 +27,9 @@ division_template = {
 
 units = {
     division = {
-		name = "1 Batalion Zmotoryzowany"
+		name = "Jeźdźcy Dolnośląscy"
 		location = 12764
-		division_template = "Commonwealth Riders Battalion"
+		division_template = "Batalion Piechoty Zmotoryzowanej"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
 	}
@@ -37,7 +37,7 @@ units = {
 	division = {
 		name = "Strzelcy Wrocławscy"
 		location = 12763
-		division_template = "Commonwealth Infantry Battalion"
+		division_template = "Batalion Piechoty"
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
@@ -45,7 +45,7 @@ units = {
 	division = {
 		name = "2 Batalion Piechoty"
 		location = 491
-		division_template = "Commonwealth Infantry Battalion"
+		division_template = "Batalion Piechoty"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
@@ -53,7 +53,7 @@ units = {
 	division = {
 		name = "3 Batalion Piechoty"
 		location = 12680
-		division_template = "Commonwealth Infantry Battalion"
+		division_template = "Batalion Piechoty"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
@@ -61,7 +61,7 @@ units = {
 	division = {
 		name = "1 Batalion Obronny"
 		location = 12756
-		division_template = "Militia Group"
+		division_template = "Grupa Przyboczna"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
@@ -69,7 +69,7 @@ units = {
 	division = {
 		name = "2 Batalion Obronny"
 		location = 12766
-		division_template = "Militia Group"
+		division_template = "Grupa Przyboczna"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
@@ -77,7 +77,7 @@ units = {
 	division = {
 		name = "3 Batalion Obronny"
 		location = 12764
-		division_template = "Militia Group"
+		division_template = "Grupa Przyboczna"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
@@ -85,7 +85,7 @@ units = {
 	division = {
 		name = "4 Batalion Obronny"
 		location = 12764
-		division_template = "Militia Group"
+		division_template = "Grupa Przyboczna"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
