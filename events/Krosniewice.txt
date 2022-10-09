@@ -187,21 +187,27 @@ country_event = {
 			add_idea = system_enlistment
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_rutkowski_takeover = 1 }
+			add_to_variable = { KRS_rutkowski_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
 		name = krs_meeting.1.b
 		load_oob = KRS_mercs
 		hidden_effect = {
-			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
 		name = krs_meeting.1.c
 		add_ideas = KRS_j22_compound
 		hidden_effect = {
-			add_to_variable = { KRS_skinhunters_takeover = 1 }
+			add_to_variable = { KRS_skinhunters_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 }
@@ -218,7 +224,9 @@ country_event = {
 		name = krs_meeting.2.a
 		add_ideas = KRS_checkpoint_adverts
 		hidden_effect = {
-			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 		random_owned_state = {
 			limit = { is_core_of = KRS }
@@ -244,7 +252,9 @@ country_event = {
 		name = krs_meeting.2.b
 		add_ideas = KRS_riot_eq_issued
 		hidden_effect = {
-			add_to_variable = { KRS_rutkowski_takeover = 1 }
+			add_to_variable = { KRS_rutkowski_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 		add_equipment_to_stockpile = {
 			type = melee_equipment_0
@@ -275,7 +285,9 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_skinhunters_takeover = 1 }
+			add_to_variable = { KRS_skinhunters_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 }
@@ -300,8 +312,9 @@ country_event = {
 			category = land_common_tech
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
-			
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -316,7 +329,9 @@ country_event = {
 			category = land_nato
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_rutkowski_takeover = 1 }
+			add_to_variable = { KRS_rutkowski_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -331,7 +346,9 @@ country_event = {
 			category = land_horde
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_skinhunters_takeover = 1 }
+			add_to_variable = { KRS_skinhunters_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 }
@@ -352,8 +369,9 @@ country_event = {
 			trait = supreme_mayor
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
-			
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -363,7 +381,9 @@ country_event = {
 			icon = GFX_intelligence_agency_logo_krs
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_rutkowski_takeover = 1 }
+			add_to_variable = { KRS_rutkowski_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -390,7 +410,9 @@ country_event = {
 		}
 		add_stability = 0.15
 		hidden_effect = {
-			add_to_variable = { KRS_skinhunters_takeover = 1 }
+			add_to_variable = { KRS_skinhunters_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 }
@@ -406,7 +428,9 @@ country_event = {
 	option = {
 		name = krs_meeting.5.a
 		hidden_effect = {
-			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 		add_tech_bonus = {
 			bonus = 1
@@ -418,7 +442,9 @@ country_event = {
 	option = {
 		name = krs_meeting.5.b
 		hidden_effect = {
-			add_to_variable = { KRS_rutkowski_takeover = 1 }
+			add_to_variable = { KRS_rutkowski_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 		add_tech_bonus = {
 			bonus = 1
@@ -435,7 +461,9 @@ country_event = {
 			category = hospital_tech
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_skinhunters_takeover = 1 }
+			add_to_variable = { KRS_skinhunters_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 		add_stability = 0.15
 	}
@@ -468,8 +496,9 @@ country_event = {
 			add_idea = KRS_bandits_bought_out
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
-			
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -479,7 +508,9 @@ country_event = {
 			add_idea = KRS_bandits_in_work_camps
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_rutkowski_takeover = 1 }
+			add_to_variable = { KRS_rutkowski_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -489,7 +520,9 @@ country_event = {
 			add_idea = KRS_boneless
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_skinhunters_takeover = 1 }
+			add_to_variable = { KRS_skinhunters_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 }
@@ -509,7 +542,9 @@ country_event = {
 			add_idea = KRS_tulip_farms
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -517,7 +552,9 @@ country_event = {
 		remove_ideas = KRS_economic_stagnation
 		set_country_flag = KRS_offers_hired_guns
 		hidden_effect = {
-			add_to_variable = { KRS_rutkowski_takeover = 1 }
+			add_to_variable = { KRS_rutkowski_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -544,7 +581,9 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_skinhunters_takeover = 1 }
+			add_to_variable = { KRS_skinhunters_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 }
@@ -561,7 +600,9 @@ country_event = {
 		name = krs_meeting.8.a
 		set_country_flag = KRS_offers_funeral_services
 		hidden_effect = {
-			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 		every_country = {
 			if = {
@@ -587,13 +628,17 @@ country_event = {
 			producer = AUT
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_rutkowski_takeover = 1 }
+			add_to_variable = { KRS_rutkowski_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
 		name = krs_meeting.8.c
 		hidden_effect = {
-			add_to_variable = { KRS_skinhunters_takeover = 1 }
+			add_to_variable = { KRS_skinhunters_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 		add_opinion_modifier = {
 			target = CHI
@@ -625,8 +670,9 @@ country_event = {
 		}
 		add_stability = -0.1
 		hidden_effect = {
-			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
-			
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -648,7 +694,9 @@ country_event = {
 				}
 			}
 		hidden_effect = {
-			add_to_variable = { KRS_rutkowski_takeover = 1 }
+			add_to_variable = { KRS_rutkowski_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -661,7 +709,9 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			add_to_variable = { KRS_skinhunters_takeover = 1 }
+			add_to_variable = { KRS_skinhunters_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 }
@@ -687,7 +737,9 @@ country_event = {
 		add_ideas = KRS_megaproject_wip
 		add_political_power = -100
 		hidden_effect = {
-			add_to_variable = { KRS_skrzyldewscy_holding_on = 1 }
+			add_to_variable = { KRS_skrzyldewscy_holding_on = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -709,7 +761,9 @@ country_event = {
 		add_ideas = KRS_megaproject_wip		
 		add_political_power = -100
 		hidden_effect = {
-			add_to_variable = { KRS_rutkowski_takeover = 1 }
+			add_to_variable = { KRS_rutkowski_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 	option = {
@@ -725,7 +779,9 @@ country_event = {
 				}
 			}
 		hidden_effect = {
-			add_to_variable = { KRS_skinhunters_takeover = 1 }
+			add_to_variable = { KRS_skinhunters_takeover = 2 }
+			add_to_variable = { all_shares = 2 }
+			KRS_calculate_shares = yes
 		}
 	}
 }

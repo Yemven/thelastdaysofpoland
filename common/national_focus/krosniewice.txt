@@ -582,20 +582,20 @@ focus_tree = {
 		prerequisite = { focus = KRS_battle_for_lodzkie }
 		mutually_exclusive = { focus = KRS_establish_an_auxiliary_corps }
 		mutually_exclusive = { focus = KRS_roll_out_the_paramedics }
-		available = {
-			AND = {
-				check_variable = {
-					var = KRS_skrzyldewscy_holding_on
-					value = KRS_skinhunters_takeover
-					compare = greater_than_or_equals
-					}
-				check_variable = {
-					var = KRS_skrzyldewscy_holding_on
-					value = KRS_rutkowski_takeover
-					compare = greater_than_or_equals
-					}
-				}
-		}
+		#available = {
+			#AND = {
+				#check_variable = {
+					#var = KRS_skrzyldewscy_holding_on
+					#value = KRS_skinhunters_takeover
+					#compare = greater_than_or_equals
+					#}
+				#check_variable = {
+					#var = KRS_skrzyldewscy_holding_on
+					#value = KRS_rutkowski_takeover
+					#compare = greater_than_or_equals
+					#}
+				#}
+		#}
 		
 		bypass = {
 		}
@@ -609,6 +609,15 @@ focus_tree = {
 			add_timed_idea = {
 				idea = KRS_diverted_assets
 				days = 90
+			}
+			completion_reward = {
+				add_manpower = 1000
+				add_war_support = 0.1
+				hidden_effect = {
+					add_to_variable = {all_shares = 10}
+					add_to_variable = {KRS_skrzyldewscy_holding_on = 10}
+					KRS_calculate_shares = yes
+				}
 			}
 		}
 	}
@@ -692,20 +701,20 @@ focus_tree = {
 		prerequisite = { focus = KRS_battle_for_lodzkie }
 		mutually_exclusive = { focus = KRS_divert_our_assets }
 		mutually_exclusive = { focus = KRS_roll_out_the_paramedics }
-		available = {
-			AND = {
-				check_variable = {
-					var = KRS_rutkowski_takeover
-					value = KRS_skinhunters_takeover
-					compare = greater_than_or_equals
-					}
-				check_variable = {
-					var = KRS_rutkowski_takeover
-					value = KRS_skrzyldewscy_holding_on
-					compare = greater_than_or_equals
-					}
-				}
-		}
+		#available = {
+			#AND = {
+				#check_variable = {
+					#var = KRS_rutkowski_takeover
+					#value = KRS_skinhunters_takeover
+					#compare = greater_than_or_equals
+					#}
+				#check_variable = {
+					#var = KRS_rutkowski_takeover
+					#value = KRS_skrzyldewscy_holding_on
+					#compare = greater_than_or_equals
+					#}
+				#}
+		#}
 		
 		bypass = {
 		}
@@ -718,6 +727,11 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = 1000
 			add_war_support = 0.1
+			hidden_effect = {
+				add_to_variable = {all_shares = 10}
+				add_to_variable = {KRS_rutkowski_takeover = 10}
+				KRS_calculate_shares = yes
+			}
 		}
 	}
 	
@@ -854,20 +868,20 @@ focus_tree = {
 		prerequisite = { focus = KRS_battle_for_lodzkie }
 		mutually_exclusive = { focus = KRS_establish_an_auxiliary_corps }
 		mutually_exclusive = { focus = KRS_divert_our_assets }
-		available = {
-			AND = {
-				check_variable = {
-					var = KRS_skinhunters_takeover
-					value = KRS_skrzyldewscy_holding_on
-					compare = greater_than_or_equals
-					}
-				check_variable = {
-					var = KRS_skinhunters_takeover
-					value = KRS_rutkowski_takeover
-					compare = greater_than_or_equals
-					}
-				}
-		}
+		#available = {
+			#AND = {
+				#check_variable = {
+					#var = KRS_skinhunters_takeover
+					#value = KRS_skrzyldewscy_holding_on
+					#compare = greater_than_or_equals
+					#}
+				#check_variable = {
+					#var = KRS_skinhunters_takeover
+					#value = KRS_rutkowski_takeover
+					#compare = greater_than_or_equals
+					#}
+				#}
+		#}
 		
 		bypass = {
 		}
@@ -882,6 +896,11 @@ focus_tree = {
 				bonus = 1
 				uses = 1
 				category = hospital_tech
+			}
+			hidden_effect = {
+				add_to_variable = {all_shares = 10}
+				add_to_variable = {KRS_skinhunters_takeover = 10}
+				KRS_calculate_shares = yes
 			}
 		}
 	}
