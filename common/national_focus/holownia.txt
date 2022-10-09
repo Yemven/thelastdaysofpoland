@@ -591,7 +591,6 @@ focus_tree = {
 		prerequisite = { focus = WML_convene_general_assembly }
 		
 		available = {
-		
 		}
 		
 		bypass = {
@@ -645,7 +644,7 @@ focus_tree = {
 		relative_position_id = WML_industrial_lodz
 		prerequisite = { focus = WML_industrial_lodz }
 		available = {
-		
+			check_variable = {dialogue_BBW > 24}
 		}
 		
 		bypass = {
@@ -670,7 +669,7 @@ focus_tree = {
 		relative_position_id = WML_lodz_industry
 		prerequisite = { focus = WML_lodz_industry }
 		available = {
-		
+			check_variable = {dialogue_BBW > 49}
 		}
 		
 		bypass = {
@@ -706,7 +705,7 @@ focus_tree = {
 		relative_position_id = WML_renovation_of_lask_airport
 		prerequisite = { focus = WML_renovation_of_lask_airport }
 		available = {
-		
+			check_variable = {dialogue_BBW > 74}
 		}
 		
 		bypass = {
@@ -731,7 +730,7 @@ focus_tree = {
 		relative_position_id = WML_state_positions_for_the_power_plant_staff
 		prerequisite = { focus = WML_state_positions_for_the_power_plant_staff }
 		available = {
-		
+			check_variable = {dialogue_BBW > 99}
 		}
 		
 		bypass = {
@@ -756,7 +755,7 @@ focus_tree = {
 		relative_position_id = WML_forest_lodz
 		prerequisite = { focus = WML_forest_lodz }
 		available = {
-		
+			check_variable = {dialogue_ZHP > 24}
 		}
 		
 		bypass = {
@@ -788,7 +787,7 @@ focus_tree = {
 		relative_position_id = WML_construction_of_parks
 		prerequisite = { focus = WML_construction_of_parks }
 		available = {
-		
+			check_variable = {dialogue_ZHP > 49}
 		}
 		
 		bypass = {
@@ -813,7 +812,7 @@ focus_tree = {
 		relative_position_id = WML_scout_commandos
 		prerequisite = { focus = WML_scout_commandos }
 		available = {
-		
+			check_variable = {dialogue_ZHP > 74}
 		}
 		
 		bypass = {
@@ -838,7 +837,7 @@ focus_tree = {
 		relative_position_id = WML_spartan_standards
 		prerequisite = { focus = WML_spartan_standards }
 		available = {
-		
+			check_variable = {dialogue_ZHP > 99}
 		}
 		
 		bypass = {
@@ -902,7 +901,7 @@ focus_tree = {
 		relative_position_id = WML_fantastical_lodz
 		prerequisite = { focus = WML_fantastical_lodz }
 		available = {
-		
+			check_variable = {dialogue_SAP > 24}
 		}
 		
 		bypass = {
@@ -927,7 +926,7 @@ focus_tree = {
 		relative_position_id = WML_ignacy_moscicki_potions_laboratory
 		prerequisite = { focus = WML_ignacy_moscicki_potions_laboratory }
 		available = {
-		
+			check_variable = {dialogue_SAP > 49}
 		}
 		
 		bypass = {
@@ -952,7 +951,7 @@ focus_tree = {
 		relative_position_id = WML_wizardring_schools
 		prerequisite = { focus = WML_wizardring_schools }
 		available = {
-		
+			check_variable = {dialogue_SAP > 74}
 		}
 		
 		bypass = {
@@ -977,7 +976,7 @@ focus_tree = {
 		relative_position_id = WML_witcher_training
 		prerequisite = { focus = WML_witcher_training }
 		available = {
-		
+			check_variable = {dialogue_SAP > 99}
 		}
 		
 		bypass = {
@@ -1029,7 +1028,7 @@ focus_tree = {
 		relative_position_id = WML_convene_general_assembly
 		prerequisite = { focus = WML_convene_general_assembly }
 		available = {
-		
+
 		}
 		
 		bypass = {
@@ -1056,7 +1055,7 @@ focus_tree = {
 		relative_position_id = WML_fairer_lodz
 		prerequisite = { focus = WML_fairer_lodz }
 		available = {
-		
+			check_variable = {dialogue_ZYD > 24}
 		}
 		
 		bypass = {
@@ -1081,7 +1080,7 @@ focus_tree = {
 		relative_position_id = WML_the_rights_of_religious_minorities
 		prerequisite = { focus = WML_the_rights_of_religious_minorities }
 		available = {
-		
+			check_variable = {dialogue_ZYD > 49}
 		}
 		
 		bypass = {
@@ -1106,7 +1105,7 @@ focus_tree = {
 		relative_position_id = WML_primacy_of_trade_unions
 		prerequisite = { focus = WML_primacy_of_trade_unions }
 		available = {
-		
+			check_variable = {dialogue_ZYD > 74}
 		}
 		
 		bypass = {
@@ -1131,7 +1130,7 @@ focus_tree = {
 		relative_position_id = WML_co_-_financing_of_sports
 		prerequisite = { focus = WML_co_-_financing_of_sports }
 		available = {
-		
+			check_variable = {dialogue_ZYD > 99}
 		}
 		
 		bypass = {
@@ -1156,7 +1155,7 @@ focus_tree = {
 		relative_position_id = WML_the_primacy_of_entrepreneurs
 		prerequisite = { focus = WML_the_primacy_of_entrepreneurs }
 		available = {
-		
+			check_variable = {dialogue_KRS > 24}
 		}
 		
 		bypass = {
@@ -1186,7 +1185,7 @@ focus_tree = {
 		relative_position_id = WML_preferential_government_contracts
 		prerequisite = { focus = WML_preferential_government_contracts }
 		available = {
-		
+			check_variable = {dialogue_KRS > 49}
 		}
 		
 		bypass = {
@@ -1211,7 +1210,7 @@ focus_tree = {
 		relative_position_id = WML_tax_breaks
 		prerequisite = { focus = WML_tax_breaks }
 		available = {
-		
+			check_variable = {dialogue_KRS > 74}
 		}
 		
 		bypass = {
@@ -1236,7 +1235,7 @@ focus_tree = {
 		relative_position_id = WML_graves_of_an_unknown_soldier
 		prerequisite = { focus = WML_graves_of_an_unknown_soldier }
 		available = {
-		
+			check_variable = {dialogue_KRS > 99}
 		}
 		
 		bypass = {
