@@ -3,12 +3,18 @@ state={
 	id=261
 	name="STATE_261"
 	provinces={
-		1665 
+		1665 6486 6486 4466 6473 5476 5610 5655 6590 6432 5197 5930 5746 5263 5569
 	}
 	manpower = 129125   state_category = city
 	buildings_max_level_factor=1.000
 			history = {
 		owner = MAF
+		victory_points = { 1665 10 }
+		victory_points = { 5197 7 }
+		victory_points = { 5930 3 }
+		victory_points = { 5746 2 }
+		victory_points = { 5655 3 }
+		victory_points = { 4466 6 }
 		add_core_of = MAF
 	buildings = {
 	infrastructure = 7
