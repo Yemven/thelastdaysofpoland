@@ -42,10 +42,7 @@ equipments = {
 		lend_lease_cost = 10
 		
 		build_cost_ic 	= 9
-		resources = {
-			#oil 		= 1
-			steel 		= 2
-		}
+
 
 		fuel_consumption 	= 1.8
 	}
@@ -78,6 +75,8 @@ equipments = {
 
 		build_cost_ic 		= 9
 		fuel_consumption 	= 0.8
+		
+		
 	}
 
 	armored_car_equipment_1 = {
@@ -90,6 +89,12 @@ equipments = {
 		is_convertable = yes
 
 		#recon = 2
+		
+		resources = {
+			steel = 2
+			synthetic_materials = 1
+			junk = 1
+		}
 	}
 
 	armored_car_equipment_2 = {
@@ -119,9 +124,9 @@ equipments = {
 		
 		build_cost_ic = 12
 		resources = {
-			#oil = 1
-			steel = 2
-			coal = 1
+			steel = 3
+			synthetic_materials = 1
+			junk = 1
 		}
 	}
 
@@ -152,9 +157,9 @@ equipments = {
 		
 		build_cost_ic = 13.5
 		resources = {
-			#oil = 1
 			steel = 2
-			coal = 2
+			synthetic_materials = 2
+			aluminium = 2
 		}
 	}
 
@@ -185,9 +190,9 @@ equipments = {
 		
 		build_cost_ic = 15
 		resources = {
-			#oil = 1
-			steel = 3
-			coal = 2
+			synthetic_materials = 2
+			aluminium = 3
+			electronics = 1
 		}
 	}
 

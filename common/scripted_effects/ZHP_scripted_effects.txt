@@ -1,0 +1,187 @@
+ZHP_return_characters = {
+	if = {
+		limit = {
+			GFL = {
+				exists = yes
+				has_character = ZHP_orsza
+			}
+		}
+		set_nationality = {
+			target_country = ZHP
+			character = ZHP_orsza
+		}
+	}
+	if = {
+		limit = {
+			ZHR = {
+				exists = yes
+				has_character = ZHP_marek_jedraszewski
+			}
+		}
+		set_nationality = {
+			target_country = ZHP
+			character = ZHP_marek_jedraszewski
+		}
+	}
+}
+
+ZHP_add_states_to_rebels = {
+	#krośniewice
+	if = {
+		limit = {
+			236 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 236 }
+	}
+	if = {
+		limit = {
+			258 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 258 }
+	}
+	if = {
+		limit = {
+			275 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 275 }
+	}
+	if = {
+		limit = {
+			283 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 283 }
+	}
+	if = {
+		limit = {
+			289 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 289 }
+	}
+	if = {
+		limit = {
+			681 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 681 }
+	}
+	if = {
+		limit = {
+			685 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 685 }
+	}			
+	if = {
+		limit = {
+			686 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 686 }
+	}			
+	if = {
+		limit = {
+			687 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 687 }
+	}			
+	if = {
+		limit = {
+			849 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 849 }
+	}			
+	
+	
+	#ziemie sapka
+	if = {
+		limit = {
+			850 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 850 }	
+	}
+	if = {
+		limit = {
+			300 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 300 }	
+	}
+	if = {
+		limit = {
+			296 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 296 }	
+	}
+	if = {
+		limit = {
+			303 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 303 }	
+	}
+	if = {
+		limit = {
+			288 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 288 }	
+	}
+	if = {
+		limit = {
+			272 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 272 }	
+	}
+	if = {
+		limit = {
+			269 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 269 }	
+	}
+	if = {
+		limit = {
+			682 = {
+				is_owned_by = ZHP
+			}
+		}
+		add_to_array = { ZHP_breaker_states = 682 }	
+	}
+	add_to_array = { ZHP_breaker_states = 577 }		
+	add_to_array = { ZHP_breaker_states = 302 }		
+	add_to_array = { ZHP_breaker_states = 576 }	
+	add_to_array = { ZHP_breaker_states = 757 }		
+	add_to_array = { ZHP_breaker_states = 758 }											
+	add_to_array = { ZHP_breaker_states = 579 }			
+	add_to_array = { ZHP_breaker_states = 578 }
+	add_to_array = { ZHP_breaker_states = 759 }
+	add_to_array = { ZHP_breaker_states = 315 }
+	add_to_array = { ZHP_breaker_states = 319 }
+}

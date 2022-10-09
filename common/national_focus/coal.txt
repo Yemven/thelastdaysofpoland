@@ -20,7 +20,7 @@ focus_tree = {
 	
 	continuous_focus_position = {x = 50 y = 1500 }
 	
-		focus = {
+	focus = {
 		id = BBW_trial_of_three
 		icon = BBW_trial_of_three
 		available = {
@@ -261,36 +261,36 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			WML = {
-			add_opinion_modifier = {
-				target = BBW
-				modifier = aided_industry
-				}
-			}
-			KRS = {
-			add_opinion_modifier = {
-				target = BBW
-				modifier = aided_industry
-				}
-			}
-			ZHP = {
-			add_opinion_modifier = {
-				target = BBW
-				modifier = aided_industry
-				}
-			}
-			ZYD = {
-			add_opinion_modifier = {
-				target = BBW
-				modifier = aided_industry
-				}
-			}
-			SAP = {
-			add_opinion_modifier = {
-				target = BBW
-				modifier = aided_industry
-				}
-			}
+			#WML = {
+			#add_opinion_modifier = {
+				#target = BBW
+				#modifier = aided_industry
+				#}
+			#}
+			#KRS = {
+			#add_opinion_modifier = {
+				#target = BBW
+				#modifier = aided_industry
+				#}
+			#}
+			#ZHP = {
+			#add_opinion_modifier = {
+				#target = BBW
+				#modifier = aided_industry
+				#}
+			#}
+			#ZYD = {
+			#add_opinion_modifier = {
+				#target = BBW
+				#modifier = aided_industry
+				#}
+			#}
+			#SAP = {
+			#add_opinion_modifier = {
+				#target = BBW
+				#modifier = aided_industry
+				#}
+			#}
 		
 		}
 	}
@@ -624,7 +624,6 @@ focus_tree = {
 		cost = 3.8
 		search_filters = {}
 		completion_reward = {
-			set_country_flag = BBW_war_time
 			341 = {
 				create_unit = {
 					division = "division_template = \"Rycerze Bractwa\" start_experience_factor = 0.1 start_equipment_factor = 1"
@@ -641,9 +640,8 @@ focus_tree = {
 	focus = {
 		id = BBW_poor_examples
 		icon = BBW_poor_examples
+		will_lead_to_war_with = ZHP
 		available = {
-		hidden_trigger = {
-		has_country_flag = BBW_war_time }
 		}
 		
 		bypass = {
@@ -740,8 +738,7 @@ focus_tree = {
 	focus = {
 		id = BBW_revolution_avantgarde
 		icon = BBW_revolution_avantgarde
-		relative_position_id = BBW_rapid_electrification
-		prerequisite = { focus = BBW_rapid_electrification }
+		will_lead_to_war_with = ZYD
 		available = {
 		has_war = no
 		}
@@ -756,8 +753,8 @@ focus_tree = {
 			}
 		}
 		
-		x = 0
-		y = 1
+		x = 13
+		y = 0
 		
 		cost = 1
 		search_filters = {}
@@ -780,13 +777,17 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -2
+		x = -1
 		y = 1
 		
 		cost = 2
 		search_filters = {}
 		completion_reward = {
 			add_stability = 0.1
+			every_controlled_state = {
+				limit = { is_core_of = ZYD }
+					add_compliance = 20
+					}
 		}
 	}
 	focus = {
@@ -801,7 +802,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 2
+		x = 1
 		y = 1
 		
 		cost = 2
@@ -822,7 +823,8 @@ focus_tree = {
 	focus = {
 		id = BBW_dangerous_ruins
 		icon = BBW_dangerous_ruins
-		relative_position_id = BBW_revolution_avantgarde
+		will_lead_to_war_with = WML
+		relative_position_id = BBW_order_in_red_wilderness
 		prerequisite = { focus = BBW_normalcy_guarantee }
 		prerequisite = { focus = BBW_divide_et_impera }
 		available = {
@@ -846,7 +848,7 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 4
+		y = 3
 		
 		cost = 1
 		search_filters = {}
@@ -876,9 +878,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			add_timed_idea = {
-				idea = BBW_futile_resistance
-				days = 360
+			swap_ideas = {
+				remove_idea = BBW_green_counter_revolution4
+				add_idea = BBW_green_counter_revolution5
 			}
 			every_controlled_state = {
 				limit = { is_core_of = WML }
@@ -919,9 +921,11 @@ focus_tree = {
 	focus = {
 		id = BBW_ordinary_people
 		icon = BBW_ordinary_people
-		relative_position_id = BBW_order_in_red_wilderness
+		will_lead_to_war_with = KRS
+		relative_position_id = BBW_rapid_electrification
 		prerequisite = { focus = BBW_order_in_red_wilderness }
 		prerequisite = { focus = BBW_rehab_conscription }
+		prerequisite = { focus = BBW_rapid_electrification }
 		available = {
 			has_war = no
 			KRS = { num_of_controlled_states > 1 }
@@ -954,6 +958,8 @@ focus_tree = {
 		relative_position_id = BBW_rehab_conscription
 		prerequisite = { focus = BBW_rehab_conscription }
 		prerequisite = { focus = BBW_order_in_red_wilderness }
+		prerequisite = { focus = BBW_rapid_electrification }
+		will_lead_to_war_with = SAP
 		available = {
 			has_war = no
 			SAP = { num_of_controlled_states > 1 }
@@ -1010,10 +1016,11 @@ focus_tree = {
 					set_nationality = BBW
 				}
 			}
-			if = {
-				limit = {
-					SAP_jacek_bartyzel = { NOT = { is_corps_commander = yes } }
-					}
+			random_character = {
+				limit = { 
+					is_character = SAP_jacek_bartyzel 
+					NOT = { is_corps_commander = yes }
+					}	
 				add_field_marshal_role = {
 					character = SAP_jacek_bartyzel
 						skill = 2
@@ -1021,8 +1028,9 @@ focus_tree = {
 						defense_skill = 2
 						planning_skill = 4
 						logistics_skill = 2
-					}
+				}				
 				}
+
 		}
 	}
 	focus = {
@@ -1058,7 +1066,7 @@ focus_tree = {
 		prerequisite = { focus = BBW_false_hope_symbols }
 		prerequisite = { focus = BBW_chaos_among_rubble }
 		available = {
-		  302 = { is_controlled_by = SAP }
+		  302 = { is_controlled_by = BBW }
 		  NOT = { has_war = yes }
 		}
 		

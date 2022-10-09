@@ -110,3 +110,286 @@ KRS_funeral_gains_category = {
 KRS_hired_guns_category = { #którym watażkom?
 
 }
+
+KRS_shareholders_competition_category = {
+	KRS_sell_weapons = {
+		days_remove = 7
+		days_re_enable = 30
+		allowed = {
+			original_tag = KRS
+		}
+		available = {
+			has_equipment = {
+				ranged_equipment > 99
+			}
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = ranged_equipment
+				amount = -100
+			}
+			add_war_support = -0.05
+			hidden_effect = {
+				add_to_variable = {all_shares = 1}
+				add_to_variable = {KRS_rutkowski_takeover = 1}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_political_power = 25
+		}
+	}
+	
+	KRS_offer_protection = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 40
+		days_remove = 14
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 2}
+				add_to_variable = {KRS_rutkowski_takeover = 2}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_protection_modifier
+			}
+		}
+	}
+	
+	KRS_found_officer_schools = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 60
+		days_remove = 21
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 3}
+				add_to_variable = {KRS_rutkowski_takeover = 3}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_officer_school_modifier
+			}
+		}
+	}
+	
+	KRS_offer_investigation_services = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 80
+		days_remove = 28
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 4}
+				add_to_variable = {KRS_rutkowski_takeover = 4}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_investigation_services_modifier
+			}
+		}
+	}
+	
+	KRS_fund_infrastructure = {
+		cost = 20
+		days_remove = 7
+		days_re_enable = 30
+		allowed = {
+			original_tag = KRS
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 1}
+				add_to_variable = {KRS_skrzyldewscy_holding_on = 1}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = KRS_consortium_policy_infrastructure_fund_modifier
+						}
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = KRS_consortium_policy_infrastructure_fund_modifier
+				}
+			}
+			else = {
+				add_political_power = 45
+			}
+		}
+	}
+	
+	KRS_franchise_floral_shops = {
+		allowed = {
+			original_tag = KRS
+		}
+		fixed_random_seed = no
+		cost = 80
+		days_remove = 28
+		days_re_enable = 180
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 4}
+				add_to_variable = {KRS_skrzyldewscy_holding_on = 4}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	KRS_build_apiaries = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 60
+		days_remove = 21
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 3}
+				add_to_variable = {KRS_skrzyldewscy_holding_on = 3}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_honey_modifier
+			}
+		}
+	}
+	
+	KRS_distribute_canned_food = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 40
+		days_remove = 14
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 2}
+				add_to_variable = {KRS_skrzyldewscy_holding_on = 2}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_canned_food_modifier
+			}
+		}
+	}
+	
+	KRS_underground_contacts = {
+		days_remove = 7
+		days_re_enable = 30
+		allowed = {
+			original_tag = KRS
+		}
+		available = {
+			has_manpower > 499
+		}
+		complete_effect = {
+			add_manpower = -500
+			hidden_effect = {
+				add_to_variable = {all_shares = 1}
+				add_to_variable = {KRS_skinhunters_takeover = 1}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_political_power = 25
+		}
+	}
+	
+	KRS_fund_stipends = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 40
+		days_remove = 14
+		days_re_enable = 360
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 2}
+				add_to_variable = {KRS_skinhunters_takeover = 2}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			KRS = {
+				every_unit_leader = {
+					add_dynamic_modifier = {
+						modifier = KRS_consortium_policy_stipends_modifier
+					}
+				}
+			}
+		}
+	}
+	
+	KRS_launch_vpn_service = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 60
+		days_remove = 21
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 3}
+				add_to_variable = {KRS_skinhunters_takeover = 3}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_vpn_service_modifier
+			}
+		}
+	}
+	
+	KRS_put_5g_antennas = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 80
+		days_remove = 28
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 4}
+				add_to_variable = {KRS_skinhunters_takeover = 4}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_5g_network_modifier
+			}
+		}
+	}
+}

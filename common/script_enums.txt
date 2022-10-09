@@ -1,0 +1,76 @@
+script_enum_equipment_bonus_type = {
+	melee_equipment
+	ranged_equipment
+	inf_anti_tank_equipment
+	equipment_vests
+	special_forces_equipment
+
+	aircraft_equipment
+	fighter_equipment
+	bomber_equipment
+	transport_equipment
+	uav_equipment
+	helicopter_equipment
+	trans_helicopter_equipment
+	
+	support_equipment
+	railway_gun_equipment
+	train_equipment
+	
+	amphibious_mechanized_equipment
+	anti_air_equipment
+	
+	bicycle_equipment
+	armored_car_equipment
+	motorbike_equipment
+	apc_equipment
+	motorized_equipment
+	ifv_chassis
+	mbt_chassis
+	armor
+
+	light_artillery_equipment
+	heavy_artillery_equipment
+	rocket_artillery_equipment
+	motorized_rocket_equipment
+	self_propelled_artillery_chassis	
+	
+	convoy
+	floating_harbor_equipment
+	kayak_hull
+	motorboat_hull
+	ship_hull_cruiser
+	monitor_hull
+	heavy_monitor_hull
+	ship_hull_submarine
+	screen_ship
+	capital_ship
+	submarine
+	
+	guided_missile_equipment
+	tac_bomber_equipment
+	nav_bomber_equipment
+	heavy_fighter_equipment
+	scout_plane_equipment
+	strat_bomber_equipment
+	
+	CAS_equipment
+	cv_fighter_equipment
+	cv_CAS_equipment
+	cv_nav_bomber_equipment
+}
+
+script_enum_operative_mission_type = {
+	build_intel_network
+	counter_intelligence
+	quiet_network
+	root_out_resistance
+	control_trade
+}
+
+script_enum_advisor_slot_type = {
+	head_of_government
+	interior_minister
+	minister_of_war
+	minister_of_economy
+}

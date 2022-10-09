@@ -9,7 +9,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Policja pod kontrolą mafii"
+	name = "Brudne gliny"
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -20,7 +20,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Konwój policji podległej mafii"
+	name = "Konwój brudnych gliniarzy"
 	regiments = {
 		armored_car = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -40,8 +40,8 @@ units = {
 	}
 
 	division = {
-		name = "Nadarzyńskie bojówki mafijne"
-		location = 2161
+		name = "Błońskie bojówki mafijne"
+		location = 624
 		division_template = "Osiłki Mafii Pruszkowskiej"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
@@ -49,32 +49,32 @@ units = {
 	
 	division = {
 		name = "Pruszkowskie bojówki mafijne"
-		location = 1665
+		location = 5197
 		division_template = "Osiłki Mafii Pruszkowskiej"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "Pruszkowska policja"
-		location = 1665
-		division_template = "Policja pod kontrolą mafii"
+		name = "Pruszkowskie brudne gliny"
+		location = 5263
+		division_template = "Brudne gliny"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "Konwój policji pruszkowskiej"
-		location = 1665
-		division_template = "Konwój policji podległej mafii"
+		name = "Konwój pruszkowskich gliniarzy"
+		location = 5476
+		division_template = "Konwój brudnych gliniarzy"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "Nadarzyńska policja"
+		name = "Gliniarze z Nadarzyna"
 		location = 2161
-		division_template = "Policja pod kontrolą mafii"
+		division_template = "Brudne gliny"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}

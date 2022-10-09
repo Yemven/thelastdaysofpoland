@@ -1,0 +1,186 @@
+WML_dialogue_decisions = {
+###POZIOM ZEROWY###
+	WML_dialogue_SAP0 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { add_to_variable = {dialogue_SAP = 5}}
+	}
+	WML_dialogue_BBW0 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { add_to_variable = {dialogue_BBW = 5}}
+	}
+	WML_dialogue_ZHP0 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { add_to_variable = {dialogue_ZHP = 5}}
+	}
+	WML_dialogue_KRS0 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { add_to_variable = {dialogue_KRS = 5}}
+	}
+	WML_dialogue_ZYD0 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { add_to_variable = {dialogue_ZYD = 5}}
+	}
+###POZIOM PIERWSZY###
+	WML_dialogue_SAP1 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { add_to_variable = {dialogue_SAP = 10}}
+	}
+	WML_dialogue_BBW1 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { add_to_variable = {dialogue_BBW = 10}}
+	}
+	WML_dialogue_ZHP1 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { add_to_variable = {dialogue_ZHP = 10}}
+	}
+	WML_dialogue_KRS1 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { add_to_variable = {dialogue_KRS = 10}}
+	}
+	WML_dialogue_ZYD1 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { add_to_variable = {dialogue_ZYD = 10}}
+	}
+###POZIOM DRUGI###
+	WML_dialogue_SAP2 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { 
+			add_to_variable = {dialogue_SAP = 15}
+			subtract_from_variable = {dialogue_KRS = 5}
+			subtract_from_variable = {dialogue_BBW = 5}
+		}
+	}
+	WML_dialogue_BBW2 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { 
+			add_to_variable = {dialogue_BBW = 15}
+			subtract_from_variable = {dialogue_ZYD = 5}
+			subtract_from_variable = {dialogue_ZHP = 5}
+		}
+	}
+	WML_dialogue_ZHP2 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { 
+			add_to_variable = {dialogue_ZHP = 15}
+			subtract_from_variable = {dialogue_BBW = 5}
+			subtract_from_variable = {dialogue_ZYD = 5}
+		}
+	}
+	WML_dialogue_KRS2 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { 
+			add_to_variable = {dialogue_KRS = 15}
+			subtract_from_variable = {dialogue_SAP = 5}
+			subtract_from_variable = {dialogue_ZHP = 5}
+		}
+	}
+	WML_dialogue_ZYD2 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { 
+			add_to_variable = {dialogue_ZYD = 15}
+			subtract_from_variable = {dialogue_KRS = 5}
+			subtract_from_variable = {dialogue_SAP = 5}
+		}
+	}
+###POZIOM TRZECI###
+	WML_dialogue_SAP3 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { 
+			add_to_variable = {dialogue_SAP = 20}
+			subtract_from_variable = {dialogue_ZYD = 10}
+			subtract_from_variable = {dialogue_KRS = 10}
+		}
+	}
+	WML_dialogue_BBW3 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { 
+			add_to_variable = {dialogue_BBW = 20}
+			subtract_from_variable = {dialogue_ZHP = 10}
+			subtract_from_variable = {dialogue_SAP = 10}
+		}
+	}
+	WML_dialogue_ZHP3 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { 
+			add_to_variable = {dialogue_ZHP = 20}
+			subtract_from_variable = {dialogue_KRS = 10}
+			subtract_from_variable = {dialogue_BBW = 10}
+		}
+	}
+	WML_dialogue_KRS3 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { 
+			add_to_variable = {dialogue_KRS = 20}
+			subtract_from_variable = {dialogue_ZYD = 10}
+			subtract_from_variable = {dialogue_SAP = 10}
+		}
+	}
+	WML_dialogue_ZYD3 = {
+		allowed = {
+			tag = WML
+		}
+		cost = 25
+		complete_effect = { 
+			add_to_variable = {dialogue_ZYD = 20}
+			subtract_from_variable = {dialogue_BBW = 10}
+			subtract_from_variable = {dialogue_ZHP = 10}
+		}
+	}
+}

@@ -5,16 +5,18 @@ oob = "WML_2027"
 # Starting tech
 set_technology = {
 		melee_weapons = 1  
+		melee_weapons_upgrade = 1
 		ranged_weapons_upgrade = 1
 		ranged_weapons = 1
 		ranged_weapons1 = 1
 		infantry_training = 1
-		infantry_armor = 1
-		ballistic_vests = 1
+		army_uniform = 1
+		army_uniform1 = 1
 		
 		tech_support = 1
 		basic_train = 1
 		
+		heavy_artillery = 1
 		light_artillery = 1
 		light_artillery1 = 1
 		
@@ -22,6 +24,9 @@ set_technology = {
 		fighter_0 = 1
 		china_drone = 1
 		drone_0 = 1
+		
+		construction1 = 1
+		fuel_silos = 1
 }
 
 if = {
@@ -66,6 +71,7 @@ recruit_character = WML_przemyslaw_kornacki
 recruit_character = WML_przemyslaw_polubinski
 recruit_character = WML_zbigniew_aszkielaniec
 recruit_character = WML_slawomir_litwin
+recruit_character = WML_robert_kopacki
 
 add_ideas = {
 	WML_sphere_of_dialogue

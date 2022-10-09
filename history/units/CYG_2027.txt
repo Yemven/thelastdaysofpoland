@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Gypsy Wagenburg"
+	name = "Wozy bojowe"
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -13,7 +13,7 @@
 }
 
 division_template = {
-	name = "Gypsy Walkers"
+	name = "Wędrowcy Cygańscy"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -24,9 +24,9 @@ division_template = {
 
 units = {
 	division = {
-		name = "Great Tabor Wagenburg"
+		name = "Tabor Naczelny"
 		location = 7441
-		division_template = "Gypsy Wagenburg"
+		division_template = "Wozy bojowe"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
@@ -34,7 +34,7 @@ units = {
 	division = {
 		name = "Wędrowcy Cygańscy"
 		location = 13135
-		division_template = "Gypsy Walkers"
+		division_template = "Wędrowcy Cygańscy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
@@ -42,7 +42,7 @@ units = {
 	division = {
 		name = "Wędrowcy Cygańscy"
 		location = 2302
-		division_template = "Gypsy Walkers"
+		division_template = "Wędrowcy Cygańscy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
@@ -50,7 +50,7 @@ units = {
 	division = {
 		name = "Wędrowcy Cygańscy"
 		location = 13114
-		division_template = "Gypsy Walkers"
+		division_template = "Wędrowcy Cygańscy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
@@ -58,7 +58,7 @@ units = {
 	division = {
 		name = "Wędrowcy Cygańscy"
 		location = 785
-		division_template = "Gypsy Walkers"
+		division_template = "Wędrowcy Cygańscy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
@@ -66,7 +66,7 @@ units = {
 	division = {
 		name = "Wędrowcy Cygańscy"
 		location = 13136
-		division_template = "Gypsy Walkers"
+		division_template = "Wędrowcy Cygańscy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}

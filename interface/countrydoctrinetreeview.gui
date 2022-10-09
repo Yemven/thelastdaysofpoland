@@ -33,36 +33,8 @@ guiTypes = {
 			}			
 
 			gridboxtype = {
-				name = "gun_to_knifefight_tree"
-				position = { x=80 y=172 }
-				size = { width = 880 height = 500 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}				
-			}
-				
-			gridboxtype = {
-				name = "our_boys_tree"
-				position = { x=980 y=172 }
-				size = { width = 880 height = 500 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}				
-			}
-
-			gridboxtype = {
 				name = "technological_supremacy_tree"
-				position = { x=80 y=672 }
+				position = { x=80 y=172 }
 				size = { width = 430 height = 1000 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
@@ -76,7 +48,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "conventional_warfare_tree"
-				position = { x=530 y=672 }
+				position = { x=530 y=172 }
 				size = { width = 430 height = 1000 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
@@ -90,7 +62,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "asymetrical_warfare_tree"
-				position = { x=980 y=672 }
+				position = { x=980 y=172 }
 				size = { width = 430 height = 1000 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
@@ -104,7 +76,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "cqc_theory_tree"
-				position = { x=1430 y=672 }
+				position = { x=1430 y=172 }
 				size = { width = 430 height = 1000 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
@@ -118,8 +90,8 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "the_cyber_army_tree"
-				position = { x=80 y=1672 }
-				size = { width = 1780 height = 1100 }
+				position = { x=80 y=1172 }
+				size = { width = 1780 height = 1200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -132,8 +104,8 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "the_new_war_tree"
-				position = { x=80 y=1672 }
-				size = { width = 1780 height = 1100 }
+				position = { x=80 y=1172 }
+				size = { width = 1780 height = 1200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -146,8 +118,8 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "condemned_soldiers_tree"
-				position = { x=80 y=1672 }
-				size = { width = 1780 height = 1100 }
+				position = { x=80 y=1172 }
+				size = { width = 1780 height = 1200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -160,8 +132,8 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "might_makes_right_tree"
-				position = { x=80 y=1672 }
-				size = { width = 1780 height = 1100 }
+				position = { x=80 y=1172 }
+				size = { width = 1780 height = 1200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -174,8 +146,8 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "tech_conv_fusion_tree"
-				position = { x=80 y=1672 }
-				size = { width = 1780 height = 1100 }
+				position = { x=80 y=1172 }
+				size = { width = 1780 height = 1200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -188,8 +160,8 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "conv_asm_fusion_tree"
-				position = { x=80 y=1672 }
-				size = { width = 1780 height = 1100 }
+				position = { x=80 y=1172 }
+				size = { width = 1780 height = 1200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -202,8 +174,8 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "asm_cqc_fusion_tree"
-				position = { x=80 y=1672 }
-				size = { width = 1780 height = 1100 }
+				position = { x=80 y=1172 }
+				size = { width = 1780 height = 1200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -216,8 +188,8 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "tech_asm_fusion_tree"
-				position = { x=80 y=1672 }
-				size = { width = 1780 height = 1100 }
+				position = { x=80 y=1172 }
+				size = { width = 1780 height = 1200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -230,8 +202,8 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "conv_cqc_fusion_tree"
-				position = { x=80 y=1672 }
-				size = { width = 1780 height = 1100 }
+				position = { x=80 y=1172 }
+				size = { width = 1780 height = 1200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -244,8 +216,8 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "tech_cqc_fusion_tree"
-				position = { x=80 y=1672 }
-				size = { width = 1780 height = 1100 }
+				position = { x=80 y=1172 }
+				size = { width = 1780 height = 1200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 

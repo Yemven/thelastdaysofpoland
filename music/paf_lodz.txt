@@ -372,16 +372,6 @@ music = {
 	}
 }
 music = {
-	song = "lodz_skrzydlewscy5"
-	chance = {
-		base = 1
-		modifier = {
-			factor = 100
-			tag = KRS
-		}
-	}
-}
-music = {
 	song = "lodz_widzew1"
 	chance = {
 		base = 1
@@ -473,6 +463,16 @@ music = {
 }
 music = {
 	song = "lodz_widzew10"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = ZYD
+		}
+	}
+}
+music = {
+	song = "lodz_widzew11"
 	chance = {
 		base = 1
 		modifier = {

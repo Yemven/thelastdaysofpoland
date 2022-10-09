@@ -2,16 +2,33 @@ state={
 	id=883
 	name="STATE_883"
 	provinces={
-		339 1271 
+		339 1271 4330 5011 5149 5157 5343 5559 5990 6039 6198 6200 6442 6729 6980 7010 7187 7358 7360 7375 7377 7406 7405 7407 7410 7411 7412
 	}
 	history={
 		owner = ROS
 		victory_points = {
-
+			6442 20
+		}
+		victory_points = {
+			7407 5 
+		}
+		victory_points = {
+			6729 2
+		}
+		victory_points = {
+			1271 2
+		}
+		victory_points = {
+			6980 2
+		}
+		victory_points = {
+			4330 2
 		}
 		add_core_of = ROS
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
 
 		}
 

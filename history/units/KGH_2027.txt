@@ -18,7 +18,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Post-EK Schlesien Brigade"
+	name = "Post-EKSowska Brygada Ciężkozbrojna"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -74,7 +74,7 @@ units = {
 	division = {
 		name = "1 Brygada Operacyjna Spółki"
 		location = 521
-		division_template = "Post-EK Schlesien Brigade"
+		division_template = "Post-EKSowska Brygada Ciężkozbrojna"
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}

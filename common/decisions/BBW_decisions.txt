@@ -215,6 +215,34 @@ BBW_pollution_category = {
 	}
 }	
 
+BBW_energy_deals_category = {
+	
+	BBW_energy_deal = {
+		available = {
+			has_completed_focus = BBW_energy_export
+		}
+		target_array = { BBW.neighbors_owned }
+		targets_dynamic = yes
+		target_trigger = {
+			FROM = {
+				is_neighbor_of = BBW
+				NOT = {
+					has_country_flag = declined_importing_energy
+					has_country_flag = agreed_importing_energy
+					has_country_flag = importing_energy
+				}
+			}
+		}
+		complete_effect = {
+			FROM = {
+				country_event = {
+					id = energydeals.1
+				}
+			}
+		}
+	}
+}
+
 
 BBW_industrial_missions_category = {
 	
@@ -452,7 +480,7 @@ BBW_industrial_missions_category = {
 			custom_trigger_tooltip = {
 				tooltip = BBW_military_factories_count_tt
 					BBW = {
-					check_variable = { num_of_military_factories > 20 }
+					check_variable = { num_of_military_factories > 15 }
 					}
 				}
 			}
@@ -527,12 +555,16 @@ BBW_industrial_missions_category = {
 BBW_industrial_rush_category = {
 	BBW_industrial_rush = {
 		allowed = {
-		tag = BBW
-		has_country_flag = BBW_voivodship_united
+			tag = BBW
+			}
+			
+		target_root_trigger = {
+			has_country_flag = BBW_voivodship_united
 		NOT = {
 		check_variable = { var_industrial_missions_completed > var_industrial_missions_started }
 			}
 		}
+
 		
 		modifier = {	
 			consumer_goods_factor = 0.05

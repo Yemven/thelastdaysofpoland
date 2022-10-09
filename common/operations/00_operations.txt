@@ -415,7 +415,7 @@ operation_capture_cipher = { ### 3 1/55
 			target = FROM
 			value > 25
 		}
-		has_tech = mechanical_computing
+		has_tech = civilian_computing
 		has_done_agency_upgrade = upgrade_form_department
 		NOT = {
 			ROOT = { is_fully_decrypted = FROM }
@@ -1023,7 +1023,6 @@ operation_coup_government = { ### 7 1/70
 			target = FROM
 			value > 35
 		}
-		NOT = { has_completed_focus = SPR_regional_defense_council_of_aragon }
 	}
 
 	equipment = {

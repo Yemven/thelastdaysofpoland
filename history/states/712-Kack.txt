@@ -1,21 +1,34 @@
+
 state={
 	id=712
 	name="STATE_712"
-	provinces={
-		7434 11346 11347 11348
-	}
-	manpower = 59843   state_category = city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = KSZ
-		victory_points = {11346 5 }
-		victory_points = {11347 2 }
-		victory_points = {11348 2 }
-		add_core_of = KSZ 
-	buildings = {
-	infrastructure = 7
-	industrial_complex = 2
-	arms_factory = 1
-}
-}
+		victory_points = {
+			11346 5 
+		}
+		victory_points = {
+			11347 2 
+		}
+		victory_points = {
+			11348 2 
+		}
+		add_core_of = KSZ
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		2323 7434 11347 11348 11350 11355 
+	}
+	manpower=59843
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

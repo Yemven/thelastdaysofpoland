@@ -2,16 +2,18 @@ state={
 	id=885
 	name="STATE_885"
 	provinces={
-		2306 
+		2306 5805 6935 6936
 	}
 	history={
 		owner = ROS
 		victory_points = {
-
+			2306 15
 		}
 		add_core_of = ROS
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
 
 		}
 

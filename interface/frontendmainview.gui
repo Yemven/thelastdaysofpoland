@@ -95,7 +95,7 @@ guiTypes = {
 			position = { x = -985 y = 118 }
 			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "FE_CONTINUE"
-			buttonFont = "vic_36s"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -137,7 +137,7 @@ guiTypes = {
 			position = { x = -985 y = 198 }
 			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "FE_NEW"
-			buttonFont = "vic_36s"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -147,7 +147,7 @@ guiTypes = {
 			position = {  x = -985 y = 278 }
 			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "MENU_BAR_LOAD"
-			buttonFont = "vic_36s"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -157,7 +157,7 @@ guiTypes = {
 			position = { x = -985 y = 358}
 			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "FE_TUTORIAL"
-			buttonFont = "vic_36s"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -167,7 +167,7 @@ guiTypes = {
 			position = { x = -985 y = 438 }
 			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "BACK"
-			buttonFont = "vic_36s"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "ESCAPE"
@@ -182,12 +182,16 @@ guiTypes = {
 		Orientation = CENTER
 		Origo = center		
 				
+		positionType = {
+			name = "subscription_size"
+			position = { x = 320 y = 563 }
+		}
 			
 		ButtonType = {
 			name = "single_player_button"
 			position = { x = 16 y = 118 }
 			quadTextureSprite ="GFX_main_menu_button"
-			font = "vic_36s"			
+			font = "previewer_gar_40"			
 			text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
 			oversound = ui_menu_over
@@ -197,7 +201,7 @@ guiTypes = {
 			name = "multi_player_button"
 			position = { x = 16 y = 198}
 			quadTextureSprite ="GFX_main_menu_button"
-			font = "vic_36s"			
+			font = "previewer_gar_40"			
 			text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -223,13 +227,18 @@ guiTypes = {
 			maxHeight = 20	
 		}
 		
+		positionType = {
+			name = "version_label_subscription_position"
+			position = { x = 35 y = 524 }
+		}
+		
 		
 		ButtonType = {
 			name = "settings_button"
 			position = { x = 16 y = 278 }
 			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "OPTIONS"
-			buttonFont = "vic_36s"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -240,7 +249,7 @@ guiTypes = {
 			position = {  x = 16 y = 358 }
 			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "FE_CREDITS"
-			buttonFont = "vic_36s"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -250,7 +259,7 @@ guiTypes = {
 			position = { x = 16 y = 438 }
 			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "Nudge!"
-			buttonFont = "vic_36s"
+			buttonFont = "previewer_gar_40"
 		}
 		
 
@@ -258,7 +267,7 @@ guiTypes = {
 			name = "exit_button"
 			position = { x = 16 y = 570 }
 			quadTextureSprite ="GFX_main_menu_button"
-			font = "vic_36s"			
+			font = "previewer_gar_40"			
 			text = "FE_EXIT"			
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -333,7 +342,13 @@ guiTypes = {
 			}
 		}
 		
-
+		ButtonType = {
+			name = "homepage_button"
+			position = { x=-6000 y=0 }
+			quadTextureSprite ="homepage"
+			clicksound = click_default
+			pdx_tooltip = "MENU_HOMEPAGE"
+		}
 		ButtonType = {
 			name = "forum_button"
 			position = { x=-400 y=355 }
@@ -357,6 +372,13 @@ guiTypes = {
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
 			web_link = "https://www.reddit.com/r/prideandfall/"
+		}
+		ButtonType = {
+			name = "privacy_policy_button"
+			position = { x=-4000 y=0 }
+			quadTextureSprite ="privacy"
+			#clicksound = click_default
+			pdx_tooltip = "MENU_PRIVACY_POLICY"
 		}
 	}
 

@@ -29,11 +29,20 @@ division_template = {
 }
 
 division_template = {
-	name = "Leśna/Górska Samoobrona Wiejska"
+	name = "Górale"
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		militia = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Lasacy"
+	regiments = {
+		forest_infantry = { x = 0 y = 0 }
+		militia = { x = 1 y = 0 }
+		forest_infantry = { x = 1 y = 1 }
 	}
 }
 
@@ -89,7 +98,7 @@ units = {
 	division = {
 		name = "6 Batalion Lasaków"
 		location = 15891
-		division_template = "Leśna/Górska Samoobrona Wiejska"
+		division_template = "Lasacy"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -97,7 +106,7 @@ units = {
 	division = {
 		name = "7 Batalion Górali 'Skarszewy'"
 		location = 15852
-		division_template = "Leśna/Górska Samoobrona Wiejska"
+		division_template = "Górale"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}

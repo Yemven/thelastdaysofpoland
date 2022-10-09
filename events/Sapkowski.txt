@@ -248,7 +248,10 @@ country_event = {
 				value = 10
 			}
 		}
-		add_stability = 0.1
+		add_stability = 0.2
+		add_political_power = 150
+		add_ideas = SAP_skrzydlewska_underground
+		custom_effect_tooltip = SAP_insanity_tooltip
 	}
 	option = {
 		name = sapek_war.9.b
@@ -259,6 +262,9 @@ country_event = {
 			}
 		}
 		add_stability = -0.1
+		add_political_power = -100
+		add_ideas = SAP_skrzydlewska_communalised
+		custom_effect_tooltip = SAP_sanity_tooltip
 	}
 }
 
@@ -274,35 +280,50 @@ country_event = {
 		name = sapek_war.10.a
 		hidden_effect = {
 			add_to_variable = {
-				var = sapek_insanity
+				var = sapek_sanity
 				value = 10
 			}
 		}
 		add_stability = -0.1
-		set_nationality = {
-			target_country = SAP
-			character = KRS_krzysztof_rutkowski
-		}
+			every_possible_country = {
+				limit = { has_character = KRS_krzysztof_rutkowski }
+				random_character = {
+					limit = { is_character = KRS_krzysztof_rutkowski }
+					set_nationality = SAP
+				}
+			}
 		set_portraits = {
 			character = KRS_krzysztof_rutkowski
 			army = { large ="gfx/leaders/SAP/SAP_Rutkowski.dds" }
 		}
-		849 = {
-			create_unit = {
-				division = "division_template = \"Patrol Rutkowskiego\" start_experience_factor = 0.2 start_equipment_factor = 0.5"
-				owner = KRS
-			}
-			create_unit = {
-				division = "division_template = \"Patrol Rutkowskiego\" start_experience_factor = 0.2 start_equipment_factor = 0.5"
-				owner = KRS
+		division_template = {
+			name = "Landsknechci Rutkowskiego"
+			template_counter = 37
+			regiments = {
+				elite_infantry = { x = 0 y = 0 }
+				elite_infantry = { x = 0 y = 1 }
+				elite_infantry = { x = 0 y = 2 }
+				motorized = { x = 1 y = 0 }
+				motorized = { x = 1 y = 1 }
 			}
 		}
+		849 = {
+			create_unit = {
+				division = "division_template = \"Landsknechci Rutkowskiego\" start_experience_factor = 0.2 start_equipment_factor = 0.8"
+				owner = SAP
+			}
+			create_unit = {
+				division = "division_template = \"Landsknechci Rutkowskiego\" start_experience_factor = 0.2 start_equipment_factor = 0.8"
+				owner = SAP
+			}
+		}
+		custom_effect_tooltip = SAP_sanity_tooltip	
 	}
 	option = {
 		name = sapek_war.10.b
 		hidden_effect = {
 			add_to_variable = {
-				var = sapek_sanity
+				var = sapek_insanity
 				value = 10
 			}
 		}
@@ -312,6 +333,12 @@ country_event = {
 			amount = 1000
 			producer = KRS
 		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 300
+			producer = KRS
+		}
+		custom_effect_tooltip = SAP_insanity_tooltip	
 	}
 }
 
@@ -331,6 +358,13 @@ country_event = {
 				value = 10
 			}
 		}
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = hospital_tech
+			}
+		add_fuel = 10000
+		add_stability = -0.1
 	}
 }
 
@@ -350,7 +384,27 @@ country_event = {
 				value = 10
 			}
 		}
+		custom_effect_tooltip = SAP_insanity_tooltip	
+		add_popularity = {
+			ideology = reactionary
+			popularity = 0.05
+		}
 		add_stability = 0.1
+		353 = {
+			damage_building = {
+				type = industrial_complex
+					damage = 1
+				}
+			damage_building = {
+				type = arms_factory
+					damage = 1
+				}
+			damage_building = {
+				type = infrastructure
+					damage = 3
+				}
+			add_manpower = -13695
+			}
 	}
 	option = {
 		name = sapek_war.12.b
@@ -360,7 +414,27 @@ country_event = {
 				value = 10
 			}
 		}
+		custom_effect_tooltip = SAP_sanity_tooltip	
+		add_popularity = {
+			ideology = squattism
+			popularity = 0.05
+		}
 		add_stability = -0.1
+		353 = {
+			damage_building = {
+				type = industrial_complex
+					damage = 1
+				}
+			damage_building = {
+				type = arms_factory
+					damage = 1
+				}
+			damage_building = {
+				type = infrastructure
+					damage = 3
+				}
+			add_manpower = -7135
+			}
 	}
 }
 
@@ -380,7 +454,14 @@ country_event = {
 				value = 10
 			}
 		}
+		custom_effect_tooltip = SAP_insanity_tooltip	
 		add_stability = 0.1
+		add_popularity = {
+			ideology = squattism
+			popularity = 0.05
+		}
+		remove_ideas = SAP_zhp_partisans
+		add_manpower = -1000
 	}
 	option = {
 		name = sapek_war.13.b
@@ -390,7 +471,14 @@ country_event = {
 				value = 10
 			}
 		}
+		custom_effect_tooltip = SAP_sanity_tooltip	
 		add_stability = -0.1
+		add_popularity = {
+			ideology = reactionary
+			popularity = 0.05
+		}
+		remove_ideas = SAP_zhp_partisans
+		add_manpower = -400
 	}
 }
 
@@ -403,7 +491,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = sapek_war.14.a
+		name = sapek_war.14.a #rains-of-belchatow
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_insanity
@@ -411,20 +499,91 @@ country_event = {
 			}
 		}
 		add_stability = 0.1
+		341 = {	
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		country_event = {
+			id = sapek_war.16
+			days = 7
+			}
 		custom_effect_tooltip = SAP_insanity_tooltip
 	}
 	option = {
-		name = sapek_war.14.b
+		name = sapek_war.14.b #komuny-krasnoludzkie
 		hidden_effect = {
 			add_to_variable = {
 				var = sapek_sanity
 				value = 10
 			}
 		}
-		add_stability = -0.1
+		341 = {
+			create_unit = {
+				division = "name = \"Ochotniczy Hufiec Mahakamski\" division_template = \"Komando Scoia'tael\" start_experience_factor = 1 start_equipment_factor = 1"
+				owner = SAP
+				}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
+		
 		custom_effect_tooltip = SAP_sanity_tooltip
 	}
 }
+
+country_event = {
+	id = sapek_war.15 #partyzantka-zhp
+	title = sapek_war.15.t
+	desc = sapek_war.15.desc
+
+	fire_only_once = yes
+
+	trigger = {
+		ZHP = { has_capitulated = yes }
+		SAP = { 
+			any_controlled_state = {
+				is_core_of = ZHP 
+				}
+			}
+	}
+
+	option = {
+		name = sapek_war.15.a
+		add_ideas = SAP_zhp_partisans
+	}
+}
+
+country_event = {
+	id = sapek_war.16 #deszcze-belchatowa
+	title = sapek_war.16.t
+	desc = sapek_war.16.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sapek_war.16.a
+		hidden_effect = {
+			add_to_variable = {
+				var = sapek_insanity
+				value = 10
+			}
+			play_song = "lodz_sapek5"
+		}
+		add_stability = 0.1
+		add_political_power = 100
+		every_controlled_state = {
+			limit = { is_core_of = BBW }
+				add_compliance = 30
+			}
+	}
+}
+
 
 country_event = {
 	id = sapek.8 #ekonomia-wybor
@@ -735,10 +894,24 @@ country_event = {
 
 	option = {
 		name = sapek_wiedzmin.3.a #mutageny
-		swap_ideas = {
-			remove_idea = SAP_szkola_wilka_insane_1
-			add_idea = SAP_szkola_wilka_insane_2
-			}
+		if = { 
+			limit = {
+				has_idea = SAP_szkola_wilka_insane_1 
+				}
+				swap_ideas = {
+					remove_idea = SAP_szkola_wilka_insane_1
+					add_idea = SAP_szkola_wilka_insane_2
+					}
+		}
+		else_if = {
+			limit = { 
+				has_idea = SAP_szkola_wilka_sane_1
+				}
+				swap_ideas = {
+					remove_idea = SAP_szkola_wilka_sane_1
+					add_idea = SAP_szkola_wilka_mixed
+					}
+		}
 		custom_effect_tooltip = SAP_insanity_tooltip
 		hidden_effect = {
 			add_to_variable = {
@@ -749,10 +922,24 @@ country_event = {
 	}
 	option = {
 		name = sapek_wiedzmin.3.b #mordownia
-		swap_ideas = {
-			remove_idea = SAP_szkola_wilka_sane_1
-			add_idea = SAP_szkola_wilka_sane_2
-			}
+		if = { 
+			limit = {
+				has_idea = SAP_szkola_wilka_insane_1 
+				}
+				swap_ideas = {
+					remove_idea = SAP_szkola_wilka_insane_1
+					add_idea = SAP_szkola_wilka_mixed
+					}
+		}
+		else_if = {
+			limit = { 
+				has_idea = SAP_szkola_wilka_sane_1
+				}
+				swap_ideas = {
+					remove_idea = SAP_szkola_wilka_sane_1
+					add_idea = SAP_szkola_wilka_sane_2
+					}
+		}		
 		custom_effect_tooltip = SAP_sanity_tooltip
 		hidden_effect = {
 			add_to_variable = {

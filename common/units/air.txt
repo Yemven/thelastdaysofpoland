@@ -11,6 +11,8 @@ sub_units = {
 			air_transport
 		}
 		need = { primitive_aircraft_equipment = 1 }
+		categories = { category_fighter }
+		land_air_wing_size = 100
 	}
 	
 	fighter = {
@@ -24,6 +26,7 @@ sub_units = {
 		}
 		need = { fighter_equipment = 1 }
 		categories = { category_fighter }
+		land_air_wing_size = 100
 	}
 
 	uav = {
@@ -35,6 +38,8 @@ sub_units = {
 			scout_plane
 		}
 		need = { uav_equipment = 1 }
+		categories = { category_drone }
+		land_air_wing_size = 100
 	}
 	
 	helicopter = {
@@ -45,6 +50,8 @@ sub_units = {
 			cas
 		}
 		need = { helicopter_equipment = 1 }
+		categories = { category_helicopter }
+		land_air_wing_size = 100
 	}
 
 	#cv_fighter = {
@@ -75,7 +82,8 @@ sub_units = {
 		active = yes
 		type = { strategic_bomber }
 		need = { bomber_equipment = 1 }
-		categories = { category_strat_bomber }
+		categories = { category_bomber }
+		land_air_wing_size = 100
 	}
 	
 	
@@ -85,5 +93,7 @@ sub_units = {
 		active = yes
 		type = { air_transport }
 		need = { transport_equipment = 1 }
+		categories = { category_airlifter }
+		land_air_wing_size = 100
 	}
 }

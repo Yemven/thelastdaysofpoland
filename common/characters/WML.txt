@@ -102,7 +102,7 @@ characters={
 			traits = { sailing_instructor }
 		}
 		navy_leader = {
-			traits = { }
+			traits = { green_water_expert }
 			skill=3
 			attack_skill=2
 			defense_skill=4
@@ -110,22 +110,53 @@ characters={
 			coordination_skill=2
 			legacy_id=-1
 		}
+		advisor = {
+			slot = high_command
+			idea_token = WML_hc_lubnauer
+			ledger = army
+			allowed = {
+				original_tag = WML
+			}
+			traits = {
+				navy_chief_reform_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
 	WML_rafal_ostrowski = {
 		name="Rafał Ostrowski"
 		portraits = {
 			army = {
 			    large="gfx/leaders/WML/WML_Ostrowski.dds"
+				small = "gfx/interface/ideas/WML/WML_ostrowski.dds"
 			}
 		}
 		field_marshal = {
-			traits = { }
+			traits = { career_officer }
 			skill=3
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=-1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = WML_hc_ostrowski
+			ledger = army
+			allowed = {
+				original_tag = WML
+			}
+			traits = {
+				army_chief_planning_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	WML_mariusz_pawluk = {
@@ -133,16 +164,32 @@ characters={
 		portraits = {
 			army = {
 			    large="gfx/leaders/WML/WML_Pawluk.dds"
+				small = "gfx/interface/ideas/WML/WML_pawluk.dds"
 			}
 		}
 		field_marshal = {
-			traits = { }
+			traits = { commando }
 			skill=3
-			attack_skill=1
+			attack_skill=3
 			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			planning_skill=2
+			logistics_skill=3
 			legacy_id=-1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = WML_hc_pawluk
+			ledger = army
+			allowed = {
+				original_tag = WML
+			}
+			traits = {
+				army_concealment_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	WML_slawomir_litwin = {
@@ -150,16 +197,32 @@ characters={
 		portraits = {
 			army = {
 			    large="gfx/leaders/WML/WML_Litwin.dds"
+				small = "gfx/interface/ideas/WML/WML_litwin.dds"
 			}
 		}
 		field_marshal = {
-			traits = { }
+			traits = { expert_delegator }
 			skill=1
 			attack_skill=1
 			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=-1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = WML_hc_litwin
+			ledger = army
+			allowed = {
+				original_tag = WML
+			}
+			traits = {
+				army_chief_organizational_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	WML_pawel_wiktorowicz = {
@@ -167,15 +230,48 @@ characters={
 		portraits = {
 			army = {
 			    large="gfx/leaders/WML/WML_Wiktorowicz.dds"
+				small = "gfx/interface/ideas/WML/WML_wiktorowicz.dds"
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { infantry_leader }
 			skill=3
 			attack_skill=1
-			defense_skill=1
+			defense_skill=4
 			planning_skill=1
 			logistics_skill=1
+			legacy_id=-1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = WML_hc_wiktorowicz
+			ledger = army
+			allowed = {
+				original_tag = WML
+			}
+			traits = {
+				army_chief_defensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	WML_robert_kopacki = {
+		name="Robert Kopacki"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Kopacki.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious commando }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -187,12 +283,12 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { trait_cautious }
 			skill=2
 			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
 			legacy_id=-1
 		}
 	}
@@ -204,10 +300,10 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer }
+			traits = { infantry_leader }
 			skill=2
-			attack_skill=1
-			defense_skill=1
+			attack_skill=2
+			defense_skill=2
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
@@ -221,7 +317,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { career_officer }
 			skill=1
 			attack_skill=1
 			defense_skill=1
@@ -235,6 +331,7 @@ characters={
 		portraits = {
 			army = {
 			    large="gfx/leaders/WML/WML_Polubinski.dds"
+				small = "gfx/interface/ideas/WML/WML_polubinski.dds"
 			}
 		}
 		corps_commander = {
@@ -245,6 +342,21 @@ characters={
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = WML_hc_polubinski
+			ledger = army
+			allowed = {
+				original_tag = WML
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 }

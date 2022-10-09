@@ -839,6 +839,40 @@ focus_tree = {
 		completion_reward = {
 			hidden_effect = {
 				load_focus_tree = harcerze_war_focus
+				if = {
+					limit = {
+						or = {
+							if = {
+								limit = {
+									has_variable = zhp_idealist_influence
+									has_variable = zhp_conservative_influence
+								}
+								check_variable = { zhp_idealist_influence < zhp_conservative_influence}
+							}
+							else = {
+								has_variable = zhp_idealist_influence
+							}
+						}
+					}
+					set_country_flag = idealist_takeover
+				}
+				if = {
+					limit = {
+						or = {
+							if = {
+								limit = {
+									has_variable = zhp_idealist_influence
+									has_variable = zhp_conservative_influence
+								}
+								check_variable = { zhp_conservative_influence < zhp_idealist_influence}
+							}
+							else = {
+								has_variable = zhp_conservative_influence
+							}
+						}
+					}
+					set_country_flag = conservative_takeover
+				}
 			}
 		}
 	}
@@ -874,6 +908,7 @@ focus_tree = {
 		icon = ZHP_destroy_coal_lords
 		relative_position_id = ZHP_last_touches
 		prerequisite = { focus = ZHP_last_touches }
+		will_lead_to_war_with = BBW
 		available = {
 		
 		}
@@ -950,9 +985,8 @@ focus_tree = {
 		id = ZHP_ZYD_war 
 		icon = ZHP_ZYD_war
 		relative_position_id = ZHP_last_touches
-		prerequisite = { 
-			focus = ZHP_last_touches
-		}
+		prerequisite = { focus = ZHP_last_touches}
+		will_lead_to_war_with = ZYD
 		available = {
 			
 		}
@@ -1030,9 +1064,8 @@ focus_tree = {
 		id = ZHP_KRS_war #nazwa bardziej lore pls
 		icon = ZHP_KRS_war
 		relative_position_id = ZHP_regroup
-		prerequisite = { 
-			focus = ZHP_regroup
-		}
+		prerequisite = {focus = ZHP_regroup}
+		will_lead_to_war_with = KRS
 		available = {
 			NOT = { has_war = yes }
 		}
@@ -1084,6 +1117,7 @@ focus_tree = {
 		id = ZHP_takedown_the_fantast
 		icon = ZHP_takedown_the_fantast
 		relative_position_id = ZHP_regroup
+		will_lead_to_war_with = SAP
 		prerequisite = { 
 			focus = ZHP_regroup
 		}
@@ -1139,10 +1173,8 @@ focus_tree = {
 		id = ZHP_WML_war
 		icon = ZHP_WML_war
 		relative_position_id = ZHP_regroup
-		prerequisite = { focus = ZHP_KRS_after_war
-						 focus = ZHP_lighting_up_the_pyres
-		}
-
+		prerequisite = { focus = ZHP_KRS_after_war focus = ZHP_lighting_up_the_pyres}
+		will_lead_to_war_with = WML
 		available = {
 			NOT = { has_war = yes }
 		}

@@ -23,12 +23,7 @@ calculate_generated_energy = {
 	add_to_variable = { generated_energy = energy_from_wind_farms }
 	set_variable = { bonus_from_ideas = 1.0}
 	add_to_variable = {bonus_from_ideas = modifier@additional_energy}
-	#if = {
-		#limit = {
-			#has_idea = wincyj_prondu
-		#}
-		multiply_variable = { generated_energy = bonus_from_ideas }
-	#}
+	multiply_variable = { generated_energy = bonus_from_ideas }
 }
 
 calculate_used_energy = {
@@ -44,6 +39,18 @@ calculate_used_energy = {
 	}
 	multiply_temp_variable = { energy_for_industry = 100 }
 	add_to_variable = { used_energy = energy_for_industry }
+	if = {
+		limit = {
+			has_variable = energy_exported
+		}
+		add_to_variable = { used_energy = energy_exported }
+	}
+	if = {
+		limit = {
+			has_country_flag = importing_energy
+		}
+		subtract_from_variable = { used_energy = 750 }
+	}
 }
 
 calculate_energy_effects = {

@@ -2,32 +2,51 @@
 state={
 	id=39
 	name="STATE_39"
-	provinces={
-		3539 11330 11331 11332
-	}
-	manpower = 148814   state_category = large_city
-	buildings_max_level_factor=1.000
-				history = {
+
+	history={
 		owner = GDA
-		victory_points = {3539 35 }
-		victory_points = {11331 2 }
-		victory_points = {11330 2 }
-		victory_points = {11332 2 }
+		victory_points = {
+			3539 35 
+		}
+		victory_points = {
+			11331 2 
+		}
+		victory_points = {
+			11330 2 
+		}
+		victory_points = {
+			11332 2 
+		}
 		add_core_of = GDA
-	buildings = {
-	infrastructure = 8
-	11332 = {
-	naval_base = 6
+		buildings = {
+			infrastructure = 8
+			11332 = {
+				naval_base = 6
+
+			}
+			11330 = {
+				naval_base = 8
+
+			}
+			dockyard = 4
+			11331 = {
+				naval_base = 8
+
+			}
+			industrial_complex = 2
+			power_plant = 1
+
+		}
+
 	}
-	11330 = {
-	naval_base = 8
+
+	provinces={
+		3539 4262 4592 5453 6384 7430 11330 11331 11332 
 	}
-	dockyard = 4
-	11331 = {
-	naval_base = 8
-	}
-	industrial_complex = 2
-	power_plant = 1
-}
-}
+	manpower=156814
+	resources={
+		junk = 15} 
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

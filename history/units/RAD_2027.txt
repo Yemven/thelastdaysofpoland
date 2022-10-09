@@ -6,7 +6,7 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
 		militia = { x = 2 y = 0 }
-		militia = { x = 2 y = 1 }
+
 	}
 }
 
@@ -19,7 +19,6 @@ division_template = {
 		motorized = { x = 0 y = 3 }
 		elite_infantry = { x = 0 y = 4 }
 		armored_car = { x = 1 y = 0 }
-		elite_infantry = { x = 1 y = 1 }
 	}
 	support = {
 		mot_recon = { x = 0 y = 0 }
@@ -31,18 +30,17 @@ division_template = {
 	name = "Batalion Samoobrony Miejskiej"
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
-		melee_infantry = { x = 0 y = 1 }
+		militia = { x = 0 y = 1 }
 		militia = { x = 1 y = 0 }
 		melee_infantry = { x = 1 y = 1 }
-		militia = { x = 2 y = 0 }
-		melee_infantry = { x = 2 y = 1 }
+		melee_infantry = { x = 2 y = 0 }
 	}
 }
 
 units = {
  	division = {
 		name = "1 Batalion Obrony Radomia 'Garnizon Radom'"
-		location = 3236
+		location = 5498
 		division_template = "Batalion Ochotniczy"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
@@ -50,7 +48,7 @@ units = {
 
  	division = {
 		name = "Konwój radomskich szmuglerów broni"
-		location = 3236
+		location = 6268
 		division_template = "Konwój szmuglerów broni"
 		start_experience_factor = 0.9
 		start_equipment_factor = 1.0
@@ -58,7 +56,7 @@ units = {
 
  	division = {
 		name = "2 Batalion Obrony Radomia 'Grupa Południe'"
-		location = 2025
+		location = 18595
 		division_template = "Batalion Ochotniczy"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
@@ -66,7 +64,7 @@ units = {
 
  	division = {
 		name = "3 Batalion Obrony Radomia 'Łucznik'"
-		location = 2025
+		location = 6290
 		division_template = "Batalion Samoobrony Miejskiej"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
@@ -74,7 +72,7 @@ units = {
 
  	division = {
 		name = "4 Batalion Obrony Radomia 'Dwa Osiedla'"
-		location = 3236
+		location = 6250
 		division_template = "Batalion Samoobrony Miejskiej"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
@@ -82,9 +80,17 @@ units = {
 
  	division = {
 		name = "Konwój szmuglerów z Kompleksu 'Biała Podlaska'"
-		location = 2025
+		location = 6374
 		division_template = "Konwój szmuglerów broni"
 		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+ 	division = {
+		name = "5 Batalion Obrony Radomia 'Młynarze'"
+		location = 6280
+		division_template = "Batalion Samoobrony Miejskiej"
+		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
 }
