@@ -1,42 +1,71 @@
 WML_dialogue_decisions = {
+###HOŁOWNIA'S DIALOG IS AN ETERNAL STATE OF PAIN###
+	WML_dialogue_WML2 = {
+		allowed = {
+			tag = WML
+		}
+		visible = { has_completed_focus = WML_crackdown_on_consoomers }
+		cost = 55
+		complete_effect = { 
+			add_to_variable = {dialogue_SAP = 5}
+			add_to_variable = {dialogue_BBW = 5}
+			add_to_variable = {dialogue_KRS = 5}
+			add_to_variable = {dialogue_ZYD = 5}
+			add_to_variable = {dialogue_ZHP = 5}
+		}
+	}
+	WML_dialogue_WML3 = {
+		allowed = {
+			tag = WML
+		}
+		visible = { has_completed_focus = WML_pamper_delegations }
+		cost = 55
+		complete_effect = { 
+			add_to_variable = {dialogue_SAP = 10}
+			add_to_variable = {dialogue_BBW = 10}
+			add_to_variable = {dialogue_KRS = 10}
+			add_to_variable = {dialogue_ZYD = 10}
+			add_to_variable = {dialogue_ZHP = 10}
+		}
+	}
 ###POZIOM ZEROWY###
 	WML_dialogue_SAP0 = {
 		allowed = {
 			tag = WML
-			has_completed_focus = WML_fantastical_lodz
 		}
+		visible = { has_completed_focus = WML_fantastical_lodz }
 		cost = 25
 		complete_effect = { add_to_variable = {dialogue_SAP = 5}}
 	}
 	WML_dialogue_BBW0 = {
 		allowed = {
 			tag = WML
-			has_completed_focus = WML_industrial_lodz
 		}
+		visible = { has_completed_focus = WML_industrial_lodz }
 		cost = 25
 		complete_effect = { add_to_variable = {dialogue_BBW = 5}}
 	}
 	WML_dialogue_ZHP0 = {
 		allowed = {
 			tag = WML
-			has_completed_focus = WML_forest_lodz
 		}
+		visible = { has_completed_focus = WML_forest_lodz }
 		cost = 25
 		complete_effect = { add_to_variable = {dialogue_ZHP = 5}}
 	}
 	WML_dialogue_KRS0 = {
 		allowed = {
 			tag = WML
-			has_completed_focus = WML_the_primacy_of_entrepeneurs
 		}
+		visible = { has_completed_focus = WML_the_primacy_of_entrepeneurs }
 		cost = 25
 		complete_effect = { add_to_variable = {dialogue_KRS = 5}}
 	}
 	WML_dialogue_ZYD0 = {
 		allowed = {
 			tag = WML
-			has_completed_focus = WML_fairer_lodz
 		}
+		visible = { has_completed_focus = WML_fairer_lodz }
 		cost = 25
 		complete_effect = { add_to_variable = {dialogue_ZYD = 5}}
 	}
@@ -45,6 +74,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_ignacy_moscicki_potions_laboratory }
 		cost = 25
 		complete_effect = { add_to_variable = {dialogue_SAP = 10}}
 	}
@@ -52,6 +82,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_lodz_industry }
 		cost = 25
 		complete_effect = { add_to_variable = {dialogue_BBW = 10}}
 	}
@@ -59,6 +90,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_construction_of_parks }
 		cost = 25
 		complete_effect = { add_to_variable = {dialogue_ZHP = 10}}
 	}
@@ -66,6 +98,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_preferential_government_contracts }
 		cost = 25
 		complete_effect = { add_to_variable = {dialogue_KRS = 10}}
 	}
@@ -73,6 +106,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_the_rights_of_religious_minorities }
 		cost = 25
 		complete_effect = { add_to_variable = {dialogue_ZYD = 10}}
 	}
@@ -81,6 +115,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_wizardring_schools }
 		cost = 25
 		complete_effect = { 
 			add_to_variable = {dialogue_SAP = 15}
@@ -92,6 +127,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_renovation_of_lask_airport }
 		cost = 25
 		complete_effect = { 
 			add_to_variable = {dialogue_BBW = 15}
@@ -103,6 +139,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_scout_commandos }
 		cost = 25
 		complete_effect = { 
 			add_to_variable = {dialogue_ZHP = 15}
@@ -114,6 +151,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_tax_breaks }
 		cost = 25
 		complete_effect = { 
 			add_to_variable = {dialogue_KRS = 15}
@@ -125,6 +163,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_primacy_of_trade_unions }
 		cost = 25
 		complete_effect = { 
 			add_to_variable = {dialogue_ZYD = 15}
@@ -137,6 +176,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_witcher_training }
 		cost = 25
 		complete_effect = { 
 			add_to_variable = {dialogue_SAP = 20}
@@ -148,6 +188,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_spartan_standards }
 		cost = 25
 		complete_effect = { 
 			add_to_variable = {dialogue_BBW = 20}
@@ -159,6 +200,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_state_positions_for_the_power_plant_staff }
 		cost = 25
 		complete_effect = { 
 			add_to_variable = {dialogue_ZHP = 20}
@@ -170,6 +212,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_graves_of_an_unknown_soldier }
 		cost = 25
 		complete_effect = { 
 			add_to_variable = {dialogue_KRS = 20}
@@ -181,6 +224,7 @@ WML_dialogue_decisions = {
 		allowed = {
 			tag = WML
 		}
+		visible = { has_completed_focus = WML_co-financing_of_sports }
 		cost = 25
 		complete_effect = { 
 			add_to_variable = {dialogue_ZYD = 20}
