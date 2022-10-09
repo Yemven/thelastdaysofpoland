@@ -610,14 +610,10 @@ focus_tree = {
 				idea = KRS_diverted_assets
 				days = 90
 			}
-			completion_reward = {
-				add_manpower = 1000
-				add_war_support = 0.1
-				hidden_effect = {
-					add_to_variable = {all_shares = 10}
-					add_to_variable = {KRS_skrzyldewscy_holding_on = 10}
-					KRS_calculate_shares = yes
-				}
+			hidden_effect = {
+				add_to_variable = {all_shares = 10}
+				add_to_variable = {KRS_skrzyldewscy_holding_on = 10}
+				KRS_calculate_shares = yes
 			}
 		}
 	}
