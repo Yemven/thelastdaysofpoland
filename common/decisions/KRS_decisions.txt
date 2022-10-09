@@ -155,10 +155,8 @@ KRS_shareholders_competition_category = {
 			}
 		}
 		remove_effect = {
-			ROOT = {
-				add_dynamic_modifier = {
-					modifier = KRS_consortium_policy_protection_modifier
-				}
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_protection_modifier
 			}
 		}
 	}
@@ -178,16 +176,86 @@ KRS_shareholders_competition_category = {
 			}
 		}
 		remove_effect = {
-			add_stability = 0.1
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_officer_school_modifier
+			}
 		}
 	}
 	
-	KRS_found_officer_schools_2 = {
+	KRS_offer_investigation_services = {
 		allowed = {
 			original_tag = KRS
 		}
 		cost = 80
 		days_remove = 28
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 4}
+				add_to_variable = {KRS_rutkowski_takeover = 4}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_investigation_services_modifier
+			}
+		}
+	}
+	
+	KRS_slash_paths_through_weeds = {
+		cost = 20
+		fixed_random_seed = no
+		days_remove = 7
+		days_re_enable = 30
+		allowed = {
+			original_tag = KRS
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 1}
+				add_to_variable = {KRS_skrzyldewscy_holding_on = 1}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	KRS_offer_protection = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 40
+		days_remove = 14
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 2}
+				add_to_variable = {KRS_rutkowski_takeover = 2}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_protection_modifier
+			}
+		}
+	}
+	
+	KRS_found_officer_schools = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 60
+		days_remove = 21
 		fire_only_once = yes
 		complete_effect = {
 			hidden_effect = {
@@ -197,7 +265,121 @@ KRS_shareholders_competition_category = {
 			}
 		}
 		remove_effect = {
-			add_stability = 0.1
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_officer_school_modifier
+			}
+		}
+	}
+	
+	KRS_offer_investigation_services = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 80
+		days_remove = 28
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 4}
+				add_to_variable = {KRS_rutkowski_takeover = 4}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_investigation_services_modifier
+			}
+		}
+	}
+	
+	KRS_sell_weapons = {
+		days_remove = 7
+		days_re_enable = 30
+		allowed = {
+			original_tag = KRS
+		}
+		available = {
+			has_equipment = {
+				ranged_equipment > 99
+			}
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = ranged_equipment
+				amount = -100
+			}
+			add_war_support = -0.05
+			hidden_effect = {
+				add_to_variable = {all_shares = 1}
+				add_to_variable = {KRS_rutkowski_takeover = 1}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_political_power = 25
+		}
+	}
+	
+	KRS_offer_protection = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 40
+		days_remove = 14
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 2}
+				add_to_variable = {KRS_rutkowski_takeover = 2}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_protection_modifier
+			}
+		}
+	}
+	
+	KRS_found_officer_schools = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 60
+		days_remove = 21
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 3}
+				add_to_variable = {KRS_rutkowski_takeover = 3}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_officer_school_modifier
+			}
+		}
+	}
+	
+	KRS_offer_investigation_services = {
+		allowed = {
+			original_tag = KRS
+		}
+		cost = 80
+		days_remove = 28
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = {all_shares = 4}
+				add_to_variable = {KRS_rutkowski_takeover = 4}
+				KRS_calculate_shares = yes
+			}
+		}
+		remove_effect = {
+			add_dynamic_modifier = {
+				modifier = KRS_consortium_policy_investigation_services_modifier
+			}
 		}
 	}
 }
