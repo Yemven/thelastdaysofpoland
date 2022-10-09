@@ -147,10 +147,12 @@ KRS_hired_guns_category= {
 KRS_shareholders_competition_category = {
 	allowed = {
         tag = KRS
-		has_completed_focus = KRS_and_begin_the_meeting
     }
 	
-	visible_when_empty = yes
+	visible = {
+		has_completed_focus = KRS_and_begin_the_meeting
+	}
+	
 	
 	scripted_gui = KRS_shareholders_decision_ui
 }

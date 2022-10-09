@@ -51,3 +51,14 @@ lack_of_energy_modifier = {
 	industrial_capacity_factory = low_power_penalty
 	production_speed_buildings_factor = low_power_penalty 
 }
+
+KRS_consortium_policy_protection_modifier = {
+	icon = GFX_pops
+	required_garrison_factor = -0.1
+	weekly_manpower = 1000
+}
+
+#KRS_consortium_policy_protection_modifier = {
+	#icon = KRS_wave_of_kidnappings
+	#occupation_cost = -0.1
+#}
