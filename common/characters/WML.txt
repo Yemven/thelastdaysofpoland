@@ -292,6 +292,23 @@ characters={
 			legacy_id=-1
 		}
 	}
+	WML_jerzy_nawotka = {
+		name="Jerzy Nawotka"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Nawotka.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
 	WML_robert_foks = {
 		name="Robert Foks"
 		portraits = {
@@ -318,6 +335,23 @@ characters={
 		}
 		corps_commander = {
 			traits = { career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WML_daniel_jurewicz = {
+		name="Daniel Jurewicz"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Jurewicz.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
 			skill=1
 			attack_skill=1
 			defense_skill=1
