@@ -1,0 +1,51 @@
+SAP_balance_of_power_category = {
+
+	SAP_bop_military_parade = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+
+		visible = {
+			OR = {
+				has_completed_focus = SAP_of_monsters_and_men
+			}
+		}
+
+		cost = 100
+
+		days_re_enable = 365
+
+		complete_effect = {
+			SAP_bop_very_low_increase_effect = yes
+		}
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = SAP_power_balance
+					value < 0.3
+				}
+			}
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = SAP_power_balance
+					value < 0.15
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = SAP_power_balance
+					value < -0.11
+				}
+			}
+		}
+	}
+	
+}

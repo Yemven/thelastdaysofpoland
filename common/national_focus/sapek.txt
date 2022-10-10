@@ -106,6 +106,12 @@ focus_tree = {
 				days = 7 
 			}
 			}
+			set_power_balance = {
+				id = SAP_power_balance
+				left_side = SAP_white_rose_side # will keep the last set side if not specified
+				right_side = SAP_scoiatael_side # will keep the last set side if not specified
+				set_value = -0.1 # if specified will set the value of the power balance, this option will override the effect of set_default so the two options should not be used together. if neither set_default or set_value is specified the current value of the power balance will not change
+			}
 			custom_effect_tooltip = SAP_wilcy_tooltip
 		}
 	}
