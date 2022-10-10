@@ -339,7 +339,8 @@ zaglebie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = ZAW }
+			limit = { tag = ZAW
+						has_government = paternal_conservatism }
 			set_cosmetic_tag = ZAW_voivodeship
 			hidden_effect = {
 				every_country = {
