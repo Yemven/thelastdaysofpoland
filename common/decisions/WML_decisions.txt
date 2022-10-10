@@ -2,11 +2,13 @@ WML_dialogue_decisions = {
 ###HOŁOWNIA'S DIALOG IS AN ETERNAL STATE OF PAIN###
 	WML_dialogue_WML2 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
 		visible = { has_completed_focus = WML_crackdown_on_consoomers }
-		cost = 55
-		complete_effect = { 
+		days_re_enable = 45
+		days_remove = 15
+		cost = 75
+		remove_effect = { 
 			add_to_variable = {dialogue_SAP = 5}
 			add_to_variable = {dialogue_BBW = 5}
 			add_to_variable = {dialogue_KRS = 5}
@@ -16,11 +18,13 @@ WML_dialogue_decisions = {
 	}
 	WML_dialogue_WML3 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
 		visible = { has_completed_focus = WML_pamper_delegations }
-		cost = 55
-		complete_effect = { 
+		cost = 75
+		days_re_enable = 60
+		days_remove = 20
+		remove_effect = { 
 			add_to_variable = {dialogue_SAP = 10}
 			add_to_variable = {dialogue_BBW = 10}
 			add_to_variable = {dialogue_KRS = 10}
@@ -31,93 +35,115 @@ WML_dialogue_decisions = {
 ###POZIOM ZEROWY###
 	WML_dialogue_SAP0 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
 		visible = { has_completed_focus = WML_fantastical_lodz }
-		cost = 25
-		complete_effect = { add_to_variable = {dialogue_SAP = 5}}
+		cost = 20
+		days_re_enable = 20
+		days_remove = 5
+		remove_effect = { add_to_variable = {dialogue_SAP = 5}}
 	}
 	WML_dialogue_BBW0 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 20
+		days_remove = 5
 		visible = { has_completed_focus = WML_industrial_lodz }
-		cost = 25
-		complete_effect = { add_to_variable = {dialogue_BBW = 5}}
+		cost = 20
+		remove_effect = { add_to_variable = {dialogue_BBW = 5}}
 	}
 	WML_dialogue_ZHP0 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 20
+		days_remove = 5
 		visible = { has_completed_focus = WML_forest_lodz }
-		cost = 25
-		complete_effect = { add_to_variable = {dialogue_ZHP = 5}}
+		cost = 20
+		remove_effect = { add_to_variable = {dialogue_ZHP = 5}}
 	}
 	WML_dialogue_KRS0 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 20
+		days_remove = 5
 		visible = { has_completed_focus = WML_the_primacy_of_entrepreneurs }
-		cost = 25
-		complete_effect = { add_to_variable = {dialogue_KRS = 5}}
+		cost = 20
+		remove_effect = { add_to_variable = {dialogue_KRS = 5}}
 	}
 	WML_dialogue_ZYD0 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 20
+		days_remove = 5
 		visible = { has_completed_focus = WML_fairer_lodz }
-		cost = 25
-		complete_effect = { add_to_variable = {dialogue_ZYD = 5}}
+		cost = 20
+		remove_effect = { add_to_variable = {dialogue_ZYD = 5}}
 	}
 ###POZIOM PIERWSZY###
 	WML_dialogue_SAP1 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 25
+		days_remove = 5
 		visible = { has_completed_focus = WML_ignacy_moscicki_potions_laboratory }
-		cost = 25
-		complete_effect = { add_to_variable = {dialogue_SAP = 10}}
+		cost = 30
+		remove_effect = { add_to_variable = {dialogue_SAP = 10}}
 	}
 	WML_dialogue_BBW1 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 25
+		days_remove = 5
 		visible = { has_completed_focus = WML_lodz_industry }
-		cost = 25
-		complete_effect = { add_to_variable = {dialogue_BBW = 10}}
+		cost = 30
+		remove_effect = { add_to_variable = {dialogue_BBW = 10}}
 	}
 	WML_dialogue_ZHP1 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 25
+		days_remove = 5
 		visible = { has_completed_focus = WML_construction_of_parks }
-		cost = 25
-		complete_effect = { add_to_variable = {dialogue_ZHP = 10}}
+		cost = 30
+		remove_effect = { add_to_variable = {dialogue_ZHP = 10}}
 	}
 	WML_dialogue_KRS1 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 25
+		days_remove = 5
 		visible = { has_completed_focus = WML_preferential_government_contracts }
-		cost = 25
-		complete_effect = { add_to_variable = {dialogue_KRS = 10}}
+		cost = 30
+		remove_effect = { add_to_variable = {dialogue_KRS = 10}}
 	}
 	WML_dialogue_ZYD1 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 25
+		days_remove = 5
 		visible = { has_completed_focus = WML_the_rights_of_religious_minorities }
-		cost = 25
-		complete_effect = { add_to_variable = {dialogue_ZYD = 10}}
+		cost = 30
+		remove_effect = { add_to_variable = {dialogue_ZYD = 10}}
 	}
 ###POZIOM DRUGI###
 	WML_dialogue_SAP2 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 30
+		days_remove = 10
 		visible = { has_completed_focus = WML_wizardring_schools }
-		cost = 25
-		complete_effect = { 
+		cost = 50
+		remove_effect = { 
 			add_to_variable = {dialogue_SAP = 15}
 			subtract_from_variable = {dialogue_KRS = 5}
 			subtract_from_variable = {dialogue_BBW = 5}
@@ -125,11 +151,13 @@ WML_dialogue_decisions = {
 	}
 	WML_dialogue_BBW2 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 30
+		days_remove = 10
 		visible = { has_completed_focus = WML_renovation_of_lask_airport }
-		cost = 25
-		complete_effect = { 
+		cost = 50
+		remove_effect = { 
 			add_to_variable = {dialogue_BBW = 15}
 			subtract_from_variable = {dialogue_ZYD = 5}
 			subtract_from_variable = {dialogue_ZHP = 5}
@@ -137,11 +165,13 @@ WML_dialogue_decisions = {
 	}
 	WML_dialogue_ZHP2 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 30
+		days_remove = 10
 		visible = { has_completed_focus = WML_scout_commandos }
-		cost = 25
-		complete_effect = { 
+		cost = 50
+		remove_effect = { 
 			add_to_variable = {dialogue_ZHP = 15}
 			subtract_from_variable = {dialogue_BBW = 5}
 			subtract_from_variable = {dialogue_ZYD = 5}
@@ -149,11 +179,13 @@ WML_dialogue_decisions = {
 	}
 	WML_dialogue_KRS2 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 30
+		days_remove = 10
 		visible = { has_completed_focus = WML_tax_breaks }
-		cost = 25
-		complete_effect = { 
+		cost = 50
+		remove_effect = { 
 			add_to_variable = {dialogue_KRS = 15}
 			subtract_from_variable = {dialogue_SAP = 5}
 			subtract_from_variable = {dialogue_ZHP = 5}
@@ -161,11 +193,13 @@ WML_dialogue_decisions = {
 	}
 	WML_dialogue_ZYD2 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 30
+		days_remove = 10
 		visible = { has_completed_focus = WML_primacy_of_trade_unions }
-		cost = 25
-		complete_effect = { 
+		cost = 50
+		remove_effect = { 
 			add_to_variable = {dialogue_ZYD = 15}
 			subtract_from_variable = {dialogue_KRS = 5}
 			subtract_from_variable = {dialogue_SAP = 5}
@@ -174,11 +208,13 @@ WML_dialogue_decisions = {
 ###POZIOM TRZECI###
 	WML_dialogue_SAP3 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 35
+		days_remove = 10
 		visible = { has_completed_focus = WML_witcher_training }
-		cost = 25
-		complete_effect = { 
+		cost = 60
+		remove_effect = { 
 			add_to_variable = {dialogue_SAP = 20}
 			subtract_from_variable = {dialogue_ZYD = 10}
 			subtract_from_variable = {dialogue_KRS = 10}
@@ -186,11 +222,13 @@ WML_dialogue_decisions = {
 	}
 	WML_dialogue_BBW3 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 35
+		days_remove = 10
 		visible = { has_completed_focus = WML_spartan_standards }
-		cost = 25
-		complete_effect = { 
+		cost = 60
+		remove_effect = { 
 			add_to_variable = {dialogue_BBW = 20}
 			subtract_from_variable = {dialogue_ZHP = 10}
 			subtract_from_variable = {dialogue_SAP = 10}
@@ -198,11 +236,13 @@ WML_dialogue_decisions = {
 	}
 	WML_dialogue_ZHP3 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 35
+		days_remove = 10
 		visible = { has_completed_focus = WML_state_positions_for_the_power_plant_staff }
-		cost = 25
-		complete_effect = { 
+		cost = 60
+		remove_effect = { 
 			add_to_variable = {dialogue_ZHP = 20}
 			subtract_from_variable = {dialogue_KRS = 10}
 			subtract_from_variable = {dialogue_BBW = 10}
@@ -210,11 +250,13 @@ WML_dialogue_decisions = {
 	}
 	WML_dialogue_KRS3 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 35
+		days_remove = 10
 		visible = { has_completed_focus = WML_graves_of_an_unknown_soldier }
-		cost = 25
-		complete_effect = { 
+		cost = 60
+		remove_effect = { 
 			add_to_variable = {dialogue_KRS = 20}
 			subtract_from_variable = {dialogue_ZYD = 10}
 			subtract_from_variable = {dialogue_SAP = 10}
@@ -222,11 +264,13 @@ WML_dialogue_decisions = {
 	}
 	WML_dialogue_ZYD3 = {
 		allowed = {
-			tag = WML
+			original_tag = WML
 		}
+		days_re_enable = 35
+		days_remove = 10
 		visible = { has_completed_focus = WML_co_-_financing_of_sports }
-		cost = 25
-		complete_effect = { 
+		cost = 60
+		remove_effect = { 
 			add_to_variable = {dialogue_ZYD = 20}
 			subtract_from_variable = {dialogue_BBW = 10}
 			subtract_from_variable = {dialogue_ZHP = 10}

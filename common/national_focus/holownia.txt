@@ -647,7 +647,8 @@ focus_tree = {
 			check_variable = {dialogue_BBW > 24}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_lodz_industry
 		}
 		
 		x = 0
@@ -672,7 +673,8 @@ focus_tree = {
 			check_variable = {dialogue_BBW > 49}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_renovation_of_lask_airport
 		}
 		
 		x = 0
@@ -708,7 +710,8 @@ focus_tree = {
 			check_variable = {dialogue_BBW > 74}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_state_positions_for_the_power_plant_staff
 		}
 		
 		x = 0
@@ -733,7 +736,8 @@ focus_tree = {
 			check_variable = {dialogue_BBW > 99}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_mining_in_lodz
 		}
 		
 		x = 0
@@ -758,7 +762,8 @@ focus_tree = {
 			check_variable = {dialogue_ZHP > 24}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_construction_of_parks
 		}
 		
 		x = 0
@@ -790,7 +795,8 @@ focus_tree = {
 			check_variable = {dialogue_ZHP > 49}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_scout_commandos
 		}
 		
 		x = 0
@@ -815,7 +821,8 @@ focus_tree = {
 			check_variable = {dialogue_ZHP > 74}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_spartan_standards
 		}
 		
 		x = 0
@@ -840,7 +847,8 @@ focus_tree = {
 			check_variable = {dialogue_ZHP > 99}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_lily_agents
 		}
 		
 		x = 0
@@ -904,7 +912,8 @@ focus_tree = {
 			check_variable = {dialogue_SAP > 24}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_ignacy_moscicki_potions_laboratory
 		}
 		
 		x = 0
@@ -929,7 +938,8 @@ focus_tree = {
 			check_variable = {dialogue_SAP > 49}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_wizardring_schools
 		}
 		
 		x = 0
@@ -954,7 +964,8 @@ focus_tree = {
 			check_variable = {dialogue_SAP > 74}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_witcher_training
 		}
 		
 		x = 0
@@ -979,7 +990,8 @@ focus_tree = {
 			check_variable = {dialogue_SAP > 99}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_support_of_landowners
 		}
 		
 		x = 0
@@ -1030,9 +1042,7 @@ focus_tree = {
 		available = {
 
 		}
-		
-		bypass = {
-		}
+
 		
 		x = 3
 		y = 1
@@ -1058,7 +1068,8 @@ focus_tree = {
 			check_variable = {dialogue_ZYD > 24}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_the_rights_of_religious_minorities
 		}
 		
 		x = 0
@@ -1083,7 +1094,8 @@ focus_tree = {
 			check_variable = {dialogue_ZYD > 49}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_primacy_of_trade_unions
 		}
 		
 		x = 0
@@ -1108,7 +1120,8 @@ focus_tree = {
 			check_variable = {dialogue_ZYD > 74}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_co_-_financing_of_sports
 		}
 		
 		x = 0
@@ -1133,7 +1146,8 @@ focus_tree = {
 			check_variable = {dialogue_ZYD > 99}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_defenders_of_faith
 		}
 		
 		x = 0
@@ -1158,7 +1172,8 @@ focus_tree = {
 			check_variable = {dialogue_KRS > 24}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_preferential_government_contracts
 		}
 		
 		x = 0
@@ -1188,7 +1203,8 @@ focus_tree = {
 			check_variable = {dialogue_KRS > 49}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_tax_breaks
 		}
 		
 		x = 0
@@ -1213,7 +1229,8 @@ focus_tree = {
 			check_variable = {dialogue_KRS > 74}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_graves_of_an_unknown_soldier
 		}
 		
 		x = 0
@@ -1238,7 +1255,8 @@ focus_tree = {
 			check_variable = {dialogue_KRS > 99}
 		}
 		
-		bypass = {
+		select_effect = {
+			complete_national_focus = WML_private_security_agencies
 		}
 		
 		x = 0
