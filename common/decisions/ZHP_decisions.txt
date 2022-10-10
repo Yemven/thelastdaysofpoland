@@ -6,7 +6,7 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			always = yes
@@ -32,7 +32,7 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			always = yes
@@ -58,7 +58,7 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			controls_state = 341
@@ -84,7 +84,7 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			check_variable = { ZHP_deurbanization_progress > 25}
@@ -110,7 +110,7 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			check_variable = { ZHP_deurbanization_progress > 25}
@@ -136,13 +136,16 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			check_variable = { ZHP_deurbanization_progress > 25}
-		ZHP = {
-			has_capitulated = WML
-		}
+			WML = {
+				has_capitulated = yes
+			}
+			ZHP = {
+				controls_state = 302
+			}
 	
 		}
 
@@ -171,7 +174,7 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			check_variable = { ZHP_deurbanization_progress > 50}
@@ -197,7 +200,7 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			check_variable = { ZHP_deurbanization_progress > 50}
@@ -223,13 +226,16 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			check_variable = { ZHP_deurbanization_progress > 50}
 
+			KRS = {
+				has_capitulated = yes
+			}
 			ZHP = {
-				has_capitulated = KRS
+				controls_state = 236
 			}
 		}
 
@@ -253,7 +259,7 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			check_variable = { ZHP_deurbanization_progress > 75}
@@ -279,7 +285,7 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			check_variable = { ZHP_deurbanization_progress > 75}
@@ -305,7 +311,7 @@ ZHP_deurbanization_category = {
 		}
 
 		allowed = {
-			tag = ZHP
+			original_tag = ZHP
 		}
 		visible = {
 			check_variable = { ZHP_deurbanization_progress > 75}
