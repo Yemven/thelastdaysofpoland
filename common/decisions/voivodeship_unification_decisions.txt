@@ -1,6 +1,116 @@
 
 unification_category = {
 
+opole_voivodeship_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_opole_voivodeship
+			can_unify_opolskie = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { is_opolskie = yes }
+
+	complete_effect = {
+		if = {
+			limit = { tag = MNI }
+			set_cosmetic_tag = MNI_voivodeship
+			set_global_flag = opolskie_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.63 }
+				}
+			}
+			custom_effect_tooltip = MNI_unifies_opolskie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = OPO }
+			set_cosmetic_tag = OPO_voivodeship
+			set_global_flag = opolskie_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.64 }
+				}
+			}
+			custom_effect_tooltip = OPO_unifies_opolskie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = LCH }
+			set_cosmetic_tag = LCH_voivodeship
+			set_global_flag = opolskie_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.65 }
+				}
+			}
+			custom_effect_tooltip = LCH_unifies_opolskie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { tag = WND }
+			set_cosmetic_tag = WND_voivodeship
+			set_global_flag = opolskie_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.66 }
+				}
+			}
+			custom_effect_tooltip = WND_unifies_opolskie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { 
+					 tag = LEH	}
+			set_cosmetic_tag = LEH_voivodeship
+			set_global_flag = opolskie_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.67 }
+				}
+			}
+			custom_effect_tooltip = LEH_unifies_opolskie_tooltip
+		}
+
+		else_if = {
+			limit = { tag = NYS }
+			set_cosmetic_tag = NYS_voivodeship
+			set_global_flag = opolskie_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.68 }
+				}
+			}
+			custom_effect_tooltip = NYS_unifies_opolskie_tooltip
+		}
+		
+
+	}
+	ai_will_do = { factor = 1 }
+}
+
 lodz_voivodeship_unification = {
 
 	icon = GFX_decision_icon_default
