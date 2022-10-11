@@ -137,8 +137,6 @@ is_mazovia = {
 		original_tag = POL
 		original_tag = SAS
 		original_tag = ORL
-		original_tag = AGR
-		original_tag = SDL
 		original_tag = KUR
 		original_tag = ZWK
 	}
@@ -169,6 +167,8 @@ is_podlasie = {
 		original_tag = SAN
 		original_tag = SEI
 		original_tag = RAJ
+		original_tag = SDL
+		original_tag = AGR
 	}
 }
 
@@ -406,7 +406,7 @@ is_greater_podlasie_unifier = {
 	}
 }
 
-is_pomerania_unifier = {
+is_pomerelia_unifier = {
 	OR = {
 		original_tag = KOR
 		original_tag = GDA
@@ -1312,7 +1312,7 @@ AND = {
 	}
 }
 
-can_unify_radom = {
+can_unify_radom_province = {
 AND = {
 	has_war = no 
 	is_radom_province = yes
@@ -1328,7 +1328,7 @@ AND = {
 	}
 }
 
-can_unify_warsaw = {
+can_unify_capital_district = {
 AND = {
 	has_war = no
 	is_capital_district = yes
