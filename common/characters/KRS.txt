@@ -138,4 +138,36 @@ characters={
 			logistics_skill=1
 		}
 	}
+	KRS_arkadiusz_wypych = {
+		name="Arkadiusz Wypych"
+		portraits = {
+			army = {
+			    large="gfx/leaders/KRS/KRS_wypych.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	KRS_mariusz_koscielak = {
+		name="Mariusz Kościelak"
+		portraits = {
+			army = {
+			    large="gfx/leaders/KRS/KRS_Koscielak.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
 }
