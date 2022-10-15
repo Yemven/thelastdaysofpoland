@@ -62,28 +62,28 @@ ZHP_INF_BOJ_01 =
 		44 = { "19 Aleksandrowska Drużyna Harcerska 'Ignis'" }
 		45 = { "69 Aleksandrowska Drużyna Harcerska 'Czarne Słońca'"}
                 46 = { "417 Łódzka Drużyna Harcerska 'Arbor'"}
-		47 = { "917 Łódzka Drużyna Harcerek 'Mrowisko' }
+		47 = { "917 Łódzka Drużyna Harcerek 'Mrowisko'" }
 		48 = { "II Łódzka Drużyna Harcerzy" }
-		49 = { "22 Łódzka Drużyna Harcerek 'Watra'}
-                50 = { "7 Łódzka Drużyna Harcerska 'Wataha'}
+		49 = { "22 Łódzka Drużyna Harcerek 'Watra'" }
+                50 = { "7 Łódzka Drużyna Harcerska 'Wataha'" }
 		51 = { "45 Łódzka Drużyna Harcerzy 'Ursus Arctos'" }
 		52 = { "49 Łódzka Drużyna Harcerek" }
 		53 = { "8 Łódzka Drużyna Harcerek 'Andromeda'"}
                 54 = { "56 Łódzka Drużyna Harcerek 'Wiewióry'"}
-		55 = { "58 Łódzka Drużyna Harcerzy 'Jastrząb' }
+		55 = { "58 Łódzka Drużyna Harcerzy 'Jastrząb'" }
 		56 = { "18 Łódzka Drużyna Harcerek 'Wierchy'" }
 		57 = { "124 Łódzka Drużyna Harcerzy 'Bór'"}
                 58 = { "71 Łódzka Drużyna Harcerek"}
 		59 = { "27 Drużyna Harcerska 'Łowcy'" }
-		60 = { "44 Drużyna Harcerska 'Iskra' }
+		60 = { "44 Drużyna Harcerska 'Iskra'" }
 		61 = { "7 Lutomierska Drużyna Harcerska 'Aurora'"}
                 62 = { "11 Konstantynowska Drużyna Harcerska 'Iskra'"}
 		63 = { "41 Konstantynowska Drużyna Harcerska 'Lumen'" }
 		64 = { "VI Grunwaldzka Drużyna Harcerska 'Traperzy'"}
                 65 = { "7 Drużyna Harcerska 'Kremenaros'"}
-		66 = { "10 Grunwaldzka Drużyna Harcerska 'Per Pedes' }
-		67 = { "14 Grunwaldzka Drużyna Harcerska 'Płomienie' }
-		68 = { "46 Drużyna Harcerska 'Egida'}
+		66 = { "10 Grunwaldzka Drużyna Harcerska 'Per Pedes'" }
+		67 = { "14 Grunwaldzka Drużyna Harcerska 'Płomienie'" }
+		68 = { "46 Drużyna Harcerska 'Egida'" }
                 69 = { "8 Drużyna Harcerska z Łasku"}
 		70 = { "10 Widawska Drużyna Harcerska" }
 		71 = { "64 Widawska Drużyna Harcerska"}
@@ -97,7 +97,7 @@ ZHP_INF_BOJ_01 =
 		79 = { "111. Łowicka Drużyna Harcerska 'Wilkor'"}
                 80 = { "9. Łowicka Drużyna Wielopoziomowa 'Białe Orły'"}
 		81 = { "6 Bielowsicka Drużyna Harcerska 'Żywioły'"}
-                82 = { "72 Opoczyńska Drużyna Wielopoziomowa 'Feniks'}
+                82 = { "72 Opoczyńska Drużyna Wielopoziomowa 'Feniks'"}
 		83 = { "14 Opoczyńska Drużyna Harcerska 'Pomarańczarnia'"}
                 84 = { "18 Drużyna Harcerek 'Kuźnia'"}
 		85 = { "18 Drużyna Harcerska 'Żagiew'"}
@@ -111,12 +111,12 @@ ZHP_INF_BOJ_01 =
 		93 = { "11 Drużyna Harcerska 'Nomada'"}
                 94 = { "21 Drużyna Harcerska 'Wagabundy'"}
 		95 = { "106 Drużyna Harcerska 'Juwenta'"}
-                96 = { "88 Druzyna Harcerska 'Mitra'}
+                96 = { "88 Druzyna Harcerska 'Mitra'"}
                 97 = { "113 Drużyna Harcerska 'Czarna Trzynastka'"}
 		98 = { "22 Tomaszowska Artystyczna Drużyna Harcerska 'Słoneczni"}
                 99 = { "15 Tomaszowska Drużyna Harcerzy 'Dziewięć Sił'"}
 		100 = { "14 Tomaszowska Drużyna Harcerska 'Astrum'"}
-                101 = { "1 Tomaszowska Drużyna Wielopoziomowa "Burza"}
+                101 = { "1 Tomaszowska Drużyna Wielopoziomowa 'Burza'"}
 		102 = { "1 Specjalnościowa Drużyna Harcerska 'Zawiszacy'"}
                 103 = { "3 Artystyczna Drużyna Harcerska 'Strażnicy Lasu"}
 		104 = { "4 Szadkowska Drużyna Harcerska 'W Stronę Słońca'"}
@@ -132,44 +132,3 @@ ZHP_INF_BOJ_01 =
 	}
 }
 
-ZHP_PAL_01 = 
-{
-	name = "Paladyni Bractwa"
-
-	for_countries = { BBW }
-
-	can_use = { always = yes }
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { BBW_GAR_02 }
-
-	fallback_name = "% Paladyni Bractwa."
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "Paladyni Najyższego Czasu." }
-		2 = { "Paladyni Kataryniarze." }
-		3 = { "Paladyni Czerwonych Dywanów." }
-		4 = { "Szare Płaszcze." }
-		5 = { "Siwe Sumienia." }
-		6 = { "Czarne Oczy." }
-		7 = { "Brunatna Fala." }
-		8 = { "Popielaci Wędrowcy." }
-		9 = { "9 Paladyni Bractwa" }
-		10 = { "10 Paladyni Bractwa." }
-		11 = { "11 Paladyni Bractwa." }
-		12 = { "12 Paladyni Bractwa." }
-		13 = { "13 Paladyni Bractwa." }
-		14 = { "14 Paladyni Bractwa." }
-		15 = { "15 Paladyni Bractwa." }
-		16 = { "16 Paladyni Bractwa." }
-		17 = { "17 Paladyni Bractwa." }
-		18 = { "18 Paladyni Bractwa." }
-		19 = { "19 Paladyni Bractwa." }
-		20 = { "20 Paladyni Bractwa." }
-	}
-}

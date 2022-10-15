@@ -918,6 +918,108 @@ is_poland_unifier = {
 	}
 }
 
+can_unify_lesser_poland = {
+AND = {
+	has_war = no
+	is_lesser_poland = yes
+	#OSW
+	controls_state = 513
+	controls_state = 493
+	controls_state = 800
+	controls_state = 593
+	#WDW
+	controls_state = 515
+	controls_state = 801
+	controls_state = 594
+	#SKW
+	controls_state = 519
+	#PRK
+	controls_state = 598
+	controls_state = 459
+	controls_state = 599
+	controls_state = 826
+	controls_state = 454
+	controls_state = 482
+	controls_state = 477
+	#KRK
+	controls_state = 506
+	controls_state = 572
+	controls_state = 571
+	controls_state = 724
+	controls_state = 770
+	controls_state = 771
+	controls_state = 772
+	controls_state = 575
+	controls_state = 773
+	controls_state = 569
+	controls_state = 721
+	controls_state = 723
+	controls_state = 514
+	controls_state = 722
+	controls_state = 570
+	#NHT
+	controls_state = 574
+	controls_state = 573
+	#UMN
+	controls_state = 508
+	controls_state = 597
+	controls_state = 503
+	#BOH
+	controls_state = 505
+	controls_state = 824	
+	controls_state = 495	
+	controls_state = 823	
+	#TRN
+	controls_state = 472
+	controls_state = 491
+	controls_state = 512
+	controls_state = 492
+	controls_state = 822
+}
+}
+
+can_unify_mazovia = {
+AND = {
+	has_war = no
+	is_mazovia = yes
+	#ORL
+	controls_state = 237
+	controls_state = 222
+	controls_state = 213
+	controls_state = 642
+	controls_state = 192
+	controls_state = 643
+	controls_state = 28
+	controls_state = 173
+	controls_state = 156
+	#ZWK
+	controls_state = 147
+	controls_state = 842
+	controls_state = 139
+	#KUR
+	controls_state = 117
+	controls_state = 151
+	#SAS
+	controls_state = 840
+	controls_state = 131
+	controls_state = 160
+	controls_state = 157
+	controls_state = 839
+	controls_state = 838
+	#POL
+	controls_state = 180
+	controls_state = 649
+	controls_state = 648
+	controls_state = 216
+	controls_state = 223
+	controls_state = 214
+	controls_state = 210
+	controls_state = 186
+	controls_state = 841
+	controls_state = 197
+	controls_state = 179
+	}
+}
 can_unify_lodz = {
 AND = {
 	has_war = no
@@ -1454,6 +1556,12 @@ AND = {
 	controls_state = 80 
 	controls_state = 71
 	controls_state = 50
+	#AGR
+	controls_state = 169
+	controls_state = 201
+	#SDL
+	controls_state = 254
+	controls_state = 231
 	}
 }
 
@@ -1638,6 +1746,7 @@ AND = {
 	controls_state = 615
 	controls_state = 107
 	controls_state = 127
+	date > 2028.01.01
 	}
 }
 
