@@ -1206,6 +1206,7 @@ generic_decisions_react_category = {
 		cost = 150
 		days_re_enable = 64
 		days_remove = 140
+		
 		complete_effect = {
 			
 		}
@@ -1228,8 +1229,7 @@ generic_decisions_react_category = {
 				add_political_power = 35
 				add_war_support = 0.15
 				}
-			}
-			
+			}	
 		}
 	}
 	
@@ -1243,31 +1243,36 @@ generic_decisions_react_category = {
 		cost = 50
 		days_re_enable = 35
 		days_remove = 70
+
 		complete_effect = {
+
 		}
 		remove_effect = {
+
 		}
 	}
 	
 	react_tell_people_what_they_want_to_hear = {
 		modifier = {
-		political_power_gain = 0.25
-		war_support_weekly = -0.002
+			political_power_gain = 0.25
+			war_support_weekly = -0.002
 		}
 		
 		cost = 25
 		days_re_enable = 35
 		days_remove = 70
+
 		complete_effect = {
+
 		}
 		remove_effect = {
-		add_political_power = 15
-		add_stability = 0.03
+			add_political_power = 15
+			add_stability = 0.03
 		}
 	}
 	
 	react_rebuild_the_good_old_days = {
-	modifier = {	
+		modifier = {	
 			stability_weekly = -0.005
 			political_power_gain = -0.15
 			research_speed_factor = -0.10
@@ -1282,142 +1287,145 @@ generic_decisions_react_category = {
 		}
 		
 		remove_effect = {
-		random_list = {
-			15 = {
-				random_owned_state = {	
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
+			random_list = {
+				15 = {
+					random_owned_state = {	
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			}
-			15 = {
-				random_owned_state = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = arms_factory
-						level = 1
-						instant_build = yes
+				15 = {
+					random_owned_state = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			}
-			15 = {
-				random_owned_state = {
-				add_extra_state_shared_building_slots = 3
-				}
-			}
-			15 = {
-				random_owned_controlled_state = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
+				15 = {
+					random_owned_state = {
+					add_extra_state_shared_building_slots = 3
 					}
 				}
-			
-				random_owned_controlled_state = {
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
+				15 = {
+					random_owned_controlled_state = {
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				
+					random_owned_controlled_state = {
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			
-			}
-		}	
+			}	
 		}
 	}
 	
 	react_return_to_old_ways = {
 		modifier = {
-		political_power_gain = 0.15
-		consumer_goods_factor = -0.05
-		war_support_weekly = 0.003
-		stability_weekly = -0.001
+			political_power_gain = 0.15
+			consumer_goods_factor = -0.05
+			war_support_weekly = 0.003
+			stability_weekly = -0.001
 		}
 		
 		cost = 100
 		days_re_enable = 70
 		days_remove = 70
+
 		complete_effect = {
+
 		}
 		remove_effect = {
-		add_stability = -0.05
+			add_stability = -0.05
 		}
 	}
 	
 	react_warriors_of_great_past = {
 		modifier = {
-		political_power_gain = -0.1
-		war_support_weekly = 0.005
-		stability_weekly = -0.003
-		weekly_manpower = 100
-		experience_gain_army_factor = 0.10
+			political_power_gain = -0.1
+			war_support_weekly = 0.005
+			stability_weekly = -0.003
+			weekly_manpower = 100
+			experience_gain_army_factor = 0.10
 		}
 		
 		cost = 100
 		days_re_enable = 56
 		days_remove = 70
+
 		complete_effect = {
+
 		}
 		remove_effect = {
-		random_list = {
-			15 = {
-			army_experience = 15
-				add_manpower = 1500
+			random_list = {
+				15 = {
+				army_experience = 15
+					add_manpower = 1500
+				}
+				15 = {
+				army_experience = 10
+					add_manpower = 2500
+				}
+				10 = {
+					army_experience = 5
+					add_manpower = 5000
+				}
 			}
-			15 = {
-			army_experience = 10
-				add_manpower = 2500
-			}
-			10 = {
-				army_experience = 5
-				add_manpower = 5000
-			}
-		}
 		}
 	}
 	
 	react_warriors_of_great_past_wrt = {
 	
-	visible = {
-		has_government = reactionary
-		tag = WRT
-	}
+		visible = {
+			has_government = reactionary
+			tag = WRT
+		}
 	
 		modifier = {
-		political_power_gain = -0.1
-		war_support_weekly = 0.005
-		stability_weekly = -0.003
-		weekly_manpower = 100
-		experience_gain_army_factor = 0.10
+			political_power_gain = -0.1
+			war_support_weekly = 0.005
+			stability_weekly = -0.003
+			weekly_manpower = 100
+			experience_gain_army_factor = 0.10
 		}
 		
 		cost = 100
 		days_re_enable = 56
 		days_remove = 70
 		complete_effect = {
+
 		}
 		remove_effect = {
-		random_list = {
-			15 = {
-			army_experience = 15
-				add_manpower = 1500
+			random_list = {
+				15 = {
+				army_experience = 15
+					add_manpower = 1500
+				}
+				15 = {
+				army_experience = 10
+					add_manpower = 2500
+				}
+				10 = {
+					army_experience = 5
+					add_manpower = 5000
+				}
 			}
-			15 = {
-			army_experience = 10
-				add_manpower = 2500
-			}
-			10 = {
-				army_experience = 5
-				add_manpower = 5000
-			}
-		}
 		}
 	}
-	
 }
 
 ####GENERIC REACTIONARY SHIZO########
@@ -1439,24 +1447,23 @@ generic_decisions_react_shizo_category = {
 		
 		remove_effect = {
 		
-		random_list = {
-			15 = {
-				add_manpower = 100
-				add_political_power = 75
-				add_stability = 0.05
-				}
-			15 = {
-				add_manpower = 500
-				add_political_power = 35
-				add_stability = 0.10
-				}
+			random_list = {
 				15 = {
-				add_manpower = 2000
-				add_political_power = 35
-				add_war_support = 0.15
-				}
-			}
-			
+					add_manpower = 100
+					add_political_power = 75
+					add_stability = 0.05
+					}
+				15 = {
+					add_manpower = 500
+					add_political_power = 35
+					add_stability = 0.10
+					}
+				15 = {
+					add_manpower = 2000
+					add_political_power = 35
+					add_war_support = 0.15
+					}
+			}	
 		}
 	}
 	
@@ -1470,98 +1477,102 @@ generic_decisions_react_shizo_category = {
 		cost = 50
 		days_re_enable = 35
 		days_remove = 70
+
 		complete_effect = {
+
 		}
 		remove_effect = {
+
 		}
 	}
 	
 	react_shizo_tell_people_what_they_want_to_hear = {
 		modifier = {
-		political_power_gain = 0.25
-		war_support_weekly = -0.002
+			political_power_gain = 0.25
+			war_support_weekly = -0.002
 		}
 		
 		cost = 25
 		days_re_enable = 35
 		days_remove = 70
 		complete_effect = {
+
 		}
 		remove_effect = {
-		add_political_power = 15
-		add_stability = 0.03
+			add_political_power = 15
+			add_stability = 0.03
 		}
 	}
 	
 	react_shizo_rebuild_the_good_old_days = {
-	modifier = {	
-			stability_weekly = -0.005
-			political_power_gain = -0.15
-			research_speed_factor = -0.10
-			production_speed_buildings_factor = 0.10
+		modifier = {	
+				stability_weekly = -0.005
+				political_power_gain = -0.15
+				research_speed_factor = -0.10
+				production_speed_buildings_factor = 0.10
 		}
-		
+			
 		cost = 100
 		days_re_enable = 30
 		days_remove = 49
 		complete_effect = {
-			
+				
 		}
-		
+			
 		remove_effect = {
-		random_list = {
-			15 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
+			random_list = {
+				15 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			}
-			15 = {
-				random_owned_state = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = arms_factory
-						level = 1
-						instant_build = yes
+				15 = {
+					random_owned_state = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			}
-			15 = {
-				random_owned_state = {
-				add_extra_state_shared_building_slots = 3
-				}
-			}
-			15 = {
-				random_owned_controlled_state = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
+				15 = {
+					random_owned_state = {
+					add_extra_state_shared_building_slots = 3
 					}
 				}
-			
-				random_owned_controlled_state = {
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
+				15 = {
+					random_owned_controlled_state = {
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+					
+					random_owned_controlled_state = {
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			
 			}
 		}	
-		}
 	}
 	
 	react_shizo_return_to_old_ways = {
+		
 		modifier = {
-		political_power_gain = 0.15
-		consumer_goods_factor = -0.05
-		war_support_weekly = 0.003
-		stability_weekly = -0.001
+			political_power_gain = 0.15
+			consumer_goods_factor = -0.05
+			war_support_weekly = 0.003
+			stability_weekly = -0.001
 		}
 		
 		cost = 100
@@ -1570,17 +1581,17 @@ generic_decisions_react_shizo_category = {
 		complete_effect = {
 		}
 		remove_effect = {
-		add_stability = -0.05
+			add_stability = -0.05
 		}
 	}
 	
 	react_shizo_warriors_of_great_past = {
 		modifier = {
-		political_power_gain = -0.1
-		war_support_weekly = 0.005
-		stability_weekly = -0.003
-		weekly_manpower = 100
-		experience_gain_army_factor = 0.10
+			political_power_gain = -0.1
+			war_support_weekly = 0.005
+			stability_weekly = -0.003
+			weekly_manpower = 100
+			experience_gain_army_factor = 0.10
 		}
 		
 		cost = 100
