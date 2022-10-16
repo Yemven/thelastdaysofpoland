@@ -30,7 +30,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 13
+		x = 20
 		y = 0
 		
 		cost = 0.4
@@ -56,7 +56,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = -6
 		y = 1
 		
 		cost = 1
@@ -334,6 +334,8 @@ focus_tree = {
 	focus = {
 		id = WML_the_beginning_of_the_dialogue
 		icon = WML_the_beginning_of_the_dialogue
+		relative_position_id = WML_new_morning_in_old_lodz
+		prerequisite = { focus = WML_new_morning_in_old_lodz }		
 		available = {
 		
 		}
@@ -341,8 +343,8 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 13
-		y = 8
+		x = 6
+		y = 1
 		
 		cost = 1
 		search_filters = {}
@@ -2251,7 +2253,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 40
+		x = 45
 		y = 0
 		
 		cost = 0.4
