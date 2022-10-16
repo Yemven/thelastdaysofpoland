@@ -33,10 +33,6 @@ equipments = {
 		lend_lease_cost = 4
 		
 		build_cost_ic = 7.0
-		resources = {
-			coal = 1
-			steel = 2
-		}
 	}
 
 	light_artillery_equipment_0 = {
@@ -45,6 +41,10 @@ equipments = {
 		archetype = light_artillery_equipment
 		priority = 50
 		visual_level = 0
+		
+		resources = {
+			junk = 1
+		}
 	}
 	
 	light_artillery_equipment_1 = {
@@ -68,6 +68,10 @@ equipments = {
 		air_attack = 0
 		
 		build_cost_ic = 8.65
+		
+		resources = {
+			junk = 2
+		}		
 	}
 	
 	light_artillery_equipment_2 = {
@@ -91,6 +95,11 @@ equipments = {
 		air_attack = 0
 		
 		build_cost_ic = 9.45
+		
+		resources = {
+			junk = 1
+			steel = 2
+		}	
 	}
 	
 	light_artillery_equipment_3 = {
@@ -117,7 +126,6 @@ equipments = {
 		
 		build_cost_ic = 10.0
 		resources = {
-			coal = 1
 			steel = 3
 		}
 	}
@@ -145,8 +153,8 @@ equipments = {
 		
 		build_cost_ic = 11.0
 		resources = {
-			coal = 1
-			steel = 3
+			aluminium = 1
+			steel = 2
 		}
 	}
 	light_artillery_equipment_5 = {
@@ -173,8 +181,9 @@ equipments = {
 		
 		build_cost_ic = 12.0
 		resources = {
-			coal = 2
-			steel = 3
+			aluminium = 3
+			electronics = 2
+			synthetic_materials = 2
 		}
 	}
 	heavy_artillery_equipment = {
@@ -210,10 +219,6 @@ equipments = {
 		lend_lease_cost = 5
 		
 		build_cost_ic = 10.0
-		resources = {
-			coal = 2
-			steel = 2
-		}
 	}
 	
 	heavy_artillery_equipment_1 = {
@@ -222,6 +227,11 @@ equipments = {
 		archetype = heavy_artillery_equipment
 		priority = 60
 		visual_level = 0
+		
+		resources = {
+			junk = 1
+			steel = 1
+		}		
 	}
 	
 	heavy_artillery_equipment_2 = {
@@ -247,8 +257,8 @@ equipments = {
 		
 		build_cost_ic = 11.25
 		resources = {
-			coal = 2
-			steel = 3
+			junk = 2
+			steel = 2
 		}
 	}
 	heavy_artillery_equipment_3 = {
@@ -274,8 +284,8 @@ equipments = {
 		
 		build_cost_ic = 12.35
 		resources = {
-			coal = 2
-			steel = 3
+			aluminium = 1
+			steel = 2
 		}
 	}
 	heavy_artillery_equipment_4 = {
@@ -301,8 +311,8 @@ equipments = {
 		
 		build_cost_ic = 13.5
 		resources = {
-			coal = 3
-			steel = 3
+			aluminium = 2
+			steel = 2
 		}
 	}
 	heavy_artillery_equipment_5 = {
@@ -328,8 +338,9 @@ equipments = {
 		
 		build_cost_ic = 15.0
 		resources = {
-			coal = 3
-			steel = 3
+			aluminium = 3
+			electronics = 1
+			synthetic_materials = 1
 		}
 	}
 	# Nebelwerfers!
@@ -363,10 +374,6 @@ equipments = {
 		air_attack = 0
 		
 		build_cost_ic = 9
-		resources = {
-			coal = 2
-			steel = 1
-		}
 	}
 	
 	rocket_artillery_equipment_1 = {
@@ -375,6 +382,10 @@ equipments = {
 		archetype = rocket_artillery_equipment
 		priority = 60
 		visual_level = 0
+		
+		resources = {
+			junk = 2
+		}
 	}
 	
 	rocket_artillery_equipment_2 = {
@@ -393,8 +404,7 @@ equipments = {
 		build_cost_ic = 10.8
 		
 		resources = {
-			coal = 2
-			steel = 1
+			junk = 3
 		}
 	}
 	
@@ -415,8 +425,9 @@ equipments = {
 		
 		build_cost_ic = 11.7
 		resources = {
-			coal = 2
+			junk = 2
 			steel = 2
+			synthetic_materials = 1
 		}
 	}
 	
@@ -436,8 +447,9 @@ equipments = {
 		
 		build_cost_ic = 12.6
 		resources = {
-			coal = 2
-			steel = 2
+			aluminium = 3
+			steel = 3
+			synthetic_materials = 2
 		}
 	}
 	
@@ -457,8 +469,9 @@ equipments = {
 		
 		build_cost_ic = 13.5
 		resources = {
-			coal = 3
-			steel = 2
+			aluminium = 4
+			electronics = 2
+			synthetic_materials = 2
 		}
 	}
 	

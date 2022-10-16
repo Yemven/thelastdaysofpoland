@@ -2062,8 +2062,6 @@ capital_district_voivodeship_unification = {
 			}
 			custom_effect_tooltip = ZIE_unifies_capital_district_tooltip
 		}
-
-	}
 	
 	
 		else_if = {
@@ -2093,7 +2091,7 @@ capital_district_voivodeship_unification = {
 			}
 			custom_effect_tooltip = TRZ_unifies_capital_district_tooltip
 		}
-
+	}
 
 	ai_will_do = { factor = 1 }
 }
