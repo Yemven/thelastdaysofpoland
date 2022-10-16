@@ -392,4 +392,83 @@ KRS_shareholders_competition_category = {
 			}
 		}
 	}
+	
+	KRS_solidify_hold_on_consortium = {
+		allowed = {
+			original_tag = KRS
+		}
+		visible = {
+			check_variable = {
+				skrzydlewscy_shares > 0.5
+			}
+		}
+		cost = 150
+		days_remove = 7
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = skrzydlewscy_on_top
+			}
+		}
+		remove_effect = {
+			add_political_power = 100
+			hidden_effect = {
+				set_country_flag = end_of_shareholder_circus
+			}
+		}
+	}
+	
+	KRS_crackdown_on_necro_barons = {
+		allowed = {
+			original_tag = KRS
+		}
+		visible = {
+			check_variable = {
+				rutkowski_shares > 0.5
+			}
+		}
+		cost = 150
+		days_remove = 7
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = rutkowski_on_top
+			}
+		}
+		remove_effect = {
+			country_event = {
+				id = krosniewice.1001
+			}
+			hidden_effect = {
+				set_country_flag = end_of_shareholder_circus
+			}
+		}
+	}
+	
+	KRS_takeover_the_consortium = {
+		allowed = {
+			original_tag = KRS
+		}
+		visible = {
+			check_variable = {
+				skinhunters_shares > 0.5
+			}
+		}
+		cost = 150
+		days_remove = 7
+		fire_only_once = yes
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = skinhunters_on_top
+			}
+		}
+		remove_effect = {
+			country_event = {
+				id = krosniewice.1002
+			}
+			hidden_effect = {
+				set_country_flag = end_of_shareholder_circus
+			}
+		}
+	}
 }
