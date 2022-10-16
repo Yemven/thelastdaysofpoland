@@ -1,6 +1,6 @@
 ZHP_INF_BOJ_01 = 
 {
-	name = "Szkoły Bojowe"
+	name = "Bojowe Szkoły"
 
 	for_countries = { ZHP }
 
@@ -10,7 +10,7 @@ ZHP_INF_BOJ_01 =
 
 	# Number reservation system will tie to another group.
 
-	fallback_name = "% Drużyna Harcerska."
+	fallback_name = "% Próbna Drużyna Harcerska"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -124,11 +124,61 @@ ZHP_INF_BOJ_01 =
 		106 = { "7 Drużyna Harcerska 'Wilamowskie Orły'"}
                 107 = { "4 Artystyczna Środowiskowa Drużyna Wielopoziomowa 'Alkiwoty'"}
 		108 = { "8 Drużyna Harcerska im. Mikołaja Kopernika"}
-                109 = { ""}
-		110 = { ""}
-                111 = { ""}
-		112 = { ""}
-                113 = { ""}
+                109 = { "72 Drużyna Harcerska 'Horyzont'"}
+		110 = { "22 Drużyna Harcerska 'Paradoks'"}
 	}
 }
+ZHP_INF_SZT_01 = 
+{
+	name = "Grupy Szturmowe"
 
+	for_countries = { ZHP }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+
+	fallback_name = "% Próbna Drużyna Starszoharcerska"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+
+
+ZHP_INF_WED_01 = 
+{
+	name = "Wędrownicy"
+
+	for_countries = { ZHP }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+
+	fallback_name = "% Próbna Drużyna Wędrownicza"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+
+ZHP_INF_SZA_01 = 
+{
+	name = "Batalion Szarych Szeregów"
+
+	for_countries = { ZHP }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+
+	fallback_name = "% Batalion Szarych Szeregów"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
