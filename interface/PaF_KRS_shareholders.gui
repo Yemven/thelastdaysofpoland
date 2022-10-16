@@ -21,7 +21,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="skrzydlewscy_name_text"
 			position = { x = @FACTION_NAMES_X y = 85 }
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			text = "KRS_skrzydlewscy_name_text"
 			format = left
 			maxHeight = 24
@@ -30,7 +30,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="rutkowski_name_text"
 			position = { x = @FACTION_NAMES_X y = 105 }
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			text = "KRS_rutkowski_name_text"
 			format = left
 			maxHeight = 24
@@ -39,7 +39,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="pogotowie_name_text"
 			position = { x = @FACTION_NAMES_X y = 125 }
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			text = "KRS_pogotowie_name_text"
 			format = left
 			maxHeight = 24

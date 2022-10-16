@@ -158,9 +158,12 @@ KRS_shareholders_competition_category = {
 	allowed = {
         tag = KRS
     }
-	
+	priority = 100
 	visible = {
 		has_completed_focus = KRS_and_begin_the_meeting
+		NOT = {
+			has_country_flag = end_of_shareholder_circus
+		}
 	}
 	
 	
