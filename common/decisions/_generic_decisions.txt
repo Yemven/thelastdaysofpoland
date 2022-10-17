@@ -1522,6 +1522,7 @@ generic_decisions_react_shizo_category = {
 		remove_effect = {
 			random_list = {
 				15 = {
+					random_owned_state = {
 						add_extra_state_shared_building_slots = 1
 						add_building_construction = {
 							type = industrial_complex
