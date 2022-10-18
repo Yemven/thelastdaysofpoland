@@ -226,7 +226,7 @@ WML_dialogue_decisions = {
 		}
 		days_re_enable = 35
 		days_remove = 10
-		visible = { has_completed_focus = WML_spartan_standards }
+		visible = { has_completed_focus = WML_state_positions_for_the_power_plant_staff }
 		cost = 60
 		remove_effect = { 
 			add_to_variable = {dialogue_BBW = 20}
@@ -240,7 +240,7 @@ WML_dialogue_decisions = {
 		}
 		days_re_enable = 35
 		days_remove = 10
-		visible = { has_completed_focus = WML_state_positions_for_the_power_plant_staff }
+		visible = { has_completed_focus = WML_spartan_standards }
 		cost = 60
 		remove_effect = { 
 			add_to_variable = {dialogue_ZHP = 20}
