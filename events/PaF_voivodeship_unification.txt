@@ -1472,6 +1472,7 @@ news_event = {
 	id = unification.91
 	title = unification.91.t
 	desc = unification.91.desc
+	picture = GFX_news_event_unification91
 
 	major = yes
 	fire_only_once = yes
@@ -1487,6 +1488,7 @@ news_event = {
 	id = unification.92
 	title = unification.92.t
 	desc = unification.92.desc
+	picture = GFX_news_event_unification92
 
 	major = yes
 	fire_only_once = yes
@@ -1502,6 +1504,7 @@ news_event = {
 	id = unification.93
 	title = unification.93.t
 	desc = unification.93.desc
+	picture = GFX_news_event_unification93
 
 	major = yes
 	fire_only_once = yes
@@ -1517,6 +1520,7 @@ news_event = {
 	id = unification.94
 	title = unification.94.t
 	desc = unification.94.desc
+	picture = GFX_news_event_unification94
 
 	major = yes
 	fire_only_once = yes
@@ -1532,6 +1536,7 @@ news_event = {
 	id = unification.95
 	title = unification.95.t
 	desc = unification.95.desc
+	picture = GFX_news_event_unification95
 
 	major = yes
 	fire_only_once = yes
@@ -1547,6 +1552,7 @@ news_event = {
 	id = unification.96
 	title = unification.96.t
 	desc = unification.96.desc
+	picture = GFX_news_event_unification96
 
 	major = yes
 	fire_only_once = yes
@@ -1562,6 +1568,7 @@ news_event = {
 	id = unification.97
 	title = unification.97.t
 	desc = unification.97.desc
+	picture = GFX_news_event_unification97
 
 	major = yes
 	fire_only_once = yes
@@ -1577,6 +1584,7 @@ news_event = {
 	id = unification.98
 	title = unification.98.t
 	desc = unification.98.desc
+	picture = GFX_news_event_unification98
 
 	major = yes
 	fire_only_once = yes
@@ -1592,6 +1600,7 @@ news_event = {
 	id = unification.99
 	title = unification.99.t
 	desc = unification.99.desc
+	picture = GFX_news_event_unification99
 
 	major = yes
 	fire_only_once = yes
@@ -1607,6 +1616,7 @@ news_event = {
 	id = unification.100
 	title = unification.100.t
 	desc = unification.100.desc
+	picture = GFX_news_event_unification100
 
 	major = yes
 	fire_only_once = yes
@@ -1623,6 +1633,7 @@ news_event = {
 	id = unification.101
 	title = unification.101.t
 	desc = unification.101.desc
+	picture = GFX_news_event_unification101
 
 	major = yes
 	fire_only_once = yes
@@ -1638,6 +1649,7 @@ news_event = {
 	id = unification.102
 	title = unification.102.t
 	desc = unification.102.desc
+	picture = GFX_news_event_unification102
 
 	major = yes
 	fire_only_once = yes
@@ -1653,6 +1665,7 @@ news_event = {
 	id = unification.103
 	title = unification.103.t
 	desc = unification.103.desc
+	picture = GFX_news_event_unification103
 
 	major = yes
 	fire_only_once = yes
@@ -1668,6 +1681,7 @@ news_event = {
 	id = unification.104
 	title = unification.104.t
 	desc = unification.104.desc
+	picture = GFX_news_event_unification104
 
 	major = yes
 	fire_only_once = yes
@@ -1683,6 +1697,7 @@ news_event = {
 	id = unification.105
 	title = unification.105.t
 	desc = unification.105.desc
+	picture = GFX_news_event_unification105
 
 	major = yes
 	fire_only_once = yes
@@ -1698,10 +1713,15 @@ news_event = {
 	id = unification.106
 	title = unification.106.t
 	desc = unification.106.desc
+	picture = GFX_news_event_unification106
 
 	major = yes
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = {
+		sound_effect = "polsat1"
+	}
 
 	option = {
 		name = unification.106.a
@@ -1713,6 +1733,7 @@ news_event = {
 	id = unification.107
 	title = unification.107.t
 	desc = unification.107.desc
+	picture = GFX_news_event_unification107
 
 	major = yes
 	fire_only_once = yes
@@ -1729,6 +1750,7 @@ news_event = {
 	id = unification.108
 	title = unification.108.t
 	desc = unification.108.desc
+	picture = GFX_news_event_unification108
 
 	major = yes
 	fire_only_once = yes
@@ -1744,6 +1766,7 @@ news_event = {
 	id = unification.109
 	title = unification.109.t
 	desc = unification.109.desc
+	picture = GFX_news_event_unification109
 
 	major = yes
 	fire_only_once = yes
@@ -1759,6 +1782,7 @@ news_event = {
 	id = unification.110
 	title = unification.110.t
 	desc = unification.110.desc
+	picture = GFX_news_event_unification110
 
 	major = yes
 	fire_only_once = yes
@@ -1774,6 +1798,7 @@ news_event = {
 	id = unification.111
 	title = unification.111.t
 	desc = unification.111.desc
+	picture = GFX_news_event_unification111
 
 	major = yes
 	fire_only_once = yes
@@ -1790,6 +1815,7 @@ news_event = {
 	id = unification.112
 	title = unification.112.t
 	desc = unification.112.desc
+	picture = GFX_news_event_unification112
 
 	major = yes
 	fire_only_once = yes
@@ -1805,6 +1831,7 @@ news_event = {
 	id = unification.113
 	title = unification.113.t
 	desc = unification.113.desc
+	picture = GFX_news_event_unification113
 
 	major = yes
 	fire_only_once = yes
@@ -1820,6 +1847,7 @@ news_event = {
 	id = unification.114
 	title = unification.114.t
 	desc = unification.114.desc
+	picture = GFX_news_event_unification114
 
 	major = yes
 	fire_only_once = yes
@@ -1835,6 +1863,7 @@ news_event = {
 	id = unification.115
 	title = unification.115.t
 	desc = unification.115.desc
+	picture = GFX_news_event_unification115
 
 	major = yes
 	fire_only_once = yes
@@ -1850,6 +1879,7 @@ news_event = {
 	id = unification.116
 	title = unification.116.t
 	desc = unification.116.desc
+	picture = GFX_news_event_unification116
 
 	major = yes
 	fire_only_once = yes
@@ -1866,6 +1896,7 @@ news_event = {
 	id = unification.117
 	title = unification.117.t
 	desc = unification.117.desc
+	picture = GFX_news_event_unification117
 
 	major = yes
 	fire_only_once = yes
@@ -1881,6 +1912,7 @@ news_event = {
 	id = unification.118
 	title = unification.118.t
 	desc = unification.118.desc
+	picture = GFX_news_event_unification118
 
 	major = yes
 	fire_only_once = yes
@@ -1896,6 +1928,7 @@ news_event = {
 	id = unification.119
 	title = unification.119.t
 	desc = unification.119.desc
+	picture = GFX_news_event_unification119
 
 	major = yes
 	fire_only_once = yes
@@ -1911,6 +1944,7 @@ news_event = {
 	id = unification.120
 	title = unification.120.t
 	desc = unification.120.desc
+	picture = GFX_news_event_unification120
 
 	major = yes
 	fire_only_once = yes
@@ -1926,6 +1960,7 @@ news_event = {
 	id = unification.121
 	title = unification.121.t
 	desc = unification.121.desc
+	picture = GFX_news_event_unification121
 
 	major = yes
 	fire_only_once = yes
@@ -1941,6 +1976,7 @@ news_event = {
 	id = unification.122
 	title = unification.122.t
 	desc = unification.122.desc
+	picture = GFX_news_event_unification122
 
 	major = yes
 	fire_only_once = yes
@@ -1956,6 +1992,7 @@ news_event = {
 	id = unification.123
 	title = unification.123.t
 	desc = unification.123.desc
+	picture = GFX_news_event_unification123
 
 	major = yes
 	fire_only_once = yes
@@ -1971,6 +2008,7 @@ news_event = {
 	id = unification.124
 	title = unification.124.t
 	desc = unification.124.desc
+	picture = GFX_news_event_unification124
 
 	major = yes
 	fire_only_once = yes
@@ -1986,6 +2024,7 @@ news_event = {
 	id = unification.125
 	title = unification.125.t
 	desc = unification.125.desc
+	picture = GFX_news_event_unification125
 
 	major = yes
 	fire_only_once = yes
@@ -2001,6 +2040,7 @@ news_event = {
 	id = unification.126
 	title = unification.126.t
 	desc = unification.126.desc
+	picture = GFX_news_event_unification126
 
 	major = yes
 	fire_only_once = yes
