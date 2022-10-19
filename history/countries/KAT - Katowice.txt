@@ -20,33 +20,14 @@ set_technology = {
 		fighter_0 = 1
 		china_drone = 1
 		drone_0 = 1
-}
 
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = { 
 		nsb_bicycle = 1
 		nsb_truck_1 = 1
 		nsb_sidecar = 1
 		nsb_mbt_0 = 1
 }
-}
 
-if = {
-	limit = {
-		NOT = {
-		has_dlc = "No Step Back"
-		}
-	}
-	set_technology = { 
-		bicycle = 1
-		truck_1 = 1
-		sidecar = 1
-		mbt_0 = 1
-	}
-}
+
 
 set_convoys = 20
 oob = "KAT_2027"

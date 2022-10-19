@@ -426,7 +426,7 @@ default_mobile_production = {
 		ai_wants_divisions > 11
 		OR = {
 			has_tech = nsb_truck_1
-			has_tech = truck_1
+			has_tech = nsb_truck_1
 		}
 	}
 	abort = {

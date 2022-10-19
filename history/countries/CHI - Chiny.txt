@@ -94,13 +94,7 @@ set_technology = {
 	anti_air_upgrade2 = 1
 	anti_air_upgrade3 = 1
 	
-}
 
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = { 
 	nsb_truck_1 = 1
 	nsb_truck_2 = 1 
 	nsb_truck_3 = 1
@@ -127,40 +121,8 @@ if = {
 	nsb_ifv_3 = 1
 	nsb_ifv_4 = 1
 }
-}
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_technology = { 
-	truck_1 = 1
-	truck_2 = 1 
-	truck_3 = 1
-	truck_4 = 1
-	truck_5 = 1
-	bicycle = 1	
-	mbt_0 = 1
-	mbt_1 = 1
-	mbt_2 = 1
-	mbt_3 = 1
-	mbt_4 = 1
-	armored_car_1 = 1
-	armored_car_2 = 1
-	armored_car_3 = 1
-	armored_car_4 = 1
-	apc_1 = 1
-	apc_2 = 1
-	apc_3 = 1
-	apc_4 = 1
-	ifv_1 = 1
-	ifv_2 = 1
-	ifv_3 = 1
-	ifv_4 = 1
-}
-}
+
 
 set_convoys = 20
 

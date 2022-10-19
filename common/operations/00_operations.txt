@@ -2441,32 +2441,6 @@ operation_steal_tech_army = { ### 16 3/55
 	outcome_modifiers = { operation_steal_tech_outcome operation_outcome }
 	cost_modifiers = { operation_cost }
 	outcome_execute = {
-		if = {
-			limit = {
-				NOT = {
-					has_dlc = "No Step Back"
-				}
-			}
-			ROOT = {
-				steal_random_tech_bonus = {
-					folder = armour_folder
-					folder = artillery_folder
-					folder = infantry_folder
-					folder = support_folder
-					bonus = 3.0
-					dynamic = yes
-					instant = yes
-					name = operation_steal_tech_army
-					target = FROM
-					uses = 1
-				}
-				remove_operation_token = {
-					tag = FROM
-					token = token_army
-				}
-			}
-		}
-		else = {
 			ROOT = {
 				steal_random_tech_bonus = {
 					folder = nsb_armour_folder
@@ -2484,36 +2458,11 @@ operation_steal_tech_army = { ### 16 3/55
 					tag = FROM
 					token = token_army
 				}
-			}
 		}
 	}
 	outcome_extra_execute = { # SCOPE_OPERATION
 		random_list = {
 			33 = {
-				if = {
-					limit = {
-						NOT = {
-							has_dlc = "No Step Back"
-						}
-					}
-					ROOT = {
-						steal_random_tech_bonus = {
-							folder = armour_folder
-							folder = artillery_folder
-							folder = infantry_folder
-							folder = support_folder
-
-							bonus = 3.0
-							ahead_reduction = 2
-							dynamic = yes
-							instant = yes
-							name = operation_steal_tech_army
-							target = FROM
-							uses = 1
-						}
-					}
-				}
-				else = {
 					ROOT = {
 						steal_random_tech_bonus = {
 							folder = nsb_armour_folder
@@ -2529,32 +2478,9 @@ operation_steal_tech_army = { ### 16 3/55
 							target = FROM
 							uses = 1
 						}
-					}
 				}
 			}
 			67 = {
-				if = {
-					limit = {
-						NOT = { has_dlc = "No Step Back" }
-					}
-					ROOT = {
-						steal_random_tech_bonus = {
-							folder = armour_folder
-							folder = artillery_folder
-							folder = infantry_folder
-							folder = support_folder
-	
-							bonus = 3.0
-							dynamic = yes
-							instant = yes
-							ahead_reduction = 1
-							name = operation_steal_tech_army
-							target = FROM
-							uses = 1
-						}
-					}
-				}
-				else = {
 					ROOT = {
 						steal_random_tech_bonus = {
 							folder = nsb_armour_folder
@@ -2570,31 +2496,12 @@ operation_steal_tech_army = { ### 16 3/55
 							target = FROM
 							uses = 1
 						}
-					}
 				}
 			}
 		}
 	}
 
 	outcome_potential = {
-		if = {
-			limit = { NOT = { has_dlc = "No Step Back" } }
-			ROOT = {
-				steal_random_tech_bonus = {
-					folder = armour_folder
-					folder = artillery_folder
-					folder = infantry_folder
-					folder = support_folder
-					bonus = 3.0
-					dynamic = yes
-					instant = yes
-					name = operation_steal_tech_army
-					target = FROM
-					uses = 1
-				}
-			}
-		}
-		else = {
 			ROOT = {
 				steal_random_tech_bonus = {
 					folder = nsb_armour_folder
@@ -2608,8 +2515,6 @@ operation_steal_tech_army = { ### 16 3/55
 					target = FROM
 					uses = 1
 				}
-			}
-
 		}
 		custom_effect_tooltip = operation_outcome_consumes_token_tt
 	}

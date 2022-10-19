@@ -17,7 +17,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = artillery_coordination
+			leads_to_tech = artillery_coordination1
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1155,34 +1155,6 @@ technologies = {
 		}
 	}
 	
-	artillery_coordination = {
-	
-		research_cost = 2
-		start_year = 2027
-		
-		path = {
-			leads_to_tech = artillery_coordination1
-			research_cost_coeff = 1
-		}
-		
-		folder = {
-		name = artillery_folder
-		position = { x = 9 y = 2}
-		}
-	
-		category_line_artillery = {
-			breakthrough = 0.05
-			max_organisation = 2
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-		factor = 5
-		}
-	}
 	
 	artillery_coordination1 = {
 	
@@ -1196,7 +1168,7 @@ technologies = {
 		
 		folder = {
 		name = artillery_folder
-		position = { x = 9 y = 6}
+		position = { x = 9 y = 4}
 		}
 	
 		category_line_artillery = {
