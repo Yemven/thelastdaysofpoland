@@ -6,14 +6,18 @@ state={
 	history={
 		owner = GDA
 		victory_points = {
-			11335 5 
+			11335 10
 		}
 		victory_points = {
-			7430 2 
+			11336 10 
 		}
 		victory_points = {
-			11336 2 
+			5658 5 
 		}
+		victory_points = {
+			4935 3
+		}
+
 		add_core_of = GDA
 		buildings = {
 			infrastructure = 7
@@ -24,9 +28,9 @@ state={
 	}
 
 	provinces={
-		5658 11335 11336 5233
+		4935 5658 11335 11336 11339 
 	}
-	manpower=90316
+	manpower=80316
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000
