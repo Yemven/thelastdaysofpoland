@@ -16,10 +16,10 @@
 # No cav if we have motor inf
 no_cavalry = {
 	enable = {
-		#OR = {
-			#has_tech = nsb_truck_1
+		OR = {
+			has_tech = nsb_truck_1
 			has_tech = truck_1
-		#}
+		}
 		not = {
 			OR = {
 				original_tag = KOZ

@@ -1,21 +1,19 @@
 technologies = {
 	
-	bicycle = {
+	nsb_bicycle = {
 		enable_equipments = {
 			bicycle_equipment_1
 		}
 		enable_subunits = {
 			bicycle_battalion
 		}
-		#allow_branch = {
-			#NOT = {
-				#has_dlc = "No Step Back"
-			#}
-		#}
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
 		research_cost = 2
 		start_year = 2020
 		path = {
-			leads_to_tech = truck_1
+			leads_to_tech = nsb_truck_1
 			research_cost_coeff = 1
 		}
 		#path = {
@@ -23,11 +21,11 @@ technologies = {
 		#	research_cost_coeff = 1
 		#}
 		path = {
-			leads_to_tech = sidecar
+			leads_to_tech = nsb_sidecar
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = mbt_0
+			leads_to_tech = nsb_mbt_0
 			research_cost_coeff = 1
 		}
 		folder = {
@@ -71,15 +69,15 @@ technologies = {
 	#	}
 	#}
 	
-	sidecar = {
+	nsb_sidecar = {
 		research_cost = 3
 		start_year = 2027
 		path = {
-			leads_to_tech = apc_1
+			leads_to_tech = nsb_apc_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = ifv_1
+			leads_to_tech = nsb_ifv_1
 			research_cost_coeff = 1
 		}
 		enable_subunits = {
@@ -89,7 +87,7 @@ technologies = {
 			sidecar_equipment
 		}
 		sub_technologies = {
-			enduro_tech
+			nsb_enduro_tech
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -103,7 +101,7 @@ technologies = {
 		}
 	}
 	
-	enduro_tech = {
+	nsb_enduro_tech = {
 		
 		enable_equipments = {
 			enduro_equipment
@@ -121,11 +119,11 @@ technologies = {
 		}
 	}
 	
-	mbt_0 = {
+	nsb_mbt_0 = {
 		research_cost = 3
 		start_year = 2027
 		path = {
-			leads_to_tech = mbt_1
+			leads_to_tech = nsb_mbt_1
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -146,11 +144,11 @@ technologies = {
 		}
 	}
 	
-	mbt_1 = {
+	nsb_mbt_1 = {
 		research_cost = 3
 		start_year = 2030
 		path = {
-			leads_to_tech = mbt_2
+			leads_to_tech = nsb_mbt_2
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -168,11 +166,11 @@ technologies = {
 		}
 	}
 	
-	mbt_2 = {
+	nsb_mbt_2 = {
 		research_cost = 3
 		start_year = 2033
 		path = {
-			leads_to_tech = mbt_3
+			leads_to_tech = nsb_mbt_3
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -190,11 +188,11 @@ technologies = {
 		}
 	}
 	
-	mbt_3 = {
+	nsb_mbt_3 = {
 		research_cost = 3
 		start_year = 2036
 		path = {
-			leads_to_tech = mbt_4
+			leads_to_tech = nsb_mbt_4
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -212,7 +210,7 @@ technologies = {
 		}
 	}
 	
-	mbt_4 = {
+	nsb_mbt_4 = {
 		research_cost = 3
 		start_year = 2040
 		folder = {
@@ -230,11 +228,11 @@ technologies = {
 		}
 	}
 	
-	armored_car_1 = {
+	nsb_armored_car_1 = {
 		research_cost = 3
 		start_year = 2030
 		path = {
-			leads_to_tech = armored_car_2
+			leads_to_tech = nsb_armored_car_2
 			research_cost_coeff = 1
 		}
 		enable_subunits = {
@@ -279,11 +277,11 @@ technologies = {
 	}
 	
 	
-	armored_car_2 = {
+	nsb_armored_car_2 = {
 		research_cost = 3
 		start_year = 2033
 		path = {
-			leads_to_tech = armored_car_3
+			leads_to_tech = nsb_armored_car_3
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -324,11 +322,11 @@ technologies = {
 		}
 	}
 	
-	armored_car_3 = {
+	nsb_armored_car_3 = {
 		research_cost = 3
 		start_year = 2036
 		path = {
-			leads_to_tech = armored_car_4
+			leads_to_tech = nsb_armored_car_4
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -369,7 +367,7 @@ technologies = {
 		}
 	}
 	
-	armored_car_4 = {
+	nsb_armored_car_4 = {
 		research_cost = 3
 		start_year = 2040
 		folder = {
@@ -410,15 +408,15 @@ technologies = {
 		}
 	}
 	
-	truck_1 = {
+	nsb_truck_1 = {
 		research_cost = 2
 		start_year = 2027
 		path = {
-			leads_to_tech = armored_car_1
+			leads_to_tech = nsb_armored_car_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = truck_2
+			leads_to_tech = nsb_truck_2
 			research_cost_coeff = 1
 		}
 		enable_subunits = {
@@ -464,11 +462,11 @@ technologies = {
 		}
 	}
 	
-	truck_2 = {
+	nsb_truck_2 = {
 		research_cost = 3
 		start_year = 2030
 		path = {
-			leads_to_tech = truck_3
+			leads_to_tech = nsb_truck_3
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -509,11 +507,11 @@ technologies = {
 		}
 	}
 	
-	truck_3 = {
+	nsb_truck_3 = {
 		research_cost = 3
 		start_year = 2033
 		path = {
-			leads_to_tech = truck_4
+			leads_to_tech = nsb_truck_4
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -554,7 +552,7 @@ technologies = {
 		}
 	}
 	
-	truck_4 = {
+	nsb_truck_4 = {
 		research_cost = 3
 		start_year = 2036
 		folder = {
@@ -562,7 +560,7 @@ technologies = {
 			position = { x = -4 y = 14}
 		}
 		path = {
-			leads_to_tech = truck_5
+			leads_to_tech = nsb_truck_5
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -599,7 +597,7 @@ technologies = {
 		}
 	}
 	
-	truck_5 = {
+	nsb_truck_5 = {
 		research_cost = 3
 		start_year = 2040
 		folder = {
@@ -640,11 +638,11 @@ technologies = {
 		}
 	}
 	
-	apc_1 = {
+	nsb_apc_1 = {
 		research_cost = 3
 		start_year = 2030
 		path = {
-			leads_to_tech = apc_2
+			leads_to_tech = nsb_apc_2
 			research_cost_coeff = 1
 		}
 		enable_subunits = {
@@ -690,11 +688,11 @@ technologies = {
 		}
 	}
 	
-	apc_2 = {
+	nsb_apc_2 = {
 		research_cost = 3
 		start_year = 2033
 		path = {
-			leads_to_tech = apc_3
+			leads_to_tech = nsb_apc_3
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -735,11 +733,11 @@ technologies = {
 		}
 	}
 	
-	apc_3 = {
+	nsb_apc_3 = {
 		research_cost = 3
 		start_year = 2036
 		path = {
-			leads_to_tech = apc_4
+			leads_to_tech = nsb_apc_4
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -778,7 +776,7 @@ technologies = {
 		}
 	}
 	
-	apc_4 = {
+	nsb_apc_4 = {
 		research_cost = 3
 		start_year = 2040
 		folder = {
@@ -817,11 +815,11 @@ technologies = {
 		}
 	}
 	
-	ifv_1 = {
+	nsb_ifv_1 = {
 		research_cost = 3
 		start_year = 2030
 		path = {
-			leads_to_tech = ifv_2
+			leads_to_tech = nsb_ifv_2
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -843,11 +841,11 @@ technologies = {
 		}
 	}
 	
-	ifv_2 = {
+	nsb_ifv_2 = {
 		research_cost = 3
 		start_year = 2033
 		path = {
-			leads_to_tech = ifv_3
+			leads_to_tech = nsb_ifv_3
 			research_cost_coeff = 1
 		}
 		folder = {
@@ -865,11 +863,11 @@ technologies = {
 		}
 	}
 	
-	ifv_3 = {
+	nsb_ifv_3 = {
 		research_cost = 3
 		start_year = 2036
 		path = {
-			leads_to_tech = ifv_4
+			leads_to_tech = nsb_ifv_4
 			research_cost_coeff = 1
 		}
 		folder = {
@@ -887,7 +885,7 @@ technologies = {
 		}
 	}
 	
-	ifv_4 = {
+	nsb_ifv_4 = {
 		research_cost = 3
 		start_year = 2040
 		folder = {

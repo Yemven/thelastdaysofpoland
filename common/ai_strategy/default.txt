@@ -424,10 +424,10 @@ default_marines_production = {
 default_mobile_production = {
 	enable = {
 		ai_wants_divisions > 11
-		#OR = {
-			#has_tech = nsb_truck_1
+		OR = {
+			has_tech = nsb_truck_1
 			has_tech = truck_1
-		#}
+		}
 	}
 	abort = {
 		ai_wants_divisions < 12

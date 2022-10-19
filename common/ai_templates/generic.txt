@@ -10,10 +10,10 @@ armor_generic = {
 
 		modifier = {
 			factor = 7
-			#OR = {
+			OR = {
 				has_tech = mbt_0
-				#has_tech = nsb_mbt_0
-			#}
+				has_tech = nsb_mbt_0
+			}
 		}
 		
 	}
@@ -221,10 +221,10 @@ armor_generic = {
 
 			modifier = {
 				factor = 4
-				#OR = {
-					#has_tech = nsb_mbt_0
+				OR = {
+					has_tech = nsb_mbt_0
 					has_tech = mbt_0
-				#}
+				}
 			}
 		}
 		
@@ -316,10 +316,10 @@ armor_generic = {
 
 			modifier = {
 				factor = 4
-				#or = {
+				or = {
 					has_tech = armored_car_1
-					#has_tech = nsb_armored_car_1
-				#}
+					has_tech = nsb_armored_car_1
+				}
 			}
 		}
 		
