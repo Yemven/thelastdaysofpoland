@@ -84,16 +84,16 @@ ZHP_INF_BOJ_01 =
 		66 = { "10 Grunwaldzka Drużyna Harcerska 'Per Pedes'" }
 		67 = { "14 Grunwaldzka Drużyna Harcerska 'Płomienie'" }
 		68 = { "46 Drużyna Harcerska 'Egida'" }
-                69 = { "8 Drużyna Harcerska z Łasku"}
-		70 = { "10 Widawska Drużyna Harcerska" }
-		71 = { "64 Widawska Drużyna Harcerska"}
-                72 = { "4 Drużyna Harcerska z Wielunia"}
-		73 = { "11 Drużyna Harcerska z Łasku" }
-		74 = { "6 Widawska Drużyna Harcerska" }
-		75 = { "12 Widawska Drużyna Harcerska"}
-                76 = { "20 Widawska Drużyna Harcerska"}
-		77 = { "7 Wieluńska Drużyna Harcerska"}
-                78 = { "39 Wieluńska Drużyna Harcerska"}
+                69 = { "8 Drużyna Harcerska 'Zielony Płomień'"}
+		70 = { "5 Drużyna Harcerek 'Szarotka'" }
+		71 = { "64 Wielopoziomowa Drużyna Harcerska 'Carpe Diem'"}
+                72 = { "5 Wielopoziomowa Drużyna Harcerzy "GROM"}
+		73 = { "11 Drużyna Harcerska 'Iskra'" }
+		74 = { "15 Drużyna Harcerska 'Opór'" }
+		75 = { "21 Wielopoziomowa Drużyna Harcerska 'Leśni Skauci'"}
+                76 = { "20 Wielopoziomowa Drużyna Harcerska 'Biała'"}
+		77 = { "7 Wielopoziomowa Drużyna Harcerska 'Tropiciele'}
+                78 = { "64 Wielopoziomowa Drużyna Harcerska 'Carpe Diem'"}
 		79 = { "111. Łowicka Drużyna Harcerska 'Wilkor'"}
                 80 = { "9. Łowicka Drużyna Wielopoziomowa 'Białe Orły'"}
 		81 = { "6 Bielowsicka Drużyna Harcerska 'Żywioły'"}
@@ -126,6 +126,14 @@ ZHP_INF_BOJ_01 =
 		108 = { "8 Drużyna Harcerska im. Mikołaja Kopernika"}
                 109 = { "72 Drużyna Harcerska 'Horyzont'"}
 		110 = { "22 Drużyna Harcerska 'Paradoks'"}
+		111 = { "4 Wielopoziomowa Drużyna Koedukacyjna 'Iskra'"}
+		112 = { "1 Wielopoziomowa Koedukacyjna Drużyna Harcerska 'Herman’"}
+		113 = { "27 Drużyna Harcerska 'Łowcy'"}
+		114 = { "4 Wielopoziomowa Męska Drużyna Harcerska 'Wrzos’"}
+		115 = { "2 Drużyna Harcerska 'Sulima'"}
+		116 = { "Iwańska 65 Drużyna Harcerska 'Sit Luceat Lux'"}
+		117 = { "1 Wielopoziomowa Drużyna Harcerska Nieprzetartego Szlaku 'Słoneczny Krąg'"}
+		118 = { "17 Wielopoziomowa Drużyna Harcerska Nieprzetartego Szlaku 'Słoneczni'"}
 	}
 }
 ZHP_INF_SZT_01 = 
@@ -144,7 +152,18 @@ ZHP_INF_SZT_01 =
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = { }
+	ordered = { 
+		1 = { "1. Brzezińska Drużyna Harcerek Starszych 'Perły'"}
+		2 = { "11 Konstantynowska Drużyna Starszoharcerska 'Igni'"}
+		3 = { "42 Konstantynowska Drużyna Starszoharcerska 'Radium'"}
+		4 = { "Patrol Starszoharcerski 'Furia' przy 7 LDH 'Aurora'"}
+		5 = { "8 Drużyna Starszoharcerska 'Ignis'"}
+		6 = { "98 Drużyna Starszoharcerska 'Kosynierzy'"}
+		7 = { "126 Drużyna Starszoharcerska 'Dyeizjon 303'"}
+		8 = { "5 Drużyna Harcerek Starszych 'Kozy'}
+		9 = { "8 Drużyna Starszoharcerska 'Wśród Płomienia'"}
+		10 = { "9 Drużyna Starszoharcerska 'MIG'"}
+}
 }
 
 ZHP_INF_WED_01 = 
@@ -163,7 +182,20 @@ ZHP_INF_WED_01 =
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = { }
+	ordered = { 
+		1 = {"9. Brzezińska Drużyna Wędrownicza 'Pryzmat'")
+		2 = { "33 Konstantynowska Drużyna Wędrownicza 'Nemesis'"}
+		3 = { "I Kutnowska Drużyna Wędrownicza im. Tadeusza Rejtana"}
+		4 = { "9 Kutnowska Drużyna Wędrownicza 'Desperado'"}
+		5 = { "11 Drużyna Wędrownicza 'Dziki'"}
+		6 = { "4 Drużyna Wędrownicza 'Watra'"}
+		7 = {"5 Drużyna Wędrownicza 'Cichociemni'")
+		8 = { "8 Drużyna Wędrowicza 'Kuźnia Płomienia'"}
+		9 = { ""}
+		10 = { ""}
+		11 = { ""}
+		12 = { ""}
+}
 }
 
 ZHP_INF_SZA_01 = 
