@@ -87,12 +87,12 @@ ZHP_INF_BOJ_01 =
                 69 = { "8 Drużyna Harcerska 'Zielony Płomień'"}
 		70 = { "5 Drużyna Harcerek 'Szarotka'" }
 		71 = { "64 Wielopoziomowa Drużyna Harcerska 'Carpe Diem'"}
-                72 = { "5 Wielopoziomowa Drużyna Harcerzy "GROM"}
+                72 = { "5 Wielopoziomowa Drużyna Harcerzy "GROM""}
 		73 = { "11 Drużyna Harcerska 'Iskra'" }
 		74 = { "15 Drużyna Harcerska 'Opór'" }
 		75 = { "21 Wielopoziomowa Drużyna Harcerska 'Leśni Skauci'"}
                 76 = { "20 Wielopoziomowa Drużyna Harcerska 'Biała'"}
-		77 = { "7 Wielopoziomowa Drużyna Harcerska 'Tropiciele'}
+		77 = { "7 Wielopoziomowa Drużyna Harcerska 'Tropiciele'"}
                 78 = { "64 Wielopoziomowa Drużyna Harcerska 'Carpe Diem'"}
 		79 = { "111. Łowicka Drużyna Harcerska 'Wilkor'"}
                 80 = { "9. Łowicka Drużyna Wielopoziomowa 'Białe Orły'"}
@@ -122,7 +122,7 @@ ZHP_INF_BOJ_01 =
 		104 = { "4 Szadkowska Drużyna Harcerska 'W Stronę Słońca'"}
                 105 = { "6 Drużyna Harcerska 'Łęczycka Watra'"}
 		106 = { "7 Drużyna Harcerska 'Wilamowskie Orły'"}
-                107 = { "4 Artystyczna Środowiskowa Drużyna Wielopoziomowa 'Alkiwoty'"}
+                107 = { "4 Artystyczna Środowiskowa Drużyna Wielopoziomowa 'Alikwoty'"}
 		108 = { "8 Drużyna Harcerska im. Mikołaja Kopernika"}
                 109 = { "72 Drużyna Harcerska 'Horyzont'"}
 		110 = { "22 Drużyna Harcerska 'Paradoks'"}
@@ -146,12 +146,8 @@ ZHP_INF_SZT_01 =
 
 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-
 	fallback_name = "% Próbna Drużyna Starszoharcerska"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
 	ordered = { 
 		1 = { "1. Brzezińska Drużyna Harcerek Starszych 'Perły'"}
 		2 = { "11 Konstantynowska Drużyna Starszoharcerska 'Igni'"}
@@ -159,15 +155,14 @@ ZHP_INF_SZT_01 =
 		4 = { "Patrol Starszoharcerski 'Furia' przy 7 LDH 'Aurora'"}
 		5 = { "8 Drużyna Starszoharcerska 'Ignis'"}
 		6 = { "98 Drużyna Starszoharcerska 'Kosynierzy'"}
-		7 = { "126 Drużyna Starszoharcerska 'Dyeizjon 303'"}
-		8 = { "5 Drużyna Harcerek Starszych 'Kozy'}
+		7 = { "126 Drużyna Starszoharcerska 'Dywizjon 303'"}
+		8 = { "5 Drużyna Harcerek Starszych 'Kozy'"}
 		9 = { "8 Drużyna Starszoharcerska 'Wśród Płomienia'"}
 		10 = { "9 Drużyna Starszoharcerska 'MIG'"}
 }
 }
 
-ZHP_INF_WED_01 = 
-{
+ZHP_INF_WED_01 = {
 	name = "Wędrownicy"
 
 	for_countries = { ZHP }
@@ -176,20 +171,16 @@ ZHP_INF_WED_01 =
 
 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-
 	fallback_name = "% Próbna Drużyna Wędrownicza"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
 	ordered = { 
-		1 = {"9. Brzezińska Drużyna Wędrownicza 'Pryzmat'")
+		1 = {"9. Brzezińska Drużyna Wędrownicza 'Pryzmat'"}
 		2 = { "33 Konstantynowska Drużyna Wędrownicza 'Nemesis'"}
 		3 = { "I Kutnowska Drużyna Wędrownicza im. Tadeusza Rejtana"}
 		4 = { "9 Kutnowska Drużyna Wędrownicza 'Desperado'"}
 		5 = { "11 Drużyna Wędrownicza 'Dziki'"}
 		6 = { "4 Drużyna Wędrownicza 'Watra'"}
-		7 = {"5 Drużyna Wędrownicza 'Cichociemni'")
+		7 = {"5 Drużyna Wędrownicza 'Cichociemni'"}
 		8 = { "8 Drużyna Wędrowicza 'Kuźnia Płomienia'"}
 		9 = { ""}
 		10 = { ""}
@@ -208,11 +199,7 @@ ZHP_INF_SZA_01 =
 
 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-
 	fallback_name = "% Batalion Szarych Szeregów"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
 	ordered = { }
 }
