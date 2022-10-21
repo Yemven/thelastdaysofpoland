@@ -1,5 +1,69 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_artillery_coordination1_medium"
+		texturefile = "gfx/interface/technologies/artup1.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_coordination2_medium"
+		texturefile = "gfx/interface/technologies/artup2.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_coordination3_medium"
+		texturefile = "gfx/interface/technologies/artup3.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery_coordination4_medium"
+		texturefile = "gfx/interface/technologies/artup4.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_artillery_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/lighart1.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_artillery_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/lighart2.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_artillery_upgrade3_medium"
+		texturefile = "gfx/interface/technologies/lighart3.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_artillery_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/heavyart1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_artillery_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/heavyart2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_artillery_upgrade3_medium"
+		texturefile = "gfx/interface/technologies/heavyart3.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/rocketart1.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/rocketart2.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery_upgrade3_medium"
+		texturefile = "gfx/interface/technologies/rocketart3.dds"
+	}
+	SpriteType = {
+		name = "GFX_anti_air_upgrade_medium"
+		texturefile = "gfx/interface/technologies/aa1.dds"
+	}
+	SpriteType = {
+		name = "GFX_anti_air_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/aa2.dds"
+	}
+	SpriteType = {
+		name = "GFX_anti_air_upgrade3_medium"
+		texturefile = "gfx/interface/technologies/aa3.dds"
+	}
+	SpriteType = {
 		name = "GFX_self_propelled_artillery_upgrade_medium"
 		texturefile = "gfx/interface/technologies/spg1.dds"
 	}
