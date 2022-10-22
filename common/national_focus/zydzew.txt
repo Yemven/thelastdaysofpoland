@@ -981,7 +981,11 @@ focus_tree = {
 				type = melee_equipment_1
 				amount = 300
 				producer = ZYD
-			}			
+			}
+			country_event = {
+				id = zydzew.24
+				days = 1 
+				}
 		}
 	}
 	

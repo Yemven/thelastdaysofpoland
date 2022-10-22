@@ -329,7 +329,7 @@ country_event = {
 }
 
 country_event = {
-	id = zydzew.21 #grill1
+	id = zydzew.21 #kajak
 	title = zydzew.21.t
 	desc = zydzew.21.desc
 
@@ -342,7 +342,7 @@ country_event = {
 }
 
 country_event = {
-	id = zydzew.22 #grill2
+	id = zydzew.22 #grill1
 	title = zydzew.22.t
 	desc = zydzew.22.desc
 
@@ -355,3 +355,30 @@ country_event = {
 			id = zydzew.23 }
 	}
 }
+
+country_event = {
+	id = zydzew.23 #grill2
+	title = zydzew.23.t
+	desc = zydzew.23.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.23.a
+	}
+}
+
+country_event = {
+	id = zydzew.24 #filistyni
+	title = zydzew.24.t
+	desc = zydzew.24.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zydzew.24.a
+	}
+}
+
