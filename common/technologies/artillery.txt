@@ -256,7 +256,7 @@ technologies = {
 		}
 		categories = {
 			light_artillery
-			mechanized
+			sp_artillery
 		}
 		ai_will_do = {
 			factor = 2
@@ -803,7 +803,7 @@ technologies = {
 	
 	rocket_artillery3 = {
 		enable_equipments = {
-			rocket_artillery_equipment_3
+			motorized_rocket_equipment_1
 		}
 		enable_equipment_modules = {
 			tank_rocket_launcher_2
@@ -818,7 +818,9 @@ technologies = {
 			name = artillery_folder
 			position = { x = 3 y = 8 }
 		}
-
+		enable_subunits = {
+			motorized_rocket_brigade
+		}
 		categories = {
 			rocket_artillery
 		}
@@ -861,6 +863,12 @@ technologies = {
 		breakthrough = 0.05
 		}
 		
+		motorized_rocket_brigade = {
+		soft_attack = 0.05
+		hard_attack = 0.03
+		breakthrough = 0.05
+		}
+		
 		categories = {
 			rocket_artillery
 		}
@@ -872,7 +880,7 @@ technologies = {
 	
 	rocket_artillery4 = {
 		enable_equipments = {
-			rocket_artillery_equipment_4
+			motorized_rocket_equipment_2
 		}
 		path = {
 			leads_to_tech = rocket_artillery_upgrade3
@@ -927,6 +935,12 @@ technologies = {
 		breakthrough = 0.05
 		}
 		
+		motorized_rocket_brigade = {
+		soft_attack = 0.05
+		hard_attack = 0.03
+		breakthrough = 0.05
+		}
+		
 		categories = {
 			artillery
 		}
@@ -938,7 +952,7 @@ technologies = {
 	
 	rocket_artillery5 = {
 		enable_equipments = {
-			rocket_artillery_equipment_5
+			motorized_rocket_equipment_3
 		}
 		research_cost = 2
 		start_year=2040
@@ -1085,11 +1099,14 @@ technologies = {
 	
 	anti_air3 = {
 		enable_equipments = {
-			anti_air_equipment_3
+			spaa_equipment_1
 		}
 		enable_equipment_modules = {
 			tank_sam
 			ship_anti_air_3
+		}
+		enable_subunits = {
+			mechanized_anti_air_brigade
 		}
 		path = {
 			leads_to_tech = anti_air_upgrade3
@@ -1131,9 +1148,14 @@ technologies = {
 		}
 		
 		anti_air_brigade = {
-		air_attack  = 0.05
-		soft_attack = 0.05
-		defense = 0.05
+			air_attack  = 0.05
+			soft_attack = 0.05
+			defense = 0.05
+		}
+		mechanized_anti_air_brigade = {
+			air_attack  = 0.05
+			soft_attack = 0.05
+			defense = 0.05
 		}
 		categories = {
 			aa_artillery
@@ -1146,7 +1168,7 @@ technologies = {
 	
 	anti_air4 = {
 		enable_equipments = {
-			anti_air_equipment_4
+			spaa_equipment_2
 		}
 		enable_equipment_modules = {
 			tank_sam_2
