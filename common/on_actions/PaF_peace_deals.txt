@@ -33,26 +33,6 @@ on_actions = {
 				if = {
 					limit = {
 						ROOT = {
-							original_tag = SKW
-						}
-						FROM = {
-							OR = {
-								original_tag = HOR
-							}
-						}
-					}
-
-					FROM = {
-						white_peace = ROOT
-						ZAW = {
-							transfer_state = 740
-						}
-					}
-					set_global_flag = skip_default_capitulation
-				}
-				if = {
-					limit = {
-						ROOT = {
 							original_tag = BOH
 						}
 						FROM = {
@@ -98,31 +78,6 @@ on_actions = {
 						}
 						OSW = {
 							transfer_state = 800
-						}
-					}
-					set_global_flag = skip_default_capitulation
-				}
-				if = {
-					limit = {
-						ROOT = {
-							original_tag = SKW
-							has_war_with = HOR
-						}
-						FROM = {
-							OR = {
-								original_tag = HOR
-								original_tag = MSL
-							}
-						}
-					}
-
-					FROM = {
-						white_peace = ROOT
-						HOR = {
-							transfer_state = 519
-						}
-						MSL = {
-							transfer_state = 596
 						}
 					}
 					set_global_flag = skip_default_capitulation

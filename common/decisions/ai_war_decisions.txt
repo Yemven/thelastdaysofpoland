@@ -6954,23 +6954,14 @@ ai_war_decisions = {
 		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
-			is_tatry_region = yes
+			is_lesser_poland = yes
 				}
 
 		available = {
-			OR = {
-				original_tag = MSL
-				original_tag = GUR
-				original_tag = BSK
-				original_tag = CIE
-				original_tag = SCZ
-				original_tag = LEM
-				}
-			if = {
-				limit = { country_exists = HOR }
-			HOR = { has_war_with = SKW }
-			}
+			country_exists = SKW
+			NOT = { country_exists = HOR }
 			ROOT = { any_neighbor_country = { tag = SKW } }
+			date > 2028.01.01
 		}
 
 		cost = 1

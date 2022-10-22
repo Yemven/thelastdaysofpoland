@@ -363,14 +363,42 @@ country_event = {
 			days = 3
 			}
 		PRK = { give_military_access = HOR }
+		898 = {
+			HOR = { transfer_state = PREV }
+			add_core_of = HOR
+		}
 		519 = {		
 			create_unit = {
 				division = "name = \"Święta Dywersja\" division_template = \"Pielgrzymi\" start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes				
-				prioritize_location = 11008			
+				prioritize_location = 3204		
 				owner = HOR
 			}
-		}		
+		}
+		if = { 
+			limit = {
+				HOR = { controls_state = 740 }
+				}
+					740 = { 
+						ZAW = { transfer_state = PREV }
+						}
+					}
+		else_if = { 
+			limit = {
+				HOR = { controls_state = 472 }
+				}
+					472 = { 
+						TRN = { transfer_state = PREV }
+						}
+					}
+		else_if = { 
+			limit = {
+				HOR = { controls_state = 417 }
+				}
+					417 = { 
+						SND = { transfer_state = PREV }
+						}
+					}					
 	}
 }
 
@@ -420,7 +448,7 @@ country_event = {
 		}
 		country_event = {
 			id = procesja_west.14
-			days = 1
+			days = 4
 			}
 	}
 }
