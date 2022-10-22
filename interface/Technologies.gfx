@@ -1,5 +1,89 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_improvised_computing_medium"
+		texturefile = "gfx/interface/technologies/computing1.dds"
+	}
+	SpriteType = {
+		name = "GFX_early_civilian_computing_medium"
+		texturefile = "gfx/interface/technologies/computing2.dds"
+	}
+	SpriteType = {
+		name = "GFX_civilian_computing_medium"
+		texturefile = "gfx/interface/technologies/computing3.dds"
+	}
+	SpriteType = {
+		name = "GFX_imported_mainframes_medium"
+		texturefile = "gfx/interface/technologies/computing4.dds"
+	}
+	SpriteType = {
+		name = "GFX_military_grade_computing_medium"
+		texturefile = "gfx/interface/technologies/computing5.dds"
+	}
+	SpriteType = {
+		name = "GFX_improvised_ballistic_computer_medium"
+		texturefile = "gfx/interface/technologies/militarypc1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ballistic_computer_medium"
+		texturefile = "gfx/interface/technologies/militarypc2.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_ballistic_computer_medium"
+		texturefile = "gfx/interface/technologies/militarypc3.dds"
+	}
+	SpriteType = {
+		name = "GFX_improvised_ballistic_missles_medium"
+		texturefile = "gfx/interface/technologies/srbm1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww2_ballistic_missles_medium"
+		texturefile = "gfx/interface/technologies/srbm2.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_ballistic_missles_medium"
+		texturefile = "gfx/interface/technologies/srbm3.dds"
+	}
+	SpriteType = {
+		name = "GFX_laser_guided_missles_medium"
+		texturefile = "gfx/interface/technologies/srbm4.dds"
+	}
+	SpriteType = {
+		name = "GFX_intercontinental_ballistic_missles_medium"
+		texturefile = "gfx/interface/technologies/srbm5.dds"
+	}	
+	SpriteType = {
+		name = "GFX_basic_opsec_medium"
+		texturefile = "gfx/interface/technologies/encrypt1.dds"
+	}
+	SpriteType = {
+		name = "GFX_vpn_and_tor_medium"
+		texturefile = "gfx/interface/technologies/encrypt2.dds"
+	}
+	SpriteType = {
+		name = "GFX_not_pegasus_medium"
+		texturefile = "gfx/interface/technologies/encrypt3.dds"
+	}
+	SpriteType = {
+		name = "GFX_military_grade_encryption_medium"
+		texturefile = "gfx/interface/technologies/encrypt4.dds"
+	}
+	SpriteType = {
+		name = "GFX_air_radio_control_1_medium"
+		texturefile = "gfx/interface/technologies/radar1.dds"
+	}
+	SpriteType = {
+		name = "GFX_air_radio_control_2_medium"
+		texturefile = "gfx/interface/technologies/radar2.dds"
+	}
+	SpriteType = {
+		name = "GFX_air_radio_control_3_medium"
+		texturefile = "gfx/interface/technologies/radar3.dds"
+	}
+	SpriteType = {
+		name = "GFX_air_radio_control_4_medium"
+		texturefile = "gfx/interface/technologies/radar4.dds"
+	}
+	SpriteType = {
 		name = "GFX_artillery_coordination1_medium"
 		texturefile = "gfx/interface/technologies/artup1.dds"
 	}
