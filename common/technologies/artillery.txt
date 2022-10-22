@@ -239,7 +239,7 @@ technologies = {
 	
 	light_artillery5 = {
 		enable_equipments = {
-			light_artillery_equipment_5
+			self_propelled_mortar_equipment_1
 		}
 		enable_equipment_modules = {
 			tank_ifv_cannon_3
@@ -247,12 +247,16 @@ technologies = {
 		}
 		research_cost = 2
 		start_year=2040
+		enable_subunits = {
+			self_propelled_mortar_brigade
+		}
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 16}
 		}
 		categories = {
 			light_artillery
+			mechanized
 		}
 		ai_will_do = {
 			factor = 2
@@ -492,7 +496,7 @@ technologies = {
 			name = artillery_folder
 			position = { x = -3 y = 16 }
 		}
-
+		
 		categories = {
 			heavy_artillery
 		}
@@ -504,7 +508,8 @@ technologies = {
 	
 	self_propelled_artillery = { #te raki mają pancerz
 		enable_equipments = {
-			self_propelled_artillery_equipment_1
+			#self_propelled_artillery_equipment_1
+			motorized_artillery_equipment_1
 		}
 		path = {
 			leads_to_tech = self_propelled_artillery_upgrade
@@ -518,7 +523,8 @@ technologies = {
 		}
 		
 		enable_subunits = {
-			self_propelled_artillery_brigade
+			#self_propelled_artillery_brigade
+			mot_artillery_brigade
 		}
 		
 		categories = {
@@ -540,7 +546,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		self_propelled_artillery_brigade = {
+		mot_artillery_brigade = {
 		soft_attack = 0.05
 		hard_attack = 0.05
 		breakthrough = 0.05
@@ -562,7 +568,8 @@ technologies = {
 	
 	self_propelled_artillery2 = {
 		enable_equipments = {
-			self_propelled_artillery_equipment_2
+			#self_propelled_artillery_equipment_2
+			motorized_artillery_equipment_2
 		}
 		path = {
 			leads_to_tech = self_propelled_artillery_upgrade1
@@ -598,7 +605,7 @@ technologies = {
 		position = { x = -6 y = 10}
 		}
 		
-		self_propelled_artillery_brigade = {
+		mot_artillery_brigade = {
 		soft_attack = 0.05
 		hard_attack = 0.05
 		breakthrough = 0.05
@@ -627,7 +634,11 @@ technologies = {
 			name = artillery_folder
 			position = { x = -6 y = 12}
 		}
-
+		
+		enable_subunits = {
+			self_propelled_artillery_brigade
+		}
+		
 		categories = {
 			sp_artillery
 		}
