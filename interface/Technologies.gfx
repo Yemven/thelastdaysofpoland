@@ -1,5 +1,21 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_primitive_high_tech_industry_medium"
+		texturefile = "gfx/interface/technologies/hightech1.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_high_tech_industry_medium"
+		texturefile = "gfx/interface/technologies/hightech2.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_high_tech_industry_medium"
+		texturefile = "gfx/interface/technologies/hightech3.dds"
+	}
+	SpriteType = {
+		name = "GFX_world_renown_high_tech_industry_medium"
+		texturefile = "gfx/interface/technologies/hightech4.dds"
+	}
+	SpriteType = {
 		name = "GFX_improvised_computing_medium"
 		texturefile = "gfx/interface/technologies/computing1.dds"
 	}
