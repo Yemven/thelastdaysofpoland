@@ -1099,11 +1099,14 @@ technologies = {
 	
 	anti_air3 = {
 		enable_equipments = {
-			anti_air_equipment_3
+			spaa_equipment_1
 		}
 		enable_equipment_modules = {
 			tank_sam
 			ship_anti_air_3
+		}
+		enable_subunits = {
+			mechanized_anti_air_brigade
 		}
 		path = {
 			leads_to_tech = anti_air_upgrade3
@@ -1145,9 +1148,14 @@ technologies = {
 		}
 		
 		anti_air_brigade = {
-		air_attack  = 0.05
-		soft_attack = 0.05
-		defense = 0.05
+			air_attack  = 0.05
+			soft_attack = 0.05
+			defense = 0.05
+		}
+		mechanized_anti_air_brigade = {
+			air_attack  = 0.05
+			soft_attack = 0.05
+			defense = 0.05
 		}
 		categories = {
 			aa_artillery
@@ -1160,7 +1168,7 @@ technologies = {
 	
 	anti_air4 = {
 		enable_equipments = {
-			anti_air_equipment_4
+			spaa_equipment_2
 		}
 		enable_equipment_modules = {
 			tank_sam_2
