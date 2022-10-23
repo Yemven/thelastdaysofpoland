@@ -62,7 +62,7 @@ units = {
 	
 	division = {
 		name = "3 Piachotny Bataĺjon"
-		location = 9636
+		location = 9638
 		division_template = "Piachotny Bataĺjon"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
@@ -76,4 +76,19 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	
+	division = {
+		name = "Štrafny Bataĺjon 'Papraŭčaja Častka 'Biełavieža'"
+		location = 9597
+		division_template = "Pryzyŭnaja Piachota"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Štrafny Bataĺjon 'Papraŭčaja Častka 'Orla III'"
+		location = 9636
+		division_template = "Pryzyŭnaja Piachota"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1.0
+	}
 }

@@ -54,7 +54,7 @@ units = {
 	}
 
 	division = {
-		name = "1 Jednostka Funkcjonariuszy Biura Interwencji Obywatelskich"
+		name = "1 Oddział Biura Interwencji Obywatelskich"
 		location = 9574
 		division_template = "Gwardia Prezydencka"
 		start_experience_factor = 0.3
@@ -62,13 +62,21 @@ units = {
 	}
 	
 	division = {
-		name = "2 Batalion Armii Białostockiej 'PSS Zodiak'"
+		name = "2 Batalion Armii Białostockiej 'Zodiak'"
 		location = 9572
 		division_template = "Batalion Armii Białostockiej"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
+	division = {
+		name = "2 Oddział Biura Interwencji Obywatelskich"
+		location = 9573
+		division_template = "Gwardia Prezydencka"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
 	division = {
 		name = "3 Batalion Armii Białostockiej im. Nerka Bożego"
 		location = 9563
