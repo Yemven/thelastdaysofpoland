@@ -21,7 +21,9 @@ SAP_sanity = {
 	priority = 80
 	
 	visible = {
-		has_completed_focus = SAP_temerian_dream_shattered
+		SAP = {
+			has_completed_focus = SAP_temerian_dream_shattered
+		}
 	}
 }
 
@@ -35,7 +37,9 @@ SAP_witcher_schools_category = {
 	priority = 100
 	
 	visible = {
-		always = yes
+		SAP = {
+			has_completed_focus = SAP_establish_order_of_witchers
+		}
 	}
 	
 	scripted_gui = SAP_witcher_schools_ui
