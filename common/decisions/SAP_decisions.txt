@@ -50,19 +50,7 @@ SAP_balance_of_power_category = {
 	
 }
 SAP_sanity = {
-	debug_sapek_sane = {
-		cost = 1
-		complete_effect = {
-			add_to_variable = {sapek_sanity = 100}
-		}
-	}
 
-	debug_sapek_insane = {
-		cost = 1
-		complete_effect = {
-			subtract_from_variable = {sapek_sanity = 100}
-		}
-	}
 }
 
 SAP_witcher_schools_category = {

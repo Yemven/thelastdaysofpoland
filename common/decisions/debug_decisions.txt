@@ -49,7 +49,32 @@ debug_category = {
 			}
 		}
 	}
-	
+	debug_sapek_sane = {
+		cost = 1
+		allowed = {
+			original_tag = SAP
+		}
+		visible = {
+			has_completed_focus = SAP_temerian_dreams_shattered
+		}
+		complete_effect = {
+			add_to_variable = {sapek_sanity = 100}
+		}
+		
+	}
+
+	debug_sapek_insane = {
+		cost = 1
+		allowed = {
+			original_tag = SAP
+		}
+		visible = {
+			has_completed_focus = SAP_temerian_dreams_shattered
+		}
+		complete_effect = {
+			subtract_from_variable = {sapek_sanity = 100}
+		}
+	}
 	load_war_tree = {
 
 		icon = GFX_decision_generic_form_nation
