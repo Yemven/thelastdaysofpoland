@@ -3,15 +3,23 @@ state={
 	id=56
 	name="STATE_56"
 	provinces={
-		2582 3055 3471 
+		2582 3055 3471 5182 5900 5907 5968 6113 6154 6981 6990
 	}
 	manpower = 121014  state_category = large_city
 	buildings_max_level_factor=1.000
 		history = {
 		owner = TEU
+		victory_points = {5182 30 }
+		victory_points = {6113 5 }
+		victory_points = {5907 5 }
+		victory_points = {3055 2 }
+		victory_points = {5968 4 }
+		victory_points = {6990 2 }
 		add_core_of = TEU 
 	buildings = {
 	infrastructure = 8
+	industrial_complex = 3
+	arms_factory = 1
 	power_plant = 1
 }
 }
