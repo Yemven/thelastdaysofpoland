@@ -76,82 +76,110 @@ division_template = {
 
 units = {
 	division = {
-		name = "10 Warszawski Pułk Samochodowy"
-		location = 11382
+		name = "54 Batalion im. ppłk. Adama Borysa ps.'Pług'"
+		location = 3234
+		division_template = "Batalion Piechoty WP"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Centrum Reagowania Epidemiologicznego Sił Zbrojnych"
+		location = 2180
+		division_template = "Jednostka Pomocnicza"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "64 Batalion im. płk. Ryszarda Białousa ps.'Jerzy'"
+		location = 2006
+		division_template = "Batalion Piechoty WP"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Pułk Ochrony im. Bolesława Wieniawy-Długoszowskiego"
+		location = 2015
+		division_template = "Batalion Żandarmerii Wojskowej"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2 Mazowiecki Pułk Saperów"
+		location = 3731
 		division_template = "Batalion Piechoty Zmotoryzowanej"
 		start_experience_factor = 0.9
 		start_equipment_factor = 1.0
 	}
-	
 	division = {
-		name = "18 Stołeczna Brygada Obrony Terytorialnej"
-		location = 1017
-		division_template = "Batalion Piechoty WP"
-		start_experience_factor = 0.9
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "Batalion Reprezentacyjny WP"
-		location = 1017
-		division_template = "Batalion Piechoty WP"
-		start_experience_factor = 0.9
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "JW 'GROM'"
-		location = 2106
-		division_template = "Batalion Komandosów"
-		start_experience_factor = 0.9
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "1 Batalion Pancerny 1BPanc"
-		location = 2106
-		division_template = "Batalion Kawalerii Pancernej"
+		name = "18 Batalion Rozpoznawczy"
+		location = 3731
+		division_template = "Batalion Piechoty Zmotoryzowanej"
 		start_experience_factor = 0.9
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2 Batalion Pancerny 1BPanc"
-		location = 1017
+		name = "1 Batalion Piechoty Zmotoryzowanej Legionów"
+		location = 3731
+		division_template = "Batalion Piechoty Zmotoryzowanej"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "14 Batalion Ułanów Jazłowieckich"
+		location = 3731
+		division_template = "Batalion Piechoty Zmotoryzowanej"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3 Batalion Piechoty Zmotoryzowanej"
+		location = 3731
+		division_template = "Batalion Piechoty Zmotoryzowanej"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1 Batalion Pancerny 2BZmech"
+		location = 2015
 		division_template = "Batalion Kawalerii Pancernej"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
-	
 	division = {
-		name = "1 Batalion Zmechanizowany 1BPanc"
-		location = 3764
+		name = "1 Batalion Zmechanizowany 2BZmech"
+		location = 2015
 		division_template = "Batalion Piechoty Zmechanizowanej"
 		start_experience_factor = 0.9
 		start_equipment_factor = 1.0
 	}
-	
 	division = {
-		name = "2 Batalion Zmechanizowany 1BPanc"
-		location = 984
+		name = "2 Batalion Zmechanizowany 2BZmech"
+		location = 2015
 		division_template = "Batalion Piechoty Zmechanizowanej"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
-	
 	division = {
-		name = "Oddział Zabezpieczenia Garnizonu Stołecznego Warszawa"
-		location = 11382
-		division_template = "Jednostka Pomocnicza"
-		start_experience_factor = 1.0
+		name = "1 Batalion Pancerny 15BZmech"
+		location = 2015
+		division_template = "Batalion Kawalerii Pancernej"
+		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
-	
 	division = {
-		name = "Oddział Zabezpieczenia"
-		location = 11381
-		division_template = "Jednostka Pomocnicza"
-		start_experience_factor = 1.0
+		name = "1 Batalion Zmechanizowany 15BZmech"
+		location = 2015
+		division_template = "Batalion Piechoty Zmechanizowanej"
+		start_experience_factor = 0.9
 		start_equipment_factor = 1.0
 	}
+	division = {
+		name = "2 Batalion Zmechanizowany 15BZmech"
+		location = 2015
+		division_template = "Batalion Piechoty Zmechanizowanej"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
 
 }
