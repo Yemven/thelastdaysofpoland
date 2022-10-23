@@ -44,7 +44,7 @@ division_template = {
 
 units = {
     division = {
-		name = "Batalion ON 'Filipów I' "
+		name = "Batalion ON 'Filipów I'"
 		location = 11953
 		division_template = "Batalion Piechoty Wojska Polskiego"
 		start_experience_factor = 0.5
@@ -52,7 +52,7 @@ units = {
 	}
 
 	division = {
-		name = "Batalion ON 'Filipów II' "
+		name = "Batalion ON 'Filipów II'"
 		location = 11967
 		division_template = "Batalion Piechoty Wojska Polskiego"
 		start_experience_factor = 0.5
@@ -60,7 +60,31 @@ units = {
 	}
 	
 	division = {
+		name = "Batalion ON 'Suwałki'"
+		location = 11979
+		division_template = "Batalion Piechoty Wojska Polskiego"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Straż Wiejska 'Wigry'"
+		location = 11979
+		division_template = "Batalion Sił Poborowych"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
 		name = "1 Pułk Ułanów Podlaskich"
+		location = 11974
+		division_template = "Pułk Kawalerii Wojska Polskiego"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "2 Pułk Ułanów Podlaskich"
 		location = 11974
 		division_template = "Pułk Kawalerii Wojska Polskiego"
 		start_experience_factor = 0.4
