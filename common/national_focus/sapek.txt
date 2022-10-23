@@ -41,11 +41,7 @@ focus_tree = {
 			hidden_effect = { 
 				set_variable = {
 					var = sapek_sanity
-					value = 1
-				}
-				set_variable = {
-					var = sapek_insanity
-					value = 1
+					value = 50
 				}				
 			}
 		}
@@ -137,8 +133,8 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			hidden_effect = {
-				add_to_variable = {
-					var = sapek_insanity
+				subtract_from_variable = {
+					var = sapek_sanity
 					value = 10
 				}
 				clr_country_flag = kaer_nevitz_attack
@@ -395,8 +391,8 @@ focus_tree = {
 			clr_country_flag = SAP_sapek_oskarzyciel
 			custom_effect_tooltip = SAP_insanity_tooltip
 			hidden_effect = {
-				add_to_variable = {
-					var = sapek_insanity
+				subtract_from_variable = {
+					var = sapek_sanity
 					value = 10
 				}
 			}
@@ -602,8 +598,8 @@ focus_tree = {
 			}
 			custom_effect_tooltip = SAP_insanity_tooltip			
 			hidden_effect = {
-				add_to_variable = {
-					var = sapek_insanity
+				subtract_from_variable = {
+					var = sapek_sanity
 					value = 5
 				}
 			}
@@ -667,8 +663,8 @@ focus_tree = {
 			}
 			custom_effect_tooltip = SAP_insanity_tooltip			
 			hidden_effect = {
-				add_to_variable = {
-					var = sapek_insanity
+				subtract_from_variable = {
+					var = sapek_sanity
 					value = 5
 				}
 			}
@@ -981,8 +977,8 @@ focus_tree = {
 				}
 			custom_effect_tooltip = SAP_insanity_tooltip			
 			hidden_effect = {
-				add_to_variable = {
-					var = sapek_insanity
+				subtract_from_variable = {
+					var = sapek_sanity
 					value = 5
 				}
 			}
@@ -1085,8 +1081,8 @@ focus_tree = {
 			}
 			custom_effect_tooltip = SAP_insanity_tooltip			
 			hidden_effect = {
-				add_to_variable = {
-					var = sapek_insanity
+				subtract_from_variable = {
+					var = sapek_sanity
 					value = 10
 				}
 			}
@@ -1121,8 +1117,8 @@ focus_tree = {
 			}
 			custom_effect_tooltip = SAP_insanity_tooltip			
 			hidden_effect = {
-				add_to_variable = {
-					var = sapek_insanity
+				subtract_from_variable = {
+					var = sapek_sanity
 					value = 5
 				}
 			}
@@ -1173,8 +1169,8 @@ focus_tree = {
 			}
 			custom_effect_tooltip = SAP_insanity_tooltip			
 			hidden_effect = {
-				add_to_variable = {
-					var = sapek_insanity
+				subtract_from_variable = {
+					var = sapek_sanity
 					value = 5
 				}
 			}
@@ -1679,9 +1675,9 @@ focus_tree = {
 			if = {
 				limit = {
 					check_variable = {
-						var = sapek_insanity
-						value = sapek_sanity
-						compare = less_than
+						var = sapek_sanity
+						value = 50
+						compare = more_than
 					}
 				}
 				country_event = { 
@@ -1692,7 +1688,7 @@ focus_tree = {
 				limit = {
 					check_variable = {
 						var = sapek_sanity
-						value = sapek_insanity
+						value = 50
 						compare = less_than
 					}
 				}
@@ -1704,7 +1700,7 @@ focus_tree = {
 				limit = {
 					check_variable = {
 						var = sapek_sanity
-						value = sapek_insanity
+						value = 50
 						compare = equals
 					}
 				}
