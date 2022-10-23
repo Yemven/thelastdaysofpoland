@@ -6,38 +6,84 @@ division_template = {
 		bicycle_battalion = { x = 0 y = 0 }
 		bicycle_battalion = { x = 0 y = 1 }
 		bicycle_battalion = { x = 0 y = 2 }
-		bicycle_battalion = { x = 1 y = 0 }
-		bicycle_battalion = { x = 1 y = 1 }
-		bicycle_battalion = { x = 1 y = 2 }
+		bicycle_battalion = { x = 0 y = 3 }
 	}
 }
 
 division_template = {
-	name = "Boar Force"
+	name = "Ekolodzy"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Straż Ochrony Przyrody"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Zielone Brygady"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
 		militia = { x = 0 y = 2 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }
 	}
 }
 
 units = {
 	division = {
-		name = "Masa Krytyczna"
+		name = "Antifa Wawer"
 		location = 3208
-		division_template = "Masa Krytyczna"
+		division_template = "Zielone Brygady"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Siostry Rzeki"
+		location = 3208
+		division_template = "Zielone Brygady"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Bracia Potoki"
+		location = 3208
+		division_template = "Zielone Brygady"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Straż Ligi Ochrony Przyrody"
+		location = 3208
+		division_template = "Straż Ochrony Przyrody"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "Wawer's Finest"
-		location = 2995
-		division_template = "Boar Force"
+		name = "Warszawska Masa Krytyczna"
+		location = 3208
+		division_template = "Masa Krytyczna"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
+	
+	division = {
+		name = "Młodzieżowy Strajk Klimatyczny"
+		location = 3208
+		division_template = "Ekolodzy"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
 }
