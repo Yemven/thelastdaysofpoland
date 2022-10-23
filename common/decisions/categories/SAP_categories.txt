@@ -11,6 +11,19 @@ SAP_balance_of_power_category = {
 		
 	}
 }
+SAP_sanity = {
+	icon = GFX_SAP_Flag
+	
+	allowed = {
+		original_tag = SAP
+	}
+	
+	priority = 80
+	
+	visible = {
+		has_completed_focus = SAP_temerian_dream_shattered
+	}
+}
 
 
 
