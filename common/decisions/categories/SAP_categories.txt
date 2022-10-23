@@ -12,6 +12,22 @@ SAP_balance_of_power_category = {
 	}
 }
 
+SAP_witcher_schools_category = {
+	icon = GFX_decision_category_power_struggle
+	
+	allowed = {
+		original_tag = SAP
+	}
+	
+	priority = 100
+	
+	visible = {
+		always = yes
+	}
+	
+	scripted_gui = SAP_witcher_schools_ui
+}
+
 
 
 
