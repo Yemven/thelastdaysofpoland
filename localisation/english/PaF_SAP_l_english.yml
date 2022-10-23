@@ -1,8 +1,8 @@
 ﻿l_english:
  ## Tooltipy ##
  SAP_zakon_zamek_tooltip:0 "§R...but is it wise to place them right next to our Lord's Palace?§!"
- SAP_sanity_tooltip:0 "§GSapkowski's Sanity Improves!§!"
- SAP_insanity_tooltip:0 "§RSapkowski's Sanity Worsens...§!"
+ SAP_sanity_tooltip:0 "§GSapkowski looks further away from his books.§!"
+ SAP_insanity_tooltip:0 "§RSapkowski gazes deeper into the world of his books...§!"
  SAP_wilcy_tooltip:0 "§RThe Wolves are coming...§!"
  ## National Spirits ##
  SAP_ravaged_country:0 "Ravaged Country"
@@ -361,9 +361,52 @@ SAP_death_woods_of_velen_desc:0 "The forest spirits came out to feed. And they f
 SAP_mines_of_mahakam_desc:0 "And who are you, the proud scribe said\nThat I must bow so low?\nOnly a lily of a different coat\nThat's all the truth i know\nIn a coat of coal or a coat of grey\nA scribe still has its claws\nThe mines are vast and deep, my lord\nAs vast and deep as your pride\nAnd so he spoke, and so he spoke\nThat scribe of Brotherhood\nBut now the rains weep o'er his mines\nWith no one there to hear\nYes, now the rains weep o'er his mines\nAnd not a soul to hear..."
  ##Characters##
 POLITICS_ANDRZEJ_SAPKOWSKI_DESC:0 "After the collapse of the Polish state, the famous writer of the “Witcher” series  gathered loyal fans and founded his own faction in the city of Skierniewice mainly as a way of protecting himself in these chaotic times. To keep the morale of fantasy fanatics up, he decided to stylise his faction in an image of the Witcher world he created. At least that's what the cynics say, as it is also possible that the old writer has gone completely mad and his duchy is not a mere masquerade, but a genuine attempt to create a truly Temerian realm. Truth may never be revealed as the "duke" rarely speaks in public and when he does his elusive answers and dry sense of humor make it really hard to figure out what's actually on his mind."
-POLITICS_JACEK_BARTYZEL_DESC:0 "Who’s to say that monarchy is dead? Bartyzel would disagree. A radical conservative, he tried to create his own catholic monarchical state in Łowicz, but failed to become one of the key players in the region due to the lack of popularity of his ideas. The situation got worse for him, when Andrzej Sapkowski arrived in the area. The writer gained wide support thanks to his fame, while the number of Bartyzel's supporters was dwindling with each passing day. Realizing his faction won't survive on his own, he swore fealty to Duke Sapkowski, promising his faithful service in exchange for the autonomous rule of the newly formed county of Łowicz. Even though he views the Duchy of Velen as a farce, he can't deny that Sapkowski's regime is the only monarchical government, that gained traction in the lands of post-Fall Łódź provine and because of that, he will work with Sapkowski as long as the duke respects his right to autonomous rule."
+POLITICS_JACEK_BARTYZEL_DESC:0 "Who’s to say that monarchy is dead? Bartyzel would disagree. A radical conservative, he tried to create his own catholic monarchical state in Łowicz, but failed to become one of the key players in the region due to the lack of popularity of his ideas. The situation got worse for him, when Andrzej Sapkowski arrived in the area. The writer gained wide support thanks to his fame, while the number of Bartyzel's supporters was dwindling with each passing day. Realizing his faction won't survive on his own, he swore fealty to Duke Sapkowski, promising his faithful service in exchange for the autonomous rule of the newly formed county of Łowicz. Even though he views the Duchy of Ellander as a farce, he can't deny that Sapkowski's regime is the only monarchical government, that gained traction in the lands of post-Fall Łódź Voivodeship, and because of that, he will work with Sapkowski as long as the duke respects his right to autonomous rule."
 POLITICS_WLADYSLAW_BARTYZEL_DESC:0 "After much deliberation, the regency council, presided by his father, has chosen Jacek Władysław as a new King of Poland. While he had his disagreements with his father on certain political matters, he nevertheless offered him his help in governing the county of Łowicz and later he kept public support at astoundingly high levels during his father's rebellion. He may not be as conservative a carlist candidate for the throne, but he's a much safer option, as he's already well versed in warlord politics and can actually speak Polish."
 POLITICS_KAROL_BURBON_DESC:0 "The current head of the House of Bourbon-Parma, as well a member of the Dutch Royal Family. He is the claimant to the defunct throne of the extinct Duchy of Parma. In addition, he is considered by some a contested claimant to the throne of Spain under the name Carlos Javier I. While he had never contested the legitimacy of the Bourbon line currently ruling in Spain, he decided to accept the offer of the Legitimist Regency Council of Poland and become a new king of the soon-to-be unified kingdom. While he's not accustomed to the brutal reality of post-Fall Poland and can't communicate with his subjects due to his unfamiliarity with their local language, his rise to power is believed to be the only for truly virtuous government within Polish lands."
 
  ##Decisions##
 SAP_unifies_lodz_tooltip:0 "Gets event '§YThe Duchy of Ellander Unifies the Łódź Voivodeship§!'"
+
+
+
+
+
+
+################################### UMYSŁ DEBILA WALCZĄCY Z UMYSŁEM IDIOTY ###################################
+SAP_sanity:0 "THE GWYNBLEIDD'S GAZE INTO HIS TEXTS"
+SAP_sanity_desc:0 "\nIn a land torn by disagreements, differences, and ultimately - by civil war - lives an old man, who took it upon himself to make things right. \nHe built himself a small duchy, of which he was proclaimed Duke. There, he started building a new, better world for creatures of this world to live in - one of vibrant magic, exotic cultures and fascinating peoples. \n§4And he based if all off a world he already built in the past...§!\n\nWelcome to the Duchy of Ellander - a state built entirely on a premise of being a Witcher-themed Disneyland, where the army, institutions, laws and even official talks, bureaucracy and terms used in inter-clique diplomacy are all themed after things from the world of Witcher, both ones already present in the books and ones that required new lore to be written for them to be fitted into the Witcher's setting. \nHere, in bureaus-made-throne rooms, Sapkowski holds public medieval courts over flamboyantly dressed feudal vassals, merchants and advisors, all to the delight of kids and fantasy enthusiasts. While this might make for fun public events, it makes for a poor system of governance - especially since even behind closed doors the Duke orders to be refered to as 'Gwynbleidd' and speaks of 'Vizimian envoys' and 'rebellious elves in the south', all without a hint of irony in his voice. \n§tFor now, the Duke's rulership continues to bring colour to the bleak lives of Poles and his rulership is thought of by most as 'a creative way of bringing constantly feuding people together'. Some, however, are cautious of how far this LARP goes and whether this still even is a LARP at all...§! \n\n\nTHE GWYNBLEIDD SEEKS GUIDANCE FROM HIS TEXTS ON HOW TO SHAPE HIS REALM. THEIR SETTING IS LOVED BY MANY, BUT IF HE GAZES TOO DEEP INTO THEM, HIS PERCEPTION OF REALITY MIGHT BECOME BLURRED. \nCURRENTLY, HIS EYES GAZE §4[?sapek_sanity|=4 0] METERS DEEP§! INTO HIS TOMES.\n\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
