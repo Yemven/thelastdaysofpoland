@@ -13,4 +13,73 @@ characters={
 			id=-1
 		}
 	}
+	SAS_ryszard_czarnecki={
+		name="Ryszard Czarnecki"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/SAS_Czarnecki.dds"
+				small="gfx/interface/ideas/SAS/SAS_Czarnecki.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = SAS_min_czarnecki
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SAS
+			}
+			traits = { }
+		}
+	}
+	SAS_witold_waszczykowski={
+		name="Witold Waszczykowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/SAS_Waszczykowski.dds"
+				small="gfx/interface/ideas/SAS/SAS_Waszczykowski.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = SAS_min_waszczykowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SAS
+			}
+			traits = { }
+		}
+	}
+	SAS_krzysztof_krol={
+		name="Krzysztof Król"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAS/SAS_Krol.dds"
+				small="gfx/interface/ideas/SAS/SAS_Krol.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = SAS_min_krol
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = SAS
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { media_personality }
+			skill=4
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 }

@@ -13,4 +13,93 @@ characters={
 			id=-1
 		}
 	}
+	POL_piotr_patkowski={
+		name="Piotr Patkowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/POL_Patkowski.dds"
+				small="gfx/interface/ideas/POL/POL_Patkowski.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = POL_min_patkowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = POL
+			}
+			traits = { }
+		}
+	}
+	POL_michal_dworczyk={
+		name="Michał Dworczyk"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/POL_Dworczyk.dds"
+				small="gfx/interface/ideas/POL/POL_Dworczyk.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = POL_min_dworczyk
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = POL
+			}
+			traits = { }
+		}
+	}
+	POL_adam_glapinski={
+		name="Adam Glapiński"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/POL_Glapinski.dds"
+				small="gfx/interface/ideas/POL/POL_Glapinski.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = POL_min_glapinski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = POL
+			}
+			traits = { }
+		}
+	}
+	POL_rajmund_andrzejczak={
+		name="Rajmund Andrzejczak"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/POL_Andrzejczak.dds"
+				small="gfx/interface/ideas/POL/POL_Andrzejczak.dds"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = POL_min_andrzejczak
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = POL
+			}
+			traits = { }
+		}
+		field_marshal = {
+			traits = { media_personality }
+			skill=4
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 }
