@@ -4,68 +4,67 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		size = { width = 100% height= 300 }
 		
-		gridboxtype = {
-			name = "witcher_schools_grid"
-			position = { x = 24 y = 0 }
-			size = { width = 100%% height = 100%% }
-			slotsize = { width = 64 height = 106 }
-			max_slots = { x = 3 y = 2 }
-			format = "UPPER_LEFT"
-		}
+		#gridboxtype = {
+			#name = "witcher_schools_grid"
+			#position = { x = 24 y = 0 }
+			#size = { width = 100% height = 100% }
+			#slotsize = { width = 64 height = 106 }
+			#max_slots = { x = 2 y = 3 }
+			#format = "UPPER_LEFT"
+		#}
 				
 		buttonType = {
 			name ="SAP_school_of_wolf_button"
-			position = { x = 10 y = 10 }
+			position = { x = 116 y = 60 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_SAP_szkola_wilka"
 			centerposition = yes
-			buttonText = "wołk"
-			scale = 0.1
+			scale = 2
 		}
 		
 		buttonType = {
 			name ="SAP_school_of_rose_button"
-			position = { x = 10 y = 85 }
+			position = { x = 256 y = 60 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_SAP_szkola_wilka"
 			centerposition = yes
-			scale = 0.1
+			scale = 2
 		}
 			
 		buttonType = {
 			name ="SAP_school_of_lion_button"
-			position = { x = 10 y = 160 }
+			position = { x = 396 y = 60 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_SAP_szkola_wilka"
 			centerposition = yes
-			scale = 0.1
+			scale = 2
 		}
 			
 		buttonType = {
 			name ="SAP_school_of_mole_button"
-			position = { x = 80 y = 10 }
+			position = { x = 116 y = 200 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_SAP_szkola_wilka"
 			centerposition = yes
-			scale = 0.1
+			scale = 2
 		}
 			
 		buttonType = {
 			name ="SAP_school_of_lynx_button"
-			position = { x = 80 y = 85 }
+			position = { x = 256 y = 200 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_SAP_szkola_wilka"
 			centerposition = yes
-			scale = 0.1
+			scale = 2
 		}
 			
 		buttonType = {
 			name ="SAP_school_of_dove_button"
-			position = { x = 80 y = 160 }
+			position = { x = 396 y = 200 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_SAP_szkola_wilka"
 			centerposition = yes
-			scale = 0.1
+			scale = 2
 		}
 	}
 }

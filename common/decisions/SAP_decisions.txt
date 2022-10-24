@@ -54,7 +54,7 @@ SAP_sanity = {
 }
 
 SAP_witcher_schools_category = {
-	SAP_witcher_schools_dummy = {
+	SAP_witcher_schools_wolf_dummy = {
 		priority = 1115
 		icon = GFX_decision_generic_military
 
@@ -63,7 +63,84 @@ SAP_witcher_schools_category = {
 		}
 		
 		visible = {
-			always = yes
+			SAP = {
+				check_variable = { current_school = 0 }
+			}
+		}
+	}
+	
+	SAP_witcher_schools_rose_dummy = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 1 }
+			}
+		}
+	}
+	
+	SAP_witcher_schools_lion_dummy = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 2 }
+			}
+		}
+	}
+	
+	SAP_witcher_schools_mole_dummy = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 3 }
+			}
+		}
+	}
+	
+	SAP_witcher_schools_lynx_dummy = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 4 }
+			}
+		}
+	}
+	
+	SAP_witcher_schools_dove_dummy = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 5 }
+			}
 		}
 	}
 }
