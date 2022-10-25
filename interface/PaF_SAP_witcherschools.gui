@@ -17,54 +17,50 @@ guiTypes = {
 			name ="SAP_school_of_wolf_button"
 			position = { x = 116 y = 60 }
 			orientation = "UPPER_LEFT"
-			spriteType = "GFX_SAP_szkola_wilka"
+			spriteType = "GFX_SAP_school_wolf"
 			centerposition = yes
-			scale = 2
+			scale = 1.1
 		}
 		
 		buttonType = {
 			name ="SAP_school_of_rose_button"
 			position = { x = 256 y = 60 }
 			orientation = "UPPER_LEFT"
-			spriteType = "GFX_SAP_szkola_wilka"
+			spriteType = "GFX_SAP_school_rose"
 			centerposition = yes
-			scale = 2
 		}
 			
 		buttonType = {
 			name ="SAP_school_of_lion_button"
 			position = { x = 396 y = 60 }
 			orientation = "UPPER_LEFT"
-			spriteType = "GFX_SAP_szkola_wilka"
+			spriteType = "GFX_SAP_school_lion"
 			centerposition = yes
-			scale = 2
 		}
 			
 		buttonType = {
 			name ="SAP_school_of_mole_button"
 			position = { x = 116 y = 200 }
 			orientation = "UPPER_LEFT"
-			spriteType = "GFX_SAP_szkola_wilka"
+			spriteType = "GFX_SAP_school_wolf"
 			centerposition = yes
-			scale = 2
+			scale = 1.1
 		}
 			
 		buttonType = {
 			name ="SAP_school_of_lynx_button"
 			position = { x = 256 y = 200 }
 			orientation = "UPPER_LEFT"
-			spriteType = "GFX_SAP_szkola_wilka"
+			spriteType = "GFX_SAP_school_lynx"
 			centerposition = yes
-			scale = 2
 		}
 			
 		buttonType = {
 			name ="SAP_school_of_dove_button"
 			position = { x = 396 y = 200 }
 			orientation = "UPPER_LEFT"
-			spriteType = "GFX_SAP_szkola_wilka"
+			spriteType = "GFX_SAP_school_dove"
 			centerposition = yes
-			scale = 2
 		}
 	}
 }

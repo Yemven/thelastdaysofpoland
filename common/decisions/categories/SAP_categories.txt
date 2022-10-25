@@ -11,8 +11,10 @@ SAP_balance_of_power_category = {
 		
 	}
 }
+
 SAP_sanity = {
 	icon = GFX_SAP_Flag
+	picture = GFX_SAP_sanity_gfx
 	
 	allowed = {
 		original_tag = SAP
@@ -26,6 +28,7 @@ SAP_sanity = {
 		}
 	}
 }
+
 
 SAP_witcher_schools_category = {
 	icon = GFX_decision_category_power_struggle
