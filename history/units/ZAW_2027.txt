@@ -1,10 +1,19 @@
 division_template = {
-	name = "Batalion Piechoty"
+	name = "Batalion Jurajski"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "GOPR"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
 	}
 }
 
@@ -19,7 +28,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Służba Porządkowa"
+	name = "Orli Strażnicy"
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
 		melee_infantry = { x = 0 y = 1 }
@@ -29,52 +38,66 @@ division_template = {
 
 units = {
     division = {
-		name = "1 Myszkowski Batalion Piechoty"
+		name = "Grupa Jurajska GOPR"
+		location = 3031
+		division_template = "GOPR"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+    division = {
+		name = "1 Myszkowski Batalion Jurajski"
 		location = 8729
-		division_template = "Batalion Piechoty"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		division_template = "Batalion Jurajski"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
 	}
     division = {
-		name = "2 Zawierciański Batalion Piechoty"
+		name = "2 Zawierciański Batalion Jurajski"
 		location = 2142
-		division_template = "Batalion Piechoty"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-    division = {
-		name = "3 Szczekociński Batalion Piechoty"
-		location = 2060
-		division_template = "Batalion Piechoty"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		division_template = "Batalion Jurajski"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
 	}
 	division = {
 		name = "Batalion ON 'Łazy'"
 		location = 2681
 		division_template = "Obrona Narodowa"
 		start_experience_factor = 0
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Batalion ON 'Ogrodzieniec'"
 		location = 3031
 		division_template = "Obrona Narodowa"
 		start_experience_factor = 0
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
 		name = "Batalion ON 'Poraj'"
 		location = 2868
 		division_template = "Obrona Narodowa"
 		start_experience_factor = 0
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
-		name = "Kompania SP 'Będusz'"
-		location = 8722
-		division_template = "Służba Porządkowa"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		name = "Strażnica Łutowiec"
+		location = 3473
+		division_template = "Orli Strażnicy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Strażnica Przewodziszowice"
+		location = 2810
+		division_template = "Orli Strażnicy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Strażnica Suliszowice"
+		location = 8716
+		division_template = "Orli Strażnicy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 }

@@ -35,28 +35,35 @@ units = {
 		name = "Liswarta Ultras"
 		location = 8516
 		division_template = "Kibole"
-		start_experience_factor = 0.1
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Oksza Ultras"
+		location = 8485
+		division_template = "Kibole"
+		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "Olimpia Ultras"
 		location = 8473
 		division_template = "Kibole"
-		start_experience_factor = 0.1
+		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "Znicz Ultras"
 		location = 8480
 		division_template = "Kibole"
-		start_experience_factor = 0.1
+		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "Grom Ultras"
 		location = 8488
 		division_template = "Kibole"
-		start_experience_factor = 0.1
+		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 }

@@ -1,4 +1,13 @@
 division_template = {
+	name = "Batalion Przemysłowy"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
 	name = "Batalion Czerwonych Sztandarów"
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -18,37 +27,47 @@ division_template = {
 }
 
 units = {
+
     division = {
-		name = "Batalion im. Edmunda Cedlera"
+		name = "Orszak z Huty Bankowej"
+		location = 3201
+		division_template = "Batalion Przemysłowy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+    division = {
+		name = "1 Batalion im. Edmunda Cedlera"
 		location = 2829
 		division_template = "Batalion Czerwonych Sztandarów"
-		start_experience_factor = 0
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 
 	division = {
-		name = "Batalion im. Juliana Marchlewskiego"
+		name = "2 Batalion im. Juliana Marchlewskiego"
 		location = 3201
 		division_template = "Batalion Czerwonych Sztandarów"
-		start_experience_factor = 0
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
 	}
 	
 	division = {
 		name = "Batalion im. Feliksa Dzierżyńskiego"
 		location = 7743
 		division_template = "Batalion Czerwonych Sztandarów"
-		start_experience_factor = 0
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "Batalion im. Aleksandra Zawadzkiego"
+		name = "4 Batalion im. Aleksandra Zawadzkiego"
 		location = 7755
 		division_template = "Batalion Czerwonych Sztandarów"
-		start_experience_factor = 0
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
 	}
+	
 	division = {
 		name = "Manhattan Boys"
 		location = 7749

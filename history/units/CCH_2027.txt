@@ -1,5 +1,7 @@
+
+
 division_template = {
-	name = "Batalion Piechoty"
+	name = "Dekanat Piechoty"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -19,7 +21,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Pielgrzymi"
+	name = "Zakonnicy"
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
 		melee_infantry = { x = 0 y = 1 }
@@ -29,45 +31,67 @@ division_template = {
 
 units = {
     division = {
-		name = "132 Batalion Lekkiej Piechoty"
+		name = "2 Dekanat Piechoty im. Stefana Wyszyńskiego"
 		location = 3953
-		division_template = "Batalion Piechoty"
+		division_template = "Dekanat Piechoty"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 	}
     division = {
-		name = "1 Częstochowski Batalion Piechoty"
+		name = "1 Dekanat Piechoty im. Andrzeja Kmicica"
 		location = 8524
-		division_template = "Batalion Piechoty"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-    division = {
-		name = "2 Koniecpolski Batalion Piechoty"
-		location = 8585
-		division_template = "Batalion Piechoty"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		division_template = "Dekanat Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
 	}
 	division = {
 		name = "Rycerze Najmana"
 		location = 3957
 		division_template = "Straż Jasnogórska"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-	}
-	division = {
-		name = "Milicja Zakonu Paulinów"
-		location = 3922
-		division_template = "Pielgrzymi"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "Milicja Zakonu Szpitalników"
-		location = 8532
-		division_template = "Pielgrzymi"
-		start_experience_factor = 0.1
+		name = "Gwardia Najświętszej Maryi"
+		location = 3957
+		division_template = "Straż Jasnogórska"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
+	division = {
+		name = "Towarzystwo Jezusowe"
+		location = 8530
+		division_template = "Zakonnicy"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Zgromadzenie Braci Monfort Świętego Gabriela"
+		location = 8532
+		division_template = "Zakonnicy"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Zakon Braci Mniejszych"
+		location = 3922
+		division_template = "Zakonnicy"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Zakon Braci Mniejszych Konwentualnych"
+		location = 8522
+		division_template = "Zakonnicy"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Zakon Braci Mniejszych Kapucynów"
+		location = 8529
+		division_template = "Zakonnicy"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+
 }
