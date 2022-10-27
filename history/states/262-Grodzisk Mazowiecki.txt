@@ -2,12 +2,19 @@ state={
 	id=262
 	name="STATE_262"
 	provinces={
-		1274 2004 2304 3785 
+		1274 2004 2304 3785 6414 6378 6463 5707 5490 4828 5089 5163 6826 6685 4958 6758 4888 4299 6084 6750 6791 5725 6748 4427 6167 4698 5729
 	}
 	manpower = 94516   state_category = large_town
 	buildings_max_level_factor=1.000
 			history = {
 		owner = ZYR
+		victory_points = { 2004 10 }
+		victory_points = { 1274 5 }
+		victory_points = { 6414 3 }
+		victory_points = { 4299 2 }
+		victory_points = { 6791 2 }
+		victory_points = { 6685 2 }
+		victory_points = { 6758 2 }
 		add_core_of = ZYR
 	buildings = {
 	infrastructure = 6
