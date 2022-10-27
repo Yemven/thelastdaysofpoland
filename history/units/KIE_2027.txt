@@ -9,7 +9,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Gwardia Cieszyńska"
+	name = "Milicja Prokuratorska"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -19,55 +19,56 @@ division_template = {
 }
 
 division_template = {
-	name = "Górolska Banda"
+	name = "Straż Obywatelska"
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
 		melee_infantry = { x = 0 y = 1 }
-		melee_infantry = { x = 0 y = 2 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
 	}
 }
 
 units = {
-    division = {
-		name = "133 Batalion Lekkiej Piechoty"
-		location = 8029
-		division_template = "Batalion Piechoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-    division = {
-		name = "1 Skoczowski Batalion Piechoty"
-		location = 4102
-		division_template = "Batalion Piechoty"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-	}
-    division = {
-		name = "2 Ustroński Batalion Piechoty"
-		location = 3184
+	division = {
+		name = "1 Kielecki Batalion Piechoty"
+		location = 3262
 		division_template = "Batalion Piechoty"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Straż Olziańska"
-		location = 2657
-		division_template = "Gwardia Cieszyńska"
-		start_experience_factor = 0.1
+		name = "2 Kielecki Batalion Piechoty"
+		location = 3262
+		division_template = "Batalion Piechoty"
+		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Banda Czantoryjska"
-		location = 3455
-		division_template = "Górolska Banda"
-		start_experience_factor = 0.1
+		name = "Pluton Żandarmerii Kielce"
+		location = 16871
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "MP Schaby"
+		location = 16869
+		division_template = "Milicja Prokuratorska"
+		start_experience_factor = 0.6
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Piechota z Brenny"
-		location = 8041
-		division_template = "Górolska Banda"
-		start_experience_factor = 0.1
+		name = "Straż Dąbrowska"
+		location = 3275
+		division_template = "Straż Obywatelska"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Straż Czarnowska"
+		location = 669
+		division_template = "Straż Obywatelska"
+		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 }
