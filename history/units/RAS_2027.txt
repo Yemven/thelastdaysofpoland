@@ -34,25 +34,32 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
+    division = {
+		name = "Jägerbataillon 101"
+		location = 3298
+		division_template = "Infanteriebataillon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
 	division = {
-		name = "1 Bataillon 'von Schaffgotsch'"
+		name = "Bataillon 1 'von Schaffgotsch'"
 		location = 2352
 		division_template = "Schlesische Bürgerwehr"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "2 Bataillon 'von Reden'"
+		name = "Bataillon 2 'von Reden'"
 		location = 2406
 		division_template = "Schlesische Bürgerwehr"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "3 Bataillon 'Heimatland'"
+		name = "Bataillon 3 'Heimatland'"
 		location = 7447
 		division_template = "Schlesische Bürgerwehr"
-		start_experience_factor = 0.1
+		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
@@ -60,6 +67,13 @@ units = {
 		location = 7962
 		division_template = "Freie Ritter"
 		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Landsmannschaft Schlesien"
+		location = 7949
+		division_template = "Freie Ritter"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 }

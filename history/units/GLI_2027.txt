@@ -9,6 +9,15 @@ division_template = {
 }
 
 division_template = {
+	name = "Gibkŏ Infanteryjŏ"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
 	name = "Chopy z Flintami"
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -39,14 +48,21 @@ units = {
 		location = 8325
 		division_template = "Bataliōn Infanteryje"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 	}
 	division = {
 		name = "4 Wojskowŏ Parta Ekōnōmiczny"
 		location = 8305
-		division_template = "Bataliōn Infanteryje"
+		division_template = "Gibkŏ Infanteryjŏ"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "201 Bataliōn Gibkij Infanteryje 'Heksy'"
+		location = 8311
+		division_template = "Gibkŏ Infanteryjŏ"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 	division = {
 		name = "1 Kōmpanijŏ 'Drach'"
@@ -65,6 +81,13 @@ units = {
 	division = {
 		name = "Hooligans Piast Gliwice"
 		location = 2873
+		division_template = "Ślōnske Karlusy"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Ferajn Wojacki"
+		location = 2487
 		division_template = "Ślōnske Karlusy"
 		start_experience_factor = 0
 		start_equipment_factor = 1

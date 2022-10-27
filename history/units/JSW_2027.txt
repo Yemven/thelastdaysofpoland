@@ -28,7 +28,7 @@ division_template = {
 
 units = {
     division = {
-		name = "1 Bataliōn Hajerski '"
+		name = "1 Bataliōn Hajerski 'Beboki'"
 		location = 3191
 		division_template = "Wacha Hajerskŏ"
 		start_experience_factor = 0.1
@@ -43,6 +43,13 @@ units = {
 	}
 	division = {
 		name = "1 Kōmpanijŏ Bractwa Wōnglŏ"
+		location = 7871
+		division_template = "Milicyjŏ Bractwa Wōnglŏ"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2 Kōmpanijŏ Bractwa Wōnglŏ"
 		location = 7871
 		division_template = "Milicyjŏ Bractwa Wōnglŏ"
 		start_experience_factor = 0.1
@@ -64,6 +71,13 @@ units = {
 	}
 	division = {
 		name = "Czŏrne Mantle"
+		location = 2564
+		division_template = "Grubiŏrze"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Żorskie Chopy"
 		location = 2564
 		division_template = "Grubiŏrze"
 		start_experience_factor = 0

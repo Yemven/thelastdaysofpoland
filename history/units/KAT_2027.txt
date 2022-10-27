@@ -1,15 +1,23 @@
 division_template = {
-	name = "Batalion Piechoty"
+	name = "Referat Destrukcji"
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+
 	}
 }
 
 division_template = {
-	name = "Milicja"
+	name = "Batalion Piechoty"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Jednostka Policyjna"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -28,12 +36,38 @@ division_template = {
 	}
 }
 
+
+division_template = {
+	name = "Batalion Zmotoryzowany"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+}
+
 units = {
+    division = {
+		name = "101 Batalion Ułanów Śląskich"
+		location = 7943
+		division_template = "Batalion Zmotoryzowany"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+    division = {
+		name = "Grupa Wawelberg"
+		location = 2581
+		division_template = "Referat Destrukcji"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
     division = {
 		name = "1 Batalion Piechoty 'Wolna Europa'"
 		location = 3002
 		division_template = "Batalion Piechoty"
-		start_experience_factor = 0
+		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 
@@ -41,7 +75,7 @@ units = {
 		name = "2 Batalion Piechoty 'Pomarańczowi'"
 		location = 2867
 		division_template = "Batalion Piechoty"
-		start_experience_factor = 0
+		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	
@@ -49,7 +83,23 @@ units = {
 		name = "3 Tyski Batalion Piechoty"
 		location = 7912
 		division_template = "Batalion Piechoty"
-		start_experience_factor = 0
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Komisariat I Policji"
+		location = 7934
+		division_template = "Jednostka Policyjna"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Komisariat II Policji"
+		location = 7937
+		division_template = "Jednostka Policyjna"
+		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	
