@@ -166,7 +166,6 @@ PRK_revolt_minor_KIE = {
 			KIE = { transfer_state = PREV }
 		}
 		KIE = {
-			load_oob = "KIE_2027"
 			delete_unit_template_and_units = {
 				division_template = "Batalion Piechoty"
 				disband = yes
@@ -180,6 +179,9 @@ PRK_revolt_minor_KIE = {
 				disband = yes
 			}
 		}
+		KIE = {
+			load_oob = "KIE_2027"
+			}
 	}
 }
 
