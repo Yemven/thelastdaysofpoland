@@ -6,7 +6,7 @@ ZHP_INF_BOJ_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "militia" }
 
 	# Number reservation system will tie to another group.
 
@@ -182,13 +182,12 @@ ZHP_INF_SZT_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "melee_infantry" }
 
 	fallback_name = "% Próbna Drużyna Starszoharcerska"
 
 	ordered = { 
 		1 = {"25 Radomszczańska Drużyna Starszoharcerska 'Kotwicz'"}
-		1 = { "1. Brzezińska Drużyna Harcerek Starszych 'Perły'"}
 		2 = { "11 Konstantynowska Drużyna Starszoharcerska 'Igni'"}
 		3 = { "42 Konstantynowska Drużyna Starszoharcerska 'Radium'"}
 		4 = { "Patrol Starszoharcerski 'Furia' przy 7 LDH 'Aurora'"}
@@ -228,6 +227,7 @@ ZHP_INF_SZT_01 =
 		38 = {"121 Drużyna Starszoharcerska 'Awenturyn'"}
 		39 = {"44 Drużyna Starszoharcerska 'Wataha'"}
 		40 = {"19 Terenowa Drużyna Harcerzy Starszych 'Podaj dalej'"}
+		41 = { "1. Brzezińska Drużyna Harcerek Starszych 'Perły'"}
 		
 }
 }
@@ -279,7 +279,7 @@ ZHP_INF_WED_01 = {
 		33 = {"14 Drużyna Wędrownicza 'Monoceros'"}
 		34 = {"101 Drużyna Wędrownicza 'Kruki'"}
 		35 = {"6 Wodna Drużyna Wędrownicza 'Zwrot Przez Top'"}
-		31 = {"20 Tomaszowska Drużyna Wędrownicza 'Zenit'"}
+		36 = {"20 Tomaszowska Drużyna Wędrownicza 'Zenit'"}
 		
 		
 
@@ -294,7 +294,7 @@ ZHP_INF_SZA_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "forest_infantry" }
 
 	fallback_name = "% Batalion Szarych Szeregów"
 

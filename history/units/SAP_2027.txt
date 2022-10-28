@@ -1,5 +1,6 @@
 division_template = {
 	name = "Biedna Pierdolona Piechota"
+	division_names_group = SAP_MEL_01
 	regiments = {
 		melee_infantry = { x = 0 y = 0 }
 		melee_infantry = { x = 0 y = 1 }
@@ -10,6 +11,7 @@ division_template = {
 }
 division_template = {
 		name = "Komando Scoia'tael"
+		division_names_group = SAP_MIL_01
 		regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -20,6 +22,7 @@ division_template = {
 
 	division_template = {
 	name = "Batalion Książęcy"
+	division_names_group = SAP_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
