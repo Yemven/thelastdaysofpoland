@@ -261,7 +261,7 @@ BBW_industrial_missions_category = {
 			custom_trigger_tooltip = {
 					tooltip = BBW_coal_production_tt
 					BBW = {
-					check_variable = { resource_produced@coal > 149 }
+					check_variable = { resource_produced@coal > 119 }
 					}
 				}
 			}
@@ -326,7 +326,7 @@ BBW_industrial_missions_category = {
 			custom_trigger_tooltip = {
 				tooltip = BBW_capital_buildup_tt
 					341 = {
-						infrastructure > 9
+						infrastructure > 7
 					}
 				}
 			}
@@ -402,7 +402,7 @@ BBW_industrial_missions_category = {
 			custom_trigger_tooltip = {
 				tooltip = BBW_industrial_test_tt
 					BBW = {
-					check_variable = { num_of_owned_factories > 21 }
+					check_variable = { num_of_owned_factories > 20 }
 					}
 				}
 			}

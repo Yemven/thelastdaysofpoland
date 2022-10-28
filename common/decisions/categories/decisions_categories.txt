@@ -38,7 +38,7 @@ weapon_dealer = {
 			}
 		}
 	available = {
-		num_of_available_civilian_factories > 1
+		num_of_civilian_factories > 1
 	}
 }
 looting_decisions = {
