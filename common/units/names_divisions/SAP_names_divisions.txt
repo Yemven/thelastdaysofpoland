@@ -10,7 +10,7 @@ SAP_INF_01 =
 
 	# Number reservation system will tie to another group.
 
-	fallback_name = "% Batalion Książęcy"
+	fallback_name = "%d Batalion Książęcy"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -52,7 +52,7 @@ SAP_MIL_01 =
 
 	division_types = { "militia" }
 
-	fallback_name = "% Komando Scoia'tael"
+	fallback_name = "%d Komando Scoia'tael"
 
 	ordered = { 
 		1 = {"Komando 'Brokiloéne'"}
@@ -87,7 +87,7 @@ SAP_MEL_01 = {
 
 	division_types = { "melee_infantry" }
 
-	fallback_name = "% Pierdolony Batalion"
+	fallback_name = "%d Pierdolony Batalion"
 
 	ordered = {
 		3 = { "3 Pierdolony Batalion 'Strzygi'" }

@@ -10,7 +10,7 @@ ZHP_INF_BOJ_01 =
 
 	# Number reservation system will tie to another group.
 
-	fallback_name = "% Próbna Drużyna Harcerska"
+	fallback_name = "%d Próbna Drużyna Harcerska"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -184,7 +184,7 @@ ZHP_INF_SZT_01 =
 
 	division_types = { "melee_infantry" }
 
-	fallback_name = "% Próbna Drużyna Starszoharcerska"
+	fallback_name = "%d Próbna Drużyna Starszoharcerska"
 
 	ordered = { 
 		1 = {"25 Radomszczańska Drużyna Starszoharcerska 'Kotwicz'"}
@@ -241,7 +241,7 @@ ZHP_INF_WED_01 = {
 
 	division_types = { "infantry" }
 
-	fallback_name = "% Próbna Drużyna Wędrownicza"
+	fallback_name = "%d Próbna Drużyna Wędrownicza"
 
 	ordered = {
 		1 = {"13 Radomszczańska Drużyna Wędrownicza 'Czarna Trzynastka'"}
@@ -296,7 +296,7 @@ ZHP_INF_SZA_01 =
 
 	division_types = { "forest_infantry" }
 
-	fallback_name = "% Batalion Szarych Szeregów"
+	fallback_name = "%d Batalion Szarych Szeregów"
 
 	ordered = { }
 }
