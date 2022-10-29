@@ -4,6 +4,7 @@
 
 add_namespace = WML
 add_namespace = WML_news
+add_namespace = WML_total
 
 country_event = {
 	id = WML.1
@@ -944,9 +945,20 @@ country_event = { #Wprowadzenie o Strajkujących
 	}
 }
 
+####EVENTY TOTALNEGO DIALOGU###
 
+country_event = { #Focus What Now?
+	id = WML_total.1
+	title = WML_total.1.t
+	desc = WML_total.1.desc
 
+	fire_only_once = no
+	is_triggered_only = yes
 
+	option = {
+		name = WML_total.1.a
+	}
+}
 
 
 

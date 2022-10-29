@@ -76,7 +76,7 @@ characters={
 			cost = -1
 			slot = minister_of_economy
 			idea_token = WML_min_belka
-			removal_cost = -1
+			removal_cost = 50
 			ledger = civilian
 			allowed = {
 				original_tag = WML
@@ -84,6 +84,29 @@ characters={
 			traits = { shrewd_financier }
 		}
 	}
+
+	WML_wiech={
+		name="Jakub Wiech"
+		portraits=
+		{ civilian = {
+		small = "gfx/interface/ideas/WML/WML_wiech.dds" }
+		}
+		advisor = {
+			cost = 100
+			slot = minister_of_economy
+			idea_token = WML_min_wiech
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = WML
+			}
+			visible = { 
+				has_completed_focus = WML_accursed_wiechowszczyzna
+				}
+			traits = { atomic_enthusiast }
+		}
+	}
+
 	WML_lubnauer={
 		name="Katarzyna Lubnauer"
 		portraits=

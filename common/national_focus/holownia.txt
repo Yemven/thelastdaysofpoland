@@ -1753,9 +1753,10 @@ focus_tree = {
 		}
 	}
 	
+	
 	focus = {
-		id = WML_echoes_of_confusion
-		icon = WML_echoes_of_confusion
+		id = WML_what_now
+		icon = WML_what_now
 		relative_position_id = WML_total_dialogue
 		prerequisite = { focus = WML_total_dialogue }
 		available = {
@@ -1771,27 +1772,9 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = WML_what_now
-		icon = WML_what_now
-		relative_position_id = WML_echoes_of_confusion
-		prerequisite = { focus = WML_echoes_of_confusion }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
+			country_event = {
+				id = WML_total.1
+				}
 		}
 	}
 	
@@ -1857,6 +1840,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {}
 		completion_reward = {
+			add_ideas = WML_wspolpraca_ekonomiczna
 		}
 	}
 	
@@ -1878,7 +1862,12 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-
+			custom_effect_tooltip = WML_wiech_tooltip
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = computing_tech
+			}
 		}
 	}
 	
@@ -1900,7 +1889,11 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-
+			add_political_power = 75
+			swap_ideas = {
+				remove_idea = WML_lodz_forall
+				add_idea = WML_lodz_forall2
+				}
 		}
 	}
 
@@ -1923,7 +1916,17 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = WML_lodz_forall2
+				add_idea = WML_lodz_forall3
+				}
+			every_possible_country = {
+				limit = { has_character = SAP_jacek_bartyzel }
+				random_character = {
+					limit = { is_character = SAP_jacek_bartyzel }
+					set_nationality = WML
+				}
+			}
 		}
 	}
 
@@ -1933,7 +1936,7 @@ focus_tree = {
 		relative_position_id = WML_cervantes_institute
 		prerequisite = { focus = WML_cervantes_institute }
 		available = {
-		
+			
 		}
 		
 		bypass = {
@@ -1945,6 +1948,12 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 30
+			swap_ideas = {
+				remove_idea = WML_lodz_forall3
+				add_idea = WML_lodz_forall4
+				}
 
 		}
 	}
@@ -1955,7 +1964,7 @@ focus_tree = {
 		relative_position_id = WML_cervantes_institute
 		prerequisite = { focus = WML_cervantes_institute }
 		available = {
-		
+			has_completed_focus = WML_YAHWEHCON
 		}
 		
 		bypass = {
@@ -1967,7 +1976,11 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = WML_lodz_forall4
+				add_idea = WML_lodz_forall5
+				}
+			add_stability = 0.1
 		}
 	}
 
@@ -1990,7 +2003,11 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = WML_lodz_forall5
+				add_idea = WML_lodz_forall6
+				}
+			add_political_power = 30
 		}
 	}
 
@@ -2037,6 +2054,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_ideas = wincyj_prondu
 		}
 	}
 	
@@ -2066,6 +2084,11 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
+			swap_ideas = {
+				remove_idea = WML_wspolpraca_ekonomiczna
+				add_idea = WML_wspolpraca_ekonomiczna2
+				}
+		
 		}
 	}
 	
@@ -2075,7 +2098,7 @@ focus_tree = {
 		relative_position_id = WML_unify_lodzkie_power_grid
 		prerequisite = { focus = WML_unify_lodzkie_power_grid }
 		available = {
-		
+			has_completed_focus = WML_crushing_our_carbon_footprint
 		}
 		
 		bypass = {
@@ -2087,6 +2110,18 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_wspolpraca_ekonomiczna2
+				add_idea = WML_wspolpraca_ekonomiczna3
+				}
+			random_controlled_state = {
+				prioritize = { 321 357 368 370 379 396 352 680 848 } 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -2109,6 +2144,10 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_wspolpraca_ekonomiczna3
+				add_idea = WML_wspolpraca_ekonomiczna4
+				}
 		}
 	}
 
@@ -2130,6 +2169,16 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_war_support = 0.1
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 200
+				producer = WML
+			}
+			swap_ideas = {
+				remove_idea = WML_wspolpraca_ekonomiczna4
+				add_idea = WML_wspolpraca_ekonomiczna5
+				}
 		}
 	}
 	
@@ -2151,6 +2200,28 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = infantry_armor
+			}
+			division_template = {
+				name = "Boat Marines"
+				priority = 2
+				template_counter = 44
+				regiments = {
+					marine = { x = 0 y = 0 }
+					marine = { x = 0 y = 1 }
+					marine = { x = 0 y = 2 }
+					marine = { x = 0 y = 3 }
+				}
+			}
+			576 = {
+				create_unit = {
+					division = "name = \"Coal Angels\" division_template = \"Boat Marines\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = WML
+				}
+			}
 		}
 	}
 	
@@ -2172,6 +2243,26 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = infantry_training
+			}
+			division_template = {
+				name = "Gildia Wiedźmińska"
+				priority = 2
+				template_counter = 21
+				regiments = {
+					forest_infantry = { x = 0 y = 0 }
+					forest_infantry = { x = 0 y = 1 }
+				}
+			}
+			758 = {
+				create_unit = {
+					division = "name = \"Szkoła Wilka\" division_template = \"Gildia Wiedźmińska\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = WML
+				}
+			}
 		}
 	}
 	
@@ -2193,6 +2284,10 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = { 
+				remove_idea = WML_lodz_victory
+				add_idea = WML_lodz_victory2
+				}
 		}
 	}
 	
@@ -2215,6 +2310,18 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			create_operative_leader = {
+				name = "Tiger Bonzo"
+				GFX = GFX_tiger1
+				traits = { operative_linguist operative_safe_cracker }
+				bypass_recruitment = no
+				available_to_spy_master = yes
+				nationalities = { WML }
+			}
+			swap_ideas = {
+				remove_idea = WML_lodz_victory2
+				add_idea = WML_lodz_victory3
+			}
 		}
 	}
 
@@ -2237,6 +2344,15 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_lodz_victory3
+				add_idea = WML_lodz_victory4
+			}
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = special_forces_training
+			}		
 		}
 	}
 

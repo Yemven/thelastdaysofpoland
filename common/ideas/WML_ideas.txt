@@ -229,8 +229,105 @@ ideas = {
 				modifier = {
 					 	recruitable_population_factor = 0.05
 				}
-			}		
-		WML_wspolpraca_ekonomiczna =	{
+			}
+
+		WML_lodz_forall2 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					 	recruitable_population_factor = 0.05
+						improve_relations_maintain_cost_factor = -0.3
+						opinion_gain_monthly_factor = 0.2
+				}
+			}
+
+		WML_lodz_forall3 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					 	recruitable_population_factor = 0.05
+						improve_relations_maintain_cost_factor = -0.3
+						opinion_gain_monthly_factor = 0.2
+						research_speed_factor = 0.05
+				}
+			}
+
+		WML_lodz_forall4 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					 	recruitable_population_factor = 0.05
+						improve_relations_maintain_cost_factor = -0.3
+						opinion_gain_monthly_factor = 0.2
+						research_speed_factor = 0.05
+						extra_trade_to_overlord_factor = 0.5
+				}
+			}
+
+		WML_lodz_forall5 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					 	recruitable_population_factor = 0.05
+						improve_relations_maintain_cost_factor = -0.3
+						opinion_gain_monthly_factor = 0.2
+						research_speed_factor = 0.05
+						extra_trade_to_overlord_factor = 0.5
+						resistance_activity = -0.3
+				}
+			}
+
+		WML_lodz_forall6 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					 	recruitable_population_factor = 0.05
+						improve_relations_maintain_cost_factor = -0.3
+						opinion_gain_monthly_factor = 0.2
+						research_speed_factor = 0.05
+						extra_trade_to_overlord_factor = 0.5
+						resistance_activity = -0.3
+						autonomy_manpower_share = 0.5
+				}
+			}			
+
+			
+		WML_wspolpraca_ekonomiczna = {
 				allowed = {
 					original_tag = WML
 				}
@@ -244,6 +341,76 @@ ideas = {
 					consumer_goods_factor = -0.05
 				}
 			}
+		WML_wspolpraca_ekonomiczna2 = {
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					consumer_goods_factor = -0.05
+					production_speed_wind_farm_factor = 0.2
+				}
+			}
+		WML_wspolpraca_ekonomiczna3 = {
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					consumer_goods_factor = -0.1
+					production_speed_wind_farm_factor = 0.2
+				}
+			}
+
+		WML_wspolpraca_ekonomiczna4 = {
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					consumer_goods_factor = -0.1
+					production_speed_wind_farm_factor = 0.2
+					production_speed_arms_factory_factor = 0.2
+					production_speed_industrial_complex_factor = 0.2
+					industrial_capacity_factory = 0.1
+				}
+			}
+
+		WML_wspolpraca_ekonomiczna5 = {
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					consumer_goods_factor = -0.1
+					production_speed_wind_farm_factor = 0.2
+					production_speed_arms_factory_factor = 0.2
+					production_speed_industrial_complex_factor = 0.2
+					industrial_capacity_factory = 0.1
+					out_of_supply_factor = 0.2
+				}
+			}			
+
 		WML_lodz_victory =	{
 				allowed = {
 					original_tag = WML
@@ -255,9 +422,65 @@ ideas = {
 				removal_cost = -1
 				picture = BBW_smog
 				modifier = {
-					stability_factor = 0.15
+					war_support_factor = 0.1
 				}
-			}		
+			}
+		WML_lodz_victory2 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					war_support_factor = 0.1
+					army_attack_factor = 0.15
+					army_attack_speed_factor = 0.15
+				}
+			}
+		WML_lodz_victory3 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					war_support_factor = 0.1
+					army_attack_factor = 0.15
+					army_attack_speed_factor = 0.15
+					intelligence_agency_defense = 0.2
+					operation_cost = -0.3
+				}
+			}
+
+		WML_lodz_victory3 =	{
+				allowed = {
+					original_tag = WML
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					war_support_factor = 0.1
+					army_attack_factor = 0.15
+					army_attack_speed_factor = 0.15
+					intelligence_agency_defense = 0.2
+					operation_cost = -0.3
+					recon_factor = 0.2
+					special_forces_attack_factor = 0.15
+				}
+			}
+			
 	##NOWE IDEE##
 		WML_dialog_lodz_zydzew =	{
 				allowed = {
