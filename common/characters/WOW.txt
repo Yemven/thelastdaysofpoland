@@ -11,6 +11,129 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		field_marshal = {
+			traits = { old_guard }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
 	}
-
+	WOW_jaroslaw_mika={
+		name="Jarosław Mika"
+		portraits={
+			civilian={
+				large="gfx/leaders/WOW/WOW_Mika.dds"
+				small="gfx/interface/ideas/WOW/WOW_Mika.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill=5
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		advisor = {
+			desc = "POLITICS_JAROSLAW_MIKA_DESC"
+			cost = -1
+			slot = minister_of_war
+			idea_token = WOW_min_mika
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = WOW
+			}
+		}
+	}
+	WOW_mariusz_blaszczak={
+		name="Mariusz Błaszczak"
+		portraits={
+			civilian={
+				large="gfx/leaders/WOW/WOW_Blaszczak.dds"
+				small="gfx/interface/ideas/WOW/WOW_Blaszczak.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		advisor = {
+			desc = "POLITICS_MARIUSZ_BLASZCZAK_DESC"
+			cost = -1
+			slot = head_of_government
+			idea_token = WOW_min_blaszczak
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = WOW
+			}
+			traits = { }
+		}
+	}
+	WOW_bartlomiej_misiewicz={
+		name="Bartłomiej Misiewicz"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_BARTLOMIEJ_MISIEWICZ_DESC"
+			cost = -1
+			slot = interior_minister
+			idea_token = WOW_min_misiewicz
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = WOW
+			}
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WOW_edmund_janniger={
+		name="Edmund Janniger"
+		portraits={
+			civilian={
+			}
+		}
+		advisor = {
+			desc = "POLITICS_MEDMUND_JANNIGER_DESC"
+			cost = -1
+			slot = minister_of_economy
+			idea_token = WOW_min_janniger
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = WOW
+			}
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 }
