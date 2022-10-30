@@ -582,6 +582,21 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			if = {
+				limit = {
+					AND = {
+						has_completed_focus = WML_defenders_of_faith
+						has_completed_focus = WML_mining_in_lodz
+						has_completed_focus = WML_lily_agents
+						has_completed_focus = WML_private_security_agencies
+						has_completed_focus = WML_support_of_landowners
+					}
+				}
+			set_country_flag = WML_set_dialog_total
+			}
+			else = {
+			set_country_flag = WML_set_dialog_partial
+			}
 		}
 	}	
 	
@@ -1210,7 +1225,7 @@ focus_tree = {
 		icon = WML_incomplete_compromise
 		relative_position_id = WML_election_of_vice_president
 		available = {
-		
+			has_country_flag = WML_set_dialog_partial
 		}
 		
 		bypass = {
@@ -1254,35 +1269,46 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			create_faction = "Dialogue Sphere"
+			if = { 
+				limit = {
+					WML = { has_completed_focus = WML_defenders_of_faith }
+					}
+				WML = { add_to_faction = ZYD }
+			}
+			if = { 
+				limit = {
+					WML = { has_completed_focus = WML_mining_in_lodz }
+					}
+				WML = { add_to_faction = BBW }
+			}
+			if = { 
+				limit = {
+					WML = { has_completed_focus = WML_lily_agents }
+					}
+				WML = { add_to_faction = ZHP }
+			}
+			if = { 
+				limit = {
+					WML = { has_completed_focus = WML_private_security_agencies }
+					}
+				WML = { add_to_faction = KRS }
+			}
+			if = { 
+				limit = {
+					WML = { has_completed_focus = WML_support_of_landowners }
+					}
+				WML = { add_to_faction = SAP }
+			}
 		}
 	}
 	
-	focus = {
-		id = WML_wrangle_those_loyal_to_us
-		icon = WML_wrangle_those_loyal_to_us
-		relative_position_id = WML_coalition_of_necesity
-		prerequisite = { focus = WML_coalition_of_necesity }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 2
-		search_filters = {}
-		completion_reward = {
-		}
-	}
 	
 	focus = {
 		id = WML_chaos_in_our_ranks
 		icon = WML_chaos_in_our_ranks
-		relative_position_id = WML_wrangle_those_loyal_to_us
-		prerequisite = { focus = WML_wrangle_those_loyal_to_us }
+		relative_position_id = WML_coalition_of_necesity
+		prerequisite = { focus = WML_coalition_of_necesity }
 		available = {
 		
 		}
@@ -1494,8 +1520,8 @@ focus_tree = {
 	focus = {
 		id = WML_chaos_at_homefront
 		icon = WML_chaos_at_homefront
-		relative_position_id = WML_wrangle_those_loyal_to_us
-		prerequisite = { focus = WML_wrangle_those_loyal_to_us }
+		relative_position_id = WML_coalition_of_necesity
+		prerequisite = { focus = WML_coalition_of_necesity }
 		available = {
 		
 		}
@@ -1735,7 +1761,7 @@ focus_tree = {
 		icon = WML_total_dialogue
 		relative_position_id = WML_election_of_vice_president
 		available = {
-		
+			has_country_flag = WML_set_dialog_total
 		}
 		
 		bypass = {
