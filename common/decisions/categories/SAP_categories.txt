@@ -12,6 +12,7 @@ SAP_balance_of_power_category = {
 	}
 }
 
+
 SAP_sanity = {
 	icon = GFX_SAP_Flag
 	picture = GFX_SAP_sanity_gfx
@@ -24,7 +25,7 @@ SAP_sanity = {
 	
 	visible = {
 		SAP = {
-			has_completed_focus = SAP_temerian_dream_shattered
+			has_country_flag = SAP_sanity_activation
 		}
 	}
 }
@@ -41,7 +42,7 @@ SAP_witcher_schools_category = {
 	
 	visible = {
 		SAP = {
-			has_completed_focus = SAP_establish_order_of_witchers
+			has_country_flag = SAP_witchers_activation
 		}
 	}
 	
