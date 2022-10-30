@@ -24,7 +24,9 @@ focus_tree = {
 		id = WML_new_morning_in_old_lodz
 		icon = WML_new_morning_in_old_lodz
 		available = {
-		
+			WML = {
+				is_ai = no
+				}
 		}
 		
 		bypass = {
@@ -1226,6 +1228,9 @@ focus_tree = {
 		relative_position_id = WML_election_of_vice_president
 		available = {
 			has_country_flag = WML_set_dialog_partial
+			WML = {
+				is_ai = no
+				}
 		}
 		
 		bypass = {
@@ -1762,6 +1767,9 @@ focus_tree = {
 		relative_position_id = WML_election_of_vice_president
 		available = {
 			has_country_flag = WML_set_dialog_total
+			WML = {
+				is_ai = no
+				}
 		}
 		
 		bypass = {
