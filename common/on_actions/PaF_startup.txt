@@ -227,10 +227,11 @@ on_actions = {
 	}
 	on_weekly = {
 		effect = {
+			immediate = { log = "[GetDateText]: energy tick" }
 			every_country = {
 				calculate_energy_balance = yes
 			}
-			log = "energy tick"
+			log = "[GetDateText]: energy tock"
 		}
 	}
 	on_daily_ZHR = {
@@ -304,7 +305,7 @@ on_actions = {
 					}
 				}
 			}
-			log = "pakt energetyczny zerwany"
+			log = "[GetDateText]: [ROOT.GetName] cancels energy imports"
 		}
 	}
 }

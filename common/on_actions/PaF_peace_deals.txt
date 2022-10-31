@@ -54,6 +54,7 @@ on_actions = {
 							transfer_state = 823
 						}
 					}
+					log = "[GetDateText]: UMN and TRN beaten [ROOT.GetName]"
 					set_global_flag = skip_default_capitulation
 				}
 				if = {
@@ -80,6 +81,7 @@ on_actions = {
 							transfer_state = 800
 						}
 					}
+					log = "[GetDateText]: HOR and OSW beaten [ROOT.GetName]"
 					set_global_flag = skip_default_capitulation
 				}
 			if = {
@@ -115,6 +117,7 @@ on_actions = {
 							transfer_state = 407
 						}
 					}
+					log = "[GetDateText]: Touristenkrieg ended"
 					set_global_flag = skip_default_capitulation
 			}
 			if = {
@@ -151,6 +154,7 @@ on_actions = {
 							transfer_state = 292
 						}
 					}
+					log = "[GetDateText]: Kesselring ded"
 					set_global_flag = skip_default_capitulation
 				}
 			if = {
@@ -167,6 +171,7 @@ on_actions = {
 						id = zhp.21
 					}
 				}
+				log = "[GetDateText]: ZHP whacked greys"
 			}
 			if = {
 				limit = {
@@ -191,6 +196,7 @@ on_actions = {
 				set_country_leader_ideology = scout_system_subtype
 				set_global_flag = ZHP_civil_war_lost
 				set_global_flag = skip_default_capitulation
+				log = "[GetDateText]: ZHP lost to greys"
 			}
 			if = {
 				limit = {
@@ -215,6 +221,7 @@ on_actions = {
 				set_country_leader_ideology = paternal_conservatism_subtype
 				set_global_flag = ZHP_civil_war_lost
 				set_global_flag = skip_default_capitulation
+				log = "[GetDateText]: ZHP lost to archbishop"
 			}
 			if = {	
 				limit = {
