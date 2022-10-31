@@ -1327,6 +1327,22 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			if = {
+				limit = { check_variable = { WML.num_faction_members = 2 } } 
+					add_ideas = WML_dialog_scaling_mil_4
+				}
+			if = {
+				limit = { check_variable = { WML.num_faction_members = 3 } } 
+					add_ideas = WML_dialog_scaling_mil_3
+				}
+			if = {
+				limit = { check_variable = { WML.num_faction_members = 4 } } 
+					add_ideas = WML_dialog_scaling_mil_2
+				}
+			if = {
+				limit = { check_variable = { WML.num_faction_members = 5 } } 
+					add_ideas = WML_dialog_scaling_mil_1
+				}
 		}
 	}
 	
@@ -1540,6 +1556,22 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			if = {
+				limit = { check_variable = { WML.num_faction_members = 2 } } 
+					add_ideas = WML_dialog_scaling_civ_4
+				}
+			if = {
+				limit = { check_variable = { WML.num_faction_members = 3 } } 
+					add_ideas = WML_dialog_scaling_civ_3
+				}
+			if = {
+				limit = { check_variable = { WML.num_faction_members = 4 } } 
+					add_ideas = WML_dialog_scaling_civ_2
+				}
+			if = {
+				limit = { check_variable = { WML.num_faction_members = 5 } } 
+					add_ideas = WML_dialog_scaling_civ_1
+				}
 		}
 	}
 	
