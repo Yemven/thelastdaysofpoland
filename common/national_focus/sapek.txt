@@ -91,6 +91,9 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = SAP_sanity_activation
+			}
 			country_event = {
 				id = sapek.3
 				days = 1 
@@ -1337,6 +1340,9 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = SAP_witchers_activation
+			}
 			add_corps_commander_role = {
 				character = SAP_zebrowski
 				traits = { commando skirmisher  }

@@ -37,8 +37,14 @@ lodz_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = SAP }
-			set_cosmetic_tag = SAP_voivodeship
+			limit = { tag = SAP
+					 check_variable = {
+						var = sapek_sanity
+						value = 50
+						compare = greater_than_or_equals
+					} 
+					}
+			set_cosmetic_tag = SAP_sane_voivodeship
 			set_global_flag = lodzkie_unified
 			hidden_effect = {
 				every_country = {
@@ -48,7 +54,26 @@ lodz_voivodeship_unification = {
 			}
 			custom_effect_tooltip = SAP_unifies_lodz_tooltip
 		}
+		
 
+		else_if = {
+			limit = { tag = SAP 
+					 check_variable = {
+						var = sapek_sanity
+						value = 50
+						compare = less_than
+					} 
+			}
+			set_cosmetic_tag = SAP_insane_voivodeship
+			set_global_flag = lodzkie_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unification.5 }
+				}
+			}
+			custom_effect_tooltip = SAP_unifies_lodz_tooltip
+		}
 
 
 		else_if = {

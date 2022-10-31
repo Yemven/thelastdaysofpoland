@@ -1292,10 +1292,6 @@ focus_tree = {
 		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
 		will_lead_to_war_with = KRS
 		available = {
-		  NOT = { has_war = yes }
-		  NOT = { country_exists = BBW }
-		  NOT = { country_exists = ZHP }
-		  KRS = { num_of_controlled_states > 1 }
 		}
 		
 		bypass = {
@@ -1325,10 +1321,6 @@ focus_tree = {
 		prerequisite = { focus = ZYD_new_synagogues_and_stadiums }
 		will_lead_to_war_with = SAP
 		available = {
-		  NOT = { has_war = yes }
-		  NOT = { country_exists = BBW }
-		  NOT = { country_exists = ZHP }
-		  SAP = { num_of_controlled_states > 1 }
 		}
 		
 		bypass = {
@@ -1488,9 +1480,7 @@ focus_tree = {
 		prerequisite = { focus = ZYD_recruit_collaborators }
 		will_lead_to_war_with = KRS
 		available = {
-		  NOT = { has_war = yes }
-		  NOT = { country_exists = BBW }
-		  NOT = { country_exists = ZHP }
+			NOT = { has_war_with = KRS }
 		}
 		
 		bypass = {
@@ -1520,9 +1510,7 @@ focus_tree = {
 		prerequisite = { focus = ZYD_recruit_collaborators }
 		will_lead_to_war_with = SAP
 		available = {
-		  NOT = { has_war = yes }
-		  NOT = { country_exists = BBW }
-		  NOT = { country_exists = ZHP }
+			NOT = { has_war_with = SAP }
 		}
 		
 		bypass = {
@@ -1550,13 +1538,12 @@ focus_tree = {
 		icon = ZYD_promised_land
 		relative_position_id = ZYD_meeting
 		will_lead_to_war_with = WML
-		prerequisite = { 		focus = ZYD_rotten_capitalism 
-								focus = ZYD_slavic_reactionism 
-							}
-		prerequisite = { 
-								focus = ZYD_last_obstacle 
-								focus = ZYD_blooming_business 
-							}
+		prerequisite = { 		
+			focus = ZYD_rotten_capitalism 
+			focus = ZYD_slavic_reactionism 
+			focus = ZYD_last_obstacle 
+			focus = ZYD_blooming_business 
+			}
 		available = {
 		  NOT = { has_war = yes }
 		  NOT = { country_exists = BBW }
@@ -1595,11 +1582,6 @@ focus_tree = {
 		prerequisite = { focus = ZYD_promised_land }
 		available = {
 		  NOT = { has_war = yes }
-		  NOT = { country_exists = BBW }
-		  NOT = { country_exists = ZHP }
-		  NOT = { country_exists = KRS }
-		  NOT = { country_exists = SAP }
-		  NOT = { country_exists = WML }
 		}
 		
 		bypass = {
