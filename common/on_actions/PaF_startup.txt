@@ -225,13 +225,11 @@ on_actions = {
 			}
 		}
 	}
-	on_weekly = {
+	on_daily = {
 		effect = {
-			log = "[GetDateText]: energy tick"
-			every_country = {
+			#every_country = {
 				calculate_energy_balance = yes
-			}
-			log = "[GetDateText]: energy tock"
+			#}
 		}
 	}
 	on_daily_ZHR = {
