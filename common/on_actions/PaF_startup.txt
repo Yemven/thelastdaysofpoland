@@ -4,6 +4,7 @@ on_actions = {
 			every_state = {
 				set_variable = { coring_cost = state_population_k }
 				set_variable = { coring_time = coring_cost }
+				multiply_variable = { coring_cost = 0.6 }
 				divide_variable = { coring_time = 2 }
 				round_variable = coring_cost
 				round_variable = coring_time
