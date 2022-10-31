@@ -38,6 +38,7 @@ focus_tree = {
 		cost = 0.4
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+			log = "[GetDateText]: Focus WML_new_morning_in_old_lodz"
 			#lore evencik pokazujący jak ludzie żyją w łodzi jakby nic się nie zmieniło 
 			country_event = {
 			id = WML.1 
@@ -64,6 +65,7 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus WML_new_morning_in_old_lodz"
 			#lore event pokazujący że cała ta sielanka to iluzja i wyparcie prawdy. W praktyce kolorowo nie jest i miasto ma wiele problemów. Event opowiada po krótko o 3 najważniejszych.
 			#po tym evencie ma się odpalić następny który to pokazuje że każdy z problemów można rozwiązać za pomocą dialogu lub na własną rękę
 		country_event = {
@@ -90,6 +92,7 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_and_a_look_onto_the_stage"
 			#jakiś lore event trza zrobić
 		country_event = {
 			id = WML.22
@@ -117,6 +120,7 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_hungry_and_lost"
 			#jakiś lore event trza zrobić
 		country_event = {
 			id = WML.23
@@ -142,6 +146,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			log = "[GetDateText]: Focus WML_energy_issues"
 			#wybór pomiędzy opieraniem się na bractwie czy zamiana spowrotem ec1 na elektrownie 
 			country_event = {
 			id = WML.4
@@ -168,6 +173,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_food_shortages"
 			#wybór pomiędzy współpracą z sapkiem lub rozwiązanie tego samemu
 			country_event = {
 			id = WML.5
@@ -194,6 +200,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_lack_of_materials"
 			#wybór pomiędzy współpracą z konsorcjum lub wprowadzenie ograniczeń i recyklingu
 			country_event = {
 			id = WML.6
@@ -222,6 +229,7 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_why_cant_we_just_agree"
 			#jakiś lore event trza zrobić
 		country_event = {
 			id = WML.24
@@ -248,6 +256,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_minuscule_civil_guard"
 		#pomoc od harcerzy w strzeżeniu ulic Łodzi
 		#albo pobór każdego 
 		
@@ -274,6 +283,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_striking_workers"
 		#pomoc od żydów jak naprawić sytuację łódzkich robotników
 		custom_effect_tooltip = WML_strikes_removal_tt
 		country_event = {
@@ -299,6 +309,7 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_sow_the_seeds_of_dialogue"
 			#jakiś lore event trza zrobić
 		country_event = {
 			id = WML.29
@@ -321,6 +332,7 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_city_will_hold_on"
 		custom_effect_tooltip = WML_three_problems_removal_tt
 			country_event = {
 			id = WML.3
@@ -351,6 +363,7 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_the_beginning_of_the_dialogue"
 		#jakiś lore event trza zrobić
 		country_event = {
 			id = WML.30
@@ -374,6 +387,7 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_insider_perspective"
 		#jakiś lore event trza zrobić
 		country_event = {
 			id = WML.31
@@ -397,6 +411,7 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_send_out_delegations"
 		add_political_power = 10
 			#jakiś lore event trza zrobić
 			country_event = {
@@ -422,6 +437,7 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_election_of_vice_president"
 			country_event = {
 				id = WML.7 
 			}
@@ -444,6 +460,7 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_convene_general_assembly"
 			set_variable = { dialogue_SAP = 0}
 			set_variable = { dialogue_BBW = 0}
 			set_variable = { dialogue_ZHP = 0}
@@ -468,6 +485,7 @@ focus_tree = {
 		cost = 0.2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_lodz_among_spokesmen"
 			add_political_power = 100
 			add_stability = 0.1
 		}
@@ -489,6 +507,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_hold_onto_normality"
 		}
 	}
 	
@@ -508,6 +527,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_crackdown_on_consoomers"
 		}
 	}
 	
@@ -527,6 +547,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_pamper_delegations"
 		}
 	}
 
@@ -546,6 +567,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_ultimate_compromise"
 		}
 	}
 
@@ -554,7 +576,9 @@ focus_tree = {
 		icon = WML_send_final_letters
 		relative_position_id = WML_convene_general_assembly
 		prerequisite = { focus = WML_convene_general_assembly }
-		available = {}
+		available = {
+			date > 2028.05.01
+		}
 
 		bypass = {
 		}
@@ -562,9 +586,10 @@ focus_tree = {
 		x = 0
 		y = 6
 		
-		cost = 2
+		cost = 1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_send_final_letters"
 		}
 	}
 
@@ -584,6 +609,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_hold_great_conference"
 			if = {
 				limit = {
 					AND = {
@@ -621,6 +647,7 @@ focus_tree = {
 		cost = 0.2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_industrial_lodz"
 			add_political_power = 50
 			add_ideas = WML_dialog_lodz_bractwo
 			add_opinion_modifier = {
@@ -648,6 +675,7 @@ focus_tree = {
 		cost = 0.2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_forest_lodz"
 			add_political_power = 50
 			add_ideas = WML_dialog_lodz_harcerze
 			add_opinion_modifier = {
@@ -672,6 +700,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_lodz_industry"
 			swap_ideas = {
 				remove_idea = WML_dialog_lodz_bractwo
 				add_idea = WML_dialog_lodz_bractwo2
@@ -694,6 +723,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_renovation_of_lask_airport"
 			317 = {
 					add_building_construction = {
 						type = air_base
@@ -727,6 +757,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_state_positions_for_the_power_plant_staff"
 			swap_ideas = {
 				remove_idea = WML_dialog_lodz_bractwo2
 				add_idea = WML_dialog_lodz_bractwo3
@@ -750,6 +781,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_mining_in_lodz"
 			swap_ideas = {
 				remove_idea = WML_dialog_lodz_bractwo3
 				add_idea = WML_dialog_lodz_bractwo4
@@ -773,6 +805,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_construction_of_parks"
 			576 = {
 					add_building_construction = {
 						type = infrastructure
@@ -803,6 +836,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_scout_commandos"
 		swap_ideas = {
 				remove_idea = WML_dialog_lodz_harcerze2
 				add_idea = WML_dialog_lodz_harcerze3
@@ -826,6 +860,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_spartan_standards"
 		swap_ideas = {
 				remove_idea = WML_dialog_lodz_harcerze3
 				add_idea = WML_dialog_lodz_harcerze4
@@ -849,6 +884,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_lily_agents"
 		swap_ideas = {
 				remove_idea = improvised_security
 				add_idea = basic_security
@@ -883,6 +919,7 @@ focus_tree = {
 		cost = 0.2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_fantastical_lodz"
 			add_political_power = 50
 			add_ideas = WML_dialog_lodz_sapek
 			add_opinion_modifier = {
@@ -910,6 +947,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_ignacy_moscicki_potions_laboratory"
 		swap_ideas = {
 				remove_idea = WML_dialog_lodz_sapek
 				add_idea = WML_dialog_lodz_sapek2
@@ -933,6 +971,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_wizardring_schools"
 		swap_ideas = {
 				remove_idea = WML_dialog_lodz_sapek2
 				add_idea = WML_dialog_lodz_sapek3
@@ -956,6 +995,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_witcher_training"
 		swap_ideas = {
 				remove_idea = WML_dialog_lodz_sapek3
 				add_idea = WML_dialog_lodz_sapek4
@@ -979,6 +1019,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_support_of_landowners"
 		swap_ideas = {
 				remove_idea = trade_regulated
 				add_idea = trade_promoted
@@ -1004,6 +1045,7 @@ focus_tree = {
 		cost = 0.2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_fairer_lodz"
 			add_political_power = 50
 			add_ideas = WML_dialog_lodz_zydzew
 			add_opinion_modifier = {
@@ -1029,6 +1071,7 @@ focus_tree = {
 		cost = 0.2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_the_primacy_of_entrepreneurs"
 			add_political_power = 50
 			add_ideas = WML_dialog_lodz_triumwirat
 			add_opinion_modifier = {
@@ -1054,6 +1097,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_the_rights_of_religious_minorities"
 			swap_ideas = {
 				remove_idea = partial_secularism
 				add_idea = full_secularism
@@ -1076,6 +1120,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_primacy_of_trade_unions"
 			swap_ideas = {
 				remove_idea = WML_dialog_lodz_zydzew
 				add_idea = WML_dialog_lodz_zydzew2
@@ -1098,6 +1143,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_co_-_financing_of_sports"
 			swap_ideas = {
 				remove_idea = WML_dialog_lodz_zydzew2
 				add_idea = WML_dialog_lodz_zydzew3
@@ -1121,6 +1167,7 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			swap_ideas = {
+			log = "[GetDateText]: Focus WML_defenders_of_faith"
 				remove_idea = WML_dialog_lodz_zydzew3
 				add_idea = WML_dialog_lodz_zydzew4
 			}
@@ -1142,6 +1189,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_preferential_government_contracts"
 		add_equipment_to_stockpile = {
 			type = ranged_equipment_1
 			amount = 1000
@@ -1169,6 +1217,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_tax_breaks"
 			swap_ideas = {
 					add_idea = taxes_low
 					remove_idea = taxes_medium
@@ -1192,6 +1241,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_graves_of_an_unknown_soldier"
 			swap_ideas = {
 				remove_idea = WML_dialog_lodz_triumwirat2
 				add_idea = WML_dialog_lodz_triumwirat3
@@ -1215,6 +1265,7 @@ focus_tree = {
 		cost = 0.1
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_private_security_agencies"
 			swap_ideas = {
 				remove_idea = WML_dialog_lodz_triumwirat3
 				add_idea = WML_dialog_lodz_triumwirat4
@@ -1242,6 +1293,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_incomplete_compromise"
 			if = {
 				limit = { has_country_flag = WML_Gill_piatek_remains	}	
 					country_event = {
@@ -1273,6 +1325,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_coalition_of_necesity"
 			create_faction = "Dialogue Sphere"
 			if = { 
 				limit = {
@@ -1326,6 +1379,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_chaos_at_homefront"
 			if = {
 				limit = { check_variable = { WML.num_faction_members = 2 } } 
 					add_ideas = WML_dialog_scaling_mil_4
@@ -1363,6 +1417,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_conflicted_soldiers"
 			add_ideas = WML_dialog_unscaling_mil_1
 		}
 	}
@@ -1385,6 +1440,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_commanders_in_turmoil"
 			swap_ideas = {
 				remove_idea = WML_dialog_unscaling_mil_1
 				add_idea = WML_dialog_unscaling_mil_2
@@ -1412,6 +1468,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_bring_order_to_chaos"
 			swap_ideas = {
 				remove_idea = WML_dialog_unscaling_mil_2
 					add_idea = WML_dialog_unscaling_mil_3
@@ -1438,6 +1495,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_refurbish_old_trucks"
 			swap_ideas = {
 				remove_idea = WML_dialog_unscaling_mil_3
 					add_idea = WML_dialog_unscaling_mil_4
@@ -1468,6 +1526,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_polish_our_military_tactics"
 			swap_ideas = {
 				remove_idea = WML_dialog_unscaling_mil_4
 					add_idea = WML_dialog_unscaling_mil_5
@@ -1496,6 +1555,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_call_upon_reservists"
 			swap_ideas = {
 				remove_idea = WML_dialog_unscaling_mil_5
 					add_idea = WML_dialog_unscaling_mil_6
@@ -1523,6 +1583,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_coordinate_our_war_bureaus"
 			swap_ideas = {
 				remove_idea = WML_dialog_unscaling_mil_6
 					add_idea = WML_dialog_unscaling_mil_7
@@ -1548,6 +1609,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_fighting_the_good_fight"
 			add_war_support = 0.1
 			every_country = {
 				limit = { 
@@ -1581,6 +1643,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_chaos_at_homefront"
 			if = {
 				limit = { check_variable = { WML.num_faction_members = 2 } } 
 					add_ideas = WML_dialog_scaling_civ_4
@@ -1618,6 +1681,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_haphazardly_merge_our_governance"
 			add_ideas = WML_dialog_unscaling_civ_1
 		}
 	}
@@ -1640,6 +1704,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_pool_our_chips"
 			swap_ideas = {
 				remove_idea = WML_dialog_unscaling_civ_1
 					add_idea = WML_dialog_unscaling_civ_2
@@ -1675,6 +1740,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_rebuilding_the_cities"
 			swap_ideas = {
 				remove_idea = WML_dialog_unscaling_civ_2
 					add_idea = WML_dialog_unscaling_civ_3
@@ -1700,6 +1766,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_extra_pay_for_overtime"
 			swap_ideas = {
 				remove_idea = WML_dialog_unscaling_civ_3
 					add_idea = WML_dialog_unscaling_civ_4
@@ -1735,6 +1802,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_sync_up_our_networks"
 			every_country = {
 				limit = { is_in_faction_with = WML }
 					capital_scope = {
@@ -1767,6 +1835,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_connect_our_roads"
 			every_country = {
 				limit = { is_in_faction_with = WML }
 					capital_scope = {
@@ -1806,6 +1875,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_spread_propaganda"
 			add_stability = 0.1
 			add_war_support = 0.05
 		}
@@ -1831,6 +1901,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_workers_of_frontlines"
 			swap_ideas = {
 				remove_idea = WML_dialog_unscaling_civ_4
 					add_idea = WML_dialog_unscaling_civ_5
@@ -1858,6 +1929,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_we_did_our_best"
 		}
 	}
 	
@@ -1879,6 +1951,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_let_that_be_our_legacy"
 		}
 	}
 
@@ -1903,6 +1976,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_total_dialogue"
 						country_event = {
 			id = WML.15
 			}
@@ -1929,6 +2003,7 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			country_event = {
+			log = "[GetDateText]: Focus WML_what_now"
 				id = WML_total.1
 				}
 		}
@@ -1953,6 +2028,7 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			add_ideas = WML_lodz_forall
+			log = "[GetDateText]: Focus WML_system"
 		}
 	}
 	
@@ -1974,6 +2050,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_military"
 			add_ideas = WML_lodz_victory
 		}
 	}
@@ -1996,6 +2073,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_economy"
 			add_ideas = WML_wspolpraca_ekonomiczna
 		}
 	}
@@ -2018,6 +2096,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_accursed_wiechowszczyzna"
 			custom_effect_tooltip = WML_wiech_tooltip
 			add_tech_bonus = {
 				bonus = 0.5
@@ -2045,6 +2124,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_launch_the_tvl"
 			add_political_power = 75
 			swap_ideas = {
 				remove_idea = WML_lodz_forall
@@ -2072,6 +2152,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_cervantes_institute"
 			swap_ideas = {
 				remove_idea = WML_lodz_forall2
 				add_idea = WML_lodz_forall3
@@ -2104,6 +2185,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_YAHWEHCON"
 			add_stability = 0.1
 			add_political_power = 30
 			swap_ideas = {
@@ -2132,6 +2214,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_unite_the_abrahamic_faiths"
 			swap_ideas = {
 				remove_idea = WML_lodz_forall4
 				add_idea = WML_lodz_forall5
@@ -2159,6 +2242,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_lodzkie_cultural_hodgepodge"
 			swap_ideas = {
 				remove_idea = WML_lodz_forall5
 				add_idea = WML_lodz_forall6
@@ -2187,6 +2271,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_6_warlords_under_1_union"
 
 		}
 	}	
@@ -2210,6 +2295,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_unify_lodzkie_power_grid"
 			add_ideas = wincyj_prondu
 		}
 	}
@@ -2232,6 +2318,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_crushing_our_carbon_footprint"
 			757 = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
@@ -2266,6 +2353,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_fields_of_flowers"
 			swap_ideas = {
 				remove_idea = WML_wspolpraca_ekonomiczna2
 				add_idea = WML_wspolpraca_ekonomiczna3
@@ -2300,6 +2388,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_lodzermensch"
 			swap_ideas = {
 				remove_idea = WML_wspolpraca_ekonomiczna3
 				add_idea = WML_wspolpraca_ekonomiczna4
@@ -2325,6 +2414,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_caravans_of_death"
 			add_war_support = 0.1
 			add_equipment_to_stockpile = {
 				type = motorized_equipment_1
@@ -2356,6 +2446,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_paladins_in_shining_armor"
 			add_tech_bonus = {
 				bonus = 0.75
 				uses = 1
@@ -2399,6 +2490,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_creating_real_witchers"
 			add_tech_bonus = {
 				bonus = 0.75
 				uses = 1
@@ -2440,6 +2532,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_carbon_based_stimulants"
 			swap_ideas = { 
 				remove_idea = WML_lodz_victory
 				add_idea = WML_lodz_victory2
@@ -2466,6 +2559,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_mossad_branch"
 			create_operative_leader = {
 				name = "Tiger Bonzo"
 				GFX = GFX_tiger1
@@ -2500,6 +2594,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_scoiatael_rangers"
 			swap_ideas = {
 				remove_idea = WML_lodz_victory3
 				add_idea = WML_lodz_victory4
@@ -2531,7 +2626,7 @@ focus_tree = {
 		cost = 0.4
 		search_filters = {}
 		completion_reward = {
-		
+		log = "[GetDateText]: Focus WML_or_will_it"
 		}
 	}
 	
@@ -2553,6 +2648,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_a_broken_veil"
 		}
 	}
 	
@@ -2575,6 +2671,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_they_know_we_lied"
 		}
 	}
 
@@ -2596,6 +2693,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_and_they_want_answers"
 		}
 	}
 
@@ -2617,6 +2715,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_and_they_are_afraid"
 		}
 	}	
 
@@ -2639,6 +2738,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_to_hell_with_dialogue"
 		}
 	}
 	
@@ -2660,6 +2760,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_we_cannot_fall_behind"
 		}
 	}
 	
@@ -2682,6 +2783,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_city_guard_reserve"
 		}
 	}
 	
@@ -2703,6 +2805,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_mandatory_militia_training"
 		}
 	}
 
@@ -2725,6 +2828,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_molotov_making_lessons"
 		}
 	}
 
@@ -2746,6 +2850,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_nation_of_soldiers"
 		}
 	}
 	
@@ -2767,6 +2872,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_for_people_good"
 		}
 	}	
 	
@@ -2788,6 +2894,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_declare_martial_law"
 		}
 	}
 	
@@ -2809,6 +2916,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_everyone_keep_calm"
 		}
 	}	
 
@@ -2830,6 +2938,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_assure_our_people"
 		}
 	}
 
@@ -2852,6 +2961,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_cut_off_contact"
 		}
 	}
 
@@ -2875,6 +2985,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_radio_free_boat"
 		}
 	}
 
@@ -2896,6 +3007,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_but_was_it_all_worth_it"
 		}
 	}
 
@@ -2918,6 +3030,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_self_sustainability"
 		}
 	}
 	
@@ -2941,6 +3054,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_cut_off_trade"
 		}
 	}
 	
@@ -2963,6 +3077,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_annul_all_contracts"
 		}
 	}
 
@@ -2986,6 +3101,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_ration_cards"
 		}
 	}
 
@@ -3008,6 +3124,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_victory_gardens"
 		}
 	}
 	
@@ -3029,6 +3146,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_calm_before_storm"
 		}
 	}
 
@@ -3050,6 +3168,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_final_additions"
 		}
 	}
 	
@@ -3071,6 +3190,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_capitalise_enemies_brutality"
 		}
 	}
 	
@@ -3093,6 +3213,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_everyone_equal_in_face_of_adversity"
 		}
 	}
 	
@@ -3115,6 +3236,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_deafening_silence"
 		}
 	}
 	
@@ -3136,6 +3258,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_triumvirate_shortsightedness"
 		}
 	}
 	
@@ -3157,6 +3280,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_duke_madness"
 		}
 	}
 	
@@ -3178,6 +3302,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_elder_folly"
 		}
 	}
 
@@ -3200,6 +3325,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_hooligan_overzealousness"
 		}
 	}
 	
@@ -3222,6 +3348,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_scouts_arrogance"
 		}
 	}
 
@@ -3248,6 +3375,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_we_are_next"
 		}
 	}
 
@@ -3269,6 +3397,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+		log = "[GetDateText]: Focus WML_our_future_saved"
 		}
 	}
 	
