@@ -69,8 +69,8 @@ country_event = {
 	option = {
 		name = sapek.5.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -243,8 +243,8 @@ country_event = {
 	option = {
 		name = sapek_war.9.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapeksanity
 				value = 10
 			}
 		}
@@ -322,8 +322,8 @@ country_event = {
 	option = {
 		name = sapek_war.10.b
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -353,8 +353,8 @@ country_event = {
 	option = {
 		name = sapek_war.11.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -379,8 +379,8 @@ country_event = {
 	option = {
 		name = sapek_war.12.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -449,8 +449,8 @@ country_event = {
 	option = {
 		name = sapek_war.13.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -493,8 +493,8 @@ country_event = {
 	option = {
 		name = sapek_war.14.a #rains-of-belchatow
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -569,8 +569,8 @@ country_event = {
 	option = {
 		name = sapek_war.16.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 			play_song = "lodz_sapek5"
@@ -596,8 +596,8 @@ country_event = {
 	option = {
 		name = sapek.8.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -861,8 +861,8 @@ country_event = {
 			}
 		custom_effect_tooltip = SAP_insanity_tooltip
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -914,8 +914,8 @@ country_event = {
 		}
 		custom_effect_tooltip = SAP_insanity_tooltip
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
