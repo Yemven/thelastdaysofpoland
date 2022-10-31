@@ -508,6 +508,10 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 		log = "[GetDateText]: Focus WML_hold_onto_normality"
+			swap_ideas = {
+				remove_idea = WML_fragile_denial_of_reality
+				add_idea = WML_fragile_denial_of_reality2
+			}
 		}
 	}
 	
@@ -528,6 +532,10 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 		log = "[GetDateText]: Focus WML_crackdown_on_consoomers"
+			swap_ideas = {
+				remove_idea = WML_den_of_decadence
+				add_idea = WML_den_of_decadence2
+			}
 		}
 	}
 	
@@ -548,6 +556,8 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 		log = "[GetDateText]: Focus WML_pamper_delegations"
+		add_ideas = WML_dialog_lodz_holownia
+		add_political_power = 50
 		}
 	}
 
@@ -568,6 +578,11 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 		log = "[GetDateText]: Focus WML_ultimate_compromise"
+			add_to_variable = { dialogue_SAP = 10}
+			add_to_variable = { dialogue_BBW = 10}
+			add_to_variable = { dialogue_ZHP = 10}
+			add_to_variable = { dialogue_KRS = 10}
+			add_to_variable = { dialogue_ZYD = 10}
 		}
 	}
 
