@@ -227,7 +227,7 @@ on_actions = {
 	}
 	on_weekly = {
 		effect = {
-			immediate = { log = "[GetDateText]: energy tick" }
+			log = "[GetDateText]: energy tick"
 			every_country = {
 				calculate_energy_balance = yes
 			}

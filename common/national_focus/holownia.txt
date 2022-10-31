@@ -1167,10 +1167,10 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			swap_ideas = {
-			log = "[GetDateText]: Focus WML_defenders_of_faith"
 				remove_idea = WML_dialog_lodz_zydzew3
 				add_idea = WML_dialog_lodz_zydzew4
 			}
+			log = "[GetDateText]: Focus WML_defenders_of_faith"
 		}
 	}
 	
@@ -2003,9 +2003,9 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			country_event = {
-			log = "[GetDateText]: Focus WML_what_now"
 				id = WML_total.1
-				}
+			}
+			log = "[GetDateText]: Focus WML_what_now"
 		}
 	}
 	
