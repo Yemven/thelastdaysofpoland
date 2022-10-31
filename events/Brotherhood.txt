@@ -19,6 +19,7 @@ country_event = {
 		name = belchatow.1.a
 		add_stability = -0.15
 		add_ideas = BBW_street_anger
+		log = "belchatowianie wkurwieni"
 	}
 }
 
@@ -37,7 +38,9 @@ country_event = {
 		retire_character = BBW_gen_sommer
 		activate_advisor = BBW_min_rzymkowski
 		random_unit_leader = { limit = { has_id = 11 } promote_leader = yes }
+		log = "sommer wypierdolony"
 	}
+	
 }
 
 country_event = {
@@ -82,6 +85,7 @@ country_event = {
 		add_manpower = -500
 		add_stability = 0.1
 		add_political_power = 50
+		log = "belchatow.5.done"
 	}
 }
 
@@ -128,6 +132,7 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = belchatow_war_focus
 		}
+		log = "BBW idzie na wojnę"
 	}
 }
 
@@ -187,6 +192,7 @@ country_event = {
 				}
 			}
 		}
+		log = "zielona kontrewolucja w bełchatowie (ev.11)"
 	}
 }
 
@@ -218,6 +224,7 @@ country_event = {
 				}
 			}
 		}
+		log = "zielona kontrewolucja w bełchatowie (ev.12)"
 	}
 }
 
@@ -240,6 +247,7 @@ country_event = {
 				add_idea = BBW_green_counter_revolution4
 				remove_idea = BBW_green_counter_revolution3
 			}
+		log = "zielona kontrewolucja w bełchatowie (ev.13)"
 	}
 }
 
@@ -329,6 +337,7 @@ country_event = {
 				}
 			}
 		}
+		log = "belchatow handluje z żydami"
 	}
 }
 
@@ -345,6 +354,7 @@ country_event = {
 	option = {
 		name = belchatow.17.a
 		add_political_power = -50
+		log = "belchatow.17.done"
 	}
 }
 
@@ -362,7 +372,8 @@ country_event = {
 		annex_country = { 
 			target = KRS
 			transfer_troops = no
-			}
+		}
+		log = "belchatow zjadł krośniewice"
 	}
 }
 
@@ -380,7 +391,8 @@ country_event = {
 		declare_war_on = {
 			target = KRS
 			type = annex_everything
-			}
+		}
+		log = "belchatow napierdala krośniewice"
 	}
 }
 
@@ -409,6 +421,7 @@ country_event = {
 		var = var_industrial_missions_completed
 		value = 1
 		}
+		log = "belchatow przemysł level 1"
 	}
 }
 
@@ -429,7 +442,7 @@ country_event = {
 		add_to_variable = {
 		var_industrial_missions_started = 1
 		}
-
+		log = "belchatow przemysł level 2"
 	}
 }
 
@@ -450,6 +463,7 @@ country_event = {
 		add_to_variable = {
 		var_industrial_missions_started = 1
 		}
+		log = "belchatow przemysł level 3"
 	}
 }
 
@@ -478,6 +492,7 @@ country_event = {
 			341 = {
 			add_manpower = -104
 			}
+		log = "belchatow.23.done"
 	}
 }
 
@@ -503,6 +518,7 @@ country_event = {
 		hidden_effect = {
 		activate_mission = BBW_pollution_stage1
 		}
+		log = "smog khekhe"
 	}
 }
 
@@ -519,6 +535,7 @@ country_event = {					#LOSE
 		name = belchatow.27.a
 			add_political_power = -75
 			add_stability = -0.05
+		log = "belchatow loses"
 	}
 }
 
@@ -534,6 +551,7 @@ country_event = { 					#WIN
 		name = belchatow.28.a
 			add_political_power = 15
 			add_stability = 0.03
+			log = "belchatow wins"
 	}
 }
 
@@ -550,6 +568,7 @@ country_event = {
 		name = belchatow.29.a
 		activate_mission = BBW_industrial_mission4
 		add_ideas = BBW_military_factories_focus
+		log = "belchatow wins"
 	}
 }
 
@@ -567,6 +586,7 @@ country_event = {
 		add_political_power = 20
 		add_stability  = 0.03
 		custom_effect_tooltip = BBW_levarage_against_lodz_tt
+		log = "mamy na cb haka panie Hołownia - t. ziemniak"
 	}
 }
 
@@ -598,6 +618,7 @@ country_event = {
 				days = 7
 			}
 		}
+		log = "hura kupiliśmy prąd"
 	}
 	option = {
 		name = energydeals.1.b #spadaj
@@ -614,6 +635,7 @@ country_event = {
 				days = 7
 			}
 		}
+		log = "nie kupiliśmy prądu"
 	}
 	option = {
 		name = energydeals.1.c #nie stać nas, przyjdź później
@@ -626,6 +648,7 @@ country_event = {
 				days = 7
 			}
 		}
+		log = "nie stać nas na prąd"
 	}
 }
 
@@ -661,6 +684,7 @@ country_event = {
 			set_country_flag = importing_energy
 			add_ideas = importing_energy_idea
 		}
+		log = "sprzedajemy prąd"
 	}
 }
 
@@ -675,6 +699,7 @@ country_event = {
 
 	option = {
 		name = energydeals.3.a #jak nie to nie
+		log = "nie ma prądu"
 	}
 }
 
@@ -689,5 +714,6 @@ country_event = {
 
 	option = {
 		name = energydeals.4.a #ok then
+		log = "przyjdziemy później"
 	}
 }

@@ -20,10 +20,12 @@ country_event = {
 			ruling_party = socialdemocrature
 			}
 		}
+		log = "socdem twardoch"
 	}
 	option = {
 		name = aievent.1.b #rajch
 		ai_chance = { base = 60 }
+		log = "reich twardoch"
 	}
 }
 
@@ -53,11 +55,12 @@ country_event = {
 			name = "PKWN"
 		}
 		}
+		log = "dzwig sosnowiec"
 	}
 	option = {
 		name = aievent.2.b #socjaluch
 		ai_chance = { base = 70 }
-
+		log = "socdem sosnowiec"
 	}
 }
 
@@ -77,7 +80,8 @@ country_event = {
 		ai_chance = { base = 50 }
 		set_politics = {
 			ruling_party = marxism_cranism
-			}
+		}
+		log = "dzwig dg"
 	}
 	option = {
 		name = aievent.3.b #nazbol
@@ -93,6 +97,7 @@ country_event = {
 			name = "NLPP"
 		}
 		}
+		log = "nazbol dg"
 	}
 	option = {
 		name = aievent.3.c #rasta
@@ -100,6 +105,7 @@ country_event = {
 		set_politics = {
 			ruling_party = postpolonism
 			}
+		log = "duuude weeed dg"
 	}
 }
 
@@ -118,6 +124,7 @@ country_event = {
 	option = {
 		name = aievent.4.a #antifa
 		ai_chance = { base = 70 }
+		log = "antifa jaworzno"
 	}
 	option = {
 		name = aievent.4.b #razemki
@@ -132,6 +139,7 @@ country_event = {
 			name = "Razem"
 		}
 		}
+		log = "soy jaworzno"
 	}
 }
 
@@ -151,6 +159,7 @@ country_event = {
 		JAW = { leave_faction = yes }
 		DGR = { leave_faction = yes }
 		SOS = { dismantle_faction = yes }
+		log = "sosnowiec rozwalił frakcję"
 	}
 }
 
@@ -175,6 +184,7 @@ country_event = {
 		JSW = { leave_faction = yes }
 		KAT = { leave_faction = yes }
 		CHO = { dismantle_faction = yes }
+		log = "chorzów rozwalił frakcję"
 	}
 }
 
@@ -207,6 +217,7 @@ country_event = {
 			reactionary = 3
 			postpolonism = 0
 		}
+		log = "brzęczek został operatorem dźwigu"
 	}
 }
 
@@ -240,6 +251,7 @@ country_event = {
 			reactionary = 11
 			postpolonism = 5
 		}
+		log = "Solus cum Deo solo (paulini)"
 	}
 	option = {
 		name = aievent.8.b #joannici
@@ -260,6 +272,7 @@ country_event = {
 			reactionary = 11
 			postpolonism = 5
 		}
+		log = "Tuitio Fidei et obsequium pauperum (joannici)"
 	}
 	option = {
 		name = aievent.8.c #paulini-krzyzowcy
@@ -280,6 +293,7 @@ country_event = {
 			reactionary = 47
 			postpolonism = 5
 		}
+		log = "DEUS VULT"
 	}
 }
 
@@ -315,6 +329,7 @@ country_event = {
 			reactionary = 5
 			postpolonism = 0
 		}
+		log = "patcon zawiercie"
 	}
 	option = {
 		name = aievent.9.b #janoska
@@ -335,6 +350,7 @@ country_event = {
 			reactionary = 5
 			postpolonism = 0
 		}
+		log = "neonat zawiercie"
 	}
 	option = {
 		name = aievent.9.c #van-der-coghen
@@ -355,6 +371,7 @@ country_event = {
 			reactionary = 5
 			postpolonism = 0
 		}
+		log = "lib zawiercie"
 	}
 }
 
@@ -389,6 +406,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "lib katowice"
 	}
 	option = {
 		name = aievent.10.b #sosna-junior
@@ -409,6 +427,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "ryneg katowice"
 	}
 	option = {
 		name = aievent.10.c #sosna-senior
@@ -429,6 +448,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "patcon katowice"
 	}
 }
 
@@ -452,6 +472,7 @@ country_event = {
 				id = aievent.12
 				}
 		}
+		log = "republika krakowska"
 	}
 	option = {
 		name = aievent.11.b #scjentokracja
@@ -461,6 +482,7 @@ country_event = {
 				id = aievent.13
 				}
 		}
+		log = "republika UJ"
 	}
 	option = {
 		name = aievent.11.c #monarchia
@@ -470,6 +492,7 @@ country_event = {
 				id = aievent.14
 				}
 		}
+		log = "królestwo krakowa"
 	}
 }
 
@@ -543,6 +566,7 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		log = "republika krakowska zdechła"
 	}
 }
 
@@ -564,6 +588,7 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		log = "republika UJ zdechła"
 	}
 }
 
@@ -583,12 +608,14 @@ country_event = {
 		set_politics = {
 			ruling_party = autocracy
 			}
-		}		
+		}
+		log = "krul smogu majchrowski"
 	}
 	option = {
 		name = aievent.14.b #maklowicz
 		ai_chance = { base = 40 }
 		KRK_krul_maklowicz = yes
+		log = "eeeeeeeeeeeee makłowicz"
 	}
 }
 
@@ -616,6 +643,7 @@ country_event = {
 				}
 			}
 			set_political_power = -100
+			log = "turyści pod opieką EKS"
 	}			
 	option = {
 		name = aievent.15.b #KGH
@@ -634,6 +662,7 @@ country_event = {
 				}
 			}
 			set_political_power = -100
+		log = "turyści pod opieką KGH"
 	}
 }
 
@@ -668,6 +697,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "partia optymatów w kaliszu"
 	}
 	option = {
 		name = aievent.16.b #populares
@@ -688,6 +718,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "partia popularów w kaliszu"
 	}
 }
 
@@ -722,6 +753,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 100
 		}
+		log = "kania pilska"
 	}
 	option = {
 		name = aievent.17.b #stoklosa
@@ -742,6 +774,7 @@ country_event = {
 			reactionary = 5
 			postpolonism = 0
 		}
+		log = "stoklosa pilska"
 	}
 }
 
@@ -774,6 +807,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "komuna starachowicka"
 	}
 }
 
@@ -806,6 +840,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "Sandomierz żyje"
 	}
 }
 
@@ -834,6 +869,7 @@ country_event = {
 				type = annex_everything 
 				}
 			}
+		log = "Bochnia w ogniu"
 	}
 }
 
@@ -869,6 +905,7 @@ country_event = {
 			postpolonism = 0
 		}
 		set_global_flag = procesja_lets_go
+		log = "ojciec dyrektor uczył dzieci swoje"
 	}
 	option = {
 		ai_chance = { base = 20 }
@@ -890,6 +927,7 @@ country_event = {
 			postpolonism = 0
 		}
 		set_global_flag = procesja_lets_go
+		log = "ślusarski w woruniu"
 	}
 	option = {
 		ai_chance = { base = 20 }
@@ -911,6 +949,7 @@ country_event = {
 			postpolonism = 0
 		}
 		set_global_flag = procesja_lets_go
+		log = "hoga w woruniu"
 	}
 	option = {
 		ai_chance = { base = 20 }
@@ -932,6 +971,7 @@ country_event = {
 			postpolonism = 0
 		}
 		set_global_flag = procesja_lets_go
+		log = "memcen w woruniu"
 	}
 }
 
@@ -972,7 +1012,8 @@ country_event = {
 				autonomous_state = autonomy_supervised_state
 				freedom_level = 0.15 
 				}
-			}		
+			}
+		log = "polsat w radomiu"
 	}
 	option = {
 		ai_chance = { base = 30 }
@@ -1000,6 +1041,7 @@ country_event = {
 				freedom_level = 0.15 
 				}
 			}
+		log = "kopacz w radomiu"
 	}
 	option = {
 		name = aievent.22.c #fogiel
@@ -1027,6 +1069,7 @@ country_event = {
 				freedom_level = 0.15 
 				}
 			}
+		log = "fogiel w radomiu"
 	}
 	option = {
 		name = aievent.22.d #mafia
@@ -1047,6 +1090,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "mafia w radomiu"
 	}
 }
 
@@ -1076,6 +1120,7 @@ country_event = {
 				}
 			}
 			}
+		log = "kghm nie umie walczyć"
 	}			
 	option = {
 		name = aievent.23.b #gud
@@ -1096,6 +1141,7 @@ country_event = {
 						}
 					}
 			}
+			log = "kghm umie walczyć"
 	}
 }
 
@@ -1113,6 +1159,7 @@ country_event = {
 	option = {
 		name = aievent.24.a
 		ROS = { leave_faction = yes }
+		log = "uuk uuk aak akk - t. puton"
 	}
 }
 
