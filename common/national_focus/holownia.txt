@@ -1241,17 +1241,16 @@ focus_tree = {
 		
 		cost = 5
 		search_filters = {}
-				completion_reward = {
-				if = {
-			limit = { has_country_flag = WML_Gill_piatek_remains	}	
+		completion_reward = {
+			if = {
+				limit = { has_country_flag = WML_Gill_piatek_remains	}	
 					country_event = {
-				id = WML.13 
-				}
+						id = WML.13 
+					}
 			}
-		else = {
-			country_event = { id = WML.11 }
+			else = {
+				country_event = { id = WML.11 }
 			}
-			
 		}
 	
 	}
@@ -1262,7 +1261,7 @@ focus_tree = {
 		relative_position_id = WML_incomplete_compromise
 		prerequisite = { focus = WML_incomplete_compromise }
 		available = {
-		
+
 		}
 		
 		bypass = {
@@ -1352,7 +1351,7 @@ focus_tree = {
 		relative_position_id = WML_chaos_in_our_ranks
 		prerequisite = { focus = WML_chaos_in_our_ranks }
 		available = {
-		
+			
 		}
 		
 		bypass = {
@@ -1364,6 +1363,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_ideas = WML_dialog_unscaling_mil_1
 		}
 	}
 	
@@ -1373,7 +1373,7 @@ focus_tree = {
 		relative_position_id = WML_chaos_in_our_ranks
 		prerequisite = { focus = WML_chaos_in_our_ranks }
 		available = {
-		
+			has_completed_focus = WML_conflicted_soldiers
 		}
 		
 		bypass = {
@@ -1385,6 +1385,11 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_dialog_unscaling_mil_1
+				add_idea = WML_dialog_unscaling_mil_2
+				
+			}
 		}
 	}
 	
@@ -1407,6 +1412,11 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_dialog_unscaling_mil_2
+					add_idea = WML_dialog_unscaling_mil_3
+				}
+			add_manpower = -150
 		}
 	}
 	
@@ -1428,6 +1438,15 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_dialog_unscaling_mil_3
+					add_idea = WML_dialog_unscaling_mil_4
+				}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 200
+				producer = WML
+			}
 		}
 	}
 	
@@ -1437,7 +1456,7 @@ focus_tree = {
 		relative_position_id = WML_bring_order_to_chaos
 		prerequisite = { focus = WML_bring_order_to_chaos }
 		available = {
-		
+			has_completed_focus = WML_refurbish_old_trucks
 		}
 		
 		bypass = {
@@ -1449,6 +1468,13 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_dialog_unscaling_mil_4
+					add_idea = WML_dialog_unscaling_mil_5
+				}
+			set_temp_variable = { WML.expdialog = 20 }
+			multiply_temp_variable = { WML.expdialog = WML.num_faction_members } 
+			army_experience = var:WML.expdialog
 		}
 	}
 	
@@ -1470,6 +1496,10 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_dialog_unscaling_mil_5
+					add_idea = WML_dialog_unscaling_mil_6
+				}
 		}
 	}
 	
@@ -1493,6 +1523,10 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_dialog_unscaling_mil_6
+					add_idea = WML_dialog_unscaling_mil_7
+				}
 		}
 	}
 	
@@ -1514,29 +1548,20 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_war_support = 0.1
+			every_country = {
+				limit = { 
+					is_lodzkie = yes
+					NOT = { 
+						original_tag = WML
+						is_in_faction_with = WML
+						}
+					}
+				add_ideas = WML_anti_dialog_debuff
+				}		
 		}
 	}
 	
-	#focus = {
-		#id = WML_airdrop_leaflets
-		#icon = WML_airdrop_leaflets
-		#relative_position_id = WML_coordinate_our_war_bureaus
-		#prerequisite = { focus = WML_coordinate_our_war_bureaus }
-		#available = {
-		
-		#}
-		
-		#bypass = {
-		#}
-		
-		#x = 1
-		#y = 1
-		
-		#cost = 2
-		#search_filters = {}
-		#completion_reward = {
-		#}
-	#}
 	
 	focus = {
 		id = WML_chaos_at_homefront
@@ -1593,6 +1618,7 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_ideas = WML_dialog_unscaling_civ_1
 		}
 	}
 	
@@ -1614,6 +1640,20 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_dialog_unscaling_civ_1
+					add_idea = WML_dialog_unscaling_civ_2
+				}
+			every_country = {
+				limit = { is_in_faction_with = WML }
+					random_owned_state = {
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+			}
 		}
 	}
 	
@@ -1635,6 +1675,10 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_dialog_unscaling_civ_2
+					add_idea = WML_dialog_unscaling_civ_3
+				}
 		}
 	}
 	
@@ -1644,7 +1688,7 @@ focus_tree = {
 		relative_position_id = WML_pool_our_chips
 		prerequisite = { focus = WML_pool_our_chips }
 		available = {
-		
+			has_completed_focus = WML_rebuilding_the_cities
 		}
 		
 		bypass = {
@@ -1656,6 +1700,19 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_dialog_unscaling_civ_3
+					add_idea = WML_dialog_unscaling_civ_4
+				}
+			every_country = {
+				limit = { is_in_faction_with = WML }
+					random_owned_state = {
+						add_extra_state_shared_building_slots = 1
+					}
+					random_owned_state = {
+						add_extra_state_shared_building_slots = 1
+					}
+			}
 		}
 	}
 	
@@ -1678,6 +1735,16 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			every_country = {
+				limit = { is_in_faction_with = WML }
+					capital_scope = {
+						add_building_construction = {
+							type = supply_node
+							level = 1
+							instant_build = yes
+						}
+					}
+			}
 		}
 	}
 	
@@ -1700,6 +1767,23 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			every_country = {
+				limit = { is_in_faction_with = WML }
+					capital_scope = {
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+					random_owned_state = {
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+			}
 		}
 	}
 	
@@ -1722,6 +1806,8 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.05
 		}
 	}
 	
@@ -1745,6 +1831,10 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = WML_dialog_unscaling_civ_4
+					add_idea = WML_dialog_unscaling_civ_5
+				}
 		}
 	}
 	

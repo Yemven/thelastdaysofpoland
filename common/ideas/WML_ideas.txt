@@ -489,6 +489,13 @@ ideas = {
 				allowed_civil_war = {
 					always = yes
 				}
+				
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						ZYD = { is_in_faction = no }
+					}
+				}
 
 				removal_cost = -1
 				picture = BBW_smog
@@ -503,6 +510,14 @@ ideas = {
 				allowed_civil_war = {
 					always = yes
 				}
+				
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						ZYD = { is_in_faction = no }
+					}
+				}
+
 
 				removal_cost = -1
 				picture = BBW_smog
@@ -519,6 +534,14 @@ ideas = {
 					always = yes
 				}
 
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						ZYD = { is_in_faction = no }
+					}
+				}
+
+
 				removal_cost = -1
 				picture = BBW_smog
 				modifier = {
@@ -533,6 +556,13 @@ ideas = {
 				}
 				allowed_civil_war = {
 					always = yes
+				}
+				
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						NOT = { ZYD = { is_in_faction_with = WML } }
+					}
 				}
 
 				removal_cost = -1
@@ -552,6 +582,13 @@ ideas = {
 				allowed_civil_war = {
 					always = yes
 				}
+				
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						BBW = { is_in_faction = no }
+					}
+				}
 
 				removal_cost = -1
 				picture = BBW_smog
@@ -565,6 +602,13 @@ ideas = {
 				}
 				allowed_civil_war = {
 					always = yes
+				}
+
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						BBW = { is_in_faction = no }
+					}
 				}
 
 				removal_cost = -1
@@ -582,6 +626,13 @@ ideas = {
 					always = yes
 				}
 
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						BBW = { is_in_faction = no }
+					}
+				}
+
 				removal_cost = -1
 				picture = BBW_smog
 				modifier = {
@@ -597,6 +648,13 @@ ideas = {
 				}
 				allowed_civil_war = {
 					always = yes
+				}
+
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						BBW = { is_in_faction = no }
+					}
 				}
 
 				removal_cost = -1
@@ -617,6 +675,13 @@ ideas = {
 					always = yes
 				}
 
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						ZHP = { is_in_faction = no }
+					}
+				}
+
 				removal_cost = -1
 				picture = BBW_smog
 				modifier = {
@@ -629,6 +694,13 @@ ideas = {
 				}
 				allowed_civil_war = {
 					always = yes
+				}
+
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						ZHP = { is_in_faction = no }
+					}
 				}
 
 				removal_cost = -1
@@ -647,6 +719,13 @@ ideas = {
 					always = yes
 				}
 
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						ZHP = { is_in_faction = no }
+					}
+				}
+
 				removal_cost = -1
 				picture = BBW_smog
 				modifier = {
@@ -663,6 +742,13 @@ ideas = {
 				}
 				allowed_civil_war = {
 					always = yes
+				}
+
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						ZHP = { is_in_faction = no }
+					}
 				}
 
 				removal_cost = -1
@@ -684,6 +770,13 @@ ideas = {
 				allowed_civil_war = {
 					always = yes
 				}
+				
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						KRS = { is_in_faction = no }
+					}
+				}
 
 				removal_cost = -1
 				picture = BBW_smog
@@ -697,6 +790,13 @@ ideas = {
 				}
 				allowed_civil_war = {
 					always = yes
+				}
+
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						KRS = { is_in_faction = no }
+					}
 				}
 
 				removal_cost = -1
@@ -714,6 +814,13 @@ ideas = {
 					always = yes
 				}
 
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						KRS = { is_in_faction = no }
+					}
+				}
+
 				removal_cost = -1
 				picture = BBW_smog
 				modifier = {
@@ -729,6 +836,13 @@ ideas = {
 				}
 				allowed_civil_war = {
 					always = yes
+				}
+
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						KRS = { is_in_faction = no }
+					}
 				}
 
 				removal_cost = -1
@@ -749,6 +863,13 @@ ideas = {
 					always = yes
 				}
 
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						SAP = { is_in_faction = no }
+					}
+				}
+
 				removal_cost = -1
 				picture = BBW_smog
 				modifier = {
@@ -761,6 +882,13 @@ ideas = {
 				}
 				allowed_civil_war = {
 					always = yes
+				}
+
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						SAP = { is_in_faction = no }
+					}
 				}
 
 				removal_cost = -1
@@ -778,6 +906,13 @@ ideas = {
 					always = yes
 				}
 
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						SAP = { is_in_faction = no }
+					}
+				}
+
 				removal_cost = -1
 				picture = BBW_smog
 				modifier = {
@@ -792,6 +927,13 @@ ideas = {
 				}
 				allowed_civil_war = {
 					always = yes
+				}
+
+				cancel = { 
+					AND = {
+						has_completed_focus = WML_coalition_of_necesity
+						SAP = { is_in_faction = no }
+					}
 				}
 
 				removal_cost = -1
@@ -914,7 +1056,7 @@ ideas = {
 				}
 			}
 			
-					WML_dialog_unscaling_mil_1 = {
+		WML_dialog_unscaling_mil_1 = {
 				allowed = {
 					original_tag = WML
 				}
@@ -1243,6 +1385,23 @@ ideas = {
 					industry_free_repair_factor = 0.1
 					industrial_capacity_factory = 0.05
 					consumer_goods_factor = -0.15
+				}
+			}
+			
+		WML_anti_dialog_debuff = {
+				allowed = {
+					is_lodzkie = yes
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				picture = BBW_smog
+				modifier = {
+					war_support_factor = -0.15
+					army_core_attack_factor = -0.1
+					army_core_defence_factor = -0.1
 				}
 			}
 			
