@@ -4,7 +4,7 @@ country_event = {
 	id = ekw.1 
 	title = ekw.1.t
 	desc = ekw.1.desc
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ekw.1"}
 	fire_only_once = yes
 	trigger = {
 		original_tag = EKW
@@ -23,10 +23,12 @@ country_event = {
 			days = 1
 			}
 		}
+		log = "[GetDateText]: HAMUJ SIĘ KURWA - t. jaszczur"
 	}
 	option = {
 		ai_chance = { base = 1 }
 		name = ekw.1.b
+		log = "[GetDateText]: ekw.1 nic nie zrobiło"
 	}
 }
 
@@ -38,7 +40,9 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ekw.2"}
+	
 	option = {
 		name = ekw.2.a
 		EKW = {

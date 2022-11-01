@@ -4,6 +4,7 @@ calculate_energy_balance = {
 	set_variable = { current_balance = generated_energy }
 	subtract_from_variable = { current_balance = used_energy }
 	calculate_energy_effects = yes
+	#log = "[GetDateText]: [ROOT.GetName] - energy tick"
 }
 
 calculate_generated_energy = {

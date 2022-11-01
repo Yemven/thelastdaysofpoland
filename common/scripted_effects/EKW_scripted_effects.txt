@@ -24,8 +24,8 @@ EKW_collapse_POM = {
 				EK_disfunctional_military
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKW_collapse_POM"
 }
 
 EKW_collapse_KOS = {
@@ -54,6 +54,7 @@ EKW_collapse_KOS = {
 		}
 
 	}
+	log = "[GetDateText]: EKW_collapse_KOS"
 }
 
 EKW_collapse_WRT = {
@@ -100,6 +101,7 @@ EKW_collapse_WRT = {
 		}
 
 	}
+	log = "[GetDateText]: EKW_collapse_WRT"
 }
 
 EKW_collapse_KAM = {
@@ -133,8 +135,8 @@ EKW_collapse_KAM = {
 			load_oob = "KAM_2027"
 			set_cosmetic_tag = KAM_UE
 		}
-
 	}
+	log = "[GetDateText]: EKW_collapse_KAM"
 }
 
 EKW_collapse_STE = {
@@ -165,6 +167,7 @@ EKW_collapse_STE = {
 		}
 
 	}
+	log = "[GetDateText]: EKW_collapse_STE"
 }
 
 
@@ -199,6 +202,7 @@ EKW_collapse_JAS = {
 		}
 
 	}
+	log = "[GetDateText]: EKW_collapse_JAS"
 }
 
 EKW_collapse_NAC = {
@@ -233,6 +237,7 @@ EKW_collapse_NAC = {
 		}
 
 	}
+	log = "[GetDateText]: EKW_collapse_NAC"
 }
 
 EKW_collapse_MOT = {
@@ -263,6 +268,7 @@ EKW_collapse_MOT = {
 		}
 
 	}
+	log = "[GetDateText]: EKW_collapse_MOT"
 }
 
 EKW_collapse_SYJ = {
@@ -293,6 +299,7 @@ EKW_collapse_SYJ = {
 		}
 
 	}
+	log = "[GetDateText]: EKW_collapse_SYJ"
 }
 
 EKW_collapse_PIL = {
@@ -321,6 +328,7 @@ EKW_collapse_PIL = {
 		}
 
 	}
+	log = "[GetDateText]: EKW_collapse_PIL"
 }
 
 EKW_collapse_SWI = {
@@ -343,4 +351,5 @@ EKW_collapse_SWI = {
 		}
 
 	}
+	log = "[GetDateText]: EKW_collapse_SWI"
 }

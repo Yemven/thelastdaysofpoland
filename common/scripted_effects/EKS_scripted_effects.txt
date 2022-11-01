@@ -49,6 +49,7 @@ EKS_collapse_KES = {
 			}
 		}
 	}
+	log = "[GetDateText]: EKS_collapse_KES"
 }
 
 EKS_collapse_WRO = {
@@ -97,6 +98,7 @@ EKS_collapse_WRO = {
 		}
 
 	}
+	log = "[GetDateText]: EKS_collapse_WRO"
 }
 
 EKS_collapse_BRE = {
@@ -141,8 +143,9 @@ EKS_collapse_BRE = {
 		every_country = {
 			limit = { NOT = { is_ai = yes } }
 			news_event = { id = super.5 }
-			}
+		}
 	}
+	log = "[GetDateText]: EKS_collapse_BRE"
 }
 
 EKS_collapse_ZUL = {
@@ -183,8 +186,8 @@ EKS_collapse_ZUL = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_ZUL"
 }
 
 EKS_collapse_CZE = {
@@ -221,8 +224,8 @@ EKS_collapse_CZE = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_CZE"
 }
 
 
@@ -267,8 +270,8 @@ EKS_collapse_OPO = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_OPO"
 }
 
 EKS_collapse_ZAG = {
@@ -305,8 +308,8 @@ EKS_collapse_ZAG = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_ZAG"
 }
 
 EKS_collapse_WIN = {
@@ -346,8 +349,8 @@ EKS_collapse_WIN = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_WIN"
 }
 
 EKS_collapse_KGH = {
@@ -388,6 +391,7 @@ EKS_collapse_KGH = {
 			}
 		}
 	}
+	log = "[GetDateText]: EKS_collapse_KGH"
 }
 
 EKS_collapse_SUS = {
@@ -429,6 +433,7 @@ EKS_collapse_SUS = {
 		}
 
 	}
+	log = "[GetDateText]: EKS_collapse_SUS"
 }
 
 EKS_collapse_CYG = {
@@ -446,6 +451,7 @@ EKS_collapse_CYG = {
 			CYG = { transfer_state = PREV }
 		}
 	}
+	log = "[GetDateText]: EKS_collapse_CYG"
 }
 
 EKS_collapse_TOU = {
@@ -481,8 +487,8 @@ EKS_collapse_TOU = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_TOU"
 }
 
 EKS_collapse_MNL = {
@@ -516,8 +522,8 @@ EKS_collapse_MNL = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_MNL"
 }
 
 EKS_collapse_ANA = {
@@ -550,8 +556,8 @@ EKS_collapse_ANA = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_ANA"
 }
 
 
@@ -586,8 +592,8 @@ EKS_collapse_FEM = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_FEM"
 }
 
 
@@ -632,8 +638,8 @@ EKS_collapse_BOG = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_BOG"
 }
 
 EKS_collapse_ECO = {
@@ -679,8 +685,8 @@ EKS_collapse_ECO = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_ECO"
 }
 
 
@@ -732,6 +738,7 @@ EKS_collapse_RYB = {
 		}
 
 	}
+	log = "[GetDateText]: EKS_collapse_RYB"
 }
 
 EKS_collapse_OLE = {
@@ -766,6 +773,7 @@ EKS_collapse_OLE = {
 		}
 
 	}
+	log = "[GetDateText]: EKS_collapse_OLE"
 }
 
 EKS_collapse_MPK = {
@@ -812,6 +820,6 @@ EKS_collapse_MPK = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: EKS_collapse_MPK"
 }
