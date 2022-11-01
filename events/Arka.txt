@@ -10,6 +10,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires arka_exodus.1" }
+
 	option = {
 		name = arka_exodus.1.a
         set_global_flag = Super_Event_Visible
@@ -17,6 +19,7 @@ news_event = {
         hidden_effect = {
 			sound_effect = "ARKA_exodus_super"
 			play_song = "cisza60"
-			}
+		}
+		log = "[GetDateText]: odpalamy eventa arki"
 	}
 }

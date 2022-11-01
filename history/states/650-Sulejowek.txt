@@ -2,13 +2,18 @@ state={
 	id=650
 	name="STATE_650"
 	provinces={
-		1017 2041 
+		1017 2041 7339 7327 5228 5623 7341 7229
 	}
 	manpower = 33168   state_category = town
 	buildings_max_level_factor=1.000
 		history = {
 		owner = WOW
-		victory_points = { 2041 30 }
+		victory_points = { 1017 30 }
+		victory_points = { 7339 1 }
+		victory_points = { 7327 3 }
+		victory_points = { 5623 2 }
+		victory_points = { 7341 2 }
+		victory_points = { 7229 2 }
 		add_core_of = WOW
 	buildings = {
 	infrastructure = 5

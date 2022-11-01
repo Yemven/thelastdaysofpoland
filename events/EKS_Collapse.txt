@@ -11,6 +11,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires eksrozpadnews.1"}
+	
 	option = {
 		name = eksrozpadnews.1.a
 	}
@@ -24,7 +26,9 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.1"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -66,6 +70,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.2"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -125,6 +130,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.3"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -169,6 +175,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.4"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -227,6 +234,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.5"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -264,6 +272,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.6"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -306,6 +315,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.7"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -350,6 +360,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.8"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -385,6 +396,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.9"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -420,6 +432,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.10"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -466,6 +479,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.11"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -513,6 +527,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.12"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -602,6 +617,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.13"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -631,6 +647,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.14"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -659,6 +676,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.15"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -693,6 +711,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.16"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -723,6 +742,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.17"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -751,6 +771,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.18"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -783,6 +804,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.19"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -816,6 +838,7 @@ country_event = {
 	}
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires eksrozpad.20"
 		EKS_collapse_MPK = yes
 	}
 

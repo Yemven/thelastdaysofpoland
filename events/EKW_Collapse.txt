@@ -9,7 +9,9 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.1"}
+	
 	option = {
 		name = ekwrozpad.1.a
 		EKW = {
@@ -29,6 +31,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.2"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -73,6 +76,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.3"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -117,6 +121,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.4"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -176,6 +181,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.5"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -221,6 +227,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.6"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -283,6 +290,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.7"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -337,6 +345,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.8"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -384,6 +393,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.9"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -419,8 +429,10 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	
 	immediate = {
 		EKW_collapse_SYJ = yes
+		log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.10"
 	}
 
 	option = {
@@ -438,6 +450,7 @@ country_event = {
 	
 	immediate = {
 		EKW_collapse_PIL = yes
+		log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.11"
 	}
 
 	option = {
@@ -454,6 +467,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.12"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -481,7 +495,9 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ekwrozpad.13" }
+	
 	option = {
 		name = ekwrozpad.13.a
 		JOM = {

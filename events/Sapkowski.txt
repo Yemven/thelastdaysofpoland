@@ -9,7 +9,9 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.1" }
+	
 	option = {
 		name = sapek.1.a
 	}
@@ -22,6 +24,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.2" }
 
 	option = {
 		name = sapek.2.a
@@ -36,6 +40,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.3" }
+
 	option = {
 		name = sapek.3.a
 	}
@@ -48,6 +54,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.4" }
 
 	option = {
 		name = sapek.4.a
@@ -66,11 +74,13 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.5" }
+
 	option = {
 		name = sapek.5.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -101,6 +111,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.6" }
+
 	option = {
 		name = sapek.6.a
 	}
@@ -110,6 +122,8 @@ country_event = {
 	id = sapek.7 #trop-zniknal
 	title = sapek.7.t
 	desc = sapek.7.desc
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.7" }
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -124,6 +138,8 @@ country_event = {
 	id = sapek_war.1 #spotkanie-kapituly
 	title = sapek_war.1.t
 	desc = sapek_war.1.desc
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.1" }
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -141,6 +157,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.2" }
+
 	option = {
 		name = sapek_war.2.a
 	}
@@ -153,6 +171,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.3" }
 
 	option = {
 		name = sapek_war.3.a
@@ -167,7 +187,9 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.4" }
+	
 	option = {
 		name = sapek_war.4.a
 			WML = {
@@ -187,6 +209,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.5" }
+
 	option = {
 		name = sapek_war.5.a
 	}
@@ -199,6 +223,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.6" }
 
 	option = {
 		name = sapek_war.6.a
@@ -214,6 +240,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.7" }
+
 	option = {
 		name = sapek_war.7.a
 	}
@@ -226,6 +254,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.8" }
 
 	option = {
 		name = sapek_war.8.a
@@ -240,11 +270,13 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.9" }
+
 	option = {
 		name = sapek_war.9.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapeksanity
 				value = 10
 			}
 		}
@@ -275,6 +307,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.10" }
 
 	option = {
 		name = sapek_war.10.a
@@ -322,8 +356,8 @@ country_event = {
 	option = {
 		name = sapek_war.10.b
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -350,11 +384,13 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.11" }
+
 	option = {
 		name = sapek_war.11.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -376,11 +412,13 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.12" }
+
 	option = {
 		name = sapek_war.12.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -446,11 +484,13 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.13" }
+
 	option = {
 		name = sapek_war.13.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -490,11 +530,13 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.14" }
+
 	option = {
 		name = sapek_war.14.a #rains-of-belchatow
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -543,6 +585,8 @@ country_event = {
 
 	fire_only_once = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.15" }
+
 	trigger = {
 		ZHP = { has_capitulated = yes }
 		SAP = { 
@@ -566,11 +610,13 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_war.16" }
+
 	option = {
 		name = sapek_war.16.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 			play_song = "lodz_sapek5"
@@ -593,11 +639,13 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.8" }
+
 	option = {
 		name = sapek.8.a
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -627,6 +675,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.9" }
 
 	option = {
 		name = sapek.9.a
@@ -687,6 +737,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.10" }
+
 	option = {
 		name = sapek.10.a
 		set_country_flag = SAP_folwark_lipce
@@ -729,6 +781,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.11" }
+
 	option = {
 		name = sapek.11.a
 		add_tech_bonus = {
@@ -747,6 +801,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.12" }
+
 	option = {
 		name = sapek.12.a
 		swap_ideas = {
@@ -763,6 +819,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.13" }
 
 	option = {
 		name = sapek.13.a
@@ -781,6 +839,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.14" }
+
 	option = {
 		name = sapek.14.a
 	}
@@ -793,6 +853,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.15" }
 
 	option = {
 		name = sapek.15.a
@@ -807,6 +869,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.16" }
+	
 	option = {
 		name = sapek.16.a
 		set_country_flag = SAP_sapek_oskarzyciel
@@ -820,6 +884,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.17" }
 
 	option = {
 		name = sapek.17.a
@@ -838,6 +904,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_wiedzmin.1" }
+
 	option = {
 		name = sapek_wiedzmin.1.a
 		add_ideas = SAP_szkola_wilka		
@@ -852,6 +920,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_wiedzmin.2" }
+
 	option = {
 		name = sapek_wiedzmin.2.a #dawaj-dzieciora
 		add_manpower = 1000
@@ -861,8 +931,8 @@ country_event = {
 			}
 		custom_effect_tooltip = SAP_insanity_tooltip
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -892,6 +962,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_wiedzmin.3" }
+
 	option = {
 		name = sapek_wiedzmin.3.a #mutageny
 		if = { 
@@ -914,8 +986,8 @@ country_event = {
 		}
 		custom_effect_tooltip = SAP_insanity_tooltip
 		hidden_effect = {
-			add_to_variable = {
-				var = sapek_insanity
+			subtract_from_variable = {
+				var = sapek_sanity
 				value = 10
 			}
 		}
@@ -958,6 +1030,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek_wiedzmin.4" }
 
 	option = {
 		name = sapek_wiedzmin.4.a

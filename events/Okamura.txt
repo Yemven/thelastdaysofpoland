@@ -9,6 +9,7 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires okamura.1" }
 	option = {
 		name = okamura.1.a
 		drop_cosmetic_tag = yes

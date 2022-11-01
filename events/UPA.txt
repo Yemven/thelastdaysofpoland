@@ -10,6 +10,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upa.1" }
+
 	option = {
 		name = upa.1.a
 		hidden_effect = {
@@ -31,6 +33,8 @@ country_event = {
 		LGP = { num_of_controlled_states > 2 }
 		date < 2027.12.31
 	}
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upa.2" }
 
 	option = {
 		name = upa.2.a
@@ -54,6 +58,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.1" }
+
 	option = {
 		name = upafall.1.a
 	}
@@ -66,6 +72,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.2" }
 
 	option = {
 		name = upafall.2.a
@@ -85,6 +93,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.3" }
+
 	option = {
 		name = upafall.3.a
 	}
@@ -99,6 +109,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.4" }
+
 	option = {
 		name = upafall.4.a
 	}
@@ -111,6 +123,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.5" }
 
 	option = {
 		name = upafall.5.a
@@ -130,6 +144,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.6" }
+
 	option = {
 		name = upafall.6.a
 	}
@@ -143,6 +159,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.7" }
+
 	option = {
 		name = upafall.7.a
 	}
@@ -155,6 +173,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.8" }
 
 	option = {
 		name = upafall.8.a
@@ -174,6 +194,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.9" }
+
 	option = {
 		name = upafall.9.a
 	}
@@ -187,6 +209,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.10" }
+
 	option = {
 		name = upafall.10.a
 	}
@@ -199,6 +223,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.11" }
 
 	option = {
 		name = upafall.11.a
@@ -218,6 +244,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.12" }
+
 	option = {
 		name = upafall.12.a
 	}
@@ -231,6 +259,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.13" }
+
 	option = {
 		name = upafall.13.a
 	}
@@ -243,6 +273,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.14" }
 
 	option = {
 		name = upafall.14.a
@@ -258,6 +290,8 @@ country_event = {
 	id = upafall.15 #radymno cancel
 	title = upafall.15.t
 	desc = upafall.15.desc
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires upafall.15" }
 
 	fire_only_once = yes
 	is_triggered_only = yes

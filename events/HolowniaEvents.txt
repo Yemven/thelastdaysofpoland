@@ -14,6 +14,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.1" }
+
 	option = {
 		name = WML.1.a
 
@@ -28,6 +30,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.2" }
+
 	option = {
 		name = WML.2.a
 	}
@@ -40,7 +44,9 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.3" }
+	
 	option = {			#Wybór ścieżki Dialogu
 		name = WML.3.a
 
@@ -62,6 +68,8 @@ country_event = { #Problem z energią
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.4" }
 
 	option = {
 		name = WML.4.a #IN BRACTWO WE TRUST
@@ -161,6 +169,8 @@ country_event = { #Problem z jedzeniem
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.5" }
+
 	option = {
 		name = WML.5.a	#Sapek
 
@@ -257,6 +267,8 @@ country_event = { # Problemy z Materiałami
 	id = WML.6
 	title = WML.6.t
 	desc = WML.6.desc
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.6" }
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -399,7 +411,7 @@ country_event = {
 
 	fire_only_once = no
 	is_triggered_only = yes
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.7" }
 	option = {
 		name = WML.7.a
 		set_country_flag = WML_gill_piatek_remains
@@ -425,7 +437,9 @@ country_event = {
 
 	fire_only_once = no
 	is_triggered_only = yes
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.8" }
+	
 	option = {
 		name = WML.8.a
 
@@ -449,6 +463,8 @@ country_event = {
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.9" }
+
 	option = {
 		name = WML.9.a
 
@@ -469,6 +485,8 @@ country_event = {
 
 		fire_only_once = yes
 		is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.10" }
 
 	option = {
 	name = WML.10.a
@@ -520,6 +538,8 @@ country_event = {
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.11" }
+
 	option = {
 		name = WML.11.a
 
@@ -533,6 +553,8 @@ country_event = { #Negocjacje z bractwem
 
 	fire_only_once = no
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.12" }
 
 	option = {
 		name = WML.12.a
@@ -556,6 +578,8 @@ country_event = {
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.13" }
+
 	option = {
 		name = WML.13.a
 
@@ -569,6 +593,8 @@ country_event = { #negocjacje z sapkiem i jego larp gangiem
 
 	fire_only_once = no
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.14" }
 
 	option = {
 		name = WML.14.a
@@ -592,7 +618,9 @@ country_event = {
 
 	fire_only_once = no
 	is_triggered_only = yes
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.15" }
+	
 	option = {
 		name = WML.15.a
 
@@ -606,6 +634,8 @@ country_event = {
 
 	fire_only_once = no
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.16" }
 
 	#Zatrudnienie harcerzy do przetrenowania i wyposażenia naszych sił
 	option = {
@@ -649,6 +679,8 @@ country_event = { #Treaty of park piłsudskiego
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.17" }
+
 	option = {
 		name = WML.17.a
 		hidden_effect = {
@@ -675,6 +707,8 @@ country_event = { #lore event opisujący szkolenie naszych ludzi
 	title = WML.18.t
 	desc = WML.18.desc
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.18" }
+
 	fire_only_once = no
 	is_triggered_only = yes
 
@@ -692,6 +726,8 @@ country_event = { #flavor event o harcerzach w łodzi
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.19" }
+
 	option = {
 		name = WML.19.a
 	}
@@ -704,6 +740,8 @@ country_event = {
 
 	fire_only_once = no
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.20" }
 
 	option = {
 		name = WML.20.a
@@ -729,6 +767,8 @@ country_event = { #flavor event o tym że kanalie które dołączyly do naszych 
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.21" }
+	
 	option = {
 		name = WML.21.a
 		add_political_power = -25
@@ -743,6 +783,8 @@ country_event = { #WML_and_a_look_onto_the_stage
 
 	fire_only_once = no
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.22" }
 
 	option = {
 		name = WML.22.a
@@ -764,6 +806,8 @@ country_event = { #WML_hungry_and_lost
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.23" }
+
 	option = {
 		name = WML.23.a
 	}
@@ -777,6 +821,8 @@ country_event = { #WML_why_cant_we_just_agree
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.24" }
+
 	option = {
 		name = WML.24.a
 	}
@@ -789,6 +835,8 @@ country_event = { #WML_striking_workers
 
 	fire_only_once = no
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.25" }
 
 	#kibole Żymiańscy pomagają nam pałować strajkujacych
 	option = {
@@ -831,6 +879,8 @@ country_event = { #Żymianie pałujom jak ZOMO w "wujku" :3
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.26" }
+
 	option = {
 		name = WML.26.a
 		577 = {
@@ -852,6 +902,8 @@ country_event = { #Negocjacje zakończone sukcesem
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.27" }
+
 	option = { 	#Przekonujemy strajkujących żeby wrócili do pracy
 		name = WML.27.a
 		add_political_power = 25
@@ -871,6 +923,8 @@ country_event = { #Negocjacje-Porażka
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.28" }
+
 	option = { #Jesteśmy zmuszeni wykonać chociaż część postulatów strajkujących
 		name = WML.28.a
 		add_stability = 0.02
@@ -886,6 +940,8 @@ country_event = { #WML_sow_the_seeds_of_dialogue
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.29" }
+
 	option = {
 		name = WML.29.a
 	}
@@ -898,6 +954,8 @@ country_event = { #WML_the_beginning_of_the_dialogue
 
 	fire_only_once = no
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.30" }
 
 	option = {
 		name = WML.30.a
@@ -913,6 +971,8 @@ country_event = { #WML_insider_perspective
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.31" }
+
 	option = {
 		name = WML.31.a
 	}
@@ -926,6 +986,8 @@ country_event = { #WML_send_out_delegations
 	fire_only_once = no
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.32" }
+
 	option = {
 		name = WML.32.a
 	}
@@ -938,6 +1000,8 @@ country_event = { #Wprowadzenie o Strajkujących
 
 	fire_only_once = no
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.33" }
 
 	option = {
 		name = WML.33.a
@@ -954,6 +1018,8 @@ country_event = { #Focus What Now?
 
 	fire_only_once = no
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML_total.1" }
 
 	option = {
 		name = WML_total.1.a
@@ -975,6 +1041,8 @@ news_event = {			#WML_convene_general_assembly - Świat dowiaduje się o Wielkie
 	id = WML_news.1 
 	title = WML_news.1.t
 	desc = WML_news.1.desc
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML_news.1" }
 	
 	major = yes
 	fire_only_once = yes

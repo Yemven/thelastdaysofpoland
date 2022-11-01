@@ -10,7 +10,7 @@ country_event = {
 		original_tag = GLI
 		date > 2027.12.31 
 		}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.1" }
 	option = {
 		name = aievent.1.a #socdem
 		ai_chance = { base = 40 }
@@ -20,10 +20,12 @@ country_event = {
 			ruling_party = socialdemocrature
 			}
 		}
+		log = "[GetDateText]: socdem twardoch"
 	}
 	option = {
 		name = aievent.1.b #rajch
 		ai_chance = { base = 60 }
+		log = "[GetDateText]: reich twardoch"
 	}
 }
 
@@ -37,7 +39,7 @@ country_event = {
 		original_tag = SOS
 		date > 2027.12.31
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.2" }
 	option = {
 		name = aievent.2.a #dźwig
 		ai_chance = { base = 30 }
@@ -53,11 +55,12 @@ country_event = {
 			name = "PKWN"
 		}
 		}
+		log = "[GetDateText]: dzwig sosnowiec"
 	}
 	option = {
 		name = aievent.2.b #socjaluch
 		ai_chance = { base = 70 }
-
+		log = "[GetDateText]: socdem sosnowiec"
 	}
 }
 
@@ -71,13 +74,14 @@ country_event = {
 		original_tag = DGR
 		can_unify_zaglebie = yes
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.3" }
 	option = {
 		name = aievent.3.a #dźwig
 		ai_chance = { base = 50 }
 		set_politics = {
 			ruling_party = marxism_cranism
-			}
+		}
+		log = "[GetDateText]: dzwig dg"
 	}
 	option = {
 		name = aievent.3.b #nazbol
@@ -93,6 +97,7 @@ country_event = {
 			name = "NLPP"
 		}
 		}
+		log = "[GetDateText]: nazbol dg"
 	}
 	option = {
 		name = aievent.3.c #rasta
@@ -100,6 +105,7 @@ country_event = {
 		set_politics = {
 			ruling_party = postpolonism
 			}
+		log = "[GetDateText]: duuude weeed dg"
 	}
 }
 
@@ -108,7 +114,7 @@ country_event = {
 	id = aievent.4 #antifa
 	title = aievent.4.t
 	desc = aievent.4.desc
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.4" }
 	fire_only_once = yes
 	trigger = { 
 		original_tag = JAW
@@ -118,6 +124,7 @@ country_event = {
 	option = {
 		name = aievent.4.a #antifa
 		ai_chance = { base = 70 }
+		log = "[GetDateText]: antifa jaworzno"
 	}
 	option = {
 		name = aievent.4.b #razemki
@@ -132,6 +139,7 @@ country_event = {
 			name = "Razem"
 		}
 		}
+		log = "[GetDateText]: soy jaworzno"
 	}
 }
 
@@ -141,6 +149,7 @@ country_event = {
 	desc = aievent.5.desc
 
 	fire_only_once = yes
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.5" }
 	trigger = { 
 		original_tag = SOS
 		date > 2027.12.01 
@@ -151,6 +160,7 @@ country_event = {
 		JAW = { leave_faction = yes }
 		DGR = { leave_faction = yes }
 		SOS = { dismantle_faction = yes }
+		log = "[GetDateText]: sosnowiec rozwalił frakcję"
 	}
 }
 
@@ -158,7 +168,9 @@ country_event = {
 	id = aievent.6 #faction dismantling
 	title = aievent.6.t
 	desc = aievent.6.desc
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.6 "}
+	
 	fire_only_once = yes
 	trigger = { 
 		original_tag = CHO
@@ -175,6 +187,7 @@ country_event = {
 		JSW = { leave_faction = yes }
 		KAT = { leave_faction = yes }
 		CHO = { dismantle_faction = yes }
+		log = "[GetDateText]: chorzów rozwalił frakcję"
 	}
 }
 
@@ -188,7 +201,7 @@ country_event = {
 		original_tag = BRZ
 		date > 2027.06.30
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.7 "}
 	option = {
 		name = aievent.7.a #dźwig
 		set_politics = {
@@ -207,6 +220,7 @@ country_event = {
 			reactionary = 3
 			postpolonism = 0
 		}
+		log = "[GetDateText]: brzęczek został operatorem dźwigu"
 	}
 }
 
@@ -220,7 +234,7 @@ country_event = {
 		original_tag = CCH
 		date > 2027.06.01
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.8 "}
 	option = {
 		name = aievent.8.a #paulini-moderate
 		ai_chance = { base = 10 }
@@ -240,6 +254,7 @@ country_event = {
 			reactionary = 11
 			postpolonism = 5
 		}
+		log = "[GetDateText]: Solus cum Deo solo (paulini)"
 	}
 	option = {
 		name = aievent.8.b #joannici
@@ -260,6 +275,7 @@ country_event = {
 			reactionary = 11
 			postpolonism = 5
 		}
+		log = "[GetDateText]: Tuitio Fidei et obsequium pauperum (joannici)"
 	}
 	option = {
 		name = aievent.8.c #paulini-krzyzowcy
@@ -280,6 +296,7 @@ country_event = {
 			reactionary = 47
 			postpolonism = 5
 		}
+		log = "[GetDateText]: DEUS VULT"
 	}
 }
 
@@ -295,7 +312,7 @@ country_event = {
 		original_tag = ZAW
 		date > 2027.07.01
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.9 "}
 	option = {
 		name = aievent.9.a #goowiniarz
 		ai_chance = { base = 70 }
@@ -315,6 +332,7 @@ country_event = {
 			reactionary = 5
 			postpolonism = 0
 		}
+		log = "[GetDateText]: patcon zawiercie"
 	}
 	option = {
 		name = aievent.9.b #janoska
@@ -335,6 +353,7 @@ country_event = {
 			reactionary = 5
 			postpolonism = 0
 		}
+		log = "[GetDateText]: neonat zawiercie"
 	}
 	option = {
 		name = aievent.9.c #van-der-coghen
@@ -355,6 +374,7 @@ country_event = {
 			reactionary = 5
 			postpolonism = 0
 		}
+		log = "[GetDateText]: lib zawiercie"
 	}
 }
 
@@ -369,7 +389,7 @@ country_event = {
 		original_tag = KAT
 		date > 2027.12.01
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.10 "}
 	option = {
 		name = aievent.10.a #b0ris
 		ai_chance = { base = 50 }
@@ -389,6 +409,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "[GetDateText]: lib katowice"
 	}
 	option = {
 		name = aievent.10.b #sosna-junior
@@ -409,6 +430,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "[GetDateText]: ryneg katowice"
 	}
 	option = {
 		name = aievent.10.c #sosna-senior
@@ -429,6 +451,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "[GetDateText]: patcon katowice"
 	}
 }
 
@@ -443,7 +466,7 @@ country_event = {
 		original_tag = KRK
 		date > 2027.12.01
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.11"}
 	option = {
 		name = aievent.11.a #demokracja
 		ai_chance = { base = 50 }
@@ -452,6 +475,7 @@ country_event = {
 				id = aievent.12
 				}
 		}
+		log = "[GetDateText]: republika krakowska"
 	}
 	option = {
 		name = aievent.11.b #scjentokracja
@@ -461,6 +485,7 @@ country_event = {
 				id = aievent.13
 				}
 		}
+		log = "[GetDateText]: republika UJ"
 	}
 	option = {
 		name = aievent.11.c #monarchia
@@ -470,6 +495,7 @@ country_event = {
 				id = aievent.14
 				}
 		}
+		log = "[GetDateText]: królestwo krakowa"
 	}
 }
 
@@ -481,7 +507,7 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.12"}
 	option = {
 		name = aievent.12.a #demokracja
 		KRK_cw_KRA = yes
@@ -543,6 +569,7 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		log = "[GetDateText]: republika krakowska zdechła"
 	}
 }
 
@@ -553,7 +580,7 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.13"}
 	option = {
 		name = aievent.13.a 
 		KRK_scjento_UJ = yes
@@ -564,6 +591,7 @@ country_event = {
 				type = annex_everything
 			}
 		}
+		log = "[GetDateText]: republika UJ zdechła"
 	}
 }
 
@@ -575,7 +603,7 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.14"}
 	option = {
 		name = aievent.14.a #jacek-krul
 		ai_chance = { base = 60 }
@@ -583,12 +611,14 @@ country_event = {
 		set_politics = {
 			ruling_party = autocracy
 			}
-		}		
+		}
+		log = "[GetDateText]: krul smogu majchrowski"
 	}
 	option = {
 		name = aievent.14.b #maklowicz
 		ai_chance = { base = 40 }
 		KRK_krul_maklowicz = yes
+		log = "[GetDateText]: eeeeeeeeeeeee makłowicz"
 	}
 }
 
@@ -599,7 +629,7 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.15"}
 	option = {
 		name = aievent.15.a #EKS
 		ai_chance = { base = 50 }
@@ -616,6 +646,7 @@ country_event = {
 				}
 			}
 			set_political_power = -100
+			log = "[GetDateText]: turyści pod opieką EKS"
 	}			
 	option = {
 		name = aievent.15.b #KGH
@@ -634,6 +665,7 @@ country_event = {
 				}
 			}
 			set_political_power = -100
+		log = "[GetDateText]: turyści pod opieką KGH"
 	}
 }
 
@@ -648,7 +680,7 @@ country_event = {
 		original_tag = CAL
 		date > 2027.05.01
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.16"}
 	option = {
 		name = aievent.16.a #optimates
 		ai_chance = { base = 50 }
@@ -668,6 +700,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "[GetDateText]: partia optymatów w kaliszu"
 	}
 	option = {
 		name = aievent.16.b #populares
@@ -688,6 +721,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "[GetDateText]: partia popularów w kaliszu"
 	}
 }
 
@@ -702,7 +736,7 @@ country_event = {
 		original_tag = PIL
 		date > 2027.12.01
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.17"}
 	option = {
 		name = aievent.17.a #kania
 		ai_chance = { base = 50 }
@@ -722,6 +756,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 100
 		}
+		log = "[GetDateText]: kania pilska"
 	}
 	option = {
 		name = aievent.17.b #stoklosa
@@ -742,6 +777,7 @@ country_event = {
 			reactionary = 5
 			postpolonism = 0
 		}
+		log = "[GetDateText]: stoklosa pilska"
 	}
 }
 
@@ -755,7 +791,7 @@ country_event = {
 		original_tag = STA
 		date > 2027.12.20
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.18"}
 	option = {
 		name = aievent.18.a
 		set_politics = {
@@ -774,6 +810,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "[GetDateText]: komuna starachowicka"
 	}
 }
 
@@ -787,7 +824,7 @@ country_event = {
 		original_tag = SND
 		date > 2027.12.20
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.19"}
 	option = {
 		name = aievent.19.a
 		set_politics = {
@@ -806,6 +843,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "[GetDateText]: Sandomierz żyje"
 	}
 }
 
@@ -819,7 +857,7 @@ country_event = {
 		original_tag = UMN
 		date > 2027.10.20
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.20"}
 	option = {
 		name = aievent.20.a
 		UMN = {
@@ -834,6 +872,7 @@ country_event = {
 				type = annex_everything 
 				}
 			}
+		log = "[GetDateText]: Bochnia w ogniu"
 	}
 }
 
@@ -848,7 +887,7 @@ country_event = {
 		original_tag = TOR
 		date > 2027.09.01
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.21"}
 	option = {
 		ai_chance = { base = 40 }
 		name = aievent.21.a #rydzyk
@@ -869,6 +908,7 @@ country_event = {
 			postpolonism = 0
 		}
 		set_global_flag = procesja_lets_go
+		log = "[GetDateText]: ojciec dyrektor uczył dzieci swoje"
 	}
 	option = {
 		ai_chance = { base = 20 }
@@ -890,6 +930,7 @@ country_event = {
 			postpolonism = 0
 		}
 		set_global_flag = procesja_lets_go
+		log = "[GetDateText]: ślusarski w woruniu"
 	}
 	option = {
 		ai_chance = { base = 20 }
@@ -911,6 +952,7 @@ country_event = {
 			postpolonism = 0
 		}
 		set_global_flag = procesja_lets_go
+		log = "[GetDateText]: hoga w woruniu"
 	}
 	option = {
 		ai_chance = { base = 20 }
@@ -932,6 +974,7 @@ country_event = {
 			postpolonism = 0
 		}
 		set_global_flag = procesja_lets_go
+		log = "[GetDateText]: memcen w woruniu"
 	}
 }
 
@@ -940,13 +983,13 @@ country_event = {
 	id = aievent.22 #radom
 	title = aievent.22.t
 	desc = aievent.22.desc
-
+	
 	fire_only_once = yes
 	trigger = { 
 		original_tag = RAD
 		date > 2028.01.14
 	}
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.22"}
 	option = {
 		ai_chance = { base = 20 }
 		name = aievent.22.a #solorz
@@ -972,7 +1015,8 @@ country_event = {
 				autonomous_state = autonomy_supervised_state
 				freedom_level = 0.15 
 				}
-			}		
+			}
+		log = "[GetDateText]: polsat w radomiu"
 	}
 	option = {
 		ai_chance = { base = 30 }
@@ -1000,6 +1044,7 @@ country_event = {
 				freedom_level = 0.15 
 				}
 			}
+		log = "[GetDateText]: kopacz w radomiu"
 	}
 	option = {
 		name = aievent.22.c #fogiel
@@ -1027,6 +1072,7 @@ country_event = {
 				freedom_level = 0.15 
 				}
 			}
+		log = "[GetDateText]: fogiel w radomiu"
 	}
 	option = {
 		name = aievent.22.d #mafia
@@ -1047,6 +1093,7 @@ country_event = {
 			reactionary = 0
 			postpolonism = 0
 		}
+		log = "[GetDateText]: mafia w radomiu"
 	}
 }
 
@@ -1057,7 +1104,7 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.23"}
 	option = {
 		name = aievent.23.a #bad
 		ai_chance = { base = 50 }
@@ -1076,6 +1123,7 @@ country_event = {
 				}
 			}
 			}
+		log = "[GetDateText]: kghm nie umie walczyć"
 	}			
 	option = {
 		name = aievent.23.b #gud
@@ -1096,6 +1144,7 @@ country_event = {
 						}
 					}
 			}
+			log = "[GetDateText]: kghm umie walczyć"
 	}
 }
 
@@ -1103,7 +1152,7 @@ country_event = {
 	id = aievent.24 #faction dismantling
 	title = aievent.24.t
 	desc = aievent.24.desc
-
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires aievent.24"}
 	fire_only_once = yes
 	trigger = { 
 		original_tag = ROS
@@ -1113,6 +1162,7 @@ country_event = {
 	option = {
 		name = aievent.24.a
 		ROS = { leave_faction = yes }
+		log = "[GetDateText]: uuk uuk aak akk - t. puton"
 	}
 }
 

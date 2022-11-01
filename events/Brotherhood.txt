@@ -15,10 +15,13 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.1" }
+
 	option = {
 		name = belchatow.1.a
 		add_stability = -0.15
 		add_ideas = BBW_street_anger
+		log = "[GetDateText]: belchatowianie wkurwieni"
 	}
 }
 
@@ -31,13 +34,16 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.2" }
 	
 	option = { 
 		name = belchatow.2.a
 		retire_character = BBW_gen_sommer
 		activate_advisor = BBW_min_rzymkowski
 		random_unit_leader = { limit = { has_id = 11 } promote_leader = yes }
+		log = "[GetDateText]: sommer wypierdolony"
 	}
+	
 }
 
 country_event = {
@@ -49,6 +55,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.3" }
+
 	option = {
 		name = belchatow.3.a
 	}
@@ -59,6 +67,8 @@ country_event = {
 	title = belchatow.4.t
 	desc = belchatow.4.desc
 	picture = GFX_report_event_german_Army
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.4" }
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -77,11 +87,14 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.5" }
+
 	option = {
 		name = belchatow.5.a
 		add_manpower = -500
 		add_stability = 0.1
 		add_political_power = 50
+		log = "[GetDateText]: belchatow.5.done"
 	}
 }
 
@@ -90,7 +103,9 @@ country_event = {
 	title = belchatow.6.t
 	desc = belchatow.6.desc
 	picture = GFX_report_event_german_Army
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.6" }
+	
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -104,6 +119,8 @@ country_event = {
 	title = belchatow.7.t
 	desc = belchatow.7.desc
 	picture = GFX_report_event_german_Army
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.7" }
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -122,12 +139,15 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.8" }
+
 	option = {
 		name = belchatow.8.a
 		add_political_power = -100
 		hidden_effect = {
 			load_focus_tree = belchatow_war_focus
 		}
+		log = "[GetDateText]: BBW idzie na wojnę"
 	}
 }
 
@@ -139,6 +159,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.9" }
 
 	option = {
 		name = belchatow.9.a
@@ -154,6 +176,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.10" }
+
 	option = {
 		name = belchatow.10.a
 	}
@@ -167,6 +191,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.11" }
 
 	option = {
 		name = belchatow.11.a
@@ -187,6 +213,7 @@ country_event = {
 				}
 			}
 		}
+		log = "[GetDateText]: zielona kontrewolucja w bełchatowie (ev.11)"
 	}
 }
 
@@ -198,6 +225,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.12" }
 
 	option = {
 		name = belchatow.12.a
@@ -218,6 +247,7 @@ country_event = {
 				}
 			}
 		}
+		log = "[GetDateText]: zielona kontrewolucja w bełchatowie (ev.12)"
 	}
 }
 
@@ -231,6 +261,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.13" }
+
 	option = {
 		name = belchatow.13.a
 		every_owned_state = {
@@ -240,6 +272,7 @@ country_event = {
 				add_idea = BBW_green_counter_revolution4
 				remove_idea = BBW_green_counter_revolution3
 			}
+		log = "[GetDateText]: zielona kontrewolucja w bełchatowie (ev.13)"
 	}
 }
 
@@ -251,6 +284,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.14" }
 
 	option = {
 		name = belchatow.14.a
@@ -266,6 +301,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.15" }
+
 	option = {
 		name = belchatow.15.a
 	}
@@ -279,6 +316,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.16" }
 
 	option = {
 		name = belchatow.16.a
@@ -329,6 +368,7 @@ country_event = {
 				}
 			}
 		}
+		log = "[GetDateText]: belchatow handluje z żydami"
 	}
 }
 
@@ -342,9 +382,12 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.17" }
+
 	option = {
 		name = belchatow.17.a
 		add_political_power = -50
+		log = "[GetDateText]: belchatow.17.done"
 	}
 }
 
@@ -357,12 +400,15 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.18" }
+
 	option = {
 		name = belchatow.18.a
 		annex_country = { 
 			target = KRS
 			transfer_troops = no
-			}
+		}
+		log = "[GetDateText]: belchatow zjadł krośniewice"
 	}
 }
 
@@ -375,12 +421,15 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.19" }
+
 	option = {
 		name = belchatow.19.a
 		declare_war_on = {
 			target = KRS
 			type = annex_everything
-			}
+		}
+		log = "[GetDateText]: belchatow napierdala krośniewice"
 	}
 }
 
@@ -396,6 +445,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.20" }
+
 	option = {
 		name = belchatow.20.a
 		activate_mission = BBW_industrial_mission1
@@ -409,6 +460,7 @@ country_event = {
 		var = var_industrial_missions_completed
 		value = 1
 		}
+		log = "[GetDateText]: belchatow przemysł level 1"
 	}
 }
 
@@ -421,6 +473,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.21" }
+
 	option = {
 		name = belchatow.21.a
 		activate_mission = BBW_industrial_mission2
@@ -429,7 +483,7 @@ country_event = {
 		add_to_variable = {
 		var_industrial_missions_started = 1
 		}
-
+		log = "[GetDateText]: belchatow przemysł level 2"
 	}
 }
 
@@ -442,6 +496,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.22" }
+
 	option = {
 		name = belchatow.22.a
 		activate_mission = BBW_industrial_mission3
@@ -450,6 +506,7 @@ country_event = {
 		add_to_variable = {
 		var_industrial_missions_started = 1
 		}
+		log = "[GetDateText]: belchatow przemysł level 3"
 	}
 }
 
@@ -461,6 +518,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.23" }
 
 	option = {
 		name = belchatow.23.a
@@ -478,6 +537,7 @@ country_event = {
 			341 = {
 			add_manpower = -104
 			}
+		log = "[GetDateText]: belchatow.23.done"
 	}
 }
 
@@ -497,12 +557,15 @@ country_event = {
 		}
 	}
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.24" }
+
 	option = {
 		name = belchatow.24.a
 		custom_effect_tooltip = BBW_pollution_start_tt
 		hidden_effect = {
 		activate_mission = BBW_pollution_stage1
 		}
+		log = "[GetDateText]: smog khekhe"
 	}
 }
 
@@ -515,10 +578,13 @@ country_event = {					#LOSE
 
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.27" }
+
 	option = {
 		name = belchatow.27.a
 			add_political_power = -75
 			add_stability = -0.05
+		log = "[GetDateText]: belchatow loses"
 	}
 }
 
@@ -530,10 +596,13 @@ country_event = { 					#WIN
 
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires belchatow.28" }
+
 	option = {
 		name = belchatow.28.a
 			add_political_power = 15
 			add_stability = 0.03
+			log = "[GetDateText]: belchatow wins"
 	}
 }
 
@@ -546,10 +615,13 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log =  "[GetDateText]: [ROOT.GetName] fires belchatow.29" }
+
 	option = {
 		name = belchatow.29.a
 		activate_mission = BBW_industrial_mission4
 		add_ideas = BBW_military_factories_focus
+		log = "[GetDateText]: belchatow wins"
 	}
 }
 
@@ -562,11 +634,14 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log =  "[GetDateText]: [ROOT.GetName] fires belchatow.30" }
+
 	option = {
 		name = belchatow.30.a
 		add_political_power = 20
 		add_stability  = 0.03
 		custom_effect_tooltip = BBW_levarage_against_lodz_tt
+		log = "[GetDateText]: mamy na cb haka panie Hołownia - t. ziemniak"
 	}
 }
 
@@ -578,7 +653,9 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	
+	immediate = { log =  "[GetDateText]: [ROOT.GetName] fires energydeals.1" }
+	
 	option = {
 		name = energydeals.1.a #jo bierzemy
 		trigger = {
@@ -598,6 +675,7 @@ country_event = {
 				days = 7
 			}
 		}
+		log = "[GetDateText]: [ROOT.GetName] - hura kupiliśmy prąd"
 	}
 	option = {
 		name = energydeals.1.b #spadaj
@@ -614,6 +692,7 @@ country_event = {
 				days = 7
 			}
 		}
+		log = "[GetDateText]: [ROOT.GetName] - nie kupiliśmy prądu"
 	}
 	option = {
 		name = energydeals.1.c #nie stać nas, przyjdź później
@@ -626,6 +705,7 @@ country_event = {
 				days = 7
 			}
 		}
+		log = "[GetDateText]: [ROOT.GetName] - nie stać nas na prąd"
 	}
 }
 
@@ -635,6 +715,7 @@ country_event = {
 	desc = energydeals.2.desc
 	picture = GFX_report_event_german_Army
 
+	immediate = { log =  "[GetDateText]: [ROOT.GetName] fires energydeals.2" }
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -661,6 +742,7 @@ country_event = {
 			set_country_flag = importing_energy
 			add_ideas = importing_energy_idea
 		}
+		log = "[GetDateText]: sprzedajemy prąd"
 	}
 }
 
@@ -673,8 +755,11 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires energydeals.3" }
+	
 	option = {
 		name = energydeals.3.a #jak nie to nie
+		log = "[GetDateText]: nie ma prądu"
 	}
 }
 
@@ -687,7 +772,10 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires energydeals.4" }
+
 	option = {
 		name = energydeals.4.a #ok then
+		log = "[GetDateText]: przyjdziemy później"
 	}
 }
