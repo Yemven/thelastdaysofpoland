@@ -17,6 +17,7 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
+			log = "[GetDateText]: Decision eurolib_pro_federalist_propaganda"
 			random_list = {
 			15 = {
 				add_popularity = {
@@ -73,6 +74,7 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision eurolib_complicate_bureaucracy"
 			random_list = {
 			5 = {
 				add_popularity = {
@@ -103,6 +105,7 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision eurolib_taxes_increase"
 			random_list = {
 			10 = {
 				add_popularity = {
@@ -139,6 +142,7 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision eurolib_agricultural_funds"
 			add_stability = 0.03
 		}
 	}
@@ -159,6 +163,7 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision eurolib_public_works_funds"
 			add_stability = 0.03
 		}
 	}
@@ -181,6 +186,7 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision eurolib_cultural_dev_funds"
 			random_list = {
 			15 = {
 				add_war_support = 0.03
@@ -217,6 +223,7 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision eurolib_implement_harsher_gun_laws"
 			random_list = {
 			15 = {
 				add_equipment_to_stockpile = {
@@ -271,6 +278,7 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision eurolib_offensive_war_propaganda"
 		random_list = {
 			15 = {
 				add_war_support = 0.01
@@ -310,6 +318,7 @@ generic_decisions_eurolib_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision eurolib_defensive_war_propaganda"
 		random_list = {
 			15 = {
 				add_war_support = 0.03
@@ -348,6 +357,7 @@ generic_decisions_squat_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision squat_blunt_of_peace"
 			add_popularity = {
 				ideology = squattism
 				popularity = 0.02
@@ -368,6 +378,7 @@ generic_decisions_squat_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision squat_get_some_baseball_bats"
 			add_equipment_to_stockpile = {
 				type = melee_equipment
 				amount = 250
@@ -388,6 +399,7 @@ generic_decisions_squat_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision squat_pump_yourself_to_fight"
 			add_war_support = 0.10
 		}
 	}
@@ -409,6 +421,7 @@ generic_decisions_cranism_category = {
 		}
 		
 		remove_effect = {
+		log = "[GetDateText]: Decision cranism_central_commitee_meeting"
 			add_popularity = {
 				ideology = marxism_cranism
 				popularity = 0.02
@@ -430,6 +443,7 @@ generic_decisions_cranism_category = {
 		}
 		
 		remove_effect = {
+			log = "[GetDateText]: Decision cranism_military_parade"
 			add_stability = 0.05
 			add_war_support = 0.05
 		}
@@ -449,6 +463,7 @@ generic_decisions_cranism_category = {
 		}
 		fixed_random_seed = no
 		remove_effect = {
+			log = "[GetDateText]: Decision cranism_build_great_project_of_socialism"
 			random_list = {
 				10 = {
 					random_owned_state = {
@@ -490,6 +505,7 @@ generic_decisions_succdem_category = {
 		}
 		
 		remove_effect = {
+			log = "[GetDateText]: Decision succdem_promise_safety_net"
 			add_popularity = {
 				ideology = socialdemocrature
 				popularity = 0.02
@@ -510,7 +526,7 @@ generic_decisions_succdem_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision succdem_self_defence_courses "
 			add_equipment_to_stockpile = {
 				type = melee_equipment
 				amount = 125
@@ -535,7 +551,7 @@ generic_decisions_succdem_category = {
 			
 		}
 		fixed_random_seed = no
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision succdem_fund_national_businesses "
 			random_owned_state = {
 				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 			}
@@ -559,7 +575,7 @@ generic_decisions_freemarket_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision freemarket_cut_down_taxes "
 			add_popularity = {
 				ideology = freemarketism
 				popularity = 0.05
@@ -580,7 +596,7 @@ generic_decisions_freemarket_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision freemarket_print_3d_guns "
 			add_equipment_to_stockpile = {
 				type = ranged_equipment
 				amount = 250
@@ -600,7 +616,7 @@ generic_decisions_freemarket_category = {
 			
 		}
 		fixed_random_seed = no
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision freemarket_fund_small_businesses "
 			random_owned_state = {
 				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 			}
@@ -624,7 +640,7 @@ generic_decisions_patcon_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision patcon_organize_a_grand_mass "
 			add_popularity = {
 				ideology = paternal_conservatism
 				popularity = 0.05
@@ -645,7 +661,7 @@ generic_decisions_patcon_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision patcon_gather_the_guns "
 			add_equipment_to_stockpile = {
 				type = ranged_equipment
 				amount = 150
@@ -665,7 +681,7 @@ generic_decisions_patcon_category = {
 			
 		}
 		fixed_random_seed = no
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision patcon_fund_church_owned_businesses "
 			random_owned_state = {
 				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 			}
@@ -689,7 +705,7 @@ generic_decisions_autocrat_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision autocrat_get_army_on_streets "
 			add_popularity = {
 				ideology = autocracy
 				popularity = 0.05
@@ -709,7 +725,7 @@ generic_decisions_autocrat_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision autocrat_take_guns_from_people "
 			add_equipment_to_stockpile = {
 				type = ranged_equipment
 				amount = 150
@@ -730,7 +746,7 @@ generic_decisions_autocrat_category = {
 			
 		}
 		fixed_random_seed = no
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision autocrat_force_people_to_work "
 			add_manpower = -100
 		}
 	}
@@ -753,7 +769,7 @@ generic_decisions_corporate_category = {
 		complete_effect = {
 			
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision corp_depoliticize_population "
 		}
 	}
 	
@@ -769,7 +785,7 @@ generic_decisions_corporate_category = {
 		days_remove = 30
 		complete_effect = {	
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision corp_increase_population_comfort "
 		}
 	}
 	
@@ -787,7 +803,7 @@ generic_decisions_corporate_category = {
 		complete_effect = {	
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision corp_lower_quotas "
 			random_list = {
 				1 = {
 				add_stability = 0.05
@@ -815,7 +831,7 @@ generic_decisions_corporate_category = {
 		complete_effect = {	
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision corp_crank_up_quotas "
 		
 			random_list = {
 				2 = {
@@ -869,7 +885,7 @@ generic_decisions_corporate_category = {
 		days_remove = 56
 		complete_effect = {	
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision corp_lower_the_costs "
 		}
 	}
 	
@@ -887,7 +903,7 @@ generic_decisions_corporate_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  corp_expand_security_forces"
 		custom_effect_tooltip = corpo_random_eq_tt
 			random_list = {
 				2 = {
@@ -953,7 +969,7 @@ generic_decisions_corporate_category = {
 		complete_effect = {
 		add_manpower = 1000
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  corp_encite_military_service"
 		}
 	}
 	
@@ -973,7 +989,7 @@ generic_decisions_corporate_category = {
 		
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  corp_lend_out_monopoles"
 			custom_effect_tooltip = corpo_monopoles_tt
 			add_popularity = {
 				ideology = corporativism
@@ -1045,7 +1061,7 @@ generic_decisions_corporate_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  corp_crush_the_unions"
 		custom_effect_tooltip = corpo_lefties_crush_tt
 			IF = {
 			limit = {
@@ -1141,7 +1157,7 @@ generic_decisions_neonat_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  neonat_organize_patriotic_demonstration"
 			add_popularity = {
 				ideology = neonationalism
 				popularity = 0.05
@@ -1162,7 +1178,7 @@ generic_decisions_neonat_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  neonat_train_patrotic_youth"
 			add_equipment_to_stockpile = {
 				type = melee_equipment
 				amount = 100
@@ -1185,7 +1201,7 @@ generic_decisions_neonat_category = {
 		}
 		fixed_random_seed = no
 		fixed_random_seed = no
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  neonat_build_work_camps"
 			random_owned_state = {
 				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 			}
@@ -1211,7 +1227,7 @@ generic_decisions_react_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_rewrite_unfavorable_history"
 		
 		random_list = {
 			15 = {
@@ -1247,7 +1263,7 @@ generic_decisions_react_category = {
 		complete_effect = {
 
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_exploit_nostalgy"
 
 		}
 	}
@@ -1265,7 +1281,7 @@ generic_decisions_react_category = {
 		complete_effect = {
 
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_tell_people_what_they_want_to_hear"
 			add_political_power = 15
 			add_stability = 0.03
 		}
@@ -1286,7 +1302,7 @@ generic_decisions_react_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_rebuild_the_good_old_days"
 			random_list = {
 				15 = {
 					random_owned_state = {	
@@ -1349,7 +1365,7 @@ generic_decisions_react_category = {
 		complete_effect = {
 
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_return_to_old_ways"
 			add_stability = -0.05
 		}
 	}
@@ -1370,7 +1386,7 @@ generic_decisions_react_category = {
 		complete_effect = {
 
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_warriors_of_great_past"
 			random_list = {
 				15 = {
 				army_experience = 15
@@ -1409,7 +1425,7 @@ generic_decisions_react_category = {
 		complete_effect = {
 
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_warriors_of_great_past_wrt"
 			random_list = {
 				15 = {
 				army_experience = 15
@@ -1445,7 +1461,7 @@ generic_decisions_react_shizo_category = {
 			
 		}
 		
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_shizo_rewrite_unfavorable_history"
 		
 			random_list = {
 				15 = {
@@ -1481,7 +1497,7 @@ generic_decisions_react_shizo_category = {
 		complete_effect = {
 
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_shizo_exploit_nostalgy"
 
 		}
 	}
@@ -1498,7 +1514,7 @@ generic_decisions_react_shizo_category = {
 		complete_effect = {
 
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_shizo_tell_people_what_they_want_to_hear"
 			add_political_power = 15
 			add_stability = 0.03
 		}
@@ -1519,7 +1535,7 @@ generic_decisions_react_shizo_category = {
 				
 		}
 			
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_shizo_rebuild_the_good_old_days"
 			random_list = {
 				15 = {
 					random_owned_state = {
@@ -1581,7 +1597,7 @@ generic_decisions_react_shizo_category = {
 		days_remove = 70
 		complete_effect = {
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_shizo_return_to_old_ways"
 			add_stability = -0.05
 		}
 	}
@@ -1600,7 +1616,7 @@ generic_decisions_react_shizo_category = {
 		days_remove = 70
 		complete_effect = {
 		}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  react_shizo_warriors_of_great_past"
 		random_list = {
 			15 = {
 			army_experience = 15
@@ -1633,6 +1649,7 @@ generic_decisions_react_shizo_category = {
 		days_re_enable = 360
 		
 		complete_effect = {
+		log = "[GetDateText]: Decision react_shizo_proclaim_holy_war"
 		ROOT = {
 		custom_effect_tooltip = react_shizo_holy_war_tt
 		hidden_effect = {
@@ -1646,12 +1663,6 @@ generic_decisions_react_shizo_category = {
 	
 }
 
-###POSTPOL####
-
-generic_decisions_postpol_category = { #herder ty zrób te ostatnie bo ty najbardziej postpol ogarniasz
-	#PostPol jest pojęciem tak szerokim, a osoby go wyznające tak różne, że najlepiej będzie jak każda frakcja z tej ideologii będzie miała własne decyzje 
-
-}
 
 ## WEAPON GUNWO ###
 
@@ -1664,6 +1675,7 @@ weapon_dealer = {
 		cost = 0
 		complete_effect = {
 			set_country_flag = click_buy_vests
+			log = "[GetDateText]: Decision buy_vests"
 		}
 	}
 
@@ -1672,6 +1684,7 @@ weapon_dealer = {
 		cost = 0
 		complete_effect = {
 			clr_country_flag = click_buy_vests
+			log = "[GetDateText]: Decision collapse_vests"
 		}
 	}
 
@@ -1682,7 +1695,7 @@ weapon_dealer = {
 		modifier = {
             	civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_german_vests"
 			add_equipment_to_stockpile = {
     				type = equipment_vests
     				amount = 250
@@ -1698,7 +1711,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_radom_vests"
 		add_equipment_to_stockpile = {
     				type = equipment_vests
     				amount = 250
@@ -1714,7 +1727,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_chinese_vests"
 		add_equipment_to_stockpile = {
     				type = equipment_vests
     				amount = 250
@@ -1730,7 +1743,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_swedish_vests"
 		add_equipment_to_stockpile = {
     				type = equipment_vests
     				amount = 250
@@ -1745,7 +1758,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_ukrainian_vests"
 		add_equipment_to_stockpile = {
     				type = equipment_vests
     				amount = 250
@@ -1761,7 +1774,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_russian_vests"
 		add_equipment_to_stockpile = {
     				type = equipment_vests
     				amount = 250
@@ -1777,7 +1790,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_american_vests"
 		add_equipment_to_stockpile = {
     				type = equipment_vests
     				amount = 250
@@ -1792,6 +1805,7 @@ weapon_dealer = {
 		cost = 0
 		complete_effect = {
 			set_country_flag = click_buy_ranged
+			log = "[GetDateText]: Decision buy_ranged"
 		}
 	}
 
@@ -1800,6 +1814,7 @@ weapon_dealer = {
 		cost = 0
 		complete_effect = {
 			clr_country_flag = click_buy_ranged
+			log = "[GetDateText]: Decision collapse_ranged"
 		}
 	}
 
@@ -1810,7 +1825,7 @@ weapon_dealer = {
 		modifier = {
             	civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_german_ranged"
 			add_equipment_to_stockpile = {
     				type = ranged_equipment
     				amount = 250
@@ -1826,7 +1841,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_radom_ranged"
 		add_equipment_to_stockpile = {
     				type = ranged_equipment_4
     				amount = 250
@@ -1842,7 +1857,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_chinese_ranged"
 		add_equipment_to_stockpile = {
     				type = ranged_equipment_4
     				amount = 250
@@ -1858,7 +1873,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_swedish_ranged"
 		add_equipment_to_stockpile = {
     				type = ranged_equipment_4
     				amount = 250
@@ -1874,7 +1889,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_ukrainian_ranged"
 		add_equipment_to_stockpile = {
     				type = ranged_equipment_4
     				amount = 250
@@ -1890,7 +1905,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_russian_ranged"
 		add_equipment_to_stockpile = {
     				type = ranged_equipment_4
     				amount = 250
@@ -1906,7 +1921,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_american_ranged"
 		add_equipment_to_stockpile = {
     				type = ranged_equipment_4
     				amount = 250
@@ -1923,6 +1938,7 @@ weapon_dealer = {
 		cost = 0
 		complete_effect = {
 			set_country_flag = click_buy_at
+			log = "[GetDateText]: Decision buy_at"
 		}
 	}
 
@@ -1931,6 +1947,7 @@ weapon_dealer = {
 		cost = 0
 		complete_effect = {
 			clr_country_flag = click_buy_at
+			log = "[GetDateText]: Decision collapse_at"
 		}
 	}
 
@@ -1941,7 +1958,7 @@ weapon_dealer = {
 		modifier = {
             	civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_german_at"
 			add_equipment_to_stockpile = {
     				type = inf_anti_tank_equipment
     				amount = 250
@@ -1957,7 +1974,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_radom_at"
 		add_equipment_to_stockpile = {
     				type = inf_anti_tank_equipment
     				amount = 250
@@ -1973,7 +1990,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_swedish_at"
 		add_equipment_to_stockpile = {
     				type = inf_anti_tank_equipment
     				amount = 250
@@ -1989,7 +2006,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_chinese_at"
 		add_equipment_to_stockpile = {
     				type = inf_anti_tank_equipment
     				amount = 250
@@ -2005,7 +2022,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision  buy_ukrainian_at"
 		add_equipment_to_stockpile = {
     				type = inf_anti_tank_equipment
     				amount = 250
@@ -2021,7 +2038,7 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { log = "[GetDateText]: Decision buy_russian_at"
 		add_equipment_to_stockpile = {
     				type = inf_anti_tank_equipment
     				amount = 250
@@ -2037,7 +2054,8 @@ weapon_dealer = {
 		modifier = {
             		civilian_factory_use = 1
         	}
-		remove_effect = {
+remove_effect = { 
+log = "[GetDateText]: Decision buy_american_at"
 		add_equipment_to_stockpile = {
     				type = inf_anti_tank_equipment
     				amount = 250

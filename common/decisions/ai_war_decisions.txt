@@ -53,6 +53,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision heart_of_darkness"
 				if = { limit = { country_exists = BEX }
 				annex_country = {
 					target = BEX
@@ -119,6 +120,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podkarpacie_mielec_debica"
 				if = { limit = { country_exists = DBI }
 				declare_war_on = {
 					target = DBI
@@ -178,6 +180,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podkarpacie_TAR"
 				if = { limit = { country_exists = TAR }
 				declare_war_on = {
 					target = TAR
@@ -237,6 +240,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podkarpacie_BSC"
 				if = { limit = { country_exists = BSC }
 				declare_war_on = {
 					target = BSC
@@ -296,6 +300,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podkarpacie_KOZ"
 				if = { limit = { country_exists = KOZ }
 				declare_war_on = {
 					target = KOZ
@@ -349,6 +354,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podkarpacie_RZE"
 				if = { limit = { country_exists = RZE }
 				declare_war_on = {
 					target = RZE
@@ -402,6 +408,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podkarpacie_CHR"
 				if = { limit = { country_exists = CHR }
 				declare_war_on = {
 					target = CHR
@@ -461,6 +468,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podkarpacie_UPA"
 				if = { limit = { country_exists = UPA }
 				declare_war_on = {
 					target = UPA
@@ -514,6 +522,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podkarpacie_UHR"
 				if = { limit = { country_exists = UHR }
 				declare_war_on = {
 					target = UHR
@@ -573,6 +582,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podkarpacie_LGP"
 				if = { limit = { country_exists = LGP }
 				declare_war_on = {
 					target = LGP
@@ -632,6 +642,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podkarpacie_KRO"
 				if = { limit = { country_exists = KRO }
 				declare_war_on = {
 					target = KRO
@@ -670,6 +681,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision oddajcie_moje_krosno"
 				if = { limit = { country_exists = KOZ }
 				declare_war_on = {
 					target = KOZ
@@ -701,6 +713,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 18
 		remove_effect  = {
+			log = "[GetDateText]: Decision regent_rozpierdala_ukraine_war"
 				if = { limit = { country_exists = KOZ 
 						NOT = { has_war_with = KOZ } }
 				declare_war_on = {
@@ -741,6 +754,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision punk_not_dead"
 				if = { limit = { country_exists = UPA }
 				declare_war_on = {
 					target = UPA
@@ -774,6 +788,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 18
 		remove_effect  = {
+			log = "[GetDateText]: Decision christus_rex_war"
 				if = { limit = { country_exists = TAR 
 						NOT = { has_war_with = TAR } }
 				declare_war_on = {
@@ -815,6 +830,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 1
 		remove_effect  = {
+			log = "[GetDateText]: Decision mielec_debica"
 				if = { limit = { country_exists = MIE }
 				declare_war_on = {
 					target = MIE
@@ -847,6 +863,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 18
 		remove_effect  = {
+			log = "[GetDateText]: Decision tarnobrzeg_war"
 				if = { limit = { country_exists = CHR }
 				declare_war_on = {
 					target = CHR
@@ -896,6 +913,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision rozpierdol_lubaczow"
 				if = { limit = { country_exists = LCZ }
 				declare_war_on = {
 					target = LCZ
@@ -928,6 +946,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision lezajsk_wypij_do_dna"
 				if = { limit = { country_exists = LEZ }
 				declare_war_on = {
 					target = LEZ
@@ -960,6 +979,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision wino_wino_wypij_do_dna"
 				if = { limit = { country_exists = JSO }
 				declare_war_on = {
 					target = JSO
@@ -992,6 +1012,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision bieszczady_war"
 				if = { limit = { country_exists = ANC }
 				declare_war_on = {
 					target = ANC
@@ -1024,6 +1045,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision tarnobrzeg_kolbuszowa"
 				if = { limit = { country_exists = KOL }
 				declare_war_on = {
 					target = KOL
@@ -1066,6 +1088,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision warmia_vs_masuria_2"
 				if = { limit = { country_exists = WAR
 								 ROOT = { NOT = { tag = WAR } }
 								 ROOT = { NOT = { has_war_with = WAR } }
@@ -1116,6 +1139,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision warmia_vs_masuria_1"
 				if = { limit = { country_exists = PRU
 								 ROOT = { NOT = { tag = PRU } }
 								 ROOT = { NOT = { has_war_with = PRU } }
@@ -1171,6 +1195,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision lake_war"
 				if = { limit = { country_exists = PZW
 								 ROOT = { NOT = { tag = PZW } }
 								 ROOT = { NOT = { has_war_with = PZW } }
@@ -1215,6 +1240,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision great_teutonic_war2"
 				if = { limit = { country_exists = PRU
 								 ROOT = { NOT = { tag = PRU } }
 								 ROOT = { NOT = { has_war_with = PRU } }
@@ -1261,6 +1287,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision great_teutonic_war"
 				if = { limit = { country_exists = TEU
 								 ROOT = { NOT = { tag = TEU } }
 								 ROOT = { NOT = { has_war_with = TEU } }
@@ -1314,6 +1341,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 5
 		remove_effect  = {
+			log = "[GetDateText]: Decision russian_invasion"
 				if = { limit = { country_exists = TEU
 								 ROOT = { NOT = { tag = TEU } } }
 				declare_war_on = {
@@ -1392,6 +1420,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 5
 		remove_effect  = {
+			log = "[GetDateText]: Decision anti_russian_front"
 				if = { limit = { country_exists = ROS
 								 ROOT = { NOT = { tag = ROS } }
 								 ROOT = { NOT = { has_war_with = ROS } } }
@@ -1440,6 +1469,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision lu_bush_war_4"
 				if = { limit = { country_exists = MOT
 								 ROOT = { NOT = { tag = MOT } } }
 				declare_war_on = {
@@ -1486,6 +1516,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision lu_bush_war_3"
 				if = { limit = { country_exists = WIN
 								 ROOT = { NOT = { tag = WIN } } }
 				declare_war_on = {
@@ -1528,6 +1559,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision lu_bush_war_2"
 				if = { limit = { country_exists = MOT
 								 ROOT = { NOT = { tag = MOT } } }
 				declare_war_on = {
@@ -1570,6 +1602,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision lu_bush_war"
 				if = { limit = { country_exists = WIN
 								 ROOT = { NOT = { tag = WIN } } }
 				declare_war_on = {
@@ -1617,6 +1650,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision combat_wiejskiej_klasie"
 				if = { limit = { country_exists = OSW
 								 ROOT = { NOT = { tag = OSW 
 												   has_war_with = OSW } } }
@@ -1743,6 +1777,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision krakow_jebie_reszte"
 				if = { limit = { country_exists = TRN
 								 ROOT = { NOT = { tag = TRN } } }
 				declare_war_on = {
@@ -1818,6 +1853,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision krakow_jebie_ziobre"
 				if = { limit = { country_exists = PRK
 								 ROOT = { NOT = { tag = PRK } } }
 				declare_war_on = {
@@ -1864,6 +1900,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision rozjebanie_krakowa"
 				if = { limit = { country_exists = KRK
 								 ROOT = { NOT = { tag = KRK } } }
 				declare_war_on = {
@@ -1952,6 +1989,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 60
 		remove_effect  = {
+			log = "[GetDateText]: Decision kosa_sierp_w_imieniu_wiejskiej_racji"
 				if = { limit = { country_exists = PRK
 								 ROOT = { NOT = { tag = PRK } } }
 				declare_war_on = {
@@ -1994,6 +2032,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision ziobro_war_west"
 				if = { limit = { country_exists = PRK
 								 ROOT = { NOT = { tag = PRK } } }
 				declare_war_on = {
@@ -2029,6 +2068,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision osw_wdw_war"
 				if = { limit = { country_exists = WDW
 								 ROOT = { NOT = { tag = WDW } } }
 				declare_war_on = {
@@ -2062,6 +2102,7 @@ ai_war_decisions = {
 		}
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision procesja_rules_cw"
 				519 = {
 					add_core_of = HOR 
 				}
@@ -2119,6 +2160,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision procesja_rules"
 				800 = {
 					add_core_of = HOR 
 				}
@@ -2166,6 +2208,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision ludowe_wadowice_rules"
 				if = { limit = { country_exists = OSW
 								 ROOT = { NOT = { tag = OSW 
 												   has_war_with = OSW } } }
@@ -2200,6 +2243,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision nadszedl_czas_agrarnej_dominacji"
 				if = { limit = { country_exists = UMN
 								 ROOT = { NOT = { tag = UMN } } }
 				declare_war_on = {
@@ -2251,6 +2295,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 5
 		remove_effect  = {
+			log = "[GetDateText]: Decision krakow_walka_na_maczety2"
 				if = { limit = { country_exists = NHT
 								 ROOT = { NOT = { tag = NHT } } }
 				declare_war_on = {
@@ -2294,6 +2339,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision krakow_walka_na_maczety"
 				if = { limit = { country_exists = KRK
 								 ROOT = { NOT = { tag = KRK } } }
 				declare_war_on = {
@@ -2383,6 +2429,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = TOR
 		remove_effect  = {
+			log = "[GetDateText]: Decision kujpom_TOR"
 				if = { limit = { country_exists = TOR }
 				declare_war_on = {
 					target = TOR
@@ -2429,6 +2476,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = GRU
 		remove_effect  = {
+			log = "[GetDateText]: Decision kujpom_GRU"
 				if = { limit = { country_exists = GRU }
 				declare_war_on = {
 					target = GRU
@@ -2475,6 +2523,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = BYD
 		remove_effect  = {
+			log = "[GetDateText]: Decision kujpom_BYD"
 				if = { limit = { country_exists = BYD }
 				declare_war_on = {
 					target = BYD
@@ -2521,6 +2570,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = KUJ
 		remove_effect  = {
+			log = "[GetDateText]: Decision kujpom_KUJ"
 				if = { limit = { country_exists = KUJ }
 				declare_war_on = {
 					target = KUJ
@@ -2567,6 +2617,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = INO
 		remove_effect  = {
+			log = "[GetDateText]: Decision kujpom_INO"
 				if = { limit = { country_exists = INO }
 				declare_war_on = {
 					target = INO
@@ -2611,6 +2662,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_final_zachod"
 				if = { limit = { country_exists = PLC
 								 ROOT = { NOT = { tag = PLC } } }
 				declare_war_on = {
@@ -2692,6 +2744,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_final_wschod"
 				if = { limit = { country_exists = MAF
 								 ROOT = { NOT = { tag = MAF } } }
 				declare_war_on = {
@@ -2761,6 +2814,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_poludnie_zachod"
 				if = { limit = { country_exists = TVP
 								 ROOT = { NOT = { tag = TVP } } }
 				declare_war_on = {
@@ -2807,6 +2861,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_poludnie_wschod"
 				if = { limit = { country_exists = DUP
 								 ROOT = { NOT = { tag = DUP } } }
 				declare_war_on = {
@@ -2859,6 +2914,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_polnoc_zachod"
 				if = { limit = { country_exists = ZIE
 								 ROOT = { NOT = { tag = ZIE } } }
 				declare_war_on = {
@@ -2904,6 +2960,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_polnoc_wschod"
 				if = { limit = { country_exists = BIE
 								 ROOT = { NOT = { tag = BIE } } }
 				declare_war_on = {
@@ -2955,6 +3012,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_dziki_inka"
 				if = { limit = { country_exists = ZIE
 								 ROOT = { NOT = { tag = ZIE } } }
 				declare_war_on = {
@@ -2997,6 +3055,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_podsiadlo"
 				if = { limit = { country_exists = LEG }
 					declare_war_on = {
 						target = LEG
@@ -3031,6 +3090,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_jp"
 				if = { limit = { country_exists = PLC
 								 ROOT = { tag = PLC }
 								 NOT = { has_war = yes } }
@@ -3073,6 +3133,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_tvp_trzask"
 				if = { limit = { country_exists = TVP
 								 ROOT = { NOT = { tag = TVP } } }
 				declare_war_on = {
@@ -3116,6 +3177,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_dupa"
 				if = { limit = { country_exists = DUP
 								 ROOT = { NOT = { tag = DUP } }
 								 ROOT = { NOT = { has_war_with = DUP } }								
@@ -3168,6 +3230,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_wolomin"
 				if = { limit = { country_exists = WOL
 								 ROOT = { NOT = { tag = WOL } } }
 				declare_war_on = {
@@ -3202,6 +3265,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision warszawo_walcz_zie_las"
 				if = { limit = { country_exists = LAS
 								 ROOT = { NOT = { tag = LAS } } }
 				declare_war_on = {
@@ -3244,6 +3308,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision eating_of_radom"
 			annex_country = {
 				target = RAD
 				transfer_troops = yes
@@ -3283,6 +3348,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 4
 		remove_effect  = {
+			log = "[GetDateText]: Decision radom_final_war"
 				if = { limit = { country_exists = SAT
 								 ROOT = { NOT = { tag = SAT } } }
 				declare_war_on = {
@@ -3334,6 +3400,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 4
 		remove_effect  = {
+			log = "[GetDateText]: Decision radom_fb_war"
 			if = { limit = { country_exists = SKA
 					RAD = { is_puppet_of = SKA } }
 				SAT = {
@@ -3407,6 +3474,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 4
 		remove_effect  = {
+			log = "[GetDateText]: Decision radom_mafia_war"
 			RAD = {
 				if = { limit = { country_exists = SAT 
 						 ROOT = { NOT = { tag = SAT } } }
@@ -3484,6 +3552,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 4
 		remove_effect  = {
+			log = "[GetDateText]: Decision north_mazovia_war"
 				if = { limit = { country_exists = ORL
 								 ROOT = { NOT = { tag = ORL } } }
 				declare_war_on = {
@@ -3547,6 +3616,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 15
 		remove_effect  = {
+			log = "[GetDateText]: Decision potezny_sasin_masakruje_kurpie"
 				if = { limit = { country_exists = KUR
 								 ROOT = { NOT = { tag = KUR } } }
 				declare_war_on = {
@@ -3582,6 +3652,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 15
 		remove_effect  = {
+			log = "[GetDateText]: Decision potezny_sasin_masakruje_zawkrze"
 				if = { limit = { country_exists = ZWK
 								 ROOT = { NOT = { tag = ZWK } } }
 				declare_war_on = {
@@ -3627,6 +3698,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision pom_war_final_tricity"
 				if = { limit = { country_exists = LOT
 								 ROOT = { NOT = { tag = LOT } } }
 				declare_war_on = {
@@ -3701,6 +3773,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision pom_war_final_kaszubia"
 				if = { limit = { country_exists = GDA
 								 ROOT = { NOT = { tag = GDA } } }
 				declare_war_on = {
@@ -3761,6 +3834,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision pom_war_tricity_south"
 				if = { limit = { country_exists = OWS
 								 ROOT = { NOT = { tag = OWS } } }
 				declare_war_on = {
@@ -3807,6 +3881,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision pom_war_tricity_north"
 				if = { limit = { country_exists = GDA
 								 ROOT = { NOT = { tag = GDA } } }
 				declare_war_on = {
@@ -3856,6 +3931,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision pom_war_gay_kaszubia"
 				if = { limit = { country_exists = GAY
 								 ROOT = { NOT = { tag = GAY } } }
 				declare_war_on = {
@@ -3902,6 +3978,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision pom_war_kaszuby_gay"
 				if = { limit = { country_exists = HEL
 								 ROOT = { NOT = { tag = HEL } } }
 				declare_war_on = {
@@ -3952,6 +4029,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision pom_gay_war"
 				if = { limit = { country_exists = GAY
 								 ROOT = { NOT = { tag = GAY } } }
 				declare_war_on = {
@@ -3995,6 +4073,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision pom_war_kaszuby"
 				if = { limit = { country_exists = HEL
 								 ROOT = { NOT = { tag = HEL } } 
 								 ROOT = { NOT = { has_war_with = HEL } }
@@ -4051,6 +4130,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision pom_war_gda_kor"
 				if = { limit = { country_exists = KOR
 								 ROOT = { NOT = { tag = KOR } } }
 				declare_war_on = {
@@ -4093,6 +4173,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 3
 		remove_effect  = {
+			log = "[GetDateText]: Decision pom_war_ows_bol"
 				if = { limit = { country_exists = OWS
 								 ROOT = { NOT = { tag = OWS } } }
 				declare_war_on = {
@@ -4177,6 +4258,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_traktor_boss"
 				if = { limit = { country_exists = AGR }
 				declare_war_on = {
 					target = AGR
@@ -4266,6 +4348,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_TAT"
 				if = { limit = { country_exists = TAT }
 				declare_war_on = {
 					target = TAT
@@ -4349,6 +4432,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_SAN"
 				if = { limit = { country_exists = SAN }
 				declare_war_on = {
 					target = SAN
@@ -4432,6 +4516,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_BEL"
 				if = { limit = { country_exists = BEL }
 				declare_war_on = {
 					target = BEL
@@ -4515,6 +4600,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_KON"
 				if = { limit = { country_exists = KON }
 				declare_war_on = {
 					target = KON
@@ -4598,6 +4684,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_BOM"
 				if = { limit = { country_exists = BOM }
 				declare_war_on = {
 					target = BOM
@@ -4681,6 +4768,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_LMZ"
 				if = { limit = { country_exists = LMZ }
 				declare_war_on = {
 					target = LMZ
@@ -4746,6 +4834,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_SEI"
 				if = { limit = { country_exists = SEI }
 				declare_war_on = {
 					target = SEI
@@ -4811,6 +4900,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_BRD"
 				if = { limit = { country_exists = BRD }
 				declare_war_on = {
 					target = BRD
@@ -4876,6 +4966,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_AUG"
 				if = { limit = { country_exists = AUG }
 				declare_war_on = {
 					target = AUG
@@ -4941,6 +5032,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_RAJ"
 				if = { limit = { country_exists = RAJ }
 				declare_war_on = {
 					target = RAJ
@@ -5006,6 +5098,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_DAM"
 				if = { limit = { country_exists = DAM }
 				declare_war_on = {
 					target = DAM
@@ -5071,6 +5164,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_COL"
 				if = { limit = { country_exists = COL }
 				declare_war_on = {
 					target = COL
@@ -5136,6 +5230,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_OSO"
 				if = { limit = { country_exists = OSO }
 				declare_war_on = {
 					target = OSO
@@ -5201,6 +5296,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_GRO"
 				if = { limit = { country_exists = GRO }
 				declare_war_on = {
 					target = GRO
@@ -5266,6 +5362,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_SUP"
 				if = { limit = { country_exists = SUP }
 				declare_war_on = {
 					target = SUP
@@ -5331,6 +5428,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_ZAB"
 				if = { limit = { country_exists = ZAB }
 				declare_war_on = {
 					target = ZAB
@@ -5396,6 +5494,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_WIL"
 				if = { limit = { country_exists = WIL }
 				declare_war_on = {
 					target = WIL
@@ -5461,6 +5560,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_ZAM"
 				if = { limit = { country_exists = ZAM }
 				declare_war_on = {
 					target = ZAM
@@ -5526,6 +5626,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_HMA"
 				if = { limit = { country_exists = HMA }
 				declare_war_on = {
 					target = HMA
@@ -5591,6 +5692,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_UHL"
 				if = { limit = { country_exists = UHL }
 				declare_war_on = {
 					target = UHL
@@ -5656,6 +5758,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_DRO"
 				if = { limit = { country_exists = DRO }
 				declare_war_on = {
 					target = DRO
@@ -5722,6 +5825,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_TYK"
 				if = { limit = { country_exists = TYK }
 				declare_war_on = {
 					target = TYK
@@ -5787,6 +5891,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision podlasie_TNO"
 				if = { limit = { country_exists = TNO }
 				declare_war_on = {
 					target = TNO
@@ -5835,6 +5940,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = JAS
 		remove_effect  = {
+			log = "[GetDateText]: Decision zachpom_JAS"
 				if = { limit = { country_exists = JAS }
 				declare_war_on = {
 					target = JAS
@@ -5883,6 +5989,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = USP
 		remove_effect  = {
+			log = "[GetDateText]: Decision zachpom_USP"
 				if = { limit = { country_exists = USP }
 				declare_war_on = {
 					target = USP
@@ -5931,6 +6038,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = EKW
 		remove_effect  = {
+			log = "[GetDateText]: Decision zachpom_EKW"
 				if = { limit = { country_exists = EKW }
 				declare_war_on = {
 					target = EKW
@@ -5979,6 +6087,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = STE
 		remove_effect  = {
+			log = "[GetDateText]: Decision zachpom_STE"
 				if = { limit = { country_exists = STE }
 				declare_war_on = {
 					target = STE
@@ -6027,6 +6136,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = JOM
 		remove_effect  = {
+			log = "[GetDateText]: Decision zachpom_JOM"
 				if = { limit = { country_exists = JOM }
 				declare_war_on = {
 					target = JOM
@@ -6075,6 +6185,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SWI
 		remove_effect  = {
+			log = "[GetDateText]: Decision zachpom_SWI"
 				if = { limit = { country_exists = SWI }
 				declare_war_on = {
 					target = SWI
@@ -6117,6 +6228,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision opole_nysa_end"
 			annex_country = {
 				target = NYS
 				transfer_troops = yes
@@ -6155,6 +6267,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision opole_war_4"
 				if = { limit = { country_exists = OPO }
 					OPO = {
 						set_autonomy = {
@@ -6235,6 +6348,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 30
 		remove_effect  = {
+			log = "[GetDateText]: Decision opole_war_3"
 				if = { limit = { country_exists = OPO }
 					OPO = {
 						set_autonomy = {
@@ -6313,6 +6427,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 11
 		remove_effect  = {	
+			log = "[GetDateText]: Decision opole_war_2"
 				if = { limit = { country_exists = OPO
 								 ROOT = { NOT = { tag = OPO } } }
 				declare_war_on = {
@@ -6355,6 +6470,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 11
 		remove_effect  = {	
+			log = "[GetDateText]: Decision opole_war_1"
 				if = { limit = { country_exists = WAN
 								 ROOT = { NOT = { tag = WAN } } }
 				declare_war_on = {
@@ -6420,6 +6536,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = KEL
 		remove_effect  = {
+			log = "[GetDateText]: Decision holy_cross_KEL"
 				if = { limit = { country_exists = KEL }
 				declare_war_on = {
 					target = KEL
@@ -6470,6 +6587,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = STA
 		remove_effect  = {
+			log = "[GetDateText]: Decision holy_cross_STA"
 				if = { limit = { country_exists = STA }
 				declare_war_on = {
 					target = STA
@@ -6520,6 +6638,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SND
 		remove_effect  = {
+			log = "[GetDateText]: Decision holy_cross_SND"
 				if = { limit = { country_exists = SND }
 				declare_war_on = {
 					target = SND
@@ -6570,6 +6689,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = STO
 		remove_effect  = {
+			log = "[GetDateText]: Decision holy_cross_STO"
 				if = { limit = { country_exists = STO }
 				declare_war_on = {
 					target = STO
@@ -6620,6 +6740,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = NSZ
 		remove_effect  = {
+			log = "[GetDateText]: Decision holy_cross_NSZ"
 				if = { limit = { country_exists = NSZ }
 				declare_war_on = {
 					target = NSZ
@@ -6670,6 +6791,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = KIE
 		remove_effect  = {
+			log = "[GetDateText]: Decision holy_cross_KIE"
 				if = { limit = { country_exists = KIE }
 				declare_war_on = {
 					target = KIE
@@ -6721,6 +6843,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = NRA
 		remove_effect  = {
+			log = "[GetDateText]: Decision holy_cross_NRA"
 				if = { limit = { country_exists = NRA }
 				declare_war_on = {
 					target = NRA
@@ -6773,6 +6896,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 1
 		remove_effect  = {
+			log = "[GetDateText]: Decision ai_test_aid"
 			load_oob = "AI_AID"
 			235 = { 
 				teleport_armies = {
@@ -6815,6 +6939,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 28
 		remove_effect  = {
+			log = "[GetDateText]: Decision tatry3_war"
 			declare_war_on = {
 					target = MSL
 					type = annex_everything
@@ -6863,6 +6988,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 28
 		remove_effect  = {
+			log = "[GetDateText]: Decision tatry2_war"
 			declare_war_on = {
 					target = MSL
 					type = annex_everything
@@ -6903,6 +7029,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 28
 		remove_effect  = {
+			log = "[GetDateText]: Decision tatry1_war"
 			declare_war_on = {
 					target = BSK
 					type = annex_everything
@@ -6936,6 +7063,7 @@ ai_war_decisions = {
 		days_remove = 3
 		war_with_on_remove = MSL
 		remove_effect  = {
+			log = "[GetDateText]: Decision podhale_war"
 			set_war_support = 0.7
 			declare_war_on = {
 				target = MSL
@@ -6973,6 +7101,7 @@ ai_war_decisions = {
 		days_remove = 3
 		war_with_on_remove = SKW
 		remove_effect  = {
+			log = "[GetDateText]: Decision skawina_war"
 			set_war_support = 0.7
 			declare_war_on = {
 				target = SKW
@@ -7007,6 +7136,7 @@ ai_war_decisions = {
 		days_remove = 3
 		war_with_on_remove = LEM
 		remove_effect  = {
+			log = "[GetDateText]: Decision lososina_war"
 			set_war_support = 0.7
 			declare_war_on = {
 				target = LEM
@@ -7055,6 +7185,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 21
 		remove_effect  = {	
+			log = "[GetDateText]: Decision zaglebie_war_1"
 				if = { limit = { country_exists = DGR } 
 				declare_war_on = {
 					target = DGR
@@ -7107,6 +7238,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 21
 		remove_effect  = {
+			log = "[GetDateText]: Decision zaglebie_war_2"
 				if = { limit = { country_exists = ZAW } 
 				declare_war_on = {
 					target = ZAW
@@ -7174,7 +7306,8 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 21
-		remove_effect  = {	
+		remove_effect  = {
+			log = "[GetDateText]: Decision metropolis_war_1"
 				if = { limit = { country_exists = KAT } 
 				declare_war_on = {
 					target = KAT
@@ -7241,6 +7374,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 21
 		remove_effect  = {	
+			log = "[GetDateText]: Decision metropolis_war_2"
 				if = { limit = { country_exists = GLI } 
 				declare_war_on = {
 					target = GLI
@@ -7310,6 +7444,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 45
 		remove_effect  = {
+			log = "[GetDateText]: Decision WOD_south_silesian_war"
 		if = { limit = { NOT =  {country_exists = ASG} }
 			declare_war_on = {
 				target = KAT
@@ -7362,6 +7497,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision KAT_south_silesian_war"
 		if = { limit = { NOT =  {country_exists = WOD} }
 			declare_war_on = {
 				target = JSW
@@ -7416,6 +7552,7 @@ ai_war_decisions = {
 		days_remove = 20
 		war_with_on_remove = CHO
 		remove_effect  = {
+			log = "[GetDateText]: Decision gliwice_war_2"
 		declare_war_on = {
 			target = RUD
 				type = annex_everything
@@ -7464,6 +7601,7 @@ ai_war_decisions = {
 		days_remove = 20
 		war_with_on_remove = RAS
 		remove_effect  = {
+			log = "[GetDateText]: Decision chorzow_war_2"
 		declare_war_on = {
 			target = RAS
 				type = annex_everything
@@ -7512,6 +7650,7 @@ ai_war_decisions = {
 		days_remove = 20
 		war_with_on_remove = CHO
 		remove_effect  = {
+			log = "[GetDateText]: Decision bytom_war_2"
 		declare_war_on = {
 			target = RUD
 				type = annex_everything
@@ -7553,6 +7692,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = RUD
 		remove_effect  = {
+			log = "[GetDateText]: Decision chorzow_war"
 		declare_war_on = {
 			target = RUD
 				type = annex_everything
@@ -7581,6 +7721,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = FER
 		remove_effect  = {
+			log = "[GetDateText]: Decision bytom_war"
 			declare_war_on = {
 				target = FER
 				type = annex_everything
@@ -7610,6 +7751,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = CHO
 		remove_effect  = {
+			log = "[GetDateText]: Decision gliwice_war"
 		declare_war_on = {
 			target = TRC
 				type = annex_everything
@@ -7639,6 +7781,7 @@ ai_war_decisions = {
 		days_remove = 3
 		war_with_on_remove = ASG
 		remove_effect  = {
+			log = "[GetDateText]: Decision KAT_asg_war"
 			declare_war_on = {
 				target = ASG
 				type = annex_everything
@@ -7668,6 +7811,7 @@ ai_war_decisions = {
 		days_remove = 4
 		war_with_on_remove = JSW
 		remove_effect  = {
+			log = "[GetDateText]: Decision WOD_jsw_war"
 			declare_war_on = {
 				target = JSW
 				type = annex_everything
@@ -7711,6 +7855,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = JWK
 		remove_effect  = {
+			log = "[GetDateText]: Decision jura_JWK"
 				if = { limit = { country_exists = JWK }
 				declare_war_on = {
 					target = JWK
@@ -7755,6 +7900,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = ZAW
 		remove_effect  = {
+			log = "[GetDateText]: Decision jura_ZAW"
 				if = { limit = { country_exists = ZAW }
 				declare_war_on = {
 					target = ZAW
@@ -7799,6 +7945,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = BRZ
 		remove_effect  = {
+			log = "[GetDateText]: Decision jura_BRZ"
 				if = { limit = { country_exists = BRZ }
 				declare_war_on = {
 					target = BRZ
@@ -7844,6 +7991,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = CCH
 		remove_effect  = {
+			log = "[GetDateText]: Decision jura_CCH"
 				if = { limit = { country_exists = CCH }
 				declare_war_on = {
 					target = CCH
@@ -7886,6 +8034,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = DGR
 		remove_effect  = {
+			log = "[GetDateText]: Decision zaglebie_DGR"
 				if = { limit = { country_exists = DGR }
 				declare_war_on = {
 					target = DGR
@@ -7928,6 +8077,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = JAW
 		remove_effect  = {
+			log = "[GetDateText]: Decision zaglebie_JAW"
 				if = { limit = { country_exists = JAW }
 				declare_war_on = {
 					target = JAW
@@ -7970,6 +8120,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SOS
 		remove_effect  = {
+			log = "[GetDateText]: Decision zaglebie_SOS"
 				if = { limit = { country_exists = SOS }
 				declare_war_on = {
 					target = SOS
@@ -8004,6 +8155,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = CIE
 		remove_effect  = {
+			log = "[GetDateText]: Decision BSK_podbeskidzie_war"
 			declare_war_on = {
 				target = CIE
 				type = annex_everything
@@ -8044,6 +8196,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SUS
 		remove_effect  = {
+			log = "[GetDateText]: Decision FEL_leszno_war"
 			declare_war_on = {
 				target = SUS
 				type = annex_everything
@@ -8084,6 +8237,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = GNI
 		remove_effect  = {
+			log = "[GetDateText]: Decision CAL_gniezno_war"
 			declare_war_on = {
 				target = GNI
 				type = annex_everything
@@ -8123,6 +8277,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = CAL
 		remove_effect  = {
+			log = "[GetDateText]: Decision GNI_kalisz_war"
 			declare_war_on = {
 				target = CAL
 				type = annex_everything
@@ -8163,6 +8318,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = FEL
 		remove_effect  = {
+			log = "[GetDateText]: Decision SUS_sroda_war"
 			declare_war_on = {
 				target = FEL
 				type = annex_everything
@@ -8203,6 +8359,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = CAL
 		remove_effect  = {
+			log = "[GetDateText]: Decision FEL_kalisz_war"
 			declare_war_on = {
 				target = CAL
 				type = annex_everything
@@ -8243,6 +8400,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = GNI
 		remove_effect  = {
+			log = "[GetDateText]: Decision FEL_gniezno_war"
 			declare_war_on = {
 				target = GNI
 				type = annex_everything
@@ -8282,6 +8440,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = FEL
 		remove_effect  = {
+			log = "[GetDateText]: Decision CAL_sroda_war"
 			declare_war_on = {
 				target = FEL
 				type = annex_everything
@@ -8322,6 +8481,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SUS
 		remove_effect  = {
+			log = "[GetDateText]: Decision CAL_leszno_war"
 			declare_war_on = {
 				target = SUS
 				type = annex_everything
@@ -8362,6 +8522,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = GNI
 		remove_effect  = {
+			log = "[GetDateText]: Decision GNI_sroda_war"
 			declare_war_on = {
 				target = GNI
 				type = annex_everything
@@ -8402,6 +8563,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SUS
 		remove_effect  = {
+			log = "[GetDateText]: Decision GNI_leszno_war"
 			declare_war_on = {
 				target = SUS
 				type = annex_everything
@@ -8442,6 +8604,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = CAL
 		remove_effect  = {
+			log = "[GetDateText]: Decision SUS_kalisz_war"
 			declare_war_on = {
 				target = CAL
 				type = annex_everything
@@ -8482,6 +8645,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = GNI
 		remove_effect  = {
+			log = "[GetDateText]: Decision SUS_gniezno_war"
 			declare_war_on = {
 				target = GNI
 				type = annex_everything
@@ -8533,6 +8697,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SLU
 		remove_effect  = {
+			log = "[GetDateText]: Decision north_wielkopolska_SLU"
 				if = { limit = { country_exists = SLU }
 				declare_war_on = {
 					target = SLU
@@ -8581,6 +8746,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = PIL
 		remove_effect  = {
+			log = "[GetDateText]: Decision north_wielkopolska_PIL"
 				if = { limit = { country_exists = PIL }
 				declare_war_on = {
 					target = PIL
@@ -8629,6 +8795,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = WRT
 		remove_effect  = {
+			log = "[GetDateText]: Decision north_wielkopolska_WRT"
 				if = { limit = { country_exists = WRT }
 				declare_war_on = {
 					target = WRT
@@ -8677,6 +8844,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = SYJ
 		remove_effect  = {
+			log = "[GetDateText]: Decision north_wielkopolska_SYJ"
 				if = { limit = { country_exists = SYJ }
 				declare_war_on = {
 					target = SYJ
@@ -8726,6 +8894,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = POZ
 		remove_effect  = {
+			log = "[GetDateText]: Decision north_wielkopolska_POZ"
 				if = { limit = { country_exists = POZ }
 				declare_war_on = {
 					target = POZ
@@ -8774,6 +8943,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = NAC
 		remove_effect  = {
+			log = "[GetDateText]: Decision north_wielkopolska_NAC"
 				if = { limit = { country_exists = NAC }
 				declare_war_on = {
 					target = NAC
@@ -8810,6 +8980,7 @@ ai_war_decisions = {
 		war_with_on_remove = BIL
 		war_with_on_remove = BPD
 		remove_effect  = {
+			log = "[GetDateText]: Decision CRN_east_lublin_war"
 			declare_war_on = {
 				target = SWD
 				type = annex_everything
@@ -8852,6 +9023,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = CRN
 		remove_effect  = {
+			log = "[GetDateText]: Decision PUL_czarnek_war"
 			declare_war_on = {
 				target = CRN
 				type = annex_everything
@@ -8882,6 +9054,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = KSN
 		remove_effect  = {
+			log = "[GetDateText]: Decision PUL_krasnik_war"
 			declare_war_on = {
 				target = KSN
 				type = annex_everything
@@ -8916,6 +9089,7 @@ ai_war_decisions = {
 		war_with_on_remove = BIL
 		war_with_on_remove = BPD
 		remove_effect  = {
+			log = "[GetDateText]: Decision PUL_east_lublin_war"
 			declare_war_on = {
 				target = SWD
 				type = annex_everything
@@ -8958,6 +9132,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = CRN
 		remove_effect  = {
+			log = "[GetDateText]: Decision KSN_czarnek_war"
 			declare_war_on = {
 				target = CRN
 				type = annex_everything
@@ -8992,6 +9167,7 @@ ai_war_decisions = {
 		war_with_on_remove = BIL
 		war_with_on_remove = BPD
 		remove_effect  = {
+			log = "[GetDateText]: Decision KSN_east_lublin_war"
 			declare_war_on = {
 				target = SWD
 				type = annex_everything
@@ -9034,6 +9210,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = BPD
 		remove_effect  = {
+			log = "[GetDateText]: Decision SWD_biala_podlaska_war"
 			declare_war_on = {
 				target = BPD
 				type = annex_everything
@@ -9065,6 +9242,7 @@ ai_war_decisions = {
 		war_with_on_remove = ZUK
 		war_with_on_remove = BIL
 		remove_effect  = {
+			log = "[GetDateText]: Decision SWD_southeast_lublin_war"
 			declare_war_on = {
 				target = ZUK
 				type = annex_everything
@@ -9103,6 +9281,7 @@ ai_war_decisions = {
 		war_with_on_remove = PUL
 		war_with_on_remove = KSN
 		remove_effect  = {
+			log = "[GetDateText]: Decision SWD_west_lublin_war"
 			declare_war_on = {
 				target = CRN
 				type = annex_everything
@@ -9141,6 +9320,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = BIL
 		remove_effect  = {
+			log = "[GetDateText]: Decision ZUK_bilgoraj_war"
 			declare_war_on = {
 				target = BIL
 				type = annex_everything
@@ -9172,6 +9352,7 @@ ai_war_decisions = {
 		war_with_on_remove = SWD
 		war_with_on_remove = BPD
 		remove_effect  = {
+			log = "[GetDateText]: Decision ZUK_northeast_lublin_war"
 			declare_war_on = {
 				target = SWD
 				type = annex_everything
@@ -9210,6 +9391,7 @@ ai_war_decisions = {
 		war_with_on_remove = PUL
 		war_with_on_remove = KSN
 		remove_effect  = {
+			log = "[GetDateText]: Decision ZUK_west_lublin_war"
 			declare_war_on = {
 				target = CRN
 				type = annex_everything
@@ -9249,6 +9431,7 @@ ai_war_decisions = {
 		war_with_on_remove = SWD
 		war_with_on_remove = BPD
 		remove_effect  = {
+			log = "[GetDateText]: Decision BIL_northeast_lublin_war"
 			declare_war_on = {
 				target = SWD
 				type = annex_everything
@@ -9287,6 +9470,7 @@ ai_war_decisions = {
 		war_with_on_remove = PUL
 		war_with_on_remove = KSN
 		remove_effect  = {
+			log = "[GetDateText]: Decision BIL_west_lublin_war"
 			declare_war_on = {
 				target = CRN
 				type = annex_everything
@@ -9326,6 +9510,7 @@ ai_war_decisions = {
 		war_with_on_remove = ZUK
 		war_with_on_remove = BIL
 		remove_effect  = {
+			log = "[GetDateText]: Decision BPD_southeast_lublin_war"
 			declare_war_on = {
 				target = ZUK
 				type = annex_everything
@@ -9364,6 +9549,7 @@ ai_war_decisions = {
 		war_with_on_remove = PUL
 		war_with_on_remove = KSN
 		remove_effect  = {
+			log = "[GetDateText]: Decision BPD_west_lublin_war"
 			declare_war_on = {
 				target = CRN
 				type = annex_everything
@@ -9402,6 +9588,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = FEM
 		remove_effect  = {
+			log = "[GetDateText]: Decision ANA_WRO_war"
 			declare_war_on = {
 				target = FEM
 				type = annex_everything
@@ -9431,6 +9618,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = OLE
 		remove_effect  = {
+			log = "[GetDateText]: Decision RYB_OLE_war"
 			declare_war_on = {
 				target = OLE
 				type = annex_everything
@@ -9475,6 +9663,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision silesia_inferior_ZUL"
 				if = { limit = { country_exists = ZUL }
 				declare_war_on = {
 					target = ZUL
@@ -9516,6 +9705,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision silesia_inferior_MNL"
 				if = { limit = { country_exists = MNL }
 				declare_war_on = {
 					target = MNL
@@ -9557,6 +9747,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision silesia_inferior_ANA"
 				if = { limit = { country_exists = ANA }
 				declare_war_on = {
 					target = ANA
@@ -9587,6 +9778,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision EKS_subjection"
 			annex_country = {
 				target = BOG
 				transfer_troops = yes
@@ -9623,6 +9815,7 @@ ai_war_decisions = {
 		war_with_on_remove = MNL
 		war_with_on_remove = ANA
 		remove_effect  = {
+			log = "[GetDateText]: Decision okamura_ZUL_conquest_war"
 			if = { limit = { country_exists = ZUL } 
 				declare_war_on = {
 					target = ZUL
@@ -9670,6 +9863,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = KGH
 		remove_effect  = {
+			log = "[GetDateText]: Decision EKS_KGH_or_CYG_war"
 			declare_war_on = {
 				target = KGH
 				type = annex_everything
@@ -9710,6 +9904,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = MPK
 		remove_effect  = {
+			log = "[GetDateText]: Decision RYB_MPK_war"
 			declare_war_on = {
 				target = MPK
 				type = annex_everything
@@ -9739,6 +9934,7 @@ ai_war_decisions = {
 		days_remove = 14
 		war_with_on_remove = RYB
 		remove_effect  = {
+			log = "[GetDateText]: Decision RYB_vs_WRO_war"
 			declare_war_on = {
 				target = RYB
 				type = annex_everything
@@ -9780,6 +9976,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision Lowersilesia_eating_of_puppets"
 			annex_country = {
 				target = TOU
 				transfer_troops = yes
@@ -9828,7 +10025,8 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 14
-		remove_effect  = {	
+		remove_effect  = {
+			log = "[GetDateText]: Decision Last_lowersilesia_war"
 				if = { limit = { country_exists = EKS } 
 				declare_war_on = {
 					target = EKS
@@ -9914,6 +10112,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		remove_effect  = {
+			log = "[GetDateText]: Decision KGH_drastic_measures"
 			KGH = {
 				country_event = {
 				id = aievent.23
@@ -9944,6 +10143,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 50
 		remove_effect  = {
+			log = "[GetDateText]: Decision MPK_RYB_makao"
 			RYB = {
 				transfer_state = 343
 				transfer_state = 369

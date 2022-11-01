@@ -19,6 +19,7 @@ ZHP_deurbanization_category = {
 		days_remove = 3
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_building"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 5
@@ -45,6 +46,7 @@ ZHP_deurbanization_category = {
 		days_remove = 3
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_tariffs"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 10
@@ -71,6 +73,7 @@ ZHP_deurbanization_category = {
 		days_remove = 3
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_belchatow"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 15
@@ -97,6 +100,7 @@ ZHP_deurbanization_category = {
 		days_remove = 36
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_immigrants"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 6
@@ -123,6 +127,7 @@ ZHP_deurbanization_category = {
 		days_remove = 36
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_propaganda"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 4
@@ -156,6 +161,7 @@ ZHP_deurbanization_category = {
 		days_remove = 36
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_gamerLodz"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 15
@@ -187,6 +193,7 @@ ZHP_deurbanization_category = {
 		days_remove = 36
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_pacification"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 10
@@ -213,6 +220,7 @@ ZHP_deurbanization_category = {
 		days_remove = 36
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_propaganda2"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 5
@@ -246,6 +254,7 @@ ZHP_deurbanization_category = {
 		days_remove = 36
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_medicine"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 10
@@ -272,6 +281,7 @@ ZHP_deurbanization_category = {
 		days_remove = 36
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_siberia"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 5
@@ -298,6 +308,7 @@ ZHP_deurbanization_category = {
 		days_remove = 36
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_cityprotection"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 5
@@ -324,6 +335,7 @@ ZHP_deurbanization_category = {
 		days_remove = 36
 
 		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_terrorism"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 15

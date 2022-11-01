@@ -24,6 +24,7 @@ lodz_supregional_unification = {
 		}
 
 	complete_effect = {
+		log = "[GetDateText]: Decision lodz_supregional_unification"
 		if = {
 			limit = { tag = ZHP }
 			set_cosmetic_tag = ZHP_supregional

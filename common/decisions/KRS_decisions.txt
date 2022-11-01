@@ -28,6 +28,7 @@ KRS_funeral_gains_category = {
 		}
 		
 		timeout_effect = {
+		log = "[GetDateText]: Decision KRS_funeral_gains_mission"
 		if = {
 			limit = {
 				KRS = { has_idea = KRS_war_profiteering2 }
@@ -89,6 +90,7 @@ KRS_funeral_gains_category = {
 		}
 		
 		remove_effect = {
+			log = "[GetDateText]: Decision KRS_reckless_offensives"
 		hidden_effect = {
 			random_list = {
 			2 = { #żołnierze odmawiają ataku
@@ -124,6 +126,7 @@ KRS_shareholders_competition_category = {
 			}
 		}
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_shareholders_competition_category"
 			add_equipment_to_stockpile = {
 				type = ranged_equipment
 				amount = -100
@@ -148,6 +151,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 14
 		fire_only_once = yes
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_offer_protection"
 			hidden_effect = {
 				add_to_variable = {all_shares = 2}
 				add_to_variable = {KRS_rutkowski_takeover = 2}
@@ -169,6 +173,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 21
 		fire_only_once = yes
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_found_officer_schools"
 			hidden_effect = {
 				add_to_variable = {all_shares = 3}
 				add_to_variable = {KRS_rutkowski_takeover = 3}
@@ -190,6 +195,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 28
 		fire_only_once = yes
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_offer_investigation_services"
 			hidden_effect = {
 				add_to_variable = {all_shares = 4}
 				add_to_variable = {KRS_rutkowski_takeover = 4}
@@ -211,6 +217,7 @@ KRS_shareholders_competition_category = {
 			original_tag = KRS
 		}
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_fund_infrastructure"
 			hidden_effect = {
 				add_to_variable = {all_shares = 1}
 				add_to_variable = {KRS_skrzyldewscy_holding_on = 1}
@@ -245,6 +252,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 28
 		days_re_enable = 180
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_franchise_floral_shops"
 			hidden_effect = {
 				add_to_variable = {all_shares = 4}
 				add_to_variable = {KRS_skrzyldewscy_holding_on = 4}
@@ -270,6 +278,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 21
 		fire_only_once = yes
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_build_apiaries"
 			hidden_effect = {
 				add_to_variable = {all_shares = 3}
 				add_to_variable = {KRS_skrzyldewscy_holding_on = 3}
@@ -291,6 +300,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 14
 		fire_only_once = yes
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_distribute_canned_food"
 			hidden_effect = {
 				add_to_variable = {all_shares = 2}
 				add_to_variable = {KRS_skrzyldewscy_holding_on = 2}
@@ -314,6 +324,7 @@ KRS_shareholders_competition_category = {
 			has_manpower > 499
 		}
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_underground_contacts"
 			add_manpower = -500
 			hidden_effect = {
 				add_to_variable = {all_shares = 1}
@@ -334,6 +345,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 14
 		days_re_enable = 360
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_fund_stipends"
 			hidden_effect = {
 				add_to_variable = {all_shares = 2}
 				add_to_variable = {KRS_skinhunters_takeover = 2}
@@ -359,6 +371,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 21
 		fire_only_once = yes
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_launch_vpn_service"
 			hidden_effect = {
 				add_to_variable = {all_shares = 3}
 				add_to_variable = {KRS_skinhunters_takeover = 3}
@@ -380,6 +393,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 28
 		fire_only_once = yes
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_put_5g_antennas"
 			hidden_effect = {
 				add_to_variable = {all_shares = 4}
 				add_to_variable = {KRS_skinhunters_takeover = 4}
@@ -406,6 +420,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 7
 		fire_only_once = yes
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_solidify_hold_on_consortium"
 			hidden_effect = {
 				set_country_flag = skrzydlewscy_on_top
 			}
@@ -431,6 +446,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 7
 		fire_only_once = yes
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_crackdown_on_necro_barons"
 			hidden_effect = {
 				set_country_flag = rutkowski_on_top
 			}
@@ -458,6 +474,7 @@ KRS_shareholders_competition_category = {
 		days_remove = 7
 		fire_only_once = yes
 		complete_effect = {
+			log = "[GetDateText]: Decision KRS_takeover_the_consortium"
 			hidden_effect = {
 				set_country_flag = skinhunters_on_top
 			}

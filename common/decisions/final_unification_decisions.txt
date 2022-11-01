@@ -24,6 +24,7 @@ lodz_final_unification = {
 		}
 
 	complete_effect = {
+		log = "[GetDateText]: Decision lodz_final_unification"
 		if = {
 			limit = { tag = ZHP
 						has_government = postpolonism }

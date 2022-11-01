@@ -20,6 +20,7 @@ DGR_lore_category = {
 		fire_only_once = yes
 		days_remove = 10
 		remove_effect  = {
+			log = "[GetDateText]: Decision DGR_war_for_bukowno"
 			start_border_war = {
 				change_state_after_war = no
 				attacker = {

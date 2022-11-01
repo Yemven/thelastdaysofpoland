@@ -21,6 +21,7 @@ debug_category = {
 		fire_only_once = yes
 		days_remove = 1
 		remove_effect  = {
+			log = "[GetDateText]: Decision ek_dissolution"
 			EKS = {
 				country_event = {
 					id = eksrozpad.1
@@ -56,6 +57,7 @@ debug_category = {
 		}
 		
 		complete_effect = {
+			log = "[GetDateText]: Decision debug_sapek_sane"
 			add_to_variable = {sapek_sanity = 100}
 		}
 		
@@ -68,6 +70,7 @@ debug_category = {
 		}
 		
 		complete_effect = {
+			log = "[GetDateText]: Decision debug_sapek_insane"
 			subtract_from_variable = {sapek_sanity = 100}
 		}
 	}
@@ -90,6 +93,7 @@ debug_category = {
 			factor = 0
 		}
 		complete_effect  = {
+			log = "[GetDateText]: Decision load_war_tree"
 			if = {
 				limit = { tag = BBW }
 				load_focus_tree = belchatow_war_focus

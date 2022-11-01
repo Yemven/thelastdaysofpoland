@@ -19,6 +19,7 @@ SAP_balance_of_power_category = {
 		days_re_enable = 365
 
 		complete_effect = {
+			log = "[GetDateText]: Decision SAP_bop_military_parade"
 			SAP_bop_very_low_increase_effect = yes
 		}
 

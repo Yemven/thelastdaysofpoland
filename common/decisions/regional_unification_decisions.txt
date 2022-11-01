@@ -24,6 +24,7 @@ lodz_regional_unification = {
 		}
 
 	complete_effect = {
+		log = "[GetDateText]: Decision lodz_regional_unification"
 		if = {
 			limit = { tag = ZHP }
 			set_cosmetic_tag = ZHP_regional

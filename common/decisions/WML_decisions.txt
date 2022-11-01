@@ -9,6 +9,7 @@ WML_dialogue_decisions = {
 		days_remove = 15
 		cost = 75
 		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_WML2"
 			add_to_variable = {dialogue_SAP = 5}
 			add_to_variable = {dialogue_BBW = 5}
 			add_to_variable = {dialogue_KRS = 5}
@@ -25,6 +26,7 @@ WML_dialogue_decisions = {
 		days_re_enable = 60
 		days_remove = 20
 		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_WML3"
 			add_to_variable = {dialogue_SAP = 10}
 			add_to_variable = {dialogue_BBW = 10}
 			add_to_variable = {dialogue_KRS = 10}
@@ -41,7 +43,10 @@ WML_dialogue_decisions = {
 		cost = 20
 		days_re_enable = 20
 		days_remove = 5
-		remove_effect = { add_to_variable = {dialogue_SAP = 5}}
+		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_SAP0"
+			add_to_variable = {dialogue_SAP = 5}
+		}
 	}
 	WML_dialogue_BBW0 = {
 		allowed = {
@@ -51,7 +56,10 @@ WML_dialogue_decisions = {
 		days_remove = 5
 		visible = { has_completed_focus = WML_industrial_lodz }
 		cost = 20
-		remove_effect = { add_to_variable = {dialogue_BBW = 5}}
+		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_BBW0"
+			add_to_variable = {dialogue_BBW = 5}
+		}
 	}
 	WML_dialogue_ZHP0 = {
 		allowed = {
@@ -61,7 +69,10 @@ WML_dialogue_decisions = {
 		days_remove = 5
 		visible = { has_completed_focus = WML_forest_lodz }
 		cost = 20
-		remove_effect = { add_to_variable = {dialogue_ZHP = 5}}
+		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_ZHP0"
+			add_to_variable = {dialogue_ZHP = 5}
+		}
 	}
 	WML_dialogue_KRS0 = {
 		allowed = {
@@ -71,7 +82,10 @@ WML_dialogue_decisions = {
 		days_remove = 5
 		visible = { has_completed_focus = WML_the_primacy_of_entrepreneurs }
 		cost = 20
-		remove_effect = { add_to_variable = {dialogue_KRS = 5}}
+		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_KRS0"
+			add_to_variable = {dialogue_KRS = 5}
+		}
 	}
 	WML_dialogue_ZYD0 = {
 		allowed = {
@@ -81,7 +95,10 @@ WML_dialogue_decisions = {
 		days_remove = 5
 		visible = { has_completed_focus = WML_fairer_lodz }
 		cost = 20
-		remove_effect = { add_to_variable = {dialogue_ZYD = 5}}
+		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_ZYD0"
+			add_to_variable = {dialogue_ZYD = 5}
+		}
 	}
 ###POZIOM PIERWSZY###
 	WML_dialogue_SAP1 = {
@@ -92,7 +109,10 @@ WML_dialogue_decisions = {
 		days_remove = 5
 		visible = { has_completed_focus = WML_ignacy_moscicki_potions_laboratory }
 		cost = 30
-		remove_effect = { add_to_variable = {dialogue_SAP = 10}}
+		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_SAP1"
+			add_to_variable = {dialogue_SAP = 10}
+		}
 	}
 	WML_dialogue_BBW1 = {
 		allowed = {
@@ -102,7 +122,10 @@ WML_dialogue_decisions = {
 		days_remove = 5
 		visible = { has_completed_focus = WML_lodz_industry }
 		cost = 30
-		remove_effect = { add_to_variable = {dialogue_BBW = 10}}
+		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_BBW1"
+			add_to_variable = {dialogue_BBW = 10}
+		}
 	}
 	WML_dialogue_ZHP1 = {
 		allowed = {
@@ -112,7 +135,10 @@ WML_dialogue_decisions = {
 		days_remove = 5
 		visible = { has_completed_focus = WML_construction_of_parks }
 		cost = 30
-		remove_effect = { add_to_variable = {dialogue_ZHP = 10}}
+		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_ZHP1"
+			add_to_variable = {dialogue_ZHP = 10}
+		}
 	}
 	WML_dialogue_KRS1 = {
 		allowed = {
@@ -122,7 +148,10 @@ WML_dialogue_decisions = {
 		days_remove = 5
 		visible = { has_completed_focus = WML_preferential_government_contracts }
 		cost = 30
-		remove_effect = { add_to_variable = {dialogue_KRS = 10}}
+		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_KRS1"
+			add_to_variable = {dialogue_KRS = 10}
+		}
 	}
 	WML_dialogue_ZYD1 = {
 		allowed = {
@@ -132,7 +161,10 @@ WML_dialogue_decisions = {
 		days_remove = 5
 		visible = { has_completed_focus = WML_the_rights_of_religious_minorities }
 		cost = 30
-		remove_effect = { add_to_variable = {dialogue_ZYD = 10}}
+		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_ZYD1"
+			add_to_variable = {dialogue_ZYD = 10}
+		}
 	}
 ###POZIOM DRUGI###
 	WML_dialogue_SAP2 = {
@@ -143,7 +175,8 @@ WML_dialogue_decisions = {
 		days_remove = 10
 		visible = { has_completed_focus = WML_wizardring_schools }
 		cost = 50
-		remove_effect = { 
+		remove_effect = {
+			log = "[GetDateText]: Decision WML_dialogue_SAP2"
 			add_to_variable = {dialogue_SAP = 15}
 			subtract_from_variable = {dialogue_KRS = 5}
 			subtract_from_variable = {dialogue_BBW = 5}
@@ -158,6 +191,7 @@ WML_dialogue_decisions = {
 		visible = { has_completed_focus = WML_renovation_of_lask_airport }
 		cost = 50
 		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_BBW2"
 			add_to_variable = {dialogue_BBW = 15}
 			subtract_from_variable = {dialogue_ZYD = 5}
 			subtract_from_variable = {dialogue_ZHP = 5}
@@ -172,6 +206,7 @@ WML_dialogue_decisions = {
 		visible = { has_completed_focus = WML_scout_commandos }
 		cost = 50
 		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_ZHP2"
 			add_to_variable = {dialogue_ZHP = 15}
 			subtract_from_variable = {dialogue_BBW = 5}
 			subtract_from_variable = {dialogue_ZYD = 5}
@@ -186,6 +221,7 @@ WML_dialogue_decisions = {
 		visible = { has_completed_focus = WML_tax_breaks }
 		cost = 50
 		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_KRS2"
 			add_to_variable = {dialogue_KRS = 15}
 			subtract_from_variable = {dialogue_SAP = 5}
 			subtract_from_variable = {dialogue_ZHP = 5}
@@ -200,6 +236,7 @@ WML_dialogue_decisions = {
 		visible = { has_completed_focus = WML_primacy_of_trade_unions }
 		cost = 50
 		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_ZYD2"
 			add_to_variable = {dialogue_ZYD = 15}
 			subtract_from_variable = {dialogue_KRS = 5}
 			subtract_from_variable = {dialogue_SAP = 5}
@@ -215,6 +252,7 @@ WML_dialogue_decisions = {
 		visible = { has_completed_focus = WML_witcher_training }
 		cost = 60
 		remove_effect = { 
+			log = "[GetDateText]: Decision WML_dialogue_SAP3"
 			add_to_variable = {dialogue_SAP = 20}
 			subtract_from_variable = {dialogue_ZYD = 10}
 			subtract_from_variable = {dialogue_KRS = 10}
@@ -228,7 +266,8 @@ WML_dialogue_decisions = {
 		days_remove = 10
 		visible = { has_completed_focus = WML_state_positions_for_the_power_plant_staff }
 		cost = 60
-		remove_effect = { 
+		remove_effect = {
+			log = "[GetDateText]: Decision WML_dialogue_BBW3"
 			add_to_variable = {dialogue_BBW = 20}
 			subtract_from_variable = {dialogue_ZHP = 10}
 			subtract_from_variable = {dialogue_SAP = 10}
@@ -242,7 +281,8 @@ WML_dialogue_decisions = {
 		days_remove = 10
 		visible = { has_completed_focus = WML_spartan_standards }
 		cost = 60
-		remove_effect = { 
+		remove_effect = {
+			log = "[GetDateText]: Decision WML_dialogue_ZHP3"
 			add_to_variable = {dialogue_ZHP = 20}
 			subtract_from_variable = {dialogue_KRS = 10}
 			subtract_from_variable = {dialogue_BBW = 10}
@@ -256,7 +296,8 @@ WML_dialogue_decisions = {
 		days_remove = 10
 		visible = { has_completed_focus = WML_graves_of_an_unknown_soldier }
 		cost = 60
-		remove_effect = { 
+		remove_effect = {
+			log = "[GetDateText]: Decision WML_dialogue_KRS3"
 			add_to_variable = {dialogue_KRS = 20}
 			subtract_from_variable = {dialogue_ZYD = 10}
 			subtract_from_variable = {dialogue_SAP = 10}
@@ -270,7 +311,8 @@ WML_dialogue_decisions = {
 		days_remove = 10
 		visible = { has_completed_focus = WML_co_-_financing_of_sports }
 		cost = 60
-		remove_effect = { 
+		remove_effect = {
+			log = "[GetDateText]: Decision WML_dialogue_ZYD3"
 			add_to_variable = {dialogue_ZYD = 20}
 			subtract_from_variable = {dialogue_BBW = 10}
 			subtract_from_variable = {dialogue_ZHP = 10}

@@ -21,6 +21,7 @@ lodz_voivodeship_unification = {
 	visible = { is_lodzkie = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision lodz_voivodeship_unification"
 		if = {
 			limit = { tag = ZHP }
 			set_cosmetic_tag = ZHP_voivodeship
@@ -203,6 +204,7 @@ lubelskie_voivodeship_unification = {
 	visible = { is_lubelskie = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision lubelskie_voivodeship_unification"
 		if = {
 			limit = { tag = CRN }
 			hidden_effect = {
@@ -323,6 +325,7 @@ zaglebie_voivodeship_unification = {
 	visible = { is_zaglebie_and_jura = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision zaglebie_voivodeship_unification"
 		if = {
 			limit = { tag = DGR }
 			set_cosmetic_tag = DGR_voivodeship
@@ -444,7 +447,7 @@ upper_silesia_voivodeship_unification = {
 	visible = { is_upper_silesia = yes }
 
 	complete_effect = {
-
+		log = "[GetDateText]: Decision upper_silesia_voivodeship_unification"
 		if = {
 			limit = { tag = ASG }
 			set_cosmetic_tag = ASG_voivodeship
@@ -607,7 +610,7 @@ south_greater_poland_voivodeship_unification = {
 	visible = { is_southern_greater_poland = yes }
 
 	complete_effect = {
-
+		log = "[GetDateText]: Decision south_greater_poland_voivodeship_unification"
 		if = {
 			limit = { tag = CAL }
 			set_cosmetic_tag = CAL_voivodeship
@@ -685,6 +688,7 @@ tatry_unification = {
 	visible = { is_tatry_region = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision tatry_unification"
 		if = {
 			limit = { tag = CIE }
 			set_cosmetic_tag = CIE_voivodeship
@@ -807,7 +811,7 @@ northen_greater_poland_voivodeship_unification = {
 	visible = { is_northern_greater_poland = yes }
 
 	complete_effect = {
-
+		log = "[GetDateText]: Decision northen_greater_poland_voivodeship_unification"
 		if = {
 			limit = { tag = POZ }
 			set_cosmetic_tag = POZ_voivodeship
@@ -901,7 +905,7 @@ lower_silesia_voivodeship_unification = {
 	visible = { is_lower_silesia = yes }
 
 	complete_effect = {
-
+		log = "[GetDateText]: Decision lower_silesia_voivodeship_unification"
 		if = {
 			limit = { tag = WRO }
 			set_cosmetic_tag = WRO_voivodeship
@@ -1055,6 +1059,7 @@ opole_voivodeship_unification = {
 	visible = { is_opolskie = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision opole_voivodeship_unification"
 		if = {
 			limit = { tag = MNI }
 			set_cosmetic_tag = MNI_voivodeship
@@ -1165,6 +1170,7 @@ lubuskie_voivodeship_unification = {
 	visible = { is_lubuskie = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision lubuskie_voivodeship_unification"
 		if = {
 			limit = { tag = ZAG }
 			set_cosmetic_tag = ZAG_voivodeship
@@ -1247,6 +1253,7 @@ west_pomerania_voivodeship_unification = {
 	visible = { is_west_pomerania = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision west_pomerania_voivodeship_unification"
 		if = {
 			limit = { tag = JAS }
 			set_cosmetic_tag = JAS_voivodeship
@@ -1356,6 +1363,7 @@ kuyavia_voivodeship_unification = {
 	visible = { is_kuyavia = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision kuyavia_voivodeship_unification"
 		if = {
 			limit = { tag = INO }
 			set_cosmetic_tag = INO_voivodeship
@@ -1451,6 +1459,7 @@ pomerelia_voivodeship_unification = {
 	visible = { is_pomerelia = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision pomerelia_voivodeship_unification"
 		if = {
 			limit = { tag = OWS }
 			set_cosmetic_tag = OWS_voivodeship
@@ -1597,6 +1606,7 @@ warmia_and_masuria_voivodeship_unification = {
 	visible = { is_warmia_and_masuria = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision warmia_and_masuria_voivodeship_unification"
 		if = {
 			limit = { tag = MAL }
 			set_cosmetic_tag = MAL_voivodeship
@@ -1705,6 +1715,7 @@ podlasie_voivodeship_unification = {
 	visible = { is_podlasie = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision podlasie_voivodeship_unification"
 		if = {
 			limit = { tag = SAN }
 			set_cosmetic_tag = SAN_voivodeship
@@ -1839,6 +1850,7 @@ radom_province_voivodeship_unification = {
 	visible = { is_radom_province = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision radom_province_voivodeship_unification"
 		if = {
 			limit = { tag = SAT }
 			set_cosmetic_tag = SAT_voivodeship
@@ -1921,6 +1933,7 @@ mazovia_voivodeship_unification = {
 	visible = { is_mazovia = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision mazovia_voivodeship_unification"
 		if = {
 			limit = { tag = ORL }
 			set_cosmetic_tag = ORL_voivodeship
@@ -1988,6 +2001,7 @@ capital_district_voivodeship_unification = {
 	visible = { is_capital_district = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision capital_district_voivodeship_unification"
 		if = {
 			limit = { tag = MAF }
 			set_cosmetic_tag = MAF_voivodeship
@@ -2141,6 +2155,7 @@ holy_cross_voivodeship_unification = {
 	visible = { is_holy_cross = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision holy_cross_voivodeship_unification"
 		if = {
 			limit = { tag = KEL }
 			set_cosmetic_tag = KEL_voivodeship
@@ -2265,6 +2280,7 @@ subcarpathia_voivodeship_unification = {
 	visible = { is_subcarpathia = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision subcarpathia_voivodeship_unification"
 		if = {
 			limit = { tag = RZE }
 			set_cosmetic_tag = RZE_voivodeship
@@ -2403,6 +2419,7 @@ lesser_poland_voivodeship_unification = {
 	visible = { is_lesser_poland = yes }
 
 	complete_effect = {
+		log = "[GetDateText]: Decision lesser_poland_voivodeship_unification"
 		if = {
 			limit = { tag = KRK }
 			set_cosmetic_tag = KRK_voivodeship
