@@ -1683,7 +1683,7 @@ focus_tree = {
 					check_variable = {
 						var = sapek_sanity
 						value = 50
-						compare = more_than
+						compare = greater_than
 					}
 				}
 				country_event = { 
