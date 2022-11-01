@@ -175,7 +175,7 @@ equipments = {
 		interface_category = interface_category_land
 		
 		reliability = 0.8
-		max_speed = 12
+		maximum_speed = 12
 		#Defensive Abilities
 		defense = 15
 		breakthrough = 9
@@ -446,73 +446,6 @@ equipments = {
 		
 		resources = {
 			junk = 3
-		}
-	}
-	
-#	rocket_artillery_equipment_3 = {
-#		year = 1940
-#
-#		archetype = rocket_artillery_equipment
-#		parent = rocket_artillery_equipment_2
-#		priority = 60
-#		visual_level = 1
-#		
-#		reliability = 0.8
-#		
-#		defense = 15.6
-#		breakthrough = 11.7
-#		ap_attack = 2.6
-#		soft_attack = 60
-#		
-#		build_cost_ic = 11.7
-#		resources = {
-#			junk = 2
-#			steel = 2
-#			synthetic_materials = 1
-#		}
-#	}
-	
-	rocket_artillery_equipment_4 = {
-		year = 1942
-
-		archetype = rocket_artillery_equipment
-		parent = rocket_artillery_equipment_3
-		priority = 60
-		visual_level = 1
-		
-		reliability = 0.8
-		defense = 16.8
-		breakthrough = 12.6
-		ap_attack = 2.8
-		soft_attack = 70
-		
-		build_cost_ic = 12.6
-		resources = {
-			aluminium = 3
-			steel = 3
-			synthetic_materials = 2
-		}
-	}
-	
-	rocket_artillery_equipment_5 = {
-		year = 1944
-
-		archetype = rocket_artillery_equipment
-		parent = rocket_artillery_equipment_4
-		priority = 60
-		visual_level = 2
-		
-		reliability = 0.75
-		defense = 18
-		breakthrough = 13.5
-		ap_attack = 3
-		soft_attack = 80
-		
-		build_cost_ic = 13.5
-		resources = {
-			aluminium = 4
-			electronics = 2
-			synthetic_materials = 2
 		}
 	}
 	

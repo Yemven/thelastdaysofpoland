@@ -72,9 +72,11 @@ equipments = {
 		picture = archetype_spaa_equipment		
 		type = {
 			anti_air
-			sp_artillery
+			armor
 		}
 		group_by = archetype
+		
+		interface_category = interface_category_land
 		
 		maximum_speed = 12
 		reliability = 0.8
