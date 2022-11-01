@@ -8,6 +8,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires honor.1" }
+
 	option = {
 
 		name = honor.1.a
