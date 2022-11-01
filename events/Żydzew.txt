@@ -8,6 +8,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.1" }
+
 	option = {
 		name = zydzew.1.a
 		add_stability = 0.1
@@ -23,6 +25,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.2" }
+
 	option = {
 		name = zydzew.2.a
 		army_experience = 20
@@ -37,6 +41,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.3" }
 
 	option = {
 		name = zydzew.3.a
@@ -60,6 +66,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.4" }
+
 	option = {
 		name = zydzew.4.a
 		add_war_support = 0.15
@@ -82,6 +90,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.5" }
+
 	option = {
 		name = zydzew.5.a
 		add_ideas = ZYD_mobile_ark
@@ -95,6 +105,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.6" }
 
 	option = {
 		name = zydzew.6.a
@@ -110,6 +122,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.7" }
+
 	option = {
 		name = zydzew.7.a
 		add_war_support = 0.15
@@ -123,6 +137,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.8" }
 
 	option = {
 		name = zydzew.8.a
@@ -141,6 +157,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.9" }
+
 	option = {
 		name = zydzew.9.a
 		swap_ideas = {
@@ -157,6 +175,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.10" }
 
 	option = {
 		name = zydzew.10.a
@@ -175,6 +195,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.11" }
 
 	option = {
 		name = zydzew.11.a
@@ -201,6 +223,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.12" }
 
 	option = {
 		name = zydzew.12.a
@@ -232,6 +256,8 @@ country_event = {
 	is_triggered_only = yes
 	picture = GFX_event_zydzew13
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.13" }
+
 	option = {
 		name = zydzew.13.a
 	}
@@ -244,6 +270,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.14" }
 
 	option = {
 		name = zydzew.14.a
@@ -258,6 +286,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.15" }
+
 	option = {
 		name = zydzew.15.a
 	}
@@ -271,6 +301,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.16" }
+
 	option = {
 		name = zydzew.16.a
 	}
@@ -283,7 +315,9 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.17" }
+	
 	option = {
 		name = zydzew.17.a
 	}
@@ -296,6 +330,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.18" }
 
 	option = {
 		name = zydzew.18.a
@@ -310,6 +346,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.19" }
+
 	option = {
 		name = zydzew.19.a
 	}
@@ -322,6 +360,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.20" }
 
 	option = {
 		name = zydzew.20.a
@@ -336,6 +376,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.21" }
+
 	option = {
 		name = zydzew.21.a
 	}
@@ -348,6 +390,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.22" }
 
 	option = {
 		name = zydzew.22.a
@@ -363,7 +407,9 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.23" }
+	
 	option = {
 		name = zydzew.23.a
 	}
@@ -376,6 +422,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.24" }
 
 	option = {
 		name = zydzew.24.a

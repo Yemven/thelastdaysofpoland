@@ -11,6 +11,7 @@ country_event = {
 		date > 2030.02.20
 		}
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.1" }
 
 	option = {
 		name = kacap.1.a 
@@ -58,6 +59,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.2" }
+	
 	option = {
 		name = kacap.2.a 
 		every_country = {
@@ -77,6 +80,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.3" }
 
 	option = {
 		name = kacap.3.a 
@@ -105,6 +110,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.4" }
 	
 	option = {
 		name = kacap.4.a 
@@ -135,6 +142,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.5" }
+
 	option = {
 		name = kacap.5.a 
 		random_list = {
@@ -163,6 +172,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.6" }
+	
 	option = {
 		name = kacap.6.a 
 				country_event = {
@@ -180,6 +191,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ruscw.1" }
 	
 	option = {
 		name = ruscw.1.a 
@@ -239,6 +252,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ruscw.2" }
+	
 	option = {
 		name = ruscw.2.a 
 		set_politics = {
@@ -264,6 +279,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.7" }
+	
 	option = {
 		name = kacap.7.a 
        set_global_flag = Super_Event_Visible
@@ -283,6 +300,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ruscw.3" }
 
 	option = {
 		name = ruscw.3.a 
@@ -339,6 +358,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.8" }
+	
 	option = {
 		name = kacap.8.a 
        set_global_flag = Super_Event_Visible
@@ -358,6 +379,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.9" }
+	
 	option = {
 		name = kacap.9.a 
        set_global_flag = Super_Event_Visible
@@ -376,6 +399,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ruscw.4" }
 	
 	option = {
 		name = ruscw.4.a 
@@ -406,6 +431,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.10" }
+	
 	option = {
 		name = kacap.10.a 
        set_global_flag = Super_Event_Visible
@@ -424,6 +451,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ruscw.5" }
 	
 	option = {
 		name = ruscw.5.a 
@@ -454,6 +483,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.11" }
+	
 	option = {
 		name = kacap.11.a 
        set_global_flag = Super_Event_Visible
@@ -473,6 +504,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ruscw.6" }
 
 	option = {
 		name = ruscw.6.a 
@@ -530,6 +563,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.12" }
+	
 	option = {
 		name = kacap.12.a 
        set_global_flag = Super_Event_Visible
@@ -549,6 +584,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ruscw.7" }
 	
 	option = {
 		name = ruscw.7.a 
@@ -579,6 +616,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.13" }
+	
 	option = {
 		name = kacap.13.a 
        set_global_flag = Super_Event_Visible
@@ -597,6 +636,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ruscw.8" }
 	
 	option = {
 		name = ruscw.8.a 

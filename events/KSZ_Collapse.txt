@@ -10,6 +10,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kszrozpad.1" }
+
 	option = {
 		name = kszrozpad.1.a
 		KSZ = {
@@ -29,6 +31,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires kszrozpad.2"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -63,6 +66,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires kszrozpad.3"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -98,6 +102,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires kszrozpad.4"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -132,6 +137,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires kszrozpad.5"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {
@@ -165,6 +171,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires kszrozpad.6"
 		hidden_effect = {
 			every_owned_state = {
 				limit = {

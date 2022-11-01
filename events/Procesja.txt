@@ -15,7 +15,9 @@ country_event = {
 		has_global_flag = procesja_lets_go
 		tag = HOR
 	}
-
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja.1" }
+	
 	option = {
 		ai_chance = { base = 65 }
 		name = procesja.1.a
@@ -87,6 +89,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.1" }
+
 	option = {
 		ai_chance = { base = 80 } #dawac-hajs-frajerzy
 		name = procesja_west.1.a
@@ -118,6 +122,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.2" }
 
 	option = {
 		ai_chance = { base = 80 } #jestesmy-frajerami-dajemy-hajs
@@ -161,6 +167,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.3" }
+
 	option = {
 		name = procesja_west.3.a
 		ZHP = {
@@ -178,6 +186,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.4" }
 
 	option = {
 		ai_chance = { base = 80 } #zhp-sie-zgadza
@@ -216,6 +226,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.5" }
+
 	option = {
 		name = procesja_west.5.a
 		country_event = {
@@ -232,6 +244,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.6" }
 
 	option = {
 		name = procesja_west.6.a
@@ -259,6 +273,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.7" }
+
 	option = {
 		name = procesja_west.7.a
 		country_event = {
@@ -275,6 +291,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.8" }
 
 	option = {
 		name = procesja_west.8.a
@@ -302,6 +320,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.9" }
+
 	option = {
 		name = procesja_west.9.a
 		PRK = {
@@ -320,6 +340,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.10" }
 
 	option = {
 		ai_chance = { base = 60 } #ziobro-sie-zgadza-bezwarunkowo
@@ -351,6 +373,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.11" }
 
 	option = {
 		name = procesja_west.11.a
@@ -410,6 +434,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.12" }
+
 	option = {
 		name = procesja_west.12.a
 		delete_units = {
@@ -438,6 +464,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.13" }
+
 	option = {
 		name = procesja_west.13.a
 		800 = {
@@ -460,6 +488,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_west.14" }
 
 	option = {
 		name = procesja_west.14.a
@@ -496,6 +526,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.1" }
+
 	option = {
 		name = procesja_east.1.a
 		country_event = {
@@ -512,6 +544,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.2" }
 
 	option = {
 		name = procesja_east.2.a
@@ -544,6 +578,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.3" }
+
 	option = {
 		name = procesja_east.3.a
 		country_event = {
@@ -560,6 +596,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.4" }
 
 	option = {
 		name = procesja_east.4.a
@@ -587,6 +625,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.5" }
+
 	option = {
 		name = procesja_east.5.a
 		country_event = {
@@ -603,6 +643,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.6" }
 
 	option = {
 		name = procesja_east.6.a
@@ -630,6 +672,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.7" }
+
 	option = {
 		name = procesja_east.7.a
 		PUL = {
@@ -648,6 +692,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja.2" }
 
 	option = {
 		name = procesja.2.a #yes
@@ -677,6 +723,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.8" }
+
 	option = {
 		name = procesja_east.8.a
 		660 = {
@@ -702,6 +750,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.9" }
 
 	option = {
 		name = procesja_east.9.a
@@ -729,6 +779,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.10" }
 
 	option = {
 		name = procesja_east.10.a
@@ -763,6 +815,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.11" }
+
 	option = {
 		name = procesja_east.11.a
 		country_event = {
@@ -779,6 +833,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.12" }
 
 	option = {
 		name = procesja_east.12.a
@@ -806,6 +862,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.13" }
+
 	option = {
 		name = procesja_east.13.a
 		country_event = {
@@ -822,6 +880,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.14" }
 
 	option = {
 		name = procesja_east.14.a
@@ -849,6 +909,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.15" }
+
 	option = {
 		name = procesja_east.15.a
 		country_event = {
@@ -865,6 +927,8 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires procesja_east.16" }
 
 	option = {
 		name = procesja_east.16.a

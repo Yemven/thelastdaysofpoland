@@ -8,6 +8,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires jomsborg.1" }
+
 	option = {
 		name = jomsborg.1.a
 		every_country = {
@@ -60,6 +62,8 @@ country_event = {
 		original_tag = JOM
 	}
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires jomsborg.2" }
+
 	option = {
 		name = jomsborg.2.a
 		set_capital = {state = 70}
@@ -91,6 +95,8 @@ news_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires jomsborg.3" }
 	
 	option = {
 		name = jomsborg.3.a

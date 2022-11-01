@@ -8,6 +8,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires usp.1" }
+
 	option = {
 		name = usp.1.a
 		623 = {
@@ -44,6 +46,8 @@ country_event = {
 	title = usp.2.t
 	desc = usp.2.desc
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires usp.2" }
+	
 	fire_only_once = yes
 	trigger = { 
 		NOT = { has_war = yes }

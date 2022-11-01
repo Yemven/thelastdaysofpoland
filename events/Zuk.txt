@@ -14,6 +14,8 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zuk.t1_1" }
+
 	option = {
 		name = zuk.t1_1.a
 	}
