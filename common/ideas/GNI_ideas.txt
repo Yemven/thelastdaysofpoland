@@ -1,5 +1,20 @@
 ideas = {
+    hidden_ideas = { 
+		GNI_surrender = {
+			allowed = {
+				original_tag = GNI
+			}
+			allowed_civil_war = {
+				always = yes
+			}
 
+			removal_cost = -1
+			#picture =
+			modifier = {
+				surrender_limit = -0.3
+			}
+		}
+	}
 	country = {
 		GNI_spirit_of_the_casimir_the_restorer = {
 			allowed = {
