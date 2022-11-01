@@ -15,6 +15,7 @@ MNI_collapse_OPO = {
 			OPO = { transfer_state = PREV }
 		}
 	}
+	log = "[GetDateText]: MNI_collapse_OPO"
 }
 
 MNI_collapse_LEH = {
@@ -61,6 +62,7 @@ MNI_collapse_LEH = {
 		}
 
 	}
+	log = "[GetDateText]: MNI_collapse_LEH"
 }
 
 MNI_collapse_WOD = {
@@ -81,8 +83,8 @@ MNI_collapse_WOD = {
 			limit = { is_core_of = WOD }
 			WOD = { transfer_state = PREV }
 		}
-
 	}
+	log = "[GetDateText]: MNI_collapse_WOD"
 }
 
 
@@ -94,7 +96,6 @@ MNI_collapse_LCH = {
 			add_state_core = 402
 			add_state_core = 427
 		}
-
 		every_owned_state = {
 			limit = { is_core_of = LCH }
 			LCH = { transfer_state = PREV }
@@ -119,8 +120,8 @@ MNI_collapse_LCH = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: MNI_collapse_LCH"
 }
 
 
@@ -156,8 +157,8 @@ MNI_collapse_WAN = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: MNI_collapse_WAN"
 }
 
 MNI_collapse_NYS = {
@@ -190,6 +191,6 @@ MNI_collapse_NYS = {
 				disband = yes
 			}
 		}
-
 	}
+	log = "[GetDateText]: MNI_collapse_NYS"
 }

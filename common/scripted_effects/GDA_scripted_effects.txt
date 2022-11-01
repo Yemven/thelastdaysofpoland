@@ -18,8 +18,8 @@ GDA_collapse_BOL = {
 		BOL = {
 			load_oob = "BOL_2027"
 		}
-
 	}
+	log = "[GetDateText]: GDA_collapse_BOL"
 }
 
 GDA_collapse_KOR = {
@@ -43,6 +43,6 @@ GDA_collapse_KOR = {
 		KOR = {
 			load_oob = "KOR_2027"
 		}
-
 	}
+	log = "[GetDateText]: GDA_collapse_KOR"
 }

@@ -20,6 +20,7 @@ KRK_cw_KRA = {
 			load_oob = "KRA_2027"
 			}
 	}
+	log = "[GetDateText]: KRK_cw_KRA"
 }
 
 KRK_cw_BRK = {
@@ -44,6 +45,7 @@ KRK_cw_BRK = {
 			load_oob = "BRK_2027"
 		}
 	}
+	log = "[GetDateText]: KRK_cw_BRK"
 }
 
 KRK_cw_WND = {
@@ -67,6 +69,7 @@ KRK_cw_WND = {
 			load_oob = "WND_2027"
 			}
 	}
+	log = "[GetDateText]: KRK_cw_WND"
 }
 
 KRK_scjento_UJ = {
@@ -90,6 +93,7 @@ KRK_scjento_UJ = {
 			UJG = { transfer_state = PREV }
 		}
 	}
+	log = "[GetDateText]: KRK_scjento_UJ"
 }
 
 KRK_scjento_AGH = {
@@ -116,6 +120,7 @@ KRK_scjento_AGH = {
 			AGH = { transfer_state = PREV }
 		}
 	}
+	log = "[GetDateText]: KRK_scjento_AGH"
 }
 
 
@@ -149,6 +154,7 @@ KRK_krul_maklowicz = {
 			HAB = { transfer_state = PREV }
 		}
 	}
+	log = "[GetDateText]: KRK_krul_maklowicz"
 }
 
 

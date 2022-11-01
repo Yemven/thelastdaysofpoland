@@ -15,4 +15,5 @@ KRS_calculate_shares = {
 	divide_variable = { rutkowski_shares = all_shares }
 	set_variable = { skinhunters_shares = KRS_skinhunters_takeover }
 	divide_variable = { skinhunters_shares = all_shares }
+	log = "[GetDateText]: KRS_calculate_shares"
 }

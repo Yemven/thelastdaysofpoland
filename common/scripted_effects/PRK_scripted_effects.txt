@@ -36,8 +36,9 @@ PRK_revolt_minor_NRA = {
 		every_country = {
 			limit = { NOT = { is_ai = yes } }
 			news_event = { id = ziobro.3 }
-			}
+		}
 	}
+	log = "[GetDateText]: PRK_revolt_minor_NRA"
 }
 
 PRK_revolt_minor_NSZ = {
@@ -75,6 +76,7 @@ PRK_revolt_minor_NSZ = {
 			}
 		}
 	}
+	log = "[GetDateText]: PRK_revolt_minor_NSZ"
 }
 
 PRK_revolt_minor_KEL = {
@@ -112,6 +114,7 @@ PRK_revolt_minor_KEL = {
 			}
 		}
 	}
+	log = "[GetDateText]: PRK_revolt_minor_KEL"
 }
 
 PRK_revolt_minor_STO = {
@@ -149,6 +152,7 @@ PRK_revolt_minor_STO = {
 				disband = yes
 			}
 	}
+	log = "[GetDateText]: PRK_revolt_minor_STO"
 }
 
 PRK_revolt_minor_KIE = {
@@ -181,8 +185,9 @@ PRK_revolt_minor_KIE = {
 		}
 		KIE = {
 			load_oob = "KIE_2027"
-			}
+		}
 	}
+	log = "[GetDateText]: PRK_revolt_minor_KIE"
 }
 
 PRK_revolt_minor_STA = {
@@ -222,6 +227,7 @@ PRK_revolt_minor_STA = {
 			}
 		}
 	}
+	log = "[GetDateText]: PRK_revolt_minor_STA"
 }
 
 PRK_revolt_minor_SND = {
@@ -260,6 +266,7 @@ PRK_revolt_minor_SND = {
 			}
 		}
 	}
+	log = "[GetDateText]: PRK_revolt_minor_SND"
 }
 
 
@@ -306,6 +313,7 @@ PRK_revolt_major_NRA = {
 			activate_decision = DGR_war_for_bukowno
 		}
 	}
+	log = "[GetDateText]: PRK_revolt_major_NRA"
 }
 
 PRK_revolt_major_NSZ = {
@@ -344,6 +352,7 @@ PRK_revolt_major_NSZ = {
 			}
 		}
 	}
+	log = "[GetDateText]: PRK_revolt_major_NSZ"
 }
 
 PRK_revolt_major_KEL = {
@@ -382,6 +391,7 @@ PRK_revolt_major_KEL = {
 			}
 		}
 	}
+	log = "[GetDateText]: PRK_revolt_major_KEL"
 }
 
 PRK_revolt_major_STO = {
@@ -420,6 +430,7 @@ PRK_revolt_major_STO = {
 			}
 		}
 	}
+	log = "[GetDateText]: PRK_revolt_major_STO"
 }
 
 PRK_revolt_major_KIE = {
@@ -452,6 +463,7 @@ PRK_revolt_major_KIE = {
 			}
 		}
 	}
+	log = "[GetDateText]: PRK_revolt_major_KIE"
 }
 
 PRK_revolt_major_STA = {
@@ -478,6 +490,7 @@ PRK_revolt_major_STA = {
 			}
 		}
 	}
+	log = "[GetDateText]: PRK_revolt_major_STA"
 }
 
 PRK_revolt_major_SND = {
@@ -504,6 +517,7 @@ PRK_revolt_major_SND = {
 			}		
 		}
 	}
+	log = "[GetDateText]: PRK_revolt_major_SND"
 }
 
 PRK_withdrawal = {
@@ -622,4 +636,5 @@ PRK_withdrawal = {
 			white_peace = KEL
 		}	
 	}
+	log = "[GetDateText]: PRK_withdrawal"
 }
