@@ -438,7 +438,7 @@ ideas = {
 					production_speed_arms_factory_factor = 0.2
 					production_speed_industrial_complex_factor = 0.2
 					industrial_capacity_factory = 0.1
-					out_of_supply_factor = 0.2
+					out_of_supply_factor = -0.2
 				}
 			}			
 
@@ -469,7 +469,7 @@ ideas = {
 				modifier = {
 					war_support_factor = 0.1
 					army_attack_factor = 0.15
-					army_attack_speed_factor = 0.15
+					army_speed_factor = 0.15
 				}
 			}
 		WML_lodz_victory3 =	{
