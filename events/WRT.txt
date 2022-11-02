@@ -5,7 +5,7 @@ country_event = {
 	title = warta.1.t
 	desc = warta.1.desc
 
-	log = "[GetDateText]: [ROOT.GetName] fires warta.1"
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires warta.1" }
 
 	fire_only_once = yes
 	trigger = {
@@ -41,7 +41,7 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	log = "[GetDateText]: [ROOT.GetName] fires warta.2"
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires warta.2" }
 
 	option = {
 		name = warta.2.a
