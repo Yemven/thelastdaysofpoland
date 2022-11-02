@@ -76,7 +76,7 @@ objectTypes = {
 		animation = { id = "bicycle_move_2"		type = "infantry_bicycle_move_2_animation" }
 		animation = { id = "bicycle_retreat"	type = "infantry_bicycle_retreat_animation" }
 		animation = { id = "bicycle_retreat_2"	type = "infantry_bicycle_retreat_2_animation" }
-		
+		animation = { id = "motorbike_move"		type = "motorbike_infantry_move_animation" }
 		meshsettings = {
 			texture_diffuse = "western_europe_infantry_diffuse.dds"
 		}
@@ -113,6 +113,7 @@ objectTypes = {
 		animation = { id = "bicycle_move_2"		type = "infantry_bicycle_move_2_animation" }
 		animation = { id = "bicycle_retreat"	type = "infantry_bicycle_retreat_animation" }
 		animation = { id = "bicycle_retreat_2"	type = "infantry_bicycle_retreat_2_animation" }
+		animation = { id = "motorbike_move"		type = "motorbike_infantry_move_animation" }
 	}
 	
 
