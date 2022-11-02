@@ -1040,14 +1040,8 @@ technologies = {
 
 		start_year = 1942
 
-		category_nav_bomber = {
-			mines_planting = 0.05
-		}
-		category_tac_bomber = {
-			mines_planting = 0.08
-		}
-		category_strat_bomber = {
-			mines_planting = 0.13
+		category_bomber = {
+			mines_planting = 0.15
 		}
 
 		folder = {
@@ -1099,12 +1093,8 @@ technologies = {
 
 		start_year = 1944
 
-		category_nav_bomber = {
+		category_bomber = {
 			mines_sweeping = 0.1
-		}
-
-		category_tac_bomber = {
-			mines_sweeping = 0.15
 		}
 
 		folder = {
