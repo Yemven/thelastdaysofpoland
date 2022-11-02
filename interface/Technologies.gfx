@@ -1,5 +1,17 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_don't_let_them_sleep_medium"
+		texturefile = "gfx/interface/technologies/don't_let_them_sleep.dds"
+	}
+	SpriteType = {
+		name = "GFX_terrain_usage_medium"
+		texturefile = "gfx/interface/technologies/terrain_usage.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_allseeing_medium"
+		texturefile = "gfx/interface/technologies/the_allseeing.dds"
+	}
+	SpriteType = {
 		name = "GFX_primitive_high_tech_industry_medium"
 		texturefile = "gfx/interface/technologies/hightech1.dds"
 	}
