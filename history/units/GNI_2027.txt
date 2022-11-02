@@ -25,22 +25,23 @@ division_template = {
 		militia = { x = 0 y = 1 }
 		militia = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
-		motorized = { x = 2 y = 0 }
 	}
 }
 
 division_template = {
-	name = "Zmotoryzowana Milicja Książeca"
+	name = "Książecy Batalion Zmechanizowany"
 	regiments = {
 		armored_car = { x = 0 y = 0 }
 		armored_car = { x = 0 y = 1 }
 		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		elite_infantry = { x = 2 y = 0 }
 	}
 }
 
 units = {
 	division = {
-		name = "Gnieźnieńska Drużyna Książeca"
+		name = "Gnieźnieńska Drużyna Książeca im. Mieszka I"
 		location = 13506
 		division_template = "Drużyna Książeca"
 		start_experience_factor = 0.2
@@ -48,23 +49,31 @@ units = {
 	}
 	
 	division = {
-		name = "2. Gnieźnieńska Drużyna Książeca"
-		location = 13486
+		name = "2. Batalion Gnieźnieńskiej Drużyny Książecej"
+		location = 3724
 		division_template = "Rezerwowy Batalion Książecy"
 		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "3. Batalion Gnieźnieńskiej Drużyny Książecej"
+		location = 13490
+		division_template = "Drużyna Książeca"
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
 	
 	division = {
-		name = "Batalion Milicji Gnieźnieńskiej"
+		name = "1. Batalion Milicji Gnieźnieńskiej"
 		location = 13491
 		division_template = "Milicja Książeca"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 
 	division = {
-		name = "Konińska Drużyna Książeca"
+		name = "1. Batalion Konińskiej Drużyny Książecej im. Kazimierza Odnowiciela"
 		location = 1372
 		division_template = "Drużyna Książeca"
 		start_experience_factor = 0.3
@@ -72,7 +81,7 @@ units = {
 	}
 	
 	division = {
-		name = "2. Konińska Drużyna Książeca"
+		name = "2. Batalion Konińskiej Drużyny Książecej"
 		location = 14382
 		division_template = "Rezerwowy Batalion Książecy"
 		start_experience_factor = 0.2
@@ -80,7 +89,7 @@ units = {
 	}
 	
 	division = {
-		name = "Koniński Książecy Pułk Milicyjny"
+		name = "Batalion Konińskiej Milicyjnej Drużyny Książecej"
 		location = 1372
 		division_template = "Milicja Książeca"
 		start_experience_factor = 0.3
@@ -88,23 +97,23 @@ units = {
 	}
 	
 	division = {
-		name = "Wrzesińska Drużyna Książeca"
+		name = "1. Wrzesiński Batalion Drużyny Ksiażecej"
 		location = 13526
 		division_template = "Drużyna Książeca"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "Kolska Drużyna Książeca"
+		name = "1. Kolski Batalion Drużyny Książecej"
 		location = 14492
 		division_template = "Drużyna Książeca"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "Słupecka Drużyna Książeca"
+		name = "1. Słupecki Batalion Drużyny Ksiażecej"
 		location = 14239
 		division_template = "Rezerwowy Batalion Książecy"
 		start_experience_factor = 0.1
@@ -112,10 +121,18 @@ units = {
 	}
 	
 	division = {
-		name = "Gnieźnieńska ZMK"
+		name = "1. Zmechanizowany Batalion im. Kazimierza Wielkiego"
 		location = 13505
-		division_template = "Zmotoryzowana Milicja Książeca"
+		division_template = "Książecy Batalion Zmechanizowany"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "2. Zmechanizowany Batalion im. Bolesława Chrobrego"
+		location = 1996
+		division_template = "Książecy Batalion Zmechanizowany"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
 	}
 }

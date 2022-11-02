@@ -1,4 +1,9 @@
 on_actions = {
+	on_capitulation_immediate = {
+		effect = {
+			log = "[GetDateName]: [ROOT.GetName] was just capped by [FROM.GetName]"
+		}
+	}
 	on_capitulation = {
 		effect = {
 			set_global_flag = announce_peace
