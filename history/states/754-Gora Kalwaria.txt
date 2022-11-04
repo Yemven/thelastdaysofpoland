@@ -2,12 +2,15 @@ state={
 	id=754
 	name="STATE_754"
 	provinces={
-		609 3269 5910 6251
+		609 3269 5910 6251 7137 5783 7124 7194 7394 7136 5237 4333 6125 4561
 	}
 	manpower = 23894   state_category = town
 	buildings_max_level_factor=1.000
 		history = {
 		owner = DUP
+		victory_points = { 609 10 }
+		victory_points = { 5237 2 }
+		victory_points = { 4561 3 }
 		add_core_of = DUP
 	buildings = {
 	infrastructure = 5
