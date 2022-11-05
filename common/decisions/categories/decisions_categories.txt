@@ -139,7 +139,7 @@ WML_dialogue_decisions = {
 	priority = 70
 	visible_when_empty = yes
 	visible = {
-    		has_completed_focus = WML_convene_general_assembly
+    		has_completed_focus = WML_the_beginning_of_the_dialogue
 	}
 }
 
