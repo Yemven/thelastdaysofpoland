@@ -50,6 +50,70 @@ debug_category = {
 			}
 		}
 	}
+	
+	zigger_war = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 0
+		}
+		fire_only_once = yes
+		days_remove = 1
+		remove_effect  = {
+			log = "[GetDateText]: Decision zigger_war"
+			set_global_flag = zigger_war_debug
+			ROS = {
+				if = { limit = { country_exists = TEU
+								 ROOT = { NOT = { tag = TEU } } }
+				declare_war_on = {
+					target = TEU
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = MAL
+								 ROOT = { NOT = { tag = MAL } } }
+				declare_war_on = {
+					target = MAL
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = PRU
+								 ROOT = { NOT = { tag = PRU } } }
+				declare_war_on = {
+					target = PRU
+					type = annex_everything
+				}
+				}	
+				if = { limit = { country_exists = WAR
+								 ROOT = { NOT = { tag = WAR } } }
+				declare_war_on = {
+					target = WAR
+					type = annex_everything
+				}
+				}
+				if = { limit = { country_exists = PZW
+								 ROOT = { NOT = { tag = PZW } } }
+				declare_war_on = {
+					target = PZW
+					type = annex_everything
+				}
+				}	
+			}
+		}
+	}
+	
 	debug_sapek_sane = {
 		cost = 1
 		allowed = {
