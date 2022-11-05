@@ -9,7 +9,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Batalion Piechoty Dupnej"
+	name = "Batalion Dupnej Piechoty"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -57,14 +57,14 @@ units = {
 	division = {
 		name = "3 Batalion Niezależnych Przedsiębiorców"
 		location = 3348
-		division_template = "Batalion Piechoty Dupnej"
+		division_template = "Batalion Dupnej Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
 		name = "1 Oddział Napierdalania Pałą W Łeb"
-		location = 2477
+		location = 4619
 		division_template = "Oddział NPWŁ"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
@@ -72,7 +72,7 @@ units = {
 	
 	division = {
 		name = "2 Oddział NPWŁ 'Tępe Chuje'"
-		location = 609
+		location = 4578
 		division_template = "Oddział NPWŁ"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
@@ -80,7 +80,7 @@ units = {
 	
 	division = {
 		name = "Fani Blok Ekipy"
-		location = 3269
+		location = 4333
 		division_template = "Oddział NPWŁ"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
@@ -95,8 +95,8 @@ units = {
 	}
 	
 	division = {
-		name = "'Orzeł 2'"
-		location = 3371
+		name = "'Orzeł 8'"
+		location = 7085
 		division_template = "Okręt Lądowy DUPAy"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
