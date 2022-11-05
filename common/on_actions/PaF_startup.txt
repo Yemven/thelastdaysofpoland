@@ -132,6 +132,13 @@ on_actions = {
 			}
 			WML = {
 				scoped_play_song = "intro_lodz"
+				if = {
+					limit = { WML = { is_ai = yes } }
+					load_focus_tree = WML_festung_lodzig
+					}
+				else = {
+					load_focus_tree = holownia_focus
+					}
 			}
 			MSL = {
 				scoped_play_song = "intro_myslenice"

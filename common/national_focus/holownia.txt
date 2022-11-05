@@ -16,7 +16,7 @@ focus_tree = {
 	}
 	default = no
 	
-	continuous_focus_position = {x = 50 y = 1500 }
+	continuous_focus_position = {x = 10 y = 10 }
 	
 	### NOWE DRZEWKO ###
 	
@@ -32,8 +32,8 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 20
-		y = 0
+		x = 10
+		y = 1
 		
 		cost = 0.4
 		search_filters = {FOCUS_STABILITY}
@@ -50,8 +50,8 @@ focus_tree = {
 	focus = {
 		id = WML_behind_the_curtains_of_denial
 		icon = WML_behind_the_curtains_of_denial
-		relative_position_id = WML_new_morning_in_old_lodz
-		prerequisite = { focus = WML_new_morning_in_old_lodz }
+		relative_position_id = WML_the_beginning_of_the_dialogue
+		prerequisite = { focus = WML_the_beginning_of_the_dialogue }
 		available = {
 		
 		}
@@ -357,7 +357,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 6
+		x = 0
 		y = 1
 		
 		cost = 1
@@ -381,7 +381,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 1
+		x = 7
 		y = 1
 		
 		cost = 1
@@ -405,7 +405,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -1
+		x = 5
 		y = 1
 		
 		cost = 1
@@ -424,15 +424,14 @@ focus_tree = {
 		id = WML_election_of_vice_president
 		icon = WML_election_of_vice_president
 		relative_position_id = WML_the_beginning_of_the_dialogue
-		prerequisite = { focus = WML_send_out_delegations }
-		prerequisite = { focus = WML_insider_perspective }
+		prerequisite = { focus = WML_the_beginning_of_the_dialogue }
 		available = {}
 
 		bypass = {
 		}
 		
 		x = 0
-		y = 2
+		y = 1
 		
 		cost = 3
 		search_filters = {}
@@ -447,14 +446,15 @@ focus_tree = {
 	focus = {
 		id = WML_convene_general_assembly
 		icon = WML_convene_general_assembly
-		relative_position_id = WML_election_of_vice_president
-		prerequisite = { focus = WML_election_of_vice_president }
+		relative_position_id = WML_send_out_delegations
+		prerequisite = { focus = WML_send_out_delegations }
+		prerequisite = { focus = WML_insider_perspective }
 		available = {}
 
 		bypass = {
 		}
 		
-		x = 0
+		x = 1
 		y = 1
 		
 		cost = 1
@@ -1291,7 +1291,7 @@ focus_tree = {
 	focus = {
 		id = WML_incomplete_compromise
 		icon = WML_incomplete_compromise
-		relative_position_id = WML_election_of_vice_president
+		relative_position_id = WML_hold_great_conference
 		available = {
 			has_country_flag = WML_set_dialog_partial
 			WML = {
@@ -1302,8 +1302,8 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -8
-		y = 7
+		x = -6
+		y = 1
 		
 		cost = 5
 		search_filters = {}
@@ -1974,7 +1974,7 @@ focus_tree = {
 	focus = {
 		id = WML_total_dialogue
 		icon = WML_total_dialogue
-		relative_position_id = WML_election_of_vice_president
+		relative_position_id = WML_hold_great_conference
 		available = {
 			has_country_flag = WML_set_dialog_total
 			WML = {
@@ -1985,8 +1985,8 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 8
-		y = 7
+		x = 6
+		y = 1
 		
 		cost = 5
 		search_filters = {}
@@ -2622,9 +2622,25 @@ focus_tree = {
 		}
 	}
 
+}
 	
 	### NOWE DRZEWKO ###
 	
+focus_tree = {
+	id = festung_lodzig_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = WML
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 10 y = 10 }	
+
 	focus = {
 		id = WML_or_will_it
 		icon = WML_or_will_it
