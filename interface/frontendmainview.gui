@@ -92,17 +92,17 @@ guiTypes = {
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
-		position = { x= 410 y = 560}
-		size = { width = 320 height = 435}
+		position = { x = 310 y = 560}
+		size = { width = 320 height = 435 }
 		Orientation = UPPER_LEFT
 		Origo = center
 		
 		ButtonType = {
 			name = "sp_continue_button"
 			position = { x = 16 y = 18 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "FE_CONTINUE"
-			buttonFont = "hoi_24header"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -141,30 +141,30 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_new_button"
-			position = { x = 16 y = 58 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			position = { x = 16 y = 78 }
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "FE_NEW"
-			buttonFont = "hoi_24header"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
 		
 		ButtonType = {
 			name = "sp_load_button"
-			position = {  x = 16 y = 98 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			position = {  x = 16 y = 138 }
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "MENU_BAR_LOAD"
-			buttonFont = "hoi_24header"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
 		
 		ButtonType = {
 			name = "sp_back_button"
-			position = { x = 16 y = 275 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			position = { x = 16 y = 295 }
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "BACK"
-			buttonFont = "hoi_24header"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "ESCAPE"
@@ -174,17 +174,20 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x = 410 y = 560}
+		position = { x = 310 y = 560}
 		size = { width = 320 height = 435 }
 		Orientation = UPPER_LEFT
 		Origo = center		
 
-			
+		positionType = {
+			name = "subscription_size"
+			position = { x = 320 y = 563 }
+			}
 		ButtonType = {
 			name = "single_player_button"
 			position = { x = 16 y = 18 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
+			quadTextureSprite ="GFX_main_menu_button"
+			font = "previewer_gar_40"			
 			text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
 			oversound = ui_menu_over
@@ -192,9 +195,9 @@ guiTypes = {
 
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 16 y = 58}
-			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
+			position = { x = 16 y = 78}
+			quadTextureSprite ="GFX_main_menu_button"
+			font = "previewer_gar_40"			
 			text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -220,32 +223,58 @@ guiTypes = {
 			maxHeight = 20	
 		}
 
-		
-		
-		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 16 y = 98 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			position = { x = 16 y = 138 }
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "OPTIONS"
-			buttonFont = "hoi_24header"
+			buttonFont = "previewer_gar_40"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
 		
+		iconType = {
+			name = "career_profile_button_star"
+			position = { x = -999 y = -999 }
+			spriteType = "GFX_icon_best_in_career"
+			centerposition = yes
+			orientation = upper_right
+			alwaysTransparent = yes
+		}
+
+		buttonType = {
+			name = "friends_button"
+			position = { x = -999 y = -999 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			buttonText = "MENU_BAR_FRIENDS"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+
+		ButtonType = {
+			name = "credits_button"
+			position = {  x = -999 y = -999 }
+			quadTextureSprite ="GFX_main_menu_button"
+			clicksound = click_default
+			oversound = ui_menu_over
+			buttonText = "Credits"
+			buttonFont = "previewer_gar_40"
+		}
+		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 16 y = 138 }
-			quadTextureSprite ="GFX_main_lobby_button"	
+			position = { x = 16 y = 208 }
+			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "Nudge!"
-			buttonFont = "hoi_24header"
+			buttonFont = "previewer_gar_40"
 		}
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 16 y = 275 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
+			position = { x = 16 y = 295 }
+			quadTextureSprite ="GFX_main_menu_button"
+			font = "previewer_gar_40"			
 			text = "FE_EXIT"			
 			clicksound = click_default
 			oversound = ui_menu_over
