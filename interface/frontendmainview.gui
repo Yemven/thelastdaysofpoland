@@ -183,6 +183,11 @@ guiTypes = {
 			name = "subscription_size"
 			position = { x = 320 y = 563 }
 			}
+   		#background = {
+			#name = "Background"		
+			#quadTextureSprite ="GFX_tiled_window"
+		#}
+   
 		ButtonType = {
 			name = "single_player_button"
 			position = { x = 16 y = 18 }
@@ -213,7 +218,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = 35 y = 250 }
+			position = { x = 135 y = 735 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -223,6 +228,11 @@ guiTypes = {
 			maxHeight = 20	
 		}
 
+		positionType = {
+			name = "version_label_subscription_position"
+			position = { x = 135 y = 735 }
+		}
+		
 		ButtonType = {
 			name = "settings_button"
 			position = { x = 16 y = 138 }
@@ -233,6 +243,16 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 		
+		buttonType = {
+			name = "career_profile_button"
+			position = { x = 16 y = 198 }
+			quadTextureSprite ="GFX_main_menu_button"
+			buttonText = "MENU_BAR_CAREER_PROFILE"
+			buttonFont = "previewer_gar_40"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+
 		iconType = {
 			name = "career_profile_button_star"
 			position = { x = -999 y = -999 }
@@ -264,7 +284,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 16 y = 208 }
+			position = { x = 16 y = 258 }
 			quadTextureSprite ="GFX_main_menu_button"	
 			buttonText = "Nudge!"
 			buttonFont = "previewer_gar_40"
@@ -272,7 +292,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 16 y = 295 }
+			position = { x = 16 y = 315 }
 			quadTextureSprite ="GFX_main_menu_button"
 			font = "previewer_gar_40"			
 			text = "FE_EXIT"			
@@ -280,7 +300,109 @@ guiTypes = {
 			oversound = ui_menu_over
 			
 		}
+		iconType = {
+			name = "subscription_divider"
+			position = { x = -999 y = -999 }
+			spriteType = "GFX_main_lobby_divider"
+		}
+
+		containerWindowType = {
+			name = "subscription_widget"
+			position = { x = -999 y = -999 }
+			size = { width = 288 height = 108 }
+
+			ButtonType = {
+				name = "show_subscription"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_subscription_widget"
+				buttonText = "NO MONEY FOR THE SWEDISH DEVIL!"
+				buttonFont = "hoi_24header"
+				multiline = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "subscription_widget_subscribed"
+			position = { x = -999 y = -999 }
+			size = { width = 288 height = 108 }
+
+			ButtonType = {
+				name = "show_subscription"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_subscription_widget_active"
+				frame = 1
+				buttonText = "YOU ARE PAYING TO THE SWEDISH DEVIL! STOP IT."
+				buttonFont = "hoi_24header"
+				multiline = yes
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "mainmenu_social_buttons"
+		position = { x=-50 y=25 }	
+		size = { width = 240 height = 90 }
+		Orientation = center	
+		origo = center
 		
+		positionType = {
+			name = "position_without_social_gui"
+			position = { x = 0 y = 175 }
+		}
+
+		positionType = {
+			name = "subscription_position"
+			position = { x = -50 y = 109 }
+		}
+
+		positionType = {
+			name = "subscription_position_without_social_gui"
+			position = { x = 0 y = 239 }
+		}
+		
+		containerWindowType = {
+			name = "social_view_interface_window"
+			position = { x = 250 y = 0  }
+			size = { width = 60 height = 40 }
+			
+			buttonType = {
+				name = "toggle_button"
+				quadTextureSprite = "GFX_sort_button_83x29" ## Orig: 60x29
+				position = { x=0 y=0  }
+				buttonFont = "hoi_16mbs"
+			}
+				
+			iconType = {
+				name = "button_toggle_socialview_icon"
+				spriteType = "GFX_socialview_icon"
+				position = { x=0 y=0 }
+				alwaystransparent = yes
+			}
+				
+			instantTextBoxType={
+				name = "friends_online"
+				font = "cg_16b"
+				position = { x=20 y=15 }
+				text = "0"
+				maxWidth = 30
+				maxHeight = 16
+				alwaysTransparent = yes
+				format = center
+			}
+				
+			iconType = {
+				name = "new_message"
+				position = { x=42 y =5 }
+				spriteType = "GFX_new_message_icon"
+				pdx_tooltip = "SOCIAL_NEW_MESSAGE"
+			}
+				
+			iconType = {
+				name = "new_friend"
+				position = { x=42 y=17 }
+				spriteType = "GFX_new_friend_icon"
+				pdx_tooltip = "SOCIAL_NEW_FRIEND"
+			}
 		
 		ButtonType = {
 			name = "forum_button"
