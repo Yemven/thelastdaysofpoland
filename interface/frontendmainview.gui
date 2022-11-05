@@ -148,6 +148,16 @@ guiTypes = {
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
+
+		ButtonType = {
+			name = "sp_tutorial_button"
+			position = { x = -999 y = -99}
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "FE_TUTORIAL"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
 		
 		ButtonType = {
 			name = "sp_load_button"
@@ -403,10 +413,17 @@ guiTypes = {
 				spriteType = "GFX_new_friend_icon"
 				pdx_tooltip = "SOCIAL_NEW_FRIEND"
 			}
-		
+		}
+		ButtonType = {
+			name = "homepage_button"
+			position = { x=-999 y=-999 }
+			quadTextureSprite ="homepage"
+			clicksound = click_default
+			pdx_tooltip = "MENU_HOMEPAGE"
+		}
 		ButtonType = {
 			name = "forum_button"
-			position = { x=65 y=320 }
+			position = { x=420 y=270 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
@@ -414,7 +431,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "facebook_button"
-			position = { x=120 y=320 }
+			position = { x=480 y=270 }
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
@@ -422,7 +439,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "twitter_button"
-			position = { x=175 y=320 }
+			position = { x=540 y=270 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
@@ -430,7 +447,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "privacy_policy_button"
-			position = { x=230 y=320 }
+			position = { x=600 y=270 }
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"
