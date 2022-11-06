@@ -5,7 +5,7 @@ defined_text = {
 		trigger = { original_tag = SOS }
 		localization_key = TITLE_SOS
 	}
-		text = {
+	text = {
 		trigger = { original_tag = EKS }
 		localization_key = TITLE_EKS
 	}
@@ -230,6 +230,68 @@ defined_text = {
 
 defined_text = {
 	name = GetLocGovernment
+
+	text = {
+		trigger = { original_tag = RUS
+					has_country_leader = { character = RUS_alexei_navalny }
+					}
+		localization_key = GOVERNMENT_RUS_navalny
+	}
+	text = {
+		trigger = { original_tag = RUS
+					has_country_leader = { character = RUS_medvedev }
+					}
+		localization_key = GOVERNMENT_RUS_medvedev
+	}	
+	text = {
+		trigger = { original_tag = RUS
+					has_country_leader = { character = RUS_pavel_grudinin }
+					}
+		localization_key = GOVERNMENT_RUS_grudinin
+	}
+	text = {
+		trigger = { original_tag = RUS
+					has_country_leader = { character = RUS_ramzan_kadyrov }
+					}
+		localization_key = GOVERNMENT_RUS_kadyrov
+	}
+	text = {
+		trigger = { original_tag = RUS
+					has_country_leader = { character = RUS_gennady_zyuganov }
+					}
+		localization_key = GOVERNMENT_RUS_zyuganov
+	}
+	text = {
+		trigger = { original_tag = RUS
+					has_country_leader = { character = RUS_denaturov }
+					}
+		localization_key = GOVERNMENT_RUS_zolotov
+	}
+	text = {
+		trigger = { original_tag = RUS
+					has_country_leader = { character = RUS_bortnikov }
+					}
+		localization_key = GOVERNMENT_RUS_bortnikov
+	}
+	text = {
+		trigger = { original_tag = RUS
+					has_country_leader = { character = RUS_dugin }
+					}
+		localization_key = GOVERNMENT_RUS_dugin
+	}
+	text = {
+		trigger = { original_tag = RUS
+					has_country_leader = { character = RUS_szojgu }
+					}
+		localization_key = GOVERNMENT_RUS_shoigu
+	}
+	text = {
+		trigger = { original_tag = RUS
+					has_country_leader = { character = RUS_civil_war }
+					}
+		localization_key = GOVERNMENT_RUS_CW
+	}
+
 
 	text = {
 		trigger = { original_tag = TAT }
