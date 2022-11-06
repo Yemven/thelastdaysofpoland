@@ -1,0 +1,735 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = kghm_intro_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = KGH
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = KGH_battle_of_legnica
+		icon = KGH_battle_of_legnica
+		available = {
+			has_war_with = CYG
+		}
+		
+		bypass = {
+			has_war_with = CYG
+		}
+		
+		x = 3
+		y = 0
+		
+		cost = 5
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_miners_militia
+		icon = KGH_miners_militia
+		relative_position_id = KGH_battle_of_legnica
+		prerequisite = { focus = KGH_battle_of_legnica }
+		available = {
+			has_war_with = CYG
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = KGH_fall_of_legnica
+		icon = KGH_fall_of_legnica
+		relative_position_id = KGH_miners_militia
+		prerequisite = { focus = KGH_miners_militia }
+		mutually_exclusive = { focus = KGH_legnica_holds }
+		available = {
+			has_war_with = CYG
+			CYG = {
+				controls_state = 725
+				controls_state = 727
+			}
+		}
+		
+		bypass = {
+			has_war_with = CYG
+			CYG = {
+				controls_state = 725
+				controls_state = 727
+			}
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = KGH_legnica_holds
+		icon = KGH_legnica_holds
+		relative_position_id = KGH_miners_militia
+		prerequisite = { focus = KGH_miners_militia }
+		mutually_exclusive = { focus = KGH_fall_of_legnica }
+		available = {
+			has_war_with = CYG
+			controls_state = 725
+			controls_state = 727
+		}
+		
+		bypass = {
+			has_war_with = CYG
+			controls_state = 725
+			controls_state = 727
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = KGH_front_reorganization
+		icon = KGH_front_reorganization
+		relative_position_id = KGH_fall_of_legnica
+		prerequisite = { focus = KGH_fall_of_legnica }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = KGH_liberation_of_legnica
+		icon = KGH_liberation_of_legnica
+		relative_position_id = KGH_front_reorganization
+		prerequisite = { focus = KGH_front_reorganization }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = KGH_legnica_corridor
+		icon = KGH_legnica_corridor
+		relative_position_id = KGH_legnica_holds
+		prerequisite = { focus = KGH_legnica_holds }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = KGH_prepare_for_offensive
+		icon = KGH_prepare_for_offensive
+		relative_position_id = KGH_legnica_corridor
+		prerequisite = { focus = KGH_legnica_corridor }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = KGH_final_offensive
+		icon = KGH_final_offensive
+		relative_position_id = KGH_miners_militia
+		prerequisite = { focus = KGH_prepare_for_offensive }
+		prerequisite = { focus = KGH_liberation_of_legnica }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 4
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_economy_case
+		icon = KGH_economy_case
+		available = {
+			NOT = { country_exists = CYG }
+		}
+		relative_position_id = 
+		bypass = {
+		}
+		
+		x = 9
+		y = 0
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = KGH_concessions_for_entrepreneurs
+		icon = KGH_concessions_for_entrepreneurs
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_economy_case }
+		mutually_exclusive = { focus = KGH_hard_regulations }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_promoting_competition
+		icon = KGH_promoting_competition
+		relative_position_id = KGH_concessions_for_entrepreneurs
+		prerequisite = { focus = KGH_concessions_for_entrepreneurs }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_hard_regulations
+		icon = KGH_hard_regulations
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_economy_case }
+		mutually_exclusive = { focus = KGH_concessions_for_entrepreneurs }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_corporatisation_of_key_industry
+		icon = KGH_corporatisation_of_key_industry
+		relative_position_id = KGH_hard_regulations
+		prerequisite = { focus = KGH_hard_regulations }
+		available = {
+			
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	
+	focus = {
+		id = KGH_seeking_export_markets
+		icon = KGH_seeking_export_markets
+		relative_position_id = KGH_promoting_competition
+		prerequisite = { focus = KGH_promoting_competition }
+		prerequisite = { focus = KGH_corporatisation_of_key_industry }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	
+	focus = {
+		id = KGH_production_case
+		icon = KGH_production_case
+		relative_position_id = KGH_production_case
+		available = {
+			NOT = { country_exists = CYG }
+		}
+		
+		bypass = {
+		}
+		
+		x = 14
+		y = 0
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	#KGH_extinguishing_unprofitable_lines
+	focus = {
+		id = KGH_extinguishing_unprofitable_lines
+		icon = KGH_extinguishing_unprofitable_lines
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_production_case }
+		mutually_exclusive = { focus = KGH_production_maximalisation }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	#KGH_empowerment_of_the_worker
+	
+	focus = {
+		id = KGH_empowerment_of_the_worker
+		icon = KGH_empowerment_of_the_worker
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_extinguishing_unprofitable_lines }
+		mutually_exclusive = {  }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 2
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_production_maximalisation
+		icon = KGH_production_maximalisation
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_production_case }
+		mutually_exclusive = { focus = KGH_extinguishing_unprofitable_lines }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 6
+		y = 1
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_abolition_of_safety_regulations
+		icon = KGH_abolition_of_safety_regulations
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_production_maximalisation }
+		mutually_exclusive = {  }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 6
+		y = 2
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_work_unionist_in_supervision
+		icon = KGH_work_unionist_in_supervision
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_empowerment_of_the_worker }
+		mutually_exclusive = {  }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 3
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_copper_at_all_cost
+		icon = KGH_copper_at_all_cost
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_abolition_of_safety_regulations }
+		mutually_exclusive = {  }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 6
+		y = 3
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	###
+	focus = {
+		id = KGH_security_case
+		icon = KGH_security_case
+		relative_position_id = KGH_security_case
+		available = {
+			NOT = { country_exists = CYG }
+		}
+		
+		bypass = {
+		}
+		
+		x = 19
+		y = 0
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_local_patriots
+		icon = KGH_local_patriots
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_security_case }
+		mutually_exclusive = { focus = KGH_fully_paid_army }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 9
+		y = 1
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_internment_of_EK_soldiers
+		icon = KGH_internment_of_EK_soldiers
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_local_patriots }
+		mutually_exclusive = {  }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 9
+		y = 2
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_region_wide_training
+		icon = KGH_region_wide_training
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_internment_of_EK_soldiers }
+		mutually_exclusive = {  }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 9
+		y = 3
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_fully_paid_army
+		icon = KGH_fully_paid_army
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_security_case }
+		mutually_exclusive = { focus = KGH_local_patriots }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 11
+		y = 1
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_exEK_soldiers_recruitment
+		icon = KGH_exEK_soldiers_recruitment
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_fully_paid_army }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 11
+		y = 2
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_specialistic_warmachines_operation
+		icon = KGH_specialistic_warmachines_operation
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_exEK_soldiers_recruitment }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 11
+		y = 3
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = KGH_clasp_of_the_briefcase
+		icon = KGH_clasp_of_the_briefcase
+		relative_position_id = KGH_economy_case
+		prerequisite = { focus = KGH_seeking_export_markets }
+		prerequisite = {
+		focus = KGH_work_unionist_in_supervision
+		focus = KGH_copper_at_all_cost
+		}
+		prerequisite = {
+		focus = KGH_region_wide_training
+		focus = KGH_specialistic_warmachines_operation
+		}
+		
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 5
+		y = 5
+		
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+
+}	

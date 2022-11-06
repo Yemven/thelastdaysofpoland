@@ -1,0 +1,660 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = dabrowa_intro_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = DGR
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 2000 }
+	
+	focus = {
+		id = DGR_forgotten_city
+		icon = DGR_forgotten_city
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 0
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { add_stability = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = DGR_weeds_to_eradicate
+		icon = DGR_weeds_to_eradicate
+		relative_position_id = DGR_forgotten_city
+		prerequisite = { focus = DGR_forgotten_city }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = DGR_uneasy_peace
+		icon = DGR_uneasy_peace
+		relative_position_id = DGR_weeds_to_eradicate
+		prerequisite = { focus = DGR_weeds_to_eradicate }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = DGR_wrong_neighborhood
+		icon = DGR_wrong_neighborhood
+		relative_position_id = DGR_forgotten_city
+		prerequisite = { focus = DGR_forgotten_city }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = DGR_troublesome_alliance
+		icon = DGR_troublesome_alliance
+		relative_position_id = DGR_wrong_neighborhood
+		prerequisite = { focus = DGR_wrong_neighborhood }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = DGR_supress_dissent
+		icon = DGR_supress_dissent
+		relative_position_id = DGR_troublesome_alliance
+		prerequisite = { focus = DGR_troublesome_alliance }
+		prerequisite = { focus = DGR_uneasy_peace }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_restore_palace_of_culture
+		icon = DGR_restore_palace_of_culture
+		relative_position_id = DGR_supress_dissent
+		prerequisite = { focus = DGR_supress_dissent }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_undermine_drug_dealers
+		icon = DGR_undermine_drug_dealers
+		relative_position_id = DGR_supress_dissent
+		prerequisite = { focus = DGR_supress_dissent }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_monuments_of_old_times
+		icon = DGR_monuments_of_old_times
+		relative_position_id = DGR_restore_palace_of_culture
+		prerequisite = { focus = DGR_restore_palace_of_culture }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_undermine_opposition
+		icon = DGR_undermine_opposition
+		relative_position_id = DGR_undermine_drug_dealers
+		prerequisite = { focus = DGR_undermine_drug_dealers }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_our_position
+		icon = DGR_our_position
+		relative_position_id = DGR_supress_dissent
+		prerequisite = { focus = DGR_supress_dissent }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 3
+		
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_congress_of_bedzin
+		icon = DGR_congress_of_bedzin
+		relative_position_id = DGR_our_position
+		prerequisite = { focus = DGR_our_position }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 4.3
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DGR_aftermath
+		icon = DGR_aftermath
+		relative_position_id = DGR_congress_of_bedzin
+		prerequisite = { focus = DGR_congress_of_bedzin }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_emergency_mobilization
+		icon = DGR_emergency_mobilization
+		relative_position_id = DGR_aftermath
+		prerequisite = { focus = DGR_aftermath }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_war_communism
+		icon = DGR_war_communism
+		relative_position_id = DGR_aftermath
+		prerequisite = { focus = DGR_aftermath}
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_central_planning_commision
+		icon = DGR_central_planning_commision
+		relative_position_id = DGR_supress_dissent
+		prerequisite = { focus = DGR_supress_dissent }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -5
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_przyjazn_coking_plant
+		icon = DGR_przyjazn_coking_plant
+		relative_position_id = DGR_central_planning_commision
+		prerequisite = { focus = DGR_central_planning_commision }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_tucznawa_zone
+		icon = DGR_tucznawa_zone
+		relative_position_id = DGR_central_planning_commision
+		prerequisite = { focus = DGR_central_planning_commision }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_dzierzynski_steelworks
+		icon = DGR_dzierzynski_steelworks
+		relative_position_id = DGR_central_planning_commision
+		prerequisite = { focus = DGR_central_planning_commision }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_katowice_steelworks
+		icon = DGR_katowice_steelworks
+		relative_position_id = DGR_tucznawa_zone
+		prerequisite = { focus = DGR_przyjazn_coking_plant }
+		prerequisite = { focus = DGR_tucznawa_zone }
+		prerequisite = { focus = DGR_dzierzynski_steelworks }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_industrial_heart
+		icon = DGR_industrial_heart
+		relative_position_id = DGR_katowice_steelworks
+		prerequisite = { focus = DGR_katowice_steelworks }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_working_people
+		icon = DGR_working_people
+		relative_position_id = DGR_industrial_heart
+		prerequisite = { focus = DGR_industrial_heart }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_raise_popular_militias
+		icon = DGR_raise_popular_militias
+		relative_position_id = DGR_supress_dissent
+		prerequisite = { focus = DGR_supress_dissent}
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 5
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_negotiate_with_li
+		icon = DGR_negotiate_with_li
+		relative_position_id = DGR_raise_popular_militias
+		prerequisite = { focus = DGR_raise_popular_militias }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_every_worker_a_soldier
+		icon = DGR_every_worker_a_soldier
+		relative_position_id = DGR_raise_popular_militias
+		prerequisite = { focus = DGR_raise_popular_militias }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_heavy_machinery_production
+		icon = DGR_heavy_machinery_production
+		relative_position_id = DGR_raise_popular_militias
+		prerequisite = { focus = DGR_raise_popular_militias }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_nationalist_communist_paramilitary
+		icon = DGR_nationalist_communist_paramilitary
+		relative_position_id = DGR_negotiate_with_li
+		prerequisite = { focus = DGR_negotiate_with_li }
+		prerequisite = { focus = DGR_every_worker_a_soldier }
+		prerequisite = { focus = DGR_heavy_machinery_production }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_glory_parade
+		icon = DGR_glory_parade
+		relative_position_id = DGR_nationalist_communist_paramilitary
+		prerequisite = { focus = DGR_nationalist_communist_paramilitary }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_popular_army
+		icon = DGR_popular_army
+		relative_position_id = DGR_glory_parade
+		prerequisite = { focus = DGR_glory_parade }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = DGR_to_arms_comrades
+		icon = DGR_to_arms_comrades
+		relative_position_id = DGR_aftermath
+		prerequisite = { focus = DGR_working_people }
+		prerequisite = { focus = DGR_emergency_mobilization }
+		prerequisite = { focus = DGR_war_communism }
+		prerequisite = { focus = DGR_popular_army }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 4.3
+		search_filters = { }
+		completion_reward = {	
+		}
+	}
+	}

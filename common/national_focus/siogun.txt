@@ -1,0 +1,280 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = klodzko_intro_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CZE
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = CZE_zapychacz
+		icon = CZE_zapychacz
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 0
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = -100
+			
+		}
+	}
+}
+
+focus_tree = {
+	id = siogun_intro_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CZE
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 50 y = 1500 }
+	
+	focus = {
+		id = CZE_debate_on_our_philosophy
+		icon = CZE_debate_on_our_philosophy
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 8
+		y = 0
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = CZE_way_of_the_warrior
+		icon = CZE_debate_on_our_philosophy
+		relative_position_id = CZE_debate_on_our_philosophy
+		prerequisite = { focus = CZE_debate_on_our_philosophy }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = CZE_linguistic_reform
+		icon = CZE_linguistic_reform
+		relative_position_id = CZE_debate_on_our_philosophy
+		prerequisite = { focus = CZE_way_of_the_warrior }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 2
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = CZE_forming_like_a_bonsai
+		icon = CZE_forming_like_a_bonsai
+		relative_position_id = CZE_debate_on_our_philosophy
+		prerequisite = { focus = CZE_way_of_the_warrior }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 2
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = CZE_faith_question
+		icon = CZE_faith_question
+		relative_position_id = CZE_debate_on_our_philosophy
+		prerequisite = { focus = CZE_linguistic_reform }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 3
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = CZE_and_whats_about_beer
+		icon = CZE_and_whats_about_beer
+		relative_position_id = CZE_debate_on_our_philosophy
+		prerequisite = { focus = CZE_forming_like_a_bonsai }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 3
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = CZE_status_of_samurai
+		icon = CZE_status_of_samurai
+		relative_position_id = CZE_debate_on_our_philosophy
+		prerequisite = { focus = CZE_faith_question }
+		prerequisite = { focus = CZE_and_whats_about_beer }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 4
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = CZE_minority_rule_in_majority_country
+		icon = CZE_minority_rule_in_majority_country
+		relative_position_id = CZE_debate_on_our_philosophy
+		prerequisite = { focus = CZE_faith_question }
+		prerequisite = { focus = CZE_and_whats_about_beer }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 4
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = CZE_ongoing_problems_with_ronins
+		icon = CZE_ongoing_problems_with_ronins
+		relative_position_id = CZE_debate_on_our_philosophy
+		prerequisite = { focus = CZE_faith_question }
+		prerequisite = { focus = CZE_and_whats_about_beer }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 4
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = CZE_stabilisation_of_daimyo
+		icon = CZE_stabilisation_of_daimyo
+		relative_position_id = CZE_debate_on_our_philosophy
+		prerequisite = { focus = CZE_status_of_samurai }
+		prerequisite = { focus = CZE_minority_rule_in_majority_country }
+		prerequisite = { focus = CZE_ongoing_problems_with_ronins }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 5
+		
+		cost = 5
+		completion_reward = {
+		add_political_power = 100
+			
+		}
+	}
+
+}	
