@@ -93,3 +93,128 @@ KRS_consortium_policy_5g_network_modifier = {
 	icon = GFX_pops
 	land_reinforce_rate = 0.1
 }
+
+###szkoły wiedźmińskie
+
+SAP_school_of_the_rose_lvl1_modifier = {
+	icon = GFX_pops
+	field_hospital = {
+		casualty_trickleback = 0.1
+	}
+}
+
+SAP_school_of_the_rose_lvl2_modifier = {
+	icon = GFX_pops
+	field_hospital = {
+		casualty_trickleback = 0.1
+	}
+	trade_opinion_factor = 0.5
+}
+
+SAP_school_of_the_rose_lvl3_modifier = {
+	icon = GFX_pops
+	field_hospital = {
+		casualty_trickleback = 0.1
+	}
+	trade_opinion_factor = 0.5
+	research_speed = -0.05
+}
+
+SAP_school_of_the_lion_lvl1_modifier = {
+	icon = GFX_pops
+	encryption = 0.25
+	decryption = 0.25
+	operation_cost = -0.5
+}
+
+SAP_school_of_the_lion_lvl2_modifier = {
+	icon = GFX_pops
+	encryption = 0.25
+	decryption = 0.25
+	operation_cost = -0.5
+	line_change_production_efficiency_factor = 0.4
+}
+
+SAP_school_of_the_lion_lvl3_modifier = {
+	icon = GFX_pops
+	encryption = 0.25
+	decryption = 0.25
+	operation_cost = -0.5
+	line_change_production_efficiency_factor = 0.4
+	research_speed = -0.025
+	party_popularity_stability_factor = 0.33
+}
+
+SAP_school_of_the_mole_lvl1_modifier = {
+	icon = GFX_pops
+	special_forces_training_time_factor = -0.5
+	special_forces_attack = 0.2
+}
+
+SAP_school_of_the_mole_lvl2_modifier = {
+	icon = GFX_pops
+	special_forces_training_time_factor = -0.5
+	special_forces_attack = 0.2
+	production_speed_buildings_factor = 0.2
+}
+
+SAP_school_of_the_mole_lvl3_modifier = {
+	icon = GFX_pops
+	special_forces_training_time_factor = -0.5
+	special_forces_attack = 0.2
+	production_speed_buildings_factor = 0.2
+	research_speed_factor = -0.01
+}
+
+SAP_school_of_the_dove_lvl1_modifier = {
+	icon = GFX_pops
+	army_leader_start_defense_level = 1
+}
+
+SAP_school_of_the_dove_lvl2_modifier = {
+	icon = GFX_pops
+	army_leader_start_defense_level = 1
+	industry_repair_factor = 0.3
+}
+
+SAP_school_of_the_dove_lvl3_modifier = {
+	icon = GFX_pops
+	army_leader_start_defense_level = 1
+	industry_repair_factor = 0.3
+	research_speed_factor = -0.01
+}
+
+SAP_school_of_the_lynx_lvl1_modifier = {
+	icon = GFX_pops
+	category_army = {
+		forest = {
+			attack = 0.1
+			defense = 0.1
+		}
+	}
+}
+
+SAP_school_of_the_lynx_lvl2_modifier = {
+	icon = GFX_pops
+	army_leader_start_defense_level = 1
+	category_army = {
+		forest = {
+			attack = 0.1
+			defense = 0.1
+		}
+	}
+	industry_air_damage_factor = -0.4
+}
+
+SAP_school_of_the_lynx_lvl3_modifier = {
+	icon = GFX_pops
+	army_leader_start_defense_level = 1
+	category_army = {
+		forest = {
+			attack = 0.1
+			defense = 0.1
+		}
+	}
+	industry_air_damage_factor = -0.4
+	research_speed_factor = -0.01
+}

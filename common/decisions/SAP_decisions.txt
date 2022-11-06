@@ -55,7 +55,7 @@ SAP_sanity = {
 }
 
 SAP_witcher_schools_category = {
-	SAP_witcher_schools_wolf_dummy = {
+	SAP_witcher_schools_wolf_upgrade = {
 		priority = 1115
 		icon = GFX_decision_generic_military
 
@@ -70,7 +70,7 @@ SAP_witcher_schools_category = {
 		}
 	}
 	
-	SAP_witcher_schools_rose_dummy = {
+	SAP_witcher_schools_rose_upgrade_1 = {
 		priority = 1115
 		icon = GFX_decision_generic_military
 
@@ -83,9 +83,105 @@ SAP_witcher_schools_category = {
 				check_variable = { current_school = 1 }
 			}
 		}
+		
+		fire_only_once = yes
+		
+		cost = 50
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 1
+		}
+		
+		remove_effect = {
+			SAP = {
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_rose_lvl1_modifier
+				}
+			}
+		}
 	}
 	
-	SAP_witcher_schools_lion_dummy = {
+	SAP_witcher_schools_rose_upgrade_2 = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 1 }
+				has_dynamic_modifier = {
+					modifier = SAP_school_of_the_rose_lvl1_modifier
+				}
+			}
+		}
+		
+		cost = 100
+		
+		fire_only_once = yes
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 2
+		}
+		
+		remove_effect = {
+			SAP = {
+				remove_dynamic_modifier = {
+					modifier = SAP_school_of_the_rose_lvl1_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_rose_lvl2_modifier
+				}
+			}
+		}
+	}
+	
+	SAP_witcher_schools_rose_upgrade_3 = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 1 }
+				has_dynamic_modifier = {
+					modifier = SAP_school_of_the_rose_lvl2_modifier
+				}
+			}
+		}
+		
+		cost = 200
+		
+		fire_only_once = yes
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 4
+		}
+		
+		remove_effect = {
+			SAP = {
+				remove_dynamic_modifier = {
+					modifier = SAP_school_of_the_rose_lvl2_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_rose_lvl3_modifier
+				}
+			}
+		}
+	}
+	
+	SAP_witcher_schools_lion_upgrade_1 = {
 		priority = 1115
 		icon = GFX_decision_generic_military
 
@@ -98,9 +194,105 @@ SAP_witcher_schools_category = {
 				check_variable = { current_school = 2 }
 			}
 		}
+		
+		fire_only_once = yes
+		
+		cost = 50
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 1
+		}
+		
+		remove_effect = {
+			SAP = {
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_lion_lvl1_modifier
+				}
+			}
+		}
 	}
 	
-	SAP_witcher_schools_mole_dummy = {
+	SAP_witcher_schools_lion_upgrade_2 = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 2 }
+				has_dynamic_modifier = {
+					modifier = SAP_school_of_the_lion_lvl1_modifier
+				}
+			}
+		}
+		
+		cost = 100
+		
+		fire_only_once = yes
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 2
+		}
+		
+		remove_effect = {
+			SAP = {
+				remove_dynamic_modifier = {
+					modifier = SAP_school_of_the_lion_lvl1_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_lion_lvl2_modifier
+				}
+			}
+		}
+	}
+	
+	SAP_witcher_schools_lion_upgrade_3 = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 2 }
+			}
+			has_dynamic_modifier = {
+				modifier = SAP_school_of_the_lion_lvl2_modifier
+			}
+		}
+		
+		cost = 200
+		
+		fire_only_once = yes
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 4
+		}
+		
+		remove_effect = {
+			SAP = {
+				remove_dynamic_modifier = {
+					modifier = SAP_school_of_the_lion_lvl2_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_lion_lvl3_modifier
+				}
+			}
+		}
+	}
+	
+	SAP_witcher_schools_mole_upgrade_1 = {
 		priority = 1115
 		icon = GFX_decision_generic_military
 
@@ -113,9 +305,105 @@ SAP_witcher_schools_category = {
 				check_variable = { current_school = 3 }
 			}
 		}
+		
+		fire_only_once = yes
+		
+		cost = 50
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 1
+		}
+		
+		remove_effect = {
+			SAP = {
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_mole_lvl1_modifier
+				}
+			}
+		}
 	}
 	
-	SAP_witcher_schools_lynx_dummy = {
+	SAP_witcher_schools_mole_upgrade_2 = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 3 }
+				has_dynamic_modifier = {
+					modifier = SAP_school_of_the_mole_lvl1_modifier
+				}
+			}
+		}
+		
+		cost = 100
+		
+		fire_only_once = yes
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 2
+		}
+		
+		remove_effect = {
+			SAP = {
+				remove_dynamic_modifier = {
+					modifier = SAP_school_of_the_mole_lvl1_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_mole_lvl2_modifier
+				}
+			}
+		}
+	}
+	
+	SAP_witcher_schools_mole_upgrade_3 = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 3 }
+				has_dynamic_modifier = {
+					modifier = SAP_school_of_the_mole_lvl2_modifier
+				}
+			}
+		}
+		
+		cost = 200
+		
+		fire_only_once = yes
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 4
+		}
+		
+		remove_effect = {
+			SAP = {
+				remove_dynamic_modifier = {
+					modifier = SAP_school_of_the_mole_lvl2_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_mole_lvl3_modifier
+				}
+			}
+		}
+	}
+	
+	SAP_witcher_schools_lynx_upgrade_1 = {
 		priority = 1115
 		icon = GFX_decision_generic_military
 
@@ -128,9 +416,105 @@ SAP_witcher_schools_category = {
 				check_variable = { current_school = 4 }
 			}
 		}
+		
+		fire_only_once = yes
+		
+		cost = 50
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 1
+		}
+		
+		remove_effect = {
+			SAP = {
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_lynx_lvl1_modifier
+				}
+			}
+		}
 	}
 	
-	SAP_witcher_schools_dove_dummy = {
+	SAP_witcher_schools_lynx_upgrade_2 = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 4 }
+				has_dynamic_modifier = {
+					modifier = SAP_school_of_the_lynx_lvl1_modifier
+				}
+			}
+		}
+		
+		cost = 100
+		
+		fire_only_once = yes
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 2
+		}
+		
+		remove_effect = {
+			SAP = {
+				remove_dynamic_modifier = {
+					modifier = SAP_school_of_the_lynx_lvl1_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_lynx_lvl2_modifier
+				}
+			}
+		}
+	}
+	
+	SAP_witcher_schools_lynx_upgrade_3 = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 4 }
+				has_dynamic_modifier = {
+					modifier = SAP_school_of_the_lynx_lvl2_modifier
+				}
+			}
+		}
+		
+		cost = 200
+		
+		fire_only_once = yes
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 4
+		}
+		
+		remove_effect = {
+			SAP = {
+				remove_dynamic_modifier = {
+					modifier = SAP_school_of_the_lynx_lvl2_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_lynx_lvl3_modifier
+				}
+			}
+		}
+	}
+	
+	SAP_witcher_schools_dove_upgrade_1 = {
 		priority = 1115
 		icon = GFX_decision_generic_military
 
@@ -141,6 +525,102 @@ SAP_witcher_schools_category = {
 		visible = {
 			SAP = {
 				check_variable = { current_school = 5 }
+			}
+		}
+		
+		fire_only_once = yes
+		
+		cost = 50
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 1
+		}
+		
+		remove_effect = {
+			SAP = {
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_dove_lvl1_modifier
+				}
+			}
+		}
+	}
+	
+	SAP_witcher_schools_dove_upgrade_2 = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 5 }
+				has_dynamic_modifier = {
+					modifier = SAP_school_of_the_dove_lvl1_modifier
+				}
+			}
+		}
+		
+		cost = 100
+		
+		fire_only_once = yes
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 2
+		}
+		
+		remove_effect = {
+			SAP = {
+				remove_dynamic_modifier = {
+					modifier = SAP_school_of_the_dove_lvl1_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_dove_lvl2_modifier
+				}
+			}
+		}
+	}
+	
+	SAP_witcher_schools_dove_upgrade_3 = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		visible = {
+			SAP = {
+				check_variable = { current_school = 5 }
+				has_dynamic_modifier = {
+					modifier = SAP_school_of_the_dove_lvl2_modifier
+				}
+			}
+		}
+		
+		cost = 200
+		
+		fire_only_once = yes
+		
+		days_remove = 30
+		
+		modifier = {
+			civilian_factory_use = 4
+		}
+		
+		remove_effect = {
+			SAP = {
+				remove_dynamic_modifier = {
+					modifier = SAP_school_of_the_dove_lvl2_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = SAP_school_of_the_dove_lvl3_modifier
+				}
 			}
 		}
 	}

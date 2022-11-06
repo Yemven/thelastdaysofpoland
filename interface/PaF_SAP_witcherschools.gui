@@ -19,7 +19,6 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_SAP_school_wolf"
 			centerposition = yes
-			scale = 1.1
 		}
 		
 		buttonType = {
@@ -27,6 +26,7 @@ guiTypes = {
 			position = { x = 256 y = 60 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_SAP_school_rose"
+			#pdx_tooltip = "SAP_school_of_the_rose_tooltip" /nk pomoże z tooltipami
 			centerposition = yes
 		}
 			
@@ -44,7 +44,6 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_SAP_school_wolf"
 			centerposition = yes
-			scale = 1.1
 		}
 			
 		buttonType = {
