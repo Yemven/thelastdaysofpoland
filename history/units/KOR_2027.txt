@@ -76,28 +76,6 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	
-	fleet = {
-		name = "Gdańska Flota Piracka"			
-		naval_base = 15967
-		task_force = {
-			name = "Korsarze bałtyccy"
-			location = 15967
-			ship = { name = "Piotr Jr"  pride_of_the_fleet = yes definition = heavy_monitor start_experience_factor = 0.4 equipment = { heavy_monitor_hull_equipment = { amount = 1 owner = KOR version_name = "Karaka klasy Piotr z Gdańska" } } }
-			ship = { name = "Fryderyk Chopin"  definition = monitor start_experience_factor = 0.7 equipment = { monitor_hull_equipment = { amount = 1 owner = KOR version_name = "Bryg klasy Fryderyk Chopin" } } }
-			ship = { name = "Paweł Beneke"  definition = heavy_monitor start_experience_factor = 0.4 equipment = { heavy_monitor_hull_equipment = { amount = 1 owner = KOR version_name = "Karaka klasy Piotr z Gdańska" } } }
-
-		}
-	}
-	fleet = {
-		name = "Piraci Wiślani"			
-		naval_base = 4165
-		task_force = {
-			name = "Piraci wiślani"
-			location = 4165
-			ship = { name = "Wiślanka"  definition = monitor  start_experience_factor = 0.2  equipment = { monitor_hull_equipment = { amount = 1 owner = KOR version_name = "Bryg klasy Fryderyk Chopin" } } }
-			ship = { name = "Brązowy"  definition = monitor  start_experience_factor = 0.3  equipment = { monitor_hull_equipment = { amount = 1 owner = KOR version_name = "Bryg klasy Fryderyk Chopin" } } }
-		}
-	}
 }
 
 
