@@ -8,8 +8,6 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	immediate = { log = "[GetDateText]: [ROOT.GetName] fires felix.1" }
-
 	option = {
 		name = felix.1.a
 		declare_war_on = {
@@ -24,5 +22,187 @@ country_event = {
 		add_state_claim = 274
 		add_state_claim = 298
 		add_state_claim = 320
+	}
+}
+
+country_event = {
+	id = felix.2
+	title = felix.2.t
+	desc = felix.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.2.a
+	}
+}
+
+country_event = {
+	id = felix.3
+	title = felix.3.t
+	desc = felix.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.3.a
+	}
+}
+
+country_event = {
+	id = felix.4
+	title = felix.4.t
+	desc = felix.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.4.a
+	}
+}
+
+country_event = {
+	id = felix.5
+	title = felix.5.t
+	desc = felix.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.5.a
+	}
+}
+
+country_event = {
+	id = felix.6
+	title = felix.6.t
+	desc = felix.6.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.6.a
+	}
+}
+
+country_event = {
+	id = felix.7
+	title = felix.7.t
+	desc = felix.7.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.7.a
+	}
+}
+
+country_event = {
+	id = felix.8
+	title = felix.8.t
+	desc = felix.8.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.8.a
+	}
+}
+
+country_event = {
+	id = felix.9
+	title = felix.9.t
+	desc = felix.9.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.9.a
+	}
+}
+
+country_event = {
+	id = felix.10
+	title = felix.10.t
+	desc = felix.10.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.10.a
+	}
+}
+
+country_event = {
+	id = felix.11
+	title = felix.11.t
+	desc = felix.11.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.11.a
+	}
+}
+
+country_event = {
+	id = felix.12
+	title = felix.12.t
+	desc = felix.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.12.a
+	}
+}
+
+country_event = {
+	id = felix.13
+	title = felix.13.t
+	desc = felix.13.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.13.a
+	}
+}
+
+country_event = {
+	id = felix.14
+	title = felix.14.t
+	desc = felix.14.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.14.a
+	}
+}
+
+country_event = {
+	id = felix.15
+	title = felix.15.t
+	desc = felix.15.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.15.a
 	}
 }

@@ -31,9 +31,13 @@ focus_tree = {
 		x = 8
 		y = 0
 		
-		cost = 3
+		cost = 1
 		search_filters = {FOCUS_STABILITY}
-		completion_reward = { add_stability = 0.05
+		completion_reward = { 
+		    add_stability = 0.05
+		    country_event = {
+			id = felix.2
+			}
 			
 		}
 	}
@@ -49,12 +53,15 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
+		x = 8
 		y = 1
 		
-		cost = 4
+		cost = 1
 		search_filters = { }
 		completion_reward = {
+		    country_event = {
+			id = felix.3
+			}
 			
 		}
 	}
@@ -72,9 +79,20 @@ focus_tree = {
 		x = 7
 		y = 2
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = {
+		    army_experience = 5
+			add_equipment_to_stockpile = {
+                type = melee_equipment_0
+                amount = 1000
+                producer = ROM
+            }
+			add_equipment_to_stockpile = {
+                type = ranged_equipment_0
+                amount = 1000
+                producer = ROM
+            }
 			
 		}
 	}
@@ -92,9 +110,12 @@ focus_tree = {
 		x = 9
 		y = 2
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = {
+		    load_oob = "FEL_cavalry"
+			army_experience = 5
+			add_political_power = -50
 			
 		}
 	}
@@ -113,9 +134,13 @@ focus_tree = {
 		x = 8
 		y = 3
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = {
+		    swap_ideas = {
+				remove_idea = FEL_popuszczac_czy_nie_popuszczac
+				add_idea = FEL_popuszczac_czy_nie_popuszczac2
+			}
 			
 		}
 	}
@@ -133,10 +158,12 @@ focus_tree = {
 		x = 8
 		y = 4
 		
-		cost = 5
+		cost = 2
 		search_filters = { }
 		completion_reward = {
-		
+		    country_event = {
+			id = felix.4
+			}
 		}
 	}
 	
@@ -156,7 +183,10 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = FEL_golden_liberty
+				add_idea = FEL_golden_liberty_2
+			}
 		}
 	}
 	
@@ -177,7 +207,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			country_event = {
+			id = felix.5
+			}
 		}
 	}
 	
@@ -197,7 +229,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			country_event = {
+			id = felix.6
+			}
 		}
 	}
 	
@@ -218,7 +252,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			country_event = {
+			id = felix.7
+			}
 		}
 	}
 	
@@ -238,7 +274,10 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			country_event = {
+			id = felix.8
+			}
+			add_war_support = 0.15
 		}
 	}
 	
@@ -258,7 +297,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			country_event = {
+			id = felix.9
+			}
 		}
 	}
 	
@@ -267,7 +308,7 @@ focus_tree = {
 		prerequisite = { focus = FEL_sejm_zalobny }
 		mutually_exclusive = { focus = FEL_trybunal_wielki_koronny }
 		available = {
-		
+		    
 		}
 		
 		bypass = {
@@ -279,7 +320,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			country_event = {
+			id = felix.10
+			}
 		}
 	}
 	
@@ -299,7 +342,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			country_event = {
+			id = felix.11
+			}
 		}
 	}
 	
@@ -320,7 +365,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			country_event = {
+			id = felix.12
+			}
 		}
 	}
 	
@@ -340,13 +387,19 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			
+			country_event = {
+			id = felix.13
+			}
 		}
 	}
 	
 	focus = {
 		id = FEL_artykuly_sarmackie
-		prerequisite = { focus = FEL_kancelaria_danych_grunowych focus = FEL_o_gruszach_i_gruszkach focus = FEL_rejestr_kozakow_wielkopolskich focus = FEL_pospolite_ruszenie }
+		prerequisite = { focus = FEL_pospolite_ruszenie
+						 focus = FEL_rejestr_kozakow_wielkopolskich }
+		prerequisite = { focus = FEL_kancelaria_danych_grunowych
+						 focus = FEL_o_gruszach_i_gruszkach }
+						 
 		available = {
 		
 		}
@@ -357,10 +410,376 @@ focus_tree = {
 		x = 8
 		y = 8
 		
-		cost = 5
+		cost = 3
 		search_filters = { }
 		completion_reward = {
-		
+		    add_war_support = 0.1
+		    add_political_power = 100
+		    country_event = {
+			id = felix.14
+			}
 		}
 	}
+			
+    focus = {
+		id = FEL_chaos_on_the_south
+		available = {
+		    date > 2027.8.1
+		}
+		
+		bypass = {
+		}
+		
+		x = 20
+		y = 0
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = { 
+		    add_war_support = 0.1
+		    country_event = {
+			id = felix.1
+			}
+
+		}	
+	}
 	
+	focus = {
+		id = FEL_taxes_on_the_military
+		prerequisite = { focus = FEL_chaos_on_the_south }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 18
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+            add_political_power = -100
+            add_stability = -0.l			
+		    country_event = {
+			id = felix.15
+			}
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_success
+		prerequisite = { focus = FEL_taxes_on_the_military }
+		mutually_exclusive = { focus = FEL_addressing_the_sejmiks }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 17
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+            add_offsite_building = { type = arms_factory level = 2 }
+		}	
+	}
+	
+	focus = {
+		id = FEL_addressing_the_sejmiks
+		prerequisite = { focus = FEL_taxes_on_the_military }
+		mutually_exclusive = { focus = FEL_success }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 19
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_delegation_to_warta_sicz
+		prerequisite = { focus = FEL_addressing_the_sejmiks 
+		                 focus = FEL_success }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 18
+		y = 3
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_reguest_for_support
+		prerequisite = { focus = FEL_delegation_to_warta_sicz }
+		mutually_exclusive = { focus = FEL_request_for_peace }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 17
+		y = 4
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_kuren_sahajdacznego
+		prerequisite = { focus = FEL_reguest_for_support }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 17
+		y = 5
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_request_for_peace
+		prerequisite = { focus = FEL_delegation_to_warta_sicz }
+		mutually_exclusive = { focus = FEL_reguest_for_support }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 19
+		y = 4
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_hetman_commisar
+		prerequisite = { focus = FEL_request_for_peace }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 19
+		y = 5
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_a_sejm_conclusion
+		prerequisite = { focus = FEL_hetman_commisar 
+		                 focus = FEL_kuren_sahajdacznego }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 18
+		y = 6
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_army_reorganisation
+		prerequisite = { focus = FEL_chaos_on_the_south }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 22
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_jazda_pretwiczowska
+		prerequisite = { focus = FEL_army_reorganisation }
+		mutually_exclusive = { focus = FEL_cudzoziemski_autorament }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 21
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_wezwanie_lisowczykow
+		prerequisite = { focus = FEL_jazda_pretwiczowska 
+		                 focus = FEL_cudzoziemski_autorament }
+		mutually_exclusive = { focus = FEL_puszkarze }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 21
+		y = 3
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_cudzoziemski_autorament
+		prerequisite = { focus = FEL_army_reorganisation }		
+		mutually_exclusive = { focus = FEL_jazda_pretwiczowska }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 23
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_puszkarze
+		prerequisite = { focus = FEL_cudzoziemski_autorament 
+		                 focus = FEL_jazda_pretwiczowska }
+		mutually_exclusive = { focus = FEL_wezwanie_lisowczykow }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 23
+		y = 3
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_wyznaczenie_regimentarzy
+		prerequisite = { focus = FEL_wezwanie_lisowczykow
+		                 focus = FEL_puszkarze }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 22
+		y = 4
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+	
+	focus = {
+		id = FEL_idzie_zolnierz
+		prerequisite = { focus = FEL_a_sejm_conclusion }
+		prerequisite = { focus = FEL_wyznaczenie_regimentarzy }
+		available = {
+		    
+		}
+		
+		bypass = {
+		}
+		
+		x = 22
+		y = 7
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = { 
+
+		}	
+	}
+}

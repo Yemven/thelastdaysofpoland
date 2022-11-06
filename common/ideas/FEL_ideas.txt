@@ -1,20 +1,5 @@
 ideas = {
-    hidden_ideas = { 
-		FEL_surrender = {
-			allowed = {
-				original_tag = FEL
-			}
-			allowed_civil_war = {
-				always = yes
-			}
 
-			removal_cost = -1
-			#picture =
-			modifier = {
-				surrender_limit = -0.4
-			}
-		}
-	}
 	country = {
 		FEL_golden_liberty = {
 			allowed = {
@@ -52,6 +37,46 @@ ideas = {
 			modifier = {
 				stability_factor = -0.3
 				political_power_gain = -0.2
+			}
+		}
+		
+		FEL_golden_liberty_2 = {
+			allowed = {
+				original_tag = FEL
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = FEL_golden_liberty
+			modifier = {
+				army_org_Factor = -0.05
+                army_attack_Factor = 0.15
+				army_defence_Factor = 0.15
+				army_speed_Factor = 0.15
+				
+			}
+		}
+		
+		FEL_popuszczac_czy_nie_popuszczac2 = {
+			allowed = {
+				original_tag = FEL
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = FEL_easing_up
+			modifier = {
+				stability_factor = -0.25
+				political_power_gain = -0.1
+				
 			}
 		}
 	}
