@@ -1386,7 +1386,7 @@ ai_war_decisions = {
 		
 		allowed = {
 			is_warmia_and_masuria = yes
-				}
+		}
 
 		available = {
 			OR = {	
@@ -1413,7 +1413,63 @@ ai_war_decisions = {
 		}
 
 		cost = 1
-
+		
+		complete_effect = {
+			set_global_flag = anti_russian_front_created
+			if = {
+				limit = {
+					or = {
+						and = {
+							original_tag = TEU
+							not = {
+								WAR = {
+									has_country_flag = was_called_first
+								}
+							}
+							not = {
+								PZW = {
+									has_country_flag = was_called_first
+								}
+							}
+						}
+						and = {
+							original_tag = WAR
+							not = {
+								TEU = {
+									has_country_flag = was_called_first
+								}
+							}
+							not = {
+								PZW = {
+									has_country_flag = was_called_first
+								}
+							}
+						}
+						and = {
+							original_tag = PZW
+							not = {
+								TEU = {
+									has_country_flag = was_called_first
+								}
+							}
+							not = {
+								WAR = {
+									has_country_flag = was_called_first
+								}
+							}
+						}
+					}
+				}
+				log = "[GetDateText]: [ROOT.GetName] was called first"
+				set_country_flag = was_called_first
+			}
+		}
+		cancel_trigger = {
+			has_global_flag = anti_russian_front_created
+			not = {
+				has_country_flag = was_called_first
+			}
+		}
 		ai_will_do = {
 			factor = 100
 		}
@@ -1421,22 +1477,38 @@ ai_war_decisions = {
 		days_remove = 5
 		remove_effect  = {
 			log = "[GetDateText]: Decision anti_russian_front"
-				if = { limit = { country_exists = ROS
-								 ROOT = { NOT = { tag = ROS } }
-								 ROOT = { NOT = { has_war_with = ROS } } }
+			if = {
+				limit = {
+					country_exists = ROS
+					ROOT = {
+						NOT = { tag = ROS }
+					}
+					ROOT = { 
+						NOT = { has_war_with = ROS }
+					}
+				}
+				log = "[GetDateText]: Deccing on [ROS.GetName]"
 				declare_war_on = {
 					target = ROS
 					type = annex_everything
 				}
-				}
-			WAR = {	
+			}
+			WAR = {
+				log = "[GetDateText]: [WAR.GetName] creates Anti-Russian Front"
 				create_faction = "Anti-Russian Front"
+				log = "[GetDateText]: [WAR.GetName] adds [TEU.GetName] to Anti-Russian Front"
 				add_to_faction = TEU
+				log = "[GetDateText]: [WAR.GetName] adds [PZW.GetName] to Anti-Russian Front"
 				add_to_faction = PZW
+			}
+			every_country = {
+				limit = {
+					is_ai = no
 				}
 				news_event = { 
 					id = rosja.3
-					}
+				}
+			}
 		}
 	}
 
