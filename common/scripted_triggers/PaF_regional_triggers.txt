@@ -172,6 +172,28 @@ is_podlasie = {
 	}
 }
 
+is_podlasie_tribe = {
+	OR = {
+		original_tag = TNO
+		original_tag = COL
+		original_tag = ZAM
+		original_tag = HMA
+		original_tag = WIL
+		original_tag = UHL
+		original_tag = DRO
+		original_tag = ZAB
+		original_tag = SUP
+		original_tag = GRO
+		original_tag = TYK
+		original_tag = OSO
+		original_tag = DAM
+		original_tag = BRD
+		original_tag = AUG
+		original_tag = SEI
+		original_tag = RAJ
+	}
+}
+
 is_warmia_and_masuria = {
 	OR = {
 		original_tag = PZW

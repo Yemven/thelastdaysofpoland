@@ -157,6 +157,58 @@ lodz_regional_unification = {
 			}
 			custom_effect_tooltip = KRS_unifies_lodz_tooltip
 		}
+		
+		else_if = {
+			limit = { tag = SUS }
+			set_cosmetic_tag = SUS_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.34 }
+				}
+			}
+			custom_effect_tooltip = SUS_unifies_lodz_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = FEL }
+			set_cosmetic_tag = FEL_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.33 }
+				}
+			}
+			custom_effect_tooltip = FEL_unifies_lodz_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = GNI }
+			set_cosmetic_tag = GNI_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.32 }
+				}
+			}
+			custom_effect_tooltip = GNI_unifies_lodz_tooltip
+		}
+		
+		else_if = {
+			limit = { tag = CAL }
+			set_cosmetic_tag = CAL_regional
+			set_global_flag = lodz_and_kalisz_unified
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.31 }
+				}
+			}
+			custom_effect_tooltip = CAL_unifies_lodz_tooltip
+		}
 
 
 	}

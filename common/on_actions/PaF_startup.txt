@@ -1,6 +1,28 @@
 on_actions = {
 	on_startup = {
 		effect = {
+				#podlasie	
+				add_to_array = { global.podlasie_tribes = TNO }
+				add_to_array = { global.podlasie_tribes = COL }
+				add_to_array = { global.podlasie_tribes = ZAM }
+				add_to_array = { global.podlasie_tribes = HMA }
+				add_to_array = { global.podlasie_tribes = WIL }
+				add_to_array = { global.podlasie_tribes = UHL }
+				add_to_array = { global.podlasie_tribes = DRO }
+				add_to_array = { global.podlasie_tribes = ZAB }
+				add_to_array = { global.podlasie_tribes = SUP }
+				add_to_array = { global.podlasie_tribes = GRO }
+				add_to_array = { global.podlasie_tribes = TYK }
+				add_to_array = { global.podlasie_tribes = OSO }
+				add_to_array = { global.podlasie_tribes = DAM }
+				add_to_array = { global.podlasie_tribes = BRD }
+				add_to_array = { global.podlasie_tribes = AUG }
+				add_to_array = { global.podlasie_tribes = SEI }
+				add_to_array = { global.podlasie_tribes = RAJ }
+
+			
+			
+			
 			every_state = {
 				set_variable = { coring_cost = state_population_k }
 				set_variable = { coring_time = coring_cost }
