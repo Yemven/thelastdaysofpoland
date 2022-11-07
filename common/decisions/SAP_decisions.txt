@@ -95,10 +95,8 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_rose_lvl1_modifier
-				}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_rose_lvl1_modifier
 			}
 		}
 	}
@@ -114,9 +112,9 @@ SAP_witcher_schools_category = {
 		visible = {
 			SAP = {
 				check_variable = { current_school = 1 }
-				has_dynamic_modifier = {
-					modifier = SAP_school_of_the_rose_lvl1_modifier
-				}
+			}
+			has_dynamic_modifier = {
+				modifier = SAP_school_of_the_rose_lvl1_modifier
 			}
 		}
 		
@@ -131,13 +129,11 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				remove_dynamic_modifier = {
-					modifier = SAP_school_of_the_rose_lvl1_modifier
-				}
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_rose_lvl2_modifier
-				}
+			remove_dynamic_modifier = {
+				modifier = SAP_school_of_the_rose_lvl1_modifier
+			}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_rose_lvl2_modifier
 			}
 		}
 	}
@@ -153,9 +149,9 @@ SAP_witcher_schools_category = {
 		visible = {
 			SAP = {
 				check_variable = { current_school = 1 }
-				has_dynamic_modifier = {
-					modifier = SAP_school_of_the_rose_lvl2_modifier
-				}
+			}
+			has_dynamic_modifier = {
+				modifier = SAP_school_of_the_rose_lvl2_modifier
 			}
 		}
 		
@@ -170,13 +166,11 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				remove_dynamic_modifier = {
-					modifier = SAP_school_of_the_rose_lvl2_modifier
-				}
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_rose_lvl3_modifier
-				}
+			remove_dynamic_modifier = {
+				modifier = SAP_school_of_the_rose_lvl2_modifier
+			}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_rose_lvl3_modifier
 			}
 		}
 	}
@@ -206,10 +200,8 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_lion_lvl1_modifier
-				}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_lion_lvl1_modifier
 			}
 		}
 	}
@@ -225,9 +217,9 @@ SAP_witcher_schools_category = {
 		visible = {
 			SAP = {
 				check_variable = { current_school = 2 }
-				has_dynamic_modifier = {
-					modifier = SAP_school_of_the_lion_lvl1_modifier
-				}
+			}
+			has_dynamic_modifier = {
+				modifier = SAP_school_of_the_lion_lvl1_modifier
 			}
 		}
 		
@@ -242,13 +234,11 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				remove_dynamic_modifier = {
-					modifier = SAP_school_of_the_lion_lvl1_modifier
-				}
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_lion_lvl2_modifier
-				}
+			remove_dynamic_modifier = {
+				modifier = SAP_school_of_the_lion_lvl1_modifier
+			}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_lion_lvl2_modifier
 			}
 		}
 	}
@@ -281,13 +271,11 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				remove_dynamic_modifier = {
-					modifier = SAP_school_of_the_lion_lvl2_modifier
-				}
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_lion_lvl3_modifier
-				}
+			remove_dynamic_modifier = {
+				modifier = SAP_school_of_the_lion_lvl2_modifier
+			}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_lion_lvl3_modifier
 			}
 		}
 	}
@@ -317,10 +305,8 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_mole_lvl1_modifier
-				}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_mole_lvl1_modifier
 			}
 		}
 	}
@@ -336,9 +322,9 @@ SAP_witcher_schools_category = {
 		visible = {
 			SAP = {
 				check_variable = { current_school = 3 }
-				has_dynamic_modifier = {
-					modifier = SAP_school_of_the_mole_lvl1_modifier
-				}
+			}
+			has_dynamic_modifier = {
+				modifier = SAP_school_of_the_mole_lvl1_modifier
 			}
 		}
 		
@@ -353,13 +339,11 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				remove_dynamic_modifier = {
-					modifier = SAP_school_of_the_mole_lvl1_modifier
-				}
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_mole_lvl2_modifier
-				}
+			remove_dynamic_modifier = {
+				modifier = SAP_school_of_the_mole_lvl1_modifier
+			}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_mole_lvl2_modifier
 			}
 		}
 	}
@@ -375,9 +359,9 @@ SAP_witcher_schools_category = {
 		visible = {
 			SAP = {
 				check_variable = { current_school = 3 }
-				has_dynamic_modifier = {
-					modifier = SAP_school_of_the_mole_lvl2_modifier
-				}
+			}
+			has_dynamic_modifier = {
+				modifier = SAP_school_of_the_mole_lvl2_modifier
 			}
 		}
 		
@@ -392,13 +376,11 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				remove_dynamic_modifier = {
-					modifier = SAP_school_of_the_mole_lvl2_modifier
-				}
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_mole_lvl3_modifier
-				}
+			remove_dynamic_modifier = {
+				modifier = SAP_school_of_the_mole_lvl2_modifier
+			}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_mole_lvl3_modifier
 			}
 		}
 	}
@@ -428,10 +410,8 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_lynx_lvl1_modifier
-				}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_lynx_lvl1_modifier
 			}
 		}
 	}
@@ -447,9 +427,9 @@ SAP_witcher_schools_category = {
 		visible = {
 			SAP = {
 				check_variable = { current_school = 4 }
-				has_dynamic_modifier = {
-					modifier = SAP_school_of_the_lynx_lvl1_modifier
-				}
+			}
+			has_dynamic_modifier = {
+				modifier = SAP_school_of_the_lynx_lvl1_modifier
 			}
 		}
 		
@@ -464,13 +444,11 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				remove_dynamic_modifier = {
-					modifier = SAP_school_of_the_lynx_lvl1_modifier
-				}
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_lynx_lvl2_modifier
-				}
+			remove_dynamic_modifier = {
+				modifier = SAP_school_of_the_lynx_lvl1_modifier
+			}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_lynx_lvl2_modifier
 			}
 		}
 	}
@@ -486,9 +464,9 @@ SAP_witcher_schools_category = {
 		visible = {
 			SAP = {
 				check_variable = { current_school = 4 }
-				has_dynamic_modifier = {
-					modifier = SAP_school_of_the_lynx_lvl2_modifier
-				}
+			}
+			has_dynamic_modifier = {
+				modifier = SAP_school_of_the_lynx_lvl2_modifier
 			}
 		}
 		
@@ -503,13 +481,11 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				remove_dynamic_modifier = {
-					modifier = SAP_school_of_the_lynx_lvl2_modifier
-				}
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_lynx_lvl3_modifier
-				}
+			remove_dynamic_modifier = {
+				modifier = SAP_school_of_the_lynx_lvl2_modifier
+			}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_lynx_lvl3_modifier
 			}
 		}
 	}
@@ -539,10 +515,8 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_dove_lvl1_modifier
-				}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_dove_lvl1_modifier
 			}
 		}
 	}
@@ -558,9 +532,9 @@ SAP_witcher_schools_category = {
 		visible = {
 			SAP = {
 				check_variable = { current_school = 5 }
-				has_dynamic_modifier = {
-					modifier = SAP_school_of_the_dove_lvl1_modifier
-				}
+			}
+			has_dynamic_modifier = {
+				modifier = SAP_school_of_the_dove_lvl1_modifier
 			}
 		}
 		
@@ -575,13 +549,11 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				remove_dynamic_modifier = {
-					modifier = SAP_school_of_the_dove_lvl1_modifier
-				}
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_dove_lvl2_modifier
-				}
+			remove_dynamic_modifier = {
+				modifier = SAP_school_of_the_dove_lvl1_modifier
+			}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_dove_lvl2_modifier
 			}
 		}
 	}
@@ -597,9 +569,9 @@ SAP_witcher_schools_category = {
 		visible = {
 			SAP = {
 				check_variable = { current_school = 5 }
-				has_dynamic_modifier = {
-					modifier = SAP_school_of_the_dove_lvl2_modifier
-				}
+			}
+			has_dynamic_modifier = {
+				modifier = SAP_school_of_the_dove_lvl2_modifier
 			}
 		}
 		
@@ -614,13 +586,11 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			SAP = {
-				remove_dynamic_modifier = {
-					modifier = SAP_school_of_the_dove_lvl2_modifier
-				}
-				add_dynamic_modifier = {
-					modifier = SAP_school_of_the_dove_lvl3_modifier
-				}
+			remove_dynamic_modifier = {
+				modifier = SAP_school_of_the_dove_lvl2_modifier
+			}
+			add_dynamic_modifier = {
+				modifier = SAP_school_of_the_dove_lvl3_modifier
 			}
 		}
 	}
