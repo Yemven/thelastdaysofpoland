@@ -1,59 +1,81 @@
 ﻿division_template = {
-	name = "Dywizja piechoty"
+	name = "Piechota"
+	division_names_group = PUL_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Lekka piechota"
+	division_names_group = PUL_INF_02
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
 	}
 }
 
 units = {
-	division = {
-		name = "1 Dywizja Piechoty"
+	division = { # Piechota 1
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1 }
 		location = 8896
-		division_template = "Dywizja piechoty"
+		division_template = "Piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 
-	division = {
-		name = "2 Dywizja Piechoty"
+	division = { # Piechota 2
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2 }
 		location = 3041
-		division_template = "Dywizja piechoty"
+		division_template = "Piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
-	division = {
-		name = "3 Dywizja Piechoty"
+	division = { # Piechota 3
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3 }
 		location = 9091
-		division_template = "Dywizja piechoty"
+		division_template = "Piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
-	division = {
-		name = "4 Dywizja Piechoty"
-		location = 8896
-		division_template = "Dywizja piechoty"
+	division = { # Lekka piechota 1
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1 }
+		location = 6279
+		division_template = "Lekka piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 
-	division = {
-		name = "5 Dywizja Piechoty"
-		location = 3041
-		division_template = "Dywizja piechoty"
+	division = { # Lekka piechota 2
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2 }
+		location = 8901
+		division_template = "Lekka piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
-	division = {
-		name = "6 Dywizja Piechoty"
-		location = 9091
-		division_template = "Dywizja piechoty"
+	division = { # Lekka piechota 3
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3 }
+		location = 8961
+		division_template = "Lekka piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
