@@ -1,5 +1,5 @@
 ideas = {
-	country = {
+	hidden_ideas = {
 		CRN_debuff = {
 			allowed = {
 				original_tag = CRN
@@ -9,9 +9,8 @@ ideas = {
 			}
 
 			removal_cost = -1
-			#picture =
 			modifier = {
-				surrender_limit = -0.3
+				surrender_limit = -0.35
 			}
 		}
 	}

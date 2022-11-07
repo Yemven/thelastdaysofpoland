@@ -28,7 +28,6 @@ set_technology = {
 }
 
 
-
 oob = "BPD_2027"
 
 recruit_character = BPD_Miroslaw_Hermaszewski
@@ -36,13 +35,6 @@ recruit_character = BPD_Dawid_Mysliwiec
 recruit_character = BPD_Dariusz_Hoffman
 recruit_character = BPD_Piotr_Kosek
 recruit_character = BPD_Huyen_Pham
-
-set_politics = {
-	ruling_party = socialdemocrature
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
 
 add_ideas = {
 	BPD_debuff
@@ -68,6 +60,13 @@ add_ideas = {
 	women_gender_equality
 	minorities_equal_rights
 	full_secularism
+}
+
+set_politics = {
+	ruling_party = socialdemocrature
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 set_popularities = {

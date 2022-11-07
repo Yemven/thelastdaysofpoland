@@ -7820,6 +7820,35 @@ ai_war_decisions = {
 			}
 		}
 	}
+	
+	
+	CRN_buff = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = CRN
+			owns_state = 363
+			owns_state = 330
+			owns_state = 391
+			NOT = { country_exists = PUL }
+			NOT = { country_exists = KSN }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			load_oob = CRN_buff
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
 
 
 	PUL_czarnek_war = {
@@ -7929,6 +7958,35 @@ ai_war_decisions = {
 			}
 		}
 	}
+	
+	
+	PUL_buff = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = PUL
+			owns_state = 363
+			owns_state = 330
+			owns_state = 391
+			NOT = { country_exists = CRN }
+			NOT = { country_exists = KSN }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			load_oob = PUL_buff
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
 
 
 	KSN_czarnek_war = {
@@ -8007,6 +8065,35 @@ ai_war_decisions = {
 			}
 		}
 	}
+	
+	
+	KSN_buff = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = KSN
+			owns_state = 363
+			owns_state = 330
+			owns_state = 391
+			NOT = { country_exists = CRN }
+			NOT = { country_exists = PUL }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			load_oob = KSN_buff
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
 
 
 	SWD_biala_podlaska_war = {
@@ -8072,6 +8159,64 @@ ai_war_decisions = {
 				target = BIL
 				type = annex_everything
 			}
+		}
+	}
+	
+	
+	SWD_buff1 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = SWD
+			owns_state = 661
+			owns_state = 277
+			NOT = { country_exists = BPD }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			load_oob = SWD_buff1
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	
+	SWD_buff2 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = SWD
+			owns_state = 661
+			owns_state = 277
+			owns_state = 669
+			owns_state = 411
+			NOT = { country_exists = BPD }
+			NOT = { country_exists = ZUK }
+			NOT = { country_exists = BIL }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			load_oob = SWD_buff2
+		}
+
+		ai_will_do = {
+			factor = 100
 		}
 	}
 
@@ -8184,6 +8329,64 @@ ai_war_decisions = {
 			}
 		}
 	}
+	
+	
+	ZUK_buff1 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = ZUK
+			owns_state = 669
+			owns_state = 411
+			NOT = { country_exists = BIL }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			load_oob = ZUK_buff1
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	
+	ZUK_buff2 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = ZUK
+			owns_state = 661
+			owns_state = 277
+			owns_state = 669
+			owns_state = 411
+			NOT = { country_exists = SWD }
+			NOT = { country_exists = BPD }
+			NOT = { country_exists = BIL }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			load_oob = ZUK_buff2
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
 
 
 	ZUK_west_lublin_war = {
@@ -8261,6 +8464,64 @@ ai_war_decisions = {
 				target = BPD
 				type = annex_everything
 			}
+		}
+	}
+	
+	
+	BIL_buff1 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = BIL
+			owns_state = 669
+			owns_state = 411
+			NOT = { country_exists = ZUK }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			load_oob = BIL_buff1
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	
+	BIL_buff2 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = BIL
+			owns_state = 661
+			owns_state = 277
+			owns_state = 669
+			owns_state = 411
+			NOT = { country_exists = SWD }
+			NOT = { country_exists = BPD }
+			NOT = { country_exists = ZUK }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			load_oob = BIL_buff2
+		}
+
+		ai_will_do = {
+			factor = 100
 		}
 	}
 
@@ -8383,6 +8644,64 @@ ai_war_decisions = {
 				target = KSN
 				type = annex_everything
 			}
+		}
+	}
+	
+	
+	BPD_buff1 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = BPD
+			owns_state = 661
+			owns_state = 277
+			NOT = { country_exists = SWD }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			load_oob = BPD_buff1
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	
+	BPD_buff2 = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = SWD
+			owns_state = 661
+			owns_state = 277
+			owns_state = 669
+			owns_state = 411
+			NOT = { country_exists = SWD }
+			NOT = { country_exists = ZUK }
+			NOT = { country_exists = BIL }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			load_oob = BPD_buff2
+		}
+
+		ai_will_do = {
+			factor = 100
 		}
 	}
 	

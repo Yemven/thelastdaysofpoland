@@ -171,6 +171,14 @@ KRS_shareholders_competition_category = {
 	scripted_gui = KRS_shareholders_decision_ui
 }
 
+KSN_decision_category = {
+    allowed = {
+        tag = KSN
+    }
+    priority = 110
+    visible_when_empty = no
+}
+
 coring_category = {
 	priority = 2
 	icon = GFX_category_icon

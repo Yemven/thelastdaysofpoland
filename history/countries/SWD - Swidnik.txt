@@ -28,7 +28,6 @@ set_technology = {
 }
 
 
-
 oob = "SWD_2027"
 
 recruit_character = SWD_Rada_Swidnicka
@@ -41,6 +40,8 @@ set_politics = {
 }
 
 add_ideas = {
+	SWD_debuff
+
 	no_party
 	absolute_freedom
 	basic_security

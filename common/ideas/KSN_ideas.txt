@@ -1,8 +1,8 @@
 ideas = {
 	hidden_ideas = {
-		BPD_debuff = {
+		KSN_debuff = {
 			allowed = {
-				original_tag = BPD
+				original_tag = KSN
 			}
 			allowed_civil_war = {
 				always = yes
@@ -10,7 +10,7 @@ ideas = {
 
 			removal_cost = -1
 			modifier = {
-				surrender_limit = -0.25
+				surrender_limit = -0.4
 			}
 		}
 	}
