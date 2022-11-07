@@ -4280,33 +4280,6 @@ ai_war_decisions = {
 					original_tag = LMZ
 					original_tag = KON
 				}
-				NOT = { 
-					OR = {
-							has_decision = podlasie_BOM
-							has_decision = podlasie_TNO
-							has_decision = podlasie_COL
-							has_decision = podlasie_LMZ
-							has_decision = podlasie_ZAM
-							has_decision = podlasie_HMA
-							has_decision = podlasie_WIL
-							has_decision = podlasie_UHL
-							has_decision = podlasie_BEL
-							has_decision = podlasie_DRO
-							has_decision = podlasie_ZAB
-							has_decision = podlasie_SUP
-							has_decision = podlasie_GRO
-							has_decision = podlasie_TYK
-							has_decision = podlasie_TAT
-							has_decision = podlasie_OSO
-							has_decision = podlasie_DAM
-							has_decision = podlasie_BRD
-							has_decision = podlasie_AUG
-							has_decision = podlasie_SAN
-							has_decision = podlasie_SEI
-							has_decision = podlasie_RAJ
-							has_decision = podlasie_KON
-						}
-					}
 				ROOT = { any_neighbor_country = { tag = AGR } }
 				ROOT = { any_neighbor_country = { tag = SDL } }
 				
@@ -4366,26 +4339,9 @@ ai_war_decisions = {
 					OR = {
 							has_decision = podlasie_KON
 							has_decision = podlasie_BOM
-							has_decision = podlasie_TNO
-							has_decision = podlasie_COL
 							has_decision = podlasie_LMZ
-							has_decision = podlasie_ZAM
-							has_decision = podlasie_HMA
-							has_decision = podlasie_WIL
-							has_decision = podlasie_UHL
 							has_decision = podlasie_BEL
-							has_decision = podlasie_DRO
-							has_decision = podlasie_ZAB
-							has_decision = podlasie_SUP
-							has_decision = podlasie_GRO
-							has_decision = podlasie_TYK
-							has_decision = podlasie_OSO
-							has_decision = podlasie_DAM
-							has_decision = podlasie_BRD
-							has_decision = podlasie_AUG
 							has_decision = podlasie_SAN
-							has_decision = podlasie_SEI
-							has_decision = podlasie_RAJ
 						}
 					}
 				ROOT = { any_neighbor_country = { tag = TAT } }
@@ -4450,26 +4406,9 @@ ai_war_decisions = {
 					OR = {
 							has_decision = podlasie_KON
 							has_decision = podlasie_BOM
-							has_decision = podlasie_TNO
-							has_decision = podlasie_COL
 							has_decision = podlasie_LMZ
-							has_decision = podlasie_ZAM
-							has_decision = podlasie_HMA
-							has_decision = podlasie_WIL
-							has_decision = podlasie_UHL
 							has_decision = podlasie_BEL
-							has_decision = podlasie_DRO
-							has_decision = podlasie_ZAB
-							has_decision = podlasie_SUP
-							has_decision = podlasie_GRO
-							has_decision = podlasie_TYK
 							has_decision = podlasie_TAT
-							has_decision = podlasie_OSO
-							has_decision = podlasie_DAM
-							has_decision = podlasie_BRD
-							has_decision = podlasie_AUG
-							has_decision = podlasie_SEI
-							has_decision = podlasie_RAJ
 						}
 					}
 				ROOT = { any_neighbor_country = { tag = SAN } }
@@ -4534,26 +4473,9 @@ ai_war_decisions = {
 					OR = {
 							has_decision = podlasie_KON
 							has_decision = podlasie_BOM
-							has_decision = podlasie_TNO
-							has_decision = podlasie_COL
 							has_decision = podlasie_LMZ
-							has_decision = podlasie_ZAM
-							has_decision = podlasie_HMA
-							has_decision = podlasie_WIL
-							has_decision = podlasie_UHL
-							has_decision = podlasie_DRO
-							has_decision = podlasie_ZAB
-							has_decision = podlasie_SUP
-							has_decision = podlasie_GRO
-							has_decision = podlasie_TYK
-							has_decision = podlasie_TAT
-							has_decision = podlasie_OSO
-							has_decision = podlasie_DAM
-							has_decision = podlasie_BRD
-							has_decision = podlasie_AUG
 							has_decision = podlasie_SAN
-							has_decision = podlasie_SEI
-							has_decision = podlasie_RAJ
+							has_decision = podlasie_TAT
 						}
 					}
 				ROOT = { any_neighbor_country = { tag = BEL } }
@@ -4617,27 +4539,10 @@ ai_war_decisions = {
 				NOT = { 
 					OR = {
 							has_decision = podlasie_BOM
-							has_decision = podlasie_TNO
-							has_decision = podlasie_COL
 							has_decision = podlasie_LMZ
-							has_decision = podlasie_ZAM
-							has_decision = podlasie_HMA
-							has_decision = podlasie_WIL
-							has_decision = podlasie_UHL
 							has_decision = podlasie_BEL
-							has_decision = podlasie_DRO
-							has_decision = podlasie_ZAB
-							has_decision = podlasie_SUP
-							has_decision = podlasie_GRO
-							has_decision = podlasie_TYK
-							has_decision = podlasie_TAT
-							has_decision = podlasie_OSO
-							has_decision = podlasie_DAM
-							has_decision = podlasie_BRD
-							has_decision = podlasie_AUG
 							has_decision = podlasie_SAN
-							has_decision = podlasie_SEI
-							has_decision = podlasie_RAJ
+							has_decision = podlasie_TAT
 						}
 					}
 				ROOT = { any_neighbor_country = { tag = KON } }
@@ -4701,27 +4606,10 @@ ai_war_decisions = {
 				NOT = { 
 					OR = {
 							has_decision = podlasie_KON
-							has_decision = podlasie_TNO
-							has_decision = podlasie_COL
 							has_decision = podlasie_LMZ
-							has_decision = podlasie_ZAM
-							has_decision = podlasie_HMA
-							has_decision = podlasie_WIL
-							has_decision = podlasie_UHL
 							has_decision = podlasie_BEL
-							has_decision = podlasie_DRO
-							has_decision = podlasie_ZAB
-							has_decision = podlasie_SUP
-							has_decision = podlasie_GRO
-							has_decision = podlasie_TYK
-							has_decision = podlasie_TAT
-							has_decision = podlasie_OSO
-							has_decision = podlasie_DAM
-							has_decision = podlasie_BRD
-							has_decision = podlasie_AUG
 							has_decision = podlasie_SAN
-							has_decision = podlasie_SEI
-							has_decision = podlasie_RAJ
+							has_decision = podlasie_TAT
 						}
 					}
 				ROOT = { any_neighbor_country = { tag = BOM } }
@@ -4786,26 +4674,9 @@ ai_war_decisions = {
 					OR = {
 							has_decision = podlasie_KON
 							has_decision = podlasie_BOM
-							has_decision = podlasie_TNO
-							has_decision = podlasie_COL
-							has_decision = podlasie_ZAM
-							has_decision = podlasie_HMA
-							has_decision = podlasie_WIL
-							has_decision = podlasie_UHL
 							has_decision = podlasie_BEL
-							has_decision = podlasie_DRO
-							has_decision = podlasie_ZAB
-							has_decision = podlasie_SUP
-							has_decision = podlasie_GRO
-							has_decision = podlasie_TYK
-							has_decision = podlasie_TAT
-							has_decision = podlasie_OSO
-							has_decision = podlasie_DAM
-							has_decision = podlasie_BRD
-							has_decision = podlasie_AUG
 							has_decision = podlasie_SAN
-							has_decision = podlasie_SEI
-							has_decision = podlasie_RAJ
+							has_decision = podlasie_TAT
 						}
 					}
 				ROOT = { any_neighbor_country = { tag = LMZ } }
