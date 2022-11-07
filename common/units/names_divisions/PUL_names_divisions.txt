@@ -1,0 +1,25 @@
+﻿PUL_INF_01 = 
+{
+	name = "Piechota Narodowa"
+
+	for_countries = { PUL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Narodowy Batalion Piechoty"
+}
+
+PUL_INF_02 = 
+{
+	name = "Lekka piechota"
+
+	for_countries = { PUL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Batalion Lekkiej Piechoty"
+}
