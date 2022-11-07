@@ -1089,12 +1089,12 @@ ai_war_decisions = {
 		days_remove = 30
 		remove_effect  = {
 			log = "[GetDateText]: Decision warmia_vs_masuria_2"
-				if = { limit = { country_exists = WAR
-								 ROOT = { NOT = { tag = WAR } }
-								 ROOT = { NOT = { has_war_with = WAR } }
+				if = { limit = { country_exists = WRM
+								 ROOT = { NOT = { tag = WRM } }
+								 ROOT = { NOT = { has_war_with = WRM } }
 								 }
 				declare_war_on = {
-					target = WAR
+					target = WRM
 					type = annex_everything
 				}
 				}
@@ -1121,13 +1121,13 @@ ai_war_decisions = {
 		available = {
 				OR = {
 					original_tag = PZW
-					original_tag = WAR
+					original_tag = WRM
 				}
 				date > 2028.04.01
 				NOT = { has_war_with = ROS }
 				OR = {
 					PZW = { num_of_controlled_states < 1 }
-					WAR = { num_of_controlled_states < 1 }
+					WRM = { num_of_controlled_states < 1 }
 					}
 		}
 
@@ -1181,7 +1181,7 @@ ai_war_decisions = {
 		available = {
 				OR = {
 					original_tag = PZW
-					original_tag = WAR
+					original_tag = WRM
 				}
 				date > 2028.04.01
 				NOT = { has_war_with = ROS }
@@ -1205,12 +1205,12 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}
-				if = { limit = { country_exists = WAR
-								 ROOT = { NOT = { tag = WAR } }
-								 ROOT = { NOT = { has_war_with = WAR } }
+				if = { limit = { country_exists = WRM
+								 ROOT = { NOT = { tag = WRM } }
+								 ROOT = { NOT = { has_war_with = WRM } }
 								 }
 				declare_war_on = {
-					target = WAR
+					target = WRM
 					type = annex_everything
 				}
 				}
@@ -1363,10 +1363,10 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 				}	
-				if = { limit = { country_exists = WAR
-								 ROOT = { NOT = { tag = WAR } } }
+				if = { limit = { country_exists = WRM
+								 ROOT = { NOT = { tag = WRM } } }
 				declare_war_on = {
-					target = WAR
+					target = WRM
 					type = annex_everything
 				}
 				}
@@ -1393,7 +1393,7 @@ ai_war_decisions = {
 				AND = {
 					OR = {
 						original_tag = TEU
-						original_tag = WAR 
+						original_tag = WRM 
 						original_tag = PZW
 					}
 					ROS = { num_of_controlled_states > 1 }
@@ -1403,7 +1403,7 @@ ai_war_decisions = {
 				AND = {	
 					OR = {
 						original_tag = TEU
-						original_tag = WAR 
+						original_tag = WRM 
 						original_tag = PZW
 					}
 					ROS = { num_of_controlled_states > 1 }
@@ -1422,7 +1422,7 @@ ai_war_decisions = {
 						and = {
 							original_tag = TEU
 							not = {
-								WAR = {
+								WRM = {
 									has_country_flag = was_called_first
 								}
 							}
@@ -1433,7 +1433,7 @@ ai_war_decisions = {
 							}
 						}
 						and = {
-							original_tag = WAR
+							original_tag = WRM
 							not = {
 								TEU = {
 									has_country_flag = was_called_first
@@ -1453,7 +1453,7 @@ ai_war_decisions = {
 								}
 							}
 							not = {
-								WAR = {
+								WRM = {
 									has_country_flag = was_called_first
 								}
 							}
@@ -1493,12 +1493,12 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 			}
-			WAR = {
-				log = "[GetDateText]: [WAR.GetName] creates Anti-Russian Front"
+			WRM = {
+				log = "[GetDateText]: [WRM.GetName] creates Anti-Russian Front"
 				create_faction = "Anti-Russian Front"
-				log = "[GetDateText]: [WAR.GetName] adds [TEU.GetName] to Anti-Russian Front"
+				log = "[GetDateText]: [WRM.GetName] adds [TEU.GetName] to Anti-Russian Front"
 				add_to_faction = TEU
-				log = "[GetDateText]: [WAR.GetName] adds [PZW.GetName] to Anti-Russian Front"
+				log = "[GetDateText]: [WRM.GetName] adds [PZW.GetName] to Anti-Russian Front"
 				add_to_faction = PZW
 			}
 			every_country = {

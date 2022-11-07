@@ -1679,8 +1679,8 @@ warmia_and_masuria_voivodeship_unification = {
 		}	
 
 		else_if = {
-			limit = { tag = WAR }
-			set_cosmetic_tag = WAR_voivodeship
+			limit = { tag = WRM }
+			set_cosmetic_tag = WRM_voivodeship
 			set_global_flag = warmia_and_masuria_unified
 			hidden_effect = {
 				every_country = {
@@ -1688,7 +1688,7 @@ warmia_and_masuria_voivodeship_unification = {
 					news_event = { id = unification.97 }
 				}
 			}
-			custom_effect_tooltip = WAR_unifies_warmia_and_masuria_tooltip
+			custom_effect_tooltip = WRM_unifies_warmia_and_masuria_tooltip
 		}	
 	
 

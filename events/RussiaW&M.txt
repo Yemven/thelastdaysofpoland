@@ -27,8 +27,8 @@ country_event = {
 		set_country_flag = ziggers_btfo
 		white_peace = TEU
 		log = "[GetDateText]: [ROOT.GetName] WPs with [TEU.GetName]"
-		white_peace = WAR
-		log = "[GetDateText]: [ROOT.GetName] WPs with [WAR.GetName]"
+		white_peace = WRM
+		log = "[GetDateText]: [ROOT.GetName] WPs with [WRM.GetName]"
 		white_peace = MAL
 		log = "[GetDateText]: [ROOT.GetName] WPs with [MAL.GetName]"
 		white_peace = PRU
@@ -44,13 +44,13 @@ country_event = {
 		}
 		log = "[GetDateText]: [TEU.GetName] cores [632.GetName]"
 		42 = {
-			add_core_of = WAR			
+			add_core_of = WRM			
 		}
-		log = "[GetDateText]: [WAR.GetName] cores [42.GetName]"
+		log = "[GetDateText]: [WRM.GetName] cores [42.GetName]"
 		47 = {
-			add_core_of = WAR
+			add_core_of = WRM
 		}
-		log = "[GetDateText]: [WAR.GetName] cores [47.GetName]"
+		log = "[GetDateText]: [WRM.GetName] cores [47.GetName]"
 		51 = {
 			add_core_of = PZW
 		}
@@ -69,10 +69,10 @@ country_event = {
 		}
 		log = "[GetDateText]: [TEU.GetName] get their cores"
 		every_owned_state = {
-			limit = { is_core_of = WAR }
-			WAR = { transfer_state = PREV }
+			limit = { is_core_of = WRM }
+			WRM = { transfer_state = PREV }
 		}
-		log = "[GetDateText]: [WAR.GetName] get their cores"
+		log = "[GetDateText]: [WRM.GetName] get their cores"
 		every_owned_state = {
 			limit = { is_core_of = PRU }
 			PRU = { transfer_state = PREV }
@@ -113,8 +113,8 @@ news_event = {
 			log = "[GetDateText]: [PZW.GetName] quits faction"
 			TEU = { leave_faction = yes }
 			log = "[GetDateText]: [TEU.GetName] quits faction"
-			WAR = { dismantle_faction = yes }
-			log = "[GetDateText]: [WAR.GetName] dismantles faction"
+			WRM = { dismantle_faction = yes }
+			log = "[GetDateText]: [WRM.GetName] dismantles faction"
 		}
 	}
 }
