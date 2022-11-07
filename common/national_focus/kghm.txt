@@ -232,7 +232,6 @@ focus_tree = {
 		available = {
 			NOT = { country_exists = CYG }
 		}
-		relative_position_id = 
 		bypass = {
 		}
 		
@@ -370,7 +369,6 @@ focus_tree = {
 	focus = {
 		id = KGH_production_case
 		icon = KGH_production_case
-		relative_position_id = KGH_production_case
 		available = {
 			NOT = { country_exists = CYG }
 		}
@@ -540,7 +538,6 @@ focus_tree = {
 	focus = {
 		id = KGH_security_case
 		icon = KGH_security_case
-		relative_position_id = KGH_security_case
 		available = {
 			NOT = { country_exists = CYG }
 		}

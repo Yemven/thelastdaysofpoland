@@ -138,7 +138,7 @@ focus_tree = {
 		id = POZ_approach_the_slums
 		prerequisite = { focus = POZ_stranded_in_madlands }
 		available = {
-		    SLU = exist
+		    country_exists = SLU
 		}
 		
 		bypass = {
@@ -171,7 +171,7 @@ focus_tree = {
 		cost = 4
 		search_filters = { }
 		completion_reward = { 
-		    add_idea = POZ_bikes_supplylines
+		    add_ideas = POZ_bikes_supplylines
 		}
 	}
 	

@@ -49,7 +49,7 @@ focus_tree = {
 		}
 		
 		x = -1
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -70,7 +70,7 @@ focus_tree = {
 		}
 		
 		x = -4
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -91,7 +91,7 @@ focus_tree = {
 		}
 		
 		x = 1
-		y =2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -112,7 +112,7 @@ focus_tree = {
 		}
 		
 		x = 4
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -133,8 +133,8 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -2
-		y = 5
+		x = -1
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -155,8 +155,8 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 0
-		y = 5
+		x = 1
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -178,7 +178,7 @@ focus_tree = {
 		}
 		
 		x = 1
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -200,7 +200,7 @@ focus_tree = {
 		}
 		
 		x = -1
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -222,7 +222,7 @@ focus_tree = {
 		}
 		
 		x = 1
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -244,7 +244,7 @@ focus_tree = {
 		}
 		
 		x = 1
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -266,7 +266,7 @@ focus_tree = {
 		}
 		
 		x = -1
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -288,7 +288,7 @@ focus_tree = {
 		}
 		
 		x = 1
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -310,7 +310,7 @@ focus_tree = {
 		}
 		
 		x = 1
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -319,12 +319,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RZE_A_qestion_of_the_beard
-		icon = RZE_A_qestion_of_the_beard
+		id = RZE_A_question_of_the_beard
+		icon = RZE_A_question_of_the_beard
 		relative_position_id = RZE_Anyone_can_print_they_own_money
 		prerequisite = { focus = RZE_Creating_new_elite }
 		prerequisite = { focus = RZE_Anyone_can_print_they_own_money } 
-		prerequisite = { focus = RZE_We_Need_strength_for_next } 
+		prerequisite = { focus = RZE_We_Need_strength_for_next_battle } 
 		prerequisite = { focus = RZE_A_letter_to_the_traitors } 
 		available = {
 		
@@ -334,7 +334,7 @@ focus_tree = {
 		}
 		
 		x = 1
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
@@ -345,8 +345,8 @@ focus_tree = {
 	focus = {
 		id = RZE_Formal_vassalization_of_Lezajsk
 		icon = RZE_Formal_vassalization_of_Lezajsk
-		relative_position_id = RZE_A_qestion_of_the_beard
-		prerequisite = { focus = RZE_A_qestion_of_the_beard }
+		relative_position_id = RZE_A_question_of_the_beard
+		prerequisite = { focus = RZE_A_question_of_the_beard }
 		available = {
 		
 		}
@@ -355,7 +355,7 @@ focus_tree = {
 		}
 		
 		x = 0
-		y = 2
+		y = 1
 		
 		cost = 1
 		search_filters = {FOCUS_STABILITY}

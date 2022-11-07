@@ -57,6 +57,133 @@ focus_tree = {
 		add_stability = 0.05 }
 	}
 
+
+	focus = {
+		id = TRZ_gather_popular_support
+		icon = TRZ_gather_popular_support
+        relative_position_id = TRZ_mistakes_of_the_past
+        prerequisite = {focus = TRZ_mistakes_of_the_past}
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {add_political_power = 50}
+	}
+
+	focus = {
+		id = TRZ_a_bottom_up_approach
+		icon = TRZ_a_bottom_up_approach
+        relative_position_id = TRZ_gather_popular_support
+        prerequisite = {focus = TRZ_gather_popular_support}
+		mutually_exclusive = {focus = TRZ_tried_and_true_methods}
+        available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {swap_ideas = {remove_idea = TRZ_the_media_in_exile 
+        add_idea = TRZ_the_media_in_exile_people } }
+    }
+
+	focus = {
+		id = TRZ_tried_and_true_methods
+		icon = TRZ_tried_and_true_methods
+        relative_position_id = TRZ_gather_popular_support
+        prerequisite = {focus = TRZ_gather_popular_support}
+        mutually_exclusive = {focus = TRZ_a_bottom_up_approach}
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {swap_ideas = {remove_idea = TRZ_the_media_in_exile
+            add_idea = TRZ_the_media_in_exile_TVN} }
+	}
+
+	focus = {
+		id = TRZ_foster_solidarity
+		icon = TRZ_foster_solidarity
+        relative_position_id = TRZ_tried_and_true_methods
+        prerequisite = {focus = TRZ_tried_and_true_methods
+        focus = TRZ_a_bottom_up_approach}
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {add_stability = 0.1}
+	}
+
+	focus = {
+		id = TRZ_unite_under_a_common_cause
+		icon = TRZ_unite_under_a_common_cause
+        relative_position_id = TRZ_foster_solidarity
+        prerequisite = {focus = TRZ_foster_solidarity}
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {swap_ideas = {remove_idea = TRZ_the_legitimate_government
+            add_idea = TRZ_the_legitimate_government_2} }
+	}
+
+	focus = {
+		id = TRZ_address_the_nation
+		icon = TRZ_address_the_nation
+        relative_position_id = TRZ_unite_under_a_common_cause
+        prerequisite = {focus = TRZ_unite_under_a_common_cause}
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {add_political_power = 50}
+	}
+	
 	focus = {
 		id = TRZ_establish_the_city_guard
 		icon = TRZ_establish_the_city_guard
@@ -77,6 +204,7 @@ focus_tree = {
 		search_filters = { }
 		completion_reward = { }
 	}
+	
 
 	focus = {
 		id = TRZ_protect_our_homes
@@ -216,136 +344,13 @@ focus_tree = {
 
 		cost = 3
 		search_filters = { }
-		completion_reward = {create_wargoal = {
-		type = take_state_focus
-		target = TVP 
-		generator = { 558, 720, 556 } } }
-	}
-
-	focus = {
-		id = TRZ_gather_popular_support
-		icon = TRZ_gather_popular_support
-        relative_position_id = TRZ_mistakes_of_the_past
-        prerequisite = {focus = TRZ_mistakes_of_the_past}
-		available = {
-		
+		completion_reward = {
+			create_wargoal = {
+				type = take_state_focus
+				target = TVP 
+				generator = { 558 720 556 } 
+				} 
 		}
-		
-		bypass = {
-		}
-		
-		x = -4
-		y = 1
-
-		cost = 3
-		search_filters = { }
-		completion_reward = {add_political_power = 50}
-	}
-
-	focus = {
-		id = TRZ_a_bottom_up_approach
-		icon = TRZ_a_bottom_up_approach
-        relative_position_id = TRZ_gather_popular_support
-        prerequisite = {focus = TRZ_gather_popular_support}
-		mutually_exclusive = {focus = TRZ_tried_and_true_methods}
-        available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -1
-		y = 1
-
-		cost = 3
-		search_filters = { }
-		completion_reward = {swap_ideas = {remove_idea = TRZ_the_media_in_exile 
-        add_idea = TRZ_the_media_in_exile_people } }
-    }
-
-	focus = {
-		id = TRZ_tried_and_true_methods
-		icon = TRZ_tried_and_true_methods
-        relative_position_id = TRZ_gather_popular_support
-        prerequisite = {focus = TRZ_gather_popular_support}
-        mutually_exclusive = {focus = TRZ_a_bottom_up_approach}
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 1
-		y = 1
-
-		cost = 3
-		search_filters = { }
-		completion_reward = {swap_ideas = {remove_idea = TRZ_the_media_in_exile
-            add_idea = TRZ_the_media_in_exile_TVN} }
-	}
-
-	focus = {
-		id = TRZ_foster_solidarity
-		icon = TRZ_foster_solidarity
-        relative_position_id = TRZ_tried_and_true_methods
-        prerequisite = {focus = TRZ_tried_and_true_methods
-        focus = TRZ_a_bottom_up_approach}
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = -1
-		y = 1
-
-		cost = 3
-		search_filters = { }
-		completion_reward = {add_stability = 0.1}
-	}
-
-	focus = {
-		id = TRZ_unite_under_a_common_cause
-		icon = TRZ_unite_under_a_common_cause
-        relative_position_id = TRZ_foster_solidarity
-        prerequisite = {focus = TRZ_foster_solidarity}
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-
-		cost = 3
-		search_filters = { }
-		completion_reward = {swap_ideas = {remove_idea = TRZ_the_legitimate_government
-            add_idea = TRZ_the_legitimate_government_2} }
-	}
-
-	focus = {
-		id = TRZ_address_the_nation
-		icon = TRZ_address_the_nation
-        relative_position_id = TRZ_unite_under_a_common_cause
-        prerequisite = {focus = TRZ_unite_under_a_common_cause}
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 2
-
-		cost = 3
-		search_filters = { }
-		completion_reward = {add_political_power = 50}
 	}
 
 	focus = {

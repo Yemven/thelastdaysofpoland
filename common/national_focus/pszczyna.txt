@@ -234,6 +234,7 @@ focus_tree = {
 		icon = ASG_recycling
 		relative_position_id = ASG_will_it_work
 		prerequisite = { focus = ASG_will_it_work }
+		mutually_exclusive = { focus = ASG_resources_import }
 		available = {
 		
 		}

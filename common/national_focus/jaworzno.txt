@@ -464,7 +464,26 @@ focus_tree = {
 			
 		}
 	}
+	focus = {
+		id = JAW_propaganda_campaign
+		icon = JAW_propaganda_campaign
+		relative_position_id = JAW_congress_of_bedzin
+		prerequisite = { focus = JAW_congress_of_bedzin }
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 3
+		y = 1
 	
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}	
 	focus = {
 		id = JAW_czarzasty_is_a_fascist
 		icon = JAW_czarzasty_is_a_fascist
@@ -500,26 +519,6 @@ focus_tree = {
 		y = 1
 	
 		cost = 1
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = JAW_propaganda_campaign
-		icon = JAW_propaganda_campaign
-		relative_position_id = JAW_congress_of_bedzin
-		prerequisite = { focus = JAW_congress_of_bedzin }
-		available = {
-		}
-		
-		bypass = {
-		}
-		
-		x = 3
-		y = 1
-	
-		cost = 3
 		search_filters = { }
 		completion_reward = {
 			

@@ -572,6 +572,31 @@ focus_tree = {
 			
 		}
 	}
+
+	
+	focus = {
+		id = WOD_aryan_example
+		icon = WOD_aryan_example
+		relative_position_id = WOD_legion_stormtroopers
+		prerequisite = { focus = WOD_legion_stormtroopers }
+		mutually_exclusive = { focus = WOD_pack_of_raiders }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}
+	
 	focus = {
 		id = WOD_pack_of_raiders
 		icon = WOD_pack_of_raiders
@@ -586,28 +611,6 @@ focus_tree = {
 		}
 		
 		x = -2
-		y = 1
-		
-		cost = 1
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = WOD_aryan_example
-		icon = WOD_aryan_example
-		relative_position_id = WOD_legion_stormtroopers
-		prerequisite = { focus = WOD_legion_stormtroopers }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 2
 		y = 1
 		
 		cost = 1

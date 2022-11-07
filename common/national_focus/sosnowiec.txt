@@ -167,28 +167,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = SOS_central_trade_union
-		icon = SOS_central_trade_union
-		relative_position_id = SOS_our_industry
-		prerequisite = { focus = SOS_nationalise_sosnowiec_logistic_centre
-						 focus = SOS_siewierz_industrial_zone }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 4
-		
-		cost = 2
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}	
+
 	focus = {
 		id = SOS_congress_of_bedzin
 		icon = SOS_congress_of_bedzin
@@ -232,50 +211,7 @@ focus_tree = {
 			
 		}
 	}
-	
-	focus = {
-		id = SOS_stand_up_damned
-		icon = SOS_stand_up_damned
-		relative_position_id = SOS_raise_red_banner
-		prerequisite = { focus = SOS_raise_red_banner }
-		prerequisite = { focus = SOS_legacy_of_gierek }
-		prerequisite = { focus = SOS_maneuvers_at_pogoria }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 2
-		
-		cost = 3
-		search_filters = { }
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = SOS_maneuvers_at_pogoria
-		icon = SOS_maneuvers_at_pogoria
-		relative_position_id = SOS_just_like_the_old_times
-		prerequisite = { focus = SOS_just_like_the_old_times }
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 2
-		
-		cost = 2
-		search_filters = { }
-		completion_reward = {
-			
-		}
-	}
+
 	
 	focus = {
 		id = SOS_cut_ties_with_kpp
@@ -477,6 +413,30 @@ focus_tree = {
 			
 		}
 	}
+
+	focus = {
+		id = SOS_central_trade_union
+		icon = SOS_central_trade_union
+		relative_position_id = SOS_our_industry
+		prerequisite = { focus = SOS_nationalise_sosnowiec_logistic_centre
+						 focus = SOS_siewierz_industrial_zone }
+		available = {
+		
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 4
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
+	}	
 	
 	focus = {
 		id = SOS_legacy_of_gierek
@@ -702,4 +662,49 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = SOS_maneuvers_at_pogoria
+		icon = SOS_maneuvers_at_pogoria
+		relative_position_id = SOS_just_like_the_old_times
+		prerequisite = { focus = SOS_just_like_the_old_times }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			
+		}
 	}
+	
+	focus = {
+		id = SOS_stand_up_damned
+		icon = SOS_stand_up_damned
+		relative_position_id = SOS_raise_red_banner
+		prerequisite = { focus = SOS_raise_red_banner }
+		prerequisite = { focus = SOS_legacy_of_gierek }
+		prerequisite = { focus = SOS_maneuvers_at_pogoria }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	
+}

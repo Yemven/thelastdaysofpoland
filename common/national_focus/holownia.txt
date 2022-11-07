@@ -48,6 +48,32 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = WML_the_beginning_of_the_dialogue
+		icon = WML_the_beginning_of_the_dialogue
+		relative_position_id = WML_new_morning_in_old_lodz
+		prerequisite = { focus = WML_new_morning_in_old_lodz }		
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = {}
+		completion_reward = {
+		log = "[GetDateText]: Focus WML_the_beginning_of_the_dialogue"
+		#jakiś lore event trza zrobić
+		country_event = {
+			id = WML.30
+			}
+		}
+	}
+	
+	focus = {
 		id = WML_behind_the_curtains_of_denial
 		icon = WML_behind_the_curtains_of_denial
 		relative_position_id = WML_the_beginning_of_the_dialogue
@@ -345,31 +371,6 @@ focus_tree = {
 	
 	### DIALOGOWE DRZEWKO ###
 	
-	focus = {
-		id = WML_the_beginning_of_the_dialogue
-		icon = WML_the_beginning_of_the_dialogue
-		relative_position_id = WML_new_morning_in_old_lodz
-		prerequisite = { focus = WML_new_morning_in_old_lodz }		
-		available = {
-		
-		}
-		
-		bypass = {
-		}
-		
-		x = 0
-		y = 1
-		
-		cost = 1
-		search_filters = {}
-		completion_reward = {
-		log = "[GetDateText]: Focus WML_the_beginning_of_the_dialogue"
-		#jakiś lore event trza zrobić
-		country_event = {
-			id = WML.30
-			}
-		}
-	}
 	
 	focus = {
 		id = WML_insider_perspective

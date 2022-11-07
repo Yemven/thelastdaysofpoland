@@ -280,7 +280,6 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			monthly_population = 0.15
 			add_ideas = NYS_idea_education_reform
 		}
 	}
@@ -302,7 +301,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			add_extra_state_shared_building_slots = 6
+			603 = {
+				add_extra_state_shared_building_slots = 3
+				}
 			add_ideas = NYS_idea_economical_reform
 		}
 	}
@@ -324,7 +325,7 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			add_tech_bonus {
+			add_tech_bonus = {
 				bonus = 0.5
 				uses = 2
 				category = construction_tech
@@ -370,7 +371,7 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			add_tech_bonus {
+			add_tech_bonus = {
 				bonus = 0.5
 				uses = 2
 				category = excavation_tech
@@ -395,7 +396,7 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			add_tech_bonus{
+			add_tech_bonus = {
 				bonus = 0.35
 				uses = 1
 				category = nuclear
@@ -420,7 +421,7 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
-			add_tech_bonus {
+			add_tech_bonus = {
 				bonus = 0.5
 				uses = 3
 				category = electronics
