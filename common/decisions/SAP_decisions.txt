@@ -95,9 +95,7 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_rose_lvl1_modifier
-			}
+			add_ideas  = SAP_school_of_the_rose_lvl1
 		}
 	}
 	
@@ -113,9 +111,8 @@ SAP_witcher_schools_category = {
 			SAP = {
 				check_variable = { current_school = 1 }
 			}
-			has_dynamic_modifier = {
-				modifier = SAP_school_of_the_rose_lvl1_modifier
-			}
+			has_idea = SAP_school_of_the_rose_lvl1
+			
 		}
 		
 		cost = 100
@@ -129,11 +126,9 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			remove_dynamic_modifier = {
-				modifier = SAP_school_of_the_rose_lvl1_modifier
-			}
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_rose_lvl2_modifier
+			swap_ideas = {
+				remove_idea = SAP_school_of_the_rose_lvl1
+				add_idea = SAP_school_of_the_rose_lvl2
 			}
 		}
 	}
@@ -150,9 +145,7 @@ SAP_witcher_schools_category = {
 			SAP = {
 				check_variable = { current_school = 1 }
 			}
-			has_dynamic_modifier = {
-				modifier = SAP_school_of_the_rose_lvl2_modifier
-			}
+			has_idea = SAP_school_of_the_rose_lvl2
 		}
 		
 		cost = 200
@@ -166,11 +159,9 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			remove_dynamic_modifier = {
-				modifier = SAP_school_of_the_rose_lvl2_modifier
-			}
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_rose_lvl3_modifier
+			swap_ideas = {
+				remove_idea = SAP_school_of_the_rose_lvl2
+				add_idea = SAP_school_of_the_rose_lvl3
 			}
 		}
 	}
@@ -200,9 +191,7 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_lion_lvl1_modifier
-			}
+			add_ideas = SAP_school_of_the_lion_lvl1
 		}
 	}
 	
@@ -218,9 +207,7 @@ SAP_witcher_schools_category = {
 			SAP = {
 				check_variable = { current_school = 2 }
 			}
-			has_dynamic_modifier = {
-				modifier = SAP_school_of_the_lion_lvl1_modifier
-			}
+			has_idea = SAP_school_of_the_lion_lvl1
 		}
 		
 		cost = 100
@@ -234,11 +221,9 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			remove_dynamic_modifier = {
-				modifier = SAP_school_of_the_lion_lvl1_modifier
-			}
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_lion_lvl2_modifier
+			swap_ideas = {
+				remove_idea = SAP_school_of_the_lion_lvl1
+				add_idea = SAP_school_of_the_lion_lvl2
 			}
 		}
 	}
@@ -255,9 +240,7 @@ SAP_witcher_schools_category = {
 			SAP = {
 				check_variable = { current_school = 2 }
 			}
-			has_dynamic_modifier = {
-				modifier = SAP_school_of_the_lion_lvl2_modifier
-			}
+			has_idea = SAP_school_of_the_lion_lvl2
 		}
 		
 		cost = 200
@@ -271,11 +254,9 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			remove_dynamic_modifier = {
-				modifier = SAP_school_of_the_lion_lvl2_modifier
-			}
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_lion_lvl3_modifier
+			swap_ideas = {
+				remove_idea = SAP_school_of_the_lion_lvl2
+				add_idea = SAP_school_of_the_lion_lvl3
 			}
 		}
 	}
@@ -305,9 +286,7 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_mole_lvl1_modifier
-			}
+			add_ideas = SAP_school_of_the_mole_lvl1
 		}
 	}
 	
@@ -323,9 +302,7 @@ SAP_witcher_schools_category = {
 			SAP = {
 				check_variable = { current_school = 3 }
 			}
-			has_dynamic_modifier = {
-				modifier = SAP_school_of_the_mole_lvl1_modifier
-			}
+			has_idea = SAP_school_of_the_mole_lvl1
 		}
 		
 		cost = 100
@@ -339,11 +316,9 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			remove_dynamic_modifier = {
-				modifier = SAP_school_of_the_mole_lvl1_modifier
-			}
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_mole_lvl2_modifier
+			swap_ideas = {
+				remove_idea = SAP_school_of_the_mole_lvl1
+				add_idea = SAP_school_of_the_mole_lvl2
 			}
 		}
 	}
@@ -360,9 +335,8 @@ SAP_witcher_schools_category = {
 			SAP = {
 				check_variable = { current_school = 3 }
 			}
-			has_dynamic_modifier = {
-				modifier = SAP_school_of_the_mole_lvl2_modifier
-			}
+			has_idea = SAP_school_of_the_mole_lvl2
+			
 		}
 		
 		cost = 200
@@ -376,11 +350,9 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			remove_dynamic_modifier = {
-				modifier = SAP_school_of_the_mole_lvl2_modifier
-			}
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_mole_lvl3_modifier
+			swap_ideas = {
+				remove_idea = SAP_school_of_the_mole_lvl2
+				add_idea = SAP_school_of_the_mole_lvl3
 			}
 		}
 	}
@@ -410,9 +382,7 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_lynx_lvl1_modifier
-			}
+			add_ideas = SAP_school_of_the_lynx_lvl1
 		}
 	}
 	
@@ -428,9 +398,7 @@ SAP_witcher_schools_category = {
 			SAP = {
 				check_variable = { current_school = 4 }
 			}
-			has_dynamic_modifier = {
-				modifier = SAP_school_of_the_lynx_lvl1_modifier
-			}
+			has_idea = SAP_school_of_the_lynx_lvl1
 		}
 		
 		cost = 100
@@ -444,11 +412,9 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			remove_dynamic_modifier = {
-				modifier = SAP_school_of_the_lynx_lvl1_modifier
-			}
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_lynx_lvl2_modifier
+			swap_ideas = {
+				remove_idea = SAP_school_of_the_lynx_lvl1
+				add_idea = SAP_school_of_the_lynx_lvl2
 			}
 		}
 	}
@@ -465,9 +431,7 @@ SAP_witcher_schools_category = {
 			SAP = {
 				check_variable = { current_school = 4 }
 			}
-			has_dynamic_modifier = {
-				modifier = SAP_school_of_the_lynx_lvl2_modifier
-			}
+			has_idea = SAP_school_of_the_lynx_lvl2
 		}
 		
 		cost = 200
@@ -481,11 +445,9 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			remove_dynamic_modifier = {
-				modifier = SAP_school_of_the_lynx_lvl2_modifier
-			}
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_lynx_lvl3_modifier
+			swap_ideas = {
+				remove_idea = SAP_school_of_the_lynx_lvl2
+				add_idea = SAP_school_of_the_lynx_lvl3
 			}
 		}
 	}
@@ -515,9 +477,7 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_dove_lvl1_modifier
-			}
+			add_ideas = SAP_school_of_the_dove_lvl1
 		}
 	}
 	
@@ -533,9 +493,7 @@ SAP_witcher_schools_category = {
 			SAP = {
 				check_variable = { current_school = 5 }
 			}
-			has_dynamic_modifier = {
-				modifier = SAP_school_of_the_dove_lvl1_modifier
-			}
+			has_idea = SAP_school_of_the_dove_lvl1
 		}
 		
 		cost = 100
@@ -549,11 +507,9 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			remove_dynamic_modifier = {
-				modifier = SAP_school_of_the_dove_lvl1_modifier
-			}
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_dove_lvl2_modifier
+			swap_ideas = {
+				remove_idea = SAP_school_of_the_dove_lvl1
+				add_idea = SAP_school_of_the_dove_lvl2
 			}
 		}
 	}
@@ -570,9 +526,7 @@ SAP_witcher_schools_category = {
 			SAP = {
 				check_variable = { current_school = 5 }
 			}
-			has_dynamic_modifier = {
-				modifier = SAP_school_of_the_dove_lvl2_modifier
-			}
+			has_idea = SAP_school_of_the_dove_lvl2
 		}
 		
 		cost = 200
@@ -586,11 +540,9 @@ SAP_witcher_schools_category = {
 		}
 		
 		remove_effect = {
-			remove_dynamic_modifier = {
-				modifier = SAP_school_of_the_dove_lvl2_modifier
-			}
-			add_dynamic_modifier = {
-				modifier = SAP_school_of_the_dove_lvl3_modifier
+			swap_ideas = {
+				remove_idea = SAP_school_of_the_dove_lvl2
+				add_idea = SAP_school_of_the_dove_lvl3
 			}
 		}
 	}

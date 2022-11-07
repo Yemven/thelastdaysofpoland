@@ -1,5 +1,156 @@
 ideas = {
 
+hidden_ideas = {
+	###szkoły wiedźmińskie
+
+	SAP_school_of_the_rose_lvl1 = {
+		picture = GFX_hidden_idea
+		on_add = {
+			set_technology = {
+				school_of_the_rose_field_hospitals = 1
+				popup = yes
+			}	
+		}
+	}
+
+	SAP_school_of_the_rose_lvl2 = {
+		picture = GFX_hidden_idea
+		field_hospital = {
+			casualty_trickleback = 0.1
+		}
+		modifier = {
+			trade_opinion_factor = 0.5
+		}	
+	}
+
+	SAP_school_of_the_rose_lvl3 = {
+		picture = GFX_hidden_idea
+		field_hospital = {
+			casualty_trickleback = 0.1
+		}
+		modifier = {
+			trade_opinion_factor = 0.5
+			research_speed_factor = -0.05
+		}
+	}
+
+	SAP_school_of_the_lion_lvl1 = {
+		picture = GFX_hidden_idea
+		modifier = {
+			encryption = 0.25
+			decryption = 0.25
+			operation_cost = -0.5
+		}
+	}
+
+	SAP_school_of_the_lion_lvl2 = {
+		picture = GFX_hidden_idea
+		modifier = {
+			encryption_factor = 0.25
+			decryption_factor = 0.25
+			operation_cost = -0.5
+			line_change_production_efficiency_factor = 0.4
+		}
+	}
+
+	SAP_school_of_the_lion_lvl3 = {
+		picture = GFX_hidden_idea
+		modifier = {
+			encryption = 0.25
+			decryption = 0.25
+			operation_cost = -0.5
+			line_change_production_efficiency_factor = 0.4
+			research_speed_factor = -0.025
+			party_popularity_stability_factor = 0.33
+		}
+	}
+
+	SAP_school_of_the_mole_lvl1 = {
+		picture = GFX_hidden_idea
+		modifier = {
+			special_forces_training_time_factor = -0.5
+			special_forces_attack_factor = 0.2
+		}
+	}
+
+	SAP_school_of_the_mole_lvl2 = {
+		picture = GFX_hidden_idea
+		modifier = {
+			special_forces_training_time_factor = -0.5
+			special_forces_attack_factor = 0.2
+			production_speed_buildings_factor = 0.2
+		}
+	}
+
+	SAP_school_of_the_mole_lvl3 = {
+		picture = GFX_hidden_idea
+		modifier = {
+			special_forces_training_time_factor = -0.5
+			special_forces_attack_factor = 0.2
+			production_speed_buildings_factor = 0.2
+		}
+		research_bonus = {
+			industry = -0.075
+		}
+	}
+
+	SAP_school_of_the_dove_lvl1 = {
+		picture = GFX_hidden_idea
+		modifier = {
+			army_leader_start_defense_level = 1
+		}
+	}
+
+	SAP_school_of_the_dove_lvl2 = {
+		picture = GFX_hidden_idea
+		modifier = {
+			army_leader_start_defense_level = 1
+			industry_repair_factor = 0.3
+		}
+	}
+
+	SAP_school_of_the_dove_lvl3 = {
+		picture = GFX_hidden_idea
+		modifier = {
+			army_leader_start_defense_level = 1
+			industry_repair_factor = 0.3
+		}
+		research_bonus = {
+			electronics = -0.075
+		}
+	}
+
+	SAP_school_of_the_lynx_lvl1 = {
+		picture = GFX_hidden_idea
+		modifier = {
+		
+		}
+		on_add = {
+			set_technology = {
+				school_of_the_lynx_forest_training = 1
+				popup = yes
+			}
+		}
+	}
+
+	SAP_school_of_the_lynx_lvl2 = {
+		picture = GFX_hidden_idea
+		modifier = {
+			industry_air_damage_factor = -0.4
+		}
+	}
+		
+	SAP_school_of_the_lynx_lvl3 = {
+		picture = GFX_hidden_idea
+		modifier = {
+			industry_air_damage_factor = -0.4
+		}
+		research_bonus = {
+			infantry_training = -0.075
+		}
+	}
+}
+
 country = {
 SAP_confused_population =	{
 			allowed = {
@@ -508,8 +659,8 @@ SAP_szkola_wilka_insane_2 =	{
 				terrain_penalty_reduction = -0.15
 				breakthrough_factor = 0.1
 			}
-	}
-	
+	}	
+
 SAP_skrzydlewska_underground =	{
 			allowed = {
 				original_tag = SAP
@@ -562,9 +713,6 @@ SAP_zhp_partisans =	{
 				stability_factor = -0.2
 			}
 	}	
-	
-
-	
 }
 	industrial_company = {
 		use_list_view = yes

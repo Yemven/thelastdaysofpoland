@@ -1773,4 +1773,14 @@ technologies = {
 		}
 	}
 
+
+	school_of_the_rose_field_hospitals = {
+		allow = {
+			always = no
+		}
+		field_hospital = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.10
+		}
+	}
 }
