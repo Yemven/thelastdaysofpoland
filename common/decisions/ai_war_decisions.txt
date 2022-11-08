@@ -8212,6 +8212,7 @@ ai_war_decisions = {
 			NOT = { country_exists = BPD }
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BIL }
+			has_decision = SWD_buff1
 		}
 
 		cost = 0
@@ -8382,6 +8383,7 @@ ai_war_decisions = {
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = BPD }
 			NOT = { country_exists = BIL }
+			has_decision = ZUK_buff1
 		}
 
 		cost = 0
@@ -8521,6 +8523,7 @@ ai_war_decisions = {
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = BPD }
 			NOT = { country_exists = ZUK }
+			has_decision = BIL_buff1
 		}
 
 		cost = 0
@@ -8545,7 +8548,7 @@ ai_war_decisions = {
 				}
 
 		available = {
-			original_tag = ZUK
+			original_tag = BIL
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BPD }
@@ -8695,7 +8698,7 @@ ai_war_decisions = {
 				}
 
 		available = {
-			original_tag = SWD
+			original_tag = BPD
 			owns_state = 661
 			owns_state = 277
 			owns_state = 669
@@ -8703,6 +8706,7 @@ ai_war_decisions = {
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BIL }
+			has_decision = BPD_buff1
 		}
 
 		cost = 0
