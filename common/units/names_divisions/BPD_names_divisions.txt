@@ -37,3 +37,16 @@ BPD_INF_02 =
 
 	fallback_name = "%d Batalion Lekkiej Piechoty"
 }
+
+LUB_BUFF = 
+{
+	name = "Bojówka"
+
+	for_countries = { BPD }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Bojówka"
+}

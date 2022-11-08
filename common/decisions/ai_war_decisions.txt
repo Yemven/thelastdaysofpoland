@@ -7842,7 +7842,8 @@ ai_war_decisions = {
 		cost = 0
 
 		complete_effect = {
-			load_oob = CRN_buff
+			log = "[GetDateText]: Decision CRN_buff"
+			load_oob = lub_buff_west
 		}
 
 		ai_will_do = {
@@ -7893,6 +7894,7 @@ ai_war_decisions = {
 		available = {
 			original_tag = PUL
 			NOT = { country_exists = CRN }
+			country_exists = KSN
 		}
 
 		cost = 1
@@ -7980,7 +7982,8 @@ ai_war_decisions = {
 		cost = 0
 
 		complete_effect = {
-			load_oob = PUL_buff
+			log = "[GetDateText]: Decision PUL_buff"
+			load_oob = lub_buff_west
 		}
 
 		ai_will_do = {
@@ -8087,7 +8090,8 @@ ai_war_decisions = {
 		cost = 0
 
 		complete_effect = {
-			load_oob = KSN_buff
+			log = "[GetDateText]: Decision KSN_buff"
+			load_oob = lub_buff_west
 		}
 
 		ai_will_do = {
@@ -8181,7 +8185,8 @@ ai_war_decisions = {
 		cost = 0
 
 		complete_effect = {
-			load_oob = SWD_buff1
+			log = "[GetDateText]: Decision SWD_buff1"
+			load_oob = lub_buff_northeast
 		}
 
 		ai_will_do = {
@@ -8212,7 +8217,8 @@ ai_war_decisions = {
 		cost = 0
 
 		complete_effect = {
-			load_oob = SWD_buff2
+			log = "[GetDateText]: Decision SWD_buff2"
+			load_oob = lub_buff_east
 		}
 
 		ai_will_do = {
@@ -8349,7 +8355,8 @@ ai_war_decisions = {
 		cost = 0
 
 		complete_effect = {
-			load_oob = ZUK_buff1
+			log = "[GetDateText]: Decision ZUK_buff1"
+			load_oob = lub_buff_southeast
 		}
 
 		ai_will_do = {
@@ -8380,7 +8387,8 @@ ai_war_decisions = {
 		cost = 0
 
 		complete_effect = {
-			load_oob = ZUK_buff2
+			log = "[GetDateText]: Decision ZUK_buff2"
+			load_oob = lub_buff_east
 		}
 
 		ai_will_do = {
@@ -8486,7 +8494,8 @@ ai_war_decisions = {
 		cost = 0
 
 		complete_effect = {
-			load_oob = BIL_buff1
+			log = "[GetDateText]: Decision BIL_buff1"
+			load_oob = lub_buff_southeast
 		}
 
 		ai_will_do = {
@@ -8517,7 +8526,8 @@ ai_war_decisions = {
 		cost = 0
 
 		complete_effect = {
-			load_oob = BIL_buff2
+			log = "[GetDateText]: Decision BIL_buff2"
+			load_oob = lub_buff_east
 		}
 
 		ai_will_do = {
@@ -8666,7 +8676,8 @@ ai_war_decisions = {
 		cost = 0
 
 		complete_effect = {
-			load_oob = BPD_buff1
+			log = "[GetDateText]: Decision BPD_buff1"
+			load_oob = lub_buff_northeast
 		}
 
 		ai_will_do = {
@@ -8697,7 +8708,8 @@ ai_war_decisions = {
 		cost = 0
 
 		complete_effect = {
-			load_oob = BPD_buff2
+			log = "[GetDateText]: Decision BPD_buff2"
+			load_oob = lub_buff_east
 		}
 
 		ai_will_do = {

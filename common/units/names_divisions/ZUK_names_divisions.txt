@@ -70,3 +70,16 @@ ZUK_INF_02 =
 		17 = { "17 Dołhobyczowski Batalion Ochotniczy" }
 	}
 }
+
+LUB_BUFF = 
+{
+	name = "Bojówka"
+
+	for_countries = { ZUK }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Bojówka"
+}
