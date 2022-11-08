@@ -7825,6 +7825,8 @@ ai_war_decisions = {
 	CRN_buff = {
 
 		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
 		
 		allowed = {
 			is_lubelskie = yes
@@ -7965,6 +7967,8 @@ ai_war_decisions = {
 	PUL_buff = {
 
 		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
 		
 		allowed = {
 			is_lubelskie = yes
@@ -8073,6 +8077,8 @@ ai_war_decisions = {
 	KSN_buff = {
 
 		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
 		
 		allowed = {
 			is_lubelskie = yes
@@ -8170,6 +8176,8 @@ ai_war_decisions = {
 	SWD_buff1 = {
 
 		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
 		
 		allowed = {
 			is_lubelskie = yes
@@ -8198,6 +8206,8 @@ ai_war_decisions = {
 	SWD_buff2 = {
 
 		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
 		
 		allowed = {
 			is_lubelskie = yes
@@ -8212,6 +8222,7 @@ ai_war_decisions = {
 			NOT = { country_exists = BPD }
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BIL }
+			has_decision = SWD_buff1
 		}
 
 		cost = 0
@@ -8340,6 +8351,8 @@ ai_war_decisions = {
 	ZUK_buff1 = {
 
 		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
 		
 		allowed = {
 			is_lubelskie = yes
@@ -8368,6 +8381,8 @@ ai_war_decisions = {
 	ZUK_buff2 = {
 
 		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
 		
 		allowed = {
 			is_lubelskie = yes
@@ -8382,6 +8397,7 @@ ai_war_decisions = {
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = BPD }
 			NOT = { country_exists = BIL }
+			has_decision = ZUK_buff1
 		}
 
 		cost = 0
@@ -8479,6 +8495,8 @@ ai_war_decisions = {
 	BIL_buff1 = {
 
 		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
 		
 		allowed = {
 			is_lubelskie = yes
@@ -8507,6 +8525,8 @@ ai_war_decisions = {
 	BIL_buff2 = {
 
 		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
 		
 		allowed = {
 			is_lubelskie = yes
@@ -8521,6 +8541,7 @@ ai_war_decisions = {
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = BPD }
 			NOT = { country_exists = ZUK }
+			has_decision = BIL_buff1
 		}
 
 		cost = 0
@@ -8545,7 +8566,7 @@ ai_war_decisions = {
 				}
 
 		available = {
-			original_tag = ZUK
+			original_tag = BIL
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BPD }
@@ -8661,6 +8682,8 @@ ai_war_decisions = {
 	BPD_buff1 = {
 
 		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
 		
 		allowed = {
 			is_lubelskie = yes
@@ -8689,13 +8712,15 @@ ai_war_decisions = {
 	BPD_buff2 = {
 
 		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
 		
 		allowed = {
 			is_lubelskie = yes
 				}
 
 		available = {
-			original_tag = SWD
+			original_tag = BPD
 			owns_state = 661
 			owns_state = 277
 			owns_state = 669
@@ -8703,6 +8728,7 @@ ai_war_decisions = {
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BIL }
+			has_decision = BPD_buff1
 		}
 
 		cost = 0
