@@ -13,6 +13,7 @@ KSN_decision_category = {
 		cost = 0
 
 		complete_effect = {
+			log = "[GetDateText]: Decision KSN_move_back_to_lublin"
 			set_cosmetic_tag = KSN_church_of_new_covenant
 			set_capital = {
 				state = 363
