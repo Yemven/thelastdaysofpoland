@@ -157,6 +157,13 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 					quadTextureSprite = "GFX_show_power_balance_button"
 				}
+				
+				iconType = {
+					name = "show_power_balance_glow"
+					position = { x = 0 y = 0 }
+					quadTextureSprite = "GFX_bop_glow_effect"
+					alwaystransparent = yes
+				}
 
 				instantTextboxType = {
 					name = "power_balance_percentage"
@@ -201,15 +208,15 @@ guiTypes = {
 			size = { width = 255 height = 60 }
 			clipping = no
 
-			background = {
-				name = "Background"		
-				quadTextureSprite ="GFX_subject_overlay"
-			}
+			#background = {
+				#name = "Background"		
+				#quadTextureSprite ="GFX_subject_overlay"
+			#}
 			
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 110 y = 8 }
-				font = "hoi_18mbs"
+				position = { x = -12 y = 155 }
+				font = "stellaris_main"
 				text = "autonomy"
 				maxWidth = 193
 				maxHeight = 20		
@@ -218,13 +225,13 @@ guiTypes = {
 			
 			buttonType = {
 				name = "prev_autonomy_level"
-				position = { x = 75 y = 9 }
+				position = { x = 5 y = 170 }
 				quadTextureSprite = "GFX_autonomy_level_button"
 			}
 			
 			iconType = {
 				name = "prev_level_glow"
-				position = { x = 63 y = 2 }
+				position = { x = -5 y = 165 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
@@ -232,7 +239,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "prev_autonomy_level_icon"
-				position = { x = 75 y = 9 }
+				position = { x = 10 y = 175 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
@@ -240,19 +247,19 @@ guiTypes = {
 			iconType = {
 				name = "autonomy_progress"
 				spriteType = "GFX_subject_progressbar_long"
-				position = { x = 116 y = 29 }
+				position = { x = -10 y = 220 }
 				frame = 100
 			}
 			
 			buttonType = {
 				name = "next_autonomy_level"
-				position = { x = 299 y = 5 }
+				position = { x = 115 y = 170 }
 				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
 			
 			iconType = {
 				name = "next_level_glow"
-				position = { x = 287 y = -2 }
+				position = { x = 100 y = 160 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
@@ -260,14 +267,14 @@ guiTypes = {
 			
 			iconType = {
 				name = "next_autonomy_level_icon"
-				position = { x = 304 y = 9 }
+				position = { x = 120 y = 175 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
 
 			iconType = {
 				name = "continuous_glow"
-				position = { x = 4 y = -2 }
+				position = { x = 45 y = 165 }
 				quadTextureSprite = "GFX_ongoing_generic_glow_yellow"
 				alwaystransparent = yes				
 				scale = 0.5
@@ -275,7 +282,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "current_autonomy_level_icon"
-				position = { x = 20 y = 10 }
+				position = { x = 60 y = 175 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 			}
 		}
