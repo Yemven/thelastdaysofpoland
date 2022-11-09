@@ -558,3 +558,18 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = zhp.23
+	title = zhp.23.t
+	desc = zhp.23.desc
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zhp.23" }
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = zhp.23.a
+	}
+}
+
