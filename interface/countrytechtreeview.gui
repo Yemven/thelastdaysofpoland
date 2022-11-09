@@ -740,7 +740,20 @@ guiTypes = {
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
-				}			
+				}
+
+				instantTextBoxType = {
+					name = "artillery_subtitle_sp_artillery"
+					position = { x = -220 y = 240  }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "SELF PROPELLED GUNS"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
 			}					
 
 			containerWindowType = {
