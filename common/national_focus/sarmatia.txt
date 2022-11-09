@@ -31,7 +31,7 @@ focus_tree = {
 		x = 8
 		y = 0
 		
-		cost = 1
+		cost = 0.5
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = { 
 		    add_stability = 0.05
@@ -79,7 +79,7 @@ focus_tree = {
 		x = 7
 		y = 2
 		
-		cost = 3
+		cost = 2.8
 		search_filters = { }
 		completion_reward = {
 		    army_experience = 5
@@ -110,7 +110,7 @@ focus_tree = {
 		x = 9
 		y = 2
 		
-		cost = 3
+		cost = 2.8
 		search_filters = { }
 		completion_reward = {
 		    load_oob = "FEL_cavalry"
@@ -134,7 +134,7 @@ focus_tree = {
 		x = 8
 		y = 3
 		
-		cost = 3
+		cost = 2
 		search_filters = { }
 		completion_reward = {
 		    swap_ideas = {
@@ -410,7 +410,7 @@ focus_tree = {
 		x = 8
 		y = 8
 		
-		cost = 3
+		cost = 2.8
 		search_filters = { }
 		completion_reward = {
 		    add_war_support = 0.1
