@@ -822,73 +822,309 @@ defined_text = {
 
 
 	text = {
-		trigger = { original_tag = TAT }
-		localization_key = GOVERNMENT_TAT
+		trigger = { original_tag = EKS }
+		localization_key = GOVERNMENT_EKS
 	}
 	text = {
-		trigger = { original_tag = KEL }
-		localization_key = GOVERNMENT_KEL
+		trigger = { original_tag = CZE }
+		localization_key = GOVERNMENT_CZE
 	}
 	text = {
-		trigger = { original_tag = SAN }
-		localization_key = GOVERNMENT_SAN
-	}
-	text = {
-		trigger = { original_tag = SKW }
-		localization_key = GOVERNMENT_SKW
-	}
-	text = {
-		trigger = { original_tag = NHT }
-		localization_key = GOVERNMENT_NHT
-	}
-	text = {
-		trigger = { original_tag = KRK }
-		localization_key = GOVERNMENT_KRK
-	}
-	text = {
-		trigger = { original_tag = UMN }
-		localization_key = GOVERNMENT_UMN
-	}
-	text = {
-		trigger = { original_tag = BOH }
-		localization_key = GOVERNMENT_BOH
-	}
-	text = {
-		trigger = { original_tag = OSW }
-		localization_key = GOVERNMENT_OSW
-	}
-	text = {
-		trigger = { original_tag = TRN }
-		localization_key = GOVERNMENT_TRN
-	}
-	text = {
-		trigger = { original_tag = SCZ }
-		localization_key = GOVERNMENT_SCZ
-	}
-	text = {
-		trigger = { original_tag = GUR }
-		localization_key = GOVERNMENT_GUR
+		trigger = { original_tag = ANA }
+		localization_key = GOVERNMENT_ANA
 	}	
 	text = {
-		trigger = { original_tag = MSL }
-		localization_key = GOVERNMENT_MSL
+		trigger = { original_tag = MNL }
+		localization_key = GOVERNMENT_MNL
 	}
 	text = {
-		trigger = { original_tag = WDW }
-		localization_key = GOVERNMENT_WDW
+		trigger = { original_tag = ZUL }
+		localization_key = GOVERNMENT_ZUL
 	}
+	text = {
+		trigger = { original_tag = FEM }
+		localization_key = GOVERNMENT_FEM
+	}
+	text = {
+		trigger = { original_tag = WRO }
+		localization_key = GOVERNMENT_WRO
+	}
+	text = {
+		trigger = { original_tag = MPK }
+		localization_key = GOVERNMENT_MPK
+	}
+	text = {
+		trigger = { original_tag = RYB }
+		localization_key = GOVERNMENT_RYB
+	}
+	text = {
+		trigger = { original_tag = OLE }
+		localization_key = GOVERNMENT_OLE
+	}
+	text = {
+		trigger = { original_tag = KGH }
+		localization_key = GOVERNMENT_KGH
+	}
+	text = {
+		trigger = { original_tag = CYG }
+		localization_key = GOVERNMENT_CYG
+	}
+	text = {
+		trigger = { original_tag = TOU }
+		localization_key = GOVERNMENT_TOU
+	}
+	text = {
+		trigger = { original_tag = ECO }
+		localization_key = GOVERNMENT_ECO
+	}
+	text = {
+		trigger = { original_tag = BOG }
+		localization_key = GOVERNMENT_BOG
+	}
+	
+	text = {
+		trigger = { original_tag = ZAG }
+		localization_key = GOVERNMENT_ZAG
+	}
+	text = {
+		trigger = { original_tag = WIN }
+		localization_key = GOVERNMENT_WIN
+	}
+	text = {
+		trigger = { original_tag = KAM }
+		localization_key = GOVERNMENT_KAM
+	}
+	text = {
+		trigger = { original_tag = MOT }
+		localization_key = GOVERNMENT_MOT
+	}
+
+
+	text = {
+		trigger = { original_tag = EKW }
+		localization_key = GOVERNMENT_EKW
+	}
+	text = {
+		trigger = { original_tag = JAS }
+		localization_key = GOVERNMENT_JAS
+	}
+	text = {
+		trigger = { original_tag = JOM }
+		localization_key = GOVERNMENT_JOM
+	}
+	text = {
+		trigger = { original_tag = USP }
+		localization_key = GOVERNMENT_USP
+	}
+	text = {
+		trigger = { original_tag = STE }
+		localization_key = GOVERNMENT_STE
+	}
+	text = {
+		trigger = { original_tag = SWI }
+		localization_key = GOVERNMENT_SWI
+	}
+	
+	text = {
+		trigger = { original_tag = PIL }
+		localization_key = GOVERNMENT_PIL
+	}
+	text = {
+		trigger = { original_tag = WRT }
+		localization_key = GOVERNMENT_WRT
+	}
+	text = {
+		trigger = { original_tag = NAC }
+		localization_key = GOVERNMENT_NAC
+	}
+	text = {
+		trigger = { original_tag = SYJ }
+		localization_key = GOVERNMENT_SYJ
+	}
+	text = {
+		trigger = { original_tag = POZ }
+		localization_key = GOVERNMENT_POZ
+	}
+	text = {
+		trigger = { original_tag = SLU }
+		localization_key = GOVERNMENT_SLU
+	}
+	
+	text = {
+		trigger = { original_tag = SUS }
+		localization_key = GOVERNMENT_SUS
+	}
+	text = {
+		trigger = { original_tag = FEL }
+		localization_key = GOVERNMENT_FEL
+	}
+	text = {
+		trigger = { original_tag = GNI }
+		localization_key = GOVERNMENT_GNI
+	}
+	text = {
+		trigger = { original_tag = CAL }
+		localization_key = GOVERNMENT_CAL
+	}
+	
+	text = {
+		trigger = { original_tag = KUJ }
+		localization_key = GOVERNMENT_KUJ
+	}
+	text = {
+		trigger = { original_tag = BYD }
+		localization_key = GOVERNMENT_BYD
+	}
+	text = {
+		trigger = { original_tag = TOR }
+		localization_key = GOVERNMENT_TOR
+	}
+	text = {
+		trigger = { original_tag = GRU }
+		localization_key = GOVERNMENT_GRU
+	}
+	text = {
+		trigger = { original_tag = INO }
+		localization_key = GOVERNMENT_INO
+	}
+	
+	text = {
+		trigger = { original_tag = GAY }
+		localization_key = GOVERNMENT_GAY
+	}
+	text = {
+		trigger = { original_tag = CZL }
+		localization_key = GOVERNMENT_CZL
+	}
+	text = {
+		trigger = { original_tag = KSZ }
+		localization_key = GOVERNMENT_KSZ
+	}
+	text = {
+		trigger = { original_tag = HEL }
+		localization_key = GOVERNMENT_HEL
+	}
+	text = {
+		trigger = { original_tag = OWS }
+		localization_key = GOVERNMENT_OWS
+	}
+	text = {
+		trigger = { original_tag = BOL }
+		localization_key = GOVERNMENT_BOL
+	}
+	text = {
+		trigger = { original_tag = GDA }
+		localization_key = GOVERNMENT_GDA
+	}
+	text = {
+		trigger = { original_tag = KOR }
+		localization_key = GOVERNMENT_KOR
+	}
+	text = {
+		trigger = { original_tag = LOT }
+		localization_key = GOVERNMENT_LOT
+	}
+	
+	text = {
+		trigger = { original_tag = MAL }
+		localization_key = GOVERNMENT_MAL
+	}
+	text = {
+		trigger = { original_tag = TEU }
+		localization_key = GOVERNMENT_TEU
+	}
+	text = {
+		trigger = { original_tag = PRU }
+		localization_key = GOVERNMENT_PRU
+	}
+	text = {
+		trigger = { original_tag = WRM }
+		localization_key = GOVERNMENT_WRM
+	}
+	text = {
+		trigger = { original_tag = PZW }
+		localization_key = GOVERNMENT_PZW
+	}
+	text = {
+		trigger = { original_tag = ROS }
+		localization_key = GOVERNMENT_ROS
+	}
+	
+	text = {
+		trigger = { original_tag = ZWK }
+		localization_key = GOVERNMENT_ZWK
+	}
+	text = {
+		trigger = { original_tag = KUR }
+		localization_key = GOVERNMENT_KUR
+	}
+	text = {
+		trigger = { original_tag = SAS }
+		localization_key = GOVERNMENT_SAS
+	}
+	text = {
+		trigger = { original_tag = ORL }
+		localization_key = GOVERNMENT_ORL
+	}
+	text = {
+		trigger = { original_tag = POL }
+		localization_key = GOVERNMENT_POL
+	}
+	
+	text = {
+		trigger = { original_tag = BIE }
+		localization_key = GOVERNMENT_BIE
+	}
+	text = {
+		trigger = { original_tag = LAS }
+		localization_key = GOVERNMENT_LAS
+	}
+	text = {
+		trigger = { original_tag = MAF }
+		localization_key = GOVERNMENT_MAF
+	}
+	text = {
+		trigger = { original_tag = ZYR }
+		localization_key = GOVERNMENT_ZYR
+	}
+	text = {
+		trigger = { original_tag = DUP }
+		localization_key = GOVERNMENT_DUP
+	}
+	text = {
+		trigger = { original_tag = PLC }
+		localization_key = GOVERNMENT_PLC
+	}
+	text = {
+		trigger = { original_tag = TRZ }
+		localization_key = GOVERNMENT_TRZ
+	}
+	text = {
+		trigger = { original_tag = WOL }
+		localization_key = GOVERNMENT_WOL
+	}
+	text = {
+		trigger = { original_tag = WOW }
+		localization_key = GOVERNMENT_WOW
+	}
+	text = {
+		trigger = { original_tag = LEG }
+		localization_key = GOVERNMENT_LEG
+	}
+	text = {
+		trigger = { original_tag = ZIE }
+		localization_key = GOVERNMENT_ZIE
+	}
+	text = {
+		trigger = { original_tag = TVP }
+		localization_key = GOVERNMENT_TVP
+	}
+
+
 	text = {
 		trigger = { original_tag = SOS }
 		localization_key = GOVERNMENT_SOS
 	}
-	text = {
-		trigger = { original_tag = PRK }
-		localization_key = GOVERNMENT_PRK
-	}
-	text = {
-		trigger = { original_tag = BBW }
-		localization_key = GOVERNMENT_BBW
-	}	
 	text = {
 		trigger = { original_tag = DGR }
 		localization_key = GOVERNMENT_DGR
@@ -898,16 +1134,27 @@ defined_text = {
 		localization_key = GOVERNMENT_JAW
 	}
 	text = {
-		trigger = { original_tag = CIE }
-		localization_key = GOVERNMENT_CIE
+		trigger = { original_tag = ZAW }
+		localization_key = GOVERNMENT_ZAW
 	}
 	text = {
-		trigger = { original_tag = BSK }
-		localization_key = GOVERNMENT_BSK
+		trigger = { original_tag = JWK }
+		localization_key = GOVERNMENT_JWK
 	}
 	text = {
-		trigger = { original_tag = WOD
-					has_government = socialdemocrature }
+		trigger = { original_tag = BRZ }
+		localization_key = GOVERNMENT_BRZ
+	}
+	text = {
+		trigger = { original_tag = CCH }
+		localization_key = GOVERNMENT_CCH
+	}
+
+	text = {
+		trigger = { 
+			original_tag = WOD
+			has_government = socialdemocrature 
+			}
 		localization_key = GOVERNMENT_WOD_SD
 	}
 	text = {
@@ -940,33 +1187,22 @@ defined_text = {
 		localization_key = GOVERNMENT_KAT
 	}
 	text = {
-		trigger = { original_tag = ZAW }
-		localization_key = GOVERNMENT_ZAW
-	}
-	text = {
-		trigger = { original_tag = JWK }
-		localization_key = GOVERNMENT_JWK
-	}
-	text = {
-		trigger = { original_tag = BRZ }
-		localization_key = GOVERNMENT_BRZ
-	}
-	text = {
-		trigger = { original_tag = CCH }
-		localization_key = GOVERNMENT_CCH
-	}
-	text = {
 		trigger = { original_tag = CHO }
 		localization_key = GOVERNMENT_CHO
-	}	
+	}
 	text = {
 		trigger = { original_tag = RUD }
 		localization_key = GOVERNMENT_RUD
-	}	
+	}
 	text = {
 		trigger = { original_tag = TRC }
 		localization_key = GOVERNMENT_TRC
-	}	
+	}
+
+	text = {
+		trigger = { original_tag = BBW }
+		localization_key = GOVERNMENT_BBW
+	}
 	text = {
 		trigger = { original_tag = ZHP }
 		localization_key = GOVERNMENT_ZHP
@@ -987,6 +1223,7 @@ defined_text = {
 		trigger = { original_tag = SAP }
 		localization_key = GOVERNMENT_SAP
 	}
+	
 	text = {
 		trigger = { original_tag = MNI }
 		localization_key = GOVERNMENT_MNI
@@ -1007,9 +1244,18 @@ defined_text = {
 		trigger = { original_tag = WAN }
 		localization_key = GOVERNMENT_WAN
 	}
+
 	text = {
-		trigger = { original_tag = CRN }
-		localization_key = GOVERNMENT_CRN
+		trigger = { original_tag = KSN }
+		localization_key = GOVERNMENT_KSN
+	}
+	text = {
+		trigger = { original_tag = ZUK }
+		localization_key = GOVERNMENT_ZUK
+	}
+	text = {
+		trigger = { original_tag = BIL }
+		localization_key = GOVERNMENT_BIL
 	}
 	text = {
 		trigger = { original_tag = SWD }
@@ -1023,6 +1269,306 @@ defined_text = {
 		trigger = { original_tag = TSB }
 		localization_key = GOVERNMENT_TSB
 	}
+
+	text = {
+		trigger = { original_tag = CIE }
+		localization_key = GOVERNMENT_CIE
+	}
+	text = {
+		trigger = { original_tag = BSK }
+		localization_key = GOVERNMENT_BSK
+	}
+	text = {
+		trigger = { original_tag = MSL }
+		localization_key = GOVERNMENT_MSL
+	}
+	text = {
+		trigger = { original_tag = GUR }
+		localization_key = GOVERNMENT_GUR
+	}
+	text = {
+		trigger = { original_tag = SCZ }
+		localization_key = GOVERNMENT_SCZ
+	}
+	text = {
+		trigger = { original_tag = LEM }
+		localization_key = GOVERNMENT_LEM
+	}
+
+
+	text = {
+		trigger = { original_tag = PRK }
+		localization_key = GOVERNMENT_PRK
+	}
+	text = {
+		trigger = { original_tag = WDW }
+		localization_key = GOVERNMENT_WDW
+	}
+	text = {
+		trigger = { original_tag = TRN }
+		localization_key = GOVERNMENT_TRN
+	}
+	text = {
+		trigger = { original_tag = OSW }
+		localization_key = GOVERNMENT_OSW
+	}
+	text = {
+		trigger = { original_tag = BOH }
+		localization_key = GOVERNMENT_BOH
+	}
+	text = {
+		trigger = { original_tag = UMN }
+		localization_key = GOVERNMENT_UMN
+	}
+	text = {
+		trigger = { original_tag = KRK }
+		localization_key = GOVERNMENT_KRK
+	}
+	text = {
+		trigger = { original_tag = NHT }
+		localization_key = GOVERNMENT_NHT
+	}
+	text = {
+		trigger = { original_tag = SKW }
+		localization_key = GOVERNMENT_SKW
+	}
+	text = {
+		trigger = { original_tag = BRK }
+		localization_key = GOVERNMENT_BRK
+	}
+	text = {
+		trigger = { original_tag = KRA }
+		localization_key = GOVERNMENT_KRA
+	}
+	text = {
+		trigger = { original_tag = WND }
+		localization_key = GOVERNMENT_WND
+	}
+	text = {
+		trigger = { original_tag = HAB }
+		localization_key = GOVERNMENT_HAB
+	}
+	text = {
+		trigger = { original_tag = AGH }
+		localization_key = GOVERNMENT_AGH
+	}
+	text = {
+		trigger = { original_tag = UJG }
+		localization_key = GOVERNMENT_UJG
+	}
+
+	text = {
+		trigger = { original_tag = SAN }
+		localization_key = GOVERNMENT_SAN
+	}
+	text = {
+		trigger = { original_tag = TAT }
+		localization_key = GOVERNMENT_TAT
+	}
+	text = {
+		trigger = { original_tag = BOM }
+		localization_key = GOVERNMENT_BOM
+	}
+	text = {
+		trigger = { original_tag = KON }
+		localization_key = GOVERNMENT_KON
+	}
+	text = {
+		trigger = { original_tag = LMZ }
+		localization_key = GOVERNMENT_LMZ
+	}
+	text = {
+		trigger = { original_tag = BEL }
+		localization_key = GOVERNMENT_BEL
+	}
+	text = {
+		trigger = { original_tag = TNO }
+		localization_key = GOVERNMENT_TNO
+	}
+	text = {
+		trigger = { original_tag = AUG }
+		localization_key = GOVERNMENT_AUG
+	}
+	text = {
+		trigger = { original_tag = AGR }
+		localization_key = GOVERNMENT_AGR
+	}
+	text = {
+		trigger = { original_tag = SDL }
+		localization_key = GOVERNMENT_SDL
+	}
+	text = {
+		trigger = { original_tag = SEI }
+		localization_key = GOVERNMENT_SEI
+	}
+	text = {
+		trigger = { original_tag = BRD }
+		localization_key = GOVERNMENT_BRD
+	}
+	text = {
+		trigger = { original_tag = RAJ }
+		localization_key = GOVERNMENT_RAJ
+	}
+	text = {
+		trigger = { original_tag = DAM }
+		localization_key = GOVERNMENT_DAM
+	}
+	text = {
+		trigger = { original_tag = COL }
+		localization_key = GOVERNMENT_COL
+	}
+	text = {
+		trigger = { original_tag = ZAM }
+		localization_key = GOVERNMENT_ZAM
+	}
+	text = {
+		trigger = { original_tag = OSO }
+		localization_key = GOVERNMENT_OSO
+	}
+	text = {
+		trigger = { original_tag = TYK }
+		localization_key = GOVERNMENT_TYK
+	}
+	text = {
+		trigger = { original_tag = HMA }
+		localization_key = GOVERNMENT_HMA
+	}
+	text = {
+		trigger = { original_tag = WIL }
+		localization_key = GOVERNMENT_WIL
+	}
+	text = {
+		trigger = { original_tag = ZAB }
+		localization_key = GOVERNMENT_ZAB
+	}
+	text = {
+		trigger = { original_tag = SUP }
+		localization_key = GOVERNMENT_SUP
+	}
+	text = {
+		trigger = { original_tag = GRO }
+		localization_key = GOVERNMENT_GRO
+	}
+	text = {
+		trigger = { original_tag = UHL }
+		localization_key = GOVERNMENT_UHL
+	}
+	text = {
+		trigger = { original_tag = DRO }
+		localization_key = GOVERNMENT_DRO
+	}
+	
+	text = {
+		trigger = { original_tag = KEL }
+		localization_key = GOVERNMENT_KEL
+	}
+	text = {
+		trigger = { original_tag = SND
+			has_government = euroliberalism 
+		}
+		localization_key = GOVERNMENT_SND
+	}
+	text = {
+		trigger = { original_tag = SND
+					has_government = socialdemocrature }
+		localization_key = GOVERNMENT_SND2
+	}
+	text = {
+		trigger = { original_tag = STA
+					has_government = autocracy }
+		localization_key = GOVERNMENT_STA
+	}
+	text = {
+		trigger = { original_tag = STA
+					has_government = squattism }
+		localization_key = GOVERNMENT_STA2
+	}
+	text = {
+		trigger = { original_tag = NRA }
+		localization_key = GOVERNMENT_NRA
+	}
+	text = {
+		trigger = { original_tag = NSZ }
+		localization_key = GOVERNMENT_NSZ
+	}
+	text = {
+		trigger = { original_tag = STO }
+		localization_key = GOVERNMENT_STO
+	}
+	text = {
+		trigger = { original_tag = KIE }
+		localization_key = GOVERNMENT_KIE
+	}
+
+	text = {
+		trigger = { original_tag = KRO }
+		localization_key = GOVERNMENT_KRO
+	}
+	text = {
+		trigger = { original_tag = JSO }
+		localization_key = GOVERNMENT_JSO
+	}
+	text = {
+		trigger = { original_tag = DBI }
+		localization_key = GOVERNMENT_DBI
+	}
+	text = {
+		trigger = { original_tag = MIE }
+		localization_key = GOVERNMENT_MIE
+	}
+	text = {
+		trigger = { original_tag = KOL }
+		localization_key = GOVERNMENT_KOL
+	}
+	text = {
+		trigger = { original_tag = KOZ }
+		localization_key = GOVERNMENT_KOZ
+	}
+	text = {
+		trigger = { original_tag = BEX }
+		localization_key = GOVERNMENT_BEX
+	}
+	text = {
+		trigger = { original_tag = BSC }
+		localization_key = GOVERNMENT_BSC
+	}
+	text = {
+		trigger = { original_tag = ANC }
+		localization_key = GOVERNMENT_ANC
+	}
+	text = {
+		trigger = { original_tag = UPA }
+		localization_key = GOVERNMENT_UPA
+	}
+	text = {
+		trigger = { original_tag = UHR }
+		localization_key = GOVERNMENT_UHR
+	}
+	text = {
+		trigger = { original_tag = LGP }
+		localization_key = GOVERNMENT_LGP
+	}
+	text = {
+		trigger = { original_tag = LCZ }
+		localization_key = GOVERNMENT_LCZ
+	}
+	text = {
+		trigger = { original_tag = LEZ }
+		localization_key = GOVERNMENT_LEZ
+	}
+	text = {
+		trigger = { original_tag = CHR }
+		localization_key = GOVERNMENT_CHR
+	}
+	text = {
+		trigger = { original_tag = TAR }
+		localization_key = GOVERNMENT_TAR
+	}
+	text = {
+		trigger = { original_tag = RZE }
+		localization_key = GOVERNMENT_RZE
+	}	
+	
 
 	text = {
 	localization_key = DEFAULT_GOVERNMENT
