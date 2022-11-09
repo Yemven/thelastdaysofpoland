@@ -212,6 +212,26 @@ music = {
 	}
 }
 music = {
+	song = "lodz_pogotowie4"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = KRS
+		}
+	}
+}
+music = {
+	song = "lodz_pogotowie5"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = KRS
+		}
+	}
+}
+music = {
 	song = "lodz_rutkowski1"
 	chance = {
 		base = 1
@@ -233,6 +253,16 @@ music = {
 }
 music = {
 	song = "lodz_rutkowski3"
+	chance = {
+		base = 1
+		modifier = {
+			factor = 100
+			tag = KRS
+		}
+	}
+}
+music = {
+	song = "lodz_rutkowski4"
 	chance = {
 		base = 1
 		modifier = {
