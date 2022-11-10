@@ -1327,10 +1327,11 @@ ai_war_decisions = {
 				}
 
 		available = {
-				original_tag = ROS
-				ROS = { num_of_controlled_states > 1 }
-				NOT = { has_war = yes }
-				date > 2028.02.19
+				always = no
+#				original_tag = ROS
+#				ROS = { num_of_controlled_states > 1 }
+#				NOT = { has_war = yes }
+#				date > 2028.02.19
 		}
 
 		cost = 1
@@ -1389,27 +1390,28 @@ ai_war_decisions = {
 		}
 
 		available = {
-			OR = {	
-				AND = {
-					OR = {
-						original_tag = TEU
-						original_tag = WRM 
-						original_tag = PZW
-					}
-					ROS = { num_of_controlled_states > 1 }
-					NOT = { has_war_with = ROS }
-					date > 2028.04.01
-				}
-				AND = {	
-					OR = {
-						original_tag = TEU
-						original_tag = WRM 
-						original_tag = PZW
-					}
-					ROS = { num_of_controlled_states > 1 }
-					has_war_with = ROS
-				}
-			}
+			always = no
+#			OR = {	
+#				AND = {
+#					OR = {
+#						original_tag = TEU
+#						original_tag = WRM 
+#						original_tag = PZW
+#					}
+#					ROS = { num_of_controlled_states > 1 }
+#					NOT = { has_war_with = ROS }
+#					date > 2028.04.01
+#				}
+#				AND = {	
+#					OR = {
+#						original_tag = TEU
+#						original_tag = WRM 
+#						original_tag = PZW
+#					}
+#					ROS = { num_of_controlled_states > 1 }
+#					has_war_with = ROS
+#				}
+#			}
 		}
 
 		cost = 1
