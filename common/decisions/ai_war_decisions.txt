@@ -7775,6 +7775,43 @@ ai_war_decisions = {
 				}
 		}
 	}
+
+
+	CRN_west_lublin_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = CRN
+			date > 2028.03.01
+			#lubelskie data startu (to po to żebym mógł łatwiej wyszukać i zmieniać do balansowania)
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 15
+		war_with_on_remove = PUL
+		war_with_on_remove = KSN
+		remove_effect  = {
+			log = "[GetDateText]: Decision CRN_west_lublin_war"
+			declare_war_on = {
+				target = PUL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KSN
+				type = annex_everything
+			}
+		}
+	}
 	
 	
 	CRN_east_lublin_war = {
@@ -7826,7 +7863,7 @@ ai_war_decisions = {
 	
 	CRN_buff = {
 
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = GFX_decision_generic_industry
 
 		fire_only_once = yes
 		
@@ -7867,6 +7904,7 @@ ai_war_decisions = {
 		available = {
 			original_tag = PUL
 			date > 2028.03.01
+			#lubelskie data startu
 		}
 
 		cost = 1
@@ -7968,7 +8006,7 @@ ai_war_decisions = {
 	
 	PUL_buff = {
 
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = GFX_decision_generic_industry
 
 		fire_only_once = yes
 		
@@ -8009,6 +8047,7 @@ ai_war_decisions = {
 		available = {
 			original_tag = KSN
 			date > 2028.03.01
+			#lubelskie data startu
 		}
 
 		cost = 1
@@ -8023,6 +8062,38 @@ ai_war_decisions = {
 			log = "[GetDateText]: Decision KSN_czarnek_war"
 			declare_war_on = {
 				target = CRN
+				type = annex_everything
+			}
+		}
+	}
+
+
+	KSN_pulawy_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = KSN
+			NOT = { country_exists = CRN }
+			country_exists = PUL
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 15
+		war_with_on_remove = PUL
+		remove_effect  = {
+			log = "[GetDateText]: Decision KSN_pulawy_war"
+			declare_war_on = {
+				target = PUL
 				type = annex_everything
 			}
 		}
@@ -8078,7 +8149,7 @@ ai_war_decisions = {
 	
 	KSN_buff = {
 
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = GFX_decision_generic_industry
 
 		fire_only_once = yes
 		
@@ -8119,6 +8190,7 @@ ai_war_decisions = {
 		available = {
 			original_tag = SWD
 			date > 2028.03.15
+			#lubelskie data startu
 		}
 
 		cost = 1
@@ -8173,71 +8245,6 @@ ai_war_decisions = {
 			}
 		}
 	}
-	
-	
-	SWD_buff1 = {
-
-		icon = GFX_decision_generic_prepare_civil_war
-
-		fire_only_once = yes
-		
-		allowed = {
-			is_lubelskie = yes
-				}
-
-		available = {
-			original_tag = SWD
-			owns_state = 661
-			owns_state = 277
-			NOT = { country_exists = BPD }
-		}
-
-		cost = 0
-
-		complete_effect = {
-			log = "[GetDateText]: Decision SWD_buff1"
-			load_oob = lub_buff_northeast
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-	}
-	
-	
-	SWD_buff2 = {
-
-		icon = GFX_decision_generic_prepare_civil_war
-
-		fire_only_once = yes
-		
-		allowed = {
-			is_lubelskie = yes
-				}
-
-		available = {
-			original_tag = SWD
-			owns_state = 661
-			owns_state = 277
-			owns_state = 669
-			owns_state = 411
-			NOT = { country_exists = BPD }
-			NOT = { country_exists = ZUK }
-			NOT = { country_exists = BIL }
-			has_decision = SWD_buff1
-		}
-
-		cost = 0
-
-		complete_effect = {
-			log = "[GetDateText]: Decision SWD_buff2"
-			load_oob = lub_buff_east
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-	}
 
 
 	SWD_west_lublin_war = {
@@ -8281,6 +8288,71 @@ ai_war_decisions = {
 			}
 		}
 	}
+	
+	
+	SWD_buff1 = {
+
+		icon = GFX_decision_generic_industry
+
+		fire_only_once = yes
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = SWD
+			owns_state = 661
+			owns_state = 277
+			NOT = { country_exists = BPD }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: Decision SWD_buff1"
+			load_oob = lub_buff_northeast
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	
+	SWD_buff2 = {
+
+		icon = GFX_decision_generic_industry
+
+		fire_only_once = yes
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = SWD
+			owns_state = 661
+			owns_state = 277
+			owns_state = 669
+			owns_state = 411
+			NOT = { country_exists = BPD }
+			NOT = { country_exists = ZUK }
+			NOT = { country_exists = BIL }
+			has_decision = SWD_buff1
+		}
+
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: Decision SWD_buff2"
+			load_oob = lub_buff_east
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
 
 
 	ZUK_bilgoraj_war = {
@@ -8294,6 +8366,7 @@ ai_war_decisions = {
 		available = {
 			original_tag = ZUK
 			date > 2028.03.29
+			#lubelskie data startu
 		}
 
 		cost = 1
@@ -8348,71 +8421,6 @@ ai_war_decisions = {
 			}
 		}
 	}
-	
-	
-	ZUK_buff1 = {
-
-		icon = GFX_decision_generic_prepare_civil_war
-
-		fire_only_once = yes
-		
-		allowed = {
-			is_lubelskie = yes
-				}
-
-		available = {
-			original_tag = ZUK
-			owns_state = 669
-			owns_state = 411
-			NOT = { country_exists = BIL }
-		}
-
-		cost = 0
-
-		complete_effect = {
-			log = "[GetDateText]: Decision ZUK_buff1"
-			load_oob = lub_buff_southeast
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-	}
-	
-	
-	ZUK_buff2 = {
-
-		icon = GFX_decision_generic_prepare_civil_war
-
-		fire_only_once = yes
-		
-		allowed = {
-			is_lubelskie = yes
-				}
-
-		available = {
-			original_tag = ZUK
-			owns_state = 661
-			owns_state = 277
-			owns_state = 669
-			owns_state = 411
-			NOT = { country_exists = SWD }
-			NOT = { country_exists = BPD }
-			NOT = { country_exists = BIL }
-			has_decision = ZUK_buff1
-		}
-
-		cost = 0
-
-		complete_effect = {
-			log = "[GetDateText]: Decision ZUK_buff2"
-			load_oob = lub_buff_east
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-	}
 
 
 	ZUK_west_lublin_war = {
@@ -8456,6 +8464,103 @@ ai_war_decisions = {
 			}
 		}
 	}
+	
+	
+	ZUK_buff1 = {
+
+		icon = GFX_decision_generic_industry
+
+		fire_only_once = yes
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = ZUK
+			owns_state = 669
+			owns_state = 411
+			NOT = { country_exists = BIL }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: Decision ZUK_buff1"
+			load_oob = lub_buff_southeast
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	
+	ZUK_buff2 = {
+
+		icon = GFX_decision_generic_industry
+
+		fire_only_once = yes
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = ZUK
+			owns_state = 661
+			owns_state = 277
+			owns_state = 669
+			owns_state = 411
+			NOT = { country_exists = SWD }
+			NOT = { country_exists = BPD }
+			NOT = { country_exists = BIL }
+			has_decision = ZUK_buff1
+		}
+
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: Decision ZUK_buff2"
+			load_oob = lub_buff_east
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+
+	BIL_zuk_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = BIL
+			date > 2028.03.29
+			#lubelskie data startu
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 15
+		war_with_on_remove = ZUK
+		remove_effect  = {
+			log = "[GetDateText]: Decision BIL_zuk_war"
+			declare_war_on = {
+				target = ZUK
+				type = annex_everything
+			}
+		}
+	}
 
 
 	BIL_northeast_lublin_war = {
@@ -8490,71 +8595,6 @@ ai_war_decisions = {
 				target = BPD
 				type = annex_everything
 			}
-		}
-	}
-	
-	
-	BIL_buff1 = {
-
-		icon = GFX_decision_generic_prepare_civil_war
-
-		fire_only_once = yes
-		
-		allowed = {
-			is_lubelskie = yes
-				}
-
-		available = {
-			original_tag = BIL
-			owns_state = 669
-			owns_state = 411
-			NOT = { country_exists = ZUK }
-		}
-
-		cost = 0
-
-		complete_effect = {
-			log = "[GetDateText]: Decision BIL_buff1"
-			load_oob = lub_buff_southeast
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-	}
-	
-	
-	BIL_buff2 = {
-
-		icon = GFX_decision_generic_prepare_civil_war
-
-		fire_only_once = yes
-		
-		allowed = {
-			is_lubelskie = yes
-				}
-
-		available = {
-			original_tag = BIL
-			owns_state = 661
-			owns_state = 277
-			owns_state = 669
-			owns_state = 411
-			NOT = { country_exists = SWD }
-			NOT = { country_exists = BPD }
-			NOT = { country_exists = ZUK }
-			has_decision = BIL_buff1
-		}
-
-		cost = 0
-
-		complete_effect = {
-			log = "[GetDateText]: Decision BIL_buff2"
-			load_oob = lub_buff_east
-		}
-
-		ai_will_do = {
-			factor = 100
 		}
 	}
 
@@ -8596,6 +8636,103 @@ ai_war_decisions = {
 			}
 			declare_war_on = {
 				target = KSN
+				type = annex_everything
+			}
+		}
+	}
+	
+	
+	BIL_buff1 = {
+
+		icon = GFX_decision_generic_industry
+
+		fire_only_once = yes
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = BIL
+			owns_state = 669
+			owns_state = 411
+			NOT = { country_exists = ZUK }
+		}
+
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: Decision BIL_buff1"
+			load_oob = lub_buff_southeast
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	
+	BIL_buff2 = {
+
+		icon = GFX_decision_generic_industry
+
+		fire_only_once = yes
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = BIL
+			owns_state = 661
+			owns_state = 277
+			owns_state = 669
+			owns_state = 411
+			NOT = { country_exists = SWD }
+			NOT = { country_exists = BPD }
+			NOT = { country_exists = ZUK }
+			has_decision = BIL_buff1
+		}
+
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: Decision BIL_buff2"
+			load_oob = lub_buff_east
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+
+	BPD_swidnik_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = BPD
+			date > 2028.03.15
+			#lubelskie data startu
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 15
+		war_with_on_remove = SWD
+		remove_effect  = {
+			log = "[GetDateText]: Decision BPD_swidnik_war"
+			declare_war_on = {
+				target = SWD
 				type = annex_everything
 			}
 		}
@@ -8683,7 +8820,7 @@ ai_war_decisions = {
 	
 	BPD_buff1 = {
 
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = GFX_decision_generic_industry
 
 		fire_only_once = yes
 		
@@ -8713,7 +8850,7 @@ ai_war_decisions = {
 	
 	BPD_buff2 = {
 
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = GFX_decision_generic_industry
 
 		fire_only_once = yes
 		
