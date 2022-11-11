@@ -4754,13 +4754,13 @@ ai_war_decisions = {
 					original_tag = LMZ
 				}
 				ROOT = { any_neighbor_country = { is_podlasie_tribe = yes } }
-				FROM = { country_exists = yes }
+				FROM = { exists = yes }
 			date > 2027.10.01
 			NOT = { has_war = yes }
-			OR = {
-				is_ai = no
-				is_ai = yes
-			}
+			#OR = {
+				#is_ai = no
+				#is_ai = yes
+			#}
 		}
 
 		cost = 1
