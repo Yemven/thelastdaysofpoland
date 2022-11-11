@@ -59,6 +59,7 @@ characters={
 		portraits={
 			civilian={
 			    small="gfx/interface/ideas/FEL/FEL_kozidrak.dds"
+				large="gfx/leaders/FEL/FEL_Kozidrak.dds"
 			}
 		}
 		advisor = {
@@ -74,11 +75,11 @@ characters={
 			traits = { }
 		}
 		field_marshal = {
-			traits = { }
-			skill=1
-			attack_skill=1
+			traits = { media_personality trickster politically_connected career_officer }
+			skill=2
+			attack_skill=2
 			defense_skill=1
-			planning_skill=1
+			planning_skill=2
 			logistics_skill=1
 			legacy_id=-1
 		}
@@ -110,12 +111,12 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { }
-			skill=1
-			attack_skill=1
-			defense_skill=1
+			traits = { infantry_officer trait_cautious }
+			skill=3
+			attack_skill=2
+			defense_skill=3
 			planning_skill=1
-			logistics_skill=1
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -126,12 +127,12 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
-			skill=1
-			attack_skill=1
-			defense_skill=1
+			traits = { trait_reckless commando }
+			skill=3
+			attack_skill=2
+			defense_skill=3
 			planning_skill=1
-			logistics_skill=1
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -143,11 +144,11 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { politically_connected }
 			skill=1
 			attack_skill=1
-			defense_skill=1
-			planning_skill=1
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=1
 			legacy_id=-1
 		}
@@ -160,11 +161,11 @@ characters={
 		}
 		corps_commander = {
 			traits = { }
-			skill=1
-			attack_skill=1
-			defense_skill=1
+			skill=3
+			attack_skill=2
+			defense_skill=2
 			planning_skill=1
-			logistics_skill=1
+			logistics_skill=3
 			legacy_id=-1
 		}
 	}
@@ -175,10 +176,10 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
-			skill=1
+			traits = { infantry_leader }
+			skill=2
 			attack_skill=1
-			defense_skill=1
+			defense_skill=2
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
@@ -191,11 +192,11 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { career_officer media_personality }
 			skill=1
 			attack_skill=1
 			defense_skill=1
-			planning_skill=1
+			planning_skill=2
 			logistics_skill=1
 			legacy_id=-1
 		}
