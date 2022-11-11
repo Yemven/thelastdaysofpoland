@@ -452,7 +452,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				option = PAF_DEFAULT_WARGOALS
 			}
 		}
-		FROM = { has_country_flag = unified_voivodeship }
+		ROOT = { has_country_flag = unified_voivodeship }
 	}
 }
 DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
