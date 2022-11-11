@@ -22,6 +22,7 @@ lodz_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision lodz_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = ZHP }
 			set_cosmetic_tag = ZHP_voivodeship
@@ -205,6 +206,7 @@ lubelskie_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision lubelskie_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = CRN }
 			hidden_effect = {
@@ -326,6 +328,7 @@ zaglebie_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision zaglebie_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = DGR }
 			set_cosmetic_tag = DGR_voivodeship
@@ -448,6 +451,7 @@ upper_silesia_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision upper_silesia_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = ASG }
 			set_cosmetic_tag = ASG_voivodeship
@@ -611,6 +615,7 @@ south_greater_poland_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision south_greater_poland_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = CAL }
 			set_cosmetic_tag = CAL_voivodeship
@@ -689,6 +694,7 @@ tatry_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision tatry_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = CIE }
 			set_cosmetic_tag = CIE_voivodeship
@@ -812,6 +818,7 @@ northen_greater_poland_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision northen_greater_poland_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = POZ }
 			set_cosmetic_tag = POZ_voivodeship
@@ -906,6 +913,7 @@ lower_silesia_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision lower_silesia_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = WRO }
 			set_cosmetic_tag = WRO_voivodeship
@@ -1060,6 +1068,7 @@ opole_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision opole_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = MNI }
 			set_cosmetic_tag = MNI_voivodeship
@@ -1171,6 +1180,7 @@ lubuskie_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision lubuskie_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = ZAG }
 			set_cosmetic_tag = ZAG_voivodeship
@@ -1254,6 +1264,7 @@ west_pomerania_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision west_pomerania_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = JAS }
 			set_cosmetic_tag = JAS_voivodeship
@@ -1364,6 +1375,7 @@ kuyavia_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision kuyavia_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = INO }
 			set_cosmetic_tag = INO_voivodeship
@@ -1460,6 +1472,7 @@ pomerelia_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision pomerelia_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = OWS }
 			set_cosmetic_tag = OWS_voivodeship
@@ -1607,6 +1620,7 @@ warmia_and_masuria_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision warmia_and_masuria_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = MAL }
 			set_cosmetic_tag = MAL_voivodeship
@@ -1716,6 +1730,7 @@ podlasie_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision podlasie_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = SAN }
 			set_cosmetic_tag = SAN_voivodeship
@@ -1851,6 +1866,7 @@ radom_province_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision radom_province_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = SAT }
 			set_cosmetic_tag = SAT_voivodeship
@@ -1934,6 +1950,7 @@ mazovia_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision mazovia_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = ORL }
 			set_cosmetic_tag = ORL_voivodeship
@@ -2002,6 +2019,7 @@ capital_district_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision capital_district_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = MAF }
 			set_cosmetic_tag = MAF_voivodeship
@@ -2156,6 +2174,7 @@ holy_cross_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision holy_cross_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = KEL }
 			set_cosmetic_tag = KEL_voivodeship
@@ -2281,6 +2300,7 @@ subcarpathia_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision subcarpathia_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = RZE }
 			set_cosmetic_tag = RZE_voivodeship
@@ -2420,6 +2440,7 @@ lesser_poland_voivodeship_unification = {
 
 	complete_effect = {
 		log = "[GetDateText]: Decision lesser_poland_voivodeship_unification"
+		set_country_flag = unified_voivodeship
 		if = {
 			limit = { tag = KRK }
 			set_cosmetic_tag = KRK_voivodeship

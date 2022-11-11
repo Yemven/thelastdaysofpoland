@@ -24,70 +24,51 @@ country_event = {
 			id = rosja.2
 			}
 		}
-		set_country_flag = ziggers_btfo
-		white_peace = TEU
-		log = "[GetDateText]: [ROOT.GetName] WPs with [TEU.GetName]"
+		#white_peace = TEU
+		#log = "[GetDateText]: [ROOT.GetName] WPs with [TEU.GetName]"
 		white_peace = WRM
 		log = "[GetDateText]: [ROOT.GetName] WPs with [WRM.GetName]"
-		white_peace = MAL
-		log = "[GetDateText]: [ROOT.GetName] WPs with [MAL.GetName]"
-		white_peace = PRU
-		log = "[GetDateText]: [ROOT.GetName] WPs with [PRU.GetName]"
-		white_peace = PZW
-		log = "[GetDateText]: [ROOT.GetName] WPs with [PZW.GetName]"
+		#white_peace = MAL
+		#log = "[GetDateText]: [ROOT.GetName] WPs with [MAL.GetName]"
+		#white_peace = PRU
+		#log = "[GetDateText]: [ROOT.GetName] WPs with [PRU.GetName]"
+		#white_peace = PZW
+		#log = "[GetDateText]: [ROOT.GetName] WPs with [PZW.GetName]"
 		40 = {
 			add_core_of = TEU
+			transfer_state_to = TEU
 		}
 		log = "[GetDateText]: [TEU.GetName] cores [40.GetName]"
 		632 = {
 			add_core_of = TEU
+			transfer_state_to = TEU
 		}
 		log = "[GetDateText]: [TEU.GetName] cores [632.GetName]"
 		42 = {
-			add_core_of = WRM			
+			add_core_of = WRM
+			transfer_state_to = WRM
 		}
 		log = "[GetDateText]: [WRM.GetName] cores [42.GetName]"
 		47 = {
 			add_core_of = WRM
+			transfer_state_to = WRM
 		}
 		log = "[GetDateText]: [WRM.GetName] cores [47.GetName]"
 		51 = {
 			add_core_of = PZW
+			transfer_state_to = PZW
 		}
 		log = "[GetDateText]: [PZW.GetName] cores [51.GetName]"
 		46 = {
 			add_core_of = PZW
+			transfer_state_to = PZW
 		}
 		log = "[GetDateText]: [PZW.GetName] cores [46.GetName]"
 		875 = {
 			add_core_of = PZW
+			transfer_state_to = PZW
 		}
 		log = "[GetDateText]: [PZW.GetName] cores [875.GetName]"
-		every_owned_state = {
-			limit = { is_core_of = TEU }
-			TEU = { transfer_state = PREV }
-		}
-		log = "[GetDateText]: [TEU.GetName] get their cores"
-		every_owned_state = {
-			limit = { is_core_of = WRM }
-			WRM = { transfer_state = PREV }
-		}
-		log = "[GetDateText]: [WRM.GetName] get their cores"
-		every_owned_state = {
-			limit = { is_core_of = PRU }
-			PRU = { transfer_state = PREV }
-		}
-		log = "[GetDateText]: [PRU.GetName] get their cores"
-		every_owned_state = {
-			limit = { is_core_of = MAL }
-			MAL = { transfer_state = PREV }
-		}
-		log = "[GetDateText]: [MAL.GetName] get their cores"
-		every_owned_state = {
-			limit = { is_core_of = PZW }
-			PZW = { transfer_state = PREV }
-		}
-		log = "[GetDateText]: [PZW.GetName] get their cores"
 		set_politics = {
 			ruling_party = reactionary
 		}
@@ -109,6 +90,10 @@ news_event = {
 	option = {
 		name = rosja.2.a
 		hidden_effect = {
+			PRU = { leave_faction = yes }
+			log = "[GetDateText]: [PRU.GetName] quits faction"
+			MAL = { leave_faction = yes }
+			log = "[GetDateText]: [MAL.GetName] quits faction"
 			PZW = { leave_faction = yes }
 			log = "[GetDateText]: [PZW.GetName] quits faction"
 			TEU = { leave_faction = yes }
