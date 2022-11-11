@@ -47,6 +47,10 @@ equipments = {
 	}
 	
 	primitive_aircraft_equipment = {
+		allow_mission_type = {
+			recon
+		}
+	
 		year = 1936
 		
 		archetype = aircraft_equipment
@@ -65,6 +69,7 @@ equipments = {
 	
 	fighter_equipment = {
 		year = 1918
+		
 		
 		is_archetype = yes
 		is_convertable = yes
@@ -111,6 +116,13 @@ equipments = {
 	fighter_equipment_0 = {
 		year = 1938
 		
+		allow_mission_type = {
+			air_superiority
+			interception
+			recon
+			naval_patrol
+		}
+		
 		archetype = fighter_equipment
 		parent = primitive_aircraft_equipment
 		type = {
@@ -136,6 +148,13 @@ equipments = {
 	
 	fighter_equipment_1 = {
 		year = 1940
+		
+		allow_mission_type = {
+			air_superiority
+			interception
+			recon
+			naval_patrol
+		}
 		
 		archetype = fighter_equipment
 		parent = fighter_equipment_0
@@ -163,6 +182,13 @@ equipments = {
 	fighter_equipment_2 = {
 		year = 1942
 		
+		allow_mission_type = {
+			air_superiority
+			interception
+			recon
+			naval_patrol
+		}
+		
 		archetype = fighter_equipment
 		parent = fighter_equipment_1
 		type = {
@@ -189,6 +215,13 @@ equipments = {
 	fighter_equipment_3 = {
 		year = 1944
 		
+		allow_mission_type = {
+			air_superiority
+			interception
+			recon
+			naval_patrol
+		}
+		
 		archetype = fighter_equipment
 		parent = fighter_equipment_2
 		type = {
@@ -214,6 +247,13 @@ equipments = {
 	
 	fighter_equipment_4 = {
 		year = 1946
+		
+		allow_mission_type = {
+			air_superiority
+			interception
+			recon
+			naval_patrol
+		}
 		
 		archetype = fighter_equipment
 		parent = fighter_equipment_3
@@ -286,6 +326,16 @@ equipments = {
 	bomber_equipment_0 = {
 		year = 1938
 		
+		allow_mission_type = {
+			cas
+			strategic_bomber
+			naval_bomber
+			port_strike
+			attack_logistics
+			naval_mines_planting
+			naval_mines_sweeping
+		}
+		
 		archetype = bomber_equipment
 		parent = primitive_aircraft_equipment
 		type = {
@@ -310,6 +360,16 @@ equipments = {
 	
 	bomber_equipment_1 = {
 		year = 1940
+		
+		allow_mission_type = {
+			cas
+			strategic_bomber
+			naval_bomber
+			port_strike
+			attack_logistics
+			naval_mines_planting
+			naval_mines_sweeping
+		}
 		
 		archetype = bomber_equipment
 		parent = bomber_equipment_0
@@ -336,6 +396,16 @@ equipments = {
 	bomber_equipment_2 = {
 		year = 1942
 		
+		allow_mission_type = {
+			cas
+			strategic_bomber
+			naval_bomber
+			port_strike
+			attack_logistics
+			naval_mines_planting
+			naval_mines_sweeping
+		}
+		
 		archetype = bomber_equipment
 		parent = bomber_equipment_1
 		type = {
@@ -361,6 +431,16 @@ equipments = {
 	bomber_equipment_3 = {
 		year = 1944
 		
+		allow_mission_type = {
+			cas
+			strategic_bomber
+			naval_bomber
+			port_strike
+			attack_logistics
+			naval_mines_planting
+			naval_mines_sweeping
+		}
+		
 		archetype = bomber_equipment
 		parent = bomber_equipment_2
 		type = {
@@ -385,6 +465,16 @@ equipments = {
 	
 	bomber_equipment_4 = {
 		year = 1946
+		
+		allow_mission_type = {
+			cas
+			strategic_bomber
+			naval_bomber
+			port_strike
+			attack_logistics
+			naval_mines_planting
+			naval_mines_sweeping
+		}
 		
 		archetype = bomber_equipment
 		parent = bomber_equipment_3
@@ -449,6 +539,13 @@ equipments = {
 	transport_equipment_0 = {
 		year = 1938
 		
+		allow_mission_type = {
+			paradrop
+			air_supply
+			naval_mines_planting
+			naval_mines_sweeping
+		}
+		
 		archetype = transport_equipment
 		parent = primitive_aircraft_equipment
 		type = {
@@ -467,6 +564,13 @@ equipments = {
 	
 	transport_equipment_1 = {
 		year = 1940
+		
+		allow_mission_type = {
+			paradrop
+			air_supply
+			naval_mines_planting
+			naval_mines_sweeping
+		}
 		
 		archetype = transport_equipment
 		parent = transport_equipment_0
@@ -487,6 +591,13 @@ equipments = {
 	transport_equipment_2 = {
 		year = 1942
 		
+		allow_mission_type = {
+			paradrop
+			air_supply
+			naval_mines_planting
+			naval_mines_sweeping
+		}
+		
 		archetype = transport_equipment
 		parent = transport_equipment_1
 		type = {
@@ -506,6 +617,13 @@ equipments = {
 	transport_equipment_3 = {
 		year = 1944
 		
+		allow_mission_type = {
+			paradrop
+			air_supply
+			naval_mines_planting
+			naval_mines_sweeping
+		}
+		
 		archetype = transport_equipment
 		parent = transport_equipment_2
 		type = {
@@ -524,6 +642,13 @@ equipments = {
 	
 	transport_equipment_4 = {
 		year = 1946
+		
+		allow_mission_type = {
+			paradrop
+			air_supply
+			naval_mines_planting
+			naval_mines_sweeping
+		}
 		
 		archetype = transport_equipment
 		parent = transport_equipment_3

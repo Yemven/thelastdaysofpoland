@@ -4729,8 +4729,13 @@ ai_war_decisions = {
 		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
-			is_podlasie = yes
+				is_podlasie = yes
+			NOT = {
+				is_podlasie_tribe = yes
+				original_tag = AGR
+				original_tag = SDL
 				}
+			}
 		
 		target_array = global.podlasie_tribes
 		target_trigger = {
@@ -4752,6 +4757,10 @@ ai_war_decisions = {
 				FROM = { country_exists = yes }
 			date > 2027.10.01
 			NOT = { has_war = yes }
+			OR = {
+				is_ai = no
+				is_ai = yes
+			}
 		}
 
 		cost = 1

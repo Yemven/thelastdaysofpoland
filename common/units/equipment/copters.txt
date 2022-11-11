@@ -46,6 +46,12 @@ equipments = {
 	}
 	
 	china_drone_equipment = {
+		allow_mission_type = {
+			naval_patrol
+			naval_kamikaze
+			recon
+		}	
+
 		year = 1936
 		
 		archetype = uav_equipment
@@ -63,6 +69,12 @@ equipments = {
 	
 	drone_0_equipment = {
 		year = 1938
+		
+		allow_mission_type = {
+			naval_patrol
+			naval_kamikaze
+			recon
+		}	
 		
 		parent = china_drone_equipment
 		
@@ -82,6 +94,12 @@ equipments = {
 	drone_1_equipment = {
 		year = 1940
 		
+		allow_mission_type = {
+			naval_patrol
+			naval_kamikaze
+			recon
+		}	
+		
 		parent = drone_0_equipment
 		
 		archetype = uav_equipment
@@ -99,6 +117,13 @@ equipments = {
 	
 	drone_2_equipment = {
 		year = 1942
+		
+		allow_mission_type = {
+			naval_patrol
+			naval_kamikaze
+			recon
+			cas
+		}	
 		
 		parent = drone_1_equipment
 		
@@ -118,6 +143,13 @@ equipments = {
 	drone_3_equipment = {
 		year = 1944
 		
+		allow_mission_type = {
+			naval_patrol
+			naval_kamikaze
+			recon
+			cas
+		}
+		
 		parent = drone_2_equipment
 		
 		archetype = uav_equipment
@@ -135,6 +167,13 @@ equipments = {
 	
 	drone_4_equipment = {
 		year = 1946
+		
+		allow_mission_type = {
+			naval_patrol
+			naval_kamikaze
+			recon
+			cas
+		}
 		
 		parent = drone_3_equipment
 		
@@ -201,6 +240,10 @@ equipments = {
 	helicopter_0_equipment = {
 		year = 1938
 		
+		allow_mission_type = {
+			naval_patrol
+			recon
+		}
 		
 		archetype = helicopter_equipment
 		priority = 5
@@ -217,6 +260,13 @@ equipments = {
 	
 	helicopter_1_equipment = {
 		year = 1940
+		
+		allow_mission_type = {
+			naval_patrol
+			recon
+			cas
+			air_superiority
+		}
 		
 		parent = helicopter_0_equipment
 		
@@ -236,6 +286,13 @@ equipments = {
 	helicopter_2_equipment = {
 		year = 1942
 		
+		allow_mission_type = {
+			naval_patrol
+			recon
+			cas
+			air_superiority
+		}
+		
 		parent = helicopter_1_equipment
 		
 		archetype = helicopter_equipment
@@ -254,6 +311,13 @@ equipments = {
 	helicopter_3_equipment = {
 		year = 1944
 		
+		allow_mission_type = {
+			naval_patrol
+			recon
+			cas
+			air_superiority
+		}
+		
 		parent = helicopter_2_equipment
 		
 		archetype = helicopter_equipment
@@ -271,6 +335,13 @@ equipments = {
 	
 	helicopter_4_equipment = {
 		year = 1946
+		
+		allow_mission_type = {
+			naval_patrol
+			recon
+			cas
+			air_superiority
+		}
 		
 		parent = helicopter_3_equipment
 		
@@ -329,6 +400,11 @@ equipments = {
 	trans_helicopter_equipment_0 = {
 		year = 2000
 		
+		allow_mission_type = {
+			paradrop
+			air_supply
+		}
+		
 		archetype = trans_helicopter_equipment
 		parent = helicopter_2_equipment
 		type = {
@@ -349,6 +425,11 @@ equipments = {
 	trans_helicopter_equipment_1 = {
 		year = 2036
 		
+		allow_mission_type = {
+			paradrop
+			air_supply
+		}
+		
 		archetype = trans_helicopter_equipment
 		parent = trans_helicopter_equipment_0
 		type = {
@@ -367,6 +448,11 @@ equipments = {
 	
 	trans_helicopter_equipment_2 = {
 		year = 2040
+		
+		allow_mission_type = {
+			paradrop
+			air_supply
+		}
 		
 		archetype = trans_helicopter_equipment
 		parent = trans_helicopter_equipment_1
