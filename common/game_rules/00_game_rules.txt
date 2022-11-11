@@ -30,10 +30,15 @@ allow_wargoals = {
 		text = RULE_OPTION_ALWAYS_FREE
 		desc = "RULE_ALLOW_WARGOALS_ALWAYS_FREE_DESC"
 	}
-	default = {
+	option = {
 		name = "FOCUSES_ONLY"
 		text = RULE_OPTION_FOCUSES_ONLY
 		desc = "RULE_ALLOW_WARGOALS_FOCUSES_ONLY_DESC"
+	}
+	default = {
+		name = "PAF_DEFAULT_WARGOALS"
+		text = RULE_OPTION_PAF_DEFAULT_WARGOALS
+		desc = "RULE_ALLOW_WARGOALS_PAF_DEFAULT_WARGOALS_DESC"
 	}
 }
 allow_access = {

@@ -1314,7 +1314,7 @@ ai_war_decisions = {
 					target = MAL
 					type = annex_everything
 				}
-				}
+			}
 		}
 	}
 
@@ -1328,10 +1328,10 @@ ai_war_decisions = {
 
 		available = {
 				always = no
-#				original_tag = ROS
-#				ROS = { num_of_controlled_states > 1 }
-#				NOT = { has_war = yes }
-#				date > 2028.02.19
+				original_tag = ROS
+				ROS = { num_of_controlled_states > 1 }
+				NOT = { has_war = yes }
+				date > 2028.02.19
 		}
 
 		cost = 1
@@ -1391,87 +1391,23 @@ ai_war_decisions = {
 
 		available = {
 			always = no
-#			OR = {	
-#				AND = {
-#					OR = {
-#						original_tag = TEU
-#						original_tag = WRM 
-#						original_tag = PZW
-#					}
-#					ROS = { num_of_controlled_states > 1 }
-#					NOT = { has_war_with = ROS }
-#					date > 2028.04.01
-#				}
-#				AND = {	
-#					OR = {
-#						original_tag = TEU
-#						original_tag = WRM 
-#						original_tag = PZW
-#					}
-#					ROS = { num_of_controlled_states > 1 }
-#					has_war_with = ROS
-#				}
-#			}
+			OR = {	
+				AND = {
+					original_tag = WRM 				
+					ROS = { num_of_controlled_states > 1 }
+					NOT = { has_war_with = ROS }
+					date > 2028.04.01
+				}
+				AND = {	
+					original_tag = WRM 
+					ROS = { num_of_controlled_states > 1 }
+					has_war_with = ROS
+				}
+			}
 		}
 
 		cost = 1
 		
-		complete_effect = {
-			set_global_flag = anti_russian_front_created
-			if = {
-				limit = {
-					or = {
-						and = {
-							original_tag = TEU
-							not = {
-								WRM = {
-									has_country_flag = was_called_first
-								}
-							}
-							not = {
-								PZW = {
-									has_country_flag = was_called_first
-								}
-							}
-						}
-						and = {
-							original_tag = WRM
-							not = {
-								TEU = {
-									has_country_flag = was_called_first
-								}
-							}
-							not = {
-								PZW = {
-									has_country_flag = was_called_first
-								}
-							}
-						}
-						and = {
-							original_tag = PZW
-							not = {
-								TEU = {
-									has_country_flag = was_called_first
-								}
-							}
-							not = {
-								WRM = {
-									has_country_flag = was_called_first
-								}
-							}
-						}
-					}
-				}
-				log = "[GetDateText]: [ROOT.GetName] was called first"
-				set_country_flag = was_called_first
-			}
-		}
-		cancel_trigger = {
-			has_global_flag = anti_russian_front_created
-			not = {
-				has_country_flag = was_called_first
-			}
-		}
 		ai_will_do = {
 			factor = 100
 		}
@@ -1495,14 +1431,16 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 			}
-			WRM = {
-				log = "[GetDateText]: [WRM.GetName] creates Anti-Russian Front"
-				create_faction = "Anti-Russian Front"
-				log = "[GetDateText]: [WRM.GetName] adds [TEU.GetName] to Anti-Russian Front"
-				add_to_faction = TEU
-				log = "[GetDateText]: [WRM.GetName] adds [PZW.GetName] to Anti-Russian Front"
-				add_to_faction = PZW
-			}
+			log = "[GetDateText]: [WRM.GetName] creates Anti-Russian Front"
+			create_faction = "Anti-Russian Front"
+			log = "[GetDateText]: [WRM.GetName] adds [TEU.GetName] to Anti-Russian Front"
+			add_to_faction = TEU
+			log = "[GetDateText]: [WRM.GetName] adds [PZW.GetName] to Anti-Russian Front"
+			add_to_faction = PZW
+			log = "[GetDateText]: [WRM.GetName] adds [PRU.GetName] to Anti-Russian Front"
+			add_to_faction = PRU
+			log = "[GetDateText]: [WRM.GetName] adds [MAL.GetName] to Anti-Russian Front"
+			add_to_faction = MAL
 			every_country = {
 				limit = {
 					is_ai = no
