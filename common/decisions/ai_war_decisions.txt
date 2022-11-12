@@ -4692,6 +4692,7 @@ ai_war_decisions = {
 					original_tag = LMZ
 				}
 				ROOT = { any_neighbor_country = { is_podlasie_tribe = yes } }
+				FROM = { is_neighbor_of = ROOT }
 				FROM = { exists = yes }
 			date > 2027.10.01
 			NOT = { has_war = yes }
@@ -4711,11 +4712,11 @@ ai_war_decisions = {
 		remove_effect  = {
 			log = "[GetDateText]: Decision podlasie_plemiona"
 				ROOT = {
-				declare_war_on = {
-					target = FROM
-					type = annex_everything
+					declare_war_on = {
+						target = FROM
+						type = annex_everything
 				}
-				}
+			}
 		}
 	}	
 	
