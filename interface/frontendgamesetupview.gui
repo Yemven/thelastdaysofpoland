@@ -170,7 +170,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 26 y = -778 }
+			position = { x = 26 y = -808 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}		
@@ -178,7 +178,7 @@ guiTypes = {
 		buttonType = {
 			name = "country"	
 			quadTextureSprite = "GFX_country_selection_minor_entry"
-			position = { x=0 y =-800 }
+			position = { x=0 y =-830 }
 			clicksound = click_checkbox
 		}		
 	}
@@ -601,9 +601,9 @@ guiTypes = {
 	containerWindowType = {
 		name ="gamesetup_interesting_countries_window"
 		size = { width=1800 height=1000 }
-		Orientation = lower_left
-		origo = lower_left
-		clipping = no
+		Orientation = center
+		origo = center
+		clipping = yes
 		moveable = yes
 		scale = 0.93
 		
