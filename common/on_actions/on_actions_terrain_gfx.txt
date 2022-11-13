@@ -3737,6 +3737,96 @@ on_actions = {
 					province = { id = 11352 }
 				}
 			}
+			89 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_chojnice }
+					province = { id = 423 }
+				}
+			}
+			74 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_czersk }
+					province = { id = 16733 }
+				}
+			}
+			81 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_czluchow }
+					province = { id = 1894 }
+				}
+			}
+			65 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_gniew }
+					province = { id = 15825 }
+				}
+			}
+			36 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_kartuzy }
+					province = { id = 16094 }
+				}
+			}
+			62 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_koscierzyna }
+					province = { id = 16173 }
+				}
+			}
+			15 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_krynica_morska }
+					province = { id = 15967 }
+				}
+			}
+			87 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_kwidzyn }
+					province = { id = 3586 }
+				}
+			}
+			64 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_malbork }
+					province = { id = 15947 }
+				}
+			}
+			15 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_nowy_dwor_gdanski }
+					province = { id = 430 }
+				}
+			}
+			630 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_pruszcz_gdanski }
+					province = { id = 3543 }
+				}
+			}
+			629 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_skarszewy }
+					province = { id = 15855 }
+				}
+			}
+			629 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_starogard_gdanski }
+					province = { id = 161 }
+				}
+			}
+			77 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_sztum }
+					province = { id = 15932 }
+				}
+			}
+			65 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_tczew }
+					province = { id = 1182 }
+				}
+			}
 		}
 	}
 }
