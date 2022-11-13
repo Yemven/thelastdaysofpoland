@@ -50,7 +50,7 @@ guiTypes = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
 			orientation = "CENTER"
-			centerPosition = yes
+			position = { x = 80 y = 20 }
 		}
 	}
 
@@ -63,7 +63,7 @@ guiTypes = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
 			orientation = "CENTER"
-			position = { x = -20 y = -25 }
+			
 		}
 	}
 
@@ -170,7 +170,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 26 y = 22 }
+			position = { x = 26 y = -778 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}		
@@ -178,7 +178,7 @@ guiTypes = {
 		buttonType = {
 			name = "country"	
 			quadTextureSprite = "GFX_country_selection_minor_entry"
-			position = { x=0 y =0 }
+			position = { x=0 y =-800 }
 			clicksound = click_checkbox
 		}		
 	}
@@ -600,8 +600,12 @@ guiTypes = {
 	
 	containerWindowType = {
 		name ="gamesetup_interesting_countries_window"
-		size = { width=100% height=100% }
+		size = { width=1800 height=1000 }
+		Orientation = lower_left
+		origo = lower_left
 		clipping = no
+		moveable = yes
+		scale = 0.93
 		
 		instantTextBoxType = {
 			name = "title"
@@ -696,7 +700,7 @@ guiTypes = {
 		iconType = {
 			name = "minor_country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 351 y = 755 }
+			position = { x = 351 y = 751 }
 			scale=1.11
 
 		}
@@ -826,7 +830,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name ="ideas"
-				position = { x = -40 y = 20 }
+				position = { x = -50 y = 30 }
 				size = { width = 100%% height = 70 }
 				
 				gridboxType = {
@@ -842,7 +846,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name ="focus"
-				position = { x = 45 y = 130 }
+				position = { x = 150 y = 190 }
 				size = { width = 100% height = 100 }
 				
 				gridboxType = {
