@@ -1327,7 +1327,7 @@ ai_war_decisions = {
 				}
 
 		available = {
-				always = no
+#				always = no
 				original_tag = ROS
 				ROS = { num_of_controlled_states > 1 }
 				NOT = { has_war = yes }
@@ -1377,7 +1377,31 @@ ai_war_decisions = {
 					target = PZW
 					type = annex_everything
 				}
-				}	
+			}	
+			activate_mission = we_will_be_in_month_in_olsztyn_da
+		}
+	}
+
+	we_will_be_in_month_in_olsztyn_da = {
+		allowed = {
+			always = no
+		}
+		available = {
+			ROS = {
+				controls_state = 91
+			}
+		}
+		icon = mission_icon
+		days_mission_timeout = 30
+		complete_effect = { #xaxaxaaxa
+		
+		}
+		timeout_effect = { #oi blin
+			ROS = {
+				country_event = {
+					id = rosja.1
+				}
+			}
 		}
 	}
 
@@ -1390,7 +1414,6 @@ ai_war_decisions = {
 		}
 
 		available = {
-			always = no
 			OR = {	
 				AND = {
 					original_tag = WRM 				
@@ -1437,10 +1460,6 @@ ai_war_decisions = {
 			add_to_faction = TEU
 			log = "[GetDateText]: [WRM.GetName] adds [PZW.GetName] to Anti-Russian Front"
 			add_to_faction = PZW
-			log = "[GetDateText]: [WRM.GetName] adds [PRU.GetName] to Anti-Russian Front"
-			add_to_faction = PRU
-			log = "[GetDateText]: [WRM.GetName] adds [MAL.GetName] to Anti-Russian Front"
-			add_to_faction = MAL
 			every_country = {
 				limit = {
 					is_ai = no
