@@ -44,4 +44,10 @@ bitmapfonts = {
 		path = "gfx/fonts/garamond_12"
 		color = 0xffffffff
 	}
+	bitmapfont = {
+		name = "invisiblefont"
+		path = "gfx/fonts/invisiblefont"
+		color = 0xffffffff
+		textcolors = { }
+	}
 }
