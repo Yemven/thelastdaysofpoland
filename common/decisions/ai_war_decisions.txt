@@ -4686,13 +4686,13 @@ ai_war_decisions = {
 		icon = GFX_decision_generic_prepare_civil_war
 		
 		allowed = {
-				is_podlasie = yes
+			is_podlasie = yes
 			NOT = {
 				is_podlasie_tribe = yes
 				original_tag = AGR
 				original_tag = SDL
-				}
 			}
+		}
 		
 		target_array = global.podlasie_tribes
 		target_trigger = {
@@ -4714,7 +4714,10 @@ ai_war_decisions = {
 				FROM = { is_neighbor_of = ROOT }
 				FROM = { exists = yes }
 			date > 2027.10.01
-			NOT = { has_war = yes }
+			NOT = {
+				has_war = yes
+				has_country_flag = podlasie_wojna
+			}
 			#OR = {
 				#is_ai = no
 				#is_ai = yes
@@ -4728,13 +4731,21 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 10
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = podlasie_wojna
+			}
+		}
 		remove_effect  = {
 			log = "[GetDateText]: Decision podlasie_plemiona"
-				ROOT = {
-					declare_war_on = {
-						target = FROM
-						type = annex_everything
+			ROOT = {
+				declare_war_on = {
+					target = FROM
+					type = annex_everything
 				}
+			}
+			hidden_effect = {
+				clr_country_flag = podlasie_wojna
 			}
 		}
 	}	
@@ -4745,7 +4756,7 @@ ai_war_decisions = {
 		
 		allowed = {
 			is_west_pomerania = yes
-				}
+		}
 
 		available = {
 				OR = {
