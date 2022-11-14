@@ -14,14 +14,12 @@ coring_category = {
 			}
 		}
 		available = {
-			has_political_power > FROM.coring_cost
+				has_political_power > FROM.coring_cost
         }
 		days_remove = 30
 		custom_cost_trigger = {
 			has_political_power > FROM.coring_cost
 		}
-		custom_cost_text = coring_cost
-		cost = coring_cost
 		complete_effect = {
 			set_temp_variable = { coring_pp_cost = FROM.coring_cost }
 			multiply_temp_variable = { coring_pp_cost = -1 }

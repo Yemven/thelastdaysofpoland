@@ -187,13 +187,13 @@ coring_category = {
 		always = yes
 	}
 	on_map_area = {
-		target_array = owned_states
+		target_array = core_states
 		target_trigger = {
 			any_owned_state = {
 				NOT = { is_core_of = ROOT }
 			}
 		}
-		name = coring_map_category_name
+		name = current_cores
 		zoom = 1000
 	}
 }
