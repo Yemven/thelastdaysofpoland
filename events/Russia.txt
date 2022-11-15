@@ -668,6 +668,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.14" }
+
 	option = {
 		name = kacap.14.a 
        set_global_flag = Super_Event_Visible
@@ -707,6 +709,8 @@ news_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires kacap.16" }
+
 	option = {
 		name = kacap.16.a 
        set_global_flag = Super_Event_Visible

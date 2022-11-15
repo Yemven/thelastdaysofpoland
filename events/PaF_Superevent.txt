@@ -10,12 +10,14 @@ news_event = {
 
 	fire_only_once = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.1" }
+
 	option = {
 		name = super.1.a
 
         set_global_flag = Super_Event_Visible
         set_global_flag = BBW_karbonizacja_super_visible
-       hidden_effect = {
+		hidden_effect = {
 
 			sound_effect = "BBW_karbonizacja_super"
 		}
@@ -31,6 +33,8 @@ news_event = {
 	is_triggered_only = yes
 
 	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.2" }
 
 	option = {
 		name = super.2.a
@@ -55,6 +59,8 @@ news_event = {
 
 	fire_only_once = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.3" }
+
 	option = {
 		name = super.3.a
 
@@ -78,6 +84,8 @@ news_event = {
 
 	fire_only_once = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.4" }
+
 	option = {
 		name = super.4.a
 
@@ -100,6 +108,8 @@ news_event = {
 	is_triggered_only = yes
 
 	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.5" }
 
 	option = {
 		name = super.5.a
@@ -125,6 +135,8 @@ news_event = {
 
 	fire_only_once = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.6" }
+
 	option = {
 		name = super.6.a
 
@@ -147,6 +159,8 @@ news_event = {
 	is_triggered_only = yes
 
 	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.7" }
 
 	option = {
 		name = super.7.a
@@ -171,6 +185,8 @@ news_event = {
 
 	fire_only_once = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.8" }
+
 	option = {
 		name = super.8.a
 
@@ -193,6 +209,8 @@ news_event = {
 	is_triggered_only = yes
 
 	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.9" }
 
 	option = {
 		name = super.9.a
@@ -217,6 +235,8 @@ news_event = {
 
 	fire_only_once = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.10" }
+
 	option = {
 		name = super.10.a
 
@@ -239,6 +259,8 @@ news_event = {
 	is_triggered_only = yes
 
 	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.11" }
 
 	option = {
 		name = super.11.a
@@ -263,6 +285,8 @@ news_event = {
 
 	fire_only_once = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.12" }
+
 	option = {
 		name = super.12.a
 
@@ -285,6 +309,8 @@ news_event = {
 	is_triggered_only = yes
 
 	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.13" }
 
 	option = {
 		name = super.13.a
@@ -309,6 +335,8 @@ news_event = {
 
 	fire_only_once = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.14" }
+
 	option = {
 		name = super.14.a
 
@@ -331,6 +359,8 @@ news_event = {
 	is_triggered_only = yes
 
 	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.15" }
 
 	option = {
 		name = super.15.a
@@ -355,6 +385,8 @@ news_event = {
 
 	fire_only_once = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.16" }
+
 	option = {
 		name = super.16.a
 
@@ -377,6 +409,8 @@ news_event = {
 	is_triggered_only = yes
 
 	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.17" }
 
 	option = {
 		name = super.17.a
@@ -401,6 +435,8 @@ news_event = {
 
 	fire_only_once = yes
 
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.18" }
+
 	option = {
 		name = super.18.a
 
@@ -423,6 +459,8 @@ news_event = {
 	is_triggered_only = yes
 
 	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.19" }
 
 	option = {
 		name = super.19.a
