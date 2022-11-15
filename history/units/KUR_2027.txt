@@ -30,7 +30,7 @@ division_template = {
 units = {
 	division = {
 		name = "Siły Związku Kurpiów"
-		location = 1611
+		location = 18596
 		division_template = "Batalion Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -38,7 +38,7 @@ units = {
 	
 	division = {
 		name = "1 Batalion Ochotniczy Kurpiów im. Stacha Konwy"
-		location = 3662
+		location = 18615
 		division_template = "Batalion Samoobrony"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
@@ -46,7 +46,7 @@ units = {
 
 	division = {
 		name = "2 Kurpiowski Batalion Ochotniczy"
-		location = 3637
+		location = 522
 		division_template = "Batalion Samoobrony"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -62,15 +62,23 @@ units = {
 	
 	division = {
 		name = "4 Batalion Samoobrony Zjednoczonej Kurpiowszczyzny"
-		location = 3662
+		location = 18612
 		division_template = "Batalion Samoobrony Puszcz Kurpiowskich"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 
 	division = {
+		name = "Batalion Ochotniczy z Kadzidła"
+		location = 9988
+		division_template = "Batalion Samoobrony"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division = {
 		name = "Samoobrona Puszczy Zielonej"
-		location = 1058
+		location = 10083
 		division_template = "Batalion Samoobrony Puszcz Kurpiowskich"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
