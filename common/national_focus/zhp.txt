@@ -114,6 +114,16 @@ focus_tree = {
 		completion_reward = { 
 			add_political_power = 30
 			add_ideas = ZHP_idealist_economy
+			if = {
+                limit = {
+                    has_country_flag = ZHP_ZHR_Path_1
+                }   
+                clr_country_flag = ZHP_ZHR_Path_1
+		        set_country_flag = ZHP_ZHR_Path_2
+            }
+            else = {
+                set_country_flag = ZHP_ZHR_Path_1
+            }
 			hidden_effect = {
 				if = {
 					limit = {
@@ -152,6 +162,16 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = { 
 			add_ideas = ZHP_conservatist_economy
+			if = {
+                limit = {
+                    has_country_flag = ZHP_ZHP_Path_1
+                }   
+                clr_country_flag = ZHP_ZHP_Path_1
+		        set_country_flag = ZHP_ZHP_Path_2
+            }
+            else = {
+                set_country_flag = ZHP_ZHP_Path_1
+            }
 			hidden_effect = {
 				if = {
 					limit = {
@@ -352,6 +372,16 @@ focus_tree = {
 				remove_idea = system_enlistment
 				add_idea = total_mobilisation
 			}
+			if = {
+                limit = {
+                    has_country_flag = ZHP_ZHR_Path_1
+                }   
+                clr_country_flag = ZHP_ZHR_Path_1
+		        set_country_flag = ZHP_ZHR_Path_2
+            }
+            else = {
+                set_country_flag = ZHP_ZHR_Path_1
+            }
 			hidden_effect = {
 				if = {
 					limit = {
@@ -397,6 +427,16 @@ focus_tree = {
 				remove_idea = ZHP_partisan_legacy
 				add_idea = ZHP_volunteer_army_idea
 			}
+			if = {
+                limit = {
+                    has_country_flag = ZHP_ZHP_Path_1
+                }   
+                clr_country_flag = ZHP_ZHP_Path_1
+		        set_country_flag = ZHP_ZHP_Path_2
+            }
+            else = {
+                set_country_flag = ZHP_ZHP_Path_1
+            }
 			hidden_effect = {
 				if = {
 					limit = {
@@ -630,6 +670,16 @@ focus_tree = {
 		completion_reward = { 
 			add_stability = 0.1
 			add_war_support = 0.1
+			if = {
+                limit = {
+                    has_country_flag = ZHP_ZHR_Path_1
+                }   
+                clr_country_flag = ZHP_ZHR_Path_1
+		        set_country_flag = ZHP_ZHR_Path_2
+            }
+            else = {
+                set_country_flag = ZHP_ZHR_Path_1
+            }
 			
 			hidden_effect = {
 				if = {
@@ -672,6 +722,16 @@ focus_tree = {
 				remove_idea = drugs_all_penalised
 				add_idea = drugs_harsh_penalised
 			}
+			if = {
+                limit = {
+                    has_country_flag = ZHP_ZHP_Path_1
+                }   
+                clr_country_flag = ZHP_ZHP_Path_1
+		        set_country_flag = ZHP_ZHP_Path_2
+            }
+            else = {
+                set_country_flag = ZHP_ZHP_Path_1
+            }
 			hidden_effect = {
 				if = {
 					limit = {
@@ -821,21 +881,59 @@ focus_tree = {
 			
 		}
 	}
+	focus = {
+		id = ZHP_ZHP_Dominant
+		icon = ZHP_WML_war
+		relative_position_id = ZHP_prohibition_of_sex
+		prerequisite = { focus = ZHP_prohibition_of_sex}
+		will_lead_to_war_with = WML
+		available = {
+		custom_trigger_tooltip = {
+			tooltip = ZHP_ZHP_Dominant_LOC
+			has_country_flag = ZHP_ZHP_Path_2
+		   }
+		}
+		x = -1
+		y = 1
+		cost = 2
+		
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ZHP_ZHR_Dominant
+		icon = ZHP_WML_war
+		relative_position_id = ZHP_prohibition_of_sex
+		prerequisite = { focus = ZHP_prohibition_of_sex}
+		available = {
+		custom_trigger_tooltip = {
+			tooltip = ZHP_ZHR_Dominant_LOC
+			has_country_flag = ZHP_ZHR_Path_2
+		   }
+		}
+		x = 1
+		y = 1
+		cost = 2
+		
+		search_filters = {}
+		completion_reward = {
+		}
+	}
 	
 	focus = {
 		id = ZHP_we_are_ready
 		icon = ZHP_we_are_ready
 		relative_position_id = ZHP_prohibition_of_sex
-		prerequisite = { focus = ZHP_prohibition_of_sex }
+		prerequisite = { focus = ZHP_ZHP_Dominant focus = ZHP_ZHR_Dominant}
 		available = {
-		
 		}
 		
 		bypass = {
 		}
 		
 		x = 0
-		y = 1
+		y = 2
 		
 		cost = 1
 		search_filters = {}
@@ -1201,7 +1299,6 @@ focus_tree = {
 			}
 		}
 	}
-	
 	focus = {
 		id = ZHP_the_cracks_are_showing 
 		icon = ZHP_the_cracks_are_showing
