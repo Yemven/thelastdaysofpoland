@@ -274,10 +274,11 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = {
+		    add_ideas = FEL_kozacy_w_sluzbie_rzplitej
 			country_event = {
 			id = felix.8
 			}
-			add_war_support = 0.15
+			add_war_support = 0.04
 		}
 	}
 	
@@ -413,8 +414,13 @@ focus_tree = {
 		cost = 2.8
 		search_filters = { }
 		completion_reward = {
+		    add_popularity = {
+                ideology = reactionary
+                popularity = 0.1
+            }
 		    add_war_support = 0.1
-		    add_political_power = 100
+		    add_political_power = 50
+			add_ideas = FEL_idea3
 		    country_event = {
 			id = felix.14
 			}
@@ -474,6 +480,7 @@ focus_tree = {
 		prerequisite = { focus = FEL_taxes_on_the_military }
 		mutually_exclusive = { focus = FEL_addressing_the_sejmiks }
 		available = {
+		        hidden_trigger = { always = no }
 		    
 		}
 		
@@ -486,7 +493,7 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-            add_offsite_building = { type = arms_factory level = 2 }
+            add_offsite_building = { type = arms_factory level = 1 }
 		}	
 	}
 	
@@ -495,6 +502,7 @@ focus_tree = {
 		prerequisite = { focus = FEL_taxes_on_the_military }
 		mutually_exclusive = { focus = FEL_success }
 		available = {
+		        hidden_trigger = { always = no }
 		    
 		}
 		
@@ -507,7 +515,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+            country_event = {
+			id = felix.21
+			}
 		}	
 	}
 	
@@ -528,7 +538,10 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+		    add_political_power = -20
+            country_event = {
+			id = felix.22
+			}
 		}	
 	}
 	
@@ -549,7 +562,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+            country_event = {
+			id = felix.23
+			}
 		}	
 	}
 	
@@ -569,7 +584,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+            country_event = {
+			id = felix.24
+			}
 		}	
 	}
 	
@@ -590,7 +607,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+            country_event = {
+			id = felix.25
+			}
 		}	
 	}
 	
@@ -610,7 +629,10 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+		    add_ideas = FEL_komisarze
+            country_event = {
+			id = felix.26
+			}
 		}	
 	}
 	
@@ -631,7 +653,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+            country_event = {
+			id = felix.27
+			}
 		}	
 	}
 	
@@ -651,7 +675,10 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+		    add_ideas = FEL_reorganizacja_armii
+            country_event = {
+			id = felix.28
+			}
 		}	
 	}
 	
@@ -672,7 +699,13 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+            swap_ideas = {
+				remove_idea = FEL_reorganizacja_armii
+				add_idea = FEL_reorganizacja_armii2
+			}
+			country_event = {
+			id = felix.29
+			}
 		}	
 	}
 	
@@ -694,7 +727,15 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+		    add_ideas = FEL_cos_nowi_lisowczycy
+			swap_ideas = {
+				remove_idea = FEL_reorganizacja_armii2
+				add_idea = FEL_reorganizacja_armii3
+			}
+		    add_political_power = -20
+            country_event = {
+			id = felix.29
+			}
 		}	
 	}
 	
@@ -715,7 +756,14 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+		    add_manpower = 6500
+			swap_ideas = {
+				remove_idea = FEL_reorganizacja_armii3
+				add_idea = FEL_reorganizacja_armii4
+			}
+            country_event = {
+			id = felix.29
+			}
 		}	
 	}
 	
@@ -737,7 +785,12 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+		    add_ideas = FEL_cos_z_puszkarzami
+		    swap_ideas = {
+				remove_idea = FEL_reorganizacja_armii4
+				add_idea = FEL_reorganizacja_armii5
+			}
+			add_political_power = -20 
 		}	
 	}
 	
@@ -758,7 +811,9 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+            country_event = {
+			id = felix.30
+			}
 		}	
 	}
 	
@@ -779,7 +834,19 @@ focus_tree = {
 		cost = 1
 		search_filters = { }
 		completion_reward = { 
-
+		    swap_ideas = {
+				remove_idea = FEL_reorganizacja_armii5
+				add_idea = FEL_armia_starej_sarmacji_w_nowym_swiecie
+			}
+			swap_ideas = {
+				remove_idea = FEL_golden_liberty_2
+				add_idea = FEL_golden_liberty_3
+			}
+			add_manpower = 10000
+			add_war_support = 0.05
+            country_event = {
+			id = felix.31
+			}
 		}	
 	}
 }

@@ -205,6 +205,7 @@ country_event = {
 	option = {
 		name = felix.15.a
 	}
+	
 }
 
 country_event = {
@@ -244,4 +245,181 @@ country_event = {
 	option = {
 		name = felix.18a
 	}
+}
+
+country_event = {
+	id = felix.19
+	title = felix.19.t
+	desc = felix.19.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.19.a
+		    complete_national_focus = FEL_success
+	}
+	
+}
+
+country_event = {
+	id = felix.20
+	title = felix.20.t
+	desc = felix.20.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.20.a
+		    complete_national_focus = FEL_addressing_the_sejmiks
+	}
+	
+}
+
+country_event = {
+	id = felix.21
+	title = felix.21.t
+	desc = felix.21.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.21a
+	}
+}
+
+country_event = {
+	id = felix.22
+	title = felix.22.t
+	desc = felix.22.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.22a
+	}
+}
+
+country_event = {
+	id = felix.23
+	title = felix.23.t
+	desc = felix.23.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.23a
+	}
+}
+
+country_event = {
+	id = felix.24
+	title = felix.24.t
+	desc = felix.24.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.24a
+	}
+}
+
+country_event = {
+	id = felix.25
+	title = felix.25.t
+	desc = felix.25.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.25a
+	}
+}
+
+country_event = {
+	id = felix.26
+	title = felix.26.t
+	desc = felix.26.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.26a
+	}
+}
+
+country_event = {
+	id = felix.27
+	title = felix.27.t
+	desc = felix.27.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.27a
+	}
+}
+
+country_event = {
+	id = felix.28
+	title = felix.28.t
+	desc = felix.28.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.28a
+	}
+}
+
+country_event = {
+	id = felix.29
+	title = felix.29.t
+	desc = felix.29.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.29a
+	}
+}
+
+country_event = {
+	id = felix.30
+	title = felix.30.t
+	desc = felix.30.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.30a
+	}
+}
+
+country_event = {
+	id = felix.31
+	title = felix.31.t
+	desc = felix.31.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = felix.31a
+		add_political_power = -50
+		hidden_effect = {
+			load_focus_tree = sarmatia_war_focus
+		}
+	}  
 }
