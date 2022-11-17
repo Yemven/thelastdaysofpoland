@@ -3827,6 +3827,84 @@ on_actions = {
 					province = { id = 1182 }
 				}
 			}
+			38 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_bytow }
+					province = { id = 16614 }
+				}
+			}
+			666= {
+				add_province_modifier = {
+					static_modifiers = { terrain_hel }
+					province = { id = 16392 }
+				}
+			}
+			666 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_jastarnia }
+					province = { id = 16395 }
+				}
+			}
+			23 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_lebork }
+					province = { id = 2089 }
+				}
+			}
+			868 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_miastko }
+					province = { id = 16588 }
+				}
+			}
+			20 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_puck }
+					province = { id = 11366 }
+				}
+			}
+			21 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_reda }
+					province = { id = 16431 }
+				}
+			}
+			626 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_rumia }
+					province = { id = 16469 }
+				}
+			}
+			35 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_slupsk }
+					province = { id = 3504 }
+				}
+			}
+			624 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_ustka }
+					province = { id = 5576 }
+				}
+			}
+			666 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_wladyslawowo }
+					province = { id = 2968 }
+				}
+			}
+			21 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_wejherowo }
+					province = { id = 16427 }
+				}
+			}
+			36 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_zukowo }
+					province = { id = 16085 }
+				}
+			}
 		}
 	}
 }
