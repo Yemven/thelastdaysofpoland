@@ -36,6 +36,41 @@
  WOD_ragnarok_final_postpolonism_ADJ:0 "Midgard" 
 
 
+###Ślōnske plymiōna###
+
+ FER_voivodeship_neonationalism:0 "Ślōnski Krŏj"
+ FER_voivodeship_neonationalism_DEF:0 "Śląski Kraj"
+ FER_voivodeship_neonationalism_ADJ:0 "Ślōnski Krŏj"
+ 
+ FER_regional_neonationalism:0 "Ślōnski Krŏj"
+ FER_regional_neonationalism_DEF:0 "Śląski Kraj"
+ FER_regional_neonationalism_ADJ:0 "Ślōnski Krŏj"
+ 
+ TRC_voivodeship_paternal_conservatism:0 "Silesian Football Association"
+ TRC_voivodeship_paternal_conservatism_DEF:0 "Śląski Związek Piłki Nożnej"
+ TRC_voivodeship_paternal_conservatism_ADJ:0 "Silesian Football Association"
+ 
+ TRC_regional_paternal_conservatism:0 "Silesian Football Association"
+ TRC_regional_paternal_conservatism_DEF:0 "Śląski Związek Piłki Nożnej"
+ TRC_regional_paternal_conservatism_ADJ:0 "Silesian Football Association" 
+ 
+ ASG_voivodeship_neonationalism:0 "Airsoft Mercenary State"
+ ASG_voivodeship_neonationalism_DEF:0 "Airsoftowe Państwo Najemników"
+ ASG_voivodeship_neonationalism_ADJ:0 "Airsoft Mercenary State"
+ 
+ ASG_regional_neonationalism:0 "Airsoft Mercenary State"
+ ASG_regional_neonationalism_DEF:0 "Airsoftowe Państwo Najemników"
+ ASG_regional_neonationalism_ADJ:0 "Airsoft Mercenary State" 
+ 
+ RUD_voivodeship_socialdemocrature:0 "Ślōnski Krŏj"
+ RUD_voivodeship_socialdemocrature_DEF:0 "Śląski Kraj"
+ RUD_voivodeship_socialdemocrature_ADJ:0 "Ślōnski Krŏj"
+ 
+ RUD_regional_socialdemocrature:0 "Hajerskŏ Dolina"
+ RUD_regional_socialdemocrature_DEF:0 "Górnicza Dolina"
+ RUD_regional_socialdemocrature_ADJ:0 "Hajerskŏ Dolina" 
+ 
+
 ###BÓG POLSKA I KOSINIAK###
  TRN_voivodeship_euroliberalism:0 "Republic of Lesser Poland"
  TRN_voivodeship_euroliberalism_DEF:0 "Rzeczpospolita Małopolska"
@@ -813,6 +848,11 @@
  SAP_carlistas_final_reactionary:0 "Legitimist Kingdom of Poland"
  SAP_carlistas_final_reactionary_DEF:0 "Legitymistyczne Królestwo Polski"
  SAP_carlistas_final_reactionary_ADJ:0 "Legitimist Kingdom of Poland" 
+ 
+
+ ZON_witcher_squattism:0 "Oblivion"
+ ZON_witcher_squattism_DEF:0 "Otchłań"
+ ZON_witcher_squattism_ADJ:0 "Oblivion"  
 
 ###ZHP###
  ZHP_voivodeship_paternal_conservatism:0 "Autonomous Banner of ZHR"
@@ -975,9 +1015,9 @@
  BBW_karbonizacja_final_reactionary:0 "Smoking Grounds of Poland"
  BBW_karbonizacja_final_reactionary_DEF:0 "Dymiące Ziemie Polski"
  BBW_karbonizacja_final_reactionary_ADJ:0 "Smoking Grounds of Poland" 
-
  
- ###KAM###
+ 
+ ###Eurosztaty###
  
  KAM_UE_euroliberalism:0 "Kampfgruppe Westpolen"
  KAM_UE_euroliberalism_DEF:0 "Grupa Bojowa Polska Zachodnia"
@@ -1017,10 +1057,6 @@
  STE_UE_euroliberalism_DEF:0 "Koło Szczecińskiej Hanzy"
  STE_UE_euroliberalism_ADJ:0 "Stettiner Hanse Zirkel"
  
- RYB_sum_socialdemocrature:1 "Riverpublic of Pondland"
- RYB_sum_socialdemocrature_DEF:1 "Rzecznapospolita Jeziorańska"
- RYB_sum_socialdemocrature_ADJ:0 "Riverpublic of Pondland"
- 
  CZE_UE_euroliberalism:0 "Prozatímní Vláda Kladska"
  CZE_UE_euroliberalism_DEF:0 "Tymczasowy Rząd Kłodzki"
  CZE_UE_euroliberalism_ADJ:0 "Prozatímní Vláda Kladska"
@@ -1029,13 +1065,52 @@
  ZUL_UE_euroliberalism_DEF:0 "Eurodystrykt Wałbrzych"
  ZUL_UE_euroliberalism_ADJ:0 "Eurobezirk Waldenburg"
  
+
+ 
+ RYB_sum_socialdemocrature:1 "Riverpublic of Pondland"
+ RYB_sum_socialdemocrature_DEF:1 "Rzecznapospolita Jeziorańska"
+ RYB_sum_socialdemocrature_ADJ:0 "Riverpublic of Pondland"
+ 
+#MNI
+ MNI_voivodeship_socialdemocrature:0 "Oberschlesische Republik"
+ MNI_voivodeship_socialdemocrature_DEF:0 "Republika Górnośląska"
+ MNI_voivodeship_socialdemocrature_ADJ:0 "Oberschlesische Republik"
+ 
+ MNI_regional_socialdemocrature:0 "Oberschlesische Republik"
+ MNI_regional_socialdemocrature_DEF:0 "Republika Górnośląska"
+ MNI_regional_socialdemocrature_ADJ:0 "Oberschlesische Republik"
+
+ MNI_supregional_socialdemocrature:0 "Polnische Republik"
+ MNI_supregional_socialdemocrature_DEF:0 "Rzeczpospolita Polska"
+ MNI_supregional_socialdemocrature_ADJ:0 "Polnische Republik"
+
+ MNI_nszz_final_socialdemocrature:0 "Polnische Republik"
+ MNI_nszz_final_socialdemocrature_DEF:0 "Rzeczpospolita Polska"
+ MNI_nszz_final_socialdemocrature_ADJ:0 "Polnische Republik"
+
  MNI_UE_socialdemocrature:1 "Oberschlesische Republik"
  MNI_UE_socialdemocrature_DEF:1 "Republika Górnośląska"
- MNI_UE_socialdemocrature_ADJ:0 "Oberschlesische Republik"
+ MNI_UE_socialdemocrature_ADJ:0 "Oberschlesische Republik" 
+
+
+#LEHJA
  
- ZON_witcher_squattism:0 "Oblivion"
- ZON_witcher_squattism_DEF:0 "Otchłań"
- ZON_witcher_squattism_ADJ:0 "Oblivion"  
+ LEH_voivodeship_postpolonism:0 "Oberschlesische Republik"
+ LEH_voivodeship_postpolonism_DEF:0 "Republika Górnośląska"
+ LEH_voivodeship_postpolonism_ADJ:0 "Oberschlesische Republik"
+ 
+ LEH_regional_postpolonism:0 "Oberschlesische Republik"
+ LEH_regional_postpolonism_DEF:0 "Republika Górnośląska"
+ LEH_regional_postpolonism_ADJ:0 "Oberschlesische Republik"
+
+ LEH_supregional_postpolonism:0 "Polnische Republik"
+ LEH_supregional_postpolonism_DEF:0 "Rzeczpospolita Polska"
+ LEH_supregional_postpolonism_ADJ:0 "Polnische Republik"
+
+ LEH_nszz_final_postpolonism:0 "Polnische Republik"
+ LEH_nszz_final_postpolonism_DEF:0 "Rzeczpospolita Polska"
+ LEH_nszz_final_postpolonism_ADJ:0 "Polnische Republik"
+ 
  
  LEH_IMP_squattism:0 "Lechina Empire"
  LEH_IMP_squattism_DEF:0 "Imperium Lechickie"
@@ -1046,6 +1121,8 @@
  LEH_IMP_postpolonism:0 "Lechina Empire"
  LEH_IMP_postpolonism_DEF:0 "Imperium Lechickie"
  LEH_IMP_postpolonism_ADJ:0 "Lechina Empire" 
+ 
+#GNIEZNO
  
  GNI_voivodeship_euroliberalism:0 "Kingdom of Poland"
  GNI_voivodeship_euroliberalism_DEF:0 "Królestwo Polskie"
@@ -1064,6 +1141,8 @@
  POZ_voivodeship_euroliberalism:0 "Republic of Greater Poland"
  POZ_voivodeship_euroliberalism_DEF:0 "Republika Wielkopolska"
  POZ_voivodeship_euroliberalism_ADJ:0 "Republic of Greater Poland"
+ 
+#ROSJA
  
  RUS_dugin:0 "State of Eurasia"
  RUS_army_zolotov:0 "Russian National Guard"
