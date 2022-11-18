@@ -66,6 +66,24 @@ country_event = {
 				}
 			}
 	}
+	option = {
+		name = ekwrozpad.2.b
+			EKW = {
+				country_event = {
+				id = ekwrozpad.3
+				days = 2
+				}
+			}
+			JOM = { 
+				country_event = {
+				id = ekwrozpad.13
+				days = 10
+				}
+			}
+			POM = {
+				change_tag_from = EKW
+			}
+	}
 }
 country_event = {
 	id = ekwrozpad.3
@@ -109,6 +127,24 @@ country_event = {
 			id = ekwrozpad.14
 			days = 14
 			}
+		}
+	}
+	option = {
+		name = ekwrozpad.3.b
+		EKW = {
+			country_event = {
+				id = ekwrozpad.4
+				days = 2
+				}
+		}
+		USP = {
+			country_event = {
+			id = ekwrozpad.14
+			days = 14
+			}
+		}
+		KOS = {
+			change_tag_from = EKW
 		}
 	}
 }
@@ -171,6 +207,20 @@ country_event = {
 				days = 3
 			}
 	}
+	option = {
+		name = ekwrozpad.4.b
+			country_event = {
+				id = ekwrozpad.5
+				days = 2
+			}
+			country_event = {
+				id = ekwrozpad.7
+				days = 3
+			}
+			WRT = {
+				change_tag_from = EKW
+			}
+	}
 }
 country_event = {
 	id = ekwrozpad.5
@@ -215,6 +265,22 @@ country_event = {
 				target = EKW
 				type = annex_everything
 			}
+		}
+	}
+	option = {
+		name = ekwrozpad.5.b
+		WRT = {
+			country_event = {
+				id = ekwrozpad.6
+				days = 2
+			}
+		}
+		JAS = {
+			declare_war_on = {
+				target = EKW
+				type = annex_everything
+			}
+			change_tag_from = EKW
 		}
 	}
 }
@@ -279,6 +345,24 @@ country_event = {
 				}
 			}
 		}
+		option = {
+			name = ekwrozpad.6.b
+				country_event = {
+					id = ekwrozpad.10
+					days = 10
+				}
+				country_event = {
+					id = ekwrozpad.11
+					days = 14
+				}
+				NAC = {
+					declare_war_on = {
+						target = WRT
+						type = annex_everything
+					}
+					change_tag_from = EKW
+				}
+			}
 	}
 
 country_event = {
@@ -335,6 +419,22 @@ country_event = {
 			}
 		}
 	}
+	option = {
+		name = ekwrozpad.7.b
+		EKW = {
+		country_event = {
+			id = ekwrozpad.8
+			days = 2
+			}
+		}
+		KAM = {
+		country_event = {
+			id = ekwrozpad.9
+			days = 13
+			}
+			change_tag_from = EKW
+		}
+	}
 }
 country_event = {
 	id = ekwrozpad.8
@@ -382,6 +482,20 @@ country_event = {
 			}
 		}
 	}
+	option = {
+		name = ekwrozpad.8.b
+		STE = {
+		country_event = {
+			id = ekwrozpad.12
+			days = 10
+			}
+		country_event = {
+			id = ekwrozpad.15
+			days = 45
+			}
+		change_tag_from = EKW
+		}
+	}
 }
 
 country_event = {
@@ -419,6 +533,12 @@ country_event = {
 	option = {
 		name = ekwrozpad.9.a
 	}
+	option = {
+		name = ekwrozpad.9.b
+		MOT = {
+			change_tag_from = EKW
+		}
+	}
 }
 
 country_event = {
@@ -438,6 +558,13 @@ country_event = {
 	option = {
 		name = ekwrozpad.10.a
 	}
+	option = {
+		name = ekwrozpad.10.b
+		SYJ = {
+			change_tag_from = EKW
+		}
+	}
+
 }
 
 country_event = {
@@ -455,6 +582,12 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.11.a
+	}
+	option = {
+		name = ekwrozpad.11.b
+		PIL = {
+			change_tag_from = EKW
+		}
 	}
 }
 
@@ -485,6 +618,12 @@ country_event = {
 
 	option = {
 		name = ekwrozpad.12.a
+	}
+	option = {
+		name = ekwrozpad.12.b
+		SWI = {
+			change_tag_from = EKW
+		}
 	}
 }
 
