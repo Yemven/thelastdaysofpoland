@@ -20,6 +20,7 @@ shared_focus = {
 		country_event = { 
 			id = POL_Morawecki_Intro.1
 		  }
+		add_political_power = 25
 		}
 	}
 shared_focus = {
@@ -39,8 +40,9 @@ shared_focus = {
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
 		country_event = { 
-			id = POL_Morawecki_Intro.10
+			id = POL_Morawecki_Intro.2
 		  }
+		add_stability = -0.05
 		}
 	}
 shared_focus = {
@@ -59,13 +61,17 @@ shared_focus = {
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
 		country_event = { 
-			id = POL_Morawecki_Intro.2
+			id = POL_Morawecki_Intro.3
 		  }
 		}
 	}
 shared_focus = {
 		id = POL_ME
 		available = {
+		custom_trigger_tooltip = {
+			tooltip = POL_ME_TT
+			has_country_flag = Morawecki_takes_the_blame
+		    }
 		}
 		
 		bypass = {
@@ -80,8 +86,12 @@ shared_focus = {
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
 		country_event = { 
-			id = POL_Morawecki_Intro.3
+			id = POL_Morawecki_Intro.4
 		  }
+		add_popularity = {
+            ideology = paternal_conservatism
+            popularity = -0.1
+         }
 		}
 	}
 shared_focus = {
@@ -99,6 +109,11 @@ shared_focus = {
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+		add_popularity = {
+            ideology = euroliberalism
+            popularity = 0.05
+         }
+		custom_effect_tooltip = POL_Im_sorry_TT
 		}
 	}
 shared_focus = {
@@ -116,6 +131,7 @@ shared_focus = {
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+		custom_effect_tooltip = POL_But_I_Know_TT
 		}
 	}
 shared_focus = {
@@ -134,8 +150,12 @@ shared_focus = {
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
 		country_event = { 
-			id = POL_Morawecki_Intro.5
+			id = POL_Morawecki_Intro.6
 		  }
+		add_popularity = {
+            ideology = paternal_conservatism
+            popularity = 0.01
+         }
 		}
 	}
 shared_focus = {
@@ -153,6 +173,7 @@ shared_focus = {
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+		add_stability = 0.05
 		}
 	}
 shared_focus = {
@@ -171,13 +192,22 @@ shared_focus = {
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
 		country_event = { 
-			id = POL_Morawecki_Intro.6
+			id = POL_Morawecki_Intro.7
 		  }
+		add_political_power = 50
+		add_popularity = {
+            ideology = paternal_conservatism
+            popularity = 0.02
+         }
 		}
 	}
 shared_focus = {
 		id = POL_Tusk
 		available = {
+		custom_trigger_tooltip = {
+			tooltip = POL_Tusk_TT
+			has_country_flag = Morawecki_blames_Tusk
+		    }
 		}
 		
 		bypass = {
@@ -192,8 +222,16 @@ shared_focus = {
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
 		country_event = { 
-			id = POL_Morawecki_Intro.4
+			id = POL_Morawecki_Intro.5
 		  }
+		add_popularity = {
+            ideology = paternal_conservatism
+            popularity = -0.2
+         }
+		add_popularity = {
+            ideology = euroliberalism
+            popularity = -0.05
+         }
 		}
 	}
 shared_focus = {
@@ -211,6 +249,18 @@ shared_focus = {
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+		add_popularity = {
+            ideology = freemarketism
+            popularity = -0.10
+         }
+		add_popularity = {
+            ideology = socialdemocrature
+            popularity = -0.10
+         }
+		add_popularity = {
+            ideology = paternal_conservatism
+            popularity = -0.05
+         }
 		}
 	}
 shared_focus = {
@@ -229,8 +279,16 @@ shared_focus = {
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
 		country_event = { 
-			id = POL_Morawecki_Intro.7
+			id = POL_Morawecki_Intro.8
 		  }
+		add_popularity = {
+            ideology = paternal_conservatism
+            popularity = -0.10
+         }
+		add_popularity = {
+            ideology = autocracy
+            popularity = 0.20
+         }
 		}
 	}
 shared_focus = {
@@ -248,6 +306,11 @@ shared_focus = {
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+		add_popularity = {
+            ideology = autocracy
+            popularity = 0.10
+         }
+		add_war_support = 0.03
 		}
 	}
 shared_focus = {
@@ -265,6 +328,13 @@ shared_focus = {
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
+		add_popularity = {
+            ideology = paternal_conservatism
+            popularity = -0.10
+         }
+		add_political_power = -100
+		add_stability = -0.20
+		custom_effect_tooltip = POL_with_those_who_are_among_you_TT
 		}
 	}
 shared_focus = {
@@ -283,8 +353,10 @@ shared_focus = {
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
 		country_event = { 
-			id = POL_Morawecki_Intro.8
+			id = POL_Morawecki_Intro.9
 		  }
+		add_political_power = -200
+		custom_effect_tooltip = POL_a_speech_to_tell_the_truth_TT
 		}
 	}
 shared_focus = {
@@ -304,8 +376,14 @@ shared_focus = {
 		cost = 1
 		search_filters = {FOCUS_STABILITY}
 		completion_reward = {
-		country_event = { 
-			id = POL_Morawecki_Intro.9
-		  }
-		}
-	}
+		    if = {
+                limit = {
+                    has_country_flag = Morawecki_blames_Tusk
+                }   
+		        country_event = POL_Morawecki_Intro.11
+            }
+		    else = {
+		        country_event = POL_Morawecki_Intro.10
+		    }
+	    }
+    }
