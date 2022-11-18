@@ -44,16 +44,22 @@ country_event = {
 				}
 				remove_core_of = KSZ
 			}
+			country_event = {
+				id = kszrozpad.3
+				days = 2
+			}
 		}
 		KSZ_collapse_GAY = yes
 	}
 
 	option = {
 		name = kszrozpad.2.a
-			country_event = {
-			id = kszrozpad.3
-			days = 2
-			}
+		GAY = {
+			change_tag_from = KSZ
+		}
+	}
+	option = {
+		name = kszrozpad.2.b
 	}
 }
 
@@ -80,16 +86,23 @@ country_event = {
 				}
 				remove_core_of = KSZ
 			}
+			country_event = {
+				id = kszrozpad.4
+				days = 2
+			}
 		}
 		KSZ_collapse_HEL = yes
 	}
 
 	option = {
 		name = kszrozpad.3.a
-			country_event = {
-			id = kszrozpad.4
-			days = 2
-			}
+		HEL = {
+			change_tag_from = KSZ
+		}
+	}
+	
+	option = {
+		name = kszrozpad.3.b
 	}
 }
 
@@ -114,16 +127,23 @@ country_event = {
 				}
 				remove_core_of = KSZ
 			}
+			country_event = {
+				id = kszrozpad.5
+				days = 2
+			}
 		}
 		KSZ_collapse_CZL = yes
 	}
 
 	option = {
 		name = kszrozpad.4.a
-			country_event = {
-			id = kszrozpad.5
-			days = 2
-			}
+		CZL = {
+			change_tag_from = KSZ
+		}
+	}
+	
+	option = {
+		name = kszrozpad.4.b
 	}
 }
 
@@ -149,16 +169,23 @@ country_event = {
 				}
 				remove_core_of = KSZ
 			}
+			country_event = {
+				id = kszrozpad.6
+				hours = 6
+			}
 		}
 		KSZ_collapse_ARK = yes
 	}
 
 	option = {
 		name = kszrozpad.5.a
-			country_event = {
-			id = kszrozpad.6
-			hours = 6
-			}
+		ARK = {
+			change_tag_from = KSZ
+		}
+	}
+	
+	option = {
+		name = kszrozpad.5.a
 	}
 }
 
@@ -189,5 +216,12 @@ country_event = {
 
 	option = {
 		name = kszrozpad.6.a
+		OWS = {
+			change_tag_from = KSZ
+		}
+	}
+	
+	option = {
+		name = kszrozpad.6.b
 	}
 }

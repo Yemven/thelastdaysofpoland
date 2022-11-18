@@ -43,22 +43,28 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
+			EKS_collapse_ZAG = yes
+			EKS = {
+				country_event = {
+				id = eksrozpad.2
+				days = 2
+				}
+			}
+			every_country = {
+				limit = { NOT = { is_ai = yes } }
+				news_event = { id = eksrozpadnews.1 }
+				}
+			add_threat = 100
 		}
-		EKS_collapse_ZAG = yes
 	}
 	option = {
 		name = eksrozpad.1.a
-		EKS = {
-			country_event = {
-			id = eksrozpad.2
-			days = 2
-			}
+		ZAG = {
+			change_tag_from = EKS
 		}
-		every_country = {
-			limit = { NOT = { is_ai = yes } }
-			news_event = { id = eksrozpadnews.1 }
-			}
-		add_threat = 100
+	}
+	option = {
+		name = eksrozpad.1.b
 	}
 }
 
@@ -95,31 +101,36 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
+			EKS_collapse_KES = yes
+			EKS = {
+				country_event = {
+					id = eksrozpad.3
+					days = 1
+				}
+			}
+			FEL = {
+				country_event = {
+					id = felix.1
+					days = 6
+				}
+			}
+			CAL = {
+				country_event = {
+					id = calisia.1
+					days = 8
+				}
+			}
 		}
-		EKS_collapse_KES = yes
 	}
 
 	option = {
 		name = eksrozpad.2.a
-		EKS = {
-			country_event = {
-			id = eksrozpad.3
-			days = 1
-				}
-			}
-		FEL = {
-			country_event = {
-			id = felix.1
-			days = 6
-				}
-			}
-		CAL = {
-			country_event = {
-			id = calisia.1
-			days = 8
-				}
-			}
-			
+		KES = {
+			change_tag_from = EKS
+		}	
+	}
+	option = {
+		name = eksrozpad.2.b	
 	}
 }
 country_event = {
@@ -155,16 +166,23 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
+			country_event = {
+				id = eksrozpad.4
+				hours = 2
+			}
+			EKS_collapse_WRO = yes
 		}
-		EKS_collapse_WRO = yes
 	}
 
 	option = {
 		name = eksrozpad.3.a
-		country_event = {
-			id = eksrozpad.4
-			hours = 2
-			}
+		WRO = {
+			change_tag_from = EKS
+		}
+	}
+	
+	option = {
+		name = eksrozpad.3.b
 	}
 }
 country_event = {
@@ -192,38 +210,45 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
+			EKS_collapse_BRE = yes
+			EKS = {
+				country_event = {
+					id = eksrozpad.5
+					days = 2
+				}
+				country_event = {
+					id = eksrozpad.6
+					days = 3
+				}
+			}
+			WRO = {
+				country_event = {
+					id = eksrozpad.18
+					days = 14
+				}
+				country_event = {
+					id = eksrozpad.19
+					days = 18
+				}				
+			}
+			BRE = {
+				declare_war_on = {
+					target = WRO
+					type = annex_everything
+				}
+			}
 		}
-		EKS_collapse_BRE = yes
 	}
 
 	option = {
 		name = eksrozpad.4.a
-		EKS = {
-			country_event = {
-				id = eksrozpad.5
-				days = 2
-			}
-			country_event = {
-				id = eksrozpad.6
-				days = 3
-			}
-		}
-		WRO = {
-			country_event = {
-				id = eksrozpad.18
-				days = 14
-			}
-			country_event = {
-				id = eksrozpad.19
-				days = 18
-			}				
-		}
 		BRE = {
-		declare_war_on = {
-			target = WRO
-			type = annex_everything
+			change_tag_from = EKS
 		}
-		}
+	}
+	
+	option = {
+		name = eksrozpad.4.b
 	}
 }
 country_event = {
@@ -251,16 +276,24 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
-		}
-		EKS_collapse_ZUL = yes
-	}
-
-	option = {
-		name = eksrozpad.5.a
+			EKS_collapse_ZUL = yes
 			country_event = {
 				id = eksrozpad.7
 				days = 4
 			}
+		}
+		
+	}
+
+	option = {
+		name = eksrozpad.5.a
+		ZUL = {
+			change_tag_from = EKS
+		}
+	}
+	
+	option = {
+		name = eksrozpad.5.b
 	}
 }
 
@@ -287,23 +320,31 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
+			EKS_collapse_CZE = yes
+			EKS = {
+				country_event = {
+					id = eksrozpad.8
+					days = 10
+				}
+			}
+			CZE = {
+				country_event = {
+					id = okamura.1 
+					days = 7
+				}
+			}
 		}
-		EKS_collapse_CZE = yes
 	}
 
 	option = {
 		name = eksrozpad.6.a		
-		EKS = {
-			country_event = {
-				id = eksrozpad.8
-				days = 10
-			}
-		}
 		CZE = {
-			country_event = { id = okamura.1 
-			days = 7
-			}
+			change_tag_from = EKS
 		}
+	}
+	
+	option = {
+		name = eksrozpad.6.b		
 	}
 }
 
@@ -335,21 +376,26 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
-		}
-		EKS_collapse_KGH = yes
+			EKS_collapse_KGH = yes
+			country_event = {
+				id = eksrozpad.9
+				days = 1
+			}
+			country_event = {
+				id = eksrozpad.10
+				days = 2
+			}
+		}	
 	}
 
 	option = {
 		name = eksrozpad.7.a
-		country_event = {
-			id = eksrozpad.9
-			days = 1
-			}
-		country_event = {
-			id = eksrozpad.10
-			days = 2
-			}
-
+		KGH = {
+			change_tag_from = EKS
+		}
+	}
+	option = {
+		name = eksrozpad.7.b
 	}
 }
 country_event = {
@@ -373,18 +419,24 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
+			EKS_collapse_OPO = yes
+			MNI = {
+				country_event = {
+					id = opolesiepali.1
+					days = 7
+				}
+			}
 		}
-		EKS_collapse_OPO = yes
 	}
 
 	option = {
 		name = eksrozpad.8.a
-		MNI = {
-			country_event = {
-				id = opolesiepali.1
-				days = 7
-			}
+		OPO = {
+			change_tag_from = EKS
 		}
+	}
+	option = {
+		name = eksrozpad.8.b
 	}
 }
 
@@ -415,12 +467,19 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
+			EKS_collapse_WIN = yes
 		}
-		EKS_collapse_WIN = yes
 	}
 
 	option = {
 		name = eksrozpad.9.a
+		WIN = {
+			change_tag_from = EKS
+		}
+	}
+	
+	option = {
+		name = eksrozpad.9.b
 	}
 }
 
@@ -450,24 +509,31 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
+			EKS_collapse_SUS = yes
+			KGH = {
+				country_event = {
+					id = eksrozpad.12
+					days = 7
+				}
+			}
+			EKS = {
+				country_event = {
+					id = eksrozpad.11
+					days = 9
+				}
+			}
 		}
-		EKS_collapse_SUS = yes
 	}
 
 	option = {
 		name = eksrozpad.10.a
-		KGH = {
-		country_event = {
-			id = eksrozpad.12
-			days = 7
-			}
+		SUS = {
+			change_tag_from = EKS
 		}
-		EKS = {
-		country_event = {
-			id = eksrozpad.11
-			days = 9
-			}
-		}
+	}
+	
+	option = {
+		name = eksrozpad.10.a
 	}
 }
 
@@ -494,27 +560,34 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
+			EKS_collapse_TOU = yes
+			EKS = {
+				country_event = {
+					id = eksrozpad.16
+					days = 3
+				}
+				country_event = {
+					id = eksrozpad.17
+					days = 5
+				}
+			}
+			TOU = {
+				country_event = {
+					id = tou.1 
+					days = 7
+				}
+			}
 		}
-		EKS_collapse_TOU = yes
 	}
 
 	option = {
 		name = eksrozpad.11.a
-		EKS = {
-		country_event = {
-			id = eksrozpad.16
-			days = 3
-			}
-		country_event = {
-			id = eksrozpad.17
-			days = 5
-			}
-		}
 		TOU = {
-			country_event = { id = tou.1 
-			days = 7
-			}
+			change_tag_from = EKS
 		}
+	}
+	option = {
+		name = eksrozpad.11.b
 	}
 }
 
@@ -543,68 +616,75 @@ country_event = {
 				remove_core_of = KGH
 				add_claim_by = KGH
 			}
+			EKS_collapse_CYG = yes
+			ZUL = {
+				country_event = {
+					id = eksrozpad.13
+					days = 7
+				}
+				country_event = {
+					id = eksrozpad.14
+					days = 7
+				}
+				country_event = {
+					id = eksrozpad.15
+					days = 8
+				}
+			}
+			CYG = {
+				declare_war_on = {
+					target = KGH
+					type = annex_everything
+					}
+				load_oob = "CYG_2027"
+				delete_unit_template_and_units = {
+					division_template = "Euroinfanteriebataillon"
+					disband = yes
+				}
+				delete_unit_template_and_units = {
+					division_template = "Europanzergrenadierbataillon (armor)"
+					disband = yes
+				}
+				delete_unit_template_and_units = {
+					division_template = "Europanzergrenadierbataillon (mot. inf.)"
+					disband = yes
+				}
+				delete_unit_template_and_units = {
+					division_template = "Pro-europejscy ochotnicy"
+					disband = yes
+				}
+				}
+			KGH = {
+				load_oob = "KGH_2027"
+				delete_unit_template_and_units = {
+					division_template = "Euroinfanteriebataillon"
+					disband = yes
+				}
+				delete_unit_template_and_units = {
+					division_template = "Europanzergrenadierbataillon (armor)"
+					disband = yes
+				}
+				delete_unit_template_and_units = {
+					division_template = "Europanzergrenadierbataillon (mot. inf.)"
+					disband = yes
+				}
+				delete_unit_template_and_units = {
+					division_template = "Pro-europejscy ochotnicy"
+					disband = yes
+				}
+			}
 		}
-		EKS_collapse_CYG = yes
 	}
 
 	option = {
 		name = eksrozpad.12.a
-		ZUL = {
-		country_event = {
-			id = eksrozpad.13
-			days = 7
-			}
-		country_event = {
-			id = eksrozpad.14
-			days = 7
-			}
-		country_event = {
-			id = eksrozpad.15
-			days = 8
-			}
-		}
 		CYG = {
-			declare_war_on = {
-				target = KGH
-				type = annex_everything
-				}
-			load_oob = "CYG_2027"
-			delete_unit_template_and_units = {
-				division_template = "Euroinfanteriebataillon"
-				disband = yes
-			}
-			delete_unit_template_and_units = {
-				division_template = "Europanzergrenadierbataillon (armor)"
-				disband = yes
-			}
-			delete_unit_template_and_units = {
-				division_template = "Europanzergrenadierbataillon (mot. inf.)"
-				disband = yes
-			}
-			delete_unit_template_and_units = {
-				division_template = "Pro-europejscy ochotnicy"
-				disband = yes
-			}
-			}
-		KGH = {
-			load_oob = "KGH_2027"
-			delete_unit_template_and_units = {
-				division_template = "Euroinfanteriebataillon"
-				disband = yes
-			}
-			delete_unit_template_and_units = {
-				division_template = "Europanzergrenadierbataillon (armor)"
-				disband = yes
-			}
-			delete_unit_template_and_units = {
-				division_template = "Europanzergrenadierbataillon (mot. inf.)"
-				disband = yes
-			}
-			delete_unit_template_and_units = {
-				division_template = "Pro-europejscy ochotnicy"
-				disband = yes
-			}
-			}
+			change_tag_from = KGH
+		}
+	}
+	
+	option = {
+		name = eksrozpad.12.b
 	}
 }
 
@@ -636,6 +716,12 @@ country_event = {
 
 	option = {
 		name = eksrozpad.13.a
+		MNL = {
+			change_tag_from = ZUL
+		}
+	}
+	option = {
+		name = eksrozpad.13.b
 	}
 }
 
@@ -665,6 +751,13 @@ country_event = {
 
 	option = {
 		name = eksrozpad.14.a
+		ANA = {
+			change_tag_from = ZUL
+		}
+	}
+	
+	option = {
+		name = eksrozpad.14.b
 	}
 }
 
@@ -688,17 +781,24 @@ country_event = {
 				remove_core_of = ZUL
 				add_claim_by = ZUL
 			}
+			ZUL = {
+				country_event = { id = walbrzych.1 
+				days = 7
+				}
+			}
+			EKS_collapse_FEM = yes
 		}
-		EKS_collapse_FEM = yes
 	}
 
 	option = {
 		name = eksrozpad.15.a
-	ZUL = {
-			country_event = { id = walbrzych.1 
-			days = 7
-			}
+		FEM = {
+			change_tag_from = ZUL
 		}
+	}
+	
+	option = {
+		name = eksrozpad.15.b
 	}
 }
 
@@ -724,12 +824,19 @@ country_event = {
 				remove_core_of = EKS
 				add_claim_by = EKS
 			}
+			EKS_collapse_ECO = yes
 		}
-		EKS_collapse_ECO = yes
 	}
 
 	option = {
 		name = eksrozpad.16.a
+		ECO = {
+			change_tag_from = EKS
+		}
+	}
+	
+	option = {
+		name = eksrozpad.16.b
 	}
 }
 
@@ -760,6 +867,12 @@ country_event = {
 
 	option = {
 		name = eksrozpad.17.a
+		BOG = {
+			change_tag_from = EKS
+		}
+	}
+	option = {
+		name = eksrozpad.17.b
 	}
 }
 
@@ -792,6 +905,12 @@ country_event = {
 
 	option = {
 		name = eksrozpad.18.a
+		RYB = {
+			change_tag_from = WRO
+		}
+	}
+	option = {
+		name = eksrozpad.18.b
 	}
 }
 
@@ -821,6 +940,12 @@ country_event = {
 
 	option = {
 		name = eksrozpad.19.a
+		OLE = {
+			change_tag_from = WRO
+		}
+	}
+	option = {
+		name = eksrozpad.19.b
 	}
 }
 
@@ -845,5 +970,11 @@ country_event = {
 
 	option = {
 		name = eksrozpad.20.a
+		MPK = {
+			change_tag_from = WRO
+		}
+	}
+	option = {
+		name = eksrozpad.20.b
 	}
 }
