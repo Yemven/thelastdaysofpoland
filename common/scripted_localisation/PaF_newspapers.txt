@@ -104,4 +104,12 @@ defined_text = {
 	text = {
 		localization_key = newspaper_generic
 	}
+	
+	##SYJ
+	text = {
+		trigger = {
+			original_tag = SYJ
+		}
+		localization_key = newspaper_syjon
+	}
 }
