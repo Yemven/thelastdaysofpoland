@@ -1,0 +1,17 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+focus_tree = { 
+	id = POL_Morawiecki_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POL
+		}
+	}
+	default = no
+	shared_focus = POL_The_situation
+	continuous_focus_position = {x = 50 y = 1500 }
+}

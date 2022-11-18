@@ -1,0 +1,311 @@
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+shared_focus = {
+		id = POL_The_situation
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 9
+		y = 0
+		
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		country_event = { 
+			id = POL_Morawecki_Intro.1
+		  }
+		}
+	}
+shared_focus = {
+		id = POL_The_tragedy
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+	    prerequisite = {focus = POL_The_situation}
+		relative_position_id = POL_The_situation
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		country_event = { 
+			id = POL_Morawecki_Intro.10
+		  }
+		}
+	}
+shared_focus = {
+		id = POL_who_to_Blame
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_The_tragedy}
+		relative_position_id = POL_The_situation
+		x = 0
+		y = 2
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		country_event = { 
+			id = POL_Morawecki_Intro.2
+		  }
+		}
+	}
+shared_focus = {
+		id = POL_ME
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_who_to_Blame}
+		relative_position_id = POL_The_situation
+		mutually_exclusive = { focus = POL_Tusk}
+		x = -1
+		y = 3
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		country_event = { 
+			id = POL_Morawecki_Intro.3
+		  }
+		}
+	}
+shared_focus = {
+		id = POL_Im_sorry
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_ME}
+		relative_position_id = POL_The_situation
+		x = -1
+		y = 4
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		}
+	}
+shared_focus = {
+		id = POL_But_I_Know
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_Im_sorry}
+		relative_position_id = POL_The_situation
+		x = -1
+		y = 5
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		}
+	}
+shared_focus = {
+		id = POL_I_Know_what_went_wrong
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_But_I_Know}
+		relative_position_id = POL_The_situation
+		x = -1
+		y = 6
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		country_event = { 
+			id = POL_Morawecki_Intro.5
+		  }
+		}
+	}
+shared_focus = {
+		id = POL_I_can_fix_IT
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_I_Know_what_went_wrong}
+		relative_position_id = POL_The_situation
+		x = -1
+		y = 7
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		}
+	}
+shared_focus = {
+		id = POL_Do_You_Trust_ME
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_I_can_fix_IT}
+		relative_position_id = POL_The_situation
+		x = -1
+		y = 8
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		country_event = { 
+			id = POL_Morawecki_Intro.6
+		  }
+		}
+	}
+shared_focus = {
+		id = POL_Tusk
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_who_to_Blame}
+		relative_position_id = POL_The_situation
+		mutually_exclusive = { focus = POL_ME}
+		x = 1
+		y = 3
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		country_event = { 
+			id = POL_Morawecki_Intro.4
+		  }
+		}
+	}
+shared_focus = {
+		id = POL_and_the_opposition
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_Tusk}
+		relative_position_id = POL_The_situation
+		x = 1
+		y = 4
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		}
+	}
+shared_focus = {
+		id = POL_alsow_those_who_betreyed_me
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_and_the_opposition}
+		relative_position_id = POL_The_situation
+		x = 1
+		y = 5
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		country_event = { 
+			id = POL_Morawecki_Intro.7
+		  }
+		}
+	}
+shared_focus = {
+		id = POL_and_those_who_invaded_you
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_alsow_those_who_betreyed_me}
+		relative_position_id = POL_The_situation
+		x = 1
+		y = 6
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		}
+	}
+shared_focus = {
+		id = POL_with_those_who_are_among_you
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_and_those_who_invaded_you}
+		relative_position_id = POL_The_situation
+		x = 1
+		y = 7
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		}
+	}
+shared_focus = {
+		id = POL_but_not_ME
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {focus = POL_with_those_who_are_among_you}
+		relative_position_id = POL_The_situation
+		x = 1
+		y = 8
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		country_event = { 
+			id = POL_Morawecki_Intro.8
+		  }
+		}
+	}
+shared_focus = {
+		id = POL_a_speech_to_tell_the_truth
+		available = {
+		}
+		
+		bypass = {
+		}
+	    prerequisite = {
+		focus = POL_but_not_ME
+		focus = POL_Do_You_Trust_ME}
+		relative_position_id = POL_The_situation
+		x = 0
+		y = 9
+		
+		cost = 1
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = {
+		country_event = { 
+			id = POL_Morawecki_Intro.9
+		  }
+		}
+	}

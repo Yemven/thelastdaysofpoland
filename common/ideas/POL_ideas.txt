@@ -1,0 +1,78 @@
+ideas = {
+	country = {
+		POL_State_of_emgrency =	{
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = 0.2
+
+			}
+		}
+		POL_Influence_of_Military =	{
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.10
+			    army_org_factor = 0.05 = 0.1
+			}
+		}
+		POL_Remnats_of_polish_millitary = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_speed_factor = 0.05
+				army_org_factor = 0.05
+			}
+		}
+		POL_Destroyed_Econmy = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.5
+				consumer_goods_factor = 0.5
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+			}
+		}
+		POL_Only_regret = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -1
+			}
+		}
+	}
+}

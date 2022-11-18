@@ -46,22 +46,27 @@ POL_min_dworczyk
 POL_min_glapinski
 POL_min_andrzejczak
 
-monoparty
+regime_council
 state_press
 extreme_security
-public_healthcare
+partial_refundation
 basic_income
 total_mobilisation
 training_veterans
 officer_leftovers
 economy_social_market
-taxes_inhuman
+taxes_high
 trade_promoted
 lgbt_limited_laws
 drugs_harsh_penalised
 women_gender_equality
 minorities_equal_rights
 one_religion_favoured
+POL_State_of_emgrency
+POL_Remnats_of_polish_millitary
+POL_Destroyed_Econmy
+POL_Only_regret
+POL_Influence_of_Military
 }
 
 set_politics = {
@@ -70,16 +75,16 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+set_stability = 0.01
 set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
-	socialdemocrature = 0
-	euroliberalism = 0
-	freemarketism = 0
-	paternal_conservatism = 73
+	socialdemocrature = 10
+	euroliberalism = 10
+	freemarketism = 10
+	paternal_conservatism = 53
 	autocracy = 17
-	corporativism = 10
+	corporativism = 0
 	neonationalism = 0
 	reactionary = 0
 	postpolonism = 0
