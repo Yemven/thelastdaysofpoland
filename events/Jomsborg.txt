@@ -66,6 +66,7 @@ country_event = {
 
 	option = {
 		name = jomsborg.2.a
+		load_focus_tree = JOM_post_invasion_focus
 		set_capital = {state = 70}
 		70 = { set_state_name = "Jomsborg" }
 		68 = { set_state_name = "Pommernstein" }
