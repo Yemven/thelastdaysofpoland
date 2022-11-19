@@ -1773,7 +1773,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "peace_summary_popup_window"
-		position = { x = 0 y = 0 }
+		position = { x = -2000 y = 0 }
 		size = { width = 584 height = 280 }
 		orientation= center
 		origo = center
@@ -1782,61 +1782,61 @@ guiTypes = {
 		fade_type = linear
 		click_to_front = yes
 		
-		#background = {
-		#	name = "Background"
-		#	quadTextureSprite ="GFX_tiled_window_pol_goal"
-		#}
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_pol_goal"
+		}
 
-		#instantTextBoxType = {
-		#	name = "title"
-		#	position = { x = 83 y = 25 }
-		#	textureFile = ""
-		#	font = "hoi_36header"
-		#	borderSize = {x = 0 y = 0}
-		#	text = "Title"
-		#	maxWidth = 320
-		#	maxHeight = 40
-		#	fixedsize = yes
-		#	format = centre
-		#}
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 83 y = 25 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "Title"
+			maxWidth = 320
+			maxHeight = 40
+			fixedsize = yes
+			format = centre
+		}
 
-		#instantTextBoxType = {
-		#	name = "description"
-		#	position = { x = 30 y = 105 }
-		#	textureFile = ""
-		#	font = "hoi_18mbs"
-		#	borderSize = {x = 0 y = 0}
-		#	text = "Long text here!"
-		#	maxWidth = 410
-		#	maxHeight = 200
-		#	format = centre
-		#	scrollbartype = "standardtext_slider"
-		#}
+		instantTextBoxType = {
+			name = "description"
+			position = { x = 30 y = 105 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "Long text here!"
+			maxWidth = 410
+			maxHeight = 200
+			format = centre
+			scrollbartype = "standardtext_slider"
+		}
 
-		#iconType =	{        
-		#	 name = "pc_decoration_top_left"         
-		#	 spriteType = "GFX_pc_decoration_top_left"         
-		#	 position = { x= -4 y = -6 }
-		#		Orientation = "UPPER_LEFT"
-		#		alwaystransparent = yes
-		#	}
-		#	
-		#	iconType =	{         
-		#		name = "pc_decoration_top_right"         
-		#		spriteType = "GFX_pc_decoration_top_right"         
-		#		position = { x= 392 y = -6 }
-		#		alwaystransparent = yes
-		#	}		
+		iconType =	{        
+			 name = "pc_decoration_top_left"         
+			 spriteType = "GFX_pc_decoration_top_left"         
+			 position = { x= -4 y = -6 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			
+			iconType =	{         
+				name = "pc_decoration_top_right"         
+				spriteType = "GFX_pc_decoration_top_right"         
+				position = { x= 392 y = -6 }
+				alwaystransparent = yes
+			}		
 
-		#buttonType = {
-		#	name = "ok_button"
-		#	position = { x=185 y =320}
-		#	quadTextureSprite ="GFX_button_123x34"
-		#	buttonText = "BUTTON_OK"
-		#	buttonFont = "hoi_18mbs"
-		#	shortcut = "RETURN"
-		#	clicksound = click_ok
-		#}
+		buttonType = {
+			name = "ok_button"
+			position = { x=185 y =320}
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "BUTTON_OK"
+			buttonFont = "hoi_18mbs"
+			shortcut = "RETURN"
+			clicksound = click_ok
+		}
 		
 	}
 	

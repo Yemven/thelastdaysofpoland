@@ -3645,7 +3645,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 15
+		days_remove = 10
 		remove_effect  = {
 			log = "[GetDateText]: Decision potezny_sasin_masakruje_kurpie"
 				if = { limit = { country_exists = KUR
@@ -3670,7 +3670,7 @@ ai_war_decisions = {
 				OR = {
 					original_tag = SAS
 				}
-			date > 2027.11.01
+			date > 2027.11.15
 				NOT = { has_war = yes
 						has_decision = potezny_sasin_masakruje_zawkrze }
 		}
@@ -3681,7 +3681,7 @@ ai_war_decisions = {
 			factor = 100
 		}
 		fire_only_once = yes
-		days_remove = 15
+		days_remove = 10
 		remove_effect  = {
 			log = "[GetDateText]: Decision potezny_sasin_masakruje_zawkrze"
 				if = { limit = { country_exists = ZWK
@@ -7028,7 +7028,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = FEL
-			date > 2028.02.01
+			date > 2028.04.01
 			country_exists = SUS
 		}
 
@@ -7065,8 +7065,9 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = CAL
-			date > 2027.12.01
+			date > 2028.02.01
 			country_exists = GNI
+			has_war = no
 		}
 
 		cost = 1
@@ -7101,8 +7102,9 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = GNI
-			date > 2027.11.01
+			date > 2028.02.16
 			country_exists = CAL
+			has_war = no
 		}
 
 		cost = 1
@@ -7138,7 +7140,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = SUS
-			date > 2028.02.01
+			date > 2028.03.16
 			country_exists = FEL
 		}
 
@@ -7177,6 +7179,7 @@ ai_war_decisions = {
 			original_tag = FEL
 			date > 2028.09.01
 			country_exists = CAL
+			has_war = no
 		}
 
 		cost = 1
@@ -7214,6 +7217,7 @@ ai_war_decisions = {
 			original_tag = FEL
 			date > 2028.09.01
 			country_exists = GNI
+			has_war = no
 		}
 
 		cost = 1
@@ -7250,6 +7254,7 @@ ai_war_decisions = {
 			original_tag = CAL
 			date > 2028.09.01
 			country_exists = FEL
+			has_war = no
 		}
 
 		cost = 1
@@ -7287,6 +7292,7 @@ ai_war_decisions = {
 			original_tag = CAL
 			date > 2028.09.01
 			country_exists = SUS
+			has_war = no
 		}
 
 		cost = 1
@@ -7324,6 +7330,7 @@ ai_war_decisions = {
 			original_tag = GNI
 			date > 2028.09.01
 			country_exists = FEL
+			has_war = no
 		}
 
 		cost = 1
@@ -7361,6 +7368,7 @@ ai_war_decisions = {
 			original_tag = GNI
 			date > 2028.09.01
 		    country_exists = SUS
+			has_war = no
 		}
 
 		cost = 1
@@ -7398,6 +7406,7 @@ ai_war_decisions = {
 			original_tag = SUS
 			date > 2028.09.01
 			country_exists = CAL
+			has_war = no
 		}
 
 		cost = 1
@@ -7435,6 +7444,7 @@ ai_war_decisions = {
 			original_tag = SUS
 			date > 2028.09.01
 			country_exists = GNI
+			has_war = no
 		}
 
 		cost = 1

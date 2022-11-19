@@ -62,7 +62,7 @@ static const float MUD_TILING 					= 0.07;
 static const float MUD_NORMAL_CUTOFF 			= 10.982;
 static const float MUD_STRENGHTEN 				= 1.0;
 
-static const float 	SNOW_OPACITY_MIN			= 0.95f;
+static const float 	SNOW_OPACITY_MIN			= 0.4f;
 static const float 	SNOW_OPACITY_MAX			= 0.2f;
 static const float 	SNOW_CAM_MIN 				= 50.0f;
 static const float 	SNOW_CAM_MAX 				= 300.0f;
