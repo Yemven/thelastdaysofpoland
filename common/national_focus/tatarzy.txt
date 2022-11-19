@@ -158,8 +158,8 @@ focus_tree = {
 		id = TAT_XVI_muslim_congress
 		icon = TAT_XVI_muslim_congress
 		relative_position_id = TAT_mufti_and_imam
-		prerequisite = { focus = TAT_bribing_congress }
-		prerequisite = { focus = TAT_campaign_against_miskiewicz }
+		prerequisite = { focus = TAT_bribing_congress 
+						 focus = TAT_campaign_against_miskiewicz }
 		available = {
 		
 		}
