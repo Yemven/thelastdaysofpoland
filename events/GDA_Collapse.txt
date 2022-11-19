@@ -44,16 +44,24 @@ country_event = {
 				remove_core_of = GDA
 				add_claim_by = GDA
 			}
+			country_event = {
+				id = gdarozpad.3
+				days = 2
+			}
 		}
 		GDA_collapse_BOL = yes
+		
 	}
 
 	option = {
 		name = gdarozpad.2.a
-			country_event = {
-			id = gdarozpad.3
-			days = 2
-			}
+		BOL = {
+			change_tag_from = GDA
+		}
+	}
+	
+	option = {
+		name = gdarozpad.2.b
 	}
 }
 
@@ -85,5 +93,12 @@ country_event = {
 
 	option = {
 		name = gdarozpad.3.a
+		KOR = {
+			change_tag_from = GDA
+		}
+	}
+	
+	option = {
+		name = gdarozpad.3.b
 	}
 }
