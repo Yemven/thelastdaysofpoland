@@ -104,22 +104,33 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ziobro.5" }
+	immediate = { 
+		log = "[GetDateText]: [ROOT.GetName] fires ziobro.5"
+		hidden_effect = {
+			country_event = {
+				id = ziobro.6
+				days = 2
+			}
+			if = {
+				limit = { has_country_flag = ziobro_start_war_victory }
+				PRK_revolt_minor_NRA = yes
+			}
+			else_if = {
+				limit = { has_country_flag = ziobro_start_war_lose }
+				PRK_revolt_major_NRA = yes
+			}
+		}
+	}
 
 	option = {
 		name = ziobro.5.a
-		country_event = {
-			id = ziobro.6
-			days = 2
-			}
-		if = {
-			limit = { has_country_flag = ziobro_start_war_victory }
-			PRK_revolt_minor_NRA = yes
+		NRA = {
+			change_tag_from = PRK
 		}
-		else_if = {
-			limit = { has_country_flag = ziobro_start_war_lose }
-			PRK_revolt_major_NRA = yes
-		}
+	}
+	
+	option = {
+		name = ziobro.5.b
 	}
 }
 
@@ -131,22 +142,33 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ziobro.6" }
+	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires ziobro.6"
+		hidden_effect = {
+			country_event = {
+				id = ziobro.7
+				days = 1
+			}
+			if = {
+				limit = { has_country_flag = ziobro_start_war_victory }
+				PRK_revolt_minor_NSZ = yes
+			}
+			else_if = {
+				limit = { has_country_flag = ziobro_start_war_lose }
+				PRK_revolt_major_NSZ = yes
+			}
+		}
+	}
 
 	option = {
 		name = ziobro.6.a
-		country_event = {
-			id = ziobro.7
-			days = 1
-			}
-		if = {
-			limit = { has_country_flag = ziobro_start_war_victory }
-			PRK_revolt_minor_NSZ = yes
+		NSZ = {
+			change_tag_from = PRK
 		}
-		else_if = {
-			limit = { has_country_flag = ziobro_start_war_lose }
-			PRK_revolt_major_NSZ = yes
-		}
+	}
+	
+	option = {
+		name = ziobro.6.b
 	}
 }
 
@@ -158,22 +180,32 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ziobro.7" }
+	immediate = { 
+		log = "[GetDateText]: [ROOT.GetName] fires ziobro.7"
+		hidden_effect = {
+			country_event = {
+				id = ziobro.8
+				hours = 12
+				}
+			if = {
+				limit = { has_country_flag = ziobro_start_war_victory }
+				PRK_revolt_minor_STO = yes
+			}
+			else_if = {
+				limit = { has_country_flag = ziobro_start_war_lose }
+				PRK_revolt_major_STO = yes
+			}
+		}
+	}
 
 	option = {
 		name = ziobro.7.a
-		country_event = {
-			id = ziobro.8
-			hours = 12
-			}
-		if = {
-			limit = { has_country_flag = ziobro_start_war_victory }
-			PRK_revolt_minor_STO = yes
+		STO = {
+			change_tag_from = PRK
 		}
-		else_if = {
-			limit = { has_country_flag = ziobro_start_war_lose }
-			PRK_revolt_major_STO = yes
-		}
+	}
+	option = {
+		name = ziobro.7.b
 	}
 }
 
@@ -185,22 +217,32 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ziobro.8" }
+	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires ziobro.8" 
+		hidden_effect = {
+			country_event = {
+				id = ziobro.9
+				days = 2
+				}
+			if = {
+				limit = { has_country_flag = ziobro_start_war_victory }
+				PRK_revolt_minor_KEL = yes
+			}
+			else_if = {
+				limit = { has_country_flag = ziobro_start_war_lose }
+				PRK_revolt_major_KEL = yes
+			}
+		}
+	}
 
 	option = {
 		name = ziobro.8.a
-		country_event = {
-			id = ziobro.9
-			days = 2
-			}
-		if = {
-			limit = { has_country_flag = ziobro_start_war_victory }
-			PRK_revolt_minor_KEL = yes
+		KEL = {
+			change_tag_from = PRK
 		}
-		else_if = {
-			limit = { has_country_flag = ziobro_start_war_lose }
-			PRK_revolt_major_KEL = yes
-		}
+	}
+	option = {
+		name = ziobro.8.b
 	}
 }
 
@@ -212,26 +254,36 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ziobro.9" }
+	immediate = { 
+		log = "[GetDateText]: [ROOT.GetName] fires ziobro.9"
+		hidden_effect = {
+			if = {
+				limit = { has_country_flag = ziobro_start_war_victory }
+				PRK_revolt_minor_KIE = yes
+				country_event = {
+					id = ziobro.13
+					days = 2
+				}
+				country_event = {
+					id = ziobro.14
+					days = 2
+				}
+			}
+			else_if = {
+				limit = { has_country_flag = ziobro_start_war_lose }
+				PRK_revolt_major_KIE = yes
+			}
+		}
+	}
 
 	option = {
 		name = ziobro.9.a
-		if = {
-			limit = { has_country_flag = ziobro_start_war_victory }
-			PRK_revolt_minor_KIE = yes
-			country_event = {
-				id = ziobro.13
-				days = 2
-				}
-			country_event = {
-				id = ziobro.14
-				days = 2
-				}
+		KIE = {
+			change_tag_from = PRK
 		}
-		else_if = {
-			limit = { has_country_flag = ziobro_start_war_lose }
-			PRK_revolt_major_KIE = yes
-		}
+	}
+	option = {
+		name = ziobro.9.b
 	}
 }
 
@@ -297,21 +349,34 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ziobro.13" }
+	immediate = { 
+		log = "[GetDateText]: [ROOT.GetName] fires ziobro.13"
+		hidden_effect = {
+			if = {
+				limit = { has_country_flag = ziobro_start_war_victory }
+				PRK_revolt_minor_STA = yes
+			}
+			else_if = {
+				limit = { has_country_flag = ziobro_start_war_lose }
+				PRK_revolt_major_STA = yes
+			}
+		}
+	}
 
 	option = {
 		name = ziobro.13.a
-		if = {
-			limit = { has_country_flag = ziobro_start_war_victory }
-			PRK_revolt_minor_STA = yes
+		STA = {
+			change_tag_from = PRK
 			declare_war_on = {
 				target = PRK
 				type = annex_everything
 			}
 		}
-		else_if = {
-			limit = { has_country_flag = ziobro_start_war_lose }
-			PRK_revolt_major_STA = yes
+	}
+	
+	option = {
+		name = ziobro.13.b
+		STA = {
 			declare_war_on = {
 				target = PRK
 				type = annex_everything
@@ -328,27 +393,39 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ziobro.14" }
+	immediate = { 
+		log = "[GetDateText]: [ROOT.GetName] fires ziobro.14"
+		hidden_effect = {
+			if = {
+				limit = { has_country_flag = ziobro_start_war_victory }
+				PRK_revolt_minor_SND = yes
+			}
+			else_if = {
+				limit = { has_country_flag = ziobro_start_war_lose }
+				PRK_revolt_major_SND = yes
+			}
+		}
+	}
 
 	option = {
 		name = ziobro.14.a
-		if = {
-			limit = { has_country_flag = ziobro_start_war_victory }
-			PRK_revolt_minor_SND = yes
+		SND = {
+			change_tag_from = PRK
 			declare_war_on = {
 				target = PRK
 				type = annex_everything
 			}
 		}
-		else_if = {
-			limit = { has_country_flag = ziobro_start_war_lose }
-			PRK_revolt_major_SND = yes
+	}
+	
+	option = {
+		name = ziobro.14.b
+		SND = {
 			declare_war_on = {
 				target = PRK
 				type = annex_everything
 			}
 		}
-
 	}
 }
 
