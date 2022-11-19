@@ -1053,6 +1053,24 @@
  OLE_regional_autocracy_ADJ:0 "Duchy of Silesia" 
  
  
+ ##EK Schlesien##
+ 
+ EKS_voivodeship_euroliberalism:0 "Eurokommissariat Schlesien"
+ EKS_voivodeship_euroliberalism_DEF:0 "Komisariat Europy Śląsk"
+ EKS_voivodeship_euroliberalism_ADJ:0 "Eurokommissariat Schlesien"
+
+ EKS_regional_euroliberalism:0 "Eurokommissariat Schlesien"
+ EKS_regional_euroliberalism_DEF:0 "Komisariat Europy Śląsk"
+ EKS_regional_euroliberalism_ADJ:0 "Eurokommissariat Schlesien"
+ 
+ EKS_supregional_euroliberalism:0 "Eurokommissariat Oderland"
+ EKS_supregional_euroliberalism_DEF:0 "Komisariat Europy Kraj Odrzański"
+ EKS_supregional_euroliberalism_ADJ:0 "Eurokommissariat Oderland"
+ 
+ EKS_final_euroliberalism:0 "Eurorepublik Polen"
+ EKS_final_euroliberalism_DEF:0 "Eurorepublika Polska"
+ EKS_final_euroliberalism_ADJ:0 "Eurorepublik Polen"
+ 
  ##Commonwealth##
  
  WRO_voivodeship_euroliberalism:0 "Commonwealth of Lower Silesia"
@@ -1089,6 +1107,10 @@
  ZUL_final_euroliberalism_DEF:0 "Rząd Wałbrzyski"
  ZUL_final_euroliberalism_ADJ:0 "Wałbrzych Government"
  
+ ZUL_UE_euroliberalism:0 "Eurobezirk Waldenburg"
+ ZUL_UE_euroliberalism_DEF:0 "Eurodystrykt Wałbrzych"
+ ZUL_UE_euroliberalism_ADJ:0 "Eurobezirk Waldenburg"
+
  
  ##Piston##
  
@@ -1125,6 +1147,51 @@
  MPK_final_corporativism:0 "Polish Transport Union"
  MPK_final_corporativism_DEF:0 "Polska Unia Transportowa"
  MPK_final_corporativism_ADJ:0 "Polish Transport Union" 
+ 
+ ##EK Westpolen##
+ 
+ EKW_voivodeship_euroliberalism:0 "Eurokommissariat Westpolen"
+ EKW_voivodeship_euroliberalism_DEF:0 "Komisariat Europy Polska Zachodnia"
+ EKW_voivodeship_euroliberalism_ADJ:0 "Eurokommissariat Westpolen"
+
+ EKW_regional_euroliberalism:0 "Eurokommissariat Westpolen"
+ EKW_regional_euroliberalism_DEF:0 "Komisariat Europy Polska Zachodnia"
+ EKW_regional_euroliberalism_ADJ:0 "Eurokommissariat Westpolen"
+ 
+ EKW_supregional_euroliberalism:0 "Eurokommissariat Westpolen"
+ EKW_supregional_euroliberalism_DEF:0 "Komisariat Europy Polska Zachodnia"
+ EKW_supregional_euroliberalism_ADJ:0 "Eurokommissariat Oderland"
+ 
+ EKW_final_euroliberalism:0 "Eurorepublik Polen"
+ EKW_final_euroliberalism_DEF:0 "Eurorepublika Polska"
+ EKW_final_euroliberalism_ADJ:0 "Eurorepublik Polen"
+ 
+ 
+ ##EK Westpolen##
+ 
+ JOM_voivodeship_squattism:0 "Folkerepublikken Jomsborg"
+ JOM_voivodeship_squattism_DEF:0 "Ludowa Republika Jomsborgu"
+ JOM_voivodeship_squattism_ADJ:0 "Folkerepublikken Jomsborg"
+
+ JOM_regional_squattism:0 "Folkerepublikken Vendland"
+ JOM_regional_squattism_DEF:0 "Ludowa Republika Kraju Wendów"
+ JOM_regional_squattism_ADJ:0 "Folkerepublikken Vindarland"
+ 
+ JOM_supregional_squattism:0 "Folkerepublikken Vendland"
+ JOM_supregional_squattism_DEF:0 "Ludowa Republika Kraju Wendów"
+ JOM_supregional_squattism_ADJ:0 "Folkerepublikken Vendland"
+ 
+ JOM_zawisza_final_socialdemocrature:0 "Republic of Wendia"
+ JOM_zawisza_final_socialdemocrature_DEF:0 "Rzeczpospolita Wendyjska"
+ JOM_zawisza_final_socialdemocrature_ADJ:0 "Republic of Wendia" 
+ 
+ JOM_halfdan_final_squattism:0 "Folkerepublikken Vendland"
+ JOM_halfdan_final_squattism_DEF:0 "Ludowa Republika Wendyjska"
+ JOM_halfdan_final_squattism_ADJ:0 "Folkerepublikken Vendland"
+
+ JOM_harald_final_autocracy:0 "Konungsríki Vendland"
+ JOM_harald_final_autocracy_DEF:0 "Królestwo Wendyjskie"
+ JOM_harald_final_autocracy_ADJ:0 "Konungsríki Vendland"
  
  ###Eurosztaty###
  
@@ -1166,9 +1233,7 @@
  STE_UE_euroliberalism_DEF:0 "Koło Szczecińskiej Hanzy"
  STE_UE_euroliberalism_ADJ:0 "Stettiner Hanse Zirkel"
  
- ZUL_UE_euroliberalism:0 "Eurobezirk Waldenburg"
- ZUL_UE_euroliberalism_DEF:0 "Eurodystrykt Wałbrzych"
- ZUL_UE_euroliberalism_ADJ:0 "Eurobezirk Waldenburg"
+
  
 ###Cyganie###
 
@@ -1388,4 +1453,130 @@
  RUS_czeczen_ADJ:0 "Ar-Rus Caliphate"
  RUS_zsrr_grudinin_ADJ:0 "Russian Socialist Federation"
  RUS_zsrr_ziuganow_ADJ:0 "Soviet Union" 
+ 
+ 
+##Grudziadz##
+
+ GRU_voivodeship_reactionary:0 "Kuyavia Military State"
+ GRU_voivodeship_reactionary_DEF:0 "Kujawskie Państwo Wojskowe"
+ GRU_voivodeship_reactionary_ADJ:0 "Kuyavia Military State"
+ 
+ GRU_regional_reactionary:0 "Kuyavia Military State"
+ GRU_regional_reactionary_DEF:0 "Kujawskie Państwo Wojskowe"
+ GRU_regional_reactionary_ADJ:0 "Kuyavia Military State"
+
+ GRU_supregional_reactionary:0 "National Salvation Council of Poland"
+ GRU_supregional_reactionary_DEF:0 "Narodowa Rada Ocalenia Polski"
+ GRU_supregional_reactionary_ADJ:0 "National Salvation Council of Poland"
+
+ GRU_nrop_final_reactionary:0 "National Salvation Council of Poland"
+ GRU_nrop_final_reactionary_DEF:0 "Narodowa Rada Ocalenia Polski"
+ GRU_nrop_final_reactionary_ADJ:0 "National Salvation Council of Poland" 
+ 
+ GRU_supregional_autocracy:0 "Polish League"
+ GRU_supregional_autocracy_DEF:0 "Liga Polska"
+ GRU_supregional_autocracy_ADJ:0 "Polish League"
+
+ GRU_ulan_final_autocracy:0 "Polish League"
+ GRU_ulan_final_autocracy_DEF:0 "Liga Polska"
+ GRU_ulan_final_autocracy_ADJ:0 "Polish League" 
+
+##Inowrocław##
+
+ INO_voivodeship_paternal_conservatism:0 "Ecclesiastical Province of Kuyavia"
+ INO_voivodeship_paternal_conservatism_DEF:0 "Kościelna Prowincja Kujaw"
+ INO_voivodeship_paternal_conservatism_ADJ:0 "Ecclesiastical Province of Kuyavia"
+ 
+ INO_regional_paternal_conservatism:0 "Ecclesiastical Province of Kuyavia"
+ INO_regional_paternal_conservatism_DEF:0 "Kościelna Prowincja Kujaw"
+ INO_regional_paternal_conservatism_ADJ:0 "Ecclesiastical Province of Kuyavia"
+
+ INO_supregional_paternal_conservatism:0 "Episcopate of Poland"
+ INO_supregional_paternal_conservatism_DEF:0 "Episkopat Polski"
+ INO_supregional_paternal_conservatism_ADJ:0 "Episcopate of Poland"
+
+ INO_final_paternal_conservatism:0 "Episcopate of Poland"
+ INO_final_paternal_conservatism_DEF:0 "Episkopat Polski"
+ INO_final_paternal_conservatism_ADJ:0 "Episcopate of Poland"
+
+
+##Torun##
+
+ TOR_neonationalism:0 "Riflemen Unit 1909"
+ TOR_neonationalism_DEF:0 "Jednostka Strzelecka nr 1909"
+ TOR_neonationalism_ADJ:0 "Riflemen Unit 1909"
+ 
+ TOR_reactionary:0 "Academic Corporation Kujawja"
+ TOR_reactionary_DEF:0 "Korporacja Akademicka Kujawja"
+ TOR_reactionary_ADJ:0 "Academic Corporation Kujawja"
+ 
+ TOR_freemarketism:0 "Academic Corporation Kujawja"
+ TOR_freemarketism_DEF:0 "Korporacja Akademicka Kujawja"
+ TOR_freemarketism_ADJ:0 "Academic Corporation Kujawja"
+ 
+ TOR_voivodeship_corporativism:0 "Redemptorist Church of Kuyavia"
+ TOR_voivodeship_corporativism_DEF:0 "Redemptorystyczny Kościół Kujaw"
+ TOR_voivodeship_corporativism_ADJ:0 "Redemptorist Church of Kuyavia"
+ 
+ TOR_regional_corporativism:0 "Redemptorist Church of Kuyavia"
+ TOR_regional_corporativism_DEF:0 "Redemptorystyczny Kościół Kujaw"
+ TOR_regional_corporativism_ADJ:0 "Redemptorist Church of Kuyavia"
+
+ TOR_supregional_corporativism:0 "Covenant of Poland"
+ TOR_supregional_corporativism_DEF:0 "Przymierze Polskie"
+ TOR_supregional_corporativism_ADJ:0 "Covenant of Poland"
+
+ TOR_rydzyk_final_corporativism:0 "Covenant of Poland"
+ TOR_rydzyk_final_corporativism_DEF:0 "Przymierze Polskie"
+ TOR_rydzyk_final_corporativism_ADJ:0 "Covenant of Poland"  
+ 
+ TOR_voivodeship_postpolonism:0 "Antimasonian Crusade"
+ TOR_voivodeship_postpolonism_DEF:0 "Krucjata Antymasońska"
+ TOR_voivodeship_postpolonism_ADJ:0 "Antimasonian Crusade"
+ 
+ TOR_regional_postpolonism:0 "Antimasonian Crusade"
+ TOR_regional_postpolonism_DEF:0 "Krucjata Antymasońska"
+ TOR_regional_postpolonism_ADJ:0 "Antimasonian Crusade"
+
+ TOR_supregional_postpolonism:0 "Antimasonian Crusade"
+ TOR_supregional_postpolonism_DEF:0 "Krucjata Antymasońska"
+ TOR_supregional_postpolonism_ADJ:0 "Antimasonian Crusade"
+
+ TOR_strzelec_final_paternal_conservatism:0 "Polish National Commonwealth"
+ TOR_strzelec_final_paternal_conservatism_DEF:0 "Polska Rzeczpospolita Narodowa"
+ TOR_strzelec_final_paternal_conservatism_ADJ:0 "Polish National Commonwealth" 
+ 
+ TOR_voivodeship_reactionary:0 "Principality of Kujawy"
+ TOR_voivodeship_reactionary_DEF:0 "Księstwo Kujaw"
+ TOR_voivodeship_reactionary_ADJ:0 "Principality of Kujawy"
+ 
+ TOR_regional_reactionary:0 "Principality of Kujawy"
+ TOR_regional_reactionary_DEF:0 "Księstwo Kujaw"
+ TOR_regional_reactionary_ADJ:0 "Principality of Kujawy"
+
+ TOR_supregional_reactionary:0 "Crown of Polish Kingdom"
+ TOR_supregional_reactionary_DEF:0 "Królestwo Korony Polskiej"
+ TOR_supregional_reactionary_ADJ:0 "Crown of Polish Kingdom"
+
+ TOR_hoga_final_reactionary:0 "Crown of Polish Kingdom"
+ TOR_hoga_final_reactionary_DEF:0 "Królestwo Korony Polskiej"
+ TOR_hoga_final_reactionary_ADJ:0 "Crown of Polish Kingdom" 
+ 
+ TOR_voivodeship_freemarketism:0 "Kujawja Conglomerate"
+ TOR_voivodeship_freemarketism_DEF:0 "Konglomerat Kujawji"
+ TOR_voivodeship_freemarketism_ADJ:0 "Kujawja Conglomerate"
+ 
+ TOR_regional_freemarketism:0 "Kujawja Conglomerate"
+ TOR_regional_freemarketism_DEF:0 "Konglomerat Kujawji"
+ TOR_regional_freemarketism_ADJ:0 "Kujawja Conglomerate"
+
+ TOR_supregional_freemarketism:0 "Polish Conglomerate"
+ TOR_supregional_freemarketism_DEF:0 "Polski Konglomerat"
+ TOR_supregional_freemarketism_ADJ:0 "Polish Conglomerate"
+
+ TOR_memcen_final_freemarketism:0 "Polish Conglomerate"
+ TOR_memcen_final_freemarketism_DEF:0 "Polski Konglomerat"
+ TOR_memcen_final_freemarketism_ADJ:0 "Polish Conglomerate" 
+
+ 
  
