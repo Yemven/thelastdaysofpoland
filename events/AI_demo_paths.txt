@@ -514,59 +514,145 @@ country_event = {
 		KRK_cw_BRK = yes
 		KRK_cw_WND = yes
 		KRK = {
-			declare_war_on = {
-				target = KRA
-				type = annex_everything
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = KRA
+					}
+				}
+				declare_war_on = {
+					target = KRA
+					type = annex_everything
+				}
 			}
-			declare_war_on = {
-				target = BRK
-				type = annex_everything
+			
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = BRK
+					}
+				}
+				declare_war_on = {
+					target = BRK
+					type = annex_everything
+				}
 			}
-			declare_war_on = {
-				target = WND
-				type = annex_everything
+			
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = WND
+					}
+				}
+				declare_war_on = {
+					target = WND
+					type = annex_everything
+				}
 			}
 		}
 		WND = {
-			declare_war_on = {
-				target = KRA
-				type = annex_everything
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = KRA
+					}
+				}
+				declare_war_on = {
+					target = KRA
+					type = annex_everything
+				}
 			}
-			declare_war_on = {
-				target = BRK
-				type = annex_everything
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = BRK
+					}
+				}
+				declare_war_on = {
+					target = BRK
+					type = annex_everything
+				}
 			}
-			declare_war_on = {
-				target = KRK
-				type = annex_everything
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = KRK
+					}
+				}
+				declare_war_on = {
+					target = KRK
+					type = annex_everything
+				}
 			}
 		}
 		BRK = {
-			declare_war_on = {
-				target = KRA
-				type = annex_everything
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = KRA
+					}
+				}
+				declare_war_on = {
+					target = KRA
+					type = annex_everything
+				}
 			}
-			declare_war_on = {
-				target = KRK
-				type = annex_everything
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = KRK
+					}
+				}
+				declare_war_on = {
+					target = KRK
+					type = annex_everything
+				}
 			}
-			declare_war_on = {
-				target = WND
-				type = annex_everything
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = WND
+					}
+				}
+				declare_war_on = {
+					target = WND
+					type = annex_everything
+				}
 			}
 		}
 		KRA = {
-			declare_war_on = {
-				target = KRK
-				type = annex_everything
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = KRK
+					}
+				}
+				declare_war_on = {
+					target = KRK
+					type = annex_everything
+				}
 			}
-			declare_war_on = {
-				target = BRK
-				type = annex_everything
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = BRK
+					}
+				}
+				declare_war_on = {
+					target = BRK
+					type = annex_everything
+				}
 			}
-			declare_war_on = {
-				target = WND
-				type = annex_everything
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = WND
+					}
+				}
+				declare_war_on = {
+					target = WND
+					type = annex_everything
+				}
 			}
 		}
 		log = "[GetDateText]: republika krakowska zdechła"
