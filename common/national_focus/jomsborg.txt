@@ -52,7 +52,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		
-		cost = 2
+		cost = 3
 		search_filters = { }
 		completion_reward = { }
 	}
@@ -72,7 +72,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		
-		cost = 2
+		cost = 3
 		search_filters = { }
 		completion_reward = { }
 	}
@@ -93,7 +93,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		
-		cost = 2
+		cost = 3
 		search_filters = { }
 		completion_reward = { }
 	}
@@ -113,7 +113,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 2
 		search_filters = { }
 		completion_reward = { }
 	}
@@ -133,7 +133,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 2
 		search_filters = { }
 		completion_reward = { }
 	}
@@ -153,7 +153,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 3
+		cost = 4
 		search_filters = { }
 		completion_reward = { }
 	}
@@ -173,7 +173,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		
-		cost = 3
+		cost = 4
 		search_filters = { }
 		completion_reward = { }
 	}
@@ -193,7 +193,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		
-		cost = 3
+		cost = 4
 		search_filters = { }
 		completion_reward = { }
 	}
@@ -206,7 +206,7 @@ focus_tree = {
 		prerequisite = { focus = JOM_thousand_drakkars }
 		prerequisite = { focus = JOM_inland_contacts }
 		available = {
-			POM = { country_exists = yes }
+			country_exists = POM
 		}
 		
 		bypass = {
