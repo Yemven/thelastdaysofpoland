@@ -1,0 +1,34 @@
+focus_tree = { 
+	id = GUR_Sebastian_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GUR
+		}
+	}
+	default = no
+  
+	continuous_focus_position = {x = 50 y = 1500 }
+
+focus = {
+		id = GUR_bastion_of_tradition
+		icon = 
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 6
+		y = 0
+		
+		cost = 2.9
+		search_filters = {FOCUS_STABILITY}
+		completion_reward = { 
+			add_stability = 0.05
+			add_political_power = 100
+		}
+	}
+	
