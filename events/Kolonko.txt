@@ -73,6 +73,7 @@ country_event = {
 			}
 			
 		hidden_effect = {
+		load_focus_tree = USP_post_invasion_focus
 		set_province_name = { id = 17000 name = "Backshore" }
 		set_province_name = { id = 16989 name = "Little Backshore" }
 		set_province_name = { id = 16990 name = "Sarbinton" }
