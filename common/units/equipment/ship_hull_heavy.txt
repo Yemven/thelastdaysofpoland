@@ -1,6 +1,6 @@
 equipments = {
 	heavy_monitor_hull = {
-		year = 2020
+		year = 2030
 
 		is_archetype = yes
 		is_buildable = no
@@ -116,14 +116,14 @@ equipments = {
 		build_cost_ic = 360
 		resources = {
 			steel = 1
-			#chromium = 1
+			junk = 1
 		}
 
 		manpower = 300	
 	}
 	
 	heavy_monitor_hull_equipment = {
-		year = 2020
+		year = 2030
 		
 		archetype = heavy_monitor_hull
 		priority = 2000
@@ -131,7 +131,7 @@ equipments = {
 	}
 	
 	heavy_monitor_hull_2_equipment = {
-		year = 2020
+		year = 2034
 		
 		archetype = heavy_monitor_hull
 		parent = heavy_monitor_hull_equipment
@@ -160,12 +160,12 @@ equipments = {
 		build_cost_ic = 480
 		resources = {
 			steel = 1
-			chromium = 2
+			junk = 2
 		}
 	}
 	
 	heavy_monitor_hull_3_equipment = {
-		year = 2020
+		year = 2038
 		
 		archetype = heavy_monitor_hull
 		parent = heavy_monitor_hull_2_equipment
@@ -195,13 +195,14 @@ equipments = {
 		
 		build_cost_ic = 600
 		resources = {
-			steel = 1
-			chromium = 2
+			steel = 2
+			junk = 1
+			electronics = 2
 		}
 	}
 	
 	heavy_monitor_1_equipment = {
-		year = 1922
+		year = 2030
 		archetype = heavy_monitor_hull
 		priority = 1500
 		module_slots = inherit
@@ -240,10 +241,15 @@ equipments = {
 		naval_range = 4000
 		
 		max_strength = 350
+
+		resources = {
+			steel = 1
+			junk = 1
+		}
 	}
 	
 	heavy_monitor_2_equipment = {
-		year = 1922
+		year = 2034
 		archetype = heavy_monitor_hull
 		parent = heavy_monitor_1_equipment
 		priority = 1500
@@ -287,14 +293,15 @@ equipments = {
 		fuel_consumption = 15
 		
 		build_cost_ic = 480
+
 		resources = {
 			steel = 1
-			chromium = 2
+			junk = 2
 		}
 	}
 	
 	heavy_monitor_3_equipment = {
-		year = 1922
+		year = 2038
 		archetype = heavy_monitor_hull
 		parent = heavy_monitor_2_equipment
 		priority = 1500
@@ -338,9 +345,11 @@ equipments = {
 		fuel_consumption = 20
 		
 		build_cost_ic = 600
+
 		resources = {
-			steel = 1
-			chromium = 2
+			steel = 2
+			junk = 1
+			electronics = 2
 		}
 	}
 }
