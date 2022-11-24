@@ -1,6 +1,6 @@
 equipments = {
 	motorboat_hull = {
-		year = 2020
+		year = 2030
 		
 		is_archetype = yes
 		is_buildable = no
@@ -101,14 +101,15 @@ equipments = {
 		
 		build_cost_ic = 40
 		resources = {
-			steel = 2
+			steel = 1
+			junk = 2
 		}
 		
 		manpower = 25
 	}
 	
 	motorboat_hull_equipment = {
-		year = 2020
+		year = 2030
 
 		archetype = motorboat_hull
 		priority = 2000
@@ -117,7 +118,7 @@ equipments = {
 	}
 	
 	armored_motorboat_hull_equipment = {
-		year = 2020
+		year = 2034
 		
 		archetype = motorboat_hull
 		parent = motorboat_hull_equipment
@@ -153,15 +154,15 @@ equipments = {
 		naval_range = 3500
 		max_strength = 45
 		resources = {
-			#oil = 1
 			steel = 3
+			junk = 1
 		}
 		
 		manpower = 50
 	}
 	
 	torpedo_boat_hull_equipment = {
-		year = 2020
+		year = 2038
 		archetype = motorboat_hull
 		parent = armored_motorboat_hull_equipment
 		priority = 2000
@@ -199,15 +200,17 @@ equipments = {
 		
 		max_strength = 50
 		resources = {
-			#oil = 1
 			steel = 3
+			junk = 0
+			electronics = 1
+			synthetic_materials = 1
 		}
 		
 		manpower = 50
 	}
 	
 	motorboat_equipment = {
-		year = 2020
+		year = 2030
 		archetype = motorboat_hull
 		parent = kayak_equipment
 		priority = 2000
@@ -247,15 +250,15 @@ equipments = {
 		
 		build_cost_ic = 80
 		resources = {
-			#oil = 1
-			steel = 2
+			steel = 1
+			junk = 2
 		}
 		
 		manpower = 50
 	}
 	
 	armored_motorboat_equipment = {
-		year = 2020
+		year = 2034
 		archetype = motorboat_hull
 		parent = motorboat_equipment
 		priority = 2000
@@ -295,15 +298,15 @@ equipments = {
 		
 		build_cost_ic = 100
 		resources = {
-			#oil = 1
 			steel = 3
+			junk = 1
 		}
 		
 		manpower = 50
 	}
 	
 	torpedo_boat_equipment = {
-		year = 2020
+		year = 2038
 		archetype = motorboat_hull
 		parent = armored_motorboat_equipment
 		priority = 2000
@@ -343,8 +346,10 @@ equipments = {
 		
 		build_cost_ic = 120
 		resources = {
-			#oil = 1
 			steel = 3
+			junk = 0
+			electronics = 1
+			synthetic_materials = 1
 		}
 		
 		manpower = 50
