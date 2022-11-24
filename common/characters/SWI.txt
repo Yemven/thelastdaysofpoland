@@ -1,5 +1,5 @@
 characters={
-	SWI_janusz_Żmurkiewicz={
+	SWI_zmurkiewicz={
 		name="Janusz Żmurkiewicz"
 		portraits={
 			civilian={
@@ -11,8 +11,13 @@ characters={
 			expire="1.1.1.1"
 			id=-1
 		}
+		country_leader={
+			ideology=socialdemocrature_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
 	}
-	SWI_joachim_brudziński={
+	SWI_brudzinski={
 		name="Joachim Brudziński"
 		portraits={
 			civilian={
@@ -25,7 +30,7 @@ characters={
 			id=-1
 		}
 	}
-	SWI_aleksander_kwaśniewski={
+	SWI_kwasniewski={
 		name="Aleksander Kwaśniewski"
 		portraits={
 			civilian={
