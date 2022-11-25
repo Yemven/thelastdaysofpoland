@@ -9,7 +9,7 @@ equipments = {
 			fighter
 			interceptor
 			tactical_bomber
-			air_transport
+			scout_plane
 		}
 		group_by = archetype
 		air_map_icon_frame = 6
@@ -288,6 +288,8 @@ equipments = {
 		is_buildable = no
 		type = {
 			tactical_bomber
+			cas
+			naval_bomber
 		}
 		group_by = archetype
 		air_map_icon_frame = 2

@@ -8,7 +8,7 @@ sub_units = {
 			fighter
 			interceptor
 			tactical_bomber
-			air_transport
+			scout_plane
 		}
 		need = { primitive_aircraft_equipment = 1 }
 		categories = { category_fighter }
@@ -36,6 +36,7 @@ sub_units = {
 		type = {
 			cas
 			scout_plane
+			naval_bomber
 		}
 		need = { uav_equipment = 1 }
 		categories = { category_drone }
@@ -48,9 +49,22 @@ sub_units = {
 		active = yes
 		type = {
 			cas
+			scout_plane
 		}
 		need = { helicopter_equipment = 1 }
 		categories = { category_helicopter }
+		land_air_wing_size = 100
+	}
+	
+	trans_helicopter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = {
+			air_transport
+		}
+		need = { trans_helicopter_equipment = 1 }
+		categories = { category_trans_helicopter }
 		land_air_wing_size = 100
 	}
 
@@ -82,6 +96,7 @@ sub_units = {
 		active = yes
 		type = { strategic_bomber
 			tactical_bomber
+			cas
 			naval_bomber
 		}
 		need = { bomber_equipment = 1 }
