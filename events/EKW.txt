@@ -72,3 +72,19 @@ country_event = {
 		}	
 		}
 }
+
+
+country_event = {
+	id = ekw.3 
+	title = ekw.3.t
+	desc = ekw.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires ekw.3"}
+	
+	option = {
+		name = ekw.3.a
+		}
+}

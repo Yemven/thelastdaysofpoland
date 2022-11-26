@@ -61,11 +61,19 @@ on_actions = {
 			PRK = {
 				set_country_flag = ziobro_start_war
 				activate_mission = ziobro_holy_war
+				country_event = {
+					id = ziobro.16
+					days = 1 
+					}
 			}
 			EKS = {
 				country_event = {
 					id = eksrozpad.1
 					days = 160 
+					}
+				country_event = {
+					id = eks.1
+					days = 1 
 					}
 			}			
 			EKW = {
@@ -73,17 +81,29 @@ on_actions = {
 					id = ekwrozpad.1
 					days = 180
 					}
+				country_event = {
+					id = ekw.3
+					days = 1 
+					}
 			}
 			GDA = {
 				country_event = {
 					id = gdarozpad.1
 					days = 194 
 					}
+				country_event = {
+					id = wmg.1
+					days = 1 
+					}
 			}
 			KSZ = {
 				country_event = {
 					id = kszrozpad.1
 					days = 190 
+					}
+				country_event = {
+					id = kaszub.1
+					days = 1 
 					}
 			}
 			RZE = {
@@ -246,6 +266,10 @@ on_actions = {
 				}
 			MNI = {
 				scoped_play_song = "intro_oppeln"
+				country_event = {
+					id = niemcy.1
+					days = 1 
+					}
 				}
 			FEL = { 
 				scoped_play_song = "intro_felix"
