@@ -955,6 +955,7 @@ country_event = {
 	desc = eksrozpad.20.desc
 
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	trigger = {
 		BRE = { num_of_controlled_states < 1 }
