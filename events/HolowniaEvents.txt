@@ -1023,6 +1023,12 @@ country_event = { #Focus What Now?
 
 	option = {
 		name = WML_total.1.a
+		hidden_effect = {
+			country_event = {
+				id = WML_total.2
+				days = 90
+			}
+		}
 	}
 }
 
@@ -1162,7 +1168,7 @@ country_event = { #why you heff to be mad
 	}
 
 	option = {
-		name = WML_total.2.a
+		name = WML_total.3.a
 		meta_effect = {
 			text = {
 				if = {
