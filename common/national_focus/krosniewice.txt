@@ -363,7 +363,11 @@ focus_tree = {
 							focus = KRS_old_police_weapons }
 		
 		available = {
-		
+			OR = {
+				has_completed_focus = KRS_pass_out_the_pitchforks
+				has_completed_focus = KRS_comfort_families
+				has_completed_focus = KRS_unleash_the_terrors
+			}
 		}
 		
 		bypass = {
