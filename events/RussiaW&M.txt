@@ -7,6 +7,17 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+	trigger = {
+		NOT = {
+			controls_state = 40
+			controls_state = 42
+			controls_state = 46
+			controls_state = 47
+			controls_state = 51
+			controls_state = 632
+			controls_state = 875
+		}
+	}
 
 	immediate = { log = "[GetDateText]: [ROOT.GetName] fires rosja.1" }
 
@@ -73,6 +84,200 @@ country_event = {
 			ruling_party = reactionary
 		}
 		log = "[GetDateText]: reakcjoniści przejmują rosję"
+	}
+}
+
+country_event = { #call for 2W truce
+	id = rosja.10
+	title = rosja.10
+	
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			NOT = {
+				ROS = {
+					controls_state = 878
+				}
+			}
+			NOT = {
+				ROS = {
+					controls_state = 880
+				}
+			}
+			NOT = {
+				ROS = {
+					controls_state = 881
+				}
+			}
+			NOT = {
+				ROS = {
+					controls_state = 891
+				}
+			}
+			NOT = {
+				ROS = {
+					controls_state = 893
+				}
+			}
+		}
+	}
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires rosja.10" }
+
+	option = {
+		name = rosja.10.a
+		white_peace = TEU
+		log = "[GetDateText]: [ROOT.GetName] WPs with [TEU.GetName]"
+		white_peace = WRM
+		log = "[GetDateText]: [ROOT.GetName] WPs with [WRM.GetName]"
+		white_peace = MAL
+		log = "[GetDateText]: [ROOT.GetName] WPs with [MAL.GetName]"
+		white_peace = PRU
+		log = "[GetDateText]: [ROOT.GetName] WPs with [PRU.GetName]"
+		white_peace = PZW
+		log = "[GetDateText]: [ROOT.GetName] WPs with [PZW.GetName]"
+		if = {
+			limit = {
+				NOT = {
+					ROS = {
+						controls_state = 40
+					}
+				}
+				40 = {
+					add_core_of = TEU
+					transfer_state_to = TEU
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					ROS = {
+						controls_state = 632
+					}
+				}
+				632 = {
+					add_core_of = TEU
+					transfer_state_to = TEU
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					ROS = {
+						controls_state = 42
+					}
+				}
+				42 = {
+					add_core_of = WRM
+					transfer_state_to = WRM
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					ROS = {
+						controls_state = 47
+					}
+				}
+				47 = {
+					add_core_of = WRM
+					transfer_state_to = WRM
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					ROS = {
+						controls_state = 51
+					}
+				}
+				51 = {
+					add_core_of = PZW
+					transfer_state_to = PZW
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					ROS = {
+						controls_state = 46
+					}
+				}
+				46 = {
+					add_core_of = PZW
+					transfer_state_to = PZW
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					ROS = {
+						controls_state = 875
+					}
+				}
+				875 = {
+					add_core_of = PZW
+					transfer_state_to = PZW
+				}
+			}
+		}
+		country_event = {
+			id = rosja.11
+			days = 14
+		}
+	}
+}
+
+country_event = {
+	id = rosja.11
+	days = 14
+
+	is_triggered_only = yes
+
+	option = {
+		name = rosja.10.a
+		if = { limit = { country_exists = TEU
+							ROOT = { NOT = { tag = TEU } } }
+		declare_war_on = {
+			target = TEU
+			type = annex_everything
+		}
+		}
+		if = { limit = { country_exists = MAL
+							ROOT = { NOT = { tag = MAL } } }
+		declare_war_on = {
+			target = MAL
+			type = annex_everything
+		}
+		}
+		if = { limit = { country_exists = PRU
+							ROOT = { NOT = { tag = PRU } } }
+		declare_war_on = {
+			target = PRU
+			type = annex_everything
+		}
+		}	
+		if = { limit = { country_exists = WRM
+							ROOT = { NOT = { tag = WRM } } }
+		declare_war_on = {
+			target = WRM
+			type = annex_everything
+		}
+		}
+		if = { limit = { country_exists = PZW
+							ROOT = { NOT = { tag = PZW } } }
+		declare_war_on = {
+			target = PZW
+			type = annex_everything
+		}
+	}
 	}
 }
 

@@ -1378,32 +1378,32 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 			}	
-			activate_mission = we_will_be_in_month_in_olsztyn_da
+			#activate_mission = we_will_be_in_month_in_olsztyn_da
 		}
 	}
 
-	we_will_be_in_month_in_olsztyn_da = {
-		allowed = {
-			always = no
-		}
-		available = {
-			ROS = {
-				controls_state = 91
-			}
-		}
-		icon = mission_icon
-		days_mission_timeout = 30
-		complete_effect = { #xaxaxaaxa
-		
-		}
-		timeout_effect = { #oi blin
-			ROS = {
-				country_event = {
-					id = rosja.1
-				}
-			}
-		}
-	}
+#	we_will_be_in_month_in_olsztyn_da = {
+#		allowed = {
+#			always = no
+#		}
+#		available = {
+#			ROS = {
+#				controls_state = 91
+#			}
+#		}
+#		icon = mission_icon
+#		days_mission_timeout = 360
+#		complete_effect = { #xaxaxaaxa
+#		
+#		}
+#		timeout_effect = { #oi blin
+#			ROS = {
+#				country_event = {
+#					id = rosja.1
+#				}
+#			}
+#		}
+#	}
 
 	anti_russian_front = {
 
