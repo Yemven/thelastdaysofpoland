@@ -1,7 +1,7 @@
 
 unification_category = {
 
-lodz_final_unification = {
+poland_unification = {
 
 	icon = GFX_decision_icon_default
 	
@@ -19,12 +19,19 @@ lodz_final_unification = {
 	visible = { 
 		AND = {
 			is_poland_unifier = yes
-			has_global_flag = western_poland_unified
+			OR = {
+				has_global_flag = westpol_unified
+				has_global_flag = eastpol_unified
+				has_global_flag = galicia_unified
+				has_global_flag = silesia_unified
+			 }
 			}
 		}
 
 	complete_effect = {
 		log = "[GetDateText]: Decision lodz_final_unification"
+		set_country_flag = poland_mountain
+		
 		if = {
 			limit = { tag = ZHP
 						has_government = postpolonism }
