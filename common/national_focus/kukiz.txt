@@ -1468,4 +1468,168 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = OPO_ban_german_language
+		icon = OPO_ban_german_language
+		relative_position_id =  OPO_german_minority_status
+		prerequisite = { focus = OPO_german_minority_status }
+		mutually_exclusive = { focus = OPO_minority_language_status }				
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_minority_language_status
+		icon = OPO_minority_language_status
+		relative_position_id =  OPO_german_minority_status
+		prerequisite = {focus = OPO_german_minority_status}
+		mutually_exclusive = { focus = OPO_ban_german_language
+							   focus = OPO_auxiliary_language_status }				
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_auxiliary_language_status
+		icon = OPO_kukiz_15_ministers
+		relative_position_id =  OPO_german_minority_status
+		prerequisite = {focus = OPO_german_minority_status}
+		mutually_exclusive = { focus = OPO_minority_language_status }					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_religious_problem
+		icon = OPO_religious_problem
+		relative_position_id =  OPO_minority_language_status
+		prerequisite = {focus = OPO_ban_german_language
+						focus = OPO_minority_language_status
+						focus = OPO_auxiliary_language_status}				
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_state_catholicism
+		icon = OPO_state_catholicism
+		relative_position_id =  OPO_religious_problem
+		prerequisite = { focus = OPO_religious_problem }
+		mutually_exclusive = { focus = OPO_keep_status_quo }				
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_keep_status_quo
+		icon = OPO_keep_status_quo
+		relative_position_id =  OPO_religious_problem
+		prerequisite = {focus = OPO_religious_problem}
+		mutually_exclusive = { focus = OPO_state_catholicism
+							   focus = OPO_full_separation }				
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_full_separation
+		icon = OPO_full_separation
+		relative_position_id =  OPO_religious_problem
+		prerequisite = {focus = OPO_religious_problem}
+		mutually_exclusive = { focus = OPO_keep_status_quo }					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_cultural_reform
+		icon = OPO_cultural_reform
+		relative_position_id =  OPO_keep_status_quo
+		prerequisite = {focus = OPO_keep_status_quo
+						focus = OPO_state_catholicism
+						focus = OPO_full_separation}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
 }
