@@ -21,10 +21,11 @@ lodz_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision lodz_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = lodzkie_unified
 		if = {
-			limit = { tag = ZHP }
+			limit = { original_tag = ZHP }
 			set_cosmetic_tag = ZHP_voivodeship
-			set_global_flag = lodzkie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -37,7 +38,7 @@ lodz_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = SAP
+			limit = { original_tag = SAP
 					 check_variable = {
 						var = sapek_sanity
 						value = 50
@@ -45,7 +46,7 @@ lodz_voivodeship_unification = {
 					} 
 					}
 			set_cosmetic_tag = SAP_sane_voivodeship
-			set_global_flag = lodzkie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -57,7 +58,7 @@ lodz_voivodeship_unification = {
 		
 
 		else_if = {
-			limit = { tag = SAP 
+			limit = { original_tag = SAP 
 					 check_variable = {
 						var = sapek_sanity
 						value = 50
@@ -65,7 +66,7 @@ lodz_voivodeship_unification = {
 					} 
 			}
 			set_cosmetic_tag = SAP_insane_voivodeship
-			set_global_flag = lodzkie_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -77,9 +78,9 @@ lodz_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = WML }
+			limit = { original_tag = WML }
 			set_cosmetic_tag = WML_voivodeship
-			set_global_flag = lodzkie_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -92,9 +93,9 @@ lodz_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = BBW }
+			limit = { original_tag = BBW }
 			set_cosmetic_tag = BBW_voivodeship
-			set_global_flag = lodzkie_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -108,11 +109,11 @@ lodz_voivodeship_unification = {
 
 		else_if = {
 			limit = { 
-					 tag = ZYD
+					 original_tag = ZYD
 					 has_government = squattism
 				}
 			set_cosmetic_tag = ZYD_voivodeship
-			set_global_flag = lodzkie_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -123,10 +124,10 @@ lodz_voivodeship_unification = {
 		}
 
 		else_if = {
-			limit = { tag = ZYD
+			limit = { original_tag = ZYD
 					 has_government = marxism_cranism }
 			set_cosmetic_tag = ZYD_voivodeship
-			set_global_flag = lodzkie_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -138,10 +139,10 @@ lodz_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = KRS
+			limit = { original_tag = KRS
 					  has_government = corporativism }
 			set_cosmetic_tag = KRS_voivodeship
-			set_global_flag = lodzkie_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -152,10 +153,10 @@ lodz_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = KRS
+			limit = { original_tag = KRS
 					  has_government = postpolonism }
 			set_cosmetic_tag = KRS_voivodeship
-			set_global_flag = lodzkie_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -166,10 +167,10 @@ lodz_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = KRS
+			limit = { original_tag = KRS
 					  has_government = autocracy }
 			set_cosmetic_tag = KRS_voivodeship
-			set_global_flag = lodzkie_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -205,8 +206,9 @@ lubelskie_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision lubelskie_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = lubelskie_unified
 		if = {
-			limit = { tag = CRN }
+			limit = { original_tag = CRN }
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -219,7 +221,8 @@ lubelskie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = PUL }
+			limit = { original_tag = PUL }
+			set_cosmetic_tag = PUL_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -232,7 +235,8 @@ lubelskie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = KSN }
+			limit = { original_tag = KSN }
+			set_cosmetic_tag = KSN_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -245,7 +249,8 @@ lubelskie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = SWD }
+			limit = { original_tag = SWD }
+			set_cosmetic_tag = SWD_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -258,7 +263,7 @@ lubelskie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = ZUK }
+			limit = { original_tag = ZUK }
 			hidden_effect = {
 				set_capital = {
 					state = 363
@@ -279,7 +284,8 @@ lubelskie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = BIL }
+			limit = { original_tag = BIL }
+			set_cosmetic_tag = BIL_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -292,7 +298,8 @@ lubelskie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = BPD }
+			limit = { original_tag = BPD }
+			set_cosmetic_tag = BPD_voivodeship
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -327,8 +334,9 @@ zaglebie_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision zaglebie_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = zaglebie_unified
 		if = {
-			limit = { tag = DGR }
+			limit = { original_tag = DGR }
 			set_cosmetic_tag = DGR_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -342,7 +350,7 @@ zaglebie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = SOS }
+			limit = { original_tag = SOS }
 			set_cosmetic_tag = SOS_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -356,7 +364,7 @@ zaglebie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = JAW }
+			limit = { original_tag = JAW }
 			set_cosmetic_tag = JAW_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -370,7 +378,7 @@ zaglebie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = ZAW
+			limit = { original_tag = ZAW
 						has_government = paternal_conservatism }
 			set_cosmetic_tag = ZAW_voivodeship
 			hidden_effect = {
@@ -385,7 +393,7 @@ zaglebie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = CCH }
+			limit = { original_tag = CCH }
 			set_cosmetic_tag = CCH_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -399,7 +407,7 @@ zaglebie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = BRZ }
+			limit = { original_tag = BRZ }
 			set_cosmetic_tag = BRZ_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -413,7 +421,7 @@ zaglebie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = JWK }
+			limit = { original_tag = JWK }
 			set_cosmetic_tag = JWK_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -450,8 +458,9 @@ upper_silesia_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision upper_silesia_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = slaskie_unified
 		if = {
-			limit = { tag = ASG }
+			limit = { original_tag = ASG }
 			set_cosmetic_tag = ASG_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -465,7 +474,7 @@ upper_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = WOD }
+			limit = { original_tag = WOD }
 			set_cosmetic_tag = WOD_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -479,7 +488,7 @@ upper_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = JSW }
+			limit = { original_tag = JSW }
 			set_cosmetic_tag = JSW_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -493,7 +502,7 @@ upper_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = GLI }
+			limit = { original_tag = GLI }
 			set_cosmetic_tag = GLI_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -507,7 +516,7 @@ upper_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = CHO }
+			limit = { original_tag = CHO }
 			set_cosmetic_tag = CHO_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -521,7 +530,7 @@ upper_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = RAS }
+			limit = { original_tag = RAS }
 			set_cosmetic_tag = RAS_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -535,7 +544,7 @@ upper_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = FER }
+			limit = { original_tag = FER }
 			set_cosmetic_tag = FER_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -549,7 +558,7 @@ upper_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = RUD }
+			limit = { original_tag = RUD }
 			set_cosmetic_tag = RUD_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -563,7 +572,7 @@ upper_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = KAT }
+			limit = { original_tag = KAT }
 			set_cosmetic_tag = KAT_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -577,7 +586,7 @@ upper_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = TRC }
+			limit = { original_tag = TRC }
 			set_cosmetic_tag = TRC_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -614,8 +623,9 @@ south_greater_poland_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision south_greater_poland_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = kaliskie_unified
 		if = {
-			limit = { tag = CAL }
+			limit = { original_tag = CAL }
 			set_cosmetic_tag = CAL_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -629,7 +639,7 @@ south_greater_poland_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = FEL }
+			limit = { original_tag = FEL }
 			set_cosmetic_tag = FEL_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -643,7 +653,7 @@ south_greater_poland_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = GNI }
+			limit = { original_tag = GNI }
 			set_cosmetic_tag = GNI_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -657,7 +667,7 @@ south_greater_poland_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = SUS }
+			limit = { original_tag = SUS }
 			set_cosmetic_tag = SUS_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -693,8 +703,9 @@ tatry_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision tatry_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = tatry_unified
 		if = {
-			limit = { tag = CIE }
+			limit = { original_tag = CIE }
 			set_cosmetic_tag = CIE_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -708,7 +719,7 @@ tatry_unification = {
 
 
 		else_if = {
-			limit = { tag = BSK
+			limit = { original_tag = BSK
 					  has_government = autocracy }
 			set_cosmetic_tag = BSK_voivodeship
 			hidden_effect = {
@@ -723,7 +734,7 @@ tatry_unification = {
 
 
 		else_if = {
-			limit = { tag = GUR }
+			limit = { original_tag = GUR }
 			set_cosmetic_tag = GUR_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -737,7 +748,7 @@ tatry_unification = {
 
 
 		else_if = {
-			limit = { tag = MSL }
+			limit = { original_tag = MSL }
 			set_cosmetic_tag = MSL_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -751,7 +762,7 @@ tatry_unification = {
 
 
 		else_if = {
-			limit = { tag = SCZ }
+			limit = { original_tag = SCZ }
 			set_cosmetic_tag = SCZ_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -765,7 +776,7 @@ tatry_unification = {
 
 
 		else_if = {
-			limit = { tag = LEM }
+			limit = { original_tag = LEM }
 			set_cosmetic_tag = LEM_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -779,7 +790,7 @@ tatry_unification = {
 
 
 		else_if = {
-			limit = { tag = BSK
+			limit = { original_tag = BSK
 					  has_government = freemarketism }
 			set_cosmetic_tag = BSK_voivodeship
 			hidden_effect = {
@@ -817,8 +828,9 @@ northen_greater_poland_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision northen_greater_poland_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = poznanskie_unified
 		if = {
-			limit = { tag = POZ }
+			limit = { original_tag = POZ }
 			set_cosmetic_tag = POZ_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -832,7 +844,7 @@ northen_greater_poland_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = SYJ }
+			limit = { original_tag = SYJ }
 			set_cosmetic_tag = SYJ_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -846,7 +858,7 @@ northen_greater_poland_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = NAC }
+			limit = { original_tag = NAC }
 			set_cosmetic_tag = NAC_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -860,7 +872,7 @@ northen_greater_poland_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = SLU }
+			limit = { original_tag = SLU }
 			set_cosmetic_tag = SLU_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -874,7 +886,7 @@ northen_greater_poland_voivodeship_unification = {
 		
 		
 		else_if = {
-			limit = { tag = PIL }
+			limit = { original_tag = PIL }
 			set_cosmetic_tag = PIL_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -912,8 +924,9 @@ lower_silesia_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision lower_silesia_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = dolnoslaskie_unified
 		if = {
-			limit = { tag = WRO }
+			limit = { original_tag = WRO }
 			set_cosmetic_tag = WRO_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -927,7 +940,7 @@ lower_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = CZE }
+			limit = { original_tag = CZE }
 			set_cosmetic_tag = CZE_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -941,7 +954,7 @@ lower_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = EKS }
+			limit = { original_tag = EKS }
 			set_cosmetic_tag = EKS_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -955,7 +968,7 @@ lower_silesia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = KGH }
+			limit = { original_tag = KGH }
 			set_cosmetic_tag = KGH_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -967,7 +980,7 @@ lower_silesia_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = RYB }
+			limit = { original_tag = RYB }
 			set_cosmetic_tag = RYB_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -979,7 +992,7 @@ lower_silesia_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = ANA }
+			limit = { original_tag = ANA }
 			set_cosmetic_tag = ANA_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -991,7 +1004,7 @@ lower_silesia_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = ZUL }
+			limit = { original_tag = ZUL }
 			set_cosmetic_tag = ZUL_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -1003,7 +1016,7 @@ lower_silesia_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = MNL }
+			limit = { original_tag = MNL }
 			set_cosmetic_tag = MNL_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -1015,7 +1028,7 @@ lower_silesia_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = CYG }
+			limit = { original_tag = CYG }
 			set_cosmetic_tag = CYG_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -1027,7 +1040,7 @@ lower_silesia_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = MPK }
+			limit = { original_tag = MPK }
 			set_cosmetic_tag = MPK_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -1067,10 +1080,12 @@ opole_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision opole_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = opolskie_unified
+		
 		if = {
-			limit = { tag = MNI }
+			limit = { original_tag = MNI }
 			set_cosmetic_tag = MNI_voivodeship
-			set_global_flag = opolskie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1083,9 +1098,9 @@ opole_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = OPO }
+			limit = { original_tag = OPO }
 			set_cosmetic_tag = OPO_voivodeship
-			set_global_flag = opolskie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1098,9 +1113,9 @@ opole_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = LCH }
+			limit = { original_tag = LCH }
 			set_cosmetic_tag = LCH_voivodeship
-			set_global_flag = opolskie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1113,9 +1128,9 @@ opole_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = WND }
+			limit = { original_tag = WND }
 			set_cosmetic_tag = WND_voivodeship
-			set_global_flag = opolskie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1129,9 +1144,9 @@ opole_voivodeship_unification = {
 
 		else_if = {
 			limit = { 
-					 tag = LEH	}
+					 original_tag = LEH	}
 			set_cosmetic_tag = LEH_voivodeship
-			set_global_flag = opolskie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1142,9 +1157,9 @@ opole_voivodeship_unification = {
 		}
 
 		else_if = {
-			limit = { tag = NYS }
+			limit = { original_tag = NYS }
 			set_cosmetic_tag = NYS_voivodeship
-			set_global_flag = opolskie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1179,10 +1194,11 @@ lubuskie_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision lubuskie_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = lubuskie_unified
 		if = {
-			limit = { tag = ZAG }
+			limit = { original_tag = ZAG }
 			set_cosmetic_tag = ZAG_voivodeship
-			set_global_flag = lubuskie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1195,9 +1211,9 @@ lubuskie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = WIN }
+			limit = { original_tag = WIN }
 			set_cosmetic_tag = WIN_voivodeship
-			set_global_flag = lubuskie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1210,9 +1226,9 @@ lubuskie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = KAM }
+			limit = { original_tag = KAM }
 			set_cosmetic_tag = KAM_voivodeship
-			set_global_flag = lubuskie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1225,9 +1241,9 @@ lubuskie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = MOT }
+			limit = { original_tag = MOT }
 			set_cosmetic_tag = MOT_voivodeship
-			set_global_flag = lubuskie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1263,10 +1279,11 @@ west_pomerania_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision west_pomerania_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = zachodniopomorskie_unified
 		if = {
-			limit = { tag = JAS }
+			limit = { original_tag = JAS }
 			set_cosmetic_tag = JAS_voivodeship
-			set_global_flag = west_pomerania_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1279,9 +1296,9 @@ west_pomerania_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = EKW }
+			limit = { original_tag = EKW }
 			set_cosmetic_tag = EKW_voivodeship
-			set_global_flag = west_pomerania_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1294,9 +1311,9 @@ west_pomerania_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = STE }
+			limit = { original_tag = STE }
 			set_cosmetic_tag = STE_voivodeship
-			set_global_flag = west_pomerania_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1309,9 +1326,9 @@ west_pomerania_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = SWI }
+			limit = { original_tag = SWI }
 			set_cosmetic_tag = SWI_voivodeship
-			set_global_flag = west_pomerania_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1322,9 +1339,9 @@ west_pomerania_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = JOM }
+			limit = { original_tag = JOM }
 			set_cosmetic_tag = JOM_voivodeship
-			set_global_flag = west_pomerania_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1335,9 +1352,9 @@ west_pomerania_voivodeship_unification = {
 		}	
 
 		else_if = {
-			limit = { tag = USP }
+			limit = { original_tag = USP }
 			set_cosmetic_tag = USP_voivodeship
-			set_global_flag = west_pomerania_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1374,10 +1391,12 @@ kuyavia_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision kuyavia_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = kuyavia_unified
+		
 		if = {
-			limit = { tag = INO }
+			limit = { original_tag = INO }
 			set_cosmetic_tag = INO_voivodeship
-			set_global_flag = kuyavia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1390,9 +1409,9 @@ kuyavia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = TOR }
+			limit = { original_tag = TOR }
 			set_cosmetic_tag = TOR_voivodeship
-			set_global_flag = kuyavia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1405,9 +1424,9 @@ kuyavia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = GRU }
+			limit = { original_tag = GRU }
 			set_cosmetic_tag = GRU_voivodeship
-			set_global_flag = kuyavia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1420,9 +1439,9 @@ kuyavia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = KUJ }
+			limit = { original_tag = KUJ }
 			set_cosmetic_tag = KUJ_voivodeship
-			set_global_flag = kuyavia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1433,9 +1452,9 @@ kuyavia_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = BYD }
+			limit = { original_tag = BYD }
 			set_cosmetic_tag = BYD_voivodeship
-			set_global_flag = kuyavia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1471,10 +1490,12 @@ pomerelia_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision pomerelia_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = pomorskie_unified
+		
 		if = {
-			limit = { tag = OWS }
+			limit = { original_tag = OWS }
 			set_cosmetic_tag = OWS_voivodeship
-			set_global_flag = pomerelia_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1487,9 +1508,9 @@ pomerelia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = BOL }
+			limit = { original_tag = BOL }
 			set_cosmetic_tag = BOL_voivodeship
-			set_global_flag = pomerelia_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1502,9 +1523,9 @@ pomerelia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = GDA }
+			limit = { original_tag = GDA }
 			set_cosmetic_tag = GDA_voivodeship
-			set_global_flag = pomerelia_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1517,9 +1538,9 @@ pomerelia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = GAY }
+			limit = { original_tag = GAY }
 			set_cosmetic_tag = GAY_voivodeship
-			set_global_flag = pomerelia_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1530,9 +1551,9 @@ pomerelia_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = KSZ }
+			limit = { original_tag = KSZ }
 			set_cosmetic_tag = KSZ_voivodeship
-			set_global_flag = pomerelia_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1543,9 +1564,9 @@ pomerelia_voivodeship_unification = {
 		}	
 
 		else_if = {
-			limit = { tag = HEL }
+			limit = { original_tag = HEL }
 			set_cosmetic_tag = HEL_voivodeship
-			set_global_flag = pomerelia_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1556,9 +1577,9 @@ pomerelia_voivodeship_unification = {
 		}	
 		
 		else_if = {
-			limit = { tag = CZL }
+			limit = { original_tag = CZL }
 			set_cosmetic_tag = CZL_voivodeship
-			set_global_flag = pomerelia_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1569,9 +1590,9 @@ pomerelia_voivodeship_unification = {
 		}	
 
 		else_if = {
-			limit = { tag = LOT }
+			limit = { original_tag = LOT }
 			set_cosmetic_tag = LOT_voivodeship
-			set_global_flag = pomerelia_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1582,9 +1603,9 @@ pomerelia_voivodeship_unification = {
 		}	
 
 		else_if = {
-			limit = { tag = KOR }
+			limit = { original_tag = KOR }
 			set_cosmetic_tag = KOR_voivodeship
-			set_global_flag = pomerelia_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1619,10 +1640,12 @@ warmia_and_masuria_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision warmia_and_masuria_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = warminsko_mazurskie_unified
+		
 		if = {
-			limit = { tag = MAL }
+			limit = { original_tag = MAL }
 			set_cosmetic_tag = MAL_voivodeship
-			set_global_flag = warmia_and_masuria_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1635,13 +1658,13 @@ warmia_and_masuria_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = ROS }
+			limit = { original_tag = ROS }
 			set_cosmetic_tag = ROS_voivodeship
-			set_global_flag = warmia_and_masuria_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
-					news_event = { id = unification.56 }
+					news_event = { id = unificationreg.56 }
 				}
 			}
 			custom_effect_tooltip = ROS_unifies_warmia_and_masuria_tooltip
@@ -1650,9 +1673,9 @@ warmia_and_masuria_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = TEU }
+			limit = { original_tag = TEU }
 			set_cosmetic_tag = TEU_voivodeship
-			set_global_flag = warmia_and_masuria_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1665,9 +1688,9 @@ warmia_and_masuria_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = PRU }
+			limit = { original_tag = PRU }
 			set_cosmetic_tag = PRU_voivodeship
-			set_global_flag = warmia_and_masuria_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1678,9 +1701,9 @@ warmia_and_masuria_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = PZW }
+			limit = { original_tag = PZW }
 			set_cosmetic_tag = PZW_voivodeship
-			set_global_flag = warmia_and_masuria_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1691,9 +1714,9 @@ warmia_and_masuria_voivodeship_unification = {
 		}	
 
 		else_if = {
-			limit = { tag = WRM }
+			limit = { original_tag = WRM }
 			set_cosmetic_tag = WRM_voivodeship
-			set_global_flag = warmia_and_masuria_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1729,10 +1752,12 @@ podlasie_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision podlasie_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = podlaskie_unified
+		
 		if = {
-			limit = { tag = SAN }
+			limit = { original_tag = SAN }
 			set_cosmetic_tag = SAN_voivodeship
-			set_global_flag = podlasie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1745,9 +1770,9 @@ podlasie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = TAT }
+			limit = { original_tag = TAT }
 			set_cosmetic_tag = TAT_voivodeship
-			set_global_flag = podlasie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1760,9 +1785,9 @@ podlasie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = BOM }
+			limit = { original_tag = BOM }
 			set_cosmetic_tag = BOM_voivodeship
-			set_global_flag = podlasie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1775,9 +1800,9 @@ podlasie_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = KON }
+			limit = { original_tag = KON }
 			set_cosmetic_tag = KON_voivodeship
-			set_global_flag = podlasie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1788,9 +1813,9 @@ podlasie_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = BEL }
+			limit = { original_tag = BEL }
 			set_cosmetic_tag = BEL_voivodeship
-			set_global_flag = podlasie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1801,9 +1826,9 @@ podlasie_voivodeship_unification = {
 		}	
 
 		else_if = {
-			limit = { tag = LMZ }
+			limit = { original_tag = LMZ }
 			set_cosmetic_tag = LMZ_voivodeship
-			set_global_flag = podlasie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1814,9 +1839,9 @@ podlasie_voivodeship_unification = {
 		}	
 	
 		else_if = {
-			limit = { tag = SDL }
+			limit = { original_tag = SDL }
 			set_cosmetic_tag = SDL_voivodeship
-			set_global_flag = podlasie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1827,9 +1852,9 @@ podlasie_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = AGR }
+			limit = { original_tag = AGR }
 			set_cosmetic_tag = AGR_voivodeship
-			set_global_flag = podlasie_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1865,10 +1890,12 @@ radom_province_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision radom_province_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = radomskie_unified
+		
 		if = {
-			limit = { tag = SAT }
+			limit = { original_tag = SAT }
 			set_cosmetic_tag = SAT_voivodeship
-			set_global_flag = radom_province_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1881,9 +1908,9 @@ radom_province_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = RAD }
+			limit = { original_tag = RAD }
 			set_cosmetic_tag = RAD_voivodeship
-			set_global_flag = radom_province_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1896,9 +1923,9 @@ radom_province_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = GAR }
+			limit = { original_tag = GAR }
 			set_cosmetic_tag = GAR_voivodeship
-			set_global_flag = radom_province_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1911,9 +1938,9 @@ radom_province_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = SKA }
+			limit = { original_tag = SKA }
 			set_cosmetic_tag = SKA_voivodeship
-			set_global_flag = radom_province_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1949,10 +1976,12 @@ mazovia_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision mazovia_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = mazowieckie_unified
+		
 		if = {
-			limit = { tag = ORL }
+			limit = { original_tag = ORL }
 			set_cosmetic_tag = ORL_voivodeship
-			set_global_flag = mazovia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1965,9 +1994,9 @@ mazovia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = SAS }
+			limit = { original_tag = SAS }
 			set_cosmetic_tag = SAS_voivodeship
-			set_global_flag = mazovia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -1980,9 +2009,9 @@ mazovia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = POL }
+			limit = { original_tag = POL }
 			set_cosmetic_tag = POL_voivodeship
-			set_global_flag = mazovia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2018,10 +2047,12 @@ capital_district_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision capital_district_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = capital_district_unified
+		
 		if = {
-			limit = { tag = MAF }
+			limit = { original_tag = MAF }
 			set_cosmetic_tag = MAF_voivodeship
-			set_global_flag = capital_district_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2034,9 +2065,9 @@ capital_district_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = WOW }
+			limit = { original_tag = WOW }
 			set_cosmetic_tag = WOW_voivodeship
-			set_global_flag = capital_district_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2049,9 +2080,9 @@ capital_district_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = ZYR }
+			limit = { original_tag = ZYR }
 			set_cosmetic_tag = ZYR_voivodeship
-			set_global_flag = capital_district_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2063,9 +2094,9 @@ capital_district_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = DUP }
+			limit = { original_tag = DUP }
 			set_cosmetic_tag = DUP_voivodeship
-			set_global_flag = capital_district_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2078,9 +2109,9 @@ capital_district_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = BIE }
+			limit = { original_tag = BIE }
 			set_cosmetic_tag = BIE_voivodeship
-			set_global_flag = capital_district_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2091,9 +2122,9 @@ capital_district_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = PLC }
+			limit = { original_tag = PLC }
 			set_cosmetic_tag = PLC_voivodeship
-			set_global_flag = capital_district_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2106,9 +2137,9 @@ capital_district_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = ZIE }
+			limit = { original_tag = ZIE }
 			set_cosmetic_tag = ZIE_voivodeship
-			set_global_flag = capital_district_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2120,9 +2151,9 @@ capital_district_voivodeship_unification = {
 	
 	
 		else_if = {
-			limit = { tag = TVP }
+			limit = { original_tag = TVP }
 			set_cosmetic_tag = TVP_voivodeship
-			set_global_flag = capital_district_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2135,9 +2166,9 @@ capital_district_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = TRZ }
+			limit = { original_tag = TRZ }
 			set_cosmetic_tag = TRZ_voivodeship
-			set_global_flag = capital_district_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2173,10 +2204,12 @@ holy_cross_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision holy_cross_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = swietokrzyskie_unified
+		
 		if = {
-			limit = { tag = KEL }
+			limit = { original_tag = KEL }
 			set_cosmetic_tag = KEL_voivodeship
-			set_global_flag = holy_cross_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2189,9 +2222,9 @@ holy_cross_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = NRA }
+			limit = { original_tag = NRA }
 			set_cosmetic_tag = NRA_voivodeship
-			set_global_flag = holy_cross_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2204,9 +2237,9 @@ holy_cross_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = NSZ }
+			limit = { original_tag = NSZ }
 			set_cosmetic_tag = NSZ_voivodeship
-			set_global_flag = holy_cross_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2218,9 +2251,9 @@ holy_cross_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = SND }
+			limit = { original_tag = SND }
 			set_cosmetic_tag = SND_voivodeship
-			set_global_flag = holy_cross_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2233,9 +2266,9 @@ holy_cross_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = KIE }
+			limit = { original_tag = KIE }
 			set_cosmetic_tag = KIE_voivodeship
-			set_global_flag = holy_cross_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2246,9 +2279,9 @@ holy_cross_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = STO }
+			limit = { original_tag = STO }
 			set_cosmetic_tag = STO_voivodeship
-			set_global_flag = holy_cross_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2261,9 +2294,9 @@ holy_cross_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = STA }
+			limit = { original_tag = STA }
 			set_cosmetic_tag = STA_voivodeship
-			set_global_flag = holy_cross_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2299,10 +2332,12 @@ subcarpathia_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision subcarpathia_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = podkarpackie_unified
+		
 		if = {
-			limit = { tag = RZE }
+			limit = { original_tag = RZE }
 			set_cosmetic_tag = RZE_voivodeship
-			set_global_flag = subcarpathia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2315,9 +2350,9 @@ subcarpathia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = CHR }
+			limit = { original_tag = CHR }
 			set_cosmetic_tag = CHR_voivodeship
-			set_global_flag = subcarpathia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2330,9 +2365,9 @@ subcarpathia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = UPA }
+			limit = { original_tag = UPA }
 			set_cosmetic_tag = UPA_voivodeship
-			set_global_flag = subcarpathia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2344,9 +2379,9 @@ subcarpathia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = KOZ }
+			limit = { original_tag = KOZ }
 			set_cosmetic_tag = KOZ_voivodeship
-			set_global_flag = subcarpathia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2359,9 +2394,9 @@ subcarpathia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = BSC }
+			limit = { original_tag = BSC }
 			set_cosmetic_tag = BSC_voivodeship
-			set_global_flag = subcarpathia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2372,9 +2407,9 @@ subcarpathia_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = KRO }
+			limit = { original_tag = KRO }
 			set_cosmetic_tag = KRO_voivodeship
-			set_global_flag = subcarpathia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2387,9 +2422,9 @@ subcarpathia_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = TAR }
+			limit = { original_tag = TAR }
 			set_cosmetic_tag = TAR_voivodeship
-			set_global_flag = subcarpathia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2400,9 +2435,9 @@ subcarpathia_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = LGP }
+			limit = { original_tag = LGP }
 			set_cosmetic_tag = LGP_voivodeship
-			set_global_flag = subcarpathia_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2439,10 +2474,12 @@ lesser_poland_voivodeship_unification = {
 	complete_effect = {
 		log = "[GetDateText]: Decision lesser_poland_voivodeship_unification"
 		set_country_flag = unified_voivodeship
+		set_global_flag = malopolskie_unified
+		
 		if = {
-			limit = { tag = KRK }
+			limit = { original_tag = KRK }
 			set_cosmetic_tag = KRK_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2455,9 +2492,9 @@ lesser_poland_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = PRK }
+			limit = { original_tag = PRK }
 			set_cosmetic_tag = PRK_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2470,9 +2507,9 @@ lesser_poland_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = NHT }
+			limit = { original_tag = NHT }
 			set_cosmetic_tag = NHT_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2484,9 +2521,9 @@ lesser_poland_voivodeship_unification = {
 
 
 		else_if = {
-			limit = { tag = WDW }
+			limit = { original_tag = WDW }
 			set_cosmetic_tag = WDW_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2497,9 +2534,9 @@ lesser_poland_voivodeship_unification = {
 		}
 
 		else_if = {
-			limit = { tag = TRN }
+			limit = { original_tag = TRN }
 			set_cosmetic_tag = TRN_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2510,9 +2547,9 @@ lesser_poland_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = OSW }
+			limit = { original_tag = OSW }
 			set_cosmetic_tag = OSW_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2523,9 +2560,9 @@ lesser_poland_voivodeship_unification = {
 		}
 
 		else_if = {
-			limit = { tag = UMN }
+			limit = { original_tag = UMN }
 			set_cosmetic_tag = UMN_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2536,9 +2573,9 @@ lesser_poland_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = HOR }
+			limit = { original_tag = HOR }
 			set_cosmetic_tag = HOR_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2549,9 +2586,9 @@ lesser_poland_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = KRA }
+			limit = { original_tag = KRA }
 			set_cosmetic_tag = KRA_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2562,9 +2599,9 @@ lesser_poland_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = BRK }
+			limit = { original_tag = BRK }
 			set_cosmetic_tag = BRK_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2575,9 +2612,9 @@ lesser_poland_voivodeship_unification = {
 		}
 
 		else_if = {
-			limit = { tag = WND }
+			limit = { original_tag = WND }
 			set_cosmetic_tag = WND_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2588,9 +2625,9 @@ lesser_poland_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = HAB }
+			limit = { original_tag = HAB }
 			set_cosmetic_tag = HAB_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2601,9 +2638,9 @@ lesser_poland_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = AGH }
+			limit = { original_tag = AGH }
 			set_cosmetic_tag = AGH_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -2614,9 +2651,9 @@ lesser_poland_voivodeship_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = UJG }
+			limit = { original_tag = UJG }
 			set_cosmetic_tag = UJG_voivodeship
-			set_global_flag = lesser_poland_unified
+
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }

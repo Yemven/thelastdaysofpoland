@@ -1,7 +1,7 @@
 
 unification_category = {
 
-lodz_regional_unification = {
+lodz_and_kalisz_regional_unification = {
 
 	icon = GFX_decision_icon_default
 	
@@ -19,46 +19,75 @@ lodz_regional_unification = {
 	visible = { 
 		AND = {
 			is_lodz_and_kalisz_unifier = yes
-			has_global_flag = lodzkie_unified
+			OR = {
+				has_global_flag = kaliskie_unified
+				has_global_flag = lodzkie_unified
+				}
 			}
 		}
 
 	complete_effect = {
-		log = "[GetDateText]: Decision lodz_regional_unification"
+		log = "[GetDateText]: Decision lodz_and_kalisz_regional_unification"
+		set_global_flag = lodz_and_kalisz_unified
+		set_country_flag = unified_regional
+		
 		if = {
-			limit = { tag = ZHP }
+			limit = { original_tag = ZHP }
 			set_cosmetic_tag = ZHP_regional
-			set_global_flag = lodz_and_kalisz_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
 					news_event = { id = unificationreg.4 }
 				}
 			}
-			custom_effect_tooltip = ZHP_unifies_lodz_tooltip
+			custom_effect_tooltip = ZHP_unifies_lodz_and_kalisz_tooltip
 		}
 
 
 
 		else_if = {
-			limit = { tag = SAP }
-			set_cosmetic_tag = SAP_regional
-			set_global_flag = lodz_and_kalisz_unified
+			limit = { original_tag = SAP 
+					 check_variable = {
+						var = sapek_sanity
+						value = 50
+						compare = greater_than_or_equals
+					} 
+			}			
+			set_cosmetic_tag = SAP_sane_regional
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
 					news_event = { id = unificationreg.5 }
 				}
 			}
-			custom_effect_tooltip = SAP_unifies_lodz_tooltip
+			custom_effect_tooltip = SAP_unifies_lodz_and_kalisz_tooltip
 		}
 
-
+		else_if = {
+			limit = { original_tag = SAP 
+					 check_variable = {
+						var = sapek_sanity
+						value = 50
+						compare = less_than
+					} 
+			}
+			set_cosmetic_tag = SAP_insane_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.5 }
+				}
+			}
+			custom_effect_tooltip = SAP_unifies_lodz_and_kalisz_tooltip
+		}
 
 		else_if = {
-			limit = { tag = WML }
+			limit = { original_tag = WML }
 			set_cosmetic_tag = WML_regional
-			set_global_flag = lodz_and_kalisz_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -71,9 +100,9 @@ lodz_regional_unification = {
 
 
 		else_if = {
-			limit = { tag = BBW }
+			limit = { original_tag = BBW }
 			set_cosmetic_tag = BBW_regional
-			set_global_flag = lodz_and_kalisz_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -87,11 +116,11 @@ lodz_regional_unification = {
 
 		else_if = {
 			limit = { 
-					 tag = ZYD
+					 original_tag = ZYD
 					 has_government = squattism
 				}
 			set_cosmetic_tag = ZYD_regional
-			set_global_flag = lodz_and_kalisz_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -102,10 +131,10 @@ lodz_regional_unification = {
 		}
 
 		else_if = {
-			limit = { tag = ZYD
+			limit = { original_tag = ZYD
 					 has_government = marxism_cranism }
 			set_cosmetic_tag = ZYD_regional
-			set_global_flag = lodz_and_kalisz_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -117,10 +146,10 @@ lodz_regional_unification = {
 
 
 		else_if = {
-			limit = { tag = KRS
+			limit = { original_tag = KRS
 					  has_government = corporativism }
 			set_cosmetic_tag = KRS_regional
-			set_global_flag = lodz_and_kalisz_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -131,10 +160,10 @@ lodz_regional_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = KRS
+			limit = { original_tag = KRS
 					  has_government = postpolonism }
 			set_cosmetic_tag = KRS_regional
-			set_global_flag = lodz_and_kalisz_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -145,10 +174,10 @@ lodz_regional_unification = {
 		}
 		
 		else_if = {
-			limit = { tag = KRS
+			limit = { original_tag = KRS
 					  has_government = autocracy }
 			set_cosmetic_tag = KRS_regional
-			set_global_flag = lodz_and_kalisz_unified
+			
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
@@ -157,57 +186,689 @@ lodz_regional_unification = {
 			}
 			custom_effect_tooltip = KRS_unifies_lodz_tooltip
 		}
-		
+
 		else_if = {
-			limit = { tag = SUS }
-			set_cosmetic_tag = SUS_regional
-			set_global_flag = lodz_and_kalisz_unified
-			hidden_effect = {
-				every_country = {
-					limit = { NOT = { is_ai = yes } }
-					news_event = { id = unificationreg.34 }
-				}
-			}
-			custom_effect_tooltip = SUS_unifies_lodz_tooltip
-		}
-		
-		else_if = {
-			limit = { tag = FEL }
-			set_cosmetic_tag = FEL_regional
-			set_global_flag = lodz_and_kalisz_unified
-			hidden_effect = {
-				every_country = {
-					limit = { NOT = { is_ai = yes } }
-					news_event = { id = unificationreg.33 }
-				}
-			}
-			custom_effect_tooltip = FEL_unifies_lodz_tooltip
-		}
-		
-		else_if = {
-			limit = { tag = GNI }
-			set_cosmetic_tag = GNI_regional
-			set_global_flag = lodz_and_kalisz_unified
-			hidden_effect = {
-				every_country = {
-					limit = { NOT = { is_ai = yes } }
-					news_event = { id = unificationreg.32 }
-				}
-			}
-			custom_effect_tooltip = GNI_unifies_lodz_tooltip
-		}
-		
-		else_if = {
-			limit = { tag = CAL }
+			limit = { original_tag = CAL }
 			set_cosmetic_tag = CAL_regional
-			set_global_flag = lodz_and_kalisz_unified
 			hidden_effect = {
 				every_country = {
 					limit = { NOT = { is_ai = yes } }
 					news_event = { id = unificationreg.31 }
 				}
 			}
-			custom_effect_tooltip = CAL_unifies_lodz_tooltip
+			custom_effect_tooltip = CAL_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = FEL }
+			set_cosmetic_tag = FEL_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.33 }
+				}
+			}
+			custom_effect_tooltip = CAL_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = GNI }
+			set_cosmetic_tag = GNI_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.32 }
+				}
+			}
+			custom_effect_tooltip = GNI_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = SUS }
+			set_cosmetic_tag = SUS_regional
+											
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.34 }
+				}
+			}
+			custom_effect_tooltip = SUS_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+	}
+	ai_will_do = { factor = 1 }
+}
+
+
+lublin_and_radom_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_lublin_regional
+			can_unify_radom_and_lublin = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+
+	visible = { 
+		AND = {
+			is_radom_and_lublin_unifier = yes
+			OR = {
+				has_global_flag = radomskie_unified
+				has_global_flag = lubelskie_unified
+				}
+			}
+		}
+
+	complete_effect = {
+		log = "[GetDateText]: Decision lubelskie_regional_unification"
+		set_country_flag = unified_regional
+		set_global_flag = lublin_and_radom_unified
+		
+		if = {
+			limit = { original_tag = CRN }
+			set_cosmetic_tag = CRN_regional
+								
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.7 }
+				}
+			}
+			custom_effect_tooltip = CRN_unifies_lublin_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = PUL }
+			set_cosmetic_tag = PUL_regional
+					
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.8 }
+				}
+			}
+			custom_effect_tooltip = PUL_unifies_lublin_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = KSN }
+			set_cosmetic_tag = KSN_regional
+					
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.9 }
+				}
+			}
+			custom_effect_tooltip = KSN_unifies_lublin_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = SWD }
+			set_cosmetic_tag = SWD_regional
+					
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.10 }
+				}
+			}
+			custom_effect_tooltip = SWD_unifies_lublin_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = ZUK }
+			hidden_effect = {
+				set_capital = {
+					state = 363
+					remember_old_capital = no
+				}
+			}
+			custom_effect_tooltip = ZUK_moves_capital_to_lublin
+			set_cosmetic_tag = ZUK_regional
+					
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.11 }
+				}
+			}
+			custom_effect_tooltip = ZUK_unifies_lublin_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = BIL }
+			set_cosmetic_tag = BIL_regional
+					
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.12 }
+				}
+			}
+			custom_effect_tooltip = BIL_unifies_lublin_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = BPD }
+			set_cosmetic_tag = BPD_regional
+						
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.13 }
+				}
+			}
+			custom_effect_tooltip = BPD_unifies_lublin_tooltip
+		}
+
+		else_if = {
+			limit = { original_tag = SAT }
+			set_cosmetic_tag = SAT_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.106 }
+				}
+			}
+			custom_effect_tooltip = SAT_unifies_radom_province_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = RAD }
+			set_cosmetic_tag = RAD_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.107 }
+				}
+			}
+			custom_effect_tooltip = RAD_unifies_radom_province_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = GAR }
+			set_cosmetic_tag = GAR_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.108 }
+				}
+			}
+			custom_effect_tooltip = GAR_unifies_radom_province_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = SKA }
+			set_cosmetic_tag = SKA_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.109 }
+				}
+			}
+			custom_effect_tooltip = SKA_unifies_radom_province_tooltip
+		}
+
+
+	}
+	ai_will_do = { factor = 1 }
+}
+
+small_galicia_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_small_galicia
+			can_unify_galicia = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+		visible = { 
+		AND = {
+			is_galicia_unifier = yes
+			OR = {
+				has_global_flag = zaglebie_unified
+				has_global_flag = malopolskie_unified
+				has_global_flag = tatry_unified
+				}
+			}
+		}
+
+	complete_effect = {
+		log = "[GetDateText]: Decision zaglebie_regional_unification"
+		set_country_flag = unified_regional
+		set_global_flag = small_galicia_unified
+		
+		if = {
+			limit = { original_tag = DGR }
+			set_cosmetic_tag = DGR_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.14 }
+				}
+			}
+			custom_effect_tooltip = DGR_unifies_zaglebie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = SOS }
+			set_cosmetic_tag = SOS_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.15 }
+				}
+			}
+			custom_effect_tooltip = SOS_unifies_zaglebie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = JAW }
+			set_cosmetic_tag = JAW_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.16 }
+				}
+			}
+			custom_effect_tooltip = JAW_unifies_zaglebie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = ZAW
+						has_government = paternal_conservatism }
+			set_cosmetic_tag = ZAW_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.17 }
+				}
+			}
+			custom_effect_tooltip = ZAW_unifies_zaglebie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = CCH }
+			set_cosmetic_tag = CCH_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.18 }
+				}
+			}
+			custom_effect_tooltip = CCH_unifies_zaglebie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = BRZ }
+			set_cosmetic_tag = BRZ_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.19 }
+				}
+			}
+			custom_effect_tooltip = BRZ_unifies_zaglebie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = JWK }
+			set_cosmetic_tag = JWK_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.20 }
+				}
+			}
+			custom_effect_tooltip = JWK_unifies_zaglebie_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = KRK }
+			set_cosmetic_tag = KRK_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.136 }
+				}
+			}
+			custom_effect_tooltip = KRK_unifies_lesser_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = PRK }
+			set_cosmetic_tag = PRK_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.62 }
+				}
+			}
+			custom_effect_tooltip = PRK_unifies_lesser_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = NHT }
+			set_cosmetic_tag = NHT_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.137 }
+				}
+			}
+			custom_effect_tooltip = NHT_unifies_lesser_poland_tooltip
+		}	
+
+
+		else_if = {
+			limit = { original_tag = WDW }
+			set_cosmetic_tag = WDW_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.138 }
+				}
+			}
+			custom_effect_tooltip = WDW_unifies_lesser_poland_tooltip
+		}
+
+		else_if = {
+			limit = { original_tag = TRN }
+			set_cosmetic_tag = TRN_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.139 }
+				}
+			}
+			custom_effect_tooltip = TRN_unifies_lesser_poland_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = OSW }
+			set_cosmetic_tag = OSW_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.140 }
+				}
+			}
+			custom_effect_tooltip = OSW_unifies_lesser_poland_tooltip
+		}
+
+		else_if = {
+			limit = { original_tag = UMN }
+			set_cosmetic_tag = UMN_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.141 }
+				}
+			}
+			custom_effect_tooltip = UMN_unifies_lesser_poland_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = HOR }
+			set_cosmetic_tag = HOR_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.142 }
+				}
+			}
+			custom_effect_tooltip = HOR_unifies_lesser_poland_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = KRA }
+			set_cosmetic_tag = KRA_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.143 }
+				}
+			}
+			custom_effect_tooltip = KRA_unifies_lesser_poland_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = BRK }
+			set_cosmetic_tag = BRK_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.144 }
+				}
+			}
+			custom_effect_tooltip = BRK_unifies_lesser_poland_tooltip
+		}
+
+		else_if = {
+			limit = { original_tag = WND }
+			set_cosmetic_tag = WND_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.145 }
+				}
+			}
+			custom_effect_tooltip = WND_unifies_lesser_poland_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = HAB }
+			set_cosmetic_tag = HAB_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.146 }
+				}
+			}
+			custom_effect_tooltip = HAB_unifies_lesser_poland_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = AGH }
+			set_cosmetic_tag = AGH_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.147 }
+				}
+			}
+			custom_effect_tooltip = AGH_unifies_lesser_poland_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = UJG }
+			set_cosmetic_tag = UJG_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.148 }
+				}
+			}
+			custom_effect_tooltip = UJG_unifies_lesser_poland_tooltip
+		}
+
+		else_if = {
+			limit = { original_tag = CIE }
+			set_cosmetic_tag = CIE_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.38 }
+				}
+			}
+			custom_effect_tooltip = CIE_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = BSK
+					  has_government = autocracy }
+			set_cosmetic_tag = BSK_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.39 }
+				}
+			}
+			custom_effect_tooltip = BSK_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = GUR }
+			set_cosmetic_tag = GUR_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.40 }
+				}
+			}
+			custom_effect_tooltip = GUR_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = MSL }
+			set_cosmetic_tag = MSL_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.41 }
+				}
+			}
+			custom_effect_tooltip = MSL_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = SCZ }
+			set_cosmetic_tag = SCZ_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.42 }
+				}
+			}
+			custom_effect_tooltip = SCZ_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = LEM }
+			set_cosmetic_tag = LEM_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.43 }
+				}
+			}
+			custom_effect_tooltip = LEM_unifies_tatry_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = BSK
+					  has_government = freemarketism }
+			set_cosmetic_tag = BSK_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.44 }
+				}
+			}
+			custom_effect_tooltip = BSK_unifies_tatry_tooltip
 		}
 
 
@@ -216,4 +877,1476 @@ lodz_regional_unification = {
 }
 
 
+gorny_slask_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_upper_silesia_opole
+			can_unify_upper_silesia_opole = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { 
+		AND = {
+			is_upper_silesian_unifier = yes
+			OR = {
+				has_global_flag = slaskie_unified
+				has_global_flag = opolskie_unified
+				}
+			}
+		}
+
+	complete_effect = {
+		log = "[GetDateText]: Decision upper_silesia_regional_unification"
+		set_country_flag = unified_regional
+		set_global_flag = gorny_slask_unified
+		
+		if = {
+			limit = { original_tag = ASG }
+			set_cosmetic_tag = ASG_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.21 }
+				}
+			}
+			custom_effect_tooltip = ASG_unifies_upper_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = WOD }
+			set_cosmetic_tag = WOD_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.22 }
+				}
+			}
+			custom_effect_tooltip = JWK_unifies_upper_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = JSW }
+			set_cosmetic_tag = JSW_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.23 }
+				}
+			}
+			custom_effect_tooltip = JSW_unifies_upper_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = GLI }
+			set_cosmetic_tag = GLI_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.24 }
+				}
+			}
+			custom_effect_tooltip = GLI_unifies_upper_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = CHO }
+			set_cosmetic_tag = CHO_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.25 }
+				}
+			}
+			custom_effect_tooltip = CHO_unifies_upper_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = RAS }
+			set_cosmetic_tag = RAS_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.26 }
+				}
+			}
+			custom_effect_tooltip = RAS_unifies_upper_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = FER }
+			set_cosmetic_tag = FER_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.27 }
+				}
+			}
+			custom_effect_tooltip = FER_unifies_upper_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = RUD }
+			set_cosmetic_tag = RUD_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.28 }
+				}
+			}
+			custom_effect_tooltip = RUD_unifies_upper_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = KAT }
+			set_cosmetic_tag = KAT_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.29 }
+				}
+			}
+			custom_effect_tooltip = KAT_unifies_upper_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = TRC }
+			set_cosmetic_tag = TRC_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.30 }
+				}
+			}
+			custom_effect_tooltip = TRC_unifies_upper_silesia_tooltip
+		}
+		
+		
+		else_if = {
+			limit = { original_tag = MNI }
+			set_cosmetic_tag = MNI_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.63 }
+				}
+			}
+			custom_effect_tooltip = MNI_unifies_opolskie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = OPO }
+			set_cosmetic_tag = OPO_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.64 }
+				}
+			}
+			custom_effect_tooltip = OPO_unifies_opolskie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = LCH }
+			set_cosmetic_tag = LCH_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.65 }
+				}
+			}
+			custom_effect_tooltip = LCH_unifies_opolskie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = WND }
+			set_cosmetic_tag = WND_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.66 }
+				}
+			}
+			custom_effect_tooltip = WND_unifies_opolskie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { 
+					 original_tag = LEH	}
+			set_cosmetic_tag = LEH_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.67 }
+				}
+			}
+			custom_effect_tooltip = LEH_unifies_opolskie_tooltip
+		}
+
+		else_if = {
+			limit = { original_tag = NYS }
+			set_cosmetic_tag = NYS_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.68 }
+				}
+			}
+			custom_effect_tooltip = NYS_unifies_opolskie_tooltip
+		}
+	}
+
+
+	ai_will_do = { factor = 1 }
 }
+
+
+
+
+greater_poland_and_kuyavia_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_kuyavia_and_greater_poland
+			can_unify_kuyavia_and_greater_poland = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+		visible = { 
+		AND = {
+			is_kuyavia_and_greater_poland_unifier = yes
+			OR = {
+				has_global_flag = kuyavia_unified
+				has_global_flag = poznanskie_unified
+				}
+			}
+		}
+
+	complete_effect = {
+		log = "[GetDateText]: Decision northen_greater_poland_regional_unification"
+		set_country_flag = unified_regional
+		set_global_flag = kujawsko_wielkopolskie_unified
+		
+		if = {
+			limit = { original_tag = POZ }
+			set_cosmetic_tag = POZ_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.50 }
+				}
+			}
+			custom_effect_tooltip = POZ_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = SYJ }
+			set_cosmetic_tag = SYJ_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.51 }
+				}
+			}
+			custom_effect_tooltip = SYJ_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = NAC }
+			set_cosmetic_tag = NAC_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.52 }
+				}
+			}
+			custom_effect_tooltip = NAC_unifies_southern_greater_poland_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = SLU }
+			set_cosmetic_tag = SLU_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.61 }
+				}
+			}
+			custom_effect_tooltip = NAC_unifies_southern_greater_poland_tooltip
+		}
+		
+		
+		
+		else_if = {
+			limit = { original_tag = PIL }
+			set_cosmetic_tag = PIL_regional
+											
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.53 }
+				}
+			}
+			custom_effect_tooltip = PIL_unifies_southern_greater_poland_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = INO }
+			set_cosmetic_tag = INO_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.79 }
+				}
+			}
+			custom_effect_tooltip = INO_unifies_kuyavia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = TOR }
+			set_cosmetic_tag = TOR_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.80 }
+				}
+			}
+			custom_effect_tooltip = TOR_unifies_kuyavia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = GRU }
+			set_cosmetic_tag = GRU_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.81 }
+				}
+			}
+			custom_effect_tooltip = GRU_unifies_kuyavia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = KUJ }
+			set_cosmetic_tag = KUJ_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.82 }
+				}
+			}
+			custom_effect_tooltip = KUJ_unifies_kuyavia_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = BYD }
+			set_cosmetic_tag = BYD_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.83 }
+				}
+			}
+			custom_effect_tooltip = BYD_unifies_kuyavia_tooltip
+		}	
+
+
+      
+}
+  ai_will_do = { factor = 1 }
+
+}
+
+dolny_slask_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_lower_silesia_regional
+			can_unify_greater_lower_silesia = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { 
+		AND = {
+			is_lower_silesian_unifier = yes
+			OR = {
+				has_global_flag = dolnoslaskie_unified
+				has_global_flag = lubuskie_unified
+				}
+			}
+		}
+
+	complete_effect = {
+		log = "[GetDateText]: Decision lower_silesia_regional_unification"
+		set_country_flag = unified_regional
+		set_global_flag = dolny_slask_unified
+		
+		if = {
+			limit = { original_tag = WRO }
+			set_cosmetic_tag = WRO_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.46 }
+				}
+			}
+			custom_effect_tooltip = WRO_unifies_lower_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = CZE }
+			set_cosmetic_tag = CZE_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.47 }
+				}
+			}
+			custom_effect_tooltip = CZE_unifies_lower_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = EKS }
+			set_cosmetic_tag = EKS_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.45 }
+				}
+			}
+			custom_effect_tooltip = EKS_unifies_lower_silesia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = KGH }
+			set_cosmetic_tag = KGH_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.48 }
+				}
+			}
+			custom_effect_tooltip = KGH_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = RYB }
+			set_cosmetic_tag = RYB_regional
+			hidden_effect = {
+				every_country = {
+					limit = { RYB = { is_ai = yes } }
+					news_event = { id = unificationreg.49 }
+				}
+			}
+			custom_effect_tooltip = RYB_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = ANA }
+			set_cosmetic_tag = ANA_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.57 }
+				}
+			}
+			custom_effect_tooltip = ANA_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = ZUL }
+			set_cosmetic_tag = ZUL_regional
+											
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.58 }
+				}
+			}
+			custom_effect_tooltip = ZUL_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = MNL }
+			set_cosmetic_tag = MNL_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.59 }
+				}
+			}
+			custom_effect_tooltip = MNL_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = CYG }
+			set_cosmetic_tag = CYG_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.60 }
+				}
+			}
+			custom_effect_tooltip = CYG_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = MPK }
+			set_cosmetic_tag = MPK_regional
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.78 }
+				}
+			}
+			custom_effect_tooltip = MPK_unifies_lower_silesia_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = ZAG }
+			set_cosmetic_tag = ZAG_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.69 }
+				}
+			}
+			custom_effect_tooltip = ZAG_unifies_lubuskie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = WIN }
+			set_cosmetic_tag = WIN_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.70 }
+				}
+			}
+			custom_effect_tooltip = WIN_unifies_lubuskie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = KAM }
+			set_cosmetic_tag = KAM_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.71 }
+				}
+			}
+			custom_effect_tooltip = KAM_unifies_lubuskie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = MOT }
+			set_cosmetic_tag = MOT_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.72 }
+				}
+			}
+			custom_effect_tooltip = MOT_unifies_lubuskie_tooltip
+		}
+
+
+      
+}
+  ai_will_do = { factor = 1 }
+
+}
+
+
+
+pomorze_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_west_pomerania_regional
+			can_unify_pomorze_cale = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+		visible = { 
+		AND = {
+			is_pomerelia_unifier = yes
+			OR = {
+				has_global_flag = zachodniopomorskie_unified
+				has_global_flag = pomorskie_unified
+				}
+			}
+		}
+
+	complete_effect = {
+		log = "[GetDateText]: Decision west_pomerania_regional_unification"
+		set_country_flag = unified_regional
+		set_global_flag = pomorze_unified
+		
+		if = {
+			limit = { original_tag = JAS }
+			set_cosmetic_tag = JAS_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.73 }
+				}
+			}
+			custom_effect_tooltip = JAS_unifies_west_pomerania_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = EKW }
+			set_cosmetic_tag = EKW_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.54 }
+				}
+			}
+			custom_effect_tooltip = EKW_unifies_west_pomerania_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = STE }
+			set_cosmetic_tag = STE_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.74 }
+				}
+			}
+			custom_effect_tooltip = STE_unifies_west_pomerania_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = SWI }
+			set_cosmetic_tag = SWI_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.75 }
+				}
+			}
+			custom_effect_tooltip = SWI_unifies_west_pomerania_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = JOM }
+			set_cosmetic_tag = JOM_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.76 }
+				}
+			}
+			custom_effect_tooltip = JOM_unifies_west_pomerania_tooltip
+		}	
+
+		else_if = {
+			limit = { original_tag = USP }
+			set_cosmetic_tag = USP_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.77 }
+				}
+			}
+			custom_effect_tooltip = USP_unifies_west_pomerania_tooltip
+		}	
+
+		else_if = {
+			limit = { original_tag = OWS }
+			set_cosmetic_tag = OWS_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.84 }
+				}
+			}
+			custom_effect_tooltip = OWS_unifies_pomerelia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = BOL }
+			set_cosmetic_tag = BOL_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.85 }
+				}
+			}
+			custom_effect_tooltip = BOL_unifies_pomerelia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = GDA }
+			set_cosmetic_tag = GDA_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.86 }
+				}
+			}
+			custom_effect_tooltip = GDA_unifies_pomerelia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = GAY }
+			set_cosmetic_tag = GAY_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.87 }
+				}
+			}
+			custom_effect_tooltip = GAY_unifies_pomerelia_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = KSZ }
+			set_cosmetic_tag = KSZ_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.88 }
+				}
+			}
+			custom_effect_tooltip = KSZ_unifies_pomerelia_tooltip
+		}	
+
+		else_if = {
+			limit = { original_tag = HEL }
+			set_cosmetic_tag = HEL_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.89 }
+				}
+			}
+			custom_effect_tooltip = HEL_unifies_pomerelia_tooltip
+		}	
+		
+		else_if = {
+			limit = { original_tag = CZL }
+			set_cosmetic_tag = CZL_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.90 }
+				}
+			}
+			custom_effect_tooltip = CZL_unifies_pomerelia_tooltip
+		}	
+
+		else_if = {
+			limit = { original_tag = LOT }
+			set_cosmetic_tag = LOT_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.91 }
+				}
+			}
+			custom_effect_tooltip = LOT_unifies_pomerelia_tooltip
+		}	
+
+		else_if = {
+			limit = { original_tag = KOR }
+			set_cosmetic_tag = KOR_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.92 }
+				}
+			}
+			custom_effect_tooltip = KOR_unifies_pomerelia_tooltip
+		}		
+		
+
+	}
+	ai_will_do = { factor = 1 }
+}
+
+
+
+
+warmia_and_masuria_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_warmia_and_masuria_regional
+			can_unify_prusy = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { 
+		AND = {
+			is_warmia_and_masuria = yes
+			has_global_flag = warminsko_mazurskie_unified
+			}
+		}
+
+	complete_effect = {
+		log = "[GetDateText]: Decision warmia_and_masuria_regional_unification"
+		set_country_flag = unified_regional
+		set_global_flag = prusy_unified
+		
+		if = {
+			limit = { original_tag = MAL }
+			set_cosmetic_tag = MAL_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.93 }
+				}
+			}
+			custom_effect_tooltip = MAL_unifies_warmia_and_masuria_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = ROS }
+			set_cosmetic_tag = ROS_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.56 }
+				}
+			}
+			custom_effect_tooltip = ROS_unifies_warmia_and_masuria_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = TEU }
+			set_cosmetic_tag = TEU_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.94 }
+				}
+			}
+			custom_effect_tooltip = TEU_unifies_warmia_and_masuria_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = PRU }
+			set_cosmetic_tag = PRU_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.95 }
+				}
+			}
+			custom_effect_tooltip = PRU_unifies_warmia_and_masuria_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = PZW }
+			set_cosmetic_tag = PZW_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.96 }
+				}
+			}
+			custom_effect_tooltip = PZW_unifies_warmia_and_masuria_tooltip
+		}	
+
+		else_if = {
+			limit = { original_tag = WRM }
+			set_cosmetic_tag = WRM_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.97 }
+				}
+			}
+			custom_effect_tooltip = WRM_unifies_warmia_and_masuria_tooltip
+		}
+	
+	
+
+	}
+	ai_will_do = { factor = 1 }
+}
+
+
+greater_podlasie_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_podlasie_regional
+			can_unify_greater_podlasie = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { 
+		AND = {
+			is_greater_podlasie_unifier = yes
+			OR = {
+				has_global_flag = mazowieckie_unified
+				has_global_flag = podlaskie_unified
+				}
+			}
+		}
+
+	complete_effect = {
+		log = "[GetDateText]: Decision podlasie_regional_unification"
+		set_country_flag = unified_regional
+		set_global_flag = wielkie_podlasie_unified
+		
+		if = {
+			limit = { original_tag = SAN }
+			set_cosmetic_tag = SAN_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.98 }
+				}
+			}
+			custom_effect_tooltip = SAN_unifies_podlasie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = TAT }
+			set_cosmetic_tag = TAT_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.99 }
+				}
+			}
+			custom_effect_tooltip = TAT_unifies_podlasie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = BOM }
+			set_cosmetic_tag = BOM_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.100 }
+				}
+			}
+			custom_effect_tooltip = BOM_unifies_podlasie_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = KON }
+			set_cosmetic_tag = KON_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.101 }
+				}
+			}
+			custom_effect_tooltip = KON_unifies_podlasie_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = BEL }
+			set_cosmetic_tag = BEL_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.102 }
+				}
+			}
+			custom_effect_tooltip = BEL_unifies_podlasie_tooltip
+		}	
+
+		else_if = {
+			limit = { original_tag = LMZ }
+			set_cosmetic_tag = LMZ_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.103 }
+				}
+			}
+			custom_effect_tooltip = LMZ_unifies_podlasie_tooltip
+		}	
+	
+		else_if = {
+			limit = { original_tag = SDL }
+			set_cosmetic_tag = SDL_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.104 }
+				}
+			}
+			custom_effect_tooltip = SDL_unifies_podlasie_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = AGR }
+			set_cosmetic_tag = AGR_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.105 }
+				}
+			}
+			custom_effect_tooltip = AGR_unifies_podlasie_tooltip
+		}		
+
+		else_if = {
+			limit = { original_tag = ORL }
+			set_cosmetic_tag = ORL_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.110 }
+				}
+			}
+			custom_effect_tooltip = ORL_unifies_mazovia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = SAS }
+			set_cosmetic_tag = SAS_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.55 }
+				}
+			}
+			custom_effect_tooltip = SAS_unifies_mazovia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = POL }
+			set_cosmetic_tag = POL_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.111 }
+				}
+			}
+			custom_effect_tooltip = POL_unifies_mazovia_tooltip
+		}	
+
+	}
+	ai_will_do = { factor = 1 }
+}
+
+
+
+holycarpathia_regional_unification = {
+
+	icon = GFX_decision_icon_default
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = controls_holy_cross_regional
+			can_unify_holycarpathia = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	cost = 0
+	
+	visible = { 
+		AND = {
+			is_holycarpathia_unifier = yes
+			OR = {
+				has_global_flag = swietokrzyskie_unified
+				has_global_flag = podkarpackie_unified
+				}
+			}
+		}
+
+	complete_effect = {
+		log = "[GetDateText]: Decision holy_cross_regional_unification"
+		set_country_flag = unified_regional
+		set_global_flag = swietokarpackie_unified
+		
+		if = {
+			limit = { original_tag = KEL }
+			set_cosmetic_tag = KEL_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.121 }
+				}
+			}
+			custom_effect_tooltip = KEL_unifies_holy_cross_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = NRA }
+			set_cosmetic_tag = NRA_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.122 }
+				}
+			}
+			custom_effect_tooltip = NRA_unifies_holy_cross_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = NSZ }
+			set_cosmetic_tag = NSZ_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.123 }
+				}
+			}
+			custom_effect_tooltip = NSZ_unifies_holy_cross_tooltip
+		}	
+
+
+		else_if = {
+			limit = { original_tag = SND }
+			set_cosmetic_tag = SND_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.124 }
+				}
+			}
+			custom_effect_tooltip = SND_unifies_holy_cross_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = KIE }
+			set_cosmetic_tag = KIE_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.125 }
+				}
+			}
+			custom_effect_tooltip = KIE_unifies_holy_cross_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = STO }
+			set_cosmetic_tag = STO_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.126 }
+				}
+			}
+			custom_effect_tooltip = STO_unifies_holy_cross_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = STA }
+			set_cosmetic_tag = STA_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.127 }
+				}
+			}
+			custom_effect_tooltip = STA_unifies_holy_cross_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = RZE }
+			set_cosmetic_tag = RZE_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.128 }
+				}
+			}
+			custom_effect_tooltip = RZE_unifies_subcarpathia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = CHR }
+			set_cosmetic_tag = CHR_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.129 }
+				}
+			}
+			custom_effect_tooltip = CHR_unifies_subcarpathia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = UPA }
+			set_cosmetic_tag = UPA_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.130 }
+				}
+			}
+			custom_effect_tooltip = UPA_unifies_subcarpathia_tooltip
+		}	
+
+
+		else_if = {
+			limit = { original_tag = KOZ }
+			set_cosmetic_tag = KOZ_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.131 }
+				}
+			}
+			custom_effect_tooltip = KOZ_unifies_subcarpathia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = BSC }
+			set_cosmetic_tag = BSC_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.132 }
+				}
+			}
+			custom_effect_tooltip = BSC_unifies_subcarpathia_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = KRO }
+			set_cosmetic_tag = KRO_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.133 }
+				}
+			}
+			custom_effect_tooltip = KRO_unifies_subcarpathia_tooltip
+		}
+
+
+
+		else_if = {
+			limit = { original_tag = TAR }
+			set_cosmetic_tag = TAR_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.134 }
+				}
+			}
+			custom_effect_tooltip = TAR_unifies_subcarpathia_tooltip
+		}
+		
+		else_if = {
+			limit = { original_tag = LGP }
+			set_cosmetic_tag = LGP_regional
+			
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = unificationreg.135 }
+				}
+			}
+			custom_effect_tooltip = LGP_unifies_subcarpathia_tooltip
+		}
+
+	}
+	
+
+	ai_will_do = { factor = 1 }
+}
+
+
+
+
+
+}
+	
+		
