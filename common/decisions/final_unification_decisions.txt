@@ -342,11 +342,397 @@ poland_unification = {
 			custom_effect_tooltip = CIE_unifies_poland_tooltip
 		}
 		
+		else_if = {
+			limit = { 
+					 tag = BSK
+					 has_government = freemarketism
+				}
+			set_cosmetic_tag = BSK_bgolec_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.25 }
+				}
+			}
+			custom_effect_tooltip = BSK_unifies_poland_tooltip
+		}
 		
 		
-		
-		
+		else_if = {
+			limit = { 
+					 tag = BSK
+					 has_government = autocracy
+				}
+			set_cosmetic_tag = BSK_bpierdolec_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.26 }
+				}
+			}
+			custom_effect_tooltip = BSK_unifies_poland_tooltip
+		}
 
+
+		else_if = {
+			limit = { 
+					 tag = JSW
+					 has_government = socialdemocrature
+				}
+			set_cosmetic_tag = JSW_nszz_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.27 }
+				}
+			}
+			custom_effect_tooltip = JSW_unifies_poland_tooltip
+		}	
+		
+		
+		else_if = {
+			limit = { 
+					 tag = JSW
+					 has_government = corporativism
+				}
+			set_cosmetic_tag = JSW_jsw_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.28 }
+				}
+			}
+			custom_effect_tooltip = JSW_unifies_poland_tooltip
+		}
+
+
+		else_if = {
+			limit = { 
+					 tag = JSW
+					 has_government = reactionary
+				}
+			set_cosmetic_tag = JSW_coal_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.29 }
+				}
+			}
+			custom_effect_tooltip = JSW_unifies_poland_tooltip
+		}
+		
+		else_if = {
+			limit = { 
+					 tag = KAT
+					 has_government = euroliberalism
+				}
+			set_cosmetic_tag = KAT_budka_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.30 }
+				}
+			}
+			custom_effect_tooltip = KAT_unifies_poland_tooltip
+		}	
+		
+		
+		else_if = {
+			limit = { 
+					 tag = KAT
+					 has_government = paternal_conservatism
+				}
+			set_cosmetic_tag = KAT_senior_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.31 }
+				}
+			}
+			custom_effect_tooltip = KAT_unifies_poland_tooltip
+		}
+
+
+		else_if = {
+			limit = { 
+					 tag = KAT
+					 has_government = freemarketism
+				}
+			set_cosmetic_tag = KAT_junior_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.32 }
+				}
+			}
+			custom_effect_tooltip = KAT_unifies_poland_tooltip
+		}
+		
+		
+		else_if = {
+			limit = { 
+					 tag = GLI
+					 has_government = autocracy
+				}
+			set_cosmetic_tag = GLI_rajch_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.33 }
+				}
+			}
+			custom_effect_tooltip = GLI_unifies_poland_tooltip
+		}
+
+
+		else_if = {
+			limit = { 
+					 tag = GLI
+					 has_government = socialdemocrature
+				}
+			set_cosmetic_tag = GLI_murzinytancujom_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.34 }
+				}
+			}
+			custom_effect_tooltip = GLI_unifies_poland_tooltip
+		}		
+		
+		else_if = {
+			limit = { 
+					 tag = RAS
+				}
+			set_cosmetic_tag = RAS_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.35 }
+				}
+			}
+			custom_effect_tooltip = RAS_unifies_poland_tooltip
+		}	
+
+		else_if = {
+			limit = { 
+					 tag = CHO
+				}
+			set_cosmetic_tag = CHO_ras_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.36 }
+				}
+			}
+			custom_effect_tooltip = CHO_unifies_poland_tooltip
+		}	
+
+		else_if = {
+			limit = { tag = JAW
+					  has_country_leader = {
+						character = JAW_antifascist_council
+						ruling_only = yes
+						}
+			}
+			set_cosmetic_tag = JAW_antifa_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.37 }
+				}
+			}
+			custom_effect_tooltip = JAW_unifies_poland_tooltip
+		}
+
+
+		else_if = {
+			limit = { tag = JAW
+					  has_country_leader = {
+						character = JAW_konieczny
+						ruling_only = yes
+						}
+			}
+			set_cosmetic_tag = JAW_razem_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.38 }
+				}
+			}
+			custom_effect_tooltip = JAW_unifies_poland_tooltip
+		}		
+	
+		else_if = {
+			limit = { 
+					 tag = SOS
+					 has_government = marxism_cranism
+				}
+			set_cosmetic_tag = SOS_wcz_prl_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.39 }
+				}
+			}
+			custom_effect_tooltip = SOS_unifies_poland_tooltip
+		}
+
+
+		else_if = {
+			limit = { 
+					 tag = SOS
+					 has_government = socialdemocrature
+				}
+			set_cosmetic_tag = SOS_wcz_good_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.40 }
+				}
+			}
+			custom_effect_tooltip = SOS_unifies_poland_tooltip
+		}	
+	
+		else_if = {
+			limit = { 
+					 tag = ZAW
+				}
+			set_cosmetic_tag = ZAW_gowin_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.41 }
+				}
+			}
+			custom_effect_tooltip = ZAW_unifies_poland_tooltip
+		}
+
+		else_if = {
+			limit = { 
+					 tag = JWK
+					 has_government = reactionary
+				}
+			set_cosmetic_tag = JWK_sparta_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.42 }
+				}
+			}
+			custom_effect_tooltip = JWK_unifies_poland_tooltip
+		}
+
+
+		else_if = {
+			limit = { 
+					 tag = JWK
+					 has_government = autocracy
+				}
+			set_cosmetic_tag = JWK_komando_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.43 }
+				}
+			}
+			custom_effect_tooltip = JWK_unifies_poland_tooltip
+		}
+
+
+		else_if = {
+			limit = { 
+					 tag = CCH
+					 has_government = reactionary
+				}
+			set_cosmetic_tag = CCH_paulins_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.44 }
+				}
+			}
+			custom_effect_tooltip = CCH_unifies_poland_tooltip
+		}
+
+
+		else_if = {
+			limit = { 
+					 tag = CCH
+					 has_government = socialdemocrature
+				}
+			set_cosmetic_tag = CCH_joannites_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.45 }
+				}
+			}
+			custom_effect_tooltip = CCH_unifies_poland_tooltip
+		}
+
+		else_if = {
+			limit = { 
+					 tag = CCH
+					 has_government = postpolonism
+				}
+			set_cosmetic_tag = CCH_masons_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.46 }
+				}
+			}
+			custom_effect_tooltip = CCH_unifies_poland_tooltip
+		}
+		
+		
+		else_if = {
+			limit = { 
+					 tag = BRZ
+					 has_government = marxism_cranism
+				}
+			set_cosmetic_tag = BRZ_buzzer_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.47 }
+				}
+			}
+			custom_effect_tooltip = BRZ_unifies_poland_tooltip
+		}
+
+
+		else_if = {
+			limit = { 
+					 tag = BRZ
+					 has_government = socialdemocrature
+				}
+			set_cosmetic_tag = BRZ_kuba_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.48 }
+				}
+			}
+			custom_effect_tooltip = BRZ_unifies_poland_tooltip
+		}
+
+		else_if = {
+			limit = { 
+					 tag = BRZ
+					 has_government = euroliberalism
+				}
+			set_cosmetic_tag = BRZ_lewy_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.49 }
+				}
+			}
+			custom_effect_tooltip = BRZ_unifies_poland_tooltip
+		}
+	
 	}
 	ai_will_do = { factor = 1 }
 }
