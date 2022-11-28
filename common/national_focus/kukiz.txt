@@ -1632,4 +1632,339 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = OPO_miltary_reform
+		icon = OPO_miltary_reform
+		relative_position_id =  OPO_little_miracle
+		prerequisite = {focus = OPO_little_miracle
+						focus = OPO_administrative_reform
+						focus = OPO_cultural_reform}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_training_centres
+		icon = OPO_training_centres
+		relative_position_id =  OPO_miltary_reform
+		prerequisite = {focus = OPO_miltary_reform}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_learn_from_our_previous_battles
+		icon = OPO_learn_from_our_previous_battles
+		relative_position_id =  OPO_training_centres
+		prerequisite = {focus = OPO_training_centres}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_young_officer_corp
+		icon = OPO_young_officer_corp
+		relative_position_id =  OPO_training_centres
+		prerequisite = {focus = OPO_learn_from_our_previous_battles}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_weapon_procurement
+		icon = OPO_weapon_procurement
+		relative_position_id =  OPO_miltary_reform
+		prerequisite = {focus = OPO_miltary_reform}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_study_foreign_weapon_designs
+		icon = OPO_study_foreign_weapon_designs
+		relative_position_id =  OPO_weapon_procurement
+		prerequisite = {focus = OPO_weapon_procurement}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_military_engineering_department
+		icon = OPO_military_engineering_department
+		relative_position_id =  OPO_weapon_procurement
+		prerequisite = {focus = OPO_study_foreign_weapon_designs}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_domestic_air_force
+		icon = OPO_domestic_air_force
+		relative_position_id =  OPO_miltary_reform
+		prerequisite = {focus = OPO_miltary_reform}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -3
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_hunt_for_old_training_aircraft
+		icon = OPO_domestic_air_force
+		relative_position_id = OPO_domestic_air_force
+		prerequisite = {focus = OPO_domestic_air_force}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_training_attack_aircraft
+		icon = OPO_training_attack_aircraft
+		relative_position_id = OPO_domestic_air_force
+		prerequisite = {focus = OPO_hunt_for_old_training_aircraft}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_armored_vehicle_concept
+		icon = OPO_armored_vehicle_concept
+		relative_position_id =  OPO_miltary_reform
+		prerequisite = {focus = OPO_miltary_reform}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 3
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_our_first_tank
+		icon = OPO_our_first_tank
+		relative_position_id =  OPO_armored_vehicle_concept
+		prerequisite = {focus = OPO_armored_vehicle_concept}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_first_armored_regiment
+		icon = OPO_first_armored_regiment
+		relative_position_id =  OPO_armored_vehicle_concept
+		prerequisite = {focus = OPO_our_first_tank}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_president_marshall
+		icon = OPO_president_marshall
+		relative_position_id =  OPO_military_engineering_department
+		prerequisite = {focus = OPO_training_attack_aircraft
+						focus = OPO_young_officer_corp
+						focus = OPO_military_engineering_department
+						focus = OPO_first_armored_regiment}
+		mutually_exclusive = {focus = OPO_president_politician}				
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_my_little_fatherland
+		icon = OPO_president_marshall
+		relative_position_id =  OPO_president_marshall
+		prerequisite = {focus = OPO_president_marshall}
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_president_politician
+		icon = OPO_president_politician
+		relative_position_id =  OPO_young_officer_corp
+		prerequisite = {focus = OPO_training_attack_aircraft
+						focus = OPO_young_officer_corp
+						focus = OPO_military_engineering_department
+						focus = OPO_first_armored_regiment}
+		mutually_exclusive = {focus = OPO_president_marshall}					
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_its_only_the_beginning
+		icon = OPO_its_only_the_beginning
+		relative_position_id =  OPO_president_politician
+		prerequisite = {focus = OPO_president_politician}
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
 }
