@@ -973,7 +973,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -5
+		x = -6
 		y = 1
 		
 		cost = 3.7
@@ -993,7 +993,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 5
+		x = 6
 		y = 1
 		
 		cost = 3.7
@@ -1034,6 +1034,69 @@ focus_tree = {
 		}
 		
 		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_economical_struggle
+		icon = OPO_economical_struggle
+		relative_position_id =  OPO_first_elections
+		prerequisite = { focus = OPO_finishing_what_we_started
+						 focus = OPO_united_poland_legacy}
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 3
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_nominating_ministers
+		icon = OPO_nominating_ministers
+		relative_position_id =  OPO_united_poland_legacy
+		prerequisite = { focus = OPO_finishing_what_we_started
+						 focus = OPO_united_poland_legacy}
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_german_minority_status
+		icon = OPO_german_minority_status
+		relative_position_id =  OPO_finishing_what_we_started
+		prerequisite = { focus = OPO_finishing_what_we_started
+						 focus = OPO_united_poland_legacy}
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
 		y = 1
 		
 		cost = 3.7
