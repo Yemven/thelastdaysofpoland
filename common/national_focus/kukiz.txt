@@ -911,7 +911,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 15
+		x = 20
 		y = 0
 		
 		cost = 3.7
@@ -971,7 +971,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -6
+		x = -8
 		y = 1
 		
 		cost = 3.7
@@ -991,7 +991,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 6
+		x = 8
 		y = 1
 		
 		cost = 3.7
@@ -1054,6 +1054,207 @@ focus_tree = {
 		
 		x = 0
 		y = 3
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_reopening_road
+		icon = OPO_reopening_road
+		relative_position_id =  OPO_economical_struggle
+		prerequisite = { focus = OPO_economical_struggle }
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_zntk_opole
+		icon = OPO_zntk_opole
+		relative_position_id =  OPO_reopening_road
+		prerequisite = { focus = OPO_reopening_road }
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_pnw_airport
+		icon = OPO_pnw_airport
+		relative_position_id =  OPO_zntk_opole
+		prerequisite = { focus = OPO_zntk_opole }
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_first_weapon_factory
+		icon = OPO_first_weapon_factory
+		relative_position_id =  OPO_economical_struggle
+		prerequisite = { focus = OPO_economical_struggle }
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_state_aviation_works
+		icon = OPO_state_aviation_works
+		relative_position_id =  OPO_first_weapon_factory
+		prerequisite = { focus = OPO_first_weapon_factory }
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_military_conglomerate
+		icon = OPO_military_conglomerate
+		relative_position_id =  OPO_state_aviation_works
+		prerequisite = { focus = OPO_state_aviation_works }
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_regain_controll_over_orlen_assets
+		icon = OPO_regain_controll_over_orlen_assets
+		relative_position_id =  OPO_economical_struggle
+		prerequisite = { focus = OPO_economical_struggle }
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_state_fuel_company
+		icon = OPO_state_fuel_company
+		relative_position_id =  OPO_regain_controll_over_orlen_assets
+		prerequisite = { focus = OPO_regain_controll_over_orlen_assets }
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_state_construction_companies
+		icon = OPO_state_construction_companies
+		relative_position_id =  OPO_state_fuel_company
+		prerequisite = { focus = OPO_state_fuel_company }
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_little_miracle
+		icon = OPO_little_miracle
+		relative_position_id =  OPO_pnw_airport
+		prerequisite = { focus = OPO_state_construction_companies }
+		prerequisite = { focus = OPO_pnw_airport }
+		prerequisite = { focus = OPO_military_conglomerate }			
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
 		
 		cost = 3.7
 		search_filters = { }
