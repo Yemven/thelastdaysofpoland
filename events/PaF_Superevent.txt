@@ -474,3 +474,134 @@ news_event = {
 		}
 	}
 }
+
+
+news_event = {
+	id = super.20
+	title = super.20.t
+	desc = super.20.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.20" }
+
+	option = {
+		name = super.20.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = DGR_zprr_super_visible
+
+		hidden_effect = {
+			sound_effect = "DGR_zprr_super"
+			play_song = "cisza60"
+		}
+	}
+}
+
+news_event = {
+	id = super.21
+	title = super.21.t
+	desc = super.21.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.21" }
+
+	option = {
+		name = super.21.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = WOD_bekier_super_visible
+
+		hidden_effect = {
+			sound_effect = "WOD_bekier_super"
+			play_song = "cisza60"
+		}
+	}
+}
+
+
+news_event = {
+	id = super.22
+	title = super.22.t
+	desc = super.22.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.22" }
+
+	option = {
+		name = super.22.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = WOD_szczery_super_visible
+
+		hidden_effect = {
+			sound_effect = "WOD_szczery_super"
+			play_song = "cisza60"
+		}
+	}
+}
+
+
+news_event = {
+	id = super.23
+	title = super.23.t
+	desc = super.23.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.23" }
+
+	option = {
+		name = super.23.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = WOD_ragnarok_super_visible
+
+		hidden_effect = {
+			sound_effect = "WOD_ragnarok_super"
+			play_song = "cisza60"
+		}
+	}
+}
+
+
+news_event = {
+	id = super.24
+	title = super.24.t
+	desc = super.24.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires super.24" }
+
+	option = {
+		name = super.24.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = CIE_malysz_super_visible
+
+		hidden_effect = {
+			sound_effect = "CIE_malysz_super"
+			play_song = "cisza60"
+		}
+	}
+}
+
+
