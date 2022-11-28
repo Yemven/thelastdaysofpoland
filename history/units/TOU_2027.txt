@@ -1,69 +1,42 @@
 division_template = {
-	name = "Służba Ochrony Hoteli Gołębiewski"
+	name = "Służba Ochrony Hoteli"
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-	}
-}
-
-division_template = {
-	name = "Europäisches Hilfsbataillon"
-	regiments = {
-		elite_infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		elite_infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		militia = { x = 0 y = 2 }
 	}
 }
 
 units = {
  	division = {
-		name = "Ochrona Gołębiewskich - Karpacz"
+		name = "SOH Karpacz"
 		location = 13192
-		division_template = "Służba Ochrony Hoteli Gołębiewski"
+		division_template = "Służba Ochrony Hoteli"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 
   	division = {
-		name = "Ochrona Gołębiewskich - Jelenia Góra"
+		name = "SOH Jelenia Góra"
 		location = 2245
-		division_template = "Służba Ochrony Hoteli Gołębiewski"
+		division_template = "Służba Ochrony Hoteli"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 
   	division = {
-		name = "Siły Porządkowe Gołębiewskich w Kamiennej Górze"
+		name = "SOH Kamienna Góra"
 		location = 2177
-		division_template = "Służba Ochrony Hoteli Gołębiewski"
+		division_template = "Służba Ochrony Hoteli"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 
   	division = {
-		name = "Siły Porządkowe Gołębiewskich w Szklarskiej Porębie"
+		name = "SOH Szklarska Poręba"
 		location = 526
-		division_template = "Służba Ochrony Hoteli Gołębiewski"
+		division_template = "Służba Ochrony Hoteli"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
-	}
-
-  	division = {
-		name = "Rudawskie Siły Porządkowe Gołębiewskich"
-		location = 13182
-		division_template = "Służba Ochrony Hoteli Gołębiewski"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
-	}
-
-  	division = {
-		name = "Deutsches Hilfsbataillon"
-		location = 13192
-		division_template = "Europäisches Hilfsbataillon"
-		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 }
