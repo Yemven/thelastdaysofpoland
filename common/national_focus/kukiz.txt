@@ -217,7 +217,7 @@ focus_tree = {
 		id = OPO_alliance_with_nysa
 		icon = OPO_alliance_with_nysa
 		relative_position_id = OPO_new_morning_in_opole
-		prerequisite = { focus = OPO_new_morning_in_opole }
+		prerequisite = { focus = OPO_german_polish_alliance }
 		prerequisite = { focus = OPO_preserve_nysa_government }
 		
 		available = {
@@ -897,5 +897,148 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	
+###DRUGIE DRZEWKO###	
+	focus = {
+		id = OPO_secure_new_lands
+		icon = OPO_secure_new_lands
+		relative_position_id = OPO_new_country_is_born
+		
+						
+		available = {
+			has_completed = {
+				focus = OPO_return_to_the_democracy
+			}
+		}
+		
+		bypass = {
+		}
+		
+		x = 15
+		y = 0
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
 	}
+	focus = {
+		id = OPO_preparing_election
+		icon = OPO_preparing_election
+		relative_position_id =  OPO_secure_new_lands
+		prerequisite = { focus = OPO_secure_new_lands}
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_first_elections
+		icon = OPO_first_elections
+		relative_position_id =  OPO_preparing_election
+		prerequisite = { focus = OPO_preparing_election}
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_kowalski
+		icon = OPO_kowalski
+		relative_position_id =  OPO_first_elections
+		prerequisite = { focus = OPO_first_elections}
+		mutually_exclusive = { focus = OPO_kukiz }				
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -5
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_kukiz
+		icon = OPO_kukiz
+		relative_position_id =  OPO_first_elections
+		prerequisite = { focus = OPO_first_elections}
+		mutually_exclusive = { focus = OPO_kowalski }				
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 5
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = OPO_united_poland_legacy
+		icon = OPO_united_poland_legacy
+		relative_position_id =  OPO_kowalski
+		prerequisite = { focus = OPO_kowalski}
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = OPO_finishing_what_we_started
+		icon = OPO_finishing_what_we_started
+		relative_position_id =  OPO_kukiz
+		prerequisite = { focus = OPO_kukiz}
+						
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3.7
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+}
