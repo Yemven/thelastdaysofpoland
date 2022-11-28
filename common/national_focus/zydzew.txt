@@ -186,6 +186,10 @@ focus_tree = {
 				ideology = squattism
 				popularity = 0.1
 			}
+			add_power_balance_value = {
+				id = ZYD_power_balance
+				value = -0.1
+			}
 			country_event = {
 				id = zydzew.13
 				days = 3
@@ -224,6 +228,10 @@ focus_tree = {
 				id = zydzew.14
 				days = 3
 				}
+			add_power_balance_value = {
+				id = ZYD_power_balance
+				value = -0.1
+			}
 		}
 	}
 	
@@ -365,6 +373,10 @@ focus_tree = {
 				id = zydzew.15
 				days = 3
 				}
+			add_power_balance_value = {
+				id = ZYD_power_balance
+				value = -0.1
+			}
 		}
 	}
 	
@@ -399,6 +411,10 @@ focus_tree = {
 				id = zydzew.16
 				days = 3
 				}
+			add_power_balance_value = {
+				id = ZYD_power_balance
+				value = 0.1
+			}
 		}
 	}
 	
@@ -538,6 +554,10 @@ focus_tree = {
 				ideology = squattism
 				popularity = 0.1
 			}
+			add_power_balance_value = {
+				id = ZYD_power_balance
+				value = -0.1
+			}
 		}
 	}
 	
@@ -570,6 +590,10 @@ focus_tree = {
 			add_popularity = {
 				ideology = marxism_cranism
 				popularity = 0.1
+			}
+			add_power_balance_value = {
+				id = ZYD_power_balance
+				value = 0.1
 			}
 		}
 	}
@@ -663,6 +687,10 @@ focus_tree = {
 			country_event = {
 				id = zydzew.17
 				}
+			add_power_balance_value = {
+				id = ZYD_power_balance
+				value = -0.1
+			}
 		}
 	}
 	
@@ -692,6 +720,10 @@ focus_tree = {
 			country_event = {
 				id = zydzew.19
 				days = 3
+			}
+			add_power_balance_value = {
+				id = ZYD_power_balance
+				value = 0.1
 			}
 		}
 	}
@@ -911,6 +943,10 @@ focus_tree = {
 				add_idea = state_religion
 			}
 			add_stability = -0.1
+			add_power_balance_value = {
+				id = ZYD_power_balance
+				value = -0.1
+			}
 		}
 	}
 	
@@ -956,6 +992,10 @@ focus_tree = {
 			  path = { 12103 12102 12100 12092 12095 }
 			  start_province = 12103
 			  target_province = 12095
+			}
+			add_power_balance_value = {
+				id = ZYD_power_balance
+				value = 0.1
 			}
 		}
 	}

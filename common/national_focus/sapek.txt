@@ -109,7 +109,7 @@ focus_tree = {
 				id = SAP_power_balance
 				left_side = SAP_white_rose_side # will keep the last set side if not specified
 				right_side = SAP_scoiatael_side # will keep the last set side if not specified
-				set_value = -0.1 # if specified will set the value of the power balance, this option will override the effect of set_default so the two options should not be used together. if neither set_default or set_value is specified the current value of the power balance will not change
+				set_value = 0 # if specified will set the value of the power balance, this option will override the effect of set_default so the two options should not be used together. if neither set_default or set_value is specified the current value of the power balance will not change
 			}
 			custom_effect_tooltip = SAP_wilcy_tooltip
 		}
@@ -414,6 +414,10 @@ focus_tree = {
 				limit = { has_idea = SAP_army_of_wiewiorki_2 }
 					remove_ideas = SAP_army_of_wiewiorki_2
 					}
+			add_power_balance_value = {
+				id = SAP_power_balance
+				value = -0.1
+			}
 		}
 	}
 	
@@ -461,6 +465,10 @@ focus_tree = {
 				limit = { has_idea = SAP_army_of_bartyzel_2 }
 					remove_ideas = SAP_army_of_bartyzel_2
 					}
+			add_power_balance_value = {
+				id = SAP_power_balance
+				value = 0.1
+			}
 		}
 	}
 	
@@ -568,6 +576,10 @@ focus_tree = {
 				remove_idea = economy_primal_economy			
 				add_idea = economy_feudalism
 				}
+			add_power_balance_value = {
+				id = SAP_power_balance
+				value = -0.1
+			}
 		}
 	}
 	
@@ -821,6 +833,10 @@ focus_tree = {
 				remove_idea = economy_primal_economy			
 				add_idea = economy_solidarism
 				}
+			add_power_balance_value = {
+				id = SAP_power_balance
+				value = 0.1
+			}
 		}
 	}
 	
@@ -1089,6 +1105,10 @@ focus_tree = {
 					value = 10
 				}
 			}
+			add_power_balance_value = {
+				id = SAP_power_balance
+				value = -0.1
+			}
 		}
 	}
 	
@@ -1229,6 +1249,10 @@ focus_tree = {
 					var = sapek_sanity
 					value = 10
 				}
+			}
+			add_power_balance_value = {
+				id = SAP_power_balance
+				value = 0.1
 			}
 		}
 	}
