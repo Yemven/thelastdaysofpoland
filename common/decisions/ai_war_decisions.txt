@@ -1327,7 +1327,7 @@ ai_war_decisions = {
 				}
 
 		available = {
-				always = no
+#				always = no
 				original_tag = ROS
 				ROS = { num_of_controlled_states > 1 }
 				NOT = { has_war = yes }
@@ -1378,32 +1378,31 @@ ai_war_decisions = {
 					type = annex_everything
 				}
 			}	
-			#activate_mission = we_will_be_in_month_in_olsztyn_da
+			activate_mission = we_will_be_in_three_days_in_olsztyn_da
 		}
 	}
 
-#	we_will_be_in_month_in_olsztyn_da = {
-#		allowed = {
-#			always = no
-#		}
-#		available = {
-#			ROS = {
-#				controls_state = 91
-#			}
-#		}
-#		icon = mission_icon
-#		days_mission_timeout = 360
-#		complete_effect = { #xaxaxaaxa
-#		
-#		}
-#		timeout_effect = { #oi blin
-#			ROS = {
-#				country_event = {
-#					id = rosja.1
-#				}
-#			}
-#		}
-#	}
+
+
+	we_will_be_in_three_days_in_olsztyn_da = {
+		allowed = {
+			always = no
+		}
+		available = {
+			original_tag = ROS
+			ROS = {
+				controls_state = 91
+			}
+		}
+		icon = mission_icon
+		days_mission_timeout = 3
+		complete_effect = { #xaxaxaaxa
+		
+		}
+		timeout_effect = { #oi blin
+			russian_invasion_falls_apart = yes
+		}
+	}
 
 	anti_russian_front = {
 
@@ -1414,7 +1413,7 @@ ai_war_decisions = {
 		}
 
 		available = {
-			always = no
+#			always = no
 			OR = {	
 				AND = {
 					original_tag = WRM 				
@@ -1478,6 +1477,7 @@ ai_war_decisions = {
 		}
 
 		available = {
+#			always = no
 			original_tag = ROS
 			OR = {
 				NOT = {
@@ -1717,6 +1717,57 @@ ai_war_decisions = {
 				ruling_party = reactionary
 			}
 			log = "[GetDateText]: reakcjoniści przejmują rosję"
+		}
+	}
+
+	sikorski_planning_stuff = {
+
+		icon = hol_draw_up_staff_plans
+
+		target_root_trigger = {
+			original_tag = WRM
+			is_faction_leader = yes
+			has_war_with = ROS
+		}
+
+		state_target = yes
+
+		target_array = global.rightful_warmia_clay
+
+		target_trigger = {
+			NOT = {
+				has_country_flag = preparing_offensive
+			}
+			FROM = {
+				has_state_flag = offensive_stalled
+				OR = {
+					is_controlled_by_ROOT_or_ally = yes
+					any_neighbor_state = {
+						is_controlled_by_ROOT_or_ally = yes
+					}
+				}
+			}
+		}
+
+		cost = 50
+
+		days_remove = 60
+
+		complete_effect = {
+			set_country_flag = preparing_offensive
+		}
+
+		remove_effect = {
+			FROM = {
+				clr_state_flag = offensive_stalled
+				remove_province_modifier = {
+					static_modifiers = { unplanned_offensive }
+					province = {
+						all_provinces = yes
+					}
+				}
+			}
+			clr_country_flag = preparing_offensive
 		}
 	}
 
