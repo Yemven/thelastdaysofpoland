@@ -167,6 +167,18 @@ scripted_gui = {
 			}	
 			CHO_ras_super_image_visible = {
 				has_global_flag = CHO_ras_super_visible
+			}	
+			LEH_sanjaj_super_image_visible = {
+				has_global_flag = LEH_sanjaj_super_visible
+			}	
+			LCH_bieszk_super_image_visible = {
+				has_global_flag = LCH_bieszk_super_visible
+			}	
+			WAN_wandale_super_image_visible = {
+				has_global_flag = WAN_wandale_super_visible
+			}	
+			OPO_cookies_super_image_visible = {
+				has_global_flag = OPO_cookies_super_visible
 			}				
 		}
 
@@ -235,7 +247,11 @@ scripted_gui = {
 							has_global_flag = JAW_antifa_super_visible
 							has_global_flag = GLI_murzinytancujom_super_visible
 							has_global_flag = GLI_rajch_super_visible
-							has_global_flag = CHO_ras_super_visible							
+							has_global_flag = CHO_ras_super_visible	
+							has_global_flag = WAN_wandale_super_visible
+							has_global_flag = OPO_cookies_super_visible
+							has_global_flag = LCH_bieszk_super_visible
+							has_global_flag = LEH_sanjaj_super_visible
 						}
 					}
 							clr_global_flag = ARK_exodus_super_visible
@@ -290,7 +306,11 @@ scripted_gui = {
 							clr_global_flag = JAW_antifa_super_visible
 							clr_global_flag = GLI_murzinytancujom_super_visible
 							clr_global_flag = GLI_rajch_super_visible
-							clr_global_flag = CHO_ras_super_visible									
+							clr_global_flag = CHO_ras_super_visible		
+							clr_global_flag = WAN_wandale_super_visible
+							clr_global_flag = OPO_cookies_super_visible
+							clr_global_flag = LCH_bieszk_super_visible
+							clr_global_flag = LEH_sanjaj_super_visible							
 				}
 			}
 		}
