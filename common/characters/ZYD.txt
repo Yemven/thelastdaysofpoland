@@ -109,7 +109,12 @@ characters={
 			allowed = {
 				original_tag = ZYD
 			}
-			available = { has_completed_focus = ZYD_sanctioning_the_kibbutz_cult_of_strength }
+			available = { 
+				OR = {
+					has_country_flag = mosze_do_sztabu
+					has_completed_focus = ZYD_sanctioning_the_kibbutz_cult_of_strength
+				} 
+			} 
 			traits = {
 				army_chief_planning_2
 			}
@@ -134,7 +139,12 @@ characters={
 			allowed = {
 				original_tag = ZYD
 			}
-			available = { has_completed_focus = ZYD_recreation_of_wzw }
+			available = { 
+				OR = {
+					has_country_flag = birkut_do_sztabu
+					has_completed_focus = ZYD_recreation_of_wzw
+				}
+			}
 			traits = {
 				army_chief_reform_2
 			}
