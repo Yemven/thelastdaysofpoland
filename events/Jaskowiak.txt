@@ -51,10 +51,17 @@ country_event = {
 	option = {
 		name = poznan.3.a
 		add_ideas = POZ_the_great_war
-		declare_war_on = {
+		if = {
+			limit = {
+				NOT = {
+					has_war_with = SYJ
+				}
+			}
+			declare_war_on = {
 				target = SYJ
 				type = annex_everything
 			}
+		}
 	}
 }
 

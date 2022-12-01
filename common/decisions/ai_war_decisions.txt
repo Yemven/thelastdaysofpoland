@@ -1734,10 +1734,13 @@ ai_war_decisions = {
 
 		target_array = global.rightful_warmia_clay
 
-		target_trigger = {
+		available = {
 			NOT = {
 				has_country_flag = preparing_offensive
 			}
+		}
+
+		target_trigger = {
 			FROM = {
 				has_state_flag = offensive_stalled
 				OR = {
