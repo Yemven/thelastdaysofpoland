@@ -179,7 +179,22 @@ scripted_gui = {
 			}	
 			OPO_cookies_super_image_visible = {
 				has_global_flag = OPO_cookies_super_visible
-			}				
+			}
+			KON_knur_super_image_visible = {
+				has_global_flag = KON_knur_super_visible
+			}	
+			BOM_major_super_image_visible = {
+				has_global_flag = BOM_major_super_visible
+			}	
+			LMZ_piwo_super_image_visible = {
+				has_global_flag = LMZ_piwo_super_visible
+			}	
+			BEL_kartoszki_super_image_visible = {
+				has_global_flag = BEL_kartoszki_super_visible
+			}	
+			BEL_lukaszenka_super_image_visible = {
+				has_global_flag = BEL_lukaszenka_super_visible
+			}			
 		}
 
 		properties = {
@@ -252,6 +267,11 @@ scripted_gui = {
 							has_global_flag = OPO_cookies_super_visible
 							has_global_flag = LCH_bieszk_super_visible
 							has_global_flag = LEH_sanjaj_super_visible
+							has_global_flag = BEL_lukaszenka_super_visible
+							has_global_flag = BEL_kartoszki_super_visible
+							has_global_flag = LMZ_piwo_super_visible
+							has_global_flag = BOM_major_super_visible
+							has_global_flag = KON_knur_super_visible
 						}
 					}
 							clr_global_flag = ARK_exodus_super_visible
@@ -310,7 +330,12 @@ scripted_gui = {
 							clr_global_flag = WAN_wandale_super_visible
 							clr_global_flag = OPO_cookies_super_visible
 							clr_global_flag = LCH_bieszk_super_visible
-							clr_global_flag = LEH_sanjaj_super_visible							
+							clr_global_flag = LEH_sanjaj_super_visible	
+							clr_global_flag = BEL_lukaszenka_super_visible
+							clr_global_flag = BEL_kartoszki_super_visible
+							clr_global_flag = LMZ_piwo_super_visible
+							clr_global_flag = BOM_major_super_visible
+							clr_global_flag = KON_knur_super_visible							
 				}
 			}
 		}

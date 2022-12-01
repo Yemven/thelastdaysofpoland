@@ -386,9 +386,40 @@ guiTypes = {
 		alwaystransparent = yes
 	}
 
+	iconType = {
+		name = "BEL_kartoszki_super_image"
+		spriteType = "GFX_SE_BEL_Kartoszki"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+		
+	iconType = {
+		name = "BEL_lukaszenka_super_image"
+		spriteType = "GFX_SE_BEL_Lukaszenka"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+
+	iconType = {
+		name = "BOM_major_super_image"
+		spriteType = "GFX_SE_BOM_Major"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
 	
-		
-		
+	iconType = {
+		name = "KON_knur_super_image"
+		spriteType = "GFX_SE_KON_Knur"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "LMZ_piwo_super_image"
+		spriteType = "GFX_SE_LMZ_Piwo"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
 		
 		buttonType = {
             name = "Super_Event_Close"

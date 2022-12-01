@@ -791,6 +791,80 @@ poland_unification = {
 			}
 			custom_effect_tooltip = OPO_unifies_poland_tooltip
 		}
+		
+		else_if = {
+			limit = { 
+					 tag = LMZ
+				}
+			set_cosmetic_tag = LMZ_piwo_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.58 }
+				}
+			}
+			custom_effect_tooltip = LMZ_unifies_poland_tooltip
+		}
+
+		else_if = {
+			limit = { 
+					 tag = KON
+				}
+			set_cosmetic_tag = KON_knur_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.57 }
+				}
+			}
+			custom_effect_tooltip = KON_unifies_poland_tooltip
+		}
+
+		else_if = {
+			limit = { 
+					 tag = BOM
+				}
+			set_cosmetic_tag = BOM_major_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.56 }
+				}
+			}
+			custom_effect_tooltip = BOM_unifies_poland_tooltip
+		}
+
+
+		else_if = {
+			limit = { 
+					 tag = BEL
+					 has_government = autocracy
+				}
+			set_cosmetic_tag = BEL_lukaszenka_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.54 }
+				}
+			}
+			custom_effect_tooltip = BEL_unifies_poland_tooltip
+		}
+
+		else_if = {
+			limit = { 
+					 tag = BEL
+					 has_government = paternal_conservatism
+				}
+			set_cosmetic_tag = BEL_kartoszki_final
+			hidden_effect = {
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = super.55 }
+				}
+			}
+			custom_effect_tooltip = BEL_unifies_poland_tooltip
+		}		
+
 	
 	}
 	ai_will_do = { factor = 1 }
