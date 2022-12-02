@@ -1104,6 +1104,7 @@ focus_tree = {
 					var = sapek_sanity
 					value = 10
 				}
+				set_country_flag = hq_wielki_mistrz_bartyzel
 			}
 			add_power_balance_value = {
 				id = SAP_power_balance
@@ -1249,6 +1250,7 @@ focus_tree = {
 					var = sapek_sanity
 					value = 10
 				}
+				set_country_flag = hq_pazura
 			}
 			add_power_balance_value = {
 				id = SAP_power_balance
@@ -1366,6 +1368,7 @@ focus_tree = {
 		completion_reward = {
 			hidden_effect = {
 				set_country_flag = SAP_witchers_activation
+				set_country_flag = hq_zebrowski
 			}
 			add_corps_commander_role = {
 				character = SAP_zebrowski
