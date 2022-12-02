@@ -2311,8 +2311,14 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-		log = "[GetDateText]: Focus WML_6_warlords_under_1_union"
-
+			log = "[GetDateText]: Focus WML_6_warlords_under_1_union"
+			hidden_effect = {
+				add_to_array = {lodzwarlords = BBW}
+				add_to_array = {lodzwarlords = KRS}
+				add_to_array = {lodzwarlords = SAP}
+				add_to_array = {lodzwarlords = ZHP}
+				add_to_array = {lodzwarlords = ZYD}
+			}
 		}
 	}	
 

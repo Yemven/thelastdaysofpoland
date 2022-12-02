@@ -318,4 +318,81 @@ WML_dialogue_decisions = {
 			subtract_from_variable = {dialogue_ZHP = 10}
 		}
 	}
+###POZIOM OSTATNI- PRZEJMOWANIE WŁADZY###
+	WML_enforce_peace_between_warlords = {
+		allowed = {
+			original_tag = WML
+		}
+		days_re_enable = 365
+		visible = {
+			has_completed_focus = WML_6_warlords_under_1_union
+		}
+		cost = 100
+		remove_effect = {
+			log = "[GetDateText]: Decision WML_enforce_peace_between_warlords"
+			for_each_scope_loop = {
+				array = lodzwarlords
+				if = {
+					limit = {
+						FROM = {
+							has_war = yes
+						}
+					}
+					for_each_scope_loop = {
+						array = lodzwarlords
+							if = {
+								limit = {
+									FROM = {
+										has_war_with = PREV
+										NOT = {
+											original_tag = PREV
+										}
+									}
+								}
+								FROM = {
+									white_peace = PREV
+								}
+							}
+						} 
+					}
+				}
+			}
+		}
+	WML_encroach_warlord_lands = {
+		target_root_trigger = {
+			original_tag = WML
+			has_completed_focus = WML_6_warlords_under_1_union
+		}
+		targets = {BBW KRS SAP ZHP ZYD}
+		target_trigger = {
+			FROM = {
+				has_war = no
+				is_neighbor_of = WML
+			}
+		}
+		cost = 20
+		days_remove = 30
+		remove_effect = {
+			log = "[GetDateText]: Decision WML_enforce_peace_between_warlords"
+			FROM = {
+				random_owned_state = {
+					limit = {
+						num_owned_neighbour_states = {
+							owner = WML
+							count > 0
+						}
+					}
+					transfer_state_to = WML
+					if = {
+						limit = {
+							FROM = {
+								num_of_controlled_states < 2
+							}
+						}
+						set_demilitarized_zone = yes
+					}
+				}
+			}
+		}
+	}
 }
