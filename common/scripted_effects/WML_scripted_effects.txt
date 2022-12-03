@@ -1,0 +1,57 @@
+WML_peace_enforcing = {
+	BBW = {
+		if = {
+			limit = {
+				has_war = yes
+			}
+			white_peace = KRS
+			white_peace = SAP
+			white_peace = ZHP
+			white_peace = ZYD
+		}
+	}
+	KRS = {
+		if = {
+			limit = {
+				has_war = yes
+			}
+			white_peace = BBW
+			white_peace = SAP
+			white_peace = ZHP
+			white_peace = ZYD
+		}
+	}
+	SAP = {
+		if = {
+			limit = {
+				has_war = yes
+			}
+			white_peace = BBW
+			white_peace = KRS
+			white_peace = ZHP
+			white_peace = ZYD
+		}
+	}
+	ZHP = {
+		if = {
+			limit = {
+				has_war = yes
+			}
+			white_peace = BBW
+			white_peace = KRS
+			white_peace = SAP
+			white_peace = ZYD
+		}
+	}
+	ZYD = {
+		if = {
+			limit = {
+				has_war = yes
+			}
+			white_peace = BBW
+			white_peace = KRS
+			white_peace = SAP
+			white_peace = ZHP
+		}
+	}
+}

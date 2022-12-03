@@ -1193,6 +1193,127 @@ country_event = { #why you heff to be mad
 	}
 }
 
+country_event = { #teraz przegłeś pałkę panie żymon, SZYKUJ SIĘ NA ŚMIERĆ
+	id = WML_total.4
+	title = WML_total.4.t
+	desc = WML_total.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires WML_total.4"
+	}
+
+	option = {
+		name = WML_total.4.a
+		for_each_scope_loop = {
+			array = lodzwarlords
+			if = { 
+				limit = {
+					THIS = {
+						exists = yes
+					}
+					NOT = {
+						has_global_flag = ADF_created
+					}
+				}
+				create_faction = "Anti-Dialogue Forces"
+				set_global_flag = ADF_created
+				declare_war_on = {
+					target = WML
+					type = annex_everything
+				}
+				if = {
+					limit = {
+						BBW = {
+							exists = yes
+							is_faction_leader = no
+						}
+					}
+					add_to_faction = BBW
+					BBW = {
+						add_to_war = {
+							targeted_alliance = THIS
+							enemy = WML
+							hostility_reason = asked_to_join
+						}
+					}
+					log = "[GetDateText]: [BBW.GetName] added to faction of [THIS.GetName]"
+				}
+				if = {
+					limit = {
+						KRS = {
+							exists = yes
+							is_faction_leader = no
+						}
+					}
+					add_to_faction = KRS
+					KRS = {
+						add_to_war = {
+							targeted_alliance = THIS
+							enemy = WML
+							hostility_reason = asked_to_join
+						}
+					}
+					log = "[GetDateText]: [KRS.GetName] added to faction of [THIS.GetName]"
+				}
+				if = {
+					limit = {
+						SAP = {
+							exists = yes
+							is_faction_leader = no
+						}
+					}
+					add_to_faction = SAP
+					SAP = {
+						add_to_war = {
+							targeted_alliance = THIS
+							enemy = WML
+							hostility_reason = asked_to_join
+						}
+					}
+					log = "[GetDateText]: [SAP.GetName] added to faction of [THIS.GetName]"
+				}
+				if = {
+					limit = {
+						ZHP = {
+							exists = yes
+							is_faction_leader = no
+						}
+					}
+					add_to_faction = ZHP
+					ZHP = {
+						add_to_war = {
+							targeted_alliance = THIS
+							enemy = WML
+							hostility_reason = asked_to_join
+						}
+					}
+					log = "[GetDateText]: [ZHP.GetName] added to faction of [THIS.GetName]"
+				}
+				if = {
+					limit = {
+						ZYD = {
+							exists = yes
+							is_faction_leader = no
+						}
+					}
+					add_to_faction = ZYD
+					ZYD = {
+						add_to_war = {
+							targeted_alliance = THIS
+							enemy = WML
+							hostility_reason = asked_to_join
+						}
+					}
+					log = "[GetDateText]: [ZYD.GetName] added to faction of [THIS.GetName]"
+				}
+			}
+		}
+	}
+}
+
 
 
 
