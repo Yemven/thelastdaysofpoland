@@ -28,11 +28,17 @@ spriteTypes = {
 		alwaystransparent = yes		
 	}
 
-	spriteType = {
-		name = "GFX_industry_techtree_bg"
-		textureFile = "gfx//interface//techtree//industry_techtree_bg.dds"
-		alwaystransparent = yes		
-	}
+	
+	frameAnimatedSpriteType = {
+			name = "GFX_industry_techtree_bg"
+			texturefile = "gfx//interface//techtree//industry_techtree_bg.dds"
+			noOfFrames = 30
+			animation_rate_fps = 15
+			looping = yes
+			play_on_show = yes
+			pause_on_loop = 0.0
+		}
+
 
 	spriteType = {
 		name = "GFX_strategic_destruction_bg"
