@@ -222,7 +222,7 @@ BBW_energy_deals_category = {
 		available = {
 			has_completed_focus = BBW_energy_export
 		}
-		target_array = { BBW.neighbors_owned }
+#		target_array = { BBW.neighbors_owned }
 		targets_dynamic = yes
 		target_trigger = {
 			FROM = {
