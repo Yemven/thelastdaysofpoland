@@ -49,6 +49,7 @@ country_event = {
 				id = eksrozpad.2
 				days = 2
 				}
+				set_capital = { state = 345 }
 			}
 			every_country = {
 				limit = { NOT = { is_ai = yes } }
