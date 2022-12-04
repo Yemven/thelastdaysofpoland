@@ -393,6 +393,16 @@ on_actions = {
 					STATE_ID = "[?FROM.FROM.GetID]"
 				}
 			}
+			else = {
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
 		}
 	}
 }
