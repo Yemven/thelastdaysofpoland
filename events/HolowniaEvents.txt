@@ -1215,11 +1215,11 @@ country_event = { #teraz przegłeś pałkę panie żymon, SZYKUJ SIĘ NA ŚMIER�
 						exists = yes
 					}
 					NOT = {
-						has_global_flag = ADF_created
+						has_global_flag = ADC_created
 					}
 				}
-				create_faction = "Anti-Dialogue Forces"
-				set_global_flag = ADF_created
+				create_faction = "Anti-Dialogue Coalition"
+				set_global_flag = ADC_created
 				declare_war_on = {
 					target = WML
 					type = annex_everything

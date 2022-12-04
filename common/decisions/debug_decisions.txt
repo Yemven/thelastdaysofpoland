@@ -1,5 +1,16 @@
 debug_category = {
-	
+	WML_clear_flag = {
+		allowed = {
+			original_tag = WML
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			clr_global_flag = ADC_created
+		}
+	}
+
 	ek_dissolution = {
 
 		icon = GFX_decision_generic_form_nation

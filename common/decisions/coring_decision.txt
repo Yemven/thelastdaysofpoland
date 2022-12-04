@@ -24,7 +24,7 @@ coring_category = {
 			set_temp_variable = { coring_pp_cost = FROM.coring_cost }
 			multiply_temp_variable = { coring_pp_cost = -1 }
 			add_political_power = coring_pp_cost
-			log = "[GetDateText]: Decision core_the_state (t: [?FROM.coring_time] v: [?FROM.coring_cost])"
+			log = "[GetDateText]: Decision core_the_state (v: [?FROM.coring_cost])"
 		}
 		remove_effect = {
 			FROM = {

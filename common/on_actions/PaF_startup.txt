@@ -32,11 +32,23 @@ on_actions = {
 			
 			every_state = {
 				set_variable = { coring_cost = state_population_k }
-				set_variable = { coring_time = coring_cost }
+				
+				#set_variable = { coring_time = coring_cost }
 				multiply_variable = { coring_cost = 0.6 }
-				divide_variable = { coring_time = 2 }
+				#divide_variable = { coring_time = 2 }
 				round_variable = coring_cost
-				round_variable = coring_time
+				#round_variable = coring_time
+				if = {
+					limit = {
+						is_controlled_by = CAL
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_CAL
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
 			}
 			every_country = {
 				set_variable = {
@@ -362,6 +374,22 @@ on_actions = {
 					}
 				}
 				log = "[GetDateText]: [ROOT.GetName] cancels energy imports"
+			}
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = CAL
+				}
+				meta_effect = {
+					text = {
+						set_state_name = STATE_[STATE_ID]_CAL
+					}
+					STATE_ID = "[?THIS.GetID]"
+				}
 			}
 		}
 	}
