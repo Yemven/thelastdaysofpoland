@@ -386,9 +386,11 @@ on_actions = {
 				}
 				meta_effect = {
 					text = {
-						set_state_name = STATE_[STATE_ID]_CAL
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_CAL
+						}
 					}
-					STATE_ID = "[?THIS.GetID]"
+					STATE_ID = "[?FROM.FROM.GetID]"
 				}
 			}
 		}
