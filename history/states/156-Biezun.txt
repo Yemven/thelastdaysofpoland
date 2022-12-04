@@ -3,13 +3,15 @@ state={
 	id=156
 	name="STATE_156"
 	provinces={
-		407 1984 2886 
+		407 1984 2886 18716 18717 18718 18719 18720 18721 18722 18723
 	}
 	manpower=12510
 	buildings_max_level_factor=1.000
 	state_category=rural
 		history = {
 		owner = ORL
+                                  #LITERALNIE
+		victory_points = { 1984 1 }
 		add_core_of = ORL
 	buildings = {
 	infrastructure = 4
