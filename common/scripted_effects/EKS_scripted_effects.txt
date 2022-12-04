@@ -469,7 +469,6 @@ EKS_collapse_TOU = {
 		}
 
 		TOU = {
-			load_oob = "TOU_2027"
 			delete_unit_template_and_units = {
 				division_template = "Euroinfanteriebataillon"
 				disband = yes
@@ -486,6 +485,7 @@ EKS_collapse_TOU = {
 				division_template = "Pro-europejscy ochotnicy"
 				disband = yes
 			}
+			country_lock_all_division_template = yes
 		}
 	}
 	log = "[GetDateText]: EKS_collapse_TOU"
