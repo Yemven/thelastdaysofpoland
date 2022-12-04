@@ -81,6 +81,27 @@ calculate_energy_effects = {
 	}
 }
 
+#change_vp_name_to_kolonkish = {
+#	if = {
+#		limit = {
+#			state = 1
+#		}
+#		set_province_name = {
+#			id = 11
+#			name = VP_NAME_USP
+#		}
+#	}
+#}
+
+#reset_vp_name = {
+#	if = {
+#		limit = {
+#			state = 1
+#		}
+#		reset_province_name = 11
+#	}
+#}
+
 russian_invasion_falls_apart = {
 	for_each_scope_loop = {
 		array = global.rightful_warmia_clay

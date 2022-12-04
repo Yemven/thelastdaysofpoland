@@ -49,6 +49,92 @@ on_actions = {
 						STATE_ID = "[?THIS.GetID]"
 					}
 				}
+				if = {
+					limit = {
+						is_controlled_by = CZE
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_CZE
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							original_tag = KAM
+							original_tag = MNI
+							original_tag = RAS
+							original_tag = WRT
+							original_tag = POM
+							original_tag = KES
+							original_tag = KOS
+							original_tag = TEU 
+						}
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_GER
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = JOM
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_JOM
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							original_tag = LEH
+							original_tag = LCH
+							original_tag = WAN
+							original_tag = JAS
+						}
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_LEH
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							original_tag = UPA
+						original_tag = KOZ
+						original_tag = UHR
+						original_tag = BEL
+						original_tag = ROS
+						}
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_UKROS
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = USP
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_USP
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
 			}
 			every_country = {
 				set_variable = {
@@ -388,6 +474,104 @@ on_actions = {
 					text = {
 						FROM.FROM = {
 							set_state_name = STATE_[STATE_ID]_CAL
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = CZE
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_CZE
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						original_tag = KAM
+						original_tag = MNI
+						original_tag = RAS
+						original_tag = WRT
+						original_tag = POM
+						original_tag = KES
+						original_tag = KOS
+						original_tag = TEU 
+					}
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_GER
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = JOM
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_JOM
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						original_tag = LEH
+						original_tag = LCH
+						original_tag = WAN
+						original_tag = JAS
+					}
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_LEH
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						original_tag = UPA
+						original_tag = KOZ
+						original_tag = UHR
+						original_tag = BEL
+						original_tag = ROS
+					}
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_UKROS
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = USP
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_USP
 						}
 					}
 					STATE_ID = "[?FROM.FROM.GetID]"
