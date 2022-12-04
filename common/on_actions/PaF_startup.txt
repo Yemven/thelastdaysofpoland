@@ -63,14 +63,14 @@ on_actions = {
 				if = {
 					limit = {
 						OR = {
-							original_tag = KAM
-							original_tag = MNI
-							original_tag = RAS
-							original_tag = WRT
-							original_tag = POM
-							original_tag = KES
-							original_tag = KOS
-							original_tag = TEU 
+							is_controlled_by = KAM
+							is_controlled_by = MNI
+							is_controlled_by = RAS
+							is_controlled_by = WRT
+							is_controlled_by = POM
+							is_controlled_by = KES
+							is_controlled_by = KOS
+							is_controlled_by = TEU 
 						}
 					}
 					meta_effect = {
@@ -94,10 +94,10 @@ on_actions = {
 				if = {
 					limit = {
 						OR = {
-							original_tag = LEH
-							original_tag = LCH
-							original_tag = WAN
-							original_tag = JAS
+							is_controlled_by = LEH
+							is_controlled_by = LCH
+							is_controlled_by = WAN
+							is_controlled_by = JAS
 						}
 					}
 					meta_effect = {
@@ -110,11 +110,11 @@ on_actions = {
 				if = {
 					limit = {
 						OR = {
-							original_tag = UPA
-						original_tag = KOZ
-						original_tag = UHR
-						original_tag = BEL
-						original_tag = ROS
+							is_controlled_by = UPA
+							is_controlled_by = KOZ
+							is_controlled_by = UHR
+							is_controlled_by = BEL
+							is_controlled_by = ROS
 						}
 					}
 					meta_effect = {
@@ -126,7 +126,7 @@ on_actions = {
 				}
 				if = {
 					limit = {
-						original_tag = USP
+						is_controlled_by = USP
 					}
 					meta_effect = {
 						text = {
