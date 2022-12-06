@@ -74,6 +74,12 @@ spriteTypes = {
 		texturefile = "gfx/superevent/SE_sap3.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_SE_SAP_TemeriaCW"
+		texturefile = "gfx/superevent/SE_sap4.dds"
+		legacy_lazy_load = no
+	}
 
 	spriteType = {
 		name = "GFX_SE_WML_Hoiownia"
@@ -102,6 +108,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SE_ZHP_Zawisza"
 		texturefile = "gfx/superevent/SE_zhp3.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SE_ZHP_ScoutCW"
+		texturefile = "gfx/superevent/SE_zhp4.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {

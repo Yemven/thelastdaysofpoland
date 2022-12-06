@@ -86,6 +86,12 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		iconType = {
+			name ="SAP_temeriancw_super_image"
+			spriteType = "GFX_SE_SAP_TemerianCW"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
 			name ="WML_hoiownia_super_image"
 			spriteType = "GFX_SE_WML_Hoiownia"
 			position = { x = 0 y = 0 }
@@ -112,6 +118,12 @@ guiTypes = {
 		iconType = {
 			name ="ZHP_zawisza_super_image"
 			spriteType = "GFX_SE_ZHP_Zawisza"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="ZHP_scoutcw_super_image"
+			spriteType = "GFX_SE_ZHP_ScoutCW"
 			position = { x = 0 y = 0 }
 			alwaystransparent = yes
 		}
