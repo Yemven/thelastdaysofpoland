@@ -350,29 +350,6 @@ WML_dialogue_decisions = {
 		}
 		cost = 20
 		days_remove = 30
-		complete_effect = {
-			if = {
-				limit = {
-					FROM = {
-						num_of_controlled_states < 2
-					}
-				}
-				add_to_variable = {
-					lodzwarlords_eaten = 1
-				}
-			}
-			if = {
-				limit = {
-					check_variable = {
-						lodzwarlords_eaten = 2
-					}
-				}
-				country_event = {
-					id = WML_total.4
-					days = 14
-				}
-			}
-		}
 		remove_effect = {
 			log = "[GetDateText]: Decision WML_enforce_peace_between_warlords"
 			FROM = {
