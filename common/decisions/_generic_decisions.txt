@@ -1707,14 +1707,14 @@ remove_effect = { log = "[GetDateText]: Decision  buy_german_vests"
 	buy_radom_vests = {
 		visible = { has_country_flag = click_buy_vests }
 		days_remove = 30
-		cost = 95
+		cost = 50
 		modifier = {
             		civilian_factory_use = 1
         	}
 remove_effect = { log = "[GetDateText]: Decision  buy_radom_vests"
 		add_equipment_to_stockpile = {
     				type = equipment_vests
-    				amount = 250
+    				amount = 400
     				producer = RAD
 			}
 		}
