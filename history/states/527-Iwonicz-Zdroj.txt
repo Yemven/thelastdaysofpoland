@@ -24,11 +24,12 @@ state={
 		1938 1985 2579 2679 4116 4124 12195 12196 12197 12198 12199 12200 12201 12202 12203 12204 12205 12206 12207
 	}
 	manpower=39560
-resources={
-		oil = 30}
+	resources={
+		oil = 30
+		junk = 5
+	}
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000
-	resources={
-		junk = 5}
+
 }

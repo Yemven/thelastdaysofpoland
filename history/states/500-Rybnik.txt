@@ -4,6 +4,7 @@ state={
 	name="STATE_500"
 	resources={
 		coal=50.000
+		junk = 20
 	}
 
 	history={
@@ -37,6 +38,4 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.000
-	resources={
-		junk = 20}
 }
