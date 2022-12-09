@@ -9,10 +9,13 @@ state={
 	buildings_max_level_factor=1.000
 	history = {
 		owner = ZUK
-		victory_points = { 8860 2 }
-		victory_points = { 1855 2 }
-		victory_points = { 3899 2 }
-		victory_points = { 1695 3 }
+		#victory_points = { 8860 2 }
+		victory_points = {
+			8928 2
+		}
+		#victory_points = { 1855 2 }
+		#victory_points = { 3899 2 }
+		#victory_points = { 1695 3 }
 		add_core_of = ZUK
 	buildings = {
 	infrastructure = 4
