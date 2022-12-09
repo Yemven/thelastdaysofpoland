@@ -4840,11 +4840,12 @@ ai_war_decisions = {
 		days_remove = 10
 		remove_effect  = {
 			log = "[GetDateText]: Decision podlasie_KON"
-				if = { limit = { country_exists = KON }
-				declare_war_on = {
-					target = KON
-					type = annex_everything
-				}
+				if = {
+					limit = { country_exists = KON }
+					declare_war_on = {
+						target = KON
+						type = annex_everything
+					}
 				}
 		}
 	}
@@ -5040,7 +5041,7 @@ ai_war_decisions = {
 			}
 		}
 		remove_effect  = {
-			log = "[GetDateText]: Decision podlasie_plemiona"
+			log = "[GetDateText]: [ROOT.GetName] fires decision podlasie_plemiona"
 			ROOT = {
 				declare_war_on = {
 					target = FROM

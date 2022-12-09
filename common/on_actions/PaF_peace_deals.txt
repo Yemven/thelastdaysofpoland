@@ -1,7 +1,16 @@
 on_actions = {
 	on_capitulation_immediate = {
 		effect = {
-			log = "[GetDateName]: [ROOT.GetName] was just capped by [FROM.GetName]"
+			log = "[GetDateText]: [ROOT.GetName] was just capped by [FROM.GetName]"
+			every_other_country = {
+				limit = {
+					NOT = {
+						original_tag = FROM
+					}
+					has_war_with = ROOT
+				}
+				log = "[GetDateText]: Also ran: [THIS.GetName]"
+			}
 		}
 	}
 	on_capitulation = {

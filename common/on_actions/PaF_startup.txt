@@ -465,6 +465,27 @@ on_actions = {
 				}
 				log = "[GetDateText]: [ROOT.GetName] cancels energy imports"
 			}
+			if = {
+				limit = {
+					tag = BBW
+					FROM = { has_country_flag = importing_energy }
+				}
+				FROM = {
+					clr_country_flag = importing_energy
+					remove_opinion_modifier = {
+						target = BBW
+						modifier = aided_industry
+					}
+					remove_ideas = importing_energy_idea
+				}
+				BBW = {
+					add_offsite_building = {
+						type = industrial_complex
+						level = -1
+					}
+				}
+				log = "[GetDateText]: [FROM.GetName] cancels energy imports"
+			}
 		}
 	}
 
