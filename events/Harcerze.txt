@@ -313,7 +313,8 @@ country_event = {
 	option = {
 		name = zhp.16.a # idealiści
 		trigger = {
-			has_country_flag = idealist_takeover
+			#has_country_flag = idealist_takeover
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 		hidden_effect = {
 			set_nationality = {
@@ -344,7 +345,8 @@ country_event = {
 	option = {
 		name = zhp.16.b #konserwatyści
 			trigger = {
-				has_country_flag = conservative_takeover
+				#has_country_flag = conservative_takeover
+				has_country_flag = ZHP_ZHR_Path_2
 			}
 		hidden_effect = {
 			set_nationality = {

@@ -116,13 +116,13 @@ focus_tree = {
 			add_ideas = ZHP_idealist_economy
 			if = {
                 limit = {
-                    has_country_flag = ZHP_ZHR_Path_1
+                    has_country_flag = ZHP_ZHP_Path_1
                 }   
-                clr_country_flag = ZHP_ZHR_Path_1
-		        set_country_flag = ZHP_ZHR_Path_2
+                clr_country_flag = ZHP_ZHP_Path_1
+		        set_country_flag = ZHP_ZHP_Path_2
             }
             else = {
-                set_country_flag = ZHP_ZHR_Path_1
+                set_country_flag = ZHP_ZHP_Path_1
             }
 			hidden_effect = {
 				if = {
@@ -164,13 +164,13 @@ focus_tree = {
 			add_ideas = ZHP_conservatist_economy
 			if = {
                 limit = {
-                    has_country_flag = ZHP_ZHP_Path_1
+                    has_country_flag = ZHP_ZHR_Path_1
                 }   
-                clr_country_flag = ZHP_ZHP_Path_1
-		        set_country_flag = ZHP_ZHP_Path_2
+                clr_country_flag = ZHP_ZHR_Path_1
+		        set_country_flag = ZHP_ZHR_Path_2
             }
             else = {
-                set_country_flag = ZHP_ZHP_Path_1
+                set_country_flag = ZHP_ZHR_Path_1
             }
 			hidden_effect = {
 				if = {
@@ -374,13 +374,13 @@ focus_tree = {
 			}
 			if = {
                 limit = {
-                    has_country_flag = ZHP_ZHR_Path_1
+                    has_country_flag = ZHP_ZHP_Path_1
                 }   
-                clr_country_flag = ZHP_ZHR_Path_1
-		        set_country_flag = ZHP_ZHR_Path_2
+                clr_country_flag = ZHP_ZHP_Path_1
+		        set_country_flag = ZHP_ZHP_Path_2
             }
             else = {
-                set_country_flag = ZHP_ZHR_Path_1
+                set_country_flag = ZHP_ZHP_Path_1
             }
 			hidden_effect = {
 				if = {
@@ -429,13 +429,13 @@ focus_tree = {
 			}
 			if = {
                 limit = {
-                    has_country_flag = ZHP_ZHP_Path_1
+                    has_country_flag = ZHP_ZHR_Path_1
                 }   
-                clr_country_flag = ZHP_ZHP_Path_1
-		        set_country_flag = ZHP_ZHP_Path_2
+                clr_country_flag = ZHP_ZHR_Path_1
+		        set_country_flag = ZHP_ZHR_Path_2
             }
             else = {
-                set_country_flag = ZHP_ZHP_Path_1
+                set_country_flag = ZHP_ZHR_Path_1
             }
 			hidden_effect = {
 				if = {
@@ -672,13 +672,13 @@ focus_tree = {
 			add_war_support = 0.1
 			if = {
                 limit = {
-                    has_country_flag = ZHP_ZHR_Path_1
+                    has_country_flag = ZHP_ZHP_Path_1
                 }   
-                clr_country_flag = ZHP_ZHR_Path_1
-		        set_country_flag = ZHP_ZHR_Path_2
+                clr_country_flag = ZHP_ZHP_Path_1
+		        set_country_flag = ZHP_ZHP_Path_2
             }
             else = {
-                set_country_flag = ZHP_ZHR_Path_1
+                set_country_flag = ZHP_ZHP_Path_1
             }
 			
 			hidden_effect = {
@@ -724,13 +724,13 @@ focus_tree = {
 			}
 			if = {
                 limit = {
-                    has_country_flag = ZHP_ZHP_Path_1
+                    has_country_flag = ZHP_ZHR_Path_1
                 }   
-                clr_country_flag = ZHP_ZHP_Path_1
-		        set_country_flag = ZHP_ZHP_Path_2
+                clr_country_flag = ZHP_ZHR_Path_1
+		        set_country_flag = ZHP_ZHR_Path_2
             }
             else = {
-                set_country_flag = ZHP_ZHP_Path_1
+                set_country_flag = ZHP_ZHR_Path_1
             }
 			hidden_effect = {
 				if = {
