@@ -37,6 +37,7 @@ country_event = {
 	id = sapek.3 #intro-wojewodztwo
 	title = sapek.3.t
 	desc = sapek.3.desc
+	picture = GFX_event_sapek.3
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -52,6 +53,7 @@ country_event = {
 	id = sapek.4 #jaszczur-atakuje
 	title = sapek.4.t
 	desc = sapek.4.desc
+	picture = GFX_event_sapek.4
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -71,6 +73,7 @@ country_event = {
 	id = sapek.5 #plonie-stodola
 	title = sapek.5.t
 	desc = sapek.5.desc
+	picture = GFX_event_sapek.5
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -123,6 +126,7 @@ country_event = {
 	id = sapek.7 #trop-zniknal
 	title = sapek.7.t
 	desc = sapek.7.desc
+	picture = GFX_event_sapek.7
 
 	immediate = { log = "[GetDateText]: [ROOT.GetName] fires sapek.7" }
 
