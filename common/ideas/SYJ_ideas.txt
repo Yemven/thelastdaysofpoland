@@ -27,5 +27,26 @@ ideas = {
 				
 			}
 	    }
+
+		SYJ_palucki_demon = {
+			allowed = {
+				original_tag = SYJ
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = SYJ_palucki_demon
+			modifier = {
+				stability_factor = -0.05
+				monthly_population = -0.5
+				army_org_factor = -0.1
+				political_power_gain = -0.1
+			}
+	    }
     }
 }
