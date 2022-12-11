@@ -883,7 +883,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ZHP_ZHP_Dominant
-		icon = ZHP_WML_war
+		icon = ZHP_dominant
 		relative_position_id = ZHP_prohibition_of_sex
 		prerequisite = { focus = ZHP_prohibition_of_sex}
 		will_lead_to_war_with = WML
@@ -903,7 +903,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ZHP_ZHR_Dominant
-		icon = ZHP_WML_war
+		icon = ZHR_dominant
 		relative_position_id = ZHP_prohibition_of_sex
 		prerequisite = { focus = ZHP_prohibition_of_sex}
 		available = {
