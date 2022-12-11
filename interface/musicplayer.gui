@@ -61,7 +61,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"	
-				quadTextureSprite ="GFX_tiled_paper_w_frame_one_border"
+				quadTextureSprite ="GFX_tiled_paper_bg2"
 			}
 
 			gridBoxType = {
@@ -154,7 +154,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "track_label"
 			position = { x = 60 y = 8 }
-			font = "hoi4_typewriter16"
+			font = "stellaris_main"
 			maxWidth = 430
 			maxHeight = 20
 			format = left
@@ -165,7 +165,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "track_length"
 			position = { x = -106 y = 8 }
-			font = "hoi4_typewriter16"
+			font = "stellaris_main"
 			text = "9:33"
 			maxWidth = 60
 			maxHeight = 20
