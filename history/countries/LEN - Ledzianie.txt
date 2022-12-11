@@ -1,4 +1,4 @@
-﻿capital = 310
+﻿capital = 306
 
 # Starting tech
 set_technology = {
@@ -28,42 +28,31 @@ set_technology = {
 }
 
 
-oob = "BPD_2027"
+oob = "LEN_2027"
 
-recruit_character = BPD_Miroslaw_Hermaszewski
-recruit_character = BPD_Dawid_Mysliwiec
-recruit_character = BPD_Dariusz_Hoffman
-recruit_character = BPD_Piotr_Kosek
-recruit_character = BPD_Huyen_Pham
+recruit_character = LEN_Lubel_II
 
 add_ideas = {
-	BPD_debuff
-
-	BPD_min_Dawid_Mysliwiec
-	BPD_min_Dariusz_Hoffman
-	BPD_min_Piotr_Kosek
-	BPD_min_Huyen_Pham
-
-	controlled_opposition
-	autocensorship
-	basic_security
-	partial_refundation
+	regime_council
+	absolute_freedom
+	improvised_security
+	witch_doctors
 	no_subsidies
 	system_enlistment
 	training_basic
 	officer_clerks
-	economy_social_market
-		#taxes
-	trade_promoted
-	lgbt_equal_laws
+	economy_agrarism
+	#taxes
+	trade_free
+	lgbt_limited_laws
 	drugs_illegal_unenforced
-	women_gender_equality
-	minorities_equal_rights
-	full_secularism
+	women_traditional_roles
+	minorities_hidden_oppresion
+	one_religion_favoured
 }
 
 set_politics = {
-	ruling_party = socialdemocrature
+	ruling_party = autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -72,11 +61,11 @@ set_politics = {
 set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
-	socialdemocrature = 75
-	euroliberalism = 15
+	socialdemocrature = 0
+	euroliberalism = 0
 	freemarketism = 0
-	paternal_conservatism = 10
-	autocracy = 0
+	paternal_conservatism = 0
+	autocracy = 100
 	corporativism = 0 
 	neonationalism = 0
 	reactionary = 0

@@ -8130,7 +8130,7 @@ ai_war_decisions = {
 		war_with_on_remove = SWD
 		war_with_on_remove = ZUK
 		war_with_on_remove = BIL
-		war_with_on_remove = BPD
+		war_with_on_remove = LEN
 		remove_effect  = {
 			log = "[GetDateText]: Decision CRN_east_lublin_war"
 			declare_war_on = {
@@ -8146,7 +8146,47 @@ ai_war_decisions = {
 				type = annex_everything
 			}
 			declare_war_on = {
+				target = LEN
+				type = annex_everything
+			}
+		}
+	}
+	
+	CRN_north_lublin_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = CRN
+			NOT = { country_exists = PUL }
+			NOT = { country_exists = KSN }
+			NOT = { country_exists = SWD }
+			NOT = { country_exists = ZUK }
+			NOT = { country_exists = BIL }
+			NOT = { country_exists = LEN }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = BPD
+		war_with_on_remove = TEN
+		remove_effect  = {
+			log = "[GetDateText]: Decision CRN_north_lublin_war"
+			declare_war_on = {
 				target = BPD
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TEN
 				type = annex_everything
 			}
 		}
@@ -8273,7 +8313,7 @@ ai_war_decisions = {
 		war_with_on_remove = SWD
 		war_with_on_remove = ZUK
 		war_with_on_remove = BIL
-		war_with_on_remove = BPD
+		war_with_on_remove = LEN
 		remove_effect  = {
 			log = "[GetDateText]: Decision PUL_east_lublin_war"
 			declare_war_on = {
@@ -8289,7 +8329,58 @@ ai_war_decisions = {
 				type = annex_everything
 			}
 			declare_war_on = {
-				target = BPD
+				target = LEN
+				type = annex_everything
+			}
+		}
+	}
+
+
+	PUL_north_lublin_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = PUL
+			NOT = { country_exists = CRN }
+			NOT = { country_exists = KSN }
+			NOT = { country_exists = SWD }
+			NOT = { country_exists = ZUK }
+			NOT = { country_exists = BIL }
+			NOT = { country_exists = LEN }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = SWD
+		war_with_on_remove = ZUK
+		war_with_on_remove = BIL
+		war_with_on_remove = LEN
+		remove_effect  = {
+			log = "[GetDateText]: Decision PUL_east_lublin_war"
+			declare_war_on = {
+				target = SWD
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ZUK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BIL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = LEN
 				type = annex_everything
 			}
 		}
@@ -8416,7 +8507,7 @@ ai_war_decisions = {
 		war_with_on_remove = SWD
 		war_with_on_remove = ZUK
 		war_with_on_remove = BIL
-		war_with_on_remove = BPD
+		war_with_on_remove = LEN
 		remove_effect  = {
 			log = "[GetDateText]: Decision KSN_east_lublin_war"
 			declare_war_on = {
@@ -8432,7 +8523,47 @@ ai_war_decisions = {
 				type = annex_everything
 			}
 			declare_war_on = {
+				target = LEN
+				type = annex_everything
+			}
+		}
+	}
+	
+	KSN_north_lublin_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = KSN
+			NOT = { country_exists = CRN }
+			NOT = { country_exists = PUL }
+			NOT = { country_exists = SWD }
+			NOT = { country_exists = ZUK }
+			NOT = { country_exists = BIL }
+			NOT = { country_exists = LEN }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = BPD
+		war_with_on_remove = TEN
+		remove_effect  = {
+			log = "[GetDateText]: Decision KSN_north_lublin_war"
+			declare_war_on = {
 				target = BPD
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TEN
 				type = annex_everything
 			}
 		}
@@ -8471,7 +8602,7 @@ ai_war_decisions = {
 	}
 
 
-	SWD_biala_podlaska_war = {
+	SWD_ledzianie_war = {
 
 		icon = GFX_decision_generic_prepare_civil_war
 		
@@ -8492,11 +8623,11 @@ ai_war_decisions = {
 		}
 		fire_only_once = yes
 		days_remove = 14
-		war_with_on_remove = BPD
+		war_with_on_remove = LEN
 		remove_effect  = {
-			log = "[GetDateText]: Decision SWD_biala_podlaska_war"
+			log = "[GetDateText]: Decision SWD_ledzianie_war"
 			declare_war_on = {
-				target = BPD
+				target = LEN
 				type = annex_everything
 			}
 		}
@@ -8513,7 +8644,7 @@ ai_war_decisions = {
 
 		available = {
 			original_tag = SWD
-			NOT = { country_exists = BPD }
+			NOT = { country_exists = LEN }
 		}
 
 		cost = 1
@@ -8551,7 +8682,7 @@ ai_war_decisions = {
 			original_tag = SWD
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BIL }
-			NOT = { country_exists = BPD }
+			NOT = { country_exists = LEN }
 		}
 
 		cost = 1
@@ -8581,6 +8712,46 @@ ai_war_decisions = {
 		}
 	}
 	
+	SWD_north_lublin_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = CRN
+			NOT = { country_exists = CRN }
+			NOT = { country_exists = PUL }
+			NOT = { country_exists = KSN }
+			NOT = { country_exists = ZUK }
+			NOT = { country_exists = BIL }
+			NOT = { country_exists = LEN }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = BPD
+		war_with_on_remove = TEN
+		remove_effect  = {
+			log = "[GetDateText]: Decision SWD_north_lublin_war"
+			declare_war_on = {
+				target = BPD
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TEN
+				type = annex_everything
+			}
+		}
+	}
+	
 	
 	SWD_buff1 = {
 
@@ -8595,8 +8766,8 @@ ai_war_decisions = {
 		available = {
 			original_tag = SWD
 			owns_state = 661
-			owns_state = 277
-			NOT = { country_exists = BPD }
+			owns_state = 306
+			NOT = { country_exists = LEN }
 		}
 
 		cost = 0
@@ -8625,10 +8796,10 @@ ai_war_decisions = {
 		available = {
 			original_tag = SWD
 			owns_state = 661
-			owns_state = 277
+			owns_state = 306
 			owns_state = 669
 			owns_state = 411
-			NOT = { country_exists = BPD }
+			NOT = { country_exists = LEN }
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BIL }
 			has_decision = SWD_buff1
@@ -8700,7 +8871,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		war_with_on_remove = SWD
-		war_with_on_remove = BPD
+		war_with_on_remove = LEN
 		remove_effect  = {
 			log = "[GetDateText]: Decision ZUK_northeast_lublin_war"
 			declare_war_on = {
@@ -8708,7 +8879,7 @@ ai_war_decisions = {
 				type = annex_everything
 			}
 			declare_war_on = {
-				target = BPD
+				target = LEN
 				type = annex_everything
 			}
 		}
@@ -8727,7 +8898,7 @@ ai_war_decisions = {
 			original_tag = ZUK
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = BIL }
-			NOT = { country_exists = BPD }
+			NOT = { country_exists = LEN }
 		}
 
 		cost = 1
@@ -8752,6 +8923,46 @@ ai_war_decisions = {
 			}
 			declare_war_on = {
 				target = KSN
+				type = annex_everything
+			}
+		}
+	}
+	
+	ZUK_north_lublin_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = ZUK
+			NOT = { country_exists = CRN }
+			NOT = { country_exists = PUL }
+			NOT = { country_exists = KSN }
+			NOT = { country_exists = SWD }
+			NOT = { country_exists = BIL }
+			NOT = { country_exists = LEN }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = BPD
+		war_with_on_remove = TEN
+		remove_effect  = {
+			log = "[GetDateText]: Decision ZUK_north_lublin_war"
+			declare_war_on = {
+				target = BPD
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TEN
 				type = annex_everything
 			}
 		}
@@ -8801,11 +9012,11 @@ ai_war_decisions = {
 		available = {
 			original_tag = ZUK
 			owns_state = 661
-			owns_state = 277
+			owns_state = 306
 			owns_state = 669
 			owns_state = 411
 			NOT = { country_exists = SWD }
-			NOT = { country_exists = BPD }
+			NOT = { country_exists = LEN }
 			NOT = { country_exists = BIL }
 			has_decision = ZUK_buff1
 		}
@@ -8876,7 +9087,7 @@ ai_war_decisions = {
 		fire_only_once = yes
 		days_remove = 14
 		war_with_on_remove = SWD
-		war_with_on_remove = BPD
+		war_with_on_remove = LEN
 		remove_effect  = {
 			log = "[GetDateText]: Decision BIL_northeast_lublin_war"
 			declare_war_on = {
@@ -8884,7 +9095,7 @@ ai_war_decisions = {
 				type = annex_everything
 			}
 			declare_war_on = {
-				target = BPD
+				target = LEN
 				type = annex_everything
 			}
 		}
@@ -8903,7 +9114,7 @@ ai_war_decisions = {
 			original_tag = BIL
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = ZUK }
-			NOT = { country_exists = BPD }
+			NOT = { country_exists = LEN }
 		}
 
 		cost = 1
@@ -8928,6 +9139,46 @@ ai_war_decisions = {
 			}
 			declare_war_on = {
 				target = KSN
+				type = annex_everything
+			}
+		}
+	}
+	
+	BIL_north_lublin_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = BIL
+			NOT = { country_exists = CRN }
+			NOT = { country_exists = PUL }
+			NOT = { country_exists = KSN }
+			NOT = { country_exists = SWD }
+			NOT = { country_exists = ZUK }
+			NOT = { country_exists = LEN }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = BPD
+		war_with_on_remove = TEN
+		remove_effect  = {
+			log = "[GetDateText]: Decision BIL_north_lublin_war"
+			declare_war_on = {
+				target = BPD
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TEN
 				type = annex_everything
 			}
 		}
@@ -8977,11 +9228,11 @@ ai_war_decisions = {
 		available = {
 			original_tag = BIL
 			owns_state = 661
-			owns_state = 277
+			owns_state = 306
 			owns_state = 669
 			owns_state = 411
 			NOT = { country_exists = SWD }
-			NOT = { country_exists = BPD }
+			NOT = { country_exists = LEN }
 			NOT = { country_exists = ZUK }
 			has_decision = BIL_buff1
 		}
@@ -8999,7 +9250,7 @@ ai_war_decisions = {
 	}
 
 
-	BPD_swidnik_war = {
+	LEN_swidnik_war = {
 
 		icon = GFX_decision_generic_prepare_civil_war
 		
@@ -9008,7 +9259,7 @@ ai_war_decisions = {
 				}
 
 		available = {
-			original_tag = BPD
+			original_tag = LEN
 			date > 2028.03.15
 			#lubelskie data startu
 		}
@@ -9022,7 +9273,7 @@ ai_war_decisions = {
 		days_remove = 15
 		war_with_on_remove = SWD
 		remove_effect  = {
-			log = "[GetDateText]: Decision BPD_swidnik_war"
+			log = "[GetDateText]: Decision LEN_swidnik_war"
 			declare_war_on = {
 				target = SWD
 				type = annex_everything
@@ -9031,7 +9282,7 @@ ai_war_decisions = {
 	}
 
 
-	BPD_southeast_lublin_war = {
+	LEN_southeast_lublin_war = {
 
 		icon = GFX_decision_generic_prepare_civil_war
 		
@@ -9040,7 +9291,7 @@ ai_war_decisions = {
 				}
 
 		available = {
-			original_tag = BPD
+			original_tag = LEN
 			NOT = { country_exists = SWD }
 		}
 
@@ -9054,7 +9305,7 @@ ai_war_decisions = {
 		war_with_on_remove = ZUK
 		war_with_on_remove = BIL
 		remove_effect  = {
-			log = "[GetDateText]: Decision BPD_southeast_lublin_war"
+			log = "[GetDateText]: Decision LEN_southeast_lublin_war"
 			declare_war_on = {
 				target = ZUK
 				type = annex_everything
@@ -9067,7 +9318,7 @@ ai_war_decisions = {
 	}
 
 
-	BPD_west_lublin_war = {
+	LEN_west_lublin_war = {
 
 		icon = GFX_decision_generic_prepare_civil_war
 		
@@ -9076,7 +9327,7 @@ ai_war_decisions = {
 				}
 
 		available = {
-			original_tag = BPD
+			original_tag = LEN
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BIL }
@@ -9093,7 +9344,7 @@ ai_war_decisions = {
 		war_with_on_remove = PUL
 		war_with_on_remove = KSN
 		remove_effect  = {
-			log = "[GetDateText]: Decision BPD_west_lublin_war"
+			log = "[GetDateText]: Decision LEN_west_lublin_war"
 			declare_war_on = {
 				target = CRN
 				type = annex_everything
@@ -9109,8 +9360,48 @@ ai_war_decisions = {
 		}
 	}
 	
+	LEN_north_lublin_war = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		allowed = {
+			is_lubelskie = yes
+				}
+
+		available = {
+			original_tag = LEN
+			NOT = { country_exists = CRN }
+			NOT = { country_exists = PUL }
+			NOT = { country_exists = KSN }
+			NOT = { country_exists = SWD }
+			NOT = { country_exists = ZUK }
+			NOT = { country_exists = BIL }
+		}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		days_remove = 14
+		war_with_on_remove = BPD
+		war_with_on_remove = TEN
+		remove_effect  = {
+			log = "[GetDateText]: Decision LEN_north_lublin_war"
+			declare_war_on = {
+				target = BPD
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TEN
+				type = annex_everything
+			}
+		}
+	}
 	
-	BPD_buff1 = {
+	
+	LEN_buff1 = {
 
 		icon = GFX_decision_generic_industry
 
@@ -9121,16 +9412,16 @@ ai_war_decisions = {
 				}
 
 		available = {
-			original_tag = BPD
+			original_tag = LEN
 			owns_state = 661
-			owns_state = 277
+			owns_state = 306
 			NOT = { country_exists = SWD }
 		}
 
 		cost = 0
 
 		complete_effect = {
-			log = "[GetDateText]: Decision BPD_buff1"
+			log = "[GetDateText]: Decision LEN_buff1"
 			load_oob = lub_buff_northeast
 		}
 
@@ -9140,7 +9431,7 @@ ai_war_decisions = {
 	}
 	
 	
-	BPD_buff2 = {
+	LEN_buff2 = {
 
 		icon = GFX_decision_generic_industry
 
@@ -9151,21 +9442,21 @@ ai_war_decisions = {
 				}
 
 		available = {
-			original_tag = BPD
+			original_tag = LEN
 			owns_state = 661
-			owns_state = 277
+			owns_state = 306
 			owns_state = 669
 			owns_state = 411
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BIL }
-			has_decision = BPD_buff1
+			has_decision = LEN_buff1
 		}
 
 		cost = 0
 
 		complete_effect = {
-			log = "[GetDateText]: Decision BPD_buff2"
+			log = "[GetDateText]: Decision LEN_buff2"
 			load_oob = lub_buff_east
 		}
 

@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Piechota"
-	division_names_group = PUL_INF_01
+	division_names_group = LEN_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -11,7 +11,7 @@
 
 division_template = {
 	name = "Lekka piechota"
-	division_names_group = PUL_INF_02
+	division_names_group = LEN_INF_02
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -25,7 +25,7 @@ units = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1 }
-		location = 8896
+		location = 9075
 		division_template = "Piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -35,7 +35,7 @@ units = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2 }
-		location = 3041
+		location = 3466
 		division_template = "Piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -45,16 +45,17 @@ units = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3 }
-		location = 8868
+		location = 8997
 		division_template = "Piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
+
 	division = { # Lekka piechota 1
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1 }
-		location = 6279
+		location = 9029
 		division_template = "Lekka piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -64,17 +65,27 @@ units = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2 }
-		location = 8901
+		location = 9034
 		division_template = "Lekka piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
-	
+
 	division = { # Lekka piechota 3
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3 }
-		location = 8918
+		location = 9088
+		division_template = "Lekka piechota"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+	division = { # Lekka piechota 4
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4 }
+		location = 3230
 		division_template = "Lekka piechota"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0

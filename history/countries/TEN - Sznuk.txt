@@ -1,4 +1,4 @@
-﻿capital = 310
+﻿capital = 277
 
 # Starting tech
 set_technology = {
@@ -28,42 +28,31 @@ set_technology = {
 }
 
 
-oob = "BPD_2027"
+oob = "TEN_2027"
 
-recruit_character = BPD_Miroslaw_Hermaszewski
-recruit_character = BPD_Dawid_Mysliwiec
-recruit_character = BPD_Dariusz_Hoffman
-recruit_character = BPD_Piotr_Kosek
-recruit_character = BPD_Huyen_Pham
+recruit_character = TEN_Tadeusz_Sznuk
 
 add_ideas = {
-	BPD_debuff
-
-	BPD_min_Dawid_Mysliwiec
-	BPD_min_Dariusz_Hoffman
-	BPD_min_Piotr_Kosek
-	BPD_min_Huyen_Pham
-
-	controlled_opposition
-	autocensorship
-	basic_security
+	monoparty
+	absolute_censorship
+	direct_security
 	partial_refundation
 	no_subsidies
 	system_enlistment
 	training_basic
-	officer_clerks
-	economy_social_market
-		#taxes
-	trade_promoted
-	lgbt_equal_laws
-	drugs_illegal_unenforced
-	women_gender_equality
+	officer_mercenaries
+	economy_central_planning
+	#taxes
+	trade_minimal
+	lgbt_limited_laws
+	drugs_harsh_penalised
+	women_working_women		#Czemu tak? Nie wiem, choć się domyślam
 	minorities_equal_rights
-	full_secularism
+	partial_secularism
 }
 
 set_politics = {
-	ruling_party = socialdemocrature
+	ruling_party = postpolonism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -72,13 +61,13 @@ set_politics = {
 set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
-	socialdemocrature = 75
-	euroliberalism = 15
+	socialdemocrature = 0
+	euroliberalism = 0
 	freemarketism = 0
-	paternal_conservatism = 10
+	paternal_conservatism = 0
 	autocracy = 0
 	corporativism = 0 
 	neonationalism = 0
 	reactionary = 0
-	postpolonism = 0
+	postpolonism = 100
 }
