@@ -79,7 +79,7 @@ focus_tree = {
 		relative_position_id = WML_the_beginning_of_the_dialogue
 		prerequisite = { focus = WML_the_beginning_of_the_dialogue }
 		available = {
-		
+			has_completed_focus = WML_convene_general_assembly
 		}
 		
 		bypass = {
