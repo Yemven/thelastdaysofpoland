@@ -2,7 +2,10 @@ ZHP_deurbanization_category = {
 
 	ZHP_deurbanization_building = {
 		available = {
-			always = yes
+			OR = {
+				has_completed_focus = ZHP_isolation_of_cities
+				has_completed_focus = ZHP_mutual_cooperation
+				}
 		}
 
 		allowed = {

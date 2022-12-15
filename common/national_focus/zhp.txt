@@ -63,7 +63,9 @@ focus_tree = {
 				id = zhp.2
 				}
 			add_political_power = 20
-			
+			hidden_effect = {
+				set_variable = { ZHP_deurbanization_progress = 0 }
+			}
 		}
 	}
 	
@@ -798,9 +800,6 @@ focus_tree = {
 				add_idea = ZHP_division_within_ranks_2
 			}
 			country_event = {id = zhp.18}
-			hidden_effect = {
-				set_variable = { ZHP_deurbanization_progress = 0 }
-			}
 		}
 	}
 	
@@ -845,9 +844,7 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			country_event = {id = zhp.19}
-			set_variable = { ZHP_deurbanization_progress = 0 }
-			
+			country_event = {id = zhp.19}			
 		}
 	}
 	
