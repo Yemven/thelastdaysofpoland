@@ -58,12 +58,13 @@ ZHP_deurbanization_category = {
 		available = {
 			always = yes
 		}
-
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			controls_state = 341
+			341 = {
+				is_core_of = ZHP
+			}	
 		}
 
 		fire_only_once = yes
@@ -145,11 +146,8 @@ ZHP_deurbanization_category = {
 		}
 		visible = {
 			check_variable = { ZHP_deurbanization_progress > 25}
-			WML = {
-				has_capitulated = yes
-			}
-			ZHP = {
-				controls_state = 302
+			302 = { 
+				is_core_of = ZHP
 			}
 	
 		}
@@ -168,7 +166,7 @@ ZHP_deurbanization_category = {
 			}
 
 			302 = {
-				add_manpower = -1527
+				add_manpower = -15270
 			}
 
 		}
@@ -238,12 +236,8 @@ ZHP_deurbanization_category = {
 		}
 		visible = {
 			check_variable = { ZHP_deurbanization_progress > 50}
-
-			KRS = {
-				has_capitulated = yes
-			}
-			ZHP = {
-				controls_state = 236
+			236 = { 
+				is_core_of = ZHP
 			}
 		}
 
