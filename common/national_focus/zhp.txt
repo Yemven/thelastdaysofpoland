@@ -883,7 +883,6 @@ focus_tree = {
 		icon = ZHP_dominant
 		relative_position_id = ZHP_prohibition_of_sex
 		prerequisite = { focus = ZHP_prohibition_of_sex}
-		will_lead_to_war_with = WML
 		available = {
 		custom_trigger_tooltip = {
 			tooltip = ZHP_ZHP_Dominant_LOC
@@ -898,6 +897,7 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
 	focus = {
 		id = ZHP_ZHR_Dominant
 		icon = ZHR_dominant
@@ -1293,6 +1293,9 @@ focus_tree = {
 			declare_war_on = {
 				target = WML
 				type = annex_everything
+			}
+			hidden_effect = {
+				set_variable = { ZHP_delodzizacja = 0 }
 			}
 		}
 	}

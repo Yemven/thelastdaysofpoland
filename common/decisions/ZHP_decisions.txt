@@ -1,11 +1,39 @@
 ZHP_deurbanization_category = {
 
+####nieustanny rozrost####
+	ZHP_city_sprawl = {
+		activation = {
+			country_exists = ZHP
+		}
+		allowed = {
+			always = yes 
+		}
+		available = {
+			always = no
+		}
+
+		icon = mission_icon   
+		days_mission_timeout = 90
+		complete_effect = {
+			hidden_effect = {
+				remove_decision = ZHP_city_sprawl
+			}
+		}
+		timeout_effect = {
+			log = "[GetDateText]: Decision ZHP_city_sprawl"
+			custom_effect_tooltip = ZHP_city_sprawl_tooltip
+			hidden_effect = {
+				subtract_from_variable = {
+					ZHP_deurbanization_progress = 5
+				}
+			}
+		}
+	}
+
+####etap0####
 	ZHP_deurbanization_building = {
 		available = {
-			OR = {
-				has_completed_focus = ZHP_isolation_of_cities
-				has_completed_focus = ZHP_mutual_cooperation
-				}
+			always = yes
 		}
 
 		allowed = {
@@ -19,10 +47,67 @@ ZHP_deurbanization_category = {
 
 		cost = 50
 
-		days_remove = 3
+		days_remove = 7
+		days_re_enable = 90
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_deurbanization_building"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 3
+			}
+		}
+	}
+	
+	ZHP_deurbanization_low_emission = {
+		available = {
+			always = yes
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+		days_re_enable = 14
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_low_emission"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 3
+			}
+		}
+	}
+	
+
+	ZHP_e0_economy_zhp = {
+		available = {
+			has_completed_focus = ZHP_robbery_economy
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_completed_focus = ZHP_robbery_economy
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+		
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_e0_economy_zhp"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 5
@@ -30,34 +115,202 @@ ZHP_deurbanization_category = {
 		}
 	}
 	
-	ZHP_deurbanization_tariffs = {
+	ZHP_e0_economy_zhr = {
 		available = {
-			always = yes
+			has_completed_focus = ZHP_what_we_will_focus_on
 		}
 
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			always = yes
+			has_completed_focus = ZHP_what_we_will_focus_on
 		}
 
 		fire_only_once = yes
 
 		cost = 50
 
-		days_remove = 3
+		days_remove = 30
 
 		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_tariffs"
+			log = "[GetDateText]: Decision ZHP_deurbanization_e0_economy_zhr"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
-				value = 10
+				value = 3
 			}
 		}
 	}
 	
-	ZHP_deurbanization_belchatow = {
+	ZHP_e0_society_zhp = {
+		available = {
+			has_completed_focus = ZHP_isolation_of_cities
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_completed_focus = ZHP_isolation_of_cities
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_e0_society_zhp"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+		}
+	}
+	
+	ZHP_e0_society_zhr = {
+		available = {
+			has_completed_focus = ZHP_mutual_cooperation
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_completed_focus = ZHP_mutual_cooperation
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_e0_society_zhr"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 3
+			}
+		}
+	}
+
+
+	ZHP_e0_propaganda_zhp = {
+		available = {
+			has_completed_focus = ZHP_the_tactics_of_our_ancestors
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_completed_focus = ZHP_the_tactics_of_our_ancestors
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_e0_propaganda_zhp"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+		}
+	}
+	
+	ZHP_e0_propaganda_zhr = {
+		available = {
+			has_completed_focus = ZHP_change_of_plans
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_completed_focus = ZHP_change_of_plans
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_e0_propaganda_zhr"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 3
+			}
+		}
+	}
+	
+####etap1####
+
+	ZHP_e1_taxation_zhp = {
+		available = {
+			check_variable = { ZHP_deurbanization_progress > 25 } 
+			has_country_flag = ZHP_ZHP_Path_2
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_country_flag = ZHP_ZHP_Path_2
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_e1_taxation_zhp"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+		}
+	}
+	
+	ZHP_e1_taxation_zhr = {
+		available = {
+			check_variable = { ZHP_deurbanization_progress > 25 } 
+			has_country_flag = ZHP_ZHR_Path_2
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_country_flag = ZHP_ZHR_Path_2
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_e1_taxation_zhr"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 3
+			}
+		}
+	}
+	
+	
+	ZHP_e1_bbw1_zhp = {
 		available = {
 			always = yes
 		}
@@ -74,127 +327,390 @@ ZHP_deurbanization_category = {
 
 		cost = 50
 
-		days_remove = 3
+		days_remove = 30
 
 		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_belchatow"
+			log = "[GetDateText]: Decision ZHP_e1_bbw1_zhp"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
-				value = 15
+				value = 7
 			}
 		}
 	}
 	
-	ZHP_deurbanization_immigrants = {
+	ZHP_e1_bbw1_zhr = {
 		available = {
-			check_variable = { ZHP_deurbanization_progress > 25 } 
+			always = yes
 		}
-
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			check_variable = { ZHP_deurbanization_progress > 25}
+			341 = {
+				is_core_of = ZHP
+			}	
 		}
 
 		fire_only_once = yes
 
 		cost = 50
 
-		days_remove = 36
+		days_remove = 30
 
 		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_immigrants"
+			log = "[GetDateText]: Decision ZHP_e1_bbw1_zhr"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
-				value = 6
+				value = 5
 			}
 		}
 	}
 	
-	ZHP_deurbanization_propaganda = {
+	
+	ZHP_e1_bbw2_zhp = {
 		available = {
-			check_variable = { ZHP_deurbanization_progress > 25}
+			always = yes
 		}
-
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			check_variable = { ZHP_deurbanization_progress > 25}
+			341 = {
+				is_core_of = ZHP
+			}	
 		}
 
 		fire_only_once = yes
 
 		cost = 50
 
-		days_remove = 36
+		days_remove = 30
 
 		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_propaganda"
+			log = "[GetDateText]: Decision ZHP_e1_bbw2_zhp"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
-				value = 4
+				value = 5
 			}
 		}
 	}
 	
-	ZHP_deurbanization_gamerLodz = {
+	ZHP_e1_bbw2_zhr = {
 		available = {
-			check_variable = { ZHP_deurbanization_progress > 25}
+			always = yes
 		}
-
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			check_variable = { ZHP_deurbanization_progress > 25}
-			302 = { 
+			341 = {
+				is_core_of = ZHP
+			}	
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_e1_bbw2_zhr"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+		}
+	}
+
+	ZHP_e1_zyd1 = {
+		available = {
+			always = yes
+		}
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			353 = {
 				is_core_of = ZHP
 			}
-	
+			340 = {
+				is_core_of = ZHP
+			}			
 		}
 
 		fire_only_once = yes
 
 		cost = 50
 
-		days_remove = 36
+		days_remove = 30
 
 		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_gamerLodz"
+			log = "[GetDateText]: Decision ZHP_e1_zyd1"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
-				value = 15
+				value = 5
 			}
-
-			302 = {
-				add_manpower = -15270
-			}
-
 		}
 	}
 	
-	ZHP_deurbanization_pacification = {
+	
+	ZHP_e1_zyd2_zhp = {
 		available = {
-			check_variable = { ZHP_deurbanization_progress > 50}
+			always = yes
+		}
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			353 = {
+				is_core_of = ZHP
+			}
+			340 = {
+				is_core_of = ZHP
+			}	
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_e1_zyd2_zhp"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+		}
+	}
+	
+	ZHP_e1_zyd2_zhr = {
+		available = {
+			always = yes
+		}
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			353 = {
+				is_core_of = ZHP
+			}
+			340 = {
+				is_core_of = ZHP
+			}	
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_e1_zyd2_zhr"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+		}
+	}
+	
+####etap2####
+
+	ZHP_e2_villages_zhp = {
+		available = {
+			check_variable = { ZHP_deurbanization_progress > 50 } 
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			check_variable = { ZHP_deurbanization_progress > 50}
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 
 		fire_only_once = yes
 
 		cost = 50
 
-		days_remove = 36
+		days_remove = 30
 
 		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_pacification"
+			log = "[GetDateText]: Decision ZHP_deurbanization_e2_villages_zhp"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+		}
+	}
+	
+	ZHP_e2_villages_zhr = {
+		available = {
+			check_variable = { ZHP_deurbanization_progress > 50 } 
+			has_country_flag = ZHP_ZHR_Path_2
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_country_flag = ZHP_ZHR_Path_2
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_e2_villages_zhr"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 3
+			}
+		}
+	}
+	
+	
+	ZHP_e2_sap1_zhp = {
+		available = {
+			always = yes
+		}
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			269 = {
+				is_core_of = ZHP
+			}	
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_e2_sap1_zhp"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+		}
+	}
+	
+	ZHP_e2_sap1_zhr = {
+		available = {
+			always = yes
+		}
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			269 = {
+				is_core_of = ZHP
+			}	
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_e2_sap1_zhr"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 3
+			}
+		}
+	}
+	
+
+	ZHP_e2_krs1_zhp = {
+		available = {
+			always = yes
+		}
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			236 = {
+				is_core_of = ZHP
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_e2_krs1_zhp"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 7
+			}
+		}
+	}
+	
+	ZHP_e2_krs1_zhr = {
+		available = {
+			always = yes
+		}
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			236 = {
+				is_core_of = ZHP
+			}	
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_e2_krs1_zhr"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 7
+			}
+		}
+	}
+	
+
+	ZHP_e2_krs2_zhp = {
+		available = {
+			always = yes
+		}
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			236 = {
+				is_core_of = ZHP
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_e2_krs2_zhp"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 10
@@ -202,26 +718,27 @@ ZHP_deurbanization_category = {
 		}
 	}
 	
-	ZHP_deurbanization_propaganda2 = {
+	ZHP_e2_krs2_zhr = {
 		available = {
-			check_variable = { ZHP_deurbanization_progress > 50}
+			always = yes
 		}
-
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			check_variable = { ZHP_deurbanization_progress > 50}
+			236 = {
+				is_core_of = ZHP
+			}	
 		}
 
 		fire_only_once = yes
 
 		cost = 50
 
-		days_remove = 36
+		days_remove = 30
 
 		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_propaganda2"
+			log = "[GetDateText]: Decision ZHP_e2_krs2_zhr"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 5
@@ -229,17 +746,16 @@ ZHP_deurbanization_category = {
 		}
 	}
 	
-	ZHP_deurbanization_medicine = {
+	
+	ZHP_e2_krs3_zhp = {
 		available = {
-			check_variable = { ZHP_deurbanization_progress > 50}
+			always = yes
 		}
-
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			check_variable = { ZHP_deurbanization_progress > 50}
-			236 = { 
+			236 = {
 				is_core_of = ZHP
 			}
 		}
@@ -248,37 +764,10 @@ ZHP_deurbanization_category = {
 
 		cost = 50
 
-		days_remove = 36
+		days_remove = 30
 
 		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_medicine"
-			add_to_variable = {
-				var = ZHP_deurbanization_progress
-				value = 10
-			}
-		}
-	}
-	
-	ZHP_deurbanization_siberia = {
-		available = {
-			check_variable = { ZHP_deurbanization_progress > 75}
-		}
-
-		allowed = {
-			original_tag = ZHP
-		}
-		visible = {
-			check_variable = { ZHP_deurbanization_progress > 75}
-		}
-
-		fire_only_once = yes
-
-		cost = 50
-
-		days_remove = 36
-
-		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_siberia"
+			log = "[GetDateText]: Decision ZHP_e2_krs3_zhp"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 5
@@ -286,53 +775,57 @@ ZHP_deurbanization_category = {
 		}
 	}
 	
-	ZHP_deurbanization_cityprotection = {
+	ZHP_e2_krs3_zhr = {
 		available = {
-			check_variable = { ZHP_deurbanization_progress > 75}
+			always = yes
 		}
-
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			check_variable = { ZHP_deurbanization_progress > 75}
+			236 = {
+				is_core_of = ZHP
+			}	
 		}
 
 		fire_only_once = yes
 
 		cost = 50
 
-		days_remove = 36
+		days_remove = 30
 
 		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_cityprotection"
+			log = "[GetDateText]: Decision ZHP_e2_krs3_zhr"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
-				value = 5
+				value = 3
 			}
 		}
 	}
-	
-	ZHP_deurbanization_terrorism = {
-		available = {
-			check_variable = { ZHP_deurbanization_progress > 75}
-		}
 
+
+####etap3####
+	
+	ZHP_e3_final_solution_zhp = {
+		available = {
+			check_variable = { ZHP_deurbanization_progress > 75 } 
+			has_country_flag = ZHP_ZHP_Path_2
+		}
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			check_variable = { ZHP_deurbanization_progress > 75}
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 
 		fire_only_once = yes
 
 		cost = 50
 
-		days_remove = 36
+		days_remove = 90
 
 		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_terrorism"
+			log = "[GetDateText]: Decision ZHP_e3_final_solution_zhp"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 15
@@ -340,4 +833,107 @@ ZHP_deurbanization_category = {
 		}
 	}
 	
+	ZHP_e3_final_solution_zhr = {
+		available = {
+			check_variable = { ZHP_deurbanization_progress > 75 } 
+			has_country_flag = ZHP_ZHR_Path_2			
+		}
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_country_flag = ZHP_ZHR_Path_2
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 90
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_e3_final_solution_zhr"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 10
+			}
+		}
+	}
+
+
+	ZHP_e3_final_solution_wml_zhp = {
+		available = {
+			check_variable = { ZHP_deurbanization_progress > 75 } 
+			has_country_flag = ZHP_ZHP_Path_2
+		}
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_country_flag = ZHP_ZHP_Path_2
+			WML = { 
+				all_core_state = {
+					is_core_of = ZHP
+					}
+				}
+			check_variable = { ZHP_delodzizacja < 5 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 90
+		days_re_enable = 1
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_e3_final_solution_zhp"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 10
+			}
+			add_to_variable = {
+				var = ZHP_delodzizacja
+				value = 1
+			}
+		}
+	}
+	
+	ZHP_e3_final_solution_wml_zhr = {
+		available = {
+			check_variable = { ZHP_deurbanization_progress > 75 } 
+			has_country_flag = ZHP_ZHR_Path_2			
+		}
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_country_flag = ZHP_ZHR_Path_2
+			WML = { 
+				all_core_state = {
+					is_core_of = ZHP
+					}
+				}
+			check_variable = { ZHP_delodzizacja < 5 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 90
+		days_re_enable = 1
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_e3_final_solution_zhr"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+			add_to_variable = {
+				var = ZHP_delodzizacja
+				value = 1
+			}
+		}
+	}
 }
