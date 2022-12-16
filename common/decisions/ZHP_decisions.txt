@@ -1,11 +1,27 @@
 ZHP_deurbanization_category = {
 
+	ZHP_urban_growth = {
+		activation = {
+			original_tag = ZHP
+		}
+
+		days_mission_timeout = 90
+		
+		timeout_effect = {
+			subtract_from_variable = {
+				ZHP_deurbanization_progress = 5
+			}
+			custom_effect_tooltip = ZHP_urban_growth_tt
+			hidden_effect = {activate_mission = ZHP_urban_growth}
+		}
+	}
+
 	ZHP_deurbanization_building = {
 		available = {
 			OR = {
 				has_completed_focus = ZHP_isolation_of_cities
 				has_completed_focus = ZHP_mutual_cooperation
-				}
+			}
 		}
 
 		allowed = {
@@ -13,6 +29,73 @@ ZHP_deurbanization_category = {
 		}
 		visible = {
 			always = yes
+		}
+
+
+		cost = 50
+
+		days_remove = 7
+
+		days_re_enable = 90
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_building"
+			custom_effect_tooltip = ZHP_deurbanization_building_tt
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+		}
+	}
+	
+	ZHP_deurbanization_low_emission = {
+		available = {
+			OR = {
+				has_completed_focus = ZHP_isolation_of_cities
+				has_completed_focus = ZHP_mutual_cooperation
+			}
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			always = yes
+		}
+
+
+		cost = 20
+
+		days_remove = 7
+
+		days_re_enable = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_low_emision"
+			#custom_effect_tooltip = ZHP_deurbanization_building_tt
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+		}
+	}
+
+	ZHP_deurbanization_plunder = {
+		available = {
+			has_completed_focus = ZHP_isolation_of_cities
+			321 = {
+				is_controlled_by = ZHP
+			}
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_completed_focus = ZHP_isolation_of_cities
+			321 = {
+				is_controlled_by = ZHP
+			}
 		}
 
 		fire_only_once = yes
@@ -22,14 +105,31 @@ ZHP_deurbanization_category = {
 		days_remove = 3
 
 		remove_effect = {
-			log = "[GetDateText]: Decision ZHP_deurbanization_building"
+			log = "[GetDateText]: Decision ZHP_deurbanization_plunder"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
-				value = 5
+				value = 10
+			}
+			custom_effect_tooltip = ZHP_deurbanization_plunder_tt
+			hidden_effect = {
+				321 = {
+					remove_building = {
+						type = infrastructure
+						level = 5
+					}
+					remove_building = {
+						type = industrial_complex
+						level = 1
+					}
+					remove_building = {
+						type = arms_factory
+						level = 2
+					}
+				}
 			}
 		}
 	}
-	
+
 	ZHP_deurbanization_tariffs = {
 		available = {
 			always = yes
@@ -39,7 +139,7 @@ ZHP_deurbanization_category = {
 			original_tag = ZHP
 		}
 		visible = {
-			always = yes
+			has_completed_focus = ZHP_mutual_cooperation
 		}
 
 		fire_only_once = yes
@@ -114,27 +214,132 @@ ZHP_deurbanization_category = {
 	
 	ZHP_deurbanization_propaganda = {
 		available = {
-			check_variable = { ZHP_deurbanization_progress > 25}
+			has_completed_focus = ZHP_isolation_of_cities
 		}
 
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			check_variable = { ZHP_deurbanization_progress > 25}
+			has_completed_focus = ZHP_isolation_of_cities
 		}
 
 		fire_only_once = yes
 
 		cost = 50
 
-		days_remove = 36
+		days_remove = 30
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_deurbanization_propaganda"
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 4
+			}
+		}
+	}
+
+	ZHP_deurbanization_propaganda_lite = {
+		available = {
+			has_completed_focus = ZHP_mutual_cooperation
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_completed_focus = ZHP_mutual_cooperation
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_propaganda_lite"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 4
+			}
+		}
+	}
+
+	ZHP_deurbanization_demolish_old_factories = {
+		available = {
+			has_completed_focus = ZHP_isolation_of_cities
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_completed_focus = ZHP_isolation_of_cities
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_demolish_old_factories"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+			random_owned_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}
+
+	ZHP_reforestation_campaign = {
+		available = {
+			has_completed_focus = ZHP_mutual_cooperation
+		}
+
+		allowed = {
+			original_tag = ZHP
+		}
+		visible = {
+			has_completed_focus = ZHP_mutual_cooperation
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 30
+
+		remove_effect = {
+			log = "[GetDateText]: Decision ZHP_deurbanization_demolish_old_factories"
+			add_to_variable = {
+				var = ZHP_deurbanization_progress
+				value = 5
+			}
+			random_owned_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
 			}
 		}
 	}
