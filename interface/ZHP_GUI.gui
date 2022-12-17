@@ -19,15 +19,15 @@ guiTypes = {
 
 		iconType = {
 			name = "ZHP_GUI_Image"
-			position = { x = 30 y = -5 }
-			spriteType = "ZHP_drzewko"
+			position = { x = 0 y = -20 }
+			spriteType = "ZHP_urban0"
 		}
 
 		instantTextBoxType = {
             name = "ZHP_GUI_desc"
-			position = { x = 150 y = 10 }
+			position = { x = 10 y = 270 }
             text = ZHP_GUI_loc
-            font = "aldrich_18_outline"
+            font = "hoi_18"
 			maxWidth = 370
 			maxHeight = 500
         }

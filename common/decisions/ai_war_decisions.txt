@@ -6040,6 +6040,10 @@ ai_war_decisions = {
 					}
 				date > 2029.03.01
 		}
+		
+		visible = {
+			is_ai = yes
+			}
 
 		cost = 1
 
@@ -9886,6 +9890,8 @@ ai_war_decisions = {
 	
 	Last_lowersilesia_war = {
 	
+		icon = GFX_decision_generic_prepare_civil_war
+	
 		allowed = {
 			is_lower_silesia = yes
 				}
@@ -10027,7 +10033,7 @@ ai_war_decisions = {
 		icon = GFX_decision_generic_prepare_civil_war
 
 		available = {
-			original_tag = WRO
+			original_tag = RYB
 			WRO = { has_war_with = FEM }
 		}
 		

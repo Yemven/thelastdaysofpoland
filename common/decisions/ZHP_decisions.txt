@@ -12,6 +12,7 @@ ZHP_deurbanization_category = {
 			always = no
 		}
 
+		priority = 100
 		icon = mission_icon   
 		days_mission_timeout = 90
 		complete_effect = {
@@ -226,14 +227,14 @@ ZHP_deurbanization_category = {
 	
 	ZHP_e0_propaganda_zhr = {
 		available = {
-			has_completed_focus = ZHP_change_of_plans
+			has_completed_focus = ZHP_changes_of_plans
 		}
 
 		allowed = {
 			original_tag = ZHP
 		}
 		visible = {
-			has_completed_focus = ZHP_change_of_plans
+			has_completed_focus = ZHP_changes_of_plans
 		}
 
 		fire_only_once = yes

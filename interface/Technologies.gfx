@@ -1,5 +1,25 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_learning_to_fly_medium"
+		texturefile = "gfx/interface/technologies/learning_to_fly.dds"
+	}
+	SpriteType = {
+		name = "GFX_arming_the_planes_medium"
+		texturefile = "gfx/interface/technologies/arming_the_planes.dds"
+	}	
+	SpriteType = {
+		name = "GFX_creating_the_airforce_medium"
+		texturefile = "gfx/interface/technologies/creating_the_airforce.dds"
+	}	
+	SpriteType = {
+		name = "GFX_air_superiority_medium"
+		texturefile = "gfx/interface/technologies/air_superiority.dds"
+	}
+	SpriteType = {
+		name = "GFX_ground_support_medium"
+		texturefile = "gfx/interface/technologies/ground_support.dds"
+	}	
+	SpriteType = {
 		name = "GFX_don't_let_them_sleep_medium"
 		texturefile = "gfx/interface/technologies/don't_let_them_sleep.dds"
 	}
