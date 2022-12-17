@@ -8,7 +8,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LGP
 					original_tag = UHR
@@ -77,7 +77,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LGP
 					original_tag = UHR
@@ -144,7 +144,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LGP
 					original_tag = UHR
@@ -204,7 +204,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LGP
 					original_tag = UHR
@@ -264,7 +264,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LGP
 					original_tag = UHR
@@ -318,7 +318,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LGP
 					original_tag = UHR
@@ -372,7 +372,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LGP
 					original_tag = UHR
@@ -432,7 +432,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LGP
 					original_tag = UHR
@@ -486,7 +486,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LGP
 					original_tag = KRO
@@ -546,7 +546,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KRO
 					original_tag = UHR
@@ -606,7 +606,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LGP
 					original_tag = UHR
@@ -666,7 +666,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = KRO
 			NOT = { has_war = yes }
 			JSO = { num_of_controlled_states < 1 }
@@ -699,7 +699,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = RZE
 			NOT = { has_war = yes }
 			date > 2028.03.03
@@ -739,7 +739,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = BSC
 			NOT = { has_war = yes }
 			ANC = { num_of_controlled_states < 1 }
@@ -773,7 +773,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CHR
 			NOT = { has_war = yes }
 			date > 2028.03.02
@@ -814,7 +814,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 			OR = {
 			original_tag = DBI
 			}
@@ -848,7 +848,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = TAR
 			NOT = { has_war = yes }
 			date > 2028.03.01
@@ -887,7 +887,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 		OR = {
 			original_tag = UHR
 			original_tag = UPA
@@ -931,7 +931,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CHR
 			NOT = { has_war = yes }
 			country_exists = LEZ
@@ -964,7 +964,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = KRO
 			NOT = { has_war = yes }
 			country_exists = JSO
@@ -997,7 +997,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = BSC
 			NOT = { has_war = yes }
 			country_exists = ANC
@@ -1030,7 +1030,7 @@ ai_war_decisions = {
 			is_subcarpathia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = TAR
 			NOT = { has_war = yes }
 			country_exists = KOL
@@ -1064,7 +1064,7 @@ ai_war_decisions = {
 			is_warmia_and_masuria = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = PRU
 					original_tag = MAL
@@ -1118,7 +1118,7 @@ ai_war_decisions = {
 			is_warmia_and_masuria = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = PZW
 					original_tag = WRM
@@ -1178,7 +1178,7 @@ ai_war_decisions = {
 			is_warmia_and_masuria = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = PZW
 					original_tag = WRM
@@ -1225,7 +1225,7 @@ ai_war_decisions = {
 			is_warmia_and_masuria = yes
 				}
 
-		available = {
+		visible = {
 				original_tag = TEU
 				date > 2028.04.01
 				NOT = { has_war_with = ROS }
@@ -1270,7 +1270,7 @@ ai_war_decisions = {
 			is_warmia_and_masuria = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = MAL
 					original_tag = PRU
@@ -1326,7 +1326,7 @@ ai_war_decisions = {
 			is_warmia_and_masuria = yes
 				}
 
-		available = {
+		visible = {
 #				always = no
 				original_tag = ROS
 				ROS = { num_of_controlled_states > 1 }
@@ -1388,7 +1388,7 @@ ai_war_decisions = {
 		allowed = {
 			always = no
 		}
-		available = {
+		visible = {
 			original_tag = ROS
 			ROS = {
 				controls_state = 91
@@ -1412,7 +1412,7 @@ ai_war_decisions = {
 			is_warmia_and_masuria = yes
 		}
 
-		available = {
+		visible = {
 #			always = no
 			OR = {	
 				AND = {
@@ -1476,7 +1476,7 @@ ai_war_decisions = {
 			is_warmia_and_masuria = yes
 		}
 
-		available = {
+		visible = {
 #			always = no
 			original_tag = ROS
 			OR = {
@@ -1624,7 +1624,7 @@ ai_war_decisions = {
 			is_warmia_and_masuria = yes
 		}
 
-		available = {
+		visible = {
 			original_tag = ROS
 			ROS = {
 				NOT = {
@@ -1734,7 +1734,7 @@ ai_war_decisions = {
 
 		target_array = global.rightful_warmia_clay
 
-		available = {
+		visible = {
 			NOT = {
 				has_country_flag = preparing_offensive
 			}
@@ -1782,7 +1782,7 @@ ai_war_decisions = {
 			is_lubuskie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = WIN
 					original_tag = ZAG
@@ -1829,7 +1829,7 @@ ai_war_decisions = {
 			is_lubuskie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = MOT
 					original_tag = KAM
@@ -1876,7 +1876,7 @@ ai_war_decisions = {
 			is_lubuskie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = MOT
 					original_tag = KAM
@@ -1919,7 +1919,7 @@ ai_war_decisions = {
 			is_lubuskie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = WIN
 					original_tag = ZAG
@@ -1962,7 +1962,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = TRN
 				}
@@ -2076,7 +2076,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = BRK
 					original_tag = KRK 
@@ -2152,7 +2152,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = BRK
 					original_tag = KRK 
@@ -2206,7 +2206,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = OSW
 					original_tag = WDW
@@ -2302,7 +2302,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = TRN
 				}
@@ -2342,7 +2342,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = OSW
 					original_tag = WDW
@@ -2385,7 +2385,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = OSW
 				}
@@ -2421,7 +2421,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				original_tag = HOR
 				NOT = { has_war = yes }
 				HOR = {	controls_state = 519 } 
@@ -2478,7 +2478,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				original_tag = HOR
 				NOT = { has_war = yes }
 				WDW = { num_of_controlled_states < 1 }
@@ -2528,7 +2528,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				original_tag = WDW
 				NOT = { has_war = yes }
 				HOR = { num_of_controlled_states < 1 }
@@ -2562,7 +2562,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				original_tag = TRN
 				date > 2028.03.04
 				NOT = { has_war = yes }
@@ -2596,7 +2596,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = BRK
 					original_tag = KRK 
@@ -2648,7 +2648,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = NHT
 				}
@@ -2734,7 +2734,7 @@ ai_war_decisions = {
 			is_kuyavia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KUJ
 					original_tag = BYD
@@ -2781,7 +2781,7 @@ ai_war_decisions = {
 			is_kuyavia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KUJ
 					original_tag = BYD
@@ -2828,7 +2828,7 @@ ai_war_decisions = {
 			is_kuyavia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KUJ
 					original_tag = INO
@@ -2875,7 +2875,7 @@ ai_war_decisions = {
 			is_kuyavia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = INO
 					original_tag = BYD
@@ -2922,7 +2922,7 @@ ai_war_decisions = {
 			is_kuyavia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KUJ
 					original_tag = BYD
@@ -2969,7 +2969,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = DUP
 					original_tag = MAF
@@ -3051,7 +3051,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = PLC
 					original_tag = BIE
@@ -3125,7 +3125,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = DUP
 					original_tag = MAF
@@ -3175,7 +3175,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = TRZ
 					original_tag = TVP
@@ -3228,7 +3228,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = PLC
 					original_tag = BIE
@@ -3274,7 +3274,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = WOW
 					original_tag = ZIE
@@ -3328,7 +3328,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = ZIE
 					original_tag = WOW
@@ -3372,7 +3372,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = BIE
 				}
@@ -3408,7 +3408,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = PLC
 				}
@@ -3449,7 +3449,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = TRZ
 					original_tag = TVP
@@ -3493,7 +3493,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = DUP
 					original_tag = MAF
@@ -3550,7 +3550,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = WOW
 			date > 2027.05.11
 			NOT = { has_war = yes }
@@ -3583,7 +3583,7 @@ ai_war_decisions = {
 			is_capital_district = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = ZIE
 				}
@@ -3618,7 +3618,7 @@ ai_war_decisions = {
 			is_radom_province = yes
 				}
 
-		available = {
+		visible = {
 			OR = {
 				original_tag = GAR
 				original_tag = SAT
@@ -3658,7 +3658,7 @@ ai_war_decisions = {
 			is_radom_province = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = GAR
 					original_tag = SAT
@@ -3715,7 +3715,7 @@ ai_war_decisions = {
 			is_radom_province = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = GAR
 					original_tag = SAT
@@ -3791,7 +3791,7 @@ ai_war_decisions = {
 			is_radom_province = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = RAD
 				}
@@ -3868,7 +3868,7 @@ ai_war_decisions = {
 			is_mazovia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = POL
 					original_tag = ORL
@@ -3933,7 +3933,7 @@ ai_war_decisions = {
 			is_mazovia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = SAS
 				}
@@ -3969,7 +3969,7 @@ ai_war_decisions = {
 			is_mazovia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = SAS
 				}
@@ -4006,7 +4006,7 @@ ai_war_decisions = {
 			is_pomerelia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KOR
 					original_tag = GDA
@@ -4079,7 +4079,7 @@ ai_war_decisions = {
 			is_pomerelia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LOT
 					original_tag = HEL
@@ -4147,7 +4147,7 @@ ai_war_decisions = {
 			is_pomerelia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KOR
 					original_tag = GDA
@@ -4194,7 +4194,7 @@ ai_war_decisions = {
 			is_pomerelia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = OWS
 					original_tag = BOL
@@ -4241,7 +4241,7 @@ ai_war_decisions = {
 			is_pomerelia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LOT
 					original_tag = HEL
@@ -4291,7 +4291,7 @@ ai_war_decisions = {
 			is_pomerelia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = GAY
 					original_tag = CZL
@@ -4346,7 +4346,7 @@ ai_war_decisions = {
 			is_pomerelia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = GAY
 					original_tag = CZL
@@ -4389,7 +4389,7 @@ ai_war_decisions = {
 			is_pomerelia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = HEL
 					original_tag = KSZ
@@ -4447,7 +4447,7 @@ ai_war_decisions = {
 			is_pomerelia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = GDA
 					original_tag = KOR
@@ -4490,7 +4490,7 @@ ai_war_decisions = {
 			is_pomerelia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = OWS
 					original_tag = BOL
@@ -4533,7 +4533,7 @@ ai_war_decisions = {
 			is_podlasie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = BOM
 					original_tag = TAT
@@ -4589,7 +4589,7 @@ ai_war_decisions = {
 			is_podlasie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KON
 					original_tag = BOM
@@ -4656,7 +4656,7 @@ ai_war_decisions = {
 			is_podlasie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KON
 					original_tag = TAT
@@ -4723,7 +4723,7 @@ ai_war_decisions = {
 			is_podlasie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KON
 					original_tag = TAT
@@ -4790,7 +4790,7 @@ ai_war_decisions = {
 			is_podlasie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = BOM
 					original_tag = TAT
@@ -4858,7 +4858,7 @@ ai_war_decisions = {
 			is_podlasie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KON
 					original_tag = TAT
@@ -4925,7 +4925,7 @@ ai_war_decisions = {
 			is_podlasie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = BOM
 					original_tag = KON
@@ -5005,7 +5005,7 @@ ai_war_decisions = {
 			}
 		}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = BOM
 					original_tag = KON
@@ -5062,7 +5062,7 @@ ai_war_decisions = {
 			is_west_pomerania = yes
 		}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = JOM
 					original_tag = STE
@@ -5111,7 +5111,7 @@ ai_war_decisions = {
 			is_west_pomerania = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = JOM
 					original_tag = STE
@@ -5160,7 +5160,7 @@ ai_war_decisions = {
 			is_west_pomerania = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = JOM
 					original_tag = STE
@@ -5209,7 +5209,7 @@ ai_war_decisions = {
 			is_west_pomerania = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = JOM
 					original_tag = SWI
@@ -5258,7 +5258,7 @@ ai_war_decisions = {
 			is_west_pomerania = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = SWI
 					original_tag = STE
@@ -5307,7 +5307,7 @@ ai_war_decisions = {
 			is_west_pomerania = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = JOM
 					original_tag = STE
@@ -5357,7 +5357,7 @@ ai_war_decisions = {
 			is_opolskie = yes
 				}
 
-		available = {
+		visible = {
 			OR = {
 				original_tag = OPO
 				original_tag = MNI
@@ -5397,7 +5397,7 @@ ai_war_decisions = {
 			is_opolskie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = LEH
 					original_tag = LCH
@@ -5481,7 +5481,7 @@ ai_war_decisions = {
 			is_opolskie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = OPO
 					original_tag = MNI
@@ -5564,7 +5564,7 @@ ai_war_decisions = {
 			is_opolskie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = OPO
 					original_tag = MNI
@@ -5606,7 +5606,7 @@ ai_war_decisions = {
 			is_opolskie = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = WAN
 					original_tag = LCH
@@ -5656,7 +5656,7 @@ ai_war_decisions = {
 			is_holy_cross = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KIE
 					original_tag = NSZ
@@ -5707,7 +5707,7 @@ ai_war_decisions = {
 			is_holy_cross = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KIE
 					original_tag = NSZ
@@ -5758,7 +5758,7 @@ ai_war_decisions = {
 			is_holy_cross = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KIE
 					original_tag = NSZ
@@ -5809,7 +5809,7 @@ ai_war_decisions = {
 			is_holy_cross = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KIE
 					original_tag = NSZ
@@ -5860,7 +5860,7 @@ ai_war_decisions = {
 			is_holy_cross = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KIE
 					original_tag = NRA
@@ -5911,7 +5911,7 @@ ai_war_decisions = {
 			is_holy_cross = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = NRA
 					original_tag = NSZ
@@ -5963,7 +5963,7 @@ ai_war_decisions = {
 			is_holy_cross = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = KIE
 					original_tag = NSZ
@@ -6015,7 +6015,7 @@ ai_war_decisions = {
 			is_poland_unifier = yes
 				}
 				
-		available = {
+		visible = {
 				has_war = yes 
 				is_ai = yes
 				all_enemy_country = {
@@ -6076,7 +6076,7 @@ ai_war_decisions = {
 			is_tatry_region = yes
 				}
 				
-		available = {
+		visible = {
 				OR = {
 				original_tag = SCZ
 				original_tag = LEM
@@ -6124,7 +6124,7 @@ ai_war_decisions = {
 			is_tatry_region = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 				original_tag = BSK
 				original_tag = CIE
@@ -6165,7 +6165,7 @@ ai_war_decisions = {
 			is_tatry_region = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 				original_tag = MSL
 				original_tag = GUR
@@ -6206,7 +6206,7 @@ ai_war_decisions = {
 			is_tatry_region = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = GUR
 			date > 2027.12.01
 		}
@@ -6242,7 +6242,7 @@ ai_war_decisions = {
 			is_lesser_poland = yes
 				}
 
-		available = {
+		visible = {
 			country_exists = SKW
 			NOT = { country_exists = HOR }
 			ROOT = { any_neighbor_country = { tag = SKW } }
@@ -6279,7 +6279,7 @@ ai_war_decisions = {
 			is_tatry_region = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = SCZ
 			date > 2027.12.12
 		}
@@ -6317,7 +6317,7 @@ ai_war_decisions = {
 			is_zaglebie_and_jura = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = BRZ
 					original_tag = JWK
@@ -6372,7 +6372,7 @@ ai_war_decisions = {
 			is_zaglebie_and_jura = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = SOS
 					original_tag = JAW
@@ -6431,7 +6431,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = RAS
 					original_tag = CHO
@@ -6500,7 +6500,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = WOD
 					original_tag = JSW
@@ -6581,7 +6581,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 			OR = {
 				original_tag = WOD
 				original_tag = JSW
@@ -6635,7 +6635,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 			OR = {
 				original_tag = KAT
 				original_tag = ASG
@@ -6688,7 +6688,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 			OR = {
 			original_tag = TRC
 			original_tag = GLI
@@ -6738,7 +6738,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 			OR = {
 			original_tag = RUD
 			original_tag = CHO
@@ -6787,7 +6787,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 			OR = {
 			original_tag = RAS
 			original_tag = FER
@@ -6835,7 +6835,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CHO
 			date > 2028.02.14
 		}
@@ -6864,7 +6864,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = RAS
 			date > 2028.02.16
 		}
@@ -6894,7 +6894,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = GLI
 			date > 2028.02.30
 		}
@@ -6924,7 +6924,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = KAT
 			date > 2028.02.12
 		}
@@ -6954,7 +6954,7 @@ ai_war_decisions = {
 			is_upper_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = WOD
 			date > 2028.02.10
 		}
@@ -6985,7 +6985,7 @@ ai_war_decisions = {
 			is_zaglebie_and_jura = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = ZAW
 					original_tag = BRZ
@@ -7030,7 +7030,7 @@ ai_war_decisions = {
 			is_zaglebie_and_jura = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = JWK
 					original_tag = BRZ
@@ -7075,7 +7075,7 @@ ai_war_decisions = {
 			is_zaglebie_and_jura = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = JWK
 					original_tag = ZAW
@@ -7121,7 +7121,7 @@ ai_war_decisions = {
 			is_zaglebie_and_jura = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = JWK
 					original_tag = ZAW
@@ -7166,7 +7166,7 @@ ai_war_decisions = {
 			is_zaglebie_and_jura = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = JAW
 					original_tag = SOS
@@ -7209,7 +7209,7 @@ ai_war_decisions = {
 			is_zaglebie_and_jura = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = DGR
 					original_tag = SOS
@@ -7252,7 +7252,7 @@ ai_war_decisions = {
 			is_zaglebie_and_jura = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = JAW
 					original_tag = DGR
@@ -7298,7 +7298,7 @@ ai_war_decisions = {
 			is_tatry_region = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = BSK
 			date > 2027.06.01
 		}
@@ -7334,7 +7334,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = FEL
 			date > 2028.04.01
 			country_exists = SUS
@@ -7371,7 +7371,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CAL
 			date > 2028.02.01
 			country_exists = GNI
@@ -7408,7 +7408,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = GNI
 			date > 2028.02.16
 			country_exists = CAL
@@ -7446,7 +7446,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = SUS
 			date > 2028.03.16
 			country_exists = FEL
@@ -7483,7 +7483,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = FEL
 			date > 2028.09.01
 			country_exists = CAL
@@ -7521,7 +7521,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = FEL
 			date > 2028.09.01
 			country_exists = GNI
@@ -7558,7 +7558,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CAL
 			date > 2028.09.01
 			country_exists = FEL
@@ -7596,7 +7596,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CAL
 			date > 2028.09.01
 			country_exists = SUS
@@ -7634,7 +7634,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = GNI
 			date > 2028.09.01
 			country_exists = FEL
@@ -7672,7 +7672,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = GNI
 			date > 2028.09.01
 		    country_exists = SUS
@@ -7710,7 +7710,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = SUS
 			date > 2028.09.01
 			country_exists = CAL
@@ -7748,7 +7748,7 @@ ai_war_decisions = {
 			is_southern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = SUS
 			date > 2028.09.01
 			country_exists = GNI
@@ -7785,7 +7785,7 @@ ai_war_decisions = {
 			is_northern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = NAC
 					original_tag = POZ
@@ -7834,7 +7834,7 @@ ai_war_decisions = {
 			is_northern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = NAC
 					original_tag = POZ
@@ -7883,7 +7883,7 @@ ai_war_decisions = {
 			is_northern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = NAC
 					original_tag = POZ
@@ -7932,7 +7932,7 @@ ai_war_decisions = {
 			is_northern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = NAC
 					original_tag = POZ
@@ -7982,7 +7982,7 @@ ai_war_decisions = {
 			is_northern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = NAC
 					original_tag = SYJ
@@ -8031,7 +8031,7 @@ ai_war_decisions = {
 			is_northern_greater_poland = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = POZ
 					original_tag = SYJ
@@ -8081,7 +8081,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CRN
 			date > 2028.03.01
 			#lubelskie data startu (to po to żebym mógł łatwiej wyszukać i zmieniać do balansowania)
@@ -8118,7 +8118,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CRN
 			NOT = { country_exists = PUL }
 			NOT = { country_exists = KSN }
@@ -8164,7 +8164,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CRN
 			NOT = { country_exists = PUL }
 			NOT = { country_exists = KSN }
@@ -8207,7 +8207,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CRN
 			owns_state = 363
 			owns_state = 330
@@ -8237,7 +8237,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = PUL
 			date > 2028.03.01
 			#lubelskie data startu
@@ -8269,7 +8269,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = PUL
 			NOT = { country_exists = CRN }
 			country_exists = KSN
@@ -8301,7 +8301,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = PUL
 			NOT = { country_exists = CRN }
 			NOT = { country_exists = KSN }
@@ -8348,7 +8348,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = PUL
 			NOT = { country_exists = CRN }
 			NOT = { country_exists = KSN }
@@ -8401,7 +8401,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = PUL
 			owns_state = 363
 			owns_state = 330
@@ -8431,7 +8431,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = KSN
 			date > 2028.03.01
 			#lubelskie data startu
@@ -8463,7 +8463,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = KSN
 			NOT = { country_exists = CRN }
 			country_exists = PUL
@@ -8495,7 +8495,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = KSN
 			NOT = { country_exists = CRN }
 			NOT = { country_exists = PUL }
@@ -8541,7 +8541,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = KSN
 			NOT = { country_exists = CRN }
 			NOT = { country_exists = PUL }
@@ -8584,7 +8584,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = KSN
 			owns_state = 363
 			owns_state = 330
@@ -8614,7 +8614,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = SWD
 			date > 2028.03.15
 			#lubelskie data startu
@@ -8646,7 +8646,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = SWD
 			NOT = { country_exists = LEN }
 		}
@@ -8682,7 +8682,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = SWD
 			NOT = { country_exists = ZUK }
 			NOT = { country_exists = BIL }
@@ -8724,7 +8724,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CRN
 			NOT = { country_exists = CRN }
 			NOT = { country_exists = PUL }
@@ -8767,7 +8767,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = SWD
 			owns_state = 661
 			owns_state = 306
@@ -8797,7 +8797,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = SWD
 			owns_state = 661
 			owns_state = 306
@@ -8830,7 +8830,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = ZUK
 			date > 2028.03.29
 			#lubelskie data startu
@@ -8862,7 +8862,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = ZUK
 			NOT = { country_exists = BIL }
 		}
@@ -8898,7 +8898,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = ZUK
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = BIL }
@@ -8940,7 +8940,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = ZUK
 			NOT = { country_exists = CRN }
 			NOT = { country_exists = PUL }
@@ -8983,7 +8983,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = ZUK
 			owns_state = 669
 			owns_state = 411
@@ -9013,7 +9013,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = ZUK
 			owns_state = 661
 			owns_state = 306
@@ -9046,7 +9046,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = BIL
 			date > 2028.03.29
 			#lubelskie data startu
@@ -9078,7 +9078,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = BIL
 			NOT = { country_exists = ZUK }
 		}
@@ -9114,7 +9114,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = BIL
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = ZUK }
@@ -9156,7 +9156,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = BIL
 			NOT = { country_exists = CRN }
 			NOT = { country_exists = PUL }
@@ -9199,7 +9199,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = BIL
 			owns_state = 669
 			owns_state = 411
@@ -9229,7 +9229,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = BIL
 			owns_state = 661
 			owns_state = 306
@@ -9262,7 +9262,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = LEN
 			date > 2028.03.15
 			#lubelskie data startu
@@ -9294,7 +9294,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = LEN
 			NOT = { country_exists = SWD }
 		}
@@ -9330,7 +9330,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = LEN
 			NOT = { country_exists = SWD }
 			NOT = { country_exists = ZUK }
@@ -9372,7 +9372,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = LEN
 			NOT = { country_exists = CRN }
 			NOT = { country_exists = PUL }
@@ -9415,7 +9415,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = LEN
 			owns_state = 661
 			owns_state = 306
@@ -9445,7 +9445,7 @@ ai_war_decisions = {
 			is_lubelskie = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = LEN
 			owns_state = 661
 			owns_state = 306
@@ -9477,7 +9477,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = WRO
 			NOT = { country_exists = BRE }
 			date > 2028.05.01
@@ -9508,7 +9508,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = RYB
 			date > 2027.11.01
 		}
@@ -9543,7 +9543,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = MNL
 					original_tag = ANA
@@ -9585,7 +9585,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = ZUL
 					original_tag = ANA
@@ -9627,7 +9627,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = MNL
 					original_tag = ZUL
@@ -9669,7 +9669,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = EKS
 			date > 2028.05.01
 		}
@@ -9703,7 +9703,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = CZE
 			date > 2028.02.16		
 		}
@@ -9750,7 +9750,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = EKS
 			date > 2028.06.01
 			NOT = {
@@ -9793,7 +9793,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = RYB
 			date > 2028.06.01
 			376 = { is_controlled_by = MPK }
@@ -9824,7 +9824,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = WRO
 			NOT = { country_exists = MPK }
 			date > 2028.07.01
@@ -9854,7 +9854,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 			OR = {
 				original_tag = EKS
 				original_tag = KGH
@@ -9896,7 +9896,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 				OR = {
 					original_tag = EKS
 					original_tag = KGH
@@ -10004,7 +10004,7 @@ ai_war_decisions = {
 			is_lower_silesia = yes
 				}
 
-		available = {
+		visible = {
 			original_tag = KGH
 			date > 2028.05.05
 			KGH = { has_war_with = CYG }
@@ -10032,7 +10032,7 @@ ai_war_decisions = {
 
 		icon = GFX_decision_generic_prepare_civil_war
 
-		available = {
+		visible = {
 			original_tag = RYB
 			WRO = { has_war_with = FEM }
 		}
