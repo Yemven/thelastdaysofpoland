@@ -222,6 +222,24 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			random_owned_state = {
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			random_owned_state = {
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			random_owned_state = {
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
 		}
 	}
 	
@@ -279,6 +297,7 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			add_stability = -0.10
 		}
 	}
 	
@@ -313,7 +332,7 @@ ZHP_deurbanization_category = {
 	
 	ZHP_e1_bbw1_zhp = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -321,7 +340,8 @@ ZHP_deurbanization_category = {
 		visible = {
 			341 = {
 				is_core_of = ZHP
-			}	
+			}
+			has_country_flag = ZHP_ZHP_Path_2	
 		}
 
 		fire_only_once = yes
@@ -336,12 +356,22 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 7
 			}
+			341 = {
+				remove_building = {
+					type = infrastructure
+					level = 4
+				}
+				remove_building = {
+					type = power_plant
+					level = 2
+				}
+			}
 		}
 	}
 	
 	ZHP_e1_bbw1_zhr = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHR_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -349,7 +379,8 @@ ZHP_deurbanization_category = {
 		visible = {
 			341 = {
 				is_core_of = ZHP
-			}	
+			}
+			has_country_flag = ZHP_ZHR_Path_2	
 		}
 
 		fire_only_once = yes
@@ -364,13 +395,23 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			341 = {
+				remove_building = {
+					type = infrastructure
+					level = 2
+				}
+				remove_building = {
+					type = power_plant
+					level = 1
+				}
+			}
 		}
 	}
 	
 	
 	ZHP_e1_bbw2_zhp = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -378,7 +419,8 @@ ZHP_deurbanization_category = {
 		visible = {
 			341 = {
 				is_core_of = ZHP
-			}	
+			}
+			has_country_flag = ZHP_ZHP_Path_2	
 		}
 
 		fire_only_once = yes
@@ -393,12 +435,18 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			341 = {
+				add_resource = {
+					type = coal
+					amount = -38
+				}
+			}
 		}
 	}
 	
 	ZHP_e1_bbw2_zhr = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHR_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -406,7 +454,8 @@ ZHP_deurbanization_category = {
 		visible = {
 			341 = {
 				is_core_of = ZHP
-			}	
+			}
+			has_country_flag = ZHP_ZHR_Path_2	
 		}
 
 		fire_only_once = yes
@@ -420,6 +469,17 @@ ZHP_deurbanization_category = {
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 5
+			}
+			341 = {
+				add_resource = {
+					type = coal
+					amount = -21
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -452,13 +512,26 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			353 = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			340 = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			add_stability = -0.05
 		}
 	}
 	
 	
 	ZHP_e1_zyd2_zhp = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -469,7 +542,8 @@ ZHP_deurbanization_category = {
 			}
 			340 = {
 				is_core_of = ZHP
-			}	
+			}
+			has_country_flag = ZHP_ZHP_Path_2	
 		}
 
 		fire_only_once = yes
@@ -484,12 +558,18 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			353 = {
+				add_manpower = -60000
+			}
+			340 = {
+				add_manpower = -60000
+			}
 		}
 	}
 	
 	ZHP_e1_zyd2_zhr = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHR_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -500,7 +580,8 @@ ZHP_deurbanization_category = {
 			}
 			340 = {
 				is_core_of = ZHP
-			}	
+			}
+			has_country_flag = ZHP_ZHR_Path_2	
 		}
 
 		fire_only_once = yes
@@ -515,6 +596,7 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			add_stability = -0.1
 		}
 	}
 	
@@ -579,7 +661,7 @@ ZHP_deurbanization_category = {
 	
 	ZHP_e2_sap1_zhp = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -587,7 +669,8 @@ ZHP_deurbanization_category = {
 		visible = {
 			269 = {
 				is_core_of = ZHP
-			}	
+			}
+			has_country_flag = ZHP_ZHP_Path_2	
 		}
 
 		fire_only_once = yes
@@ -602,12 +685,25 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			every_owned_state = {
+				limit = {
+					is_core_of = SAP
+				}
+				set_building_level = {
+					type = bunker
+					level = 0
+					province = {
+						all_provinces = yes
+						level > 0
+					}
+				}
+			}
 		}
 	}
 	
 	ZHP_e2_sap1_zhr = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHR_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -615,7 +711,8 @@ ZHP_deurbanization_category = {
 		visible = {
 			269 = {
 				is_core_of = ZHP
-			}	
+			}
+			has_country_flag = ZHP_ZHR_Path_2	
 		}
 
 		fire_only_once = yes
@@ -630,13 +727,20 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 3
 			}
+			269 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
 
 	ZHP_e2_krs1_zhp = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -645,6 +749,7 @@ ZHP_deurbanization_category = {
 			236 = {
 				is_core_of = ZHP
 			}
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 
 		fire_only_once = yes
@@ -659,12 +764,30 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 7
 			}
+			every_possible_country = {
+				limit = {
+					has_character = KRS_dr_ebrantil
+				}
+				random_character = {
+					limit = {
+						is_character = KRS_dr_ebrantil
+					}
+					set_nationality = ZHP
+					add_corps_commander_role = {
+						skill = 2
+						attack_skill = 4
+						defense_skill = 1
+						planning_skill = 3
+						logistics_skill = 2
+					}
+				}
+			}
 		}
 	}
 	
 	ZHP_e2_krs1_zhr = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHR_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -672,7 +795,8 @@ ZHP_deurbanization_category = {
 		visible = {
 			236 = {
 				is_core_of = ZHP
-			}	
+			}
+			has_country_flag = ZHP_ZHR_Path_2	
 		}
 
 		fire_only_once = yes
@@ -687,13 +811,14 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 7
 			}
+			#tu się da eventy
 		}
 	}
 	
 
 	ZHP_e2_krs2_zhp = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -702,6 +827,7 @@ ZHP_deurbanization_category = {
 			236 = {
 				is_core_of = ZHP
 			}
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 
 		fire_only_once = yes
@@ -716,12 +842,19 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 10
 			}
+			236 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			# i klimatyczny iwencik
 		}
 	}
 	
 	ZHP_e2_krs2_zhr = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHR_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -729,7 +862,8 @@ ZHP_deurbanization_category = {
 		visible = {
 			236 = {
 				is_core_of = ZHP
-			}	
+			}
+			has_country_flag = ZHP_ZHR_Path_2	
 		}
 
 		fire_only_once = yes
@@ -744,13 +878,14 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			#event
 		}
 	}
 	
 	
 	ZHP_e2_krs3_zhp = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -759,6 +894,7 @@ ZHP_deurbanization_category = {
 			236 = {
 				is_core_of = ZHP
 			}
+			has_country_flag = ZHP_ZHP_Path_2
 		}
 
 		fire_only_once = yes
@@ -773,12 +909,18 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			add_equipment_to_stockpile = {
+				producer = KRS
+				type = ranged_equipment
+				amount = 1000
+			}
+			#EVENCIK
 		}
 	}
 	
 	ZHP_e2_krs3_zhr = {
 		available = {
-			always = yes
+			has_country_flag = ZHP_ZHR_Path_2
 		}
 		allowed = {
 			original_tag = ZHP
@@ -786,7 +928,8 @@ ZHP_deurbanization_category = {
 		visible = {
 			236 = {
 				is_core_of = ZHP
-			}	
+			}
+			has_country_flag = ZHP_ZHR_Path_2	
 		}
 
 		fire_only_once = yes
@@ -801,6 +944,7 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 3
 			}
+			#evencik
 		}
 	}
 
@@ -897,6 +1041,64 @@ ZHP_deurbanization_category = {
 				var = ZHP_delodzizacja
 				value = 1
 			}
+			random_owned_state = {
+				limit = {
+					is_core_of = WML
+					NOT = {
+						has_state_flag = state_transformed
+					}
+				}
+				set_building_level = {
+					type = infrastructure
+					level = 1
+				}
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+				set_building_level = {
+					type = power_plant
+					level = 0
+				}
+				set_building_level = {
+					type = wind_farm
+					level = 0
+				}
+				set_state_flag = state_transformed
+			}
+			random_owned_state = {
+				limit = {
+					is_core_of = WML
+					NOT = {
+						has_state_flag = state_transformed
+					}
+				}
+				set_building_level = {
+					type = infrastructure
+					level = 1
+				}
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+				set_building_level = {
+					type = power_plant
+					level = 0
+				}
+				set_building_level = {
+					type = wind_farm
+					level = 0
+				}
+				set_state_flag = state_transformed
+			}
 		}
 	}
 	
@@ -934,6 +1136,48 @@ ZHP_deurbanization_category = {
 			add_to_variable = {
 				var = ZHP_delodzizacja
 				value = 1
+			}
+			random_owned_state = {
+				limit = {
+					is_core_of = WML
+					NOT = {
+						has_state_flag = state_transformed
+					}
+				}
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+				add_building_construction = {
+					type = wind_farm
+					level = THIS.num_of_power_plants
+				}
+				set_building_level = {
+					type = power_plant
+					level = 0
+				}
+				set_state_flag = state_transformed
+			}
+			random_owned_state = {
+				limit = {
+					is_core_of = WML
+					NOT = {
+						has_state_flag = state_transformed
+					}
+				}
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+				add_building_construction = {
+					type = wind_farm
+					level = THIS.num_of_power_plants
+				}
+				set_building_level = {
+					type = power_plant
+					level = 0
+				}
+				set_state_flag = state_transformed
 			}
 		}
 	}
