@@ -4,14 +4,14 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		size = {
 			width = 396
-			height = 406
+			height = 350
 		}
 		orientation = CENTER
 		icontype = {
 			name = "GFX_ZHP_Progbar"
 			position = {
 				x = 30
-				y = 350
+				y = 280
 			}
 		spriteType = "GFX_ZHP_Progbar"
 		pdx_tooltip = "ZHP_PROGBAR_TOOLTIP"
@@ -19,8 +19,9 @@ guiTypes = {
 
 		iconType = {
 			name = "ZHP_GUI_Image"
-			position = { x = 0 y = -20 }
+			position = { x = 5 y = -20 }
 			spriteType = "ZHP_urban0"
+			scale = 0.98
 		}
 
 		instantTextBoxType = {
@@ -34,7 +35,7 @@ guiTypes = {
 
 		iconType = {
 			name = "ZHP_frame"
-			position = { x = 30 y = 350 }
+			position = { x = 30 y = 280 }
 			spriteType = "ZHP_progbar_frame"
 		}
 
