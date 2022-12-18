@@ -231,79 +231,135 @@ zhp.23.desc:0 "The sun starts to set on a late autumn afternoon in Przedbórz, a
 zhp.23.a:0 "I with full honesty wish, to devote my life to serving God and Poland…"
 
  ##Characters##
-POLITICS_ANDRZEJ_DUDA_DESC:0 "The former President of Poland since 2015 and one of the most legitimate claimants of rulership over Poland among its warlords. Prior to assuming his presidency, he was part of the Sejm and European Parliament. During the final years of his presidency, he continued to lose agency over his actions, becoming more and more subservient to the will of the head of PiS - Jarosław Kaczyński. By 2025, when his presidency ended for good, he was no more than just a figurehead. When Kaczyński was gone and Poland collapsed, Duda, who already served his two terms, was deemed unimportant by the remains of the political establishment. With no political allies he had to search for a safe haven. He eventually joined forces with the ZHR to which he had once belonged. While the ZHR planned to restore Duda as the rightful president of Poland, their overzealous compatriots - the idealists form ZHP decided to turn Duda once again into a puppet and a head of their state in name only, using him as a legitimizing factor in their future conquest of Poland"
-POLITICS_MAREK_JEDRASZEWSKI_DESC:0 "An Archbishop of two cities, one which he was exiled from and one to which he had returned. He served as the Archbishop of Łódź from 2012, however he instead became the Archbishop of Kraków in 2017. The upheaval and societal collapse brought upon by the Fall caused the liberal population of the city to chase him out for his staunchly traditionalist and controversial rhetoric, with no hope of returning to the archdiocese any time soon. He returned to Łódź and made it his goal to help the catholic scouts oppose the influence and maniacal rule championed by the ZHP."
+POLITICS_ANDRZEJ_DUDA_DESC:0 "The former President of Poland since 2015 and one of the most legitimate claimants of rulership over Poland among its warlords. Prior to assuming his presidency, he was part of the Sejm and European Parliament. During the final years of his presidency, he continued to lose agency over his actions, becoming more and more subservient to the will of the head of PiS - Jarosław Kaczyński. By 2025, when his presidency ended for good, he was no more than just a figurehead. When Kaczyński was gone and Poland collapsed, Duda, who already served his two terms, was deemed unimportant by the remains of the political establishment. With no political allies he had to search for a safe haven. He eventually joined forces with the ZHR to which he had once belonged. While the ZHR planned to restore Duda as the rightful president of Poland, their overzealous compatriots - the idealists form ZHP decided to turn Duda once again into a puppet and the head of their state in name only, using him as a legitimizing factor in their future conquest of Poland."
+POLITICS_MAREK_JEDRASZEWSKI_DESC:0 "An Archbishop of two cities, one which he was exiled from and one to which he had returned. He served as the Archbishop of Łódź from 2012, however he instead became the Archbishop of Kraków in 2017. The upheaval and societal collapse brought upon by the Fall caused the liberal population of the city to chase him out for his staunchly traditionalist and controversial rhetoric, with no hope of returning to the archdiocese any time soon. He returned to Łódź and made it his goal to help the catholic Scouts oppose the influence and maniacal rule championed by the ZHP."
 
  ##Decisions##
 ZHP_unifies_lodz_tooltip:0 "Gets event '§YThe Autonomous Troop of ZHP Unifies the Łódź Voivodeship§!'"
 
 ZHP_deurbanization_category:0 "Deurbanization of Łódzkie"
-ZHP_GUI_loc:0 "big_szyszka.png"
+ZHP_deurbanization_category_desc:0 "\nAs is Polish tradition, countless factions and narratives within our clique squabble over who's responsible for the Fall of Poland: was it the leftists? Was it the pacifists and the weaklings scared of fighting in muddy forests? Or is it the fault of those who didn't pay respect to those who served their homeland in the past? \n§7Well, as it turnes out, there is a group matching all those descriptions:§! the CITY DWELLERS - the liberal-minded, craven and non-patriotic bouregois who drove the Polish village folk into irrelevancy and then started rebelling once a rural population-friendly party came to power. \n\nWe have to ensure that throughout our war of reconquest, the urban population will fail to regain their past political power and influence on Polish media and culture. §tThere is, however, an internal split between the Scouts on how will our joint government achieve this.§! The §2ZHR§! proposes a less painful approach of empowering the ruralities, milking the funds and technology off of city dwellers and making it easier for them to peacefully settle in the countryside, where they will get used to more proper values. \n\nThe §gGray Lillies§! see this as mere hand-waving. \nIn their vision, an ideal Poland would be one completely devoid of urban influence - one *devoid of cities themselves*. As such - according to them - any large towns and cities are not to be just depopulated and deurbanized, but fully demolished (and preferably razed to the ground) so that the space occupied by them can be forested and repurposed to serve Poland and those who are ready to defend her, and so that the city dwellers will once and for all abandon their degenerate, comfortable lifestyles and their urbanite bullshit will be forever done and dealt with.\n\n\n"
+
+ZHP_GUI_loc:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAs is Polish tradition, countless factions and narratives within our clique squabble over who's responsible for the Fall of Poland: was it the leftists? Was it the pacifists and the weaklings scared of fighting in muddy forests? Or is it the fault of those who didn't pay respect to those who served their homeland in the past? \n§7Well, as it turnes out, there is a group matching all those descriptions:§! the CITY DWELLERS - the liberal-minded, craven and non-patriotic bouregois who drove the Polish village folk into irrelevancy and then started rebelling once a rural population-friendly party came to power. \n\nWe have to ensure that throughout our war of reconquest, the urban population will fail to regain their past political power and influence on Polish media and culture. §tThere is, however, an internal split between the Scouts on how will our joint government achieve this.§! The §2ZHR§! proposes a less painful approach of empowering the ruralities, milking the funds and technology off of city dwellers and making it easier for them to peacefully settle in the countryside, where they will get used to more proper values. \n\nThe §gGray Lillies§! see this as mere hand-waving. \nIn their vision, an ideal Poland would be one completely devoid of urban influence - one *devoid of cities themselves*. As such - according to them - any large towns and cities are not to be just depopulated and deurbanized, but fully demolished (and preferably razed to the ground) so that the space occupied by them can be forested and repurposed to serve Poland and those who are ready to defend her, and so that the city dwellers will once and for all abandon their degenerate, comfortable lifestyles and their urbanite bullshit will be forever done and dealt with." #coś ten podpis nie chce się edytować, idk coś jest z nim nie tak
 
 ZHP_city_sprawl:0 "Urban sprawling..."
-ZHP_deurbanization_building:0 "Stopping Building of New Districts"
-ZHP_deurbanization_low_emission:0 "Reducing Carbon Emissions"
-ZHP_e0_economy_zhp:0 "Plunder Sieradz Economical Sphere"
-ZHP_e0_economy_zhr:0 "Raise Tarrifs for City Products"
-ZHP_e0_society_zhp:0 "Anti-City Propaganda"
-ZHP_e0_society_zhr:0 "Family Scout Camps Propaganda"
-ZHP_e0_propaganda_zhp:0 "Planting Bombs Action"
-ZHP_e0_propaganda_zhr:0 "Planting Trees Action"
-ZHP_e1_taxation_zhp:0 "Very High Taxes for Cities"
-ZHP_e1_taxation_zhr:0 "Tax Exemptions for People Moving out of Cities"
-ZHP_e1_bbw1_zhp:0 "Blow Up Bełchatów Power Plant"
-ZHP_e1_bbw1_zhr:0 "Start Shutting Down Bełchatów Power Plant"
-ZHP_e1_bbw2_zhp:0 "Black Lake - Bełchatowian Coal Burning"
-ZHP_e1_bbw2_zhr:0 "Bełchatowian Mazuria - Touristic Complex"
-ZHP_e1_zyd1:0 "Bring Down All Covenant' Chimneys"
-ZHP_e1_zyd2_zhp:0 "Taking Over Kibbutzes: Jewish Exodus"
-ZHP_e1_zyd2_zhr:0 "Taking Over Kibbutzes: Forced Conversion"
-ZHP_e2_villages_zhp:0 "Pacify Bigger Villages"
-ZHP_e2_villages_zhr:0 "Modernize Polish Countryside"
-ZHP_e2_sap1_zhp:0 "Destroy All Castles"
-ZHP_e2_sap1_zhr:0 "Nationalize Scoia'tael Communes"
-ZHP_e2_krs1_zhp:0 "Operation Flytrap"
-ZHP_e2_krs1_zhr:0 "Trial of the Paramedics"
-ZHP_e2_krs2_zhp:0 "Operation Tulip"
-ZHP_e2_krs2_zhr:0 "Trial of the Skrzydlewska SA"
-ZHP_e2_krs3_zhp:0 "Operation Chrysanth"
-ZHP_e2_krs3_zhr:0 "Trial of the Rutkowski Patrol"
-ZHP_e3_final_solution_zhp:0 "Forced Relocation out of the Cities"
-ZHP_e3_final_solution_zhr:0 "Forestation of Cities"
-ZHP_e3_final_solution_wml_zhp:0 "Systematic Destruction of Łódź"
-ZHP_e3_final_solution_wml_zhr:0 "Systematic Transforestation of Łódź"
-
 ZHP_city_sprawl_desc:0 "Urban sprawling..."
+############################
+ZHP_deurbanization_building:0 "Stopping Building of New Districts"
 ZHP_deurbanization_building_desc:0 "Stopping Building of New Districts"
+ZHP_deurbanization_low_emission:0 "Reducing Carbon Emissions"
 ZHP_deurbanization_low_emission_desc:0 "Reducing Carbon Emissions"
+############################
+ZHP_e0_economy_zhp:0 "Plunder Sieradz Economical Sphere"
 ZHP_e0_economy_zhp_desc:0 "Plunder Sieradz Economical Sphere"
+#ZHR
+ZHP_e0_economy_zhr:0 "Raise Tarrifs for City Products"
 ZHP_e0_economy_zhr_desc:0 "Raise Tarrifs for City Products"
+############################
+ZHP_e0_society_zhp:0 "Anti-City Propaganda"
 ZHP_e0_society_zhp_desc:0 "Anti-City Propaganda"
+#ZHR
+ZHP_e0_society_zhr:0 "Family Scout Camps Propaganda"
 ZHP_e0_society_zhr_desc:0 "Family Scout Camps Propaganda"
+############################
+ZHP_e0_propaganda_zhp:0 "Planting Bombs Action"
 ZHP_e0_propaganda_zhp_desc:0 "Planting Bombs Action"
+#ZHR
+ZHP_e0_propaganda_zhr:0 "Planting Trees Action"
 ZHP_e0_propaganda_zhr_desc:0 "Planting Trees Action"
+############################
+ZHP_e1_taxation_zhp:0 "Very High Taxes for Cities"
 ZHP_e1_taxation_zhp_desc:0 "Very High Taxes for Cities"
+#ZHR
+ZHP_e1_taxation_zhr:0 "Tax Exemptions for People Moving out of Cities"
 ZHP_e1_taxation_zhr_desc:0 "Tax Exemptions for People Moving out of Cities"
+############################
+ZHP_e1_bbw1_zhp:0 "Blow Up Bełchatów Power Plant"
 ZHP_e1_bbw1_zhp_desc:0 "Blow Up Bełchatów Power Plant"
+#ZHR
+ZHP_e1_bbw1_zhr:0 "Start Shutting Down Bełchatów Power Plant"
 ZHP_e1_bbw1_zhr_desc:0 "Start Shutting Down Bełchatów Power Plant"
+############################
+ZHP_e1_bbw2_zhp:0 "Black Lake - Bełchatowian Coal Burning"
 ZHP_e1_bbw2_zhp_desc:0 "Black Lake - Bełchatowian Coal Burning"
+#ZHR
+ZHP_e1_bbw2_zhr:0 "Bełchatowian Mazuria - Touristic Complex"
 ZHP_e1_bbw2_zhr_desc:0 "Bełchatowian Mazuria - Touristic Complex"
+############################
+ZHP_e1_zyd1:0 "Bring Down All Covenant' Chimneys"
 ZHP_e1_zyd1_desc:0 "Bring Down All Covenant' Chimneys"
+ZHP_e1_zyd2_zhp:0 "Taking Over Kibbutzes: Jewish Exodus"
 ZHP_e1_zyd2_zhp_desc:0 "Taking Over Kibbutzes: Jewish Exodus"
+#ZHR
+ZHP_e1_zyd2_zhr:0 "Taking Over Kibbutzes: Forced Conversion"
 ZHP_e1_zyd2_zhr_desc:0 "Taking Over Kibbutzes: Forced Conversion"
+############################
+ZHP_e2_villages_zhp:0 "Pacify Bigger Villages"
 ZHP_e2_villages_zhp_desc:0 "Pacify Bigger Villages"
+#ZHR
+ZHP_e2_villages_zhr:0 "Modernize Polish Countryside"
 ZHP_e2_villages_zhr_desc:0 "Modernize Polish Countryside"
+############################
+ZHP_e2_sap1_zhp:0 "Destroy All Castles"
 ZHP_e2_sap1_zhp_desc:0 "Destroy All Castles"
+#ZHR
+ZHP_e2_sap1_zhr:0 "Nationalize Scoia'tael Communes"
 ZHP_e2_sap1_zhr_desc:0 "Nationalize Scoia'tael Communes"
+############################
+ZHP_e2_krs1_zhp:0 "Operation Flytrap"
 ZHP_e2_krs1_zhp_desc:0 "Operation Flytrap"
+#ZHR
+ZHP_e2_krs1_zhr:0 "Trial of the Paramedics"
 ZHP_e2_krs1_zhr_desc:0 "Trial of the Paramedics"
+############################
+ZHP_e2_krs2_zhp:0 "Operation Tulip"
 ZHP_e2_krs2_zhp_desc:0 "Operation Tulip"
+#ZHR
+ZHP_e2_krs2_zhr:0 "Trial of the Skrzydlewska SA"
 ZHP_e2_krs2_zhr_desc:0 "Trial of the Skrzydlewska SA"
+############################
+ZHP_e2_krs3_zhp:0 "Operation Chrysanth"
 ZHP_e2_krs3_zhp_desc:0 "Operation Chrysanth"
+#ZHR
+ZHP_e2_krs3_zhr:0 "Trial of the Rutkowski Patrol"
 ZHP_e2_krs3_zhr_desc:0 "Trial of the Rutkowski Patrol"
+############################
+ZHP_e3_final_solution_zhp:0 "Forced Relocation out of the Cities"
 ZHP_e3_final_solution_zhp_desc:0 "Forced Relocation out of the Cities"
+#ZHR
+ZHP_e3_final_solution_zhr:0 "Forestation of Cities"
 ZHP_e3_final_solution_zhr_desc:0 "Forestation of Cities"
+############################
+ZHP_e3_final_solution_wml_zhp:0 "Systematic Destruction of Łódź"
 ZHP_e3_final_solution_wml_zhp_desc:0 "Systematic Destruction of Łódź"
+#ZHR
+ZHP_e3_final_solution_wml_zhr:0 "Systematic Transforestation of Łódź"
 ZHP_e3_final_solution_wml_zhr_desc:0 "Systematic Transforestation of Łódź"
 
 ZHP_PROGBAR_TOOLTIP:"0 "bdasoibpjibas"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
