@@ -44,7 +44,7 @@ ZHP_deurbanization_category = {
 			always = yes
 		}
 
-		cost = 50
+		cost = 30
 
 		days_remove = 7
 		days_re_enable = 90
@@ -79,7 +79,7 @@ ZHP_deurbanization_category = {
 			always = yes
 		}
 
-		cost = 50
+		cost = 30
 
 		days_remove = 30
 		days_re_enable = 14
@@ -201,7 +201,7 @@ ZHP_deurbanization_category = {
 
 		cost = 50
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_deurbanization_e0_society_zhp"
@@ -229,7 +229,7 @@ ZHP_deurbanization_category = {
 
 		cost = 50
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_deurbanization_e0_society_zhr"
@@ -257,7 +257,7 @@ ZHP_deurbanization_category = {
 
 		cost = 50
 
-		days_remove = 30
+		days_remove = 14
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_deurbanization_e0_propaganda_zhp"
@@ -297,7 +297,7 @@ ZHP_deurbanization_category = {
 
 		cost = 50
 
-		days_remove = 30
+		days_remove = 14
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_deurbanization_e0_propaganda_zhr"
@@ -339,7 +339,7 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 60
 
 		days_remove = 30
 
@@ -373,7 +373,7 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 60
 
 		days_remove = 30
 
@@ -408,9 +408,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 90
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e1_bbw1_zhp"
@@ -429,7 +429,7 @@ ZHP_deurbanization_category = {
 				}
 			}
 			add_stability = 0.15
-			add_political_power = 100
+			add_political_power = 150
 		}
 	}
 	
@@ -449,9 +449,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 90
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e1_bbw1_zhr"
@@ -489,9 +489,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 90
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e1_bbw2_zhp"
@@ -505,7 +505,7 @@ ZHP_deurbanization_category = {
 					amount = -38
 				}
 			}
-			add_political_power = 100
+			add_political_power = 150
 		}
 	}
 	
@@ -525,7 +525,7 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
 		days_remove = 90
 
@@ -567,7 +567,7 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
 		days_remove = 30
 
@@ -590,7 +590,7 @@ ZHP_deurbanization_category = {
 				}
 			}
 			add_stability = -0.05
-			add_political_power = 100
+			add_political_power = 150
 		}
 	}
 	
@@ -614,9 +614,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e1_zyd2_zhp"
@@ -633,7 +633,7 @@ ZHP_deurbanization_category = {
 			319 = {
 				add_manpower = -9467
 			}
-			add_political_power = 100
+			add_political_power = 150
 		}
 	}
 	
@@ -656,9 +656,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e1_zyd2_zhr"
@@ -694,9 +694,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 70
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_deurbanization_e2_villages_zhp"
@@ -722,7 +722,7 @@ ZHP_deurbanization_category = {
 					level = 1
 				}
 			}
-			add_political_power = 50
+			add_political_power = 120
 		}
 	}
 	
@@ -741,9 +741,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 70
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_deurbanization_e2_villages_zhr"
@@ -785,9 +785,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 90
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e2_sap1_zhp"
@@ -808,7 +808,7 @@ ZHP_deurbanization_category = {
 					}
 				}
 			}
-			add_political_power = 100
+			add_political_power = 150
 		}
 	}
 	
@@ -828,9 +828,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 90
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e2_sap1_zhr"
@@ -865,9 +865,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e2_krs1_zhp"
@@ -893,6 +893,7 @@ ZHP_deurbanization_category = {
 					}
 				}
 			}
+		add_political_power = 150
 		}
 	}
 	
@@ -912,9 +913,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e2_krs1_zhr"
@@ -923,6 +924,7 @@ ZHP_deurbanization_category = {
 				value = 7
 			}
 			#tu się da eventy
+			add_political_power = 150
 		}
 	}
 	
@@ -943,9 +945,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e2_krs2_zhp"
@@ -960,6 +962,7 @@ ZHP_deurbanization_category = {
 					instant_build = yes
 				}
 			}
+			add_political_power = 150
 			# i klimatyczny iwencik
 		}
 	}
@@ -980,9 +983,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e2_krs2_zhr"
@@ -991,6 +994,7 @@ ZHP_deurbanization_category = {
 				value = 5
 			}
 			#event
+		add_political_power = 150
 		}
 	}
 	
@@ -1011,9 +1015,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e2_krs3_zhp"
@@ -1027,6 +1031,7 @@ ZHP_deurbanization_category = {
 				amount = 1000
 			}
 			#EVENCIK
+		add_political_power = 150
 		}
 	}
 	
@@ -1046,9 +1051,9 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 100
 
-		days_remove = 30
+		days_remove = 60
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e2_krs3_zhr"
@@ -1057,6 +1062,7 @@ ZHP_deurbanization_category = {
 				value = 3
 			}
 			#evencik
+		add_political_power = 150
 		}
 	}
 
@@ -1077,7 +1083,7 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 80
 
 		days_remove = 90
 
@@ -1087,7 +1093,7 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 15
 			}
-			add_political_power = 100
+			add_political_power = 150
 		}
 	}
 	
@@ -1105,7 +1111,7 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 80
 
 		days_remove = 90
 
@@ -1157,6 +1163,7 @@ ZHP_deurbanization_category = {
 					level = 2
 				}
 			}
+			add_political_power = 150
 		}
 	}
 
@@ -1181,7 +1188,7 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 150
 
 		days_remove = 90
 		days_re_enable = 1
@@ -1198,6 +1205,7 @@ ZHP_deurbanization_category = {
 			}
 			ZHP_destroy_quarter = yes
 			ZHP_destroy_quarter = yes
+		add_political_power = 150
 		}
 	}
 	
@@ -1221,7 +1229,7 @@ ZHP_deurbanization_category = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 150
 
 		days_remove = 90
 		days_re_enable = 1
@@ -1238,6 +1246,7 @@ ZHP_deurbanization_category = {
 			}
 			ZHP_transforest_quarter = yes
 			ZHP_transforest_quarter = yes
+		add_political_power = 150
 		}
 	}
 }
