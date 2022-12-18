@@ -1,6 +1,6 @@
 guiTypes = {
 	containerWindowType = {
-		name = "GFX_ZHP_Progbar"
+		name = "GFX_ZHP_DeUrbanization_Progress_UI"
 		position = { x = 0 y = 0 }
 		size = {
 			width = 396
@@ -13,25 +13,16 @@ guiTypes = {
 				x = 30
 				y = 280
 			}
-		spriteType = "GFX_ZHP_Progbar"
-		pdx_tooltip = "ZHP_PROGBAR_TOOLTIP"
+			spriteType = "GFX_ZHP_Progbar"
+			pdx_tooltip = "ZHP_PROGBAR_TOOLTIP"
 		}
 
 		iconType = {
 			name = "ZHP_GUI_Image"
-			position = { x = 5 y = -20 }
+			position = { x = 0 y = -20 }
 			spriteType = "ZHP_urban0"
 			scale = 0.98
 		}
-
-		instantTextBoxType = {
-            name = "ZHP_GUI_desc"
-			position = { x = 10 y = 270 }
-            text = ZHP_GUI_loc
-            font = "hoi_18"
-			maxWidth = 370
-			maxHeight = 500
-        }
 
 		iconType = {
 			name = "ZHP_frame"
