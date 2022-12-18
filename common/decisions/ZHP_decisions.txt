@@ -127,7 +127,7 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
-			321 = {
+			321 = { 
 				remove_building = {
 					type = arms_factory
 					level = 1
@@ -137,11 +137,17 @@ ZHP_deurbanization_category = {
 					level = 2
 				}
 			}
-			368 = {
-				add_resource = {
-					type = steel
-					amount = 30
-				}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 50
+			}
+			add_equipment_to_stockpile = {
+				type = melee_equipment
+				amount = 500
+			}
+			add_equipment_to_stockpile = {
+				type = equipment_vests
+				amount = 500
 			}
 		}
 	}
@@ -170,6 +176,12 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 3
 			}
+			random_owned_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
 		}
 	}
 	
@@ -197,6 +209,7 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			add_political_power = 50
 		}
 	}
 	
@@ -264,12 +277,7 @@ ZHP_deurbanization_category = {
 					level = 1
 				}
 			}
-			random_owned_state = {
-				remove_building = {
-					type = arms_factory
-					level = 1
-				}
-			}
+			add_political_power = 50
 		}
 	}
 	
@@ -296,6 +304,20 @@ ZHP_deurbanization_category = {
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 3
+			}
+			random_owned_state = {
+				add_state_modifier = {
+					modifier = {
+						army_speed_factor_for_controller = 0.3
+					}
+				}
+			}
+			random_owned_state = {
+				add_state_modifier = {
+					modifier = {
+						army_speed_factor_for_controller = 0.3
+					}
+				}
 			}
 		}
 	}
@@ -328,6 +350,11 @@ ZHP_deurbanization_category = {
 				value = 5
 			}
 			add_stability = -0.10
+			swap_ideas = {
+				remove_idea = taxes_low
+				add_idea = taxes_medium 
+				}
+			add_political_power = 50
 		}
 	}
 	
@@ -356,6 +383,11 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 3
 			}
+			swap_ideas = {
+				remove_idea = taxes_low
+				add_idea = taxes_minimal 
+				}
+			add_stability = 0.05
 		}
 	}
 	
@@ -389,13 +421,15 @@ ZHP_deurbanization_category = {
 			341 = {
 				remove_building = {
 					type = infrastructure
-					level = 4
+					level = 2
 				}
 				remove_building = {
 					type = power_plant
 					level = 2
 				}
 			}
+			add_stability = 0.15
+			add_political_power = 100
 		}
 	}
 	
@@ -428,7 +462,7 @@ ZHP_deurbanization_category = {
 			341 = {
 				remove_building = {
 					type = infrastructure
-					level = 2
+					level = 1
 				}
 				remove_building = {
 					type = power_plant
@@ -471,6 +505,7 @@ ZHP_deurbanization_category = {
 					amount = -38
 				}
 			}
+			add_political_power = 100
 		}
 	}
 	
@@ -492,7 +527,7 @@ ZHP_deurbanization_category = {
 
 		cost = 50
 
-		days_remove = 30
+		days_remove = 90
 
 		remove_effect = {
 			log = "[GetDateText]: Decision ZHP_e1_bbw2_zhr"
@@ -555,6 +590,7 @@ ZHP_deurbanization_category = {
 				}
 			}
 			add_stability = -0.05
+			add_political_power = 100
 		}
 	}
 	
@@ -588,12 +624,16 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
-			353 = {
-				add_manpower = -60000
+			333 = {
+				add_manpower = -10788
 			}
-			340 = {
-				add_manpower = -60000
+			361 = {
+				add_manpower = -4137
 			}
+			319 = {
+				add_manpower = -9467
+			}
+			add_political_power = 100
 		}
 	}
 	
@@ -627,6 +667,13 @@ ZHP_deurbanization_category = {
 				value = 5
 			}
 			add_stability = -0.1
+			333 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -657,6 +704,25 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 5
 			}
+			random_owned_state = {
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			random_owned_state = {
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			random_owned_state = {
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			add_political_power = 50
 		}
 	}
 	
@@ -684,6 +750,20 @@ ZHP_deurbanization_category = {
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 3
+			}
+			680 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			368 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -728,6 +808,7 @@ ZHP_deurbanization_category = {
 					}
 				}
 			}
+			add_political_power = 100
 		}
 	}
 	
@@ -876,6 +957,7 @@ ZHP_deurbanization_category = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
+					instant_build = yes
 				}
 			}
 			# i klimatyczny iwencik
@@ -1005,6 +1087,7 @@ ZHP_deurbanization_category = {
 				var = ZHP_deurbanization_progress
 				value = 15
 			}
+			add_political_power = 100
 		}
 	}
 	
@@ -1031,6 +1114,48 @@ ZHP_deurbanization_category = {
 			add_to_variable = {
 				var = ZHP_deurbanization_progress
 				value = 10
+			}
+			269 = {
+				remove_building = {
+					type = infrastructure
+					level = 3
+				}
+			}
+			236 = {
+				remove_building = {
+					type = infrastructure
+					level = 3
+				}
+			}
+			309 = {
+				remove_building = {
+					type = infrastructure
+					level = 3
+				}
+			}
+			353 = {
+				remove_building = {
+					type = infrastructure
+					level = 3
+				}
+			}
+			340 = {
+				remove_building = {
+					type = infrastructure
+					level = 3
+				}
+			}
+			341 = {
+				remove_building = {
+					type = infrastructure
+					level = 2
+				}
+			}
+			321 = {
+				remove_building = {
+					type = infrastructure
+					level = 2
+				}
 			}
 		}
 	}
