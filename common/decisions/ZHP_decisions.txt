@@ -1041,64 +1041,8 @@ ZHP_deurbanization_category = {
 				var = ZHP_delodzizacja
 				value = 1
 			}
-			random_owned_state = {
-				limit = {
-					is_core_of = WML
-					NOT = {
-						has_state_flag = state_transformed
-					}
-				}
-				set_building_level = {
-					type = infrastructure
-					level = 1
-				}
-				set_building_level = {
-					type = industrial_complex
-					level = 0
-				}
-				set_building_level = {
-					type = arms_factory
-					level = 0
-				}
-				set_building_level = {
-					type = power_plant
-					level = 0
-				}
-				set_building_level = {
-					type = wind_farm
-					level = 0
-				}
-				set_state_flag = state_transformed
-			}
-			random_owned_state = {
-				limit = {
-					is_core_of = WML
-					NOT = {
-						has_state_flag = state_transformed
-					}
-				}
-				set_building_level = {
-					type = infrastructure
-					level = 1
-				}
-				set_building_level = {
-					type = industrial_complex
-					level = 0
-				}
-				set_building_level = {
-					type = arms_factory
-					level = 0
-				}
-				set_building_level = {
-					type = power_plant
-					level = 0
-				}
-				set_building_level = {
-					type = wind_farm
-					level = 0
-				}
-				set_state_flag = state_transformed
-			}
+			ZHP_destroy_quarter = yes
+			ZHP_destroy_quarter = yes
 		}
 	}
 	
@@ -1137,48 +1081,8 @@ ZHP_deurbanization_category = {
 				var = ZHP_delodzizacja
 				value = 1
 			}
-			random_owned_state = {
-				limit = {
-					is_core_of = WML
-					NOT = {
-						has_state_flag = state_transformed
-					}
-				}
-				remove_building = {
-					type = infrastructure
-					level = 1
-				}
-				add_building_construction = {
-					type = wind_farm
-					level = THIS.num_of_power_plants
-				}
-				set_building_level = {
-					type = power_plant
-					level = 0
-				}
-				set_state_flag = state_transformed
-			}
-			random_owned_state = {
-				limit = {
-					is_core_of = WML
-					NOT = {
-						has_state_flag = state_transformed
-					}
-				}
-				remove_building = {
-					type = infrastructure
-					level = 1
-				}
-				add_building_construction = {
-					type = wind_farm
-					level = THIS.num_of_power_plants
-				}
-				set_building_level = {
-					type = power_plant
-					level = 0
-				}
-				set_state_flag = state_transformed
-			}
+			ZHP_transforest_quarter = yes
+			ZHP_transforest_quarter = yes
 		}
 	}
 }
