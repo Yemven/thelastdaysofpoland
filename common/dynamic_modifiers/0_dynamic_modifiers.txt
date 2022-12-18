@@ -93,3 +93,13 @@ KRS_consortium_policy_5g_network_modifier = {
 	icon = GFX_pops
 	land_reinforce_rate = 0.1
 }
+
+ZHP_building_restrictions = {
+	icon = GFX_pops
+	production_speed_buildings_factor =-0.1
+}
+
+ZHP_low_emissions_restrictions = {
+	icon = GFX_pops
+	industrial_capacity_factory =-0.1
+}
