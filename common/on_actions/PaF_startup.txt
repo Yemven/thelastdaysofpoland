@@ -327,6 +327,9 @@ on_actions = {
 			}
 			ZHP = {
 				scoped_play_song = "intro_zhp"
+				hidden_effect = {
+					set_variable = { ZHP_deurbanization_progress = 0 }
+				}
 			}
 			RUD = {
 				scoped_play_song = "intro_ruda"
