@@ -419,7 +419,10 @@ guiTypes = {
 				size = { width = 345 height = 70 }
 				
 				verticalScrollbar = "right_vertical_slider"
-				
+				margin = {
+					#top = 6
+				}
+
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_tiled_window_transparent"
@@ -434,6 +437,7 @@ guiTypes = {
 					format = "UPPER_LEFT"
 				}
 				gridboxtype = {
+					position = { x = -18 y = -30 }
 					name = "spirit_grid_over_defined"
 					size = { width = 350 height = 100%% }
 					slotsize = { width = 60 height = 68 }
