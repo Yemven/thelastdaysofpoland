@@ -216,11 +216,12 @@ country_event = {
 	}
 	option = {
 		name = krs_meeting.1.b
-		load_oob = KRS_mercs
+		custom_effect_tooltip = KRS_meeting_mercs
 		hidden_effect = {
 			add_to_variable = { KRS_skrzyldewscy_holding_on = 5 }
 			add_to_variable = { all_shares = 5 }
 			KRS_calculate_shares = yes
+			load_oob = KRS_mercs			
 		}
 	}
 	option = {

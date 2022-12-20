@@ -122,6 +122,7 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			hidden_effect = {
+				set_country_flag = begin_shareholder_circus
 				set_variable = { KRS_skrzyldewscy_holding_on = 10 }
 				set_variable = { KRS_rutkowski_takeover = 10 }
 				set_variable = { KRS_skinhunters_takeover = 10 }
