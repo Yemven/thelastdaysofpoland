@@ -164,91 +164,7 @@ ideas = {
 			}
 		}
 		
-		KRS_recruitment_drive = {
 
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				weekly_manpower = 50
-				army_morale_factor = 0.1
-			}
-		}
-		
-		KRS_j22_compound = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				army_attack_factor = 0.05
-				army_defence_factor = 0.10
-				stability_factor = -0.1
-			}
-		}
-		
-		KRS_corporate_security = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				army_org_factor = 0.05
-				experience_loss_factor = -0.05
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
-			}
-		}
-		
-		KRS_vip_protection = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				recon_factor = 0.1
-				special_forces_cap = 0.02
-				special_forces_training_time_factor = -0.1
-				stability_factor = -0.1
-			}
-		}
-		
-		KRS_untrained_soliders = {
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = BBW_smog
-
-			modifier = {
-				land_reinforce_rate = 0.05
-				army_attack_factor = 0.02
-				attrition = -0.05
-			}
-		}
 		
 		KRS_armed_banditry = {
 
@@ -297,6 +213,23 @@ ideas = {
 			}
 		}
 		
+		KRS_j22_compound = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.10
+				stability_factor = -0.1
+			}
+		}
+
 		KRS_boneless = {
 
 			allowed_civil_war = {
@@ -310,12 +243,33 @@ ideas = {
 			modifier = {
 				stability_factor = -0.1
 				war_support_factor = -0.1
-				army_attack_factor = 0.15
-				army_defence_factor = 0.15
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
 				local_resources_factor = -0.1
 			}
 		}
+
 		KRS_boneless_2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = BBW_smog
+
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				breakthrough_factor = 0.1
+				local_resources_factor = -0.15				
+			}
+		}
+		
+		KRS_boneless_3 = {
 
 			allowed_civil_war = {
 				always = yes
@@ -328,10 +282,10 @@ ideas = {
 			modifier = {
 				stability_factor = -0.2
 				war_support_factor = -0.2
-				army_attack_factor = 0.25
-				army_defence_factor = 0.25
+				army_attack_factor = 0.2
+				army_defence_factor = 0.2
 				breakthrough_factor = 0.1
-				local_resources_factor = -0.15				
+				local_resources_factor = -0.2				
 			}
 		}
 		

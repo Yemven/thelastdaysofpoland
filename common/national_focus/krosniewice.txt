@@ -582,6 +582,7 @@ focus_tree = {
 		}
 	}
 
+
 	focus = {
 		id = KRS_divert_our_assets
 		icon = KRS_divert_our_assets
@@ -589,20 +590,9 @@ focus_tree = {
 		prerequisite = { focus = KRS_battle_for_lodzkie }
 		mutually_exclusive = { focus = KRS_establish_an_auxiliary_corps }
 		mutually_exclusive = { focus = KRS_roll_out_the_paramedics }
-		#available = {
-			#AND = {
-				#check_variable = {
-					#var = KRS_skrzyldewscy_holding_on
-					#value = KRS_skinhunters_takeover
-					#compare = greater_than_or_equals
-					#}
-				#check_variable = {
-					#var = KRS_skrzyldewscy_holding_on
-					#value = KRS_rutkowski_takeover
-					#compare = greater_than_or_equals
-					#}
-				#}
-		#}
+		available = {
+
+		}
 		
 		bypass = {
 		}
@@ -696,20 +686,9 @@ focus_tree = {
 		prerequisite = { focus = KRS_battle_for_lodzkie }
 		mutually_exclusive = { focus = KRS_divert_our_assets }
 		mutually_exclusive = { focus = KRS_roll_out_the_paramedics }
-		#available = {
-			#AND = {
-				#check_variable = {
-					#var = KRS_rutkowski_takeover
-					#value = KRS_skinhunters_takeover
-					#compare = greater_than_or_equals
-					#}
-				#check_variable = {
-					#var = KRS_rutkowski_takeover
-					#value = KRS_skrzyldewscy_holding_on
-					#compare = greater_than_or_equals
-					#}
-				#}
-		#}
+		available = {
+
+		}
 		
 		bypass = {
 		}
@@ -863,20 +842,9 @@ focus_tree = {
 		prerequisite = { focus = KRS_battle_for_lodzkie }
 		mutually_exclusive = { focus = KRS_establish_an_auxiliary_corps }
 		mutually_exclusive = { focus = KRS_divert_our_assets }
-		#available = {
-			#AND = {
-				#check_variable = {
-					#var = KRS_skinhunters_takeover
-					#value = KRS_skrzyldewscy_holding_on
-					#compare = greater_than_or_equals
-					#}
-				#check_variable = {
-					#var = KRS_skinhunters_takeover
-					#value = KRS_rutkowski_takeover
-					#compare = greater_than_or_equals
-					#}
-				#}
-		#}
+		available = {
+
+		}
 		
 		bypass = {
 		}
@@ -1457,14 +1425,21 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			if = {
-				limit = { has_idea = KRS_boneless }
+				limit = { has_idea = KRS_boneless
+						NOT = { has_idea = KRS_j22_compound } 
+						}
 					swap_ideas = {
 						remove_idea = KRS_boneless
 						add_idea = KRS_boneless_2
 					}
 				}
-			else = {
-				add_ideas = KRS_boneless
+			else_if = {
+				limit = { has_idea = KRS_boneless
+						has_idea = KRS_j22_compound }		
+					swap_ideas = {
+						remove_idea = KRS_boneless
+						add_idea = KRS_boneless_3
+					}
 				}
 		}
 	}
