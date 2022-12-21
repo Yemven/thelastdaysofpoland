@@ -418,9 +418,7 @@ guiTypes = {
 				position = { x = 90 y = 15 }
 				size = { width = 345 height = 90 }
 				horizontalScrollbar = "bottom_horizontal_slider"
-
 				
-
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_tiled_window_transparent"
@@ -428,10 +426,10 @@ guiTypes = {
 				
 				gridboxtype = {
 					name = "spirit_grid"
-					position = { x = 12 y = 20 }
+					position = { x = 15 y = 3 }
 					size = { width = 350 height = 100%% }
 					slotsize = { width = 60 height = 68 }
-					max_slots = { x = 5 y = 1 }
+					max_slots = { x = 100 y = 1 }
 					format = "UPPER_LEFT"
 				}
 				gridboxtype = {
@@ -441,6 +439,7 @@ guiTypes = {
 					slotsize = { width = 60 height = 68 }
 					max_slots_horizontal = 100
 					format = "UPPER_LEFT"
+
 				}
 			}
 		}
