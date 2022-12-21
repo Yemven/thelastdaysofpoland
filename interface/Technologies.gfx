@@ -1,6 +1,26 @@
 spriteTypes = {
 	SpriteType = {
-		name = "GFX_learning_to_fly_medium"
+		name = "GFX_bomber_usage_medium"
+		texturefile = "gfx/interface/technologies/bomber_usage.dds"
+	}
+	SpriteType = {
+		name = "GFX_attack_helicopter_usage_medium"
+		texturefile = "gfx/interface/technologies/attack_helicopter_usage.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_bomber_will_get_through_medium"
+		texturefile = "gfx/interface/technologies/bomber_primacy.dds"
+	}
+	SpriteType = {
+		name = "GFX_fighter_primacy_medium"
+		texturefile = "gfx/interface/technologies/fighter_primacy.dds"
+	}
+	SpriteType = {
+		name = "GFX_air_parity_medium"
+		texturefile = "gfx/interface/technologies/air_parity.dds"
+	}
+	SpriteType = {
+		name = "GFX_learning_to_fly_again_medium"
 		texturefile = "gfx/interface/technologies/learning_to_fly.dds"
 	}
 	SpriteType = {
