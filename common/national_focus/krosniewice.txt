@@ -1015,7 +1015,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 4
 		search_filters = {}
 		completion_reward = {
 		305 = {
@@ -1123,7 +1123,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 2
+		cost = 1
 		search_filters = {}
 		completion_reward = {
 			every_unit_leader = {
@@ -1203,7 +1203,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 2
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 			add_ideas = KRS_speedway_bikes
@@ -1271,7 +1271,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			add_equipment_to_stockpile = {
@@ -1302,7 +1302,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			swap_ideas = {
@@ -1326,7 +1326,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 			swap_ideas = {
@@ -1375,7 +1375,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			add_ideas = KRS_weaponised_pavulon_1
@@ -1396,7 +1396,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			army_experience = 50
@@ -1421,21 +1421,28 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 			if = {
-				limit = { has_idea = KRS_boneless
+				limit = { 
+					AND = {	
+						has_idea = KRS_boneless
 						NOT = { has_idea = KRS_j22_compound } 
 						}
+					}
 					swap_ideas = {
 						remove_idea = KRS_boneless
 						add_idea = KRS_boneless_2
 					}
 				}
 			else_if = {
-				limit = { has_idea = KRS_boneless
-						has_idea = KRS_j22_compound }		
+				limit = { 					
+					AND = {	
+						has_idea = KRS_boneless
+						NOT = { has_idea = KRS_j22_compound } 
+						}
+					}
 					swap_ideas = {
 						remove_idea = KRS_boneless
 						add_idea = KRS_boneless_3
@@ -1464,7 +1471,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		
-		cost = 1
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			declare_war_on = { 
@@ -1495,7 +1502,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 1
+		cost = 2
 		search_filters = {}
 		completion_reward = {
 			declare_war_on = { 
@@ -1580,7 +1587,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		
-		cost = 2
+		cost = 3
 		search_filters = {}
 		completion_reward = {
 		}
