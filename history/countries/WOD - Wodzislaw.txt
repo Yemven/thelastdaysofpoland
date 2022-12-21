@@ -32,7 +32,25 @@ set_technology = {
 
 set_convoys = 20
 
-
+#herder dodaj dla dursiu przed przemianą w wodzisław
+add_ideas = {
+monoparty
+state_press
+improvised_security
+witch_doctors
+military_industry_subsidies
+random_enlistment
+training_battle
+officer_clerks
+economy_corporatism
+taxes_low
+trade_regulated
+lgbt_illegal_punished
+drugs_illegal_unenforced
+women_traditional_roles
+minorities_ethnic_purity
+state_religion
+}
 
 
 recruit_character = WOD_bartosz_bekier
