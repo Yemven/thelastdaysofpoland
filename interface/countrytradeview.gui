@@ -14,7 +14,7 @@ guiTypes = {
 		
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_window_2b_border"
+			quadTextureSprite ="GFX_tiled_window"
 		}
 
 		iconType ={
@@ -279,7 +279,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "trade"
 			position = { x = 15 y = 427 }	
-			size = { width = 775 height = 100%% }
+			size = { width = 590 height = 100%% }
 			verticalScrollbar = "right_vertical_slider"
 						   
 						 

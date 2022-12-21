@@ -56,7 +56,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "spirit_idea_entry_small"
-		size = { width=60 height=70 }
+		size = { width=60 height=66 }
 		clipping = no
 		
 		iconType = {
@@ -961,16 +961,17 @@ guiTypes = {
 			position = { x = 250 y = 30 }
 			size = { width = 300 height = 70 }
 			slotsize = { width = 60 height = 68 }
-			max_slots = { x = 8 y = 1 }
+			max_slots = { x = 3 y = 1 }
 			format = "UPPER_LEFT"
+			horizontalScrollbar = "bottom_horizontal_slider"	
 		}
 		
 		gridboxtype = {
 			name = "spirit_grid_over_defined"
-			position = { x = 205 y = 1 }
+			position = { x = 250 y = 30 }
 			size = { width = 300 height = 70 }
-			slotsize = { width = 58 height = 32 }
-			max_slots = { x = 6 y = 2 }
+			slotsize = { width = 60 height = 68 }
+			max_slots = { x = 3 y = 1 }
 			format = "UPPER_LEFT"
 		}
 			
