@@ -271,7 +271,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "party_name"
 						position = { x = 5 y = -5 }
-						font = "cg_16b"
+						font = "stellaris_main"
 						text = "party"
 						maxWidth = 245
 						maxHeight = 20
@@ -291,7 +291,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "elections"
 						position = { x = 5 y = 25 }
-						font = "cg_16b"
+						font = "invisiblefont"
 						text = "elections"
 						maxWidth = 245
 						maxHeight = 20

@@ -35,6 +35,16 @@ guiTypes = {
 				maxHeight = 20
 				format = centre
 		}
+
+			instantTextboxType = {
+				name = "subideology"
+				position = { x = 27/ y = 90 }
+				font = "stellaris_main"
+				text = [Root.GetSubIdeologyLoc]
+				maxWidth = 270
+				maxHeight = 20
+				format = centre
+		}
 			
 		}
 }

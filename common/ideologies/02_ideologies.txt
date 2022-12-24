@@ -3,6 +3,11 @@ ideologies = {
 	marxism_cranism = {
 		types = {
 			marxism_cranism_subtype = {}
+			marxism_cranism_stalinism_subtype = { can_be_randomly_selected = no }
+			marxism_cranism_maoism_subtype = { can_be_randomly_selected = no }
+			marxism_cranism_peoples_army_subtype = { can_be_randomly_selected = no }
+			marxism_cranism_clubism_subtype = { can_be_randomly_selected = no }
+
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_MARXISM_CRANISM_1"
@@ -36,6 +41,9 @@ ideologies = {
 	squattism = {
 		types = {
 			squattism_subtype = {}
+			squattism_raider_rule_subtype = { can_be_randomly_selected = no }
+			squattism_anarcho_comunism_subtype = { can_be_randomly_selected = no }
+			squattism_anti_fascism_subtype = { can_be_randomly_selected = no }
 			}
 		dynamic_faction_names = {
 			"FACTION_NAME_SQUATTISM_1"
@@ -71,6 +79,9 @@ ideologies = {
 	socialdemocrature = {
 		types = {
 			socialdemocrature_subtype = {}
+			socialdemocrature_nordic_model_subtype = { can_be_randomly_selected = no }
+			socialdemocrature_humanitarianism_subtype = { can_be_randomly_selected = no }
+			socialdemocrature_progressivism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_SOCIALDEMOCRATURE_1"
@@ -105,6 +116,9 @@ ideologies = {
 	euroliberalism = {
 		types = {
 			euroliberalism_subtype = {}
+			euroliberalism_transisional_eurogovernment_subtype = { can_be_randomly_selected = no }
+			euroliberalism_regionalism_subtype = { can_be_randomly_selected = no }
+			euroliberalism_dialogue_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_EUROLIBERALISM_1"
@@ -139,7 +153,9 @@ ideologies = {
 	freemarketism = {
 		types = {
 			freemarketism_subtype = {}
-			korwinism_subtype = {}
+			freemarketism_american_liberalism_subtype = { can_be_randomly_selected = no }
+			freemarketism_anarchocapitalism_subtype = { can_be_randomly_selected = no }
+			korwinism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_FREEMARKETISM_1"
@@ -173,6 +189,10 @@ ideologies = {
 	paternal_conservatism = {
 		types = {
 			paternal_conservatism_subtype = {}
+			paternal_conservatism_liberal_conservatism_subtype = { can_be_randomly_selected = no }
+			paternal_conservatism_christian_democracy_subtype = { can_be_randomly_selected = no }
+			paternal_conservatism_national_conservatism_subtype = { can_be_randomly_selected = no }
+			paternal_conservatism_kaczynskism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_PATERNAL_CONSERVATISM_1"
@@ -206,6 +226,12 @@ ideologies = {
 	autocracy = {
 		types = {
 			autocracy_subtype = {}
+			autocracy_national_oligarchy_subtype = { can_be_randomly_selected = no }
+			autocracy_military_junta_subtype = { can_be_randomly_selected = no }
+			autocracy_absolutism_subtype = { can_be_randomly_selected = no }
+			autocracy_kleptocratic_statism_subtype = { can_be_randomly_selected = no }
+			autocracy_theocracy_subtype = { can_be_randomly_selected = no }
+			#autocracy_surveiliance_state_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_AUTOCRACY_1"
@@ -272,6 +298,14 @@ ideologies = {
 	neonationalism = {
 		types = {
 			neonationalism_subtype = {}
+			neonationalism_populist_dictatorship_subtype = { can_be_randomly_selected = no }
+			neonationalism_regional_nationalism_subtype = { can_be_randomly_selected = no }
+			neonationalism_national_socialism_subtype = { can_be_randomly_selected = no }
+			neonationalism_national_feminism_subtype = { can_be_randomly_selected = no }
+			neonationalism_national_argarianism_subtype = { can_be_randomly_selected = no }
+			neonationalism_national_bolshevism_subtype = { can_be_randomly_selected = no }
+			neonationalism_national_catholicism_subtype = { can_be_randomly_selected = no }
+			neonationalism_hooliganism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_NEONATIONALISM_1"
@@ -305,6 +339,13 @@ ideologies = {
 	reactionary = {
 		types = {
 			reactionary_subtype = {}
+			reactionary_traditional_monarchism_subtype = { can_be_randomly_selected = no }
+			reactionary_medievalism_subtype = { can_be_randomly_selected = no }
+			reactionary_sarmatism_subtype = { can_be_randomly_selected = no }
+			reactionary_sanation_subtype = { can_be_randomly_selected = no }
+			reactionary_paganism_subtype = { can_be_randomly_selected = no }
+			reactionary_radical_carbonism_subtype = { can_be_randomly_selected = no }
+			reactionary_militarism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_REACTIONARY_1"
@@ -338,7 +379,26 @@ ideologies = {
 	postpolonism = {
 		types = {
 			postpolonism_subtype = {}
-			scout_system_subtype = {}
+			postpolonism_romuva_revivalism_subtype = { can_be_randomly_selected = no }
+			postpolonism_light_side_of_the_force_subtype = { can_be_randomly_selected = no }
+			postpolonism_bloodmarketism_subtype = { can_be_randomly_selected = no }
+			postpolonism_nemesism_subtype = { can_be_randomly_selected = no }
+			postpolonism_astralism_subtype = { can_be_randomly_selected = no }
+			postpolonism_prepolonism_subtype = { can_be_randomly_selected = no }
+			postpolonism_redacted_subtype = { can_be_randomly_selected = no }
+			postpolonism_messianism_subtype = { can_be_randomly_selected = no }
+			postpolonism_pol_potism_subtype = { can_be_randomly_selected = no }
+			postpolonism_the_undead_horde_subtype = { can_be_randomly_selected = no }
+			postpolonism_dargon_cult_subtype = { can_be_randomly_selected = no }
+			postpolonism_valkism_subtype = { can_be_randomly_selected = no }
+			postpolonism_rastarafianism_subtype = { can_be_randomly_selected = no }
+			postpolonism_sanitarism_subtype = { can_be_randomly_selected = no }
+			postpolonism_posthumanism_subtype = { can_be_randomly_selected = no }
+			postpolonism_postrussianism_subtype = { can_be_randomly_selected = no }
+			postpolonism_1984_subtype = { can_be_randomly_selected = no }
+			postpolonism_inti_subtype = { can_be_randomly_selected = no }
+			postpolonism_nihilism_subtype = { can_be_randomly_selected = no }
+			scout_system_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_POSTPOLONISM_1"
