@@ -27,6 +27,7 @@ coring_category = {
 			log = "[GetDateText]: Decision core_the_state (v: [?FROM.coring_cost])"
 		}
 		remove_effect = {
+			PaF_change_capital_coring_prequel = yes
 			FROM = {
 				add_core_of = ROOT
 			}
