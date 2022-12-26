@@ -103,6 +103,10 @@ PaF_change_capital_coring_prequel = {
 					ROOT = { original_tag = KRO }
 				}
 				AND = {
+					FROM = { state = 319 }
+					ROOT = { original_tag = ZHP }
+				}
+				AND = {
 					FROM = { state = 565 }
 					ROOT = { can_change_to_srodmiescie = yes }
 				}
@@ -342,6 +346,20 @@ PaF_change_capital_coring = {
 			ROOT = { original_tag = ZIE }
 		}
 		set_capital = { state = 559 }
+	}
+	if = {
+		limit = {
+			ROOT = { original_tag = ZHP }
+		}
+		set_capital = { state = 319 }
+		set_victory_points = {
+			province = 12048
+			value = 30
+		}
+		set_province_name = {
+			id = 12048
+			name = "Spała"
+		}
 	}
 	if = {
 		limit = {
