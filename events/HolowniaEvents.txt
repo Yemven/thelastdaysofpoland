@@ -1191,40 +1191,40 @@ country_event = { #hołownia prosi o zaprzestanie walk
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_war_with = BBW
-			}
+#		if = {
+#			limit = {
+#				has_war_with = BBW
+#			}
 			white_peace = BBW
-		}
-		if = {
-			limit = {
-				has_war_with = KRS
-			}
+#		}
+#		if = {
+#			limit = {
+#				has_war_with = KRS
+#			}
 			white_peace = KRS
-		}
-		if = {
-			limit = {
-				has_war_with = SAP
-			}
+#		}
+#		if = {
+#			limit = {
+#				has_war_with = SAP
+#			}
 			white_peace = SAP
-		}
-		if = {
-			limit = {
-				has_war_with = ZHP
-			}
+#		}
+#		if = {
+#			limit = {
+#				has_war_with = ZHP
+#			}
 			white_peace = ZHP
-		}
-		if = {
-			limit = {
-				has_war_with = ZYD
-			}
+#		}
+#		if = {
+#			limit = {
+#				has_war_with = ZYD
+#			}
 			white_peace = ZYD
-		}
+#		}
 	}
 
 	option = { #pierdol sie
-		name = WML.35.a
+		name = WML.35.b
 		ai_chance = {
 			base = 0
 			modifier = {

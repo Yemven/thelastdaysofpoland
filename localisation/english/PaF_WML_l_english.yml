@@ -652,7 +652,11 @@ abb_transformatory:0 "ABB Transformer Factory"
  WML.21.desc:0 "Ms. Basia was well known in her neighborhood for two things: relentless monitoring of her yard's environs from her window and being a large, imposing person with an astonishing, if not mildly threatening aura. Over 1,8 meter tall and only a little less wide, she represented the type of elderly lady invulnerable to the Polish proverbial electrocuting. She was *the* local safekeeper - mostly because there was no other authority to enforce abiding to the law. For as long as Basia has been watching her surroundings, she'd seen a city guard two times at best: on the way to a speakeasy downstairs and stumbling out of it. \n\nNot that she really cared. Surely more city guards would make the not-really-black-but-darkish-grey market she'd just been to more annoying and expensive. However, as she was hauling her cart filled with groceries to home, a man in an once white, mud-stained tracksuit crossed her path. \n– Gimme 10 złoty or this crowbar's gonna sing Bad Boys Blue – he slurred, brandishing a rugged piece of iron. Basia noted the shaky movements, reached calmly to her purse and unloaded a shitton of teargas in the guy's eyes. \n\nUnfortunately, the madlad was high enough to become only enraged. He swung his crowbar violently, but while Basia evaded the hit and blocked his arms, in the subsequent clench she felt her strength waning. As she became weaker and weaker, she shouted for help, but no one came. The last thing she remembered, falling, was the thug’s face as he swung a crowbar at her head. \n\n– Who the fuck is that supposed to be? – a bald, pug-nosed man walked into the gate where the thug, sitting on the pavement, rumbled among things found in the cart. \n– That’s some good shit inside – he answered, lifting up a blueberry cottage cheese. The bald man grasped his throat, pressed him against the wall and whispered into his ear. \n– The deal was simple. First of all, you aim for men walking out of the speakeasy. Not into it, and certainly not women. Second, I give you meth, you give me cash or valuables. Is this a valuable? – asked the bald man, nodding to the cottage cheese. – You’ve crossed the line, I’m afraid. \n\nThe policeman reached for a taser and pointed it right to the thug’s heart. No fucking party tonight, only paperwork."
  WML.21.a:0 "Assault and battery, one fatality, suspect died of cardiac arrest due to drug use during apprehension."
 
- 
+ WML.35.t:0 "[WML.GetName] pleads to us for cease our war efforts"
+ WML.35.desc:0 "todo"
+ WML.35.a:0 "If they insist..."
+ WML.35.b:0 "They're out of their minds!"
+
  WML_total.1.t:0 "What? What? What?"
  WML_total.1.desc:0 ""
  WML_total.1.a:0 "łajno"
@@ -671,6 +675,9 @@ POLITICS_SZYMON_HOLOWNIA_DESC:0 "Leaving safe and comfortable work show bussines
 
  ##Decisions##
 WML_unifies_lodz_tooltip:0 "Gets event '§YThe Free City of Łódź Unifies the Łódź Voivodeship§!'"
+WML_enforce_peace_between_warlords:0 "Enforce peace between warlords"
+WML_plead_to_warlord_for_stop_fighting:0 "Plead to [FROM.GetName] to cease fighting"
+WML_plead_to_warlord_for_stop_fighting_desc:0 "Tip: Take care of dialogue with [FROM.GetName] to succeed"
 
 ####TOOLTIPS####
 WML_three_problems_big_decrease_tt:0 "Moderate §Gdecrease§! of the Five Problems effects!"
