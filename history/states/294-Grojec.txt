@@ -3,12 +3,15 @@ state={
 	id=294
 	name="STATE_294"
 	provinces={
-		1309 2051 3436 3809 
+		1309 2051 3436 3809 18984 18985 18986 18987 18988 18989 18990 18991 18992 18993 18994 18995 18996 18997 18998
 	}
 	manpower = 60936   state_category = town
 	buildings_max_level_factor=1.000
 								history = {
 		owner = SAT
+		victory_points = { 18988 1 }
+		victory_points = { 18993 1 }
+		victory_points = { 2051 1 }
 		add_core_of = SAT
 	buildings = {
 	infrastructure = 5

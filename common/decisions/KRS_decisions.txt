@@ -323,6 +323,10 @@ KRS_shareholders_competition_category = {
 		available = {
 			has_manpower > 499
 		}
+		custom_cost_trigger = {
+			has_manpower > 499
+		}
+		custom_cost_text = decision_cost_MP_500
 		complete_effect = {
 			log = "[GetDateText]: Decision KRS_underground_contacts"
 			add_manpower = -500

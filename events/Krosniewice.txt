@@ -216,11 +216,12 @@ country_event = {
 	}
 	option = {
 		name = krs_meeting.1.b
-		load_oob = KRS_mercs
+		custom_effect_tooltip = KRS_meeting_mercs
 		hidden_effect = {
 			add_to_variable = { KRS_skrzyldewscy_holding_on = 5 }
 			add_to_variable = { all_shares = 5 }
 			KRS_calculate_shares = yes
+			load_oob = KRS_mercs			
 		}
 	}
 	option = {
@@ -246,7 +247,6 @@ country_event = {
 
 	option = {
 		name = krs_meeting.2.a
-		add_ideas = KRS_checkpoint_adverts
 		hidden_effect = {
 			add_to_variable = { KRS_skrzyldewscy_holding_on = 5 }
 			add_to_variable = { all_shares = 5 }
@@ -274,7 +274,6 @@ country_event = {
 	}
 	option = {
 		name = krs_meeting.2.b
-		add_ideas = KRS_riot_eq_issued
 		hidden_effect = {
 			add_to_variable = { KRS_rutkowski_takeover = 5 }
 			add_to_variable = { all_shares = 5 }
@@ -523,10 +522,11 @@ country_event = {
 				instant_build = yes
 			}
 		}
-		swap_ideas = {
-			remove_idea = KRS_armed_banditry
-			add_idea = KRS_bandits_bought_out
-		}
+			remove_ideas = KRS_armed_banditry
+			add_timed_idea = {
+				idea = KRS_bandits_bought_out
+				days = 180
+			}
 		hidden_effect = {
 			add_to_variable = { KRS_skrzyldewscy_holding_on = 5 }
 			add_to_variable = { all_shares = 5 }
@@ -535,10 +535,12 @@ country_event = {
 	}
 	option = {
 		name = krs_meeting.6.b
-		swap_ideas = {
-			remove_idea = KRS_armed_banditry
-			add_idea = KRS_bandits_in_work_camps
-		}
+			remove_ideas = KRS_armed_banditry
+			add_timed_idea = {
+				idea = KRS_bandits_in_work_camps
+				days = 180
+			}
+
 		hidden_effect = {
 			add_to_variable = { KRS_rutkowski_takeover = 5 }
 			add_to_variable = { all_shares = 5 }
@@ -551,6 +553,8 @@ country_event = {
 			remove_idea = KRS_armed_banditry
 			add_idea = KRS_boneless
 		}
+		add_stability = -0.1
+		add_political_power = -50
 		hidden_effect = {
 			add_to_variable = { KRS_skinhunters_takeover = 5 }
 			add_to_variable = { all_shares = 5 }

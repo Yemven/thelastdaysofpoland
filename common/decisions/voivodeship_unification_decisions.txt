@@ -32,7 +32,7 @@ lodz_voivodeship_unification = {
 					news_event = { id = unification.4 }
 				}
 			}
-			custom_effect_tooltip = ZHP_unifies_lodz_tooltip
+			
 		}
 
 
@@ -53,7 +53,7 @@ lodz_voivodeship_unification = {
 					news_event = { id = unification.5 }
 				}
 			}
-			custom_effect_tooltip = SAP_unifies_lodz_tooltip
+			
 		}
 		
 
@@ -73,7 +73,7 @@ lodz_voivodeship_unification = {
 					news_event = { id = unification.5 }
 				}
 			}
-			custom_effect_tooltip = SAP_unifies_lodz_tooltip
+			
 		}
 
 
@@ -87,7 +87,7 @@ lodz_voivodeship_unification = {
 					news_event = { id = unification.1 }
 				}
 			}
-			custom_effect_tooltip = WML_unifies_lodz_tooltip
+			
 		}
 
 
@@ -102,7 +102,7 @@ lodz_voivodeship_unification = {
 					news_event = { id = unification.2 }
 				}
 			}
-			custom_effect_tooltip = BBW_unifies_lodz_tooltip
+			
 		}
 
 
@@ -120,7 +120,7 @@ lodz_voivodeship_unification = {
 					news_event = { id = unification.3 }
 				}
 			}
-			custom_effect_tooltip = ZYD_unifies_lodz_tooltip
+			
 		}
 
 		else_if = {
@@ -134,7 +134,7 @@ lodz_voivodeship_unification = {
 					news_event = { id = unification.37 }
 				}
 			}
-			custom_effect_tooltip = ZYD_unifies_lodz_tooltip
+			
 		}
 
 
@@ -149,7 +149,7 @@ lodz_voivodeship_unification = {
 					news_event = { id = unification.6 }
 				}
 			}
-			custom_effect_tooltip = KRS_unifies_lodz_tooltip
+			
 		}
 		
 		else_if = {
@@ -163,7 +163,7 @@ lodz_voivodeship_unification = {
 					news_event = { id = unification.35 }
 				}
 			}
-			custom_effect_tooltip = KRS_unifies_lodz_tooltip
+			
 		}
 		
 		else_if = {
@@ -177,7 +177,7 @@ lodz_voivodeship_unification = {
 					news_event = { id = unification.36 }
 				}
 			}
-			custom_effect_tooltip = KRS_unifies_lodz_tooltip
+			
 		}
 
 
@@ -215,7 +215,7 @@ lubelskie_voivodeship_unification = {
 					news_event = { id = unification.7 }
 				}
 			}
-			custom_effect_tooltip = CRN_unifies_lublin_tooltip
+			
 		}
 
 
@@ -229,7 +229,7 @@ lubelskie_voivodeship_unification = {
 					news_event = { id = unification.8 }
 				}
 			}
-			custom_effect_tooltip = PUL_unifies_lublin_tooltip
+			
 		}
 
 
@@ -243,7 +243,7 @@ lubelskie_voivodeship_unification = {
 					news_event = { id = unification.9 }
 				}
 			}
-			custom_effect_tooltip = KSN_unifies_lublin_tooltip
+			
 		}
 
 
@@ -257,7 +257,7 @@ lubelskie_voivodeship_unification = {
 					news_event = { id = unification.10 }
 				}
 			}
-			custom_effect_tooltip = SWD_unifies_lublin_tooltip
+			
 		}
 
 
@@ -270,7 +270,7 @@ lubelskie_voivodeship_unification = {
 					remember_old_capital = no
 				}
 			}
-			custom_effect_tooltip = ZUK_moves_capital_to_lublin
+			
 			set_cosmetic_tag = ZUK_voivodeship
 			hidden_effect = {
 				every_country = {
@@ -278,7 +278,7 @@ lubelskie_voivodeship_unification = {
 					news_event = { id = unification.11 }
 				}
 			}
-			custom_effect_tooltip = ZUK_unifies_lublin_tooltip
+			
 		}
 
 
@@ -292,7 +292,7 @@ lubelskie_voivodeship_unification = {
 					news_event = { id = unification.12 }
 				}
 			}
-			custom_effect_tooltip = BIL_unifies_lublin_tooltip
+			
 		}
 
 
@@ -306,7 +306,7 @@ lubelskie_voivodeship_unification = {
 					news_event = { id = unification.13 }
 				}
 			}
-			custom_effect_tooltip = BPD_unifies_lublin_tooltip
+			
 		}
 
 
@@ -344,7 +344,7 @@ zaglebie_voivodeship_unification = {
 					news_event = { id = unification.14 }
 				}
 			}
-			custom_effect_tooltip = DGR_unifies_zaglebie_tooltip
+			
 		}
 
 
@@ -358,7 +358,7 @@ zaglebie_voivodeship_unification = {
 					news_event = { id = unification.15 }
 				}
 			}
-			custom_effect_tooltip = SOS_unifies_zaglebie_tooltip
+			
 		}
 
 
@@ -372,7 +372,7 @@ zaglebie_voivodeship_unification = {
 					news_event = { id = unification.16 }
 				}
 			}
-			custom_effect_tooltip = JAW_unifies_zaglebie_tooltip
+			
 		}
 
 
@@ -387,7 +387,7 @@ zaglebie_voivodeship_unification = {
 					news_event = { id = unification.17 }
 				}
 			}
-			custom_effect_tooltip = ZAW_unifies_zaglebie_tooltip
+			
 		}
 
 
@@ -401,7 +401,7 @@ zaglebie_voivodeship_unification = {
 					news_event = { id = unification.18 }
 				}
 			}
-			custom_effect_tooltip = CCH_unifies_zaglebie_tooltip
+			
 		}
 
 
@@ -415,7 +415,7 @@ zaglebie_voivodeship_unification = {
 					news_event = { id = unification.19 }
 				}
 			}
-			custom_effect_tooltip = BRZ_unifies_zaglebie_tooltip
+			
 		}
 
 
@@ -429,7 +429,7 @@ zaglebie_voivodeship_unification = {
 					news_event = { id = unification.20 }
 				}
 			}
-			custom_effect_tooltip = JWK_unifies_zaglebie_tooltip
+			
 		}
 
 
@@ -468,7 +468,7 @@ upper_silesia_voivodeship_unification = {
 					news_event = { id = unification.21 }
 				}
 			}
-			custom_effect_tooltip = ASG_unifies_upper_silesia_tooltip
+			
 		}
 
 
@@ -482,7 +482,7 @@ upper_silesia_voivodeship_unification = {
 					news_event = { id = unification.22 }
 				}
 			}
-			custom_effect_tooltip = JWK_unifies_upper_silesia_tooltip
+			
 		}
 
 
@@ -496,7 +496,7 @@ upper_silesia_voivodeship_unification = {
 					news_event = { id = unification.23 }
 				}
 			}
-			custom_effect_tooltip = JSW_unifies_upper_silesia_tooltip
+			
 		}
 
 
@@ -510,7 +510,7 @@ upper_silesia_voivodeship_unification = {
 					news_event = { id = unification.24 }
 				}
 			}
-			custom_effect_tooltip = GLI_unifies_upper_silesia_tooltip
+			
 		}
 
 
@@ -524,7 +524,7 @@ upper_silesia_voivodeship_unification = {
 					news_event = { id = unification.25 }
 				}
 			}
-			custom_effect_tooltip = CHO_unifies_upper_silesia_tooltip
+			
 		}
 
 
@@ -538,7 +538,7 @@ upper_silesia_voivodeship_unification = {
 					news_event = { id = unification.26 }
 				}
 			}
-			custom_effect_tooltip = RAS_unifies_upper_silesia_tooltip
+			
 		}
 
 
@@ -552,7 +552,7 @@ upper_silesia_voivodeship_unification = {
 					news_event = { id = unification.27 }
 				}
 			}
-			custom_effect_tooltip = FER_unifies_upper_silesia_tooltip
+			
 		}
 
 
@@ -566,7 +566,7 @@ upper_silesia_voivodeship_unification = {
 					news_event = { id = unification.28 }
 				}
 			}
-			custom_effect_tooltip = RUD_unifies_upper_silesia_tooltip
+			
 		}
 
 
@@ -580,7 +580,7 @@ upper_silesia_voivodeship_unification = {
 					news_event = { id = unification.29 }
 				}
 			}
-			custom_effect_tooltip = KAT_unifies_upper_silesia_tooltip
+			
 		}
 
 
@@ -594,7 +594,7 @@ upper_silesia_voivodeship_unification = {
 					news_event = { id = unification.30 }
 				}
 			}
-			custom_effect_tooltip = TRC_unifies_upper_silesia_tooltip
+			
 		}
 	}
 
@@ -633,7 +633,7 @@ south_greater_poland_voivodeship_unification = {
 					news_event = { id = unification.31 }
 				}
 			}
-			custom_effect_tooltip = CAL_unifies_southern_greater_poland_tooltip
+			
 		}
 
 
@@ -647,7 +647,7 @@ south_greater_poland_voivodeship_unification = {
 					news_event = { id = unification.33 }
 				}
 			}
-			custom_effect_tooltip = CAL_unifies_southern_greater_poland_tooltip
+			
 		}
 
 
@@ -661,7 +661,7 @@ south_greater_poland_voivodeship_unification = {
 					news_event = { id = unification.32 }
 				}
 			}
-			custom_effect_tooltip = GNI_unifies_southern_greater_poland_tooltip
+			
 		}
 
 
@@ -675,7 +675,7 @@ south_greater_poland_voivodeship_unification = {
 					news_event = { id = unification.34 }
 				}
 			}
-			custom_effect_tooltip = SUS_unifies_southern_greater_poland_tooltip
+			
 		}
 
 }
@@ -713,7 +713,7 @@ tatry_unification = {
 					news_event = { id = unification.38 }
 				}
 			}
-			custom_effect_tooltip = CIE_unifies_tatry_tooltip
+			
 		}
 
 
@@ -728,7 +728,7 @@ tatry_unification = {
 					news_event = { id = unification.39 }
 				}
 			}
-			custom_effect_tooltip = BSK_unifies_tatry_tooltip
+			
 		}
 
 
@@ -742,7 +742,7 @@ tatry_unification = {
 					news_event = { id = unification.40 }
 				}
 			}
-			custom_effect_tooltip = GUR_unifies_tatry_tooltip
+			
 		}
 
 
@@ -756,7 +756,7 @@ tatry_unification = {
 					news_event = { id = unification.41 }
 				}
 			}
-			custom_effect_tooltip = MSL_unifies_tatry_tooltip
+			
 		}
 
 
@@ -770,7 +770,7 @@ tatry_unification = {
 					news_event = { id = unification.42 }
 				}
 			}
-			custom_effect_tooltip = SCZ_unifies_tatry_tooltip
+			
 		}
 
 
@@ -784,7 +784,7 @@ tatry_unification = {
 					news_event = { id = unification.43 }
 				}
 			}
-			custom_effect_tooltip = LEM_unifies_tatry_tooltip
+			
 		}
 
 
@@ -799,7 +799,7 @@ tatry_unification = {
 					news_event = { id = unification.44 }
 				}
 			}
-			custom_effect_tooltip = BSK_unifies_tatry_tooltip
+			
 		}
 
 
@@ -838,7 +838,7 @@ northen_greater_poland_voivodeship_unification = {
 					news_event = { id = unification.50 }
 				}
 			}
-			custom_effect_tooltip = POZ_unifies_southern_greater_poland_tooltip
+			
 		}
 
 
@@ -852,7 +852,7 @@ northen_greater_poland_voivodeship_unification = {
 					news_event = { id = unification.51 }
 				}
 			}
-			custom_effect_tooltip = SYJ_unifies_southern_greater_poland_tooltip
+			
 		}
 
 
@@ -866,7 +866,7 @@ northen_greater_poland_voivodeship_unification = {
 					news_event = { id = unification.52 }
 				}
 			}
-			custom_effect_tooltip = NAC_unifies_southern_greater_poland_tooltip
+			
 		}
 
 
@@ -880,7 +880,7 @@ northen_greater_poland_voivodeship_unification = {
 					news_event = { id = unification.61 }
 				}
 			}
-			custom_effect_tooltip = NAC_unifies_southern_greater_poland_tooltip
+			
 		}
 		
 		
@@ -894,7 +894,7 @@ northen_greater_poland_voivodeship_unification = {
 					news_event = { id = unification.53 }
 				}
 			}
-			custom_effect_tooltip = PIL_unifies_southern_greater_poland_tooltip
+			
 		}
 
 
@@ -934,7 +934,7 @@ lower_silesia_voivodeship_unification = {
 					news_event = { id = unification.46 }
 				}
 			}
-			custom_effect_tooltip = WRO_unifies_lower_silesia_tooltip
+			
 		}
 
 
@@ -948,7 +948,7 @@ lower_silesia_voivodeship_unification = {
 					news_event = { id = unification.47 }
 				}
 			}
-			custom_effect_tooltip = CZE_unifies_lower_silesia_tooltip
+			
 		}
 
 
@@ -962,7 +962,7 @@ lower_silesia_voivodeship_unification = {
 					news_event = { id = unification.45 }
 				}
 			}
-			custom_effect_tooltip = EKS_unifies_lower_silesia_tooltip
+			
 		}
 
 
@@ -976,7 +976,7 @@ lower_silesia_voivodeship_unification = {
 					news_event = { id = unification.48 }
 				}
 			}
-			custom_effect_tooltip = KGH_unifies_lower_silesia_tooltip
+			
 		}
 		
 		else_if = {
@@ -988,7 +988,7 @@ lower_silesia_voivodeship_unification = {
 					news_event = { id = unification.49 }
 				}
 			}
-			custom_effect_tooltip = RYB_unifies_lower_silesia_tooltip
+			
 		}
 		
 		else_if = {
@@ -1000,7 +1000,7 @@ lower_silesia_voivodeship_unification = {
 					news_event = { id = unification.57 }
 				}
 			}
-			custom_effect_tooltip = ANA_unifies_lower_silesia_tooltip
+			
 		}
 		
 		else_if = {
@@ -1012,7 +1012,7 @@ lower_silesia_voivodeship_unification = {
 					news_event = { id = unification.58 }
 				}
 			}
-			custom_effect_tooltip = ZUL_unifies_lower_silesia_tooltip
+			
 		}
 		
 		else_if = {
@@ -1024,7 +1024,7 @@ lower_silesia_voivodeship_unification = {
 					news_event = { id = unification.59 }
 				}
 			}
-			custom_effect_tooltip = MNL_unifies_lower_silesia_tooltip
+			
 		}
 		
 		else_if = {
@@ -1036,7 +1036,7 @@ lower_silesia_voivodeship_unification = {
 					news_event = { id = unification.60 }
 				}
 			}
-			custom_effect_tooltip = CYG_unifies_lower_silesia_tooltip
+			
 		}
 		
 		else_if = {
@@ -1048,7 +1048,7 @@ lower_silesia_voivodeship_unification = {
 					news_event = { id = unification.78 }
 				}
 			}
-			custom_effect_tooltip = MPK_unifies_lower_silesia_tooltip
+			
 		}
 
 
@@ -1092,7 +1092,7 @@ opole_voivodeship_unification = {
 					news_event = { id = unification.63 }
 				}
 			}
-			custom_effect_tooltip = MNI_unifies_opolskie_tooltip
+			
 		}
 
 
@@ -1107,7 +1107,7 @@ opole_voivodeship_unification = {
 					news_event = { id = unification.64 }
 				}
 			}
-			custom_effect_tooltip = OPO_unifies_opolskie_tooltip
+			
 		}
 
 
@@ -1122,7 +1122,7 @@ opole_voivodeship_unification = {
 					news_event = { id = unification.65 }
 				}
 			}
-			custom_effect_tooltip = LCH_unifies_opolskie_tooltip
+			
 		}
 
 
@@ -1137,7 +1137,7 @@ opole_voivodeship_unification = {
 					news_event = { id = unification.66 }
 				}
 			}
-			custom_effect_tooltip = WND_unifies_opolskie_tooltip
+			
 		}
 
 
@@ -1153,7 +1153,7 @@ opole_voivodeship_unification = {
 					news_event = { id = unification.67 }
 				}
 			}
-			custom_effect_tooltip = LEH_unifies_opolskie_tooltip
+			
 		}
 
 		else_if = {
@@ -1166,7 +1166,7 @@ opole_voivodeship_unification = {
 					news_event = { id = unification.68 }
 				}
 			}
-			custom_effect_tooltip = NYS_unifies_opolskie_tooltip
+			
 		}
 		
 
@@ -1205,7 +1205,7 @@ lubuskie_voivodeship_unification = {
 					news_event = { id = unification.69 }
 				}
 			}
-			custom_effect_tooltip = ZAG_unifies_lubuskie_tooltip
+			
 		}
 
 
@@ -1220,7 +1220,7 @@ lubuskie_voivodeship_unification = {
 					news_event = { id = unification.70 }
 				}
 			}
-			custom_effect_tooltip = WIN_unifies_lubuskie_tooltip
+			
 		}
 
 
@@ -1235,7 +1235,7 @@ lubuskie_voivodeship_unification = {
 					news_event = { id = unification.71 }
 				}
 			}
-			custom_effect_tooltip = KAM_unifies_lubuskie_tooltip
+			
 		}
 
 
@@ -1250,7 +1250,7 @@ lubuskie_voivodeship_unification = {
 					news_event = { id = unification.72 }
 				}
 			}
-			custom_effect_tooltip = MOT_unifies_lubuskie_tooltip
+			
 		}
 		
 
@@ -1290,7 +1290,7 @@ west_pomerania_voivodeship_unification = {
 					news_event = { id = unification.73 }
 				}
 			}
-			custom_effect_tooltip = JAS_unifies_west_pomerania_tooltip
+			
 		}
 
 
@@ -1305,7 +1305,7 @@ west_pomerania_voivodeship_unification = {
 					news_event = { id = unification.54 }
 				}
 			}
-			custom_effect_tooltip = EKW_unifies_west_pomerania_tooltip
+			
 		}
 
 
@@ -1320,7 +1320,7 @@ west_pomerania_voivodeship_unification = {
 					news_event = { id = unification.74 }
 				}
 			}
-			custom_effect_tooltip = STE_unifies_west_pomerania_tooltip
+			
 		}
 
 
@@ -1335,7 +1335,7 @@ west_pomerania_voivodeship_unification = {
 					news_event = { id = unification.75 }
 				}
 			}
-			custom_effect_tooltip = SWI_unifies_west_pomerania_tooltip
+			
 		}
 		
 		else_if = {
@@ -1348,7 +1348,7 @@ west_pomerania_voivodeship_unification = {
 					news_event = { id = unification.76 }
 				}
 			}
-			custom_effect_tooltip = JOM_unifies_west_pomerania_tooltip
+			
 		}	
 
 		else_if = {
@@ -1361,7 +1361,7 @@ west_pomerania_voivodeship_unification = {
 					news_event = { id = unification.77 }
 				}
 			}
-			custom_effect_tooltip = USP_unifies_west_pomerania_tooltip
+			
 		}	
 		
 		
@@ -1403,7 +1403,7 @@ kuyavia_voivodeship_unification = {
 					news_event = { id = unification.79 }
 				}
 			}
-			custom_effect_tooltip = INO_unifies_kuyavia_tooltip
+			
 		}
 
 
@@ -1418,7 +1418,7 @@ kuyavia_voivodeship_unification = {
 					news_event = { id = unification.80 }
 				}
 			}
-			custom_effect_tooltip = TOR_unifies_kuyavia_tooltip
+			
 		}
 
 
@@ -1433,7 +1433,7 @@ kuyavia_voivodeship_unification = {
 					news_event = { id = unification.81 }
 				}
 			}
-			custom_effect_tooltip = GRU_unifies_kuyavia_tooltip
+			
 		}
 
 
@@ -1448,7 +1448,7 @@ kuyavia_voivodeship_unification = {
 					news_event = { id = unification.82 }
 				}
 			}
-			custom_effect_tooltip = KUJ_unifies_kuyavia_tooltip
+			
 		}
 		
 		else_if = {
@@ -1461,7 +1461,7 @@ kuyavia_voivodeship_unification = {
 					news_event = { id = unification.83 }
 				}
 			}
-			custom_effect_tooltip = BYD_unifies_kuyavia_tooltip
+			
 		}	
 		
 		
@@ -1502,7 +1502,7 @@ pomerelia_voivodeship_unification = {
 					news_event = { id = unification.84 }
 				}
 			}
-			custom_effect_tooltip = OWS_unifies_pomerelia_tooltip
+			
 		}
 
 
@@ -1517,7 +1517,7 @@ pomerelia_voivodeship_unification = {
 					news_event = { id = unification.85 }
 				}
 			}
-			custom_effect_tooltip = BOL_unifies_pomerelia_tooltip
+			
 		}
 
 
@@ -1532,7 +1532,7 @@ pomerelia_voivodeship_unification = {
 					news_event = { id = unification.86 }
 				}
 			}
-			custom_effect_tooltip = GDA_unifies_pomerelia_tooltip
+			
 		}
 
 
@@ -1547,7 +1547,7 @@ pomerelia_voivodeship_unification = {
 					news_event = { id = unification.87 }
 				}
 			}
-			custom_effect_tooltip = GAY_unifies_pomerelia_tooltip
+			
 		}
 		
 		else_if = {
@@ -1560,7 +1560,7 @@ pomerelia_voivodeship_unification = {
 					news_event = { id = unification.88 }
 				}
 			}
-			custom_effect_tooltip = KSZ_unifies_pomerelia_tooltip
+			
 		}	
 
 		else_if = {
@@ -1573,7 +1573,7 @@ pomerelia_voivodeship_unification = {
 					news_event = { id = unification.89 }
 				}
 			}
-			custom_effect_tooltip = HEL_unifies_pomerelia_tooltip
+			
 		}	
 		
 		else_if = {
@@ -1586,7 +1586,7 @@ pomerelia_voivodeship_unification = {
 					news_event = { id = unification.90 }
 				}
 			}
-			custom_effect_tooltip = CZL_unifies_pomerelia_tooltip
+			
 		}	
 
 		else_if = {
@@ -1599,7 +1599,7 @@ pomerelia_voivodeship_unification = {
 					news_event = { id = unification.91 }
 				}
 			}
-			custom_effect_tooltip = LOT_unifies_pomerelia_tooltip
+			
 		}	
 
 		else_if = {
@@ -1612,7 +1612,7 @@ pomerelia_voivodeship_unification = {
 					news_event = { id = unification.92 }
 				}
 			}
-			custom_effect_tooltip = KOR_unifies_pomerelia_tooltip
+			
 		}		
 
 	}
@@ -1652,7 +1652,7 @@ warmia_and_masuria_voivodeship_unification = {
 					news_event = { id = unification.93 }
 				}
 			}
-			custom_effect_tooltip = MAL_unifies_warmia_and_masuria_tooltip
+			
 		}
 
 
@@ -1667,7 +1667,7 @@ warmia_and_masuria_voivodeship_unification = {
 					news_event = { id = unificationreg.56 }
 				}
 			}
-			custom_effect_tooltip = ROS_unifies_warmia_and_masuria_tooltip
+			
 		}
 
 
@@ -1682,7 +1682,7 @@ warmia_and_masuria_voivodeship_unification = {
 					news_event = { id = unification.94 }
 				}
 			}
-			custom_effect_tooltip = TEU_unifies_warmia_and_masuria_tooltip
+			
 		}
 
 
@@ -1697,7 +1697,7 @@ warmia_and_masuria_voivodeship_unification = {
 					news_event = { id = unification.95 }
 				}
 			}
-			custom_effect_tooltip = PRU_unifies_warmia_and_masuria_tooltip
+			
 		}
 		
 		else_if = {
@@ -1710,7 +1710,7 @@ warmia_and_masuria_voivodeship_unification = {
 					news_event = { id = unification.96 }
 				}
 			}
-			custom_effect_tooltip = PZW_unifies_warmia_and_masuria_tooltip
+			
 		}	
 
 		else_if = {
@@ -1723,7 +1723,7 @@ warmia_and_masuria_voivodeship_unification = {
 					news_event = { id = unification.97 }
 				}
 			}
-			custom_effect_tooltip = WRM_unifies_warmia_and_masuria_tooltip
+			
 		}	
 	
 
@@ -1764,7 +1764,7 @@ podlasie_voivodeship_unification = {
 					news_event = { id = unification.98 }
 				}
 			}
-			custom_effect_tooltip = SAN_unifies_podlasie_tooltip
+			
 		}
 
 
@@ -1779,7 +1779,7 @@ podlasie_voivodeship_unification = {
 					news_event = { id = unification.99 }
 				}
 			}
-			custom_effect_tooltip = TAT_unifies_podlasie_tooltip
+			
 		}
 
 
@@ -1794,7 +1794,7 @@ podlasie_voivodeship_unification = {
 					news_event = { id = unification.100 }
 				}
 			}
-			custom_effect_tooltip = BOM_unifies_podlasie_tooltip
+			
 		}
 
 
@@ -1809,7 +1809,7 @@ podlasie_voivodeship_unification = {
 					news_event = { id = unification.101 }
 				}
 			}
-			custom_effect_tooltip = KON_unifies_podlasie_tooltip
+			
 		}
 		
 		else_if = {
@@ -1822,7 +1822,7 @@ podlasie_voivodeship_unification = {
 					news_event = { id = unification.102 }
 				}
 			}
-			custom_effect_tooltip = BEL_unifies_podlasie_tooltip
+			
 		}	
 
 		else_if = {
@@ -1835,7 +1835,7 @@ podlasie_voivodeship_unification = {
 					news_event = { id = unification.103 }
 				}
 			}
-			custom_effect_tooltip = LMZ_unifies_podlasie_tooltip
+			
 		}	
 	
 		else_if = {
@@ -1848,7 +1848,7 @@ podlasie_voivodeship_unification = {
 					news_event = { id = unification.104 }
 				}
 			}
-			custom_effect_tooltip = SDL_unifies_podlasie_tooltip
+			
 		}
 		
 		else_if = {
@@ -1861,7 +1861,7 @@ podlasie_voivodeship_unification = {
 					news_event = { id = unification.105 }
 				}
 			}
-			custom_effect_tooltip = AGR_unifies_podlasie_tooltip
+			
 		}		
 
 
@@ -1902,7 +1902,7 @@ radom_province_voivodeship_unification = {
 					news_event = { id = unification.106 }
 				}
 			}
-			custom_effect_tooltip = SAT_unifies_radom_province_tooltip
+			
 		}
 
 
@@ -1917,7 +1917,7 @@ radom_province_voivodeship_unification = {
 					news_event = { id = unification.107 }
 				}
 			}
-			custom_effect_tooltip = RAD_unifies_radom_province_tooltip
+			
 		}
 
 
@@ -1932,7 +1932,7 @@ radom_province_voivodeship_unification = {
 					news_event = { id = unification.108 }
 				}
 			}
-			custom_effect_tooltip = GAR_unifies_radom_province_tooltip
+			
 		}
 
 
@@ -1947,7 +1947,7 @@ radom_province_voivodeship_unification = {
 					news_event = { id = unification.109 }
 				}
 			}
-			custom_effect_tooltip = SKA_unifies_radom_province_tooltip
+			
 		}		
 
 
@@ -1988,7 +1988,7 @@ mazovia_voivodeship_unification = {
 					news_event = { id = unification.110 }
 				}
 			}
-			custom_effect_tooltip = ORL_unifies_mazovia_tooltip
+			
 		}
 
 
@@ -2003,7 +2003,7 @@ mazovia_voivodeship_unification = {
 					news_event = { id = unification.55 }
 				}
 			}
-			custom_effect_tooltip = SAS_unifies_mazovia_tooltip
+			
 		}
 
 
@@ -2018,7 +2018,7 @@ mazovia_voivodeship_unification = {
 					news_event = { id = unification.111 }
 				}
 			}
-			custom_effect_tooltip = POL_unifies_mazovia_tooltip
+			
 		}	
 
 
@@ -2059,7 +2059,7 @@ capital_district_voivodeship_unification = {
 					news_event = { id = unification.112 }
 				}
 			}
-			custom_effect_tooltip = MAF_unifies_capital_district_tooltip
+			
 		}
 
 
@@ -2074,7 +2074,7 @@ capital_district_voivodeship_unification = {
 					news_event = { id = unification.113 }
 				}
 			}
-			custom_effect_tooltip = WOW_unifies_capital_district_tooltip
+			
 		}
 
 
@@ -2089,7 +2089,7 @@ capital_district_voivodeship_unification = {
 					news_event = { id = unification.114 }
 				}
 			}
-			custom_effect_tooltip = ZYR_unifies_capital_district_tooltip
+			
 		}	
 
 
@@ -2103,7 +2103,7 @@ capital_district_voivodeship_unification = {
 					news_event = { id = unification.115 }
 				}
 			}
-			custom_effect_tooltip = DUP_unifies_capital_district_tooltip
+			
 		}
 
 
@@ -2118,7 +2118,7 @@ capital_district_voivodeship_unification = {
 					news_event = { id = unification.116 }
 				}
 			}
-			custom_effect_tooltip = BIE_unifies_capital_district_tooltip
+			
 		}
 		
 		else_if = {
@@ -2131,7 +2131,7 @@ capital_district_voivodeship_unification = {
 					news_event = { id = unification.117 }
 				}
 			}
-			custom_effect_tooltip = PLC_unifies_capital_district_tooltip
+			
 		}
 
 
@@ -2146,7 +2146,7 @@ capital_district_voivodeship_unification = {
 					news_event = { id = unification.118 }
 				}
 			}
-			custom_effect_tooltip = ZIE_unifies_capital_district_tooltip
+			
 		}
 	
 	
@@ -2160,7 +2160,7 @@ capital_district_voivodeship_unification = {
 					news_event = { id = unification.119 }
 				}
 			}
-			custom_effect_tooltip = TVP_unifies_capital_district_tooltip
+			
 		}
 
 
@@ -2175,7 +2175,7 @@ capital_district_voivodeship_unification = {
 					news_event = { id = unification.120 }
 				}
 			}
-			custom_effect_tooltip = TRZ_unifies_capital_district_tooltip
+			
 		}
 	}
 
@@ -2216,7 +2216,7 @@ holy_cross_voivodeship_unification = {
 					news_event = { id = unification.121 }
 				}
 			}
-			custom_effect_tooltip = KEL_unifies_holy_cross_tooltip
+			
 		}
 
 
@@ -2231,7 +2231,7 @@ holy_cross_voivodeship_unification = {
 					news_event = { id = unification.122 }
 				}
 			}
-			custom_effect_tooltip = NRA_unifies_holy_cross_tooltip
+			
 		}
 
 
@@ -2246,7 +2246,7 @@ holy_cross_voivodeship_unification = {
 					news_event = { id = unification.123 }
 				}
 			}
-			custom_effect_tooltip = NSZ_unifies_holy_cross_tooltip
+			
 		}	
 
 
@@ -2260,7 +2260,7 @@ holy_cross_voivodeship_unification = {
 					news_event = { id = unification.124 }
 				}
 			}
-			custom_effect_tooltip = SND_unifies_holy_cross_tooltip
+			
 		}
 
 
@@ -2275,7 +2275,7 @@ holy_cross_voivodeship_unification = {
 					news_event = { id = unification.125 }
 				}
 			}
-			custom_effect_tooltip = KIE_unifies_holy_cross_tooltip
+			
 		}
 		
 		else_if = {
@@ -2288,7 +2288,7 @@ holy_cross_voivodeship_unification = {
 					news_event = { id = unification.126 }
 				}
 			}
-			custom_effect_tooltip = STO_unifies_holy_cross_tooltip
+			
 		}
 
 
@@ -2303,7 +2303,7 @@ holy_cross_voivodeship_unification = {
 					news_event = { id = unification.127 }
 				}
 			}
-			custom_effect_tooltip = STA_unifies_holy_cross_tooltip
+			
 		}
 
 	}
@@ -2344,7 +2344,7 @@ subcarpathia_voivodeship_unification = {
 					news_event = { id = unification.128 }
 				}
 			}
-			custom_effect_tooltip = RZE_unifies_subcarpathia_tooltip
+			
 		}
 
 
@@ -2359,7 +2359,7 @@ subcarpathia_voivodeship_unification = {
 					news_event = { id = unification.129 }
 				}
 			}
-			custom_effect_tooltip = CHR_unifies_subcarpathia_tooltip
+			
 		}
 
 
@@ -2374,7 +2374,7 @@ subcarpathia_voivodeship_unification = {
 					news_event = { id = unification.130 }
 				}
 			}
-			custom_effect_tooltip = UPA_unifies_subcarpathia_tooltip
+			
 		}	
 
 
@@ -2388,7 +2388,7 @@ subcarpathia_voivodeship_unification = {
 					news_event = { id = unification.131 }
 				}
 			}
-			custom_effect_tooltip = KOZ_unifies_subcarpathia_tooltip
+			
 		}
 
 
@@ -2403,7 +2403,7 @@ subcarpathia_voivodeship_unification = {
 					news_event = { id = unification.132 }
 				}
 			}
-			custom_effect_tooltip = BSC_unifies_subcarpathia_tooltip
+			
 		}
 		
 		else_if = {
@@ -2416,7 +2416,7 @@ subcarpathia_voivodeship_unification = {
 					news_event = { id = unification.133 }
 				}
 			}
-			custom_effect_tooltip = KRO_unifies_subcarpathia_tooltip
+			
 		}
 
 
@@ -2431,7 +2431,7 @@ subcarpathia_voivodeship_unification = {
 					news_event = { id = unification.134 }
 				}
 			}
-			custom_effect_tooltip = TAR_unifies_subcarpathia_tooltip
+			
 		}
 		
 		else_if = {
@@ -2444,7 +2444,7 @@ subcarpathia_voivodeship_unification = {
 					news_event = { id = unification.135 }
 				}
 			}
-			custom_effect_tooltip = LGP_unifies_subcarpathia_tooltip
+			
 		}
 
 	}
@@ -2486,7 +2486,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.136 }
 				}
 			}
-			custom_effect_tooltip = KRK_unifies_lesser_poland_tooltip
+			
 		}
 
 
@@ -2501,7 +2501,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.62 }
 				}
 			}
-			custom_effect_tooltip = PRK_unifies_lesser_poland_tooltip
+			
 		}
 
 
@@ -2516,7 +2516,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.137 }
 				}
 			}
-			custom_effect_tooltip = NHT_unifies_lesser_poland_tooltip
+			
 		}	
 
 
@@ -2530,7 +2530,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.138 }
 				}
 			}
-			custom_effect_tooltip = WDW_unifies_lesser_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -2543,7 +2543,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.139 }
 				}
 			}
-			custom_effect_tooltip = TRN_unifies_lesser_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -2556,7 +2556,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.140 }
 				}
 			}
-			custom_effect_tooltip = OSW_unifies_lesser_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -2569,7 +2569,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.141 }
 				}
 			}
-			custom_effect_tooltip = UMN_unifies_lesser_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -2582,7 +2582,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.142 }
 				}
 			}
-			custom_effect_tooltip = HOR_unifies_lesser_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -2595,7 +2595,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.143 }
 				}
 			}
-			custom_effect_tooltip = KRA_unifies_lesser_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -2608,7 +2608,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.144 }
 				}
 			}
-			custom_effect_tooltip = BRK_unifies_lesser_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -2621,7 +2621,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.145 }
 				}
 			}
-			custom_effect_tooltip = WND_unifies_lesser_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -2634,7 +2634,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.146 }
 				}
 			}
-			custom_effect_tooltip = HAB_unifies_lesser_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -2647,7 +2647,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.147 }
 				}
 			}
-			custom_effect_tooltip = AGH_unifies_lesser_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -2660,7 +2660,7 @@ lesser_poland_voivodeship_unification = {
 					news_event = { id = unification.148 }
 				}
 			}
-			custom_effect_tooltip = UJG_unifies_lesser_poland_tooltip
+			
 		}
 
 	}

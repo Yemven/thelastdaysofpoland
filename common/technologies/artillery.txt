@@ -273,7 +273,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_mbt_cannon
-			tank
+			#tank
 		}
 		path = {
 			leads_to_tech = heavy_artillery2
@@ -701,7 +701,7 @@ technologies = {
 	
 	rocket_artillery = {
 		enable_equipments = {
-			rocket_artillery_equipment
+			rocket_artillery_equipment_1
 		}
 		enable_equipment_modules = {
 			tank_rocket_launcher

@@ -7,7 +7,7 @@ poland_unification = {
 	
 	available = {
 		custom_trigger_tooltip = {
-			tooltip = controls_western_poland
+			tooltip = controls_poland
 			can_unify_poland = yes
 		}
 	}
@@ -44,7 +44,7 @@ poland_unification = {
 					news_event = { id = super.1 }
 				}
 			}
-			custom_effect_tooltip = BBW_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -58,7 +58,7 @@ poland_unification = {
 					news_event = { id = super.2 }
 				}
 			}
-			custom_effect_tooltip = BBW_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -72,7 +72,7 @@ poland_unification = {
 					news_event = { id = super.3 }
 				}
 			}
-			custom_effect_tooltip = DGR_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -86,7 +86,7 @@ poland_unification = {
 					news_event = { id = super.4 }
 				}
 			}
-			custom_effect_tooltip = DGR_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -100,7 +100,7 @@ poland_unification = {
 					news_event = { id = super.20 }
 				}
 			}
-			custom_effect_tooltip = DGR_unifies_poland_tooltip
+			
 		}	
 
 
@@ -114,7 +114,7 @@ poland_unification = {
 					news_event = { id = super.6 }
 				}
 			}
-			custom_effect_tooltip = KRS_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -127,7 +127,7 @@ poland_unification = {
 					news_event = { id = super.7 }
 				}
 			}
-			custom_effect_tooltip = KRS_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -140,7 +140,7 @@ poland_unification = {
 					news_event = { id = super.8 }
 				}
 			}
-			custom_effect_tooltip = KRS_unifies_poland_tooltip
+			
 		}
 		else_if = {
 			limit = { tag = SAP
@@ -152,7 +152,7 @@ poland_unification = {
 					news_event = { id = super.9 }
 				}
 			}
-			custom_effect_tooltip = SAP_unifies_poland_tooltip
+			
 		}
 
 		
@@ -166,7 +166,7 @@ poland_unification = {
 					news_event = { id = super.10 }
 				}
 			}
-			custom_effect_tooltip = SAP_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -179,7 +179,7 @@ poland_unification = {
 					news_event = { id = super.11 }
 				}
 			}
-			custom_effect_tooltip = SAP_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -196,7 +196,7 @@ poland_unification = {
 					news_event = { id = super.12 }
 				}
 			}
-			custom_effect_tooltip = WML_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -213,7 +213,7 @@ poland_unification = {
 					news_event = { id = super.13 }
 				}
 			}
-			custom_effect_tooltip = WML_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -226,7 +226,7 @@ poland_unification = {
 					news_event = { id = super.14 }
 				}
 			}
-			custom_effect_tooltip = ZHP_unifies_poland_tooltip
+			
 		}
 		else_if = {
 			limit = { tag = ZHP
@@ -238,7 +238,7 @@ poland_unification = {
 					news_event = { id = super.15 }
 				}
 			}
-			custom_effect_tooltip = ZHP_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -251,7 +251,7 @@ poland_unification = {
 					news_event = { id = super.16 }
 				}
 			}
-			custom_effect_tooltip = ZHP_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -264,7 +264,7 @@ poland_unification = {
 					news_event = { id = super.18 }
 				}
 			}
-			custom_effect_tooltip = ZYD_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -279,7 +279,7 @@ poland_unification = {
 					news_event = { id = super.19 }
 				}
 			}
-			custom_effect_tooltip = ZYD_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -294,7 +294,7 @@ poland_unification = {
 					news_event = { id = super.21 }
 				}
 			}
-			custom_effect_tooltip = WOD_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -309,7 +309,7 @@ poland_unification = {
 					news_event = { id = super.22 }
 				}
 			}
-			custom_effect_tooltip = WOD_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -324,7 +324,7 @@ poland_unification = {
 					news_event = { id = super.23 }
 				}
 			}
-			custom_effect_tooltip = WOD_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -339,7 +339,7 @@ poland_unification = {
 					news_event = { id = super.24 }
 				}
 			}
-			custom_effect_tooltip = CIE_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -354,7 +354,7 @@ poland_unification = {
 					news_event = { id = super.25 }
 				}
 			}
-			custom_effect_tooltip = BSK_unifies_poland_tooltip
+			
 		}
 		
 		
@@ -370,7 +370,7 @@ poland_unification = {
 					news_event = { id = super.26 }
 				}
 			}
-			custom_effect_tooltip = BSK_unifies_poland_tooltip
+			
 		}
 
 
@@ -386,7 +386,7 @@ poland_unification = {
 					news_event = { id = super.27 }
 				}
 			}
-			custom_effect_tooltip = JSW_unifies_poland_tooltip
+			
 		}	
 		
 		
@@ -402,7 +402,7 @@ poland_unification = {
 					news_event = { id = super.28 }
 				}
 			}
-			custom_effect_tooltip = JSW_unifies_poland_tooltip
+			
 		}
 
 
@@ -418,7 +418,7 @@ poland_unification = {
 					news_event = { id = super.29 }
 				}
 			}
-			custom_effect_tooltip = JSW_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -433,7 +433,7 @@ poland_unification = {
 					news_event = { id = super.30 }
 				}
 			}
-			custom_effect_tooltip = KAT_unifies_poland_tooltip
+			
 		}	
 		
 		
@@ -449,7 +449,7 @@ poland_unification = {
 					news_event = { id = super.31 }
 				}
 			}
-			custom_effect_tooltip = KAT_unifies_poland_tooltip
+			
 		}
 
 
@@ -465,7 +465,7 @@ poland_unification = {
 					news_event = { id = super.32 }
 				}
 			}
-			custom_effect_tooltip = KAT_unifies_poland_tooltip
+			
 		}
 		
 		
@@ -481,7 +481,7 @@ poland_unification = {
 					news_event = { id = super.33 }
 				}
 			}
-			custom_effect_tooltip = GLI_unifies_poland_tooltip
+			
 		}
 
 
@@ -497,7 +497,7 @@ poland_unification = {
 					news_event = { id = super.34 }
 				}
 			}
-			custom_effect_tooltip = GLI_unifies_poland_tooltip
+			
 		}		
 		
 		else_if = {
@@ -511,7 +511,7 @@ poland_unification = {
 					news_event = { id = super.35 }
 				}
 			}
-			custom_effect_tooltip = RAS_unifies_poland_tooltip
+			
 		}	
 
 		else_if = {
@@ -525,7 +525,7 @@ poland_unification = {
 					news_event = { id = super.36 }
 				}
 			}
-			custom_effect_tooltip = CHO_unifies_poland_tooltip
+			
 		}	
 
 		else_if = {
@@ -542,7 +542,7 @@ poland_unification = {
 					news_event = { id = super.37 }
 				}
 			}
-			custom_effect_tooltip = JAW_unifies_poland_tooltip
+			
 		}
 
 
@@ -560,7 +560,7 @@ poland_unification = {
 					news_event = { id = super.38 }
 				}
 			}
-			custom_effect_tooltip = JAW_unifies_poland_tooltip
+			
 		}		
 	
 		else_if = {
@@ -575,7 +575,7 @@ poland_unification = {
 					news_event = { id = super.39 }
 				}
 			}
-			custom_effect_tooltip = SOS_unifies_poland_tooltip
+			
 		}
 
 
@@ -591,7 +591,7 @@ poland_unification = {
 					news_event = { id = super.40 }
 				}
 			}
-			custom_effect_tooltip = SOS_unifies_poland_tooltip
+			
 		}	
 	
 		else_if = {
@@ -605,7 +605,7 @@ poland_unification = {
 					news_event = { id = super.41 }
 				}
 			}
-			custom_effect_tooltip = ZAW_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -620,7 +620,7 @@ poland_unification = {
 					news_event = { id = super.42 }
 				}
 			}
-			custom_effect_tooltip = JWK_unifies_poland_tooltip
+			
 		}
 
 
@@ -636,7 +636,7 @@ poland_unification = {
 					news_event = { id = super.43 }
 				}
 			}
-			custom_effect_tooltip = JWK_unifies_poland_tooltip
+			
 		}
 
 
@@ -652,7 +652,7 @@ poland_unification = {
 					news_event = { id = super.44 }
 				}
 			}
-			custom_effect_tooltip = CCH_unifies_poland_tooltip
+			
 		}
 
 
@@ -668,7 +668,7 @@ poland_unification = {
 					news_event = { id = super.45 }
 				}
 			}
-			custom_effect_tooltip = CCH_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -683,7 +683,7 @@ poland_unification = {
 					news_event = { id = super.46 }
 				}
 			}
-			custom_effect_tooltip = CCH_unifies_poland_tooltip
+			
 		}
 		
 		
@@ -699,7 +699,7 @@ poland_unification = {
 					news_event = { id = super.47 }
 				}
 			}
-			custom_effect_tooltip = BRZ_unifies_poland_tooltip
+			
 		}
 
 
@@ -715,7 +715,7 @@ poland_unification = {
 					news_event = { id = super.48 }
 				}
 			}
-			custom_effect_tooltip = BRZ_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -730,7 +730,7 @@ poland_unification = {
 					news_event = { id = super.49 }
 				}
 			}
-			custom_effect_tooltip = BRZ_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -745,7 +745,7 @@ poland_unification = {
 					news_event = { id = super.50 }
 				}
 			}
-			custom_effect_tooltip = LEH_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -760,7 +760,7 @@ poland_unification = {
 					news_event = { id = super.51 }
 				}
 			}
-			custom_effect_tooltip = LCH_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -775,7 +775,7 @@ poland_unification = {
 					news_event = { id = super.52 }
 				}
 			}
-			custom_effect_tooltip = WAN_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -789,7 +789,7 @@ poland_unification = {
 					news_event = { id = super.53 }
 				}
 			}
-			custom_effect_tooltip = OPO_unifies_poland_tooltip
+			
 		}
 		
 		else_if = {
@@ -803,7 +803,7 @@ poland_unification = {
 					news_event = { id = super.58 }
 				}
 			}
-			custom_effect_tooltip = LMZ_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -817,7 +817,7 @@ poland_unification = {
 					news_event = { id = super.57 }
 				}
 			}
-			custom_effect_tooltip = KON_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -831,7 +831,7 @@ poland_unification = {
 					news_event = { id = super.56 }
 				}
 			}
-			custom_effect_tooltip = BOM_unifies_poland_tooltip
+			
 		}
 
 
@@ -847,7 +847,7 @@ poland_unification = {
 					news_event = { id = super.54 }
 				}
 			}
-			custom_effect_tooltip = BEL_unifies_poland_tooltip
+			
 		}
 
 		else_if = {
@@ -862,7 +862,7 @@ poland_unification = {
 					news_event = { id = super.55 }
 				}
 			}
-			custom_effect_tooltip = BEL_unifies_poland_tooltip
+			
 		}		
 
 	

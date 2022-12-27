@@ -96,7 +96,7 @@ units = {
 	}
 
 	division = {
-		name = "Batalion Pomocniczy od rządu w Legionowie"
+		name = "Rządowy Batalion Pomocniczy"
 		location = 3372
 		division_template = "Batalion Piechoty"
 		start_experience_factor = 0.6
@@ -112,7 +112,7 @@ units = {
 	}
 
 	division = {
-		name = "Batalion Pomocniczy z 2 batalionu transportowego 10wpsam"
+		name = "1 Batalion Transportowy"
 		location = 4164
 		division_template = "Zmotoryzowana bojówka PKN Orlenu S.A."
 		start_experience_factor = 0.7
@@ -120,7 +120,7 @@ units = {
 	}
 
 	division = {
-		name = "Sierpskie bojówki PKN Orlenu"
+		name = "Siły Porządkowe PKN Orlenu - Bieżuń"
 		location = 2886
 		division_template = "Zmotoryzowana bojówka PKN Orlenu S.A."
 		start_experience_factor = 0.6
@@ -128,7 +128,7 @@ units = {
 	}
 
 	division = {
-		name = "Siły porządkowe PKN Orlenu - Sierpc-Drobin"
+		name = "Siły Porządkowe PKN Orlenu - Drobin"
 		location = 395
 		division_template = "Zmotoryzowana bojówka PKN Orlenu S.A."
 		start_experience_factor = 0.7
@@ -136,7 +136,7 @@ units = {
 	}
 
 	division = {
-		name = "Nadwiślańskie bojówki PKN Orlenu"
+		name = "Nadwiślańskie Bojówki PKN Orlenu"
 		location = 363
 		division_template = "Zmotoryzowana bojówka PKN Orlenu S.A."
 		start_experience_factor = 0.6
@@ -145,30 +145,30 @@ units = {
 
 	division = {
 		name = "Milicja PKN Orlenu 'Wyszogród' w Małej Wsi"
-		location = 1164
+		location = 18655
 		division_template = "Bojówka korporacyjna PKN Orlenu S.A."
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "Milicja PKN Orlenu w Zawidzu Kościelnym"
-		location = 1434
+		name = "Milicja PKN Orlenu 'Sierpc Południe'"
+		location = 18725
 		division_template = "Bojówka korporacyjna PKN Orlenu S.A."
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "Konwój cysternowy bojówek PKN Orlenu"
-		location = 3143
+		name = "Konwój Cysternowy PKN Orlenu"
+		location = 7393
 		division_template = "Tabor cysternowy"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 
 	division = {
-		name = "PiSowscy lojaliści Obajtka"
+		name = "PiSowscy Lojaliści Obajtka"
 		location = 1736
 		division_template = "Batalion Ochotniczy"
 		start_experience_factor = 0.3

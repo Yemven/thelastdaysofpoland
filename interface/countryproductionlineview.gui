@@ -1153,7 +1153,7 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
-		size = { width=375 height=100%% }
+		size = { width=420 height=100%% }
 		click_to_front = yes
 
 		background = {
@@ -4147,15 +4147,16 @@ guiTypes = {
 	containerWindowType = {
 		name = "military_equipment_info_entry"
 		position = { x=0 y=0 }
-		size = { width=342 height= 97 }
+		size = { width=342 height= 105 }
 		clipping = no
 
 		buttonType = {
 			name = "equipment_button"
-			position = { x=5 y=4 }
+			position = { x=10 y=4 }
 			quadTextureSprite = "GFX_equipment_item_large"
 			clicksound = click_default
 			frame = 1
+			scale = 1.1
 		}
 		
 		iconType = {

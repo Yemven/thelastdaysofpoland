@@ -1,9 +1,11 @@
 ZHP_deurbanization_category = {
     allowed = {
         original_tag = ZHP
-		has_variable = ZHP_deurbanization_progress
     }
-    priority = 1000
+	available = { 
+		has_variable = ZHP_deurbanization_progress
+	}
+    priority = 40
     visible_when_empty = yes
     scripted_gui = ZHP_progbar_container
 }

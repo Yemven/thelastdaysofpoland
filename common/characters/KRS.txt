@@ -54,7 +54,7 @@ characters={
 		}
 		country_leader={
 			desc = "POLITICS_EBRANTIL_DESC"
-			ideology=postpolonism_subtype
+			ideology=postpolonism_bloodmarketism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
@@ -168,6 +168,23 @@ characters={
 			defense_skill=1
 			planning_skill=2
 			logistics_skill=1
+		}
+	}
+
+	KRS_esperal = {
+		name="Esperal"
+		portraits = {
+			army = {
+			    large="gfx/leaders/KRS/KRS_Esperal.dds"
+			}
+		}
+		corps_commander = {
+			traits = { substance_abuser urban_assault_specialist }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
 		}
 	}
 }

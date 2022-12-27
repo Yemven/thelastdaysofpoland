@@ -34,6 +34,61 @@ WML_dialogue_decisions = {
 			add_to_variable = {dialogue_ZHP = 10}
 		}
 	}
+	WML_enforce_peace_between_warlords = {
+		allowed = {
+			original_tag = WML
+		}
+		days_re_enable = 365
+		visible = {
+			has_completed_focus = WML_convene_general_assembly
+			OR = {
+				BBW = {
+					has_war = yes
+				}
+				KRS = {
+					has_war = yes
+				}
+				SAP = {
+					has_war = yes
+				}
+				ZHP = {
+					has_war = yes
+				}
+				ZYD = {
+					has_war = yes
+				}
+			}
+		}
+		cost = 100
+		remove_effect = {
+			custom_effect_tooltip = WML_enforce_peace_between_warlords_tt
+			log = "[GetDateText]: Decision WML_enforce_peace_between_warlords"
+			WML_peace_enforcing = yes
+		}
+	}
+	WML_plead_to_warlord_for_stop_fighting = {
+		target_root_trigger = {
+			original_tag = WML
+		}
+		targets = {
+			BBW KRS SAP ZHP ZYD
+		}
+		days_re_enable = 30
+		visible = {
+			has_completed_focus = WML_convene_general_assembly
+			FROM = {
+				has_war = yes
+			}
+		}
+		complete_effect = {
+			FROM = {
+				country_event = {
+					id = WML.35
+					days = 3
+				}
+			}
+		}
+	}
 ###POZIOM ZEROWY###
 	WML_dialogue_SAP0 = {
 		allowed = {
@@ -319,20 +374,7 @@ WML_dialogue_decisions = {
 		}
 	}
 ###POZIOM OSTATNI- PRZEJMOWANIE WŁADZY###
-	WML_enforce_peace_between_warlords = {
-		allowed = {
-			original_tag = WML
-		}
-		days_re_enable = 365
-		visible = {
-			has_completed_focus = WML_6_warlords_under_1_union
-		}
-		cost = 100
-		remove_effect = {
-			log = "[GetDateText]: Decision WML_enforce_peace_between_warlords"
-			WML_peace_enforcing = yes
-		}
-	}
+	
 	WML_encroach_warlord_lands = {
 		target_root_trigger = {
 			original_tag = WML

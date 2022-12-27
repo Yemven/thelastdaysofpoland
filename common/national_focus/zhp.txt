@@ -63,7 +63,6 @@ focus_tree = {
 				id = zhp.2
 				}
 			add_political_power = 20
-			
 		}
 	}
 	
@@ -798,9 +797,6 @@ focus_tree = {
 				add_idea = ZHP_division_within_ranks_2
 			}
 			country_event = {id = zhp.18}
-			hidden_effect = {
-				set_variable = { ZHP_deurbanization_progress = 0 }
-			}
 		}
 	}
 	
@@ -845,9 +841,7 @@ focus_tree = {
 		cost = 4
 		search_filters = {}
 		completion_reward = { 
-			country_event = {id = zhp.19}
-			set_variable = { ZHP_deurbanization_progress = 0 }
-			
+			country_event = {id = zhp.19}			
 		}
 	}
 	
@@ -886,7 +880,6 @@ focus_tree = {
 		icon = ZHP_dominant
 		relative_position_id = ZHP_prohibition_of_sex
 		prerequisite = { focus = ZHP_prohibition_of_sex}
-		will_lead_to_war_with = WML
 		available = {
 		custom_trigger_tooltip = {
 			tooltip = ZHP_ZHP_Dominant_LOC
@@ -901,6 +894,7 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
 	focus = {
 		id = ZHP_ZHR_Dominant
 		icon = ZHR_dominant
@@ -1296,6 +1290,9 @@ focus_tree = {
 			declare_war_on = {
 				target = WML
 				type = annex_everything
+			}
+			hidden_effect = {
+				set_variable = { ZHP_delodzizacja = 0 }
 			}
 		}
 	}

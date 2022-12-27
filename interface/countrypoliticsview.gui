@@ -148,7 +148,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "power_balance_button"
-				position = { x =100 y = 100 }
+				position = { x =100 y = 115 }
 				clipping = no
 
 				buttonType = {
@@ -416,9 +416,8 @@ guiTypes = {
 			containerWindowType = {
 				name = "national_spirit_container"
 				position = { x = 90 y = 15 }
-				size = { width = 345 height = 70 }
-				
-				verticalScrollbar = "right_vertical_slider"
+				size = { width = 345 height = 90 }
+				horizontalScrollbar = "bottom_horizontal_slider"
 				
 				background = {
 					name = "Background"
@@ -427,18 +426,20 @@ guiTypes = {
 				
 				gridboxtype = {
 					name = "spirit_grid"
-					position = { x = 12 y = 0 }
+					position = { x = 15 y = 3 }
 					size = { width = 350 height = 100%% }
 					slotsize = { width = 60 height = 68 }
-					max_slots = { x = 5 y = 5 }
+					max_slots = { x = 100 y = 1 }
 					format = "UPPER_LEFT"
 				}
 				gridboxtype = {
+					position = { x = 0 y = 0 }
 					name = "spirit_grid_over_defined"
 					size = { width = 350 height = 100%% }
 					slotsize = { width = 60 height = 68 }
-					max_slots_horizontal = 5
+					max_slots_horizontal = 100
 					format = "UPPER_LEFT"
+
 				}
 			}
 		}

@@ -1130,6 +1130,152 @@ country_event = { #teraz przegłeś pałkę panie żymon, SZYKUJ SIĘ NA ŚMIER�
 	}
 }
 
+country_event = { #hołownia prosi o zaprzestanie walk
+	id = WML.35
+	title = WML.35.t
+	desc = WML.35.desc
+
+	is_triggered_only = yes
+
+	immediate = {
+		log = "[GetDateText]: [ROOT.GetName] fires WML.35"
+	}
+
+	option = { #ok
+		name = WML.35.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				OR = {
+					AND = {
+						original_tag = BBW
+						WML = {
+							check_variable = {
+								dialogue_BBW > 24
+							}
+						}
+					}
+					AND = {
+						original_tag = KRS
+						WML = {
+							check_variable = {
+								dialogue_KRS > 24
+							}
+						}
+					}
+					AND = {
+						original_tag = SAP
+						WML = {
+							check_variable = {
+								dialogue_SAP > 24
+							}
+						}
+					}
+					AND = {
+						original_tag = ZHP
+						WML = {
+							check_variable = {
+								dialogue_ZHP > 24
+							}
+						}
+					}
+					AND = {
+						original_tag = ZYD
+						WML = {
+							check_variable = {
+								dialogue_ZYD > 24
+							}
+						}
+					}
+				}
+			}
+		}
+#		if = {
+#			limit = {
+#				has_war_with = BBW
+#			}
+			white_peace = BBW
+#		}
+#		if = {
+#			limit = {
+#				has_war_with = KRS
+#			}
+			white_peace = KRS
+#		}
+#		if = {
+#			limit = {
+#				has_war_with = SAP
+#			}
+			white_peace = SAP
+#		}
+#		if = {
+#			limit = {
+#				has_war_with = ZHP
+#			}
+			white_peace = ZHP
+#		}
+#		if = {
+#			limit = {
+#				has_war_with = ZYD
+#			}
+			white_peace = ZYD
+#		}
+	}
+
+	option = { #pierdol sie
+		name = WML.35.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				OR = {
+					AND = {
+						original_tag = BBW
+						WML = {
+							check_variable = {
+								dialogue_BBW < 25
+							}
+						}
+					}
+					AND = {
+						original_tag = KRS
+						WML = {
+							check_variable = {
+								dialogue_KRS < 25
+							}
+						}
+					}
+					AND = {
+						original_tag = SAP
+						WML = {
+							check_variable = {
+								dialogue_SAP < 25
+							}
+						}
+					}
+					AND = {
+						original_tag = ZHP
+						WML = {
+							check_variable = {
+								dialogue_ZHP < 25
+							}
+						}
+					}
+					AND = {
+						original_tag = ZYD
+						WML = {
+							check_variable = {
+								dialogue_ZYD < 25
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 ####EVENTY TOTALNEGO DIALOGU###
 
 country_event = { #Focus What Now?

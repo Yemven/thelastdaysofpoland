@@ -1,5 +1,12 @@
 spriteTypes = {
-
+	spriteType = {
+		name = "GFX_building_restrictions"
+		texturefile = "gfx/interface/ideas/building_restrictions.dds"
+	}
+	spriteType = {
+		name = "GFX_low_emissions"
+		texturefile = "gfx/interface/ideas/low_emissions.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_random_enlistment"
 		texturefile = "gfx/interface/ideas/pobor2.dds"
@@ -523,6 +530,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_SAP_ksiazeca_mieta"
 		texturefile = "gfx/interface/ideas/SAP/SAP_ksiazeca_mieta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_human_experiments"
+		texturefile = "gfx/interface/ideas/KRS/KRS_human_experiments.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_human_terrors"
+		texturefile = "gfx/interface/ideas/KRS/KRS_human_terrors.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_boneless"
+		texturefile = "gfx/interface/ideas/KRS/KRS_boneless.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_j22"
+		texturefile = "gfx/interface/ideas/KRS/KRS_j22.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_KRS_lack_of_legitimacy"

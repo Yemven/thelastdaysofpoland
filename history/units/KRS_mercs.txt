@@ -1,27 +1,25 @@
 division_template = {
-	name = "Dywizja Najemna"
+	name = "Batalion Najemny"
 	regiments = {
 		elite_infantry = { x = 0 y = 0 }
 		elite_infantry = { x = 0 y = 1 }
 		elite_infantry = { x = 0 y = 2 }
-		elite_infantry = { x = 0 y = 3 }
-		elite_infantry = { x = 0 y = 4 }
 	}
 }
 
 units = {
  	division = {
-		name = "1 Dywizja Najemna"
+		name = "1 Batalion Najemny"
 		location = 10515
-		division_template = "Dywizja Najemna"
+		division_template = "Batalion Najemny"
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "2 Dywizja Najemna"
+		name = "2 Batalion Najemny"
 		location = 10515
-		division_template = "Dywizja Najemna"
+		division_template = "Batalion Najemny"
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}

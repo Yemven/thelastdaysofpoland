@@ -298,8 +298,15 @@ ideas = {
 			}
 			modifier = {
 				political_power_gain = -0.1
-				offence = -0.1
-				defence = -0.1
+				war_support_factor = -0.05
+				army_org_factor = -0.05
+				army_org_regain = -0.05
+				army_core_attack_factor = -0.05
+				industry_repair_factor = -0.33
+				production_speed_buildings_factor = -0.15
+				monthly_population = 0.04
+				production_factory_start_efficiency_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
 			}
 		}
 
@@ -311,10 +318,13 @@ ideas = {
 			}
 			modifier = {
 				political_power_gain = 0.05
-				offence = 0.05
-				defence = 0.05
-				production_factory_max_efficiency_factor = -0.05
-				monthly_population = -0.01
+				war_support_factor = -0.05
+				army_org_factor = -0.03
+				army_org_regain = -0.03
+				industry_repair_factor = -0.45
+				production_speed_buildings_factor = 0.035
+				monthly_population = -0.015
+
 			}
 		}
 
@@ -325,11 +335,19 @@ ideas = {
 				}
 			}
 			modifier = {
-				political_power_gain = 2.5
-				offence = 0.1
-				defence = 0.1
-				production_factory_max_efficiency_factor = -0.075
-				monthly_population = -0.02
+				political_power_gain = 0.1
+				war_support_factor = -0.15
+				army_org_factor = 0.025
+				army_org_regain = 0.025
+				industry_repair_factor = -0.45
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = 0.075
+				monthly_population = -0.035
+				local_resources_factor = -0.15
+				equipment_conversion_speed = 0.2
+				equipment_capture_factor = 0.2
+				terrain_penalty_reduction = 0.035
+				out_of_supply_factor = -0.05				
 			}
 		}
 
@@ -340,11 +358,18 @@ ideas = {
 				}
 			}
 			modifier = {
-				political_power_gain = 5
-				offence = 0.15
-				defence = 0.15
-				production_factory_max_efficiency_factor = -0.1
+				political_power_gain = 0.15
+				army_org_factor = 0.05
+				army_org_regain = 0.05
+				industry_repair_factor = -0.5
+				production_factory_max_efficiency_factor = -0.4
+				production_speed_buildings_factor = 0.1
 				monthly_population = -0.05
+				local_resources_factor = -0.33
+				equipment_conversion_speed = 0.33
+				equipment_capture_factor = 0.33
+				terrain_penalty_reduction = 0.05
+				out_of_supply_factor = -0.1	
 			}
 		}
 
