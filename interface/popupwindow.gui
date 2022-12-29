@@ -906,6 +906,19 @@ guiTypes = {
 		show_sound = diplomatic_notification
 		hide_sound = menu_close_window
 		click_to_front = yes		
+	}
+
+	containerWindowType = {
+		name = "war_announcement_window"
+		position = { x = -225 y = -160 }
+		size = { width = 500 height = 320 }
+		orientation= center
+		moveable = yes
+		fade_time = 200
+		fade_type = linear
+		show_sound = diplomatic_notification
+		hide_sound = menu_close_window
+		click_to_front = yes		
 		
 		background = {
 			name = "Background"	
@@ -927,7 +940,7 @@ guiTypes = {
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
-			text = "Title"	
+			text = "DIPLOMACY_MESSAGE_ACTION_TITLE"	
 			maxWidth = 250
 			maxHeight = 40
 			fixedsize = yes
@@ -986,7 +999,7 @@ guiTypes = {
 			textureFile = ""
 			font = "stellaris_main"
 			borderSize = {x = 0 y = 0}
-			text = "Long text here!"
+			text = "DIPLOMACY_WAR_OTHERS_DESC"
 			maxWidth = 350
 			maxHeight = 100
 			format = left
@@ -1006,7 +1019,7 @@ guiTypes = {
 			shortcut = "RETURN"
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "political_goal_popup_window"
 		position = { x = -225 y = -160 }

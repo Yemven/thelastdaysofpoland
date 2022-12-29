@@ -1,0 +1,26 @@
+scripted_gui = {
+	war_announcement = {
+		window_name = "war_announcement_window"
+		context_type = player_context
+		dirty = global.war_popup_dirty
+		properties = {
+			sender_flag = {
+				image = "[attacker.GetFlag]"
+			}
+
+			receiver_flag = {
+				image = "[defender.GetFlag]"
+			}
+		}
+		visible = {
+			is_ai = no
+			has_global_flag = announce_war
+		}
+		effects = {
+			ok_button_click = {
+				clr_global_flag = announce_war
+				add_to_variable = { global.war_popup_dirty = 1 }
+			}
+		}
+	}
+}
