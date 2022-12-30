@@ -1,5 +1,29 @@
 spriteTypes = {
 
+	SpriteType = {
+		name = "GFX_unit_category_all_armor_icon_small"
+		texturefile = "gfx/texticons/unit_category_all_armor_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_unit_category_line_artillery_icon_small"
+		texturefile = "gfx/texticons/unit_category_line_artillery_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_unit_category_front_line_icon_small"
+		texturefile = "gfx/texticons/unit_category_all_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_mechanized_anti_air_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_mechanized_anti_air_brigade_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
 	spriteType = {
 		name = "GFX_no_order_texticon"
 		texturefile = "gfx/interface/mapicons/mapicon_unit_no_orders.dds"
