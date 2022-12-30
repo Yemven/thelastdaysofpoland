@@ -1199,72 +1199,269 @@ spriteTypes = {
 	#łódki
 	SpriteType = {
 		name = "GFX_kayak_medium"
-		texturefile = "gfx/interface/technologies/kayak.dds"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorboat_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorboat_hull_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+	SpriteType = {
+		name = "GFX_armored_motorboat_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+	SpriteType = {
+		name = "GFX_armored_motorboat_hull_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedo_boat_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedo_boat_hull_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
 	}
 	SpriteType = {
 		name = "GFX_convoy_medium"
-		texturefile = "gfx/interface/technologies/kayak.dds"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
 	}
 	SpriteType = {
 		name = "GFX_kayak_hull_medium"
-		texturefile = "gfx/interface/technologies/kayak.dds"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
 	}
 	SpriteType = {
 		name = "GFX_monitor_1_medium"
-		texturefile = "gfx/interface/technologies/kayak.dds"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
 	}
 	SpriteType = {
 		name = "GFX_monitor_hull_medium"
-		texturefile = "gfx/interface/technologies/kayak.dds"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
 	}
 	SpriteType = {
 		name = "GFX_heavy_monitor_1_medium"
-		texturefile = "gfx/interface/technologies/kayak.dds"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
 	}
 	SpriteType = {
 		name = "GFX_heavy_monitor_hull_1_medium"
-		texturefile = "gfx/interface/technologies/kayak.dds"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+	SpriteType = {
+		name = "GFX_monitor_hull_2_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+	SpriteType = {
+		name = "GFX_monitor_hull_2_hull_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_monitor_hull_3_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+	SpriteType = {
+		name = "GFX_monitor_hull_3_hull_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_monitor_hull_2_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_monitor_hull_2_hull_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_monitor_hull_3_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_monitor_hull_3_hull_medium"
+		texturefile = "gfx/interface/technologies/wipbig.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_monitor_armor_2_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_monitor_armor_3_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_monitor_armor_4_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_monitor_armor_2_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_monitor_armor_3_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_monitor_armor_4_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_gunnery_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_guns_2_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_guns_3_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_guns_4_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_medium_guns_2_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_medium_guns_3_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_medium_guns_4_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_guns_2_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_guns_3_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_guns_4_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_torpedos_1_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedos_2_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedos_3_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedos_4_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedos_4_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_basic_naval_mines_medium"
-		texturefile = "gfx/interface/technologies/basic_naval_mines.dds"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 	SpriteType = {
 		name = "GFX_improved_naval_mines_medium"
-		texturefile = "gfx/interface/technologies/improved_naval_mines.dds"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 	SpriteType = {
 		name = "GFX_advanced_naval_mines_medium"
-		texturefile = "gfx/interface/technologies/advanced_naval_mines.dds"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 	SpriteType = {
 		name = "GFX_modern_naval_mines_medium"
-		texturefile = "gfx/interface/technologies/modern_naval_mines.dds"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 	SpriteType = {
 		name = "GFX_mtg_landing_craft_medium"
-		texturefile = "gfx/interface/technologies/landing_craft.dds"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_mtg_tank_landing_craft_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 	SpriteType = {
 		name = "GFX_mtg_transport_medium"
-		texturefile = "gfx/interface/technologies/transport.dds"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 	SpriteType = {
 		name = "GFX_homing_torpedo_medium"
-		texturefile = "gfx/interface/technologies/homing_torpedo.dds"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 	SpriteType = {
 		name = "GFX_magnetic_detonator_medium"
-		texturefile = "gfx/interface/technologies/magnetic_detonator.dds"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 	SpriteType = {
 		name = "GFX_electric_torpedo_medium"
-		texturefile = "gfx/interface/technologies/electric_torpedo.dds"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 	SpriteType = {
 		name = "GFX_basic_torpedo_medium"
-		texturefile = "gfx/interface/technologies/basic_torpedo.dds"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_damage_control_1_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_damage_control_2_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_damage_control_3_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+		SpriteType = {
+		name = "GFX_fire_control_methods_1_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fire_control_methods_2_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fire_control_methods_3_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_degaussing_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_airdrop_mines_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+		name = "GFX_airsweep_mines_medium"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 	SpriteType = {
 		name = "GFX_advanced_cruiser_armor_scheme_medium"
@@ -1464,35 +1661,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/dp_secondary_battery.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_damage_control_1_medium"
-		texturefile = "gfx/interface/technologies/damage_control_1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_damage_control_2_medium"
-		texturefile = "gfx/interface/technologies/damage_control_2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_damage_control_3_medium"
-		texturefile = "gfx/interface/technologies/damage_control_3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_fire_control_methods_1_medium"
-		texturefile = "gfx/interface/technologies/fire_control_methods_1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_fire_control_methods_2_medium"
-		texturefile = "gfx/interface/technologies/fire_control_methods_2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_fire_control_methods_3_medium"
-		texturefile = "gfx/interface/technologies/fire_control_methods_3.dds"
-	}
 	spriteType = {
 		name = "GFX_subtech_td"
 		textureFile = "gfx//interface//technologies//subtech_td.dds"
@@ -2271,6 +2439,217 @@ spriteTypes = {
 		name = "GFX_support_implants_medium"
 		texturefile = "gfx/interface/technologies/support_implants.dds"
 	}
+
+		SpriteType = {
+	    name = "GFX_the_cyber_army_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_electronic_warfare_support_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_directed_energy_weapons_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_hacker_espionage_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_military_ethernet_defences_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_the_new_war_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_advanced_drills_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_dispersed_marching_fire_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_precise_firepower_support_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_bounding_overwatch_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_condemned_soldiers_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_weather_training_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_united_in_spirit_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_anti_vehicle_measures_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_no_mercy_for_the_enemy_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_might_makes_right_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_shattering_charges_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_relics_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_praetorian_guard_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_blood_loyalty_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_tech_conv_fusion_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_instant_information_support_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_standardization_of_experimental_technology_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_conv_asm_fusion_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_coup_de_main_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_field_works_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_asm_cqc_fusion_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_chevauchee_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_warmian_shot_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_tech_asm_fusion_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_emp_traps_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_reconnaissance_in_force_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_conv_cqc_fusion_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_masters_of_siege_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_chosen_infantry_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_laboratories_of_steel_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_posthumanous_soldiers_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_blind_fire_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	SpriteType = {
+	    name = "GFX_saving_rations_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+
+    SpriteType = {
+	    name = "GFX_creating_the_navy_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_escort_buffs_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_escort_buffs_2_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_escort_buffs_3_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_raiding_buffs_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_raiding_buffs_2_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_raiding_buffs_3_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_tbs_as_escorts_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_tbs_as_escorts_2_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_tbs_as_escorts_3_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_river_battleships_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_river_battleships_2_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+    SpriteType = {
+	    name = "GFX_river_battleships_3_medium"
+	    texturefile = "gfx/interface/technologies/wiplil.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_WML_melee_weapons_medium"
 		texturefile = "gfx/interface/technologies/WML_melee_weapons.dds"
@@ -2540,5 +2919,9 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/truck_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_wiplil"
+		texturefile = "gfx/interface/technologies/wiplil.dds"
 	}
 }
