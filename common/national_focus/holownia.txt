@@ -626,6 +626,7 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 		log = "[GetDateText]: Focus WML_hold_great_conference"
+			hidden_effect = {
 			if = {
 				limit = {
 					AND = {
@@ -637,11 +638,12 @@ focus_tree = {
 					}
 				}
 			set_country_flag = WML_set_dialog_total
+			load_focus_tree = WML_focus_total
 			}
 			else = {
+			load_focus_tree = WML_focus_partial
 			set_country_flag = WML_set_dialog_partial
 			}
-			hidden_effect = {
 				add_to_array = {lodzwarlords = BBW}
 				add_to_array = {lodzwarlords = KRS}
 				add_to_array = {lodzwarlords = SAP}
@@ -1295,11 +1297,26 @@ focus_tree = {
 			}	
 		}
 	}
+}
+
+focus_tree = {
+	id = WML_focus_partial
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add =10
+			tag = WML
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 10 y = 10 }
 
 	focus = {
 		id = WML_incomplete_compromise
 		icon = WML_incomplete_compromise
-		relative_position_id = WML_hold_great_conference
 		available = {
 			has_country_flag = WML_set_dialog_partial
 			WML = {
@@ -1310,7 +1327,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = -6
+		x = 10
 		y = 1
 		
 		cost = 5
@@ -1985,11 +2002,26 @@ focus_tree = {
 		}
 	}
 
+}
+
+focus_tree = {
+	id = WML_focus_total
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = WML
+		}
+	}
+	default = no
+	
+	continuous_focus_position = {x = 10 y = 10 }
 	
 	focus = {
 		id = WML_total_dialogue
 		icon = WML_total_dialogue
-		relative_position_id = WML_hold_great_conference
 		available = {
 			has_country_flag = WML_set_dialog_total
 			WML = {
@@ -2000,7 +2032,7 @@ focus_tree = {
 		bypass = {
 		}
 		
-		x = 6
+		x = 10
 		y = 1
 		
 		cost = 5
@@ -2035,8 +2067,19 @@ focus_tree = {
 			country_event = {
 				id = WML_total.1
 			}
-			log = "[GetDateText]: Focus WML_what_now"
-		}
+			create_faction = "Dialogue Sphere"
+
+				WML = { add_to_faction = ZYD }
+
+				WML = { add_to_faction = BBW }
+
+				WML = { add_to_faction = ZHP }
+
+				WML = { add_to_faction = KRS }
+
+				WML = { add_to_faction = SAP }
+			log = "[GetDateText]: Focus WML_what_now"				
+			}
 	}
 	
 	focus = {
