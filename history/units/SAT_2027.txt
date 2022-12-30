@@ -54,7 +54,15 @@ units = {
 
 	division = {
 		name = "2 Kompania Sygnałowa 'BLOK Reklamowy'"
-		location = 2051
+		location = 1218
+		division_template = "Kompania sygnałowa Telewizji Polsat"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "3 Kompania Sygnałowa Polsatu"
+		location = 2522
 		division_template = "Kompania sygnałowa Telewizji Polsat"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
@@ -62,7 +70,7 @@ units = {
 
     division = {
 		name = "1 Batalion Piechoty 'Warka'"
-		location = 2492
+		location = 19000
 		division_template = "Korporacyjny Batalion Piechoty"
 		start_experience_factor = 0.8
 		start_equipment_factor = 1.0
@@ -93,7 +101,7 @@ units = {
 	}
 
 	division = {
-		name = "Oddział Milicji Grupy Polsat Plus - Oddział Przytycko-Gózdowski"
+		name = "Oddział Milicji Grupy Polsat Plus - Oddział Starobłotnicki"
 		location = 2593
 		division_template = "Milicja Grupy Polsat Plus"
 		start_experience_factor = 0.5
@@ -102,7 +110,7 @@ units = {
 
 	division = {
 		name = "Siły Ochroniarskie Grupy Polsat Plus"
-		location = 1218
+		location = 18993
 		division_template = "Siły porządkowe Grupy Polsat Plus"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
