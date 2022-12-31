@@ -426,25 +426,50 @@ defined_text = {
 	}
 
 	text = {
+		trigger = { original_tag = CRN }
+		localization_key = TITLE_CRN
+	}
+
+	text = {
+		trigger = { original_tag = PUL }
+		localization_key = TITLE_PUL
+	}
+
+	text = {
 		trigger = { original_tag = KSN }
 		localization_key = TITLE_KSN
 	}
+
 	text = {
 		trigger = { original_tag = ZUK }
 		localization_key = TITLE_ZUK
 	}
+
 	text = {
 		trigger = { original_tag = BIL }
 		localization_key = TITLE_BIL
 	}
+
 	text = {
 		trigger = { original_tag = SWD }
 		localization_key = TITLE_SWD
 	}
+
+	text = {
+		trigger = { original_tag = LEN }
+		localization_key = TITLE_LEN
+	}
+
+	text = {
+		trigger = { original_tag = TEN }
+		localization_key = TITLE_TEN
+	}
+
 	text = {
 		trigger = { original_tag = BPD }
 		localization_key = TITLE_BPD
 	}
+
 	text = {
 		trigger = { original_tag = TSB }
 		localization_key = TITLE_TSB
@@ -1246,25 +1271,50 @@ defined_text = {
 	}
 
 	text = {
+		trigger = { original_tag = CRN }
+		localization_key = GOVERNMENT_CRN
+	}
+
+	text = {
+		trigger = { original_tag = PUL }
+		localization_key = GOVERNMENT_PUL
+	}
+
+	text = {
 		trigger = { original_tag = KSN }
 		localization_key = GOVERNMENT_KSN
 	}
+
 	text = {
 		trigger = { original_tag = ZUK }
 		localization_key = GOVERNMENT_ZUK
 	}
+
 	text = {
 		trigger = { original_tag = BIL }
 		localization_key = GOVERNMENT_BIL
 	}
+
 	text = {
 		trigger = { original_tag = SWD }
 		localization_key = GOVERNMENT_SWD
 	}
+
 	text = {
 		trigger = { original_tag = BPD }
 		localization_key = GOVERNMENT_BPD
 	}
+
+	text = {
+		trigger = { original_tag = LEN }
+		localization_key = GOVERNMENT_LEN
+	}
+
+	text = {
+		trigger = { original_tag = TEN }
+		localization_key = GOVERNMENT_TEN
+	}
+
 	text = {
 		trigger = { original_tag = TSB }
 		localization_key = GOVERNMENT_TSB
