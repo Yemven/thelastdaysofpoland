@@ -47,16 +47,10 @@ country_event = {
 	
 	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.3" }
 	
-	option = {			#Wybór ścieżki Dialogu
+	option = {
 		name = WML.3.a
-
+		add_stability = 0.1
 	}
-	
-	option = {			#Wybór - Festung Łódź 
-		name = WML.3.b
-
-	}
-	
 }
 
 ####THREE PROBLEMS####
