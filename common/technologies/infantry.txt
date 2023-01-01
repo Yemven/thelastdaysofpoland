@@ -1619,4 +1619,19 @@ technologies = {
 			}
 		}
 	}
+
+	school_of_the_mole_ug_witchers = {
+		allow = {
+			always = no
+		}
+		special_forces_training_time_factor = -0.5
+		special_forces_attack_factor = 0.2
+	}
+
+	school_of_the_dove_witcher_defenders = {
+		allow = {
+			always = no
+		}
+		army_leader_start_defense_level = 1
+	}
 }

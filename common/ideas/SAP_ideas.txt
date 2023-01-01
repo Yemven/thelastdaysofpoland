@@ -30,19 +30,17 @@ hidden_ideas = {
 
 	SAP_school_of_the_lion_lvl1 = {
 		picture = GFX_hidden_idea
-		modifier = {
-			encryption_factor = 0.25
-			decryption_factor = 0.25
-			operation_cost = -0.5
+		on_add = { 
+			set_technology = {
+				school_of_the_lion_silent_hunters = 1
+				popup = yes
+			}
 		}
 	}
 
 	SAP_school_of_the_lion_lvl2 = {
 		picture = GFX_hidden_idea
 		modifier = {
-			encryption_factor = 0.25
-			decryption_factor = 0.25
-			operation_cost = -0.5
 			line_change_production_efficiency_factor = 0.4
 		}
 	}
@@ -50,9 +48,6 @@ hidden_ideas = {
 	SAP_school_of_the_lion_lvl3 = {
 		picture = GFX_hidden_idea
 		modifier = {
-			encryption_factor = 0.25
-			decryption_factor = 0.25
-			operation_cost = -0.5
 			line_change_production_efficiency_factor = 0.4
 			research_speed_factor = -0.025
 			party_popularity_stability_factor = 0.33
@@ -61,17 +56,17 @@ hidden_ideas = {
 
 	SAP_school_of_the_mole_lvl1 = {
 		picture = GFX_hidden_idea
-		modifier = {
-			special_forces_training_time_factor = -0.5
-			special_forces_attack_factor = 0.2
+		on_add = {
+			set_technology = {
+				school_of_the_mole_ug_witchers = 1
+				popup = yes
+			}
 		}
 	}
 
 	SAP_school_of_the_mole_lvl2 = {
 		picture = GFX_hidden_idea
 		modifier = {
-			special_forces_training_time_factor = -0.5
-			special_forces_attack_factor = 0.2
 			production_speed_buildings_factor = 0.2
 		}
 	}
@@ -79,8 +74,6 @@ hidden_ideas = {
 	SAP_school_of_the_mole_lvl3 = {
 		picture = GFX_hidden_idea
 		modifier = {
-			special_forces_training_time_factor = -0.5
-			special_forces_attack_factor = 0.2
 			production_speed_buildings_factor = 0.2
 		}
 		research_bonus = {
@@ -90,15 +83,17 @@ hidden_ideas = {
 
 	SAP_school_of_the_dove_lvl1 = {
 		picture = GFX_hidden_idea
-		modifier = {
-			army_leader_start_defense_level = 1
+		on_add = {
+			set_technology = {
+				school_of_the_dove_witcher_defenders = 1
+				popup = yes
+			}
 		}
 	}
 
 	SAP_school_of_the_dove_lvl2 = {
 		picture = GFX_hidden_idea
 		modifier = {
-			army_leader_start_defense_level = 1
 			industry_repair_factor = 0.3
 		}
 	}
@@ -106,7 +101,6 @@ hidden_ideas = {
 	SAP_school_of_the_dove_lvl3 = {
 		picture = GFX_hidden_idea
 		modifier = {
-			army_leader_start_defense_level = 1
 			industry_repair_factor = 0.3
 		}
 		research_bonus = {
@@ -116,9 +110,6 @@ hidden_ideas = {
 
 	SAP_school_of_the_lynx_lvl1 = {
 		picture = GFX_hidden_idea
-		modifier = {
-		
-		}
 		on_add = {
 			set_technology = {
 				school_of_the_lynx_forest_training = 1

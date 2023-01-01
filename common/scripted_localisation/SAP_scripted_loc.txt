@@ -1,0 +1,121 @@
+defined_text = {
+	name = GetBenefits
+	text = {
+		localization_key = "[GetLvl2Rose][GetLvl2Lion][GetLvl2Mole][GetLvl2Lynx][GetLvl2Dove][GetLvl3Rose][GetLvl3Lion][GetLvl3Mole][GetLvl3Lynx][GetLvl3Dove]"
+	}
+}
+
+defined_text = {
+	name = GetLvl2Rose
+	text = {
+		trigger = {
+			OR = {
+				has_idea = SAP_school_of_the_rose_lvl2
+				has_idea = SAP_school_of_the_rose_lvl3
+			}
+		}
+		localization_key = "Trade opinion factor +50%"
+	}
+}
+
+defined_text = {
+	name = GetLvl2Lion
+	text = {
+		trigger = {
+			OR = {
+				has_idea = SAP_school_of_the_lion_lvl2
+				has_idea = SAP_school_of_the_lion_lvl3
+			}
+		}
+		localization_key = "Production efficency retention +40%"
+	}
+}
+
+defined_text = {
+	name = GetLvl2Mole
+	text = {
+		trigger = {
+			OR = {
+				has_idea = SAP_school_of_the_mole_lvl2
+				has_idea = SAP_school_of_the_mole_lvl3
+			}
+		}
+		localization_key = "Construction speed +20%"
+	}
+}
+
+defined_text = {
+	name = GetLvl2Lynx
+	text = {
+		trigger = {
+			OR = {
+				has_idea = SAP_school_of_the_lynx_lvl2
+				has_idea = SAP_school_of_the_lynx_lvl3
+			}
+		}
+		localization_key = "Damage to factories from bombardment -40%"
+	}
+}
+
+defined_text = {
+	name = GetLvl2Dove
+	text = {
+		trigger = {
+			OR = {
+				has_idea = SAP_school_of_the_dove_lvl2
+				has_idea = SAP_school_of_the_dove_lvl3
+			}
+		}
+		localization_key = "Production efficency retention +40%"
+	}
+}
+
+defined_text = {
+	name = GetLvl3Rose
+	text = {
+		trigger = {
+			has_idea = SAP_school_of_the_rose_lvl3
+		}
+		localization_key = "Research speed -5%"
+	}
+}
+
+defined_text = {
+	name = GetLvl3Lion
+	text = {
+		trigger = {
+			has_idea = SAP_school_of_the_lion_lvl3
+		}
+		localization_key = "Stability from party popularity factor +33% \n Research speed -2,5% "
+	}
+}
+
+defined_text = {
+	name = GetLvl3Mole
+	text = {
+		trigger = {
+			has_idea = SAP_school_of_the_mole_lvl3
+		}
+		localization_key = "Industry research speed -7,5%"
+	}
+}
+
+defined_text = {
+	name = GetLvl3Lynx
+	text = {
+		trigger = {
+			has_idea = SAP_school_of_the_lynx_lvl3
+		}
+		localization_key = "Infantry training research speed -7,5%"
+	}
+}
+
+defined_text = {
+	name = GetLvl3Dove
+	text = {
+		trigger = {
+			has_idea = SAP_school_of_the_dove_lvl3
+		}
+		localization_key = "Electronics research speed -7,5%"
+	}
+}

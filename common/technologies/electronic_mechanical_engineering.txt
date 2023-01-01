@@ -868,4 +868,13 @@ technologies = {
 		}
 	}
 	
+	school_of_the_lion_silent_hunters = {
+		allow = {
+			always = no
+		}
+		encryption_factor = 0.25
+		decryption_factor = 0.25
+		operation_cost = -0.5
+	}
+
 }

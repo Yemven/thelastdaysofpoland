@@ -169,6 +169,25 @@ SAP_witcher_schools_category = {
 			}
 		}
 	}
+
+	SAP_witcher_schools_rose_upgrades_done = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		available = {
+			always = no
+		}
+		visible = {
+			SAP = {
+				check_variable = { current_school = 1 }
+			}
+			has_idea = SAP_school_of_the_rose_lvl3
+		}
+	}
 	
 	SAP_witcher_schools_lion_upgrade_1 = {
 		priority = 1115
@@ -265,6 +284,25 @@ SAP_witcher_schools_category = {
 		}
 	}
 	
+	SAP_witcher_schools_lion_upgrades_done = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		available = {
+			always = no
+		}
+		visible = {
+			SAP = {
+				check_variable = { current_school = 2 }
+			}
+			has_idea = SAP_school_of_the_lion_lvl3
+		}
+	}
+
 	SAP_witcher_schools_mole_upgrade_1 = {
 		priority = 1115
 		icon = GFX_decision_generic_military
@@ -361,6 +399,25 @@ SAP_witcher_schools_category = {
 		}
 	}
 	
+	SAP_witcher_schools_mole_upgrades_done = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		available = {
+			always = no
+		}
+		visible = {
+			SAP = {
+				check_variable = { current_school = 3 }
+			}
+			has_idea = SAP_school_of_the_mole_lvl3
+		}
+	}
+
 	SAP_witcher_schools_lynx_upgrade_1 = {
 		priority = 1115
 		icon = GFX_decision_generic_military
@@ -456,6 +513,25 @@ SAP_witcher_schools_category = {
 		}
 	}
 	
+	SAP_witcher_schools_lynx_upgrades_done = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		available = {
+			always = no
+		}
+		visible = {
+			SAP = {
+				check_variable = { current_school = 4 }
+			}
+			has_idea = SAP_school_of_the_lynx_lvl3
+		}
+	}
+
 	SAP_witcher_schools_dove_upgrade_1 = {
 		priority = 1115
 		icon = GFX_decision_generic_military
@@ -548,6 +624,25 @@ SAP_witcher_schools_category = {
 				remove_idea = SAP_school_of_the_dove_lvl2
 				add_idea = SAP_school_of_the_dove_lvl3
 			}
+		}
+	}
+
+	SAP_witcher_schools_dove_upgrades_done = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = SAP
+		}
+		
+		available = {
+			always = no
+		}
+		visible = {
+			SAP = {
+				check_variable = { current_school = 5 }
+			}
+			has_idea = SAP_school_of_the_dove_lvl3
 		}
 	}
 }
