@@ -55,7 +55,7 @@ SAP_sanity = {
 }
 
 SAP_witcher_schools_category = {
-	SAP_witcher_schools_wolf_upgrade = {
+	SAP_witcher_schools_wolf = {
 		priority = 1115
 		icon = GFX_decision_generic_military
 
@@ -63,6 +63,10 @@ SAP_witcher_schools_category = {
 			original_tag = SAP
 		}
 		
+		available = {
+			always = no
+		}
+
 		visible = {
 			SAP = {
 				check_variable = { current_school = 0 }
