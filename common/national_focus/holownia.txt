@@ -1976,10 +1976,8 @@ focus_tree = {
 		cost = 2
 		search_filters = {}
 		completion_reward = {
-			country_event = {
-				id = WML.34
-				days = 7
-			}
+			add_stability = 0.1
+			add_political_power = 50
 		log = "[GetDateText]: Focus WML_we_did_our_best"
 		}
 	}
@@ -2003,6 +2001,10 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 		log = "[GetDateText]: Focus WML_let_that_be_our_legacy"
+			country_event = {
+				id = WML.34
+				days = 7
+			}
 		}
 	}
 

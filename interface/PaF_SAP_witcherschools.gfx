@@ -1,4 +1,5 @@
 spriteTypes = {
+
 	spriteType = {
 		name = "GFX_SAP_sanity_gfx"
 		texturefile = "gfx/interface/SAP_GUI/SAP_sanity.dds"
@@ -32,5 +33,30 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SAP_school_rose"
 		texturefile = "gfx/interface/SAP_GUI/SAP_school_rose.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_school_of_the_lynx_forest_training_medium"
+		texturefile = "gfx/interface/SAP_GUI/school_of_the_lynx_forest_training.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_school_of_the_lion_silent_hunters_medium"
+		texturefile = "gfx/interface/SAP_GUI/school_of_the_lion_silent_hunters.dds"
+	}
+
+	spriteType = {
+		name = "GFX_school_of_the_mole_ug_witchers_medium"
+		texturefile = "gfx/interface/SAP_GUI/school_of_the_mole_ug_witchers.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_school_of_the_dove_witcher_defenders_medium"
+		texturefile = "gfx/interface/SAP_GUI/school_of_the_dove_witcher_defenders.dds"
+	}
+
+	spriteType = {
+		name = "GFX_school_of_the_rose_field_hospitals_medium"
+		texturefile = "gfx/interface/SAP_GUI/school_of_the_rose_field_hospitals.dds"
 	}	
 }
