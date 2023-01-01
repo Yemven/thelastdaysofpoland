@@ -626,6 +626,10 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 		log = "[GetDateText]: Focus WML_hold_great_conference"
+			country_event = {
+				id = WML.36
+				days = 1
+				}
 			hidden_effect = {
 			if = {
 				limit = {
@@ -2366,6 +2370,10 @@ focus_tree = {
 		search_filters = {}
 		completion_reward = {
 			log = "[GetDateText]: Focus WML_6_warlords_under_1_union"
+			country_event = {
+				id = WML.37
+				days = 1
+				}
 		}
 	}	
 

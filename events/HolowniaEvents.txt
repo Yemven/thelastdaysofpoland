@@ -1276,6 +1276,38 @@ country_event = { #hołownia prosi o zaprzestanie walk
 	}
 }
 
+country_event = { #Wielka Konferencja
+	id = WML.36
+	title = WML.36.t
+	desc = WML.36.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.36" }
+
+	option = {
+		name = WML.36.a
+
+	}
+}
+
+country_event = { #Six Warlords
+	id = WML.37
+	title = WML.37.t
+	desc = WML.37.desc
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires WML.37" }
+
+	option = {
+		name = WML.37.a
+
+	}
+}
+
 ####EVENTY TOTALNEGO DIALOGU###
 
 country_event = { #Focus What Now?
