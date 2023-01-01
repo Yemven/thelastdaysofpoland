@@ -61,5 +61,15 @@ guiTypes = {
 			spriteType = "GFX_SAP_school_dove"
 			centerposition = yes
 		}
+
+		instantTextBoxType = {
+			name = "SAP_benefits_listing"
+			maxWidth = 500
+			position = { x = 5 y = 250 }
+			orientation = "UPPER_LEFT"
+			text = "SAP_benefits"
+			font = "cg_18b"
+			
+		}
 	}
 }

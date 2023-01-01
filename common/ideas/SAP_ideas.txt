@@ -31,8 +31,8 @@ hidden_ideas = {
 	SAP_school_of_the_lion_lvl1 = {
 		picture = GFX_hidden_idea
 		modifier = {
-			encryption = 0.25
-			decryption = 0.25
+			encryption_factor = 0.25
+			decryption_factor = 0.25
 			operation_cost = -0.5
 		}
 	}
@@ -50,8 +50,8 @@ hidden_ideas = {
 	SAP_school_of_the_lion_lvl3 = {
 		picture = GFX_hidden_idea
 		modifier = {
-			encryption = 0.25
-			decryption = 0.25
+			encryption_factor = 0.25
+			decryption_factor = 0.25
 			operation_cost = -0.5
 			line_change_production_efficiency_factor = 0.4
 			research_speed_factor = -0.025
