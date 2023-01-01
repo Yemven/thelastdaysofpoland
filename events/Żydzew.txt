@@ -430,3 +430,18 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = zydzew.25 #alija
+	title = zydzew.25.t
+	desc = zydzew.25.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [ROOT.GetName] fires zydzew.24" }
+
+	option = {
+		name = zydzew.25.a
+	}
+}
+
