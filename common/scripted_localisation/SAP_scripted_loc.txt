@@ -14,7 +14,7 @@ defined_text = {
 				has_idea = SAP_school_of_the_rose_lvl3
 			}
 		}
-		localization_key = "Trade opinion factor +50%"
+		localization_key = ROSELVL2BENEFITS
 	}
 }
 
@@ -27,7 +27,7 @@ defined_text = {
 				has_idea = SAP_school_of_the_lion_lvl3
 			}
 		}
-		localization_key = "Production efficency retention +40%"
+		localization_key = LIONLVL2BENEFITS
 	}
 }
 
@@ -40,7 +40,7 @@ defined_text = {
 				has_idea = SAP_school_of_the_mole_lvl3
 			}
 		}
-		localization_key = "Construction speed +20%"
+		localization_key = MOLELVL2BENEFITS
 	}
 }
 
@@ -53,7 +53,7 @@ defined_text = {
 				has_idea = SAP_school_of_the_lynx_lvl3
 			}
 		}
-		localization_key = "Damage to factories from bombardment -40%"
+		localization_key = LYNXLVL2BENEFITS
 	}
 }
 
@@ -66,7 +66,7 @@ defined_text = {
 				has_idea = SAP_school_of_the_dove_lvl3
 			}
 		}
-		localization_key = "Production efficency retention +40%"
+		localization_key = DOVELVL2BENEFITS
 	}
 }
 
@@ -76,7 +76,7 @@ defined_text = {
 		trigger = {
 			has_idea = SAP_school_of_the_rose_lvl3
 		}
-		localization_key = "Research speed +5%"
+		localization_key = ROSELVL3BENEFITS
 	}
 }
 
@@ -86,7 +86,7 @@ defined_text = {
 		trigger = {
 			has_idea = SAP_school_of_the_lion_lvl3
 		}
-		localization_key = "Stability from party popularity factor +33% \nResearch speed +2,5% "
+		localization_key = LIONLVL3BENEFITS
 	}
 }
 
@@ -96,7 +96,7 @@ defined_text = {
 		trigger = {
 			has_idea = SAP_school_of_the_mole_lvl3
 		}
-		localization_key = "Industry research speed +7,5%"
+		localization_key = MOLELVL3BENEFITS
 	}
 }
 
@@ -106,7 +106,7 @@ defined_text = {
 		trigger = {
 			has_idea = SAP_school_of_the_lynx_lvl3
 		}
-		localization_key = "Infantry training research speed +7,5%"
+		localization_key = LYNXLVL3BENEFITS
 	}
 }
 
@@ -116,6 +116,6 @@ defined_text = {
 		trigger = {
 			has_idea = SAP_school_of_the_dove_lvl3
 		}
-		localization_key = "Electronics research speed +7,5%"
+		localization_key = DOVELVL3BENEFITS
 	}
 }
