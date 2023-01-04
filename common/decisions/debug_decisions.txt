@@ -1,22 +1,4 @@
 debug_category = {
-
-	le_war = {
-		available = {
-			is_ai = no
-		}
-		visible = {
-			always = yes
-		}
-		complete_effect = {
-			BBW = {
-				declare_war_on = {
-					target = SAP
-					type = annex_everything
-				}
-			}
-		}
-	}
-
 	WML_clear_flag = {
 		allowed = {
 			original_tag = WML

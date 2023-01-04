@@ -1,12 +1,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			every_country = {
-				limit = {
-					is_ai = no
-				}
-				set_variable = {global.player_tag = THIS}
-			}
 				#podlasie	
 				add_to_array = { global.podlasie_tribes = TNO }
 				add_to_array = { global.podlasie_tribes = COL }
@@ -455,21 +449,6 @@ on_actions = {
 	
 	on_declare_war = {
 		effect = {
-			if = {
-				limit = {
-					OR = {
-						ROOT = { is_neighbor_of = global.player_tag }
-						FROM = { is_neighbor_of = global.player_tag }
-					}
-				}
-				set_global_flag = announce_war
-				ROOT = {
-					save_global_event_target_as = attacker
-				}
-				FROM = {
-					save_global_event_target_as = defender
-				}
-			}
 			if = {
 				limit = {
 					FROM = { tag = BBW }
