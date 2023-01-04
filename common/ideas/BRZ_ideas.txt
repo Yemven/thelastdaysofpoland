@@ -1,0 +1,66 @@
+ideas = {
+	country = {
+		BRZ_legacy_of_pzpn = {
+			allowed = {
+				original_tag = BRZ
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BRZ_legacy_of_pzpn
+			modifier = {
+			    consumer_goods_factor = 0.2
+				political_power_factor = -0.2
+				stability_factor = -0.3
+			}
+		}
+
+	}
+	
+	industrial_company = {
+		use_list_view = yes
+
+		erg_klobuck = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = BRZ }
+			available = { has_country_flag = erg_klobuck_allowed }
+			cost = 250
+			traits = {  }
+			research_bonus = {
+				hospital_tech = 0.1
+				}
+		}
+		lewiatan = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = BRZ }
+			cost = 200
+			traits = {  }
+			research_bonus = {
+				}
+		}
+	}
+
+	armament_company = {
+		use_list_view = yes
+
+		konie_truskolasy = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = BRZ }
+			cost = 200
+			traits = {  }
+		}
+		minova_arnall = {
+			picture = generic_industrial_concern_1
+			allowed = { tag = BRZ }
+			cost = 200
+			traits = { attack_tank_company }
+			research_bonus = {
+				armor = 0.1
+				}
+		}
+	}
+	
+}
