@@ -126,11 +126,13 @@ characters={
 			}
 		}
 		country_leader={
+			desc = "POLITICS_RUMCAJS_DESC"
 			ideology=squattism_subtype
 			expire="1.1.1.1"
 			id=-1
 		}
 		corps_commander = {
+			desc = "POLITICS_RUMCAJS_DESC"
 			traits = { commando infantry_leader }
 			skill = 2
 			attack_skill = 4
