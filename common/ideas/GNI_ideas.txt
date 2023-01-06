@@ -59,5 +59,30 @@ ideas = {
 			}
 		}
 		
+		GNI_gowniana_armia = {
+			allowed = {
+				original_tag = GNI
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_more_steam 
+			modifier = {
+				training_time_factor = 0.25
+				army_org_factor = -0.2
+				conscription = -0.02
+				army_speed_factor = -0.1
+				org_loss_when_moving = 0.05
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+				
+			}
+		}
+		
 	}
 }
