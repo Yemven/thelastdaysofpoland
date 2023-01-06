@@ -53,6 +53,8 @@ add_ideas = {
 	SUS_min_kownacki
 	SUS_min_kopcinska
 	SUS_surrender
+	SUS_radio_three_not_sleeping
+	SUS_game_of_the_shadow
 	controlled_opposition
 	state_press
 	advanced_security
@@ -82,13 +84,13 @@ set_politics = {
 set_popularities = {
 	marxism_cranism	= 0
 	squattism = 0
-	socialdemocrature = 0
-	euroliberalism = 0
+	socialdemocrature = 5
+	euroliberalism = 10
 	freemarketism = 0
-	paternal_conservatism = 30
-	autocracy = 70
-	corporativism = 0
-	neonationalism = 0
-	reactionary = 0
+	paternal_conservatism = 20
+	autocracy = 60
+	corporativism = 1
+	neonationalism = 3
+	reactionary = 1
 	postpolonism = 0
 }

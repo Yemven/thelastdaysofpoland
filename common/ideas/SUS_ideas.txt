@@ -24,4 +24,46 @@ ideas = {
 			}
 		}
 	}
+	country = {
+		SUS_radio_three_not_sleeping = {
+			allowed = {
+				original_tag = SUS
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_more_steam
+			modifier = {
+			    encryption_factor = -0.15
+			    decryption_factor = -0.15
+				research_speed_factor = -0.1
+				
+			}
+		}
+
+        SUS_game_of_the_shadow = {
+			allowed = {
+				original_tag = SUS
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BBW_more_steam 
+			modifier = {
+				stability_factor = -0.2
+				army_org_factor = -1.5
+			    war_support_factor = 0.1
+			
+			}
+		}
+		
+	}
 }

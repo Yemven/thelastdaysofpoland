@@ -34,7 +34,6 @@ ideas = {
 				army_org_factor = 0.1
 				training_time_factor = -0.1
 				
-				
 			}
 		}
 
@@ -57,29 +56,6 @@ ideas = {
 				experience_gain_navy = 0.2
 				air_mission_xp_gain_factor = 0.2
 			
-				
-			}
-		}
-		
-		GNI_non_organised_army = {
-			allowed = {
-				original_tag = GNI
-			}
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			picture = BBW_more_steam
-			modifier = {
-				army_org_factor = -0.2
-				conscription = -0.02
-				supply_consumption_factor = 0.2
-				
-				
 			}
 		}
 		
