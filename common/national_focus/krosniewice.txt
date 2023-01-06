@@ -831,7 +831,10 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.15
 			add_war_support = -0.15
-			load_oob = KRS_peasant_reinfs
+			custom_effect_tooltip = KRS_peasant_reinforcements
+			hidden_effect = {
+				load_oob = KRS_peasant_reinfs
+			}
 		}
 	}
 	

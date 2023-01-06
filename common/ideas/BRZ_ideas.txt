@@ -14,30 +14,68 @@ ideas = {
 			modifier = {
 			    consumer_goods_factor = 0.2
 				political_power_factor = -0.2
-				stability_factor = -0.3
+				stability_factor = -0.2
 			}
 		}
+		
+		BRZ_nothings_wrong_poles = {
+			allowed = {
+				original_tag = BRZ
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BRZ_nothings_wrong_poles
+			modifier = {
+			    war_support_factor = 0.2
+				attrition = -0.1
+				surrender_limit = 0.2
+			}
+		}
+		
+		BRZ_bandit_hooligans = {
+			allowed = {
+				original_tag = BRZ
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BRZ_bandit_hooligans
+			modifier = {
+			    army_org_factor = -0.25
+				max_planning_factor = -0.3
+				stability_factor = -0.1
+			}
+		}		
 
 	}
+	
+
 	
 	industrial_company = {
 		use_list_view = yes
 
-		erg_klobuck = {
+		BRZ_erg_klobuck = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = BRZ }
 			available = { has_country_flag = erg_klobuck_allowed }
 			cost = 250
-			traits = {  }
+			traits = { construction_materials_producer }
 			research_bonus = {
 				hospital_tech = 0.1
 				}
 		}
-		lewiatan = {
+		BRZ_lewiatan = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = BRZ }
 			cost = 200
-			traits = {  }
+			traits = { trade_center }
 			research_bonus = {
 				}
 		}
@@ -46,17 +84,17 @@ ideas = {
 	armament_company = {
 		use_list_view = yes
 
-		konie_truskolasy = {
+		BRZ_kojnia = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = BRZ }
 			cost = 200
-			traits = {  }
+			traits = { cavalry_company }
 		}
-		minova_arnall = {
+		BRZ_minova_arnall = {
 			picture = generic_industrial_concern_1
 			allowed = { tag = BRZ }
 			cost = 200
-			traits = { attack_tank_company }
+			traits = { heavy_industry_company }
 			research_bonus = {
 				armor = 0.1
 				}

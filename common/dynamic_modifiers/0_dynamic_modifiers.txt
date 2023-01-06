@@ -53,44 +53,44 @@ lack_of_energy_modifier = {
 }
 
 KRS_consortium_policy_protection_modifier = {
-	icon = GFX_pops
+	icon = KRS_consortium_policy
 	stability_factor = 0.05
 	required_garrison_factor = -0.1
 }
 
 KRS_consortium_policy_officer_school_modifier = {
-	icon = GFX_pops
+	icon = KRS_consortium_policy
 	promote_cost_factor = -0.1
 }
 
 KRS_consortium_policy_investigation_services_modifier = {
-	icon = GFX_pops
+	icon = KRS_consortium_policy
 	decryption = 0.1
 }
 
 KRS_consortium_policy_infrastructure_fund_modifier = {
-	icon = GFX_pops
+	icon = KRS_consortium_policy
 	production_speed_infrastructure_factor = 0.1
 }
 
 KRS_consortium_policy_honey_modifier = {
-	icon = GFX_pops
+	icon = KRS_consortium_policy
 	consumer_goods_factor = -0.02
 }
 KRS_consortium_policy_canned_food_modifier = {
-	icon = GFX_pops
+	icon = KRS_consortium_policy
 	supply_node_range = 0.1
 }
 KRS_consortium_policy_stipends_modifier = {
-	icon = GFX_pops
+	icon = KRS_consortium_policy
 	experience_gain_factor = 0.1
 }
 KRS_consortium_policy_vpn_service_modifier = {
-	icon = GFX_pops
+	icon = KRS_consortium_policy
 	encryption = 0.1
 }
 KRS_consortium_policy_5g_network_modifier = {
-	icon = GFX_pops
+	icon = KRS_consortium_policy
 	land_reinforce_rate = 0.1
 }
 
