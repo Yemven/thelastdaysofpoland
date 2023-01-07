@@ -209,11 +209,6 @@ generic_decisions_eurolib_category = {
 	visible = {
 		has_government = euroliberalism 
 	}
-	available = {
-	hidden_trigger = {
-		has_government = euroliberalism 
-		}
-	}
 }
 
 generic_decisions_squat_category = {
@@ -222,11 +217,6 @@ generic_decisions_squat_category = {
 	visible_when_empty = no
 	visible = {
 		has_government = squattism
-	}
-	allowed = {
-	hidden_trigger = {
-		has_government = squattism 
-		}
 	}
 }
 
@@ -237,11 +227,6 @@ generic_decisions_cranism_category = {
 	visible = {
 		has_government = marxism_cranism
 	}
-	allowed = {
-		hidden_trigger = {
-		has_government = marxism_cranism
-		}
-	}
 }
 
 generic_decisions_succdem_category = {
@@ -250,11 +235,6 @@ generic_decisions_succdem_category = {
 	visible_when_empty = no
 	visible = {
 		has_government = socialdemocrature
-	}
-	allowed = {
-		hidden_trigger = {
-		has_government = socialdemocrature
-		}
 	}
 }
 
@@ -265,11 +245,6 @@ generic_decisions_freemarket_category = {
 	visible = {
 		has_government = freemarketism
 	}
-	allowed = {
-		hidden_trigger = {
-		has_government = freemarketism
-		}
-	}
 }
 
 generic_decisions_patcon_category = {
@@ -278,11 +253,6 @@ generic_decisions_patcon_category = {
 	visible_when_empty = no
 	visible = {
 		has_government = paternal_conservatism
-	}
-	allowed = {
-		hidden_trigger = {
-		has_government = paternal_conservatism
-		}
 	}
 }
 
@@ -293,11 +263,6 @@ generic_decisions_autocrat_category = {
 	visible = {
 		has_government = autocracy
 	}
-	allowed = {
-		hidden_trigger = {
-		has_government = autocracy
-		}
-	}
 }
 
 generic_decisions_corporate_category = {
@@ -306,11 +271,6 @@ generic_decisions_corporate_category = {
 	visible_when_empty = no
 	visible = {
 		has_government = corporativism
-	}
-	allowed = {
-		hidden_trigger = {
-		has_government = corporativism
-		}
 	}
 }
 
@@ -321,11 +281,6 @@ generic_decisions_neonat_category = {
 	visible = {
 		has_government = neonationalism
 	}
-	allowed = {
-		hidden_trigger = {
-		has_government = neonationalism
-		}
-	}
 }
 
 generic_decisions_react_category = {
@@ -333,9 +288,6 @@ generic_decisions_react_category = {
 	icon = generic_economy
 	visible_when_empty = no
 	visible = {
-		has_government = reactionary
-	}
-	allowed = {
 		hidden_trigger = {
 		has_government = reactionary
 		}
@@ -371,21 +323,6 @@ generic_decisions_react_shizo_category = {
 		tag = MSL
 		}
 	}
-	allowed = {
-		hidden_trigger = {
-		has_government = reactionary
-		}
-		OR = {
-		tag = BBW
-		tag = ZWK
-		tag = TEU
-		tag = DRO
-		tag = RZE
-		tag = LCH
-		tag = KSN
-		tag = MSL
-		}
-	}
 }
 
 generic_decisions_postpol_category = {
@@ -394,11 +331,6 @@ generic_decisions_postpol_category = {
 	visible_when_empty = no
 	visible = {
 		has_government = postpolonism
-	}
-	allowed = {
-		hidden_trigger = {
-		has_government = postpolonism
-		}
 	}
 }
 

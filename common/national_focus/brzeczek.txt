@@ -497,6 +497,13 @@ focus_tree = {
 			hidden_effect = {
 				set_country_flag = erg_klobuck_allowed
 				}
+			591 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}			
+				}
 		}
 	}
 	
@@ -518,7 +525,10 @@ focus_tree = {
 		cost = 3
 		search_filters = {}
 		completion_reward = { 
-			
+			swap_ideas = {
+				remove_idea = training_battle
+				add_idea = training_basic
+			}
 		}
 	}
 	
@@ -540,6 +550,18 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = { 
+			390 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 200
+				producer = BRZ
+			}
 		add_popularity = {
 			ideology = marxism_cranism
 			popularity = 0.1
@@ -565,6 +587,19 @@ focus_tree = {
 		cost = 1
 		search_filters = {}
 		completion_reward = { 
+		390 = {
+				add_state_modifier = {
+					modifier = {
+						local_building_slots_factor = 0.15
+						local_factories = 0.15
+						}
+					}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				}
 		add_popularity = {
 			ideology = marxism_cranism
 			popularity = 0.1
@@ -638,6 +673,11 @@ focus_tree = {
 			ideology = marxism_cranism
 			popularity = 0.2
 			}
+		set_politics = {
+			ruling_party = marxism_cranism
+		}
+		add_stability = 0.1
+		add_political_power = 50
 		}
 	}
 	
