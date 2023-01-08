@@ -1,3 +1,547 @@
+dupa = {
+	log = "------------------------"
+	for_each_loop = {
+		array = ROOT.owned_states
+		variable = v
+
+		add_to_temp_variable = { var:v = 1073741 }
+		add_to_temp_variable = { var:v = 0.824 }
+		multiply_temp_variable = { var:v = 1000 }
+		log = [?v]
+	}
+}
+
+rozpierdol_wszystko = {
+	EKS_collapse_everything = yes
+	EKW_collapse_everything = yes
+	GDA_collapse_everything = yes
+	KSZ_collapse_everything = yes
+	MNI_collapse_everything = yes
+}
+
+aneksja = {
+	chuj = yes
+	for_each_scope_loop = {
+		array = global.lodzkie_countries
+
+		WML = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.zaglebie_and_jura_countries
+
+		CCH = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.upper_silesia_countries
+
+		KAT = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.tatry_region_countries
+
+		GUR = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.lesser_poland_countries
+
+		KRK = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.subcarpathia_countries
+
+		RZE = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.holy_cross_countries
+
+		NSZ = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.lubelskie_countries
+
+		BPD = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.radom_province_countries
+
+		GAR = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.capital_district_countries
+
+		TRZ = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.mazovia_countries
+
+		POL = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.podlasie_countries
+
+		TNO = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.warmia_and_masuria_countries
+
+		TEU = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.pomerelia_countries
+
+		BOL = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.kuyavia_countries
+
+		KUJ = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.west_pomerania_countries
+
+		SWI = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.lubuskie_countries
+
+		WIN = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.northern_greater_poland_countries
+
+		POZ = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.southern_greater_poland_countries
+
+		GNI = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.opolskie_countries
+
+		LEH = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.lower_silesia_countries
+
+		WRO = {
+			annex_country = {
+				target = PREV
+			}
+		}
+	}
+	198 = {
+		transfer_state_to = KUJ
+	}
+	196 = {
+		transfer_state_to = KUJ
+	}
+	416 = {
+		transfer_state_to = NSZ
+	}
+}
+
+chuj = {
+	add_to_array = { global.lodzkie_countries = 0 }
+	add_to_array = { global.zaglebie_and_jura_countries = 0 }
+	add_to_array = { global.upper_silesia_countries = 0 }
+	add_to_array = { global.tatry_region_countries = 0 }
+	add_to_array = { global.lesser_poland_countries = 0 }
+	add_to_array = { global.subcarpathia_countries = 0 }
+	add_to_array = { global.holy_cross_countries = 0 }
+	add_to_array = { global.lubelskie_countries = 0 }
+	add_to_array = { global.radom_province_countries = 0 }
+	add_to_array = { global.capital_district_countries = 0 }
+	add_to_array = { global.mazovia_countries = 0 }
+	add_to_array = { global.podlasie_countries = 0 }
+	add_to_array = { global.warmia_and_masuria_countries = 0 }
+	add_to_array = { global.pomerelia_countries = 0 }
+	add_to_array = { global.kuyavia_countries = 0 }
+	add_to_array = { global.west_pomerania_countries = 0 }
+	add_to_array = { global.lubuskie_countries = 0 }
+	add_to_array = { global.northern_greater_poland_countries = 0 }
+	add_to_array = { global.southern_greater_poland_countries = 0 }
+	add_to_array = { global.opolskie_countries = 0 }
+	add_to_array = { global.lower_silesia_countries = 0 }
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_lodzkie = yes
+			}
+			add_to_array = {
+				array = global.lodzkie_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_zaglebie_and_jura = yes
+			}
+			add_to_array = {
+				array = global.zaglebie_and_jura_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_upper_silesia = yes
+			}
+			add_to_array = {
+				array = global.upper_silesia_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_tatry_region = yes
+			}
+			add_to_array = {
+				array = global.tatry_region_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_lesser_poland = yes
+			}
+			add_to_array = {
+				array = global.lesser_poland_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_subcarpathia = yes
+			}
+			add_to_array = {
+				array = global.subcarpathia_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_holy_cross = yes
+			}
+			add_to_array = {
+				array = global.holy_cross_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_lubelskie = yes
+			}
+			add_to_array = {
+				array = global.lubelskie_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_radom_province = yes
+			}
+			add_to_array = {
+				array = global.radom_province_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_capital_district = yes
+			}
+			add_to_array = {
+				array = global.capital_district_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_mazovia = yes
+			}
+			add_to_array = {
+				array = global.mazovia_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_podlasie = yes
+			}
+			add_to_array = {
+				array = global.podlasie_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_warmia_and_masuria = yes
+			}
+			add_to_array = {
+				array = global.warmia_and_masuria_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_pomerelia = yes
+			}
+			add_to_array = {
+				array = global.pomerelia_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_kuyavia = yes
+			}
+			add_to_array = {
+				array = global.kuyavia_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_west_pomerania = yes
+			}
+			add_to_array = {
+				array = global.west_pomerania_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_lubuskie = yes
+			}
+			add_to_array = {
+				array = global.lubuskie_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_northern_greater_poland = yes
+			}
+			add_to_array = {
+				array = global.northern_greater_poland_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_southern_greater_poland = yes
+			}
+			add_to_array = {
+				array = global.southern_greater_poland_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_opolskie = yes
+			}
+			add_to_array = {
+				array = global.opolskie_countries
+				value = THIS.id
+			}
+		}
+	}
+	for_each_scope_loop = {
+		array = global.countries
+
+		if = {
+			limit = {
+				is_lower_silesia = yes
+			}
+			add_to_array = {
+				array = global.lower_silesia_countries
+				value = THIS.id
+			}
+		}
+	}
+}
+
+restart = {
+	clear_array = global.lodzkie_countries
+	clear_array = global.zaglebie_and_jura_countries
+	clear_array = global.upper_silesia_countries
+	clear_array = global.tatry_region_countries
+	clear_array = global.lesser_poland_countries
+	clear_array = global.subcarpathia_countries
+	clear_array = global.holy_cross_countries
+	clear_array = global.lubelskie_countries
+	clear_array = global.radom_province_countries
+	clear_array = global.capital_district_countries
+	clear_array = global.mazovia_countries
+	clear_array = global.podlasie_countries
+	clear_array = global.warmia_and_masuria_countries
+	clear_array = global.pomerelia_countries
+	clear_array = global.kuyavia_countries
+	clear_array = global.west_pomerania_countries
+	clear_array = global.lubuskie_countries
+	clear_array = global.northern_greater_poland_countries
+	clear_array = global.southern_greater_poland_countries
+	clear_array = global.opolskie_countries
+	clear_array = global.lower_silesia_countries
+}
+
 PaF_change_capital_coring_prequel = {
 	if = { 
 		limit = { 

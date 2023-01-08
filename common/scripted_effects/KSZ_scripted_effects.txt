@@ -110,3 +110,13 @@ KSZ_collapse_OWS = {
 	log = "[GetDateText]: KSZ_collapse_OWS"
 }
 
+KSZ_collapse_everything = {
+	KSZ = {
+		KSZ_collapse_GAY = yes
+		KSZ_collapse_HEL = yes
+		KSZ_collapse_CZL = yes
+		KSZ_collapse_ARK = yes
+		KSZ_collapse_OWS = yes
+	}
+	log = "[GetDateText]: KSZ_collapse_everything"
+}

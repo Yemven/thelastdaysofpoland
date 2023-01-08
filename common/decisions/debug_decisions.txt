@@ -131,4 +131,313 @@ debug_category = {
 				}
 		}
 	}
+
+	unify_voi = {
+		
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect  = {
+			log = "[GetDateText]: Decision unify_voi"
+			set_global_flag = unify_voi_debug
+			custom_effect_tooltip = SCISZ_KURWA_DZWIEK
+			EKS_collapse_everything = yes
+			EKW_collapse_everything = yes
+			GDA_collapse_everything = yes
+			KSZ_collapse_everything = yes
+			MNI_collapse_everything = yes
+			PRK_withdrawal = yes
+			aneksja = yes
+			TEU = {
+				release = ROS
+			}
+			WRO = {
+				release = LEH
+			}
+			WML = {
+				activate_decision = lodz_voivodeship_unification
+			}
+			BPD = {
+				activate_decision = lubelskie_voivodeship_unification
+			}
+			CCH = {
+				activate_decision = zaglebie_voivodeship_unification
+			}
+			KAT = {
+				activate_decision = upper_silesia_voivodeship_unification
+			}
+			GNI = {
+				activate_decision = south_greater_poland_voivodeship_unification
+			}
+			GUR = {
+				activate_decision = tatry_unification
+			}
+			POZ = {
+				activate_decision = northen_greater_poland_voivodeship_unification
+			}
+			WRO = {
+				activate_decision = lower_silesia_voivodeship_unification
+			}
+			LEH = {
+				activate_decision = opole_voivodeship_unification
+			}
+			WIN = {
+				activate_decision = lubuskie_voivodeship_unification
+			}
+			SWI = {
+				activate_decision = west_pomerania_voivodeship_unification
+			}
+			KUJ = {
+				activate_decision = kuyavia_voivodeship_unification
+			}
+			BOL = {
+				activate_decision = pomerelia_voivodeship_unification
+			}
+			TEU = {
+				activate_decision = warmia_and_masuria_voivodeship_unification
+			}
+			TNO = {
+				activate_decision = podlasie_voivodeship_unification
+			}
+			GAR = {
+				activate_decision = radom_province_voivodeship_unification
+			}
+			POL = {
+				activate_decision = mazovia_voivodeship_unification
+			}
+			NSZ = {
+				activate_decision = holy_cross_voivodeship_unification
+			}
+			RZE = {
+				activate_decision = subcarpathia_voivodeship_unification
+			}
+			KRK = {
+				activate_decision = lesser_poland_voivodeship_unification
+			}
+			TRZ = {
+				activate_decision = capital_district_voivodeship_unification
+			}
+		}
+	}
+	unify_the_region = {
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_global_flag = unify_voi_debug
+		}
+
+		visible = {
+			always = yes
+		}
+
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect  = {
+			log = "[GetDateText]: Decision unify_the_region"
+			custom_effect_tooltip = SCISZ_KURWA_DZWIEK
+			set_global_flag = unify_region_debug
+			TEU = {
+				annex_country = {
+					target = ROS
+				}
+			}
+			WRO = {
+				annex_country = {
+					target = WIN
+				}
+			}
+			BOL = {
+				annex_country = {
+					target = SWI
+				}
+			}
+			GNI = {
+				annex_country = {
+					target = WML
+				}
+			}
+			POZ = {
+				annex_country = {
+					target = KUJ
+				}
+			}
+			LEH = {
+				annex_country = {
+					target = KAT
+				}
+			}
+			RZE = {
+				annex_country = {
+					target = NSZ
+				}
+			}
+			POL = {
+				annex_country = {
+					target = TNO
+				}
+			}
+			BPD = {
+				annex_country = {
+					target = GAR
+				}
+			}
+			KRK = {
+				annex_country = {
+					target = GUR
+				}
+				annex_country = {
+					target = CCH
+				}
+			}
+
+			BPD = {
+				activate_decision = lublin_and_radom_regional_unification
+			}
+			GNI = {
+				activate_decision = lodz_and_kalisz_regional_unification
+			}
+			POZ = {
+				activate_decision = greater_poland_and_kuyavia_unification
+			}
+			WRO = {
+				activate_decision = dolny_slask_regional_unification
+			}
+			LEH = {
+				activate_decision = gorny_slask_regional_unification
+			}
+			BOL = {
+				activate_decision = pomorze_regional_unification
+			}
+			TEU = {
+				activate_decision = warmia_and_masuria_regional_unification
+			}
+			POL = {
+				activate_decision = greater_podlasie_regional_unification
+			}
+			RZE = {
+				activate_decision = holycarpathia_regional_unification
+			}
+			KRK = {
+				activate_decision = small_galicia_regional_unification
+			}
+		}
+	}
+	unify_the_superregion = {
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_global_flag = unify_region_debug
+		}
+
+		visible = {
+			always = yes
+		}
+
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect  = {
+			log = "[GetDateText]: Decision unify_the_superregion"
+			custom_effect_tooltip = SCISZ_KURWA_DZWIEK
+			set_global_flag = unify_superregion_debug
+			TEU = {
+				annex_country = {
+					target = TRZ
+				}
+				annex_country = {
+					target = POL
+				}
+			}
+			BOL = {
+				annex_country = {
+					target = GNI
+				}
+				annex_country = {
+					target = POZ
+				}
+			}
+			LEH = {
+				annex_country = {
+					target = WRO
+				}
+			}
+			KRK = {
+				annex_country = {
+					target = RZE
+				}
+				annex_country = {
+					target = BPD
+				}
+			}
+
+			LEH = {
+				activate_decision = silesia_unification
+			}
+			BOL = {
+				activate_decision = western_poland_unification
+			}
+			TEU = {
+				activate_decision = eastern_poland_unification
+			}
+			KRK = {
+				activate_decision = galicia_unification
+			}
+		}
+	}
+	unify_poland = {
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_global_flag = unify_superregion_debug
+		}
+
+		visible = {
+			always = yes
+		}
+
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect  = {
+			log = "[GetDateText]: Decision unify_poland"
+			LEH = {
+				annex_country = {
+					target = TEU
+				}
+				annex_country = {
+					target = BOL
+				}
+				annex_country = {
+					target = KRK
+				}
+			}
+			LEH = {
+				activate_decision = poland_unification
+			}
+		}
+	}
 }
+

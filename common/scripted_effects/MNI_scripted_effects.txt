@@ -194,3 +194,15 @@ MNI_collapse_NYS = {
 	}
 	log = "[GetDateText]: MNI_collapse_NYS"
 }
+
+MNI_collapse_everything = {
+	MNI = {
+		MNI_collapse_OPO = yes
+		MNI_collapse_LEH = yes
+		MNI_collapse_WOD = yes
+		MNI_collapse_LCH = yes
+		MNI_collapse_WAN = yes
+		MNI_collapse_NYS = yes
+	}
+	log = "[GetDateText]: MNI_collapse_everything"
+}

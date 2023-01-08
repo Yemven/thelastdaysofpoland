@@ -823,3 +823,29 @@ EKS_collapse_MPK = {
 	}
 	log = "[GetDateText]: EKS_collapse_MPK"
 }
+
+EKS_collapse_everything = {
+	EKS = {
+		EKS_collapse_KES = yes
+		EKS_collapse_WRO = yes
+		EKS_collapse_BRE = yes
+		EKS_collapse_ZUL = yes
+		EKS_collapse_CZE = yes
+		EKS_collapse_OPO = yes
+		EKS_collapse_ZAG = yes
+		EKS_collapse_WIN = yes
+		EKS_collapse_KGH = yes
+		EKS_collapse_SUS = yes
+		EKS_collapse_CYG = yes
+		EKS_collapse_TOU = yes
+		EKS_collapse_MNL = yes
+		EKS_collapse_ANA = yes
+		EKS_collapse_FEM = yes
+		EKS_collapse_BOG = yes
+		EKS_collapse_ECO = yes
+		EKS_collapse_RYB = yes
+		EKS_collapse_OLE = yes
+		EKS_collapse_MPK = yes
+	}
+	log = "[GetDateText]: EKS_collapse_everything"
+}

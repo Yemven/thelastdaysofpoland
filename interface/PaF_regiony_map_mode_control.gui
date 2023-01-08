@@ -1,0 +1,54 @@
+guitypes = {
+	containerwindowtype = {
+		name = PaF_regions_map_mode_control
+		position = { x = -78 y = 80 }
+		size = { width = 80 height = 206 }
+		clipping = yes
+		containerwindowtype = {
+			name = "PaF_control_box"
+			position = { x = 100 y = 0 }
+			hide_position = { x = 100 y = 0 }
+			show_position = { x = 5 y = 0 }
+			show_animation_type = decelerated
+			hide_animation_type = accelerated
+			animation_time = 450
+			size = { width = 85 height = 206 }
+			background = {
+				name = "bg"
+				quadtexturesprite = "GFX_tiled_bg"
+			}
+			buttontype = {
+				name = "regional_level_button"
+				spritetype = "GFX_mapmode_region_level_button"
+				position = { x = 9 y = 51 }
+				#pdx_tooltip = dupa
+				#pdx_disabled_tooltip = dupa
+				#pdx_tooltip_anchor = { x = -283 y = -5 }
+			}
+			buttontype = {
+				name = "voi_level_button"
+				spritetype = "GFX_mapmode_voi_level_button"
+				position = { x = 9 y = 9 }
+				#pdx_tooltip = dupa
+				#pdx_disabled_tooltip = dupa
+				#pdx_tooltip_anchor = { x = -306 y = -5 }
+			}
+			buttontype = {
+				name = "superregion_level_button"
+				spritetype = "GFX_mapmode_superregion_level_button"
+				position = { x = 9 y = 93 }
+				#pdx_tooltip = dupa
+				#pdx_disabled_tooltip = dupa
+				#pdx_tooltip_anchor = { x = -306 y = -5 }
+			}
+			buttontype = {
+				name = "poland_level_button"
+				spritetype = "GFX_mapmode_poland_level_button"
+				position = { x = 9 y = 135 }
+				#pdx_tooltip = dupa
+				#pdx_disabled_tooltip = dupa
+				#pdx_tooltip_anchor = { x = -306 y = -5 }
+			}
+		}
+	}
+}

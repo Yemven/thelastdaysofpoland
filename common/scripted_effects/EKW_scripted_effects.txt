@@ -353,3 +353,20 @@ EKW_collapse_SWI = {
 	}
 	log = "[GetDateText]: EKW_collapse_SWI"
 }
+
+EKW_collapse_everything = {
+	EKW = {
+		EKW_collapse_POM = yes
+		EKW_collapse_KOS = yes
+		EKW_collapse_WRT = yes
+		EKW_collapse_KAM = yes
+		EKW_collapse_STE = yes
+		EKW_collapse_JAS = yes
+		EKW_collapse_NAC = yes
+		EKW_collapse_MOT = yes
+		EKW_collapse_SYJ = yes
+		EKW_collapse_PIL = yes
+		EKW_collapse_SWI = yes
+	}
+	log = "[GetDateText]: EKW_collapse_everything"
+}

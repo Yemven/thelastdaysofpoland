@@ -46,3 +46,11 @@ GDA_collapse_KOR = {
 	}
 	log = "[GetDateText]: GDA_collapse_KOR"
 }
+
+GDA_collapse_everything = {
+	GDA = {
+		GDA_collapse_BOL = yes
+		GDA_collapse_KOR = yes
+	}
+	log = "[GetDateText]: GDA_collapse_everything"
+}
