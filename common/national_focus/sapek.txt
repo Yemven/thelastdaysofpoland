@@ -347,7 +347,7 @@ focus_tree = {
 		prerequisite = { focus = SAP_trail_vanishes }
 		prerequisite = { focus = SAP_convene_chapter }
 		available = {
-		
+			has_completed_focus = SAP_of_monsters_and_men
 		}
 		
 		bypass = {
@@ -377,9 +377,6 @@ focus_tree = {
 		prerequisite = { focus = SAP_who_is_to_blame }
 		mutually_exclusive = { focus = SAP_blame_order }
 		available = {
-			hidden_trigger = {
-			has_country_flag = SAP_sapek_oskarzyciel
-			}
 		}
 		
 		bypass = {
@@ -428,9 +425,6 @@ focus_tree = {
 		prerequisite = { focus = SAP_who_is_to_blame }
 		mutually_exclusive = { focus = SAP_blame_scoiatael }
 		available = {
-			hidden_trigger = {
-			has_country_flag = SAP_sapek_oskarzyciel
-			}		
 		}
 		
 		bypass = {
@@ -481,7 +475,6 @@ focus_tree = {
 		prerequisite = { focus = SAP_ducal_mint }
 		prerequisite = { focus = SAP_of_monsters_and_men }
 		available = {
-		
 		}
 		
 		bypass = {

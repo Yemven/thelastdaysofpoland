@@ -2,7 +2,7 @@ dupa = {
 	log = "------------------------"
 	for_each_loop = {
 		array = ROOT.owned_states
-		variable = v
+		value = v
 
 		add_to_temp_variable = { var:v = 1073741 }
 		add_to_temp_variable = { var:v = 0.824 }

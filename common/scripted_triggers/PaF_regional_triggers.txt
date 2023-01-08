@@ -90,7 +90,14 @@ is_holy_cross = {
 		original_tag = KIE
 		original_tag = SND
 		original_tag = STA
-		original_tag = PRK
+		#AND = {
+		#	original_tag = PRK
+		#	NOT = {
+		#		PRK = {
+		#		has_country_flag = PRK_ziobro_spierdala_z_santa_cruz
+		#		}
+		#	}
+		#}
 	}
 }
 
@@ -360,7 +367,6 @@ is_lesser_poland_unifier = {
 		original_tag = WDW
 		original_tag = KRK 
 		original_tag = NHT
-		original_tag = PRK
 		original_tag = TRN
 		original_tag = CCH
 		original_tag = BRZ
@@ -375,6 +381,12 @@ is_lesser_poland_unifier = {
 		original_tag = GUR
 		original_tag = SCZ
 		original_tag = HOR
+		AND = {
+		original_tag = PRK
+		PRK = {
+		has_country_flag = PRK_ziobro_spierdala_z_santa_cruz
+		}
+		}
 	}
 }
 
@@ -1216,7 +1228,7 @@ AND = {
 	controls_state = 803
 	#EKS
 	controls_state = 345
-	#date > 2028.01.01
+	date > 2028.01.01
 	}
 }
 
@@ -1456,7 +1468,7 @@ AND = {
 	controls_state = 105
 	#EKW
 	controls_state = 158
-	#date > 2028.01.01
+	date > 2028.01.01
 	}
 }
 
