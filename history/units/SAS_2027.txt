@@ -40,7 +40,7 @@ units = {
 		
 	division = {
 	    name = "1 Batalion Piechoty 'SaSiły'"
-		location = 3688
+		location = 1304
 		division_template = "Batalion Piechoty NWP"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -48,7 +48,7 @@ units = {
 	
 	division = {
 	    name = "Legion Polski w Polsce"
-		location = 3688
+		location = 10059
 		division_template = "Batalion Piechoty NWP"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -56,7 +56,7 @@ units = {
 	
 	division = {
 	    name = "Sztandarowa Gwardia Przyboczna Prezesa"
-		location = 3688
+		location = 19171
 		division_template = "Oddziały Szturmowe PiS"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -64,7 +64,7 @@ units = {
 	
 	division = {
 	    name = "2 Oddział PiS 'Rzeczpospolita'"
-		location = 3688
+		location = 1637
 		division_template = "Oddziały Szturmowe PiS"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
@@ -72,7 +72,7 @@ units = {
 
 	division = {
 	    name = "3 Oddział PiS 'Kosiarze'"
-		location = 3688
+		location = 3288
 		division_template = "Oddziały Szturmowe PiS"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -80,15 +80,23 @@ units = {
 
 	division = {
 	    name = "4 Oddział PiS im. Lecha Kaczyńskiego"
-		location = 3688
+		location = 18619
 		division_template = "Oddziały Szturmowe PiS"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
 
 	division = {
+	    name = "PiSowski Batalion Niezależnej TVP"
+		location = 2706
+		division_template = "Oddziały Szturmowe PiS"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+
+	division = {
 	    name = "1 Regiment Kosynierów 'Kościuszko'"
-		location = 3688
+		location = 10070
 		division_template = "Pospolite Ruszenie"
 		start_experience_factor = 0
 		start_equipment_factor = 1.0
@@ -96,7 +104,7 @@ units = {
 	
 	division = {
 	    name = "1 Batalion Chłopski 'Witos'"
-		location = 3688
+		location = 3253
 		division_template = "Pospolite Ruszenie"
 		start_experience_factor = 0
 		start_equipment_factor = 1.0
@@ -104,7 +112,7 @@ units = {
 
 	division = {
 	    name = "1 Pułk Ochotniczy 'Dmowski'"
-		location = 3688
+		location = 9896
 		division_template = "Pospolite Ruszenie"
 		start_experience_factor = 0
 		start_equipment_factor = 1.0
@@ -112,7 +120,7 @@ units = {
 	
 	division = {
 	    name = "Samodzielny Pododdział Wiejski 'Kałachowcy'"
-		location = 3688
+		location = 3032
 		division_template = "Pospolite Ruszenie"
 		start_experience_factor = 0
 		start_equipment_factor = 1.0
